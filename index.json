@@ -24427,6 +24427,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/b8ff6643-9234-465f-ab06-4adfc189a851.html",
+      "html_sha256": "c869ee66a95e1844b7cedc534c484af57450e160c98f343f2e8817b7c94ed5cb",
+      "human_reviewed": false,
+      "id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "images": [
+        {
+          "alt": "פרחים סגולים קטנים על רקע גבעות ירוקות ומטושטשות",
+          "public_path": "/images/articles/b8ff6643-9234-465f-ab06-4adfc189a851-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/b8ff6643-9234-465f-ab06-4adfc189a851.json",
+      "metadata_sha256": "85cd65d490852cb371a1937f40a9eac47dc25c2fc39d51fe8ef54a84d6a7ba9c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "דברי העורך",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "דברי העורך",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
       "html_sha256": "4f650b2c040f3be467a9ba9f21b02ce7b9e92f431578f29caf554db2e1075f5e",
       "human_reviewed": false,
@@ -27479,6 +27507,29 @@
       "subtitle": null,
       "title": "सामूहिक नैतिकता बनाम ईश्वरीय निर्णय",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/ca5d0d5f-aedd-4e20-ab52-6a31c34a8873.html",
+      "html_sha256": "f74f9a68c0eb2837ce73d1b2fcfdb45bd1c8e49acb46c1c8689e0caa66ad7e5d",
+      "human_reviewed": false,
+      "id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
+      "images": [],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/ca5d0d5f-aedd-4e20-ab52-6a31c34a8873.json",
+      "metadata_sha256": "e1b8d655a1299688c0d43066bef4267a25718a4d1566185f219422dae3afe7fe",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "एक मिशनरी के विचार",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
+      "status": "ready",
+      "subtitle": null,
+      "title": "अहंकार या नम्रता?",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -40981,6 +41032,38 @@
       "subtitle": null,
       "title": "Wat zie je?",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.html",
+      "html_sha256": "3aa01e7d501c59fca110954cca69947cb78373a32617f770679f2afc5cbe7ac6",
+      "human_reviewed": false,
+      "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "images": [
+        {
+          "alt": "Een onderzeeër die aan het oppervlak van de zee vaart",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg"
+        },
+        {
+          "alt": "Een historische afbeelding van een quaker die een inheemse persoon in Pennsylvania omhelst",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.json",
+      "metadata_sha256": "09b40362152a86fb535b5549581da797c24d802e1c53dc95e4afbc888cab5c8f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Van de redactie",
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van de redactie",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -56583,6 +56666,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
+      "html_sha256": "e893cf9a1f90f4161d7f5112081f0444ca834647e62148a8fc285a2874e115c9",
+      "human_reviewed": false,
+      "id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "images": [
+        {
+          "alt": "Un pastor guía un rebaño por un valle montañoso y rocoso",
+          "public_path": "/images/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.json",
+      "metadata_sha256": "2119f644875e8bc4de98c5cce63aeea81addd37cb6e802206e5914fd7664668f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "DOCTRINAS BÍBLICAS",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "¿No hay una causa?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.html",
       "html_sha256": "dfafbca52e176c1978ca4ef189bcc9b5d6dfa48828326d5b42efe4eacc6bf99b",
       "human_reviewed": false,
@@ -63307,6 +63418,34 @@
       "subtitle": null,
       "title": "Kallelsen att arbeta",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/b8ff6643-9234-465f-ab06-4adfc189a851.html",
+      "html_sha256": "4ad765cbd20a1e95a5b2853f25c165b503adb49ac6d00ae0b5469b08f96c3aaa",
+      "human_reviewed": false,
+      "id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "images": [
+        {
+          "alt": "Små lila blommor framför mjukt suddiga gröna kullar",
+          "public_path": "/images/articles/b8ff6643-9234-465f-ab06-4adfc189a851-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/b8ff6643-9234-465f-ab06-4adfc189a851.json",
+      "metadata_sha256": "577f558c2fb37c62ad3f38dd296a8795daf3147d0c90ad8cf9b231304a2fd7b3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "FRÅN REDAKTÖREN",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Från redaktören",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
