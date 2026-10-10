@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "f26240aa-68e3-45c7-a9b2-8c28c8e33faf",
+    "response_id": "chatcmpl-EXZ6Ua7TeN2UQIAPZ6n2jD72pQydB",
+    "usage": {
+      "completion_tokens": 402,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 143,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8730,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7627,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9132
+    }
+  },
+  "received_at": "2026-10-10T22:27:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: paragraph beginning “কিন্তু দায়ূদের এমন প্রতিক্রিয়াপ্রবণ কোনো লক্ষ্য ছিল না”",
+        "severity": "major",
+        "source_quote": "Joseph could not change ... the butler’s delusion.",
+        "suggested_fix": "“পানপাত্রবাহকের মোহভঙ্গ” বদলে “পানপাত্রবাহকের ভ্রান্ত ধারণা” লিখুন।",
+        "translation_quote": "যোষেফ ... পানপাত্রবাহকের মোহভঙ্গ বদলাতে পারেননি।"
+      },
+      {
+        "location": "html: final prose paragraph, last sentence",
+        "severity": "minor",
+        "source_quote": "from Zebedee’s boats of the business… to the boys of his bosom.",
+        "suggested_fix": "“ব্যবসার জন্য সবদিয়ের নৌকা থেকে… তাঁর বুকের ছেলেদের পর্যন্ত” বদলে “সবদিয়ের ব্যবসার নৌকা থেকে… তাঁর প্রাণপ্রিয় পুত্রদের পর্যন্ত” লিখুন।",
+        "translation_quote": "ব্যবসার জন্য সবদিয়ের নৌকা থেকে… তাঁর বুকের ছেলেদের পর্যন্ত।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 96
+  }
+}
