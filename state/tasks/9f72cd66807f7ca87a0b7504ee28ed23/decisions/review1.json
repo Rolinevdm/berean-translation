@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraphe 4, citation de Révélation 12:5-6, 11",
+      "severity": "major",
+      "source_quote": "“And the woman fled into the wilderness, where she hath a place prepared of God, that they should feed her there a thousand two hundred and threescore days.”",
+      "suggested_fix": "Remplacer « Et la femme s’enfuit dans le désert, où Dieu lui avait préparé un lieu, afin qu’on l’y nourrisse pendant mille deux cent soixante jours. » par « Et la femme s’enfuit dans le désert, où Dieu lui avait préparé un lieu, afin qu’on l’y nourrisse pendant mille deux cent soixante jours. » Non : cette citation restitue bien le verset. Corriger plutôt la référence en précisant que la première citation correspond à Ap. 12:6 et que la citation suivante correspond à Ap. 12:11, sans ajouter le verset 5 qui n’est pas cité.",
+      "translation_quote": "« Et la femme s’enfuit dans le désert, où Dieu lui avait préparé un lieu, afin qu’on l’y nourrisse pendant mille deux cent soixante jours. » … « Ils l’ont vaincu par le sang de l’Agneau et par la parole de leur témoignage, et ils n’ont pas aimé leur vie jusqu’à craindre la mort. » Ap. 12:5-6, 11"
+    },
+    {
+      "location": "HTML, paragraphe 4, deuxième citation de Révélation",
+      "severity": "major",
+      "source_quote": "“and they loved not their lives unto the death.”",
+      "suggested_fix": "Remplacer « et ils n’ont pas aimé leur vie jusqu’à craindre la mort » par « et ils n’ont pas aimé leur vie, même jusqu’à la mort » afin de préserver le sens de l’expression biblique.",
+      "translation_quote": "« ils n’ont pas aimé leur vie jusqu’à craindre la mort »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
