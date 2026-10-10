@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T21:32:33+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: 자동차 정비공의 간증을 다룬 문단 마지막 문장\",\n      \"severity\": \"major\",\n      \"source_quote\": \"God has led and folks have been pointed to a Living God and a life after death.\",\n      \"suggested_fix\": \"또한 하나님께서 여러 방식으로 인도하셔서 사람들이 살아 계신 하나님과 죽음 이후의 삶을 알게 된 일들에 대해서도 간증했습니다.\",\n      \"translation_quote\": \"하나님께서 여러 방식으로 인도하셔서 사람들이 살아 계신 하나님과 죽음 이후의 삶을 가리키게 된 일들\"\n    },\n    {\n      \"location\": \"html: 관계의 단절과 정서적·정신적 어려움을 다룬 문단 첫 문장\",\n      \"severity\": \"major\",\n      \"source_quote\": \"within the plain communities\",\n      \"suggested_fix\": \"“평범한 공동체들 안에서”를 “검소한 생활양식을 지키는 플레인 신앙 공동체들 안에서”로 수정하십시오.\",\n      \"translation_quote\": \"평범한 공동체들 안에서\"\n    },\n    {\n      \"location\": \"html: 요한계시록 6:15-17 인용의 마지막 문장\",\n      \"severity\": \"major\",\n      \"source_quote\": \"For the great day of his wrath is come\",\n      \"suggested_fix\": \"“그들의 진노의 큰 날이 이르렀으니”를 “그분의 진노의 큰 날이 이르렀으니”로 수정하여 원문에 인쇄된 단수 지시를 보존하십시오.\",\n      \"translation_quote\": \"그들의 진노의 큰 날이 이르렀으니\"\n    },\n    {\n      \"location\": \"html: 형제자매의 도움을 다룬 문단\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"there may come a time when “the shoe is on the other foot”, so to speak\",\n      \"suggested_fix\": \"말하자면 언젠가는 ‘처지가 뒤바뀔’ 때가 올 수도 있다는 점을 기억하십시오.\",\n      \"translation_quote\": \"말하자면 언젠가는 ‘신발이 다른 발에 신겨질’ 때가 올 수도 있다는 점을 기억하십시오.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 91\n}",
+    "content_bytes": 2085,
+    "content_evidence_truncated": false,
+    "content_sha256": "2d2f6e2f591e21921011afcf8ed7f7d4483446505d99a67a2b9951e1509d0187",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 639,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 89,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8423,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7320,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9062
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

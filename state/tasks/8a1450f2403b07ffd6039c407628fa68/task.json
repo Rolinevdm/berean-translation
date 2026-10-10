@@ -5,11 +5,61 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "77f14f986844456cb4c242284d4a9131",
   "campaign": "auto-7144dd2ef59033dac905bf41a67cffb9b699200df0fadb8a9022122c9fff914e",
   "created_at": "2026-10-10T19:12:59+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 639,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 89,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8423,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7320,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9062
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: 자동차 정비공의 간증을 다룬 문단 마지막 문장",
+      "severity": "major",
+      "source_quote": "God has led and folks have been pointed to a Living God and a life after death.",
+      "suggested_fix": "또한 하나님께서 여러 방식으로 인도하셔서 사람들이 살아 계신 하나님과 죽음 이후의 삶을 알게 된 일들에 대해서도 간증했습니다.",
+      "translation_quote": "하나님께서 여러 방식으로 인도하셔서 사람들이 살아 계신 하나님과 죽음 이후의 삶을 가리키게 된 일들"
+    },
+    {
+      "location": "html: 관계의 단절과 정서적·정신적 어려움을 다룬 문단 첫 문장",
+      "severity": "major",
+      "source_quote": "within the plain communities",
+      "suggested_fix": "“평범한 공동체들 안에서”를 “검소한 생활양식을 지키는 플레인 신앙 공동체들 안에서”로 수정하십시오.",
+      "translation_quote": "평범한 공동체들 안에서"
+    },
+    {
+      "location": "html: 요한계시록 6:15-17 인용의 마지막 문장",
+      "severity": "major",
+      "source_quote": "For the great day of his wrath is come",
+      "suggested_fix": "“그들의 진노의 큰 날이 이르렀으니”를 “그분의 진노의 큰 날이 이르렀으니”로 수정하여 원문에 인쇄된 단수 지시를 보존하십시오.",
+      "translation_quote": "그들의 진노의 큰 날이 이르렀으니"
+    },
+    {
+      "location": "html: 형제자매의 도움을 다룬 문단",
+      "severity": "minor",
+      "source_quote": "there may come a time when “the shoe is on the other foot”, so to speak",
+      "suggested_fix": "말하자면 언젠가는 ‘처지가 뒤바뀔’ 때가 올 수도 있다는 점을 기억하십시오.",
+      "translation_quote": "말하자면 언젠가는 ‘신발이 다른 발에 신겨질’ 때가 올 수도 있다는 점을 기억하십시오."
+    }
+  ],
   "id": "8a1450f2403b07ffd6039c407628fa68",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "kor",
@@ -98,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +167,7 @@
     "total_reserved_usd": 0.758195,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"
