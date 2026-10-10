@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T22:33:27+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html، فقرة صموئيل الأول 17:38-39\",\"severity\":\"major\",\"source_quote\":\"And Saul armed David with his armour ... And David girded his sword upon his armour\",\"suggested_fix\":\"استبدل «وألبس شاول داود ثيابه» بـ«وألبس شاول داود عدته الحربية»، واستبدل «فتقلد داود سيفه فوق ثيابه» بـ«فتقلد داود سيفه فوق عدته الحربية»، مع إبقاء بقية الفقرة وبنيتها كما هما.\",\"translation_quote\":\"وألبس شاول داود ثيابه ... فتقلد داود سيفه فوق ثيابه\"},{\"location\":\"html، فقرة وصف عيوب البيت\",\"severity\":\"minor\",\"source_quote\":\"And the siding over there… it’s not exactly straight.\",\"suggested_fix\":\"استبدل «وهذا الكسوة هناك» بـ«وهذه الكسوة هناك».\",\"translation_quote\":\"وهذا الكسوة هناك… ليست مستقيمة تمامًا\"},{\"location\":\"html، فقرتا صموئيل الأول 17:33 وصموئيل الأول 17:37\",\"severity\":\"minor\",\"source_quote\":\"Thou art not able to go against this Philistine to fight with him ...; The LORD that delivered me out of the paw of the lion ...\",\"suggested_fix\":\"أغلق علامة الاقتباس المفتوحة في كل فقرة: ضع «»» بعد «منذ صباه» في الأولى، وبعد «هذا الفلسطيني…» في الثانية، قبل المرجع الكتابي، مع الحفاظ على وسوم HTML.\",\"translation_quote\":\"«لا تستطيع أن تذهب إلى هذا الفلسطيني لتحاربه، ... منذ صباه –صموئيل الأول 17:33.؛ «الرب الذي أنقذني ... هذا الفلسطيني… –صموئيل الأول 17:37.\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 1869,
+    "content_evidence_truncated": false,
+    "content_sha256": "02df6433a4c2e31870a03eb8bdbb89a283f8a61acdf5416b54ded319222fbdd6",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 517,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8559,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7456,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9076
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html، فقرة صموئيل الأول 17:38-39",
+      "severity": "major",
+      "source_quote": "And Saul armed David with his armour ... And David girded his sword upon his armour",
+      "suggested_fix": "استبدل «وألبس شاول داود ثيابه» بـ«وألبس شاول داود عدته الحربية»، واستبدل «فتقلد داود سيفه فوق ثيابه» بـ«فتقلد داود سيفه فوق عدته الحربية»، مع إبقاء بقية الفقرة وبنيتها كما هما.",
+      "translation_quote": "وألبس شاول داود ثيابه ... فتقلد داود سيفه فوق ثيابه"
+    },
+    {
+      "location": "html، فقرة وصف عيوب البيت",
+      "severity": "minor",
+      "source_quote": "And the siding over there… it’s not exactly straight.",
+      "suggested_fix": "استبدل «وهذا الكسوة هناك» بـ«وهذه الكسوة هناك».",
+      "translation_quote": "وهذا الكسوة هناك… ليست مستقيمة تمامًا"
+    },
+    {
+      "location": "html، فقرتا صموئيل الأول 17:33 وصموئيل الأول 17:37",
+      "severity": "minor",
+      "source_quote": "Thou art not able to go against this Philistine to fight with him ...; The LORD that delivered me out of the paw of the lion ...",
+      "suggested_fix": "أغلق علامة الاقتباس المفتوحة في كل فقرة: ضع «»» بعد «منذ صباه» في الأولى، وبعد «هذا الفلسطيني…» في الثانية، قبل المرجع الكتابي، مع الحفاظ على وسوم HTML.",
+      "translation_quote": "«لا تستطيع أن تذهب إلى هذا الفلسطيني لتحاربه، ... منذ صباه –صموئيل الأول 17:33.؛ «الرب الذي أنقذني ... هذا الفلسطيني… –صموئيل الأول 17:37."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

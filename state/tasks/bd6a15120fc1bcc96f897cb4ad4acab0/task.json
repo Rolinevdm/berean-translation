@@ -5,11 +5,54 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "320b7fec7abf4067b1c24fff5d47b979",
   "campaign": "auto-fd6ab5c4b4da87558eb4d0ce7fc842327be88252a435527c3ba6abb59f01982a",
   "created_at": "2026-10-10T19:18:12+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 517,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 93,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8559,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7456,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9076
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html، فقرة صموئيل الأول 17:38-39",
+      "severity": "major",
+      "source_quote": "And Saul armed David with his armour ... And David girded his sword upon his armour",
+      "suggested_fix": "استبدل «وألبس شاول داود ثيابه» بـ«وألبس شاول داود عدته الحربية»، واستبدل «فتقلد داود سيفه فوق ثيابه» بـ«فتقلد داود سيفه فوق عدته الحربية»، مع إبقاء بقية الفقرة وبنيتها كما هما.",
+      "translation_quote": "وألبس شاول داود ثيابه ... فتقلد داود سيفه فوق ثيابه"
+    },
+    {
+      "location": "html، فقرة وصف عيوب البيت",
+      "severity": "minor",
+      "source_quote": "And the siding over there… it’s not exactly straight.",
+      "suggested_fix": "استبدل «وهذا الكسوة هناك» بـ«وهذه الكسوة هناك».",
+      "translation_quote": "وهذا الكسوة هناك… ليست مستقيمة تمامًا"
+    },
+    {
+      "location": "html، فقرتا صموئيل الأول 17:33 وصموئيل الأول 17:37",
+      "severity": "minor",
+      "source_quote": "Thou art not able to go against this Philistine to fight with him ...; The LORD that delivered me out of the paw of the lion ...",
+      "suggested_fix": "أغلق علامة الاقتباس المفتوحة في كل فقرة: ضع «»» بعد «منذ صباه» في الأولى، وبعد «هذا الفلسطيني…» في الثانية، قبل المرجع الكتابي، مع الحفاظ على وسوم HTML.",
+      "translation_quote": "«لا تستطيع أن تذهب إلى هذا الفلسطيني لتحاربه، ... منذ صباه –صموئيل الأول 17:33.؛ «الرب الذي أنقذني ... هذا الفلسطيني… –صموئيل الأول 17:37."
+    }
+  ],
   "id": "bd6a15120fc1bcc96f897cb4ad4acab0",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ara",
@@ -98,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +160,7 @@
     "total_reserved_usd": 0.76748,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
   "translation_model_actual": "gpt-6-luna"
