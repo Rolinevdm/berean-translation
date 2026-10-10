@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T22:33:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, citazione di 1 Samuele 17:45-46\",\"severity\":\"major\",\"source_quote\":\"Thou comest to me with a sword, and with a spear, and with a shield\",\"suggested_fix\":\"Sostituire «con la spada, con la lancia e con il giavellotto» con «con la spada, con la lancia e con lo scudo», mantenendo invariati il tag <em> e il riferimento biblico.\",\"translation_quote\":\"Tu vieni contro di me con la spada, con la lancia e con il giavellotto\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 520,
+    "content_evidence_truncated": false,
+    "content_sha256": "ea9f880854fa9f9232fc477942e7bfb49777f715ac895246cea9242373cf0c86",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 211,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 48,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8783,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7680,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8994
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

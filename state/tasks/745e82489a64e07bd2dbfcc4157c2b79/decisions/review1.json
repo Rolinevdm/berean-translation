@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, citazione di 1 Samuele 17:45-46",
+      "severity": "major",
+      "source_quote": "Thou comest to me with a sword, and with a spear, and with a shield",
+      "suggested_fix": "Sostituire «con la spada, con la lancia e con il giavellotto» con «con la spada, con la lancia e con lo scudo», mantenendo invariati il tag <em> e il riferimento biblico.",
+      "translation_quote": "Tu vieni contro di me con la spada, con la lancia e con il giavellotto"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
