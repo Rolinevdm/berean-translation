@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T21:38:23+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html：以“但大卫并没有这样的反应式使命”开头的段落\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Joseph could not change his brothers’ reception, his master’s wife’s deception, the jail’s seclusion, or the butler’s delusion.\",\n      \"suggested_fix\": \"将“或酒政的遗忘”改为“或酒政的错觉”，保留原有 HTML 结构。\",\n      \"translation_quote\": \"约瑟无法改变兄弟们对他的态度、主母的欺骗、牢狱的禁锢，或酒政的遗忘。\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 96\n}",
+    "content_bytes": 641,
+    "content_evidence_truncated": false,
+    "content_sha256": "6669be3d041dd005bf73f7e9702cf3f0ed94d1ab07f52444bf6b5e5b204a177a",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 405,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 212,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7790,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7787,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8195
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

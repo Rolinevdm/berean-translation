@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html：以“但大卫并没有这样的反应式使命”开头的段落",
+      "severity": "major",
+      "source_quote": "Joseph could not change his brothers’ reception, his master’s wife’s deception, the jail’s seclusion, or the butler’s delusion.",
+      "suggested_fix": "将“或酒政的遗忘”改为“或酒政的错觉”，保留原有 HTML 结构。",
+      "translation_quote": "约瑟无法改变兄弟们对他的态度、主母的欺骗、牢狱的禁锢，或酒政的遗忘。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
