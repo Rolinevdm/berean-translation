@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: paragraph beginning ״בשנים האחרונות היו מלחמות רבות״",
+      "severity": "minor",
+      "source_quote": "before this recent outbreak of war",
+      "suggested_fix": "Replace ״לפני פרוץ המלחמה הזה״ with ״לפני פרוץ המלחמה האחרונה הזאת״.",
+      "translation_quote": "לפני פרוץ המלחמה הזה"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

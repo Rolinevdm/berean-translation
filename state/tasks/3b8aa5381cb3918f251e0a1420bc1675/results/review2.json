@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "250e6ef2-6683-49ec-9308-25be4e1a10c8",
+    "response_id": "chatcmpl-EXZ22311710HFcVKdNnsYTkwcCnAR",
+    "usage": {
+      "completion_tokens": 211,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 104,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8251,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7148,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8462
+    }
+  },
+  "received_at": "2026-10-10T21:38:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: paragraph beginning ״בשנים האחרונות היו מלחמות רבות״",
+        "severity": "minor",
+        "source_quote": "before this recent outbreak of war",
+        "suggested_fix": "Replace ״לפני פרוץ המלחמה הזה״ with ״לפני פרוץ המלחמה האחרונה הזאת״.",
+        "translation_quote": "לפני פרוץ המלחמה הזה"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
