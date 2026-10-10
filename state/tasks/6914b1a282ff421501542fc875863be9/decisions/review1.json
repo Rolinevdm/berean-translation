@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, stycket som börjar ”David svarade” (Första Samuelsboken 17:34–36)",
+      "severity": "major",
+      "source_quote": "And I went out after him, and smote him, and delivered it out of his mouth: and when he arose against me, I caught him by his beard, and smote him, and slew him.",
+      "suggested_fix": "Ändra dessa meningar till: ”Jag gick efter det, slog ner det och ryckte lammet ur dess gap. När det sedan gick till anfall mot mig grep jag tag i dess skägg, slog ner det och dödade det.” Behåll resten av stycket och hänvisningen oförändrade.",
+      "translation_quote": "Jag gick efter dem, slog ner dem och ryckte lammet ur deras gap. När de sedan gick till anfall mot mig grep jag tag i deras skägg, slog ner dem och dödade dem."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
