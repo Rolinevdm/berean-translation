@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, পঞ্চম অনুচ্ছেদ, শেষ বাক্য",
+      "severity": "minor",
+      "source_quote": "when people push the law, doing the least that is required, but still technically keeping the law",
+      "suggested_fix": "বাক্যটির সংশ্লিষ্ট অংশ করুন: “যখন লোকেরা বিধানের সীমা যতদূর সম্ভব ঠেলে দেয়, কেবল যতটুকু দরকার ততটুকুই করে, অথচ খাতায়-কলমে বিধান পালন করে”।",
+      "translation_quote": "যখন লোকেরা বিধানকে আঁকড়ে ধরে, কেবল যতটুকু দরকার ততটুকুই করে, অথচ তাত্ত্বিকভাবে বিধান পালন করে"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

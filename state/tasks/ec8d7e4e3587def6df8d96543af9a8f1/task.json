@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eeac2f45456444bb8e3980a7bf9ef664",
   "campaign": "auto-8dc83678e53949ceaae2a9fdb896ec3e1e06c2351729460f513bc4a4d6b4f029",
   "created_at": "2026-10-10T19:17:50+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 264,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 80,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9468,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8365,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9732
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, পঞ্চম অনুচ্ছেদ, শেষ বাক্য",
+      "severity": "minor",
+      "source_quote": "when people push the law, doing the least that is required, but still technically keeping the law",
+      "suggested_fix": "বাক্যটির সংশ্লিষ্ট অংশ করুন: “যখন লোকেরা বিধানের সীমা যতদূর সম্ভব ঠেলে দেয়, কেবল যতটুকু দরকার ততটুকুই করে, অথচ খাতায়-কলমে বিধান পালন করে”।",
+      "translation_quote": "যখন লোকেরা বিধানকে আঁকড়ে ধরে, কেবল যতটুকু দরকার ততটুকুই করে, অথচ তাত্ত্বিকভাবে বিধান পালন করে"
+    }
+  ],
+  "finished_at": "2026-10-10T21:33:06+00:00",
   "id": "ec8d7e4e3587def6df8d96543af9a8f1",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ben",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.805375,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T21:33:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, পঞ্চম অনুচ্ছেদ, শেষ বাক্য\",\"severity\":\"minor\",\"source_quote\":\"when people push the law, doing the least that is required, but still technically keeping the law\",\"suggested_fix\":\"বাক্যটির সংশ্লিষ্ট অংশ করুন: “যখন লোকেরা বিধানের সীমা যতদূর সম্ভব ঠেলে দেয়, কেবল যতটুকু দরকার ততটুকুই করে, অথচ খাতায়-কলমে বিধান পালন করে”।\",\"translation_quote\":\"যখন লোকেরা বিধানকে আঁকড়ে ধরে, কেবল যতটুকু দরকার ততটুকুই করে, অথচ তাত্ত্বিকভাবে বিধান পালন করে\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 961,
+    "content_evidence_truncated": false,
+    "content_sha256": "8865c714b6f2ae6e9515411c9ad69635f09e4b535124bb5c90b086fd8e45a6fa",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 264,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 80,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9468,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8365,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9732
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
