@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T22:27:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, citazione conclusiva di Giuda 1:24-25\",\"severity\":\"major\",\"source_quote\":\"To the only wise God our Saviour\",\"suggested_fix\":\"Sostituire «all’unico Dio, nostro Salvatore» con «all’unico Dio sapiente, nostro Salvatore».\",\"translation_quote\":\"all’unico Dio, nostro Salvatore\"},{\"location\":\"translation.title e translation.section\",\"severity\":\"major\",\"source_quote\":\"title: From the Editor; section: FROM THE EDITOR\",\"suggested_fix\":\"Usare «Dal redattore» per il titolo e «DAL REDATTORE» per la sezione: «editore» indica normalmente il publisher, non chi cura editorialmente la rivista.\",\"translation_quote\":\"title: Dall’editore; section: DALL’EDITORE\"},{\"location\":\"translation.html, citazione di Matteo 16:24-26\",\"severity\":\"minor\",\"source_quote\":\"Then said Jesus unto his disciples, If any man will come after me [...] or what shall a man give in exchange for his soul? –Matthew 16:24-26.\",\"suggested_fix\":\"Chiudere le virgolette dopo «anima sua?» e prima del riferimento: «O che darà l’uomo in cambio dell’anima sua?» –Matteo 16:24-26.\",\"translation_quote\":\"Allora Gesù disse ai suoi discepoli: «Se qualcuno vuole venire dietro a me [...] O che darà l’uomo in cambio dell’anima sua? –Matteo 16:24-26.\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 1341,
+    "content_evidence_truncated": false,
+    "content_sha256": "759d9d22d7f9fc936622086456d133949c362de39f736b3aadc5035fe79a725b",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 440,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8141,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7038,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8581
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

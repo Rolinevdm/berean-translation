@@ -5,11 +5,54 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8754aeff8f3c4654889550ba63dcee60",
   "campaign": "auto-c50657f2cf0fdb8b730a1882192526148254ee4b26dc546543a2866fbe2c1d6f",
   "created_at": "2026-10-10T19:18:02+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 440,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 77,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8141,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7038,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8581
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, citazione conclusiva di Giuda 1:24-25",
+      "severity": "major",
+      "source_quote": "To the only wise God our Saviour",
+      "suggested_fix": "Sostituire «all’unico Dio, nostro Salvatore» con «all’unico Dio sapiente, nostro Salvatore».",
+      "translation_quote": "all’unico Dio, nostro Salvatore"
+    },
+    {
+      "location": "translation.title e translation.section",
+      "severity": "major",
+      "source_quote": "title: From the Editor; section: FROM THE EDITOR",
+      "suggested_fix": "Usare «Dal redattore» per il titolo e «DAL REDATTORE» per la sezione: «editore» indica normalmente il publisher, non chi cura editorialmente la rivista.",
+      "translation_quote": "title: Dall’editore; section: DALL’EDITORE"
+    },
+    {
+      "location": "translation.html, citazione di Matteo 16:24-26",
+      "severity": "minor",
+      "source_quote": "Then said Jesus unto his disciples, If any man will come after me [...] or what shall a man give in exchange for his soul? –Matthew 16:24-26.",
+      "suggested_fix": "Chiudere le virgolette dopo «anima sua?» e prima del riferimento: «O che darà l’uomo in cambio dell’anima sua?» –Matteo 16:24-26.",
+      "translation_quote": "Allora Gesù disse ai suoi discepoli: «Se qualcuno vuole venire dietro a me [...] O che darà l’uomo in cambio dell’anima sua? –Matteo 16:24-26."
+    }
+  ],
   "id": "3eff58d617be75d5fc45c1d102e6a1b9",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ita",
@@ -98,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +160,7 @@
     "total_reserved_usd": 0.753841,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"
