@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T21:32:54+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragraphs 3, 6, 7, and 10\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the Bible is very clear on pride; because of what the Bible teaches; The bible says that the adornment should not be outward; The Bible says that … –John 1:17.\",\n      \"suggested_fix\": \"החליפו את „התנ״ך” ב„כתבי הקודש” בארבעת המקומות האלה. הדיון כולל גם את הברית החדשה, והציטוט ביוחנן אינו מן התנ״ך.\",\n      \"translation_quote\": \"התנ״ך ברור מאוד בנוגע לגאווה; בגלל מה שמלמד התנ״ך; התנ״ך אומר שההתקשטות לא צריכה להיות חיצונית; התנ״ך אומר ש… — יוחנן 1:17.\"\n    },\n    {\n      \"location\": \"html, paragraph 22, quotation of 1 Samuel 17:45-46\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Thou comest to me with a sword, and with a spear, and with a shield\",\n      \"suggested_fix\": \"החליפו „בחרב ובחנית ובכידון” ב„בחרב ובחנית ובמגן”, תוך שמירת תגית הציטוט וההפניה.\",\n      \"translation_quote\": \"אתה בא אליי בחרב ובחנית ובכידון\"\n    },\n    {\n      \"location\": \"html, paragraph 27\",\n      \"severity\": \"major\",\n      \"source_quote\": \"You are standing in front of the newly constructed home with a friend.\",\n      \"suggested_fix\": \"אתה עומד יחד עם חבר לפני הבית החדש שבנית.\",\n      \"translation_quote\": \"אתה עומד לפני הבית החדש שבנית יחד עם חבר.\"\n    },\n    {\n      \"location\": \"html, paragraph 20, opening of quotation\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"And Saul armed David with his armour\",\n      \"suggested_fix\": \"החליפו „ויאל שאול את דוד מדיו” ב„שאול הלביש את דוד בשריונו”. הנוסח הנוכחי אינו מבטא את פעולת ההלבשה.\",\n      \"translation_quote\": \"ויאל שאול את דוד מדיו\"\n    },\n    {\n      \"location\": \"html, paragraph 6\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"there are Christians that cover their heads\",\n      \"suggested_fix\": \"החליפו „יש נוצרים שמכסות את ראשן” ב„יש נוצריות שמכסות את ראשן”, בהתאם להמשך הפסקה העוסק בנשים.\",\n      \"translation_quote\": \"יש נוצרים שמכסות את ראשן\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 92\n}",
+    "content_bytes": 2570,
+    "content_evidence_truncated": false,
+    "content_sha256": "b4b0aa3b1a57e34c9de06a29e7ab2cd2c14d728f1fcbf8b202401a2e85df91fb",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 830,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 179,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8519,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7416,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9349
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
