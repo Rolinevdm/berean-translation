@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a5c461c0511a4cd58130c8faf9b8ffdb",
   "campaign": "auto-c1ec17b68858e1ace6b14f9952a28d1c357506dca98481860a32d4a1db14fd54",
   "created_at": "2026-10-10T19:17:57+00:00",
   "events": [
@@ -48,60 +47,39 @@
         },
         "total_tokens": 12590
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 144,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 33,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8119,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8116,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8263
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "html, avsnittet om invasjonen og sanksjonene",
-      "severity": "major",
-      "source_quote": "there were high prices before this recent outbreak of war which was a result of the various supply chain problems",
-      "suggested_fix": "Endre setningen til: «Prisene var riktignok høye også før dette nylige krigsutbruddet; de høye prisene skyldtes ulike problemer i forsyningskjedene forårsaket av covid-19 og ringvirkningene av pandemien.»",
-      "translation_quote": "Prisene var riktignok høye også før dette nylige krigsutbruddet, som skyldtes ulike problemer i forsyningskjedene"
-    },
-    {
-      "location": "html, sitatet fra Johannes’ åpenbaring 6:15-17",
-      "severity": "major",
-      "source_quote": "For the great day of his wrath is come",
-      "suggested_fix": "Erstatt «For den store vredesdagen deres er kommet» med «For hans store vredesdag er kommet». Behold referansen og HTML-strukturen.",
-      "translation_quote": "For den store vredesdagen deres er kommet"
-    },
-    {
-      "location": "html, sitatet fra Matteus 16:24-26",
-      "severity": "major",
-      "source_quote": "and lose his own soul",
-      "suggested_fix": "Erstatt «men tar skade på sin sjel» med «men mister sin egen sjel».",
-      "translation_quote": "men tar skade på sin sjel"
-    },
-    {
-      "location": "html, avsnittet om ødelagte relasjoner og psykiske vansker",
-      "severity": "major",
-      "source_quote": "within the plain communities",
-      "suggested_fix": "Erstatt «i de enkle menighetene» med «i de tradisjonelle anabaptistiske miljøene som legger vekt på en enkel livsstil». Uttrykket viser til bestemte religiøse miljøer, ikke til menigheter som generelt er enkle.",
-      "translation_quote": "i de enkle menighetene"
-    },
-    {
-      "location": "html, avsnittet som lister opp mennesker i nærmiljøet",
-      "severity": "major",
-      "source_quote": "It can be our more distant relatives.",
-      "suggested_fix": "Erstatt «Det kan være slektninger som bor lenger unna» med «Det kan være våre fjernere slektninger».",
-      "translation_quote": "Det kan være slektninger som bor lenger unna."
-    },
-    {
-      "location": "html, avsluttende sitat fra Judas 1:24-25",
-      "severity": "major",
-      "source_quote": "To the only wise God our Saviour ... both now and ever",
-      "suggested_fix": "Erstatt «ham, den eneste Gud, vår frelser» med «ham, den eneste vise Gud, vår frelser», og erstatt «før alle tider, nå og i all evighet» med «både nå og i all evighet».",
-      "translation_quote": "ham, den eneste Gud, vår frelser ... før alle tider, nå og i all evighet"
-    },
-    {
-      "location": "html, avsnittene om menighetens manglende respons og gjensidig støtte",
+      "location": "translation.html: avsnittet om ødelagte relasjoner og psykiske vansker",
       "severity": "minor",
-      "source_quote": "not “open that can of worms” ... “the shoe is on the other foot”",
-      "suggested_fix": "Erstatt «ikke ‘åpne den boksen med mark’» med «ikke ‘rippe opp i vanskelige spørsmål’», og «‘skoen er på den andre foten’» med «‘rollene er byttet om’». Behold de omkringliggende setningene og HTML-tagene.",
-      "translation_quote": "ikke «åpne den boksen med mark» ... «skoen er på den andre foten»"
+      "source_quote": "We could get hung up on the details of how Jesus responded.",
+      "suggested_fix": "Vi kan henge oss opp i detaljene ved hvordan Jesus svarte.",
+      "translation_quote": "Vi kan bli hengende oss opp i detaljene ved hvordan Jesus svarte."
     }
   ],
+  "finished_at": "2026-10-10T22:33:10+00:00",
   "id": "caf13a4f9392df3281d0fd7affddec84",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "nob",
@@ -190,7 +168,7 @@
     }
   },
   "protected": false,
-  "quality_score": 86,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -209,7 +187,7 @@
     "total_reserved_usd": 0.751613,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6.1-sol"

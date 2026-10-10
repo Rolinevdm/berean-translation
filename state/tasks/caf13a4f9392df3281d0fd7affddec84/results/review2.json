@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "386c3f30-027e-4699-a217-bfbe9406594b",
+    "response_id": "chatcmpl-EXZrOkepjfhyRBYpV51r2FF0mH68H",
+    "usage": {
+      "completion_tokens": 144,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 33,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8119,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8116,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8263
+    }
+  },
+  "received_at": "2026-10-10T22:33:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html: avsnittet om ødelagte relasjoner og psykiske vansker",
+        "severity": "minor",
+        "source_quote": "We could get hung up on the details of how Jesus responded.",
+        "suggested_fix": "Vi kan henge oss opp i detaljene ved hvordan Jesus svarte.",
+        "translation_quote": "Vi kan bli hengende oss opp i detaljene ved hvordan Jesus svarte."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

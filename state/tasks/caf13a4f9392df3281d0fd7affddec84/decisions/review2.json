@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: avsnittet om ødelagte relasjoner og psykiske vansker",
+      "severity": "minor",
+      "source_quote": "We could get hung up on the details of how Jesus responded.",
+      "suggested_fix": "Vi kan henge oss opp i detaljene ved hvordan Jesus svarte.",
+      "translation_quote": "Vi kan bli hengende oss opp i detaljene ved hvordan Jesus svarte."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
