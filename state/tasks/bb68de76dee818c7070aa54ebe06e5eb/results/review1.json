@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "150bb037-4e99-4985-982b-8eda48ab0ca3",
+    "response_id": "chatcmpl-EXZ5WXqTtOAJHU9LPY6KTQRjMb9yj",
+    "usage": {
+      "completion_tokens": 290,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 54,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7895,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6792,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8185
+    }
+  },
+  "received_at": "2026-10-10T22:27:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraphe sur la puissance de la fronde de David",
+        "severity": "major",
+        "source_quote": "the stopping power of a 45 mm handgun",
+        "suggested_fix": "Remplacer « un pistolet de calibre .45 » par « un pistolet de calibre 45 mm » afin de conserver la mesure imprimée dans la source.",
+        "translation_quote": "une puissance d’arrêt comparable à celle d’un pistolet de calibre .45"
+      },
+      {
+        "location": "html, div.poem, dernier vers",
+        "severity": "major",
+        "source_quote": "And all were used for God!",
+        "suggested_fix": "Remplacer le dernier vers par « Et tous servirent à l’œuvre de Dieu ! »",
+        "translation_quote": "Et Dieu s’en servit pour tous !"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T22:27:16+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragraphe sur la puissance de la fronde de David\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the stopping power of a 45 mm handgun\",\n      \"suggested_fix\": \"Remplacer « un pistolet de calibre .45 » par « un pistolet de calibre 45 mm » afin de conserver la mesure imprimée dans la source.\",\n      \"translation_quote\": \"une puissance d’arrêt comparable à celle d’un pistolet de calibre .45\"\n    },\n    {\n      \"location\": \"html, div.poem, dernier vers\",\n      \"severity\": \"major\",\n      \"source_quote\": \"And all were used for God!\",\n      \"suggested_fix\": \"Remplacer le dernier vers par « Et tous servirent à l’œuvre de Dieu ! »\",\n      \"translation_quote\": \"Et Dieu s’en servit pour tous !\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 841,
+    "content_evidence_truncated": false,
+    "content_sha256": "f24fa0c036436e9be88142076a3cd1d224a389df1b4bfcc9e52f3eef665ad29c",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 290,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 54,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7895,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6792,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8185
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
