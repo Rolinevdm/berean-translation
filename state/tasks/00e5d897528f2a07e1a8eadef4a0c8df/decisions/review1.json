@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html, cita de 1 Samuel 17:34-36",
+      "severity": "major",
+      "source_quote": "there came a lion, and a bear ... Thy servant slew both the lion and the bear",
+      "suggested_fix": "Traducir la cita como hechos concretos del pasado, no como situaciones habituales o alternativas: «…Tu siervo cuidaba las ovejas de su padre, y vino un león, y un oso, y tomó un cordero del rebaño. Salí tras él, lo herí y libré al cordero de su boca; y cuando se levantó contra mí, lo agarré por la barba, lo herí y lo maté. Tu siervo mató tanto al león como al oso; y este filisteo incircunciso será como uno de ellos, porque ha desafiado a los ejércitos del Dios viviente —1 Samuel 17:34-36». Conservar el párrafo y la referencia existentes.",
+      "translation_quote": "cuando venía un león, o un oso ... y si se levantaba contra mí ... Fuese león, fuese oso, tu siervo lo mataba"
+    },
+    {
+      "location": "html, cita de 1 Samuel 17:38-39",
+      "severity": "major",
+      "source_quote": "Saul armed David with his armour ... David girded his sword upon his armour",
+      "suggested_fix": "Sustituir «vistió a David con sus ropas» por «equipó a David con su armadura», y «sobre sus ropas» por «sobre su armadura», conservando el resto del párrafo y su referencia.",
+      "translation_quote": "Saúl vistió a David con sus ropas ... ciñó David su espada sobre sus ropas"
+    },
+    {
+      "location": "html, párrafo que introduce 1 Samuel 17:37",
+      "severity": "minor",
+      "source_quote": "David here is super confident, but why?!",
+      "suggested_fix": "Sustituir «David está muy seguro de sí mismo aquí» por «David muestra aquí una gran confianza», para no atribuirle confianza en sí mismo cuando el argumento distingue esa confianza de la confianza en Dios.",
+      "translation_quote": "David está muy seguro de sí mismo aquí, pero ¿por qué?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
