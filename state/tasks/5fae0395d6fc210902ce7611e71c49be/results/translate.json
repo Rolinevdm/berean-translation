@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9c88ac3c-7b72-42b1-9136-740196eec630",
+    "response_id": "chatcmpl-EXXuVd4nZ2oM84Rh6ho5WJpKo34qZ",
+    "usage": {
+      "completion_tokens": 1463,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1980,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1977,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3443
+    }
+  },
+  "received_at": "2026-10-10T21:32:37+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8cbf980c-3d5c-4a98-8a1f-9553593803e3\">\n  <p class=\"drop-cap\">Qualche mese fa, un giovane di nome Michael Izbicki ha fatto parecchio scalpore sui giornali. L’eccitazione è nata dalle proteste contro la richiesta di questo giovane di essere riconosciuto obiettore di coscienza dopo essersi diplomato alla prestigiosa Accademia navale degli Stati Uniti. È stato un colpo particolarmente duro per i militari, perché Izbicki era un cadetto brillante e talentuoso, tra i migliori del suo corso. Come sempre, i «cristiani» hanno detto le cose più dure. Uno dei suoi comandanti della Marina ha affermato che «la vena pacifista del cristianesimo abbracciata dal signor Izbicki era incompatibile con la fede cristiana tradizionale». Lo stesso comandante ha persino detto che i quaccheri che sostenevano il signor Izbicki erano come «il reverendo Jim Jones e il suo Tempio del Popolo, una setta suicida». Detto da un uomo che fa carriera comandando portaerei e sottomarini nucleari, tutti in grado di scatenare l’Armageddon premendo un pulsante, trovo il suo commento un po’ ironico. Ciò che trovo interessante e persino inquietante è vedere come i media rappresentino i tentativi pacifici e sinceri di seguire Gesù.</p>\n\n  <figure>\n    <img src=\"/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg\" alt=\"Un sottomarino che naviga sulla superficie del mare\" loading=\"lazy\">\n    <img src=\"/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg\" alt=\"Un’illustrazione storica di un quacchero che abbraccia una persona indigena in Pennsylvania\" loading=\"lazy\">\n    <figcaption>In alto, un sottomarino pattuglia i mari; in basso, un quacchero abbraccia un indigeno in Pennsylvania. Quale immagine rappresenta meglio Gesù?</figcaption>\n  </figure>\n\n  <p>Mi chiedo quante persone si prendano mai il tempo di riflettere su ciò che dicono di credere. Il cambiamento per Michael Izbicki è avvenuto quando, nel 2008, ha sostenuto un esame psicologico dopo essersi diplomato all’accademia navale. È bastata una sola domanda dell’esame psicologico: avrebbe lanciato un missile con una testata nucleare? Quando ci ha pensato davvero... ha detto «no». Dopo questo, per lui è cambiato tutto.</p>\n\n  <p>La settimana scorsa ho visto appeso alla parete del luogo di lavoro un fumetto politico che parodiava la Statua della Libertà in una posa insolita. Invece della consueta fiaccola nella mano destra, un artista aveva messo una testa macabra di Osama Bin Laden. Sotto la statua erano scritte le parole «Partita finita». Si potrebbe pensare che l’intelligenza accumulata in 6000 anni di storia umana ci dica che questa «partita» non è finita.</p>\n\n  <p>La «partita» si farà sempre più intensa fino alla fine dell’età. <em>«E la donna fuggì nel deserto, dove Dio le aveva preparato un luogo, perché là fosse nutrita per milleduecentosessanta giorni».</em> Il modo per vincere questa «partita» non è mai cambiato e non cambierà fino a quel giorno. Cristo ci ha mostrato la via: <em>«Ed essi lo hanno vinto per mezzo del sangue dell’Agnello e per mezzo della parola della loro testimonianza; e non hanno amato la loro vita fino a morire.</em> Ap. 12:5-6, 11</p>\n\n  <p>In questo numero esaminiamo una visione equilibrata (se si può definire rotondo un pentagono) del cristianesimo. Noi esseri umani tendiamo a reagire invece di agire, a volte causando divisioni con altri credenti che si avvicinano a Cristo e ai suoi insegnamenti con un’enfasi diversa. E, a proposito di divisioni, leggete l’articolo intitolato «La causa della divisione... e la cura».</p>\n\n  <p>Probabilmente le divisioni avrebbero ben poco spazio nella chiesa se praticassimo tutti la Gelassenheit. Per chi non conosce il termine, è una parola tedesca spesso usata dagli anabattisti per descrivere il loro «lasciar andare» la vecchia vita. Questo articolo offre una panoramica di un trattato poco conosciuto, scritto da un autore relativamente ignoto che contribuì ad accendere il risveglio anabattista nei primi anni del Cinquecento, ma in seguito tornò a una sorta di compromesso. Per questo gli scritti di Karlstadt sono oggi poco conosciuti, anche se ebbe una forte influenza sull’anabattismo delle origini.</p>\n\n  <p>Poi ci occupiamo di libri: sia quelli negativi che dovrebbero finire nel mucchio da bruciare, sia quello che dovrebbe stare in grembo a vostro figlio. Poi Origene ci parla del morire con Cristo e del battesimo.</p>\n\n  <p>In seguito consideriamo la dottrina dei due regni. Noi, che abbiamo sperimentato una rinascita spirituale, siamo ora cittadini del regno di Cristo. Ma... dobbiamo anche fare i conti con i governi di questo mondo, le cui leggi e i cui valori spesso entrano in conflitto con la legge e i valori di Cristo.</p>\n\n  <p>E concludiamo con una poesia sulla grazia. La grazia che ci mantiene in vita e ci aiuta a manifestare il carattere di Gesù impiantato in noi.</p>\n\n  <p>Che questo numero di <em>The Heartbeat of the Remnant</em> vi spinga ad amarlo ancora di più! ~Fratello Dean</p>\n</article>\n",
+    "section": "Dall’editore",
+    "subtitle": null,
+    "title": "Dall’editore"
+  }
+}
