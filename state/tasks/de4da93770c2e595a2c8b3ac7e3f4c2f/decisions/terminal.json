@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، پیراگراف جو «کیا خدا آپ کی زندگی میں کام کر رہا ہے؟» سے شروع ہوتا ہے",
+      "severity": "minor",
+      "source_quote": "The unregenerate heart can learn to hide anger, but only God can change the heart.",
+      "suggested_fix": "«غیر نیا کیا ہوا دل» کی جگہ «وہ دل جس کی نئی پیدائش نہیں ہوئی» لکھیں۔",
+      "translation_quote": "غیر نیا کیا ہوا دل غصے کو چھپانا سیکھ سکتا ہے، لیکن صرف خدا ہی دل کو بدل سکتا ہے۔"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "e2c104f7-576e-41a1-ab37-f92fc9021788",
+    "response_id": "chatcmpl-EXWvQJIhgAvnMzP4VECSZIZeUbfTm",
+    "usage": {
+      "completion_tokens": 266,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 85,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9362,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8259,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9628
+    }
+  },
+  "received_at": "2026-10-10T21:33:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html، پیراگراف جو «کیا خدا آپ کی زندگی میں کام کر رہا ہے؟» سے شروع ہوتا ہے",
+        "severity": "minor",
+        "source_quote": "The unregenerate heart can learn to hide anger, but only God can change the heart.",
+        "suggested_fix": "«غیر نیا کیا ہوا دل» کی جگہ «وہ دل جس کی نئی پیدائش نہیں ہوئی» لکھیں۔",
+        "translation_quote": "غیر نیا کیا ہوا دل غصے کو چھپانا سیکھ سکتا ہے، لیکن صرف خدا ہی دل کو بدل سکتا ہے۔"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
