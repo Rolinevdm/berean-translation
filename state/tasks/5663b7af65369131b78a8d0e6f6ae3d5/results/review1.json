@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "51248823-6805-4c42-a5b1-5e5d03363053",
+    "response_id": "chatcmpl-EXZ7FtpkocoVojOLytvcfAUI1kGBi",
+    "usage": {
+      "completion_tokens": 678,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 73,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8518,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7415,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9196
+    }
+  },
+  "received_at": "2026-10-10T22:27:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: paragraph beginning “Jambo moja mahususi”",
+        "severity": "major",
+        "source_quote": "within the plain communities",
+        "suggested_fix": "Badili “katika jumuiya za Waamishi” kuwa “katika jumuiya za Wakristo wanaoishi kwa usahili”.",
+        "translation_quote": "katika jumuiya za Waamishi"
+      },
+      {
+        "location": "html: final blockquote, Jude 1:24-25",
+        "severity": "major",
+        "source_quote": "To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.",
+        "suggested_fix": "Badili sehemu hii kuwa: “kwa Mungu pekee mwenye hekima, Mwokozi wetu, uwe utukufu na adhama, mamlaka na nguvu, sasa na hata milele.” Hifadhi rejeo na muundo wa HTML.",
+        "translation_quote": "yeye aliye Mungu pekee, Mwokozi wetu, kwa Yesu Kristo Bwana wetu, utukufu na adhama, uwezo na nguvu, tangu milele na sasa na hata milele."
+      },
+      {
+        "location": "html: paragraph beginning “Wakati huohuo”",
+        "severity": "major",
+        "source_quote": "the median global GDP dropped by 3.9%",
+        "suggested_fix": "Badili “Pato la Taifa la wastani duniani” kuwa “thamani ya kati (mediani) ya Pato la Taifa duniani”.",
+        "translation_quote": "Pato la Taifa la wastani duniani lilipungua kwa 3.9%"
+      },
+      {
+        "location": "html: paragraphs beginning “Mara nyingi sana” and “Mungu alituumba”",
+        "severity": "minor",
+        "source_quote": "“leave sleeping dogs lie” ... “open that can of worms”; “the shoe is on the other foot”",
+        "suggested_fix": "Tumia semi zinazoeleweka kwa Kiswahili: “kuacha mambo yalivyo” badala ya “kuwaacha mbwa waliolala walale”, “kuanzisha mjadala wenye matatizo mengi” badala ya “kufungua mkebe huo wa minyoo”, na “hali itakuwa imegeuka na kutupata sisi” badala ya “kiatu kitakuwa mguu mwingine”.",
+        "translation_quote": "“kuwaacha mbwa waliolala walale” ... “mkebe huo wa minyoo”; “kiatu kitakuwa mguu mwingine”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 89
+  }
+}

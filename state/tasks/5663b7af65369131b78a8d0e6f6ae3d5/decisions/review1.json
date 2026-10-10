@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "html: paragraph beginning “Jambo moja mahususi”",
+      "severity": "major",
+      "source_quote": "within the plain communities",
+      "suggested_fix": "Badili “katika jumuiya za Waamishi” kuwa “katika jumuiya za Wakristo wanaoishi kwa usahili”.",
+      "translation_quote": "katika jumuiya za Waamishi"
+    },
+    {
+      "location": "html: final blockquote, Jude 1:24-25",
+      "severity": "major",
+      "source_quote": "To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.",
+      "suggested_fix": "Badili sehemu hii kuwa: “kwa Mungu pekee mwenye hekima, Mwokozi wetu, uwe utukufu na adhama, mamlaka na nguvu, sasa na hata milele.” Hifadhi rejeo na muundo wa HTML.",
+      "translation_quote": "yeye aliye Mungu pekee, Mwokozi wetu, kwa Yesu Kristo Bwana wetu, utukufu na adhama, uwezo na nguvu, tangu milele na sasa na hata milele."
+    },
+    {
+      "location": "html: paragraph beginning “Wakati huohuo”",
+      "severity": "major",
+      "source_quote": "the median global GDP dropped by 3.9%",
+      "suggested_fix": "Badili “Pato la Taifa la wastani duniani” kuwa “thamani ya kati (mediani) ya Pato la Taifa duniani”.",
+      "translation_quote": "Pato la Taifa la wastani duniani lilipungua kwa 3.9%"
+    },
+    {
+      "location": "html: paragraphs beginning “Mara nyingi sana” and “Mungu alituumba”",
+      "severity": "minor",
+      "source_quote": "“leave sleeping dogs lie” ... “open that can of worms”; “the shoe is on the other foot”",
+      "suggested_fix": "Tumia semi zinazoeleweka kwa Kiswahili: “kuacha mambo yalivyo” badala ya “kuwaacha mbwa waliolala walale”, “kuanzisha mjadala wenye matatizo mengi” badala ya “kufungua mkebe huo wa minyoo”, na “hali itakuwa imegeuka na kutupata sisi” badala ya “kiatu kitakuwa mguu mwingine”.",
+      "translation_quote": "“kuwaacha mbwa waliolala walale” ... “mkebe huo wa minyoo”; “kiatu kitakuwa mguu mwingine”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
