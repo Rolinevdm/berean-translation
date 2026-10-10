@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Абзац о вере и риске",
+      "severity": "minor",
+      "source_quote": "Faith is walking in obedience and believing God’s Word when we do not know the outcome.",
+      "suggested_fix": "Вера — это жизнь в послушании и доверие Слову Божьему, когда мы не знаем, чем всё закончится.",
+      "translation_quote": "Вера — это послушание и вера Слову Божьему, когда мы не знаем, чем всё закончится."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

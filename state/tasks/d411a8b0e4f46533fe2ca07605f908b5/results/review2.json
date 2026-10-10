@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9232073d-6e9c-49da-a531-16d8ceb76d5a",
+    "response_id": "chatcmpl-EXPA4nCqjtyWYNEKG8O29Nu5p8gO3",
+    "usage": {
+      "completion_tokens": 612,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4506,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3403,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5118
+    }
+  },
+  "received_at": "2026-10-10T21:32:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First descriptive paragraph after the first <hr>",
+        "severity": "minor",
+        "source_quote": "perfect and peaceful, unmarred by failure",
+        "suggested_fix": "vollkommen und friedlich, von keinem Makel getrübt",
+        "translation_quote": "vollkommen und friedlich, ungetrübt von einem Missgeschick"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

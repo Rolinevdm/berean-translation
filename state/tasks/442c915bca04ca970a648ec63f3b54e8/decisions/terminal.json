@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Miaka iliyopita,”",
+      "severity": "minor",
+      "source_quote": "“(1 Pet 4:1)”",
+      "suggested_fix": "Use the conventional Kiswahili book name: “(1 Petro 4:1)”.",
+      "translation_quote": "“(1 Pet 4:1)”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

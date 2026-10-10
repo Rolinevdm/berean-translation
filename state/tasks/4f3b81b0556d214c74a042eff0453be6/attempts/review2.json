@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T21:32:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Абзац о вере и риске\",\"severity\":\"minor\",\"source_quote\":\"Faith is walking in obedience and believing God’s Word when we do not know the outcome.\",\"suggested_fix\":\"Вера — это жизнь в послушании и доверие Слову Божьему, когда мы не знаем, чем всё закончится.\",\"translation_quote\":\"Вера — это послушание и вера Слову Божьему, когда мы не знаем, чем всё закончится.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 600,
+    "content_evidence_truncated": false,
+    "content_sha256": "b09ea1c996d804e5b625788691a35edb6791cfe3df7caaee2d7bba9ea86f7545",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 647,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8040,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6937,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8687
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

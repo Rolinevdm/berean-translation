@@ -2,7 +2,6 @@
   "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a1c9d1347c5144c795ed7372ce320e67",
   "campaign": "gh-37754206621",
   "created_at": "2026-10-08T09:14:26+00:00",
   "events": [
@@ -65,18 +64,46 @@
         },
         "total_tokens": 13683
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 988,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 770,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9210,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8107,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10198
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraf terakhir, kutipan Kisah Para Rasul 1:9",
-      "severity": "major",
-      "source_quote": "“…beheld, he was taken up; and a cloud received him out of their sight –Act 1:9.”",
-      "suggested_fix": "Hapus bagian tentang dua orang berpakaian putih; terjemahkan hanya bahwa ketika para murid sedang melihat, Yesus terangkat dan awan menutup-Nya dari pandangan mereka.",
-      "translation_quote": "“…sedang menatap ke langit waktu Ia naik, tiba-tiba dua orang berpakaian putih berdiri dekat mereka” dan “awan menutup-Nya dari pandangan mereka” –Kis 1:9."
+      "location": "Artikel, paragraf tentang makna awan bagi Ayub dan Yeremia",
+      "severity": "minor",
+      "source_quote": "the cloud represented the ultimate emblem of doubt, despair, and discouragement",
+      "suggested_fix": "Ganti “melambangkan lambang” dengan “menjadi lambang” agar tidak berulang.",
+      "translation_quote": "awan melambangkan lambang keraguan, keputusasaan, dan patah semangat yang paling nyata"
+    },
+    {
+      "location": "Artikel, paragraf tentang awan stratus",
+      "severity": "minor",
+      "source_quote": "with an arsenal of gloom that rankles our hearts to the core",
+      "suggested_fix": "Ganti “persediaan kesuraman” dengan ungkapan idiomatis seperti “segudang kesuraman”.",
+      "translation_quote": "dengan persediaan kesuraman yang membuat hati kita gusar sampai ke lubuknya"
     }
   ],
+  "finished_at": "2026-10-10T21:32:19+00:00",
   "id": "7117621457fb3b6cf25c235b6cc49532",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ind",
@@ -167,13 +194,13 @@
   },
   "plain_policy_resumed": true,
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f21854eda9595c6207cdc4cbcb742b192d11d5881fa07482e9893a209054724e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
   "translation_model_actual": "gpt-6-luna"

@@ -2,7 +2,6 @@
   "article_id": "706a8a3f-0194-434e-a3c9-27c1635ec6f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a1c9d1347c5144c795ed7372ce320e67",
   "campaign": "gh-37754206621",
   "created_at": "2026-10-08T09:14:26+00:00",
   "events": [
@@ -65,32 +64,47 @@
         },
         "total_tokens": 11651
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1044,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 871,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7732,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6629,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8776
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph beginning “בתנ״ך שבידינו כיום”",
+      "location": "Paragraph beginning “אלוהים הפגין נאמנות לברית”",
       "severity": "major",
-      "source_quote": "“In our Bibles today we have the Old and the New Testament. This refers to the Old and the New Covenant.”",
-      "suggested_fix": "Replace “בתנ״ך שבידינו כיום יש את הברית הישנה ואת הברית החדשה” with “בכתבי הקודש שבידינו כיום יש את הברית הישנה ואת הברית החדשה” to avoid identifying the whole Bible as the Tanakh, which excludes the New Testament.",
-      "translation_quote": "“בתנ״ך שבידינו כיום יש את הברית הישנה ואת הברית החדשה.”"
+      "source_quote": "God demonstrated covenant faithfulness in his dealings with His Old Testament bride—the nation of Israel.",
+      "suggested_fix": "אלוהים הפגין נאמנות לברית ביחסיו עם ישראל, כלתו בתקופת הברית הישנה.",
+      "translation_quote": "אלוהים הפגין נאמנות לברית ביחסיו עם כלתו של הברית הישנה — עם ישראל."
     },
     {
-      "location": "Alt text for image 1",
+      "location": "section metadata",
       "severity": "minor",
-      "source_quote": "“Two white roses with sprigs of small white flowers”",
-      "suggested_fix": "Change “שתי ורדים” to “שני ורדים” for grammatical gender agreement.",
-      "translation_quote": "“שתי ורדים לבנים וענפים קטנים של פרחים לבנים”"
-    },
-    {
-      "location": "Section field",
-      "severity": "minor",
-      "source_quote": "“THE GODLY HOME”",
-      "suggested_fix": "Use a natural Hebrew rendering such as “הבית הירא את אלוהים”.",
-      "translation_quote": "“הבית ירא האלוהים”"
+      "source_quote": "THE GODLY HOME",
+      "suggested_fix": "הבית האלוהי",
+      "translation_quote": "הבית ירא האלוהים"
     }
   ],
+  "finished_at": "2026-10-10T21:32:19+00:00",
   "id": "a3a9947b913282b5042530d2e5cbc125",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "heb",
@@ -187,7 +201,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a3fc283eb947ef99e876e8afba3ef1d43bc01d233e2196bf30ca955f984dd828.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d4cafddce39323887fbc879db62ceec7af4d06d79d037a4e8d396a68a0d03e7f",
   "translation_model_actual": "gpt-6-luna"

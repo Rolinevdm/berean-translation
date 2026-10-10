@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T21:32:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Artikel, paragraf tentang makna awan bagi Ayub dan Yeremia\",\"severity\":\"minor\",\"source_quote\":\"the cloud represented the ultimate emblem of doubt, despair, and discouragement\",\"suggested_fix\":\"Ganti “melambangkan lambang” dengan “menjadi lambang” agar tidak berulang.\",\"translation_quote\":\"awan melambangkan lambang keraguan, keputusasaan, dan patah semangat yang paling nyata\"},{\"location\":\"Artikel, paragraf tentang awan stratus\",\"severity\":\"minor\",\"source_quote\":\"with an arsenal of gloom that rankles our hearts to the core\",\"suggested_fix\":\"Ganti “persediaan kesuraman” dengan ungkapan idiomatis seperti “segudang kesuraman”.\",\"translation_quote\":\"dengan persediaan kesuraman yang membuat hati kita gusar sampai ke lubuknya\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 824,
+    "content_evidence_truncated": false,
+    "content_sha256": "90cacc02da4827e15a2a752593d0fc4db7dab6feac8e448abe8167e956744f0a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 988,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 770,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9210,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8107,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10198
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

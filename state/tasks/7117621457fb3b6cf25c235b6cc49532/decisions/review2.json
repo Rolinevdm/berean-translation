@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Artikel, paragraf tentang makna awan bagi Ayub dan Yeremia",
+      "severity": "minor",
+      "source_quote": "the cloud represented the ultimate emblem of doubt, despair, and discouragement",
+      "suggested_fix": "Ganti “melambangkan lambang” dengan “menjadi lambang” agar tidak berulang.",
+      "translation_quote": "awan melambangkan lambang keraguan, keputusasaan, dan patah semangat yang paling nyata"
+    },
+    {
+      "location": "Artikel, paragraf tentang awan stratus",
+      "severity": "minor",
+      "source_quote": "with an arsenal of gloom that rankles our hearts to the core",
+      "suggested_fix": "Ganti “persediaan kesuraman” dengan ungkapan idiomatis seperti “segudang kesuraman”.",
+      "translation_quote": "dengan persediaan kesuraman yang membuat hati kita gusar sampai ke lubuknya"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

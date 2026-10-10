@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "701eef02-312e-4d3c-826f-0e0b84630980",
+    "response_id": "chatcmpl-EXP9wmvqqsTNrPuQHGkT3VV4MkY7c",
+    "usage": {
+      "completion_tokens": 881,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 760,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4540,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3437,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5421
+    }
+  },
+  "received_at": "2026-10-10T21:32:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Salme 40:17; siste kursiverte avsnitt",
+        "severity": "minor",
+        "source_quote": "I am poor and needy; yet the Lord thinketh upon me",
+        "suggested_fix": "Men jeg er fattig og trengende, men Herren tenker likevel på meg.",
+        "translation_quote": "Men jeg er fattig og trengende, og Herren tenker på meg."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

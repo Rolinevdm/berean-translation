@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6f67e797-32de-40dd-831e-9b9876b412ea",
+    "response_id": "chatcmpl-EXP9orpB0KMio9JuV394TIYAqzQi5",
+    "usage": {
+      "completion_tokens": 1044,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 871,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7732,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6629,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8776
+    }
+  },
+  "received_at": "2026-10-10T21:32:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “אלוהים הפגין נאמנות לברית”",
+        "severity": "major",
+        "source_quote": "God demonstrated covenant faithfulness in his dealings with His Old Testament bride—the nation of Israel.",
+        "suggested_fix": "אלוהים הפגין נאמנות לברית ביחסיו עם ישראל, כלתו בתקופת הברית הישנה.",
+        "translation_quote": "אלוהים הפגין נאמנות לברית ביחסיו עם כלתו של הברית הישנה — עם ישראל."
+      },
+      {
+        "location": "section metadata",
+        "severity": "minor",
+        "source_quote": "THE GODLY HOME",
+        "suggested_fix": "הבית האלוהי",
+        "translation_quote": "הבית ירא האלוהים"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

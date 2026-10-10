@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "89a1b066-d0bd-4a4f-89f1-bbf3b6965951",
+    "response_id": "chatcmpl-EXP9pomnVkPz6TXawQUOhzJoMCXPh",
+    "usage": {
+      "completion_tokens": 723,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 632,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7570,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6467,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8293
+    }
+  },
+  "received_at": "2026-10-10T21:32:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Absatz nach „Wenn ein Ehepaar körperlich eins wird“",
+        "severity": "minor",
+        "source_quote": "“precious ‘little ones’”",
+        "suggested_fix": "„kostbarer kleiner Kinder“",
+        "translation_quote": "„Kleiner“"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

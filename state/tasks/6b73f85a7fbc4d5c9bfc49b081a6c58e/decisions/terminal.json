@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph beginning “আগামীকাল কী হবে, তোমরা তা জানো না” (1 Pet 4:1)",
+      "severity": "major",
+      "source_quote": "While those who, in ages past, suffered in the flesh and ceased from sin (1 Pet 4:1), I see no reason why those who experience the frail sufferings of a clouded mind may not share the same glory if they will but endure and trust to God the results.",
+      "suggested_fix": "অতীত যুগে যারা দেহে দুঃখভোগ করে পাপ থেকে বিরত হয়েছিলেন (১ পিতর ৪:১), তেমনি মেঘাচ্ছন্ন মনের ভঙ্গুর দুঃখভোগের মধ্য দিয়ে যারা যান, তারা ধৈর্য ধরে ফলাফল ঈশ্বরের হাতে সঁপে দিলে একই মহিমার অংশীদার হতে পারবেন না—এমন কোনো কারণ আমি দেখি না।",
+      "translation_quote": "অতীত যুগে যারা দেহে দুঃখভোগ করে পাপ থেকে বিরত হয়েছিলেন (১ পিতর ৪:১), তাদের কথা থাক; আমার তো কোনো কারণ দেখি না যে মেঘাচ্ছন্ন মনের ভঙ্গুর দুঃখভোগের মধ্য দিয়ে যারা যান, তারা ধৈর্য ধরে ঈশ্বরের হাতে ফলাফল সঁপে দিলে একই মহিমার অংশীদার হতে পারবেন না।"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

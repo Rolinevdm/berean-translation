@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First descriptive paragraph after the first <hr>",
+      "severity": "minor",
+      "source_quote": "perfect and peaceful, unmarred by failure",
+      "suggested_fix": "vollkommen und friedlich, von keinem Makel getrübt",
+      "translation_quote": "vollkommen und friedlich, ungetrübt von einem Missgeschick"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

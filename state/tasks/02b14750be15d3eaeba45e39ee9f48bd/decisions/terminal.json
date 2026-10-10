@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “Here in Haiti there was a man…”",
+      "severity": "major",
+      "source_quote": "He told me that if God would heal him, he would serve him and trust him for the rest of his life.",
+      "suggested_fix": "Aliniambia kwamba Mungu angemponya, naye angemtii na kumtumaini Mungu maisha yake yote yaliyosalia.",
+      "translation_quote": "Aliniambia kwamba Mungu angemponya, naye angemwabudu na kumtumaini Mungu maisha yake yote yaliyosalia."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

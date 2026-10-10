@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6de99816-65c3-420f-b927-7c6495521d6a",
+    "response_id": "chatcmpl-EXPA3u0gjBWIVh2Nc0k1BEEtHvcZ0",
+    "usage": {
+      "completion_tokens": 936,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 817,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9752,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8649,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10688
+    }
+  },
+  "received_at": "2026-10-10T21:32:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 17",
+        "severity": "minor",
+        "source_quote": "I remember traveling through the airport with a small group.",
+        "suggested_fix": "Θυμάμαι μια φορά που περνούσα από το αεροδρόμιο με μια μικρή ομάδα.",
+        "translation_quote": "Θυμάμαι μια φορά που ταξίδευα στο αεροδρόμιο με μια μικρή ομάδα."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

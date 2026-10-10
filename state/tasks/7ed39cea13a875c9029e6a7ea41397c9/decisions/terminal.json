@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 17",
+      "severity": "minor",
+      "source_quote": "I remember traveling through the airport with a small group.",
+      "suggested_fix": "Θυμάμαι μια φορά που περνούσα από το αεροδρόμιο με μια μικρή ομάδα.",
+      "translation_quote": "Θυμάμαι μια φορά που ταξίδευα στο αεροδρόμιο με μια μικρή ομάδα."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

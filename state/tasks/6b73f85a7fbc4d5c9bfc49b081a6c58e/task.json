@@ -2,7 +2,6 @@
   "article_id": "3dd1acd1-f006-4519-b75c-577439a8b95c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a1c9d1347c5144c795ed7372ce320e67",
   "campaign": "gh-37754206621",
   "created_at": "2026-10-08T09:14:26+00:00",
   "events": [
@@ -65,18 +64,40 @@
         },
         "total_tokens": 15347
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1359,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10099,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8996,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11458
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "“...ভালোবাসা” section, first sentence",
+      "location": "Article paragraph beginning “আগামীকাল কী হবে, তোমরা তা জানো না” (1 Pet 4:1)",
       "severity": "major",
-      "source_quote": "There is a wistful tenderness in love that nothing but uncertainty can give.",
-      "suggested_fix": "অনিশ্চয়তা ছাড়া আর কিছুই ভালোবাসায় এমন আকুল কোমলতা এনে দিতে পারে না।",
-      "translation_quote": "ভালোবাসায় এমন এক আকুল কোমলতা আছে, যা অনিশ্চয়তা ছাড়া আর কিছু দিতে পারে না।"
+      "source_quote": "While those who, in ages past, suffered in the flesh and ceased from sin (1 Pet 4:1), I see no reason why those who experience the frail sufferings of a clouded mind may not share the same glory if they will but endure and trust to God the results.",
+      "suggested_fix": "অতীত যুগে যারা দেহে দুঃখভোগ করে পাপ থেকে বিরত হয়েছিলেন (১ পিতর ৪:১), তেমনি মেঘাচ্ছন্ন মনের ভঙ্গুর দুঃখভোগের মধ্য দিয়ে যারা যান, তারা ধৈর্য ধরে ফলাফল ঈশ্বরের হাতে সঁপে দিলে একই মহিমার অংশীদার হতে পারবেন না—এমন কোনো কারণ আমি দেখি না।",
+      "translation_quote": "অতীত যুগে যারা দেহে দুঃখভোগ করে পাপ থেকে বিরত হয়েছিলেন (১ পিতর ৪:১), তাদের কথা থাক; আমার তো কোনো কারণ দেখি না যে মেঘাচ্ছন্ন মনের ভঙ্গুর দুঃখভোগের মধ্য দিয়ে যারা যান, তারা ধৈর্য ধরে ঈশ্বরের হাতে ফলাফল সঁপে দিলে একই মহিমার অংশীদার হতে পারবেন না।"
     }
   ],
+  "finished_at": "2026-10-10T21:32:19+00:00",
   "id": "6b73f85a7fbc4d5c9bfc49b081a6c58e",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "ben",
@@ -173,7 +194,7 @@
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f21854eda9595c6207cdc4cbcb742b192d11d5881fa07482e9893a209054724e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5e08311e38de27f67efb33e0f8866913925fb09e3540e0acb41c4bd0fc8eda61",
   "translation_model_actual": "gpt-6-luna"

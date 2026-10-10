@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cb3902b1-da74-4232-b6b4-2c7b5ccc1284",
+    "response_id": "chatcmpl-EXP9ob7GB6gSOHKSJOCBaCBrYhGP0",
+    "usage": {
+      "completion_tokens": 788,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 684,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9501,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9498,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10289
+    }
+  },
+  "received_at": "2026-10-10T21:32:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Miaka iliyopita,”",
+        "severity": "minor",
+        "source_quote": "“(1 Pet 4:1)”",
+        "suggested_fix": "Use the conventional Kiswahili book name: “(1 Petro 4:1)”.",
+        "translation_quote": "“(1 Pet 4:1)”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

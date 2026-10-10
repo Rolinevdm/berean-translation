@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “אלוהים הפגין נאמנות לברית”",
+      "severity": "major",
+      "source_quote": "God demonstrated covenant faithfulness in his dealings with His Old Testament bride—the nation of Israel.",
+      "suggested_fix": "אלוהים הפגין נאמנות לברית ביחסיו עם ישראל, כלתו בתקופת הברית הישנה.",
+      "translation_quote": "אלוהים הפגין נאמנות לברית ביחסיו עם כלתו של הברית הישנה — עם ישראל."
+    },
+    {
+      "location": "section metadata",
+      "severity": "minor",
+      "source_quote": "THE GODLY HOME",
+      "suggested_fix": "הבית האלוהי",
+      "translation_quote": "הבית ירא האלוהים"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

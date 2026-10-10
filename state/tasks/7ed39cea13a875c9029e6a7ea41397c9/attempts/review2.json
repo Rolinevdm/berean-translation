@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-10T21:32:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 17\",\"severity\":\"minor\",\"source_quote\":\"I remember traveling through the airport with a small group.\",\"suggested_fix\":\"Θυμάμαι μια φορά που περνούσα από το αεροδρόμιο με μια μικρή ομάδα.\",\"translation_quote\":\"Θυμάμαι μια φορά που ταξίδευα στο αεροδρόμιο με μια μικρή ομάδα.\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 470,
+    "content_evidence_truncated": false,
+    "content_sha256": "fe666eb73b7452ac0953dd0df2f4c385357b8a51cf20543e04164c3f674e6699",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 936,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 817,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9752,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8649,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10688
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Salme 40:17; siste kursiverte avsnitt",
+      "severity": "minor",
+      "source_quote": "I am poor and needy; yet the Lord thinketh upon me",
+      "suggested_fix": "Men jeg er fattig og trengende, men Herren tenker likevel på meg.",
+      "translation_quote": "Men jeg er fattig og trengende, og Herren tenker på meg."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

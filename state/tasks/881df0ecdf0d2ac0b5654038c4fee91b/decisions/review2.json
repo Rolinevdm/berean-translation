@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Segundo parágrafo",
+      "severity": "minor",
+      "source_quote": "most mainstream churches",
+      "suggested_fix": "a maioria das igrejas convencionais",
+      "translation_quote": "a maioria das igrejas tradicionais"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
