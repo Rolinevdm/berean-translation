@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "bf545069-b0d6-481f-bc0c-320f45e4ab0a",
+    "response_id": "chatcmpl-EXZrYoUFEn22vaHvFWRB9rK1tWvSc",
+    "usage": {
+      "completion_tokens": 342,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 87,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7883,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6780,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8225
+    }
+  },
+  "received_at": "2026-10-10T22:32:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: kutipan 1 Samuel 17:28-29 dalam paragraf yang dimulai dengan “Ketika Daud bangun pagi-pagi”",
+        "severity": "major",
+        "source_quote": "I know thy pride, and the naughtiness of thine heart",
+        "suggested_fix": "Ganti “Aku kenal sifat pemberanimu dan hatimu yang jahat” dengan “Aku tahu kesombonganmu dan kejahatan hatimu”.",
+        "translation_quote": "Aku kenal sifat pemberanimu dan hatimu yang jahat"
+      },
+      {
+        "location": "html: paragraf pembuka, ungkapan tentang keberhasilan yang diharapkan",
+        "severity": "minor",
+        "source_quote": "secretly hope that there will come a day when our own “ship will come in” in a similar fashion",
+        "suggested_fix": "Ganti “suatu hari ‘kapal kita akan datang’ dengan cara serupa” dengan “suatu hari keberuntungan akan berpihak kepada kita dengan cara serupa”.",
+        "translation_quote": "diam-diam berharap bahwa suatu hari “kapal kita akan datang” dengan cara serupa"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
