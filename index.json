@@ -11493,6 +11493,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
+      "html_sha256": "d7bb3ea1b86500247fd3a52714f3f93e10e28c4de60359053a75f789bb4f1f61",
+      "human_reviewed": false,
+      "id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "images": [
+        {
+          "alt": "一位牧羊人带领羊群穿过多岩石的山谷",
+          "public_path": "/images/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.json",
+      "metadata_sha256": "3de92181f6c3fd1dd82112513352e31bac7350d8a8a09fb12e9c0dac320117fe",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "圣经教义",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "岂没有缘故吗？",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
       "html_sha256": "490b7849e059883f9d54a6d3969a05f54302a1b09112b076803d2ae9dbbe7bff",
       "human_reviewed": false,
@@ -45747,6 +45775,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/b8ff6643-9234-465f-ab06-4adfc189a851.html",
+      "html_sha256": "35edfefbd2d74301b437234cecc78f0167bfd021171783738b757f6d4c50f7d6",
+      "human_reviewed": false,
+      "id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "images": [
+        {
+          "alt": "Små lilla blomster foran grønne åser i mykt fokus",
+          "public_path": "/images/articles/b8ff6643-9234-465f-ab06-4adfc189a851-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/b8ff6643-9234-465f-ab06-4adfc189a851.json",
+      "metadata_sha256": "4da066e83326dd7ca0a18888482b65ed4c50d442e89cd32d7e5aea35a394fede",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "FRA REDAKTØREN",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Fra redaktøren",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/b9a7b1b8-0a23-4e53-b835-31bf5a42dc33.html",
       "html_sha256": "033982ee18734766928a78ff641d1775a6ad7325130e0f7b84c2dfe4dc31eebc",
       "human_reviewed": false,
@@ -53698,6 +53754,29 @@
       "subtitle": null,
       "title": "В память о «брате Моузе»",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/ca5d0d5f-aedd-4e20-ab52-6a31c34a8873.html",
+      "html_sha256": "4da6851e59889421de9d0a1086741de36dcddb35c2f9d30fb6227a77b076a0ac",
+      "human_reviewed": false,
+      "id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
+      "images": [],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/ca5d0d5f-aedd-4e20-ab52-6a31c34a8873.json",
+      "metadata_sha256": "8d257c44718721c350b6462cbc904dd9a5b30e6380c09f981b41b339026f6c1a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "РАЗМЫШЛЕНИЯ МИССИОНЕРА",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Гордость или смирение?",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
