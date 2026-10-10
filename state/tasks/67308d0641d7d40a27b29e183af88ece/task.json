@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cdade7f58dbc4ec49b4410c230004f09",
   "campaign": "auto-1be759ba164c739bebc9068e035a7fc8184a9b55bc45a68c4e6b2ae412690124",
   "created_at": "2026-10-10T19:17:24+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 317,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 99,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8908,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7805,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9225
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, paragraph 5",
+      "severity": "minor",
+      "source_quote": "when people push the law, doing the least that is required, but still technically keeping the law",
+      "suggested_fix": "Replace “watu wanaposisitiza sheria” with “watu wanapojaribu kufikia mipaka ya sheria” to convey testing its limits rather than insisting on it; retain the following explanation.",
+      "translation_quote": "watu wanaposisitiza sheria, wakifanya kiwango cha chini kabisa kinachotakiwa, lakini bado wakitii sheria kitaalamu"
+    },
+    {
+      "location": "translation.html, paragraph 31",
+      "severity": "minor",
+      "source_quote": "Be done with lesser things!",
+      "suggested_fix": "Replace “Acha mambo yasiyo na maana!” with “Acha mambo yenye umuhimu mdogo!” to preserve the comparative sense without declaring those things meaningless.",
+      "translation_quote": "Acha mambo yasiyo na maana!"
+    }
+  ],
+  "finished_at": "2026-10-10T21:32:44+00:00",
   "id": "67308d0641d7d40a27b29e183af88ece",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "swa",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/1a6e13404439656301dda4b3ceebdc0089daf61fb58de05f35974c3d916aab6b.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.756568,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
   "translation_model_actual": "gpt-6-luna"

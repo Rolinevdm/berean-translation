@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "29919b11-9fff-4ea7-b8b5-f4ce1ff16326",
+    "response_id": "chatcmpl-EXWsVDJuZqwRvdmiZXZdLIlgN2eMc",
+    "usage": {
+      "completion_tokens": 317,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 99,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8908,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7805,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9225
+    }
+  },
+  "received_at": "2026-10-10T21:32:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragraph 5",
+        "severity": "minor",
+        "source_quote": "when people push the law, doing the least that is required, but still technically keeping the law",
+        "suggested_fix": "Replace “watu wanaposisitiza sheria” with “watu wanapojaribu kufikia mipaka ya sheria” to convey testing its limits rather than insisting on it; retain the following explanation.",
+        "translation_quote": "watu wanaposisitiza sheria, wakifanya kiwango cha chini kabisa kinachotakiwa, lakini bado wakitii sheria kitaalamu"
+      },
+      {
+        "location": "translation.html, paragraph 31",
+        "severity": "minor",
+        "source_quote": "Be done with lesser things!",
+        "suggested_fix": "Replace “Acha mambo yasiyo na maana!” with “Acha mambo yenye umuhimu mdogo!” to preserve the comparative sense without declaring those things meaningless.",
+        "translation_quote": "Acha mambo yasiyo na maana!"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}
