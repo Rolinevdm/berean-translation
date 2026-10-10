@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "bbe0a894-d850-4123-b6cb-7bf78e2352f0",
+    "response_id": "chatcmpl-EXZ71FcgABfZIstFBHAXphGsbdyYh",
+    "usage": {
+      "completion_tokens": 325,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 54,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8743,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7640,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9068
+    }
+  },
+  "received_at": "2026-10-10T22:27:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraf 5, kalimat terakhir",
+        "severity": "major",
+        "source_quote": "when people push the law, doing the least that is required, but still technically keeping the law",
+        "suggested_fix": "Ganti “mendorong penerapan hukum” dengan “menguji batas-batas hukum” sehingga kalimatnya berbunyi: “Kita dapat melihatnya dengan jelas ketika orang-orang menguji batas-batas hukum, melakukan sesedikit mungkin yang diwajibkan, tetapi tetap secara teknis menaati hukum.”",
+        "translation_quote": "ketika orang-orang mendorong penerapan hukum, melakukan sesedikit mungkin yang diwajibkan, tetapi tetap secara teknis menaati hukum"
+      },
+      {
+        "location": "html, paragraf 26",
+        "severity": "minor",
+        "source_quote": "I spent most of my childhood and teenage years going to anger management classes",
+        "suggested_fix": "Ganti “Sebagian besar masa kanak-kanak dan remaja saya saya habiskan” dengan “Saya menghabiskan sebagian besar masa kanak-kanak dan remaja saya”.",
+        "translation_quote": "Sebagian besar masa kanak-kanak dan remaja saya saya habiskan"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
