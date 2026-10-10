@@ -1,34 +1,38 @@
 {
   "campaign": "auto-ba651d26b8c9af72e506427f06bf06a87e90a3e4579054671b74d894a9686222",
+  "collected_at": "2026-10-10T21:33:11+00:00",
+  "completed_at": "2026-10-10T21:33:11+00:00",
   "created_at": "2026-10-10T19:20:19+00:00",
   "custom_ids": [
     "1ad4780de32b6f51df6b54913e07bbb4:review1"
   ],
   "id": "16621fce84c446568779ce7f3d253cf2",
   "input_file_id": "file-HfAByW8nWGRs2CFCNqZ6QB",
+  "last_collector_visit_at": "2026-10-10T21:33:10+00:00",
+  "last_polled_at": "2026-10-10T21:33:10+00:00",
   "model": "gpt-6.1-sol",
   "payload_sha256": "f2960e7175bf4d97667f5a350b6b8ac65e80adaf3393e5c939d3063168a10575",
   "remote_cancelled_at": null,
   "remote_cancelling_at": null,
-  "remote_completed_at": null,
+  "remote_completed_at": 1791660040,
   "remote_created_at": 1791660024,
   "remote_errors": [],
   "remote_expired_at": null,
   "remote_expires_at": 1791746424,
   "remote_failed_at": null,
-  "remote_finalizing_at": null,
+  "remote_finalizing_at": 1791660038,
   "remote_id": "batch_6aca8ff8c99081908f74e1ff749d05e6",
-  "remote_in_progress_at": null,
-  "remote_observed_at": "2026-10-10T19:20:24+00:00",
+  "remote_in_progress_at": 1791660025,
+  "remote_observed_at": "2026-10-10T21:33:10+00:00",
   "remote_request_counts": {
-    "completed": 0,
+    "completed": 1,
     "failed": 0,
-    "total": 0
+    "total": 1
   },
-  "remote_status": "validating",
+  "remote_status": "completed",
   "reserved_usd": 0.101365,
   "stage": "review1",
-  "status": "submitted",
+  "status": "collected",
   "submission_started_at": "2026-10-10T19:20:23+00:00",
   "tasks": [
     "1ad4780de32b6f51df6b54913e07bbb4"

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "html, абзац «Для начала посмотрим на Закон и благодать»",
+      "severity": "major",
+      "source_quote": "when people push the law, doing the least that is required, but still technically keeping the law",
+      "suggested_fix": "Заменить «когда люди настаивают на соблюдении закона» на «когда люди испытывают границы дозволенного законом», сохранив продолжение предложения.",
+      "translation_quote": "когда люди настаивают на соблюдении закона, делая лишь минимум требуемого, но формально все же исполняя его"
+    },
+    {
+      "location": "html, цитата 1 Царств 17:38-39",
+      "severity": "major",
+      "source_quote": "And Saul armed David with his armour ... And David girded his sword upon his armour",
+      "suggested_fix": "Заменить «И одел Саул Давида в свои одежды» на «И облачил Саул Давида в свои доспехи», а «поверх одежды» — на «поверх доспехов».",
+      "translation_quote": "И одел Саул Давида в свои одежды ... И опоясался Давид мечом его поверх одежды"
+    },
+    {
+      "location": "html, цитата 1 Царств 17:42-44",
+      "severity": "major",
+      "source_quote": "Am I a dog, that thou comest to me with staves?",
+      "suggested_fix": "Заменить «что ты идешь на меня с палками?» на «Разве я собака, что ты идешь на меня с палками?» внутри существующего тега <em>.",
+      "translation_quote": "что ты идешь на меня с палками?"
+    },
+    {
+      "location": "html, цитата Псалом 119:21",
+      "severity": "major",
+      "source_quote": "Thou hast rebuked the proud that are cursed, which do err from thy commandments",
+      "suggested_fix": "Заменить текст цитаты на «Ты укорил проклятых надменных, которые уклоняются от Твоих заповедей», сохранив тег <em> и ссылку «— Псалом 119:21».",
+      "translation_quote": "Ты укорил надменных; прокляты уклоняющиеся от заповедей Твоих"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
