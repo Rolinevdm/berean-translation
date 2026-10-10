@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html / translation.html — paragraphe citant 1 Samuel 17:34-36",
+      "severity": "major",
+      "source_quote": "And I went out after him, and smote him, and delivered it out of his mouth: and when he arose against me, I caught him by his beard, and smote him, and slew him.",
+      "suggested_fix": "Remplacer les deux phrases concernées par : « Je partis à sa poursuite, le frappai et arrachai l’agneau de sa gueule ; et lorsqu’il se dressa contre moi, je le saisis par la barbe, le frappai et le tuai. »",
+      "translation_quote": "Je partis à leur poursuite, frappai le lion et l’ours, et arrachai l’agneau de la gueule du lion. Quand le lion se dressait contre moi, je le saisissais par la barbe, je le frappais et le tuais."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
