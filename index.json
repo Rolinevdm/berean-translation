@@ -2156,6 +2156,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.html",
+      "html_sha256": "91b5c60bbec132e063fa5b763cd792fca0f4c225ec45ccf80332d6134b713c59",
+      "human_reviewed": false,
+      "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "images": [
+        {
+          "alt": "’n Duikboot wat op die see se oppervlak vaar",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg"
+        },
+        {
+          "alt": "’n Historiese illustrasie van ’n Kwaker wat ’n inheemse persoon in Pennsilvanië omhels",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.json",
+      "metadata_sha256": "3e12db14797949f05797243ec8e031f45ead309bb751f1a946e7426c4e17f53c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Van die redakteur",
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van die redakteur",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/8d1b7c4e-266c-4820-ac8b-ab0b2be527f4.html",
       "html_sha256": "5f4cfa91b205ecc704178a5cb2f6951a9aaa9479d02806d35ddd2c6885ea3fee",
       "human_reviewed": false,
@@ -5465,6 +5497,38 @@
       "subtitle": null,
       "title": "ماذا ترى؟",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.html",
+      "html_sha256": "65272ec5ab6df40f1f1eb2590dd2b593c20ff46b0677bf89f877ed8e4ccc9b3a",
+      "human_reviewed": false,
+      "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "images": [
+        {
+          "alt": "غواصة تمخر سطح البحر",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg"
+        },
+        {
+          "alt": "رسم تاريخي لكويكري يعانق أحد السكان الأصليين في بنسلفانيا",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.json",
+      "metadata_sha256": "5409d39571558c7c729c698c17ecd9beb891803acacd61a4a806273b0eda5b49",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "من المحرر",
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+      "status": "ready",
+      "subtitle": null,
+      "title": "من المحرر",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -11667,6 +11731,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.html",
+      "html_sha256": "7062f80e47899d6842a4683330257668dbf0071a64275068693ed44a0cc58459",
+      "human_reviewed": false,
+      "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "images": [
+        {
+          "alt": "一艘潜艇在海面上航行",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg"
+        },
+        {
+          "alt": "一幅历史插图，描绘一位贵格会教徒在宾夕法尼亚拥抱一位原住民",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.json",
+      "metadata_sha256": "a607c52ebc2785f7a8f50d82cf617ab4b4b30f0f7ac12e6010955a6aec28bf84",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "编者的话",
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+      "status": "ready",
+      "subtitle": null,
+      "title": "编者的话",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
       "html_sha256": "2fbe0cd645dbe3a9a163e74c8be78d917990a4a5efbc7e0545d80522fee1359c",
       "human_reviewed": false,
@@ -14991,6 +15087,34 @@
       "subtitle": null,
       "title": "Umständebedingte Überlastung",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
+      "html_sha256": "f1e72d46e87e73d8c418ea297d6734a99739486b9a3727c194f1a675b1d7faed",
+      "human_reviewed": false,
+      "id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "images": [
+        {
+          "alt": "Ein Hirte führt eine Herde durch ein felsiges Gebirgstal",
+          "public_path": "/images/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.json",
+      "metadata_sha256": "82307ecf050495711a7090ee9969b07fde76f296eec48687e5f9578a9ef87c8b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "BIBLISCHE LEHREN",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Gibt es nicht einen Grund?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -21129,6 +21253,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "b57311fd1afd249042a8b2008f3dd875383ab4a1d28a4e73e1d7d2235eb519b1",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "Cadran d’une horloge ancienne avec des chiffres romains et un petit compteur des secondes",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "6975faebd56cd482b76c10e3dae3e214bf032b04527160112e849e34e2bb27fd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "Comment les adolescents ordinaires peuvent tirer le meilleur parti de leur jeunesse",
+      "title": "Tirer le meilleur parti de ses années d’adolescence",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.html",
       "html_sha256": "7f6f063d3edd746352810097347694a038d07ae1fbaaf221e773ec4a999ed441",
       "human_reviewed": false,
@@ -26615,6 +26767,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "914b71e973ad913fcb3e4ac4650330c972f098c7b90f9a6f58a2f6553bb77c13",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "रोमन अंकों और सेकंड दिखाने वाली छोटी सूई सहित एक पुरानी घड़ी का डायल",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "94225333057c1a443c78b62a2ead6ba4ea865f429e02f66b8fa0735b68c4f25f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "सामान्य किशोर अपनी युवावस्था का अधिकतम लाभ कैसे उठा सकते हैं",
+      "title": "अपनी किशोरावस्था का अधिकतम लाभ उठाना",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.html",
       "html_sha256": "ede84daabfe7dd5008a8626ecdffd992f0e3e731033aebdf61cc87cb3311fe4a",
       "human_reviewed": false,
@@ -27077,6 +27257,38 @@
       "subtitle": null,
       "title": "तुम क्या देखते हो?",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.html",
+      "html_sha256": "223c89111fd400ebf08e5589593c7d8073fcb4a2fc5336329469ca2fe75541a1",
+      "human_reviewed": false,
+      "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "images": [
+        {
+          "alt": "समुद्र की सतह पर चलती एक पनडुब्बी",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg"
+        },
+        {
+          "alt": "पेंसिल्वेनिया में एक क्वेकर को एक मूलनिवासी व्यक्ति को गले लगाते हुए दर्शाता ऐतिहासिक चित्र",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.json",
+      "metadata_sha256": "2c1e809503e3bcfe46f6b28749d93d0268a84e553248a55cc6fa76ad3ffe321a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "संपादक की ओर से",
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+      "status": "ready",
+      "subtitle": null,
+      "title": "संपादक की ओर से",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -45473,6 +45685,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "3964e84190246b4429df197241ffe7f7611f2930f91eefa0f5e827407f57c9a7",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "En antikk urskive med romertall og en liten sekundviser",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "8d1f2eb3758fd16713559f17b356482a30aed58d2abbd01318078c09a5a51d2b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "Hvordan vanlige tenåringer kan få mest mulig ut av ungdomstiden",
+      "title": "Få mest mulig ut av tenårene dine",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/6485a6ed-e76f-4142-9e27-e649823cb1a3.html",
       "html_sha256": "eecae11b523693f52f61604aa323568908f9bfd9f4656019b5606f9ba6cba743",
       "human_reviewed": false,
@@ -49271,6 +49511,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "13652f209ef6a98fcc8548c229992500c8f87343594ad6dd3ec81ce540a16b2c",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "Mostrador de um relógio antigo com algarismos romanos e um pequeno mostrador de segundos",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "3046364c47a8b793a23a77cdd1cd0626781d5add380b4a77fdb64834321d5809",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "Como adolescentes comuns podem aproveitar ao máximo a juventude",
+      "title": "Aproveitando ao máximo a adolescência",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.html",
       "html_sha256": "c6cce51127e223ac0d5f63162e00cea4e121408b13e21b12c7ea846831f9a4e3",
       "human_reviewed": false,
@@ -49793,6 +50061,38 @@
       "subtitle": null,
       "title": "O que você vê?",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.html",
+      "html_sha256": "cfa339c0a7376d002ceadef20ad50ae96ec90450706d871c92c79e5cb3da01c0",
+      "human_reviewed": false,
+      "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "images": [
+        {
+          "alt": "Um submarino navegando à superfície do mar",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg"
+        },
+        {
+          "alt": "Uma ilustração histórica de um quacre abraçando uma pessoa indígena na Pensilvânia",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.json",
+      "metadata_sha256": "8b7da57337c6351197759c23d85ed34f75ef835278f718afde29af23f3b22a8c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Do editor",
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Do editor",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -59181,6 +59481,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
+      "html_sha256": "8f7b11934be70159a4ae3ab671d6a78a0c1a548da1fe096e7e7beef1ca0fc14d",
+      "human_reviewed": false,
+      "id": "d0898011-fe8b-4c35-9aac-12c20ec0d950",
+      "images": [
+        {
+          "alt": "Personas arrodilladas en oración durante una reunión de avivamiento",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-1.jpg"
+        },
+        {
+          "alt": "Una Biblia histórica abierta",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.json",
+      "metadata_sha256": "e75e6f9e45bd65ac3fe0ec5cec041b65ff39972d32f3994d32f114b9d23e3488",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Cristianismo pentagonal",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.html",
       "html_sha256": "7aecb114dd957e67e99239cc7c74254afe0176207a4578984cb243157a95e89e",
       "human_reviewed": false,
@@ -61023,6 +61355,38 @@
       "subtitle": null,
       "title": "Unaona Nini?",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.html",
+      "html_sha256": "c32867af5a666637c16bcbe1808af13d7c429397754a6749d4fc84a2586d1b9c",
+      "human_reviewed": false,
+      "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "images": [
+        {
+          "alt": "Nyambizi ikisafiri juu ya uso wa bahari",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg"
+        },
+        {
+          "alt": "Mchoro wa kihistoria wa Mkwaki akimkumbatia mwenyeji wa asili wa Pennsylvania",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.json",
+      "metadata_sha256": "8d9ed6e8a0f48b95988ad8c9d36032f5490bd36f2f213356e9309f04facac464",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Kutoka kwa Mhariri",
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kutoka kwa Mhariri",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -63622,6 +63986,34 @@
       "subtitle": null,
       "title": "Från redaktören",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "c28f4ebf7cabd61cd9347fa37b62e50515c189aa5757f9a0e8f9923749278efc",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "En antik urtavla med romerska siffror och en liten sekundvisartavla",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "711c0bb08e24bb6169159b11f3e99846d927a60d7ba86d411d62e3a3e5b3cd51",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "Hur vanliga tonåringar kan få ut så mycket som möjligt av sin ungdom",
+      "title": "Att ta vara på tonåren",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
