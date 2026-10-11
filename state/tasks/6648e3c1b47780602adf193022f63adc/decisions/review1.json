@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "html: paragraph beginning “Goliat het vanselfsprekend aangeneem”",
+      "severity": "major",
+      "source_quote": "the stopping power of a 45 mm handgun",
+      "suggested_fix": "Vervang “’n .45-kaliber-handwapen” met “’n 45 mm-handwapen” om die bron se gedrukte maat te behou.",
+      "translation_quote": "die trefkrag van ’n .45-kaliber-handwapen"
+    },
+    {
+      "location": "html: paragraph beginning “Maar Dawid het nie”",
+      "severity": "major",
+      "source_quote": "the butler’s delusion",
+      "suggested_fix": "Vervang “die skinker se misleiding” met “die skinker se wanbegrip”.",
+      "translation_quote": "die skinker se misleiding"
+    },
+    {
+      "location": "html: paragraph beginning “Onbesorgde apatie”",
+      "severity": "major",
+      "source_quote": "As a holocaust prisoner in a Nazi concentration camp, Victor Frankl",
+      "suggested_fix": "Vervang “As ’n slagoffer in ’n Nazi-konsentrasiekamp” met “As ’n gevangene van die Holocaust in ’n Nazi-konsentrasiekamp”.",
+      "translation_quote": "As ’n slagoffer in ’n Nazi-konsentrasiekamp"
+    },
+    {
+      "location": "html: paragraph beginning “Maar Dawid het nie”",
+      "severity": "minor",
+      "source_quote": "But David carried no such reactive mission.",
+      "suggested_fix": "Vervang “reaksionêre missie” met “reaktiewe missie”; “reaksionêr” dui gewoonlik op politieke of maatskaplike teenstand teen verandering, nie op die reaktiewe gedrag wat hier bespreek word nie.",
+      "translation_quote": "Maar Dawid het nie so ’n reaksionêre missie gehad nie."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

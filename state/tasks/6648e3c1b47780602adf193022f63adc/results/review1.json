@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "442a2ecd-0d59-40e7-8b61-580be2d8c002",
+    "response_id": "chatcmpl-EXoeYpEbaF55HQdOV1bUj71NqAXPX",
+    "usage": {
+      "completion_tokens": 554,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 67,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8214,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8211,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8768
+    }
+  },
+  "received_at": "2026-10-11T15:36:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: paragraph beginning “Goliat het vanselfsprekend aangeneem”",
+        "severity": "major",
+        "source_quote": "the stopping power of a 45 mm handgun",
+        "suggested_fix": "Vervang “’n .45-kaliber-handwapen” met “’n 45 mm-handwapen” om die bron se gedrukte maat te behou.",
+        "translation_quote": "die trefkrag van ’n .45-kaliber-handwapen"
+      },
+      {
+        "location": "html: paragraph beginning “Maar Dawid het nie”",
+        "severity": "major",
+        "source_quote": "the butler’s delusion",
+        "suggested_fix": "Vervang “die skinker se misleiding” met “die skinker se wanbegrip”.",
+        "translation_quote": "die skinker se misleiding"
+      },
+      {
+        "location": "html: paragraph beginning “Onbesorgde apatie”",
+        "severity": "major",
+        "source_quote": "As a holocaust prisoner in a Nazi concentration camp, Victor Frankl",
+        "suggested_fix": "Vervang “As ’n slagoffer in ’n Nazi-konsentrasiekamp” met “As ’n gevangene van die Holocaust in ’n Nazi-konsentrasiekamp”.",
+        "translation_quote": "As ’n slagoffer in ’n Nazi-konsentrasiekamp"
+      },
+      {
+        "location": "html: paragraph beginning “Maar Dawid het nie”",
+        "severity": "minor",
+        "source_quote": "But David carried no such reactive mission.",
+        "suggested_fix": "Vervang “reaksionêre missie” met “reaktiewe missie”; “reaksionêr” dui gewoonlik op politieke of maatskaplike teenstand teen verandering, nie op die reaktiewe gedrag wat hier bespreek word nie.",
+        "translation_quote": "Maar Dawid het nie so ’n reaksionêre missie gehad nie."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
