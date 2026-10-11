@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, párrafo que comienza «Escribo estas palabras…»",
+      "severity": "major",
+      "source_quote": "«the deadness of an abandoned graveyard»",
+      "suggested_fix": "Sustituir «la indiferencia de un cementerio abandonado» por «la falta de vida de un cementerio abandonado» para conservar la imagen de muerte espiritual, no de indiferencia.",
+      "translation_quote": "«con la indiferencia de un cementerio abandonado»"
+    },
+    {
+      "location": "HTML, párrafo que comienza «Escribo estas palabras…»",
+      "severity": "minor",
+      "source_quote": "«I write these words with a burden.»",
+      "suggested_fix": "Cambiar «con pesar» por «con una preocupación» para reflejar que escribe con una carga o inquietud.",
+      "translation_quote": "«Escribo estas palabras con pesar.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

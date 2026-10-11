@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a927dfec-da93-48e0-bc1c-07ea2bc47551",
+    "response_id": "chatcmpl-EXnfe1xkjFG9xJTOdWghJ5jlA43K4",
+    "usage": {
+      "completion_tokens": 812,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 602,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3310,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2207,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4122
+    }
+  },
+  "received_at": "2026-10-11T15:37:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, párrafo que comienza «Escribo estas palabras…»",
+        "severity": "major",
+        "source_quote": "«the deadness of an abandoned graveyard»",
+        "suggested_fix": "Sustituir «la indiferencia de un cementerio abandonado» por «la falta de vida de un cementerio abandonado» para conservar la imagen de muerte espiritual, no de indiferencia.",
+        "translation_quote": "«con la indiferencia de un cementerio abandonado»"
+      },
+      {
+        "location": "HTML, párrafo que comienza «Escribo estas palabras…»",
+        "severity": "minor",
+        "source_quote": "«I write these words with a burden.»",
+        "suggested_fix": "Cambiar «con pesar» por «con una preocupación» para reflejar que escribe con una carga o inquietud.",
+        "translation_quote": "«Escribo estas palabras con pesar.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
