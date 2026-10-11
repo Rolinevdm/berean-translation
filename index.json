@@ -10079,6 +10079,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
+      "html_sha256": "d607b0842936801e1283e7f25027c64902a0398381b872e7aaa69fee6fcba00c",
+      "human_reviewed": false,
+      "id": "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd",
+      "images": [
+        {
+          "alt": "ছেঁড়া কাগজের পোস্টারে লেখা ‘ওয়ান্টেড—মৃত বা জীবিত খ্রিষ্টীয় ঐতিহ্য’; ‘মৃত বা’ কথাগুলো কেটে দেওয়া হয়েছে এবং ‘জীবিত’ শব্দটি গোল করে চিহ্নিত",
+          "public_path": "/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.json",
+      "metadata_sha256": "a9ff41f6d804e8d29d98d1e3e68998eeb9cab5baf30c212ee1c962409a4cd457",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ঐতিহ্য: সেগুলো ভালো, না মন্দ?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "09c163958f887ff0619f828868a7f2a1388399b0f11d87c6cbfa6084ac8448dc",
       "human_reviewed": false,
@@ -13264,6 +13292,34 @@
       "subtitle": null,
       "title": "主编寄语",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
+      "html_sha256": "1a09999668682ce467d77152f8805ff93c8483a601a87f807756c8ce063a9393",
+      "human_reviewed": false,
+      "id": "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd",
+      "images": [
+        {
+          "alt": "一张撕纸风格的海报，上面写着“通缉：基督教传统，死活不论”；“死或”被划掉，“活”被圈出",
+          "public_path": "/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.json",
+      "metadata_sha256": "503f61a8153552c13a0194541bc7f4be8c1cd6491ed51990ba7877856a9fa748",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "传统：好还是坏？",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -19181,6 +19237,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Το Ολοκληρωμένο Έργο του Χριστού",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
+      "html_sha256": "c63961c68d3e5c32f1ea45f692d9bdb832c7ca6c02b63ebba447539fb1c1c8f4",
+      "human_reviewed": false,
+      "id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
+      "images": [
+        {
+          "alt": "Οι ακτίνες του ήλιου διαπερνούν τα σύννεφα πάνω από μια ορεινή λίμνη περιτριγυρισμένη από δάσος",
+          "public_path": "/images/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.json",
+      "metadata_sha256": "44f09f782b0b1792bed9e419166348b5d98af0b3bee7754de1e74797f7dba795",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ΑΔΕΛΦΗ ΠΡΟΣ ΑΔΕΛΦΗ",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "feee1827ca2238077cd971d14ec7a665d94024ef32a3d17913bde45491d910fb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Να περπατάμε μαζί της μέσα στο πένθος",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -32461,6 +32545,34 @@
       "subtitle": null,
       "title": "Karya Kristus yang Telah Selesai",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
+      "html_sha256": "a113e91e47bdca71a88cdf054db7fd87bb7df5588ad60ae0471784a52f8b80f6",
+      "human_reviewed": false,
+      "id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
+      "images": [
+        {
+          "alt": "Sinar matahari menembus awan di atas danau pegunungan yang dikelilingi hutan",
+          "public_path": "/images/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.json",
+      "metadata_sha256": "a06f0e70a966ec87f580bdf6f28c7bd1ee9bc46268be0db53ccce35fcecccb40",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "SAUDARI KEPADA SAUDARI",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "feee1827ca2238077cd971d14ec7a665d94024ef32a3d17913bde45491d910fb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mendampinginya Melewati Dukacita",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
