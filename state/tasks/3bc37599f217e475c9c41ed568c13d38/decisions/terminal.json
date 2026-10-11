@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Första stycket",
+      "severity": "minor",
+      "source_quote": "“a bright, talented cadet near the top of his class”",
+      "suggested_fix": "”en begåvad kadett som låg nära toppen av sin årskurs”",
+      "translation_quote": "”en begåvad kadett med mycket goda studieresultat”"
+    },
+    {
+      "location": "Stycket om 6 000 år av mänsklig historia",
+      "severity": "minor",
+      "source_quote": "“the combined intelligence of 6000 years of human history”",
+      "suggested_fix": "”den samlade intelligensen från 6 000 år av mänsklig historia”",
+      "translation_quote": "”den samlade visdomen från 6 000 år av mänsklig historia”"
+    },
+    {
+      "location": "Sista stycket före avslutningshälsningen",
+      "severity": "minor",
+      "source_quote": "“the implanted character of Jesus”",
+      "suggested_fix": "”Jesu inplanterade karaktär”",
+      "translation_quote": "”Jesu inplanterade karaktär”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

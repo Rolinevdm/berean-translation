@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "715e7382052e4da1a981e1a16fcc9b8d",
   "campaign": "auto-dff94cdf2185b334005a26b918bfc13cc334365198077f36448841951da4a242",
   "created_at": "2026-10-10T19:12:23+00:00",
   "events": [
@@ -28,10 +27,53 @@
         },
         "total_tokens": 3437
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 756,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3791,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2688,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4547
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Första stycket",
+      "severity": "minor",
+      "source_quote": "“a bright, talented cadet near the top of his class”",
+      "suggested_fix": "”en begåvad kadett som låg nära toppen av sin årskurs”",
+      "translation_quote": "”en begåvad kadett med mycket goda studieresultat”"
+    },
+    {
+      "location": "Stycket om 6 000 år av mänsklig historia",
+      "severity": "minor",
+      "source_quote": "“the combined intelligence of 6000 years of human history”",
+      "suggested_fix": "”den samlade intelligensen från 6 000 år av mänsklig historia”",
+      "translation_quote": "”den samlade visdomen från 6 000 år av mänsklig historia”"
+    },
+    {
+      "location": "Sista stycket före avslutningshälsningen",
+      "severity": "minor",
+      "source_quote": "“the implanted character of Jesus”",
+      "suggested_fix": "”Jesu inplanterade karaktär”",
+      "translation_quote": "”Jesu inplanterade karaktär”"
+    }
+  ],
+  "finished_at": "2026-10-11T13:05:49+00:00",
   "id": "3bc37599f217e475c9c41ed568c13d38",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swe",
@@ -120,9 +162,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/80442ae0c5e3e1a925fb90808c2742734db7c58ca3d9c73b4b70bd3e81161fb0.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +182,7 @@
     "total_reserved_usd": 0.08711,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
   "translation_model_actual": "gpt-6-luna"

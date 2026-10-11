@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T13:05:49+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Första stycket\",\"severity\":\"minor\",\"source_quote\":\"“a bright, talented cadet near the top of his class”\",\"suggested_fix\":\"”en begåvad kadett som låg nära toppen av sin årskurs”\",\"translation_quote\":\"”en begåvad kadett med mycket goda studieresultat”\"},{\"location\":\"Stycket om 6 000 år av mänsklig historia\",\"severity\":\"minor\",\"source_quote\":\"“the combined intelligence of 6000 years of human history”\",\"suggested_fix\":\"”den samlade intelligensen från 6 000 år av mänsklig historia”\",\"translation_quote\":\"”den samlade visdomen från 6 000 år av mänsklig historia”\"},{\"location\":\"Sista stycket före avslutningshälsningen\",\"severity\":\"minor\",\"source_quote\":\"“the implanted character of Jesus”\",\"suggested_fix\":\"”Jesu inplanterade karaktär”\",\"translation_quote\":\"”Jesu inplanterade karaktär”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 920,
+    "content_evidence_truncated": false,
+    "content_sha256": "883b7fc79f1ec9a2a8415a4a76fad0e1088385bd6df03bf5e21b844b5043e445",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 756,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3791,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2688,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4547
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
