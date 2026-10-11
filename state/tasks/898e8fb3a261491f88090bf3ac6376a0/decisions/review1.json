@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "html: paragraph beginning “ساؤل جب ہچکچاتے ہوئے”",
+      "severity": "major",
+      "source_quote": "Knowing what others do and knowing what to do are not necessarily the same thing.",
+      "suggested_fix": "Replace the final sentence with: “یہ جاننا کہ دوسرے کیا کرتے ہیں اور یہ جاننا کہ خود کیا کرنا چاہیے، ضروری نہیں کہ ایک ہی بات ہو۔”",
+      "translation_quote": "دوسروں کو معلوم ہونا اور خود یہ جاننا کہ کیا کرنا ہے، ضروری نہیں کہ ایک ہی بات ہو۔"
+    },
+    {
+      "location": "html: paragraph beginning “اسرائیلی لشکر کے بزدلانہ عقائد”",
+      "severity": "major",
+      "source_quote": "Goliath was not the problem, but rather, faithless fear",
+      "suggested_fix": "Replace “بے ایمانی کا خوف” with “ایمان کی کمی سے پیدا ہونے والا خوف”. The source describes fear arising from lack of faith, not fear of dishonesty.",
+      "translation_quote": "مسئلہ جالوت نہیں تھا، بلکہ بے ایمانی کا خوف"
+    },
+    {
+      "location": "html: final prose paragraph",
+      "severity": "major",
+      "source_quote": "Why do Catholic Priests and Nuns take vows of celibacy and poverty?",
+      "suggested_fix": "Replace this question with: “کیتھولک پادری اور راہبائیں تجرد اور غربت کی زندگی گزارنے کی قسمیں کیوں کھاتے ہیں؟”",
+      "translation_quote": "کیتھولک پادری اور راہبائیں تجرد اور غربت کے نذرانے کیوں دیتے ہیں؟"
+    },
+    {
+      "location": "html: Hebrews 12:2 quotation",
+      "severity": "minor",
+      "source_quote": "Looking unto Jesus the author and finisher of our faith",
+      "suggested_fix": "Replace “اپنی ایمان” with “اپنے ایمان”.",
+      "translation_quote": "اپنی ایمان کے بانی اور کامل کرنے والے یسوع کو تکتے رہیں"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

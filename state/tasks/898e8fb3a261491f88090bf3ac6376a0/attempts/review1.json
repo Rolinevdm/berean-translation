@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T00:25:00+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: paragraph beginning “ساؤل جب ہچکچاتے ہوئے”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Knowing what others do and knowing what to do are not necessarily the same thing.\",\n      \"suggested_fix\": \"Replace the final sentence with: “یہ جاننا کہ دوسرے کیا کرتے ہیں اور یہ جاننا کہ خود کیا کرنا چاہیے، ضروری نہیں کہ ایک ہی بات ہو۔”\",\n      \"translation_quote\": \"دوسروں کو معلوم ہونا اور خود یہ جاننا کہ کیا کرنا ہے، ضروری نہیں کہ ایک ہی بات ہو۔\"\n    },\n    {\n      \"location\": \"html: paragraph beginning “اسرائیلی لشکر کے بزدلانہ عقائد”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Goliath was not the problem, but rather, faithless fear\",\n      \"suggested_fix\": \"Replace “بے ایمانی کا خوف” with “ایمان کی کمی سے پیدا ہونے والا خوف”. The source describes fear arising from lack of faith, not fear of dishonesty.\",\n      \"translation_quote\": \"مسئلہ جالوت نہیں تھا، بلکہ بے ایمانی کا خوف\"\n    },\n    {\n      \"location\": \"html: final prose paragraph\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Why do Catholic Priests and Nuns take vows of celibacy and poverty?\",\n      \"suggested_fix\": \"Replace this question with: “کیتھولک پادری اور راہبائیں تجرد اور غربت کی زندگی گزارنے کی قسمیں کیوں کھاتے ہیں؟”\",\n      \"translation_quote\": \"کیتھولک پادری اور راہبائیں تجرد اور غربت کے نذرانے کیوں دیتے ہیں؟\"\n    },\n    {\n      \"location\": \"html: Hebrews 12:2 quotation\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Looking unto Jesus the author and finisher of our faith\",\n      \"suggested_fix\": \"Replace “اپنی ایمان” with “اپنے ایمان”.\",\n      \"translation_quote\": \"اپنی ایمان کے بانی اور کامل کرنے والے یسوع کو تکتے رہیں\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 92\n}",
+    "content_bytes": 2227,
+    "content_evidence_truncated": false,
+    "content_sha256": "80f49b153d3e07b59a1fd2fc69fe3077f71656e561ec348c3d619aa25265f8c0",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 568,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 61,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8523,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7420,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9091
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
