@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "7a6029e4-c94f-4f73-8747-11be6ef27e6f",
+    "response_id": "chatcmpl-EXuImXM1jKZGt7xkc4yzFzGwlqHKr",
+    "usage": {
+      "completion_tokens": 544,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 182,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7721,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6618,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8265
+    }
+  },
+  "received_at": "2026-10-11T20:20:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraf 2, nama prosedur MAID",
+        "severity": "major",
+        "source_quote": "Canada calls this procedure “Medical Assistance in Dying” (MAID). The name implies that it is about comfort care",
+        "suggested_fix": "Ganti nama terjemahan menjadi “Bantuan Medis dalam Proses Menjelang Kematian” (MAID), sehingga perbedaan antara nama yang menyiratkan perawatan kenyamanan dan praktik yang dikritik tetap terjaga.",
+        "translation_quote": "Kanada menyebut prosedur ini “Bantuan Medis untuk Mengakhiri Hidup” (MAID). Nama itu menyiratkan bahwa prosedur ini berkaitan dengan perawatan yang memberi kenyamanan"
+      },
+      {
+        "location": "html, kutipan Filipi 4:13",
+        "severity": "minor",
+        "source_quote": "I can do all things through Christ which strengtheneth me",
+        "suggested_fix": "Ubah kutipan menjadi “Aku dapat melakukan segala sesuatu melalui Kristus yang memberi kekuatan kepadaku”, dengan mempertahankan tag dan referensi yang ada.",
+        "translation_quote": "Segala perkara dapat kutanggung di dalam Dia yang memberi kekuatan kepadaku"
+      },
+      {
+        "location": "html, kutipan 2 Korintus 4:17-18",
+        "severity": "minor",
+        "source_quote": "For our light affliction, which is but for a moment",
+        "suggested_fix": "Ganti “penderitaan ringan yang sekarang ini” dengan “penderitaan ringan kami yang hanya berlangsung sesaat” untuk mempertahankan keterangan tentang singkatnya penderitaan.",
+        "translation_quote": "Sebab penderitaan ringan yang sekarang ini"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
