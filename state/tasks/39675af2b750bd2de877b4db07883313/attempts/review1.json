@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T20:20:33+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: paragraph defining euthanasia and assisted suicide\",\n      \"severity\": \"major\",\n      \"source_quote\": \"they then “self ”-administer, thereby killing themselves\",\n      \"suggested_fix\": \"Replace “שמזריק אותה לעצמו” with “שנוטל אותה או נותן אותה לעצמו”.\",\n      \"translation_quote\": \"שמזריק אותה לעצמו, ובכך שם קץ לחייו\"\n    },\n    {\n      \"location\": \"html: Scripture quotation under “אל תפעלו מתוך פחד”, 2 Timothy 1:7\",\n      \"severity\": \"major\",\n      \"source_quote\": \"but of power, and of love, and of a sound mind\",\n      \"suggested_fix\": \"Replace “כי אם רוח גבורה ואהבה ומוסר” with “אלא רוח של כוח, אהבה ושיקול דעת צלול”.\",\n      \"translation_quote\": \"כי אם רוח גבורה ואהבה ומוסר\"\n    },\n    {\n      \"location\": \"html: Scripture quotation under “הישענו על כוחו של אלוהים”, Philippians 4:13\",\n      \"severity\": \"major\",\n      \"source_quote\": \"I can do all things through Christ which strengtheneth me\",\n      \"suggested_fix\": \"Replace the quotation text with “אני יכול לעשות הכול באמצעות המשיח, שנותן לי כוח”, retaining the existing reference and em tags.\",\n      \"translation_quote\": \"הכול אני יכול בעזרתו של הנותן לי כוח\"\n    },\n    {\n      \"location\": \"html: heading preceding 2 Corinthians 4:17-18\",\n      \"severity\": \"major\",\n      \"source_quote\": \"God is Glorified in Our Suffering\",\n      \"suggested_fix\": \"Replace the heading text with “אלוהים זוכה לכבוד בסבלנו”. “מתפאר” means boasting or taking pride rather than being glorified.\",\n      \"translation_quote\": \"אלוהים מתפאר בסבלנו\"\n    },\n    {\n      \"location\": \"html: final paragraph under “איכות החיים”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"the power of a God-transformed life. We cannot bear these trials alone.\",\n      \"suggested_fix\": \"Replace “כוחה של חיים שהשתנו בידי אלוהים” with “כוחם של חיים שהשתנו בידי אלוהים”, and “לשאת את הניסיונות האלה לבדם” with “לשאת את הניסיונות האלה לבדנו”.\",\n      \"translation_quote\": \"כוחה של חיים שהשתנו בידי אלוהים. איננו יכולים לשאת את הניסיונות האלה לבדם.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 90\n}",
+    "content_bytes": 2612,
+    "content_evidence_truncated": false,
+    "content_sha256": "0bd0080340131a455c248efbfdbb75d5616ac453a8a1f398c96a670b7d0a08f4",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 775,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 165,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7851,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6748,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8626
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

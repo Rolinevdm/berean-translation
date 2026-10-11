@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "html: paragraph defining euthanasia and assisted suicide",
+      "severity": "major",
+      "source_quote": "they then “self ”-administer, thereby killing themselves",
+      "suggested_fix": "Replace “שמזריק אותה לעצמו” with “שנוטל אותה או נותן אותה לעצמו”.",
+      "translation_quote": "שמזריק אותה לעצמו, ובכך שם קץ לחייו"
+    },
+    {
+      "location": "html: Scripture quotation under “אל תפעלו מתוך פחד”, 2 Timothy 1:7",
+      "severity": "major",
+      "source_quote": "but of power, and of love, and of a sound mind",
+      "suggested_fix": "Replace “כי אם רוח גבורה ואהבה ומוסר” with “אלא רוח של כוח, אהבה ושיקול דעת צלול”.",
+      "translation_quote": "כי אם רוח גבורה ואהבה ומוסר"
+    },
+    {
+      "location": "html: Scripture quotation under “הישענו על כוחו של אלוהים”, Philippians 4:13",
+      "severity": "major",
+      "source_quote": "I can do all things through Christ which strengtheneth me",
+      "suggested_fix": "Replace the quotation text with “אני יכול לעשות הכול באמצעות המשיח, שנותן לי כוח”, retaining the existing reference and em tags.",
+      "translation_quote": "הכול אני יכול בעזרתו של הנותן לי כוח"
+    },
+    {
+      "location": "html: heading preceding 2 Corinthians 4:17-18",
+      "severity": "major",
+      "source_quote": "God is Glorified in Our Suffering",
+      "suggested_fix": "Replace the heading text with “אלוהים זוכה לכבוד בסבלנו”. “מתפאר” means boasting or taking pride rather than being glorified.",
+      "translation_quote": "אלוהים מתפאר בסבלנו"
+    },
+    {
+      "location": "html: final paragraph under “איכות החיים”",
+      "severity": "minor",
+      "source_quote": "the power of a God-transformed life. We cannot bear these trials alone.",
+      "suggested_fix": "Replace “כוחה של חיים שהשתנו בידי אלוהים” with “כוחם של חיים שהשתנו בידי אלוהים”, and “לשאת את הניסיונות האלה לבדם” with “לשאת את הניסיונות האלה לבדנו”.",
+      "translation_quote": "כוחה של חיים שהשתנו בידי אלוהים. איננו יכולים לשאת את הניסיונות האלה לבדם."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

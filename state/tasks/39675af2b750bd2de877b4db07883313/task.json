@@ -5,11 +5,68 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f934715ac0624ac69924836402dda900",
   "campaign": "auto-98c74f74607c4dbd34fda1c63d6f8cf61d80a7988c32f43cb79730c8efa06980",
   "created_at": "2026-10-11T20:15:03+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 775,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 165,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7851,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6748,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8626
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: paragraph defining euthanasia and assisted suicide",
+      "severity": "major",
+      "source_quote": "they then “self ”-administer, thereby killing themselves",
+      "suggested_fix": "Replace “שמזריק אותה לעצמו” with “שנוטל אותה או נותן אותה לעצמו”.",
+      "translation_quote": "שמזריק אותה לעצמו, ובכך שם קץ לחייו"
+    },
+    {
+      "location": "html: Scripture quotation under “אל תפעלו מתוך פחד”, 2 Timothy 1:7",
+      "severity": "major",
+      "source_quote": "but of power, and of love, and of a sound mind",
+      "suggested_fix": "Replace “כי אם רוח גבורה ואהבה ומוסר” with “אלא רוח של כוח, אהבה ושיקול דעת צלול”.",
+      "translation_quote": "כי אם רוח גבורה ואהבה ומוסר"
+    },
+    {
+      "location": "html: Scripture quotation under “הישענו על כוחו של אלוהים”, Philippians 4:13",
+      "severity": "major",
+      "source_quote": "I can do all things through Christ which strengtheneth me",
+      "suggested_fix": "Replace the quotation text with “אני יכול לעשות הכול באמצעות המשיח, שנותן לי כוח”, retaining the existing reference and em tags.",
+      "translation_quote": "הכול אני יכול בעזרתו של הנותן לי כוח"
+    },
+    {
+      "location": "html: heading preceding 2 Corinthians 4:17-18",
+      "severity": "major",
+      "source_quote": "God is Glorified in Our Suffering",
+      "suggested_fix": "Replace the heading text with “אלוהים זוכה לכבוד בסבלנו”. “מתפאר” means boasting or taking pride rather than being glorified.",
+      "translation_quote": "אלוהים מתפאר בסבלנו"
+    },
+    {
+      "location": "html: final paragraph under “איכות החיים”",
+      "severity": "minor",
+      "source_quote": "the power of a God-transformed life. We cannot bear these trials alone.",
+      "suggested_fix": "Replace “כוחה של חיים שהשתנו בידי אלוהים” with “כוחם של חיים שהשתנו בידי אלוהים”, and “לשאת את הניסיונות האלה לבדם” with “לשאת את הניסיונות האלה לבדנו”.",
+      "translation_quote": "כוחה של חיים שהשתנו בידי אלוהים. איננו יכולים לשאת את הניסיונות האלה לבדם."
+    }
+  ],
   "id": "39675af2b750bd2de877b4db07883313",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "heb",
@@ -98,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/9791f1482893f356df2c7b57c6c58f95e23e3082da0a6f9c6dedbd92cbfb41bc.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +174,7 @@
     "total_reserved_usd": 0.75531,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6-luna"
