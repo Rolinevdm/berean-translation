@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34acfc30d04d4aae8a0b2253b15d461d",
   "campaign": "auto-26132061083fd307229559a4d466878ae7e571c23d0fd9d71e8faf75489d0a93",
   "created_at": "2026-10-11T18:02:25+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 869,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 85,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11230,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11227,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12099
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html: πρώτη λίστα, τέταρτο στοιχείο· παράγραφοι με Ματθαίον 5:14 και Ιωάννην 11:4· δεύτερη παράγραφος του blockquote",
+      "severity": "minor",
+      "source_quote": "“Underneath are the everlasting arms” · “A city that is set on an hill cannot be hid” · “…This sickness is not unto death, but for the glory of God, that the Son of God might be glorified thereby” · “Son, be of good cheer; thy sins be forgiven thee … And Jesus knowing their thoughts said, Wherefore think ye evil in your hearts? …”",
+      "suggested_fix": "Αποδώστε τα παραθέματα σε σύγχρονη δημοτική, διατηρώντας τα υπάρχοντα HTML και τις παραπομπές: «Από κάτω βρίσκονται οι αιώνιοι βραχίονες»· «Μια πόλη χτισμένη πάνω σε λόφο δεν μπορεί να κρυφτεί –Κατά Ματθαίον 5:14.»· «…Αυτή η ασθένεια δεν οδηγεί στον θάνατο, αλλά είναι για τη δόξα του Θεού, ώστε να δοξαστεί μέσω αυτής ο Υιός του Θεού –Κατά Ιωάννην 11:4.» Στο blockquote, αντικαταστήστε το κείμενο μέσα στο υπάρχον em με: «Και να, του έφεραν έναν παράλυτο ξαπλωμένο σε κρεβάτι. Ο Ιησούς, βλέποντας την πίστη τους, είπε στον παράλυτο: Παιδί μου, έχε θάρρος· οι αμαρτίες σου συγχωρούνται… Ο Ιησούς, γνωρίζοντας τις σκέψεις τους, είπε: Γιατί σκέφτεστε κακά πράγματα στις καρδιές σας; Τι είναι πιο εύκολο, να πω: Οι αμαρτίες σου συγχωρούνται, ή να πω: Σήκω και περπάτα; Αλλά για να γνωρίζετε ότι ο Υιός του ανθρώπου έχει εξουσία στη γη να συγχωρεί αμαρτίες, (τότε λέει στον παράλυτο:) Σήκω, πάρε το κρεβάτι σου και πήγαινε στο σπίτι σου. Εκείνος σηκώθηκε και πήγε στο σπίτι του. Όταν τα πλήθη το είδαν, θαύμασαν και δόξασαν τον Θεό, που είχε δώσει τέτοια εξουσία στους ανθρώπους –Κατά Ματθαίον 9:2-8.»",
+      "translation_quote": "«Κάτωθεν είναι οι αιώνιοι βραχίονες» · «Πόλις κειμένη επάνω όρους δεν δύναται να κρυφθή» · «…Αύτη η ασθένεια δεν είναι προς θάνατον, αλλ’ υπέρ της δόξης του Θεού, διά να δοξασθή ο Υιός του Θεού δι’ αυτής» · «Θάρρει, τέκνον· συγχωρούνται εις σε αι αμαρτίαι σου… Και γνωρίζων ο Ιησούς τους διαλογισμούς αυτών, είπε· Διά τι σεις διαλογίζεσθε πονηρά εν ταις καρδίαις σας;»"
+    }
+  ],
+  "finished_at": "2026-10-11T18:08:14+00:00",
   "id": "32587f4ee95eae311d8c2fea78353db5",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ell",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 95,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/97b81ed107719e1b3d59a5926df9439e3f25c21b973c7d37fb85d82f877dc026.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.801951,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "feee1827ca2238077cd971d14ec7a665d94024ef32a3d17913bde45491d910fb",
   "translation_model_actual": "gpt-6-luna"
