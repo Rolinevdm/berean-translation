@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T06:20:03+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"8cbf980c-3d5c-4a98-8a1f-9553593803e3\\\">\\n  <p class=\\\"drop-cap\\\">Hace unos meses, un joven llamado Michael Izbicki acaparó los titulares. La controversia surgió a raíz de las protestas contra la solicitud de este joven para ser reconocido como objetor de conciencia, después de graduarse de la prestigiosa Academia Naval de los Estados Unidos. Esto fue un golpe especialmente duro para las fuerzas armadas, porque Izbicki era un cadete brillante y talentoso, situado entre los mejores de su promoción. Como siempre, los «cristianos» dijeron las cosas más duras. Uno de sus comandantes de la Marina dijo que la «corriente pacifista del cristianismo que abrazaba el señor Izbicki era incompatible con la fe cristiana mayoritaria». El mismo comandante incluso dijo que los cuáqueros que apoyaban al señor Izbicki eran como «el reverendo Jim Jones y su Templo del Pueblo, una secta suicida». Dicho por alguien que se gana la vida al mando de portaaviones y submarinos nucleares, todos capaces de desencadenar el Armagedón con solo pulsar un botón, sus comentarios me parecen un tanto irónicos. Lo que me resulta interesante, e incluso aterrador, es ver cómo los medios presentan los intentos pacíficos y sinceros de seguir a Jesús.</p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg\\\" alt=\\\"Un submarino que navega en la superficie del mar\\\" loading=\\\"lazy\\\">\\n    <img src=\\\"/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg\\\" alt=\\\"Ilustración histórica de un cuáquero abrazando a una persona indígena en Pensilvania\\\" loading=\\\"lazy\\\">\\n    <figcaption>Arriba, un submarino patrulla los mares; abajo, un cuáquero abraza a una persona indígena en Pensilvania. ¿Qué imagen representa mejor a Jesús?</figcaption>\\n  </figure>\\n\\n  <p>Me pregunto cuántas personas se toman siquiera el tiempo de considerar lo que dicen creer. El cambio para Michael Izbicki se produjo cuando, después de graduarse de la Academia Naval en 2008, hacía un examen psicológico. Una sola pregunta del examen psicológico lo cambió todo: ¿lanzaría un misil que llevara una ojiva nuclear? Cuando lo pensó de verdad... dijo «no». Después de eso, todo cambió para él.</p>\\n\\n  <p>La semana pasada vi en la pared del trabajo una caricatura política que parodiaba a la Estatua de la Libertad en una pose inusual. En lugar de la antorcha habitual en su mano derecha, algún artista había colocado la cabeza horripilante de Osama bin Laden. Debajo de la estatua estaban escritas las palabras «Fin del juego». Uno pensaría que la inteligencia acumulada durante 6000 años de historia humana nos indicaría que este «juego» no ha terminado.</p>\\n\\n  <p>El «juego» no hará más que intensificarse hasta el fin de los tiempos. <em>«Y la mujer huyó al desierto, donde Dios le había preparado un lugar, para que allí la alimentaran durante mil doscientos sesenta días».</em> La manera de ganar este «juego» nunca ha cambiado, y no cambiará hasta ese día. Cristo nos mostró el camino: <em>«Y ellos lo vencieron por la sangre del Cordero y por la palabra de su testimonio; y no amaron sus vidas hasta la muerte.</em> Ap. 12:5-6, 11</p>\\n\\n  <p>En este número examinamos una visión equilibrada (si es que se puede llamar redondo a un pentágono) del cristianismo. Los seres humanos tendemos a reaccionar en vez de actuar, y a veces eso provoca divisiones con otros creyentes que se acercan a Cristo y a sus enseñanzas haciendo hincapié en otros aspectos. Y ya que hablamos de divisiones, lean el artículo titulado «La causa de la división... y la cura».</p>\\n\\n  <p>Probablemente habría pocas divisiones en la iglesia si todos practicáramos la Gelassenheit. Para quienes no conocen el término, es una palabra alemana que los anabaptistas solían usar para describir su «renuncia» a la vida antigua. Este artículo ofrece una reseña de un tratado poco conocido de un autor relativamente desconocido, que contribuyó a encender el renacimiento anabaptista a principios del siglo XVI, pero que más tarde volvió a caer en una especie de transigencia. Por eso, los escritos de Karlstadt no son muy conocidos hoy, aunque tuvo una gran influencia en los comienzos del anabaptismo.</p>\\n\\n  <p>Luego examinamos algunos libros: tanto los negativos, que deben ir a la hoguera, como uno que debería estar en el regazo de tu hijo. Después, Orígenes nos habla de morir con Cristo y del bautismo.</p>\\n\\n  <p>A continuación, consideramos la doctrina de los dos reinos. Como personas que han experimentado un renacimiento espiritual, ahora somos ciudadanos del reino de Cristo. Pero... también tenemos que tratar con los gobiernos de este mundo, cuyas leyes y valores muchas veces chocan con la ley y los valores de Cristo.</p>\\n\\n  <p>Y terminamos con un poema sobre la gracia: la gracia que nos mantiene vivos y nos permite manifestar el carácter de Jesús implantado en nosotros.</p>\\n\\n  <p>¡Que este número de <em>The Heartbeat of the Remnant</em> te impulse a amarlo más! ~Hermano Dean</p>\\n</article>\\n\",\"section\":\"Del editor\",\"subtitle\":null,\"title\":\"Del editor\"}",
+    "content_bytes": 5190,
+    "content_evidence_truncated": false,
+    "content_sha256": "50a37dddab9c07f20c56b120cb4c9044906b8c7b30d9954d8d5bc26e5c38b240",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1606,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 272,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3453,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3450,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5059
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 2
+}
