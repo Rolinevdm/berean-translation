@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T20:13:27+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, 두 번째 문단\",\n      \"severity\": \"major\",\n      \"source_quote\": \"leaving you stunned and gasping in pain\",\n      \"suggested_fix\": \"“정신을 잃고 고통 속에 숨을 헐떡이게”를 “충격에 멍해진 채 고통 속에 숨을 헐떡이게”로 바꾸십시오.\",\n      \"translation_quote\": \"정신을 잃고 고통 속에 숨을 헐떡이게\"\n    },\n    {\n      \"location\": \"translation.html, 첫 번째 ul의 첫 번째 li\",\n      \"severity\": \"major\",\n      \"source_quote\": \"when we say, ‘It’s all right, Lord,’ we need to leave it there, at Jesus’ feet.\",\n      \"suggested_fix\": \"“그 말을 예수님의 발 앞에 내려놓아야 한다는”을 “그 일을 예수님의 발 앞에 맡겨 두어야 한다는”으로 바꾸십시오. 맡겨 두는 대상은 말 자체가 아니라 슬픔과 그 상황입니다.\",\n      \"translation_quote\": \"‘주님, 괜찮습니다’라고 말할 때에는 그 말을 예수님의 발 앞에 내려놓아야 한다는\"\n    },\n    {\n      \"location\": \"translation.html, ‘우리는 어떻게 도울까요?’ 아래 ul의 두 번째 li\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"The person may be having a good day when they hear a song, smell a certain scent, or see a familiar article of clothing which triggers a memory followed by a flood of tears.\",\n      \"suggested_fix\": \"“노래를 듣거나” 앞에 “좋은 하루를 보내다가도”를 넣어, 평온한 날에도 갑자기 슬픔이 밀려올 수 있다는 내용을 보존하십시오.\",\n      \"translation_quote\": \"노래를 듣거나, 어떤 향기를 맡거나, 익숙한 옷을 보고 기억이 떠올라 눈물이 쏟아질 때도 있습니다.\"\n    },\n    {\n      \"location\": \"translation.section\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"SISTER TO SISTER\",\n      \"suggested_fix\": \"“자매가 자매에게”로 바꾸어 자매 사이의 나눔이라는 방향을 보존하십시오.\",\n      \"translation_quote\": \"자매에게\"\n    },\n    {\n      \"location\": \"translation.title\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"To Walk With Her Through Grief\",\n      \"suggested_fix\": \"“슬픔의 시간을 그 자매와 함께 걷기”로 바꾸어 슬픔을 겪는 여성을 동행하는 제목의 초점을 보존하십시오.\",\n      \"translation_quote\": \"슬픔의 시간을 함께 걷기\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 2507,
+    "content_evidence_truncated": false,
+    "content_sha256": "86c9574971a2ab8bdc145b6ff18ee4cbf59ca089475c21e6ee3b6fdee2d29148",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 775,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 117,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9918,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9915,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10693
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
