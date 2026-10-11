@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "81653ba57ccc498fb8e15818ca35c6e9",
   "campaign": "auto-46ed35d34bf8cea41c5428b608fd006dc5b17a1b6f8de8823d4e05b7bc4bdf79",
   "created_at": "2026-10-11T15:37:54+00:00",
   "events": [
@@ -48,18 +47,31 @@
         },
         "total_tokens": 14092
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 66,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 34,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9409,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8306,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9475
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, blockquote paragraf kedua, kutipan Matius 9:2-8",
-      "severity": "major",
-      "source_quote": "Son, be of good cheer; thy sins be forgiven thee",
-      "suggested_fix": "Ganti “Percayalah, hai anak-Ku, dosamu sudah diampuni.” dengan “Bergembiralah, hai anak, dosamu sudah diampuni.” tanpa mengubah tag HTML atau bagian kutipan lainnya.",
-      "translation_quote": "“Percayalah, hai anak-Ku, dosamu sudah diampuni.”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-11T18:08:17+00:00",
   "id": "a7a3711be6a73b7d60cf1302d7adaa97",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ind",
@@ -148,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -167,7 +179,7 @@
     "total_reserved_usd": 0.772261,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "feee1827ca2238077cd971d14ec7a665d94024ef32a3d17913bde45491d910fb",
   "translation_model_actual": "gpt-6.1-sol"
