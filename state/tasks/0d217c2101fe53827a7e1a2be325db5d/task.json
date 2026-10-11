@@ -5,11 +5,61 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e880c7baeb1b40ad97da3ae8e0f4bb9c",
   "campaign": "auto-59f61f738f6bb1070fc60639f085769140df4e0eb4891f7ee11c61026b375211",
   "created_at": "2026-10-11T18:02:42+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 964,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 97,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8271,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7168,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9235
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: नैन्सी की बीमारी वाला अनुच्छेद; “जीवन का अंत” का पहला अनुच्छेद; “डर के वशीभूत होकर काम न करें” का पहला अनुच्छेद; इबुप्रोफ़ेन वाला अनुच्छेद; उपशामक देखभाल वाला अनुच्छेद; निष्कर्ष का दूसरा अनुच्छेद",
+      "severity": "major",
+      "source_quote": "“considered terminal”; “a terminal condition”; “Some terminal illnesses”; “a terminal diagnosis”; “even a terminal illness”; “usually of a terminally ill patient”; “dealing with a terminal illness”",
+      "suggested_fix": "इन सभी स्थानों पर “लाइलाज” के बजाय मृत्यु की ओर ले जाने वाली अंतिम अवस्था का अर्थ स्पष्ट करें: जैसे “बीमारी की अंतिम, जानलेवा अवस्था”, “अंतिम अवस्था की जानलेवा बीमारी का निदान” और “आम तौर पर अंतिम अवस्था की जानलेवा बीमारी से ग्रस्त रोगी”। नैन्सी वाले अनुच्छेद में दोनों प्रयोग सुधारें। केवल असाध्य होना और मृत्यु निकट लाने वाली अवस्था में होना अलग बातें हैं।",
+      "translation_quote": "“आम तौर पर लाइलाज माना जाता हो”; “किसी लाइलाज बीमारी का होना”; “कुछ लाइलाज बीमारियाँ”; “लाइलाज बीमारी का निदान”; “किसी लाइलाज बीमारी का भी”; “आम तौर पर यह लाइलाज बीमारी से ग्रस्त रोगी के लिए होती है”; “किसी लाइलाज बीमारी का सामना कर रहे हों”"
+    },
+    {
+      "location": "html: “परमेश्वर की सामर्थ्य पर भरोसा रखें” के अंतर्गत फिलिप्पियों 4:13",
+      "severity": "major",
+      "source_quote": "I can do all things through Christ which strengtheneth me –Philippians 4:13.",
+      "suggested_fix": "उद्धरण में मसीह का स्पष्ट उल्लेख बहाल करें: “मुझे सामर्थ्य देने वाले मसीह के द्वारा मैं सब कुछ कर सकता हूँ –फिलिप्पियों 4:13।” मौजूदा <em> टैग बनाए रखें।",
+      "translation_quote": "जो मुझे सामर्थ्य देता है, उसमें मैं सब कुछ कर सकता हूँ –फिलिप्पियों 4:13।"
+    },
+    {
+      "location": "html: उपशामक देखभाल वाले अनुच्छेद और उसके बाद का अनुच्छेद",
+      "severity": "major",
+      "source_quote": "This is the sort of care that is offered by hospice programs. / The doctors and nurses in hospice programs",
+      "suggested_fix": "दोनों स्थानों पर “धर्मशाला कार्यक्रम” को “हॉस्पिस देखभाल कार्यक्रम” से बदलें। पहले उल्लेख में आवश्यक हो तो “जीवन के अंतिम समय की आराम-केंद्रित देखभाल” का संक्षिप्त स्पष्टीकरण दें। धर्मशाला यात्रियों के ठहरने की जगह है, hospice सेवा नहीं।",
+      "translation_quote": "धर्मशाला कार्यक्रम इसी तरह की देखभाल देते हैं। / धर्मशाला कार्यक्रमों के डॉक्टर और नर्स"
+    },
+    {
+      "location": "html: वृद्धावस्था-चिकित्सक वाला अनुच्छेद",
+      "severity": "major",
+      "source_quote": "She was discharged to spend the next week with her family.",
+      "suggested_fix": "“अस्पताल से” हटाकर लिखें: “उन्हें अगला सप्ताह अपने परिवार के साथ बिताने के लिए छुट्टी दे दी गई।” स्रोत छुट्टी दिए जाने की संस्था को अस्पताल नहीं बताता।",
+      "translation_quote": "उन्हें अगले सप्ताह अपने परिवार के साथ बिताने के लिए अस्पताल से छुट्टी दे दी गई।"
+    }
+  ],
   "id": "0d217c2101fe53827a7e1a2be325db5d",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "hin",
@@ -98,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/9791f1482893f356df2c7b57c6c58f95e23e3082da0a6f9c6dedbd92cbfb41bc.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +167,7 @@
     "total_reserved_usd": 0.791252,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6-luna"
