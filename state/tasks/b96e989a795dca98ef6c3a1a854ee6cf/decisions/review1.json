@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Eerste alinea",
+      "severity": "major",
+      "source_quote": "In baseball, you get three strikes before you are “out.”",
+      "suggested_fix": "Bij honkbal krijg je drie slag voordat je “uit” bent.",
+      "translation_quote": "Bij honkbal krijg je drie slagbeurten voordat je “uit” bent."
+    },
+    {
+      "location": "Eerste alinea",
+      "severity": "major",
+      "source_quote": "you still have two strikes left.",
+      "suggested_fix": "je hebt nog twee slag over.",
+      "translation_quote": "je hebt nog twee slagbeurten over."
+    },
+    {
+      "location": "Alinea over de twee levenswegen",
+      "severity": "major",
+      "source_quote": "“approved unto God, a workman that needeth not to be ashamed …”",
+      "suggested_fix": "“door God goedgekeurd, een arbeider die zich niet hoeft te schamen …”",
+      "translation_quote": "“beproefd voor God staat, een arbeider die zich niet hoeft te schamen …”"
+    },
+    {
+      "location": "Eerste alinea",
+      "severity": "minor",
+      "source_quote": "it is no big deal—you still have two strikes left.",
+      "suggested_fix": "is dat niet erg — je hebt nog twee slag over.",
+      "translation_quote": "is dat niet erg—you hebt nog twee slagbeurten over."
+    },
+    {
+      "location": "Vierde alinea",
+      "severity": "minor",
+      "source_quote": "you were supposed to start your schooling seven minutes ago.",
+      "suggested_fix": "je zeven minuten geleden al met school had moeten beginnen.",
+      "translation_quote": "je zeven minuten geleden al aan je schoolwerk had moeten beginnen."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
