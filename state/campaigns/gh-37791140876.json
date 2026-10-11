@@ -1906,12 +1906,11 @@
   ],
   "skipped": [],
   "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
-  "status": "active",
+  "status": "finished",
   "structural_feedback_version": "1",
   "task_counts": {
-    "complete": 116,
-    "in_batch": 54,
-    "not_ready": 30
+    "complete": 153,
+    "not_ready": 47
   },
   "tasks": [
     "940dc32434ecfe91623dd5a7c43b16a5",
