@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T00:24:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First paragraph\",\"severity\":\"major\",\"source_quote\":\"“all capable of ushering in Armageddon at the touch of a button”\",\"suggested_fix\":\"„die alle mit einem Knopfdruck Armageddon herbeiführen können“\",\"translation_quote\":\"„die alle mit einem Knopfdruck den Weltuntergang herbeiführen können“\"},{\"location\":\"Figure caption\",\"severity\":\"minor\",\"source_quote\":\"“a native in Pennsylvania”\",\"suggested_fix\":\"„eine indigene Person in Pennsylvania“\",\"translation_quote\":\"„einen Einheimischen umarmt“\"},{\"location\":\"Paragraph beginning “Division would probably make little inroads”\",\"severity\":\"minor\",\"source_quote\":\"“he had a strong influence into early Anabaptism”\",\"suggested_fix\":\"„obwohl er einen starken Einfluss auf das frühe Täufertum hatte.“\",\"translation_quote\":\"„obwohl er einen starken Einfluss auf den frühen Täufertum hatte.“\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 959,
+    "content_evidence_truncated": false,
+    "content_sha256": "5ae54d0652eae3e41e6e4025cd9d3bd8b237f0bab46ca22f247eccc02f67ecf4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 870,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 632,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3761,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3758,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4631
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

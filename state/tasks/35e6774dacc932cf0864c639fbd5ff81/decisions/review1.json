@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "major",
+      "source_quote": "“all capable of ushering in Armageddon at the touch of a button”",
+      "suggested_fix": "„die alle mit einem Knopfdruck Armageddon herbeiführen können“",
+      "translation_quote": "„die alle mit einem Knopfdruck den Weltuntergang herbeiführen können“"
+    },
+    {
+      "location": "Figure caption",
+      "severity": "minor",
+      "source_quote": "“a native in Pennsylvania”",
+      "suggested_fix": "„eine indigene Person in Pennsylvania“",
+      "translation_quote": "„einen Einheimischen umarmt“"
+    },
+    {
+      "location": "Paragraph beginning “Division would probably make little inroads”",
+      "severity": "minor",
+      "source_quote": "“he had a strong influence into early Anabaptism”",
+      "suggested_fix": "„obwohl er einen starken Einfluss auf das frühe Täufertum hatte.“",
+      "translation_quote": "„obwohl er einen starken Einfluss auf den frühen Täufertum hatte.“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
