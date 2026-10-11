@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T18:00:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraphe 3\",\"severity\":\"major\",\"source_quote\":\"They have experienced traditions for years—dead, dry, hollow, and starting to stink—and they KNOW that church life never prospers...\",\"suggested_fix\":\"Yet for some people, those old, dead, dry traditions can never be revived: they DOIVENT disparaître ! Ces personnes ont connu pendant des années des traditions mortes, desséchées, creuses et qui commençaient à sentir mauvais, et elles SAVENT que la vie de l’Église ne prospère jamais lorsqu’elle est encombrée par les pierres tombales des siècles passés.\",\"translation_quote\":\"Elles ont connu pendant des années des traditions mortes, desséchées, creuses et qui commençaient à sentir mauvais, et elles SAVENT que la vie de l’Église ne prospère jamais lorsqu’elle est encombrée par les pierres tombales des siècles passés.\"},{\"location\":\"Paragraphe 14\",\"severity\":\"minor\",\"source_quote\":\"let’s be careful about maintaining them.\",\"suggested_fix\":\"Veillons aussi à bien les maintenir.\",\"translation_quote\":\"veillons aussi à ne pas les maintenir à tout prix.\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 1174,
+    "content_evidence_truncated": false,
+    "content_sha256": "a1841ee088efd08f4a19f02f3d4e53afdbe013626cf0314688207e48ee178a43",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 769,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 494,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3392,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2289,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4161
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

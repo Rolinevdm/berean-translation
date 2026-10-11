@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphe 3",
+      "severity": "major",
+      "source_quote": "They have experienced traditions for years—dead, dry, hollow, and starting to stink—and they KNOW that church life never prospers...",
+      "suggested_fix": "Yet for some people, those old, dead, dry traditions can never be revived: they DOIVENT disparaître ! Ces personnes ont connu pendant des années des traditions mortes, desséchées, creuses et qui commençaient à sentir mauvais, et elles SAVENT que la vie de l’Église ne prospère jamais lorsqu’elle est encombrée par les pierres tombales des siècles passés.",
+      "translation_quote": "Elles ont connu pendant des années des traditions mortes, desséchées, creuses et qui commençaient à sentir mauvais, et elles SAVENT que la vie de l’Église ne prospère jamais lorsqu’elle est encombrée par les pierres tombales des siècles passés."
+    },
+    {
+      "location": "Paragraphe 14",
+      "severity": "minor",
+      "source_quote": "let’s be careful about maintaining them.",
+      "suggested_fix": "Veillons aussi à bien les maintenir.",
+      "translation_quote": "veillons aussi à ne pas les maintenir à tout prix."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
