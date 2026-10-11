@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "قسم المسيحانية المركز، ترجمة كلمات الأغنية",
+      "severity": "minor",
+      "source_quote": "“We don’t need anybody to tell us what it’s all about.”",
+      "suggested_fix": "«لا نحتاج إلى أحد ليخبرنا ما الذي يعنيه كل هذا»",
+      "translation_quote": "«لا نحتاج إلى أحد ليخبرنا ما الأمر كله»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

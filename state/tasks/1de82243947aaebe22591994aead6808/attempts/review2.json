@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T13:06:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"قسم المسيحانية المركز، ترجمة كلمات الأغنية\",\"severity\":\"minor\",\"source_quote\":\"“We don’t need anybody to tell us what it’s all about.”\",\"suggested_fix\":\"«لا نحتاج إلى أحد ليخبرنا ما الذي يعنيه كل هذا»\",\"translation_quote\":\"«لا نحتاج إلى أحد ليخبرنا ما الأمر كله»\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 457,
+    "content_evidence_truncated": false,
+    "content_sha256": "a5827730069a0663fe477461fadf20d6cc202bb6f71e09cece233de4e459afae",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1036,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 922,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 19120,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 18017,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 20156
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
