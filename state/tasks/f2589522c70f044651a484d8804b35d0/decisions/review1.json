@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Schluss, Zitat Mi. 6,8",
+      "severity": "major",
+      "source_quote": "“He hath shewed thee, O man, what is good; and what doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?”",
+      "suggested_fix": "Ersetze „nichts als Gottes Wort halten“ durch „gerecht zu handeln“; zum Beispiel: „Es ist dir gesagt, Mensch, was gut ist und was der HERR von dir fordert: nichts als gerecht zu handeln, Liebe zu üben und demütig mit deinem Gott zu wandeln.“",
+      "translation_quote": "„Es ist dir gesagt, Mensch, was gut ist und was der HERR von dir fordert: nichts als Gottes Wort halten und Liebe üben und demütig sein vor deinem Gott.“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

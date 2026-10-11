@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3f7bfc7db8c54161ad90d1191232ecb1",
   "campaign": "auto-361bcd12be6098c3810bf3057c80955ae0f9fa187b4b124120c300cfbad7f9d0",
   "created_at": "2026-10-11T06:21:23+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 18807
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 697,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 489,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 19133,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 18030,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 19830
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Schluss, Zitat Mi. 6,8",
+      "severity": "major",
+      "source_quote": "“He hath shewed thee, O man, what is good; and what doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?”",
+      "suggested_fix": "Ersetze „nichts als Gottes Wort halten“ durch „gerecht zu handeln“; zum Beispiel: „Es ist dir gesagt, Mensch, was gut ist und was der HERR von dir fordert: nichts als gerecht zu handeln, Liebe zu üben und demütig mit deinem Gott zu wandeln.“",
+      "translation_quote": "„Es ist dir gesagt, Mensch, was gut ist und was der HERR von dir fordert: nichts als Gottes Wort halten und Liebe üben und demütig sein vor deinem Gott.“"
+    }
+  ],
   "id": "f2589522c70f044651a484d8804b35d0",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "deu",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/aeddb1d51271942bdbe3417e46c90421b08605b5b1d872e8fb0309f7877921c7.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.134848,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
   "translation_model_actual": "gpt-6-luna"
