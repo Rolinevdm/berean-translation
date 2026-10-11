@@ -467,9 +467,9 @@
     "total_reserved_usd": 0.134869,
     "version": 1
   },
-  "status": "active",
+  "status": "finished",
   "task_counts": {
-    "in_batch": 1
+    "not_ready": 1
   },
   "tasks": [
     "83e7d03eae4c140fdf3e4a01bf42d6ca"

@@ -67015,6 +67015,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "1fb50f3d9c906ceabf010d641d621156eb213776fcc64f8b6d2a1598c794f907",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "قدیم گھڑی کا ڈائل، جس پر رومی ہندسے اور سیکنڈ دکھانے والا ایک چھوٹا ڈائل ہے",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "407468ce888c877339538b1d29f54697e71e911a0e5487fe21ccd339e9831648",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "عام نوجوان اپنی جوانی سے زیادہ سے زیادہ فائدہ کیسے اٹھا سکتے ہیں",
+      "title": "اپنی نوعمری کے برسوں سے زیادہ سے زیادہ فائدہ اٹھانا",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/64012528-bcec-4189-96b5-32a226869815.html",
       "html_sha256": "6450ad108ebdf4b4b1bb06192fa908cdc581ffc9d93316fc2524e51fc37d739e",
       "human_reviewed": false,
