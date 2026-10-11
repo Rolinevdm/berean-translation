@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d50c8aadfd114f2e95d3311b05381929",
   "campaign": "auto-3adb4ddd5126a8a939da33ef7f813570bbadaba54f83dab80c07c765b8528758",
   "created_at": "2026-10-10T19:12:35+00:00",
   "events": [
@@ -68,18 +67,40 @@
         },
         "total_tokens": 5196
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 950,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 817,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3764,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3761,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4714
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, paragraph 4, quoted Scripture (Rev. 12:11)",
+      "location": "Paragraf pertama",
       "severity": "major",
-      "source_quote": "and they loved not their lives unto the death.",
-      "suggested_fix": "Mereka tidak menyayangkan nyawa mereka, bahkan sampai mati.",
-      "translation_quote": "Mereka tidak mengasihi hidup mereka sampai harus menghadapi maut."
+      "source_quote": "“application for conscientious objector”",
+      "suggested_fix": "Ganti “permohonan pemuda ini untuk menjadi penolak wajib militer berdasarkan hati nurani” dengan “permohonan pemuda ini untuk memperoleh status penolak dinas militer atas dasar hati nurani.”",
+      "translation_quote": "“permohonan pemuda ini untuk menjadi penolak wajib militer berdasarkan hati nurani”"
     }
   ],
+  "finished_at": "2026-10-11T18:00:43+00:00",
   "id": "bf1374dce2215d9b7dfee39c7b389ea9",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ind",
@@ -188,7 +209,7 @@
     "total_reserved_usd": 0.087109,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
   "translation_model_actual": "gpt-6-luna"

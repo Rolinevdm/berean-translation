@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "85f02e49-2faf-4e56-9b95-c43442ed5382",
+    "response_id": "chatcmpl-EXrG6MngfDPVKtRycPEisQ8vAgs8f",
+    "usage": {
+      "completion_tokens": 950,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 817,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3764,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3761,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4714
+    }
+  },
+  "received_at": "2026-10-11T18:00:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf pertama",
+        "severity": "major",
+        "source_quote": "“application for conscientious objector”",
+        "suggested_fix": "Ganti “permohonan pemuda ini untuk menjadi penolak wajib militer berdasarkan hati nurani” dengan “permohonan pemuda ini untuk memperoleh status penolak dinas militer atas dasar hati nurani.”",
+        "translation_quote": "“permohonan pemuda ini untuk menjadi penolak wajib militer berdasarkan hati nurani”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf pertama",
+      "severity": "major",
+      "source_quote": "“application for conscientious objector”",
+      "suggested_fix": "Ganti “permohonan pemuda ini untuk menjadi penolak wajib militer berdasarkan hati nurani” dengan “permohonan pemuda ini untuk memperoleh status penolak dinas militer atas dasar hati nurani.”",
+      "translation_quote": "“permohonan pemuda ini untuk menjadi penolak wajib militer berdasarkan hati nurani”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
