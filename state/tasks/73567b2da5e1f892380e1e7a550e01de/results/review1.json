@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "df8884a5-756e-49c8-8a10-b51df8ba03b1",
+    "response_id": "chatcmpl-EXjnIaEIT7bqcFIwIJMVCZX18zEU4",
+    "usage": {
+      "completion_tokens": 490,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 19409,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 18306,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 19899
+    }
+  },
+  "received_at": "2026-10-11T13:05:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Conclusion, paragraphe sur l’approche christocentriste souhaitée",
+        "severity": "major",
+        "source_quote": "I desire a Christocentrism that embraces the entire Bible, involves a vibrant Christian life, is humble in relation to tradition, and that is informed by the vibrant witness of past generations of Christians.",
+        "suggested_fix": "« Toutefois, je souhaite un christocentrisme qui embrasse toute la Bible, s’accompagne d’une vie chrétienne vibrante, soit humble à l’égard de la tradition et soit éclairé par le témoignage vivant des générations chrétiennes passées. »",
+        "translation_quote": "Toutefois, je souhaite un christocentrisme qui embrasse toute la Bible, s’accompagne d’une vie chrétienne vibrante, demeure humble à l’égard de la tradition et se laisse éclairer par le témoignage vivant des générations chrétiennes passées."
+      },
+      {
+        "location": "Restaurationnisme, paragraphe sur les mouvements restaurationnistes",
+        "severity": "major",
+        "source_quote": "Major cults have been founded through restorationist attempts (the Mormons, for example).",
+        "suggested_fix": "« Des sectes majeures ont été fondées à la suite de tentatives restaurationnistes (les mormons, par exemple). »",
+        "translation_quote": "Des sectes majeures ont vu le jour à la suite de tentatives restaurationnistes (les mormons, par exemple)."
+      },
+      {
+        "location": "Christocentrisme, dernier paragraphe avant la chanson country",
+        "severity": "major",
+        "source_quote": "Many are happy to embrace Christ, or the caricature they think of as being Christ.",
+        "suggested_fix": "« Beaucoup sont heureux d’adhérer au Christ, ou à la caricature qu’ils se font du Christ. »",
+        "translation_quote": "Beaucoup sont heureux d’adhérer au Christ, ou à la caricature qu’ils se font du Christ."
+      },
+      {
+        "location": "Traditionalisme, définition de « conservatism »",
+        "severity": "major",
+        "source_quote": "supports minimal and gradual change in society.",
+        "suggested_fix": "« … et prône des changements minimes et graduels dans la société. »",
+        "translation_quote": "… et prône des changements minimaux et progressifs dans la société."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

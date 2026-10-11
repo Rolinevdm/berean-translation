@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ac878c44ada941fb8ad6271025d4e737",
   "campaign": "auto-b587b95c35d2c464260b7bddfddb6e6021b8e0b78d5cdb88870a2e702d60e1a9",
   "created_at": "2026-10-11T00:30:48+00:00",
   "events": [
@@ -28,10 +27,59 @@
         },
         "total_tokens": 19055
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 490,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 19409,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 18306,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 19899
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Conclusion, paragraphe sur l’approche christocentriste souhaitée",
+      "severity": "major",
+      "source_quote": "I desire a Christocentrism that embraces the entire Bible, involves a vibrant Christian life, is humble in relation to tradition, and that is informed by the vibrant witness of past generations of Christians.",
+      "suggested_fix": "« Toutefois, je souhaite un christocentrisme qui embrasse toute la Bible, s’accompagne d’une vie chrétienne vibrante, soit humble à l’égard de la tradition et soit éclairé par le témoignage vivant des générations chrétiennes passées. »",
+      "translation_quote": "Toutefois, je souhaite un christocentrisme qui embrasse toute la Bible, s’accompagne d’une vie chrétienne vibrante, demeure humble à l’égard de la tradition et se laisse éclairer par le témoignage vivant des générations chrétiennes passées."
+    },
+    {
+      "location": "Restaurationnisme, paragraphe sur les mouvements restaurationnistes",
+      "severity": "major",
+      "source_quote": "Major cults have been founded through restorationist attempts (the Mormons, for example).",
+      "suggested_fix": "« Des sectes majeures ont été fondées à la suite de tentatives restaurationnistes (les mormons, par exemple). »",
+      "translation_quote": "Des sectes majeures ont vu le jour à la suite de tentatives restaurationnistes (les mormons, par exemple)."
+    },
+    {
+      "location": "Christocentrisme, dernier paragraphe avant la chanson country",
+      "severity": "major",
+      "source_quote": "Many are happy to embrace Christ, or the caricature they think of as being Christ.",
+      "suggested_fix": "« Beaucoup sont heureux d’adhérer au Christ, ou à la caricature qu’ils se font du Christ. »",
+      "translation_quote": "Beaucoup sont heureux d’adhérer au Christ, ou à la caricature qu’ils se font du Christ."
+    },
+    {
+      "location": "Traditionalisme, définition de « conservatism »",
+      "severity": "major",
+      "source_quote": "supports minimal and gradual change in society.",
+      "suggested_fix": "« … et prône des changements minimes et graduels dans la société. »",
+      "translation_quote": "… et prône des changements minimaux et progressifs dans la société."
+    }
+  ],
   "id": "73567b2da5e1f892380e1e7a550e01de",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "fra",
@@ -120,11 +168,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/aeddb1d51271942bdbe3417e46c90421b08605b5b1d872e8fb0309f7877921c7.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +188,7 @@
     "total_reserved_usd": 0.134855,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
   "translation_model_actual": "gpt-6-luna"
