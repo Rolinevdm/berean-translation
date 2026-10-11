@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T15:36:48+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: “Saving for the cause of fornication” वाला अनुच्छेद\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the reason this is referred to as fornication instead of adultery ... just prior ... fornication ... just after ... adultery\",\n      \"suggested_fix\": \"इस अनुच्छेद में विवाह-पूर्व अनैतिकता के लिए लगातार “विवाह-पूर्व यौन अनैतिकता” और विवाह के बाद की बेवफाई के लिए “व्यभिचार” प्रयोग करें। संबंधित वाक्य को करें: “अंततः, इसे व्यभिचार के बजाय विवाह-पूर्व यौन अनैतिकता इसलिए कहा गया है कि मंगनी की अवधि में दोनों का विवाह अभी हुआ नहीं होता, न ही उनका शारीरिक संबंध स्थापित हुआ होता।” अंतिम वाक्य में भी क्रमशः यही दोनों शब्द रखें। आरंभिक उद्धृत पद और इस अनुच्छेद के शीर्ष उद्धरण में fornication के लिए भी “विवाह-पूर्व यौन अनैतिकता” रखें। सभी HTML टैग सुरक्षित रखें।\",\n      \"translation_quote\": \"“व्यभिचार के कारण को छोड़कर” ... यहाँ व्यभिचार का आशय मंगनी ... अंततः, इसे व्यभिचार के बजाय अनैतिक यौन संबंध इसलिए कहा गया है ... ठीक पहले ... व्यभिचार ... ठीक बाद ... जारकर्म\"\n    },\n    {\n      \"location\": \"html: यिर्मयाह 3:8 से शुरू होने वाला अनुच्छेद, मलाकी 2:11 का उद्धरण\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Judah hath profaned the holiness of the LORD which he loved\",\n      \"suggested_fix\": \"“यहोवा के उस पवित्रस्थान को अपवित्र किया है जिससे वह प्रेम करता था” को “यहोवा की उस पवित्रता को अपवित्र किया है जिससे वह प्रेम करता था” से बदलें।\",\n      \"translation_quote\": \"यहूदा ने यहोवा के उस पवित्रस्थान को अपवित्र किया है जिससे वह प्रेम करता था\"\n    },\n    {\n      \"location\": \"html: होशे की पुस्तक वाला अनुच्छेद, होशे 1:2 का उद्धरण\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Go, take unto thee a wife of whoredoms and children of whoredoms\",\n      \"suggested_fix\": \"उद्धरण के इस अंश को करें: “जा, वेश्यावृत्ति करने वाली स्त्री को अपनी पत्नी बना और वेश्यावृत्ति से उत्पन्न बच्चों को अपने पास ले”।\",\n      \"translation_quote\": \"जा, वेश्यागमन करने वाली स्त्री और वेश्यागमन से उत्पन्न बच्चों को अपने पास ले\"\n    },\n    {\n      \"location\": \"html: “इसलिए, दोनों जीवन-साथियों द्वारा पश्चात्ताप…” वाला अनुच्छेद, अंतिम वाक्य\",\n      \"severity\": \"major\",\n      \"source_quote\": \"we should fall on our knees in support and sincere gratitude to our Heavenly Father\",\n      \"suggested_fix\": \"अंतिम वाक्य को करें: “जब टूटे संबंध के लिए पश्चात्ताप और मेल-मिलाप की भक्तिपूर्ण इच्छा हो, तो हमें इस प्रयास के समर्थन में और अपने स्वर्गीय पिता के प्रति सच्चे आभार के साथ घुटनों के बल गिरना चाहिए।”\",\n      \"translation_quote\": \"हमें अपने स्वर्गीय पिता के समर्थन और उनके प्रति सच्चे आभार में घुटनों के बल गिरना चाहिए\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 89\n}",
+    "content_bytes": 5138,
+    "content_evidence_truncated": false,
+    "content_sha256": "c525af9503590e6b66a8746f58c10efbc5be2c871919e9511fef62f0ae89b24c",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 865,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 52,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12105,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12102,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12970
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
