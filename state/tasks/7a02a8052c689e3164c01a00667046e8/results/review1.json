@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b5371c3e-b62e-41b2-9987-ba0448f0c716",
+    "response_id": "chatcmpl-EXeIdZo1yS6nXsGKJI7WhTmqdFrk8",
+    "usage": {
+      "completion_tokens": 911,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 738,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3658,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2555,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4569
+    }
+  },
+  "received_at": "2026-10-11T06:20:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, primeiro parágrafo",
+        "severity": "minor",
+        "source_quote": "“was inconsistent with mainstream Christian faith.”",
+        "suggested_fix": "“era incompatível com a fé cristã predominante”",
+        "translation_quote": "“era incompatível com a fé cristã tradicional”"
+      },
+      {
+        "location": "HTML, parágrafo iniciado por “Depois, examinamos livros”",
+        "severity": "minor",
+        "source_quote": "“the negative ones that need to go to the burn pile”",
+        "suggested_fix": "“os negativos, que deveriam ir para a pilha de coisas a queimar”",
+        "translation_quote": "“os negativos, que deveriam ir para a pilha de queima”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

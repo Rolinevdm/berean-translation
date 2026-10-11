@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, primeiro parágrafo",
+      "severity": "minor",
+      "source_quote": "“was inconsistent with mainstream Christian faith.”",
+      "suggested_fix": "“era incompatível com a fé cristã predominante”",
+      "translation_quote": "“era incompatível com a fé cristã tradicional”"
+    },
+    {
+      "location": "HTML, parágrafo iniciado por “Depois, examinamos livros”",
+      "severity": "minor",
+      "source_quote": "“the negative ones that need to go to the burn pile”",
+      "suggested_fix": "“os negativos, que deveriam ir para a pilha de coisas a queimar”",
+      "translation_quote": "“os negativos, que deveriam ir para a pilha de queima”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
