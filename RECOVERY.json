@@ -7,11 +7,11 @@
     "active": 48,
     "already_translated": 108,
     "automatic_budget_blocked": 19,
-    "continuation_cooldown": 2,
-    "eligible_automatic": 1444,
+    "eligible_automatic": 1443,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
+    "pending_automatic_admission": 2,
     "provider_refusal_requires_owner_attention": 2,
-    "technical_failure_requires_attention": 5
+    "technical_failure_requires_attention": 7
   },
   "derived": true,
   "format_version": "2",
@@ -1911,11 +1911,13 @@
     },
     {
       "accepted_cycles": 0,
+      "admission_status": "pending",
       "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
       "language": "ben",
       "latest_task": "80a9e47f4bca84aad5bd68f22f07bf91",
-      "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "processing_status": "queued",
+      "reason": "pending_automatic_admission",
+      "request_id": "auto-b7c6b420839ea8f395f05c3fd2a544262fe087987500f09504fec27e9d630c53"
     },
     {
       "accepted_cycles": 0,
@@ -7111,7 +7113,7 @@
       "language": "ind",
       "latest_task": "625986be2df086909101cf158b80c165",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown"
+      "reason": "technical_failure_requires_attention"
     },
     {
       "accepted_cycles": 0,
@@ -7631,7 +7633,7 @@
       "language": "ita",
       "latest_task": "745e82489a64e07bd2dbfcc4157c2b79",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown"
+      "reason": "technical_failure_requires_attention"
     },
     {
       "accepted_cycles": 0,
@@ -8308,6 +8310,15 @@
       "latest_task": "cb5856ab4fecc7e5f555836ab158bffc",
       "processing_status": "not_ready",
       "reason": "eligible_automatic"
+    },
+    {
+      "admission_status": "pending",
+      "article_id": "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd",
+      "language": "kor",
+      "latest_task": null,
+      "processing_status": "queued",
+      "reason": "pending_automatic_admission",
+      "request_id": "auto-dbf9f81d35214fb7f345ddffac0e3fe3b45ad930217fa96c677a6c35075e843d"
     },
     {
       "accepted_cycles": 1,
