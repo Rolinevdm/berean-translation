@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "43f5530e-c95a-4cef-8159-be6559e060c7",
+    "response_id": "chatcmpl-EXjVRwzigSSf2zPovUKfgvaoCtytd",
+    "usage": {
+      "completion_tokens": 981,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 865,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3855,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2752,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4836
+    }
+  },
+  "received_at": "2026-10-11T08:50:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph, publication title",
+        "severity": "minor",
+        "source_quote": "The Heartbeat of the Remnant",
+        "suggested_fix": "Replace the publication title with a rendering that avoids the Hebrew phrase שארית הפליטה, for example: <em>פעימת לבה של השארית</em>.",
+        "translation_quote": "פעימת לבם של שארית הפליטה"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
