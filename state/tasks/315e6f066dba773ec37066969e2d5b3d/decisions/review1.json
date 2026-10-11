@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, stycket om Davids ankomst till härarna",
+      "severity": "minor",
+      "source_quote": "the reproachful blasphemies of the infidel",
+      "suggested_fix": "Ändra ”den otrognas skymfliga hädelser” till ”den otroendes skymfliga hädelser”.",
+      "translation_quote": "den otrognas skymfliga hädelser"
+    },
+    {
+      "location": "translation.html, stycket med Hebreerbrevet 12:2",
+      "severity": "minor",
+      "source_quote": "there was a jealous fire kindled by the blasphemous taunts of Goliath",
+      "suggested_fix": "Ändra ”Goljats hädiska hån tände en svartsjuk eld inom honom” till ”Goljats hädiska hån tände en eld av nitälskan inom honom”. Detta återger den religiösa ivern i sammanhanget tydligare.",
+      "translation_quote": "Goljats hädiska hån tände en svartsjuk eld inom honom"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

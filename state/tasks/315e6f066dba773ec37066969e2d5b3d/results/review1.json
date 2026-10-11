@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "3615abc0-ef1b-46f1-b264-e469791ea848",
+    "response_id": "chatcmpl-EXnAQelw3pXPq2nqZpQBrMAem7uuE",
+    "usage": {
+      "completion_tokens": 385,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 88,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7980,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7977,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8365
+    }
+  },
+  "received_at": "2026-10-11T13:06:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, stycket om Davids ankomst till härarna",
+        "severity": "minor",
+        "source_quote": "the reproachful blasphemies of the infidel",
+        "suggested_fix": "Ändra ”den otrognas skymfliga hädelser” till ”den otroendes skymfliga hädelser”.",
+        "translation_quote": "den otrognas skymfliga hädelser"
+      },
+      {
+        "location": "translation.html, stycket med Hebreerbrevet 12:2",
+        "severity": "minor",
+        "source_quote": "there was a jealous fire kindled by the blasphemous taunts of Goliath",
+        "suggested_fix": "Ändra ”Goljats hädiska hån tände en svartsjuk eld inom honom” till ”Goljats hädiska hån tände en eld av nitälskan inom honom”. Detta återger den religiösa ivern i sammanhanget tydligare.",
+        "translation_quote": "Goljats hädiska hån tände en svartsjuk eld inom honom"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

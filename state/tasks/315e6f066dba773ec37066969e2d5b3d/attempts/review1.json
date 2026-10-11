@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T13:06:13+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, stycket om Davids ankomst till härarna\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"the reproachful blasphemies of the infidel\",\n      \"suggested_fix\": \"Ändra ”den otrognas skymfliga hädelser” till ”den otroendes skymfliga hädelser”.\",\n      \"translation_quote\": \"den otrognas skymfliga hädelser\"\n    },\n    {\n      \"location\": \"translation.html, stycket med Hebreerbrevet 12:2\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"there was a jealous fire kindled by the blasphemous taunts of Goliath\",\n      \"suggested_fix\": \"Ändra ”Goljats hädiska hån tände en svartsjuk eld inom honom” till ”Goljats hädiska hån tände en eld av nitälskan inom honom”. Detta återger den religiösa ivern i sammanhanget tydligare.\",\n      \"translation_quote\": \"Goljats hädiska hån tände en svartsjuk eld inom honom\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 97\n}",
+    "content_bytes": 973,
+    "content_evidence_truncated": false,
+    "content_sha256": "a12e7234545e26859520d27fc1432028663174e425edcd9e763f9d1cabca997e",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 385,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 88,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7980,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7977,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8365
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

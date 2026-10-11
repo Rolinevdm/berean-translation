@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f1c7516303f44a88aa48ddcf842ad17c",
   "campaign": "auto-efdac3db59d8fc27fed5b56a668abaa4078a9ed66b1171b25330855c0b1545a2",
   "created_at": "2026-10-11T06:22:04+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 385,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 88,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7980,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7977,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8365
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, stycket om Davids ankomst till härarna",
+      "severity": "minor",
+      "source_quote": "the reproachful blasphemies of the infidel",
+      "suggested_fix": "Ändra ”den otrognas skymfliga hädelser” till ”den otroendes skymfliga hädelser”.",
+      "translation_quote": "den otrognas skymfliga hädelser"
+    },
+    {
+      "location": "translation.html, stycket med Hebreerbrevet 12:2",
+      "severity": "minor",
+      "source_quote": "there was a jealous fire kindled by the blasphemous taunts of Goliath",
+      "suggested_fix": "Ändra ”Goljats hädiska hån tände en svartsjuk eld inom honom” till ”Goljats hädiska hån tände en eld av nitälskan inom honom”. Detta återger den religiösa ivern i sammanhanget tydligare.",
+      "translation_quote": "Goljats hädiska hån tände en svartsjuk eld inom honom"
+    }
+  ],
+  "finished_at": "2026-10-11T13:06:13+00:00",
   "id": "315e6f066dba773ec37066969e2d5b3d",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "swe",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.752369,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"
