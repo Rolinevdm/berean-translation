@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "42aeaeb6-d9ad-42a1-8d64-98975b90dc90",
+    "response_id": "chatcmpl-EXaTLTLPr0FqxTIvMeP4ssfZ83GRE",
+    "usage": {
+      "completion_tokens": 827,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 713,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3797,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2694,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4624
+    }
+  },
+  "received_at": "2026-10-11T00:24:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragrafo sulla donna nel deserto e la vittoria di Cristo",
+        "severity": "minor",
+        "source_quote": "“and they loved not their lives unto the death.”",
+        "suggested_fix": "«e non amarono la loro vita neppure di fronte alla morte.»",
+        "translation_quote": "«e non hanno amato la loro vita fino a morire.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

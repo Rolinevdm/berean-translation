@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragrafo sulla donna nel deserto e la vittoria di Cristo",
+      "severity": "minor",
+      "source_quote": "“and they loved not their lives unto the death.”",
+      "suggested_fix": "«e non amarono la loro vita neppure di fronte alla morte.»",
+      "translation_quote": "«e non hanno amato la loro vita fino a morire.»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
