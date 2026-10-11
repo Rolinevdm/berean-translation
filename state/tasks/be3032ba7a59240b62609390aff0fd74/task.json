@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3cdf9b99aa15471f9b39f35ef1d43e97",
   "campaign": "auto-8f7857528d36e1e3c53c4a4146d51ec18bc425a86a48cea3f701783b7cf0681c",
   "created_at": "2026-10-10T21:33:54+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 6297
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 704,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 583,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6589,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5486,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7293
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Exodus 5 quotation",
+      "severity": "major",
+      "source_quote": "“Let more work be laid upon the men, that they may labour therein”",
+      "suggested_fix": "“Laat daar meer werk op die manne gelê word, sodat hulle daarmee besig kan wees”",
+      "translation_quote": "“Laat die werk vir die manne swaarder wees, sodat hulle daarmee besig kan wees”"
+    }
+  ],
   "id": "be3032ba7a59240b62609390aff0fd74",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "afr",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/13544cb6e0d298eda28cfb9b69de769cecac89abc53c344514518a5a4fed3f65.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.088795,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T13:05:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Exodus 5 quotation\",\"severity\":\"major\",\"source_quote\":\"“Let more work be laid upon the men, that they may labour therein”\",\"suggested_fix\":\"“Laat daar meer werk op die manne gelê word, sodat hulle daarmee besig kan wees”\",\"translation_quote\":\"“Laat die werk vir die manne swaarder wees, sodat hulle daarmee besig kan wees”\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 416,
+    "content_evidence_truncated": false,
+    "content_sha256": "690b2a965acd50bd8b1c1962b65ec69d0cd072a7f8a3b4319b9d87a056e140d7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 704,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 583,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6589,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5486,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7293
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
