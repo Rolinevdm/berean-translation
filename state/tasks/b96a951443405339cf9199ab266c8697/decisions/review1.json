@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2 and paragraph 6",
+      "severity": "major",
+      "source_quote": "“By the time he was finished with his razor (yes, he literally used a razor to cut and paste together the sections he wanted!)” and “literally take a razor to our Bibles”",
+      "suggested_fix": "In both places, replace «استری» with «استرا» (or «تیز دھار بلیڈ»), preserving the point that Jefferson cut the pages with a razor.",
+      "translation_quote": "“جب وہ اپنی استری ... سے اپنا کام مکمل کر چکا” and “اپنی بائبل پر استری نہیں چلاتا”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

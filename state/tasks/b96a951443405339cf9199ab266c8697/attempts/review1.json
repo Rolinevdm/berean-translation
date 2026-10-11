@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T21:47:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 2 and paragraph 6\",\"severity\":\"major\",\"source_quote\":\"“By the time he was finished with his razor (yes, he literally used a razor to cut and paste together the sections he wanted!)” and “literally take a razor to our Bibles”\",\"suggested_fix\":\"In both places, replace «استری» with «استرا» (or «تیز دھار بلیڈ»), preserving the point that Jefferson cut the pages with a razor.\",\"translation_quote\":\"“جب وہ اپنی استری ... سے اپنا کام مکمل کر چکا” and “اپنی بائبل پر استری نہیں چلاتا”\"}],\"findings_complete\":true,\"passed\":false,\"score\":90}",
+    "content_bytes": 669,
+    "content_evidence_truncated": false,
+    "content_sha256": "1ad7d48357a4114011380da06bc7c4f8da76fdedd8008bfa4c486ef4e338ca4e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 615,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 447,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2495,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2492,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3110
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
