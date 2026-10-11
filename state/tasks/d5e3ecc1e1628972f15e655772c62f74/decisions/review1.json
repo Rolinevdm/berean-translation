@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "if you are up to bat",
+      "suggested_fix": "Αν είναι η σειρά σου να χτυπήσεις στο μπέιζμπολ…",
+      "translation_quote": "αν βρίσκεσαι στο ρόπαλο"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

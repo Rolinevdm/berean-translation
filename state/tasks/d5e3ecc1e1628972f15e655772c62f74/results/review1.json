@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "906b9a38-8de9-44df-bcb8-8f18135ebd4d",
+    "response_id": "chatcmpl-EXZwxsDperiJSkflhVlrrkFSYEL03",
+    "usage": {
+      "completion_tokens": 661,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 565,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7623,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7620,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8284
+    }
+  },
+  "received_at": "2026-10-11T00:24:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph",
+        "severity": "minor",
+        "source_quote": "if you are up to bat",
+        "suggested_fix": "Αν είναι η σειρά σου να χτυπήσεις στο μπέιζμπολ…",
+        "translation_quote": "αν βρίσκεσαι στο ρόπαλο"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

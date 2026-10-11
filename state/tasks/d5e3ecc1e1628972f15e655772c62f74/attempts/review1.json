@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T00:24:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First paragraph\",\"severity\":\"minor\",\"source_quote\":\"if you are up to bat\",\"suggested_fix\":\"Αν είναι η σειρά σου να χτυπήσεις στο μπέιζμπολ…\",\"translation_quote\":\"αν βρίσκεσαι στο ρόπαλο\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 326,
+    "content_evidence_truncated": false,
+    "content_sha256": "dbacccfbf5d25368815ac223dabd08d187bdfb3bfb4a45e42cec11ac6f782bf3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 661,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 565,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7623,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7620,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8284
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
