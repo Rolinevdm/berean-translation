@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1d44a39a-e25d-4822-85b7-7c73f0b78ce5",
+    "response_id": "chatcmpl-EXpyD5ZcZfh875hvhBVOL7OJaVrwU",
+    "usage": {
+      "completion_tokens": 1271,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 123,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3182,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3179,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4453
+    }
+  },
+  "received_at": "2026-10-11T18:00:36+00:00",
+  "result": {
+    "html": "<article data-article-id=\"e7e3ec8b-76a7-4b0b-9837-12e668dd9abd\">\n  <figure>\n    <img src=\"/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg\" alt=\"Cartel de papel rasgado que dice «SE BUSCA: tradiciones cristianas, vivas o muertas», con «muertas o» tachado y «vivas» rodeado con un círculo\">\n  </figure>\n  <p>No hace falta buscar mucho para encontrar una tradición muerta. Yacen alrededor de las iglesias como las antiguas lápidas de un cementerio parroquial: se pudren, se desmoronan y, sin embargo, están demasiado cargadas de recuerdos como para simplemente arrojarlas por ahí, ladera abajo.</p>\n  <p>¿Y qué hay de las tradiciones vivas? Como los fieles manzanos de la hilera de árboles que bordea el cementerio, que dan fruto con la regularidad de una ... <em>tradición</em>, bendicen las almas una y otra vez.</p>\n  <p>¿Cómo se convierte una lápida desmoronada en un manzano vivo? Llegados a este punto, mi analogía empieza a desmoronarse ... Sin embargo, para algunas personas, esas viejas tradiciones muertas y secas jamás pueden revivir: ¡TIENEN que desaparecer! Durante años han conocido tradiciones muertas, secas, vacías y que empiezan a apestar, y SABEN que la vida de la iglesia nunca prospera si está atascada con las lápidas de siglos pasados.</p>\n  <p>Pero venid, razonemos juntos. ¿El problema es la tradición? ¿O es la muerte?</p>\n  <p>Hace algunos años viví una experiencia que cambió mi perspectiva de la vida. Durante muchos años había leído acerca de iglesias (la iglesia primitiva y los primeros metodistas, por ejemplo) y de cristianos individuales que seguían la tradición de ayunar un día determinado de la semana. «Qué formal debe de ser eso», me decía. ¿Convertir una disciplina espiritual como el ayuno en una tradición semanal?</p>\n  <p>Lo único que podía ver eran unas lápidas mohosas y desmoronadas en un cementerio.</p>\n  <p>Pero un día el Señor me concedió la capacidad de ver una verdad que me libró de mi desconfianza hacia todo lo tradicional: <em>las tradiciones son lo que hacemos de ellas.</em></p>\n  <p>Ayunar una vez por semana en un día fijado puede ser una lápida o un manzano. Una vez liberado de mi temor a la tradición, retomé la antigua tradición (y es <em>muy</em> antigua: se remonta a los primeros siglos de la iglesia cristiana) de ayunar una vez por semana en un día determinado.</p>\n  <p>¡Y fue como un viejo manzano fiel que me dio muchas bendiciones! ¡La tradición cobró vida!</p>\n  <p>Ahora estoy seguro de que podría convertir fácilmente esa tradición en una lápida. Lo único que tengo que hacer es empezar a practicarla porque <em>tengo que</em> hacerlo, en vez de porque <em>quiero</em> hacerlo. Pero mientras la he mantenido viva, nunca me he arrepentido. (Y añado que, por problemas de horario, no la he mantenido en todo momento desde que empecé.)</p>\n  <p>Escribo estas palabras con una carga en el corazón. Durante muchos años he visto a personas reaccionar contra las tradiciones con el fervor de un reformador religioso. A veces, sí, las tradiciones tienen que desaparecer. O al menos, ciertamente, a nadie le haría daño que desaparecieran. Pero la tradición no siempre es el problema. Muchas veces —de hecho, probablemente la mayoría de las veces—, la tradición <em>no</em> es el problema. El problema está en el corazón de quienes practican la tradición con la falta de vida de un cementerio abandonado.</p>\n  <p>¿Qué ocurre cuando cantas un canto gregoriano con todo tu espíritu concentrado en cantarlo? ¡Cobra vida! ¿Qué ocurre cuando das un beso santo a un hermano, con toda la santidad y la caridad que hay en ti? ¡Cobra vida! ¿Qué ocurre cuando recuperas la antigua costumbre del «ágape», practicada con mucho amor? ¡Cobra vida!</p>\n  <p>Tengamos cuidado al reaccionar contra las tradiciones y tengamos cuidado al mantenerlas.</p>\n  <p>Las tradiciones de la iglesia son lo que hacemos de ellas. Hazlo porque tienes que hacerlo, y será una tradición muerta. Hazlo porque quieres hacerlo, ¡y puede convertirse en una bendición viva para toda la vida!</p>\n  <p class=\"byline\">~ Mike Atnip</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Tradiciones: ¿son buenas o malas?"
+  }
+}
