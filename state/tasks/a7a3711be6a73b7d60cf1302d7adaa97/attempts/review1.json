@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T15:42:54+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, blockquote paragraf kedua, kutipan Matius 9:2-8\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Son, be of good cheer; thy sins be forgiven thee\",\n      \"suggested_fix\": \"Ganti “Percayalah, hai anak-Ku, dosamu sudah diampuni.” dengan “Bergembiralah, hai anak, dosamu sudah diampuni.” tanpa mengubah tag HTML atau bagian kutipan lainnya.\",\n      \"translation_quote\": \"“Percayalah, hai anak-Ku, dosamu sudah diampuni.”\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 569,
+    "content_evidence_truncated": false,
+    "content_sha256": "c23b9f6ab73cd79f23aa1156c44ad5ff1c2447e72ddbcc6b1dbb8a30dbb8f749",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 246,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 68,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9390,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8287,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9636
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
