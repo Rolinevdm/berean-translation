@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "088dca9ebbb64ef8994030dcc437f918",
   "campaign": "auto-2c6ea3e61a71aca0a4e4f1686e5e5b37a7916f279b9153ff3b71fd3dabe03196",
   "created_at": "2026-10-10T19:12:05+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 5497
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 544,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3964,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3961,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4508
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "마지막 문단, 기사 내부 서명",
-      "severity": "major",
-      "source_quote": "May this issue of <em>The Heartbeat of the Remnant</em> stir you to love Him more! ~Bro. Dean",
-      "suggested_fix": "마지막 문장 뒤에 기사 내부 서명을 추가하세요. 예: <em>The Heartbeat of the Remnant</em> 이번 호가 여러분의 마음을 움직여 그분을 더욱 사랑하게 하기를 바랍니다! ~딘 형제",
-      "translation_quote": "<em>The Heartbeat of the Remnant</em> 이번 호가 여러분의 마음을 움직여 그분을 더욱 사랑하게 하기를 바랍니다!"
-    },
-    {
-      "location": "책을 다루는 문단",
-      "severity": "minor",
-      "source_quote": "one that needs to be in the lap of your child",
-      "suggested_fix": "자녀가 읽을 수 있도록 무릎에 놓아 줄 한 권",
-      "translation_quote": "여러분의 자녀가 무릎에 앉아 읽어야 할 한 권의 책"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-11T06:26:27+00:00",
   "id": "4e07e414f40d5c7ff0f8ea63cbd4d0eb",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "kor",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.087119,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
   "translation_model_actual": "gpt-6-luna"
