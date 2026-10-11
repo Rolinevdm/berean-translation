@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T18:07:57+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"e7e3ec8b-76a7-4b0b-9837-12e668dd9abd\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg\\\" alt=\\\"’n Plakkaat van geskeurde papier met die woorde ‘GESOEK: Dood of lewend — Christelike tradisies’; ‘Dood of’ is deurgehaal en ‘Lewend’ is omring\\\">\\n  </figure>\\n  <p>’n Mens hoef nie ver te soek om ’n dooie tradisie te vind nie. Hulle lê in kerke rond soos die ou grafstene van ’n kerkhof: verrottend, verbrokkelend, en tog so vol herinneringe dat ’n mens hulle nie sommer êrens teen ’n bult kan gaan stort nie.</p>\\n  <p>Maar wat van lewende tradisies? Soos getroue appelbome in die ry bome langs die kerkhofheining wat met die reëlmaat van ’n ... <em>tradisie</em> vrugte dra, seën hulle siele keer op keer.</p>\\n  <p>Hoe verander ’n mens ’n verbrokkelende grafsteen in ’n lewende appelboom? Hier loop my vergelyking so ’n bietjie mank ... Tog kan daardie ou, dooie, dor tradisies vir sommige mense nooit weer lewend gemaak word nie: hulle MOET weg! Hulle het jare lank tradisies beleef—dood, dor, hol en besig om te stink—en hulle WEET dat die kerklewe nooit floreer as dit verstop is met die grafstene van eeue wat verby is nie.</p>\\n  <p>Maar kom, laat ons saam redeneer. Is die tradisie die probleem? Of is dit die doodsheid?</p>\\n  <p>’n Hele paar jaar gelede het ek ’n les geleer wat my lewensbeskouing verander het. Jare lank het ek gelees van kerke (byvoorbeeld die vroeë kerk en die vroeë Metodiste) en individuele Christene wat die tradisie gehandhaaf het om een dag per week te vas. “Hoe formeel moet dit nie wees nie,” het ek vir myself gesê. Om ’n geestelike dissipline soos vas ’n weeklikse tradisie te maak?</p>\\n  <p>Al wat ek kon sien, was ’n paar muf, verbrokkelende grafstene in ’n kerkhof.</p>\\n  <p>Maar eendag het die Here my in staat gestel om ’n waarheid raak te sien wat my van my agterdog teenoor alles wat tradisioneel is, verlos het: <em>tradisies is wat ons daarvan maak.</em></p>\\n  <p>Om een keer per week op ’n vasgestelde dag te vas, kan óf ’n grafsteen óf ’n appelboom wees. Toe ek eers van my vrees vir tradisie bevry is, het ek die ou (en dit is <em>baie</em> oud, en dateer uit die eerste eeue van die Christelike kerk) tradisie om een keer per week op ’n bepaalde dag te vas, opgeneem.</p>\\n  <p>En dit was soos ’n getroue ou appelboom wat my baie seëninge opgelewer het! Die tradisie het lewend geword!</p>\\n  <p>Nou is ek seker dat ek daardie tradisie maklik in ’n grafsteen kan verander. Al wat ek hoef te doen, is om dit te begin doen omdat ek <em>moet</em> in plaas daarvan dat ek dit <em>wil</em> doen. Maar solank ek dit lewend gehou het, was ek nooit spyt daaroor nie. (En ek wil byvoeg dat ek dit weens skedulekwessies nie die hele tyd sedert ek daarmee begin het, volgehou het nie.)</p>\\n  <p>Ek skryf hierdie woorde omdat dit my na aan die hart lê. Jare lank het ek gesien hoe mense met die ywer van ’n godsdienstige hervormer teen tradisies reageer. Soms moet tradisies inderdaad verdwyn. Of ten minste sal dit beslis niemand skade berokken as hulle verdwyn nie. Maar die tradisie is nie altyd die probleem nie. Dikwels—in werklikheid waarskynlik die meeste van die tyd—is die tradisie <em>nie</em> die probleem nie. Die probleem lê in die harte van dié wat die tradisie beoefen, waar dit so doods is soos ’n verlate kerkhof.</p>\\n  <p>Wat gebeur wanneer jy ’n Gregoriaanse gesang sing met jou hele gees ingestel op die sing daarvan? Dit word lewend! Wat gebeur wanneer jy ’n broer ’n heilige kus gee, met al die heiligheid en liefde wat in jou is? Dit word lewend! Wat gebeur wanneer jy die ou gebruik van die “liefdesmaal” laat herleef en dit met baie liefde beoefen? Dit word lewend!</p>\\n  <p>Laat ons versigtig wees om teen tradisies te reageer, en laat ons versigtig wees om hulle in stand te hou.</p>\\n  <p>Kerklike tradisies is wat ons daarvan maak. Doen dit omdat jy moet, en dit is ’n dooie tradisie. Doen dit omdat jy wil, en dit kan ’n lewenslange, lewende seën word!</p>\\n  <p class=\\\"byline\\\">~ Mike Atnip</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Tradisies: Is hulle goed of sleg?\"}",
+    "content_bytes": 4244,
+    "content_evidence_truncated": false,
+    "content_sha256": "e8e3c4ba141b9dc1091a62802bf7149d15b0f034f097a985d7c9fd20e2228ba8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1369,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 49,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1817,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1814,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3186
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
