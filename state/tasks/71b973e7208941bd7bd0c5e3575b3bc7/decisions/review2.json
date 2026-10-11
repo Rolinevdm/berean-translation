@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphe sur le jeûne hebdomadaire",
+      "severity": "minor",
+      "source_quote": "“How formal that must be,” I told myself. To have a spiritual discipline like fasting become a weekly tradition?",
+      "suggested_fix": "« Comme cela doit être formel », me disais-je. Faire d’une discipline spirituelle comme le jeûne une tradition hebdomadaire ?",
+      "translation_quote": "« Comme cela doit être formel », me disais-je. Faire du jeûne, une discipline spirituelle, une tradition hebdomadaire ?"
+    },
+    {
+      "location": "Paragraphe sur l’ancienne coutume",
+      "severity": "minor",
+      "source_quote": "the old custom of “love feast,” practiced with lots of love",
+      "suggested_fix": "Que se passe-t-il lorsque vous faites revivre l’ancienne coutume de l’« agape », pratiquée avec beaucoup d’amour ?",
+      "translation_quote": "l’ancienne coutume du « repas d’amour », pratiquée avec beaucoup d’amour"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
