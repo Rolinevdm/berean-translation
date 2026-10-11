@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T13:05:17+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: kutipan Matius 5:31-32 dan paragraf berikutnya yang menjelaskan fornication\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“saving for the cause of fornication” ... “Fornication is any type of immorality prior to marriage.” ... “the reason this is referred to as fornication instead of adultery” ... “any outside relationship would be fornication ... any similar relationship would be adultery.”\",\n      \"suggested_fix\": \"Bedakan istilah sumber secara konsisten: gunakan “percabulan” untuk fornication dan “perzinaan” untuk adultery. Dalam kutipan Matius, ubah menjadi “kecuali karena percabulan, menjadikan istrinya berbuat perzinaan; dan siapa yang menikahi perempuan yang diceraikan itu berbuat perzinaan”. Dalam paragraf penjelasan, gunakan “Kecuali karena percabulan”, “Percabulan adalah segala jenis amoralitas sebelum pernikahan”, “percabulan di sini mengacu”, “disebut percabulan dan bukan perzinaan”, serta “hubungan dengan orang lain adalah <em>percabulan</em>”. Pertahankan tag dan struktur yang ada.\",\n      \"translation_quote\": \"“kecuali karena zinah” ... “Zinah dalam pengertian ini adalah segala jenis amoralitas sebelum pernikahan.” ... “alasan hal ini disebut zinah dan bukan perzinaan” ... “hubungan dengan orang lain adalah zinah ... hubungan serupa adalah perzinaan.”\"\n    },\n    {\n      \"location\": \"html: ol, butir 3, kutipan Maleakhi 2:14-16\",\n      \"severity\": \"major\",\n      \"source_quote\": \"for one covereth violence with his garment\",\n      \"suggested_fix\": \"Ganti “orang menutupi pakaiannya dengan kekerasan” dengan “orang menutupi kekerasan dengan pakaiannya”, tanpa mengubah struktur HTML.\",\n      \"translation_quote\": \"orang menutupi pakaiannya dengan kekerasan\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 92\n}",
+    "content_bytes": 1894,
+    "content_evidence_truncated": false,
+    "content_sha256": "d3610a12548cb0b760863549542c2b6e95507a12abce1b817dc1c2020a6c5ea5",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 585,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 95,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11401,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10298,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11986
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

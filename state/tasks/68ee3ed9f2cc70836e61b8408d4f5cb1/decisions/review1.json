@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html: kutipan Matius 5:31-32 dan paragraf berikutnya yang menjelaskan fornication",
+      "severity": "major",
+      "source_quote": "“saving for the cause of fornication” ... “Fornication is any type of immorality prior to marriage.” ... “the reason this is referred to as fornication instead of adultery” ... “any outside relationship would be fornication ... any similar relationship would be adultery.”",
+      "suggested_fix": "Bedakan istilah sumber secara konsisten: gunakan “percabulan” untuk fornication dan “perzinaan” untuk adultery. Dalam kutipan Matius, ubah menjadi “kecuali karena percabulan, menjadikan istrinya berbuat perzinaan; dan siapa yang menikahi perempuan yang diceraikan itu berbuat perzinaan”. Dalam paragraf penjelasan, gunakan “Kecuali karena percabulan”, “Percabulan adalah segala jenis amoralitas sebelum pernikahan”, “percabulan di sini mengacu”, “disebut percabulan dan bukan perzinaan”, serta “hubungan dengan orang lain adalah <em>percabulan</em>”. Pertahankan tag dan struktur yang ada.",
+      "translation_quote": "“kecuali karena zinah” ... “Zinah dalam pengertian ini adalah segala jenis amoralitas sebelum pernikahan.” ... “alasan hal ini disebut zinah dan bukan perzinaan” ... “hubungan dengan orang lain adalah zinah ... hubungan serupa adalah perzinaan.”"
+    },
+    {
+      "location": "html: ol, butir 3, kutipan Maleakhi 2:14-16",
+      "severity": "major",
+      "source_quote": "for one covereth violence with his garment",
+      "suggested_fix": "Ganti “orang menutupi pakaiannya dengan kekerasan” dengan “orang menutupi kekerasan dengan pakaiannya”, tanpa mengubah struktur HTML.",
+      "translation_quote": "orang menutupi pakaiannya dengan kekerasan"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
