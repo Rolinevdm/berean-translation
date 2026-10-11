@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "3f351204-4a75-4c31-bb76-6ee8b4c43036",
+    "response_id": "chatcmpl-EXoNHboOBAmwgXrv821Iv1emHhOSD",
+    "usage": {
+      "completion_tokens": 765,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9681,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9678,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10446
+    }
+  },
+  "received_at": "2026-10-11T15:36:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraph beginning «Ο Γολιάθ είχε θεωρήσει αυτονόητο»",
+        "severity": "major",
+        "source_quote": "the stopping power of a 45 mm handgun",
+        "suggested_fix": "Αντικαταστήστε το «πιστόλι διαμετρήματος .45» με «πιστόλι διαμετρήματος 45 χιλιοστών», διατηρώντας την τιμή και τη μονάδα του πρωτοτύπου.",
+        "translation_quote": "ανασχετική δύναμη αντίστοιχη με πιστόλι διαμετρήματος .45"
+      },
+      {
+        "location": "html, quotation of Judges 20:16",
+        "severity": "major",
+        "source_quote": "could sling stones at an hair breadth, and not miss",
+        "suggested_fix": "Αντικαταστήστε το κείμενο μέσα στο υπάρχον em με «…μπορούσε να ρίχνει πέτρες με ακρίβεια τρίχας και να μην αστοχεί –Κριτές 20:16.» Η τρίχα περιγράφει την ακρίβεια της βολής, όχι την απόσταση.",
+        "translation_quote": "…μπορούσε να ρίχνει πέτρες σε απόσταση μιας τρίχας χωρίς να αστοχεί –Κριτές 20:16."
+      },
+      {
+        "location": "html, paragraph beginning «Το μεγαλύτερο και ανώτερο χάρισμα»",
+        "severity": "minor",
+        "source_quote": "If I could teach my dog to yodel, it would prove that yodeling is achievable for dogs",
+        "suggested_fix": "Αντικαταστήστε το «να γιουκαλίζει» και στις δύο εμφανίσεις με «να τραγουδά με την τεχνική του γιόντελ».",
+        "translation_quote": "Αν μπορούσα να μάθω στον σκύλο μου να γιουκαλίζει, αυτό θα αποδείκνυε πως οι σκύλοι μπορούν να μάθουν να γιουκαλίζουν"
+      },
+      {
+        "location": "html, final sentence of paragraph beginning «Πιστή δράση»",
+        "severity": "minor",
+        "source_quote": "and marveled at the ignorance of others",
+        "suggested_fix": "Αντικαταστήστε το «και θαύμαζε την άγνοια του Δαβίδ» με «και απορούσε με την άγνοια των άλλων», ώστε να διατηρηθούν τόσο το νόημα της έκπληξης όσο και η γενική αναφορά στους άλλους.",
+        "translation_quote": "και θαύμαζε την άγνοια του Δαβίδ"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

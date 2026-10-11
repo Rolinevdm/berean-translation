@@ -5,11 +5,61 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9e5f3c6ebaa9450f9c15c8c73497ef33",
   "campaign": "auto-44b3f4f518e00e521da6a7621f13697d1ee197ec74e9531dd1d6f2ac5f6fcfb8",
   "created_at": "2026-10-11T06:21:26+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 765,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 97,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9681,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9678,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10446
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, paragraph beginning «Ο Γολιάθ είχε θεωρήσει αυτονόητο»",
+      "severity": "major",
+      "source_quote": "the stopping power of a 45 mm handgun",
+      "suggested_fix": "Αντικαταστήστε το «πιστόλι διαμετρήματος .45» με «πιστόλι διαμετρήματος 45 χιλιοστών», διατηρώντας την τιμή και τη μονάδα του πρωτοτύπου.",
+      "translation_quote": "ανασχετική δύναμη αντίστοιχη με πιστόλι διαμετρήματος .45"
+    },
+    {
+      "location": "html, quotation of Judges 20:16",
+      "severity": "major",
+      "source_quote": "could sling stones at an hair breadth, and not miss",
+      "suggested_fix": "Αντικαταστήστε το κείμενο μέσα στο υπάρχον em με «…μπορούσε να ρίχνει πέτρες με ακρίβεια τρίχας και να μην αστοχεί –Κριτές 20:16.» Η τρίχα περιγράφει την ακρίβεια της βολής, όχι την απόσταση.",
+      "translation_quote": "…μπορούσε να ρίχνει πέτρες σε απόσταση μιας τρίχας χωρίς να αστοχεί –Κριτές 20:16."
+    },
+    {
+      "location": "html, paragraph beginning «Το μεγαλύτερο και ανώτερο χάρισμα»",
+      "severity": "minor",
+      "source_quote": "If I could teach my dog to yodel, it would prove that yodeling is achievable for dogs",
+      "suggested_fix": "Αντικαταστήστε το «να γιουκαλίζει» και στις δύο εμφανίσεις με «να τραγουδά με την τεχνική του γιόντελ».",
+      "translation_quote": "Αν μπορούσα να μάθω στον σκύλο μου να γιουκαλίζει, αυτό θα αποδείκνυε πως οι σκύλοι μπορούν να μάθουν να γιουκαλίζουν"
+    },
+    {
+      "location": "html, final sentence of paragraph beginning «Πιστή δράση»",
+      "severity": "minor",
+      "source_quote": "and marveled at the ignorance of others",
+      "suggested_fix": "Αντικαταστήστε το «και θαύμαζε την άγνοια του Δαβίδ» με «και απορούσε με την άγνοια των άλλων», ώστε να διατηρηθούν τόσο το νόημα της έκπληξης όσο και η γενική αναφορά στους άλλους.",
+      "translation_quote": "και θαύμαζε την άγνοια του Δαβίδ"
+    }
+  ],
   "id": "0ba1af433d3a805001df923d84d1a98a",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ell",
@@ -98,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +167,7 @@
     "total_reserved_usd": 0.78279,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"
