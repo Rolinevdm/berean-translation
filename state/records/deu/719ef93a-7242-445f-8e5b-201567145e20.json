@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/blockquote[1]/p[1]; missing: 1:27, 2:7; extra: none",
       "task": "fca9042a1392434c9937defe8ecc11f7"
+    },
+    {
+      "at": "2026-10-11T20:15:15+00:00",
+      "campaign": "auto-d3e9f233ee086874d9e098556fd2c06933e9ae1e92718042f5735a711ed0d6b8",
+      "event": "automatic_requested",
+      "previous_task": "fca9042a1392434c9937defe8ecc11f7",
+      "task": "a308ce7ee0dcf6120e3ec464671c3e26"
     }
   ],
   "language": "deu",
-  "latest_task": "fca9042a1392434c9937defe8ecc11f7",
+  "latest_task": "a308ce7ee0dcf6120e3ec464671c3e26",
   "published": null
 }
