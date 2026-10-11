@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2f7d4884-a2fa-4abb-825d-237dbb8e4795",
+    "response_id": "chatcmpl-EXUzC4xuamSz7mO7T4TBIFwpQ8M3g",
+    "usage": {
+      "completion_tokens": 754,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 662,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4721,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3618,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5475
+    }
+  },
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "“COME NOW, LET US REASON TOGETHER”",
+        "suggested_fix": "”آؤ، ہم مل کر غور کریں“",
+        "translation_quote": "”آؤ، ہم باہم بحث کریں“"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

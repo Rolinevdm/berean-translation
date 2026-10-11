@@ -2,7 +2,6 @@
   "article_id": "a5dc3764-e799-4138-82f0-87b245a77db8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e05561dfaf6143bd8dd1c6d03de1eb30",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -65,18 +64,39 @@
         },
         "total_tokens": 16461
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 995,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 882,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11207,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10104,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12202
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, lista numerada, punto 8",
-      "severity": "major",
-      "source_quote": "the best way to tell if it is legitimate, is if the details are not cloaked in secrecy.",
-      "suggested_fix": "En resumen, si se obtiene algún beneficio personal tras una tragedia o el juicio de otra persona, la mejor manera de saber si es legítimo es comprobar que los detalles no estén ocultos.",
-      "translation_quote": "la mejor manera de saber si es legítimo es comprobar si los detalles están ocultos en secreto."
+      "location": "HTML, list item 4",
+      "severity": "minor",
+      "source_quote": "–see Psa 111:9 and 1 Co 1:30",
+      "suggested_fix": "–véase Sal 111:9 y 1 Co 1:30",
+      "translation_quote": "–véase Sal 111:9 e 1 Co 1:30"
     }
   ],
+  "finished_at": "2026-10-11T01:50:15+00:00",
   "id": "a509bef603170d1f3b6ee41f06e41ba9",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "spa",
@@ -165,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4ea9ea2e7306c09911a630544909487ddc1cfe85b7092988a4880cf1dc9d4242.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
   "translation_model_actual": "gpt-6-luna"

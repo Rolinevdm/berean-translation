@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5163df90-3bd1-42d8-8211-6a4f34e49243",
+    "response_id": "chatcmpl-EXUz6yyGSM6qlQ8s0maJkSspjYT16",
+    "usage": {
+      "completion_tokens": 692,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7835,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6732,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8527
+    }
+  },
+  "received_at": "2026-10-11T01:50:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph, Ezekiel quotation",
+        "severity": "minor",
+        "source_quote": "And I sought for a man among them, that should make up the hedge, and stand in the gap before me for the land, that I should not destroy it: but I found none.",
+        "suggested_fix": "Feche as aspas portuguesas antes da referência: «... mas não encontrei nenhum.» –Ezequiel 22:30",
+        "translation_quote": "«E busquei entre eles um homem que levantasse o muro e se pusesse na brecha diante de mim, em favor da terra, para que eu não a destruísse; mas não encontrei nenhum. –Ezequiel 22:30"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

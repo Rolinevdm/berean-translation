@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ba2a3cb0-581e-4004-9d0d-fa6327cee48e",
+    "response_id": "chatcmpl-EXUyzeekoN2Fw3TfWPThtjgxSXbH7",
+    "usage": {
+      "completion_tokens": 937,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 751,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8186,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7083,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9123
+    }
+  },
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning «للأسف، يرقّي الرأي العام»; Scripture quotation, Galatians 1:10",
+        "severity": "major",
+        "source_quote": "“If I were still pleasing men, I should not be a servant of Christ. –Gal 1:10 ASV”",
+        "suggested_fix": "استبدل اسم الترجمة في نهاية الاقتباس بـ«النسخة القياسية الأمريكية (ASV)»؛ فـASV اختصار American Standard Version، وليس American Bible Society.",
+        "translation_quote": "«فلو كنت بعد أرضي الناس لم أكن عبدًا للمسيح. – غلاطية 1:10، ترجمة جمعية الكتاب المقدس الأمريكية»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

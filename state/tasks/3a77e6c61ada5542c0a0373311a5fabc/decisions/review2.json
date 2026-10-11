@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 2",
+      "severity": "minor",
+      "source_quote": "Let’s, each one, prayerfully seek the Lord about His present and future will for our lives.",
+      "suggested_fix": "آئیے، ہم میں سے ہر ایک دعا کے ساتھ اپنی زندگیوں کے لیے خداوند کی موجودہ اور آئندہ مرضی دریافت کریں۔",
+      "translation_quote": "آئیے، ہم میں سے ہر ایک دعا کے ساتھ اپنی زندگیوں کے لیے خداوند کی موجودہ اور آئندہ مرضی دریافت کرے۔"
+    },
+    {
+      "location": "HTML paragraph 4; location line",
+      "severity": "minor",
+      "source_quote": "Lebanon County, Pennsylvania",
+      "suggested_fix": "پنسلوانیا کی لبنان کاؤنٹی",
+      "translation_quote": "پنسلوانیا کی لیبنن کاؤنٹی"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

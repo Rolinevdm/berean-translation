@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 12, quotation of Mark 8:38\",\"severity\":\"minor\",\"source_quote\":\"in this adulterous and sinful generation\",\"suggested_fix\":\"σε αυτή την adulterous...\",\"translation_quote\":\"σε αυτή τη μοιχαλίδα και αμαρτωλή γενιά\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 341,
+    "content_evidence_truncated": false,
+    "content_sha256": "bb0e406e9acd7483da678b31859e362ad1ab21e57530301acd69b4bbf92038b3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 868,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 769,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7624,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6521,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8492
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

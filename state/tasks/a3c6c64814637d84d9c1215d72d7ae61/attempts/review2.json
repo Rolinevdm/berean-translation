@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T01:50:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First paragraph, Ezekiel quotation\",\"severity\":\"minor\",\"source_quote\":\"And I sought for a man among them, that should make up the hedge, and stand in the gap before me for the land, that I should not destroy it: but I found none.\",\"suggested_fix\":\"Feche as aspas portuguesas antes da referência: «... mas não encontrei nenhum.» –Ezequiel 22:30\",\"translation_quote\":\"«E busquei entre eles um homem que levantasse o muro e se pusesse na brecha diante de mim, em favor da terra, para que eu não a destruísse; mas não encontrei nenhum. –Ezequiel 22:30\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 639,
+    "content_evidence_truncated": false,
+    "content_sha256": "e916a6c5e20f6da140a1037325a54f1b92018e685d7019118395a9c3cf2f7e99",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 692,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7835,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6732,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8527
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

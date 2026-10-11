@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Metadata: title V\",\"severity\":\"minor\",\"source_quote\":\"What ALL was finished\",\"suggested_fix\":\"Apa saja yang telah SEPENUHNYA selesai\",\"translation_quote\":\"Apa yang SEMUANYA telah selesai\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 266,
+    "content_evidence_truncated": false,
+    "content_sha256": "a19c4e8c30e552b80bbb344459af1e2c33550efa6ff41e20b25b73fe55dcbe43",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 760,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 675,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11897,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10794,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12657
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

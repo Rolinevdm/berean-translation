@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning ““Señora!” a chorus of voices”",
+      "severity": "minor",
+      "source_quote": "“a chorus of voices hollered”",
+      "suggested_fix": "Use a natural Kiswahili expression such as “kundi la sauti lilipiga kelele” instead of “kwaya ya sauti.”",
+      "translation_quote": "“kwaya ya sauti ilipiga kelele”"
+    },
+    {
+      "location": "Paragraph beginning ““Let’s chat a little, Zinnia,””",
+      "severity": "minor",
+      "source_quote": "“My heart yearned for the dear girl.”",
+      "suggested_fix": "Use wording that conveys affection and compassion, such as “Nilimhurumia sana msichana huyo mpendwa.”",
+      "translation_quote": "“Moyo wangu ulimtamani msichana huyo mpendwa.”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

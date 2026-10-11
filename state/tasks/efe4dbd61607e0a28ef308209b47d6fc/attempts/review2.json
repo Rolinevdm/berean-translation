@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T01:50:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf 1\",\"severity\":\"minor\",\"source_quote\":\"someone sharing their faith in Jesus with others\",\"suggested_fix\":\"seseorang membagikan iman kepada Yesus kepada orang lain\",\"translation_quote\":\"seseorang membagikan imannya kepada Yesus kepada orang lain\"},{\"location\":\"Paragraf 3, kutipan Mat 4:23\",\"severity\":\"minor\",\"source_quote\":\"healing all manner of sickness and all manner of disease among the people\",\"suggested_fix\":\"menyembuhkan segala macam penyakit dan segala macam penyakit\",\"translation_quote\":\"menyembuhkan segala macam penyakit dan kelemahan di antara orang banyak\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 659,
+    "content_evidence_truncated": false,
+    "content_sha256": "819837337dd462f095e81a83bdb3c98c3f315282111a753fdefef2b0b7355878",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 785,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 613,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6381,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5278,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7166
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

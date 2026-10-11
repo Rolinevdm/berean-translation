@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, list item 4",
+      "severity": "minor",
+      "source_quote": "–see Psa 111:9 and 1 Co 1:30",
+      "suggested_fix": "–véase Sal 111:9 y 1 Co 1:30",
+      "translation_quote": "–véase Sal 111:9 e 1 Co 1:30"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

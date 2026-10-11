@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Абзац о Филиппийцам 2:7",
+      "severity": "minor",
+      "source_quote": "That is the reputation that he adopted.",
+      "suggested_fix": "Именно такой образ Он принял.",
+      "translation_quote": "Именно такую участь Он принял."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T01:50:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Абзац о Филиппийцам 2:7\",\"severity\":\"minor\",\"source_quote\":\"That is the reputation that he adopted.\",\"suggested_fix\":\"Именно такой образ Он принял.\",\"translation_quote\":\"Именно такую участь Он принял.\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 346,
+    "content_evidence_truncated": false,
+    "content_sha256": "ba715ceb392370cd67c75b9a9ae8710874998a1f99f3c0db7f8665328d09a59f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1070,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 975,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9635,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8532,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10705
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

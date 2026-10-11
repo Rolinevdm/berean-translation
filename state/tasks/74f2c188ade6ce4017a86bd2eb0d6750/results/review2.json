@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b85c77e3-a2d5-45f6-b19a-ed52ddfd7aa6",
+    "response_id": "chatcmpl-EXUzUHNprYsIKzt24jj3zNr9i8F5a",
+    "usage": {
+      "completion_tokens": 1179,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 837,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8361,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7258,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9540
+    }
+  },
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "ציטוט אל העברים 11:24–27",
+        "severity": "major",
+        "source_quote": "for he endured, as seeing him who is invisible.",
+        "suggested_fix": "״...כי התמיד, כאילו ראה את מי שאינו נראה.״",
+        "translation_quote": "״...כי התחזק כאילו ראה את מי שאינו נראה.״"
+      },
+      {
+        "location": "הפסקה על מעשי הגבורה וההוקרה",
+        "severity": "minor",
+        "source_quote": "Books are written, and monuments erected in honor of those whose benefaction has touched us.",
+        "suggested_fix": "ספרים נכתבים ואנדרטאות מוקמות לכבוד מי שמעשיהם הטובים נגעו ללבנו.",
+        "translation_quote": "ספרים נכתבים ואנדרטאות מוקמות לכבוד מי שגמולם הטוב נגע בנו."
+      },
+      {
+        "location": "הפסקה על מרתא ומרים",
+        "severity": "minor",
+        "source_quote": "Martha was zealously active in filling what she perceived as the imminent gap in the household, while Mary was sitting in the eternal one.",
+        "suggested_fix": "מרתא פעלה בלהט כדי למלא את מה שראתה כצורך המיידי בבית, ואילו מרים ישבה במקום הנצחי.",
+        "translation_quote": "מרתא פעלה בלהט כדי למלא את מה שראתה כצורך המיידי בבית, ואילו מרים ישבה לצד הנצחי."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

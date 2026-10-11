@@ -6,6 +6,12 @@
       "campaign": "gh-37791140876",
       "event": "requested",
       "task": "6c72cd66c1539ae8d2114170c0a8f386"
+    },
+    {
+      "at": "2026-10-11T01:50:14+00:00",
+      "event": "not_ready",
+      "reason": "Batch request failed: batch_expired. The provider processing window expired; successful rows remain usable. Any retry needs an explicit new request.",
+      "task": "6c72cd66c1539ae8d2114170c0a8f386"
     }
   ],
   "language": "deu",

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e47c6788-436d-4dc7-a3ab-d66986c24873",
+    "response_id": "chatcmpl-EXUzPc8CoQOJXBWiXN67aotmcVOkC",
+    "usage": {
+      "completion_tokens": 677,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4737,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3634,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5414
+    }
+  },
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Psalm 40:1–4 quotation",
+        "severity": "major",
+        "source_quote": "Blessed is that man that maketh the LORD his trust, and respecteth not the proud, nor such as turn aside to lies.",
+        "suggested_fix": "Replace “och inte vänder sig till de högmodiga” with “och inte visar högmodiga respekt” so the translation preserves the source’s meaning that the person does not show respect to the proud.",
+        "translation_quote": "Salig är den människa som har HERREN till sin tillit och inte vänder sig till de högmodiga eller till dem som viker av till lögn."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

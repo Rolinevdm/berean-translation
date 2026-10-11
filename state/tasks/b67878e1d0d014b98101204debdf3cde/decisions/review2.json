@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3, Matthew 4:23 quotation",
+      "severity": "major",
+      "source_quote": "“healing all manner of sickness and all manner of disease among the people”",
+      "suggested_fix": "Replace “na kuponya magonjwa yote na udhaifu wa kila namna miongoni mwa watu” with “na kuponya kila namna ya ugonjwa na kila namna ya maradhi miongoni mwa watu.”",
+      "translation_quote": "“na kuponya magonjwa yote na udhaifu wa kila namna miongoni mwa watu”"
+    },
+    {
+      "location": "Paragraph 8, account of the young father",
+      "severity": "major",
+      "source_quote": "“so they burnt him at the stake”",
+      "suggested_fix": "Replace “kwa hiyo wakamchoma kwenye mti wa mateso” with “kwa hiyo wakamchoma akiwa amefungwa kwenye mti wa kuchomea watu.”",
+      "translation_quote": "“kwa hiyo wakamchoma kwenye mti wa mateso”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

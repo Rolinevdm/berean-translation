@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T01:50:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening paragraph\",\"severity\":\"minor\",\"source_quote\":\"“where large groups of plain people are living”\",\"suggested_fix\":\"“waar groot gemeenskappe van die eenvoudige geloofsgroepe woon”\",\"translation_quote\":\"“waar groot groepe eenvoudige mense woon”\"},{\"location\":\"Endnotes, note 1\",\"severity\":\"minor\",\"source_quote\":\"“islet transplantation”\",\"suggested_fix\":\"“oorplanting van eilandjieselle”\",\"translation_quote\":\"“eilandjie-oorplanting”\"},{\"location\":\"Endnotes, note 4\",\"severity\":\"minor\",\"source_quote\":\"“fetal allografts”\",\"suggested_fix\":\"“fetale allooorplantings”\",\"translation_quote\":\"“fetale alloo oorplantings”\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 733,
+    "content_evidence_truncated": false,
+    "content_sha256": "6b56e2fc0ef335e8216db7e961c10953bb9ce239f15bae83f57be2ad5858fa36",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1044,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 849,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11990,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10887,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13034
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

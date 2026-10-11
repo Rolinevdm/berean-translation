@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T01:50:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, list item 4\",\"severity\":\"minor\",\"source_quote\":\"–see Psa 111:9 and 1 Co 1:30\",\"suggested_fix\":\"–véase Sal 111:9 y 1 Co 1:30\",\"translation_quote\":\"–véase Sal 111:9 e 1 Co 1:30\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 268,
+    "content_evidence_truncated": false,
+    "content_sha256": "a0129aebe7e01351943f657c10eb9364dfd681cc13b8805bdcbb380843403dfd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 995,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 882,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11207,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10104,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12202
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

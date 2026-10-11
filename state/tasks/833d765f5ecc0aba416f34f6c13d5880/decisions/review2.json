@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Het lijkt mij dat God…”; Revelation 4:11 quotation",
+      "severity": "major",
+      "source_quote": "“for thou hast created all things, and for thy pleasure they are and were created.”",
+      "suggested_fix": "Replace “door Uw wil bestaan zij en zijn zij geschapen” with “tot Uw welbehagen zijn en zijn zij geschapen” (or another natural Dutch rendering that preserves “for thy pleasure”).",
+      "translation_quote": "“want U hebt alle dingen geschapen en door Uw wil bestaan zij en zijn zij geschapen.”"
+    },
+    {
+      "location": "Paragraph beginning “De onderliggende reden…”; sentence about Martha and Mary",
+      "severity": "minor",
+      "source_quote": "“Martha was zealously active in filling what she perceived as the imminent gap in the household, while Mary was sitting in the eternal one.”",
+      "suggested_fix": "Use a natural Dutch phrase clarifying the contrast, for example: “Martha was ijverig bezig de dreigende leemte in het huishouden te vullen zoals zij die zag, terwijl Maria zich richtte op wat eeuwig is.”",
+      "translation_quote": "“Martha was ijverig bezig de dreigende leemte in het huishouden te vullen zoals zij die zag, terwijl Maria plaatsnam in de eeuwige.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

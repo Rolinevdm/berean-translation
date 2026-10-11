@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2a76f154-547e-4c50-9e32-88509d8a4bcc",
+    "response_id": "chatcmpl-EXUzNzUYfgEyV7qnjz1yolWxZyc7v",
+    "usage": {
+      "completion_tokens": 901,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 765,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12756,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11653,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13657
+    }
+  },
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “এটা যদি কিছুটা ভয়ংকর শোনায়”",
+        "severity": "major",
+        "source_quote": "Imagine being a child born of a genetic mother that was aborted!",
+        "suggested_fix": "ভাবুন, এমন এক শিশুর কথা, যার জিনগত মা গর্ভপাতের শিকার হয়েছিলেন!",
+        "translation_quote": "ভাবুন তো, যার জিনগত মা গর্ভপাত করিয়েছিলেন, এমন এক শিশুর জন্ম হলো!"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

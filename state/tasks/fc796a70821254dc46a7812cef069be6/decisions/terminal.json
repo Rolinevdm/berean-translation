@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Opening paragraph",
+      "severity": "minor",
+      "source_quote": "“where large groups of plain people are living”",
+      "suggested_fix": "“waar groot gemeenskappe van die eenvoudige geloofsgroepe woon”",
+      "translation_quote": "“waar groot groepe eenvoudige mense woon”"
+    },
+    {
+      "location": "Endnotes, note 1",
+      "severity": "minor",
+      "source_quote": "“islet transplantation”",
+      "suggested_fix": "“oorplanting van eilandjieselle”",
+      "translation_quote": "“eilandjie-oorplanting”"
+    },
+    {
+      "location": "Endnotes, note 4",
+      "severity": "minor",
+      "source_quote": "“fetal allografts”",
+      "suggested_fix": "“fetale allooorplantings”",
+      "translation_quote": "“fetale alloo oorplantings”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

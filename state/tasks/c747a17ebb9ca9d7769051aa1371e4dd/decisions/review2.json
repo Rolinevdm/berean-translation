@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “राजा दारा ने…”; Daniel 6:10 quotation",
+      "severity": "minor",
+      "source_quote": "“his windows being open in his chamber toward Jerusalem”",
+      "suggested_fix": "Replace “उसकी अटारी की खिड़कियाँ” with “उसके कक्ष की खिड़कियाँ” to avoid specifying an attic not stated in the source.",
+      "translation_quote": "“उसकी अटारी की खिड़कियाँ यरूशलेम की ओर खुली थीं”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

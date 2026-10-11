@@ -2,7 +2,6 @@
   "article_id": "7cdda5c4-11c0-4b7f-bcd4-b37677267f87",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e05561dfaf6143bd8dd1c6d03de1eb30",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:02+00:00",
   "events": [
@@ -65,25 +64,39 @@
         },
         "total_tokens": 11581
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 868,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 769,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7624,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6521,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8492
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph beginning «Γιατί, λοιπόν, γράφω αυτά;», quotation of Matthew 13:22",
-      "severity": "major",
-      "source_quote": "He also that received seed among the thorns",
-      "suggested_fix": "Εκείνος, επίσης, που δέχτηκε τον σπόρο ανάμεσα στα αγκάθια είναι αυτός που ακούει τον λόγο·",
-      "translation_quote": "Εκείνος, επίσης, που σπάρθηκε ανάμεσα στα αγκάθια είναι αυτός που ακούει τον λόγο·"
-    },
-    {
-      "location": "Paragraph beginning «Είναι εύκολο να είσαι Χριστιανός», sentence about the school note",
+      "location": "Paragraph 12, quotation of Mark 8:38",
       "severity": "minor",
-      "source_quote": "a note from the principle",
-      "suggested_fix": "με ένα σημείωμα από τη διεύθυνση",
-      "translation_quote": "με ένα σημείωμα από τη διευθύντρια"
+      "source_quote": "in this adulterous and sinful generation",
+      "suggested_fix": "σε αυτή την adulterous...",
+      "translation_quote": "σε αυτή τη μοιχαλίδα και αμαρτωλή γενιά"
     }
   ],
+  "finished_at": "2026-10-11T01:50:14+00:00",
   "id": "5bed8f13057751051f22666d6b36fa7a",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "ell",
@@ -172,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7434cb13c1d80517ad133a1c4c0893948466806ea88db8f224cb99af5eed68e8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "727e7fad16fe0c183877371536ededc34c2fe36e9cda810c7aa781b90f25417a",
   "translation_model_actual": "gpt-6-luna"

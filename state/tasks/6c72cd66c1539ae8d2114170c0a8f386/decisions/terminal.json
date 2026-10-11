@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Absatz beginnend „Weise Eltern bemühen sich …“",
+      "severity": "major",
+      "source_quote": "Instead, the children of Israel made friends with the enemy nations and began to intermarry.",
+      "suggested_fix": "Stattdessen schlossen die Kinder Israels Freundschaft mit den feindlichen Völkern und begannen, sich mit ihnen zu verheiraten.",
+      "translation_quote": "Stattdessen schlossen die Kinder Israels Freundschaft mit den feindlichen Völkern und begannen, untereinander zu heiraten."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Batch request failed: batch_expired. The provider processing window expired; successful rows remain usable. Any retry needs an explicit new request.",
+  "stage": "terminal"
+}

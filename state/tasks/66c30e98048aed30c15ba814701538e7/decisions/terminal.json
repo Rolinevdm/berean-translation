@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Gloria’s quotation of Psalm 40:1–4",
+      "severity": "major",
+      "source_quote": "“Blessed is that man that maketh the LORD his trust, and respecteth not the proud, nor such as turn aside to lies.”",
+      "suggested_fix": "Replace «и не обращается к гордым» with «и не почитает надменных» to preserve the source’s meaning of not regarding the proud.",
+      "translation_quote": "«Блажен человек, который на Господа возлагает надежду свою и не обращается к гордым и к уклоняющимся ко лжи»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

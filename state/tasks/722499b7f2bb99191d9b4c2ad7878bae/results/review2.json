@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c7cb3e9a-e19e-482f-bc35-8e6e7d9b47db",
+    "response_id": "chatcmpl-EXUzJvIvhCx0CcB9KWo4wk9bqxQo2",
+    "usage": {
+      "completion_tokens": 869,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 695,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4501,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3398,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5370
+    }
+  },
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "“COME NOW, LET US REASON TOGETHER”",
+        "suggested_fix": "„בואו נא ונדון יחד”",
+        "translation_quote": "„בואו נא ונשוחח יחד”"
+      },
+      {
+        "location": "HTML, paragraph 9 (quotation of Matthew 7:13–14)",
+        "severity": "minor",
+        "source_quote": "“But small is the gate and narrow the road that leads to life”",
+        "suggested_fix": "„אך קטן השער וצרה הדרך המוליכה לחיים”",
+        "translation_quote": "„אך צר השער וצרה הדרך המוליכה לחיים”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

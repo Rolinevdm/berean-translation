@@ -2,7 +2,6 @@
   "article_id": "fdeac3b1-1f65-4a08-be46-c3bdca309210",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e05561dfaf6143bd8dd1c6d03de1eb30",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -65,32 +64,40 @@
         },
         "total_tokens": 6125
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 930,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 724,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4373,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3270,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5303
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph 2",
+      "location": "Article paragraph 9, quotation of Matthew 7:13–14",
       "severity": "major",
-      "source_quote": "My faith in and relationship to Jesus Christ are as foundational and irrefutable as my gender and race.",
-      "suggested_fix": "Mein Glaube an Jesus Christus und meine Beziehung zu ihm sind ebenso grundlegend und unwiderlegbar wie mein Geschlecht und meine Rasse.",
-      "translation_quote": "Mein Glaube an Jesus Christus und meine Beziehung zu ihm sind ebenso grundlegend und unwiderlegbar wie mein Geschlecht und meine Hautfarbe."
-    },
-    {
-      "location": "Paragraph 3",
-      "severity": "major",
-      "source_quote": "a man who reportedly, throughout his life, had considered himself a female and who had been “transitioning” into a woman",
-      "suggested_fix": "einen Mann, der sich Berichten zufolge sein ganzes Leben lang für eine Frau gehalten und sich im Übergang zu einer Frau befunden hatte",
-      "translation_quote": "einen Mann, der sich Berichten zufolge sein ganzes Leben lang für eine Frau gehalten und sich in eine Frau „verwandelt“ hatte"
-    },
-    {
-      "location": "Paragraphs 8 and 9, Scripture references",
-      "severity": "minor",
-      "source_quote": "–Mat 7:13-14 NIV … –Joh 3:16",
-      "suggested_fix": "Use conventional German book abbreviations in the references: „–Mt 7:13-14 NIV“ and „–Joh 3:16“.",
-      "translation_quote": "–Mat 7:13-14 NIV … –Joh 3:16"
+      "source_quote": "For wide is the gate and broad is the road that leads to destruction, and many enter through it. ... But small is the gate and narrow the road that leads to life",
+      "suggested_fix": "Korrigieren Sie die Tor-Bilder und den Bezug im Zitat, zum Beispiel: „Denn weit ist das Tor und breit der Weg, der ins Verderben führt, und viele gehen durch dieses Tor hinein. Doch klein ist das Tor und schmal der Weg, der zum Leben führt …“",
+      "translation_quote": "Denn weit ist das Tor und breit der Weg, der ins Verderben führt, und viele gehen auf ihm. Doch eng ist das Tor und schmal der Weg, der zum Leben führt"
     }
   ],
+  "finished_at": "2026-10-11T01:50:14+00:00",
   "id": "252eae842b514e9d42b7a5b58d83f45a",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "deu",
@@ -179,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 94,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/2577472f0808b8b850707a207dff1df0a56cd823f7abb48ed47b998fb535c87b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5fbd516564ba7c85c347141861b28c59c35eabd19c29b4f342e40930cce50e8b",
   "translation_model_actual": "gpt-6-luna"

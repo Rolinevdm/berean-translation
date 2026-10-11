@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "69e63b14-6978-4519-80bb-6bae3e37534e",
+    "response_id": "chatcmpl-EXUz29AX736G7HYBttewV8CGPdbPG",
+    "usage": {
+      "completion_tokens": 869,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 762,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4481,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3378,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5350
+    }
+  },
+  "received_at": "2026-10-11T01:50:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "“COME NOW, LET US REASON TOGETHER”",
+        "suggested_fix": "«KOM, LA OSS GÅ I RETTE MED HVERANDRE»",
+        "translation_quote": "«KOM, LA OSS GJØRE OPP VÅR SAK»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

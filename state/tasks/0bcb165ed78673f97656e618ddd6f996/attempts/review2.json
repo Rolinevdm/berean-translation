@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"section\",\"severity\":\"minor\",\"source_quote\":\"“COME NOW, LET US REASON TOGETHER”\",\"suggested_fix\":\"”آؤ، ہم مل کر غور کریں“\",\"translation_quote\":\"”آؤ، ہم باہم بحث کریں“\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 289,
+    "content_evidence_truncated": false,
+    "content_sha256": "d9feffe4c8d8b0017e7347e1a62c3643d32ddf4e65db3cefc2e9752863b1dd52",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 754,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 662,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4721,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3618,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5475
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

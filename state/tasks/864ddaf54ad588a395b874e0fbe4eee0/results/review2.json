@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d6837666-4868-4343-9ac2-bc035856a0ff",
+    "response_id": "chatcmpl-EXUzh0Bk2swjBVtJLsWiQBBupXZKG",
+    "usage": {
+      "completion_tokens": 751,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 662,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12183,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11080,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12934
+    }
+  },
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Section III, heading d",
+        "severity": "major",
+        "source_quote": "Does not keep Satan away from us",
+        "suggested_fix": "Hauweki Shetani mbali nasi",
+        "translation_quote": "Hautuweki mbali na Shetani"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

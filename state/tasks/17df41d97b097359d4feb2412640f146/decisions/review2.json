@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "Carol drove the old Chevy along the busy interstate highway toward home.",
+      "suggested_fix": "Carol het die ou Chevy langs die besige snelweg huis toe bestuur.",
+      "translation_quote": "Carol die ou Chevy met die besige snelweg huis toe bestuur het."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5cbc116c-0955-4a51-a3ab-4b8c50c28af5",
+    "response_id": "chatcmpl-EXUzPu6joitRdtrYTW0oqWPmDlKoh",
+    "usage": {
+      "completion_tokens": 772,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 589,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4708,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3605,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5480
+    }
+  },
+  "received_at": "2026-10-11T01:50:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraphs beginning «Hva i all verden skal vi gjøre nå?» and «Mens jentene sang den ene sangen etter den andre»; dialogue «Omtrent tretten miles.»",
+        "severity": "major",
+        "source_quote": "“seven more miles to our exit”; “thirteen miles from home”; “About thirteen miles.”",
+        "suggested_fix": "Replace the distances with Norwegian kilometres, for example «omtrent 11 kilometer igjen til avkjørselen», «omtrent 21 kilometer hjemmefra» and «Omtrent 21 kilometer».",
+        "translation_quote": "«sju miles igjen til avkjørselen vår»; «tretten miles hjemmefra»; «Omtrent tretten miles.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

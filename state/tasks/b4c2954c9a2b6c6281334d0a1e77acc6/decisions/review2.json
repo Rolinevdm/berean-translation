@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, абзац 7",
+      "severity": "major",
+      "source_quote": "Darwinism now replaces Creationism, within much of our education system, students as well as teachers who profess faith in the God of the Bible are ridiculed and are otherwise discriminated against",
+      "suggested_fix": "В результате прогрессивного мышления дарвинизм теперь вытесняет креационизм; во многих учебных заведениях нашей системы образования учеников и учителей, исповедующих веру в Бога Библии, высмеивают и подвергают иной дискриминации",
+      "translation_quote": "В результате прогрессивного мышления дарвинизм теперь вытесняет креационизм; во многих учебных заведениях нашей системы образования учеников и учителей, исповедующих веру в Бога Библии, высмеивают и подвергают иной дискриминации"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphs beginning «Hva i all verden skal vi gjøre nå?» and «Mens jentene sang den ene sangen etter den andre»; dialogue «Omtrent tretten miles.»",
+      "severity": "major",
+      "source_quote": "“seven more miles to our exit”; “thirteen miles from home”; “About thirteen miles.”",
+      "suggested_fix": "Replace the distances with Norwegian kilometres, for example «omtrent 11 kilometer igjen til avkjørselen», «omtrent 21 kilometer hjemmefra» and «Omtrent 21 kilometer».",
+      "translation_quote": "«sju miles igjen til avkjørselen vår»; «tretten miles hjemmefra»; «Omtrent tretten miles.»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

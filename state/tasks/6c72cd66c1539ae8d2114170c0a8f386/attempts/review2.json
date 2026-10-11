@@ -1,0 +1,16 @@
+{
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "response": {
+    "finish_reason": null,
+    "model": null,
+    "outcome": "provider_error",
+    "provider_failure": {
+      "action": "The provider processing window expired; successful rows remain usable. Any retry needs an explicit new request.",
+      "code": "batch_expired"
+    },
+    "usage": {}
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

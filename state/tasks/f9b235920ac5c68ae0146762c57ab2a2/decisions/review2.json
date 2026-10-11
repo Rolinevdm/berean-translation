@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphe commençant par « Alors, à quoi ressemble la brèche… »",
+      "severity": "major",
+      "source_quote": "« But the real gap could not be filled by caressing the cripple, but by crowning the Christ. »",
+      "suggested_fix": "Remplacer « en cajolant l’infirme » par « en entourant l’infirme de tendresse » pour rendre l’idée de « caressing » sans changer le contraste avec « couronner le Christ ».",
+      "translation_quote": "« Mais la brèche véritable ne pouvait être comblée en cajolant l’infirme, mais en couronnant le Christ. »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

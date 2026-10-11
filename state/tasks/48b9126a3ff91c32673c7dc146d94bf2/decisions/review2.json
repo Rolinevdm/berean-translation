@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Section V heading",
+      "severity": "minor",
+      "source_quote": "What ALL was finished",
+      "suggested_fix": "Wat er ALLEMAAL werd volbracht",
+      "translation_quote": "Wat ALLES volbracht was"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4bfecd8a-c51d-41fc-8f26-8ba456bba6c7",
+    "response_id": "chatcmpl-EXUzM5PfGXk9j25TkPB0rGOrDgl6i",
+    "usage": {
+      "completion_tokens": 760,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 675,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11897,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10794,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12657
+    }
+  },
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Metadata: title V",
+        "severity": "minor",
+        "source_quote": "What ALL was finished",
+        "suggested_fix": "Apa saja yang telah SEPENUHNYA selesai",
+        "translation_quote": "Apa yang SEMUANYA telah selesai"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

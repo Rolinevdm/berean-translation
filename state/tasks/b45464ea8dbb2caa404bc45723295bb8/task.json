@@ -2,7 +2,6 @@
   "article_id": "4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e05561dfaf6143bd8dd1c6d03de1eb30",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -65,39 +64,40 @@
         },
         "total_tokens": 6746
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 772,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 589,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4708,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3605,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5480
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Third paragraph; distance to the exit",
+      "location": "Paragraphs beginning «Hva i all verden skal vi gjøre nå?» and «Mens jentene sang den ene sangen etter den andre»; dialogue «Omtrent tretten miles.»",
       "severity": "major",
-      "source_quote": "seven more miles to our exit",
-      "suggested_fix": "«og med sju miles igjen til avkjørselen vår» (eventuelt «omtrent elleve kilometer»)",
-      "translation_quote": "sju mil igjen til avkjørselen vår"
-    },
-    {
-      "location": "Paragraph beginning “As the girls sang song after song”; distance from home",
-      "severity": "major",
-      "source_quote": "thirteen miles from home",
-      "suggested_fix": "«omtrent tretten miles hjemmefra» (eventuelt «omtrent tjueen kilometer hjemmefra»)",
-      "translation_quote": "tretten mil hjemmefra"
-    },
-    {
-      "location": "Dialogue after the men stop; distance still to travel",
-      "severity": "major",
-      "source_quote": "“About thirteen miles.”",
-      "suggested_fix": "«Omtrent tretten miles.» (eventuelt «Omtrent tjueen kilometer.»)",
-      "translation_quote": "«Omtrent tretten mil.»"
-    },
-    {
-      "location": "Gloria’s quotation of Psalm 40:1–4",
-      "severity": "minor",
-      "source_quote": "“and respecteth not the proud, nor such as turn aside to lies”",
-      "suggested_fix": "«og ikke har sin lit til de stolte eller til dem som vender seg til løgn»",
-      "translation_quote": "«og som ikke vender seg til de stolte eller til dem som farer med løgn»"
+      "source_quote": "“seven more miles to our exit”; “thirteen miles from home”; “About thirteen miles.”",
+      "suggested_fix": "Replace the distances with Norwegian kilometres, for example «omtrent 11 kilometer igjen til avkjørselen», «omtrent 21 kilometer hjemmefra» and «Omtrent 21 kilometer».",
+      "translation_quote": "«sju miles igjen til avkjørselen vår»; «tretten miles hjemmefra»; «Omtrent tretten miles.»"
     }
   ],
+  "finished_at": "2026-10-11T01:50:15+00:00",
   "id": "b45464ea8dbb2caa404bc45723295bb8",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "nob",
@@ -186,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9a52a3f9b11a0465c063adcc30e18224f3688a490d438d0dc3724ec6cb6f38b2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "01042231a8ba556ff0bc5103f0ee2208f6612748cf2b55dd883f13c327b80d48",
   "translation_model_actual": "gpt-6-luna"

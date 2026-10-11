@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T01:50:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning ““Señora!” a chorus of voices”\",\"severity\":\"minor\",\"source_quote\":\"“a chorus of voices hollered”\",\"suggested_fix\":\"Use a natural Kiswahili expression such as “kundi la sauti lilipiga kelele” instead of “kwaya ya sauti.”\",\"translation_quote\":\"“kwaya ya sauti ilipiga kelele”\"},{\"location\":\"Paragraph beginning ““Let’s chat a little, Zinnia,””\",\"severity\":\"minor\",\"source_quote\":\"“My heart yearned for the dear girl.”\",\"suggested_fix\":\"Use wording that conveys affection and compassion, such as “Nilimhurumia sana msichana huyo mpendwa.”\",\"translation_quote\":\"“Moyo wangu ulimtamani msichana huyo mpendwa.”\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 751,
+    "content_evidence_truncated": false,
+    "content_sha256": "e44b2cfceeef54ea05fd8c878dc914da37fce09526e2d407996ba49dca21f03e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1088,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 880,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7748,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6645,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8836
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

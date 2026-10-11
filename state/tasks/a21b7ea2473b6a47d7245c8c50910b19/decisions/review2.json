@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "“COME NOW, LET US REASON TOGETHER”",
+      "suggested_fix": "«KOM, LA OSS GÅ I RETTE MED HVERANDRE»",
+      "translation_quote": "«KOM, LA OSS GJØRE OPP VÅR SAK»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

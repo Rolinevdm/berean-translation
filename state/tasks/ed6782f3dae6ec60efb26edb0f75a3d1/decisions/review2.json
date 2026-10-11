@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "1 Timoteo 3:1-4 quotation",
+      "severity": "major",
+      "source_quote": "“A bishop then must be blameless, the husband of one wife, vigilant, sober”",
+      "suggested_fix": "Rendi distinti entrambi i requisiti, per esempio: «irreprensibile, marito di una sola moglie, vigilante, sobrio»; mantieni anche «assennato» solo se corrisponde a un ulteriore requisito del testo.",
+      "translation_quote": "«il vescovo sia irreprensibile, marito di una sola moglie, sobrio, assennato»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

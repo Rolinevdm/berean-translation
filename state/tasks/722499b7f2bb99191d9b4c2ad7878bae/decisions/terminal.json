@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "“COME NOW, LET US REASON TOGETHER”",
+      "suggested_fix": "„בואו נא ונדון יחד”",
+      "translation_quote": "„בואו נא ונשוחח יחד”"
+    },
+    {
+      "location": "HTML, paragraph 9 (quotation of Matthew 7:13–14)",
+      "severity": "minor",
+      "source_quote": "“But small is the gate and narrow the road that leads to life”",
+      "suggested_fix": "„אך קטן השער וצרה הדרך המוליכה לחיים”",
+      "translation_quote": "„אך צר השער וצרה הדרך המוליכה לחיים”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

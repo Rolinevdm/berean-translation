@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "181af2f2-d516-44bf-9cf5-759a1dee04e6",
+    "response_id": "chatcmpl-EXUznhrza4OqwZHZgX6ccYGpUyaIa",
+    "usage": {
+      "completion_tokens": 1088,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 880,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7748,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6645,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8836
+    }
+  },
+  "received_at": "2026-10-11T01:50:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning ““Señora!” a chorus of voices”",
+        "severity": "minor",
+        "source_quote": "“a chorus of voices hollered”",
+        "suggested_fix": "Use a natural Kiswahili expression such as “kundi la sauti lilipiga kelele” instead of “kwaya ya sauti.”",
+        "translation_quote": "“kwaya ya sauti ilipiga kelele”"
+      },
+      {
+        "location": "Paragraph beginning ““Let’s chat a little, Zinnia,””",
+        "severity": "minor",
+        "source_quote": "“My heart yearned for the dear girl.”",
+        "suggested_fix": "Use wording that conveys affection and compassion, such as “Nilimhurumia sana msichana huyo mpendwa.”",
+        "translation_quote": "“Moyo wangu ulimtamani msichana huyo mpendwa.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

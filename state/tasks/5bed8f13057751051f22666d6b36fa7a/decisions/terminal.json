@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 12, quotation of Mark 8:38",
+      "severity": "minor",
+      "source_quote": "in this adulterous and sinful generation",
+      "suggested_fix": "σε αυτή την adulterous...",
+      "translation_quote": "σε αυτή τη μοιχαλίδα και αμαρτωλή γενιά"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

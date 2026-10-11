@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Section V heading\",\"severity\":\"minor\",\"source_quote\":\"What ALL was finished\",\"suggested_fix\":\"Wat er ALLEMAAL werd volbracht\",\"translation_quote\":\"Wat ALLES volbracht was\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 250,
+    "content_evidence_truncated": false,
+    "content_sha256": "5fcf43cc373d2b6c0a04eeb60d3eaed1b0be5f35ba54b904c144ac2162d59e85",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 897,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 816,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11565,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10462,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12462
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

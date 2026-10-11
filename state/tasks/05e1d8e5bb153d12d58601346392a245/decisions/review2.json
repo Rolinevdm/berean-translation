@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «للأسف، يرقّي الرأي العام»; Scripture quotation, Galatians 1:10",
+      "severity": "major",
+      "source_quote": "“If I were still pleasing men, I should not be a servant of Christ. –Gal 1:10 ASV”",
+      "suggested_fix": "استبدل اسم الترجمة في نهاية الاقتباس بـ«النسخة القياسية الأمريكية (ASV)»؛ فـASV اختصار American Standard Version، وليس American Bible Society.",
+      "translation_quote": "«فلو كنت بعد أرضي الناس لم أكن عبدًا للمسيح. – غلاطية 1:10، ترجمة جمعية الكتاب المقدس الأمريكية»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

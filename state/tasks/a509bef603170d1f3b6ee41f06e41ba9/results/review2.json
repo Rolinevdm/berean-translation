@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7a2eb001-3643-94c6-ab0e-4ff7421c8b19",
+    "response_id": "chatcmpl-EXUz7x8Cv8B8OGD9Z4IIU5x46m8Uv",
+    "usage": {
+      "completion_tokens": 995,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 882,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11207,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10104,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12202
+    }
+  },
+  "received_at": "2026-10-11T01:50:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, list item 4",
+        "severity": "minor",
+        "source_quote": "–see Psa 111:9 and 1 Co 1:30",
+        "suggested_fix": "–véase Sal 111:9 y 1 Co 1:30",
+        "translation_quote": "–véase Sal 111:9 e 1 Co 1:30"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

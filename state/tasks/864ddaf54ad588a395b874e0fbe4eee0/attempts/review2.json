@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Section III, heading d\",\"severity\":\"major\",\"source_quote\":\"Does not keep Satan away from us\",\"suggested_fix\":\"Hauweki Shetani mbali nasi\",\"translation_quote\":\"Hautuweki mbali na Shetani\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 266,
+    "content_evidence_truncated": false,
+    "content_sha256": "c14f6d5b700a5871ea7dbe41b3b65d143cedf061fe53ca60c3f60491c826b1d8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 751,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 662,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12183,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11080,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12934
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

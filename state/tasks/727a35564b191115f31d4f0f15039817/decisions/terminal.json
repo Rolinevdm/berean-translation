@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “এটা যদি কিছুটা ভয়ংকর শোনায়”",
+      "severity": "major",
+      "source_quote": "Imagine being a child born of a genetic mother that was aborted!",
+      "suggested_fix": "ভাবুন, এমন এক শিশুর কথা, যার জিনগত মা গর্ভপাতের শিকার হয়েছিলেন!",
+      "translation_quote": "ভাবুন তো, যার জিনগত মা গর্ভপাত করিয়েছিলেন, এমন এক শিশুর জন্ম হলো!"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

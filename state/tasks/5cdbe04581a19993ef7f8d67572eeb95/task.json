@@ -2,7 +2,6 @@
   "article_id": "7cdda5c4-11c0-4b7f-bcd4-b37677267f87",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e05561dfaf6143bd8dd1c6d03de1eb30",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:02+00:00",
   "events": [
@@ -65,18 +64,31 @@
         },
         "total_tokens": 8872
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 743,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 705,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6238,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5135,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6981
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article paragraph beginning “在海地，我们作为一个教会” — quotation of 1 Peter 4:14",
-      "severity": "major",
-      "source_quote": "on their part he is evil spoken of, but on your part he is glorified.",
-      "suggested_fix": "在他们那一方，祂被毁谤；在你们这一方，祂得荣耀。",
-      "translation_quote": "在他们看来，他是被毁谤的；在你们看来，他却是得荣耀的。"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-11T01:50:14+00:00",
   "id": "5cdbe04581a19993ef7f8d67572eeb95",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "cmn",
@@ -165,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7434cb13c1d80517ad133a1c4c0893948466806ea88db8f224cb99af5eed68e8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "727e7fad16fe0c183877371536ededc34c2fe36e9cda810c7aa781b90f25417a",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, line beginning “Will I die in vain”\",\"severity\":\"minor\",\"source_quote\":\"Will I die in vain, or will you take up the task?\",\"suggested_fix\":\"هل أموت عبثًا، أم ستنهض لتولّي المهمة؟\",\"translation_quote\":\"هل أموت عبثًا، أم ستنهضون لتولّي المهمة؟\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 397,
+    "content_evidence_truncated": false,
+    "content_sha256": "e39cfb557fc940bcfefb6ca1395a2123d6d2a8b946c723a3487c477259c7ca1e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 893,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 775,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2404,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1301,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3297
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

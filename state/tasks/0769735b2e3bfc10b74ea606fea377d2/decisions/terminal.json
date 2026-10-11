@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Psalm 40:1–4 quotation",
+      "severity": "major",
+      "source_quote": "Blessed is that man that maketh the LORD his trust, and respecteth not the proud, nor such as turn aside to lies.",
+      "suggested_fix": "Replace “och inte vänder sig till de högmodiga” with “och inte visar högmodiga respekt” so the translation preserves the source’s meaning that the person does not show respect to the proud.",
+      "translation_quote": "Salig är den människa som har HERREN till sin tillit och inte vänder sig till de högmodiga eller till dem som viker av till lögn."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

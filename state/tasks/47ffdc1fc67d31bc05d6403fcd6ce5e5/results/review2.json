@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "88d3b97a-0934-476e-8651-a32eca5840d4",
+    "response_id": "chatcmpl-EXUzdpE59evEIhRIqmDIgyPdkVZco",
+    "usage": {
+      "completion_tokens": 893,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 775,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2404,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1301,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3297
+    }
+  },
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, line beginning “Will I die in vain”",
+        "severity": "minor",
+        "source_quote": "Will I die in vain, or will you take up the task?",
+        "suggested_fix": "هل أموت عبثًا، أم ستنهض لتولّي المهمة؟",
+        "translation_quote": "هل أموت عبثًا، أم ستنهضون لتولّي المهمة؟"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

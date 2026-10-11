@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph 9, quotation of Matthew 7:13–14",
+      "severity": "major",
+      "source_quote": "For wide is the gate and broad is the road that leads to destruction, and many enter through it. ... But small is the gate and narrow the road that leads to life",
+      "suggested_fix": "Korrigieren Sie die Tor-Bilder und den Bezug im Zitat, zum Beispiel: „Denn weit ist das Tor und breit der Weg, der ins Verderben führt, und viele gehen durch dieses Tor hinein. Doch klein ist das Tor und schmal der Weg, der zum Leben führt …“",
+      "translation_quote": "Denn weit ist das Tor und breit der Weg, der ins Verderben führt, und viele gehen auf ihm. Doch eng ist das Tor und schmal der Weg, der zum Leben führt"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1177137f-0a88-4b8b-8599-7bdecc11e301",
+    "response_id": "chatcmpl-EXUzoKxuV0th9Yqs4L03LdKfPeHCh",
+    "usage": {
+      "completion_tokens": 897,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 816,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11565,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10462,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12462
+    }
+  },
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Section V heading",
+        "severity": "minor",
+        "source_quote": "What ALL was finished",
+        "suggested_fix": "Wat er ALLEMAAL werd volbracht",
+        "translation_quote": "Wat ALLES volbracht was"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “We had scarcely settled onto the farm”",
+      "severity": "minor",
+      "source_quote": "“the foreigner’s children and toys”",
+      "suggested_fix": "Replace “צעצועיהם של הזרים” with “צעצועינו” to preserve that the toys belong to the narrator’s family.",
+      "translation_quote": "“ילדינו וצעצועיהם של הזרים”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

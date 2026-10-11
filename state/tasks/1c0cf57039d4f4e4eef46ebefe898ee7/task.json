@@ -2,7 +2,6 @@
   "article_id": "7cdda5c4-11c0-4b7f-bcd4-b37677267f87",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e05561dfaf6143bd8dd1c6d03de1eb30",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:02+00:00",
   "events": [
@@ -65,18 +64,31 @@
         },
         "total_tokens": 9165
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 628,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 590,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6452,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5349,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7080
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Final paragraph",
-      "severity": "major",
-      "source_quote": "Let’s reunite, gather back together, deny ourselves, pick up our crosses and follow him!",
-      "suggested_fix": "Riuniamoci, raduniamoci di nuovo, rinneghiamo noi stessi, prendiamo le nostre croci e seguiamolo!",
-      "translation_quote": "Riconciliamoci, raduniamoci di nuovo, rinneghiamo noi stessi, prendiamo le nostre croci e seguiamolo!"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-11T01:50:14+00:00",
   "id": "1c0cf57039d4f4e4eef46ebefe898ee7",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "ita",
@@ -165,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7434cb13c1d80517ad133a1c4c0893948466806ea88db8f224cb99af5eed68e8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "727e7fad16fe0c183877371536ededc34c2fe36e9cda810c7aa781b90f25417a",
   "translation_model_actual": "gpt-6-luna"

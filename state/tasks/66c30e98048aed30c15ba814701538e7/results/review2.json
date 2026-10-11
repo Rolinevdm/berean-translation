@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1d1c7a31-208d-4e4a-955c-127ec04089fc",
+    "response_id": "chatcmpl-EXUz5evUIV7PGwI3gPO9FSpJPVsc0",
+    "usage": {
+      "completion_tokens": 898,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 731,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4803,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3700,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5701
+    }
+  },
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, Gloria’s quotation of Psalm 40:1–4",
+        "severity": "major",
+        "source_quote": "“Blessed is that man that maketh the LORD his trust, and respecteth not the proud, nor such as turn aside to lies.”",
+        "suggested_fix": "Replace «и не обращается к гордым» with «и не почитает надменных» to preserve the source’s meaning of not regarding the proud.",
+        "translation_quote": "«Блажен человек, который на Господа возлагает надежду свою и не обращается к гордым и к уклоняющимся ко лжи»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "a5dc3764-e799-4138-82f0-87b245a77db8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e05561dfaf6143bd8dd1c6d03de1eb30",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -65,18 +64,53 @@
         },
         "total_tokens": 17989
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1044,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 849,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11990,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10887,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13034
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Article HTML, numbered reasons, item 5",
-      "severity": "major",
-      "source_quote": "“only by repaying good for evil.”",
-      "suggested_fix": "Change to “slegs deur kwaad met goed te vergeld.”",
-      "translation_quote": "“slegs deur goed met kwaad te vergeld.”"
+      "location": "Opening paragraph",
+      "severity": "minor",
+      "source_quote": "“where large groups of plain people are living”",
+      "suggested_fix": "“waar groot gemeenskappe van die eenvoudige geloofsgroepe woon”",
+      "translation_quote": "“waar groot groepe eenvoudige mense woon”"
+    },
+    {
+      "location": "Endnotes, note 1",
+      "severity": "minor",
+      "source_quote": "“islet transplantation”",
+      "suggested_fix": "“oorplanting van eilandjieselle”",
+      "translation_quote": "“eilandjie-oorplanting”"
+    },
+    {
+      "location": "Endnotes, note 4",
+      "severity": "minor",
+      "source_quote": "“fetal allografts”",
+      "suggested_fix": "“fetale allooorplantings”",
+      "translation_quote": "“fetale alloo oorplantings”"
     }
   ],
+  "finished_at": "2026-10-11T01:50:15+00:00",
   "id": "fc796a70821254dc46a7812cef069be6",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "afr",
@@ -165,13 +199,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4ea9ea2e7306c09911a630544909487ddc1cfe85b7092988a4880cf1dc9d4242.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
   "translation_model_actual": "gpt-6-luna"

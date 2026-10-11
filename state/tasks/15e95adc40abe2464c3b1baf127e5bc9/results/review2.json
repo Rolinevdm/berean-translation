@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1a37d77f-640c-42db-b47c-8d239f9f4963",
+    "response_id": "chatcmpl-EXUz9NOa4fM4ib8PouqehFyWnQyQZ",
+    "usage": {
+      "completion_tokens": 904,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 787,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7588,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6485,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8492
+    }
+  },
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “We had scarcely settled onto the farm”",
+        "severity": "minor",
+        "source_quote": "“the foreigner’s children and toys”",
+        "suggested_fix": "Replace “צעצועיהם של הזרים” with “צעצועינו” to preserve that the toys belong to the narrator’s family.",
+        "translation_quote": "“ילדינו וצעצועיהם של הזרים”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

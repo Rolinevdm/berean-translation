@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Section I, «Hans utgytte blod», paragraph quoting Rom 3,23–25",
+      "severity": "major",
+      "source_quote": "“Whom God hath set forth to be a propitiation through faith in his blood”",
+      "suggested_fix": "Replace «Ham har Gud stilt fram som en nådestol ved troen på hans blod» with «Ham har Gud stilt fram som en soning ved troen på hans blod» (or another wording that conveys “propitiation,” not “mercy seat”).",
+      "translation_quote": "«Ham har Gud stilt fram som en nådestol ved troen på hans blod»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

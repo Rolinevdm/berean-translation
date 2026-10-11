@@ -2,7 +2,6 @@
   "article_id": "a5dc3764-e799-4138-82f0-87b245a77db8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e05561dfaf6143bd8dd1c6d03de1eb30",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:03+00:00",
   "events": [
@@ -65,32 +64,40 @@
         },
         "total_tokens": 19835
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 901,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 765,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12756,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11653,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13657
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph 17 and subsequent uses of the field’s name, including paragraphs 18–19 and the paragraph beginning “পরবর্তী সংখ্যায়”",
+      "location": "Paragraph beginning “এটা যদি কিছুটা ভয়ংকর শোনায়”",
       "severity": "major",
-      "source_quote": "“Regenerative Medicine”",
-      "suggested_fix": "Use a Bengali term that means regeneration rather than reproduction, such as “পুনর্জনন চিকিৎসাবিজ্ঞান,” consistently for the field’s name throughout the article.",
-      "translation_quote": "“পুনরুৎপাদনমূলক চিকিৎসাবিজ্ঞান”"
-    },
-    {
-      "location": "List item 8",
-      "severity": "major",
-      "source_quote": "“the best way to tell if it is legitimate, is if the details are not cloaked in secrecy.”",
-      "suggested_fix": "Revise the clause to say that legitimacy is indicated when the details are not concealed in secrecy; for example: “বিষয়টির বিবরণ গোপনীয়তার আড়ালে ঢাকা না থাকলে তা বৈধ কি না বোঝার সবচেয়ে ভালো উপায়।”",
-      "translation_quote": "“বিষয়টির বিবরণ গোপন রাখা হচ্ছে কি না”"
-    },
-    {
-      "location": "List item 9",
-      "severity": "minor",
-      "source_quote": "“On the issue of pursuing alternative vaccines, it is a difficult process, but not impossible to do.”",
-      "suggested_fix": "Change “বিকল্প টিকা গ্রহণের বিষয়টি” to “বিকল্প টিকা অনুসন্ধান/তৈরির বিষয়টি” to convey pursuing alternatives rather than receiving them.",
-      "translation_quote": "“বিকল্প টিকা গ্রহণের বিষয়টি কঠিন প্রক্রিয়া”"
+      "source_quote": "Imagine being a child born of a genetic mother that was aborted!",
+      "suggested_fix": "ভাবুন, এমন এক শিশুর কথা, যার জিনগত মা গর্ভপাতের শিকার হয়েছিলেন!",
+      "translation_quote": "ভাবুন তো, যার জিনগত মা গর্ভপাত করিয়েছিলেন, এমন এক শিশুর জন্ম হলো!"
     }
   ],
+  "finished_at": "2026-10-11T01:50:14+00:00",
   "id": "727a35564b191115f31d4f0f15039817",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "ben",
@@ -179,13 +186,13 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4ea9ea2e7306c09911a630544909487ddc1cfe85b7092988a4880cf1dc9d4242.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf 1",
+      "severity": "minor",
+      "source_quote": "someone sharing their faith in Jesus with others",
+      "suggested_fix": "seseorang membagikan iman kepada Yesus kepada orang lain",
+      "translation_quote": "seseorang membagikan imannya kepada Yesus kepada orang lain"
+    },
+    {
+      "location": "Paragraf 3, kutipan Mat 4:23",
+      "severity": "minor",
+      "source_quote": "healing all manner of sickness and all manner of disease among the people",
+      "suggested_fix": "menyembuhkan segala macam penyakit dan segala macam penyakit",
+      "translation_quote": "menyembuhkan segala macam penyakit dan kelemahan di antara orang banyak"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

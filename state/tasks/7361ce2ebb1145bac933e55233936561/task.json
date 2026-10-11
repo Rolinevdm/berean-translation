@@ -2,7 +2,6 @@
   "article_id": "7cdda5c4-11c0-4b7f-bcd4-b37677267f87",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e05561dfaf6143bd8dd1c6d03de1eb30",
   "campaign": "gh-37791140876",
   "created_at": "2026-10-08T14:18:02+00:00",
   "events": [
@@ -65,25 +64,31 @@
         },
         "total_tokens": 8785
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 508,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 476,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6143,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5040,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6651
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article paragraph 5, Matthew 13:22 quotation",
-      "severity": "major",
-      "source_quote": "“the care of this world, and the deceitfulness of riches, choke the word, and he becometh unfruitful.”",
-      "suggested_fix": "Change the ending to “sufocam a palavra, e ele se torna infrutífero”, referring to the person who hears the word.",
-      "translation_quote": "“os cuidados deste mundo e a sedução das riquezas sufocam a palavra, e ela se torna infrutífera.”"
-    },
-    {
-      "location": "Final paragraph",
-      "severity": "minor",
-      "source_quote": "“Let’s reunite, gather back together”",
-      "suggested_fix": "Replace “Vamos nos reconciliar” with “Vamos nos unir novamente” to express coming together again, rather than reconciliation.",
-      "translation_quote": "“Vamos nos reconciliar, reunir-nos novamente”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-11T01:50:14+00:00",
   "id": "7361ce2ebb1145bac933e55233936561",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "por",
@@ -172,13 +177,13 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 99,
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
   "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/7434cb13c1d80517ad133a1c4c0893948466806ea88db8f224cb99af5eed68e8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "727e7fad16fe0c183877371536ededc34c2fe36e9cda810c7aa781b90f25417a",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f5f708ce-18c8-40d6-934a-a9d81a0e92df",
+    "response_id": "chatcmpl-EXUzGiLe0Mk3YOEzdpt1SPoZOdrfV",
+    "usage": {
+      "completion_tokens": 1067,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 732,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14118,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13015,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15185
+    }
+  },
+  "received_at": "2026-10-11T01:50:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Fetal tissue did not work as expected”",
+        "severity": "major",
+        "source_quote": "“necessitating the harvesting of tissue from numerous aborted babies”",
+        "suggested_fix": "Replace «πολλά αποβληθέντα έμβρυα» with «πολλά εκτρωμένα έμβρυα».",
+        "translation_quote": "«καθώς έπρεπε να συλλέγεται ιστός από πολλά αποβληθέντα έμβρυα»"
+      },
+      {
+        "location": "List item 3, sentence ending “body of an aborted baby”",
+        "severity": "major",
+        "source_quote": "“there is NO self-sacrifice in exploiting the body of an aborted baby”",
+        "suggested_fix": "Replace «ενός αποβληθέντος μωρού» with «ενός εκτρωμένου μωρού».",
+        "translation_quote": "«στην εκμετάλλευση του σώματος ενός αποβληθέντος μωρού»"
+      },
+      {
+        "location": "Paragraph beginning “But before I leave you”",
+        "severity": "major",
+        "source_quote": "“these babies are being aborted anyway”",
+        "suggested_fix": "Replace «αυτά τα μωρά ούτως ή άλλως αποβάλλονται» with «ούτως ή άλλως γίνεται άμβλωση αυτών των μωρών».",
+        "translation_quote": "«αυτά τα μωρά ούτως ή άλλως αποβάλλονται»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

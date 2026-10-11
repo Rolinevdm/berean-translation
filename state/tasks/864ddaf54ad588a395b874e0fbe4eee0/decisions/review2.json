@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Section III, heading d",
+      "severity": "major",
+      "source_quote": "Does not keep Satan away from us",
+      "suggested_fix": "Hauweki Shetani mbali nasi",
+      "translation_quote": "Hautuweki mbali na Shetani"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

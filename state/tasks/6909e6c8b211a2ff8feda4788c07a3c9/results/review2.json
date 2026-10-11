@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "134fbed9-85c5-4b82-aa67-bb55f21f1f02",
+    "response_id": "chatcmpl-EXUzEmSj6b6vyiksat5FK1HvtiJiI",
+    "usage": {
+      "completion_tokens": 678,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11774,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10671,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12452
+    }
+  },
+  "received_at": "2026-10-11T01:50:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Section I, «Hans utgytte blod», paragraph quoting Rom 3,23–25",
+        "severity": "major",
+        "source_quote": "“Whom God hath set forth to be a propitiation through faith in his blood”",
+        "suggested_fix": "Replace «Ham har Gud stilt fram som en nådestol ved troen på hans blod» with «Ham har Gud stilt fram som en soning ved troen på hans blod» (or another wording that conveys “propitiation,” not “mercy seat”).",
+        "translation_quote": "«Ham har Gud stilt fram som en nådestol ved troen på hans blod»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
