@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "3607ef79-d7c5-4214-9bc3-f343fb390b8a",
+    "response_id": "chatcmpl-EXuGzKlmrxsV2EbUf1tAPDNGdeoTC",
+    "usage": {
+      "completion_tokens": 412,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 96,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8055,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6952,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8467
+    }
+  },
+  "received_at": "2026-10-11T20:20:02+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html: paragraph quoting Philippians 4:13",
+        "severity": "major",
+        "source_quote": "I can do all things through Christ which strengtheneth me –Philippians 4:13.",
+        "suggested_fix": "Replace the quotation with: “Nayaweza mambo yote kupitia Kristo anitiaye nguvu –Wafilipi 4:13.” Preserve the existing <em> tags.",
+        "translation_quote": "Nayaweza mambo yote katika yeye anitiaye nguvu –Wafilipi 4:13."
+      },
+      {
+        "location": "source.html: paragraph quoting Job 14:5, final sentence",
+        "severity": "major",
+        "source_quote": "It is not our place to do something to deliberately shorten them.",
+        "suggested_fix": "Replace the sentence with: “Hatuna haki ya kufanya jambo la kuzifupisha kimakusudi.”",
+        "translation_quote": "Si wajibu wetu kufanya jambo la kuzifupisha kimakusudi."
+      },
+      {
+        "location": "source.html: paragraph beginning “A geriatrician heard her story”",
+        "severity": "major",
+        "source_quote": "She was discharged to spend the next week with her family.",
+        "suggested_fix": "Replace the sentence with: “Aliruhusiwa kuondoka ili akae wiki iliyofuata na familia yake.” The source does not identify a hospital.",
+        "translation_quote": "Aliruhusiwa kuondoka hospitalini ili akae wiki iliyofuata na familia yake."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html: paragraph quoting Philippians 4:13",
+      "severity": "major",
+      "source_quote": "I can do all things through Christ which strengtheneth me –Philippians 4:13.",
+      "suggested_fix": "Replace the quotation with: “Nayaweza mambo yote kupitia Kristo anitiaye nguvu –Wafilipi 4:13.” Preserve the existing <em> tags.",
+      "translation_quote": "Nayaweza mambo yote katika yeye anitiaye nguvu –Wafilipi 4:13."
+    },
+    {
+      "location": "source.html: paragraph quoting Job 14:5, final sentence",
+      "severity": "major",
+      "source_quote": "It is not our place to do something to deliberately shorten them.",
+      "suggested_fix": "Replace the sentence with: “Hatuna haki ya kufanya jambo la kuzifupisha kimakusudi.”",
+      "translation_quote": "Si wajibu wetu kufanya jambo la kuzifupisha kimakusudi."
+    },
+    {
+      "location": "source.html: paragraph beginning “A geriatrician heard her story”",
+      "severity": "major",
+      "source_quote": "She was discharged to spend the next week with her family.",
+      "suggested_fix": "Replace the sentence with: “Aliruhusiwa kuondoka ili akae wiki iliyofuata na familia yake.” The source does not identify a hospital.",
+      "translation_quote": "Aliruhusiwa kuondoka hospitalini ili akae wiki iliyofuata na familia yake."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
