@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 4, quoted Scripture (Rev. 12:11)",
+      "severity": "major",
+      "source_quote": "and they loved not their lives unto the death.",
+      "suggested_fix": "Mereka tidak menyayangkan nyawa mereka, bahkan sampai mati.",
+      "translation_quote": "Mereka tidak mengasihi hidup mereka sampai harus menghadapi maut."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5691c32b-9000-4891-96ee-385022328a2f",
+    "response_id": "chatcmpl-EXdXKn9USubDbog3ejfQ4gWNiuoYV",
+    "usage": {
+      "completion_tokens": 617,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3762,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2659,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4379
+    }
+  },
+  "received_at": "2026-10-11T06:19:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 4, quoted Scripture (Rev. 12:11)",
+        "severity": "major",
+        "source_quote": "and they loved not their lives unto the death.",
+        "suggested_fix": "Mereka tidak menyayangkan nyawa mereka, bahkan sampai mati.",
+        "translation_quote": "Mereka tidak mengasihi hidup mereka sampai harus menghadapi maut."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
