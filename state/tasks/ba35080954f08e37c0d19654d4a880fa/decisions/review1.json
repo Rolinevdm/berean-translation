@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "“The ‘game’ will only be heating up until the end of the age.”",
+      "suggested_fix": "Replace «μέχρι το τέλος του αιώνα» with «μέχρι το τέλος της εποχής» to convey the eschatological sense of “age.”",
+      "translation_quote": "«Το „παιχνίδι“ θα γίνεται όλο και πιο έντονο μέχρι το τέλος του αιώνα.»"
+    },
+    {
+      "location": "Final paragraph",
+      "severity": "major",
+      "source_quote": "“May this issue of The Heartbeat of the Remnant stir you to love Him more! ~Bro. Dean”",
+      "suggested_fix": "Preserve the in-article signature, for example by adding «~Αδελφός Ντιν» after the closing sentence.",
+      "translation_quote": "«Είθε αυτό το τεύχος του The Heartbeat of the Remnant να σας παρακινήσει να Τον αγαπήσετε περισσότερο!»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

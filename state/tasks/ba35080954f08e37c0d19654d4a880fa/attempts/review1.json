@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T06:19:50+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 4\",\"severity\":\"major\",\"source_quote\":\"“The ‘game’ will only be heating up until the end of the age.”\",\"suggested_fix\":\"Replace «μέχρι το τέλος του αιώνα» with «μέχρι το τέλος της εποχής» to convey the eschatological sense of “age.”\",\"translation_quote\":\"«Το „παιχνίδι“ θα γίνεται όλο και πιο έντονο μέχρι το τέλος του αιώνα.»\"},{\"location\":\"Final paragraph\",\"severity\":\"major\",\"source_quote\":\"“May this issue of The Heartbeat of the Remnant stir you to love Him more! ~Bro. Dean”\",\"suggested_fix\":\"Preserve the in-article signature, for example by adding «~Αδελφός Ντιν» after the closing sentence.\",\"translation_quote\":\"«Είθε αυτό το τεύχος του The Heartbeat of the Remnant να σας παρακινήσει να Τον αγαπήσετε περισσότερο!»\"}],\"findings_complete\":true,\"passed\":false,\"score\":90}",
+    "content_bytes": 1011,
+    "content_evidence_truncated": false,
+    "content_sha256": "7bc90329dc774f92f6b2f44cb78e58f34cb6710bded832083b96481b5c5d876b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 677,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 445,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4367,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4364,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5044
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
