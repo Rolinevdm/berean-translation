@@ -2323,6 +2323,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
+      "html_sha256": "780777dcf08e1f96c8c7f67067ac9dd2eaf8f5d508497dcdd051f76d9ff1c555",
+      "human_reviewed": false,
+      "id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "images": [
+        {
+          "alt": "’n Herder lei ’n kudde deur ’n rotsagtige bergvallei",
+          "public_path": "/images/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.json",
+      "metadata_sha256": "8f8fa02697da0fa2421299371b63a31bb5f96ce084ec5a9309b8e517d8ef86cc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "BYBELSE LEERSTELLINGS",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Is Daar Nie ’n Saak Nie?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.html",
       "html_sha256": "7e1cfccfae985f4151df7b352346d488f41d33d5c320564fae695d6dac36dcf6",
       "human_reviewed": false,
@@ -3113,6 +3141,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Christus se voltooide werk",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
+      "html_sha256": "61798c82cb1ca1e1070ef1a60e2a979ad4b82a21e8fdffdaf99ec98d08451003",
+      "human_reviewed": false,
+      "id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
+      "images": [
+        {
+          "alt": "Sonstrale breek deur die wolke bo ’n beboste bergmeer",
+          "public_path": "/images/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.json",
+      "metadata_sha256": "cede074a35c04e4b628730afed09e138a6dc33c2e355e797e7f1257c0c010519",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "SUSTER TOT SUSTER",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "feee1827ca2238077cd971d14ec7a665d94024ef32a3d17913bde45491d910fb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Om saam met haar deur droefheid te stap",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -4908,6 +4964,34 @@
       "subtitle": null,
       "title": "أحيانًا",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/5613aef3-79c5-42d4-9695-214e71989c22.html",
+      "html_sha256": "f1c6be0b91c8d5d2cf6caaf51729cd4fde8c58a3aa8b211bfd11f74c82227399",
+      "human_reviewed": false,
+      "id": "5613aef3-79c5-42d4-9695-214e71989c22",
+      "images": [
+        {
+          "alt": "صندوق بريد ريفي بجوار ممر يشق طريقه عبر حقول خضراء نحو مباني مزرعة",
+          "public_path": "/images/articles/5613aef3-79c5-42d4-9695-214e71989c22-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/5613aef3-79c5-42d4-9695-214e71989c22.json",
+      "metadata_sha256": "413bf7cc21f6a539c15cc3cfe1af6713dcfdc48c86a6c8c1cb34091f307eb97c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ركن الأطفال",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3",
+      "status": "ready",
+      "subtitle": null,
+      "title": "الطابع المنسي",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -15714,6 +15798,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
+      "html_sha256": "0879560e5edae71693dfc935b5b73904c9d0f17a3e8385ba0790fb75b4be400d",
+      "human_reviewed": false,
+      "id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
+      "images": [
+        {
+          "alt": "Sonnenstrahlen brechen durch die Wolken über einem von Wald umgebenen Bergsee",
+          "public_path": "/images/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.json",
+      "metadata_sha256": "2343ce23c85d709eb2742240e4470788b88baa51c30ec8557f64527c210abedb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "VON SCHWESTER ZU SCHWESTER",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "feee1827ca2238077cd971d14ec7a665d94024ef32a3d17913bde45491d910fb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sie durch ihre Trauer begleiten",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.html",
       "html_sha256": "5656374f88e70fd6e3e9c6dbdcaa6b8b0d933f745b293d4182e1e39dfc25e0e3",
       "human_reviewed": false,
@@ -18280,6 +18392,34 @@
       "subtitle": null,
       "title": "Όποιος έχει αυτιά για να ακούει…",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
+      "html_sha256": "d300fb71c5d0a36333afeb27db64728863099a79c3a48c0d45326957f1ea6503",
+      "human_reviewed": false,
+      "id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "images": [
+        {
+          "alt": "Ένας βοσκός οδηγεί ένα κοπάδι μέσα από μια βραχώδη ορεινή κοιλάδα",
+          "public_path": "/images/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.json",
+      "metadata_sha256": "e7ceb09b4b554809ddccfab0bbd7699bf5605a0ef3d744b80b1b64a44d6ef61f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ΔΙΔΑΣΚΑΛΙΕΣ ΤΗΣ ΒΙΒΛΟΥ",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Δεν υπάρχει λόγος;",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -22829,6 +22969,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
+      "html_sha256": "aca06df73dcee24ba8b87c8033e9d8ac0fdfb975207caa94dae3c394fb20c8f0",
+      "human_reviewed": false,
+      "id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
+      "images": [
+        {
+          "alt": "Des rayons de soleil percent les nuages au-dessus d’un lac de montagne entouré de forêts",
+          "public_path": "/images/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.json",
+      "metadata_sha256": "7822f8127cb746011fe9defe22cdd9965c1d820af84aca64a1132e22405d420f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "DE SŒUR À SŒUR",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "feee1827ca2238077cd971d14ec7a665d94024ef32a3d17913bde45491d910fb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Marcher à ses côtés dans le chagrin",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.html",
       "html_sha256": "f142b09a198c186b55488b62ce022c27112dfbf7349e79c40cb3e384c8d9146a",
       "human_reviewed": false,
@@ -25607,6 +25775,29 @@
       "subtitle": null,
       "title": "קומו ושמחו",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.html",
+      "html_sha256": "004425cbad0ccec5a747d0c62a695beb6948562cd4bb099948fae953ef6aef84",
+      "human_reviewed": false,
+      "id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "images": [],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.json",
+      "metadata_sha256": "17df9e056d9b1c9267491e081e1f1621bc15823bff3d2ae04d7700ccd6eec9fd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "הבית ירא האלוהים",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
+      "status": "ready",
+      "subtitle": null,
+      "title": "אינם עוד שניים",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -36564,6 +36755,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
+      "html_sha256": "ab21e82508615193c11268a61a82b206c3fbc52a769b65cd0a796aa4b93459e1",
+      "human_reviewed": false,
+      "id": "d0898011-fe8b-4c35-9aac-12c20ec0d950",
+      "images": [
+        {
+          "alt": "Persone inginocchiate in preghiera durante una riunione di risveglio",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-1.jpg"
+        },
+        {
+          "alt": "Una Bibbia storica aperta",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.json",
+      "metadata_sha256": "9a4699497aaf9c58583ee38b63501ec6633dacd6442bc26adc4af02e5c29f308",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Cristianesimo pentagonale",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.html",
       "html_sha256": "84d2c4aee61fd279590d4eaabaf7bbe96970ffb8b42394aead21c0ff2af75b7a",
       "human_reviewed": false,
@@ -42872,6 +43095,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
+      "html_sha256": "b3d548c9feb97c60258e4e97f74db24c65382df2700fa6c7797601294a167715",
+      "human_reviewed": false,
+      "id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "images": [
+        {
+          "alt": "Een herder leidt een kudde door een rotsachtige bergvallei",
+          "public_path": "/images/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.json",
+      "metadata_sha256": "0d4703abe9cecf3b280cac28754a9aab5b4681f895d2e6cfec6517377deac4b8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Bijbelse leerstellingen",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Is er geen reden?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.html",
       "html_sha256": "42f64626f1bb54ae96fa838613c57d8f892306c83ea2d3444ef54506fbd0f852",
       "human_reviewed": false,
@@ -47999,6 +48250,29 @@
       "subtitle": null,
       "title": "Torden, tornadoer og tillit",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.html",
+      "html_sha256": "e825cf2c049f54809e48948cb6bb4e0fcbecea000d943a96f87b15851baf986c",
+      "human_reviewed": false,
+      "id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "images": [],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.json",
+      "metadata_sha256": "2a172ca3bab8f07cbbad8c04166b5d8778f0e006835105525f114426ce559108",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "DET GUDSFRYKTIGE HJEM",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De er ikke lenger to",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -55934,6 +56208,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
+      "html_sha256": "8a9587dcb23d38c98ca3eb065760ad989b521d5744a67d3d0173843a03c4b11d",
+      "human_reviewed": false,
+      "id": "d0898011-fe8b-4c35-9aac-12c20ec0d950",
+      "images": [
+        {
+          "alt": "Люди преклонили колени в молитве во время собрания пробуждения",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-1.jpg"
+        },
+        {
+          "alt": "Открытая старинная Библия",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.json",
+      "metadata_sha256": "e201c5f1591b1afce1e4ac8683a869a27067e8fc51ae4eb69d52c180a00b08f2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Пятиугольное христианство",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.html",
       "html_sha256": "cf2b8d7b35f79022b84e0dbc411fc6cf7d091342f4e10d55d9ea783e0a941d61",
       "human_reviewed": false,
@@ -62920,6 +63226,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Amekombolewa",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
+      "html_sha256": "6fe37c301ececbfb2b075623813a0bda1fb18e223de919380077fd269f4f541b",
+      "human_reviewed": false,
+      "id": "d0898011-fe8b-4c35-9aac-12c20ec0d950",
+      "images": [
+        {
+          "alt": "Watu wamepiga magoti katika maombi wakati wa mkutano wa uamsho",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-1.jpg"
+        },
+        {
+          "alt": "Biblia ya zamani ikiwa imefunguliwa",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.json",
+      "metadata_sha256": "76b39b2679a7175b52b95cf6914c4b56eab9153412f02820302af331c74cf6bc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ukristo wa pande tano",
       "translation_model": "gpt-6-luna"
     },
     {
