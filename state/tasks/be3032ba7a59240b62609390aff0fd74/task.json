@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "920807642b2f431fac2c5eaff6de5d41",
   "campaign": "auto-8f7857528d36e1e3c53c4a4146d51ec18bc425a86a48cea3f701783b7cf0681c",
   "created_at": "2026-10-10T21:33:54+00:00",
   "events": [
@@ -68,18 +67,40 @@
         },
         "total_tokens": 9484
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 668,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6588,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5485,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7256
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Exodus 5 quotation",
+      "location": "Paragraaf 12, aangehaalde woorde oor die eerste lewenswyse",
       "severity": "major",
-      "source_quote": "“Let more work be laid upon the men, that they may labour therein”",
-      "suggested_fix": "“Laat daar meer werk op die manne gelê word, sodat hulle daarmee besig kan wees”",
-      "translation_quote": "“Laat die werk vir die manne swaarder wees, sodat hulle daarmee besig kan wees”"
+      "source_quote": "“approved unto God, a workman that needeth not to be ashamed …”",
+      "suggested_fix": "Vervang “beproef voor God staan” met “deur God goedgekeur word”, byvoorbeeld: “deur God goedgekeur word, ’n arbeider wat hom nie hoef te skaam nie …”",
+      "translation_quote": "“beproef voor God staan, ’n arbeider wat hom nie hoef te skaam nie …”"
     }
   ],
+  "finished_at": "2026-10-11T20:13:52+00:00",
   "id": "be3032ba7a59240b62609390aff0fd74",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "afr",
@@ -188,7 +209,7 @@
     "total_reserved_usd": 0.088795,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
   "translation_model_actual": "gpt-6-luna"

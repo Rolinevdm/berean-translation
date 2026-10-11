@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraaf 12, aangehaalde woorde oor die eerste lewenswyse",
+      "severity": "major",
+      "source_quote": "“approved unto God, a workman that needeth not to be ashamed …”",
+      "suggested_fix": "Vervang “beproef voor God staan” met “deur God goedgekeur word”, byvoorbeeld: “deur God goedgekeur word, ’n arbeider wat hom nie hoef te skaam nie …”",
+      "translation_quote": "“beproef voor God staan, ’n arbeider wat hom nie hoef te skaam nie …”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T20:13:52+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraaf 12, aangehaalde woorde oor die eerste lewenswyse\",\"severity\":\"major\",\"source_quote\":\"“approved unto God, a workman that needeth not to be ashamed …”\",\"suggested_fix\":\"Vervang “beproef voor God staan” met “deur God goedgekeur word”, byvoorbeeld: “deur God goedgekeur word, ’n arbeider wat hom nie hoef te skaam nie …”\",\"translation_quote\":\"“beproef voor God staan, ’n arbeider wat hom nie hoef te skaam nie …”\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 529,
+    "content_evidence_truncated": false,
+    "content_sha256": "73eb9ab1501dd5a89ac3bdb5d583a0c33333cfb230626d19fac2bbe40624cf64",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 668,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6588,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5485,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7256
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
