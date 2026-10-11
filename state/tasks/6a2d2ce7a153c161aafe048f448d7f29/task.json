@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bcd5f391a4fa464c8e3536a695994a11",
   "campaign": "auto-15c509d50f80545b993f252d8df8502393d51d9ed71d4b3989101f3a7f5cd2ae",
   "created_at": "2026-10-11T13:06:57+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 4453
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 538,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 506,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3315,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2212,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3853
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, párrafo que comienza «Escribo estas palabras…»",
-      "severity": "major",
-      "source_quote": "«the deadness of an abandoned graveyard»",
-      "suggested_fix": "Sustituir «la indiferencia de un cementerio abandonado» por «la falta de vida de un cementerio abandonado» para conservar la imagen de muerte espiritual, no de indiferencia.",
-      "translation_quote": "«con la indiferencia de un cementerio abandonado»"
-    },
-    {
-      "location": "HTML, párrafo que comienza «Escribo estas palabras…»",
-      "severity": "minor",
-      "source_quote": "«I write these words with a burden.»",
-      "suggested_fix": "Cambiar «con pesar» por «con una preocupación» para reflejar que escribe con una carga o inquietud.",
-      "translation_quote": "«Escribo estas palabras con pesar.»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-11T20:13:30+00:00",
   "id": "6a2d2ce7a153c161aafe048f448d7f29",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "spa",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.086831,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
   "translation_model_actual": "gpt-6-luna"
