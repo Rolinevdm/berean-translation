@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "마지막 문단, 기사 내부 서명",
+      "severity": "major",
+      "source_quote": "May this issue of <em>The Heartbeat of the Remnant</em> stir you to love Him more! ~Bro. Dean",
+      "suggested_fix": "마지막 문장 뒤에 기사 내부 서명을 추가하세요. 예: <em>The Heartbeat of the Remnant</em> 이번 호가 여러분의 마음을 움직여 그분을 더욱 사랑하게 하기를 바랍니다! ~딘 형제",
+      "translation_quote": "<em>The Heartbeat of the Remnant</em> 이번 호가 여러분의 마음을 움직여 그분을 더욱 사랑하게 하기를 바랍니다!"
+    },
+    {
+      "location": "책을 다루는 문단",
+      "severity": "minor",
+      "source_quote": "one that needs to be in the lap of your child",
+      "suggested_fix": "자녀가 읽을 수 있도록 무릎에 놓아 줄 한 권",
+      "translation_quote": "여러분의 자녀가 무릎에 앉아 읽어야 할 한 권의 책"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
