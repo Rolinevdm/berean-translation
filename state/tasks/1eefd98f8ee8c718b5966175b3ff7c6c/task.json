@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ead8324d1e2b4fe1a0cfd6c1413ba995",
   "campaign": "auto-54a32089c0102c613593fc2eef3f6cc03be52da750d6b03b7be584cd0f2a577d",
   "created_at": "2026-10-11T18:02:29+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 2097
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 694,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 592,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2392,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1289,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3086
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Title metadata and paragraph 2",
+      "severity": "major",
+      "source_quote": "The Jefferson Bible",
+      "suggested_fix": "Use «كتاب جيفرسون المقدس» (or another Arabic rendering that preserves “Bible”) in the title and in paragraph 2.",
+      "translation_quote": "«إنجيل جيفرسون»"
+    }
+  ],
   "id": "1eefd98f8ee8c718b5966175b3ff7c6c",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ara",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e0055d55517f5660992a9420cc757b233982239c9b7e50e0b4848cde01c4c446.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.086296,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
   "translation_model_actual": "gpt-6-luna"

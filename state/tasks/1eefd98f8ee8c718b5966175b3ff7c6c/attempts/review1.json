@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T20:20:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Title metadata and paragraph 2\",\"severity\":\"major\",\"source_quote\":\"The Jefferson Bible\",\"suggested_fix\":\"Use «كتاب جيفرسون المقدس» (or another Arabic rendering that preserves “Bible”) in the title and in paragraph 2.\",\"translation_quote\":\"«إنجيل جيفرسون»\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 372,
+    "content_evidence_truncated": false,
+    "content_sha256": "28fbcc7ed0537640159423ff23ea9fad4433b421127c631ddf762a0a2e62cf3a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 694,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 592,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2392,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1289,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3086
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
