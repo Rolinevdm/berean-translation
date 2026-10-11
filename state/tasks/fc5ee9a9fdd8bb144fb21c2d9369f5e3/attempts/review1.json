@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T06:20:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Image alt text\",\"severity\":\"minor\",\"source_quote\":\"a small seconds dial\",\"suggested_fix\":\"En antikk urskive med romertall og en liten sekundskive\",\"translation_quote\":\"En antikk urskive med romertall og en liten sekundviser\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 303,
+    "content_evidence_truncated": false,
+    "content_sha256": "cf462d22eb9200dd66bbd6c17ff87b95a9cfb1dd1e63624f3568b1f1d4b1bc06",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 626,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 528,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6405,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5302,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7031
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
