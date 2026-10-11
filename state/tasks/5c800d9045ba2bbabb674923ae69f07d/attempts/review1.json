@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T08:47:51+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Библейская цитата о духовном обновлении, абзац 3\",\"severity\":\"major\",\"source_quote\":\"Wilt thou not revive us again: that thy people may rejoice in thee? Ps. 85:6\",\"suggested_fix\":\"Заменить ссылку «Пс. 84:7» на «Пс. 85:6», сохранив перевод цитаты.\",\"translation_quote\":\"Не оживишь ли нас опять, чтобы народ Твой возрадовался о Тебе? Пс. 84:7\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 558,
+    "content_evidence_truncated": false,
+    "content_sha256": "1b586d5bf1f80df8ff4da98a1692281972a06a241dbafadf45627f37dc997cf1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 908,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 753,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 19522,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 18419,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 20430
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
