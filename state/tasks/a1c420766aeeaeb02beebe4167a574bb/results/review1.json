@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "46857a30-68f3-401a-9aaa-6c0fb773e76b",
+    "response_id": "chatcmpl-EXsBgowSAOtHgRMowguqfRvJLZfyC",
+    "usage": {
+      "completion_tokens": 268,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 78,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7676,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7673,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7944
+    }
+  },
+  "received_at": "2026-10-11T18:08:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html، الفقرة تحت عنوان «لا تتصرف بدافع الخوف»، اقتباس تيموثاوس الثانية 1:7",
+        "severity": "major",
+        "source_quote": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:7.",
+        "suggested_fix": "استبدل نص الاقتباس داخل وسم <em> بـ: «لأن الله لم يعطنا روح الخوف، بل روح القوة والمحبة والعقل السليم –تيموثاوس الثانية 1:7.»",
+        "translation_quote": "لأن الله لم يعطنا روح الفشل، بل روح القوة والمحبة والنصح –تيموثاوس الثانية 1:7."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
