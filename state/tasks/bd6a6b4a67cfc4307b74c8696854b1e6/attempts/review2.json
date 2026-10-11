@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T18:00:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Conclusion, pull quote and the first bolded attitude paragraph\",\"severity\":\"minor\",\"source_quote\":\"“We can choose cynicism, blindness, pride, or humility” / “We can take the attitude of cynicism.”\",\"suggested_fix\":\"Replace “mashaka ya kukatisha tamaa” with wording that conveys a cynical attitude, such as “mtazamo wa kijinsi” (and use the same term in the bolded heading and following paragraph).\",\"translation_quote\":\"“Tunaweza kuchagua kuwa na mashaka ya kukatisha tamaa, kutofumbua macho, kiburi, au unyenyekevu” / “Tunaweza kuwa na mtazamo wa mashaka ya kukatisha tamaa.”\"},{\"location\":\"Revivalism, definition quoted from Elwell Evangelical Dictionary\",\"severity\":\"minor\",\"source_quote\":\"“a response of the whole being to the gospel’s call”\",\"suggested_fix\":\"Replace “mtu mzima” with “mtu kwa ujumla” or “nafsi nzima” to avoid reading “whole being” as “an adult.”\",\"translation_quote\":\"“pale mtu mzima anapoitikia mwito wa injili”\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1069,
+    "content_evidence_truncated": false,
+    "content_sha256": "f741ae97b3429ed70175884a8d8bf1b39e43cb0bb83bcde0fffafd295627be0e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1183,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 894,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 20485,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 20482,
+        "cached_tokens": 0
+      },
+      "total_tokens": 21668
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

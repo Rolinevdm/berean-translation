@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "10a50b381c6941db9ae5411bf3997a02",
   "campaign": "auto-6c866445a8efff180a1bf65f7b58113417c1930bc5e4abb74f0b2076bcd20c35",
   "created_at": "2026-10-11T06:21:33+00:00",
   "events": [
@@ -48,18 +47,46 @@
         },
         "total_tokens": 31554
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1183,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 894,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 20485,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 20482,
+          "cached_tokens": 0
+        },
+        "total_tokens": 21668
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[171]: source /article[1]/p[36]/em[1] ('start', 'em', ()); translation /article[1]/p[36] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Conclusion, pull quote and the first bolded attitude paragraph",
+      "severity": "minor",
+      "source_quote": "“We can choose cynicism, blindness, pride, or humility” / “We can take the attitude of cynicism.”",
+      "suggested_fix": "Replace “mashaka ya kukatisha tamaa” with wording that conveys a cynical attitude, such as “mtazamo wa kijinsi” (and use the same term in the bolded heading and following paragraph).",
+      "translation_quote": "“Tunaweza kuchagua kuwa na mashaka ya kukatisha tamaa, kutofumbua macho, kiburi, au unyenyekevu” / “Tunaweza kuwa na mtazamo wa mashaka ya kukatisha tamaa.”"
+    },
+    {
+      "location": "Revivalism, definition quoted from Elwell Evangelical Dictionary",
+      "severity": "minor",
+      "source_quote": "“a response of the whole being to the gospel’s call”",
+      "suggested_fix": "Replace “mtu mzima” with “mtu kwa ujumla” or “nafsi nzima” to avoid reading “whole being” as “an adult.”",
+      "translation_quote": "“pale mtu mzima anapoitikia mwito wa injili”"
     }
   ],
+  "finished_at": "2026-10-11T18:00:54+00:00",
   "id": "bd6a6b4a67cfc4307b74c8696854b1e6",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swa",
@@ -148,9 +175,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/aeddb1d51271942bdbe3417e46c90421b08605b5b1d872e8fb0309f7877921c7.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +195,7 @@
     "total_reserved_usd": 0.134844,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
   "translation_model_actual": "gpt-6-luna"
