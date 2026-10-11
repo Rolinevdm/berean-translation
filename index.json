@@ -3359,6 +3359,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
+      "html_sha256": "2bc63d0b87c29411025809b47fd9cf7f0e5178dfe7663a2191e659b5ecd913b1",
+      "human_reviewed": false,
+      "id": "d0898011-fe8b-4c35-9aac-12c20ec0d950",
+      "images": [
+        {
+          "alt": "Mense kniel en bid tydens ’n opwekkingsbyeenkoms",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-1.jpg"
+        },
+        {
+          "alt": "’n Oop, historiese Bybel",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.json",
+      "metadata_sha256": "190eb16287359e19c0b84751992f596c88abeff1d6e87d994db312dcf226e510",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Pentagonale Christenskap",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.html",
       "html_sha256": "af719f6efd80edb613cfb4594b260de0eaf783cebbda419cdfcfed2048bb3cdb",
       "human_reviewed": false,
@@ -46146,6 +46178,38 @@
       "subtitle": null,
       "title": "Hva ser du?",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.html",
+      "html_sha256": "1cdbd324fc9328aeb08586c25c432c4d0298431135bb6ce628ef870d17f13a70",
+      "human_reviewed": false,
+      "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "images": [
+        {
+          "alt": "En ubåt som seiler på havoverflaten",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg"
+        },
+        {
+          "alt": "En historisk illustrasjon av en kveker som omfavner en urfolksperson i Pennsylvania",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.json",
+      "metadata_sha256": "7a6d6ba0a3c48433a71f6deb3113dc3190bb7511d8bd02403c250bdc258f886f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Fra redaktøren",
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Fra redaktøren",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
