@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "208ea906ef444542b2d2fe2264e783ae",
   "campaign": "auto-737a071e219a99037e1a9aba1cc497925d188d03d3b92a7839d00da83d7c8fe8",
   "created_at": "2026-10-11T06:21:47+00:00",
   "events": [
@@ -48,39 +47,39 @@
         },
         "total_tokens": 19122
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 266,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 97,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12161,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11058,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12427
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "html: “Saving for the cause of fornication” वाला अनुच्छेद",
-      "severity": "major",
-      "source_quote": "the reason this is referred to as fornication instead of adultery ... just prior ... fornication ... just after ... adultery",
-      "suggested_fix": "इस अनुच्छेद में विवाह-पूर्व अनैतिकता के लिए लगातार “विवाह-पूर्व यौन अनैतिकता” और विवाह के बाद की बेवफाई के लिए “व्यभिचार” प्रयोग करें। संबंधित वाक्य को करें: “अंततः, इसे व्यभिचार के बजाय विवाह-पूर्व यौन अनैतिकता इसलिए कहा गया है कि मंगनी की अवधि में दोनों का विवाह अभी हुआ नहीं होता, न ही उनका शारीरिक संबंध स्थापित हुआ होता।” अंतिम वाक्य में भी क्रमशः यही दोनों शब्द रखें। आरंभिक उद्धृत पद और इस अनुच्छेद के शीर्ष उद्धरण में fornication के लिए भी “विवाह-पूर्व यौन अनैतिकता” रखें। सभी HTML टैग सुरक्षित रखें।",
-      "translation_quote": "“व्यभिचार के कारण को छोड़कर” ... यहाँ व्यभिचार का आशय मंगनी ... अंततः, इसे व्यभिचार के बजाय अनैतिक यौन संबंध इसलिए कहा गया है ... ठीक पहले ... व्यभिचार ... ठीक बाद ... जारकर्म"
-    },
-    {
-      "location": "html: यिर्मयाह 3:8 से शुरू होने वाला अनुच्छेद, मलाकी 2:11 का उद्धरण",
-      "severity": "major",
-      "source_quote": "Judah hath profaned the holiness of the LORD which he loved",
-      "suggested_fix": "“यहोवा के उस पवित्रस्थान को अपवित्र किया है जिससे वह प्रेम करता था” को “यहोवा की उस पवित्रता को अपवित्र किया है जिससे वह प्रेम करता था” से बदलें।",
-      "translation_quote": "यहूदा ने यहोवा के उस पवित्रस्थान को अपवित्र किया है जिससे वह प्रेम करता था"
-    },
-    {
-      "location": "html: होशे की पुस्तक वाला अनुच्छेद, होशे 1:2 का उद्धरण",
-      "severity": "major",
-      "source_quote": "Go, take unto thee a wife of whoredoms and children of whoredoms",
-      "suggested_fix": "उद्धरण के इस अंश को करें: “जा, वेश्यावृत्ति करने वाली स्त्री को अपनी पत्नी बना और वेश्यावृत्ति से उत्पन्न बच्चों को अपने पास ले”।",
-      "translation_quote": "जा, वेश्यागमन करने वाली स्त्री और वेश्यागमन से उत्पन्न बच्चों को अपने पास ले"
-    },
-    {
-      "location": "html: “इसलिए, दोनों जीवन-साथियों द्वारा पश्चात्ताप…” वाला अनुच्छेद, अंतिम वाक्य",
-      "severity": "major",
-      "source_quote": "we should fall on our knees in support and sincere gratitude to our Heavenly Father",
-      "suggested_fix": "अंतिम वाक्य को करें: “जब टूटे संबंध के लिए पश्चात्ताप और मेल-मिलाप की भक्तिपूर्ण इच्छा हो, तो हमें इस प्रयास के समर्थन में और अपने स्वर्गीय पिता के प्रति सच्चे आभार के साथ घुटनों के बल गिरना चाहिए।”",
-      "translation_quote": "हमें अपने स्वर्गीय पिता के समर्थन और उनके प्रति सच्चे आभार में घुटनों के बल गिरना चाहिए"
+      "location": "html: “विवाह-पूर्व यौन अनैतिकता के कारण को छोड़कर” से शुरू होने वाला अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "In Jewish culture, the betrothal period was considered almost as binding as the marriage ceremony itself",
+      "suggested_fix": "“मंगनी की अवधि को विवाह-समारोह जितना ही बाध्यकारी माना जाता था” को “मंगनी की अवधि को लगभग विवाह-समारोह जितना ही बाध्यकारी माना जाता था” करें।",
+      "translation_quote": "यहूदी संस्कृति में मंगनी की अवधि को विवाह-समारोह जितना ही बाध्यकारी माना जाता था"
     }
   ],
+  "finished_at": "2026-10-11T20:13:41+00:00",
   "id": "dc45c059272154041bb06d314dea1451",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "hin",
@@ -169,7 +168,7 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -188,7 +187,7 @@
     "total_reserved_usd": 0.853911,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
   "translation_model_actual": "gpt-6.1-sol"

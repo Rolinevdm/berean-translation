@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "0e2e7b8c-7415-466d-989a-b92132c8110a",
+    "response_id": "chatcmpl-EXsIrnoaHjVNcvLsHkbAbLMysKO8c",
+    "usage": {
+      "completion_tokens": 266,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12161,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11058,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12427
+    }
+  },
+  "received_at": "2026-10-11T20:13:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: “विवाह-पूर्व यौन अनैतिकता के कारण को छोड़कर” से शुरू होने वाला अनुच्छेद",
+        "severity": "minor",
+        "source_quote": "In Jewish culture, the betrothal period was considered almost as binding as the marriage ceremony itself",
+        "suggested_fix": "“मंगनी की अवधि को विवाह-समारोह जितना ही बाध्यकारी माना जाता था” को “मंगनी की अवधि को लगभग विवाह-समारोह जितना ही बाध्यकारी माना जाता था” करें।",
+        "translation_quote": "यहूदी संस्कृति में मंगनी की अवधि को विवाह-समारोह जितना ही बाध्यकारी माना जाता था"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
