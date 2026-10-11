@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T06:19:36+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: 다윗이 전장에 도착하는 문단, 양군의 지형 설명\",\n      \"severity\": \"major\",\n      \"source_quote\": \"To take your entire army down into the valley and fight the opposition uphill would leave you at a tremendous disadvantage.\",\n      \"suggested_fix\": \"해당 문장을 “전군을 골짜기로 내려보낸 뒤 오르막 위에 있는 적을 상대로 싸우면 엄청난 불리함을 감수해야 했습니다.”로 수정하십시오.\",\n      \"translation_quote\": \"전군을 골짜기로 내려보내 오르막을 올라오는 적과 싸우면 엄청난 불리함을 감수해야 했습니다.\"\n    },\n    {\n      \"location\": \"html: 요셉이 바꿀 수 없었던 상황을 열거하는 문장\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the butler’s delusion\",\n      \"suggested_fix\": \"“술 맡은 관원장이 속이는 일”을 “술 맡은 관원장의 착각”으로 수정하여, 원문에 없는 의도적인 기만을 부여하지 마십시오.\",\n      \"translation_quote\": \"술 맡은 관원장이 속이는 일\"\n    },\n    {\n      \"location\": \"html: 시 바로 앞 문단의 마지막 문장\",\n      \"severity\": \"major\",\n      \"source_quote\": \"from Zebedee’s boats of the business… to the boys of his bosom.\",\n      \"suggested_fix\": \"“생업에 쓰인 세베대의 배들에서… 그분의 품에 안긴 소년들까지”를 “세베대가 생업에 쓰던 배들에서… 그가 품에 안아 기른 아들들까지”로 수정하여 세베대의 아들들을 가리키는 관계를 보존하십시오.\",\n      \"translation_quote\": \"생업에 쓰인 세베대의 배들에서… 그분의 품에 안긴 소년들까지\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 92\n}",
+    "content_bytes": 1797,
+    "content_evidence_truncated": false,
+    "content_sha256": "a647d5b9b079600d0d73f0f9dbdbaeb3afae992b9c0178cb3140857f9e6d7de2",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 520,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 41,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8419,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8416,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8939
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
