@@ -28699,6 +28699,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
+      "html_sha256": "723006a8f0ad22783f55cc8966b9aa37639e273eaa6aee4e44d1f79134cd4e9f",
+      "human_reviewed": false,
+      "id": "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd",
+      "images": [
+        {
+          "alt": "फटे काग़ज़ का पोस्टर, जिस पर ‘चाहिए ज़िंदा या मुर्दा ईसाई परंपराएँ’ लिखा है; ‘मुर्दा या’ काटा हुआ है और ‘ज़िंदा’ पर घेरा बना है",
+          "public_path": "/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.json",
+      "metadata_sha256": "f7ecf345bf817fc7dea9f04bd3e57236d7c966bf1daae5d5ffcf4554f24be2cf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "परंपराएँ: अच्छी हैं या बुरी?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "4287889e97a5cd283b0d49e089c390dd411e81deb8e6c47adf7709f9271c8ca9",
       "human_reviewed": false,
@@ -39003,6 +39031,34 @@
       "subtitle": null,
       "title": "상황적 과부하",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
+      "html_sha256": "3017d9f022f2e3c1d103624c773fd06990a7cdb1377f3e529706ebc7c6052e12",
+      "human_reviewed": false,
+      "id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "images": [
+        {
+          "alt": "목자가 바위투성이 산골짜기를 지나 양 떼를 이끈다",
+          "public_path": "/images/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.json",
+      "metadata_sha256": "cab293464da39f83b3108bce9fc94eeeb9413585698cab51b16856b744d1b3f9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "성경 교리",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "어찌 까닭이 없겠습니까?",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -54597,6 +54653,34 @@
       "subtitle": null,
       "title": "Кто имеет уши слышать…",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
+      "html_sha256": "b80dd95b4a2f64f3a0cf5593a55f3c0ebd1e3e84420bf684b8ff6c4e6bc446ec",
+      "human_reviewed": false,
+      "id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "images": [
+        {
+          "alt": "Пастух ведёт стадо по каменистой горной долине",
+          "public_path": "/images/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.json",
+      "metadata_sha256": "ee5fe02ea4fbbeb75af8fff32b4857f52232ad5d8ece0fd8b5784ea048a50f06",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "БИБЛЕЙСКИЕ ВЕРОУЧЕНИЯ",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Неужели нет причины?",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
