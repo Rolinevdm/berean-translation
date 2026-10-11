@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, første avsnitt under «Stol på Guds styrke», Filipperne 4:13",
+      "severity": "major",
+      "source_quote": "I can do all things through Christ which strengtheneth me –Philippians 4:13.",
+      "suggested_fix": "Erstatt «Alt makter jeg i ham som gjør meg sterk» med «Alt makter jeg gjennom Kristus som gir meg styrke», og behold em-taggen og skriftstedshenvisningen.",
+      "translation_quote": "Alt makter jeg i ham som gjør meg sterk – Filipperne 4:13."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

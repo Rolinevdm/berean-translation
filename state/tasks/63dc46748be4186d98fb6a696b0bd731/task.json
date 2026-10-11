@@ -5,11 +5,40 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e7236f40f6e146f19520338e7bf115e1",
   "campaign": "auto-33786c08fdc54a3f84bd1121c730738d0685a935c97bfe1c4ffd49fb54220147",
   "created_at": "2026-10-11T20:21:11+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 244,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 88,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7808,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6705,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8052
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, første avsnitt under «Stol på Guds styrke», Filipperne 4:13",
+      "severity": "major",
+      "source_quote": "I can do all things through Christ which strengtheneth me –Philippians 4:13.",
+      "suggested_fix": "Erstatt «Alt makter jeg i ham som gjør meg sterk» med «Alt makter jeg gjennom Kristus som gir meg styrke», og behold em-taggen og skriftstedshenvisningen.",
+      "translation_quote": "Alt makter jeg i ham som gjør meg sterk – Filipperne 4:13."
+    }
+  ],
   "id": "63dc46748be4186d98fb6a696b0bd731",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "nob",
@@ -98,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/9791f1482893f356df2c7b57c6c58f95e23e3082da0a6f9c6dedbd92cbfb41bc.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +146,7 @@
     "total_reserved_usd": 0.747488,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6-luna"
