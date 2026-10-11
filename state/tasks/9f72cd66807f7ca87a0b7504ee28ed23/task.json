@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f0157a004244418594d3e7294e807206",
   "campaign": "auto-4ddbcda4fb88c19e1e6aec424dd1491e4d498c34540addbfaec0a754eb267e58",
   "created_at": "2026-10-10T19:12:39+00:00",
   "events": [
@@ -68,25 +67,40 @@
         },
         "total_tokens": 5506
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, paragraphe 4, citation de Révélation 12:5-6, 11",
-      "severity": "major",
-      "source_quote": "“And the woman fled into the wilderness, where she hath a place prepared of God, that they should feed her there a thousand two hundred and threescore days.”",
-      "suggested_fix": "Remplacer « Et la femme s’enfuit dans le désert, où Dieu lui avait préparé un lieu, afin qu’on l’y nourrisse pendant mille deux cent soixante jours. » par « Et la femme s’enfuit dans le désert, où Dieu lui avait préparé un lieu, afin qu’on l’y nourrisse pendant mille deux cent soixante jours. » Non : cette citation restitue bien le verset. Corriger plutôt la référence en précisant que la première citation correspond à Ap. 12:6 et que la citation suivante correspond à Ap. 12:11, sans ajouter le verset 5 qui n’est pas cité.",
-      "translation_quote": "« Et la femme s’enfuit dans le désert, où Dieu lui avait préparé un lieu, afin qu’on l’y nourrisse pendant mille deux cent soixante jours. » … « Ils l’ont vaincu par le sang de l’Agneau et par la parole de leur témoignage, et ils n’ont pas aimé leur vie jusqu’à craindre la mort. » Ap. 12:5-6, 11"
     },
     {
-      "location": "HTML, paragraphe 4, deuxième citation de Révélation",
-      "severity": "major",
-      "source_quote": "“and they loved not their lives unto the death.”",
-      "suggested_fix": "Remplacer « et ils n’ont pas aimé leur vie jusqu’à craindre la mort » par « et ils n’ont pas aimé leur vie, même jusqu’à la mort » afin de préserver le sens de l’expression biblique.",
-      "translation_quote": "« ils n’ont pas aimé leur vie jusqu’à craindre la mort »"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 478,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 376,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3735,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2632,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4213
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Article, paragraph beginning « La “partie” ne fera que s’intensifier »",
+      "severity": "major",
+      "source_quote": "Re. 12:5-6, 11",
+      "suggested_fix": "Ap. 12:5-6, 11",
+      "translation_quote": "Ap. 12:6, 11"
+    }
+  ],
+  "finished_at": "2026-10-11T06:26:29+00:00",
   "id": "9f72cd66807f7ca87a0b7504ee28ed23",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "fra",
@@ -175,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +209,7 @@
     "total_reserved_usd": 0.087114,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
   "translation_model_actual": "gpt-6-luna"

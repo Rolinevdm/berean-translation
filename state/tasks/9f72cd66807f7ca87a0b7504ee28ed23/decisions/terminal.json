@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning « La “partie” ne fera que s’intensifier »",
+      "severity": "major",
+      "source_quote": "Re. 12:5-6, 11",
+      "suggested_fix": "Ap. 12:5-6, 11",
+      "translation_quote": "Ap. 12:6, 11"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
