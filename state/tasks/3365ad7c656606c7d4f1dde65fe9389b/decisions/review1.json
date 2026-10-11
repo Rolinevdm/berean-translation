@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 12",
+      "severity": "major",
+      "source_quote": "“The problem lies in the heart of the ones practicing the tradition with the deadness of an abandoned graveyard.”",
+      "suggested_fix": "הבעיה נמצאת בלבם של מי שמקיימים את המסורת, שלבם מת כמו בית קברות נטוש.",
+      "translation_quote": "“הבעיה נמצאת בלבם של מי שמקיימים את המסורת, לבבות המתים כמו בית קברות נטוש.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
