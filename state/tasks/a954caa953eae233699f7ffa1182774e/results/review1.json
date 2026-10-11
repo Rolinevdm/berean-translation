@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d7a1224d-8875-488f-b1d5-6e373ef2ccb1",
+    "response_id": "chatcmpl-EXvj5zFhP80DOIiShg7hiQSi6d247",
+    "usage": {
+      "completion_tokens": 724,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 633,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2341,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1238,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3065
+    }
+  },
+  "received_at": "2026-10-11T21:53:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Eerste citaat",
+        "severity": "minor",
+        "source_quote": "We must reduce our volume to the simple evangelists",
+        "suggested_fix": "We moeten ons boek beperken tot de eenvoudige evangelisten",
+        "translation_quote": "We moeten ons beperken tot de eenvoudige evangelisten"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

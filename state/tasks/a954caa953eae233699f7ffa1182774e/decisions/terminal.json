@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Eerste citaat",
+      "severity": "minor",
+      "source_quote": "We must reduce our volume to the simple evangelists",
+      "suggested_fix": "We moeten ons boek beperken tot de eenvoudige evangelisten",
+      "translation_quote": "We moeten ons beperken tot de eenvoudige evangelisten"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
