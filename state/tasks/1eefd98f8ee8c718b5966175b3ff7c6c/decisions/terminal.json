@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الاقتباس الافتتاحي",
+      "severity": "major",
+      "source_quote": "We must reduce our volume to the simple evangelists, select, even from them, the very words only of Jesus",
+      "suggested_fix": "علينا أن نقتصر على روايات الإنجيليين البسطاء، وأن ننتقي حتى منها كلمات يسوع وحدها",
+      "translation_quote": "علينا أن نقتصر على الأناجيل البسيطة، وأن ننتقي، حتى منها، كلمات يسوع وحدها"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

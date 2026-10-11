@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "87a2d7c8-17ae-44c4-acdc-28f3518fd826",
+    "response_id": "chatcmpl-EXvis4LFDZ4mFOvxKE8v48GWmUlDD",
+    "usage": {
+      "completion_tokens": 839,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 696,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2389,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2386,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3228
+    }
+  },
+  "received_at": "2026-10-11T21:53:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الاقتباس الافتتاحي",
+        "severity": "major",
+        "source_quote": "We must reduce our volume to the simple evangelists, select, even from them, the very words only of Jesus",
+        "suggested_fix": "علينا أن نقتصر على روايات الإنجيليين البسطاء، وأن ننتقي حتى منها كلمات يسوع وحدها",
+        "translation_quote": "علينا أن نقتصر على الأناجيل البسيطة، وأن ننتقي، حتى منها، كلمات يسوع وحدها"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
