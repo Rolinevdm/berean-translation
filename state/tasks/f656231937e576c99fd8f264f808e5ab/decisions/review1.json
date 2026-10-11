@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph beginning “Lerne, vor Gott still zu sein.”",
+      "severity": "major",
+      "source_quote": "“I have felt uncomfortable at my own carnality and shallowness.”",
+      "suggested_fix": "Replace “Weltlichkeit” with “Fleischlichkeit” to preserve the source’s reference to the speaker’s carnal nature: “wegen meiner eigenen Fleischlichkeit und Oberflächlichkeit”.",
+      "translation_quote": "“wegen meiner eigenen Weltlichkeit und Oberflächlichkeit unwohl gefühlt.”"
+    },
+    {
+      "location": "Opening paragraph",
+      "severity": "minor",
+      "source_quote": "“Wait a minute, let me have a second try.”",
+      "suggested_fix": "Use the singular imperative “lass” to match the singular addressee: “Moment mal, lass mich es noch einmal versuchen.”",
+      "translation_quote": "“Moment mal, lasst mich es noch einmal versuchen.”"
+    },
+    {
+      "location": "Article paragraph beginning “All das gesagt”",
+      "severity": "minor",
+      "source_quote": "“All of that being said, I would like to point to a way that I have found to deal with this tension.”",
+      "suggested_fix": "Use a more idiomatic German transition, for example: “Nachdem ich das gesagt habe, möchte ich auf einen Weg hinweisen, den ich gefunden habe, um mit diesem Spannungsfeld umzugehen.”",
+      "translation_quote": "“All das gesagt, möchte ich auf einen Weg hinweisen, den ich gefunden habe, um mit diesem Spannungsfeld umzugehen.”"
+    },
+    {
+      "location": "Article paragraph beginning “Satan weiß”",
+      "severity": "minor",
+      "source_quote": "“to keep you so busy chasing your tail”",
+      "suggested_fix": "Replace the literal rendering with an idiomatic equivalent, for example “dich so sehr im Hamsterrad laufen zu lassen”.",
+      "translation_quote": "“dich so sehr damit zu beschäftigen, deinen eigenen Schwanz zu jagen”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
