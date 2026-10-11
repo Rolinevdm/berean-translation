@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "537f1a36-2bf9-4093-8a02-30755c438ef5",
+    "response_id": "chatcmpl-EXqe4hvnhOyvwGRTxaoahQbY2gxyf",
+    "usage": {
+      "completion_tokens": 760,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 134,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11026,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11023,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11786
+    }
+  },
+  "received_at": "2026-10-11T18:00:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html > ol > li:nth-child(3) > p > em（玛拉基书 2:14-16引文）",
+        "severity": "major",
+        "source_quote": "Yet had he the residue of the spirit. And wherefore one? ... he hateth putting away: for one covereth violence with his garment",
+        "suggested_fix": "将“祂虽有余力能造许多人，却只造一人”改为“祂仍有余剩的灵”；将“休妻的事和以强暴待妻的人，都是我所恨恶的”改为“我恨恶休妻，因为有人以衣服遮掩强暴”。保留现有经文引用、HTML结构及其余文字。",
+        "translation_quote": "祂虽有余力能造许多人，却只造一人。……休妻的事和以强暴待妻的人，都是我所恨恶的。"
+      },
+      {
+        "location": "html > ul（圣经理想的例外）> li:nth-child(1) > p > em",
+        "severity": "major",
+        "source_quote": "that ye may give yourselves to fasting and prayer",
+        "suggested_fix": "将引文中的“为要专心祷告”改为“为要专心禁食和祷告”。",
+        "translation_quote": "为要专心祷告"
+      },
+      {
+        "location": "html > p（何西阿娶她之后一段时间）",
+        "severity": "major",
+        "source_quote": "By Hosea patiently \"alluring her and speaking comfortably to her\"",
+        "suggested_fix": "将“诱导她，领她到旷野，对她说安慰的话”改为“诱导她，对她说安慰的话”，不改动现有经文编号。",
+        "translation_quote": "何西阿耐心地“诱导她，领她到旷野，对她说安慰的话”"
+      },
+      {
+        "location": "html > ol > li:nth-child(4) > p > em（马太福音 19:4引文）",
+        "severity": "minor",
+        "source_quote": "Have ye not read, that he which made them at the beginning made them male and female",
+        "suggested_fix": "将“那起初造人的，是造男造女。”改为“那起初造人的，是造男造女，你们没有读过吗？”",
+        "translation_quote": "那起初造人的，是造男造女。"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
