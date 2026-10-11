@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0f44dcdd-3f43-433c-872b-9437ec0aa2bd",
+    "response_id": "chatcmpl-EXuHDhulpgHYKNQSW0nwy8yBAYfFU",
+    "usage": {
+      "completion_tokens": 774,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 667,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3362,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2259,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4136
+    }
+  },
+  "received_at": "2026-10-11T20:20:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 10",
+        "severity": "minor",
+        "source_quote": "a faithful old apple tree that bore me many blessings",
+        "suggested_fix": "Ed è stato come un vecchio melo fedele che mi ha portato molte benedizioni!",
+        "translation_quote": "un vecchio melo fedele che mi ha dato molti frutti"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 10",
+      "severity": "minor",
+      "source_quote": "a faithful old apple tree that bore me many blessings",
+      "suggested_fix": "Ed è stato come un vecchio melo fedele che mi ha portato molte benedizioni!",
+      "translation_quote": "un vecchio melo fedele che mi ha dato molti frutti"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
