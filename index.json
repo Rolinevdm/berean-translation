@@ -58052,6 +58052,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.html",
+      "html_sha256": "0cad3b46aab567b40ae598ce12be18c84561623838147c34402e3103f916d757",
+      "human_reviewed": false,
+      "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "images": [
+        {
+          "alt": "Un submarino que navega en la superficie del mar",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg"
+        },
+        {
+          "alt": "Ilustración histórica de un cuáquero abrazando a una persona indígena en Pensilvania",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.json",
+      "metadata_sha256": "9dc8eed75d527cf69e4eeea74d6365a033052969501090f48c6b32f897396002",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Del editor",
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Del editor",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/8d1b7c4e-266c-4820-ac8b-ab0b2be527f4.html",
       "html_sha256": "ec915afe27f3fc8dde4d57aeb5dcb414f1bb7cd7b6035787a4e8e21e4a2205e1",
       "human_reviewed": false,
