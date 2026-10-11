@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T06:19:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Conclusión, primer párrafo\",\"severity\":\"minor\",\"source_quote\":\"about the place of the Bible and tradition\",\"suggested_fix\":\"«sobre el lugar que corresponden a la Biblia y la tradición» → «sobre el lugar que corresponde a la Biblia y la tradición»\",\"translation_quote\":\"sobre el lugar que corresponden a la Biblia y la tradición\"},{\"location\":\"Restauracionismo, párrafo sobre el estudio de la iglesia primitiva\",\"severity\":\"minor\",\"source_quote\":\"can be challenging, inspiring, embarrassing, and even life-changing\",\"suggested_fix\":\"«puede ser un desafío, inspirador, vergonzoso e incluso transformador» → «puede resultar desafiante, inspirador, vergonzoso e incluso transformador»\",\"translation_quote\":\"puede ser un desafío, inspirador, vergonzoso e incluso transformador\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 871,
+    "content_evidence_truncated": false,
+    "content_sha256": "9b63082e3f218ad393e1b1b700099b341ef9a03cc552a91ed13502b0dedcc400",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 933,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 720,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 18701,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 17598,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 19634
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

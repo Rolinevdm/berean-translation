@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2465e10b91fe46c1b88a169ece1ae335",
   "campaign": "auto-86120f649d760c60a2e821c05683b72db34a54ef302eca56b920200395979242",
   "created_at": "2026-10-11T00:25:47+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 18347
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 933,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 720,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 18701,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 17598,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 19634
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Conclusión, primer párrafo",
+      "severity": "minor",
+      "source_quote": "about the place of the Bible and tradition",
+      "suggested_fix": "«sobre el lugar que corresponden a la Biblia y la tradición» → «sobre el lugar que corresponde a la Biblia y la tradición»",
+      "translation_quote": "sobre el lugar que corresponden a la Biblia y la tradición"
+    },
+    {
+      "location": "Restauracionismo, párrafo sobre el estudio de la iglesia primitiva",
+      "severity": "minor",
+      "source_quote": "can be challenging, inspiring, embarrassing, and even life-changing",
+      "suggested_fix": "«puede ser un desafío, inspirador, vergonzoso e incluso transformador» → «puede resultar desafiante, inspirador, vergonzoso e incluso transformador»",
+      "translation_quote": "puede ser un desafío, inspirador, vergonzoso e incluso transformador"
+    }
+  ],
+  "finished_at": "2026-10-11T06:19:33+00:00",
   "id": "5a26de7f11e42a15e8af9ea20e00d13f",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "spa",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/aeddb1d51271942bdbe3417e46c90421b08605b5b1d872e8fb0309f7877921c7.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.134866,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
   "translation_model_actual": "gpt-6-luna"
