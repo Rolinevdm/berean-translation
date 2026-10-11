@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "正文第3段",
+      "severity": "minor",
+      "source_quote": "a vibrant, secret prayer life",
+      "suggested_fix": "将“迫切而隐秘的祷告生活”改为“充满活力而隐秘的祷告生活”。",
+      "translation_quote": "迫切而隐秘的祷告生活"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
