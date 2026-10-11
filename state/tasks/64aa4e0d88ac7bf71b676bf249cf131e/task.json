@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "031c8ee2d54346daaccc2a9a1134bfa3",
   "campaign": "auto-1067d0d656f61fe343cecb1739678eb41630242cd9c358ebb1675c00e5e92052",
   "created_at": "2026-10-10T22:28:16+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 11781
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 70,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 38,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7878,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6775,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7948
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: kutipan 1 Samuel 17:28-29 dalam paragraf yang dimulai dengan “Ketika Daud bangun pagi-pagi”",
-      "severity": "major",
-      "source_quote": "I know thy pride, and the naughtiness of thine heart",
-      "suggested_fix": "Ganti “Aku kenal sifat pemberanimu dan hatimu yang jahat” dengan “Aku tahu kesombonganmu dan kejahatan hatimu”.",
-      "translation_quote": "Aku kenal sifat pemberanimu dan hatimu yang jahat"
-    },
-    {
-      "location": "html: paragraf pembuka, ungkapan tentang keberhasilan yang diharapkan",
-      "severity": "minor",
-      "source_quote": "secretly hope that there will come a day when our own “ship will come in” in a similar fashion",
-      "suggested_fix": "Ganti “suatu hari ‘kapal kita akan datang’ dengan cara serupa” dengan “suatu hari keberuntungan akan berpihak kepada kita dengan cara serupa”.",
-      "translation_quote": "diam-diam berharap bahwa suatu hari “kapal kita akan datang” dengan cara serupa"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-11T13:04:47+00:00",
   "id": "64aa4e0d88ac7bf71b676bf249cf131e",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ind",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.755372,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6.1-sol"
