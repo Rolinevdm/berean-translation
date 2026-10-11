@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T21:53:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Let’s be careful about reacting against traditions”\",\"severity\":\"major\",\"source_quote\":\"“let’s be careful about maintaining them.”\",\"suggested_fix\":\"בואו ניזהר שלא להגיב נגד מסורות, ונקפיד גם לשמר אותן בזהירות.\",\"translation_quote\":\"“וניזהר גם שלא לשמר אותן.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 445,
+    "content_evidence_truncated": false,
+    "content_sha256": "d2d9e423bddf4b1b5fbe939bdef3528023205e52767205aa5dcaebf52aa0806a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 524,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 415,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3408,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3405,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3932
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Let’s be careful about reacting against traditions”",
+      "severity": "major",
+      "source_quote": "“let’s be careful about maintaining them.”",
+      "suggested_fix": "בואו ניזהר שלא להגיב נגד מסורות, ונקפיד גם לשמר אותן בזהירות.",
+      "translation_quote": "“וניזהר גם שלא לשמר אותן.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
