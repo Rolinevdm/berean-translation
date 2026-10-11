@@ -27578,6 +27578,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
+      "html_sha256": "a87138fcc12786e27982558b91e448429c12ae78a354de2440d2669d158ec42a",
+      "human_reviewed": false,
+      "id": "719ef93a-7242-445f-8e5b-201567145e20",
+      "images": [
+        {
+          "alt": "एक चिकित्साकर्मी एक वृद्ध व्यक्ति का रक्तचाप जाँच रहा है",
+          "public_path": "/images/articles/719ef93a-7242-445f-8e5b-201567145e20-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/719ef93a-7242-445f-8e5b-201567145e20.json",
+      "metadata_sha256": "9fdd6fbd91d84b4034f2c8acb679816be06ac85996d05c8025079ed8344bee1b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "एक डॉक्टर की ओर से",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
+      "status": "ready",
+      "subtitle": null,
+      "title": "जीवन का अंत",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac.html",
       "html_sha256": "e4e2825edadf7400a8029b2c2b1d0bc799764b72ba26976990b450a7abe78a11",
       "human_reviewed": false,
@@ -50885,6 +50913,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "Potes",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
+      "html_sha256": "7c51306fa37c87b0be2d567ad75c099178dc6c8fbd6b00b03a304234a7f12c0a",
+      "human_reviewed": false,
+      "id": "783fddfc-86ed-44d9-b13e-e4adea31a5d5",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.json",
+      "metadata_sha256": "dbc47dfb1f418747588c52a2925938ab915ae60a68b2b4c2798da1764d0f472d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "A Bíblia de Jefferson",
       "translation_model": "gpt-6-luna"
     },
     {
