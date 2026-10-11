@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8332be5599ce4c8ab575231be3c1c955",
   "campaign": "auto-0d187ea4f1caaf9c7809267c81635cf3ae969e8b0c9bffe7b35a9ad058092941",
   "created_at": "2026-10-11T00:30:45+00:00",
   "events": [
@@ -48,32 +47,31 @@
         },
         "total_tokens": 13036
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 98,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 66,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8434,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8431,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8532
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: 다윗이 전장에 도착하는 문단, 양군의 지형 설명",
-      "severity": "major",
-      "source_quote": "To take your entire army down into the valley and fight the opposition uphill would leave you at a tremendous disadvantage.",
-      "suggested_fix": "해당 문장을 “전군을 골짜기로 내려보낸 뒤 오르막 위에 있는 적을 상대로 싸우면 엄청난 불리함을 감수해야 했습니다.”로 수정하십시오.",
-      "translation_quote": "전군을 골짜기로 내려보내 오르막을 올라오는 적과 싸우면 엄청난 불리함을 감수해야 했습니다."
-    },
-    {
-      "location": "html: 요셉이 바꿀 수 없었던 상황을 열거하는 문장",
-      "severity": "major",
-      "source_quote": "the butler’s delusion",
-      "suggested_fix": "“술 맡은 관원장이 속이는 일”을 “술 맡은 관원장의 착각”으로 수정하여, 원문에 없는 의도적인 기만을 부여하지 마십시오.",
-      "translation_quote": "술 맡은 관원장이 속이는 일"
-    },
-    {
-      "location": "html: 시 바로 앞 문단의 마지막 문장",
-      "severity": "major",
-      "source_quote": "from Zebedee’s boats of the business… to the boys of his bosom.",
-      "suggested_fix": "“생업에 쓰인 세베대의 배들에서… 그분의 품에 안긴 소년들까지”를 “세베대가 생업에 쓰던 배들에서… 그가 품에 안아 기른 아들들까지”로 수정하여 세베대의 아들들을 가리키는 관계를 보존하십시오.",
-      "translation_quote": "생업에 쓰인 세베대의 배들에서… 그분의 품에 안긴 소년들까지"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-11T13:12:15+00:00",
   "id": "c7097a088a0b69c3f861514074f1ab83",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "kor",
@@ -162,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -181,7 +179,7 @@
     "total_reserved_usd": 0.758757,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6.1-sol"
