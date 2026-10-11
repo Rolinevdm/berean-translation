@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "727bb131-e006-47a3-b675-0ad9080638e4",
+    "response_id": "chatcmpl-EXskpsqYvNHfmSwE5mbvW6ha4EsC4",
+    "usage": {
+      "completion_tokens": 372,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 236,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8006,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8003,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8378
+    }
+  },
+  "received_at": "2026-10-11T20:13:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: הפסקה שלפני השיר, „ממחטה של טביתא”",
+        "severity": "major",
+        "source_quote": "from the needle of Dorcas… to the nail of Jael",
+        "suggested_fix": "החליפו את „ממחטה של טביתא” ב„מהמחט של טביתא”, תוך שמירה על יתר המשפט ומבנה ה־HTML.",
+        "translation_quote": "ממחטה של טביתא… ועד יתדה של יעל"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 96
+  }
+}

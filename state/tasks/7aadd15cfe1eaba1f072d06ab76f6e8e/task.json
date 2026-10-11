@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2ccf4c808e6b45e4b719c5af52669b72",
   "campaign": "auto-a58b693b0ea2a8bd64cc4e951e45d5cf6b5473935b816c4dc12393724c241de9",
   "created_at": "2026-10-11T06:22:00+00:00",
   "events": [
@@ -48,46 +47,40 @@
         },
         "total_tokens": 13160
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 372,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 236,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8006,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8003,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8378
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "הפסקה הפותחת בציטוט מעברים 12:2, תיאור הצעת שאול",
+      "location": "html: הפסקה שלפני השיר, „ממחטה של טביתא”",
       "severity": "major",
-      "source_quote": "King Saul had offered tax exempt wealth and son-in-law status",
-      "suggested_fix": "שאול המלך הציע עושר פטור ממס ומעמד של חתן המלך",
-      "translation_quote": "שאול המלך הציע פטור ממס ומעמד של חתן המלך"
-    },
-    {
-      "location": "ציטוט הפתיחה והציטוט משמואל א׳ 17:28-29",
-      "severity": "minor",
-      "source_quote": "Is there not a cause?",
-      "suggested_fix": "בשני המקומות החליפו את ״הֲאֵין לָכֶם סִיבָּה?״ ב״האם אין לכך סיבה?״, ללא הוספת הנמען ״לכם״.",
-      "translation_quote": "הֲאֵין לָכֶם סִיבָּה?"
-    },
-    {
-      "location": "הציטוטים המקראיים לאורך המאמר",
-      "severity": "minor",
-      "source_quote": "What have I now done?; Why camest thou down hither?; Looking unto Jesus the author and finisher of our faith; For as the body without the spirit is dead; I cannot go with these; Come to me; could sling stones at an hair breadth; And all this assembly shall know",
-      "suggested_fix": "התאימו את הציטוטים לעברית מודרנית בהתאם להנחיית השפה, תוך שמירת התוכן, תגיות ההדגשה והמראי־מקומות. למשל: ״מה עשיתי עכשיו?״; ״למה ירדת לכאן?״; ״כשאנו מביטים אל ישוע, מכונן אמונתנו ומשלימה״; ״כשם שהגוף בלי הרוח מת״; ״איני יכול ללכת עם אלה, כי לא ניסיתי אותם״; ״בוא אליי״; ״יכלה לקלוע אבנים בדיוק של כחוט השערה בלי להחטיא״; ״וכל הקהל הזה ידע״.",
-      "translation_quote": "מֶה עָשִׂיתִי עַתָּה; לָמָּה זֶּה יָרַדְתָּ; הַבִּיטוּ אֶל־יֵשׁוּעַ, מְכוֹנֵן הָאֱמוּנָה וּמַשְׁלִימָהּ; כְּשֵׁם שֶׁהַגּוּף בְּלֹא הָרוּחַ מֵת הוּא; לֹא אוּכַל לָלֶכֶת בָּאֵלֶּה; לְכָה אֵלַי; הָיְתָה יָכֹל לִקְלֹעַ אֶבֶן אֶל־הַשַּׂעֲרָה; וְיֵדְעוּ כָּל־הַקָּהָל הַזֶּה"
-    },
-    {
-      "location": "הפסקה על כוח הקלע, המשפט המסיים",
-      "severity": "minor",
-      "source_quote": "If Goliath had a spear",
-      "suggested_fix": "אילו הייתה לגוליית חנית",
-      "translation_quote": "אילו היה לגוליית חנית"
-    },
-    {
-      "location": "הפסקה האחרונה לפני השיר",
-      "severity": "minor",
-      "source_quote": "from the needle of Dorcas",
-      "suggested_fix": "ממחטה של טביתא",
-      "translation_quote": "ממחטו של טביתא"
+      "source_quote": "from the needle of Dorcas… to the nail of Jael",
+      "suggested_fix": "החליפו את „ממחטה של טביתא” ב„מהמחט של טביתא”, תוך שמירה על יתר המשפט ומבנה ה־HTML.",
+      "translation_quote": "ממחטה של טביתא… ועד יתדה של יעל"
     }
   ],
+  "finished_at": "2026-10-11T20:13:47+00:00",
   "id": "7aadd15cfe1eaba1f072d06ab76f6e8e",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "heb",
@@ -176,7 +169,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -195,7 +188,7 @@
     "total_reserved_usd": 0.7616,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6.1-sol"

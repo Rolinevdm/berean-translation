@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: הפסקה שלפני השיר, „ממחטה של טביתא”",
+      "severity": "major",
+      "source_quote": "from the needle of Dorcas… to the nail of Jael",
+      "suggested_fix": "החליפו את „ממחטה של טביתא” ב„מהמחט של טביתא”, תוך שמירה על יתר המשפט ומבנה ה־HTML.",
+      "translation_quote": "ממחטה של טביתא… ועד יתדה של יעל"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
