@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "db0c1c8e-e60b-479e-8389-3f24254cd3b7",
+    "response_id": "chatcmpl-EXdXbmwnu4XqbdSzoVShVFcOSct8u",
+    "usage": {
+      "completion_tokens": 974,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 810,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3917,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2814,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4891
+    }
+  },
+  "received_at": "2026-10-11T06:19:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 4",
+        "severity": "minor",
+        "source_quote": "The “game” will only be heating up until the end of the age.",
+        "suggested_fix": "“Mchezo” huu utaendelea kupamba moto hadi mwisho wa zama.",
+        "translation_quote": "“Mchezo” huu utaendelea kupamba moto hadi mwisho wa wakati."
+      },
+      {
+        "location": "Final paragraph",
+        "severity": "minor",
+        "source_quote": "The Heartbeat of the Remnant",
+        "suggested_fix": "<em>Mapigo ya Moyo ya Waliosalia</em>",
+        "translation_quote": "<em>Mdundo wa Moyo wa Mabaki</em>"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

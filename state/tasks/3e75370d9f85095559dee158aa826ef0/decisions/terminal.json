@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "minor",
+      "source_quote": "The “game” will only be heating up until the end of the age.",
+      "suggested_fix": "“Mchezo” huu utaendelea kupamba moto hadi mwisho wa zama.",
+      "translation_quote": "“Mchezo” huu utaendelea kupamba moto hadi mwisho wa wakati."
+    },
+    {
+      "location": "Final paragraph",
+      "severity": "minor",
+      "source_quote": "The Heartbeat of the Remnant",
+      "suggested_fix": "<em>Mapigo ya Moyo ya Waliosalia</em>",
+      "translation_quote": "<em>Mdundo wa Moyo wa Mabaki</em>"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
