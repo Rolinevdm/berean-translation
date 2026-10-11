@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "135ca4bdcbf2493684ea9cbbe5e729b2",
   "campaign": "auto-075047c7b686c5908034cf1f6a5031f35278a79c1177cb4de6267f1da274c1ce",
   "created_at": "2026-10-10T22:34:06+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 6060
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 775,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 573,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6414,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5311,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7189
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Josua blev…”",
+      "severity": "minor",
+      "source_quote": "Joshua did not just happen to be chosen by God to lead Israel.",
+      "suggested_fix": "Josua blev inte bara av en slump utvald av Gud till att leda Israel.",
+      "translation_quote": "Josua blev inte bara råkade utvald av Gud till att leda Israel."
+    },
+    {
+      "location": "HTML, paragraph beginning “Lär dig att vara stilla inför Gud.”",
+      "severity": "minor",
+      "source_quote": "burying yourself in busy hustle and bustle of a “Christian life,”",
+      "suggested_fix": "begrav dig i det hektiska jäktet i ett ”kristet liv”,",
+      "translation_quote": "begrava dig i den hektiska jäktigheten i ett ”kristet liv”,"
+    }
+  ],
+  "finished_at": "2026-10-11T06:20:01+00:00",
   "id": "b2e7818d41dca9e280d84adad6b52499",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swe",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/13544cb6e0d298eda28cfb9b69de769cecac89abc53c344514518a5a4fed3f65.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.088794,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
   "translation_model_actual": "gpt-6-luna"

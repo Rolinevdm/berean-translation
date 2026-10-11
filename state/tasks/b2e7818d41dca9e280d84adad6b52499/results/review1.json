@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "033d42d9-6051-4b34-b668-23c7c5f75719",
+    "response_id": "chatcmpl-EXeqcbGVUXyqTyFjvVSA4YkFpKsdI",
+    "usage": {
+      "completion_tokens": 775,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 573,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6414,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5311,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7189
+    }
+  },
+  "received_at": "2026-10-11T06:20:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Josua blev…”",
+        "severity": "minor",
+        "source_quote": "Joshua did not just happen to be chosen by God to lead Israel.",
+        "suggested_fix": "Josua blev inte bara av en slump utvald av Gud till att leda Israel.",
+        "translation_quote": "Josua blev inte bara råkade utvald av Gud till att leda Israel."
+      },
+      {
+        "location": "HTML, paragraph beginning “Lär dig att vara stilla inför Gud.”",
+        "severity": "minor",
+        "source_quote": "burying yourself in busy hustle and bustle of a “Christian life,”",
+        "suggested_fix": "begrav dig i det hektiska jäktet i ett ”kristet liv”,",
+        "translation_quote": "begrava dig i den hektiska jäktigheten i ett ”kristet liv”,"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
