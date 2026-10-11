@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "acbbbf12-30e1-4bd2-bf7d-7562cfe805d4",
+    "response_id": "chatcmpl-EXo4JdmUxhPs8oI6ZdOQIRkbXODLO",
+    "usage": {
+      "completion_tokens": 905,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 181,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13692,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 13689
+      },
+      "total_tokens": 14597
+    }
+  },
+  "received_at": "2026-10-11T15:37:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: שלושת סעיפי רשימת השאלות ושלוש כותרות h3",
+        "severity": "major",
+        "source_quote": "What does the Bible teach about marriage? / What does the Bible teach about divorce? / What does the Bible teach about the reuniting of a separated or divorced first marriage? / What does the Bible teach about God's view of the first marriage? / What does the Bible teach about God's view of divorce? / What does the Bible teach about the reuniting of a separated or a divorced first marriage?",
+        "suggested_fix": "בכל שש השאלות החליפו את ״מה מלמד התנ״ך״ ב״מה מלמדים כתבי הקודש״. כאן Bible כולל את הברית הישנה והברית החדשה, בעוד ״תנ״ך״ מציין רק את הראשונה.",
+        "translation_quote": "מה מלמד התנ״ך על נישואים? / מה מלמד התנ״ך על גירושים? / מה מלמד התנ״ך על איחוד מחדש של נישואים ראשונים שהופרדו או התגרשו? / מה מלמד התנ״ך על השקפת אלוהים בדבר הנישואים הראשונים? / מה מלמד התנ״ך על השקפת אלוהים בדבר גירושים? / מה מלמד התנ״ך על איחוד מחדש של נישואים ראשונים שהופרדו או התגרשו?"
+      },
+      {
+        "location": "html: ol, סעיף 3, ציטוט מלאכי 2:14–16",
+        "severity": "major",
+        "source_quote": "And wherefore one? That he might seek a godly seed.",
+        "suggested_fix": "החליפו את ״וּמָה הָאֶחָד מְבַקֵּשׁ? זֶרַע אֱלֹהִים.״ ב״ומדוע עשה אותם לאחד? כדי שיהיו להם צאצאים יראי אלוהים.״ תוך שמירת תגיות הציטוט וההפניה.",
+        "translation_quote": "וּמָה הָאֶחָד מְבַקֵּשׁ? זֶרַע אֱלֹהִים."
+      },
+      {
+        "location": "html: הפסקה המתחילה ״מטרת הסיפור של ישוע״",
+        "severity": "major",
+        "source_quote": "to this woman and many more in Sychar",
+        "suggested_fix": "החליפו את ״לאישה הזאת ולאנשים רבים נוספים בסיסר״ ב״לאישה הזאת ולאנשים רבים נוספים בשכם (סיכר)״.",
+        "translation_quote": "לאישה הזאת ולאנשים רבים נוספים בסיסר"
+      },
+      {
+        "location": "html: סעיף השאלה השלישי, כותרת האיחוד מחדש ופסקת הדוגמה מהושע",
+        "severity": "minor",
+        "source_quote": "the reuniting of a separated or divorced first marriage",
+        "suggested_fix": "בשלושת המקומות החליפו את ״איחוד מחדש של נישואים ראשונים שהופרדו או התגרשו״ ב״איחוד מחדש של בני זוג מנישואים ראשונים שנפרדו או התגרשו״. בני הזוג מתגרשים, לא הנישואים.",
+        "translation_quote": "איחוד מחדש של נישואים ראשונים שהופרדו או התגרשו"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
