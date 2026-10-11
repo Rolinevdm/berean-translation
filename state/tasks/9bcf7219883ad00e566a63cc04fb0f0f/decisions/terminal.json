@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 8",
+      "severity": "major",
+      "source_quote": "As you get alone with God from time to time, He will change your values.",
+      "suggested_fix": "استبدل «غيّر قيمك» بـ«سيغيّر قيمك» لتوضيح أن الله هو الذي سيغيّر قيمك.",
+      "translation_quote": "وكلما اختليت بالله من حين إلى آخر، غيّر قيمك."
+    },
+    {
+      "location": "Paragraph 8",
+      "severity": "major",
+      "source_quote": "you will begin making godly decisions that will shape your life.",
+      "suggested_fix": "استبدل «قرارات تقوية» بـ«قرارات صالحة» أو «قرارات ترضي الله».",
+      "translation_quote": "ستبدأ باتخاذ قرارات تقوية تشكل حياتك."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d49c46a8-26b8-4ad9-b0ed-f4f30543de15",
+    "response_id": "chatcmpl-EXetDIE6f3kQ8ttrbCi1mkE39fRyR",
+    "usage": {
+      "completion_tokens": 704,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6345,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5242,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7049
+    }
+  },
+  "received_at": "2026-10-11T06:20:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 8",
+        "severity": "major",
+        "source_quote": "As you get alone with God from time to time, He will change your values.",
+        "suggested_fix": "استبدل «غيّر قيمك» بـ«سيغيّر قيمك» لتوضيح أن الله هو الذي سيغيّر قيمك.",
+        "translation_quote": "وكلما اختليت بالله من حين إلى آخر، غيّر قيمك."
+      },
+      {
+        "location": "Paragraph 8",
+        "severity": "major",
+        "source_quote": "you will begin making godly decisions that will shape your life.",
+        "suggested_fix": "استبدل «قرارات تقوية» بـ«قرارات صالحة» أو «قرارات ترضي الله».",
+        "translation_quote": "ستبدأ باتخاذ قرارات تقوية تشكل حياتك."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
