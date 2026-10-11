@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html, абзац о Викторе Франкле",
+      "severity": "major",
+      "source_quote": "As a holocaust prisoner in a Nazi concentration camp, Victor Frankl",
+      "suggested_fix": "Заменить «Будучи узником-нацистом в концентрационном лагере» на «Будучи узником нацистского концентрационного лагеря во время Холокоста».",
+      "translation_quote": "Будучи узником-нацистом в концентрационном лагере, Виктор Франкл"
+    },
+    {
+      "location": "html, абзац, начинающийся цитатой из Евреям 12:2",
+      "severity": "minor",
+      "source_quote": "King Saul had offered tax exempt wealth and son-in-law status",
+      "suggested_fix": "Заменить «и место в царской семье» на «и возможность стать царским зятем».",
+      "translation_quote": "Царь Саул обещал богатство, освобождённое от налогов, и место в царской семье"
+    },
+    {
+      "location": "html, абзац «Честное воображение»",
+      "severity": "minor",
+      "source_quote": "incurs no fear of contending with one (a man of war from his youth) in the valley of Elah",
+      "suggested_fix": "Заменить «не боится сразиться с воином в долине Ела» на «не боится сразиться в долине Ела с человеком, который был воином с юности».",
+      "translation_quote": "не боится сразиться с воином в долине Ела"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T00:30:14+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, абзац о Викторе Франкле\",\n      \"severity\": \"major\",\n      \"source_quote\": \"As a holocaust prisoner in a Nazi concentration camp, Victor Frankl\",\n      \"suggested_fix\": \"Заменить «Будучи узником-нацистом в концентрационном лагере» на «Будучи узником нацистского концентрационного лагеря во время Холокоста».\",\n      \"translation_quote\": \"Будучи узником-нацистом в концентрационном лагере, Виктор Франкл\"\n    },\n    {\n      \"location\": \"html, абзац, начинающийся цитатой из Евреям 12:2\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"King Saul had offered tax exempt wealth and son-in-law status\",\n      \"suggested_fix\": \"Заменить «и место в царской семье» на «и возможность стать царским зятем».\",\n      \"translation_quote\": \"Царь Саул обещал богатство, освобождённое от налогов, и место в царской семье\"\n    },\n    {\n      \"location\": \"html, абзац «Честное воображение»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"incurs no fear of contending with one (a man of war from his youth) in the valley of Elah\",\n      \"suggested_fix\": \"Заменить «не боится сразиться с воином в долине Ела» на «не боится сразиться в долине Ела с человеком, который был воином с юности».\",\n      \"translation_quote\": \"не боится сразиться с воином в долине Ела\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1894,
+    "content_evidence_truncated": false,
+    "content_sha256": "1c7b821f06462172019a8847e4942401048c6ae1235c15a4cbbba777c81c999f",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 544,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7956,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7953,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8500
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "38821df8-f0ed-40b8-9350-9c010cbf9ea7",
+    "response_id": "chatcmpl-EXbgxvrCiZee7yplzVk0QWiXRn0Bj",
+    "usage": {
+      "completion_tokens": 544,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7956,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7953,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8500
+    }
+  },
+  "received_at": "2026-10-11T00:30:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, абзац о Викторе Франкле",
+        "severity": "major",
+        "source_quote": "As a holocaust prisoner in a Nazi concentration camp, Victor Frankl",
+        "suggested_fix": "Заменить «Будучи узником-нацистом в концентрационном лагере» на «Будучи узником нацистского концентрационного лагеря во время Холокоста».",
+        "translation_quote": "Будучи узником-нацистом в концентрационном лагере, Виктор Франкл"
+      },
+      {
+        "location": "html, абзац, начинающийся цитатой из Евреям 12:2",
+        "severity": "minor",
+        "source_quote": "King Saul had offered tax exempt wealth and son-in-law status",
+        "suggested_fix": "Заменить «и место в царской семье» на «и возможность стать царским зятем».",
+        "translation_quote": "Царь Саул обещал богатство, освобождённое от налогов, и место в царской семье"
+      },
+      {
+        "location": "html, абзац «Честное воображение»",
+        "severity": "minor",
+        "source_quote": "incurs no fear of contending with one (a man of war from his youth) in the valley of Elah",
+        "suggested_fix": "Заменить «не боится сразиться с воином в долине Ела» на «не боится сразиться в долине Ела с человеком, который был воином с юности».",
+        "translation_quote": "не боится сразиться с воином в долине Ела"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
