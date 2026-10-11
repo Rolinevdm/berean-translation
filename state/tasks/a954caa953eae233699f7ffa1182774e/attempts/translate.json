@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T20:20:20+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"783fddfc-86ed-44d9-b13e-e4adea31a5d5\\\">\\n  <blockquote>\\n    <p>We moeten ons beperken tot de eenvoudige evangelisten en zelfs daaruit alleen de eigenlijke woorden van Jezus selecteren, en de dubbelzinnigheden [ambiguïteiten] wegsnijden waarin zij zijn verzeild geraakt .... Wat overblijft, zal de meest verheven en welwillende morele code zijn die ooit aan de mens is aangeboden. Ik heb deze bewerking voor eigen gebruik uitgevoerd door vers voor vers uit het gedrukte boek te knippen en het materiaal bijeen te brengen dat kennelijk van Hem is en dat even gemakkelijk te onderscheiden is als diamanten op een mesthoop.</p>\\n  </blockquote>\\n  <p>Zo schreef Thomas Jefferson over zijn project om de Bijbel te zuiveren van misvattingen en verkeerde interpretaties die de schrijvers van de vier evangeliën zelf erin hadden opgenomen. Tegen de tijd dat hij klaar was met zijn scheermes (ja, hij gebruikte letterlijk een scheermes om de gedeelten die hij wilde aan elkaar te knippen en te plakken!), had Jefferson elke verwijzing naar engelen, geslachtsregisters, profetieën, wonderen, de opstanding en de goddelijkheid van Jezus met succes verwijderd. De laatste woorden van De Jeffersonbijbel luiden: “Nu was er op de plaats waar Hij gekruisigd was een tuin; en in de tuin een nieuw graf, waarin nog nooit iemand was gelegd. Daar legden zij Jezus neer. En zij rolden een grote steen voor de ingang van het graf en vertrokken.”</p>\\n  <p>Een Bijbel zonder opstanding! Thomas Jefferson koos uit wat hij wilde geloven. Hij wilde een Bijbel waaruit alles was verwijderd wat niet rechtstreeks met Jezus te maken had.</p>\\n  <p>Percival Everett vertelt wat er werkelijk gebeurde:</p>\\n  <blockquote>\\n    <p>Hij besloot dat de regels van de club waartoe hij wilde behoren niet de regels waren waarnaar hij wilde spelen. Dus veranderde hij niet van club, maar veranderde hij het regelboek door letterlijk alleen de gedeelten aan elkaar te knippen en te plakken die hij relevant vond voor zijn interpretatie.</p>\\n  </blockquote>\\n  <p>Had je dat door? In plaats van een christocentrische Bijbel te maken, maakte Thomas Jefferson een Jeffersoncentrische Bijbel!</p>\\n  <p>Hoewel waarschijnlijk niemand van ons letterlijk een scheermes bij onze Bijbel gebruikt, doen we dat dan in gedachten? Proberen we de regels van de club (het koninkrijk van God) te veranderen, of proberen we van club te veranderen (door de kracht van de Heilige Geest opnieuw geboren te worden in het koninkrijk)? ~</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"De Jeffersonbijbel\"}",
+    "content_bytes": 2601,
+    "content_evidence_truncated": false,
+    "content_sha256": "fa5dd943670ccd5d0c44c1223edf94eccd85cb57f3ad3bcbf462b3266cc2b5e8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 722,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1347,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1344,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2069
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
