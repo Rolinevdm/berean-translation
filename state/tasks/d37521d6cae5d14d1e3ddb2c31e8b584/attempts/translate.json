@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T21:53:17+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"783fddfc-86ed-44d9-b13e-e4adea31a5d5\\\">\\n  <blockquote>\\n    <p>Dobbiamo ridurre il nostro volume ai semplici evangelisti e scegliere, persino tra loro, soltanto le parole stesse di Gesù, eliminando le anfibologie [ambiguità] in cui sono incorsi .... Ne resterà il codice morale più sublime e benevolo che sia mai stato offerto all’uomo. Ho compiuto questa operazione per mio uso personale, ritagliando versetto per versetto dal libro stampato e disponendo il materiale che è evidentemente Suo, e che si distingue con la stessa facilità dei diamanti in un letamaio.</p>\\n  </blockquote>\\n  <p>Così scrisse Thomas Jefferson a proposito del suo progetto di epurare la Bibbia dalle idee errate e dalle false interpretazioni introdotte dagli stessi autori dei quattro Vangeli. Quando ebbe finito con il suo rasoio (sì, usò letteralmente un rasoio per ritagliare e incollare le sezioni che voleva!), Jefferson aveva eliminato con successo ogni riferimento agli angeli, alle genealogie, alle profezie, ai miracoli, alla risurrezione e alla divinità di Gesù. Le parole finali della Bibbia di Jefferson sono: «Ora, nel luogo in cui fu crocifisso, c’era un giardino; e nel giardino un sepolcro nuovo, nel quale non era mai stato deposto nessuno. Vi deposero Gesù. E rotolarono una grande pietra davanti all’ingresso del sepolcro e se ne andarono».</p>\\n  <p>Una Bibbia senza risurrezione! Thomas Jefferson scelse ciò in cui voleva credere. Voleva una Bibbia spogliata di tutto ciò che non fosse direttamente legato a Gesù.</p>\\n  <p>Percival Everett racconta che cosa accadde davvero:</p>\\n  <blockquote>\\n    <p>Decise che le regole del club a cui desiderava appartenere non erano quelle secondo cui voleva giocare. Così, invece di cambiare club, cambiò il regolamento, ritagliando e incollando letteralmente soltanto le sezioni che riteneva pertinenti alla propria interpretazione.</p>\\n  </blockquote>\\n  <p>L’avete colto? Invece di creare una Bibbia cristocentrica, Thomas Jefferson creò una Bibbia jeffersoncentrica!</p>\\n  <p>Anche se probabilmente nessuno di noi prende letteralmente un rasoio per tagliare le proprie Bibbie, lo facciamo nella nostra mente? Cerchiamo di cambiare le regole del club (il regno di Dio), oppure cerchiamo di cambiare club (nascere nel regno per opera della potenza dello Spirito Santo)? ~</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"La Bibbia di Jefferson\"}",
+    "content_bytes": 2464,
+    "content_evidence_truncated": false,
+    "content_sha256": "3dcc088d4b2e93ee8b32dbc8b56e9c55710ea898a4d1e0516412272e0c8d346d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 758,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 69,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1347,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1344,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2105
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
