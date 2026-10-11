@@ -25,9 +25,16 @@
       "event": "not_ready",
       "reason": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
       "task": "48e7a9ac264d16fe6209405b77ea2a2b"
+    },
+    {
+      "at": "2026-10-11T21:54:19+00:00",
+      "campaign": "auto-d8684825214fb428d56f69b443ee102049f696799e856f5f98b52963fd8bcffe",
+      "event": "automatic_requested",
+      "previous_task": "48e7a9ac264d16fe6209405b77ea2a2b",
+      "task": "a6c9829349f4d39a6fe7074debcd5a8b"
     }
   ],
   "language": "spa",
-  "latest_task": "48e7a9ac264d16fe6209405b77ea2a2b",
+  "latest_task": "a6c9829349f4d39a6fe7074debcd5a8b",
   "published": null
 }
