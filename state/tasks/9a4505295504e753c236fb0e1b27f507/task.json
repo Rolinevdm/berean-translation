@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c3d49699f7144f88bae27a7e400b4cb6",
   "campaign": "auto-86955b0a74bd3a79e54a08cba582ede4f931049954d6744a4ca0173324136682",
   "created_at": "2026-10-10T21:39:17+00:00",
   "events": [
@@ -68,25 +67,39 @@
         },
         "total_tokens": 9393
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 779,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 686,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6550,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5447,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7329
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph beginning “Yoshua hakuchaguliwa…”",
-      "severity": "major",
-      "source_quote": "“If you persevere with studentlike consistency to get alone with God in your ‘spare’ time”",
-      "suggested_fix": "“Ukidumu kwa uthabiti kama wa mwanafunzi katika kuwa peke yako na Mungu wakati wako wa ‘ziada,’”",
-      "translation_quote": "“Ukidumu kwa uthabiti kama wa mwanafunzi katika kujitenga na Mungu wakati wako wa ‘ziada,’”"
-    },
-    {
       "location": "Image alt text",
       "severity": "minor",
-      "source_quote": "“a small seconds dial”",
-      "suggested_fix": "“uso mdogo wa saa ya sekunde”",
-      "translation_quote": "“kishale kidogo cha sekunde”"
+      "source_quote": "A small seconds dial",
+      "suggested_fix": "Uso wa saa ya kale wenye nambari za Kirumi na kipima-sekunde kidogo",
+      "translation_quote": "uso mdogo wa saa ya sekunde"
     }
   ],
+  "finished_at": "2026-10-11T13:05:40+00:00",
   "id": "9a4505295504e753c236fb0e1b27f507",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swa",
@@ -175,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +208,7 @@
     "total_reserved_usd": 0.08879,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
   "translation_model_actual": "gpt-6-luna"

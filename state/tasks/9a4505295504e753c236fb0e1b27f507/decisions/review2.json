@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "A small seconds dial",
+      "suggested_fix": "Uso wa saa ya kale wenye nambari za Kirumi na kipima-sekunde kidogo",
+      "translation_quote": "uso mdogo wa saa ya sekunde"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

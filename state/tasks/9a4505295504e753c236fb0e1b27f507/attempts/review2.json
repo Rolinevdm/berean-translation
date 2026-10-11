@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T13:05:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Image alt text\",\"severity\":\"minor\",\"source_quote\":\"A small seconds dial\",\"suggested_fix\":\"Uso wa saa ya kale wenye nambari za Kirumi na kipima-sekunde kidogo\",\"translation_quote\":\"uso mdogo wa saa ya sekunde\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 287,
+    "content_evidence_truncated": false,
+    "content_sha256": "2e979e1cb8508f2de42956fc86209d08fa874db6c22ac2d063838286f3d830ae",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 779,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 686,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6550,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5447,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7329
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
