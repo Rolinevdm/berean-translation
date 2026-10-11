@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraf 5, kalimat terakhir",
+      "severity": "major",
+      "source_quote": "when people push the law, doing the least that is required, but still technically keeping the law",
+      "suggested_fix": "Ganti “mendorong penerapan hukum” dengan “menguji batas-batas hukum” sehingga kalimatnya berbunyi: “Kita dapat melihatnya dengan jelas ketika orang-orang menguji batas-batas hukum, melakukan sesedikit mungkin yang diwajibkan, tetapi tetap secara teknis menaati hukum.”",
+      "translation_quote": "ketika orang-orang mendorong penerapan hukum, melakukan sesedikit mungkin yang diwajibkan, tetapi tetap secara teknis menaati hukum"
+    },
+    {
+      "location": "html, paragraf 26",
+      "severity": "minor",
+      "source_quote": "I spent most of my childhood and teenage years going to anger management classes",
+      "suggested_fix": "Ganti “Sebagian besar masa kanak-kanak dan remaja saya saya habiskan” dengan “Saya menghabiskan sebagian besar masa kanak-kanak dan remaja saya”.",
+      "translation_quote": "Sebagian besar masa kanak-kanak dan remaja saya saya habiskan"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+  "stage": "terminal"
+}
