@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T06:19:40+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, Absatz „Treues Handeln“, Satz über die Söhne des Skeva\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"But initiative alone will not fit us for victory any more than it did for the sons of Sceva.\",\n      \"suggested_fix\": \"Doch Initiative allein macht uns ebenso wenig siegesfähig, wie sie die Söhne des Skeva siegesfähig machte.\",\n      \"translation_quote\": \"Doch Initiative allein macht uns ebenso wenig siegesfähig wie die Söhne des Skeva.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 97\n}",
+    "content_bytes": 580,
+    "content_evidence_truncated": false,
+    "content_sha256": "f4c7e5ba47b9abb6853d244e7ce9965499d8409d6b4622a570efb9a88165bf1d",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 268,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 104,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7863,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7860,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8131
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

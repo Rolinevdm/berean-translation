@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html, Absatz „Treues Handeln“, Satz über die Söhne des Skeva",
+      "severity": "minor",
+      "source_quote": "But initiative alone will not fit us for victory any more than it did for the sons of Sceva.",
+      "suggested_fix": "Doch Initiative allein macht uns ebenso wenig siegesfähig, wie sie die Söhne des Skeva siegesfähig machte.",
+      "translation_quote": "Doch Initiative allein macht uns ebenso wenig siegesfähig wie die Söhne des Skeva."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ccb66b98-f95c-4aa0-acf9-d956cafb356f",
+    "response_id": "chatcmpl-EXfTgGBgZbEdZ8is7hGMGI8Nop5P1",
+    "usage": {
+      "completion_tokens": 268,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 104,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7863,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7860,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8131
+    }
+  },
+  "received_at": "2026-10-11T06:19:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, Absatz „Treues Handeln“, Satz über die Söhne des Skeva",
+        "severity": "minor",
+        "source_quote": "But initiative alone will not fit us for victory any more than it did for the sons of Sceva.",
+        "suggested_fix": "Doch Initiative allein macht uns ebenso wenig siegesfähig, wie sie die Söhne des Skeva siegesfähig machte.",
+        "translation_quote": "Doch Initiative allein macht uns ebenso wenig siegesfähig wie die Söhne des Skeva."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

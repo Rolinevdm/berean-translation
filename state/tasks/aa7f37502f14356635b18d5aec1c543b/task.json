@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ea54c4b31c04643a3714c8c228cadea",
   "campaign": "auto-3e5bc117e05cc234416dd821a7a7f6ca15b951b3cfa325ee8399ade0aad933d0",
   "created_at": "2026-10-11T00:25:38+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 268,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 104,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7863,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7860,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8131
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, Absatz „Treues Handeln“, Satz über die Söhne des Skeva",
+      "severity": "minor",
+      "source_quote": "But initiative alone will not fit us for victory any more than it did for the sons of Sceva.",
+      "suggested_fix": "Doch Initiative allein macht uns ebenso wenig siegesfähig, wie sie die Söhne des Skeva siegesfähig machte.",
+      "translation_quote": "Doch Initiative allein macht uns ebenso wenig siegesfähig wie die Söhne des Skeva."
+    }
+  ],
+  "finished_at": "2026-10-11T06:19:40+00:00",
   "id": "aa7f37502f14356635b18d5aec1c543b",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "deu",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.755744,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6-luna"
