@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Первый абзац",
+      "severity": "minor",
+      "source_quote": "The excitement originated from the voice of protest over this young man’s application for conscientious objector",
+      "suggested_fix": "Волнение вызвал протест, поднявшийся в связи с прошением этого юноши о признании его отказчиком от военной службы по убеждениям совести.",
+      "translation_quote": "Волнение было вызвано протестом против заявления этого юноши о признании его лицом, отказывающимся от военной службы по убеждениям совести"
+    },
+    {
+      "location": "Пятый абзац",
+      "severity": "minor",
+      "source_quote": "a well-rounded (if a pentagon can be called round) view of Christianity",
+      "suggested_fix": "целостный и всесторонний (если пятиугольник вообще можно назвать круглым) взгляд на христианство",
+      "translation_quote": "всесторонний взгляд на христианство (если, конечно, пятиугольник можно назвать круглым)"
+    },
+    {
+      "location": "Седьмой абзац",
+      "severity": "minor",
+      "source_quote": "Both the negative ones that need to go to the burn pile",
+      "suggested_fix": "И те книги, которые следует сжечь,",
+      "translation_quote": "и к тем отрицательным, которым место в костре"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

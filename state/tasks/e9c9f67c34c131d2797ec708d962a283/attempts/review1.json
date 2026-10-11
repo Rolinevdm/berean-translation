@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T13:05:43+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Первый абзац\",\"severity\":\"minor\",\"source_quote\":\"The excitement originated from the voice of protest over this young man’s application for conscientious objector\",\"suggested_fix\":\"Волнение вызвал протест, поднявшийся в связи с прошением этого юноши о признании его отказчиком от военной службы по убеждениям совести.\",\"translation_quote\":\"Волнение было вызвано протестом против заявления этого юноши о признании его лицом, отказывающимся от военной службы по убеждениям совести\"},{\"location\":\"Пятый абзац\",\"severity\":\"minor\",\"source_quote\":\"a well-rounded (if a pentagon can be called round) view of Christianity\",\"suggested_fix\":\"целостный и всесторонний (если пятиугольник вообще можно назвать круглым) взгляд на христианство\",\"translation_quote\":\"всесторонний взгляд на христианство (если, конечно, пятиугольник можно назвать круглым)\"},{\"location\":\"Седьмой абзац\",\"severity\":\"minor\",\"source_quote\":\"Both the negative ones that need to go to the burn pile\",\"suggested_fix\":\"И те книги, которые следует сжечь,\",\"translation_quote\":\"и к тем отрицательным, которым место в костре\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1649,
+    "content_evidence_truncated": false,
+    "content_sha256": "bab910d29cd155c15bcef5b6f9b5adcb3acced1214abc2e89c27f9eaafc23feb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1095,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 793,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3821,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2718,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4916
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
