@@ -5323,6 +5323,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
+      "html_sha256": "0b39bd245e8732b4715f595319669286c51ad53719d2af8564588ab8bba82e00",
+      "human_reviewed": false,
+      "id": "719ef93a-7242-445f-8e5b-201567145e20",
+      "images": [
+        {
+          "alt": "ممارس صحي يفحص ضغط دم رجل مسن",
+          "public_path": "/images/articles/719ef93a-7242-445f-8e5b-201567145e20-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/719ef93a-7242-445f-8e5b-201567145e20.json",
+      "metadata_sha256": "0bbec5126aab83408dd4b1b27cc243e84f4bd0ab339bb15ef2975c41fc61f069",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "كلمة من طبيب",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
+      "status": "ready",
+      "subtitle": null,
+      "title": "نهاية الحياة",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac.html",
       "html_sha256": "f75528e642c19663a3c9adbbda7338abbf23f313d25cab4b302cf7675fe3ba7f",
       "human_reviewed": false,
@@ -13492,6 +13520,29 @@
       "subtitle": null,
       "title": "雷声、龙卷风与信靠",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.html",
+      "html_sha256": "e1dfc87ab11376b90d4a1892caf6bb46566accb63a3ab4558fb0078a94bb4854",
+      "human_reviewed": false,
+      "id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "images": [],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.json",
+      "metadata_sha256": "ac994c526da33d6eda4465b7742006000afb241565e324f9fd7c23ccbc6d82b2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "敬虔的家庭",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
+      "status": "ready",
+      "subtitle": null,
+      "title": "他们不再是两个人",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -23684,6 +23735,34 @@
       "subtitle": null,
       "title": "Couronnez‑le de nombreuses couronnes",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
+      "html_sha256": "8ccdd513efaf5e07b101d867d26b13079e0439ce5590f556be981f4825a5d00a",
+      "human_reviewed": false,
+      "id": "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd",
+      "images": [
+        {
+          "alt": "Affiche en papier déchiré portant l’inscription « RECHERCHÉ : mort ou vivant, traditions chrétiennes », avec « mort ou » barré et « vivant » entouré",
+          "public_path": "/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.json",
+      "metadata_sha256": "cec6e4f052b532cbf60e98e31295726d58001496eea9e09c67107c2afed234b5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Les traditions : bonnes ou mauvaises ?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -37144,6 +37223,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
+      "html_sha256": "71ec82f1b8e7e9d7d25bacac7d22d457026a89cb48c50a3e1b0188541e35c1ee",
+      "human_reviewed": false,
+      "id": "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd",
+      "images": [
+        {
+          "alt": "Manifesto di carta strappata con la scritta «RICERCATI, vivi o morti: tradizioni cristiane», con «morti o» barrato e «vivi» cerchiato",
+          "public_path": "/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.json",
+      "metadata_sha256": "acc6c2f25b78a90a10854e44797fc6d16c971bd8d303b6c271559616bad37047",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Tradizioni: sono buone o cattive?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/e848a36d-36eb-4f7d-aea7-e17ab34a8870.html",
       "html_sha256": "209f106f0d3944515f5da2f362711586824c10d75b9c76d2646d230efaf44f76",
       "human_reviewed": false,
@@ -48337,6 +48444,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
+      "html_sha256": "a46a979f810b85928a1bf2e0dcb88c00a1abb26c8021df1ebb2b4ab439938876",
+      "human_reviewed": false,
+      "id": "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd",
+      "images": [
+        {
+          "alt": "Plakat av revet papir med teksten «ETTERLYST: Død eller levende kristne tradisjoner», der «Død eller» er strøket over og «Levende» er ringet inn",
+          "public_path": "/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.json",
+      "metadata_sha256": "854e5019a0cebb9e36560cf2f85ae4acce73cb929f8576f7994a6326a61d9864",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Tradisjoner: Er de gode eller dårlige?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "425f20491aa8179c9de479cd7e16f6feb2eb3b53a11a2a9d6d49f5d989b6f3a3",
       "human_reviewed": false,
@@ -58908,6 +59043,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
+      "html_sha256": "eae584d23418c5d65e8029754c81b3a1078a64214582be9e64421180643bdd5a",
+      "human_reviewed": false,
+      "id": "783fddfc-86ed-44d9-b13e-e4adea31a5d5",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.json",
+      "metadata_sha256": "2a41004299bc45ecae504536ef1b770bba909bbd8cd3020b54d20a988cb101ea",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La Biblia de Jefferson",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
       "html_sha256": "f27b575b5526ab01a6689dcbc452e588b833899375ff7999e02567c31cebdf77",
       "human_reviewed": false,
@@ -63644,6 +63802,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "UHAKIKA",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
+      "html_sha256": "f85a1656288ece2911a73c11d83481fde609586d8026c9a7fe938533003da72e",
+      "human_reviewed": false,
+      "id": "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd",
+      "images": [
+        {
+          "alt": "Bango la karatasi lililochanika lenye maneno ‘ANATAFUTWA Akiwa amekufa au hai: Mila za Kikristo,’ ambapo ‘Akiwa amekufa au’ limekatwa na ‘Hai’ limezungushiwa duara",
+          "public_path": "/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.json",
+      "metadata_sha256": "20d0a680acc9d03e604c27cbc2a8aad395419419ea7fe3f2da554cc181d64e2e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mila: Je, ni nzuri au mbaya?",
       "translation_model": "gpt-6-luna"
     },
     {
