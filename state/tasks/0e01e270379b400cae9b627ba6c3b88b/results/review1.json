@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "e91720c0-a790-4f04-a39a-15c1037fa888",
+    "response_id": "chatcmpl-EXuGcHgwz657bLyevGtZDTiMFeApS",
+    "usage": {
+      "completion_tokens": 292,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 105,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7697,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6594,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7989
+    }
+  },
+  "received_at": "2026-10-11T20:19:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: цитата 2 Тимофею 1:7 в разделе «Не поступайте из страха»",
+        "severity": "major",
+        "source_quote": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:7.",
+        "suggested_fix": "В этой цитате заменить «но силы и любви и целомудрия» на «но силы, любви и здравомыслия», сохранив тег <em> и ссылку 2 Тимофею 1:7.",
+        "translation_quote": "Ибо дал нам Бог духа не боязни, но силы и любви и целомудрия — 2 Тимофею 1:7."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
