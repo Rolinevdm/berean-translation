@@ -6490,6 +6490,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
+      "html_sha256": "7238bc7d9b402a85c3b3496ecff7d9ea00be9fe99050c1d07ef28d27487311ff",
+      "human_reviewed": false,
+      "id": "d0898011-fe8b-4c35-9aac-12c20ec0d950",
+      "images": [
+        {
+          "alt": "أشخاص راكعون يصلّون خلال اجتماع إحيائي",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-1.jpg"
+        },
+        {
+          "alt": "كتاب مقدس تاريخي مفتوح",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.json",
+      "metadata_sha256": "23b0f56daf84d277b4fbc91551b54a08c25b46a95cfbfb0e7d4cb71110947da7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
+      "status": "ready",
+      "subtitle": null,
+      "title": "مسيحية خماسية الأضلاع",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.html",
       "html_sha256": "8afce04c0fed4f3a0f26b57c900babce75176ff4e552c9b2a559bef755c94bfd",
       "human_reviewed": false,
@@ -11413,6 +11445,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "110ef6c85aa06edbc6201a4c06a89b2257922de84c4d20d3089043f83e048f4c",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "一面古董钟表的表盘，上有罗马数字和一个小秒针盘",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "133b1d2c377e9e081336e39bb1e1d0458ef8e2997e08af2c7362e2d8666276bb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "普通青少年如何充分利用青春",
+      "title": "充分利用青少年时光",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.html",
       "html_sha256": "bddc1d0326d970f50fafa3cdeb240d1c93a80486b9f1fb20a55eb81cd5d3ae8f",
       "human_reviewed": false,
@@ -14951,6 +15011,38 @@
       "subtitle": null,
       "title": "Was siehst du?",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.html",
+      "html_sha256": "f0597f5f3017fa0d2b94ccf9acc7d7bdb297417c9d37cb7aa94e80e9d9b0eb32",
+      "human_reviewed": false,
+      "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "images": [
+        {
+          "alt": "Ein U-Boot fährt an der Meeresoberfläche",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg"
+        },
+        {
+          "alt": "Eine historische Darstellung eines Quäkers, der in Pennsylvania einen Angehörigen der indigenen Bevölkerung umarmt",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.json",
+      "metadata_sha256": "7452969abf585a226e63c0be6eeaf3e07726df230c3c19015859e9d4bd728ef0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Vom Herausgeber",
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vom Herausgeber",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -31173,6 +31265,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
+      "html_sha256": "07609fd849895afbd3ac14d75aaa3a70c3ab335349fb39c03769d678b39c2bc1",
+      "human_reviewed": false,
+      "id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "images": [
+        {
+          "alt": "Seorang gembala menuntun kawanan domba melewati lembah pegunungan berbatu",
+          "public_path": "/images/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.json",
+      "metadata_sha256": "81f3855095b7e65e1c420ec6ce339132f117cd91b056c44373dab3522f8f819e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "AJARAN ALKITAB",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Bukankah Ada Alasan?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
       "html_sha256": "222399723e79c5daa58cace25c8e1a4baa8659a77b8b86d2e4ac17c681b7724a",
       "human_reviewed": false,
@@ -43801,6 +43921,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
+      "html_sha256": "3eaf08ab5f370b632afb9d96f29cd8ae80e7a6af33a1782f6f4077ca7049f994",
+      "human_reviewed": false,
+      "id": "d0898011-fe8b-4c35-9aac-12c20ec0d950",
+      "images": [
+        {
+          "alt": "Mensen knielen in gebed tijdens een opwekkingsbijeenkomst",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-1.jpg"
+        },
+        {
+          "alt": "Een open historisch exemplaar van de Bijbel",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.json",
+      "metadata_sha256": "03774fe461b912d0656df2c518468fafffed2867ebe78d40fb37d0452ede0432",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vijfhoekig christendom",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.html",
       "html_sha256": "88034d2e09ce5821f3b996eb4ad72489385d8aa78c658a611a14dc548f617e9e",
       "human_reviewed": false,
@@ -46460,6 +46612,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Den som har ører å høre med …",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
+      "html_sha256": "cdab350867c4595813a22c303f1cb523664438feca68993c182acf4b3ae859ef",
+      "human_reviewed": false,
+      "id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "images": [
+        {
+          "alt": "En gjeter fører en flokk gjennom en steinete fjelldal",
+          "public_path": "/images/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.json",
+      "metadata_sha256": "c50669f857ac7f1d48da8299353a8c2f7f2b0d46227bc98e7e65490cd632785b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "BIBELSKE LÆRESETNINGER",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Er det ikke en sak?",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -51809,6 +51989,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
+      "html_sha256": "50578e4d631acd5d6058f3da473db3e0de6acb60a1c1fb908504c016ecb933b9",
+      "human_reviewed": false,
+      "id": "d0898011-fe8b-4c35-9aac-12c20ec0d950",
+      "images": [
+        {
+          "alt": "Pessoas ajoelhadas em oração durante uma reunião de avivamento",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-1.jpg"
+        },
+        {
+          "alt": "Uma Bíblia histórica aberta",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.json",
+      "metadata_sha256": "e75e6f9e45bd65ac3fe0ec5cec041b65ff39972d32f3994d32f114b9d23e3488",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Cristianismo pentagonal",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/d0d31573-888a-4367-8ca7-4a966b35ba5a.html",
       "html_sha256": "596f14735b80cab1a5134879f5d0ea022b4da3fe5777c9079b890db15d65f117",
       "human_reviewed": false,
@@ -54190,6 +54402,38 @@
       "subtitle": null,
       "title": "Что ты видишь?",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.html",
+      "html_sha256": "8f5fedf4e5510d3d6a2001d4c9c7cf90f5ba3c8e2263d47a30db0fdd762bce8c",
+      "human_reviewed": false,
+      "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "images": [
+        {
+          "alt": "Подводная лодка идёт по поверхности моря",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg"
+        },
+        {
+          "alt": "Историческая иллюстрация: квакер обнимает коренного жителя Пенсильвании",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.json",
+      "metadata_sha256": "67a824c0300dd7b3f1703c7a8c0fcc5b83164b1b076d46253066cc2354eb5eed",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "От редактора",
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+      "status": "ready",
+      "subtitle": null,
+      "title": "От редактора",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -61239,6 +61483,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "7d6027fb58a9f4b1a44b7d4287af63f4893039727dae1540ebcf1d3e3a7b760f",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "Uso wa saa ya kale wenye nambari za Kirumi na uso mdogo wa saa ya sekunde",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "f512c62c4a3c3169c2d21627a58b31db786c11248b084d4dda0792e40a3d1f83",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "Jinsi vijana wa kawaida wanavyoweza kutumia vizuri ujana wao",
+      "title": "Kutumia Kikamilifu Miaka Yako ya Ujana",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9.html",
       "html_sha256": "9b4478c39e114192721c14e19b6604a34261aac856adc678e4f40af80784e78b",
       "human_reviewed": false,
@@ -64541,6 +64813,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.html",
+      "html_sha256": "1da5392503a6138273f76cd9b713420a7dc40ba9d8fbbe484467a3514ffc9ca3",
+      "human_reviewed": false,
+      "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "images": [
+        {
+          "alt": "En ubåt färdas på havsytan",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg"
+        },
+        {
+          "alt": "En historisk illustration av en kväkare som omfamnar en ursprungsinvånare i Pennsylvania",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.json",
+      "metadata_sha256": "7929aae4d60dfece24e4dc12350eb9dd0ac07571ec9f7fca94be7e1e439aba16",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Från redaktören",
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Från redaktören",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/8d1b7c4e-266c-4820-ac8b-ab0b2be527f4.html",
       "html_sha256": "a0d20f7e8870b67f8b597df4b3bf06edbfa2b8eb34cb209bb04651b8f897d8a8",
       "human_reviewed": false,
@@ -64755,6 +65059,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Den som har öron att höra med…",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
+      "html_sha256": "53a3b62e5138b173e30453f4e5a7a76838f0a566e7716d2309ac8903d7b6952a",
+      "human_reviewed": false,
+      "id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "images": [
+        {
+          "alt": "En herde leder en flock genom en klippig bergsdal",
+          "public_path": "/images/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.json",
+      "metadata_sha256": "16ace18b224c55725ec2665e1d01c4e7cd2d6ea85c0fca4a1665086b75b5579a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "BIBELNS LÄROR",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Finns det inte ett skäl?",
       "translation_model": "gpt-6-luna"
     },
     {
