@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "minor",
+      "source_quote": "“the combined intelligence of 6000 years of human history”",
+      "suggested_fix": "Vervang “die gesamentlike wysheid van 6000 jaar se menslike geskiedenis” met “die gesamentlike verstand van 6000 jaar se menslike geskiedenis” om “intelligence” nader weer te gee.",
+      "translation_quote": "“die gesamentlike wysheid van 6000 jaar se menslike geskiedenis”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

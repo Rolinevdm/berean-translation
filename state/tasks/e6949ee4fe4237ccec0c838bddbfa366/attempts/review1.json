@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T06:20:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 4\",\"severity\":\"minor\",\"source_quote\":\"“the combined intelligence of 6000 years of human history”\",\"suggested_fix\":\"Vervang “die gesamentlike wysheid van 6000 jaar se menslike geskiedenis” met “die gesamentlike verstand van 6000 jaar se menslike geskiedenis” om “intelligence” nader weer te gee.\",\"translation_quote\":\"“die gesamentlike wysheid van 6000 jaar se menslike geskiedenis”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 491,
+    "content_evidence_truncated": false,
+    "content_sha256": "ff53a8dc782ae9d4b8d688f94ca11d968658b02125761f0a78b16e9f2be321b7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 647,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3873,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2770,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4520
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
