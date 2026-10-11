@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T06:20:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"पैराग्राफ 7\",\"severity\":\"minor\",\"source_quote\":\"I have felt uncomfortable at my own carnality and shallowness.\",\"suggested_fix\":\"अपनी पापमय प्रवृत्ति और सतहीपन के कारण मुझे बेचैनी महसूस हुई है।\",\"translation_quote\":\"अपनी देहधारी और सतही प्रकृति के कारण मुझे बेचैनी महसूस हुई है।\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 584,
+    "content_evidence_truncated": false,
+    "content_sha256": "a75b884ad2cc12519b2b6769457fbfc3ccf52f1a0e98cf0f76f0c87637738ae9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 629,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6802,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6799,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7431
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

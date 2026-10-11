@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "पैराग्राफ 7",
+      "severity": "minor",
+      "source_quote": "I have felt uncomfortable at my own carnality and shallowness.",
+      "suggested_fix": "अपनी पापमय प्रवृत्ति और सतहीपन के कारण मुझे बेचैनी महसूस हुई है।",
+      "translation_quote": "अपनी देहधारी और सतही प्रकृति के कारण मुझे बेचैनी महसूस हुई है।"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

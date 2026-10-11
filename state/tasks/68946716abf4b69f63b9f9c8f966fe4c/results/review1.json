@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "14e9277e-dfbf-4cf8-aab4-1e4c674b6f1a",
+    "response_id": "chatcmpl-EXd1YqaHTLyZ4H08thSAQLpoG22UL",
+    "usage": {
+      "completion_tokens": 629,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6802,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6799,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7431
+    }
+  },
+  "received_at": "2026-10-11T06:20:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "पैराग्राफ 7",
+        "severity": "minor",
+        "source_quote": "I have felt uncomfortable at my own carnality and shallowness.",
+        "suggested_fix": "अपनी पापमय प्रवृत्ति और सतहीपन के कारण मुझे बेचैनी महसूस हुई है।",
+        "translation_quote": "अपनी देहधारी और सतही प्रकृति के कारण मुझे बेचैनी महसूस हुई है।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
