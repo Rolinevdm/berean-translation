@@ -57110,6 +57110,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "c0f77ab782e4b73d1cec0cd6ce262172547c02f76be576d3737f9d5c8ad4ed81",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "La esfera de un reloj antiguo con números romanos y un pequeño segundero",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "044cdb5b6d7bde083c0dac02e0debc93bd37ccbe824e6eede1fb41e2e4c2c25d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "Cómo los adolescentes comunes pueden aprovechar al máximo su juventud",
+      "title": "Aprovecha al máximo tus años de adolescencia",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.html",
       "html_sha256": "6a91799491d61f9c6c0c4c9ec4ca0b9695fab29cdfc25a239b73e85b642d8793",
       "human_reviewed": false,
