@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "html, alinea over Hebreeën 12:2 en Sauls beloning",
+      "severity": "major",
+      "source_quote": "King Saul had offered tax exempt wealth and son-in-law status",
+      "suggested_fix": "Vervang „belastingvrijdom en de status van schoonzoon” door „belastingvrije rijkdom en de status van schoonzoon”.",
+      "translation_quote": "Koning Saul had belastingvrijdom en de status van schoonzoon in het vooruitzicht gesteld"
+    },
+    {
+      "location": "html, alinea met het kopje ‘Getrouwe daden’",
+      "severity": "major",
+      "source_quote": "The desire to dominate is no more noble than Goliath’s unbridled rage to destroy this young upstart.",
+      "suggested_fix": "Vervang deze zin door: „Het verlangen om te heersen is niet edeler dan Goliaths ongebreidelde woede om deze jonge nieuwkomer te vernietigen.” De bron vergelijkt een algemeen verlangen om te domineren met Goliaths woede, niet twee eigenschappen van Goliath.",
+      "translation_quote": "Goliath was in zijn verlangen om te heersen niet edeler dan in zijn ongebreidelde woede om deze jonge nieuwkomer te vernietigen."
+    },
+    {
+      "location": "html, laatste prozaalinea, slotzin",
+      "severity": "major",
+      "source_quote": "from Zebedee’s boats of the business… to the boys of his bosom.",
+      "suggested_fix": "Vervang „tot de jongens die Hij aan zijn hart koestert” door „tot de zonen die Zebedeüs aan zijn hart koesterde”.",
+      "translation_quote": "van de boten waarmee Zebedeüs zijn bedrijf dreef… tot de jongens die Hij aan zijn hart koestert."
+    },
+    {
+      "location": "html, alinea over Goliaths gevechtsvoorwaarden en gevonden tangen",
+      "severity": "major",
+      "source_quote": "tongs that were believed to be used by the military to remove embedded stones from wounded soldiers",
+      "suggested_fix": "Vervang „die volgens de overlevering door militairen werden gebruikt” door „waarvan men vermoedde dat ze door militairen werden gebruikt”. De bron noemt een veronderstelling over het gebruik, geen overlevering.",
+      "translation_quote": "tangen gevonden die volgens de overlevering door militairen werden gebruikt om stenen te verwijderen"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
