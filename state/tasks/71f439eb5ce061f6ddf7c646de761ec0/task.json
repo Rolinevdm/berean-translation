@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6bc6932947548099d11645066d8de1f",
   "campaign": "auto-a496d2947a41bd2245e950ebec0b55064b38029f9fef97754aa94699d2558c55",
   "created_at": "2026-10-10T19:17:33+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 5740
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 416,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6094,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4991,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6510
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "正文，论及约书亚留在会幕的段落",
+      "severity": "major",
+      "source_quote": "as a young man he stayed behind in the tent of meeting.",
+      "suggested_fix": "他年轻时留在会幕里等候。",
+      "translation_quote": "他年轻时留在会幕里。"
+    },
+    {
+      "location": "正文，法老命令督工的段落（引文）",
+      "severity": "major",
+      "source_quote": "“Ye shall no more give the people straw to make brick, as heretofore: let them go and gather straw for themselves. And the tale of the bricks, which they did make heretofore, ye shall lay upon them; ye shall not diminish ought thereof: for they be idle; therefore they cry, saying, Let us go and sacrifice to our God. Let there more work be laid upon the men, that they may labour therein; and let them not regard vain words.”",
+      "suggested_fix": "“从前你们给百姓做砖的草，不再给他们，叫他们自己去捡草。但他们从前所做的砖，你们仍旧向他们要，一点不可减少；他们是懒惰的，所以呼求说：‘容我们去祭祀我们的神。’你们要把更重的工加在这些人身上，叫他们劳碌；不要理会那些虚言。”",
+      "translation_quote": "“从前你们给百姓做砖的草，不再给他们，叫他们自己去捡草。但他们从前所做的砖，你们仍旧向他们要，一点不可减少；他们是懒惰的，所以呼求说：‘容我们去祭祀我们的神。’你们要把更重的工加在这些人身上，叫他们劳碌，不听虚言。”"
+    }
+  ],
   "id": "71f439eb5ce061f6ddf7c646de761ec0",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "cmn",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/13544cb6e0d298eda28cfb9b69de769cecac89abc53c344514518a5a4fed3f65.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.088809,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
   "translation_model_actual": "gpt-6-luna"
