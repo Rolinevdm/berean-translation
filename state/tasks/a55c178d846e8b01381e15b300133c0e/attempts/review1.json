@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T20:20:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Image alt text\",\"severity\":\"minor\",\"source_quote\":\"“WANTED Dead or Alive Christian Traditions,”\",\"suggested_fix\":\"Bango la karatasi lililochanika lenye maneno ‘ANATAFUTWA: Mila za Kikristo, Zikiwa Zimekufa au Hai,’ ambapo ‘Zikiwa Zimekufa au’ limekatwa na ‘Hai’ limezungushiwa duara\",\"translation_quote\":\"‘ANATAFUTWA Akiwa amekufa au hai: Mila za Kikristo’\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 456,
+    "content_evidence_truncated": false,
+    "content_sha256": "40b99035c17939e00f062d3c06105302e873a92832535b4f6cb8063bfc160ac4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 656,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3459,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2356,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4115
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

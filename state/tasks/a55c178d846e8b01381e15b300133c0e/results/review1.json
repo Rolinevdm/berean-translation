@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f2ea6c0f-4ac0-4aa3-b49e-f2eecfced385",
+    "response_id": "chatcmpl-EXuH7DKgGUL9PZtSXAKaiIAOjnP1r",
+    "usage": {
+      "completion_tokens": 656,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3459,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2356,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4115
+    }
+  },
+  "received_at": "2026-10-11T20:20:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Image alt text",
+        "severity": "minor",
+        "source_quote": "“WANTED Dead or Alive Christian Traditions,”",
+        "suggested_fix": "Bango la karatasi lililochanika lenye maneno ‘ANATAFUTWA: Mila za Kikristo, Zikiwa Zimekufa au Hai,’ ambapo ‘Zikiwa Zimekufa au’ limekatwa na ‘Hai’ limezungushiwa duara",
+        "translation_quote": "‘ANATAFUTWA Akiwa amekufa au hai: Mila za Kikristo’"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

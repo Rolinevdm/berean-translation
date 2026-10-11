@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "74bc8765c6734f0bb5911b6e5f3cdc34",
   "campaign": "auto-56dd8c9424a119aa797fbe6752e279cbfc4519fca919ab52d833319ae9d6b875",
   "created_at": "2026-10-11T13:13:17+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 3105
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 656,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3459,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2356,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4115
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "“WANTED Dead or Alive Christian Traditions,”",
+      "suggested_fix": "Bango la karatasi lililochanika lenye maneno ‘ANATAFUTWA: Mila za Kikristo, Zikiwa Zimekufa au Hai,’ ambapo ‘Zikiwa Zimekufa au’ limekatwa na ‘Hai’ limezungushiwa duara",
+      "translation_quote": "‘ANATAFUTWA Akiwa amekufa au hai: Mila za Kikristo’"
+    }
+  ],
+  "finished_at": "2026-10-11T20:20:15+00:00",
   "id": "a55c178d846e8b01381e15b300133c0e",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swa",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/53355702ddab569aed98a9ab0f304db45cd690b45d9e25455e84c6221b4fb3e2.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086815,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
   "translation_model_actual": "gpt-6-luna"

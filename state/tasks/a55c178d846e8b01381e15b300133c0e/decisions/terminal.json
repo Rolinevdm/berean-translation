@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "“WANTED Dead or Alive Christian Traditions,”",
+      "suggested_fix": "Bango la karatasi lililochanika lenye maneno ‘ANATAFUTWA: Mila za Kikristo, Zikiwa Zimekufa au Hai,’ ambapo ‘Zikiwa Zimekufa au’ limekatwa na ‘Hai’ limezungushiwa duara",
+      "translation_quote": "‘ANATAFUTWA Akiwa amekufa au hai: Mila za Kikristo’"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
