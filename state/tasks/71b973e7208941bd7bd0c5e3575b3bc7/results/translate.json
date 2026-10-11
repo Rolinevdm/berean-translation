@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "97366935-486c-4e19-a3ae-710dd936840d",
+    "response_id": "chatcmpl-EXnbD4j8PW96mrj596L8p76hK5mEk",
+    "usage": {
+      "completion_tokens": 1222,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1816,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1813,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3038
+    }
+  },
+  "received_at": "2026-10-11T13:12:22+00:00",
+  "result": {
+    "html": "<article data-article-id=\"e7e3ec8b-76a7-4b0b-9837-12e668dd9abd\">\n  <figure>\n    <img src=\"/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg\" alt=\"Affiche en papier déchiré portant l’inscription « RECHERCHÉ : mort ou vivant, traditions chrétiennes », avec « mort ou » barré et « vivant » entouré\">\n  </figure>\n  <p>Il n’est pas nécessaire de chercher bien loin pour trouver une tradition morte. Elles traînent autour des églises comme les vieilles pierres tombales d’un cimetière paroissial : elles pourrissent, s’effritent et sont pourtant trop chargées de souvenirs pour qu’on les jette simplement au loin, quelque part sur une colline.</p>\n  <p>Mais qu’en est-il des traditions vivantes ? Comme les fidèles pommiers de la haie du cimetière qui portent des fruits avec la régularité d’une ... <em>tradition</em>, elles bénissent les âmes encore et encore.</p>\n  <p>Comment transformer une pierre tombale qui s’effrite en un pommier vivant ? À ce stade, mon analogie ne tient plus vraiment ... Pourtant, pour certaines personnes, ces vieilles traditions mortes et desséchées ne pourront jamais revivre : elles DOIVENT disparaître ! Elles ont connu pendant des années des traditions mortes, desséchées, creuses et qui commençaient à sentir mauvais, et elles SAVENT que la vie de l’Église ne prospère jamais lorsqu’elle est encombrée par les pierres tombales des siècles passés.</p>\n  <p>Mais venez, raisonnons ensemble. Le problème, est-ce la tradition ? Ou est-ce la mort ?</p>\n  <p>Il y a plusieurs années, j’ai vécu une expérience qui a changé ma perspective sur la vie. Pendant de nombreuses années, j’avais lu au sujet d’Églises (l’Église primitive et les premiers méthodistes, par exemple) et de chrétiens qui observaient la tradition de jeûner un jour donné de la semaine. « Comme cela doit être formaliste », me disais-je. Faire du jeûne, une discipline spirituelle, une tradition hebdomadaire ?</p>\n  <p>Je ne voyais que de vieilles pierres tombales poussiéreuses qui s’effritaient dans un cimetière.</p>\n  <p>Mais un jour, le Seigneur m’a donné la capacité de voir une vérité qui m’a délivré de ma méfiance envers tout ce qui est traditionnel : <em>les traditions sont ce que nous en faisons.</em></p>\n  <p>Jeûner une fois par semaine un jour fixé peut être une pierre tombale ou un pommier. Une fois libéré de ma peur de la tradition, j’ai repris cette ancienne tradition (et elle est <em>très</em> ancienne, puisqu’elle remonte aux premiers siècles de l’Église chrétienne) de jeûner une fois par semaine un jour donné.</p>\n  <p>Et ce fut comme un vieux pommier fidèle qui m’a apporté de nombreuses bénédictions ! La tradition est devenue vivante !</p>\n  <p>Je suis maintenant certain que je pourrais facilement transformer cette tradition en pierre tombale. Tout ce que j’ai à faire, c’est de commencer à la suivre parce que je <em>dois</em> le faire plutôt que parce que je le <em>veux</em>. Mais tant que je l’ai gardée vivante, je ne l’ai jamais regretté. (J’ajouterai que, pour des raisons d’emploi du temps, je ne l’ai pas toujours observée depuis que j’ai commencé.)</p>\n  <p>J’écris ces mots avec un profond souci. Pendant de nombreuses années, j’ai vu des gens réagir contre les traditions avec le zèle d’un réformateur religieux. Parfois, oui, les traditions doivent disparaître. Ou du moins, leur disparition ne ferait certainement de mal à personne. Mais le problème n’est pas toujours la tradition. Bien souvent — en fait, probablement la plupart du temps —, la tradition n’est <em>pas</em> le problème. Le problème se trouve dans le cœur de ceux qui pratiquent la tradition, un cœur aussi mort que celui d’un cimetière abandonné.</p>\n  <p>Que se passe-t-il lorsque vous chantez un chant grégorien de tout votre être ? Il devient vivant ! Que se passe-t-il lorsque vous donnez à un frère le saint baiser, avec toute la sainteté et toute la charité qui sont en vous ? Il devient vivant ! Que se passe-t-il lorsque vous faites revivre l’ancienne coutume du « repas d’amour », pratiquée avec beaucoup d’amour ? Elle devient vivante !</p>\n  <p>Veillons à ne pas réagir à la légère contre les traditions, et veillons aussi à ne pas les maintenir à tout prix.</p>\n  <p>Les traditions de l’Église sont ce que nous en faisons. Agissez ainsi parce que vous y êtes obligé, et ce sera une tradition morte. Agissez ainsi parce que vous le voulez, et cela pourra devenir une bénédiction vivante pour toute la vie !</p>\n  <p class=\"byline\">~ Mike Atnip</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Les traditions : bonnes ou mauvaises ?"
+  }
+}
