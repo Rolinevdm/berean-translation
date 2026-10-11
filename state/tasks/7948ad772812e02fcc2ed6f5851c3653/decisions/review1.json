@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragraphe sur Jésus et Lazare",
+      "severity": "minor",
+      "source_quote": "He cried with them even though He knew He could and then did transform the whole situation by raising Lazarus.",
+      "suggested_fix": "Remplacer la dernière phrase par : « Il a pleuré avec elles, bien qu’Il sût qu’Il <strong><em>pouvait</em></strong> transformer toute la situation en ressuscitant Lazare, ce qu’Il <strong><em>a effectivement fait</em></strong> ensuite. »",
+      "translation_quote": "Il a pleuré avec elles, bien qu’Il sût qu’Il <strong><em>pouvait</em></strong>, puis <strong><em>a effectivement</em></strong> transformé toute la situation en ressuscitant Lazare."
+    },
+    {
+      "location": "translation.html, paragraphe introduisant le poème final",
+      "severity": "minor",
+      "source_quote": "the final verse of the song mentioned earlier",
+      "suggested_fix": "Remplacer « du dernier vers du chant » par « de la dernière strophe du chant ».",
+      "translation_quote": "du dernier vers du chant mentionné plus tôt"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
