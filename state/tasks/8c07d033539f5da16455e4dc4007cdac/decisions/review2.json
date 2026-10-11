@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Primer párrafo",
+      "severity": "minor",
+      "source_quote": "if you “zoom out” from your daily routine and view the scope of your life objectively",
+      "suggested_fix": "«si tomas perspectiva sobre tu rutina diaria y contemplas objetivamente el panorama de tu vida»",
+      "translation_quote": "si «te alejas» de tu rutina diaria y contemplas objetivamente el panorama de tu vida"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

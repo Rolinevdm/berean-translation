@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T01:59:16+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Primer párrafo\",\"severity\":\"minor\",\"source_quote\":\"if you “zoom out” from your daily routine and view the scope of your life objectively\",\"suggested_fix\":\"«si tomas perspectiva sobre tu rutina diaria y contemplas objetivamente el panorama de tu vida»\",\"translation_quote\":\"si «te alejas» de tu rutina diaria y contemplas objetivamente el panorama de tu vida\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 446,
+    "content_evidence_truncated": false,
+    "content_sha256": "58bc7468989c2e4f91a0fac168d5e7c7e1e093f39eb94aa76528e33c9d4196c1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 719,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 599,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6176,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6173,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6895
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}
