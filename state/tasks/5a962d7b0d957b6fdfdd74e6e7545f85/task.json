@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e39f910dc9b6434c9b1fddd38751fceb",
   "campaign": "auto-980facc236c162abd1366c03b21feaabc691fe240740f00b8f32aa93070e9647",
   "created_at": "2026-10-10T19:12:18+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 3625
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 963,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 647,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3829,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2726,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4792
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Avsnittet med sitatet fra Åpenbaringen 12:11",
+      "severity": "major",
+      "source_quote": "“and they loved not their lives unto the death.”",
+      "suggested_fix": "Bytt «og de elsket ikke livet sitt, selv ikke da de sto overfor døden» med «og de holdt ikke livet sitt kjært, like til døden» for å bevare at de var villige til å gi livet sitt.",
+      "translation_quote": "«... de elsket ikke livet sitt, selv ikke da de sto overfor døden.»"
+    },
+    {
+      "location": "Bildebeskrivelse og bildetekst i figuren",
+      "severity": "major",
+      "source_quote": "alt: “a Quaker embracing a Native person in Pennsylvania”; caption: “a Quaker hugs a native in Pennsylvania.”",
+      "suggested_fix": "Erstatt «en urfolksrepresentant» med «en urfolksperson» både i alt-teksten og i bildeteksten; kilden sier ikke at personen representerer et urfolk.",
+      "translation_quote": "alt: «En historisk illustrasjon av en kveker som omfavner en urfolksrepresentant i Pennsylvania»; caption: «En ubåt patruljerer havet over, mens en kveker nedenfor omfavner en urfolksrepresentant i Pennsylvania.»"
+    }
+  ],
   "id": "5a962d7b0d957b6fdfdd74e6e7545f85",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "nob",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/80442ae0c5e3e1a925fb90808c2742734db7c58ca3d9c73b4b70bd3e81161fb0.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.087118,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
   "translation_model_actual": "gpt-6-luna"

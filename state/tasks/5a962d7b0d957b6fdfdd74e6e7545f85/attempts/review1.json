@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T06:19:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Avsnittet med sitatet fra Åpenbaringen 12:11\",\"severity\":\"major\",\"source_quote\":\"“and they loved not their lives unto the death.”\",\"suggested_fix\":\"Bytt «og de elsket ikke livet sitt, selv ikke da de sto overfor døden» med «og de holdt ikke livet sitt kjært, like til døden» for å bevare at de var villige til å gi livet sitt.\",\"translation_quote\":\"«... de elsket ikke livet sitt, selv ikke da de sto overfor døden.»\"},{\"location\":\"Bildebeskrivelse og bildetekst i figuren\",\"severity\":\"major\",\"source_quote\":\"alt: “a Quaker embracing a Native person in Pennsylvania”; caption: “a Quaker hugs a native in Pennsylvania.”\",\"suggested_fix\":\"Erstatt «en urfolksrepresentant» med «en urfolksperson» både i alt-teksten og i bildeteksten; kilden sier ikke at personen representerer et urfolk.\",\"translation_quote\":\"alt: «En historisk illustrasjon av en kveker som omfavner en urfolksrepresentant i Pennsylvania»; caption: «En ubåt patruljerer havet over, mens en kveker nedenfor omfavner en urfolksrepresentant i Pennsylvania.»\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 1135,
+    "content_evidence_truncated": false,
+    "content_sha256": "790a79dbd8007e40640adc0d4cded8fc13491e3783842996daaeaa96c52cbb61",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 963,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 647,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3829,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2726,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4792
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
