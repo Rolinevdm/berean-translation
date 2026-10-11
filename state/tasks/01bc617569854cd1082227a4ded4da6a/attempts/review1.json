@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T13:05:19+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html، پہلی عددی فہرست کا چوتھا نکتہ، آخری جملہ\",\n      \"severity\": \"major\",\n      \"source_quote\": \"it is God who has joined each marriage together in Heaven and has recorded them in the Book of Life.\",\n      \"suggested_fix\": \"آخری جملہ یوں کریں: ہمیں یاد رکھنا چاہیے کہ ہر شادی کو آسمان پر خدا نے جوڑا ہے اور اُن شادیوں کو کتابِ حیات میں درج کیا ہے۔\",\n      \"translation_quote\": \"ہر شادی کو آسمان پر خدا نے جوڑا ہے اور اُن کے نام کتابِ حیات میں درج کیے ہیں۔\"\n    },\n    {\n      \"location\": \"translation.html، ہوسیع 1:2 کا اقتباس\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Go, take unto thee a wife of whoredoms and children of whoredoms\",\n      \"suggested_fix\": \"متعلقہ عبارت یوں کریں: جا، ایک بدکار بیوی اور بدکاری کے بچوں کو اپنے پاس لے\",\n      \"translation_quote\": \"جا، ایک ایسی عورت سے بیاہ کر جو کسبی ہو اور اُس سے کسبی بچے پیدا ہوں\"\n    },\n    {\n      \"location\": \"translation.html، آخری سے دوسرا پیراگراف، آخری جملہ\",\n      \"severity\": \"major\",\n      \"source_quote\": \"When there is a godly desire to repent and reconcile a broken relationship, we should fall on our knees in support and sincere gratitude to our Heavenly Father.\",\n      \"suggested_fix\": \"جملہ یوں کریں: جب توبہ کرنے اور ٹوٹے ہوئے رشتے میں صلح کرنے کی خدا ترس خواہش ہو تو ہمیں اس کی حمایت میں اور اپنے آسمانی باپ کے حضور سچی شکرگزاری کے ساتھ گھٹنوں کے بل جھک جانا چاہیے۔\",\n      \"translation_quote\": \"جب ٹوٹے ہوئے رشتے سے توبہ اور صلح کی خدا ترس خواہش ہو تو ہمیں اپنے آسمانی باپ کی حمایت اور سچی شکرگزاری میں گھٹنوں کے بل جھک جانا چاہیے۔\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 92\n}",
+    "content_bytes": 2240,
+    "content_evidence_truncated": false,
+    "content_sha256": "c11dc278c88e18a70498bd17366b01cabc3935f237411f30b0238a236e01bec5",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 577,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 69,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12038,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10935,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12615
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

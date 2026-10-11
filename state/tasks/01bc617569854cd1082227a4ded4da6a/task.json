@@ -5,11 +5,54 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5821ded434c1400fbaa3de7f791670b7",
   "campaign": "auto-1ce3234416aa7f34130a28fe66a684a65c5252cd7b33fc1808f0f27bbd79d18f",
   "created_at": "2026-10-11T08:43:52+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 577,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 69,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12038,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10935,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12615
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html، پہلی عددی فہرست کا چوتھا نکتہ، آخری جملہ",
+      "severity": "major",
+      "source_quote": "it is God who has joined each marriage together in Heaven and has recorded them in the Book of Life.",
+      "suggested_fix": "آخری جملہ یوں کریں: ہمیں یاد رکھنا چاہیے کہ ہر شادی کو آسمان پر خدا نے جوڑا ہے اور اُن شادیوں کو کتابِ حیات میں درج کیا ہے۔",
+      "translation_quote": "ہر شادی کو آسمان پر خدا نے جوڑا ہے اور اُن کے نام کتابِ حیات میں درج کیے ہیں۔"
+    },
+    {
+      "location": "translation.html، ہوسیع 1:2 کا اقتباس",
+      "severity": "major",
+      "source_quote": "Go, take unto thee a wife of whoredoms and children of whoredoms",
+      "suggested_fix": "متعلقہ عبارت یوں کریں: جا، ایک بدکار بیوی اور بدکاری کے بچوں کو اپنے پاس لے",
+      "translation_quote": "جا، ایک ایسی عورت سے بیاہ کر جو کسبی ہو اور اُس سے کسبی بچے پیدا ہوں"
+    },
+    {
+      "location": "translation.html، آخری سے دوسرا پیراگراف، آخری جملہ",
+      "severity": "major",
+      "source_quote": "When there is a godly desire to repent and reconcile a broken relationship, we should fall on our knees in support and sincere gratitude to our Heavenly Father.",
+      "suggested_fix": "جملہ یوں کریں: جب توبہ کرنے اور ٹوٹے ہوئے رشتے میں صلح کرنے کی خدا ترس خواہش ہو تو ہمیں اس کی حمایت میں اور اپنے آسمانی باپ کے حضور سچی شکرگزاری کے ساتھ گھٹنوں کے بل جھک جانا چاہیے۔",
+      "translation_quote": "جب ٹوٹے ہوئے رشتے سے توبہ اور صلح کی خدا ترس خواہش ہو تو ہمیں اپنے آسمانی باپ کی حمایت اور سچی شکرگزاری میں گھٹنوں کے بل جھک جانا چاہیے۔"
+    }
+  ],
   "id": "01bc617569854cd1082227a4ded4da6a",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "urd",
@@ -98,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +160,7 @@
     "total_reserved_usd": 0.817706,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
   "translation_model_actual": "gpt-6-luna"
