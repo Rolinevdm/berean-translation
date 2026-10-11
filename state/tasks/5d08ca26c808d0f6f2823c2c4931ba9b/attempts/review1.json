@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T13:05:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, avsnittet som begynner «Goliat hadde tatt for gitt»\",\"severity\":\"minor\",\"source_quote\":\"the stopping power of a 45 mm handgun\",\"suggested_fix\":\"Endre «stopeffekt» til «stoppeffekt».\",\"translation_quote\":\"en stopeffekt som et 45 mm håndvåpen\"},{\"location\":\"translation.html, diktets første linje\",\"severity\":\"minor\",\"source_quote\":\"Shamgar had an oxgoad;\",\"suggested_fix\":\"Endre linjen til «Sjamgar hadde en piggstav til å drive okser med;», slik at navnet får vanlig norsk form og redskapet beskrives mer presist. Behold <br>-taggen.\",\"translation_quote\":\"Shamgar hadde en oksedrivers stav;\"}],\"findings_complete\":true,\"passed\":true,\"score\":96}",
+    "content_bytes": 701,
+    "content_evidence_truncated": false,
+    "content_sha256": "2dc9a2456a3e6592b103d4133b770fe61638259ed979defe5296622852217fb8",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 249,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 47,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8021,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8018,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8270
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
