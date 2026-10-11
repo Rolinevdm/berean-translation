@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "035a06d2f1ff4cda857f9490f9fe05df",
   "campaign": "auto-b43ab01fca1cb95f655e5e1030c32155cdb990b091cfae284fd024adca435378",
   "created_at": "2026-10-10T19:17:38+00:00",
   "events": [
@@ -48,18 +47,75 @@
         },
         "total_tokens": 10391
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 732,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7046,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5943,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7778
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[12]: source /article[1]/p[6]/em[1] ('start', 'em', ()); translation /article[1]/p[6] ('end', 'p')",
-      "translation_quote": ""
+      "location": "প্রথম অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "This sobering reality behooves us to gird up our minds and apply ourselves to maximizing our precious teen years.",
+      "suggested_fix": "এই কঠিন বাস্তবতা আমাদের মনকে দৃঢ় করে মূল্যবান কৈশোরের বছরগুলোকে সর্বোচ্চ কাজে লাগানোর জন্য আত্মনিয়োগ করতে বাধ্য করে।",
+      "translation_quote": "এই গুরুগম্ভীর বাস্তবতা আমাদের মনকে দৃঢ় করে মূল্যবান কৈশোরের বছরগুলোকে সর্বোচ্চ কাজে লাগাতে তাগিদ দেয়।"
+    },
+    {
+      "location": "পঞ্চম অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "There, free from inhibitions and distractions, I would pour out my soul to God.",
+      "suggested_fix": "সেখানে, সংকোচ ও বিক্ষেপ থেকে মুক্ত হয়ে, আমি ঈশ্বরের কাছে আমার অন্তরের সব কথা ঢেলে দিতাম।",
+      "translation_quote": "সেখানে, সংকোচ ও মনোযোগ-বিভ্রান্তি থেকে মুক্ত হয়ে, ঈশ্বরের কাছে আমার অন্তরের সব কথা ঢেলে দিতাম।"
+    },
+    {
+      "location": "নবম অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "The graduate stands in stark contrast to the dropout who quit in first grade because he couldn’t see a measurable change each day.",
+      "suggested_fix": "স্নাতক হওয়া শিক্ষার্থীর সঙ্গে সেই ঝরে-পড়া শিক্ষার্থীর স্পষ্ট বৈপরীত্য দেখা যায়, যে প্রতিদিন মাপা যায় এমন পরিবর্তন দেখতে না পেয়ে প্রথম শ্রেণিতেই পড়া ছেড়ে দিয়েছিল।",
+      "translation_quote": "স্নাতক হওয়া শিক্ষার্থী আর প্রথম শ্রেণিতেই পড়া ছেড়ে দেওয়া শিক্ষার্থীর মধ্যে স্পষ্ট পার্থক্য দেখা যায়—প্রতিদিন মাপা যায় এমন পরিবর্তন দেখতে না পেয়ে যে পড়া ছেড়েছিল।"
+    },
+    {
+      "location": "দ্বাদশ অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "“... for they be idle; therefore they cry, saying, Let us go and sacrifice to our God.”",
+      "suggested_fix": "“... কেননা তাহারা অলস; এই জন্যই তাহারা বলে, চল, আমরা আমাদের ঈশ্বরের উদ্দেশে বলিদান করি।”",
+      "translation_quote": "“... কেননা তাহারা অলস; এই জন্যই তাহারা বলে, চল, আমরা আপনাদের ঈশ্বরের উদ্দেশে বলিদান করি।”"
+    },
+    {
+      "location": "ত্রয়োদশ অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "This story precisely illustrates the devil’s plan for us youth.",
+      "suggested_fix": "এই কাহিনি আমাদের তরুণদের জন্য শয়তানের পরিকল্পনাটি হুবহু তুলে ধরে।",
+      "translation_quote": "এই কাহিনি আমাদের তরুণদের জন্য শয়তানের পরিকল্পনাটি যথাযথভাবে তুলে ধরে।"
+    },
+    {
+      "location": "চতুর্দশ অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "Let us refuse to be swept away in the flurry of activities that prevent us from getting alone with God.",
+      "suggested_fix": "ঈশ্বরের সঙ্গে একান্তে থাকা থেকে আমাদের বিরত রাখে, এমন কাজের তোড়ে ভেসে যেতে আমরা অস্বীকার করি।",
+      "translation_quote": "ঈশ্বরের সঙ্গে একান্তে থাকা থেকে আমাদের বিরত রাখে, এমন কাজের ঘূর্ণিতে ভেসে যেতে অস্বীকার করি।"
     }
   ],
+  "finished_at": "2026-10-11T08:43:24+00:00",
   "id": "211b2a490ed8059dc3e28ec9307abda2",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ben",
@@ -148,9 +204,11 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/13544cb6e0d298eda28cfb9b69de769cecac89abc53c344514518a5a4fed3f65.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +224,7 @@
     "total_reserved_usd": 0.0888,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
   "translation_model_actual": "gpt-6-luna"

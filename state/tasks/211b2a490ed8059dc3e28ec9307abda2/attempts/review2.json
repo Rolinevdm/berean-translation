@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T08:43:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"প্রথম অনুচ্ছেদ\",\"severity\":\"major\",\"source_quote\":\"This sobering reality behooves us to gird up our minds and apply ourselves to maximizing our precious teen years.\",\"suggested_fix\":\"এই কঠিন বাস্তবতা আমাদের মনকে দৃঢ় করে মূল্যবান কৈশোরের বছরগুলোকে সর্বোচ্চ কাজে লাগানোর জন্য আত্মনিয়োগ করতে বাধ্য করে।\",\"translation_quote\":\"এই গুরুগম্ভীর বাস্তবতা আমাদের মনকে দৃঢ় করে মূল্যবান কৈশোরের বছরগুলোকে সর্বোচ্চ কাজে লাগাতে তাগিদ দেয়।\"},{\"location\":\"পঞ্চম অনুচ্ছেদ\",\"severity\":\"major\",\"source_quote\":\"There, free from inhibitions and distractions, I would pour out my soul to God.\",\"suggested_fix\":\"সেখানে, সংকোচ ও বিক্ষেপ থেকে মুক্ত হয়ে, আমি ঈশ্বরের কাছে আমার অন্তরের সব কথা ঢেলে দিতাম।\",\"translation_quote\":\"সেখানে, সংকোচ ও মনোযোগ-বিভ্রান্তি থেকে মুক্ত হয়ে, ঈশ্বরের কাছে আমার অন্তরের সব কথা ঢেলে দিতাম।\"},{\"location\":\"নবম অনুচ্ছেদ\",\"severity\":\"major\",\"source_quote\":\"The graduate stands in stark contrast to the dropout who quit in first grade because he couldn’t see a measurable change each day.\",\"suggested_fix\":\"স্নাতক হওয়া শিক্ষার্থীর সঙ্গে সেই ঝরে-পড়া শিক্ষার্থীর স্পষ্ট বৈপরীত্য দেখা যায়, যে প্রতিদিন মাপা যায় এমন পরিবর্তন দেখতে না পেয়ে প্রথম শ্রেণিতেই পড়া ছেড়ে দিয়েছিল।\",\"translation_quote\":\"স্নাতক হওয়া শিক্ষার্থী আর প্রথম শ্রেণিতেই পড়া ছেড়ে দেওয়া শিক্ষার্থীর মধ্যে স্পষ্ট পার্থক্য দেখা যায়—প্রতিদিন মাপা যায় এমন পরিবর্তন দেখতে না পেয়ে যে পড়া ছেড়েছিল।\"},{\"location\":\"দ্বাদশ অনুচ্ছেদ\",\"severity\":\"major\",\"source_quote\":\"“... for they be idle; therefore they cry, saying, Let us go and sacrifice to our God.”\",\"suggested_fix\":\"“... কেননা তাহারা অলস; এই জন্যই তাহারা বলে, চল, আমরা আমাদের ঈশ্বরের উদ্দেশে বলিদান করি।”\",\"translation_quote\":\"“... কেননা তাহারা অলস; এই জন্যই তাহারা বলে, চল, আমরা আপনাদের ঈশ্বরের উদ্দেশে বলিদান করি।”\"},{\"location\":\"ত্রয়োদশ অনুচ্ছেদ\",\"severity\":\"major\",\"source_quote\":\"This story precisely illustrates the devil’s plan for us youth.\",\"suggested_fix\":\"এই কাহিনি আমাদের তরুণদের জন্য শয়তানের পরিকল্পনাটি হুবহু তুলে ধরে।\",\"translation_quote\":\"এই কাহিনি আমাদের তরুণদের জন্য শয়তানের পরিকল্পনাটি যথাযথভাবে তুলে ধরে।\"},{\"location\":\"চতুর্দশ অনুচ্ছেদ\",\"severity\":\"major\",\"source_quote\":\"Let us refuse to be swept away in the flurry of activities that prevent us from getting alone with God.\",\"suggested_fix\":\"ঈশ্বরের সঙ্গে একান্তে থাকা থেকে আমাদের বিরত রাখে, এমন কাজের তোড়ে ভেসে যেতে আমরা অস্বীকার করি।\",\"translation_quote\":\"ঈশ্বরের সঙ্গে একান্তে থাকা থেকে আমাদের বিরত রাখে, এমন কাজের ঘূর্ণিতে ভেসে যেতে অস্বীকার করি।\"}],\"findings_complete\":true,\"passed\":false,\"score\":88}",
+    "content_bytes": 4788,
+    "content_evidence_truncated": false,
+    "content_sha256": "81e1446bcc97c369f716f01531789dbb7a765d9418f50da6e89aa8720403045a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 732,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7046,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5943,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7778
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}
