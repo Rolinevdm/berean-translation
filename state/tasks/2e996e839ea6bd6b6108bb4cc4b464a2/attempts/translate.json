@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T20:13:25+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"e7e3ec8b-76a7-4b0b-9837-12e668dd9abd\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg\\\" alt=\\\"Plakat aus zerrissenem Papier mit der Aufschrift ‚GESUCHT: Tot oder lebendig – christliche Traditionen‘; ‚Tot oder‘ ist durchgestrichen und ‚Lebendig‘ eingekreist\\\">\\n  </figure>\\n  <p>Man muss nicht lange suchen, um eine tote Tradition zu finden. Sie liegen in Kirchen herum wie alte Grabsteine auf einem kirchlichen Friedhof: verrottet, bröckelnd und doch so voller Erinnerungen, dass man sie nicht einfach irgendwo den Hügel hinunterkippen kann.</p>\\n  <p>Aber was ist mit lebendigen Traditionen? Wie treue Apfelbäume am Zaun des Friedhofs, die mit der Regelmäßigkeit einer ... <em>Tradition</em> Früchte tragen, segnen sie immer wieder Seelen.</p>\\n  <p>Wie macht man aus einem bröckelnden Grabstein einen lebendigen Apfelbaum? An dieser Stelle gerät mein Vergleich irgendwie ins Stocken ... Doch für manche Menschen lassen sich diese alten, toten, vertrockneten Traditionen niemals wiederbeleben: Sie MÜSSEN weg! Jahrelang haben sie Traditionen erlebt – tot, vertrocknet, hohl und schon beginnend zu stinken – und sie WISSEN, dass das Gemeindeleben niemals gedeiht, wenn es von den Grabsteinen vergangener Jahrhunderte verstopft ist.</p>\\n  <p>Doch kommt, lasst uns miteinander reden. Ist die Tradition das Problem? Oder ist es der Tod?</p>\\n  <p>Vor einigen Jahren machte ich eine Erfahrung, die meine Lebensperspektive veränderte. Viele Jahre lang hatte ich von Kirchen (zum Beispiel der frühen Kirche und den frühen Methodisten) und einzelnen Christen gelesen, die an einem bestimmten Wochentag zu fasten pflegten. „Wie förmlich das doch sein muss“, sagte ich mir. Eine geistliche Übung wie das Fasten zu einer wöchentlichen Tradition machen?</p>\\n  <p>Ich konnte nur einige modrige, bröckelnde Grabsteine auf einem Kirchhof sehen.</p>\\n  <p>Doch eines Tages schenkte mir der Herr die Fähigkeit, eine Wahrheit zu erkennen, die mich von meinem Misstrauen gegenüber allem Traditionellen befreit hat: <em>Traditionen sind das, wozu wir sie machen.</em></p>\\n  <p>Einmal in der Woche an einem festgelegten Tag zu fasten, kann entweder ein Grabstein oder ein Apfelbaum sein. Als ich von meiner Angst vor Tradition befreit war, nahm ich die alte (und sie ist <em>sehr</em> alt, sie reicht bis in die ersten Jahrhunderte der christlichen Kirche zurück) Tradition des Fastens an einem bestimmten Wochentag wieder auf.</p>\\n  <p>Und es war wie ein alter, treuer Apfelbaum, der mir viele Segnungen schenkte! Die Tradition wurde lebendig!</p>\\n  <p>Nun bin ich mir sicher, dass ich diese Tradition leicht in einen Grabstein verwandeln könnte. Alles, was ich tun muss, ist, damit anzufangen, weil ich es <em>muss</em>, statt weil ich es <em>möchte</em>. Doch solange ich sie lebendig gehalten habe, habe ich es nie bereut. (Und ich möchte hinzufügen, dass ich sie wegen Terminschwierigkeiten seit meinem Beginn nicht durchgehend beibehalten habe.)</p>\\n  <p>Ich schreibe diese Worte mit einem Anliegen im Herzen. Viele Jahre lang habe ich beobachtet, wie Menschen mit dem Eifer eines religiösen Reformators gegen Traditionen reagierten. Manchmal müssen Traditionen tatsächlich verschwinden. Oder zumindest würde es ganz sicher niemandem schaden, wenn sie verschwänden. Doch die Tradition ist nicht immer das Problem. Oft – wahrscheinlich sogar meistens – ist die Tradition <em>nicht</em> das Problem. Das Problem liegt im Herzen derer, die die Tradition praktizieren, und ist so tot wie ein verlassener Friedhof.</p>\\n  <p>Was geschieht, wenn du einen gregorianischen Choral mit ganzer Seele singst? Er wird lebendig! Was geschieht, wenn du einem Bruder einen heiligen Kuss gibst, mit all der Heiligkeit und Liebe, die in dir ist? Er wird lebendig! Was geschieht, wenn du den alten Brauch des „Liebesmahls“ wieder aufleben lässt und ihn mit viel Liebe praktizierst? Er wird lebendig!</p>\\n  <p>Seien wir vorsichtig damit, gegen Traditionen zu reagieren, und seien wir vorsichtig damit, sie zu bewahren.</p>\\n  <p>Was aus kirchlichen Traditionen wird, hängt davon ab, was wir aus ihnen machen. Tu es, weil du musst, und es ist eine tote Tradition. Tu es, weil du möchtest, und es kann zu einem lebenslangen, lebendigen Segen werden!</p>\\n  <p class=\\\"byline\\\">~ Mike Atnip</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Traditionen: Sind sie gut oder schlecht?\"}",
+    "content_bytes": 4503,
+    "content_evidence_truncated": false,
+    "content_sha256": "00daa68eef72006e07ba1e6c860b44cd075fc6da24e20889f8511ecb28f923ac",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1314,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 105,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1814,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1811,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3128
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
