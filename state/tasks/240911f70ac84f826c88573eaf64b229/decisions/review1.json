@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — citação de Malaquias 2:14-16, terceiro item da lista numerada",
+      "severity": "major",
+      "source_quote": "for one covereth violence with his garment",
+      "suggested_fix": "Substituir “porque cobre de violência as suas vestes” por “porque alguém encobre a violência com suas vestes”, preservando a estrutura HTML.",
+      "translation_quote": "porque cobre de violência as suas vestes"
+    },
+    {
+      "location": "translation.html — parágrafo iniciado por “Talvez Jeremias”, citação de Jeremias 3:1",
+      "severity": "major",
+      "source_quote": "They say, If a man put away his wife",
+      "suggested_fix": "Substituir “Ele diz: Se um homem repudiar sua mulher” por “Dizem: Se um homem repudiar sua mulher”, mantendo a atribuição final ao Senhor e a estrutura HTML.",
+      "translation_quote": "Ele diz: Se um homem repudiar sua mulher"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

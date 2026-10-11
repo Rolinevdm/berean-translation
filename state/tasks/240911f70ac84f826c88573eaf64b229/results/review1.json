@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "e55c3040-ada5-4196-9b45-e60d570ceacc",
+    "response_id": "chatcmpl-EXmJitQ6fONNkOldRP66EjXi3AUsk",
+    "usage": {
+      "completion_tokens": 325,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 102,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11054,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9951,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11379
+    }
+  },
+  "received_at": "2026-10-11T13:04:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — citação de Malaquias 2:14-16, terceiro item da lista numerada",
+        "severity": "major",
+        "source_quote": "for one covereth violence with his garment",
+        "suggested_fix": "Substituir “porque cobre de violência as suas vestes” por “porque alguém encobre a violência com suas vestes”, preservando a estrutura HTML.",
+        "translation_quote": "porque cobre de violência as suas vestes"
+      },
+      {
+        "location": "translation.html — parágrafo iniciado por “Talvez Jeremias”, citação de Jeremias 3:1",
+        "severity": "major",
+        "source_quote": "They say, If a man put away his wife",
+        "suggested_fix": "Substituir “Ele diz: Se um homem repudiar sua mulher” por “Dizem: Se um homem repudiar sua mulher”, mantendo a atribuição final ao Senhor e a estrutura HTML.",
+        "translation_quote": "Ele diz: Se um homem repudiar sua mulher"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
