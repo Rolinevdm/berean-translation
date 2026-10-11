@@ -1,0 +1,66 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "4f998844-7849-4ec4-bff5-889832de80e2",
+    "response_id": "chatcmpl-EXptfMJDcgO8veGfyQqbm52aBfEFs",
+    "usage": {
+      "completion_tokens": 1038,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 100,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8566,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7463,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9604
+    }
+  },
+  "received_at": "2026-10-11T15:42:45+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "הפסקה הפותחת בציטוט מעברים 12:2, תיאור הצעת שאול",
+        "severity": "major",
+        "source_quote": "King Saul had offered tax exempt wealth and son-in-law status",
+        "suggested_fix": "שאול המלך הציע עושר פטור ממס ומעמד של חתן המלך",
+        "translation_quote": "שאול המלך הציע פטור ממס ומעמד של חתן המלך"
+      },
+      {
+        "location": "ציטוט הפתיחה והציטוט משמואל א׳ 17:28-29",
+        "severity": "minor",
+        "source_quote": "Is there not a cause?",
+        "suggested_fix": "בשני המקומות החליפו את ״הֲאֵין לָכֶם סִיבָּה?״ ב״האם אין לכך סיבה?״, ללא הוספת הנמען ״לכם״.",
+        "translation_quote": "הֲאֵין לָכֶם סִיבָּה?"
+      },
+      {
+        "location": "הציטוטים המקראיים לאורך המאמר",
+        "severity": "minor",
+        "source_quote": "What have I now done?; Why camest thou down hither?; Looking unto Jesus the author and finisher of our faith; For as the body without the spirit is dead; I cannot go with these; Come to me; could sling stones at an hair breadth; And all this assembly shall know",
+        "suggested_fix": "התאימו את הציטוטים לעברית מודרנית בהתאם להנחיית השפה, תוך שמירת התוכן, תגיות ההדגשה והמראי־מקומות. למשל: ״מה עשיתי עכשיו?״; ״למה ירדת לכאן?״; ״כשאנו מביטים אל ישוע, מכונן אמונתנו ומשלימה״; ״כשם שהגוף בלי הרוח מת״; ״איני יכול ללכת עם אלה, כי לא ניסיתי אותם״; ״בוא אליי״; ״יכלה לקלוע אבנים בדיוק של כחוט השערה בלי להחטיא״; ״וכל הקהל הזה ידע״.",
+        "translation_quote": "מֶה עָשִׂיתִי עַתָּה; לָמָּה זֶּה יָרַדְתָּ; הַבִּיטוּ אֶל־יֵשׁוּעַ, מְכוֹנֵן הָאֱמוּנָה וּמַשְׁלִימָהּ; כְּשֵׁם שֶׁהַגּוּף בְּלֹא הָרוּחַ מֵת הוּא; לֹא אוּכַל לָלֶכֶת בָּאֵלֶּה; לְכָה אֵלַי; הָיְתָה יָכֹל לִקְלֹעַ אֶבֶן אֶל־הַשַּׂעֲרָה; וְיֵדְעוּ כָּל־הַקָּהָל הַזֶּה"
+      },
+      {
+        "location": "הפסקה על כוח הקלע, המשפט המסיים",
+        "severity": "minor",
+        "source_quote": "If Goliath had a spear",
+        "suggested_fix": "אילו הייתה לגוליית חנית",
+        "translation_quote": "אילו היה לגוליית חנית"
+      },
+      {
+        "location": "הפסקה האחרונה לפני השיר",
+        "severity": "minor",
+        "source_quote": "from the needle of Dorcas",
+        "suggested_fix": "ממחטה של טביתא",
+        "translation_quote": "ממחטו של טביתא"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T15:42:45+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"הפסקה הפותחת בציטוט מעברים 12:2, תיאור הצעת שאול\",\n      \"severity\": \"major\",\n      \"source_quote\": \"King Saul had offered tax exempt wealth and son-in-law status\",\n      \"suggested_fix\": \"שאול המלך הציע עושר פטור ממס ומעמד של חתן המלך\",\n      \"translation_quote\": \"שאול המלך הציע פטור ממס ומעמד של חתן המלך\"\n    },\n    {\n      \"location\": \"ציטוט הפתיחה והציטוט משמואל א׳ 17:28-29\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Is there not a cause?\",\n      \"suggested_fix\": \"בשני המקומות החליפו את ״הֲאֵין לָכֶם סִיבָּה?״ ב״האם אין לכך סיבה?״, ללא הוספת הנמען ״לכם״.\",\n      \"translation_quote\": \"הֲאֵין לָכֶם סִיבָּה?\"\n    },\n    {\n      \"location\": \"הציטוטים המקראיים לאורך המאמר\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"What have I now done?; Why camest thou down hither?; Looking unto Jesus the author and finisher of our faith; For as the body without the spirit is dead; I cannot go with these; Come to me; could sling stones at an hair breadth; And all this assembly shall know\",\n      \"suggested_fix\": \"התאימו את הציטוטים לעברית מודרנית בהתאם להנחיית השפה, תוך שמירת התוכן, תגיות ההדגשה והמראי־מקומות. למשל: ״מה עשיתי עכשיו?״; ״למה ירדת לכאן?״; ״כשאנו מביטים אל ישוע, מכונן אמונתנו ומשלימה״; ״כשם שהגוף בלי הרוח מת״; ״איני יכול ללכת עם אלה, כי לא ניסיתי אותם״; ״בוא אליי״; ״יכלה לקלוע אבנים בדיוק של כחוט השערה בלי להחטיא״; ״וכל הקהל הזה ידע״.\",\n      \"translation_quote\": \"מֶה עָשִׂיתִי עַתָּה; לָמָּה זֶּה יָרַדְתָּ; הַבִּיטוּ אֶל־יֵשׁוּעַ, מְכוֹנֵן הָאֱמוּנָה וּמַשְׁלִימָהּ; כְּשֵׁם שֶׁהַגּוּף בְּלֹא הָרוּחַ מֵת הוּא; לֹא אוּכַל לָלֶכֶת בָּאֵלֶּה; לְכָה אֵלַי; הָיְתָה יָכֹל לִקְלֹעַ אֶבֶן אֶל־הַשַּׂעֲרָה; וְיֵדְעוּ כָּל־הַקָּהָל הַזֶּה\"\n    },\n    {\n      \"location\": \"הפסקה על כוח הקלע, המשפט המסיים\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"If Goliath had a spear\",\n      \"suggested_fix\": \"אילו הייתה לגוליית חנית\",\n      \"translation_quote\": \"אילו היה לגוליית חנית\"\n    },\n    {\n      \"location\": \"הפסקה האחרונה לפני השיר\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"from the needle of Dorcas\",\n      \"suggested_fix\": \"ממחטה של טביתא\",\n      \"translation_quote\": \"ממחטו של טביתא\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 3103,
+    "content_evidence_truncated": false,
+    "content_sha256": "494527c43ffbe9cc0eea2c378b2f47a67278036ca0ffff25c8a97997cefdc602",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1038,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 100,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8566,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7463,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9604
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
