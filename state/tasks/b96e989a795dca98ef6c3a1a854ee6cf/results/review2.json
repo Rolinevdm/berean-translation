@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1946c81e-e782-4ab1-bbf5-ad70fa7444be",
+    "response_id": "chatcmpl-EXmx2GJcqpiLK9qYJ6LnDG4eM7wbg",
+    "usage": {
+      "completion_tokens": 617,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 510,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6197,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5094,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6814
+    }
+  },
+  "received_at": "2026-10-11T13:05:45+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Exodus 5:9 quotation",
+        "severity": "major",
+        "source_quote": "“let them not regard vain words.”",
+        "suggested_fix": "Vervang in de citaattekst “geen aandacht schenken aan leugenachtige woorden” door “geen aandacht schenken aan loze woorden”.",
+        "translation_quote": "“geen aandacht schenken aan leugenachtige woorden.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

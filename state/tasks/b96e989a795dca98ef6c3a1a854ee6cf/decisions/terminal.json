@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Exodus 5:9 quotation",
+      "severity": "major",
+      "source_quote": "“let them not regard vain words.”",
+      "suggested_fix": "Vervang in de citaattekst “geen aandacht schenken aan leugenachtige woorden” door “geen aandacht schenken aan loze woorden”.",
+      "translation_quote": "“geen aandacht schenken aan leugenachtige woorden.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
