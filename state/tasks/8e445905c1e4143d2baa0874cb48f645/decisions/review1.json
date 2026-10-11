@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "source.html : paragraphe sur l’état de Nancy Russell ; sections « La fin de vie », « Ne pas agir par peur », « S’appuyer sur la force de Dieu », « Comprendre qu’il y aura probablement de la douleur » et « Conclusion »",
+      "severity": "major",
+      "source_quote": "“any condition that would normally be considered terminal”; “a terminal condition”; “Some terminal illnesses”; “a terminal diagnosis”; “even a terminal illness”; “usually of a terminally ill patient”; “dealing with a terminal illness”",
+      "suggested_fix": "Remplacer respectivement ces formulations par « aucune affection normalement considérée comme étant en phase terminale », « une maladie en phase terminale », « Certaines maladies en phase terminale », « un diagnostic de maladie en phase terminale », « même une maladie en phase terminale », « généralement chez un patient en phase terminale » et « atteints d’une maladie en phase terminale ». Une maladie incurable n’est pas nécessairement terminale.",
+      "translation_quote": "« aucune affection normalement considérée comme incurable » ; « une maladie incurable » ; « Certaines maladies incurables » ; « un diagnostic de maladie incurable » ; « même une maladie incurable » ; « généralement chez un patient atteint d’une maladie incurable » ; « atteints d’une maladie incurable »"
+    },
+    {
+      "location": "source.html : section « S’appuyer sur la force de Dieu », citation de Philippiens 4:13",
+      "severity": "major",
+      "source_quote": "I can do all things through Christ which strengtheneth me –Philippians 4:13.",
+      "suggested_fix": "Remplacer uniquement la citation par « Je puis tout par le Christ qui me fortifie –Philippiens 4:13. », en conservant la balise <em>.",
+      "translation_quote": "Je puis tout par celui qui me fortifie –Philippiens 4:13."
+    },
+    {
+      "location": "source.html : section « Ne pas agir par peur », citation de 1 Thessaloniciens 4:13-14",
+      "severity": "major",
+      "source_quote": "But I would not have you to be ignorant, brethren [...] even so them also which sleep in Jesus will God bring with him",
+      "suggested_fix": "Dans la citation, remplacer « Nous ne voulons pas » par « Je ne veux pas » et « nous croyons aussi que Dieu ramènera par Jésus et avec lui ceux qui sont morts » par « de même, Dieu ramènera avec lui ceux qui se sont endormis en Jésus ». Conserver la balise <em> et la référence.",
+      "translation_quote": "Nous ne voulons pas, frères, que vous soyez dans l’ignorance [...] nous croyons aussi que Dieu ramènera par Jésus et avec lui ceux qui sont morts"
+    },
+    {
+      "location": "source.html : section « Comprendre qu’il y aura probablement de la douleur », premier paragraphe",
+      "severity": "minor",
+      "source_quote": "This is the sort of care that is offered by hospice programs.",
+      "suggested_fix": "Remplacer « les programmes de soins palliatifs en établissement » par « les programmes de soins palliatifs », sans imposer un cadre institutionnel absent du texte source.",
+      "translation_quote": "C’est le type de soins proposé par les programmes de soins palliatifs en établissement."
+    },
+    {
+      "location": "source.html : paragraphe définissant l’euthanasie et le suicide assisté",
+      "severity": "minor",
+      "source_quote": "A society that no longer values <strong>all</strong> human lives as important",
+      "suggested_fix": "Rétablir la balise d’emphase dans « Une société qui ne considère plus <strong>toutes</strong> les vies humaines comme importantes ».",
+      "translation_quote": "Une société qui ne considère plus toutes les vies humaines comme importantes"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

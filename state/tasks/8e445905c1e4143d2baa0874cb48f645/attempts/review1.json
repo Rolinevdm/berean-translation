@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T21:53:26+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"source.html : paragraphe sur l’état de Nancy Russell ; sections « La fin de vie », « Ne pas agir par peur », « S’appuyer sur la force de Dieu », « Comprendre qu’il y aura probablement de la douleur » et « Conclusion »\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“any condition that would normally be considered terminal”; “a terminal condition”; “Some terminal illnesses”; “a terminal diagnosis”; “even a terminal illness”; “usually of a terminally ill patient”; “dealing with a terminal illness”\",\n      \"suggested_fix\": \"Remplacer respectivement ces formulations par « aucune affection normalement considérée comme étant en phase terminale », « une maladie en phase terminale », « Certaines maladies en phase terminale », « un diagnostic de maladie en phase terminale », « même une maladie en phase terminale », « généralement chez un patient en phase terminale » et « atteints d’une maladie en phase terminale ». Une maladie incurable n’est pas nécessairement terminale.\",\n      \"translation_quote\": \"« aucune affection normalement considérée comme incurable » ; « une maladie incurable » ; « Certaines maladies incurables » ; « un diagnostic de maladie incurable » ; « même une maladie incurable » ; « généralement chez un patient atteint d’une maladie incurable » ; « atteints d’une maladie incurable »\"\n    },\n    {\n      \"location\": \"source.html : section « S’appuyer sur la force de Dieu », citation de Philippiens 4:13\",\n      \"severity\": \"major\",\n      \"source_quote\": \"I can do all things through Christ which strengtheneth me –Philippians 4:13.\",\n      \"suggested_fix\": \"Remplacer uniquement la citation par « Je puis tout par le Christ qui me fortifie –Philippiens 4:13. », en conservant la balise <em>.\",\n      \"translation_quote\": \"Je puis tout par celui qui me fortifie –Philippiens 4:13.\"\n    },\n    {\n      \"location\": \"source.html : section « Ne pas agir par peur », citation de 1 Thessaloniciens 4:13-14\",\n      \"severity\": \"major\",\n      \"source_quote\": \"But I would not have you to be ignorant, brethren [...] even so them also which sleep in Jesus will God bring with him\",\n      \"suggested_fix\": \"Dans la citation, remplacer « Nous ne voulons pas » par « Je ne veux pas » et « nous croyons aussi que Dieu ramènera par Jésus et avec lui ceux qui sont morts » par « de même, Dieu ramènera avec lui ceux qui se sont endormis en Jésus ». Conserver la balise <em> et la référence.\",\n      \"translation_quote\": \"Nous ne voulons pas, frères, que vous soyez dans l’ignorance [...] nous croyons aussi que Dieu ramènera par Jésus et avec lui ceux qui sont morts\"\n    },\n    {\n      \"location\": \"source.html : section « Comprendre qu’il y aura probablement de la douleur », premier paragraphe\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"This is the sort of care that is offered by hospice programs.\",\n      \"suggested_fix\": \"Remplacer « les programmes de soins palliatifs en établissement » par « les programmes de soins palliatifs », sans imposer un cadre institutionnel absent du texte source.\",\n      \"translation_quote\": \"C’est le type de soins proposé par les programmes de soins palliatifs en établissement.\"\n    },\n    {\n      \"location\": \"source.html : paragraphe définissant l’euthanasie et le suicide assisté\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"A society that no longer values <strong>all</strong> human lives as important\",\n      \"suggested_fix\": \"Rétablir la balise d’emphase dans « Une société qui ne considère plus <strong>toutes</strong> les vies humaines comme importantes ».\",\n      \"translation_quote\": \"Une société qui ne considère plus toutes les vies humaines comme importantes\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 90\n}",
+    "content_bytes": 3917,
+    "content_evidence_truncated": false,
+    "content_sha256": "ea0b188356bdc61a94b665ed8b698b6c50130255e706bf53e3a14bf5aec906e1",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1013,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 111,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7767,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6664,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8780
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
