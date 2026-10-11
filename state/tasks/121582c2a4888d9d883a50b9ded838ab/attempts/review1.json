@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T13:05:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Kristosentrisme, paragraf tentang respons terhadap musuh\",\"severity\":\"major\",\"source_quote\":\"The apparent disparity between God’s word for the Israelites and Jesus’ word to His followers on the question of dealing with one’s enemies is striking.\",\"suggested_fix\":\"Perbedaan yang tampak mencolok antara firman Allah bagi orang Israel dan firman Yesus kepada para pengikut-Nya mengenai cara memperlakukan musuh itu sangat nyata.\",\"translation_quote\":\"Perbedaan yang tampak mencolok antara firman Allah bagi orang Israel dan firman Yesus kepada para pengikut-Nya mengenai cara memperlakukan musuh.\"},{\"location\":\"Kesimpulan, paragraf tentang Kekristenan pentagonal\",\"severity\":\"major\",\"source_quote\":\"authentic Christianity is a full-orbed light to the world, reflecting all of what Jesus calls us to be.\",\"suggested_fix\":\"Kekristenan sejati adalah cahaya yang utuh bagi dunia, yang memantulkan seluruh panggilan Yesus bagi kita.\",\"translation_quote\":\"Kekristenan sejati adalah cahaya yang utuh bagi dunia, yang memantulkan segala sesuatu yang Yesus panggil untuk kita wujudkan.\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 1162,
+    "content_evidence_truncated": false,
+    "content_sha256": "6d3fe6c33ae158719969df207afde5e0b6220ec28a0f44d6fecd3b62c83a7076",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 273,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 19492,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 19489,
+        "cached_tokens": 0
+      },
+      "total_tokens": 19765
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Kristosentrisme, paragraf tentang respons terhadap musuh",
+      "severity": "major",
+      "source_quote": "The apparent disparity between God’s word for the Israelites and Jesus’ word to His followers on the question of dealing with one’s enemies is striking.",
+      "suggested_fix": "Perbedaan yang tampak mencolok antara firman Allah bagi orang Israel dan firman Yesus kepada para pengikut-Nya mengenai cara memperlakukan musuh itu sangat nyata.",
+      "translation_quote": "Perbedaan yang tampak mencolok antara firman Allah bagi orang Israel dan firman Yesus kepada para pengikut-Nya mengenai cara memperlakukan musuh."
+    },
+    {
+      "location": "Kesimpulan, paragraf tentang Kekristenan pentagonal",
+      "severity": "major",
+      "source_quote": "authentic Christianity is a full-orbed light to the world, reflecting all of what Jesus calls us to be.",
+      "suggested_fix": "Kekristenan sejati adalah cahaya yang utuh bagi dunia, yang memantulkan seluruh panggilan Yesus bagi kita.",
+      "translation_quote": "Kekristenan sejati adalah cahaya yang utuh bagi dunia, yang memantulkan segala sesuatu yang Yesus panggil untuk kita wujudkan."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
