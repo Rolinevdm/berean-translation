@@ -24658,6 +24658,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.html",
+      "html_sha256": "546b854f7cf1367333304b7e45e116732764bf6f935876117ab3e6feaa9f8066",
+      "human_reviewed": false,
+      "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "images": [
+        {
+          "alt": "צוללת מפליגה על פני הים",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg"
+        },
+        {
+          "alt": "איור היסטורי של קוויקר מחבק יליד אמריקאי בפנסילבניה",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.json",
+      "metadata_sha256": "038e0c7dd49c0123ff1c69c732934616189f41fa9870695812e0ec29ff6466da",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "מן העורך",
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+      "status": "ready",
+      "subtitle": null,
+      "title": "מן העורך",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
       "html_sha256": "da6d0618af4fda0cf285c6ed1257efc92a2ee45e5e14fc01bbd83939272ab082",
       "human_reviewed": false,
