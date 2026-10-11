@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8629aba4-190d-4ae0-8f34-6146720e32ed",
+    "response_id": "chatcmpl-EXuHxigNV9LfIybLnmSADJyQDz3iM",
+    "usage": {
+      "completion_tokens": 547,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 433,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2522,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1419,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3069
+    }
+  },
+  "received_at": "2026-10-11T20:20:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening blockquote",
+        "severity": "major",
+        "source_quote": "We must reduce our volume to the simple evangelists",
+        "suggested_fix": "আমাদের গ্রন্থকে সরল সুসমাচার-লেখকদের রচনায় সীমিত করতে হবে",
+        "translation_quote": "আমাদের নিজেদের বক্তব্যকে সরল সুসমাচার-লেখকদের বক্তব্যের পর্যায়ে নামিয়ে আনতে হবে"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
