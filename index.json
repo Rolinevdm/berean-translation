@@ -42939,6 +42939,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
+      "html_sha256": "d838fac1e040bfacb4727a8583c42828fb2256baa1d0b0b065c6aa638127b5ec",
+      "human_reviewed": false,
+      "id": "783fddfc-86ed-44d9-b13e-e4adea31a5d5",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.json",
+      "metadata_sha256": "5c4d54bcad37f9b77706c951a13217631d1292c4c10739983d90727da1b590d4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De Jeffersonbijbel",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
       "html_sha256": "fbd5686cd1463d3c245896f5f2d485f67885660488c573e4d85db7633ad83a8b",
       "human_reviewed": false,
@@ -69148,6 +69171,34 @@
       "subtitle": null,
       "title": "عہد کی قوت",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
+      "html_sha256": "86a185e35107717311b06f6a4b702eb80985922c15dcd0f843d8864562e39f73",
+      "human_reviewed": false,
+      "id": "719ef93a-7242-445f-8e5b-201567145e20",
+      "images": [
+        {
+          "alt": "ایک طبی کارکن عمر رسیدہ شخص کا بلڈ پریشر چیک کر رہا ہے",
+          "public_path": "/images/articles/719ef93a-7242-445f-8e5b-201567145e20-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/719ef93a-7242-445f-8e5b-201567145e20.json",
+      "metadata_sha256": "77304289fbf6e43238a2e27e5cceba8ee0065db561c812d2b247ecfcb80bf218",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ڈاکٹر کی بات",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
+      "status": "ready",
+      "subtitle": null,
+      "title": "زندگی کا آخری مرحلہ",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
