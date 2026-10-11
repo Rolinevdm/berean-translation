@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Yoshua hakuchaguliwa…”",
+      "severity": "major",
+      "source_quote": "“If you persevere with studentlike consistency to get alone with God in your ‘spare’ time”",
+      "suggested_fix": "“Ukidumu kwa uthabiti kama wa mwanafunzi katika kuwa peke yako na Mungu wakati wako wa ‘ziada,’”",
+      "translation_quote": "“Ukidumu kwa uthabiti kama wa mwanafunzi katika kujitenga na Mungu wakati wako wa ‘ziada,’”"
+    },
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "“a small seconds dial”",
+      "suggested_fix": "“uso mdogo wa saa ya sekunde”",
+      "translation_quote": "“kishale kidogo cha sekunde”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

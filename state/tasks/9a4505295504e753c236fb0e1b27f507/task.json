@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e720c9f978ad4e54811cf5f6beaf2097",
   "campaign": "auto-86955b0a74bd3a79e54a08cba582ede4f931049954d6744a4ca0173324136682",
   "created_at": "2026-10-10T21:39:17+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 6190
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 695,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 508,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6544,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5441,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7239
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning “Yoshua hakuchaguliwa…”",
+      "severity": "major",
+      "source_quote": "“If you persevere with studentlike consistency to get alone with God in your ‘spare’ time”",
+      "suggested_fix": "“Ukidumu kwa uthabiti kama wa mwanafunzi katika kuwa peke yako na Mungu wakati wako wa ‘ziada,’”",
+      "translation_quote": "“Ukidumu kwa uthabiti kama wa mwanafunzi katika kujitenga na Mungu wakati wako wa ‘ziada,’”"
+    },
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "“a small seconds dial”",
+      "suggested_fix": "“uso mdogo wa saa ya sekunde”",
+      "translation_quote": "“kishale kidogo cha sekunde”"
+    }
+  ],
   "id": "9a4505295504e753c236fb0e1b27f507",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swa",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/13544cb6e0d298eda28cfb9b69de769cecac89abc53c344514518a5a4fed3f65.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.08879,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
   "translation_model_actual": "gpt-6-luna"

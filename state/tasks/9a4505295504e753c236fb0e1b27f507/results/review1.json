@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f623704d-17cf-43e8-928a-d905161daa97",
+    "response_id": "chatcmpl-EXeQDcAMFKsBLpn4MFLvrmoLgkPcH",
+    "usage": {
+      "completion_tokens": 695,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 508,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6544,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5441,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7239
+    }
+  },
+  "received_at": "2026-10-11T06:20:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Yoshua hakuchaguliwa…”",
+        "severity": "major",
+        "source_quote": "“If you persevere with studentlike consistency to get alone with God in your ‘spare’ time”",
+        "suggested_fix": "“Ukidumu kwa uthabiti kama wa mwanafunzi katika kuwa peke yako na Mungu wakati wako wa ‘ziada,’”",
+        "translation_quote": "“Ukidumu kwa uthabiti kama wa mwanafunzi katika kujitenga na Mungu wakati wako wa ‘ziada,’”"
+      },
+      {
+        "location": "Image alt text",
+        "severity": "minor",
+        "source_quote": "“a small seconds dial”",
+        "suggested_fix": "“uso mdogo wa saa ya sekunde”",
+        "translation_quote": "“kishale kidogo cha sekunde”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
