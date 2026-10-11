@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, opening blockquote",
+      "severity": "minor",
+      "source_quote": "We must reduce our volume to the simple evangelists",
+      "suggested_fix": "Debemos limitar nuestra obra a los relatos sencillos de los evangelistas",
+      "translation_quote": "Debemos reducir nuestro volumen a los evangelistas sencillos"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
