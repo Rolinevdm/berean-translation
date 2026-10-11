@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bfa9572a92de4410bfdbd4530f2e16e5",
   "campaign": "auto-f50b3ec4edf969e209bfc6dc046471fd2068f5d1009b3e915ca4898577920586",
   "created_at": "2026-10-10T19:18:07+00:00",
   "events": [
@@ -50,7 +49,8 @@
       }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+  "failure_kind": "provider_error",
   "findings": [
     {
       "location": "translation.html, citazione di 1 Samuele 17:45-46",
@@ -60,6 +60,7 @@
       "translation_quote": "Tu vieni contro di me con la spada, con la lancia e con il giavellotto"
     }
   ],
+  "finished_at": "2026-10-11T13:05:11+00:00",
   "id": "745e82489a64e07bd2dbfcc4157c2b79",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ita",
@@ -148,6 +149,11 @@
     }
   },
   "protected": false,
+  "provider_failure": {
+    "action": "Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+    "code": "provider_error",
+    "http_status": 500
+  },
   "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
@@ -167,7 +173,7 @@
     "total_reserved_usd": 0.758364,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
   "translation_model_actual": "gpt-6.1-sol"
