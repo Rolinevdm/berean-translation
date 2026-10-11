@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c3844b6f-c12b-4864-ae7d-14e4886db21e",
+    "response_id": "chatcmpl-EXrGUBNaUjJgwUVRioObIRqcmNwml",
+    "usage": {
+      "completion_tokens": 971,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 824,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 19688,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 18585,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 20659
+    }
+  },
+  "received_at": "2026-10-11T18:00:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Biblicismo, citazione di Luca 24:44 e 2 Pietro 3:15-16",
+        "severity": "minor",
+        "source_quote": "Lu. 24:44; 2 Pe. 3:15-16",
+        "suggested_fix": "Usare le abbreviazioni italiane convenzionali: «Lc. 24:44» e «2 Pt. 3:15-16».",
+        "translation_quote": "Lu. 24:44; 2 Pie. 3:15-16"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Biblicismo, citazione di Luca 24:44 e 2 Pietro 3:15-16",
+      "severity": "minor",
+      "source_quote": "Lu. 24:44; 2 Pe. 3:15-16",
+      "suggested_fix": "Usare le abbreviazioni italiane convenzionali: «Lc. 24:44» e «2 Pt. 3:15-16».",
+      "translation_quote": "Lu. 24:44; 2 Pie. 3:15-16"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
