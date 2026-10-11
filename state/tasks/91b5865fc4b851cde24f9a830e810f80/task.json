@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8320205fa5c64e5488d7b39891a0b64b",
   "campaign": "auto-de563635db46708c1c375552a4070c6744336a2a696ca37da9267b5ebf54a72b",
   "created_at": "2026-10-10T19:17:40+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 6083
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 760,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 568,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6437,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6434,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7197
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Первый абзац, alt-текст изображения",
+      "severity": "minor",
+      "source_quote": "a small seconds dial",
+      "suggested_fix": "Старинный циферблат с римскими цифрами и маленьким секундным циферблатом",
+      "translation_quote": "маленькой секундной стрелкой"
+    },
+    {
+      "location": "Абзац о ежедневных решениях",
+      "severity": "minor",
+      "source_quote": "He will change your values.",
+      "suggested_fix": "Время от времени уединяясь с Богом, ты увидишь, как Он меняет твои <em>ценности</em>.",
+      "translation_quote": "Время от времени уединяясь с Богом, ты позволишь Ему изменить свои <em>ценности</em>."
+    }
+  ],
+  "finished_at": "2026-10-11T00:30:17+00:00",
   "id": "91b5865fc4b851cde24f9a830e810f80",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "rus",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/13544cb6e0d298eda28cfb9b69de769cecac89abc53c344514518a5a4fed3f65.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.088794,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
   "translation_model_actual": "gpt-6-luna"

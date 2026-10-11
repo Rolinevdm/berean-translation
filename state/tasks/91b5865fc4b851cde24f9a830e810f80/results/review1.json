@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ac51ed61-66a7-4bf8-aab8-2367b81f838d",
+    "response_id": "chatcmpl-EXbiWtwS1iU2pBzMdty6eYor7HCbR",
+    "usage": {
+      "completion_tokens": 760,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 568,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6437,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6434,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7197
+    }
+  },
+  "received_at": "2026-10-11T00:30:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Первый абзац, alt-текст изображения",
+        "severity": "minor",
+        "source_quote": "a small seconds dial",
+        "suggested_fix": "Старинный циферблат с римскими цифрами и маленьким секундным циферблатом",
+        "translation_quote": "маленькой секундной стрелкой"
+      },
+      {
+        "location": "Абзац о ежедневных решениях",
+        "severity": "minor",
+        "source_quote": "He will change your values.",
+        "suggested_fix": "Время от времени уединяясь с Богом, ты увидишь, как Он меняет твои <em>ценности</em>.",
+        "translation_quote": "Время от времени уединяясь с Богом, ты позволишь Ему изменить свои <em>ценности</em>."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

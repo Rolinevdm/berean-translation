@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Первый абзац, alt-текст изображения",
+      "severity": "minor",
+      "source_quote": "a small seconds dial",
+      "suggested_fix": "Старинный циферблат с римскими цифрами и маленьким секундным циферблатом",
+      "translation_quote": "маленькой секундной стрелкой"
+    },
+    {
+      "location": "Абзац о ежедневных решениях",
+      "severity": "minor",
+      "source_quote": "He will change your values.",
+      "suggested_fix": "Время от времени уединяясь с Богом, ты увидишь, как Он меняет твои <em>ценности</em>.",
+      "translation_quote": "Время от времени уединяясь с Богом, ты позволишь Ему изменить свои <em>ценности</em>."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
