@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2f2b83d1-41ef-4851-b0fe-7c57266db3cd",
+    "response_id": "chatcmpl-EXmye4TASTQiuYwyciahCgiSFU8tR",
+    "usage": {
+      "completion_tokens": 795,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 662,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6472,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5369,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7267
+    }
+  },
+  "received_at": "2026-10-11T13:05:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Joshua did not just happen…”",
+        "severity": "major",
+        "source_quote": "“approved unto God, a workman that needeth not to be ashamed …”",
+        "suggested_fix": "Replace „מאושרים לפני אלוהים” with „רצויים לאלוהים” to convey being approved by God, not being happy or blessed.",
+        "translation_quote": "„מאושרים לפני אלוהים, פועלים שאינם צריכים להתבייש…”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

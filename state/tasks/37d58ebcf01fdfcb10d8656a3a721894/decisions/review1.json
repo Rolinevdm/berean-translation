@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Joshua did not just happen…”",
+      "severity": "major",
+      "source_quote": "“approved unto God, a workman that needeth not to be ashamed …”",
+      "suggested_fix": "Replace „מאושרים לפני אלוהים” with „רצויים לאלוהים” to convey being approved by God, not being happy or blessed.",
+      "translation_quote": "„מאושרים לפני אלוהים, פועלים שאינם צריכים להתבייש…”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
