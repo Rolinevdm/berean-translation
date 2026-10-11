@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "c016b7ef-2241-4df2-8320-61e9de80ecf5",
+    "response_id": "chatcmpl-EXht5gGAFNUDZYRs1t4F88mNHXKHg",
+    "usage": {
+      "completion_tokens": 511,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 89,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10910,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9807,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11421
+    }
+  },
+  "received_at": "2026-10-11T08:43:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — الفقرة الافتتاحية p.drop-cap",
+        "severity": "major",
+        "source_quote": "to corrupt and destroy the existence of Holy Matrimony",
+        "suggested_fix": "استبدل «إفساد وجود سرّ الزواج المقدس وتدميره» بـ«إفساد وجود الزواج المقدس وتدميره».",
+        "translation_quote": "إفساد وجود سرّ الزواج المقدس وتدميره"
+      },
+      {
+        "location": "translation.html — القائمة المرقمة، البند الثاني، التعليق بعد إشعياء 54:6",
+        "severity": "major",
+        "source_quote": "Being a wife of one’s youth and then later refused, intensified the grieving of this forsaken woman.",
+        "suggested_fix": "استبدل الجملة بـ«إن كونها زوجةً اقترن بها زوجها في شبابه ثم رفضها لاحقًا قد زاد من حزن هذه المرأة المتروكة». فالمقصود الزوجة التي تزوجها الرجل في شبابه، لا مجرد زوجة رجل شاب.",
+        "translation_quote": "إن كونها زوجة شابٍّ ثم رفضها لاحقًا قد زاد من حزن هذه المرأة المتروكة."
+      },
+      {
+        "location": "translation.html — القائمة المرقمة، البند الأول، اقتباس الأمثال 5:18",
+        "severity": "minor",
+        "source_quote": "Let thy fountain be blessed",
+        "suggested_fix": "استبدل «لتكن ينبوعك مباركًا» بـ«ليكن ينبوعك مباركًا» لمطابقة الفعل للاسم المذكر.",
+        "translation_quote": "لتكن ينبوعك مباركًا"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — الفقرة الافتتاحية p.drop-cap",
+      "severity": "major",
+      "source_quote": "to corrupt and destroy the existence of Holy Matrimony",
+      "suggested_fix": "استبدل «إفساد وجود سرّ الزواج المقدس وتدميره» بـ«إفساد وجود الزواج المقدس وتدميره».",
+      "translation_quote": "إفساد وجود سرّ الزواج المقدس وتدميره"
+    },
+    {
+      "location": "translation.html — القائمة المرقمة، البند الثاني، التعليق بعد إشعياء 54:6",
+      "severity": "major",
+      "source_quote": "Being a wife of one’s youth and then later refused, intensified the grieving of this forsaken woman.",
+      "suggested_fix": "استبدل الجملة بـ«إن كونها زوجةً اقترن بها زوجها في شبابه ثم رفضها لاحقًا قد زاد من حزن هذه المرأة المتروكة». فالمقصود الزوجة التي تزوجها الرجل في شبابه، لا مجرد زوجة رجل شاب.",
+      "translation_quote": "إن كونها زوجة شابٍّ ثم رفضها لاحقًا قد زاد من حزن هذه المرأة المتروكة."
+    },
+    {
+      "location": "translation.html — القائمة المرقمة، البند الأول، اقتباس الأمثال 5:18",
+      "severity": "minor",
+      "source_quote": "Let thy fountain be blessed",
+      "suggested_fix": "استبدل «لتكن ينبوعك مباركًا» بـ«ليكن ينبوعك مباركًا» لمطابقة الفعل للاسم المذكر.",
+      "translation_quote": "لتكن ينبوعك مباركًا"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

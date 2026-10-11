@@ -5,11 +5,54 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4856b04eaf1a4e7495a660bbf5989271",
   "campaign": "auto-5b995c6d5cc2eb67e362b8a936798c4b4ba71a3174f9eb1c498bf1b2e8e7acc3",
   "created_at": "2026-10-11T06:21:43+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 511,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 89,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10910,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9807,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11421
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html — الفقرة الافتتاحية p.drop-cap",
+      "severity": "major",
+      "source_quote": "to corrupt and destroy the existence of Holy Matrimony",
+      "suggested_fix": "استبدل «إفساد وجود سرّ الزواج المقدس وتدميره» بـ«إفساد وجود الزواج المقدس وتدميره».",
+      "translation_quote": "إفساد وجود سرّ الزواج المقدس وتدميره"
+    },
+    {
+      "location": "translation.html — القائمة المرقمة، البند الثاني، التعليق بعد إشعياء 54:6",
+      "severity": "major",
+      "source_quote": "Being a wife of one’s youth and then later refused, intensified the grieving of this forsaken woman.",
+      "suggested_fix": "استبدل الجملة بـ«إن كونها زوجةً اقترن بها زوجها في شبابه ثم رفضها لاحقًا قد زاد من حزن هذه المرأة المتروكة». فالمقصود الزوجة التي تزوجها الرجل في شبابه، لا مجرد زوجة رجل شاب.",
+      "translation_quote": "إن كونها زوجة شابٍّ ثم رفضها لاحقًا قد زاد من حزن هذه المرأة المتروكة."
+    },
+    {
+      "location": "translation.html — القائمة المرقمة، البند الأول، اقتباس الأمثال 5:18",
+      "severity": "minor",
+      "source_quote": "Let thy fountain be blessed",
+      "suggested_fix": "استبدل «لتكن ينبوعك مباركًا» بـ«ليكن ينبوعك مباركًا» لمطابقة الفعل للاسم المذكر.",
+      "translation_quote": "لتكن ينبوعك مباركًا"
+    }
+  ],
   "id": "af8af3c93eaa8f5aac8fa06d2a7425f9",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ara",
@@ -98,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +160,7 @@
     "total_reserved_usd": 0.80231,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T08:43:04+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html — الفقرة الافتتاحية p.drop-cap\",\n      \"severity\": \"major\",\n      \"source_quote\": \"to corrupt and destroy the existence of Holy Matrimony\",\n      \"suggested_fix\": \"استبدل «إفساد وجود سرّ الزواج المقدس وتدميره» بـ«إفساد وجود الزواج المقدس وتدميره».\",\n      \"translation_quote\": \"إفساد وجود سرّ الزواج المقدس وتدميره\"\n    },\n    {\n      \"location\": \"translation.html — القائمة المرقمة، البند الثاني، التعليق بعد إشعياء 54:6\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Being a wife of one’s youth and then later refused, intensified the grieving of this forsaken woman.\",\n      \"suggested_fix\": \"استبدل الجملة بـ«إن كونها زوجةً اقترن بها زوجها في شبابه ثم رفضها لاحقًا قد زاد من حزن هذه المرأة المتروكة». فالمقصود الزوجة التي تزوجها الرجل في شبابه، لا مجرد زوجة رجل شاب.\",\n      \"translation_quote\": \"إن كونها زوجة شابٍّ ثم رفضها لاحقًا قد زاد من حزن هذه المرأة المتروكة.\"\n    },\n    {\n      \"location\": \"translation.html — القائمة المرقمة، البند الأول، اقتباس الأمثال 5:18\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Let thy fountain be blessed\",\n      \"suggested_fix\": \"استبدل «لتكن ينبوعك مباركًا» بـ«ليكن ينبوعك مباركًا» لمطابقة الفعل للاسم المذكر.\",\n      \"translation_quote\": \"لتكن ينبوعك مباركًا\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1842,
+    "content_evidence_truncated": false,
+    "content_sha256": "8546b03b82b28a92af4ab8c7554f2bdfb2ae5b89ea7e8f521b188b8930c9b023",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 511,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 89,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10910,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9807,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11421
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
