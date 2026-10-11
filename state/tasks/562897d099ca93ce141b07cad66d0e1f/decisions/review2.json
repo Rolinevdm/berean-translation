@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: যোহন ৪:১৭-১৮-এর উদ্ধৃতি এবং পরবর্তী দীর্ঘ ব্যাখ্যামূলক অনুচ্ছেদে একই উক্তির পুনরাবৃত্তি",
+      "severity": "minor",
+      "source_quote": "and he whom thou now hast is not thy husband; he whom thou now hast is not thy husband.",
+      "suggested_fix": "উভয় স্থানে “এখন তোমার যাহা আছে, সে তোমার স্বামী নয়” বদলে “এখন তুমি যাহার সঙ্গে আছ, সে তোমার স্বামী নয়” লিখুন; বিদ্যমান HTML ও শাস্ত্র-উল্লেখ অপরিবর্তিত রাখুন।",
+      "translation_quote": "এবং এখন তোমার যাহা আছে, সে তোমার স্বামী নয়; এখন তোমার যাহা আছে, সে তোমার স্বামী নয়।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

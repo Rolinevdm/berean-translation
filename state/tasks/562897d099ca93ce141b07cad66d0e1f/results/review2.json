@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "586e3884-4d85-4546-902a-765a79346379",
+    "response_id": "chatcmpl-EXpwtiN5r8fthBhjRqUbTQHlGT53G",
+    "usage": {
+      "completion_tokens": 351,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 142,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12825,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11722,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13176
+    }
+  },
+  "received_at": "2026-10-11T15:42:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html: যোহন ৪:১৭-১৮-এর উদ্ধৃতি এবং পরবর্তী দীর্ঘ ব্যাখ্যামূলক অনুচ্ছেদে একই উক্তির পুনরাবৃত্তি",
+        "severity": "minor",
+        "source_quote": "and he whom thou now hast is not thy husband; he whom thou now hast is not thy husband.",
+        "suggested_fix": "উভয় স্থানে “এখন তোমার যাহা আছে, সে তোমার স্বামী নয়” বদলে “এখন তুমি যাহার সঙ্গে আছ, সে তোমার স্বামী নয়” লিখুন; বিদ্যমান HTML ও শাস্ত্র-উল্লেখ অপরিবর্তিত রাখুন।",
+        "translation_quote": "এবং এখন তোমার যাহা আছে, সে তোমার স্বামী নয়; এখন তোমার যাহা আছে, সে তোমার স্বামী নয়।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

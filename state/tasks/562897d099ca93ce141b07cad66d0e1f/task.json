@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b8ddcf69ae094509a0197ef91328827f",
   "campaign": "auto-4b33cd1dbeedd483c4016192358b49ddabac6d8c47dab49ad91befac4792460b",
   "created_at": "2026-10-11T06:21:36+00:00",
   "events": [
@@ -48,46 +47,39 @@
         },
         "total_tokens": 20469
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 351,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 142,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12825,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11722,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13176
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "মথি ৫:৩১-৩২ উদ্ধৃতি এবং পরবর্তী অনুচ্ছেদের প্রথম বোল্ড বাক্যাংশ",
-      "severity": "major",
-      "source_quote": "saving for the cause of fornication ... “Saving for the cause of fornication”",
-      "suggested_fix": "উদ্ধৃতিতে “যে কেহ ব্যভিচার ছাড়া অন্য কারণে” বদলে “যে কেহ বিবাহপূর্ব অবৈধ যৌনাচার ছাড়া অন্য কারণে” এবং পরবর্তী বোল্ড বাক্যাংশে “ব্যভিচার ছাড়া অন্য কারণে” বদলে “বিবাহপূর্ব অবৈধ যৌনাচার ছাড়া অন্য কারণে” লিখুন, যাতে লেখকের fornication ও adultery-এর পার্থক্য বজায় থাকে।",
-      "translation_quote": "যে কেহ ব্যভিচার ছাড়া অন্য কারণে ... “ব্যভিচার ছাড়া অন্য কারণে”"
-    },
-    {
-      "location": "দ্বিতীয় বিবরণ ২৪:১-৪ উদ্ধৃতি",
-      "severity": "major",
-      "source_quote": "she find no favour in his eyes, because he hath found some uncleanness in her",
-      "suggested_fix": "“আর পরে যদি তাহার প্রতি অনুগ্রহ না পায়, কারণ সে তাহার মধ্যে কোনো অশুচি বিষয় পাইয়াছে” বদলে “আর পরে যদি স্ত্রী তাহার স্বামীর চোখে অনুগ্রহ না পায়, কারণ স্বামী তাহার মধ্যে কোনো অশুচি বিষয় পাইয়াছে” লিখুন।",
-      "translation_quote": "আর পরে যদি তাহার প্রতি অনুগ্রহ না পায়, কারণ সে তাহার মধ্যে কোনো অশুচি বিষয় পাইয়াছে"
-    },
-    {
-      "location": "হোশেয় ১:২ উদ্ধৃতি",
-      "severity": "major",
-      "source_quote": "Go, take unto thee a wife of whoredoms and children of whoredoms",
-      "suggested_fix": "“যাও, এক বেশ্যার স্ত্রী ও বেশ্যার সন্তান গ্রহণ কর” বদলে “যাও, ব্যভিচারিণী এক নারীকে স্ত্রী হিসাবে গ্রহণ কর এবং ব্যভিচারজাত সন্তানদের গ্রহণ কর” লিখুন।",
-      "translation_quote": "যাও, এক বেশ্যার স্ত্রী ও বেশ্যার সন্তান গ্রহণ কর"
-    },
-    {
-      "location": "১ করিন্থীয় ৭:১০-১১ উদ্ধৃতির পরের ব্যাখ্যা",
-      "severity": "major",
-      "source_quote": "frees the innocent spouse from biblical guilt",
-      "suggested_fix": "“বাইবেলীয় অপরাধবোধ থেকে মুক্তি দেয়” বদলে “বাইবেলের বিচারে দোষী হওয়া থেকে মুক্ত রাখে” লিখুন।",
-      "translation_quote": "নির্দোষ স্বামী বা স্ত্রীকে বাইবেলীয় অপরাধবোধ থেকে মুক্তি দেয়"
-    },
-    {
-      "location": "শেষের আগের অনুচ্ছেদের শেষ বাক্য",
-      "severity": "major",
-      "source_quote": "we should fall on our knees in support and sincere gratitude to our Heavenly Father",
-      "suggested_fix": "শেষ বাক্যটি করুন: “ভগ্ন সম্পর্কের জন্য অনুতপ্ত হয়ে পুনর্মিলনের ঈশ্বরভক্ত আকাঙ্ক্ষা যখন থাকে, তখন সেই পুনর্মিলনের সমর্থনে এবং আমাদের স্বর্গীয় পিতার প্রতি আন্তরিক কৃতজ্ঞতায় আমাদের নতজানু হওয়া উচিত।”",
-      "translation_quote": "আমাদের স্বর্গীয় পিতার প্রতি সমর্থন ও আন্তরিক কৃতজ্ঞতা জানিয়ে নতজানু হওয়া উচিত।"
+      "location": "translation.html: যোহন ৪:১৭-১৮-এর উদ্ধৃতি এবং পরবর্তী দীর্ঘ ব্যাখ্যামূলক অনুচ্ছেদে একই উক্তির পুনরাবৃত্তি",
+      "severity": "minor",
+      "source_quote": "and he whom thou now hast is not thy husband; he whom thou now hast is not thy husband.",
+      "suggested_fix": "উভয় স্থানে “এখন তোমার যাহা আছে, সে তোমার স্বামী নয়” বদলে “এখন তুমি যাহার সঙ্গে আছ, সে তোমার স্বামী নয়” লিখুন; বিদ্যমান HTML ও শাস্ত্র-উল্লেখ অপরিবর্তিত রাখুন।",
+      "translation_quote": "এবং এখন তোমার যাহা আছে, সে তোমার স্বামী নয়; এখন তোমার যাহা আছে, সে তোমার স্বামী নয়।"
     }
   ],
+  "finished_at": "2026-10-11T15:42:58+00:00",
   "id": "562897d099ca93ce141b07cad66d0e1f",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ben",
@@ -176,7 +168,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -195,7 +187,7 @@
     "total_reserved_usd": 0.857141,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
   "translation_model_actual": "gpt-6.1-sol"
