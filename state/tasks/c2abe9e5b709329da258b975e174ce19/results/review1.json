@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "8137a9b3-5d5b-47ab-aff4-0951807983b1",
+    "response_id": "chatcmpl-EXqRQPKO2Z7AWdy7wyulQHhdKaS31",
+    "usage": {
+      "completion_tokens": 326,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 57,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9254,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8151,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9580
+    }
+  },
+  "received_at": "2026-10-11T18:01:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, blockquote, erster Absatz",
+        "severity": "minor",
+        "source_quote": "but to them you will be Jesus ‘with skin on’.",
+        "suggested_fix": "Ersetze „Jesus ‚mit Haut und Haaren‘“ durch „Jesus ‚zum Anfassen‘“.",
+        "translation_quote": "aber für sie wirst du Jesus ‚mit Haut und Haaren‘ sein."
+      },
+      {
+        "location": "translation.html, erste Liste, dritter Listenpunkt",
+        "severity": "minor",
+        "source_quote": "Their hearts are heavy while the mood of others is lighthearted, making them feel even more despondent.",
+        "suggested_fix": "Halte die zuvor verwendete Einzahl bei: „Sein Herz ist schwer, während die anderen unbeschwert sind, und dadurch fühlt er sich noch niedergeschlagener.“",
+        "translation_quote": "Ihr Herz ist schwer, während die anderen unbeschwert sind, und dadurch verzweifeln sie noch mehr."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

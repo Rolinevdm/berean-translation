@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, blockquote, erster Absatz",
+      "severity": "minor",
+      "source_quote": "but to them you will be Jesus ‘with skin on’.",
+      "suggested_fix": "Ersetze „Jesus ‚mit Haut und Haaren‘“ durch „Jesus ‚zum Anfassen‘“.",
+      "translation_quote": "aber für sie wirst du Jesus ‚mit Haut und Haaren‘ sein."
+    },
+    {
+      "location": "translation.html, erste Liste, dritter Listenpunkt",
+      "severity": "minor",
+      "source_quote": "Their hearts are heavy while the mood of others is lighthearted, making them feel even more despondent.",
+      "suggested_fix": "Halte die zuvor verwendete Einzahl bei: „Sein Herz ist schwer, während die anderen unbeschwert sind, und dadurch fühlt er sich noch niedergeschlagener.“",
+      "translation_quote": "Ihr Herz ist schwer, während die anderen unbeschwert sind, und dadurch verzweifeln sie noch mehr."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T18:01:13+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, blockquote, erster Absatz\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"but to them you will be Jesus ‘with skin on’.\",\n      \"suggested_fix\": \"Ersetze „Jesus ‚mit Haut und Haaren‘“ durch „Jesus ‚zum Anfassen‘“.\",\n      \"translation_quote\": \"aber für sie wirst du Jesus ‚mit Haut und Haaren‘ sein.\"\n    },\n    {\n      \"location\": \"translation.html, erste Liste, dritter Listenpunkt\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Their hearts are heavy while the mood of others is lighthearted, making them feel even more despondent.\",\n      \"suggested_fix\": \"Halte die zuvor verwendete Einzahl bei: „Sein Herz ist schwer, während die anderen unbeschwert sind, und dadurch fühlt er sich noch niedergeschlagener.“\",\n      \"translation_quote\": \"Ihr Herz ist schwer, während die anderen unbeschwert sind, und dadurch verzweifeln sie noch mehr.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 97\n}",
+    "content_bytes": 1018,
+    "content_evidence_truncated": false,
+    "content_sha256": "25fcfd1755a30e3952b4c46e0e510504ff1522553d7b8f24b61bf98468315e2f",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 326,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 57,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9254,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8151,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9580
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
