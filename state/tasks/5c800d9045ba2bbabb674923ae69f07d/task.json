@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "63676e3594fd4ea6a42df906b4a79031",
   "campaign": "auto-6aae627acf33fab625f004f4e78b0fac2e6899cd06ba5b1dc41e7142cbfa4800",
   "created_at": "2026-10-11T06:21:30+00:00",
   "events": [
@@ -68,18 +67,46 @@
         },
         "total_tokens": 29562
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1077,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 924,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 19522,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 18419,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 20599
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Библейская цитата о духовном обновлении, абзац 3",
-      "severity": "major",
-      "source_quote": "Wilt thou not revive us again: that thy people may rejoice in thee? Ps. 85:6",
-      "suggested_fix": "Заменить ссылку «Пс. 84:7» на «Пс. 85:6», сохранив перевод цитаты.",
-      "translation_quote": "Не оживишь ли нас опять, чтобы народ Твой возрадовался о Тебе? Пс. 84:7"
+      "location": "Conclusion, third attitude paragraph",
+      "severity": "minor",
+      "source_quote": "We can choose to walk humbly.",
+      "suggested_fix": "Мы можем избрать смиренный путь.",
+      "translation_quote": "Мы можем смиренно идти своим путём."
+    },
+    {
+      "location": "Closing poem, third stanza, line 2",
+      "severity": "minor",
+      "source_quote": "The highest, holiest manhood, Thou.",
+      "suggested_fix": "Ты — высшее и святейшее воплощение человеческой природы.",
+      "translation_quote": "Ты — высшее, святейшее человечество."
     }
   ],
+  "finished_at": "2026-10-11T18:00:38+00:00",
   "id": "5c800d9045ba2bbabb674923ae69f07d",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "rus",
@@ -168,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +215,7 @@
     "total_reserved_usd": 0.134848,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
   "translation_model_actual": "gpt-6-luna"

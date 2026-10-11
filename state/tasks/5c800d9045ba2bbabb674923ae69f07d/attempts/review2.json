@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T18:00:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Conclusion, third attitude paragraph\",\"severity\":\"minor\",\"source_quote\":\"We can choose to walk humbly.\",\"suggested_fix\":\"Мы можем избрать смиренный путь.\",\"translation_quote\":\"Мы можем смиренно идти своим путём.\"},{\"location\":\"Closing poem, third stanza, line 2\",\"severity\":\"minor\",\"source_quote\":\"The highest, holiest manhood, Thou.\",\"suggested_fix\":\"Ты — высшее и святейшее воплощение человеческой природы.\",\"translation_quote\":\"Ты — высшее, святейшее человечество.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 683,
+    "content_evidence_truncated": false,
+    "content_sha256": "6ecf22cab85e775382cdeabb9258cc4ad82b7ea6c4ac7be13e4c7a7e44be36b0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1077,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 924,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 19522,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 18419,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 20599
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

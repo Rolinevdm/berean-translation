@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Conclusion, third attitude paragraph",
+      "severity": "minor",
+      "source_quote": "We can choose to walk humbly.",
+      "suggested_fix": "Мы можем избрать смиренный путь.",
+      "translation_quote": "Мы можем смиренно идти своим путём."
+    },
+    {
+      "location": "Closing poem, third stanza, line 2",
+      "severity": "minor",
+      "source_quote": "The highest, holiest manhood, Thou.",
+      "suggested_fix": "Ты — высшее и святейшее воплощение человеческой природы.",
+      "translation_quote": "Ты — высшее, святейшее человечество."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
