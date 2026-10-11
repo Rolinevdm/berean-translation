@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "310b0f8ef07f43c18379d1d4765ce705",
   "campaign": "auto-fdce92c8c31243b05a540ec4b058bce00add0f91aeca3b9300004f3d9a2e4833",
   "created_at": "2026-10-10T19:18:15+00:00",
   "events": [
@@ -48,32 +47,31 @@
         },
         "total_tokens": 12739
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 63,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 31,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8452,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7349,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8515
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, cita de 1 Samuel 17:34-36",
-      "severity": "major",
-      "source_quote": "there came a lion, and a bear ... Thy servant slew both the lion and the bear",
-      "suggested_fix": "Traducir la cita como hechos concretos del pasado, no como situaciones habituales o alternativas: «…Tu siervo cuidaba las ovejas de su padre, y vino un león, y un oso, y tomó un cordero del rebaño. Salí tras él, lo herí y libré al cordero de su boca; y cuando se levantó contra mí, lo agarré por la barba, lo herí y lo maté. Tu siervo mató tanto al león como al oso; y este filisteo incircunciso será como uno de ellos, porque ha desafiado a los ejércitos del Dios viviente —1 Samuel 17:34-36». Conservar el párrafo y la referencia existentes.",
-      "translation_quote": "cuando venía un león, o un oso ... y si se levantaba contra mí ... Fuese león, fuese oso, tu siervo lo mataba"
-    },
-    {
-      "location": "html, cita de 1 Samuel 17:38-39",
-      "severity": "major",
-      "source_quote": "Saul armed David with his armour ... David girded his sword upon his armour",
-      "suggested_fix": "Sustituir «vistió a David con sus ropas» por «equipó a David con su armadura», y «sobre sus ropas» por «sobre su armadura», conservando el resto del párrafo y su referencia.",
-      "translation_quote": "Saúl vistió a David con sus ropas ... ciñó David su espada sobre sus ropas"
-    },
-    {
-      "location": "html, párrafo que introduce 1 Samuel 17:37",
-      "severity": "minor",
-      "source_quote": "David here is super confident, but why?!",
-      "suggested_fix": "Sustituir «David está muy seguro de sí mismo aquí» por «David muestra aquí una gran confianza», para no atribuirle confianza en sí mismo cuando el argumento distingue esa confianza de la confianza en Dios.",
-      "translation_quote": "David está muy seguro de sí mismo aquí, pero ¿por qué?"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-11T00:33:16+00:00",
   "id": "00e5d897528f2a07e1a8eadef4a0c8df",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "spa",
@@ -162,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -181,7 +179,7 @@
     "total_reserved_usd": 0.758054,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
   "translation_model_actual": "gpt-6.1-sol"
