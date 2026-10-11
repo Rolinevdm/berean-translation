@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T20:20:09+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"783fddfc-86ed-44d9-b13e-e4adea31a5d5\\\">\\n  <blockquote>\\n    <p>Devemos reduzir o nosso volume aos simples evangelistas, selecionar, até mesmo entre eles, somente as próprias palavras de Jesus, eliminando as anfibologias [ambiguidades] em que foram induzidos a incorrer .... Restará o mais sublime e benevolente código de moral já oferecido ao homem. Realizei essa operação para meu próprio uso, recortando versículo por versículo do livro impresso e organizando o material que é evidentemente Dele e que se distingue com a mesma facilidade que diamantes num monte de esterco.</p>\\n  </blockquote>\\n  <p>Foi o que escreveu Thomas Jefferson sobre seu projeto de expurgar a Bíblia das concepções equivocadas e falsas interpretações apresentadas pelos próprios escritores dos quatro Evangelhos. Quando terminou de usar sua navalha (sim, ele literalmente usou uma navalha para recortar e colar as seções que queria!), Jefferson havia eliminado com sucesso qualquer referência a anjos, genealogia, profecia, milagres, à ressurreição e à divindade de Jesus. As palavras finais da Bíblia de Jefferson são: “Ora, no lugar onde ele foi crucificado, havia um jardim; e no jardim, um sepulcro novo, no qual nunca fora posto homem algum. Ali puseram Jesus. E rolaram uma grande pedra até a entrada do sepulcro e foram embora.”</p>\\n  <p>Uma Bíblia sem ressurreição! Thomas Jefferson escolheu a dedo aquilo em que queria acreditar. Queria uma Bíblia despojada de tudo o que não estivesse diretamente relacionado a Jesus.</p>\\n  <p>Percival Everett conta o que realmente aconteceu:</p>\\n  <blockquote>\\n    <p>Ele decidiu que as regras do clube ao qual queria pertencer não eram as regras pelas quais queria jogar. Assim, em vez de mudar de clube, mudou o livro de regras, literalmente recortando e colando apenas as seções que considerava relevantes para sua interpretação.</p>\\n  </blockquote>\\n  <p>Percebeu isso? Em vez de criar uma Bíblia cristocêntrica, Thomas Jefferson criou uma Bíblia jeffersoncêntrica!</p>\\n  <p>Embora provavelmente nenhum de nós use literalmente uma navalha em nossas Bíblias, será que fazemos isso em nossa mente? Procuramos mudar as regras do clube (o reino de Deus) ou buscamos mudar de clube (nascer no reino pelo poder do Espírito Santo)? ~</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"A Bíblia de Jefferson\"}",
+    "content_bytes": 2429,
+    "content_evidence_truncated": false,
+    "content_sha256": "2e08cacd3b64430e5a3d30abcc5fdbe8f32261759f5a536c5c9f0d55f677de54",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 594,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1356,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1353,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1950
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
