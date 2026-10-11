@@ -3586,6 +3586,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
+      "html_sha256": "4aba3399841e2bd2c478c7628cd7ffb1b2c52582e4e7270820d4ba838bc172de",
+      "human_reviewed": false,
+      "id": "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd",
+      "images": [
+        {
+          "alt": "’n Plakkaat van geskeurde papier met die woorde ‘GESOEK: Dood of lewend — Christelike tradisies’; ‘Dood of’ is deurgehaal en ‘Lewend’ is omring",
+          "public_path": "/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.json",
+      "metadata_sha256": "19d85365df492dc178e2f891ec3f58e8652e56db022e90637247076fcc7f907b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Tradisies: Is hulle goed of sleg?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "845eec50f7e11e541be045c4fe77d163a02e32b3326e72992a824eba8ffbade9",
       "human_reviewed": false,
@@ -16090,6 +16118,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Erlöst",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
+      "html_sha256": "51570db62f2cde687a351363bc7fa2a2dad374cac93fc3b6b2458772d1d0fbb3",
+      "human_reviewed": false,
+      "id": "d0898011-fe8b-4c35-9aac-12c20ec0d950",
+      "images": [
+        {
+          "alt": "Menschen knien während einer Erweckungsversammlung im Gebet",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-1.jpg"
+        },
+        {
+          "alt": "Eine aufgeschlagene historische Bibel",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.json",
+      "metadata_sha256": "0a1aa8e576f50ca0b61f24d8b2beabf81c2d36c871cfb55318ab3c7a012ac03e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Pentagonales Christentum",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -29207,6 +29267,29 @@
       "subtitle": null,
       "title": "गड़गड़ाहट, टॉर्नेडो और भरोसा",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.html",
+      "html_sha256": "b72bbc419d2b91a1c72b862582457e271154bae994f75ca34825d0c630625f43",
+      "human_reviewed": false,
+      "id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "images": [],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.json",
+      "metadata_sha256": "0c0ad5a4ccf4ca2ac087f8c89f8731f9764853b3a2f967f3a94c261ab50d0961",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "भक्तिमय घर",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
+      "status": "ready",
+      "subtitle": null,
+      "title": "वे अब दो नहीं रहे",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -52824,6 +52907,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
+      "html_sha256": "08638e7b552d0e2dfff304c6e68b3282312ae4bc93fbf448bf0bd381dcd9ae39",
+      "human_reviewed": false,
+      "id": "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd",
+      "images": [
+        {
+          "alt": "Cartaz de papel rasgado com os dizeres ‘PROCURA-SE: tradições cristãs mortas ou vivas’, com ‘mortas ou’ riscado e ‘vivas’ circulado",
+          "public_path": "/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.json",
+      "metadata_sha256": "0263b3c6bc9d83796ef45a2db83c3ad755d54b7277d22257822574fccddff44a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Tradições: são boas ou más?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/e848a36d-36eb-4f7d-aea7-e17ab34a8870.html",
       "html_sha256": "857e5a14dcf6ebefb8db52b1254fa512cb13ac8a9d709602ee60a530ca22e1fd",
       "human_reviewed": false,
@@ -52964,6 +53075,29 @@
       "subtitle": null,
       "title": "Trovões, Tornados e Confiança",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.html",
+      "html_sha256": "f561a0a069622d04af18be79935a3bbc543a35edc20b552fbb4836360d115407",
+      "human_reviewed": false,
+      "id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "images": [],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.json",
+      "metadata_sha256": "922fad7f9a20018b20e4088467c408c79485257da57e23f75963bf38c150da52",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "O LAR PIEDOSO",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Já Não São Dois",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -56459,6 +56593,34 @@
       "subtitle": null,
       "title": "От редактора",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
+      "html_sha256": "9f31e8c303f065214f651bee19e1c8553ec74ef145a159b3cbbc9a0e0bc185d7",
+      "human_reviewed": false,
+      "id": "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd",
+      "images": [
+        {
+          "alt": "Плакат из рваной бумаги с надписью «РОЗЫСК: мёртвые или живые — христианские традиции», где слова „мёртвые или“ зачёркнуты, а слово „живые“ обведено",
+          "public_path": "/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.json",
+      "metadata_sha256": "a3afe2d38cb702c46181a8bff316537fa24f24b58ea1ff245ffcbfa9706fcaa0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Традиции: хороши они или плохи?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -60646,6 +60808,34 @@
       "subtitle": null,
       "title": "Coronadle con muchas coronas",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
+      "html_sha256": "18a2c9180f851a5a15b7e2ff1edfde00dc2c67352754b1c4f8ff97e094f8daaa",
+      "human_reviewed": false,
+      "id": "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd",
+      "images": [
+        {
+          "alt": "Cartel de papel rasgado que dice «SE BUSCA: tradiciones cristianas, vivas o muertas», con «muertas o» tachado y «vivas» rodeado con un círculo",
+          "public_path": "/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.json",
+      "metadata_sha256": "202e6e65ec473d836e16f871e17fa4e262633f62ba7c38966d81228561a2292c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Tradiciones: ¿son buenas o malas?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -66821,6 +67011,34 @@
       "subtitle": null,
       "title": "Crown Him with Many Crowns",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
+      "html_sha256": "5e48d0fda0aef5419a1df1c7590d8c45fdfcefb1d394a3fdb3316d3c0ce9f2c4",
+      "human_reviewed": false,
+      "id": "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd",
+      "images": [
+        {
+          "alt": "En affisch av trasigt papper med texten ’EFTERLYSES, död eller levande: kristna traditioner’, där ’död eller’ är överstruket och ’levande’ inringat",
+          "public_path": "/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.json",
+      "metadata_sha256": "6523009274b753170f8856928cf3a151372997def50a29b6d84c0a718ef24f60",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Traditioner: är de bra eller dåliga?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
