@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-11T13:12:27+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: ol, tredje punkt, sitatet fra Malaki 2:14–16\",\n      \"severity\": \"major\",\n      \"source_quote\": \"And did not he make one? ... That he might seek a godly seed.\",\n      \"suggested_fix\": \"Erstatt «Var det ikke én som gjorde henne?» med «Gjorde han dem ikke til ett?» og «en guddommelig ætt» med «en gudfryktig ætt». Behold HTML-strukturen.\",\n      \"translation_quote\": \"Var det ikke én som gjorde henne? ... For at han skulle søke en guddommelig ætt.\"\n    },\n    {\n      \"location\": \"html: første avsnitt under overskriften om Guds syn på skilsmisse\",\n      \"severity\": \"major\",\n      \"source_quote\": \"causeth her to commit adultery\",\n      \"suggested_fix\": \"Erstatt «gjør at hun blir utsatt for ekteskapsbrudd» med «får henne til å begå ekteskapsbrudd».\",\n      \"translation_quote\": \"gjør at hun blir utsatt for ekteskapsbrudd\"\n    },\n    {\n      \"location\": \"html: avsnittet som begynner «I Jeremia 3:8», sitatet fra Malaki 2:11\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Judah hath profaned the holiness of the LORD which he loved\",\n      \"suggested_fix\": \"Erstatt «Juda har vanhelliget Herrens helligdom, som han elsker» med «Juda har vanhelliget Herrens hellighet, som han elsket».\",\n      \"translation_quote\": \"Juda har vanhelliget Herrens helligdom, som han elsker\"\n    },\n    {\n      \"location\": \"html: avsnittet som begynner «Guds Ord holder»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"and must be repented of if we wish to seek God’s forgiveness\",\n      \"suggested_fix\": \"Erstatt «og må det omvendes fra dersom vi ønsker å søke Guds tilgivelse» med «og vi må vende om fra dette dersom vi ønsker å søke Guds tilgivelse».\",\n      \"translation_quote\": \"og må det omvendes fra dersom vi ønsker å søke Guds tilgivelse\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 92\n}",
+    "content_bytes": 1915,
+    "content_evidence_truncated": false,
+    "content_sha256": "344427deff799fbab3a83d52baacbcbe077828acb98e4ee341bc59f9ff02b045",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 606,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 46,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11543,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10440,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12149
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

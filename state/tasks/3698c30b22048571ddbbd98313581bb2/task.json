@@ -5,11 +5,61 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "60cf2e9b9de2412abbd489bea34d311c",
   "campaign": "auto-3b9089510dd10115e0f997cfcf5400f38edf1fdb20d4443cc8fcab115de94a6c",
   "created_at": "2026-10-11T13:07:04+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 606,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 46,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11543,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10440,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12149
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: ol, tredje punkt, sitatet fra Malaki 2:14–16",
+      "severity": "major",
+      "source_quote": "And did not he make one? ... That he might seek a godly seed.",
+      "suggested_fix": "Erstatt «Var det ikke én som gjorde henne?» med «Gjorde han dem ikke til ett?» og «en guddommelig ætt» med «en gudfryktig ætt». Behold HTML-strukturen.",
+      "translation_quote": "Var det ikke én som gjorde henne? ... For at han skulle søke en guddommelig ætt."
+    },
+    {
+      "location": "html: første avsnitt under overskriften om Guds syn på skilsmisse",
+      "severity": "major",
+      "source_quote": "causeth her to commit adultery",
+      "suggested_fix": "Erstatt «gjør at hun blir utsatt for ekteskapsbrudd» med «får henne til å begå ekteskapsbrudd».",
+      "translation_quote": "gjør at hun blir utsatt for ekteskapsbrudd"
+    },
+    {
+      "location": "html: avsnittet som begynner «I Jeremia 3:8», sitatet fra Malaki 2:11",
+      "severity": "major",
+      "source_quote": "Judah hath profaned the holiness of the LORD which he loved",
+      "suggested_fix": "Erstatt «Juda har vanhelliget Herrens helligdom, som han elsker» med «Juda har vanhelliget Herrens hellighet, som han elsket».",
+      "translation_quote": "Juda har vanhelliget Herrens helligdom, som han elsker"
+    },
+    {
+      "location": "html: avsnittet som begynner «Guds Ord holder»",
+      "severity": "minor",
+      "source_quote": "and must be repented of if we wish to seek God’s forgiveness",
+      "suggested_fix": "Erstatt «og må det omvendes fra dersom vi ønsker å søke Guds tilgivelse» med «og vi må vende om fra dette dersom vi ønsker å søke Guds tilgivelse».",
+      "translation_quote": "og må det omvendes fra dersom vi ønsker å søke Guds tilgivelse"
+    }
+  ],
   "id": "3698c30b22048571ddbbd98313581bb2",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "nob",
@@ -98,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +167,7 @@
     "total_reserved_usd": 0.790611,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
   "translation_model_actual": "gpt-6-luna"
