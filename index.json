@@ -52501,6 +52501,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "ddecbe492e9abb14e8de347e20bd79dd55f8f751198217b01dbe391d7abf91c1",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "Старинный циферблат с римскими цифрами и маленькой секундной стрелкой",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "a16064cbe18453c7be15d179007f90cb238d0f81c43192d7de93c08e3f395896",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "Как обычным подросткам извлечь максимум из юности",
+      "title": "Как извлечь максимум из подростковых лет",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.html",
       "html_sha256": "f04246e7413d20fceda0ba3494ec6c9dec7875ea7bac03e6a5b4a3987c4391f6",
       "human_reviewed": false,
