@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة الأولى",
+      "severity": "minor",
+      "source_quote": "“the Rev. Jim Jones and his People’s Temple, a suicide cult.”",
+      "suggested_fix": "«القس جيم جونز ومعبد الشعب، وهي طائفة انتحارية».",
+      "translation_quote": "«القس جيم جونز وكنيسة شعب المعبد، طائفة انتحارية»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
