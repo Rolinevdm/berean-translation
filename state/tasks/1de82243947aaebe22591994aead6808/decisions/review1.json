@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "المسيحانية المركز، الفقرة التي تبدأ «كلا المقطعين»",
+      "severity": "major",
+      "source_quote": "It seems more than logical to understand Jesus Christ to be the primary focal point of the church.",
+      "suggested_fix": "ويبدو من المنطقي جدًا أن نفهم أن يسوع المسيح هو المحور الأساسي للكنيسة.",
+      "translation_quote": "ويبدو أن فهم يسوع المسيح بوصفه محور الكنيسة الأساسي أمر يفوق المعقولية."
+    },
+    {
+      "location": "المسيحانية المركز، الفقرة عن توماس جيفرسون",
+      "severity": "major",
+      "source_quote": "He literally took a razor to the New Testament",
+      "suggested_fix": "فقد استخدم شفرة حلاقة حرفيًا لقصّ العهد الجديد",
+      "translation_quote": "فقد استخدم موسى حرفيًا على العهد الجديد"
+    },
+    {
+      "location": "الاستردادية، الفقرة التي تبدأ «وقد أنجبت الرغبة»",
+      "severity": "major",
+      "source_quote": "Major cults have been founded through restorationist attempts (the Mormons, for example).",
+      "suggested_fix": "وقد تأسست حركات دينية منحرفة كبرى من خلال محاولات استردادية (مثل المورمون).",
+      "translation_quote": "وقد تأسست طوائف كبرى من خلال محاولات استردادية (مثل المورمون)."
+    },
+    {
+      "location": "الخاتمة، الاقتباس البارز والفقرة التي تبدأ «يمكننا اتخاذ موقف»",
+      "severity": "major",
+      "source_quote": "We can choose cynicism, blindness, pride, or humility in our approach to Christianity. / We can take the attitude of cynicism.",
+      "suggested_fix": "يمكننا أن نختار التشاؤم العدمي أو العمى أو الكبرياء أو التواضع في نهجنا للمسيحية. / يمكننا اتخاذ موقف التشاؤم العدمي.",
+      "translation_quote": "يمكننا أن نختار السخرية أو العمى أو الكبرياء أو التواضع في نهجنا للمسيحية. / يمكننا اتخاذ موقف السخرية."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

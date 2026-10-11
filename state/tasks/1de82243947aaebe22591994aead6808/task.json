@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3db13d1fb4694d5da8d270cb50fe6ed7",
   "campaign": "auto-a048626a66801287ec761162e0a63ff6498974689bfdcf6cdc33775f1d7311fa",
   "created_at": "2026-10-11T00:25:50+00:00",
   "events": [
@@ -28,10 +27,59 @@
         },
         "total_tokens": 18760
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1094,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 636,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 19112,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 18009,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 20206
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "المسيحانية المركز، الفقرة التي تبدأ «كلا المقطعين»",
+      "severity": "major",
+      "source_quote": "It seems more than logical to understand Jesus Christ to be the primary focal point of the church.",
+      "suggested_fix": "ويبدو من المنطقي جدًا أن نفهم أن يسوع المسيح هو المحور الأساسي للكنيسة.",
+      "translation_quote": "ويبدو أن فهم يسوع المسيح بوصفه محور الكنيسة الأساسي أمر يفوق المعقولية."
+    },
+    {
+      "location": "المسيحانية المركز، الفقرة عن توماس جيفرسون",
+      "severity": "major",
+      "source_quote": "He literally took a razor to the New Testament",
+      "suggested_fix": "فقد استخدم شفرة حلاقة حرفيًا لقصّ العهد الجديد",
+      "translation_quote": "فقد استخدم موسى حرفيًا على العهد الجديد"
+    },
+    {
+      "location": "الاستردادية، الفقرة التي تبدأ «وقد أنجبت الرغبة»",
+      "severity": "major",
+      "source_quote": "Major cults have been founded through restorationist attempts (the Mormons, for example).",
+      "suggested_fix": "وقد تأسست حركات دينية منحرفة كبرى من خلال محاولات استردادية (مثل المورمون).",
+      "translation_quote": "وقد تأسست طوائف كبرى من خلال محاولات استردادية (مثل المورمون)."
+    },
+    {
+      "location": "الخاتمة، الاقتباس البارز والفقرة التي تبدأ «يمكننا اتخاذ موقف»",
+      "severity": "major",
+      "source_quote": "We can choose cynicism, blindness, pride, or humility in our approach to Christianity. / We can take the attitude of cynicism.",
+      "suggested_fix": "يمكننا أن نختار التشاؤم العدمي أو العمى أو الكبرياء أو التواضع في نهجنا للمسيحية. / يمكننا اتخاذ موقف التشاؤم العدمي.",
+      "translation_quote": "يمكننا أن نختار السخرية أو العمى أو الكبرياء أو التواضع في نهجنا للمسيحية. / يمكننا اتخاذ موقف السخرية."
+    }
+  ],
   "id": "1de82243947aaebe22591994aead6808",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ara",
@@ -120,11 +168,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/aeddb1d51271942bdbe3417e46c90421b08605b5b1d872e8fb0309f7877921c7.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +188,7 @@
     "total_reserved_usd": 0.134855,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
   "translation_model_actual": "gpt-6-luna"
