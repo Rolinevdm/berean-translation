@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b917f7ab91214336a4a8779beca88043",
   "campaign": "auto-9c768b5eddd9e0412313d83ef4100198e846379955ff27055e737c85f1241d0f",
   "created_at": "2026-10-12T00:54:35+00:00",
   "events": [
@@ -28,39 +27,39 @@
         },
         "total_tokens": 29796
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 334,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 109,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 19395,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 18292,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 19729
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Conclusion, paragraphe sur l’approche christocentriste souhaitée",
-      "severity": "major",
-      "source_quote": "I desire a Christocentrism that embraces the entire Bible, involves a vibrant Christian life, is humble in relation to tradition, and that is informed by the vibrant witness of past generations of Christians.",
-      "suggested_fix": "« Toutefois, je souhaite un christocentrisme qui embrasse toute la Bible, s’accompagne d’une vie chrétienne vibrante, soit humble à l’égard de la tradition et soit éclairé par le témoignage vivant des générations chrétiennes passées. »",
-      "translation_quote": "Toutefois, je souhaite un christocentrisme qui embrasse toute la Bible, s’accompagne d’une vie chrétienne vibrante, demeure humble à l’égard de la tradition et se laisse éclairer par le témoignage vivant des générations chrétiennes passées."
-    },
-    {
-      "location": "Restaurationnisme, paragraphe sur les mouvements restaurationnistes",
-      "severity": "major",
-      "source_quote": "Major cults have been founded through restorationist attempts (the Mormons, for example).",
-      "suggested_fix": "« Des sectes majeures ont été fondées à la suite de tentatives restaurationnistes (les mormons, par exemple). »",
-      "translation_quote": "Des sectes majeures ont vu le jour à la suite de tentatives restaurationnistes (les mormons, par exemple)."
-    },
-    {
-      "location": "Christocentrisme, dernier paragraphe avant la chanson country",
-      "severity": "major",
-      "source_quote": "Many are happy to embrace Christ, or the caricature they think of as being Christ.",
-      "suggested_fix": "« Beaucoup sont heureux d’adhérer au Christ, ou à la caricature qu’ils se font du Christ. »",
-      "translation_quote": "Beaucoup sont heureux d’adhérer au Christ, ou à la caricature qu’ils se font du Christ."
-    },
-    {
-      "location": "Traditionalisme, définition de « conservatism »",
-      "severity": "major",
-      "source_quote": "supports minimal and gradual change in society.",
-      "suggested_fix": "« … et prône des changements minimes et graduels dans la société. »",
-      "translation_quote": "… et prône des changements minimaux et progressifs dans la société."
+      "location": "html — Traditionalisme, paragraphe commençant par « Il s’agit de la critique classique »",
+      "severity": "minor",
+      "source_quote": "most of us are aware enough of what the Catholics mean by tradition and the “living teaching authority” of the Catholic Church to interpret Scripture, to find ourselves quite outside of their camp.",
+      "suggested_fix": "Remplacer la fin de la phrase par : « la plupart d’entre nous connaissent assez bien ce que les catholiques entendent par tradition et par “autorité enseignante vivante” de l’Église catholique en matière d’interprétation de l’Écriture pour se situer très loin de leur camp. »",
+      "translation_quote": "la plupart d’entre nous connaissent assez bien ce que les catholiques entendent par tradition et par « autorité enseignante vivante » de l’Église catholique pour interpréter l’Écriture pour se situer très loin de leur camp."
     }
   ],
+  "finished_at": "2026-10-12T07:24:04+00:00",
   "id": "3667030d9617ddc9b9fa1fc4800632d9",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "fra",
@@ -149,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/aeddb1d51271942bdbe3417e46c90421b08605b5b1d872e8fb0309f7877921c7.json",
   "stage": "review2",
   "stage_budget": {
@@ -165,7 +166,7 @@
     "total_reserved_usd": 1.056673,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
   "translation_model_actual": "gpt-6.1-sol"

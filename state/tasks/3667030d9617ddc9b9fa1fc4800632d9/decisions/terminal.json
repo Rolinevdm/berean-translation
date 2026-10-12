@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html — Traditionalisme, paragraphe commençant par « Il s’agit de la critique classique »",
+      "severity": "minor",
+      "source_quote": "most of us are aware enough of what the Catholics mean by tradition and the “living teaching authority” of the Catholic Church to interpret Scripture, to find ourselves quite outside of their camp.",
+      "suggested_fix": "Remplacer la fin de la phrase par : « la plupart d’entre nous connaissent assez bien ce que les catholiques entendent par tradition et par “autorité enseignante vivante” de l’Église catholique en matière d’interprétation de l’Écriture pour se situer très loin de leur camp. »",
+      "translation_quote": "la plupart d’entre nous connaissent assez bien ce que les catholiques entendent par tradition et par « autorité enseignante vivante » de l’Église catholique pour interpréter l’Écriture pour se situer très loin de leur camp."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
