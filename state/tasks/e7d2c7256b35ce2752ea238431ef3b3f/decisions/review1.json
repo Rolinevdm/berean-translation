@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html: בית השיר הראשון, שורה רביעית",
+      "severity": "minor",
+      "source_quote": "Oh, waken and save, I pray!",
+      "suggested_fix": "החליפו את „אנא, עורר והושע אותי!” ב„אנא, התעורר והושע אותי!” כדי לשמר את הפנייה לאדון שיתעורר.",
+      "translation_quote": "אנא, עורר והושע אותי!"
+    },
+    {
+      "location": "html: הפסקה המתחילה „אלוהים יכול להשתמש בצער ובאבל”",
+      "severity": "minor",
+      "source_quote": "We think of the seriousness of life.",
+      "suggested_fix": "החליפו את „אנו חושבים על חומרת החיים” ב„אנו חושבים על כובד הראש שבו יש להתייחס לחיים”.",
+      "translation_quote": "אנו חושבים על חומרת החיים."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T00:46:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html: בית השיר הראשון, שורה רביעית\",\"severity\":\"minor\",\"source_quote\":\"Oh, waken and save, I pray!\",\"suggested_fix\":\"החליפו את „אנא, עורר והושע אותי!” ב„אנא, התעורר והושע אותי!” כדי לשמר את הפנייה לאדון שיתעורר.\",\"translation_quote\":\"אנא, עורר והושע אותי!\"},{\"location\":\"html: הפסקה המתחילה „אלוהים יכול להשתמש בצער ובאבל”\",\"severity\":\"minor\",\"source_quote\":\"We think of the seriousness of life.\",\"suggested_fix\":\"החליפו את „אנו חושבים על חומרת החיים” ב„אנו חושבים על כובד הראש שבו יש להתייחס לחיים”.\",\"translation_quote\":\"אנו חושבים על חומרת החיים.\"}],\"findings_complete\":true,\"passed\":true,\"score\":96}",
+    "content_bytes": 882,
+    "content_evidence_truncated": false,
+    "content_sha256": "ddc5416b45cff69811cfd11fafd387faca70ff89ae92555f36f072fee54ef329",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 365,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 151,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9349,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8246,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9714
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
