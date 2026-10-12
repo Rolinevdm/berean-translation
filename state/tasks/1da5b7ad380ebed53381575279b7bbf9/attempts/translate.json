@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T17:47:51+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6f528c85-5ee6-4ccd-804f-63652b5c3a1d\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png\\\" alt=\\\"Un globe en noir et blanc centré sur l’Afrique\\\">\\n  </figure>\\n  <p>Nous sommes des « chrétiens pour le monde » (mais pas des chrétiens mondains). Nous mettons avant tout l’amour de Dieu pour tous les peuples. Aucune race n’est supérieure à une autre, aucun gouvernement n’est plus aimé qu’un autre, aucun pays ne nous est plus cher qu’un autre. Nous ne faisons pas passer l’économie de notre nation avant l’économie de Dieu. Il nous dit de chercher d’abord son royaume. Il pourvoira alors à nos besoins.</p>\\n  <p>La certitude que des milliards de personnes ne connaissent pas notre Sauveur nous pousse chaque jour à agir. La passion de notre vie, notre désir inextinguible, est de leur faire connaître l’amour de Dieu.</p>\\n  <p>Aucune tâche n’est trop insignifiante pour nous. La seule chose qui nous limite est notre volonté de croire que Dieu peut nous rendre capables de l’accomplir.</p>\\n  <p>Nous nous consacrons entièrement à Jésus-Christ, notre Sauveur et Seigneur. Rien de moins. Nous comprenons que le suivre signifie mourir complètement à nous-mêmes. Être son disciple coûte tout.</p>\\n  <blockquote>\\n    <p>Ne nous donne pas de bénédictions : donne-nous la grâce d’obéir sans réserve à chacun de tes commandements et de tes désirs, jusqu’au dernier.</p>\\n    <p>Ne nous donne pas de statut : donne-nous une place où servir.</p>\\n    <p>Ne nous donne pas des choses à utiliser : utilise-nous.</p>\\n    <p>Ne nous donne pas un manoir où vivre : donne-nous un tremplin pour faire connaître l’amour du Christ au monde entier.</p>\\n    <p>Ne nous donne pas de bons emplois : mets-nous au travail.</p>\\n    <p>Ne nous donne pas le confort : donne-nous tes ordres.</p>\\n    <p>Ne nous donne pas de plaisir : donne-nous du recul.</p>\\n    <p>Ne nous donne pas la satisfaction : enseigne-nous le sacrifice.</p>\\n    <p>Ne nous donne pas de divertissements : rends-nous capables d’agir.</p>\\n    <p>Ne nous donne pas de bons salaires : donne-nous la force d’accomplir ta volonté.</p>\\n  </blockquote>\\n  <p>Notre grande joie dans la vie est de plaire à notre Seigneur — et aucune autre joie ne peut lui être comparée.</p>\\n  <p>Nous en avons assez de jouer à la religion, assez des séminaires et des écoles bibliques qui produisent des penseurs sans les mettre en action, assez d’une vie d’Église réduite à quelques activités régulières et à des sermons qui sonnent bien — comme s’ils étaient évalués en tant que discours — mais n’ont aucune portée réelle, sinon de nous rendre complaisants. La vie n’est pas une période de quelque 70 ans que nous endurons jusqu’au retour du Christ ou jusqu’à ce qu’il nous rappelle à lui, et ce n’est pas non plus un temps pour rechercher notre épanouissement personnel.</p>\\n  <p>Nous ne cherchons pas à nous réaliser nous-mêmes : nous cherchons à voir l’amour de Dieu s’accomplir dans tous les cœurs.</p>\\n  <p>Nous ne revendiquons pas nos droits personnels : nous cherchons à voir tous les peuples libérés.</p>\\n  <p>Nous ne faisons pas de projets : nous recevons des ordres.</p>\\n  <p>Nous ne nous plaignons pas — sauf de l’ingratitude de nos cœurs.</p>\\n  <p>Nous n’avons pas d’excuses : elles limitent Dieu.</p>\\n  <p>Nous ne demandons pas de raisons : nous demandons à assumer nos responsabilités.</p>\\n  <p>Nous ne donnons pas 10 % de nos revenus à Dieu : nous lui donnons tout.</p>\\n  <p>Nous ne travaillons pas pour lui de 8-5 : nous lui appartenons 24 heures par jour.</p>\\n  <p>Nous ne sommes pas des stoïciens : nous souffrons et pleurons quand des êtres chers nous quittent. Mais nous souffrons encore davantage pour ceux qui passent dans l’éternité sans avoir fait de Jésus-Christ leur Seigneur. Nous ne sommes pas des « démissionnaires » parce que nous n’occupons pas d’emplois « respectables et sûrs » : nous sommes entièrement dévoués.</p>\\n  <p>Nous ne sommes pas cyniques. Même s’il y a des questions sans réponse, nous savons que le Christ a toutes les réponses.</p>\\n  <p>Nous ne sommes pas amers. Même si nous avons souffert, le Christ est celui qui nous guérit.</p>\\n  <p>Nous ne passons pas des heures interminables à nous quereller au sujet de questions secondaires, comme les différentes conceptions de l’eschatologie.</p>\\n  <p>Nous ne tirons pas orgueil de l’acquisition de biens.</p>\\n  <p>Nous disons qu’il est vain de parler de disponibilité ou de bonne volonté. Nous préférons obéir et faire le travail plutôt que d’en parler.</p>\\n  <p>-Auteur inconnu (adapté)</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Nous sommes des chrétiens pour le monde\"}",
+    "content_bytes": 4893,
+    "content_evidence_truncated": false,
+    "content_sha256": "cd9bbeb1302322df04dda73b7375655f358c48ad56aa1514dae8f4940a504027",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1464,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 177,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1847,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1844,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3311
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
