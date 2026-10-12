@@ -15341,6 +15341,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
+      "html_sha256": "b686b4beb94e70a70776adec36a8a23dc7807908244754ea1e54ef8dd92c624d",
+      "human_reviewed": false,
+      "id": "719ef93a-7242-445f-8e5b-201567145e20",
+      "images": [
+        {
+          "alt": "Eine medizinische Fachkraft misst den Blutdruck eines älteren Mannes",
+          "public_path": "/images/articles/719ef93a-7242-445f-8e5b-201567145e20-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/719ef93a-7242-445f-8e5b-201567145e20.json",
+      "metadata_sha256": "689776fb97bc9bfa93f0762ac6401cbb8849eeefe853ea2ad211f151d0ee110b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "EIN WORT VOM ARZT",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Lebensende",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac.html",
       "html_sha256": "175ad4b94f2aada5c1ad9accba6f1613bbaad387823ebffc2422634fcc8f5588",
       "human_reviewed": false,
@@ -18890,6 +18918,38 @@
       "subtitle": null,
       "title": "Τι Βλέπεις;",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.html",
+      "html_sha256": "626123f3a16552c31264d121e7491a9e88bcd4ae73150b837b57adda48ab33b0",
+      "human_reviewed": false,
+      "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "images": [
+        {
+          "alt": "Ένα υποβρύχιο που ταξιδεύει στην επιφάνεια της θάλασσας",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg"
+        },
+        {
+          "alt": "Ιστορική απεικόνιση ενός Κουάκερου που αγκαλιάζει έναν ιθαγενή στην Πενσιλβάνια",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.json",
+      "metadata_sha256": "2bf09d4997021e931bd0c57abab646a134f64ca615201cd063b526ae2c5f45ac",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Από τον συντάκτη",
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Από τον συντάκτη",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -40314,6 +40374,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.html",
+      "html_sha256": "604f1572631da23c11addb5e480385d1c4e6d1a4061a0a36a04a32b453fe2d74",
+      "human_reviewed": false,
+      "id": "6f528c85-5ee6-4ccd-804f-63652b5c3a1d",
+      "images": [
+        {
+          "alt": "아프리카를 중심에 둔 흑백 지구본",
+          "public_path": "/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.json",
+      "metadata_sha256": "787189a4e2c52d24868937b52d2afc24a7a0f72252265df75a5608b25a660c96",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "e369a5ff3b588a942e849ecb739ff6a294ac9c00",
+      "source_translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "우리는 세계 그리스도인입니다",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9.html",
       "html_sha256": "1ba47db6a14de18e38dc6952f9302a3e1244cf1ba652de9175b9f275bc61983f",
       "human_reviewed": false,
@@ -44127,6 +44215,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "De roep",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.html",
+      "html_sha256": "6249038d8764d77f12bc1b0a35c95a239e7e84737b22c4b7281a4df3bb60ccec",
+      "human_reviewed": false,
+      "id": "6f528c85-5ee6-4ccd-804f-63652b5c3a1d",
+      "images": [
+        {
+          "alt": "Een zwart-witte wereldbol met Afrika in het midden",
+          "public_path": "/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.json",
+      "metadata_sha256": "142e871aa9f5f2591ee3cb4c7e59800f38fcdc6cfc93800e06f1bb085fe884b8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "e369a5ff3b588a942e849ecb739ff6a294ac9c00",
+      "source_translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wij zijn wereldchristenen",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -51537,6 +51653,38 @@
       "subtitle": "De camponês de Zurique a mártir anabatista",
       "title": "Hans Landis",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "be21f714f4a50017c1b6dc0ba4d267d7076fe2f7535f4074106f189eda2f1b2a",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "Uma obra de arte religiosa histórica com Cristo no centro, rodeado por muitas figuras",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "Ilustração de um homem levantando uma espada sobre outro homem",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "ca45e287e5f45ca46ac8b0b5fe51dae7a3ebba85cba5244b4cbd0120f632694d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "A causa da divisão… e a cura",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,

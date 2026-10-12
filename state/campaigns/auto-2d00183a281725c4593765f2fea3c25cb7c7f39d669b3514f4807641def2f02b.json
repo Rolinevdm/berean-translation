@@ -632,7 +632,7 @@
   },
   "status": "active",
   "task_counts": {
-    "in_batch": 1
+    "queued": 1
   },
   "tasks": [
     "5f192655f50d3a525c05fef55e8cf5d3"
