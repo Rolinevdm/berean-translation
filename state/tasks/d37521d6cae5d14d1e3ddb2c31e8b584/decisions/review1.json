@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Citazione iniziale",
+      "severity": "major",
+      "source_quote": "We must reduce our volume to the simple evangelists",
+      "suggested_fix": "Dobbiamo ridurre il nostro volume ai soli Vangeli",
+      "translation_quote": "Dobbiamo ridurre il nostro volume ai semplici evangelisti"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e1135072-56b4-4681-9bf5-ad4551afe324",
+    "response_id": "chatcmpl-EXvp4BHCaOaQyUUwHALmlNuvpqGW5",
+    "usage": {
+      "completion_tokens": 783,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 684,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2384,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1281,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3167
+    }
+  },
+  "received_at": "2026-10-12T00:28:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Citazione iniziale",
+        "severity": "major",
+        "source_quote": "We must reduce our volume to the simple evangelists",
+        "suggested_fix": "Dobbiamo ridurre il nostro volume ai soli Vangeli",
+        "translation_quote": "Dobbiamo ridurre il nostro volume ai semplici evangelisti"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
