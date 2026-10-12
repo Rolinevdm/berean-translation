@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "blockquote, first paragraph",
+      "severity": "major",
+      "source_quote": "“give us grace to be unquestionably obedient to every last command and desire of Yours.”",
+      "suggested_fix": "Jangan beri kami berkat—berilah kami kasih karunia agar tanpa keraguan menaati setiap perintah dan kehendak-Mu, tanpa terkecuali.",
+      "translation_quote": "“berilah kami kasih karunia untuk menaati setiap perintah dan kehendak-Mu yang terakhir sekalipun, tanpa keraguan.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
