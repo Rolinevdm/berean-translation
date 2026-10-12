@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f750293220d64a3589de6e5882c2d6f9",
   "campaign": "auto-0dab59e2a640cd364eb44df339b6b8d06a53371b8088fd3496baa61016cf5950",
   "created_at": "2026-10-11T20:14:39+00:00",
   "events": [
@@ -48,18 +47,31 @@
         },
         "total_tokens": 11368
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 63,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 31,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7725,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6622,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7788
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: цитата 2 Тимофею 1:7 в разделе «Не поступайте из страха»",
-      "severity": "major",
-      "source_quote": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:7.",
-      "suggested_fix": "В этой цитате заменить «но силы и любви и целомудрия» на «но силы, любви и здравомыслия», сохранив тег <em> и ссылку 2 Тимофею 1:7.",
-      "translation_quote": "Ибо дал нам Бог духа не боязни, но силы и любви и целомудрия — 2 Тимофею 1:7."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-12T00:28:18+00:00",
   "id": "0e01e270379b400cae9b627ba6c3b88b",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "rus",
@@ -148,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -167,7 +179,7 @@
     "total_reserved_usd": 0.766781,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6.1-sol"
