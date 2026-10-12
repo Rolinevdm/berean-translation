@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, stanza 13, line 2",
+      "severity": "minor",
+      "source_quote": "My light will guide your way.",
+      "suggested_fix": "Το φως Μου θα καθοδηγεί τα βήματά σου.",
+      "translation_quote": "Το φως Μου θα οδηγήσει τον δρόμο σου."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

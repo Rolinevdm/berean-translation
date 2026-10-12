@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T00:53:28+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, stanza 13, line 2\",\"severity\":\"minor\",\"source_quote\":\"My light will guide your way.\",\"suggested_fix\":\"Το φως Μου θα καθοδηγεί τα βήματά σου.\",\"translation_quote\":\"Το φως Μου θα οδηγήσει τον δρόμο σου.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 357,
+    "content_evidence_truncated": false,
+    "content_sha256": "1f5b36f441867d8aa92bad2ba424be22c1e1de4a8e2f22747b70da26a8860c13",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 162,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 62,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3719,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2616,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3881
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

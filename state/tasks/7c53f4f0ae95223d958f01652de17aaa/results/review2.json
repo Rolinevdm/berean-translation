@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "abe9f6d3-7098-4960-bc17-4a06f5712582",
+    "response_id": "chatcmpl-EXyYsm4W1HWj1nH0SEl4Ce86RPD1X",
+    "usage": {
+      "completion_tokens": 162,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 62,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3719,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2616,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3881
+    }
+  },
+  "received_at": "2026-10-12T00:53:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, stanza 13, line 2",
+        "severity": "minor",
+        "source_quote": "My light will guide your way.",
+        "suggested_fix": "Το φως Μου θα καθοδηγεί τα βήματά σου.",
+        "translation_quote": "Το φως Μου θα οδηγήσει τον δρόμο σου."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
