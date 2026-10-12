@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "114d721b4cec441899b68f72d074a19c",
   "campaign": "auto-dbf9f81d35214fb7f345ddffac0e3fe3b45ad930217fa96c677a6c35075e843d",
   "created_at": "2026-10-11T15:38:05+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 3136
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 643,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3490,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2387,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4133
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "이미지 대체 텍스트",
+      "severity": "minor",
+      "source_quote": "with ‘Dead or’ crossed out and ‘Alive’ circled",
+      "suggested_fix": "‘죽었든 아니면’에 줄이 그어져 있고 ‘살았든’에는 동그라미가 쳐져 있다",
+      "translation_quote": "‘죽었든’에는 줄이 그어져 있고 ‘살았든’에는 동그라미가 쳐져 있다"
+    }
+  ],
+  "finished_at": "2026-10-12T22:53:31+00:00",
   "id": "5923fde099510258c6d24a9aeae24f1f",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "kor",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/53355702ddab569aed98a9ab0f304db45cd690b45d9e25455e84c6221b4fb3e2.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086829,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
   "translation_model_actual": "gpt-6-luna"

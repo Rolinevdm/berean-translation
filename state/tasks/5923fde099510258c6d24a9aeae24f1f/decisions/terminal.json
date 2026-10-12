@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "이미지 대체 텍스트",
+      "severity": "minor",
+      "source_quote": "with ‘Dead or’ crossed out and ‘Alive’ circled",
+      "suggested_fix": "‘죽었든 아니면’에 줄이 그어져 있고 ‘살았든’에는 동그라미가 쳐져 있다",
+      "translation_quote": "‘죽었든’에는 줄이 그어져 있고 ‘살았든’에는 동그라미가 쳐져 있다"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
