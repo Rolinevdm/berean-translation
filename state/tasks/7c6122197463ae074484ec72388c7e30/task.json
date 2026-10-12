@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dc64d00587ed4614885863f41a2b1b08",
   "campaign": "auto-9cf278cac7633900463a73fded0cc1de97f07eae8435251670d88837fa6b589c",
   "created_at": "2026-10-11T21:48:07+00:00",
   "events": [
@@ -68,18 +67,40 @@
         },
         "total_tokens": 3622
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 839,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 730,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2650,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1547,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3489
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Opening blockquote, first sentence",
+      "location": "Opening blockquote",
       "severity": "major",
       "source_quote": "We must reduce our volume to the simple evangelists",
-      "suggested_fix": "Πρέπει να περιορίσουμε το έργο μας στα απλά Ευαγγέλια",
-      "translation_quote": "Πρέπει να περιοριστούμε στους απλούς ευαγγελιστές"
+      "suggested_fix": "Πρέπει να περιορίσουμε τον τόμο μας στους απλούς ευαγγελιστές",
+      "translation_quote": "Πρέπει να περιορίσουμε το έργο μας στα απλά Ευαγγέλια"
     }
   ],
+  "finished_at": "2026-10-12T00:53:39+00:00",
   "id": "7c6122197463ae074484ec72388c7e30",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ell",
@@ -188,7 +209,7 @@
     "total_reserved_usd": 0.086299,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
   "translation_model_actual": "gpt-6-luna"
