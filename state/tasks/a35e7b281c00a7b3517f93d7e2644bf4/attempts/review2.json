@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T22:53:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf yang dimulai “Kita tidak bekerja bagi-Nya...”\",\"severity\":\"major\",\"source_quote\":\"We don’t work for Him from 8-5—we are His 24 hours of each day.\",\"suggested_fix\":\"Kita tidak bekerja bagi-Nya dari pukul 8-5—kita adalah milik-Nya selama 24 jam setiap hari.\",\"translation_quote\":\"Kita tidak bekerja bagi-Nya dari pukul 8-5—we are milik-Nya selama 24 jam setiap hari.\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 466,
+    "content_evidence_truncated": false,
+    "content_sha256": "b9127e9e45763f5049541d54b25ca45ace6811dc5245027350c1f63cadc1ddf8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 417,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 274,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3492,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2389,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3909
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

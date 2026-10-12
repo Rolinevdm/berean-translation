@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf yang dimulai “Kita tidak bekerja bagi-Nya...”",
+      "severity": "major",
+      "source_quote": "We don’t work for Him from 8-5—we are His 24 hours of each day.",
+      "suggested_fix": "Kita tidak bekerja bagi-Nya dari pukul 8-5—kita adalah milik-Nya selama 24 jam setiap hari.",
+      "translation_quote": "Kita tidak bekerja bagi-Nya dari pukul 8-5—we are milik-Nya selama 24 jam setiap hari."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
