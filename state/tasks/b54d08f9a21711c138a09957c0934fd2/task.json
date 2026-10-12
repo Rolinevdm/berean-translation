@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7afb9e3103a44e58831a85bf16648795",
   "campaign": "auto-abd3e818567141172381b4e6a0ba2878695e8acbc71c1e3a2e5e0fdf58d9f4d7",
   "created_at": "2026-10-11T18:02:46+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 3253
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 454,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 422,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2395,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1292,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2849
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Opening blockquote, first sentence",
-      "severity": "major",
-      "source_quote": "We must reduce our volume to the simple evangelists",
-      "suggested_fix": "我们必须把我们的文本缩减为朴素福音书作者所写的内容",
-      "translation_quote": "我们必须把音量调低到那些朴素的福音传讲者的程度"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-12T00:46:16+00:00",
   "id": "b54d08f9a21711c138a09957c0934fd2",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "cmn",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.086305,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
   "translation_model_actual": "gpt-6-luna"
