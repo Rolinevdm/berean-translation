@@ -1,0 +1,163 @@
+{
+  "article_id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+  "automatic_previous_task": "211b2a490ed8059dc3e28ec9307abda2",
+  "autonomous": true,
+  "autonomous_recovery": true,
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "auto-8b5974fae5c3503127af5db463b629cc63671572a199566a8e89ae03e0176b68",
+  "created_at": "2026-10-12T00:34:45+00:00",
+  "events": [],
+  "findings": [
+    {
+      "location": "প্রথম অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "This sobering reality behooves us to gird up our minds and apply ourselves to maximizing our precious teen years.",
+      "suggested_fix": "এই কঠিন বাস্তবতা আমাদের মনকে দৃঢ় করে মূল্যবান কৈশোরের বছরগুলোকে সর্বোচ্চ কাজে লাগানোর জন্য আত্মনিয়োগ করতে বাধ্য করে।",
+      "translation_quote": "এই গুরুগম্ভীর বাস্তবতা আমাদের মনকে দৃঢ় করে মূল্যবান কৈশোরের বছরগুলোকে সর্বোচ্চ কাজে লাগাতে তাগিদ দেয়।"
+    },
+    {
+      "location": "পঞ্চম অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "There, free from inhibitions and distractions, I would pour out my soul to God.",
+      "suggested_fix": "সেখানে, সংকোচ ও বিক্ষেপ থেকে মুক্ত হয়ে, আমি ঈশ্বরের কাছে আমার অন্তরের সব কথা ঢেলে দিতাম।",
+      "translation_quote": "সেখানে, সংকোচ ও মনোযোগ-বিভ্রান্তি থেকে মুক্ত হয়ে, ঈশ্বরের কাছে আমার অন্তরের সব কথা ঢেলে দিতাম।"
+    },
+    {
+      "location": "নবম অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "The graduate stands in stark contrast to the dropout who quit in first grade because he couldn’t see a measurable change each day.",
+      "suggested_fix": "স্নাতক হওয়া শিক্ষার্থীর সঙ্গে সেই ঝরে-পড়া শিক্ষার্থীর স্পষ্ট বৈপরীত্য দেখা যায়, যে প্রতিদিন মাপা যায় এমন পরিবর্তন দেখতে না পেয়ে প্রথম শ্রেণিতেই পড়া ছেড়ে দিয়েছিল।",
+      "translation_quote": "স্নাতক হওয়া শিক্ষার্থী আর প্রথম শ্রেণিতেই পড়া ছেড়ে দেওয়া শিক্ষার্থীর মধ্যে স্পষ্ট পার্থক্য দেখা যায়—প্রতিদিন মাপা যায় এমন পরিবর্তন দেখতে না পেয়ে যে পড়া ছেড়েছিল।"
+    },
+    {
+      "location": "দ্বাদশ অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "“... for they be idle; therefore they cry, saying, Let us go and sacrifice to our God.”",
+      "suggested_fix": "“... কেননা তাহারা অলস; এই জন্যই তাহারা বলে, চল, আমরা আমাদের ঈশ্বরের উদ্দেশে বলিদান করি।”",
+      "translation_quote": "“... কেননা তাহারা অলস; এই জন্যই তাহারা বলে, চল, আমরা আপনাদের ঈশ্বরের উদ্দেশে বলিদান করি।”"
+    },
+    {
+      "location": "ত্রয়োদশ অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "This story precisely illustrates the devil’s plan for us youth.",
+      "suggested_fix": "এই কাহিনি আমাদের তরুণদের জন্য শয়তানের পরিকল্পনাটি হুবহু তুলে ধরে।",
+      "translation_quote": "এই কাহিনি আমাদের তরুণদের জন্য শয়তানের পরিকল্পনাটি যথাযথভাবে তুলে ধরে।"
+    },
+    {
+      "location": "চতুর্দশ অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "Let us refuse to be swept away in the flurry of activities that prevent us from getting alone with God.",
+      "suggested_fix": "ঈশ্বরের সঙ্গে একান্তে থাকা থেকে আমাদের বিরত রাখে, এমন কাজের তোড়ে ভেসে যেতে আমরা অস্বীকার করি।",
+      "translation_quote": "ঈশ্বরের সঙ্গে একান্তে থাকা থেকে আমাদের বিরত রাখে, এমন কাজের ঘূর্ণিতে ভেসে যেতে অস্বীকার করি।"
+    }
+  ],
+  "id": "a044cbebd6a9808332a9c82349639957",
+  "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+  "language": "ben",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/13544cb6e0d298eda28cfb9b69de769cecac89abc53c344514518a5a4fed3f65.json",
+  "stage": "correct",
+  "stage_budget": {
+    "initial_stage": "correct",
+    "max_candidate_bytes": 120000,
+    "max_findings_bytes": 32768,
+    "stages_usd": {
+      "correct": 0.227605,
+      "review2": 0.367412
+    },
+    "total_reserved_usd": 0.595017,
+    "version": 1
+  },
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+  "translation_model_actual": "gpt-6-luna"
+}
