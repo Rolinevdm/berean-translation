@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "第二部分，雅各书3:13-14引文",
+      "severity": "major",
+      "source_quote": "“glory not, and lie not against the truth.”",
+      "suggested_fix": "将“就不可自夸，也不可抵挡真理”改为“就不可自夸，也不可向真理撒谎”。",
+      "translation_quote": "“就不可自夸，也不可抵挡真理。”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6634b7ff-6f7a-4129-a953-1c0dfc593383",
+    "response_id": "chatcmpl-EXyW5YNLj6PW5v0majFqkBsuTsbOd",
+    "usage": {
+      "completion_tokens": 936,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 808,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7300,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6197,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8236
+    }
+  },
+  "received_at": "2026-10-12T00:53:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "第二部分，雅各书3:13-14引文",
+        "severity": "major",
+        "source_quote": "“glory not, and lie not against the truth.”",
+        "suggested_fix": "将“就不可自夸，也不可抵挡真理”改为“就不可自夸，也不可向真理撒谎”。",
+        "translation_quote": "“就不可自夸，也不可抵挡真理。”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 95
+  }
+}
