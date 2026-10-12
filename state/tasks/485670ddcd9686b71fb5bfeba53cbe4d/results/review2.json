@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "62b7c851-2a12-4a31-bf1a-84a5c617ce36",
+    "response_id": "chatcmpl-EXyOKTfqoat9ZAmiN0uzUz8Ydn5iU",
+    "usage": {
+      "completion_tokens": 888,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 749,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2427,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1324,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3315
+    }
+  },
+  "received_at": "2026-10-12T00:45:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening quotation",
+        "severity": "minor",
+        "source_quote": "“paring off the amphibologisms [ambiguities] into which they have been led”",
+        "suggested_fix": "Replace “שאליהן הובילו אותנו” with “שאליהן הם נקלעו” to preserve that the evangelists were led into the ambiguities.",
+        "translation_quote": "“תוך הסרת העמימויות [המשמעויות הכפולות] שאליהן הובילו אותנו”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

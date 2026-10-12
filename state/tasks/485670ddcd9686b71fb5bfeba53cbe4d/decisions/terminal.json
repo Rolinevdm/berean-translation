@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Opening quotation",
+      "severity": "minor",
+      "source_quote": "“paring off the amphibologisms [ambiguities] into which they have been led”",
+      "suggested_fix": "Replace “שאליהן הובילו אותנו” with “שאליהן הם נקלעו” to preserve that the evangelists were led into the ambiguities.",
+      "translation_quote": "“תוך הסרת העמימויות [המשמעויות הכפולות] שאליהן הובילו אותנו”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
