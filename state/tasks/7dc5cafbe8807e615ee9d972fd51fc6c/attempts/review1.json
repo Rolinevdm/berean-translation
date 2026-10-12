@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T06:43:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf 2 dari kutipan Yakobus 3:13–14; kutipan Yakobus 3:15–16\",\"severity\":\"major\",\"source_quote\":\"“But if ye have bitter envying and strife in your hearts” / “For where envying and strife is”\",\"suggested_fix\":\"Ganti “mementingkan diri sendiri” pada kedua kutipan dengan ungkapan yang berarti “perselisihan” atau “pertikaian”, misalnya “iri hati dan perselisihan”.\",\"translation_quote\":\"“Tetapi jika kamu menyimpan iri hati yang pahit dan mementingkan diri sendiri dalam hatimu” / “di mana ada iri hati dan mementingkan diri sendiri”\"},{\"location\":\"Paragraf kutipan Matius 26:31\",\"severity\":\"major\",\"source_quote\":\"“Smite the shepherd, and the sheep of the flock shall be scattered abroad.”\",\"suggested_fix\":\"Pertahankan bentuk perintah: “Pukullah gembala itu, maka domba-domba kawanan itu akan tercerai-berai.”\",\"translation_quote\":\"“Gembala akan dipukul dan domba-domba kawanan itu akan tercerai-berai.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 1036,
+    "content_evidence_truncated": false,
+    "content_sha256": "36dff197bc2dcb9ab2617807dbcd7e1c3d2ec7e6af66b6a3dcd77c48fe2a36f4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 798,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7557,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6454,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8355
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
