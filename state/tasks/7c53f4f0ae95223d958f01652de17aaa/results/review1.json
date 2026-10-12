@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ec5e8bc0-24d5-48c5-900e-b5ae79c2dd89",
+    "response_id": "chatcmpl-EXyEvo9B3NiCpy1ddeWZQKkjK91Ae",
+    "usage": {
+      "completion_tokens": 266,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3719,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3716,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3985
+    }
+  },
+  "received_at": "2026-10-12T00:34:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, div.poem, stanza 14, final line",
+        "severity": "major",
+        "source_quote": "For My strength and power are manifest,\nWhen these to My will conform.",
+        "suggested_fix": "Replace «Όταν αυτές συμμορφώνονται με το θέλημά Μου» with «Όταν αυτά συμμορφώνονται με το θέλημά Μου», so the pronoun refers back to the hidden things in the storm rather than to God's strength and power.",
+        "translation_quote": "Γιατί η δύναμη και η ισχύς Μου φανερώνονται\n    Όταν αυτές συμμορφώνονται με το θέλημά Μου"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

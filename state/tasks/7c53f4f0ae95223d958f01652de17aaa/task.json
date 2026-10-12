@@ -5,11 +5,40 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ef68f86cc39d47538ae8b97074558dc0",
   "campaign": "auto-7869ad6f9af63d7df8b780ac6068f8363628b34f000854843b84491e14dc5dfb",
   "created_at": "2026-10-12T00:29:40+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 266,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 94,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3719,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3716,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3985
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, div.poem, stanza 14, final line",
+      "severity": "major",
+      "source_quote": "For My strength and power are manifest,\nWhen these to My will conform.",
+      "suggested_fix": "Replace «Όταν αυτές συμμορφώνονται με το θέλημά Μου» with «Όταν αυτά συμμορφώνονται με το θέλημά Μου», so the pronoun refers back to the hidden things in the storm rather than to God's strength and power.",
+      "translation_quote": "Γιατί η δύναμη και η ισχύς Μου φανερώνονται\n    Όταν αυτές συμμορφώνονται με το θέλημά Μου"
+    }
+  ],
   "id": "7c53f4f0ae95223d958f01652de17aaa",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ell",
@@ -98,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/75168da3fa89f5467ca61ae773b9580e23a245400e44d96253e5cb5730c4e37a.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +146,7 @@
     "total_reserved_usd": 0.69589,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
   "translation_model_actual": "gpt-6-luna"
