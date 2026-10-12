@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c2d2ac6732d84cc69ae8008c072615f2",
   "campaign": "auto-6fa91337a602bae1ede94a72abdcec7593437c995ef4c36b233923264f6ab1dd",
   "created_at": "2026-10-12T17:48:57+00:00",
   "events": [
@@ -28,25 +27,31 @@
         },
         "total_tokens": 10556
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 55,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 23,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7235,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6132,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7290
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Section 3, first heading",
-      "severity": "major",
-      "source_quote": "Was your issue a big issue for Jesus?",
-      "suggested_fix": "O assunto era importante para Jesus?",
-      "translation_quote": "O assunto que o preocupava era importante para Jesus?"
-    },
-    {
-      "location": "Section 2, second blockquote and following paragraph",
-      "severity": "minor",
-      "source_quote": "there is confusion and every evil work",
-      "suggested_fix": "aí há confusão e toda espécie de obras más",
-      "translation_quote": "aí há confusão e toda espécie de coisas ruins"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-12T23:00:57+00:00",
   "id": "1105ab243c8543be2f99aa5df5970e0e",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "por",
@@ -135,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/06937d43d82edf4dbc71110987ff1d03b1c2cad3babb7a679114389a1b114e86.json",
   "stage": "review2",
   "stage_budget": {
@@ -151,7 +158,7 @@
     "total_reserved_usd": 0.578888,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
   "translation_model_actual": "gpt-6.1-sol"
