@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d6571e411bb54875a6291033a89824ed",
   "campaign": "auto-1748d05a249bf6a9784fd50b42dfbdfcabf9cf780ed9a2d32f91c3d365dd859a",
   "created_at": "2026-10-12T00:29:26+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 10472
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 588,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 550,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7302,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7299,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7890
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "第二部分，雅各书3:13-14引文",
-      "severity": "major",
-      "source_quote": "“glory not, and lie not against the truth.”",
-      "suggested_fix": "将“就不可自夸，也不可抵挡真理”改为“就不可自夸，也不可向真理撒谎”。",
-      "translation_quote": "“就不可自夸，也不可抵挡真理。”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-12T07:17:39+00:00",
   "id": "0b84caee304cefdf4d877cb053cde4a3",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "cmn",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 95,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.089389,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
   "translation_model_actual": "gpt-6-luna"
