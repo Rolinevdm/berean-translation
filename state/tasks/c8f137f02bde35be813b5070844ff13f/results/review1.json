@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fd3bdbef-029f-461b-914f-bc19ec952115",
+    "response_id": "chatcmpl-EXyPqeQyJCrcutQuqdllt3YhDB2vz",
+    "usage": {
+      "completion_tokens": 523,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 407,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7301,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6198,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7824
+    }
+  },
+  "received_at": "2026-10-12T00:46:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph quoting Matthew 26:31",
+        "severity": "major",
+        "source_quote": "“Smite the shepherd, and the sheep of the flock shall be scattered abroad.”",
+        "suggested_fix": "«Hiere al pastor, y las ovejas del rebaño serán dispersadas».",
+        "translation_quote": "«Heriré al pastor, y las ovejas del rebaño serán dispersadas»."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

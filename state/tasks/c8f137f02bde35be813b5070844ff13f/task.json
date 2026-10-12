@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2d89ec3e829740659ec519339b23cfd1",
   "campaign": "auto-7a9978b86a353d82ab22f35f77aea5cadb61ef2270d6da6a8d9b062f29f09756",
   "created_at": "2026-10-12T00:29:35+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 6947
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 523,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 407,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7301,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6198,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7824
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Final paragraph quoting Matthew 26:31",
+      "severity": "major",
+      "source_quote": "“Smite the shepherd, and the sheep of the flock shall be scattered abroad.”",
+      "suggested_fix": "«Hiere al pastor, y las ovejas del rebaño serán dispersadas».",
+      "translation_quote": "«Heriré al pastor, y las ovejas del rebaño serán dispersadas»."
+    }
+  ],
   "id": "c8f137f02bde35be813b5070844ff13f",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "spa",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/06937d43d82edf4dbc71110987ff1d03b1c2cad3babb7a679114389a1b114e86.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.089388,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
   "translation_model_actual": "gpt-6-luna"
