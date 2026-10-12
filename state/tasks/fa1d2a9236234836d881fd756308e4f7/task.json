@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9c8cf56466494850b4baab8b0938decd",
   "campaign": "auto-15905670a44c8ad7f699e36654bb812639a0a657752ba53e1a5292fe8270418d",
   "created_at": "2026-10-12T00:29:29+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 5225
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 64,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 32,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3745,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2642,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3809
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article, paragraph beginning « La “partie” ne fera que s’intensifier »",
-      "severity": "major",
-      "source_quote": "Re. 12:5-6, 11",
-      "suggested_fix": "Ap. 12:5-6, 11",
-      "translation_quote": "Ap. 12:6, 11"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-12T00:46:02+00:00",
   "id": "fa1d2a9236234836d881fd756308e4f7",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "fra",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/80442ae0c5e3e1a925fb90808c2742734db7c58ca3d9c73b4b70bd3e81161fb0.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.551374,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
   "translation_model_actual": "gpt-6.1-sol"
