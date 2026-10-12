@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة الأولى من الفقرة الرابعة؛ اسم فلافian",
+      "severity": "major",
+      "source_quote": "they turned to their leading opponent, Flavian",
+      "suggested_fix": "استبدل «فلافian» بـ«فلافيان».",
+      "translation_quote": "التفتوا إلى خصمهم الأبرز، فلافian"
+    },
+    {
+      "location": "الفقرة الخامسة، والاقتباس المصوّر، والفقرة الأخيرة من البند الأول، والفقرة الأخيرة من البند الثاني؛ صيغة الاقتباس المتكررة",
+      "severity": "major",
+      "source_quote": "May those who divide Christ be divided with the sword.",
+      "suggested_fix": "استبدل «ليُقسَم بالسيف الذين يقسمون المسيح» بـ«ليُقسَّم بالسيف الذين يقسمون المسيح» في المواضع الأربعة، لضبط معنى «يُقسَّم» وتجنب التباسه بفعل القَسَم.",
+      "translation_quote": "«ليُقسَم بالسيف الذين يقسمون المسيح»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

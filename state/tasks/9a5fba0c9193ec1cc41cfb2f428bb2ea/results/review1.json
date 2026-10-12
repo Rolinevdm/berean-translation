@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "53832d21-3605-476c-b29c-7d69e26f3eeb",
+    "response_id": "chatcmpl-EY4kep3Lgz8QaCQ2X4yuDmKsldpgo",
+    "usage": {
+      "completion_tokens": 761,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7553,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6450,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8314
+    }
+  },
+  "received_at": "2026-10-12T16:02:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة الأولى من الفقرة الرابعة؛ اسم فلافian",
+        "severity": "major",
+        "source_quote": "they turned to their leading opponent, Flavian",
+        "suggested_fix": "استبدل «فلافian» بـ«فلافيان».",
+        "translation_quote": "التفتوا إلى خصمهم الأبرز، فلافian"
+      },
+      {
+        "location": "الفقرة الخامسة، والاقتباس المصوّر، والفقرة الأخيرة من البند الأول، والفقرة الأخيرة من البند الثاني؛ صيغة الاقتباس المتكررة",
+        "severity": "major",
+        "source_quote": "May those who divide Christ be divided with the sword.",
+        "suggested_fix": "استبدل «ليُقسَم بالسيف الذين يقسمون المسيح» بـ«ليُقسَّم بالسيف الذين يقسمون المسيح» في المواضع الأربعة، لضبط معنى «يُقسَّم» وتجنب التباسه بفعل القَسَم.",
+        "translation_quote": "«ليُقسَم بالسيف الذين يقسمون المسيح»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
