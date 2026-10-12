@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "blockquote, first paragraph",
+      "severity": "minor",
+      "source_quote": "give us grace to be unquestionably obedient to every last command and desire of Yours.",
+      "suggested_fix": "복을 주시기보다 주님의 모든 명령과 뜻 하나하나에 의심의 여지 없이 순종할 은혜를 주소서.",
+      "translation_quote": "복을 주시기보다 주님의 마지막 명령과 뜻 하나하나에 의심의 여지 없이 순종할 은혜를 주소서."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

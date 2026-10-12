@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42d12ad5f9f247c9b1a3d23d2f007ec9",
   "campaign": "auto-184484dde4932a8d2230b8c34106bb6fc475ee97c5b5c0c432b2d43ad2132fab",
   "created_at": "2026-10-12T17:55:08+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 3415
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 762,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 621,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3650,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3647,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4412
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "blockquote, first paragraph",
+      "severity": "minor",
+      "source_quote": "give us grace to be unquestionably obedient to every last command and desire of Yours.",
+      "suggested_fix": "복을 주시기보다 주님의 모든 명령과 뜻 하나하나에 의심의 여지 없이 순종할 은혜를 주소서.",
+      "translation_quote": "복을 주시기보다 주님의 마지막 명령과 뜻 하나하나에 의심의 여지 없이 순종할 은혜를 주소서."
+    }
+  ],
+  "finished_at": "2026-10-12T23:00:41+00:00",
   "id": "4ed5ef34c3f41a38846e611d0847a175",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "kor",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/2b585f5799c38813b90c16b41843870b77de78691e5c78b99355ba8575eb3398.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086794,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
   "translation_model_actual": "gpt-6-luna"

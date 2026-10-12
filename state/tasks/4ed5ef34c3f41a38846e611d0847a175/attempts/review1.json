@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T23:00:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"blockquote, first paragraph\",\"severity\":\"minor\",\"source_quote\":\"give us grace to be unquestionably obedient to every last command and desire of Yours.\",\"suggested_fix\":\"복을 주시기보다 주님의 모든 명령과 뜻 하나하나에 의심의 여지 없이 순종할 은혜를 주소서.\",\"translation_quote\":\"복을 주시기보다 주님의 마지막 명령과 뜻 하나하나에 의심의 여지 없이 순종할 은혜를 주소서.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 523,
+    "content_evidence_truncated": false,
+    "content_sha256": "e4bfe2c9addc117d30e06e72dd987595540b3e7760d9e21e1e39af0bfd5f984a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 762,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 621,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3650,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3647,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4412
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
