@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "242fc804181949878984469c5d0f2861",
   "campaign": "auto-b587b95c35d2c464260b7bddfddb6e6021b8e0b78d5cdb88870a2e702d60e1a9",
   "created_at": "2026-10-11T00:30:48+00:00",
   "events": [
@@ -48,9 +47,30 @@
         },
         "total_tokens": 19899
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 10221,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 285,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 19573,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 19570,
+          "cached_tokens": 0
+        },
+        "total_tokens": 29794
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[257]: source /article[1]/p[64]/em[1] ('start', 'em', ()); translation /article[1]/p[64] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Conclusion, paragraphe sur l’approche christocentriste souhaitée",
@@ -81,6 +101,7 @@
       "translation_quote": "… et prône des changements minimaux et progressifs dans la société."
     }
   ],
+  "finished_at": "2026-10-12T00:45:55+00:00",
   "id": "73567b2da5e1f892380e1e7a550e01de",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "fra",
@@ -189,7 +210,7 @@
     "total_reserved_usd": 0.134855,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
   "translation_model_actual": "gpt-6-luna"

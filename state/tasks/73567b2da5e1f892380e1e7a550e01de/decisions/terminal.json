@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Conclusion, paragraphe sur l’approche christocentriste souhaitée",
+      "severity": "major",
+      "source_quote": "I desire a Christocentrism that embraces the entire Bible, involves a vibrant Christian life, is humble in relation to tradition, and that is informed by the vibrant witness of past generations of Christians.",
+      "suggested_fix": "« Toutefois, je souhaite un christocentrisme qui embrasse toute la Bible, s’accompagne d’une vie chrétienne vibrante, soit humble à l’égard de la tradition et soit éclairé par le témoignage vivant des générations chrétiennes passées. »",
+      "translation_quote": "Toutefois, je souhaite un christocentrisme qui embrasse toute la Bible, s’accompagne d’une vie chrétienne vibrante, demeure humble à l’égard de la tradition et se laisse éclairer par le témoignage vivant des générations chrétiennes passées."
+    },
+    {
+      "location": "Restaurationnisme, paragraphe sur les mouvements restaurationnistes",
+      "severity": "major",
+      "source_quote": "Major cults have been founded through restorationist attempts (the Mormons, for example).",
+      "suggested_fix": "« Des sectes majeures ont été fondées à la suite de tentatives restaurationnistes (les mormons, par exemple). »",
+      "translation_quote": "Des sectes majeures ont vu le jour à la suite de tentatives restaurationnistes (les mormons, par exemple)."
+    },
+    {
+      "location": "Christocentrisme, dernier paragraphe avant la chanson country",
+      "severity": "major",
+      "source_quote": "Many are happy to embrace Christ, or the caricature they think of as being Christ.",
+      "suggested_fix": "« Beaucoup sont heureux d’adhérer au Christ, ou à la caricature qu’ils se font du Christ. »",
+      "translation_quote": "Beaucoup sont heureux d’adhérer au Christ, ou à la caricature qu’ils se font du Christ."
+    },
+    {
+      "location": "Traditionalisme, définition de « conservatism »",
+      "severity": "major",
+      "source_quote": "supports minimal and gradual change in society.",
+      "suggested_fix": "« … et prône des changements minimes et graduels dans la société. »",
+      "translation_quote": "… et prône des changements minimaux et progressifs dans la société."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[257]: source /article[1]/p[64]/em[1] ('start', 'em', ()); translation /article[1]/p[64] ('end', 'p')",
+  "stage": "terminal"
+}
