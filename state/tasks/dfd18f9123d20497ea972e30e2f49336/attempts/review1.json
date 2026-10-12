@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T17:47:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph beginning “Jesus sa det godt”\",\"severity\":\"major\",\"source_quote\":\"“Smite the shepherd, and the sheep of the flock shall be scattered abroad.”\",\"suggested_fix\":\"«Slå gjeteren, så skal sauene i flokken bli spredt.»\",\"translation_quote\":\"«Jeg vil slå gjeteren, og sauene i flokken skal bli spredt.»\"}],\"findings_complete\":true,\"passed\":false,\"score\":97}",
+    "content_bytes": 410,
+    "content_evidence_truncated": false,
+    "content_sha256": "b8cee6f24589e21dcd3e601ba9e062892ac4984877fd7200d4eee1accc2e8dc1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 871,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 746,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7503,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 7500
+      },
+      "total_tokens": 8374
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

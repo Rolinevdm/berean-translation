@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “Jesus sa det godt”",
+      "severity": "major",
+      "source_quote": "“Smite the shepherd, and the sheep of the flock shall be scattered abroad.”",
+      "suggested_fix": "«Slå gjeteren, så skal sauene i flokken bli spredt.»",
+      "translation_quote": "«Jeg vil slå gjeteren, og sauene i flokken skal bli spredt.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

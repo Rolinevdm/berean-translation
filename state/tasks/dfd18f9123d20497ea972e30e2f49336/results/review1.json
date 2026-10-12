@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8e6d1f05-45b6-43ab-a4d4-a3ca5db77c03",
+    "response_id": "chatcmpl-EYDNlx2NjLVpvlBN11fd7Y2ZjtfkW",
+    "usage": {
+      "completion_tokens": 871,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 746,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7503,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 7500
+      },
+      "total_tokens": 8374
+    }
+  },
+  "received_at": "2026-10-12T17:47:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning “Jesus sa det godt”",
+        "severity": "major",
+        "source_quote": "“Smite the shepherd, and the sheep of the flock shall be scattered abroad.”",
+        "suggested_fix": "«Slå gjeteren, så skal sauene i flokken bli spredt.»",
+        "translation_quote": "«Jeg vil slå gjeteren, og sauene i flokken skal bli spredt.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 97
+  }
+}
