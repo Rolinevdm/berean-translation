@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T07:24:30+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"783fddfc-86ed-44d9-b13e-e4adea31a5d5\\\">\\n  <blockquote>\\n    <p>Ons moet ons boekwerk beperk tot die eenvoudige evangeliste, en selfs daaruit net die presiese woorde van Jesus kies; ons moet die dubbelsinnighede [ambiguïteite] uitknip waarin hulle verstrik geraak het .... Wat oorbly, sal die mees verhewe en welwillende sedewet wees wat nog ooit aan die mensdom gebied is. Ek het hierdie bewerking vir my eie gebruik gedoen deur vers vir vers uit die gedrukte boek te sny en die materiaal saam te voeg wat ongetwyfeld Syne is en wat net so maklik uitkenbaar is soos diamante in ’n mishoop.</p>\\n  </blockquote>\\n  <p>So het Thomas Jefferson geskryf oor sy projek om die Bybel te suiwer van wanopvattings en valse vertolkings wat deur die skrywers van die vier Evangelies self gegee is. Teen die tyd dat hy klaar was met sy skeermes (ja, hy het letterlik ’n skeermes gebruik om die gedeeltes wat hy wou hê, uit te knip en aan mekaar te plak!), het Jefferson elke verwysing na engele, geslagsregisters, profesie, wonderwerke, die opstanding en die goddelikheid van Jesus suksesvol uitgeskakel. Die laaste woorde van The Jefferson Bible lui: “Nou, op die plek waar Hy gekruisig is, was daar ’n tuin; en in die tuin ’n nuwe graf waarin nog nooit iemand gelê het nie. Daar het hulle Jesus neergelê. En hulle het ’n groot klip voor die ingang van die graf gerol en weggegaan.”</p>\\n  <p>’n Bybel sonder ’n opstanding! Thomas Jefferson het gekies wat hy wou glo. Hy wou ’n Bybel hê waaruit alles verwyder is wat nie direk met Jesus verband hou nie.</p>\\n  <p>Percival Everett vertel wat werklik gebeur het:</p>\\n  <blockquote>\\n    <p>Hy het besluit dat die reëls van die klub waaraan hy wou behoort, nie die reëls was waarvolgens hy wou speel nie. In plaas daarvan om dus van klub te verander, het hy die reëlboek verander deur letterlik net die gedeeltes uit te knip en aan mekaar te plak wat hy as relevant vir sy vertolking beskou het.</p>\\n  </blockquote>\\n  <p>Het jy dit raakgesien? In plaas daarvan om ’n Christosentriese Bybel te skep, het Thomas Jefferson ’n Jeffersonsentriese Bybel geskep!</p>\\n  <p>Hoewel niemand van ons waarskynlik letterlik ’n skeermes op ons Bybels gebruik nie, doen ons dit in ons gedagtes? Streef ons daarna om die reëls van die klub (die koninkryk van God) te verander, of probeer ons van klub verander (om deur die krag van die Heilige Gees in die koninkryk gebore te word)? ~</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Die Jefferson-bybel\"}",
+    "content_bytes": 2560,
+    "content_evidence_truncated": false,
+    "content_sha256": "e72990562dfb15d64287d28a292691290466cba0b242888f05a8bb8c7a58e198",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 760,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 29,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2441,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1406,
+        "cached_tokens": 1032
+      },
+      "total_tokens": 3201
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 1
+}
