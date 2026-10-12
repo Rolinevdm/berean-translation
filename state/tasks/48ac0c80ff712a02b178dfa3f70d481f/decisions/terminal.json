@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Opening blockquote",
+      "severity": "minor",
+      "source_quote": "by cutting verse by verse out of the printed book",
+      "suggested_fix": "kwa kukata aya baada ya aya kutoka katika kitabu kilichochapishwa",
+      "translation_quote": "kwa kukata mstari baada ya mstari kutoka katika kitabu kilichochapishwa"
+    },
+    {
+      "location": "Opening blockquote",
+      "severity": "minor",
+      "source_quote": "the amphibologisms [ambiguities] into which they have been led",
+      "suggested_fix": "utata ambao wameingizwa ndani yake",
+      "translation_quote": "utata walioingizwa nao"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

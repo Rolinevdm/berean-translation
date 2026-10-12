@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "30d275b69ef04b9b99e84381214104f8",
   "campaign": "auto-c9343359b6c13c49c9d7a2158d7b34fb982e900367ed2a3f714aa02b9e1c5901",
   "created_at": "2026-10-11T20:21:27+00:00",
   "events": [
@@ -68,18 +67,46 @@
         },
         "total_tokens": 3126
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 822,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 666,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2403,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1300,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3225
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Opening blockquote, first sentence",
-      "severity": "major",
-      "source_quote": "We must reduce our volume to the simple evangelists",
-      "suggested_fix": "Lazima tupunguze kitabu chetu hadi kwa waandishi wa Injili wa kawaida",
-      "translation_quote": "Lazima tupunguze sauti yetu kwa waandishi wa Injili wa kawaida"
+      "location": "Opening blockquote",
+      "severity": "minor",
+      "source_quote": "by cutting verse by verse out of the printed book",
+      "suggested_fix": "kwa kukata aya baada ya aya kutoka katika kitabu kilichochapishwa",
+      "translation_quote": "kwa kukata mstari baada ya mstari kutoka katika kitabu kilichochapishwa"
+    },
+    {
+      "location": "Opening blockquote",
+      "severity": "minor",
+      "source_quote": "the amphibologisms [ambiguities] into which they have been led",
+      "suggested_fix": "utata ambao wameingizwa ndani yake",
+      "translation_quote": "utata walioingizwa nao"
     }
   ],
+  "finished_at": "2026-10-12T22:53:02+00:00",
   "id": "48ac0c80ff712a02b178dfa3f70d481f",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swa",
@@ -168,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +215,7 @@
     "total_reserved_usd": 0.086289,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
   "translation_model_actual": "gpt-6-luna"

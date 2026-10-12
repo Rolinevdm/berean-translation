@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T22:53:02+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening blockquote\",\"severity\":\"minor\",\"source_quote\":\"by cutting verse by verse out of the printed book\",\"suggested_fix\":\"kwa kukata aya baada ya aya kutoka katika kitabu kilichochapishwa\",\"translation_quote\":\"kwa kukata mstari baada ya mstari kutoka katika kitabu kilichochapishwa\"},{\"location\":\"Opening blockquote\",\"severity\":\"minor\",\"source_quote\":\"the amphibologisms [ambiguities] into which they have been led\",\"suggested_fix\":\"utata ambao wameingizwa ndani yake\",\"translation_quote\":\"utata walioingizwa nao\"}],\"findings_complete\":true,\"passed\":true,\"score\":96}",
+    "content_bytes": 593,
+    "content_evidence_truncated": false,
+    "content_sha256": "abfca006a33f52bb90643d9e7dda686a1a279be983eb00edf94ce965d8ba2c7c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 822,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 666,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2403,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1300,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3225
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
