@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T17:47:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Section 3, first heading\",\"severity\":\"major\",\"source_quote\":\"Was your issue a big issue for Jesus?\",\"suggested_fix\":\"O assunto era importante para Jesus?\",\"translation_quote\":\"O assunto que o preocupava era importante para Jesus?\"},{\"location\":\"Section 2, second blockquote and following paragraph\",\"severity\":\"minor\",\"source_quote\":\"there is confusion and every evil work\",\"suggested_fix\":\"aí há confusão e toda espécie de obras más\",\"translation_quote\":\"aí há confusão e toda espécie de coisas ruins\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 591,
+    "content_evidence_truncated": false,
+    "content_sha256": "958492b09c25316acaff224dcdce12fe25028b37783f1a97e44076a63d0b14ae",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 766,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 615,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7239,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6136,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8005
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

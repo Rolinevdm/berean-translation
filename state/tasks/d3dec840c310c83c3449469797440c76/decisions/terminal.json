@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Section 3, first heading",
+      "severity": "major",
+      "source_quote": "Was your issue a big issue for Jesus?",
+      "suggested_fix": "O assunto era importante para Jesus?",
+      "translation_quote": "O assunto que o preocupava era importante para Jesus?"
+    },
+    {
+      "location": "Section 2, second blockquote and following paragraph",
+      "severity": "minor",
+      "source_quote": "there is confusion and every evil work",
+      "suggested_fix": "aí há confusão e toda espécie de obras más",
+      "translation_quote": "aí há confusão e toda espécie de coisas ruins"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
