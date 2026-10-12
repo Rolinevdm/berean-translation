@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T07:18:00+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML، آخری حصے کا تیسرا سوال\",\"severity\":\"major\",\"source_quote\":\"Was this issue a concern for Christ, or is it of the spirit of Christ?\",\"suggested_fix\":\"کیا یہ مسئلہ مسیح کے لیے باعثِ تشویش تھا، یا کیا یہ مسیح کی روح کے مطابق ہے؟\",\"translation_quote\":\"کیا یہ مسئلہ مسیح کے لیے باعثِ تشویش تھا، یا اس کا تعلق مسیح کی روح سے ہے؟\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 543,
+    "content_evidence_truncated": false,
+    "content_sha256": "72ec7a4f15b05132a36f92ee14d812ba678099294d9fc16b5f1d6301e90c94e2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 129,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8009,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6906,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8138
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

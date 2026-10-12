@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML، آخری حصے کا تیسرا سوال",
+      "severity": "major",
+      "source_quote": "Was this issue a concern for Christ, or is it of the spirit of Christ?",
+      "suggested_fix": "کیا یہ مسئلہ مسیح کے لیے باعثِ تشویش تھا، یا کیا یہ مسیح کی روح کے مطابق ہے؟",
+      "translation_quote": "کیا یہ مسئلہ مسیح کے لیے باعثِ تشویش تھا، یا اس کا تعلق مسیح کی روح سے ہے؟"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
