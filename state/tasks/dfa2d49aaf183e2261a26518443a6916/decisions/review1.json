@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, opening paragraph",
+      "severity": "major",
+      "source_quote": "“the engrafted nature of Christ”",
+      "suggested_fix": "“मसीह के अंतःरोपित स्वभाव”",
+      "translation_quote": "“मसीह के आरोपित स्वभाव”"
+    },
+    {
+      "location": "HTML, list item 1, John 16:2 quotation",
+      "severity": "major",
+      "source_quote": "“whosoever killeth you will think that he doeth God service.”",
+      "suggested_fix": "“जो कोई तुम्हें मार डालेगा, वह समझेगा कि वह परमेश्वर की सेवा कर रहा है।”",
+      "translation_quote": "“जो कोई तुम्हें मार डालेगा, वह समझेगा कि मैं परमेश्वर की सेवा कर रहा हूँ।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

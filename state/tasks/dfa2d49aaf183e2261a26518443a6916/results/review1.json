@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5ef1f47c-6a63-47f4-a8cb-f39476322c0c",
+    "response_id": "chatcmpl-EXyKdaFdyimWf9z0nJcwoq11z3k0k",
+    "usage": {
+      "completion_tokens": 1122,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 928,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8020,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6917,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9142
+    }
+  },
+  "received_at": "2026-10-12T00:45:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, opening paragraph",
+        "severity": "major",
+        "source_quote": "“the engrafted nature of Christ”",
+        "suggested_fix": "“मसीह के अंतःरोपित स्वभाव”",
+        "translation_quote": "“मसीह के आरोपित स्वभाव”"
+      },
+      {
+        "location": "HTML, list item 1, John 16:2 quotation",
+        "severity": "major",
+        "source_quote": "“whosoever killeth you will think that he doeth God service.”",
+        "suggested_fix": "“जो कोई तुम्हें मार डालेगा, वह समझेगा कि वह परमेश्वर की सेवा कर रहा है।”",
+        "translation_quote": "“जो कोई तुम्हें मार डालेगा, वह समझेगा कि मैं परमेश्वर की सेवा कर रहा हूँ।”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
