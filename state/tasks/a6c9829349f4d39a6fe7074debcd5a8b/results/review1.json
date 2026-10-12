@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "4f4d4fa2-99bc-4c55-9289-83c30a2dd2cc",
+    "response_id": "chatcmpl-EYGe9iTDCHQagmZ3xxbnmHjXA1ojw",
+    "usage": {
+      "completion_tokens": 250,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 156,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3292,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3289,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3542
+    }
+  },
+  "received_at": "2026-10-12T22:53:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, décima estrofa, segundo verso",
+        "severity": "minor",
+        "source_quote": "Not for a second could I leave your side.",
+        "suggested_fix": "Ni por un segundo podría apartarme de tu lado.",
+        "translation_quote": "Ni por un segundo me aparté de tu lado."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

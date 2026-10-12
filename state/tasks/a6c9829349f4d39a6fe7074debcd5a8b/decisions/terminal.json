@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, décima estrofa, segundo verso",
+      "severity": "minor",
+      "source_quote": "Not for a second could I leave your side.",
+      "suggested_fix": "Ni por un segundo podría apartarme de tu lado.",
+      "translation_quote": "Ni por un segundo me aparté de tu lado."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
