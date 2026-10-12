@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "minor",
+      "source_quote": "had never experienced an ounce of the engrafted nature of Christ",
+      "suggested_fix": "που πιθανότατα δεν είχαν βιώσει ούτε στο ελάχιστο την εμφυτευμένη μέσα τους φύση του Χριστού",
+      "translation_quote": "δεν είχαν βιώσει ούτε στο ελάχιστο την ενσωματωμένη φύση του Χριστού"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

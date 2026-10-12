@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2c9c92e951664c9c8952024b7b1e8c35",
   "campaign": "auto-93350ffddcb23622d4f2a2c310e6e6ba06dbdf4c5d5b01c0676fdb884136c601",
   "created_at": "2026-10-12T06:44:09+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 13813
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 874,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 749,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8961,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7858,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9835
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, James 3:15 quotation",
-      "severity": "major",
-      "source_quote": "“This wisdom descendeth not from above, but is earthly, sensual, devilish.”",
-      "suggested_fix": "Replace «αισθησιακή» with «ψυχική» or «σαρκική» to convey the sense of “sensual” in this theological context.",
-      "translation_quote": "«Αυτή η σοφία δεν κατεβαίνει από πάνω, αλλά είναι επίγεια, αισθησιακή, δαιμονική.»"
+      "location": "HTML, paragraph 3",
+      "severity": "minor",
+      "source_quote": "had never experienced an ounce of the engrafted nature of Christ",
+      "suggested_fix": "που πιθανότατα δεν είχαν βιώσει ούτε στο ελάχιστο την εμφυτευμένη μέσα τους φύση του Χριστού",
+      "translation_quote": "δεν είχαν βιώσει ούτε στο ελάχιστο την ενσωματωμένη φύση του Χριστού"
     }
   ],
+  "finished_at": "2026-10-12T22:52:58+00:00",
   "id": "c31f7c09a1b5615cc358016d3e4e8eaa",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ell",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.089381,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
   "translation_model_actual": "gpt-6-luna"
