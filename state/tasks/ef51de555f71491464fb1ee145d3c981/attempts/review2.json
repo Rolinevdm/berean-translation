@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T16:03:02+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragrafo che inizia «Luca riferì che Gesù disse»\",\"severity\":\"minor\",\"source_quote\":\"Lu.11:23\",\"suggested_fix\":\"Sostituire «Lu. 11:23» con la forma convenzionale italiana «Lc. 11:23».\",\"translation_quote\":\"Lu. 11:23\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 304,
+    "content_evidence_truncated": false,
+    "content_sha256": "100ea777a7e79f94e996ac6f9e14f92468a9fb7d9cdfbc49b59926514fb2da57",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 639,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7560,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6457,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8312
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

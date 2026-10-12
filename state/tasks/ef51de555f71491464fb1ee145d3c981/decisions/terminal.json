@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragrafo che inizia «Luca riferì che Gesù disse»",
+      "severity": "minor",
+      "source_quote": "Lu.11:23",
+      "suggested_fix": "Sostituire «Lu. 11:23» con la forma convenzionale italiana «Lc. 11:23».",
+      "translation_quote": "Lu. 11:23"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

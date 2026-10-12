@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "56f0462bc4084699932e432cb6607523",
   "campaign": "auto-4d9d0c498dd25eece294af7fb59b84d1507e4d44c36da57c9db8d74adc4525be",
   "created_at": "2026-10-12T06:37:56+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 10839
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 752,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 639,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7560,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6457,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8312
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Article, paragraph beginning “Gesù lo disse bene”",
-      "severity": "major",
-      "source_quote": "“Smite the shepherd, and the sheep of the flock shall be scattered abroad.”",
-      "suggested_fix": "«Percuoti il pastore, e le pecore del gregge saranno disperse».",
-      "translation_quote": "«Percuoterò il pastore, e le pecore del gregge saranno disperse»"
+      "location": "Paragrafo che inizia «Luca riferì che Gesù disse»",
+      "severity": "minor",
+      "source_quote": "Lu.11:23",
+      "suggested_fix": "Sostituire «Lu. 11:23» con la forma convenzionale italiana «Lc. 11:23».",
+      "translation_quote": "Lu. 11:23"
     }
   ],
+  "finished_at": "2026-10-12T16:03:02+00:00",
   "id": "ef51de555f71491464fb1ee145d3c981",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ita",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.089375,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
   "translation_model_actual": "gpt-6-luna"
