@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, blockquote, fifth paragraph",
+      "severity": "minor",
+      "source_quote": "Don’t give us good jobs—put us to work.",
+      "suggested_fix": "<p>No nos des buenos empleos: ponnos a trabajar.</p>",
+      "translation_quote": "No nos des buenos empleos: ponernos a trabajar."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

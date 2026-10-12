@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a6833e6e-482c-4f72-8f30-a3e62ffa9503",
+    "response_id": "chatcmpl-EYDLeBV0f9qnMnibYrvthQ7mIZeCZ",
+    "usage": {
+      "completion_tokens": 574,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 476,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3293,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2190,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3867
+    }
+  },
+  "received_at": "2026-10-12T17:47:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, blockquote, fifth paragraph",
+        "severity": "minor",
+        "source_quote": "Don’t give us good jobs—put us to work.",
+        "suggested_fix": "<p>No nos des buenos empleos: ponnos a trabajar.</p>",
+        "translation_quote": "No nos des buenos empleos: ponernos a trabajar."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7f2fad44b79b4d60b037514f3499881b",
   "campaign": "auto-94ec5c1108440e55575d29513179c1f55c0149cedb6b5bfe8a2a2188ac45bbfe",
   "created_at": "2026-10-12T07:18:44+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 3017
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 574,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 476,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3293,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2190,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3867
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, blockquote, fifth paragraph",
+      "severity": "minor",
+      "source_quote": "Don’t give us good jobs—put us to work.",
+      "suggested_fix": "<p>No nos des buenos empleos: ponnos a trabajar.</p>",
+      "translation_quote": "No nos des buenos empleos: ponernos a trabajar."
+    }
+  ],
+  "finished_at": "2026-10-12T17:47:55+00:00",
   "id": "c246224b43570c0c1aa7638c27ba8353",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "spa",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28687181c0da87f5b6b15f73e63e930540bbe25f325583b69aa28fba83fcc0fc.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086798,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
   "translation_model_actual": "gpt-6-luna"
