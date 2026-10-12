@@ -35367,6 +35367,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "3d2e6d42a4e9dcc9638679439aed0a544b6215aba8331d37462e1c25bf5769b4",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "Un’opera religiosa storica con Cristo al centro, circondato da numerose figure",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "Illustrazione di un uomo che solleva una spada sopra un altro uomo",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "e379db37f42e022fcdf395a25db07414fabb2bfedac38ec21e254cd1c359becd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La causa della divisione… e la cura",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d.html",
       "html_sha256": "ba9d6adfac57bc7c6e96d4c880b3898807d2114145c00bf2113972a280f1b71b",
       "human_reviewed": false,
@@ -71522,6 +71554,34 @@
       "subtitle": null,
       "title": "وزن میں کمی",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/b8ff6643-9234-465f-ab06-4adfc189a851.html",
+      "html_sha256": "7f961cd22ca1b53ac7fc768c43ba3d8506c36a046c4f62112f8c4a4ecd4e3f00",
+      "human_reviewed": false,
+      "id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "images": [
+        {
+          "alt": "نرم دھندلی سبز پہاڑیوں کے سامنے جامنی رنگ کے چھوٹے پھول",
+          "public_path": "/images/articles/b8ff6643-9234-465f-ab06-4adfc189a851-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/b8ff6643-9234-465f-ab06-4adfc189a851.json",
+      "metadata_sha256": "444c453c81a86d2dc6e340fa000a9c1b6d16cf135f88ce9f7d18d2ab9fdc9e45",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "مدیر کی طرف سے",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "مدیر کی طرف سے",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
