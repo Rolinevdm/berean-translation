@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Opening blockquote",
+      "severity": "minor",
+      "source_quote": "There will be found remaining the most sublime and benevolent code of morals",
+      "suggested_fix": "Då återstår den mest upphöjda och välvilliga moralkodexen",
+      "translation_quote": "Då återstår den mest upphöjda och välvilliga moralregel"
+    },
+    {
+      "location": "Paragraph 2, quoted final words of The Jefferson Bible",
+      "severity": "minor",
+      "source_quote": "there was a garden",
+      "suggested_fix": "fanns en trädgård",
+      "translation_quote": "fanns nu en trädgård"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

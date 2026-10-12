@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "46460442-b3c3-41ce-8210-b61d31282266",
+    "response_id": "chatcmpl-EXyEsenTPvLobwNOo2Z8OSA7LpJYD",
+    "usage": {
+      "completion_tokens": 813,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 650,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2376,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2373,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3189
+    }
+  },
+  "received_at": "2026-10-12T00:33:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening blockquote",
+        "severity": "minor",
+        "source_quote": "There will be found remaining the most sublime and benevolent code of morals",
+        "suggested_fix": "Då återstår den mest upphöjda och välvilliga moralkodexen",
+        "translation_quote": "Då återstår den mest upphöjda och välvilliga moralregel"
+      },
+      {
+        "location": "Paragraph 2, quoted final words of The Jefferson Bible",
+        "severity": "minor",
+        "source_quote": "there was a garden",
+        "suggested_fix": "fanns en trädgård",
+        "translation_quote": "fanns nu en trädgård"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
