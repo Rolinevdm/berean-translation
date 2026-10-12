@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a68e97f62ff44274bd960bd964b2792a",
   "campaign": "auto-65eca34fb8c9c80253e0a3d3e6bfcc96c17c656b5cfaeee770dd1c7a47356033",
   "created_at": "2026-10-12T07:25:19+00:00",
   "events": [
@@ -28,10 +27,59 @@
         },
         "total_tokens": 3368
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1231,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 770,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3722,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 3719
+        },
+        "total_tokens": 4953
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "A black-and-white globe centered on Africa",
+      "suggested_fix": "আফ্রিকাকে কেন্দ্রে রেখে আঁকা একটি সাদা-কালো পৃথিবীর গোলক",
+      "translation_quote": "আফ্রিকাকে কেন্দ্রে রেখে আঁকা একটি সাদা-কালো পৃথিবীর মানচিত্র"
+    },
+    {
+      "location": "Paragraph beginning “We are not stoics”",
+      "severity": "major",
+      "source_quote": "We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”",
+      "suggested_fix": "আমরা “সম্মানজনক, নিরাপদ” চাকরি করি না বলে প্রচলিত জীবনধারা থেকে “সরে দাঁড়ানো” লোক নই—আমরা “সম্পূর্ণভাবে সমর্পিত”।",
+      "translation_quote": "আমরা “সম্মানজনক, নিরাপদ” চাকরি করি না বলে “পালিয়ে যাওয়া” লোক নই—আমরা “সম্পূর্ণভাবে সমর্পিত”।"
+    },
+    {
+      "location": "Quote beginning “Don’t give us blessings”",
+      "severity": "minor",
+      "source_quote": "give us grace to be unquestionably obedient to every last command and desire of Yours.",
+      "suggested_fix": "তোমার প্রতিটি আদেশ ও আকাঙ্ক্ষার প্রতি নিঃশর্তভাবে বাধ্য থাকার অনুগ্রহ দাও।",
+      "translation_quote": "তোমার প্রতিটি শেষ আদেশ ও আকাঙ্ক্ষার প্রতি নিঃশর্তভাবে বাধ্য থাকার অনুগ্রহ দাও।"
+    },
+    {
+      "location": "Paragraph beginning “We don’t work for Him”",
+      "severity": "minor",
+      "source_quote": "We don’t work for Him from 8-5—we are His 24 hours of each day.",
+      "suggested_fix": "আমরা তাঁর জন্য ৮টা–৫টা পর্যন্ত কাজ করি না—প্রতিদিনের ২৪ ঘণ্টাই আমরা তাঁর।",
+      "translation_quote": "আমরা তাঁর জন্য সকাল ৮টা থেকে বিকেল ৫টা পর্যন্ত কাজ করি না—প্রতিদিনের ২৪ ঘণ্টাই আমরা তাঁর।"
+    }
+  ],
   "id": "9e0bcc977ad6a5b2070b7a803b124209",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ben",
@@ -120,11 +168,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28687181c0da87f5b6b15f73e63e930540bbe25f325583b69aa28fba83fcc0fc.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +188,7 @@
     "total_reserved_usd": 0.08679,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
   "translation_model_actual": "gpt-6-luna"

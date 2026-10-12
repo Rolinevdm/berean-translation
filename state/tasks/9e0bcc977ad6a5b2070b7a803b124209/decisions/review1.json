@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "A black-and-white globe centered on Africa",
+      "suggested_fix": "আফ্রিকাকে কেন্দ্রে রেখে আঁকা একটি সাদা-কালো পৃথিবীর গোলক",
+      "translation_quote": "আফ্রিকাকে কেন্দ্রে রেখে আঁকা একটি সাদা-কালো পৃথিবীর মানচিত্র"
+    },
+    {
+      "location": "Paragraph beginning “We are not stoics”",
+      "severity": "major",
+      "source_quote": "We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”",
+      "suggested_fix": "আমরা “সম্মানজনক, নিরাপদ” চাকরি করি না বলে প্রচলিত জীবনধারা থেকে “সরে দাঁড়ানো” লোক নই—আমরা “সম্পূর্ণভাবে সমর্পিত”।",
+      "translation_quote": "আমরা “সম্মানজনক, নিরাপদ” চাকরি করি না বলে “পালিয়ে যাওয়া” লোক নই—আমরা “সম্পূর্ণভাবে সমর্পিত”।"
+    },
+    {
+      "location": "Quote beginning “Don’t give us blessings”",
+      "severity": "minor",
+      "source_quote": "give us grace to be unquestionably obedient to every last command and desire of Yours.",
+      "suggested_fix": "তোমার প্রতিটি আদেশ ও আকাঙ্ক্ষার প্রতি নিঃশর্তভাবে বাধ্য থাকার অনুগ্রহ দাও।",
+      "translation_quote": "তোমার প্রতিটি শেষ আদেশ ও আকাঙ্ক্ষার প্রতি নিঃশর্তভাবে বাধ্য থাকার অনুগ্রহ দাও।"
+    },
+    {
+      "location": "Paragraph beginning “We don’t work for Him”",
+      "severity": "minor",
+      "source_quote": "We don’t work for Him from 8-5—we are His 24 hours of each day.",
+      "suggested_fix": "আমরা তাঁর জন্য ৮টা–৫টা পর্যন্ত কাজ করি না—প্রতিদিনের ২৪ ঘণ্টাই আমরা তাঁর।",
+      "translation_quote": "আমরা তাঁর জন্য সকাল ৮টা থেকে বিকেল ৫টা পর্যন্ত কাজ করি না—প্রতিদিনের ২৪ ঘণ্টাই আমরা তাঁর।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
