@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "major",
+      "source_quote": "“no government is more loved than another”",
+      "suggested_fix": "আমরা সব মানুষের প্রতি ঈশ্বরের ভালোবাসাকে সবার আগে রাখি। কোনো জাতি অন্য জাতির চেয়ে শ্রেষ্ঠ নয়, কোনো সরকার অন্য সরকারের চেয়ে বেশি প্রিয় নয়, কোনো দেশ অন্য দেশের চেয়ে বেশি প্রিয় নয়।",
+      "translation_quote": "“কোনো সরকার অন্য সরকারের চেয়ে ঈশ্বরের বেশি প্রিয় নয়”"
+    },
+    {
+      "location": "First sentence of the blockquote",
+      "severity": "minor",
+      "source_quote": "“give us grace to be unquestionably obedient to every last command and desire of Yours”",
+      "suggested_fix": "আমাদের আশীর্বাদ দিয়ো না—তোমার প্রতিটি আদেশ ও আকাঙ্ক্ষার প্রতি প্রশ্নাতীতভাবে বাধ্য থাকার অনুগ্রহ দাও।",
+      "translation_quote": "“তোমার প্রতিটি আদেশ ও আকাঙ্ক্ষার প্রতি নিঃশর্তভাবে বাধ্য থাকার অনুগ্রহ দাও”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "550885f3-2b12-47ae-a480-833799f53f35",
+    "response_id": "chatcmpl-EYJF009iQixVvWCsGIR95xCRi630s",
+    "usage": {
+      "completion_tokens": 1107,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 854,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3720,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2617,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4827
+    }
+  },
+  "received_at": "2026-10-12T23:00:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph",
+        "severity": "major",
+        "source_quote": "“no government is more loved than another”",
+        "suggested_fix": "আমরা সব মানুষের প্রতি ঈশ্বরের ভালোবাসাকে সবার আগে রাখি। কোনো জাতি অন্য জাতির চেয়ে শ্রেষ্ঠ নয়, কোনো সরকার অন্য সরকারের চেয়ে বেশি প্রিয় নয়, কোনো দেশ অন্য দেশের চেয়ে বেশি প্রিয় নয়।",
+        "translation_quote": "“কোনো সরকার অন্য সরকারের চেয়ে ঈশ্বরের বেশি প্রিয় নয়”"
+      },
+      {
+        "location": "First sentence of the blockquote",
+        "severity": "minor",
+        "source_quote": "“give us grace to be unquestionably obedient to every last command and desire of Yours”",
+        "suggested_fix": "আমাদের আশীর্বাদ দিয়ো না—তোমার প্রতিটি আদেশ ও আকাঙ্ক্ষার প্রতি প্রশ্নাতীতভাবে বাধ্য থাকার অনুগ্রহ দাও।",
+        "translation_quote": "“তোমার প্রতিটি আদেশ ও আকাঙ্ক্ষার প্রতি নিঃশর্তভাবে বাধ্য থাকার অনুগ্রহ দাও”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
