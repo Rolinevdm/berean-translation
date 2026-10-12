@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "61502ca31cb441158371386c3c082d58",
   "campaign": "auto-aac69f23e16fef4eff104630305a9f952a41e290631f4666a2db9cfe9ab7ba53",
   "created_at": "2026-10-11T18:09:12+00:00",
   "events": [
@@ -48,46 +47,31 @@
         },
         "total_tokens": 12118
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 92,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 60,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7789,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6686,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7881
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html : paragraphe sur l’état de Nancy Russell ; sections « La fin de vie », « Ne pas agir par peur », « S’appuyer sur la force de Dieu », « Comprendre qu’il y aura probablement de la douleur » et « Conclusion »",
-      "severity": "major",
-      "source_quote": "“any condition that would normally be considered terminal”; “a terminal condition”; “Some terminal illnesses”; “a terminal diagnosis”; “even a terminal illness”; “usually of a terminally ill patient”; “dealing with a terminal illness”",
-      "suggested_fix": "Remplacer respectivement ces formulations par « aucune affection normalement considérée comme étant en phase terminale », « une maladie en phase terminale », « Certaines maladies en phase terminale », « un diagnostic de maladie en phase terminale », « même une maladie en phase terminale », « généralement chez un patient en phase terminale » et « atteints d’une maladie en phase terminale ». Une maladie incurable n’est pas nécessairement terminale.",
-      "translation_quote": "« aucune affection normalement considérée comme incurable » ; « une maladie incurable » ; « Certaines maladies incurables » ; « un diagnostic de maladie incurable » ; « même une maladie incurable » ; « généralement chez un patient atteint d’une maladie incurable » ; « atteints d’une maladie incurable »"
-    },
-    {
-      "location": "source.html : section « S’appuyer sur la force de Dieu », citation de Philippiens 4:13",
-      "severity": "major",
-      "source_quote": "I can do all things through Christ which strengtheneth me –Philippians 4:13.",
-      "suggested_fix": "Remplacer uniquement la citation par « Je puis tout par le Christ qui me fortifie –Philippiens 4:13. », en conservant la balise <em>.",
-      "translation_quote": "Je puis tout par celui qui me fortifie –Philippiens 4:13."
-    },
-    {
-      "location": "source.html : section « Ne pas agir par peur », citation de 1 Thessaloniciens 4:13-14",
-      "severity": "major",
-      "source_quote": "But I would not have you to be ignorant, brethren [...] even so them also which sleep in Jesus will God bring with him",
-      "suggested_fix": "Dans la citation, remplacer « Nous ne voulons pas » par « Je ne veux pas » et « nous croyons aussi que Dieu ramènera par Jésus et avec lui ceux qui sont morts » par « de même, Dieu ramènera avec lui ceux qui se sont endormis en Jésus ». Conserver la balise <em> et la référence.",
-      "translation_quote": "Nous ne voulons pas, frères, que vous soyez dans l’ignorance [...] nous croyons aussi que Dieu ramènera par Jésus et avec lui ceux qui sont morts"
-    },
-    {
-      "location": "source.html : section « Comprendre qu’il y aura probablement de la douleur », premier paragraphe",
-      "severity": "minor",
-      "source_quote": "This is the sort of care that is offered by hospice programs.",
-      "suggested_fix": "Remplacer « les programmes de soins palliatifs en établissement » par « les programmes de soins palliatifs », sans imposer un cadre institutionnel absent du texte source.",
-      "translation_quote": "C’est le type de soins proposé par les programmes de soins palliatifs en établissement."
-    },
-    {
-      "location": "source.html : paragraphe définissant l’euthanasie et le suicide assisté",
-      "severity": "minor",
-      "source_quote": "A society that no longer values <strong>all</strong> human lives as important",
-      "suggested_fix": "Rétablir la balise d’emphase dans « Une société qui ne considère plus <strong>toutes</strong> les vies humaines comme importantes ».",
-      "translation_quote": "Une société qui ne considère plus toutes les vies humaines comme importantes"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-12T00:34:10+00:00",
   "id": "8e445905c1e4143d2baa0874cb48f645",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "fra",
@@ -176,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -195,7 +179,7 @@
     "total_reserved_usd": 0.752173,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6.1-sol"
