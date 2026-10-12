@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b1855c56-a20b-414d-b7d6-ba55e136fa04",
+    "response_id": "chatcmpl-EXvoUDJHuMzDuAiOwkqGkrNSMW6qd",
+    "usage": {
+      "completion_tokens": 791,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 685,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2493,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1390,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3284
+    }
+  },
+  "received_at": "2026-10-12T00:28:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening quotation",
+        "severity": "minor",
+        "source_quote": "We must reduce our volume to the simple evangelists",
+        "suggested_fix": "ہمیں اپنی کتاب کو صرف سادہ اناجیل نویسوں تک محدود کرنا چاہیے",
+        "translation_quote": "ہمیں اپنا مجموعہ سادہ اناجیل نویسوں تک محدود کرنا چاہیے"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

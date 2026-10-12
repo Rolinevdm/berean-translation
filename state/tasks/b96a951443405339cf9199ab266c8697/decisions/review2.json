@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Opening quotation",
+      "severity": "minor",
+      "source_quote": "We must reduce our volume to the simple evangelists",
+      "suggested_fix": "ہمیں اپنی کتاب کو صرف سادہ اناجیل نویسوں تک محدود کرنا چاہیے",
+      "translation_quote": "ہمیں اپنا مجموعہ سادہ اناجیل نویسوں تک محدود کرنا چاہیے"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
