@@ -1044,6 +1044,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "c2f384364cf419ff84c97f555d11ab6d880eb93ddb33ed2e709421811be3cb22",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "’n Historiese godsdienstige kunswerk met Christus in die middel, omring deur baie figure",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "’n Illustrasie van een man wat ’n swaard bo ’n ander man oplig",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "937e0244fe9d585011d21214fe8bf244177db23e7d5ede36de48d4f1e85c62bf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die oorsaak van verdeeldheid … en die genesing",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d.html",
       "html_sha256": "cb47b6d6b77beaf9aec692f6d11e343daf3a56703797d93a6df09904b34c2191",
       "human_reviewed": false,
@@ -5490,6 +5522,29 @@
       "subtitle": null,
       "title": "الأواني",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
+      "html_sha256": "d294e72e469549ca42fb77f07d91b9faca611b078ac01b75470bb2783e87c0e1",
+      "human_reviewed": false,
+      "id": "783fddfc-86ed-44d9-b13e-e4adea31a5d5",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.json",
+      "metadata_sha256": "4cec6420f32134a8ce187871266635bfa8c97093f1156d84ba26885611bd4df4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "كتاب جيفرسون المقدس",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -23966,6 +24021,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
+      "html_sha256": "9a096b682866bf8a53e81d43d373b4aa8452f88206e28b9ae62d772175a128e1",
+      "human_reviewed": false,
+      "id": "d0898011-fe8b-4c35-9aac-12c20ec0d950",
+      "images": [
+        {
+          "alt": "Des personnes agenouillées en prière pendant une réunion de réveil",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-1.jpg"
+        },
+        {
+          "alt": "Une ancienne Bible ouverte",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.json",
+      "metadata_sha256": "510a75648f0c833840e553eb865e25c1dae6a5e76aa4d82e4d46ce62b9b98271",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Un christianisme pentagonal",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/d0d31573-888a-4367-8ca7-4a966b35ba5a.html",
       "html_sha256": "7ea62bbd195ed235f9d7cf2ae74a3afe1a109786cdef39513c7d84ccef189b9e",
       "human_reviewed": false,
@@ -25309,6 +25396,34 @@
       "status": "ready",
       "subtitle": null,
       "title": null,
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "26ed1ef6e9dd091e66e556564359b1747c6e38f6393b2b541e70bc16c193549e",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "לוח שעון עתיק עם ספרות רומיות ומחוג שניות קטן",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "1729b9ddbd52f9b5f0c5e0b00e0a46f38c4cf6b7f79f835a94caa9e28fb67776",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "כיצד בני נוער רגילים יכולים להפיק את המרב מנעוריהם",
+      "title": "להפיק את המרב משנות הנעורים",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -31131,6 +31246,38 @@
       "subtitle": "Dari petani Zurich menjadi martir Anabaptis",
       "title": "Hans Landis",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "1433b9d6b7706f2af75d1b59b331a437578f6e2bcb7e219a8cbeaba72e9be45e",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "Karya seni religius bersejarah dengan Kristus di tengah, dikelilingi banyak sosok",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "Ilustrasi seorang pria mengangkat pedang di atas pria lain",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "f9e2e1ece1fbe38e9a25ff13710e5d6d933d07772c079535fbe70d0a22a143a6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Penyebab Perpecahan ... dan Solusinya",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -63198,6 +63345,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Mungu Katika Wingu",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "88357ab98599c72f5a2e7fe059a2b852da1c3c35d5bef7fb74254c4e80736bc2",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "Mchoro wa kihistoria wa kidini unaomwonyesha Kristo katikati, akiwa amezungukwa na watu wengi",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "Mchoro unaomwonyesha mtu mmoja akinyanyua upanga juu ya mtu mwingine",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "c1e3483b5e7b04c399436bff372718ca98db9d83fc7c76dc87ad03734dde81e4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Chanzo cha Mgawanyiko ... na Tiba Yake",
       "translation_model": "gpt-6-luna"
     },
     {
