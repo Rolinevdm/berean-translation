@@ -9987,6 +9987,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
+      "html_sha256": "51518e738092b9466489714b0d333b61dec0b1d2afe4ce5dc9e8396faaba80d6",
+      "human_reviewed": false,
+      "id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
+      "images": [
+        {
+          "alt": "বনভূমি ঘেরা পাহাড়ি হ্রদের ওপর মেঘ ভেদ করে সূর্যের আলো ছড়িয়ে পড়ছে",
+          "public_path": "/images/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.json",
+      "metadata_sha256": "d4d5b50bcb45360f9f0af3cc906f937a67c34f4bab64dd549a09d917617dfc73",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "বোনের সঙ্গে বোনের কথা",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "feee1827ca2238077cd971d14ec7a665d94024ef32a3d17913bde45491d910fb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "শোকের মধ্য দিয়ে তাঁর সঙ্গে চলা",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.html",
       "html_sha256": "4170842e58ea930f7cd74a44fcfefb44c3e6a785c4c6f7ff165caf5d562bd7c2",
       "human_reviewed": false,
@@ -27402,6 +27430,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "21cfc19aa0a63f3f259897bf358e800612b676e0e1b4d11b2bcabd5b8cd79240",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "एक ऐतिहासिक धार्मिक कलाकृति, जिसमें केंद्र में मसीह हैं और उनके चारों ओर अनेक आकृतियाँ हैं",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "एक चित्रण, जिसमें एक व्यक्ति दूसरे व्यक्ति के ऊपर तलवार उठाए हुए है",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "54c7a3eaafd5ae2957fc54662f16cf1d2606af3351582d63c2f3dc931a4e95c2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "फूट का कारण… और उसका उपचार",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d.html",
       "html_sha256": "135d7c97afb6453ec8d9ad478d484ff557e9e480937a222699597591d6ecbdd6",
       "human_reviewed": false,
@@ -33569,6 +33629,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
+      "html_sha256": "fc593c17832849089b8ad601af35ec4a7a4c72499235b98e65b98a2b26c7f6b0",
+      "human_reviewed": false,
+      "id": "d0898011-fe8b-4c35-9aac-12c20ec0d950",
+      "images": [
+        {
+          "alt": "Orang-orang berlutut dan berdoa dalam sebuah pertemuan kebangunan rohani",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-1.jpg"
+        },
+        {
+          "alt": "Alkitab kuno yang terbuka",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.json",
+      "metadata_sha256": "0576354710c52d2986bbb5155a94286bd25a8c6a9aebfc0648545de2d9141348",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kekristenan Pentagonal",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.html",
       "html_sha256": "315188c5ad85baa539206845d8fa94f9b9c9265b3e92ffdbdc599d58e39565f2",
       "human_reviewed": false,
@@ -39590,6 +39682,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "14ebb41ff997d397bc40eb20f848c1bf9fcba61ea5d0c18734e9e1514f28e6d9",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "로마 숫자와 작은 초침판이 있는 골동품 시계 문자판",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "b85a84728c879a1a9b944baa5fecf3e2292de8eb90b34d6033dc5376356a54dc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "평범한 십 대가 젊음을 최대한 활용하는 방법",
+      "title": "십 대 시절을 최대한 활용하기",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/64012528-bcec-4189-96b5-32a226869815.html",
       "html_sha256": "6a054eb4b8569f801d2aea65a2c62c19e92281bbe8f0769f5eb750dfbc64715c",
       "human_reviewed": false,
@@ -43284,6 +43404,34 @@
       "subtitle": null,
       "title": "Van de redacteur",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "17dc3226506f357f653ecc5efbb5bd82bffde5920d1df6a712897f91847235c2",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "Een antieke wijzerplaat met Romeinse cijfers en een kleine secondenwijzerplaat",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "e1801a175e2786c81d353b2a503d6b46e78271f181d074a6bb3f3f7626ae2680",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "Hoe gewone tieners het beste uit hun jeugd kunnen halen",
+      "title": "Je tienerjaren optimaal benutten",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -55116,6 +55264,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "bbed68f301991c92c9c997253ba6fd49236096cc2ef41d4400f0cff0963b0b67",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "Историческое религиозное произведение искусства: в центре Христос, вокруг Него множество фигур",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "Иллюстрация: один человек заносит меч над другим",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "592dd96584fa3156fdb32c0b118da23ffb7392a13c84f13cc15bacf104eae799",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Причина разделения… и исцеление",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.html",
       "html_sha256": "bc67ac3207228179674686ad37fce1ed7e250f8ffd38a2dd8829d1f94cfd4540",
       "human_reviewed": false,
@@ -58857,6 +59037,38 @@
       "subtitle": "De campesino de Zúrich a mártir anabaptista",
       "title": "Hans Landis",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "c07c72493ca985894e7eba13625154b4114748e04b9977b915f2e0e869c63abc",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "Una obra religiosa histórica con Cristo en el centro, rodeado de muchas figuras",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "Ilustración de un hombre levantando una espada sobre otro hombre",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "cd9e04edf5cbc9b835aec1d7e3a11813fa16f8471b5423e8c0e8defdc2b2dd3a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La causa de la división… y la solución",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
