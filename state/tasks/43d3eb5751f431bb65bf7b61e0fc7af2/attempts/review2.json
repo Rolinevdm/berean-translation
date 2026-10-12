@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T00:46:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening blockquote\",\"severity\":\"major\",\"source_quote\":\"We must reduce our volume to the simple evangelists\",\"suggested_fix\":\"Ons moet ons boekwerk beperk tot die eenvoudige evangeliste\",\"translation_quote\":\"Ons moet ons boekwerk beperk tot die eenvoudige Evangelies\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 346,
+    "content_evidence_truncated": false,
+    "content_sha256": "09056ef4d98415e05a9c667c1d59b9887be24362bffcc8b9bdfffe179b4a0a63",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 685,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 591,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2429,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1326,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3114
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "179252482bd444a5ac6166dd71192a1b",
   "campaign": "auto-ad994802a3c93846b8571aa60b54bedfb5454547d219497aa6e54273138c3107",
   "created_at": "2026-10-11T20:14:59+00:00",
   "events": [
@@ -68,32 +67,40 @@
         },
         "total_tokens": 3329
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 685,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 591,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2429,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1326,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3114
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Opening blockquote, first sentence",
+      "location": "Opening blockquote",
       "severity": "major",
       "source_quote": "We must reduce our volume to the simple evangelists",
-      "suggested_fix": "Ons moet ons boekwerk beperk tot die eenvoudige Evangelies",
-      "translation_quote": "Ons moet ons omvang beperk tot die eenvoudige evangeliste"
-    },
-    {
-      "location": "Second paragraph",
-      "severity": "minor",
-      "source_quote": "misconceptions and false interpretations given by the writers of the four Gospels themselves",
-      "suggested_fix": "wanopvattings en valse vertolkings wat deur die skrywers van die vier Evangelies self gegee is",
-      "translation_quote": "wanopvattings en valse vertolkings wat volgens hom deur die skrywers van die vier Evangelies self gegee is"
-    },
-    {
-      "location": "Final paragraph, parenthetical",
-      "severity": "minor",
-      "source_quote": "be born into the kingdom by the power of the Holy Spirit",
-      "suggested_fix": "deur die krag van die Heilige Gees in die koninkryk gebore te word",
-      "translation_quote": "deur deur die krag van die Heilige Gees in die koninkryk gebore te word"
+      "suggested_fix": "Ons moet ons boekwerk beperk tot die eenvoudige evangeliste",
+      "translation_quote": "Ons moet ons boekwerk beperk tot die eenvoudige Evangelies"
     }
   ],
+  "finished_at": "2026-10-12T00:46:18+00:00",
   "id": "43d3eb5751f431bb65bf7b61e0fc7af2",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "afr",
@@ -182,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +209,7 @@
     "total_reserved_usd": 0.086294,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
   "translation_model_actual": "gpt-6-luna"
