@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19f414bc95b54eea84a6bc75487dfa69",
   "campaign": "auto-5f0c926a131c7f8b3cf7dc34723a651be42e90fa2fe6580912484cce3fdc1164",
   "created_at": "2026-10-11T21:48:03+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 11948
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 109,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 77,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8006,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6903,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8115
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: הפסקה שלפני השיר, „ממחטה של טביתא”",
-      "severity": "major",
-      "source_quote": "from the needle of Dorcas… to the nail of Jael",
-      "suggested_fix": "החליפו את „ממחטה של טביתא” ב„מהמחט של טביתא”, תוך שמירה על יתר המשפט ומבנה ה־HTML.",
-      "translation_quote": "ממחטה של טביתא… ועד יתדה של יעל"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-12T00:28:35+00:00",
   "id": "540add4a51286b0d8410b70a974fed59",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "heb",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/5c9db555daf626db8c3101b0e82db1580bc66cd74b5c72438fbe668dd4b65311.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.586576,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6.1-sol"
