@@ -1690,6 +1690,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "73c80924cbb276d9dea310ab5724f6435381c5ecb809b33980f96068570150b3",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "’n Antieke horlosieplaat met Romeinse syfers en ’n klein sekondewyserplaat",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "1ce42399ff8402f0c910c1c881f0a029750d2067746fe4f35e87e73dbdb0aabb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "Hoe gewone tieners die beste uit hul jeug kan haal",
+      "title": "Hoe om jou tienerjare ten volle te benut",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/640035fc-d3c8-4bc6-ad2c-5cbcf19f2dc8.html",
       "html_sha256": "471b8154543578293604372c329dccf95c92d49f0a00769fca0f111fbd889bf4",
       "human_reviewed": false,
@@ -11387,6 +11415,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "云中的上帝",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "c93c6b64c3cffdfa0415f276316cd0241aeee64b41b27d40d0a0ad4cb7b31657",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "一幅历史宗教艺术作品，基督位于中央，周围环绕着许多人物",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "一幅插图，画着一个人举剑砍向另一个人",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "64d20e0ca913c1b3831149123b60c24a212f3071401cfb09115edb1f46db7b0e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "分裂的根源……以及医治之道",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -28166,6 +28226,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
+      "html_sha256": "6a124e92172d8a2a12d294d9a6c87f3a74ae2b707b1b8c3d79566269f6dea2cb",
+      "human_reviewed": false,
+      "id": "783fddfc-86ed-44d9-b13e-e4adea31a5d5",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.json",
+      "metadata_sha256": "a19eebac9f1c35bc86d92c65de2bcabeab825fbe68764221fde56d232e925fb2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "जेफ़रसन बाइबल",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
       "html_sha256": "89c92c4226a556b3617612b601700a3c19d68716d723d1cd3aae328e7846cc03",
       "human_reviewed": false,
@@ -41388,6 +41471,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
+      "html_sha256": "b1cf60204678939fae9f5f9746a29c8bba81867603e11d04a2ae4693b02b3ac0",
+      "human_reviewed": false,
+      "id": "d0898011-fe8b-4c35-9aac-12c20ec0d950",
+      "images": [
+        {
+          "alt": "부흥 집회 중 무릎을 꿇고 기도하는 사람들",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-1.jpg"
+        },
+        {
+          "alt": "펼쳐진 역사적인 성경",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.json",
+      "metadata_sha256": "2283b290574cc80439266398ea230962554664fc443bbd78a498370edc22ac63",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
+      "status": "ready",
+      "subtitle": null,
+      "title": "오각형 기독교",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/d0d31573-888a-4367-8ca7-4a966b35ba5a.html",
       "html_sha256": "d00f4b63707048a791d662095c5db8e6f5e3a8b25ae86e1fa1a4d589a47315e5",
       "human_reviewed": false,
@@ -42724,6 +42839,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "God in de wolk",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "0d5b535f199667571dd7bbf81a4cc64c5b791de82c9a626057b9437ae30abd9c",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "Een historisch religieus kunstwerk met Christus in het midden, omringd door vele figuren",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "Een afbeelding van een man die zijn zwaard boven een andere man heft",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "ff7d51ad288a1ad6f6fcbe62e34a112ae90044c4b90d6c4ae1399003e7fb09c8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De oorzaak van verdeeldheid … en de remedie",
       "translation_model": "gpt-6-luna"
     },
     {
