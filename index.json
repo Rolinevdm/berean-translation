@@ -8297,6 +8297,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "c2f8ed9a8ee5add933a9baa0c09d021489c8a4c78084e7ef7ff3e3afab7cc85b",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "ঐতিহাসিক ধর্মীয় শিল্পকর্ম, যেখানে কেন্দ্রে খ্রিষ্ট এবং তাঁকে ঘিরে অনেক মানুষ",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "একজন মানুষকে আরেকজনের ওপর তরবারি তুলতে দেখা যাচ্ছে—এমন একটি চিত্র",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "4d59200b039deba7c26758a5939a8f0f651ef39f08017fd69e909d06c259009b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "বিভেদের কারণ … এবং তার প্রতিকার",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/41c0e71a-9a5a-4c3e-a3fa-f235c4b00c3d.html",
       "html_sha256": "0f3b3769ada3074b5bde4283d85165f803f3765ca24ae3aab9a847e0b0275376",
       "human_reviewed": false,
@@ -8702,6 +8734,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "সম্পাদকের পক্ষ থেকে",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "ed46b47514b2cc9bab7d624d97d4ebfc7882b1410690cf1150dcbacd98a0825f",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "রোমান সংখ্যা ও সেকেন্ড দেখানোর একটি ছোট ডায়ালসহ একটি প্রাচীন ঘড়ির ডায়াল",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "34633c2717b4fe1f6cb8608edfa83f3362efe4fbd4ff744782df41b5751c60f3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "সাধারণ কিশোর-কিশোরীরা কীভাবে তাদের তারুণ্যের সময়কে সর্বোচ্চ কাজে লাগাতে পারে",
+      "title": "কৈশোরের বছরগুলোকে সর্বোচ্চ কাজে লাগানো",
       "translation_model": "gpt-6.1-sol"
     },
     {
@@ -19766,6 +19826,34 @@
       "subtitle": null,
       "title": "Καρκίνος… Τι είναι?",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd.html",
+      "html_sha256": "0beac3aa60122fda0576ed5d7c2b8da28209dadce617dbc1e1f2404dfdf7ed18",
+      "human_reviewed": false,
+      "id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
+      "images": [
+        {
+          "alt": "Ένα διπλό ουράνιο τόξο σχηματίζει τόξο πάνω από σκοτεινά δέντρα κάτω από έναν θυελλώδη ουρανό",
+          "public_path": "/images/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd.json",
+      "metadata_sha256": "cd1082a5c90297756fbf75b5bbd78124b9fb4e8bb017f2d4cbb8007d513c7c5e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Ποίημα",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Κοίτα το ουράνιο τόξο",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
