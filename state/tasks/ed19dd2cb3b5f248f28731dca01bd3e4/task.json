@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fff53e63d4c54d3ca6e525da0d2231bc",
   "campaign": "auto-28239a10f20df8ff4480385e5eae4037676b2a1697502d02a57a67f0df965c70",
   "created_at": "2026-10-11T20:14:43+00:00",
   "events": [
@@ -48,32 +47,31 @@
         },
         "total_tokens": 12273
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 119,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 87,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8117,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7014,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8236
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html: paragraph quoting Philippians 4:13",
-      "severity": "major",
-      "source_quote": "I can do all things through Christ which strengtheneth me –Philippians 4:13.",
-      "suggested_fix": "Replace the quotation with: “Nayaweza mambo yote kupitia Kristo anitiaye nguvu –Wafilipi 4:13.” Preserve the existing <em> tags.",
-      "translation_quote": "Nayaweza mambo yote katika yeye anitiaye nguvu –Wafilipi 4:13."
-    },
-    {
-      "location": "source.html: paragraph quoting Job 14:5, final sentence",
-      "severity": "major",
-      "source_quote": "It is not our place to do something to deliberately shorten them.",
-      "suggested_fix": "Replace the sentence with: “Hatuna haki ya kufanya jambo la kuzifupisha kimakusudi.”",
-      "translation_quote": "Si wajibu wetu kufanya jambo la kuzifupisha kimakusudi."
-    },
-    {
-      "location": "source.html: paragraph beginning “A geriatrician heard her story”",
-      "severity": "major",
-      "source_quote": "She was discharged to spend the next week with her family.",
-      "suggested_fix": "Replace the sentence with: “Aliruhusiwa kuondoka ili akae wiki iliyofuata na familia yake.” The source does not identify a hospital.",
-      "translation_quote": "Aliruhusiwa kuondoka hospitalini ili akae wiki iliyofuata na familia yake."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-12T00:28:22+00:00",
   "id": "ed19dd2cb3b5f248f28731dca01bd3e4",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "swa",
@@ -162,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -181,7 +179,7 @@
     "total_reserved_usd": 0.74683,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6.1-sol"
