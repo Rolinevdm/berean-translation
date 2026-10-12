@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "0af1e378-442a-4c21-81ba-348764929235",
+    "response_id": "chatcmpl-EYILcIUHaddzYV6ldRKjlDBrBFqvJ",
+    "usage": {
+      "completion_tokens": 292,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 56,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3578,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3575,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3870
+    }
+  },
+  "received_at": "2026-10-12T22:52:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragraf 2, kalimat tentang musim semi",
+        "severity": "minor",
+        "source_quote": "Springtime, along with the normal planting season, was extra long and drawn out.",
+        "suggested_fix": "Musim semi, beserta musim tanam yang biasa, berlangsung lebih lama dan berkepanjangan.",
+        "translation_quote": "Musim semi, bersama dengan musim tanam yang biasa, berjalan lebih lama dan terseret."
+      },
+      {
+        "location": "translation.html, paragraf 2, kalimat terakhir",
+        "severity": "minor",
+        "source_quote": "The farmers’ crops and the gardeners’ herbs are pushing through the cool soil and towards the heat and light of the sun.",
+        "suggested_fix": "Tanaman para petani dan tanaman herba para pekebun mulai menembus tanah yang sejuk dan tumbuh menuju kehangatan serta cahaya matahari.",
+        "translation_quote": "Tanaman petani dan rempah kebun mendorong melalui tanah yang sejuk dan menuju panas serta cahaya matahari."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}

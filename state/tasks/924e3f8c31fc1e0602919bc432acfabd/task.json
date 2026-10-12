@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d6300ff7089b49f981d786ab2b89ec95",
   "campaign": "auto-6d07329aebfe3c2765a700520548de558ea6a0e511bf50757800079f96adb780",
   "created_at": "2026-10-12T07:25:28+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 292,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 56,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3578,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3575,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3870
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, paragraf 2, kalimat tentang musim semi",
+      "severity": "minor",
+      "source_quote": "Springtime, along with the normal planting season, was extra long and drawn out.",
+      "suggested_fix": "Musim semi, beserta musim tanam yang biasa, berlangsung lebih lama dan berkepanjangan.",
+      "translation_quote": "Musim semi, bersama dengan musim tanam yang biasa, berjalan lebih lama dan terseret."
+    },
+    {
+      "location": "translation.html, paragraf 2, kalimat terakhir",
+      "severity": "minor",
+      "source_quote": "The farmers’ crops and the gardeners’ herbs are pushing through the cool soil and towards the heat and light of the sun.",
+      "suggested_fix": "Tanaman para petani dan tanaman herba para pekebun mulai menembus tanah yang sejuk dan tumbuh menuju kehangatan serta cahaya matahari.",
+      "translation_quote": "Tanaman petani dan rempah kebun mendorong melalui tanah yang sejuk dan menuju panas serta cahaya matahari."
+    }
+  ],
+  "finished_at": "2026-10-12T22:52:46+00:00",
   "id": "924e3f8c31fc1e0602919bc432acfabd",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ind",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ab9577ad9f52483785d093ef6641080edc12c9501778b8546b9f11852b6617c7.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.699872,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

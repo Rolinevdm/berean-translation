@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragraf 2, kalimat tentang musim semi",
+      "severity": "minor",
+      "source_quote": "Springtime, along with the normal planting season, was extra long and drawn out.",
+      "suggested_fix": "Musim semi, beserta musim tanam yang biasa, berlangsung lebih lama dan berkepanjangan.",
+      "translation_quote": "Musim semi, bersama dengan musim tanam yang biasa, berjalan lebih lama dan terseret."
+    },
+    {
+      "location": "translation.html, paragraf 2, kalimat terakhir",
+      "severity": "minor",
+      "source_quote": "The farmers’ crops and the gardeners’ herbs are pushing through the cool soil and towards the heat and light of the sun.",
+      "suggested_fix": "Tanaman para petani dan tanaman herba para pekebun mulai menembus tanah yang sejuk dan tumbuh menuju kehangatan serta cahaya matahari.",
+      "translation_quote": "Tanaman petani dan rempah kebun mendorong melalui tanah yang sejuk dan menuju panas serta cahaya matahari."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
