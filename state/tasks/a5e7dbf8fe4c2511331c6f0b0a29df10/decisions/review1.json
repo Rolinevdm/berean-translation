@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "major",
+      "source_quote": "No race is superior to another, no government is more loved than another, no country is dearer than another.",
+      "suggested_fix": "Replace «ولا يحب الله حكومة أكثر من أخرى، ولا بلد أعز عليه من آخر» with «ولا نُفضّل حكومةً على أخرى، ولا بلداً على آخر» to keep the statement attributed to the speakers, as in the source.",
+      "translation_quote": "لا يتفوق عرق على آخر، ولا يحب الله حكومة أكثر من أخرى، ولا بلد أعز عليه من آخر."
+    },
+    {
+      "location": "Quoted prayer, first line",
+      "severity": "minor",
+      "source_quote": "give us grace to be unquestionably obedient to every last command and desire of Yours.",
+      "suggested_fix": "Replace «أن نطيع طاعتك بلا أدنى شك» with «أن نكون مطيعين لك بلا أدنى شك»; this conveys being obedient to God rather than «obeying your obedience».",
+      "translation_quote": "بل امنحنا نعمة أن نطيع طاعتك بلا أدنى شك، في كل وصية ورغبة من رغباتك حتى آخرها."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

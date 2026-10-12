@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T16:08:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First paragraph\",\"severity\":\"major\",\"source_quote\":\"No race is superior to another, no government is more loved than another, no country is dearer than another.\",\"suggested_fix\":\"Replace «ولا يحب الله حكومة أكثر من أخرى، ولا بلد أعز عليه من آخر» with «ولا نُفضّل حكومةً على أخرى، ولا بلداً على آخر» to keep the statement attributed to the speakers, as in the source.\",\"translation_quote\":\"لا يتفوق عرق على آخر، ولا يحب الله حكومة أكثر من أخرى، ولا بلد أعز عليه من آخر.\"},{\"location\":\"Quoted prayer, first line\",\"severity\":\"minor\",\"source_quote\":\"give us grace to be unquestionably obedient to every last command and desire of Yours.\",\"suggested_fix\":\"Replace «أن نطيع طاعتك بلا أدنى شك» with «أن نكون مطيعين لك بلا أدنى شك»; this conveys being obedient to God rather than «obeying your obedience».\",\"translation_quote\":\"بل امنحنا نعمة أن نطيع طاعتك بلا أدنى شك، في كل وصية ورغبة من رغباتك حتى آخرها.\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 1237,
+    "content_evidence_truncated": false,
+    "content_sha256": "16a1458d581aee7c077c329a01a47b2fa43e56ea97409628c84250bc44f37e31",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 971,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 699,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3505,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2402,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4476
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
