@@ -1,0 +1,149 @@
+{
+  "article_id": "d0898011-fe8b-4c35-9aac-12c20ec0d950",
+  "automatic_previous_task": "73567b2da5e1f892380e1e7a550e01de",
+  "autonomous": true,
+  "autonomous_recovery": true,
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "auto-9c768b5eddd9e0412313d83ef4100198e846379955ff27055e737c85f1241d0f",
+  "created_at": "2026-10-12T00:54:35+00:00",
+  "events": [],
+  "findings": [
+    {
+      "location": "Conclusion, paragraphe sur l’approche christocentriste souhaitée",
+      "severity": "major",
+      "source_quote": "I desire a Christocentrism that embraces the entire Bible, involves a vibrant Christian life, is humble in relation to tradition, and that is informed by the vibrant witness of past generations of Christians.",
+      "suggested_fix": "« Toutefois, je souhaite un christocentrisme qui embrasse toute la Bible, s’accompagne d’une vie chrétienne vibrante, soit humble à l’égard de la tradition et soit éclairé par le témoignage vivant des générations chrétiennes passées. »",
+      "translation_quote": "Toutefois, je souhaite un christocentrisme qui embrasse toute la Bible, s’accompagne d’une vie chrétienne vibrante, demeure humble à l’égard de la tradition et se laisse éclairer par le témoignage vivant des générations chrétiennes passées."
+    },
+    {
+      "location": "Restaurationnisme, paragraphe sur les mouvements restaurationnistes",
+      "severity": "major",
+      "source_quote": "Major cults have been founded through restorationist attempts (the Mormons, for example).",
+      "suggested_fix": "« Des sectes majeures ont été fondées à la suite de tentatives restaurationnistes (les mormons, par exemple). »",
+      "translation_quote": "Des sectes majeures ont vu le jour à la suite de tentatives restaurationnistes (les mormons, par exemple)."
+    },
+    {
+      "location": "Christocentrisme, dernier paragraphe avant la chanson country",
+      "severity": "major",
+      "source_quote": "Many are happy to embrace Christ, or the caricature they think of as being Christ.",
+      "suggested_fix": "« Beaucoup sont heureux d’adhérer au Christ, ou à la caricature qu’ils se font du Christ. »",
+      "translation_quote": "Beaucoup sont heureux d’adhérer au Christ, ou à la caricature qu’ils se font du Christ."
+    },
+    {
+      "location": "Traditionalisme, définition de « conservatism »",
+      "severity": "major",
+      "source_quote": "supports minimal and gradual change in society.",
+      "suggested_fix": "« … et prône des changements minimes et graduels dans la société. »",
+      "translation_quote": "… et prône des changements minimaux et progressifs dans la société."
+    }
+  ],
+  "id": "3667030d9617ddc9b9fa1fc4800632d9",
+  "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+  "language": "fra",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/aeddb1d51271942bdbe3417e46c90421b08605b5b1d872e8fb0309f7877921c7.json",
+  "stage": "correct",
+  "stage_budget": {
+    "initial_stage": "correct",
+    "max_candidate_bytes": 120000,
+    "max_findings_bytes": 32768,
+    "stages_usd": {
+      "correct": 0.277403,
+      "review2": 0.77927
+    },
+    "total_reserved_usd": 1.056673,
+    "version": 1
+  },
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
+  "translation_model_actual": "gpt-6-luna"
+}
