@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e3baffc0-3a17-4585-a8e7-5be4d498f3ac",
+    "response_id": "chatcmpl-EYJEjMoaOeEZn9owBpV0pn3sKli0T",
+    "usage": {
+      "completion_tokens": 1364,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 83,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1857,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1854,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3221
+    }
+  },
+  "received_at": "2026-10-12T23:00:48+00:00",
+  "result": {
+    "html": "<article data-article-id=\"6f528c85-5ee6-4ccd-804f-63652b5c3a1d\">\n  <figure>\n    <img src=\"/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png\" alt=\"En svart-hvitt-globus med Afrika i sentrum\">\n  </figure>\n  <p>Vi er «verdenschristne». (Men ikke verdslige kristne.) Vi setter Guds kjærlighet til alle mennesker først. Ingen rase er overlegen en annen, ingen regjering er mer elsket enn en annen, intet land står oss nærmere enn et annet. Vi setter ikke vår nasjons økonomi foran Guds økonomi. Han sier at vi skal søke hans rike først. Da vil han sørge for det vi trenger.</p>\n  <p>Vissheten om at milliarder av mennesker ikke kjenner vår Frelser, driver oss til handling hver dag. Vår lidenskap i livet, vårt uutslukkelige ønske, er å bringe Guds kjærlighet til dem.</p>\n  <p>Ingen oppgave er for liten for oss. Det eneste som begrenser oss, er om vi er villige til å tro at Gud kan gjøre oss i stand til å utføre den.</p>\n  <p>Vi er helt overgitt til Jesus Kristus, vår Frelser og Herre. Ikke noe mindre. Vi forstår at det å følge ham betyr å dø fullstendig fra oss selv. Det koster alt å være hans disippel.</p>\n  <blockquote>\n    <p>Ikke gi oss velsignelser – gi oss nåde til å være ubetinget lydige mot hver eneste av dine befalinger og ønsker.</p>\n    <p>Ikke gi oss status – gi oss en plass å tjene.</p>\n    <p>Ikke gi oss ting til eget bruk – bruk oss.</p>\n    <p>Ikke gi oss et herskapshus å bo i – gi oss et springbrett så vi kan bringe Kristi kjærlighet til hele verden.</p>\n    <p>Ikke gi oss gode jobber – sett oss i arbeid.</p>\n    <p>Ikke gi oss komfort – gi oss befalinger.</p>\n    <p>Ikke gi oss nytelse – gi oss perspektiv.</p>\n    <p>Ikke gi oss tilfredsstillelse – lær oss å ofre.</p>\n    <p>Ikke gi oss underholdning – sett oss i stand til å handle.</p>\n    <p>Ikke gi oss gode lønninger – gi oss styrke til å gjøre din vilje.</p>\n  </blockquote>\n  <p>Vår store glede i livet ligger i å glede vår Herre – og det finnes ingen annen glede som kan måle seg med den.</p>\n  <p>Vi er lei av å leke religion, lei av seminarer og bibelskoler som utdanner tenkere uten handling, lei av et kirkeliv som består av noen få faste arrangementer og prekener som høres bra ut – som om de ble bedømt som taler – men som ikke har noen betydning utover å føre til selvtilfredshet. Livet er ikke en periode på 70 år som vi holder ut til Kristus kommer tilbake eller tar oss hjem, og det er heller ikke en tid for å søke personlig selvrealisering.</p>\n  <p>Vi søker ikke selvrealisering – vi arbeider for at Guds kjærlighet skal virkeliggjøres i alle menneskers hjerter.</p>\n  <p>Vi søker ikke våre personlige rettigheter – vi søker å se alle mennesker bli satt fri.</p>\n  <p>Vi legger ingen planer – vi mottar ordrer.</p>\n  <p>Vi har ingen klager – bortsett fra våre utakknemlige hjerter.</p>\n  <p>Vi har ingen unnskyldninger – de begrenser Gud.</p>\n  <p>Vi spør ikke etter grunner – vi ber om ansvar.</p>\n  <p>Vi gir ikke Gud 10 % av inntekten vår – vi gir ham alt.</p>\n  <p>Vi arbeider ikke for ham fra 8–5 – vi tilhører ham alle døgnets 24 timer.</p>\n  <p>Vi er ikke stoikere – vi sørger og gråter når våre kjære forlater oss. Men vi sørger enda mer over mennesker som går inn i evigheten uten å ha gjort Jesus Kristus til sin Herre. Vi er ikke «frafalne» fordi vi ikke har «respektable, trygge» jobber – vi er «helt overgitt».</p>\n  <p>Vi er ikke kynikere. Selv om det finnes spørsmål uten svar, vet vi at Kristus har alle svarene.</p>\n  <p>Vi er ikke bitre. Selv om vi er blitt såret, er Kristus vår helbreder.</p>\n  <p>Vi bruker ikke endeløse timer på å krangle om sidespørsmål, som bestemte syn på eskatologi.</p>\n  <p>Vi er ikke stolte av å skaffe oss ting.</p>\n  <p>Vi sier at det er meningsløst å snakke om å være tilgjengelig eller villig. Vi vil heller adlyde og gjøre jobben enn å snakke om den.</p>\n  <p>– Ukjent forfatter (bearbeidet)</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Vi er verdenschristne"
+  }
+}
