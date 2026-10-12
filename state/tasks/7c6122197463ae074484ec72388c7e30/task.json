@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b8c2fc4cc55243e5af7eab72173cac0f",
   "campaign": "auto-9cf278cac7633900463a73fded0cc1de97f07eae8435251670d88837fa6b589c",
   "created_at": "2026-10-11T21:48:07+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 2438
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 695,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 586,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2649,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1546,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3344
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Opening blockquote, first sentence",
+      "severity": "major",
+      "source_quote": "We must reduce our volume to the simple evangelists",
+      "suggested_fix": "Πρέπει να περιορίσουμε το έργο μας στα απλά Ευαγγέλια",
+      "translation_quote": "Πρέπει να περιοριστούμε στους απλούς ευαγγελιστές"
+    }
+  ],
   "id": "7c6122197463ae074484ec72388c7e30",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ell",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e0055d55517f5660992a9420cc757b233982239c9b7e50e0b4848cde01c4c446.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.086299,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
   "translation_model_actual": "gpt-6-luna"
