@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "61731534409d49a6b0529fe1bddf616d",
   "campaign": "auto-385bf644814bfc53890e1f8092770224af7f22e24c384fd7cda59a62988b5622",
   "created_at": "2026-10-12T06:44:05+00:00",
   "events": [
@@ -68,18 +67,61 @@
         },
         "total_tokens": 11043
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1227,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 763,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7662,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7659,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8889
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article HTML, list item 2, James 3:13 quotation",
+      "location": "Paragraph beginning “The Bible has much to say…”",
+      "severity": "minor",
+      "source_quote": "“The Bible has much to say about everyday, practical things like this.”",
+      "suggested_fix": "Replace “בתנ״ך” with “בכתבי הקודש” to refer to the Christian Bible in context.",
+      "translation_quote": "“בתנ״ך יש הרבה מה לומר על דברים יומיומיים ומעשיים כאלה.”"
+    },
+    {
+      "location": "Paragraph beginning “Think about it, when was the last time…”",
       "severity": "major",
-      "source_quote": "let him shew out of a good conversation his works with meekness of wisdom.",
-      "suggested_fix": "Replace with: „מי בכם חכם ונבון? יראה במעשיו הטובים, הנעשים בענוות חכמה.”",
-      "translation_quote": "יראה במעשיו הטובים את מעשיו, בענוות חכמה."
+      "source_quote": "“If we could be saturated with the red letters of our Bibles…”",
+      "suggested_fix": "Replace “בתנ״ך שלנו” with “בכתבי הקודש שלנו” so the wording refers to the Bible, rather than specifically the Tanakh.",
+      "translation_quote": "“אם נתמלא בדברים המודגשים באדום בתנ״ך שלנו…”"
+    },
+    {
+      "location": "First block quotation in list item 2 (James 3:13–14)",
+      "severity": "minor",
+      "source_quote": "“let him shew out of a good conversation his works with meekness of wisdom.”",
+      "suggested_fix": "Replace “שיראה במעשיו הטובים את מעשיו, בענוות חכמה” with “יראה את מעשיו מתוך התנהגות טובה ובענוות חכמה” to convey that good conduct demonstrates his works.",
+      "translation_quote": "“שיראה במעשיו הטובים את מעשיו, בענוות חכמה.”"
+    },
+    {
+      "location": "Second block quotation in list item 2 (James 3:15–16)",
+      "severity": "minor",
+      "source_quote": "“This wisdom descendeth not from above, but is earthly, sensual, devilish.”",
+      "suggested_fix": "Replace “נפשית” with wording that conveys “sensual” here as worldly or unspiritual, for example “ארצית, גופנית, שטנית”.",
+      "translation_quote": "“אין זו החוכמה היורדת מלמעלה, אלא ארצית היא, נפשית, שטנית.”"
     }
   ],
+  "finished_at": "2026-10-12T16:08:08+00:00",
   "id": "f07f3103fc5a6a9552b5166532ea3811",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "heb",
@@ -168,7 +210,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +230,7 @@
     "total_reserved_usd": 0.089385,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
   "translation_model_actual": "gpt-6-luna"

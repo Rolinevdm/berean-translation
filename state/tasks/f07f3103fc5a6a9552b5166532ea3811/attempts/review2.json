@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T16:08:08+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “The Bible has much to say…”\",\"severity\":\"minor\",\"source_quote\":\"“The Bible has much to say about everyday, practical things like this.”\",\"suggested_fix\":\"Replace “בתנ״ך” with “בכתבי הקודש” to refer to the Christian Bible in context.\",\"translation_quote\":\"“בתנ״ך יש הרבה מה לומר על דברים יומיומיים ומעשיים כאלה.”\"},{\"location\":\"Paragraph beginning “Think about it, when was the last time…”\",\"severity\":\"major\",\"source_quote\":\"“If we could be saturated with the red letters of our Bibles…”\",\"suggested_fix\":\"Replace “בתנ״ך שלנו” with “בכתבי הקודש שלנו” so the wording refers to the Bible, rather than specifically the Tanakh.\",\"translation_quote\":\"“אם נתמלא בדברים המודגשים באדום בתנ״ך שלנו…”\"},{\"location\":\"First block quotation in list item 2 (James 3:13–14)\",\"severity\":\"minor\",\"source_quote\":\"“let him shew out of a good conversation his works with meekness of wisdom.”\",\"suggested_fix\":\"Replace “שיראה במעשיו הטובים את מעשיו, בענוות חכמה” with “יראה את מעשיו מתוך התנהגות טובה ובענוות חכמה” to convey that good conduct demonstrates his works.\",\"translation_quote\":\"“שיראה במעשיו הטובים את מעשיו, בענוות חכמה.”\"},{\"location\":\"Second block quotation in list item 2 (James 3:15–16)\",\"severity\":\"minor\",\"source_quote\":\"“This wisdom descendeth not from above, but is earthly, sensual, devilish.”\",\"suggested_fix\":\"Replace “נפשית” with wording that conveys “sensual” here as worldly or unspiritual, for example “ארצית, גופנית, שטנית”.\",\"translation_quote\":\"“אין זו החוכמה היורדת מלמעלה, אלא ארצית היא, נפשית, שטנית.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1990,
+    "content_evidence_truncated": false,
+    "content_sha256": "95dab6edb38268cf18f082ba0b49ca293a2c9612c19493806cd4b6636338f057",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1227,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 763,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7662,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7659,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8889
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
