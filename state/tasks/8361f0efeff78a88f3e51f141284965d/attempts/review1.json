@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T00:46:26+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html: প্রথম তালিকার চতুর্থ li\",\n      \"severity\": \"major\",\n      \"source_quote\": \"‘Underneath are the everlasting arms’, and I felt them.\",\n      \"suggested_fix\": \"‘নিচে রয়েছে তাঁর চিরস্থায়ী বাহু’, আর আমি সেই বাহু অনুভব করেছি।\",\n      \"translation_quote\": \"‘চিরস্থায়ী বাহু তাঁর নিচে’, আর আমি সেই বাহু অনুভব করেছি।\"\n    },\n    {\n      \"location\": \"translation.html: ‘নিচের উদ্ধৃতিগুলো শোকের সঙ্গে সম্পর্কিত আরও কিছু সংগ্রামের কথা তুলে ধরে’ শিরোনামের পর প্রথম li\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Actually, the weeks before the annual anniversary dates are harder than the actual days.\",\n      \"suggested_fix\": \"আসলে, প্রতি বছর স্মরণীয় বার্ষিক তারিখগুলো আসার আগের সপ্তাহগুলো সেই দিনগুলোর চেয়েও কঠিন।\",\n      \"translation_quote\": \"আসলে, প্রতি বছর মৃত্যুবার্ষিকীর তারিখ আসার আগের সপ্তাহগুলো সেই দিনগুলোর চেয়েও কঠিন।\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1660,
+    "content_evidence_truncated": false,
+    "content_sha256": "697e238f18ea0b2d87d4bc42209b3279dbeeb8e95c62c6676c621fea43d06376",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 383,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 87,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10077,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8974,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10460
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
