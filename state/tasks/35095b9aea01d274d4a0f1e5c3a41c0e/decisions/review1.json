@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Wat gebeurt er als je…”",
+      "severity": "minor",
+      "source_quote": "“What happens when you sing a Gregorian chant with all your spirit tuned to the singing of it?”",
+      "suggested_fix": "Vervang “een gregoriaanse melodie” door “gregoriaans gezang”.",
+      "translation_quote": "“Wat gebeurt er als je een gregoriaanse melodie zingt met je hele wezen gericht op het zingen ervan?”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

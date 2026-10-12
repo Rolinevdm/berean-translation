@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T00:33:52+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Wat gebeurt er als je…”\",\"severity\":\"minor\",\"source_quote\":\"“What happens when you sing a Gregorian chant with all your spirit tuned to the singing of it?”\",\"suggested_fix\":\"Vervang “een gregoriaanse melodie” door “gregoriaans gezang”.\" ,\"translation_quote\":\"“Wat gebeurt er als je een gregoriaanse melodie zingt met je hele wezen gericht op het zingen ervan?”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 489,
+    "content_evidence_truncated": false,
+    "content_sha256": "024ba6bedbe4e87a24615c81867021cad0ee11250afcbe5db4aae66d1e76cd96",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 616,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 488,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3333,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3330,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3949
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
