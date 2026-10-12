@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "292c8366-3084-43b4-a05e-546c3a72c273",
+    "response_id": "chatcmpl-EY3zA5jg3x2NumhLP0KdYFmVtWMnx",
+    "usage": {
+      "completion_tokens": 842,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7684,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6581,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8526
+    }
+  },
+  "received_at": "2026-10-12T06:43:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Section 2, James quotation (James 3:13–14)",
+        "severity": "major",
+        "source_quote": "“But if ye have bitter envying and strife in your hearts”",
+        "suggested_fix": "Replace “bittere afguns en selfsug” with “bittere afguns en twis” to preserve the source’s distinction between envy and conflict.",
+        "translation_quote": "“Maar as julle bittere afguns en selfsug in julle harte het”"
+      },
+      {
+        "location": "Section 2, James quotation (verses 15–16) and the following question and explanation",
+        "severity": "major",
+        "source_quote": "“For where envying and strife is, there is confusion and every evil work.” The article then asks, “Is there envy or strife or confusion in my heart?”",
+        "suggested_fix": "In the quotation, render “envying and strife” as “afguns en twis” and “every evil work” as “allerhande bose dade.” In the following question and explanation, use “twis” rather than “selfsug” and retain the source’s wording about “every evil work.”",
+        "translation_quote": "“Want waar afguns en selfsug is, daar is wanorde en allerhande gemene dade.” Later: “Is daar afguns, selfsug of wanorde in my hart?” and “beoefen ons ‘allerhande gemene dade’.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Section 2, James quotation (James 3:13–14)",
+      "severity": "major",
+      "source_quote": "“But if ye have bitter envying and strife in your hearts”",
+      "suggested_fix": "Replace “bittere afguns en selfsug” with “bittere afguns en twis” to preserve the source’s distinction between envy and conflict.",
+      "translation_quote": "“Maar as julle bittere afguns en selfsug in julle harte het”"
+    },
+    {
+      "location": "Section 2, James quotation (verses 15–16) and the following question and explanation",
+      "severity": "major",
+      "source_quote": "“For where envying and strife is, there is confusion and every evil work.” The article then asks, “Is there envy or strife or confusion in my heart?”",
+      "suggested_fix": "In the quotation, render “envying and strife” as “afguns en twis” and “every evil work” as “allerhande bose dade.” In the following question and explanation, use “twis” rather than “selfsug” and retain the source’s wording about “every evil work.”",
+      "translation_quote": "“Want waar afguns en selfsug is, daar is wanorde en allerhande gemene dade.” Later: “Is daar afguns, selfsug of wanorde in my hart?” and “beoefen ons ‘allerhande gemene dade’.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
