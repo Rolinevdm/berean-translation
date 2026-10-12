@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article HTML, list item 2, James 3:13 quotation",
+      "severity": "major",
+      "source_quote": "let him shew out of a good conversation his works with meekness of wisdom.",
+      "suggested_fix": "Replace with: „מי בכם חכם ונבון? יראה במעשיו הטובים, הנעשים בענוות חכמה.”",
+      "translation_quote": "יראה במעשיו הטובים את מעשיו, בענוות חכמה."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
