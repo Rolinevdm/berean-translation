@@ -5,11 +5,96 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bb25b39eef354d13b2023c310a8cdb30",
   "campaign": "auto-6a88f73315dc3b0c1c3278f2798d052dd48c2c0dbde5f2fefaae6011b239deb8",
   "created_at": "2026-10-12T22:54:52+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1317,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 80,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8753,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7650,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10070
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, цитата Луки 14:25-33",
+      "severity": "major",
+      "source_quote": "Lest haply, after he hath laid the foundation, and is not able to finish it, all that behold it begin to mock him",
+      "suggested_fix": "Заменить «А чтобы» на «Чтобы не случилось так, что» и продолжить: «заложив основание и не сумев окончить, он станет предметом насмешек всех видевших». Сохранить окружающие HTML-теги.",
+      "translation_quote": "А чтобы, заложив основание и не сумев окончить, все видевшие начали смеяться над ним"
+    },
+    {
+      "location": "translation.html, цитата Второзакония 3:3-6",
+      "severity": "major",
+      "source_quote": "Og also, the king of Bashan ... the kingdom of Og in Bashan ... fenced with high walls, gates, and bars; beside unwalled towns a great many ... Sihon king of Heshbon",
+      "suggested_fix": "Исправить имена и географические названия на «Ога, царя Васанского», «царство Ога в Васане» и «Сихона, царя Есевонского». Описание укреплений заменить на «Все эти города были укреплены высокими стенами, воротами и засовами; кроме того, было очень много городов без стен».",
+      "translation_quote": "Ога, царя Вавана ... царство Ога в Ваване ... огорожены стенами, воротами и брусьями; кроме того было очень много незашторенных городов ... Сихона, царя Есевона"
+    },
+    {
+      "location": "translation.html, цитата Иакова 4:14",
+      "severity": "major",
+      "source_quote": "It is even a vapour, that appeareth for a little time, and then vanisheth away",
+      "suggested_fix": "Заменить предложение на «Она — пар, появляющийся на короткое время, а затем исчезающий».",
+      "translation_quote": "Она – пóра, появляющаяся немногое время и затем исчезающая"
+    },
+    {
+      "location": "translation.html, абзац о довольстве, имуществе и тюремном заключении",
+      "severity": "major",
+      "source_quote": "What if we found ourselves in John the Baptist’s shoes? Or the Apostle Paul’s?",
+      "suggested_fix": "Заменить на «А если бы мы оказались на месте Иоанна Крестителя? Или апостола Павла?»",
+      "translation_quote": "А если бы мы оказались при Иоанне Крестителе? Или при апостоле Павле?"
+    },
+    {
+      "location": "translation.html, абзац о судьбе Павла после прибытия в Иерусалим",
+      "severity": "major",
+      "source_quote": "the ones that tried to persuade him to not go to Jerusalem",
+      "suggested_fix": "Заменить «пытался отговорить его не ехать в Иерусалим» на «пытался отговорить его от поездки в Иерусалим».",
+      "translation_quote": "те, кто пытался отговорить его не ехать в Иерусалим"
+    },
+    {
+      "location": "translation.html, абзац о довольстве и благословении",
+      "severity": "major",
+      "source_quote": "We tend to believe that God has blessed us because of all our possessions and our status in life",
+      "suggested_fix": "Заменить на «Судя по всему нашему имуществу и положению в жизни, мы склонны считать, что Бог благословил нас». Это сохраняет мысль об имуществе как предполагаемом свидетельстве благословения, а не о награде за имущество.",
+      "translation_quote": "Мы склонны думать, что Бог благословил нас за все наши владения и наш статус в жизни"
+    },
+    {
+      "location": "translation.html, абзац о службе в морской пехоте",
+      "severity": "minor",
+      "source_quote": "they would constantly remind us",
+      "suggested_fix": "Заменить «нас постоянно напоминали» на «нам постоянно напоминали».",
+      "translation_quote": "нас постоянно напоминали"
+    },
+    {
+      "location": "translation.html, цитата Деяний 21:10-13",
+      "severity": "minor",
+      "source_quote": "And when he was come unto us ... to break mine heart",
+      "suggested_fix": "Исправить «прийдя» на «придя», а «рвете сердца мои» на «разрываете мое сердце».",
+      "translation_quote": "И прийдя к нам ... рвете сердца мои"
+    },
+    {
+      "location": "translation.html, предпоследний прозаический абзац перед стихотворением",
+      "severity": "minor",
+      "source_quote": "causing us to fall way short of the mark",
+      "suggested_fix": "Заменить «мы значительно недостигаем цели» на «мы оказываемся далеко от цели».",
+      "translation_quote": "мы значительно недостигаем цели"
+    }
+  ],
   "id": "957e1fddfff5f6e14ad30c3d86fb841a",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "rus",
@@ -98,11 +183,13 @@
     }
   },
   "protected": false,
+  "quality_score": 84,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/2a0e8037a7779b7d65ad5a5dc37689987f7de799a9c99fb81a3fa397558d941f.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +202,7 @@
     "total_reserved_usd": 0.779208,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

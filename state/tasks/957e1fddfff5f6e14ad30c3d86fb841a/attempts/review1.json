@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T23:00:55+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, цитата Луки 14:25-33\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Lest haply, after he hath laid the foundation, and is not able to finish it, all that behold it begin to mock him\",\n      \"suggested_fix\": \"Заменить «А чтобы» на «Чтобы не случилось так, что» и продолжить: «заложив основание и не сумев окончить, он станет предметом насмешек всех видевших». Сохранить окружающие HTML-теги.\",\n      \"translation_quote\": \"А чтобы, заложив основание и не сумев окончить, все видевшие начали смеяться над ним\"\n    },\n    {\n      \"location\": \"translation.html, цитата Второзакония 3:3-6\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Og also, the king of Bashan ... the kingdom of Og in Bashan ... fenced with high walls, gates, and bars; beside unwalled towns a great many ... Sihon king of Heshbon\",\n      \"suggested_fix\": \"Исправить имена и географические названия на «Ога, царя Васанского», «царство Ога в Васане» и «Сихона, царя Есевонского». Описание укреплений заменить на «Все эти города были укреплены высокими стенами, воротами и засовами; кроме того, было очень много городов без стен».\",\n      \"translation_quote\": \"Ога, царя Вавана ... царство Ога в Ваване ... огорожены стенами, воротами и брусьями; кроме того было очень много незашторенных городов ... Сихона, царя Есевона\"\n    },\n    {\n      \"location\": \"translation.html, цитата Иакова 4:14\",\n      \"severity\": \"major\",\n      \"source_quote\": \"It is even a vapour, that appeareth for a little time, and then vanisheth away\",\n      \"suggested_fix\": \"Заменить предложение на «Она — пар, появляющийся на короткое время, а затем исчезающий».\",\n      \"translation_quote\": \"Она – пóра, появляющаяся немногое время и затем исчезающая\"\n    },\n    {\n      \"location\": \"translation.html, абзац о довольстве, имуществе и тюремном заключении\",\n      \"severity\": \"major\",\n      \"source_quote\": \"What if we found ourselves in John the Baptist’s shoes? Or the Apostle Paul’s?\",\n      \"suggested_fix\": \"Заменить на «А если бы мы оказались на месте Иоанна Крестителя? Или апостола Павла?»\",\n      \"translation_quote\": \"А если бы мы оказались при Иоанне Крестителе? Или при апостоле Павле?\"\n    },\n    {\n      \"location\": \"translation.html, абзац о судьбе Павла после прибытия в Иерусалим\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the ones that tried to persuade him to not go to Jerusalem\",\n      \"suggested_fix\": \"Заменить «пытался отговорить его не ехать в Иерусалим» на «пытался отговорить его от поездки в Иерусалим».\",\n      \"translation_quote\": \"те, кто пытался отговорить его не ехать в Иерусалим\"\n    },\n    {\n      \"location\": \"translation.html, абзац о довольстве и благословении\",\n      \"severity\": \"major\",\n      \"source_quote\": \"We tend to believe that God has blessed us because of all our possessions and our status in life\",\n      \"suggested_fix\": \"Заменить на «Судя по всему нашему имуществу и положению в жизни, мы склонны считать, что Бог благословил нас». Это сохраняет мысль об имуществе как предполагаемом свидетельстве благословения, а не о награде за имущество.\",\n      \"translation_quote\": \"Мы склонны думать, что Бог благословил нас за все наши владения и наш статус в жизни\"\n    },\n    {\n      \"location\": \"translation.html, абзац о службе в морской пехоте\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"they would constantly remind us\",\n      \"suggested_fix\": \"Заменить «нас постоянно напоминали» на «нам постоянно напоминали».\",\n      \"translation_quote\": \"нас постоянно напоминали\"\n    },\n    {\n      \"location\": \"translation.html, цитата Деяний 21:10-13\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"And when he was come unto us ... to break mine heart\",\n      \"suggested_fix\": \"Исправить «прийдя» на «придя», а «рвете сердца мои» на «разрываете мое сердце».\",\n      \"translation_quote\": \"И прийдя к нам ... рвете сердца мои\"\n    },\n    {\n      \"location\": \"translation.html, предпоследний прозаический абзац перед стихотворением\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"causing us to fall way short of the mark\",\n      \"suggested_fix\": \"Заменить «мы значительно недостигаем цели» на «мы оказываемся далеко от цели».\",\n      \"translation_quote\": \"мы значительно недостигаем цели\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 84\n}",
+    "content_bytes": 6041,
+    "content_evidence_truncated": false,
+    "content_sha256": "b2f692b68eb04d41ba99cfc5a7e33cf3b79e97f1446b5d2c23e2a00c3b197655",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1317,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 80,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8753,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7650,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10070
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
