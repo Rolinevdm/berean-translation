@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "09ec4377d7774688a5d2cc871b731d3e",
   "campaign": "auto-0ce0dc98aaad714951c018f197d0c90174795054cbca04d5e5241cb31be27479",
   "created_at": "2026-10-12T16:03:36+00:00",
   "events": [
@@ -68,32 +67,31 @@
         },
         "total_tokens": 5174
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 625,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 587,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3682,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2579,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4307
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article paragraph beginning “We are not stoics”",
-      "severity": "major",
-      "source_quote": "We are not stoics—we hurt and cry when loved ones leave us.",
-      "suggested_fix": "ہم سنگ دل/بے حس نہیں—جب ہمارے پیارے ہمیں چھوڑ جاتے ہیں تو ہمیں دکھ ہوتا ہے اور ہم روتے ہیں۔",
-      "translation_quote": "ہم سنگ دل نہیں—جب ہمارے پیارے ہمیں چھوڑ جاتے ہیں تو ہمیں دکھ ہوتا ہے اور ہم روتے ہیں۔"
-    },
-    {
-      "location": "Same paragraph",
-      "severity": "major",
-      "source_quote": "We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”",
-      "suggested_fix": "ہم اس لیے ”روایتی ملازمتوں سے کنارہ کش“ نہیں کہ ہم ”باعزت، محفوظ“ ملازمتیں نہیں کرتے—ہم تو ”مکمل طور پر وقف“ ہیں۔",
-      "translation_quote": "ہم اس لیے ”راہِ راست سے ہٹے ہوئے“ نہیں کہ ہم ”باعزت، محفوظ“ ملازمتیں نہیں کرتے—ہم تو ”مکمل طور پر وقف“ ہیں۔"
-    },
-    {
-      "location": "Article paragraph beginning “We’re tired of playing religion”",
-      "severity": "minor",
-      "source_quote": "...sermons that sound good—as if they were being rated as speeches—but have no consequential value except complacency.",
-      "suggested_fix": "...لیکن بے عملی یا خود اطمینانی پیدا کرنے کے سوا اُن کی کوئی بامعنی قدر نہیں۔",
-      "translation_quote": "...لیکن خود پسندی کے سوا اُن کی کوئی مؤثر قدر نہیں۔"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-12T22:53:20+00:00",
   "id": "17a8802b7c59ae4a62104715377b8413",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "urd",
@@ -182,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +200,7 @@
     "total_reserved_usd": 0.08679,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
   "translation_model_actual": "gpt-6-luna"
