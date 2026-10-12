@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T16:02:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html، روس/یوکرین کے تنازعے اور خوف سے متعلق پیراگراف\",\"severity\":\"minor\",\"source_quote\":\"many in the world have allowed fear to take root in their hearts\",\"suggested_fix\":\"”خوف کو اپنے دلوں میں جڑ پکڑنے دی ہے“ کی جگہ ”خوف کو اپنے دلوں میں جڑ پکڑنے دیا ہے“ لکھیں۔\",\"translation_quote\":\"دنیا کے بہت سے لوگوں نے کووڈ-19 کی پوری آزمائش کے دوران خوف کو اپنے دلوں میں جڑ پکڑنے دی ہے۔\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 651,
+    "content_evidence_truncated": false,
+    "content_sha256": "fe06d1f8f6d6994436af2dec011eea71e32d91c77e37068a8917540c57cbc67f",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 238,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 84,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8691,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7588,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8929
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

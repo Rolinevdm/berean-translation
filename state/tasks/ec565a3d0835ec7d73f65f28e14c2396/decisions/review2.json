@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، روس/یوکرین کے تنازعے اور خوف سے متعلق پیراگراف",
+      "severity": "minor",
+      "source_quote": "many in the world have allowed fear to take root in their hearts",
+      "suggested_fix": "”خوف کو اپنے دلوں میں جڑ پکڑنے دی ہے“ کی جگہ ”خوف کو اپنے دلوں میں جڑ پکڑنے دیا ہے“ لکھیں۔",
+      "translation_quote": "دنیا کے بہت سے لوگوں نے کووڈ-19 کی پوری آزمائش کے دوران خوف کو اپنے دلوں میں جڑ پکڑنے دی ہے۔"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7f9d798c79a047e998ae4257c2c47b53",
   "campaign": "auto-15e30c8b431f6c687783c3a86cfc190cc5d7d9ccf327617c578fa6d7dc073c7a",
   "created_at": "2026-10-12T06:44:31+00:00",
   "events": [
@@ -48,32 +47,39 @@
         },
         "total_tokens": 13319
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 238,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 84,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8691,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7588,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8929
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "html: آخری blockquote، یہوداہ 1:24-25",
-      "severity": "major",
-      "source_quote": "both now and ever",
-      "suggested_fix": "اسی اقتباس میں «ازل سے ابد تک» کی جگہ «اب بھی اور ہمیشہ بھی» لکھیں۔",
-      "translation_quote": "ازل سے ابد تک"
-    },
-    {
-      "location": "html: خالق اور روزمرہ زندگی پر غور کرنے والا پیراگراف، آخری جملہ",
+      "location": "translation.html، روس/یوکرین کے تنازعے اور خوف سے متعلق پیراگراف",
       "severity": "minor",
-      "source_quote": "one who knows not the One, Living, and True God",
-      "suggested_fix": "«زندہ اور سچے خدا» کو «واحد، زندہ اور سچے خدا» سے بدلیں تاکہ «One» کا وصف بھی محفوظ رہے۔",
-      "translation_quote": "اُس شخص کو زندہ اور سچے خدا سے آگاہ کرے جو اُسے نہیں جانتا"
-    },
-    {
-      "location": "html: وسائل کے عنوان سے پہلے والا پیراگراف",
-      "severity": "minor",
-      "source_quote": "there may come a time when “the shoe is on the other foot”, so to speak",
-      "suggested_fix": "«ایک وقت ایسا بھی آ سکتا ہے جب، یوں کہیے، ”جوتا دوسرے پاؤں میں ہوگا۔“» کی جگہ «ایک وقت ایسا بھی آ سکتا ہے جب، یوں کہیے، صورتِ حال الٹ جائے اور ہم خود اسی حالت میں ہوں۔» لکھیں۔",
-      "translation_quote": "ایک وقت ایسا بھی آ سکتا ہے جب، یوں کہیے، ”جوتا دوسرے پاؤں میں ہوگا۔“"
+      "source_quote": "many in the world have allowed fear to take root in their hearts",
+      "suggested_fix": "”خوف کو اپنے دلوں میں جڑ پکڑنے دی ہے“ کی جگہ ”خوف کو اپنے دلوں میں جڑ پکڑنے دیا ہے“ لکھیں۔",
+      "translation_quote": "دنیا کے بہت سے لوگوں نے کووڈ-19 کی پوری آزمائش کے دوران خوف کو اپنے دلوں میں جڑ پکڑنے دی ہے۔"
     }
   ],
+  "finished_at": "2026-10-12T16:02:58+00:00",
   "id": "ec565a3d0835ec7d73f65f28e14c2396",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "urd",
@@ -162,7 +168,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -181,7 +187,7 @@
     "total_reserved_usd": 0.77287,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6.1-sol"
