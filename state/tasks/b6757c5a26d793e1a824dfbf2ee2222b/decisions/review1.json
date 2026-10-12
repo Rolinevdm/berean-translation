@@ -1,0 +1,112 @@
+{
+  "findings": [
+    {
+      "location": "html，第2段，路加福音14:25-33引文",
+      "severity": "critical",
+      "source_quote": "and hate not his father, and mother, and wife, and children ... yea, and his own life also",
+      "suggested_fix": "将“若不爱父母、妻子、儿女、弟兄、姊妹，甚至自己的性命”改为“若不恨自己的父亲、母亲、妻子、儿女、弟兄、姊妹，甚至自己的性命”。",
+      "translation_quote": "若不爱父母、妻子、儿女、弟兄、姊妹，甚至自己的性命"
+    },
+    {
+      "location": "html，第9段，申命记3:3-6引文",
+      "severity": "major",
+      "source_quote": "as we did unto Sihon king of Heshbon",
+      "suggested_fix": "将“照着治施汛王西宏所行的”改为“照着我们对希实本王西宏所做的”。",
+      "translation_quote": "照着治施汛王西宏所行的"
+    },
+    {
+      "location": "html，第13段，约翰福音12:25引文",
+      "severity": "major",
+      "source_quote": "he that hateth his life in this world shall keep it unto life eternal",
+      "suggested_fix": "将“为我和福音恨恶自己性命的，必保守生命到永生”改为“在这世上恨恶自己性命的，必保守生命到永生”。",
+      "translation_quote": "为我和福音恨恶自己性命的，必保守生命到永生"
+    },
+    {
+      "location": "html，第20段",
+      "severity": "major",
+      "source_quote": "when you fall in love with your own life, you cannot effectively follow Christ",
+      "suggested_fix": "将“当你爱自己的生命胜过一切时”改为“当你爱上自己的生命时”，不要增加原文没有的“胜过一切”条件。",
+      "translation_quote": "当你爱自己的生命胜过一切时，你就不能有效地跟随基督"
+    },
+    {
+      "location": "html，第22段",
+      "severity": "major",
+      "source_quote": "We tend to believe that God has blessed us because of all our possessions and our status in life",
+      "suggested_fix": "改为“我们常常因自己拥有的财产和社会地位，就认为神已经赐福给我们”。原文说这些是人自认为蒙福的依据，不是神赐福的原因。",
+      "translation_quote": "我们常常认为神因我们的财产和社会地位而赐福给我们"
+    },
+    {
+      "location": "html，第30段，使徒行传21:10-13引文",
+      "severity": "major",
+      "source_quote": "So shall the Jews at Jerusalem bind the man that owneth this girdle ... What mean ye to weep and to break mine heart?",
+      "suggested_fix": "将预言改为“在耶路撒冷的犹太人要这样捆绑这条带子的主人，并把他交在外邦人手里”；将保罗的问题改为“你们为什么哭泣，使我心碎呢？”",
+      "translation_quote": "凡有这带子的犹太人也要这样捆绑在耶路撒冷的人，把他交在外邦人手里。……你们作什么难过、伤我的心呢？"
+    },
+    {
+      "location": "html，第33段",
+      "severity": "major",
+      "source_quote": "trying to live the Christian life alone, and without God—no spiritual help from above",
+      "suggested_fix": "将“然后独自尝试过基督徒的生活，没有从上头来的属灵帮助”改为“然后独自尝试过基督徒的生活，没有神，也没有从上头来的属灵帮助”。",
+      "translation_quote": "然后独自尝试过基督徒的生活，没有从上头来的属灵帮助"
+    },
+    {
+      "location": "translation.title；translation.section",
+      "severity": "major",
+      "source_quote": "title: If you love your life…; section: Musings of a Missionary",
+      "suggested_fix": "将title译为“如果你爱惜自己的生命……”；将section译为“宣教士随想”。",
+      "translation_quote": "title: If you love your life…; section: Musings of a Missionary"
+    },
+    {
+      "location": "html，第1段",
+      "severity": "minor",
+      "source_quote": "serving Christ would most certainly cost them everything",
+      "suggested_fix": "将“跟随基督几乎必定要付出一切代价”改为“事奉基督必定会使他们付出一切”。",
+      "translation_quote": "跟随基督几乎必定要付出一切代价"
+    },
+    {
+      "location": "html，第2段，建塔比喻",
+      "severity": "minor",
+      "source_quote": "is not able to finish it, all that behold it begin to mock him ... This man began to build, and was not able to finish",
+      "suggested_fix": "改为“恐怕安了地基，却不能完工，所有看见的人都开始讥笑他，说：这人开始建造，却不能完工。”",
+      "translation_quote": "不能成成，只看见的人都讥诮他，说：这人开端造得好，后来不能成成"
+    },
+    {
+      "location": "html，第9段",
+      "severity": "minor",
+      "source_quote": "high walls ... unwalled towns",
+      "suggested_fix": "将两处繁体字“牆”改为简体字“墙”。",
+      "translation_quote": "高牆……没有牆的城"
+    },
+    {
+      "location": "html，第19段",
+      "severity": "minor",
+      "source_quote": "It makes it difficult to say with the Apostle Paul, For to me to live is Christ, and to die is gain",
+      "suggested_fix": "将引文前后这一句改为“这也使我们难以像使徒保罗那样说：<em>对我而言，活着就是基督，死了就是益处。–腓立比书 1:21。</em>”，保留原有em标签。",
+      "translation_quote": "这也使得能像使徒保罗那样说出<em>为我活着就是基督，为我死了就是有益处。–腓立比书 1:21。</em>"
+    },
+    {
+      "location": "html，第21段首句",
+      "severity": "minor",
+      "source_quote": "Can you go to the lost and forsake the comforts of this life if it’s those comforts that you love and live for?",
+      "suggested_fix": "改为“如果今生的安逸正是你所爱并为之而活的，你还能舍弃这些安逸，去到失丧的人中间吗？”",
+      "translation_quote": "如果你所能接触到失丧之人并放弃今生的安逸，但那些安逸正是你所爱并为之而活的，你还能这么做吗？"
+    },
+    {
+      "location": "html，第23段",
+      "severity": "minor",
+      "source_quote": "a coworker of mine ... he did not believe there was a God",
+      "suggested_fix": "将“我有个同工”改为“我有个同事”，避免将普通工作同事误称为教会事工同工。",
+      "translation_quote": "我有个同工……他不信有神"
+    },
+    {
+      "location": "html，诗歌第二节末行",
+      "severity": "minor",
+      "source_quote": "And end the night of wrong.",
+      "suggested_fix": "将“结束黑暗的夜间”改为“终结罪恶的黑夜”。",
+      "translation_quote": "结束黑暗的夜间。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
