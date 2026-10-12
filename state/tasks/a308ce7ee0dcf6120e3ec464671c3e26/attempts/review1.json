@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T00:46:44+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html: Absatz über Nancy Russells Erkrankung und die kanadischen Voraussetzungen; erster Absatz unter „Das Lebensende“; erster Absatz unter „Nicht aus Angst handeln“; letzter Absatz unter „Auf Gottes Kraft vertrauen“; erster Absatz unter „Verstehen, dass Schmerzen wahrscheinlich dazugehören“; zweiter Absatz unter „Schluss“\",\"severity\":\"major\",\"source_quote\":\"“any condition that would normally be considered terminal”; “a terminal condition”; “Some terminal illnesses”; “a terminal diagnosis”; “even a terminal illness”; “usually of a terminally ill patient”; “even if we are dealing with a terminal illness”\",\"suggested_fix\":\"„Terminal“ bezeichnet hier eine zum Tod führende Erkrankung, nicht lediglich eine unheilbare Erkrankung. Ersetzen Sie an den genannten Stellen entsprechend: „eine Erkrankung, die normalerweise als zum Tod führend gelten würde“; „an einer zum Tod führenden Erkrankung zu leiden“; „Manche zum Tod führenden Krankheiten“; „angesichts der Diagnose einer zum Tod führenden Krankheit“; „selbst mit einer zum Tod führenden Krankheit“; „gewöhnlich bei Patienten mit einer zum Tod führenden Erkrankung“; „selbst wenn wir an einer zum Tod führenden Krankheit leiden“. HTML-Struktur unverändert lassen.\",\"translation_quote\":\"„keine Erkrankung, die normalerweise als unheilbar gelten würde“; „nicht erforderlich, unheilbar krank zu sein“; „Manche unheilbaren Krankheiten“; „angesichts einer Diagnose einer unheilbaren Krankheit“; „selbst mit einer unheilbaren Krankheit“; „gewöhnlich bei unheilbar kranken Patienten“; „selbst wenn wir an einer unheilbaren Krankheit leiden“\"},{\"location\":\"html: figure/img/@alt\",\"severity\":\"minor\",\"source_quote\":\"A clinician checks an older man’s blood pressure\",\"suggested_fix\":\"Den Alt-Text durch „Eine medizinische Fachkraft misst den Blutdruck eines älteren Mannes“ ersetzen.\",\"translation_quote\":\"Ein Arzt misst den Blutdruck eines älteren Mannes\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 2113,
+    "content_evidence_truncated": false,
+    "content_sha256": "5ade8c1d29552ac06dd4928af9f6c2b0c52ffe9de589c05ca3be43cd7b302003",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 558,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 104,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7659,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7656,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8217
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
