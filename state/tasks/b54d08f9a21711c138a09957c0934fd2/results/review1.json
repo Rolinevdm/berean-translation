@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2aa28819-0799-4735-9934-c8a6bfde6b84",
+    "response_id": "chatcmpl-EXvqEA5sgCdWdziiOafxV3Xbm4OnH",
+    "usage": {
+      "completion_tokens": 711,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 597,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2400,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1297,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3111
+    }
+  },
+  "received_at": "2026-10-12T00:28:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening blockquote, first sentence",
+        "severity": "major",
+        "source_quote": "We must reduce our volume to the simple evangelists",
+        "suggested_fix": "我们必须把我们的文本缩减为朴素福音书作者所写的内容",
+        "translation_quote": "我们必须把音量调低到那些朴素的福音传讲者的程度"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

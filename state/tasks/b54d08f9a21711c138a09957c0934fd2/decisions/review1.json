@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Opening blockquote, first sentence",
+      "severity": "major",
+      "source_quote": "We must reduce our volume to the simple evangelists",
+      "suggested_fix": "我们必须把我们的文本缩减为朴素福音书作者所写的内容",
+      "translation_quote": "我们必须把音量调低到那些朴素的福音传讲者的程度"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
