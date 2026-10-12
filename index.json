@@ -5379,6 +5379,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.html",
+      "html_sha256": "77a1a7dd9468313e9d97c0a23b1aa2977b62b5ad14a604458845f0292cd283f8",
+      "human_reviewed": false,
+      "id": "6f528c85-5ee6-4ccd-804f-63652b5c3a1d",
+      "images": [
+        {
+          "alt": "كرة أرضية بالأبيض والأسود تتوسطها أفريقيا",
+          "public_path": "/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.json",
+      "metadata_sha256": "0bf10e923fb7030acb9994fe74043ae63570f642f33558d729cb2a7ee7ce58bb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "47fbf61724e9db15266a7f4edf1673f6aa47f52e",
+      "source_translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "نحن مسيحيون عالميون",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9.html",
       "html_sha256": "0a8fcb4a3a84875aa80d5061862dd5073837db3d78efa87248a7b384e3c03adf",
       "human_reviewed": false,
@@ -12048,6 +12076,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "呼召",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.html",
+      "html_sha256": "16b3a5d243185de6d53a22ad7a5680ccb5eeb3e57cf15bf1b14642f0000f5ba3",
+      "human_reviewed": false,
+      "id": "6f528c85-5ee6-4ccd-804f-63652b5c3a1d",
+      "images": [
+        {
+          "alt": "以非洲为中心的黑白地球仪",
+          "public_path": "/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.json",
+      "metadata_sha256": "ce0d40943eb16321a46e5797ece35c64b55b27c6637fd75a307484100c4e90db",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "47fbf61724e9db15266a7f4edf1673f6aa47f52e",
+      "source_translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "我们是全球基督徒",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -22198,6 +22254,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Les petites choses",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.html",
+      "html_sha256": "d4e032eae6dfa4d7a404238578b6ca444c88ca7f877710f6df85fdaa7009f15d",
+      "human_reviewed": false,
+      "id": "6f528c85-5ee6-4ccd-804f-63652b5c3a1d",
+      "images": [
+        {
+          "alt": "Un globe en noir et blanc centré sur l’Afrique",
+          "public_path": "/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.json",
+      "metadata_sha256": "e5bbc5f4590074903c7a519fae40f3ca2a7973e155d49c77425d2a356d8bb2d8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "47fbf61724e9db15266a7f4edf1673f6aa47f52e",
+      "source_translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Nous sommes des chrétiens pour le monde",
       "translation_model": "gpt-6-luna"
     },
     {
