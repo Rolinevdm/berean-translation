@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Absatz 4",
+      "severity": "minor",
+      "source_quote": "But come, let us reason together.",
+      "suggested_fix": "Doch kommt, lasst uns gemeinsam darüber nachdenken.",
+      "translation_quote": "Doch kommt, lasst uns miteinander reden."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

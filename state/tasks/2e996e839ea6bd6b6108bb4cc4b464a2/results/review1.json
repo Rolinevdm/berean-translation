@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "35436dba-521b-4b4e-b645-9029322ef30e",
+    "response_id": "chatcmpl-EXyOhtt2oOXFLrx7kbGFeRcpsucTU",
+    "usage": {
+      "completion_tokens": 451,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 368,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3371,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2268,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3822
+    }
+  },
+  "received_at": "2026-10-12T00:45:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Absatz 4",
+        "severity": "minor",
+        "source_quote": "But come, let us reason together.",
+        "suggested_fix": "Doch kommt, lasst uns gemeinsam darüber nachdenken.",
+        "translation_quote": "Doch kommt, lasst uns miteinander reden."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
