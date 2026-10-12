@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "744aac2d004b43629d78b9b526a01914",
   "campaign": "auto-c9343359b6c13c49c9d7a2158d7b34fb982e900367ed2a3f714aa02b9e1c5901",
   "created_at": "2026-10-11T20:21:27+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 2134
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 799,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 688,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2401,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1298,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3200
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Opening blockquote, first sentence",
+      "severity": "major",
+      "source_quote": "We must reduce our volume to the simple evangelists",
+      "suggested_fix": "Lazima tupunguze kitabu chetu hadi kwa waandishi wa Injili wa kawaida",
+      "translation_quote": "Lazima tupunguze sauti yetu kwa waandishi wa Injili wa kawaida"
+    }
+  ],
   "id": "48ac0c80ff712a02b178dfa3f70d481f",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swa",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e0055d55517f5660992a9420cc757b233982239c9b7e50e0b4848cde01c4c446.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.086289,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0b1f7723-ff7f-43b4-acec-c6950556dcd5",
+    "response_id": "chatcmpl-EY4eWU1Woxtw7U75LxkWO0QBfzuJH",
+    "usage": {
+      "completion_tokens": 799,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 688,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2401,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1298,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3200
+    }
+  },
+  "received_at": "2026-10-12T07:24:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening blockquote, first sentence",
+        "severity": "major",
+        "source_quote": "We must reduce our volume to the simple evangelists",
+        "suggested_fix": "Lazima tupunguze kitabu chetu hadi kwa waandishi wa Injili wa kawaida",
+        "translation_quote": "Lazima tupunguze sauti yetu kwa waandishi wa Injili wa kawaida"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
