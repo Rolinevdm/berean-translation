@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8ce813fd-c5d8-4228-9c08-081d7f308617",
+    "response_id": "chatcmpl-EY45DMw2fg8wKIJrGMUwMdh2fFM9j",
+    "usage": {
+      "completion_tokens": 765,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 633,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7545,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6442,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8310
+    }
+  },
+  "received_at": "2026-10-12T07:17:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning « Réfléchissez-y »",
+        "severity": "major",
+        "source_quote": "“how the two natures of Christ can be mixed in one person”",
+        "suggested_fix": "Replace « réunies en une seule personne » with « mêlées en une seule personne » to preserve the source’s wording and theological claim.",
+        "translation_quote": "« la manière dont les deux natures du Christ peuvent être réunies en une seule personne »"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 95
+  }
+}

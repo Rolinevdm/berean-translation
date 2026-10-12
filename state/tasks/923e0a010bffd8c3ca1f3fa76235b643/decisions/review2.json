@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning « Réfléchissez-y »",
+      "severity": "major",
+      "source_quote": "“how the two natures of Christ can be mixed in one person”",
+      "suggested_fix": "Replace « réunies en une seule personne » with « mêlées en une seule personne » to preserve the source’s wording and theological claim.",
+      "translation_quote": "« la manière dont les deux natures du Christ peuvent être réunies en une seule personne »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

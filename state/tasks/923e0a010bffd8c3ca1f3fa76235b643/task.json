@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "532ff49cdfed426386807bd6c9f6bd34",
   "campaign": "auto-4c29e91f753d95aa79c48613b6f7556ddce3075ded82d1ac5fdfc417a80dad50",
   "created_at": "2026-10-12T00:29:32+00:00",
   "events": [
@@ -68,25 +67,40 @@
         },
         "total_tokens": 11037
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph 4",
-      "severity": "major",
-      "source_quote": "they turned to their leading opponent, Flavian, and cried out, “Slaughter him!”",
-      "suggested_fix": "Replace « Étranglez-le ! » with « Tuez-le ! » or « Massacrez-le ! »; the source calls for killing him but does not specify strangulation.",
-      "translation_quote": "ils se tournèrent vers leur principal adversaire, Flavien, et s’écrièrent : « Étranglez-le ! »"
     },
     {
-      "location": "Paragraph quoting Matthew 26:31",
-      "severity": "major",
-      "source_quote": "“Smite the shepherd, and the sheep of the flock shall be scattered abroad.”",
-      "suggested_fix": "Translate the source’s imperative without making Jesus the speaker of a first-person future, for example: « Frappez le berger, et les brebis du troupeau seront dispersées. »",
-      "translation_quote": "« Je frapperai le berger, et les brebis du troupeau seront dispersées. »"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 765,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 633,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7545,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6442,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8310
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Article, paragraph beginning « Réfléchissez-y »",
+      "severity": "major",
+      "source_quote": "“how the two natures of Christ can be mixed in one person”",
+      "suggested_fix": "Replace « réunies en une seule personne » with « mêlées en une seule personne » to preserve the source’s wording and theological claim.",
+      "translation_quote": "« la manière dont les deux natures du Christ peuvent être réunies en une seule personne »"
+    }
+  ],
+  "finished_at": "2026-10-12T07:17:46+00:00",
   "id": "923e0a010bffd8c3ca1f3fa76235b643",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "fra",
@@ -175,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 95,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +209,7 @@
     "total_reserved_usd": 0.08938,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
   "translation_model_actual": "gpt-6-luna"
