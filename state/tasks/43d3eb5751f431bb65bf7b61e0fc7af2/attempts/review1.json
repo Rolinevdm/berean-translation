@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T00:28:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening blockquote, first sentence\",\"severity\":\"major\",\"source_quote\":\"We must reduce our volume to the simple evangelists\",\"suggested_fix\":\"Ons moet ons boekwerk beperk tot die eenvoudige Evangelies\",\"translation_quote\":\"Ons moet ons omvang beperk tot die eenvoudige evangeliste\"},{\"location\":\"Second paragraph\",\"severity\":\"minor\",\"source_quote\":\"misconceptions and false interpretations given by the writers of the four Gospels themselves\",\"suggested_fix\":\"wanopvattings en valse vertolkings wat deur die skrywers van die vier Evangelies self gegee is\",\"translation_quote\":\"wanopvattings en valse vertolkings wat volgens hom deur die skrywers van die vier Evangelies self gegee is\"},{\"location\":\"Final paragraph, parenthetical\",\"severity\":\"minor\",\"source_quote\":\"be born into the kingdom by the power of the Holy Spirit\",\"suggested_fix\":\"deur die krag van die Heilige Gees in die koninkryk gebore te word\",\"translation_quote\":\"deur deur die krag van die Heilige Gees in die koninkryk gebore te word\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1081,
+    "content_evidence_truncated": false,
+    "content_sha256": "d5ca433ed8df221ec90effe77f42ea44a39f097bd6cca628c9e17076aa0802c2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 897,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 633,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2429,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1326,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3326
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
