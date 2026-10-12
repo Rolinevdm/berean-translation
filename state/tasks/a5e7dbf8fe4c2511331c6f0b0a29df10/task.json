@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d5eea82c15024e1480ca36b78ddb55e5",
   "campaign": "auto-90913a7b91198b01cbcb346f8bda245e0dde6500986294741493b2aab2218b07",
   "created_at": "2026-10-12T07:18:40+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 5023
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 648,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 610,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3519,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3516,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4167
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "First paragraph",
-      "severity": "major",
-      "source_quote": "No race is superior to another, no government is more loved than another, no country is dearer than another.",
-      "suggested_fix": "Replace «ولا يحب الله حكومة أكثر من أخرى، ولا بلد أعز عليه من آخر» with «ولا نُفضّل حكومةً على أخرى، ولا بلداً على آخر» to keep the statement attributed to the speakers, as in the source.",
-      "translation_quote": "لا يتفوق عرق على آخر، ولا يحب الله حكومة أكثر من أخرى، ولا بلد أعز عليه من آخر."
-    },
-    {
-      "location": "Quoted prayer, first line",
-      "severity": "minor",
-      "source_quote": "give us grace to be unquestionably obedient to every last command and desire of Yours.",
-      "suggested_fix": "Replace «أن نطيع طاعتك بلا أدنى شك» with «أن نكون مطيعين لك بلا أدنى شك»; this conveys being obedient to God rather than «obeying your obedience».",
-      "translation_quote": "بل امنحنا نعمة أن نطيع طاعتك بلا أدنى شك، في كل وصية ورغبة من رغباتك حتى آخرها."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-12T17:54:29+00:00",
   "id": "a5e7dbf8fe4c2511331c6f0b0a29df10",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ara",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.08679,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
   "translation_model_actual": "gpt-6-luna"
