@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0aed676c-51cb-4387-9bef-36d0063bf104",
+    "response_id": "chatcmpl-EXyWOpTOOsXXBXLyGqG4v8hvwmJDE",
+    "usage": {
+      "completion_tokens": 646,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 404,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7547,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6444,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8193
+    }
+  },
+  "received_at": "2026-10-12T00:53:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 4",
+        "severity": "major",
+        "source_quote": "they turned to their leading opponent, Flavian, and cried out, “Slaughter him!”",
+        "suggested_fix": "Replace « Étranglez-le ! » with « Tuez-le ! » or « Massacrez-le ! »; the source calls for killing him but does not specify strangulation.",
+        "translation_quote": "ils se tournèrent vers leur principal adversaire, Flavien, et s’écrièrent : « Étranglez-le ! »"
+      },
+      {
+        "location": "Paragraph quoting Matthew 26:31",
+        "severity": "major",
+        "source_quote": "“Smite the shepherd, and the sheep of the flock shall be scattered abroad.”",
+        "suggested_fix": "Translate the source’s imperative without making Jesus the speaker of a first-person future, for example: « Frappez le berger, et les brebis du troupeau seront dispersées. »",
+        "translation_quote": "« Je frapperai le berger, et les brebis du troupeau seront dispersées. »"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

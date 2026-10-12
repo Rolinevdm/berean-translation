@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "they turned to their leading opponent, Flavian, and cried out, “Slaughter him!”",
+      "suggested_fix": "Replace « Étranglez-le ! » with « Tuez-le ! » or « Massacrez-le ! »; the source calls for killing him but does not specify strangulation.",
+      "translation_quote": "ils se tournèrent vers leur principal adversaire, Flavien, et s’écrièrent : « Étranglez-le ! »"
+    },
+    {
+      "location": "Paragraph quoting Matthew 26:31",
+      "severity": "major",
+      "source_quote": "“Smite the shepherd, and the sheep of the flock shall be scattered abroad.”",
+      "suggested_fix": "Translate the source’s imperative without making Jesus the speaker of a first-person future, for example: « Frappez le berger, et les brebis du troupeau seront dispersées. »",
+      "translation_quote": "« Je frapperai le berger, et les brebis du troupeau seront dispersées. »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

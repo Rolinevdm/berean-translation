@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eda980e2512f47fdb73acc0f712d7314",
   "campaign": "auto-4c29e91f753d95aa79c48613b6f7556ddce3075ded82d1ac5fdfc417a80dad50",
   "created_at": "2026-10-12T00:29:32+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 7229
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 646,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 404,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7547,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6444,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8193
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "they turned to their leading opponent, Flavian, and cried out, “Slaughter him!”",
+      "suggested_fix": "Replace « Étranglez-le ! » with « Tuez-le ! » or « Massacrez-le ! »; the source calls for killing him but does not specify strangulation.",
+      "translation_quote": "ils se tournèrent vers leur principal adversaire, Flavien, et s’écrièrent : « Étranglez-le ! »"
+    },
+    {
+      "location": "Paragraph quoting Matthew 26:31",
+      "severity": "major",
+      "source_quote": "“Smite the shepherd, and the sheep of the flock shall be scattered abroad.”",
+      "suggested_fix": "Translate the source’s imperative without making Jesus the speaker of a first-person future, for example: « Frappez le berger, et les brebis du troupeau seront dispersées. »",
+      "translation_quote": "« Je frapperai le berger, et les brebis du troupeau seront dispersées. »"
+    }
+  ],
   "id": "923e0a010bffd8c3ca1f3fa76235b643",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "fra",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/06937d43d82edf4dbc71110987ff1d03b1c2cad3babb7a679114389a1b114e86.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.08938,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
   "translation_model_actual": "gpt-6-luna"
