@@ -1981,6 +1981,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
+      "html_sha256": "24131e6729119db51f2c457e5767c0bbc87109ef3cf91940a712eeaf91404667",
+      "human_reviewed": false,
+      "id": "783fddfc-86ed-44d9-b13e-e4adea31a5d5",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.json",
+      "metadata_sha256": "06b72f6f2c0986939987ab2fa41d0041744f9ba84074a138133200ef7e078b1d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die Jefferson-bybel",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
       "html_sha256": "14e6a572a5432cf1bf51c666ae583906b1ed9047a300432a0711d4bbfc1b15be",
       "human_reviewed": false,
@@ -4876,6 +4899,38 @@
       "subtitle": null,
       "title": "الله لم يدعني أذهب",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "d454ed6e557a1ad8f4e17a93cc1798cd9433ec359c2d0daa8a7c8dd9f5c9a7c5",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "عمل فني ديني تاريخي يتوسطه المسيح وتحيط به شخصيات كثيرة",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "رسم توضيحي لرجل يرفع سيفًا فوق رجل آخر",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "8fc828a7741d6db1967e8702acae17192c8c72ff6230e9ca73569b1bce73796a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "سبب الانقسام... وعلاجه",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -17802,6 +17857,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "2685c7732e70173aa3cd3f875e1d7ada4577f567384dee1160b674ec83864669",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "Ιστορικό θρησκευτικό έργο τέχνης με τον Χριστό στο κέντρο, περιτριγυρισμένο από πολλές μορφές",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "Απεικόνιση ενός άνδρα που σηκώνει το σπαθί πάνω από έναν άλλο άνδρα",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "6774e8ebb4b41031894780b26dd4620b4ba7c9b642354d863aff1dccb900e9d8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Η αιτία του διχασμού… και η θεραπεία",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
       "html_sha256": "54615479db5c433499aafc46e4c65d87ce0b059b56e835d4a03d291879a9ea65",
       "human_reviewed": false,
@@ -18545,6 +18632,29 @@
       "subtitle": null,
       "title": "Τα πήλινα αγγεία",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
+      "html_sha256": "6d6699fb2321d4b4d4f69398200173551de6f211c074d7c0c7e3930d8d788a04",
+      "human_reviewed": false,
+      "id": "783fddfc-86ed-44d9-b13e-e4adea31a5d5",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.json",
+      "metadata_sha256": "7a3c0c0bf4c808e4e3cb16053347bf560b9122b6ac019f99edb916c07c97ed6c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Η Βίβλος του Τζέφερσον",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -21552,6 +21662,38 @@
       "subtitle": null,
       "title": "Dieu dans le nuage",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "ccd8e88c0205e1da6b6051009cc7b69c73eb51ead88dcc88c18efc934efd10ac",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "Une œuvre religieuse historique représentant le Christ au centre, entouré de nombreuses figures",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "Illustration d’un homme levant son épée au-dessus d’un autre homme",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "0d62dfd417b5d0dd1c3542561925ff15bdcc29d531cad94d00f4eb91be1f50a5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La cause des divisions… et le remède",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -31938,6 +32080,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
+      "html_sha256": "014f5ad0da403ed799a7a05fe6d058fb908758fd29fdaf93214fa06701b5af1f",
+      "human_reviewed": false,
+      "id": "60de3363-d9fc-4137-ad60-dee9097b154b",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/60de3363-d9fc-4137-ad60-dee9097b154b-1.png"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/60de3363-d9fc-4137-ad60-dee9097b154b.json",
+      "metadata_sha256": "80bda310a6334571f1d8687f0de80975cd85a758fbd72242afc327d9f3924ce9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Dari Pemimpin Redaksi",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dari Pemimpin Redaksi",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
       "html_sha256": "4e86db587d53f68d6462dc53cfdcbed4e59bacdaf07a2a49e02c029185b28e80",
       "human_reviewed": false,
@@ -41937,6 +42107,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
+      "html_sha256": "56c6e2bbe7393222197b30ae5e3760516489735dc8476d1ae7e84c2240c8f2ce",
+      "human_reviewed": false,
+      "id": "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd",
+      "images": [
+        {
+          "alt": "‘죽었든 살았든, 기독교 전통을 찾습니다’라고 적힌 찢어진 종이 포스터. ‘죽었든’에는 줄이 그어져 있고 ‘살았든’에는 동그라미가 쳐져 있다",
+          "public_path": "/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.json",
+      "metadata_sha256": "a0bda8b5607ffbee70ebb1133e9518b8ea374fdcf083955a274d9171641a1506",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "전통: 좋은 것일까요, 나쁜 것일까요?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "4b9779a1e600f68d17a0fab30671de6b88e46994725ca4f0927d9618d273859e",
       "human_reviewed": false,
@@ -47430,6 +47628,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Gud i skyen",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "2fd889b5f37aace7e78f9278993cd79644af95b8e4952762f158c4933594b3fc",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "Et historisk religiøst kunstverk med Kristus i sentrum, omgitt av mange skikkelser",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "En illustrasjon av en mann som løfter et sverd over en annen mann",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "8f00d1129b21b2451c461c43d7551d62d37b425e185aef6e61044d5e88d7c0d7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Splittelsens årsak … og botemiddelet",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -62330,6 +62560,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd.html",
+      "html_sha256": "60ffe46a43c4facaa13790d45e10935570ef33c4e71b76fb782a7bbc596ea1fd",
+      "human_reviewed": false,
+      "id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
+      "images": [
+        {
+          "alt": "Un arcoíris doble se extiende sobre árboles oscuros bajo un cielo tormentoso",
+          "public_path": "/images/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd.json",
+      "metadata_sha256": "98cf5386e432b08960ad2242f43e3eba55d49e5923ae565938f0d73dd0013b44",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Poema",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mira el arcoíris",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
       "html_sha256": "12883f776ba6820bb361afa1d79946fe3b99d8ca786863a7ed50adb6b66e804e",
       "human_reviewed": false,
@@ -64080,6 +64338,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "Vyungu",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
+      "html_sha256": "bc53e3b7bffe9f2d1ca60214fa4dd4ea2d9b1f8945d9fdbbdf12a7fd622d99a4",
+      "human_reviewed": false,
+      "id": "783fddfc-86ed-44d9-b13e-e4adea31a5d5",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.json",
+      "metadata_sha256": "072c72de24886e1b4410ff3e4c21d3d3c515e4151053e03b9c462d92da39d58a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Biblia ya Jefferson",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -70632,6 +70913,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.html",
+      "html_sha256": "4485ac4cf764ad06c67635e9bdf961e5f509d95035c54a7aa4b05305de425c7b",
+      "human_reviewed": false,
+      "id": "6f528c85-5ee6-4ccd-804f-63652b5c3a1d",
+      "images": [
+        {
+          "alt": "افریقہ کے مرکز میں سیاہ و سفید کرۂ ارض",
+          "public_path": "/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.json",
+      "metadata_sha256": "b460b3c372fc7a04b46c07327e429b7e2ae29f813879a9d6dca477da3602ef21",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "47fbf61724e9db15266a7f4edf1673f6aa47f52e",
+      "source_translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ہم دنیا بھر کے مسیحی ہیں",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9.html",
       "html_sha256": "76f27779651340ff4438a086753ef02d57647bd51c53d256c3a3cc9243072ef9",
       "human_reviewed": false,
@@ -71172,6 +71481,34 @@
       "subtitle": null,
       "title": "جس کے سننے کے کان ہوں…",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
+      "html_sha256": "4c59a31cab1ff2eb5b1d86c2f766a0b0b1605c2b5f4f977595bf8d40013361c2",
+      "human_reviewed": false,
+      "id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "images": [
+        {
+          "alt": "ایک چرواہا پتھریلی پہاڑی وادی سے ریوڑ کو لے جا رہا ہے",
+          "public_path": "/images/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.json",
+      "metadata_sha256": "ec6f27a671a301d69671aae651becfad4e8cc067c963906d4f95219148100dd1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "بائبل کے عقائد",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "کیا کوئی سبب نہیں؟",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
