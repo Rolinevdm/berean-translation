@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T22:53:18+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6f528c85-5ee6-4ccd-804f-63652b5c3a1d\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png\\\" alt=\\\"’n Swart-en-wit aardbol met Afrika in die middel\\\">\\n  </figure>\\n  <p>Ons is “wêreld-Christene”. (Maar nie wêreldse Christene nie.) Ons stel God se liefde vir alle mense eerste. Geen ras is beter as ’n ander nie, geen regering word meer liefgehê as ’n ander nie, geen land is dierbaarder as ’n ander nie. Ons stel nie ons nasionale ekonomie bo God se ekonomie nie. Hy sê vir ons om eers sy koninkryk te soek. Dan sal Hy in ons behoeftes voorsien.</p>\\n  <p>Die wete dat miljarde mense nie ons Verlosser ken nie, dryf ons elke dag tot aksie. Ons lewenspassie, ons onblusbare begeerte, is om God se liefde na hulle toe te bring.</p>\\n  <p>Geen taak is vir ons te klein nie. Die enigste beperking is ons bereidwilligheid om te glo dat God ons in staat kan stel om dit te doen.</p>\\n  <p>Ons is volkome oorgegee aan Jesus Christus, ons Verlosser en Here. Niks minder nie. Ons verstaan dat dit, om Hom te volg, beteken dat ons onsself volkome moet afsterf. Dit kos alles om sy dissipel te wees.</p>\\n  <blockquote>\\n    <p>Moenie vir ons seëninge gee nie—gee ons die genade om onteenseglik gehoorsaam te wees aan elke laaste opdrag en begeerte van U.</p>\\n    <p>Moenie vir ons status gee nie—gee ons ’n plek om te dien.</p>\\n    <p>Moenie vir ons dinge gee om te gebruik nie—gebruik óns.</p>\\n    <p>Moenie vir ons ’n herehuis gee om in te woon nie—gee ons ’n wegspringplek vanwaar ons Christus se liefde na die hele wêreld kan neem.</p>\\n    <p>Moenie vir ons goeie werk gee nie—sit ons aan die werk.</p>\\n    <p>Moenie vir ons gerief gee nie—beveel ons.</p>\\n    <p>Moenie vir ons plesier gee nie—gee ons perspektief.</p>\\n    <p>Moenie vir ons tevredenheid gee nie—leer ons om opofferings te maak.</p>\\n    <p>Moenie vir ons vermaak gee nie—stel ons in staat.</p>\\n    <p>Moenie vir ons goeie salarisse gee nie—gee ons krag om U wil te doen.</p>\\n  </blockquote>\\n  <p>Ons grootste vreugde in die lewe is om ons Here te behaag—en daar is geen ander vreugde wat daarmee vergelyk nie.</p>\\n  <p>Ons is moeg daarvoor om godsdiens te speel; moeg vir kweekskole en Bybelskole wat denkers oplewer wat nie tot aksie oorgaan nie; moeg vir ’n kerklewe wat bestaan uit ’n paar gereelde byeenkomste en preke wat goed klink—asof hulle as toesprake beoordeel word—maar geen noemenswaardige waarde het nie, behalwe dat hulle selfvoldaanheid aanmoedig. Die lewe is nie ’n tydperk van sowat 70 jaar wat ons moet verduur totdat Christus terugkeer of ons kom haal nie; dit is ook nie ’n tyd om persoonlike vervulling na te streef nie.</p>\\n  <p>Ons streef nie na selfverwesenliking nie—ons beywer ons vir die verwesenliking van God se liefde in alle harte.</p>\\n  <p>Ons streef nie na ons persoonlike regte nie—ons beywer ons daarvoor om te sien dat alle mense vrygemaak word.</p>\\n  <p>Ons maak geen planne nie—ons ontvang bevele.</p>\\n  <p>Ons kla oor niks nie—behalwe oor ons ondankbare harte.</p>\\n  <p>Ons het geen verskonings nie—dit beperk God.</p>\\n  <p>Ons vra nie vir redes nie—ons vra vir verantwoordelikheid.</p>\\n  <p>Ons gee nie 10% van ons inkomste aan God nie—ons gee alles.</p>\\n  <p>Ons werk nie van 8-5 vir Hom nie—ons behoort elke dag 24 uur lank aan Hom.</p>\\n  <p>Ons is nie stoïsyne nie—ons ly en huil wanneer geliefdes ons verlaat. Maar ons ly des te meer oor mense wat die ewigheid ingaan sonder om Jesus Christus as hulle Here aan te neem. Ons is nie “uitvallers” omdat ons nie “respektabele, vaste” werk het nie—ons is “volkome oorgegee”.</p>\\n  <p>Ons is nie sinici nie. Hoewel daar onbeantwoorde vrae is, weet ons dat Christus al die antwoorde het.</p>\\n  <p>Ons is nie verbitterd nie. Hoewel ons seergekry het, is Christus ons geneser.</p>\\n  <p>Ons mors nie eindelose ure met rusies oor bysaaklike kwessies, soos spesifieke sienings oor eskatologie, nie.</p>\\n  <p>Ons is nie trots daarop om dinge te bekom nie.</p>\\n  <p>Ons sê dit is sinloos om oor beskikbaarheid of bereidwilligheid te praat. Ons doen liewer gehoorsaam die werk as om daaroor te praat.</p>\\n  <p>-Onbekende skrywer (Aangepas)</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Ons is wêreld-Christene\"}",
+    "content_bytes": 4359,
+    "content_evidence_truncated": false,
+    "content_sha256": "78f1c8099241cd0dff5b81f7523f3dae5ecccb234ba2eb11208e9993cafc148f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1428,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 72,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1848,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1845,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3276
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
