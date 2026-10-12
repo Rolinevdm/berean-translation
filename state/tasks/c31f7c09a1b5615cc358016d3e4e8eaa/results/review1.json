@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6798d647-3884-4d76-a36f-0fd9fbb2da08",
+    "response_id": "chatcmpl-EY4dXPO9N7oZOcaMi11t0P6c324Bf",
+    "usage": {
+      "completion_tokens": 697,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 547,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8962,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7859,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9659
+    }
+  },
+  "received_at": "2026-10-12T07:24:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, James 3:15 quotation",
+        "severity": "major",
+        "source_quote": "“This wisdom descendeth not from above, but is earthly, sensual, devilish.”",
+        "suggested_fix": "Replace «αισθησιακή» with «ψυχική» or «σαρκική» to convey the sense of “sensual” in this theological context.",
+        "translation_quote": "«Αυτή η σοφία δεν κατεβαίνει από πάνω, αλλά είναι επίγεια, αισθησιακή, δαιμονική.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
