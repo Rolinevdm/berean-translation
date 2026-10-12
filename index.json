@@ -29881,6 +29881,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
+      "html_sha256": "9a3fcf18a60b6bcf1c6179e274988e65b29244a156527dc89288218b9cc3cf4c",
+      "human_reviewed": false,
+      "id": "d0898011-fe8b-4c35-9aac-12c20ec0d950",
+      "images": [
+        {
+          "alt": "जागृति सभा के दौरान प्रार्थना में घुटने टेकते लोग",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-1.jpg"
+        },
+        {
+          "alt": "खुली हुई ऐतिहासिक बाइबल",
+          "public_path": "/images/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.json",
+      "metadata_sha256": "7d164da999b5c6f0c16c899e56491f6aae46ca8542c66029b28b8a70e4ab92e5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
+      "status": "ready",
+      "subtitle": null,
+      "title": "पंचकोणीय ईसाई धर्म",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd.html",
       "html_sha256": "b2b66c2a07de0a1a378a975df26023b040191c1b896ce74461995c1fe2dc9d92",
       "human_reviewed": false,
@@ -60140,6 +60172,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.html",
+      "html_sha256": "1c3d0ff548096532f612b63804600bf93eb4bb12861823d571e4ba4c6f345fae",
+      "human_reviewed": false,
+      "id": "6f528c85-5ee6-4ccd-804f-63652b5c3a1d",
+      "images": [
+        {
+          "alt": "Un globo terráqueo en blanco y negro centrado en África",
+          "public_path": "/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.json",
+      "metadata_sha256": "c263779332d66b37a65b402482aa43fb42918195d87412c29a90c62b7b5aa977",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "47fbf61724e9db15266a7f4edf1673f6aa47f52e",
+      "source_translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Somos cristianos del mundo",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9.html",
       "html_sha256": "62183f58248d6cae4c536eed70fb50205064ebd2ca9274a1f8b45aa507d72f70",
       "human_reviewed": false,
@@ -69897,6 +69957,38 @@
       "subtitle": "زیورخ کے کسان سے انا بپٹسٹ شہید تک",
       "title": "Hans Landis",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "24e5038779c874752e141ef717c3bca69a5c92d45ba7fe1a683405d9bfba9b0b",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "ایک تاریخی مذہبی فن پارہ، جس کے مرکز میں مسیح ہیں اور ان کے گرد بہت سے لوگ ہیں",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "ایک شخص کی تصویر جو دوسرے شخص پر تلوار اٹھائے ہوئے ہے",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "33572b431fdc536bcd45b4819fe24ca7569315c2767990db929b9dffae927769",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "تفرقے کی وجہ۔۔۔ اور اس کا علاج",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
