@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2655ec3ea5df4574b0a1ae0d0486c18c",
   "campaign": "auto-e2ee17dc22f0db36e605dd4bb94a4f9d1b94b5e143552cf89fa7a2cf5baf2a5e",
   "created_at": "2026-10-10T19:12:25+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 6303
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 544,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4377,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3274,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4921
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph 4",
-      "severity": "major",
-      "source_quote": "“The ‘game’ will only be heating up until the end of the age.”",
-      "suggested_fix": "Replace «μέχρι το τέλος του αιώνα» with «μέχρι το τέλος της εποχής» to convey the eschatological sense of “age.”",
-      "translation_quote": "«Το „παιχνίδι“ θα γίνεται όλο και πιο έντονο μέχρι το τέλος του αιώνα.»"
-    },
-    {
-      "location": "Final paragraph",
-      "severity": "major",
-      "source_quote": "“May this issue of The Heartbeat of the Remnant stir you to love Him more! ~Bro. Dean”",
-      "suggested_fix": "Preserve the in-article signature, for example by adding «~Αδελφός Ντιν» after the closing sentence.",
-      "translation_quote": "«Είθε αυτό το τεύχος του The Heartbeat of the Remnant να σας παρακινήσει να Τον αγαπήσετε περισσότερο!»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-12T23:00:39+00:00",
   "id": "ba35080954f08e37c0d19654d4a880fa",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ell",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.087115,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
   "translation_model_actual": "gpt-6-luna"
