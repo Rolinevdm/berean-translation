@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7c422536e31a4bd1a8eb1547151d53b8",
   "campaign": "auto-c77ef14491c351cd893a2843873fb35998de1613885742af30c32fba43f86b6d",
   "created_at": "2026-10-12T00:29:43+00:00",
   "events": [
@@ -68,25 +67,39 @@
         },
         "total_tokens": 11189
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 743,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 619,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7556,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7553,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8299
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "الفقرة الأولى من الفقرة الرابعة؛ اسم فلافian",
-      "severity": "major",
-      "source_quote": "they turned to their leading opponent, Flavian",
-      "suggested_fix": "استبدل «فلافian» بـ«فلافيان».",
-      "translation_quote": "التفتوا إلى خصمهم الأبرز، فلافian"
-    },
-    {
-      "location": "الفقرة الخامسة، والاقتباس المصوّر، والفقرة الأخيرة من البند الأول، والفقرة الأخيرة من البند الثاني؛ صيغة الاقتباس المتكررة",
-      "severity": "major",
-      "source_quote": "May those who divide Christ be divided with the sword.",
-      "suggested_fix": "استبدل «ليُقسَم بالسيف الذين يقسمون المسيح» بـ«ليُقسَّم بالسيف الذين يقسمون المسيح» في المواضع الأربعة، لضبط معنى «يُقسَّم» وتجنب التباسه بفعل القَسَم.",
-      "translation_quote": "«ليُقسَم بالسيف الذين يقسمون المسيح»"
+      "location": "الفقرة التي تبدأ بـ«فكر في الأمر: متى كانت آخر مرة...»",
+      "severity": "minor",
+      "source_quote": "If we could be saturated with the red letters of our Bibles",
+      "suggested_fix": "إذا تشبعنا بكلمات يسوع المطبوعة باللون الأحمر في كتبنا المقدسة",
+      "translation_quote": "إذا تشبعنا بحروف الإنجيل الحمراء في كتبنا المقدسة"
     }
   ],
+  "finished_at": "2026-10-12T22:53:04+00:00",
   "id": "9a5fba0c9193ec1cc41cfb2f428bb2ea",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ara",
@@ -175,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +208,7 @@
     "total_reserved_usd": 0.08938,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
   "translation_model_actual": "gpt-6-luna"

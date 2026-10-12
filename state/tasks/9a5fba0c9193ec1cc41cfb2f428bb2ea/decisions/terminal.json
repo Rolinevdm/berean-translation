@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة التي تبدأ بـ«فكر في الأمر: متى كانت آخر مرة...»",
+      "severity": "minor",
+      "source_quote": "If we could be saturated with the red letters of our Bibles",
+      "suggested_fix": "إذا تشبعنا بكلمات يسوع المطبوعة باللون الأحمر في كتبنا المقدسة",
+      "translation_quote": "إذا تشبعنا بحروف الإنجيل الحمراء في كتبنا المقدسة"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

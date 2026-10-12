@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T22:53:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الفقرة التي تبدأ بـ«فكر في الأمر: متى كانت آخر مرة...»\",\"severity\":\"minor\",\"source_quote\":\"If we could be saturated with the red letters of our Bibles\",\"suggested_fix\":\"إذا تشبعنا بكلمات يسوع المطبوعة باللون الأحمر في كتبنا المقدسة\",\"translation_quote\":\"إذا تشبعنا بحروف الإنجيل الحمراء في كتبنا المقدسة\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 519,
+    "content_evidence_truncated": false,
+    "content_sha256": "82d7674303bec774b9a4efa62d0078cdad560913eca4121d255a1da428843a53",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 743,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 619,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7556,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7553,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8299
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
