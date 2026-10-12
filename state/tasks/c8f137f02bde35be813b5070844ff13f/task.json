@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f477fbf79ad94fcd9eb0ef838834e8d4",
   "campaign": "auto-7a9978b86a353d82ab22f35f77aea5cadb61ef2270d6da6a8d9b062f29f09756",
   "created_at": "2026-10-12T00:29:35+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 10375
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 526,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 494,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7300,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6197,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7826
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Final paragraph quoting Matthew 26:31",
-      "severity": "major",
-      "source_quote": "“Smite the shepherd, and the sheep of the flock shall be scattered abroad.”",
-      "suggested_fix": "«Hiere al pastor, y las ovejas del rebaño serán dispersadas».",
-      "translation_quote": "«Heriré al pastor, y las ovejas del rebaño serán dispersadas»."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-12T06:43:20+00:00",
   "id": "c8f137f02bde35be813b5070844ff13f",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "spa",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.089388,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
   "translation_model_actual": "gpt-6-luna"
