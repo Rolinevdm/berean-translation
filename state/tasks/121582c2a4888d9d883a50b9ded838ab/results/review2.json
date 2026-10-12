@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f882826d-ec65-4cbb-8dc3-a66813e61bd6",
+    "response_id": "chatcmpl-EY41lnfwYCcpE0EplKX8bXsuiMPC4",
+    "usage": {
+      "completion_tokens": 953,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 834,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 19491,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 18388,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 20444
+    }
+  },
+  "received_at": "2026-10-12T06:43:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Biblisisme, kutipan 2 Ptr. 3:15–16",
+        "severity": "minor",
+        "source_quote": "“And account that the longsuffering of our Lord is salvation”",
+        "suggested_fix": "“Anggaplah kesabaran Tuhan kita sebagai keselamatan”",
+        "translation_quote": "“Anggaplah kesabaran Tuhan kita sebagai kesempatan untuk beroleh keselamatan”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
