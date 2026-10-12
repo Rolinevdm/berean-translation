@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7ce059be-5930-43ab-9092-5edb9f95ccc0",
+    "response_id": "chatcmpl-EYJHiMUig1NwFPeliMIocG8xpCOA1",
+    "usage": {
+      "completion_tokens": 1256,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1845,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1842,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3101
+    }
+  },
+  "received_at": "2026-10-12T23:01:16+00:00",
+  "result": {
+    "html": "<article data-article-id=\"6f528c85-5ee6-4ccd-804f-63652b5c3a1d\">\n  <figure>\n    <img src=\"/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png\" alt=\"Un globo in bianco e nero centrato sull’Africa\">\n  </figure>\n  <p>Siamo «cristiani del mondo». (Ma non cristiani mondani.) Mettiamo al primo posto l’amore di Dio per tutti gli uomini. Nessuna razza è superiore a un’altra, nessun governo è più amato di un altro, nessun paese ci è più caro di un altro. Non mettiamo l’economia della nostra nazione prima dell’economia di Dio. Egli ci dice di cercare prima il suo regno. Allora provvederà ai nostri bisogni.</p>\n  <p>Ogni giorno siamo spinti ad agire dalla consapevolezza che miliardi di persone non conoscono il nostro Salvatore. La passione della nostra vita, il nostro desiderio inestinguibile, è portare loro l’amore di Dio.</p>\n  <p>Nessun compito è troppo piccolo per noi. A limitarci è soltanto la nostra volontà di credere che Dio possa renderci capaci di compierlo.</p>\n  <p>Siamo interamente consacrati a Gesù Cristo, nostro Salvatore e Signore. Niente di meno. Capiamo che seguirlo significa morire completamente a noi stessi. Essere suoi discepoli costa tutto.</p>\n  <blockquote>\n    <p>Non darci benedizioni: donaci la grazia di obbedire senza riserve a ogni tuo ultimo comando e desiderio.</p>\n    <p>Non darci prestigio: donaci un luogo in cui servire.</p>\n    <p>Non darci cose da usare: usaci.</p>\n    <p>Non darci una villa in cui abitare: donaci una rampa di lancio da cui portare l’amore di Cristo a tutto il mondo.</p>\n    <p>Non darci buoni impieghi: mettici al lavoro.</p>\n    <p>Non darci conforto: comandaci.</p>\n    <p>Non darci piacere: donaci una prospettiva.</p>\n    <p>Non darci soddisfazione: insegnaci il sacrificio.</p>\n    <p>Non darci svago: rendici capaci.</p>\n    <p>Non darci buoni stipendi: donaci la forza di fare la tua volontà.</p>\n  </blockquote>\n  <p>La nostra più grande gioia nella vita è compiacere il nostro Signore, e non c’è gioia paragonabile.</p>\n  <p>Siamo stanchi di fingere di vivere la religione, stanchi dei seminari e delle scuole bibliche che sfornano pensatori incapaci di agire, stanchi di una vita di chiesa fatta di poche attività regolari e di sermoni che suonano bene, come se fossero valutati come discorsi, ma che non hanno alcun valore concreto se non quello di favorire l’autocompiacimento. La vita non è un periodo di circa settant’anni da sopportare finché Cristo ritorna o ci porta a casa, né è un tempo da dedicare alla ricerca della realizzazione personale.</p>\n  <p>Non cerchiamo l’autorealizzazione: perseguiamo la realizzazione dell’amore di Dio in ogni cuore.</p>\n  <p>Non rivendichiamo i nostri diritti personali: cerchiamo di vedere tutti gli uomini liberati.</p>\n  <p>Non facciamo piani: riceviamo ordini.</p>\n  <p>Non abbiamo lamentele, se non i nostri cuori ingrati.</p>\n  <p>Non abbiamo scuse: limitano Dio.</p>\n  <p>Non chiediamo spiegazioni: chiediamo responsabilità.</p>\n  <p>Non diamo a Dio il 10% del nostro reddito: gli diamo tutto.</p>\n  <p>Non lavoriamo per lui dalle 8 alle 17: siamo suoi ventiquattr’ore al giorno.</p>\n  <p>Non siamo stoici: soffriamo e piangiamo quando i nostri cari ci lasciano. Ma soffriamo ancora di più per le persone che passano all’eternità senza aver fatto di Gesù Cristo il loro Signore. Non siamo «disertori» perché non svolgiamo lavori «rispettabili e sicuri»: siamo «interamente consacrati».</p>\n  <p>Non siamo cinici. Anche se ci sono domande senza risposta, sappiamo che Cristo ha tutte le risposte.</p>\n  <p>Non siamo amareggiati. Anche se siamo stati feriti, Cristo è colui che ci guarisce.</p>\n  <p>Non passiamo infinite ore a litigare su questioni secondarie, come le specifiche posizioni sull’escatologia.</p>\n  <p>Non siamo orgogliosi di accumulare beni.</p>\n  <p>Diciamo che è inutile parlare di disponibilità o di volontà. Preferiamo obbedire e fare il lavoro, non parlarne.</p>\n  <p>-Autore sconosciuto (adattato)</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Siamo cristiani del mondo"
+  }
+}
