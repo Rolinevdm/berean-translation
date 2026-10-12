@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3304dad7-ed7f-4234-9637-6517483ede0e",
+    "response_id": "chatcmpl-EYEThrHXBveikha1z6pbq0aSOVuTu",
+    "usage": {
+      "completion_tokens": 702,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 570,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3468,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2365,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4170
+    }
+  },
+  "received_at": "2026-10-12T17:54:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML，第17段",
+        "severity": "minor",
+        "source_quote": "We are not stoics—we hurt and cry when loved ones leave us.",
+        "suggested_fix": "我们不是那种强忍情感、不露声色的人——亲人离开我们时，我们会悲伤、会哭泣。",
+        "translation_quote": "我们不是冷漠无情的人——亲人离开我们时，我们会悲伤、会哭泣。"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

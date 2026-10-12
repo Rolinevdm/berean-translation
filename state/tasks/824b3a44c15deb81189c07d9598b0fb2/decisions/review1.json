@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML，第17段",
+      "severity": "minor",
+      "source_quote": "We are not stoics—we hurt and cry when loved ones leave us.",
+      "suggested_fix": "我们不是那种强忍情感、不露声色的人——亲人离开我们时，我们会悲伤、会哭泣。",
+      "translation_quote": "我们不是冷漠无情的人——亲人离开我们时，我们会悲伤、会哭泣。"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
