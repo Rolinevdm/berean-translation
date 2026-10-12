@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "69cf5be939a141258815e5f85ebebf58",
   "campaign": "auto-aeabce13f7044fa472a149e5ef77f6401af00f8fec298acd12b056c1025be57a",
   "created_at": "2026-10-11T15:43:50+00:00",
   "events": [
@@ -28,10 +27,52 @@
         },
         "total_tokens": 3467
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 937,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3821,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2718,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4758
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "“the early church and the early Methodists”",
+      "suggested_fix": "«την πρώτη εκκλησία και τους πρώτους Μεθοδιστές» → «την πρώτη Εκκλησία και τους πρώτους Μεθοδιστές» or, more clearly, «την αρχαία Εκκλησία και τους πρώτους Μεθοδιστές»",
+      "translation_quote": "«την πρώτη εκκλησία και τους πρώτους Μεθοδιστές»"
+    },
+    {
+      "location": "Paragraph 12",
+      "severity": "major",
+      "source_quote": "“The problem lies in the heart of the ones practicing the tradition with the deadness of an abandoned graveyard.”",
+      "suggested_fix": "«Το πρόβλημα βρίσκεται στην καρδιά εκείνων που τηρούν την παράδοση, η οποία είναι νεκρή σαν ένα εγκαταλελειμμένο νεκροταφείο.» → «Το πρόβλημα βρίσκεται στη νεκρότητα της καρδιάς εκείνων που τηρούν την παράδοση, σαν σε ένα εγκαταλελειμμένο νεκροταφείο.»",
+      "translation_quote": "«Το πρόβλημα βρίσκεται στην καρδιά εκείνων που τηρούν την παράδοση, η οποία είναι νεκρή σαν ένα εγκαταλελειμμένο νεκροταφείο.»"
+    },
+    {
+      "location": "Paragraph 13",
+      "severity": "minor",
+      "source_quote": "“the old custom of ‘love feast,’ practiced with lots of love”",
+      "suggested_fix": "«της “αγάπης-συμποσίου”» → «του παλιού εθίμου του “δείπνου αγάπης”, που τηρείται με πολλή αγάπη»",
+      "translation_quote": "«το παλιό έθιμο της «αγάπης-συμποσίου», και το τηρείς με πολλή αγάπη»"
+    }
+  ],
   "id": "2c617062b71b3d5eef994d7ba5c3eb21",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ell",
@@ -120,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/53355702ddab569aed98a9ab0f304db45cd690b45d9e25455e84c6221b4fb3e2.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +181,7 @@
     "total_reserved_usd": 0.086825,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
   "translation_model_actual": "gpt-6-luna"
