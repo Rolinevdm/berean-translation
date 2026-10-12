@@ -1,0 +1,136 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "5e5d3f35-a610-4032-b531-8a9d8fb9a817",
+    "response_id": "chatcmpl-EYJEOy2BvFlwyobKIqPqlb0HIcisx",
+    "usage": {
+      "completion_tokens": 1830,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 65,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9502,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8399,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11332
+    }
+  },
+  "received_at": "2026-10-12T23:00:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, opening paragraph",
+        "severity": "major",
+        "source_quote": "in the 1500s",
+        "suggested_fix": "Replace «1500 کی صدی میں» with «سولہویں صدی میں».",
+        "translation_quote": "1500 کی صدی میں"
+      },
+      {
+        "location": "html, Luke 14:25-33 quotation, concluding sentence",
+        "severity": "major",
+        "source_quote": "whosoever he be of you that forsaketh not all that he hath",
+        "suggested_fix": "Replace «اپنے سِوا جو کچھ اس کے پاس ہے» with «جو کچھ اس کے پاس ہے». The source does not exempt the disciple himself.",
+        "translation_quote": "جو کوئی بھی اپنے سِوا جو کچھ اس کے پاس ہے سب کچھ نہ چھوڑے"
+      },
+      {
+        "location": "html, paragraph following 2 Timothy 3:12",
+        "severity": "major",
+        "source_quote": "His Word about persecution ... we might be confused",
+        "suggested_fix": "Replace «ستائش کے بارے میں» with «ایذا رسانی کے بارے میں» and «ہم مغلوب ہو سکتے ہیں» with «ہم الجھن میں پڑ سکتے ہیں».",
+        "translation_quote": "اپنے کلام میں ستائش کے بارے میں دیے ... ہم مغلوب ہو سکتے ہیں"
+      },
+      {
+        "location": "html, wilderness narrative before Deuteronomy quotation",
+        "severity": "major",
+        "source_quote": "the children of Israel ... God instructed the children of Israel",
+        "suggested_fix": "Replace «اسرائیل کے بچوں» with «بنی اسرائیل» and «اسرائیلی بچوں کو» with «بنی اسرائیل کو». These expressions refer to the people of Israel, not specifically their children.",
+        "translation_quote": "اسرائیل کے بچوں ... خُدا نے کس طرح اسرائیلی بچوں کو"
+      },
+      {
+        "location": "html, Deuteronomy 3:3-6 quotation, first sentence",
+        "severity": "major",
+        "source_quote": "So the LORD our God delivered into our hands Og also, the king of Bashan, and all his people",
+        "suggested_fix": "Replace the corrupted opening clause with «پس خداوند ہمارے خدا نے باشان کے بادشاہ اوگ کو بھی، اُس کی ساری قوم سمیت، ہمارے ہاتھ میں دے دیا».",
+        "translation_quote": "تو ہا رب ہمارے خدا نے بھی اوسگ راھ کے بادشاہ اوگ کو ہمارے ہاتھ میں دے دیا اور اس کے سارے لوگ"
+      },
+      {
+        "location": "html, paragraph beginning “We all know”",
+        "severity": "major",
+        "source_quote": "the judgment, then eternity",
+        "suggested_fix": "Replace «مذمت، پھر ازلی زندگی» with «عدالت، پھر ابدیت». Judgment is not simply condemnation, and eternity here is not restricted to eternal life.",
+        "translation_quote": "مذمت، پھر ازلی زندگی"
+      },
+      {
+        "location": "html, paragraph about Americanized Christians",
+        "severity": "major",
+        "source_quote": "the tens of thousands who are seeking",
+        "suggested_fix": "Replace «سیکڑوں ہزاروں لوگوں» with «دسیوں ہزار لوگوں».",
+        "translation_quote": "سیکڑوں ہزاروں لوگوں"
+      },
+      {
+        "location": "html, paragraph about Americanized Christians",
+        "severity": "major",
+        "source_quote": "It’s not likely. ... can’t win the lost, rather they make them jealous.",
+        "suggested_fix": "Replace «یہ ممکن نہیں» with «اس کا امکان کم ہے»; replace «گمشدہ لوگوں کو جتانے میں ناکام رہتے ہیں، بلکہ انہیں رشک دلاتے ہیں» with «گمراہ لوگوں کو مسیح کی طرف لانے میں ناکام رہتے ہیں، بلکہ اُنہیں حسد میں مبتلا کرتے ہیں».",
+        "translation_quote": "یہ ممکن نہیں۔ ... گمشدہ لوگوں کو جتانے میں ناکام رہتے ہیں، بلکہ انہیں رشک دلاتے ہیں۔"
+      },
+      {
+        "location": "html, paragraph about possessions and joy",
+        "severity": "major",
+        "source_quote": "What if we found ourselves in John the Baptist’s shoes?",
+        "suggested_fix": "Replace the question with «اگر ہم خود کو یوحنا بپتسمہ دینے والے کی صورتِ حال میں پائیں تو کیا ہوگا؟».",
+        "translation_quote": "اگر ہم خود کو یوحنا بادشاہت کے جوتوں میں پائیں؟"
+      },
+      {
+        "location": "html, World War 2 paragraph",
+        "severity": "major",
+        "source_quote": "try to sneak up to a fox hole housing soldiers and throw in a grenade",
+        "suggested_fix": "Replace the first sentence with «دوسری جنگ عظیم میں، جاپانی فوجی چپکے سے اُس دفاعی گڑھے کے قریب پہنچنے کی کوشش کرتے جس میں فوجی موجود ہوتے، اور اُس میں دستی بم پھینکتے۔».",
+        "translation_quote": "جاپانی فوجی فوجیوں کے ٹھکانے کے قریب چھپا کر ہاتھ میں گرنیڈ پھینک دیتے تاکہ انہیں مار سکیں"
+      },
+      {
+        "location": "html, paragraph following Acts 21:10-13",
+        "severity": "major",
+        "source_quote": "was quickly taken, beaten, and put in prison ... where he was beheaded",
+        "suggested_fix": "Replace «فوراً گرفتار ہوا، مارا گیا، اور قید میں ڈال دیا گیا» with «فوراً گرفتار ہوا، اُسے پیٹا گیا، اور قید میں ڈال دیا گیا»; replace «جہاں اسے گردن زدنی کی سزا دی گئی» with «جہاں اُس کا سر قلم کر دیا گیا». Preserve both the beating and the actual execution.",
+        "translation_quote": "فوراً گرفتار ہوا، مارا گیا، اور قید میں ڈال دیا گیا ... جہاں اسے گردن زدنی کی سزا دی گئی"
+      },
+      {
+        "location": "html, James 4:14 quotation",
+        "severity": "minor",
+        "source_quote": "It is even a vapour",
+        "suggested_fix": "Replace «وہ تو بادل ہے» with «وہ تو بھاپ ہے» to preserve the printed metaphor and its connection to the following sentence.",
+        "translation_quote": "وہ تو بادل ہے"
+      },
+      {
+        "location": "html, Luke 14:25-33 quotation",
+        "severity": "minor",
+        "source_quote": "brethren, and sisters ... And whosoever doth not bear his cross",
+        "suggested_fix": "Replace «بھائی بھائیوں اور بہنوں» with «بھائیوں اور بہنوں» and «اور جوئی اپنا» with «اور جو کوئی اپنی».",
+        "translation_quote": "بھائی بھائیوں اور بہنوں ... اور جوئی اپنا صلیب نہ اٹھائے"
+      },
+      {
+        "location": "html, paragraph quoting Philippians 1:21",
+        "severity": "minor",
+        "source_quote": "with the Apostle Paul",
+        "suggested_fix": "Replace «رسولِ مؤمن پال کے ساتھ کہا ہوا بیان کہنا» with «پولس رسول کے ساتھ یہ کہنا».",
+        "translation_quote": "رسولِ مؤمن پال کے ساتھ کہا ہوا بیان کہنا"
+      },
+      {
+        "location": "html, poem, final stanza",
+        "severity": "minor",
+        "source_quote": "Led onward by the Son of Man",
+        "suggested_fix": "Replace «انسان کے بیٹے کی رہبری میں» with «ابنِ آدم کی رہبری میں» to convey the conventional Christological title.",
+        "translation_quote": "انسان کے بیٹے کی رہبری میں"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 72
+  }
+}
