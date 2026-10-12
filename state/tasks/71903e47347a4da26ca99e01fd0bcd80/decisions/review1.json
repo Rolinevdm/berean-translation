@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Βιβλικισμός, ορισμός του sola scriptura και παράγραφος που σχολιάζει τον ορισμό",
+      "severity": "major",
+      "source_quote": "“valid logical deduction or valid deductive reasoning from Scripture”",
+      "suggested_fix": "Αντικαταστήστε το «έγκυρου απαγωγικού συλλογισμού» και στις δύο εμφανίσεις με «έγκυρου παραγωγικού συλλογισμού», ώστε να αποδίδεται το deductive reasoning και όχι ο απαγωγικός συλλογισμός.",
+      "translation_quote": "«έγκυρου λογικού συμπερασμού ή έγκυρου απαγωγικού συλλογισμού από τη Γραφή»· αργότερα: «έγκυρου λογικού συμπερασμού ή έγκυρου απαγωγικού συλλογισμού από τη Γραφή»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T22:53:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Βιβλικισμός, ορισμός του sola scriptura και παράγραφος που σχολιάζει τον ορισμό\",\"severity\":\"major\",\"source_quote\":\"“valid logical deduction or valid deductive reasoning from Scripture”\",\"suggested_fix\":\"Αντικαταστήστε το «έγκυρου απαγωγικού συλλογισμού» και στις δύο εμφανίσεις με «έγκυρου παραγωγικού συλλογισμού», ώστε να αποδίδεται το deductive reasoning και όχι ο απαγωγικός συλλογισμός.\",\"translation_quote\":\"«έγκυρου λογικού συμπερασμού ή έγκυρου απαγωγικού συλλογισμού από τη Γραφή»· αργότερα: «έγκυρου λογικού συμπερασμού ή έγκυρου απαγωγικού συλλογισμού από τη Γραφή»\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1003,
+    "content_evidence_truncated": false,
+    "content_sha256": "33b9b381b8db7b10afe277376062df33c1a40d1d1633477b6e15f5ea438c3890",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 968,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 734,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 23816,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 22713,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 24784
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
