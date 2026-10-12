@@ -11937,6 +11937,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
+      "html_sha256": "6c93a61552693dc830385a97a8227010cfbd33f20cdd4cabbb59b4a49c1ae474",
+      "human_reviewed": false,
+      "id": "783fddfc-86ed-44d9-b13e-e4adea31a5d5",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.json",
+      "metadata_sha256": "c49f7dc60f3227797d9a399b52135456541892917c104ed37f8f2f6b6d48da79",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "杰斐逊圣经",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
       "html_sha256": "d9e13a9022ebc736a0200519d58763738d3495e50bb770a02785d05e46fa1ee4",
       "human_reviewed": false,
@@ -16345,6 +16368,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
+      "html_sha256": "8dc0697c74173d0faff5a253cff446a7ab54bfbc107028161374d25a257aed1e",
+      "human_reviewed": false,
+      "id": "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd",
+      "images": [
+        {
+          "alt": "Plakat aus zerrissenem Papier mit der Aufschrift ‚GESUCHT: Tot oder lebendig – christliche Traditionen‘; ‚Tot oder‘ ist durchgestrichen und ‚Lebendig‘ eingekreist",
+          "public_path": "/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.json",
+      "metadata_sha256": "05607f550021081fdaa47600881a792183189e1a10c4e877c862aa88d8a48678",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Traditionen: Sind sie gut oder schlecht?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/e848a36d-36eb-4f7d-aea7-e17ab34a8870.html",
       "html_sha256": "bf3669546ed091fc0611ab5ca1e2d0edeae41d45e98462e9cc33df1fa71b2636",
       "human_reviewed": false,
@@ -19775,6 +19826,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
+      "html_sha256": "9f1040c4e380476aaa8bdd5e32dbf13c7eee03f99cfd3f3ce82a120b2065bba5",
+      "human_reviewed": false,
+      "id": "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd",
+      "images": [
+        {
+          "alt": "Αφίσα από σκισμένο χαρτί που γράφει «ΚΑΤΑΖΗΤΕΙΤΑΙ: Νεκρές ή ζωντανές χριστιανικές παραδόσεις», με το «Νεκρές ή» διαγραμμένο και το «ζωντανές» κυκλωμένο",
+          "public_path": "/images/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.json",
+      "metadata_sha256": "d1ced70e9eddb24936c9b61493b755451b2a8d73c209a94e4c38dbe90b1e89f0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Παραδόσεις: καλές ή κακές;",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "90ed261fac5844c962513596ef1379107b55f00f3fbc84a13afc2475fa11d8fa",
       "human_reviewed": false,
@@ -22252,6 +22331,38 @@
       "subtitle": null,
       "title": "Que vois‑tu ?",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.html",
+      "html_sha256": "74bbf62a43cefe242a09f3ec2f74707c9497cce6f709dcb7c4462b9040a6c721",
+      "human_reviewed": false,
+      "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "images": [
+        {
+          "alt": "Un sous-marin naviguant à la surface de la mer",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg"
+        },
+        {
+          "alt": "Une illustration historique d’un quaker étreignant un Autochtone en Pennsylvanie",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.json",
+      "metadata_sha256": "006205243b66ed2db5d20ef71813d006d157b567fd95ed80e37b67fc76b1a1ba",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "De la rédaction",
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De la rédaction",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -25027,6 +25138,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
+      "html_sha256": "7791032dca05207027846f2e117a1a204606416f06012d860640c3d4b3234fc3",
+      "human_reviewed": false,
+      "id": "719ef93a-7242-445f-8e5b-201567145e20",
+      "images": [
+        {
+          "alt": "איש צוות רפואי בודק את לחץ הדם של גבר מבוגר",
+          "public_path": "/images/articles/719ef93a-7242-445f-8e5b-201567145e20-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/719ef93a-7242-445f-8e5b-201567145e20.json",
+      "metadata_sha256": "e29158fbe5c0a9379468fbc63702ae6f5d2184f25424c214be83de5f49a28400",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "דבר הרופא",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
+      "status": "ready",
+      "subtitle": null,
+      "title": "סוף החיים",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac.html",
       "html_sha256": "9958207306b71544d0561b62b7615fb456ec3dbc0b9c9d5a08229e5889100b6b",
       "human_reviewed": false,
@@ -25141,6 +25280,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "כדים",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
+      "html_sha256": "598d55d3e9d55b964877dd25a63a99afbf620326df6a8abbe16ddc540edf6e07",
+      "human_reviewed": false,
+      "id": "783fddfc-86ed-44d9-b13e-e4adea31a5d5",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.json",
+      "metadata_sha256": "5208489f0a72eb4e7813b919abf5acaa1f51ce739177730dcfc75a2d9b6920da",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "התנ״ך של ג'פרסון",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -25890,6 +26052,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "כאשר דרכו של אלוהים פועלת",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
+      "html_sha256": "9b3c38869a5654102cd7329fb1f5d3802a938b866ba65c9bd67b4ba01f1886cf",
+      "human_reviewed": false,
+      "id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
+      "images": [
+        {
+          "alt": "קרני שמש חודרות מבעד לעננים מעל אגם הררי המוקף יער",
+          "public_path": "/images/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.json",
+      "metadata_sha256": "75fb996f78a0a054f42f40378e9931928df64eade346ac896b62fe9d16182684",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "מאחות לאחות",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "feee1827ca2238077cd971d14ec7a665d94024ef32a3d17913bde45491d910fb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "לצעוד איתה דרך האבל",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -31827,6 +32017,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.html",
+      "html_sha256": "d91d8f5d5eebe9ab043e54859dbaf6bf03dba9f3bc0e7bf83624ad67b8beb681",
+      "human_reviewed": false,
+      "id": "8cbf980c-3d5c-4a98-8a1f-9553593803e3",
+      "images": [
+        {
+          "alt": "Sebuah kapal selam melaju di permukaan laut",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-1.jpg"
+        },
+        {
+          "alt": "Ilustrasi sejarah seorang Quaker yang memeluk seorang penduduk asli di Pennsylvania",
+          "public_path": "/images/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/8cbf980c-3d5c-4a98-8a1f-9553593803e3.json",
+      "metadata_sha256": "a1fcfc94369e16fe5d1b2538b10f263d3ca4f56e851a20d64369e9cc51e6b36f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Dari Editor",
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "5a80bb6ac25798cd7cf58bc5374ee5cd3051378df22afe470af3075911daf221",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dari Editor",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/8d1b7c4e-266c-4820-ac8b-ab0b2be527f4.html",
       "html_sha256": "0cc9496abe38ffdca560e5765f352365ef0bfbc1e1604423e3b21e1dd546c1d2",
       "human_reviewed": false,
@@ -35525,6 +35747,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "Vasi",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
+      "html_sha256": "f7421a193a04129872ce980d25058373f6a71f491eff7f23643250aa85e9baee",
+      "human_reviewed": false,
+      "id": "783fddfc-86ed-44d9-b13e-e4adea31a5d5",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.json",
+      "metadata_sha256": "c38b6c0abe3bce5f8ccff625a5a84babc736074edc3b40d6a4e43ebf50622752",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La Bibbia di Jefferson",
       "translation_model": "gpt-6-luna"
     },
     {
