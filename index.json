@@ -51872,6 +51872,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.html",
+      "html_sha256": "01e91d2d899035a428bfcfa1f36d6f66e20c730c9c0f1232a73df71f05a0ac74",
+      "human_reviewed": false,
+      "id": "6f528c85-5ee6-4ccd-804f-63652b5c3a1d",
+      "images": [
+        {
+          "alt": "Um globo a preto e branco centrado em África",
+          "public_path": "/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.json",
+      "metadata_sha256": "6d2c11267064ee94c1ebaced8df303f367e94322ff8495d45e28415e32fcbaa5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "47fbf61724e9db15266a7f4edf1673f6aa47f52e",
+      "source_translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Somos cristãos globais",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9.html",
       "html_sha256": "51498f03e959dec0cfcb237fddbc4dee4ac47a869984f7a2a9bdfd501f9e11d0",
       "human_reviewed": false,
@@ -72431,6 +72459,6 @@
     }
   ],
   "format_version": "1.0",
-  "observed_source_revision": "47fbf61724e9db15266a7f4edf1673f6aa47f52e",
+  "observed_source_revision": "e369a5ff3b588a942e849ecb739ff6a294ac9c00",
   "source_repository": "trueChristian/berean-voice"
 }
