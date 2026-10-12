@@ -12939,6 +12939,6 @@
     }
   ],
   "settled_unused_usd": 67.149547,
-  "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+  "source_revision": "47fbf61724e9db15266a7f4edf1673f6aa47f52e",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
 }

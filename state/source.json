@@ -14870,9 +14870,9 @@
     },
     "ea488dfe-cd5b-4e2b-b6e2-e18f2bebf4cd": {
       "fingerprints": {
-        "html_sha256": "b49d6a21d44b28999c68de51469f251cf9fd8f9a9b44eb9b7d2814d3fd222150",
+        "html_sha256": "841f9ce03658c8a290e349540f9989129290f4a982ca92d6efe96147f3d22a43",
         "metadata_sha256": "a7422c04f977745f467cb58b59536bbaa4aee8beaf234ad2a9facd95a4561e7d",
-        "structure_sha256": "6b16b3777f6b4b4856ce7a90c69251552f7597b6865dfbe5e08c019d4db859c7",
+        "structure_sha256": "67ff4bece073b52c37b608c76ae77c72267ef84686ac99b571eee5e969611f07",
         "text_sha256": "b8b5c00cd1c8db919bfa4489aa896cc5ef6c85312b0984e4815a0181f4e2d2e2",
         "translation_metadata_sha256": "3b0c13ae85610bea5dd15816161a463f5bea064e1e2366512cf9c6a8c46dede9"
       },
@@ -14880,7 +14880,7 @@
       "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
       "sequence": 1,
       "title": "The Napkin About Christ’s Head",
-      "translation_key": "ca2b5924d79d5192a88644c5b33cc5b381b5414e335cdaa3c3065267ea33db6a"
+      "translation_key": "9c221867ff92f3b3ec0b97b2b03996dbf64286e4231248ee489fce30a3d90705"
     },
     "ea67134e-49cc-41db-b48f-3fe777d18bda": {
       "fingerprints": {
@@ -16339,7 +16339,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "23c4cdf660bd51ae11712ebd7dc15cf3f6acd893148966f8bc7542922f5cc2f2",
+  "content_sha256": "ebe5c329276355f600e20dbd60498b20d5c0bd01afdcb02f55ac4f085f08968f",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17755,5 +17755,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf"
+  "revision": "47fbf61724e9db15266a7f4edf1673f6aa47f52e"
 }
