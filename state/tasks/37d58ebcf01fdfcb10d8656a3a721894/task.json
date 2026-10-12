@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f9a56d46882b47599f36bcd0f2d4d977",
   "campaign": "auto-cc106e5ef39bf4658397db162ddc05c1021b0714007acebd9009e3bf019ec35f",
   "created_at": "2026-10-10T22:28:22+00:00",
   "events": [
@@ -68,18 +67,46 @@
         },
         "total_tokens": 9180
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1002,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 682,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6472,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5369,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7474
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph beginning “Joshua did not just happen…”",
-      "severity": "major",
-      "source_quote": "“approved unto God, a workman that needeth not to be ashamed …”",
-      "suggested_fix": "Replace „מאושרים לפני אלוהים” with „רצויים לאלוהים” to convey being approved by God, not being happy or blessed.",
-      "translation_quote": "„מאושרים לפני אלוהים, פועלים שאינם צריכים להתבייש…”"
+      "location": "Paragraph 1",
+      "severity": "minor",
+      "source_quote": "In baseball, you get three strikes before you are “out.” So, if you are up to bat and you miss the first swing, it is no big deal—you still have two strikes left.",
+      "suggested_fix": "Use the baseball term for a strike rather than פסילה, e.g. „בבייסבול יש לך שלוש סטרייקים לפני שאתה נפסל. לכן, אם אתה עומד לחבוט ומחטיא את החבטה הראשונה, זה לא עניין גדול — נשארו לך עוד שני סטרייקים.”",
+      "translation_quote": "בבייסבול יש לך שלוש פסילות לפני שאתה נפסל. לכן, אם אתה עומד לחבוט ומחטיא את החבטה הראשונה, זה לא עניין גדול — נשארו לך עוד שתי פסילות."
+    },
+    {
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "Instead of frittering away the hours in frivolity, I would slip away into the forest.",
+      "suggested_fix": "Remove the added reference to „the world”; for example, „במקום לבזבז את השעות בדברי הבל, הייתי חומק אל היער.”",
+      "translation_quote": "במקום לבזבז את השעות בהבלי העולם, הייתי חומק אל היער."
     }
   ],
+  "finished_at": "2026-10-12T07:24:44+00:00",
   "id": "37d58ebcf01fdfcb10d8656a3a721894",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "heb",
@@ -168,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +215,7 @@
     "total_reserved_usd": 0.088804,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
   "translation_model_actual": "gpt-6-luna"

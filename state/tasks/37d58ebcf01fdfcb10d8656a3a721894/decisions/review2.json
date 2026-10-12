@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1",
+      "severity": "minor",
+      "source_quote": "In baseball, you get three strikes before you are “out.” So, if you are up to bat and you miss the first swing, it is no big deal—you still have two strikes left.",
+      "suggested_fix": "Use the baseball term for a strike rather than פסילה, e.g. „בבייסבול יש לך שלוש סטרייקים לפני שאתה נפסל. לכן, אם אתה עומד לחבוט ומחטיא את החבטה הראשונה, זה לא עניין גדול — נשארו לך עוד שני סטרייקים.”",
+      "translation_quote": "בבייסבול יש לך שלוש פסילות לפני שאתה נפסל. לכן, אם אתה עומד לחבוט ומחטיא את החבטה הראשונה, זה לא עניין גדול — נשארו לך עוד שתי פסילות."
+    },
+    {
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "Instead of frittering away the hours in frivolity, I would slip away into the forest.",
+      "suggested_fix": "Remove the added reference to „the world”; for example, „במקום לבזבז את השעות בדברי הבל, הייתי חומק אל היער.”",
+      "translation_quote": "במקום לבזבז את השעות בהבלי העולם, הייתי חומק אל היער."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
