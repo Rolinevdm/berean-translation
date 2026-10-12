@@ -5263,6 +5263,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "605afe28a6c24dea27c6c44b2d21ef2442664f678280fa0ac3290ceb74cad351",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "وجه ساعة عتيقة بأرقام رومانية وميناء صغير للثواني",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "2bd4a86c9dd7e0c8a054a4dd2c89d00246f18030a3d2dda566eaba06e4611b3c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "كيف يستطيع المراهقون العاديون الاستفادة القصوى من فترة شبابهم",
+      "title": "استثمار سنوات المراهقة إلى أقصى حد",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.html",
       "html_sha256": "74ca3ac060c3cbb3adf2906c1813cd35cc18eb1a284033efeca018d52ff9a307",
       "human_reviewed": false,
@@ -35605,6 +35633,34 @@
       "subtitle": null,
       "title": "Dal Direttore",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.html",
+      "html_sha256": "18befd4a74ac12b6ca4373e3ab2c86e3568aa862c709fd1162b4bd8d1b5a68b0",
+      "human_reviewed": false,
+      "id": "639a5712-42bb-4159-b0ce-723c9ee3b61b",
+      "images": [
+        {
+          "alt": "Quadrante di un orologio antico con numeri romani e un piccolo quadrante dei secondi",
+          "public_path": "/images/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/639a5712-42bb-4159-b0ce-723c9ee3b61b.json",
+      "metadata_sha256": "c63108e005a7596ae43dc7cba74b403425cc6e91b39868c6c335896cb08d83ee",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
+      "status": "ready",
+      "subtitle": "Come gli adolescenti comuni possono sfruttare al massimo la propria giovinezza",
+      "title": "Come sfruttare al massimo gli anni dell’adolescenza",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
