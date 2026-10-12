@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "minor",
+      "source_quote": "had never experienced an ounce of the engrafted nature of Christ",
+      "suggested_fix": "которые, вероятно, ни разу не испытали в себе привитой им природы Христа",
+      "translation_quote": "которые, вероятно, ни разу не испытали в себе привитой природы Христа"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d79d7d93-3443-4ad2-8521-00ed39ad8cb9",
+    "response_id": "chatcmpl-EY3yxvMVKEZgbOcSo03iXv762fq1M",
+    "usage": {
+      "completion_tokens": 856,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 739,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7556,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6453,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8412
+    }
+  },
+  "received_at": "2026-10-12T06:43:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 3",
+        "severity": "minor",
+        "source_quote": "had never experienced an ounce of the engrafted nature of Christ",
+        "suggested_fix": "которые, вероятно, ни разу не испытали в себе привитой им природы Христа",
+        "translation_quote": "которые, вероятно, ни разу не испытали в себе привитой природы Христа"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
