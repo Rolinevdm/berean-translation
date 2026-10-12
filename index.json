@@ -8891,6 +8891,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
+      "html_sha256": "3869950b2d904546f4b5e486addc838524dd4b40c4c6386ca770d2532a6a327b",
+      "human_reviewed": false,
+      "id": "783fddfc-86ed-44d9-b13e-e4adea31a5d5",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.json",
+      "metadata_sha256": "2977b0c6ab4c7ee8d69b0314ef6086c895e08ccb7be7b30a0f9c2ae96c671fd6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "জেফারসন বাইবেল",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
       "html_sha256": "6307627a4c86031cca24991d6667ad887fa1aed19ccf2ef173cb649d80e0be0f",
       "human_reviewed": false,
@@ -10103,6 +10126,34 @@
       "subtitle": null,
       "title": "আশায় রক্ষা",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd.html",
+      "html_sha256": "a9e01d2851d2e877820182b8a8992d7c9582e4c17e48ee368d584135dd7160e2",
+      "human_reviewed": false,
+      "id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
+      "images": [
+        {
+          "alt": "ঝড়ো আকাশের নিচে অন্ধকার গাছের ওপর দিয়ে বিস্তৃত এক জোড়া রংধনু",
+          "public_path": "/images/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd.json",
+      "metadata_sha256": "807c777451eb5be506a18e47d84e2da1ec3dad73862fcd498cbf726756744ab1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "কবিতা",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "রংধনুর দিকে তাকাও",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -25382,6 +25433,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
+      "html_sha256": "1c57ce13d67ec0549fe7f5aac240e23e158dcb20aaf3b62f33aef550fc98594c",
+      "human_reviewed": false,
+      "id": "94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6",
+      "images": [
+        {
+          "alt": "רועה מוביל עדר בעמק הררי וסלעי",
+          "public_path": "/images/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.json",
+      "metadata_sha256": "0c1613398dc31a487f55215d8c422a291f136202b47f12a1260f68aa1bb01b36",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "תורות המקרא",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "האין לכך סיבה?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
       "html_sha256": "9935e360f2206353f3c5a5259fde5b76486e8ed9fb1182e267079d4ee712b811",
       "human_reviewed": false,
@@ -29210,6 +29289,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd.html",
+      "html_sha256": "b2b66c2a07de0a1a378a975df26023b040191c1b896ce74461995c1fe2dc9d92",
+      "human_reviewed": false,
+      "id": "d5891c2f-007d-4926-90e0-81c25cf67fbd",
+      "images": [
+        {
+          "alt": "तूफ़ानी आकाश के नीचे काले पेड़ों के ऊपर दोहरा इंद्रधनुषाकार चाप",
+          "public_path": "/images/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd.json",
+      "metadata_sha256": "c448bb793c1cbad38a2964b786a3757f54a945ef9422b9246c66b21255e6500d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "कविता",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "a16ca0f24999195da3bf0ae0391397f48155b072b1ee83e291507b38c83eaa61",
+      "status": "ready",
+      "subtitle": null,
+      "title": "इंद्रधनुष को देखो",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
       "html_sha256": "9ba312457044d5e009ee5b074f2925ae055c40f2ce945fa8d93e38232056f4bd",
       "human_reviewed": false,
@@ -31282,6 +31389,34 @@
       "subtitle": null,
       "title": "Kekuatan Perjanjian",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
+      "html_sha256": "132004c021307f7a1716208ec491fad00d2fe7e12831924688985c8452ec5263",
+      "human_reviewed": false,
+      "id": "719ef93a-7242-445f-8e5b-201567145e20",
+      "images": [
+        {
+          "alt": "Seorang tenaga medis memeriksa tekanan darah seorang pria lanjut usia",
+          "public_path": "/images/articles/719ef93a-7242-445f-8e5b-201567145e20-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/719ef93a-7242-445f-8e5b-201567145e20.json",
+      "metadata_sha256": "889c15264113c18f7d98ab2c303ed98a454f76d6ae6aecd8ccdd899df29a0105",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "PESAN DARI SEORANG DOKTER",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Akhir Hayat",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -40419,6 +40554,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
+      "html_sha256": "c63adde5707102ce920d05807d4b89a1138ddca1c5d7f6430b0439ec2f977a36",
+      "human_reviewed": false,
+      "id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
+      "images": [
+        {
+          "alt": "숲이 우거진 산속 호수 위로 구름 사이 햇살이 비친다",
+          "public_path": "/images/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.json",
+      "metadata_sha256": "4f87978683cc6a04788dd90305ce3cef4ad97a9ea6f56435dfada8bb7059bacb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "자매가 자매에게",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "feee1827ca2238077cd971d14ec7a665d94024ef32a3d17913bde45491d910fb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "슬픔의 시간을 그 자매와 함께 걷기",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/ba4cef53-9a4b-4277-8afb-b53a7ab63735.html",
       "html_sha256": "6b390659047af6bed59709c91b8ce08a31a61f1492413c375eb727995aa98620",
       "human_reviewed": false,
@@ -46792,6 +46955,34 @@
       "subtitle": null,
       "title": "Paktens styrke",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
+      "html_sha256": "db818a9b12946c3a236195779133ccc2a5677c23e8f51bba69f5883bcf93cf9f",
+      "human_reviewed": false,
+      "id": "719ef93a-7242-445f-8e5b-201567145e20",
+      "images": [
+        {
+          "alt": "En kliniker måler blodtrykket til en eldre mann",
+          "public_path": "/images/articles/719ef93a-7242-445f-8e5b-201567145e20-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/719ef93a-7242-445f-8e5b-201567145e20.json",
+      "metadata_sha256": "9b730110835a3a2bdce367358d1b93721537c6d792bf3de986f1100330432e89",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ET ORD FRA EN LEGE",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ved livets slutt",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -54989,6 +55180,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
+      "html_sha256": "0dfcae4891bb15f247cda103daa771f755a4a850c4d098b74887c626411b3c27",
+      "human_reviewed": false,
+      "id": "719ef93a-7242-445f-8e5b-201567145e20",
+      "images": [
+        {
+          "alt": "Медицинский работник измеряет артериальное давление пожилому мужчине",
+          "public_path": "/images/articles/719ef93a-7242-445f-8e5b-201567145e20-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/719ef93a-7242-445f-8e5b-201567145e20.json",
+      "metadata_sha256": "7d2fdd6d9a01111bb129abc13dec624b9a54d42fdf0ea6c388d2b5d55cefd74c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "СЛОВО ВРАЧА",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Конец жизни",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.html",
       "html_sha256": "f34ef3b9da60d1a0a4b8af1e59f26945a032cf56ff7a9369c28159abdb9b31a3",
       "human_reviewed": false,
@@ -62587,6 +62806,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
+      "html_sha256": "44ffedf09a2460bf9fd4c8a8c54fbe569f025cf6dcf9a8e0505c66ddd2f6cd6a",
+      "human_reviewed": false,
+      "id": "719ef93a-7242-445f-8e5b-201567145e20",
+      "images": [
+        {
+          "alt": "Mhudumu wa afya anampima mzee wa kiume shinikizo la damu",
+          "public_path": "/images/articles/719ef93a-7242-445f-8e5b-201567145e20-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/719ef93a-7242-445f-8e5b-201567145e20.json",
+      "metadata_sha256": "e9c67c26d04ff2553582b36d9cad6e6e8aef00eaf00f40c2bea9e4c6597d9176",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "NENO KUTOKA KWA DAKTARI",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mwisho wa Maisha",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/73def952-dd77-4a51-b030-27713e0cedd2.html",
       "html_sha256": "4679a2ee7a855e8b62bad3dd7ef97433b5515cfe9af25c2dc402e1f466183624",
       "human_reviewed": false,
@@ -69285,6 +69532,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "برتن",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
+      "html_sha256": "d23bc667ad401d7675276becab9bedb027def7fbdf9942289fe8fd6e4206a8c5",
+      "human_reviewed": false,
+      "id": "783fddfc-86ed-44d9-b13e-e4adea31a5d5",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.json",
+      "metadata_sha256": "a4b52094b317bd70c55a5d3fe304f3c5cff3ccdb5871a3effa1dbf491e5bb749",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "جیفرسن بائبل",
       "translation_model": "gpt-6-luna"
     },
     {
