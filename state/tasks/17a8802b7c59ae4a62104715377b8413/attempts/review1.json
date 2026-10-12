@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T17:48:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article paragraph beginning “We are not stoics”\",\"severity\":\"major\",\"source_quote\":\"We are not stoics—we hurt and cry when loved ones leave us.\",\"suggested_fix\":\"ہم سنگ دل/بے حس نہیں—جب ہمارے پیارے ہمیں چھوڑ جاتے ہیں تو ہمیں دکھ ہوتا ہے اور ہم روتے ہیں۔\",\"translation_quote\":\"ہم سنگ دل نہیں—جب ہمارے پیارے ہمیں چھوڑ جاتے ہیں تو ہمیں دکھ ہوتا ہے اور ہم روتے ہیں۔\"},{\"location\":\"Same paragraph\",\"severity\":\"major\",\"source_quote\":\"We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”\",\"suggested_fix\":\"ہم اس لیے ”روایتی ملازمتوں سے کنارہ کش“ نہیں کہ ہم ”باعزت، محفوظ“ ملازمتیں نہیں کرتے—ہم تو ”مکمل طور پر وقف“ ہیں۔\",\"translation_quote\":\"ہم اس لیے ”راہِ راست سے ہٹے ہوئے“ نہیں کہ ہم ”باعزت، محفوظ“ ملازمتیں نہیں کرتے—ہم تو ”مکمل طور پر وقف“ ہیں۔\"},{\"location\":\"Article paragraph beginning “We’re tired of playing religion”\",\"severity\":\"minor\",\"source_quote\":\"...sermons that sound good—as if they were being rated as speeches—but have no consequential value except complacency.\",\"suggested_fix\":\"...لیکن بے عملی یا خود اطمینانی پیدا کرنے کے سوا اُن کی کوئی بامعنی قدر نہیں۔\",\"translation_quote\":\"...لیکن خود پسندی کے سوا اُن کی کوئی مؤثر قدر نہیں۔\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 1726,
+    "content_evidence_truncated": false,
+    "content_sha256": "8faeb49827fccb4be5d9b6e08047bdd057211c80aa5e6425ab9ffed7bc186988",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 985,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 618,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3670,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2567,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4655
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph beginning “We are not stoics”",
+      "severity": "major",
+      "source_quote": "We are not stoics—we hurt and cry when loved ones leave us.",
+      "suggested_fix": "ہم سنگ دل/بے حس نہیں—جب ہمارے پیارے ہمیں چھوڑ جاتے ہیں تو ہمیں دکھ ہوتا ہے اور ہم روتے ہیں۔",
+      "translation_quote": "ہم سنگ دل نہیں—جب ہمارے پیارے ہمیں چھوڑ جاتے ہیں تو ہمیں دکھ ہوتا ہے اور ہم روتے ہیں۔"
+    },
+    {
+      "location": "Same paragraph",
+      "severity": "major",
+      "source_quote": "We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”",
+      "suggested_fix": "ہم اس لیے ”روایتی ملازمتوں سے کنارہ کش“ نہیں کہ ہم ”باعزت، محفوظ“ ملازمتیں نہیں کرتے—ہم تو ”مکمل طور پر وقف“ ہیں۔",
+      "translation_quote": "ہم اس لیے ”راہِ راست سے ہٹے ہوئے“ نہیں کہ ہم ”باعزت، محفوظ“ ملازمتیں نہیں کرتے—ہم تو ”مکمل طور پر وقف“ ہیں۔"
+    },
+    {
+      "location": "Article paragraph beginning “We’re tired of playing religion”",
+      "severity": "minor",
+      "source_quote": "...sermons that sound good—as if they were being rated as speeches—but have no consequential value except complacency.",
+      "suggested_fix": "...لیکن بے عملی یا خود اطمینانی پیدا کرنے کے سوا اُن کی کوئی بامعنی قدر نہیں۔",
+      "translation_quote": "...لیکن خود پسندی کے سوا اُن کی کوئی مؤثر قدر نہیں۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
