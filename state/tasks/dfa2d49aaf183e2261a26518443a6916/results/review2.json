@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "df4e8a41-0982-4681-9dd4-13e4fda60545",
+    "response_id": "chatcmpl-EY3x0gmgcVCqe8w84O8MNTM3WfTCj",
+    "usage": {
+      "completion_tokens": 873,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 634,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8023,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8020,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8896
+    }
+  },
+  "received_at": "2026-10-12T06:42:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph before the numbered list",
+        "severity": "minor",
+        "source_quote": "“just a few Scriptural principles”",
+        "suggested_fix": "“पवित्रशास्त्र के कुछ सिद्धांतों”",
+        "translation_quote": "“धर्मशास्त्र के कुछ सिद्धांतों”"
+      },
+      {
+        "location": "Second numbered section, second blockquote",
+        "severity": "minor",
+        "source_quote": "“earthly, sensual, devilish”",
+        "suggested_fix": "“सांसारिक, इंद्रिय-प्रधान और शैतानी”",
+        "translation_quote": "“सांसारिक, शारीरिक और शैतानी”"
+      },
+      {
+        "location": "Second numbered section, paragraph beginning “My feeling is that Paul…”",
+        "severity": "minor",
+        "source_quote": "“used these Scriptural checks”",
+        "suggested_fix": "“पवित्रशास्त्र की इन कसौटियों का इस्तेमाल किया होता”",
+        "translation_quote": "“धर्मशास्त्र की इन कसौटियों का इस्तेमाल किया होता”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph before the numbered list",
+      "severity": "minor",
+      "source_quote": "“just a few Scriptural principles”",
+      "suggested_fix": "“पवित्रशास्त्र के कुछ सिद्धांतों”",
+      "translation_quote": "“धर्मशास्त्र के कुछ सिद्धांतों”"
+    },
+    {
+      "location": "Second numbered section, second blockquote",
+      "severity": "minor",
+      "source_quote": "“earthly, sensual, devilish”",
+      "suggested_fix": "“सांसारिक, इंद्रिय-प्रधान और शैतानी”",
+      "translation_quote": "“सांसारिक, शारीरिक और शैतानी”"
+    },
+    {
+      "location": "Second numbered section, paragraph beginning “My feeling is that Paul…”",
+      "severity": "minor",
+      "source_quote": "“used these Scriptural checks”",
+      "suggested_fix": "“पवित्रशास्त्र की इन कसौटियों का इस्तेमाल किया होता”",
+      "translation_quote": "“धर्मशास्त्र की इन कसौटियों का इस्तेमाल किया होता”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

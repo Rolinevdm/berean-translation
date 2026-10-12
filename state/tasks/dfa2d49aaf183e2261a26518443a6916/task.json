@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "00ce4fe06828400ea776b1c9a5b546b1",
   "campaign": "auto-14b45a3dd67c0c6d2324e4cec1453aa906031f08e9f8b6cc54c6bef03d75bda4",
   "created_at": "2026-10-12T00:29:23+00:00",
   "events": [
@@ -68,25 +67,53 @@
         },
         "total_tokens": 11824
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 873,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 634,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8023,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8020,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8896
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, opening paragraph",
-      "severity": "major",
-      "source_quote": "“the engrafted nature of Christ”",
-      "suggested_fix": "“मसीह के अंतःरोपित स्वभाव”",
-      "translation_quote": "“मसीह के आरोपित स्वभाव”"
+      "location": "First paragraph before the numbered list",
+      "severity": "minor",
+      "source_quote": "“just a few Scriptural principles”",
+      "suggested_fix": "“पवित्रशास्त्र के कुछ सिद्धांतों”",
+      "translation_quote": "“धर्मशास्त्र के कुछ सिद्धांतों”"
     },
     {
-      "location": "HTML, list item 1, John 16:2 quotation",
-      "severity": "major",
-      "source_quote": "“whosoever killeth you will think that he doeth God service.”",
-      "suggested_fix": "“जो कोई तुम्हें मार डालेगा, वह समझेगा कि वह परमेश्वर की सेवा कर रहा है।”",
-      "translation_quote": "“जो कोई तुम्हें मार डालेगा, वह समझेगा कि मैं परमेश्वर की सेवा कर रहा हूँ।”"
+      "location": "Second numbered section, second blockquote",
+      "severity": "minor",
+      "source_quote": "“earthly, sensual, devilish”",
+      "suggested_fix": "“सांसारिक, इंद्रिय-प्रधान और शैतानी”",
+      "translation_quote": "“सांसारिक, शारीरिक और शैतानी”"
+    },
+    {
+      "location": "Second numbered section, paragraph beginning “My feeling is that Paul…”",
+      "severity": "minor",
+      "source_quote": "“used these Scriptural checks”",
+      "suggested_fix": "“पवित्रशास्त्र की इन कसौटियों का इस्तेमाल किया होता”",
+      "translation_quote": "“धर्मशास्त्र की इन कसौटियों का इस्तेमाल किया होता”"
     }
   ],
+  "finished_at": "2026-10-12T06:42:56+00:00",
   "id": "dfa2d49aaf183e2261a26518443a6916",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "hin",
@@ -175,7 +202,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +222,7 @@
     "total_reserved_usd": 0.089379,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
   "translation_model_actual": "gpt-6-luna"
