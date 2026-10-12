@@ -5,11 +5,152 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "67bca667ce754c0ca5d27e6daf9fea11",
   "campaign": "auto-7224217f44cbdb5fd568e6895cecb0887519213af9a7d4e14cbdf32f42c0b2ae",
   "created_at": "2026-10-12T17:49:02+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2566,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 87,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9203,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9200,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11769
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, first paragraph",
+      "severity": "major",
+      "source_quote": "serving Christ would most certainly cost them everything",
+      "suggested_fix": "Replace “मसीह की सेवा निश्चित रूप से उन्हें सब कुछ दर्जी पड़ेगी” with “मसीह की सेवा करने के लिए उन्हें निश्चित रूप से अपना सब कुछ गँवाना पड़ेगा।”",
+      "translation_quote": "मसीह की सेवा निश्चित रूप से उन्हें सब कुछ दर्जी पड़ेगी"
+    },
+    {
+      "location": "html, paragraph introducing the wilderness accounts",
+      "severity": "major",
+      "source_quote": "the children of Israel going through the wilderness ... killing all in the process ... kill all of the enemy",
+      "suggested_fix": "Use “इस्राएलियों के जंगल से होकर जाने” for the opening phrase, “इस दौरान सभी लोगों को मार डाला” for the killing clause, and “सभी शत्रुओं को मारने” instead of “शत्रु का सब कुछ”.",
+      "translation_quote": "मरुभूमि में यहूदियों के बच्चों ... और उन्हें मार डाला ... शत्रु का सब कुछ"
+    },
+    {
+      "location": "html, Deuteronomy quotation",
+      "severity": "major",
+      "source_quote": "All these cities were fenced with high walls, gates, and bars; beside unwalled towns a great many.",
+      "suggested_fix": "Replace the corresponding sentence with “इन सब नगरों के चारों ओर ऊँची दीवारें थीं, और उनके फाटकों में अर्गल लगे थे; इनके अतिरिक्त बहुत-से नगर बिना दीवारों के भी थे।”",
+      "translation_quote": "ये सब नगर ऊँची दीवारों, द्वारों और कड़े कसाव वाले थे; सिवाय बिना दीवार के नगरों के बहुत-सा भी था।"
+    },
+    {
+      "location": "html, first Haiti anecdote paragraph",
+      "severity": "major",
+      "source_quote": "The first week after we moved to Haiti, I was driving through the city.",
+      "suggested_fix": "Replace the opening sentence with “हैती में आकर बसने के बाद पहले सप्ताह में, मैं शहर से होकर गाड़ी चला रहा था।”",
+      "translation_quote": "हैती में स्थानान्तरित होने के पहले सप्ताह में, मैं शहर से गुजर रहा था।"
+    },
+    {
+      "location": "html, Mark 16:15 quotation",
+      "severity": "major",
+      "source_quote": "preach the gospel to every creature",
+      "suggested_fix": "Replace “प्रत्येक सृष्टि को सुसमाचार सुनाओ” with “हर प्राणी को सुसमाचार सुनाओ”.",
+      "translation_quote": "प्रत्येक सृष्टि को सुसमाचार सुनाओ"
+    },
+    {
+      "location": "html, Acts 21:10-13 quotation",
+      "severity": "major",
+      "source_quote": "So shall the Jews at Jerusalem bind the man that owneth this girdle, and shall deliver him into the hands of the Gentiles.",
+      "suggested_fix": "Replace the corresponding clause with “येरूशलेम में यहूदी इस कमरबंद के मालिक को इसी प्रकार बाँधेंगे और उसे गैर-यहूदियों के हाथों सौंप देंगे।”",
+      "translation_quote": "येरूशलेम में यहूदी उन लोगों को बाँधेंगे जो इस बेल्टा के मालिक हैं और उन्हें गैर-यहूदियों के हाथों सौंप देंगे।"
+    },
+    {
+      "location": "html, poem, second stanza",
+      "severity": "major",
+      "source_quote": "Bring in the day of Christlike love",
+      "suggested_fix": "Replace “मसीही-मुल्य प्रेम का दिन लाओ” with “मसीह जैसे प्रेम का दिन लाओ”.",
+      "translation_quote": "मसीही-मुल्य प्रेम का दिन लाओ"
+    },
+    {
+      "location": "html, final paragraph",
+      "severity": "major",
+      "source_quote": "the fires of revival will once again burn",
+      "suggested_fix": "Replace “पुनरुत्थान की ज्वालाएँ” with “आत्मिक जागृति की ज्वालाएँ”.",
+      "translation_quote": "पुनरुत्थान की ज्वालाएँ फिर से जल उठेंगी"
+    },
+    {
+      "location": "html, all Scripture-reference book names",
+      "severity": "minor",
+      "source_quote": "Luke 14:25-33; 2 Timothy 3:12; 1 John 2:6; Mark 15:28; Deuteronomy 3:3-6; John 12:25; Genesis 3:19; James 4:14; Mark 16:15; Philippians 1:21; Matthew 16:25; Acts 21:10-13",
+      "suggested_fix": "Replace the book names in place with conventional Hindi forms: “लूका 14:25-33”, “2 तीमुथियुस 3:12”, “1 यूहन्ना 2:6”, “मरकुस 15:28”, “व्यवस्थाविवरण 3:3-6”, “यूहन्ना 12:25”, “उत्पत्ति 3:19”, “याकूब 4:14”, “मरकुस 16:15”, “फिलिप्पियों 1:21”, “मत्ती 16:25”, and “प्रेरितों के काम 21:10-13”. Preserve their existing placement and numbers.",
+      "translation_quote": "Luke 14:25-33; 2 Timothy 3:12; 1 John 2:6; Mark 15:28; Deuteronomy 3:3-6; John 12:25; Genesis 3:19; James 4:14; Mark 16:15; Philippians 1:21; Matthew 16:25; Acts 21:10-13"
+    },
+    {
+      "location": "html, Luke quotation",
+      "severity": "minor",
+      "source_quote": "<strong>he cannot be my disciple.</strong> ... <u>bear his cross</u> ... <strong>cannot be my disciple.</strong> ... <u>counteth the cost</u> ... <u>forsaketh not all</u> ... <strong>he cannot be my disciple</strong>",
+      "suggested_fix": "Restore the three <strong> tags around the corresponding disciple statements and the three <u> tags around the corresponding cross-bearing, cost-counting, and not-forsaking-all phrases, without changing the surrounding paragraph or <em> structure.",
+      "translation_quote": "वह मेरा शिष्य न हो सकता। ... अपना क्रूस न ढोकर ... वह मेरा शिष्य न हो सकता। ... उसका खर्च न गिने ... अपना जो कुछ है सब न त्यागे ... वह मेरा शिष्य न हो सकता।"
+    },
+    {
+      "location": "html, opening paragraph and Luke quotation",
+      "severity": "minor",
+      "source_quote": "They were hunted and killed. ... and he turned ... If any man come to me",
+      "suggested_fix": "Use “उन्हें ढूँढ़-ढूँढ़कर मार डाला जाता था”, “मुड़कर”, and “यदि कोई मनुष्य मेरे पास आए” respectively.",
+      "translation_quote": "उन्हें शिकार किया गया और मार दिया गया। ... मुँड़कर ... यदि कोई मनुष्य मुझ पर आकर"
+    },
+    {
+      "location": "html, Deuteronomy and Genesis quotations",
+      "severity": "minor",
+      "source_quote": "all the region of Argob ... Heshbon ... In the sweat of thy face",
+      "suggested_fix": "Replace “सारे अर्जोब की प्रदेश” with “अर्जोब का सारा प्रदेश”, “हेिष्बोन” with “हेशबोन”, and “अपने चेहरे की पसीने में” with “अपने चेहरे के पसीने से”.",
+      "translation_quote": "सारे अर्जोब की प्रदेश ... हेिष्बोन ... अपने चेहरे की पसीने में"
+    },
+    {
+      "location": "html, missionary-comforts paragraph and following paragraph",
+      "severity": "minor",
+      "source_quote": "mission field ... the tens of thousands ... good talent ... would our joy remain?",
+      "suggested_fix": "Replace “मिशन क्षेत्रमा” with “मिशन क्षेत्र में”, “दश हज़ारों” with “दसियों हज़ार लोगों”, “अच्छे प्रतिभा” with “अच्छी प्रतिभा”, and “हमारी आनन्द बनी रहेगी” with “हमारा आनन्द बना रहेगा”.",
+      "translation_quote": "मिशन क्षेत्रमा ... दश हज़ारों ... अच्छे प्रतिभा ... हमारी आनन्द बनी रहेगी"
+    },
+    {
+      "location": "html, paragraph about leaving the job",
+      "severity": "minor",
+      "source_quote": "I left that job and lost contact with him. Recently, I ran into another one of my former coworkers.",
+      "suggested_fix": "Replace these sentences with “मैंने वह नौकरी छोड़ दी और उनसे मेरा संपर्क टूट गया। हाल ही में, मेरी अपने एक अन्य पूर्व सहकर्मी से मुलाकात हुई।”",
+      "translation_quote": "मैं उस नौकरी को छोड़ दिया और उनका संपर्क खो गया। हाल ही में, मुझे अपने एक पूर्व सहकर्मी से मुलाकात हुई।"
+    },
+    {
+      "location": "html, introduction to Acts, Acts quotation, and following paragraph",
+      "severity": "minor",
+      "source_quote": "Acts ... a certain prophet, named Agabus ... Paul’s girdle ... Jerusalem ... he was beheaded",
+      "suggested_fix": "Use “प्रेरितों के काम” instead of “प्रेरितवृत”; replace “एक भविष्यदर्शी नामा आगबुस” with “अगबुस नाम का एक भविष्यद्वक्ता”; replace both occurrences of “बेल्टा” with “कमरबंद”; correct “हेरुशलेम” to “येरूशलेम”; and replace “उसे शीश काट दिया गया” with “उसका सिर काट दिया गया”.",
+      "translation_quote": "प्रेरितवृत ... एक भविष्यदर्शी नामा आगबुस ... पौलुस का बेल्टा ... इस बेल्टा ... हेरुशलेम ... उसे शीश काट दिया गया"
+    },
+    {
+      "location": "html, poem, third stanza",
+      "severity": "minor",
+      "source_quote": "Led onward by the Son of Man",
+      "suggested_fix": "Replace “मनुष्य के पुत्र द्वारा आगू होकर नेतृत्व होकर,” with “मनुष्य के पुत्र की अगुवाई में आगे बढ़ते हुए,”.",
+      "translation_quote": "मनुष्य के पुत्र द्वारा आगू होकर नेतृत्व होकर,"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "Musings of a Missionary",
+      "suggested_fix": "Replace the section text with “एक मिशनरी के विचार”.",
+      "translation_quote": "एक मिशनरी के विचारे"
+    }
+  ],
   "id": "6ed125832d6e808a831c308e59f48d5a",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "hin",
@@ -98,11 +239,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/2a0e8037a7779b7d65ad5a5dc37689987f7de799a9c99fb81a3fa397558d941f.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +258,7 @@
     "total_reserved_usd": 0.806709,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
