@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "86cc4036-38f3-48d8-9b3c-eb508046f155",
+    "response_id": "chatcmpl-EY42v7rzvBBaIKtosEm62rdjBE02G",
+    "usage": {
+      "completion_tokens": 947,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 813,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7241,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6138,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8188
+    }
+  },
+  "received_at": "2026-10-12T07:17:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph, quotation from Matthew 26:31",
+        "severity": "major",
+        "source_quote": "“Smite the shepherd, and the sheep of the flock shall be scattered abroad.”",
+        "suggested_fix": "Translate the printed imperative, for example: “Fere o pastor, e as ovelhas do rebanho serão dispersas.”",
+        "translation_quote": "“Ferirei o pastor, e as ovelhas do rebanho se dispersarão.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 96
+  }
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34475b22a6ed4651bd8a7baf16a8a1ad",
   "campaign": "auto-bc928f2ff3c7bb6c4b2c3fd8e9e7db0489ce1cbb275854644f63ae9ded86f9f3",
   "created_at": "2026-10-12T00:34:42+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 6887
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 947,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 813,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7241,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6138,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8188
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Final paragraph, quotation from Matthew 26:31",
+      "severity": "major",
+      "source_quote": "“Smite the shepherd, and the sheep of the flock shall be scattered abroad.”",
+      "suggested_fix": "Translate the printed imperative, for example: “Fere o pastor, e as ovelhas do rebanho serão dispersas.”",
+      "translation_quote": "“Ferirei o pastor, e as ovelhas do rebanho se dispersarão.”"
+    }
+  ],
   "id": "d3dec840c310c83c3449469797440c76",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "por",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/06937d43d82edf4dbc71110987ff1d03b1c2cad3babb7a679114389a1b114e86.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.089394,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
   "translation_model_actual": "gpt-6-luna"
