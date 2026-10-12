@@ -1,0 +1,112 @@
+{
+  "findings": [
+    {
+      "location": "html > p.drop-cap",
+      "severity": "major",
+      "source_quote": "in the 1500s ... the Anabaptists",
+      "suggested_fix": "استبدل «في القرن الخامس عشر» بـ«في القرن السادس عشر»، واستبدل «الأناخبتيون» بـ«القائلون بإعادة المعمودية».",
+      "translation_quote": "في القرن الخامس عشر ... الأناخبتيون"
+    },
+    {
+      "location": "html > p containing Mark 15:28",
+      "severity": "major",
+      "source_quote": "He was numbered with the transgressors",
+      "suggested_fix": "استبدل «وزوِّج مع المجرمين» بـ«وحُسِبَ مع المجرمين».",
+      "translation_quote": "وزوِّج مع المجرمين"
+    },
+    {
+      "location": "html > p containing Deuteronomy 3:3-6",
+      "severity": "major",
+      "source_quote": "as we did unto Sihon king of Heshbon",
+      "suggested_fix": "استبدل «بسِهْرون ملك حِشبون» بـ«بسيحون ملك حشبون».",
+      "translation_quote": "كما فعلنا بسِهْرون ملك حِشبون"
+    },
+    {
+      "location": "html > p beginning “Over the next six years”",
+      "severity": "major",
+      "source_quote": "many dead or dying people",
+      "suggested_fix": "استبدل «كثيرين ميتين أو ميئوسين» بـ«كثيرين من الموتى أو المحتضرين».",
+      "translation_quote": "كثيرين ميتين أو ميئوسين"
+    },
+    {
+      "location": "html > p containing Mark 16:15",
+      "severity": "major",
+      "source_quote": "Go ye into all the world, and preach the gospel to every creature",
+      "suggested_fix": "استبدل نص الاقتباس بـ«…اذهبوا إلى العالم كله، وبشّروا بالإنجيل كل خليقة»، مع إبقاء الوسم والمرجع.",
+      "translation_quote": "اذهبوا إلى جميع الخليقة وابلغوا الإنجيل"
+    },
+    {
+      "location": "html > p containing Philippians 1:21",
+      "severity": "major",
+      "source_quote": "For to me to live is Christ, and to die is gain",
+      "suggested_fix": "استبدل نص الاقتباس بـ«لأن الحياة لي هي المسيح، والموت ربح»، مع إبقاء الوسم والمرجع.",
+      "translation_quote": "لأني إن عشت فالمسيح لي، وإن مت فربح"
+    },
+    {
+      "location": "html > p beginning “In World War 2”",
+      "severity": "major",
+      "source_quote": "a fox hole housing soldiers",
+      "suggested_fix": "استبدل «إلى حفر ثعلب تسكنها جنود» بـ«إلى حفرة قتالية يحتمي فيها جنود». المقصود موضع عسكري لا جحر ثعلب.",
+      "translation_quote": "إلى حفر ثعلب تسكنها جنود"
+    },
+    {
+      "location": "html > p containing Acts 21:10-13",
+      "severity": "major",
+      "source_quote": "he took Paul’s girdle, and bound his own hands and feet",
+      "suggested_fix": "استبدل «أخذ حزام بولس ووثب بيديه ورجليه» بـ«أخذ حزام بولس وربط به يديه ورجليه».",
+      "translation_quote": "أخذ حزام بولس ووثب بيديه ورجليه"
+    },
+    {
+      "location": "html > blockquote.poem > p[2], line 3",
+      "severity": "major",
+      "source_quote": "Bring in the day of Christlike love",
+      "suggested_fix": "استبدل السطر بـ«أَحِلّوا نهار المحبة التي على مثال محبة المسيح»، مع إبقاء وسم <br>.",
+      "translation_quote": "أتو بدًا يوم المحبة المشيَّة على مثال المسيح"
+    },
+    {
+      "location": "html > blockquote.poem > p[3], line 2",
+      "severity": "major",
+      "source_quote": "Tread where His feet have trod.",
+      "suggested_fix": "استبدل السطر بـ«سيروا حيث وطئت قدماه.»، مع إبقاء وسم <br>.",
+      "translation_quote": "اقطَعوا حيث خطا قدمه."
+    },
+    {
+      "location": "html > p containing Deuteronomy 3:3-6",
+      "severity": "minor",
+      "source_quote": "gates, and bars",
+      "suggested_fix": "استبدل «بأبواب وعتاد» بـ«بأبواب ومزاليج».",
+      "translation_quote": "بأبواب وعتاد"
+    },
+    {
+      "location": "html > p immediately after Deuteronomy quotation",
+      "severity": "minor",
+      "source_quote": "it can cause us to cringe",
+      "suggested_fix": "استبدل «وقد تجعلنا نتجافى» بـ«وقد تجعلنا ننقبض نفورًا».",
+      "translation_quote": "وقد تجعلنا نتجافى"
+    },
+    {
+      "location": "html > p beginning “What would we think of Paul’s actions today?”",
+      "severity": "minor",
+      "source_quote": "taken, beaten, and put in prison",
+      "suggested_fix": "استبدل «وأخذوه وصُفع وسُجن» بـ«وقبضوا عليه وضُرب وسُجن».",
+      "translation_quote": "وأخذوه وصُفع وسُجن"
+    },
+    {
+      "location": "html > blockquote.poem > p[1], line 2",
+      "severity": "minor",
+      "source_quote": "Have done with lesser things.",
+      "suggested_fix": "استبدل «توقفوا عن الأمور الهافطة.» بـ«اتركوا الأمور الأقل شأنًا.»",
+      "translation_quote": "توقفوا عن الأمور الهافطة."
+    },
+    {
+      "location": "html > p containing Luke 14:25-33",
+      "severity": "minor",
+      "source_quote": "<u>counteth the cost</u> ... <strong>he cannot be my disciple</strong>",
+      "suggested_fix": "أحط «يحسب النفقات» بوسم <u>، وأحط العبارة الأخيرة «لا يقدر أن يكون تلميذي» بوسم <strong>، كما في المصدر.",
+      "translation_quote": "ويحسب النفقات ... لا يقدر أن يكون تلميذي"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

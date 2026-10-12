@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T23:01:14+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html > p.drop-cap\",\n      \"severity\": \"major\",\n      \"source_quote\": \"in the 1500s ... the Anabaptists\",\n      \"suggested_fix\": \"استبدل «في القرن الخامس عشر» بـ«في القرن السادس عشر»، واستبدل «الأناخبتيون» بـ«القائلون بإعادة المعمودية».\",\n      \"translation_quote\": \"في القرن الخامس عشر ... الأناخبتيون\"\n    },\n    {\n      \"location\": \"html > p containing Mark 15:28\",\n      \"severity\": \"major\",\n      \"source_quote\": \"He was numbered with the transgressors\",\n      \"suggested_fix\": \"استبدل «وزوِّج مع المجرمين» بـ«وحُسِبَ مع المجرمين».\",\n      \"translation_quote\": \"وزوِّج مع المجرمين\"\n    },\n    {\n      \"location\": \"html > p containing Deuteronomy 3:3-6\",\n      \"severity\": \"major\",\n      \"source_quote\": \"as we did unto Sihon king of Heshbon\",\n      \"suggested_fix\": \"استبدل «بسِهْرون ملك حِشبون» بـ«بسيحون ملك حشبون».\",\n      \"translation_quote\": \"كما فعلنا بسِهْرون ملك حِشبون\"\n    },\n    {\n      \"location\": \"html > p beginning “Over the next six years”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"many dead or dying people\",\n      \"suggested_fix\": \"استبدل «كثيرين ميتين أو ميئوسين» بـ«كثيرين من الموتى أو المحتضرين».\",\n      \"translation_quote\": \"كثيرين ميتين أو ميئوسين\"\n    },\n    {\n      \"location\": \"html > p containing Mark 16:15\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Go ye into all the world, and preach the gospel to every creature\",\n      \"suggested_fix\": \"استبدل نص الاقتباس بـ«…اذهبوا إلى العالم كله، وبشّروا بالإنجيل كل خليقة»، مع إبقاء الوسم والمرجع.\",\n      \"translation_quote\": \"اذهبوا إلى جميع الخليقة وابلغوا الإنجيل\"\n    },\n    {\n      \"location\": \"html > p containing Philippians 1:21\",\n      \"severity\": \"major\",\n      \"source_quote\": \"For to me to live is Christ, and to die is gain\",\n      \"suggested_fix\": \"استبدل نص الاقتباس بـ«لأن الحياة لي هي المسيح، والموت ربح»، مع إبقاء الوسم والمرجع.\",\n      \"translation_quote\": \"لأني إن عشت فالمسيح لي، وإن مت فربح\"\n    },\n    {\n      \"location\": \"html > p beginning “In World War 2”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"a fox hole housing soldiers\",\n      \"suggested_fix\": \"استبدل «إلى حفر ثعلب تسكنها جنود» بـ«إلى حفرة قتالية يحتمي فيها جنود». المقصود موضع عسكري لا جحر ثعلب.\",\n      \"translation_quote\": \"إلى حفر ثعلب تسكنها جنود\"\n    },\n    {\n      \"location\": \"html > p containing Acts 21:10-13\",\n      \"severity\": \"major\",\n      \"source_quote\": \"he took Paul’s girdle, and bound his own hands and feet\",\n      \"suggested_fix\": \"استبدل «أخذ حزام بولس ووثب بيديه ورجليه» بـ«أخذ حزام بولس وربط به يديه ورجليه».\",\n      \"translation_quote\": \"أخذ حزام بولس ووثب بيديه ورجليه\"\n    },\n    {\n      \"location\": \"html > blockquote.poem > p[2], line 3\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Bring in the day of Christlike love\",\n      \"suggested_fix\": \"استبدل السطر بـ«أَحِلّوا نهار المحبة التي على مثال محبة المسيح»، مع إبقاء وسم <br>.\",\n      \"translation_quote\": \"أتو بدًا يوم المحبة المشيَّة على مثال المسيح\"\n    },\n    {\n      \"location\": \"html > blockquote.poem > p[3], line 2\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Tread where His feet have trod.\",\n      \"suggested_fix\": \"استبدل السطر بـ«سيروا حيث وطئت قدماه.»، مع إبقاء وسم <br>.\",\n      \"translation_quote\": \"اقطَعوا حيث خطا قدمه.\"\n    },\n    {\n      \"location\": \"html > p containing Deuteronomy 3:3-6\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"gates, and bars\",\n      \"suggested_fix\": \"استبدل «بأبواب وعتاد» بـ«بأبواب ومزاليج».\",\n      \"translation_quote\": \"بأبواب وعتاد\"\n    },\n    {\n      \"location\": \"html > p immediately after Deuteronomy quotation\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"it can cause us to cringe\",\n      \"suggested_fix\": \"استبدل «وقد تجعلنا نتجافى» بـ«وقد تجعلنا ننقبض نفورًا».\",\n      \"translation_quote\": \"وقد تجعلنا نتجافى\"\n    },\n    {\n      \"location\": \"html > p beginning “What would we think of Paul’s actions today?”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"taken, beaten, and put in prison\",\n      \"suggested_fix\": \"استبدل «وأخذوه وصُفع وسُجن» بـ«وقبضوا عليه وضُرب وسُجن».\",\n      \"translation_quote\": \"وأخذوه وصُفع وسُجن\"\n    },\n    {\n      \"location\": \"html > blockquote.poem > p[1], line 2\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Have done with lesser things.\",\n      \"suggested_fix\": \"استبدل «توقفوا عن الأمور الهافطة.» بـ«اتركوا الأمور الأقل شأنًا.»\",\n      \"translation_quote\": \"توقفوا عن الأمور الهافطة.\"\n    },\n    {\n      \"location\": \"html > p containing Luke 14:25-33\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"<u>counteth the cost</u> ... <strong>he cannot be my disciple</strong>\",\n      \"suggested_fix\": \"أحط «يحسب النفقات» بوسم <u>، وأحط العبارة الأخيرة «لا يقدر أن يكون تلميذي» بوسم <strong>، كما في المصدر.\",\n      \"translation_quote\": \"ويحسب النفقات ... لا يقدر أن يكون تلميذي\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 78\n}",
+    "content_bytes": 6152,
+    "content_evidence_truncated": false,
+    "content_sha256": "f2d5c2b0f6d8fdf87d603ce4d7b4b641f25053e6f8d33bfa4ef9458807acedb2",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1648,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 73,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8573,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7470,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10221
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
