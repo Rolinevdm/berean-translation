@@ -3,7 +3,7 @@
     "00005b81-257e-4cbb-b57c-c2a805483312": {
       "fingerprints": {
         "html_sha256": "8431e27c40bd5bd5c0451d43184cec162297c2374dbd1cb78eac84c3d826ac2a",
-        "metadata_sha256": "b2fc6599265ca64eafb8f314243b9ed368c10e7a82b877f0d497a3a348e86786",
+        "metadata_sha256": "3fe5c57ca4d3fad2f53682c1b280dce0ababfff7382c1d1be33a426e2ec77c4b",
         "structure_sha256": "cc7e60240692269ea2e8762d3c052bd5f89f350279bacb25b4bbe24254922157",
         "text_sha256": "3c913dd7a09f48506d2e45d03eaef1cc66ffc244d5a705ae2ed773b900475e3b",
         "translation_metadata_sha256": "3ef5cdcef004510afd6e8605dee3cc2330c267e0148d2fd2d54a315b3a355e75"
@@ -44,9 +44,9 @@
     },
     "00de9685-1bb3-4264-ac2d-e6f933840c59": {
       "fingerprints": {
-        "html_sha256": "3e2547bd145b46b816b5eb919ef9f0c9b8c4c87f137746eb9b8bcaa2f6304ed8",
-        "metadata_sha256": "63ecdf5c5bdad6990e98437e2671910039b81e02e17c268af096101f7a351a65",
-        "structure_sha256": "bc6c18c50c06ea8b3a72a9ec25ec03d43952cf656047610f44b33a127ba62e23",
+        "html_sha256": "868840f7f2f9a9ac35f734af8d4802ad3974e727692ab49f352b3383474df90e",
+        "metadata_sha256": "246d8ada3e333e4526db2ea8d95b6a22cc7c3066aeb2b21c018def3c09d56ff7",
+        "structure_sha256": "eafef96bf57c4904675bdc76d0a9012eb2e47030f9ac02311bb9f40d8764a4b4",
         "text_sha256": "193f0cc6bd080302bd7001929bc2837871f2e47d469bba6ce9aa4522d3f512c0",
         "translation_metadata_sha256": "4569998199acb296364ffa3e5955556d1b40694e5f97cf1b90560b5d15c78add"
       },
@@ -54,7 +54,7 @@
       "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
       "sequence": 2,
       "title": "The Birth of a Fellowship",
-      "translation_key": "0fbe023d6fe2a4918f45389550bba402171e8eea3e102314d850302a7f0ae7f9"
+      "translation_key": "1a916451349f4ede066f434d90b08616195aa708576253930b5965fb6a1f5162"
     },
     "0100060c-06cf-45aa-a9b2-062abcd353b4": {
       "fingerprints": {
@@ -478,9 +478,9 @@
     },
     "082e4e7e-5c7f-4e6a-b924-c80d38900744": {
       "fingerprints": {
-        "html_sha256": "97e4c28c984d8d21bb3603511f7c99c87d9a29a12f4b82f42d5883e7c0696b0e",
-        "metadata_sha256": "8a8ae1eb594776ea425661f4714326dd7f33324d092e38cb26d087dc01067c7d",
-        "structure_sha256": "25382b2b14e70506634bb025105202866e5a90ae60cd2b599f2df599ab8888ee",
+        "html_sha256": "628aa9a108084ea85797905fdd12ff5e5019d1399aba789224da3622b061dd3c",
+        "metadata_sha256": "ff070874a257d0f6b789a499c9f16718bb75439fbb3aaca6188452f67781327f",
+        "structure_sha256": "c1e7ea7bfd726964824fab33cf366df85c5103368fe3beb7fba5b160fdad033f",
         "text_sha256": "f91710326d8a9aa1b2ceac84d10336ce56af85cedb019d374d5c583cf1e01da5",
         "translation_metadata_sha256": "62842561f87348fa7bc460cfa0c485d8373c10569322c1ab7c5b3c04d56360a9"
       },
@@ -488,7 +488,7 @@
       "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
       "sequence": 11,
       "title": "The Refining of a Burdened and Unworthy Disciple",
-      "translation_key": "5befd90b87e76a0a38329d8fe848b89060fefc0c9bdf288444e915d0d8f35f90"
+      "translation_key": "f900902a3abc666ac1fe04bf89d81d949eac458d9c4e35ee815d931cf2dfb28a"
     },
     "0862fd6d-7c62-456c-8b3f-abb513f498ce": {
       "fingerprints": {
@@ -842,9 +842,9 @@
     },
     "0f79c28e-18c8-43ec-9116-a1aa95619354": {
       "fingerprints": {
-        "html_sha256": "3693fd49e49e4eb15b6144ffd5f302545404f729b6f5a00b99b4a7bb92a248de",
+        "html_sha256": "44a9e79ec6faa295ae78e676e6eb8c12461399ab6558d5841c4a51821fd62d15",
         "metadata_sha256": "263c93b92ea67d499c0aacaedad6f483755cecc345f0481f6a4c0414f92296db",
-        "structure_sha256": "abc9c857acaa246141c4fcf9a839ee43859ca3aad4bde7f5dfb381a3c060e9ff",
+        "structure_sha256": "915d8874c78e8aa2adde84d148bffb5973ad45cf93f17601880b649da6f63613",
         "text_sha256": "0df50f761da6929d78c570017742efbfac0c2bfbff8e994eda7a0e2e0c7f272c",
         "translation_metadata_sha256": "b0c75c90164c2174137ad9946d19c72b81173abe0f6a1c04a095ea2b7a78140a"
       },
@@ -852,7 +852,7 @@
       "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
       "sequence": 7,
       "title": "God is Faithful",
-      "translation_key": "47771695e71c55ea95d318b5889daed16d7ae8d46565072197ba0cba0245eee0"
+      "translation_key": "d895a2c641b0de32b34f7fd41b4ebbf94fdc0f49862561b1daf9ded78bfb9478"
     },
     "1005b067-e399-4a2c-8c1c-f06799a62d79": {
       "fingerprints": {
@@ -1038,9 +1038,9 @@
     },
     "13c317f2-91dc-4e35-81a8-b4e2fd45a263": {
       "fingerprints": {
-        "html_sha256": "6baa4ffdd6c5cd7ff6f56cfcd7b1d3f7c4cd75c77824070c1b9fbfd752953c6c",
-        "metadata_sha256": "43a97d45d1a23aa3284432d25315d5e96f29a029ffd68c2d61e63d9ee635af38",
-        "structure_sha256": "b9cf9a55e88898d8608a78291393472b702dbf8b841376bdf5e83d0eca3d9e5d",
+        "html_sha256": "9686a27c2f83e2c8e4af94c7e1ed9c380b5c803aac79515f69e08a7a8e2cf884",
+        "metadata_sha256": "af57e418b761758138bbee2462cb8c6ec0e5353ffee94dba2510bcb2bea649d7",
+        "structure_sha256": "ec0ae54c473b825ecd731aae06a63aa8ff31c7f9c059735fd403f2cb7ac319f4",
         "text_sha256": "48b25f5e1d7d85f5e3d746658e4019af4ae66a466063b9e7d65f34b969c19c9f",
         "translation_metadata_sha256": "11a381b7c369629b5ef0d1a49dccffaeda687201b3e5614c4ffe2610e5de7793"
       },
@@ -1048,7 +1048,7 @@
       "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
       "sequence": 9,
       "title": "The INTRUSION of Natural Life in the Service of GOD",
-      "translation_key": "e83f4502a295966acbe771386addfb1b56a6c3d09b55ae8e31835ccf2cc7235c"
+      "translation_key": "16f1816984314b29b79a5e83096c88978ab1c42709cfa7d1dd1db70777d4157a"
     },
     "14a35072-cac9-42df-a3ca-1f7db446d968": {
       "fingerprints": {
@@ -1081,7 +1081,7 @@
     "14ed443a-4a0f-4365-945a-9bd4bc0cb33c": {
       "fingerprints": {
         "html_sha256": "7641a40554483ded19feee8217a5127e66f43a80305e2c7b0e2b7587a55c1a30",
-        "metadata_sha256": "1b249e89fc56fd3ec407ff4705f3297b344794c1ddbb3ff1ff8c7d7f403b795f",
+        "metadata_sha256": "4790427ab5b60fda454f24205eca42e71a9e1285933dce210f2611661ec8f8e6",
         "structure_sha256": "0f1902a4a62942b30e06bafc45eb9c82ce82f578fa2e07cf32e597d6ba8ccd2d",
         "text_sha256": "d1efebb5f057510100c0e744ad2a3a4a16471e2dfaad973172224d12a3ac39b1",
         "translation_metadata_sha256": "ec38e8b44c981eeb43d6293d6d91993c33d065be3446469284008b4c117be26f"
@@ -1234,9 +1234,9 @@
     },
     "166333d2-71f7-449e-9321-1e66840ed100": {
       "fingerprints": {
-        "html_sha256": "639e70680366612b4d900378b39ccca1c6052e1f4dac12a65bb97bdc7d0df016",
-        "metadata_sha256": "ae874968b7ba6ed2ad6e441b8bd05b877487cd29c412f196e47720e07f97f5c9",
-        "structure_sha256": "998dadf0764d351acd1abc6f04175871b983784bd2c39c36a9f6b0a09ffcbdbd",
+        "html_sha256": "cf2b9837d681d973327d3dbe51753373cc57a0409dd2adae36e1658d17801142",
+        "metadata_sha256": "6c0c9615b9b64d571654569c4492905d4dea62bd6ed72e12c965bfb6e69ca4dd",
+        "structure_sha256": "363df88534d206d5668215dbe719f47373a0b2c42bdf2e74aaf64775f9442fc4",
         "text_sha256": "64972e6ceb6d1abf53b6e835e1b2dfc5b948c5fb44f1046260346c4e6855e824",
         "translation_metadata_sha256": "e6c6c9021f024319fecd803b18a984f2a16b4992f1a3877c9e1cd06c45e2a3e3"
       },
@@ -1244,7 +1244,7 @@
       "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
       "sequence": 6,
       "title": "“Shall I enter the Army?”",
-      "translation_key": "62b23623d0540830d107bf1a55f306d1abcf83f4f637eb8397c6c5144833ed23"
+      "translation_key": "0782d6ead53600a8e47c1c45dcddd0dfc9c5fc4cfb2da563c12467abcbcfa81f"
     },
     "166f8dd0-43b4-4418-9b54-f06cff16142a": {
       "fingerprints": {
@@ -1263,7 +1263,7 @@
     "1677d1d8-0762-43a5-bf08-b6008d72d56b": {
       "fingerprints": {
         "html_sha256": "2b6335d9999be29732c7bfeccf14b0916a3b4ed9e9cbf3abb0ab36aca5e16529",
-        "metadata_sha256": "c32ade1355515b1d81cf7f7e7d4fec6e2eec0f611a6efe7d42efdc9a2154fd6a",
+        "metadata_sha256": "49ddf61795d51a36d79e0d0748dc089cd6fb5ef2be124f5403db0e59bc23303f",
         "structure_sha256": "bdc915d3225f9bd90aae5f048778ef1efc54a524d86f2a2121489e95e48ee8bd",
         "text_sha256": "4519cc237f2d462a3c62eee1a82e4ecd0993cd24fbe15987e911f85555405401",
         "translation_metadata_sha256": "bd12db687fece5d77d3e7e8cf9a35d9e4065a96912758dfdf34d38694a544e8b"
@@ -1977,7 +1977,7 @@
     "22db867f-04df-467f-b0ac-9165526ff57d": {
       "fingerprints": {
         "html_sha256": "c1baa87adab955bf9021918549beaf73b990bb747f2a2cb3488d9077df711cef",
-        "metadata_sha256": "80f8118958e905f1824f9f28e6e113529a94ecc4a5afc7a467395d0f9000849e",
+        "metadata_sha256": "300a7bc6747843bde18b82616eb6a3d0f038d2207a77c0039362bfd7d1e68e01",
         "structure_sha256": "c3b8040ce3d8723b63186ebb2b9beab4d7563c72773c04be52348895d8708d58",
         "text_sha256": "0f6e1c5551e800ead3f7bad9e25deaa2909007c0fdeacc6bc29b95822d06ce78",
         "translation_metadata_sha256": "fc8b71caf346b8344f2b968e0c22931ee4e927877e394f60e2351788d31f82b5"
@@ -2271,7 +2271,7 @@
     "27c29b70-fa4d-46c9-b8b4-86eee564c108": {
       "fingerprints": {
         "html_sha256": "46700a9d33a9af0eb701f9af8465ad92c9b70404d577d4f125b5bf2eb8ef54bc",
-        "metadata_sha256": "f9ecda1f2fc0f28822bdd3992954ad00ae66f903cf1e0b672837af7633dd98c9",
+        "metadata_sha256": "a0be623efa217d0fbea93ed2e2306e9707fc11c7806e0c8b72d09dc29af0e477",
         "structure_sha256": "77c64020f986dc1626aec9024933421a2d9fee268f6e7081354e76ae00fc8cd4",
         "text_sha256": "e011daea8a116e8b53368c2fb9266c882bed2c17d7f74d788c9d89bbf6c3a3e0",
         "translation_metadata_sha256": "ba4d1b0a40e204c1522bde51e19dba55590b3b2e5bcfb6203302e726bac14f33"
@@ -2313,7 +2313,7 @@
     "28e8f221-9306-4378-8e69-677997cab98d": {
       "fingerprints": {
         "html_sha256": "ac1d100ad56bc6001e40ff7135bdc3e812175d1ec6d09f4f4182e4aa947d49e6",
-        "metadata_sha256": "e96915f92039afb66c71c68daf9f32b4f6dea8985f19bdfb3e49f7b9ee6de996",
+        "metadata_sha256": "e8a954629a0e39c3c536f784c18a4b95af6f03aac053afe59435c5983eec21a1",
         "structure_sha256": "ae40e81225dd829b3e8267d29d3732cdb5365fb688cb84cfc91df24968061769",
         "text_sha256": "f4c0dfb2527eb1a891e66fc28d4f18e71cdac87ef6bb62db2d04148b925df15f",
         "translation_metadata_sha256": "7edf75cc70106ef2796bce41876adca80621a1b4ac2793a2dcfcb4ba93bac468"
@@ -2326,9 +2326,9 @@
     },
     "28efba40-5361-4be0-b3b1-78996b29c371": {
       "fingerprints": {
-        "html_sha256": "3000744d233df6183175e5e1d93ab64b930d2dfa7d24ebd7f7ca0371f162e028",
-        "metadata_sha256": "a2717c5539b00b1058b206f1cfe64b469f391dd03688da2f2064acb44937938d",
-        "structure_sha256": "f83dc4ed14eb5ffc4c9c2be1c35f7c7a40eda9ea94fd5a45294f545ddf3666a9",
+        "html_sha256": "c16909653bd4366b674fdfe17bfba8b13290d3c559b24fdd4d24f4c9aef3c98c",
+        "metadata_sha256": "7e690f45647bf2e5a88a718aa86786d4a40675822196a447b6d6238f44e9be69",
+        "structure_sha256": "4065be153e3a04ea0519193d59d9e17743722908031bc7beafc3b5ecc95cab23",
         "text_sha256": "1051bc466f750ef4546376d6c0d9eb63f9fae2e6705788548befa884a9107930",
         "translation_metadata_sha256": "8e226c9f2df964ff93f6d0e960810927bc4e3080cb1a604e582f958ddfa9e27d"
       },
@@ -2336,12 +2336,12 @@
       "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
       "sequence": 6,
       "title": "Praying Till We PRAY",
-      "translation_key": "d11a61cd67388694e18f130694d93b4e375ea3b153d82015652d3877e420a2cc"
+      "translation_key": "f6e916a8ba6f336e855b5ef3c9d18e6e3d38dfb493af26f5e0cc220eb2a1d52b"
     },
     "290c95d8-6152-4293-a2ce-126865335276": {
       "fingerprints": {
         "html_sha256": "220eab126d37919bbc573c1103c01a448e572eeab3e01509a585f46bc231f173",
-        "metadata_sha256": "c3d50c9945ed684969445c4a912dd39cc69f10709e0f06743f1e8582bcc60139",
+        "metadata_sha256": "f99474e48c0055fce723eaff761619477d9e8ce49289cc7c52d665ddcdcaabf7",
         "structure_sha256": "086142ab8f2e4629a1903c165cde5d2dab4590326906441af4cc8b77eec4a42a",
         "text_sha256": "451906881b5c4fbbe5d9d8119fc78c326abca9cbae418c4cfed0f630cefa8c07",
         "translation_metadata_sha256": "ee52fb9576de70318aa5f3c87b8032699d6eeb25589e4f242cadcc5120ad9699"
@@ -2397,7 +2397,7 @@
     "29b324b8-1e7b-4276-a8f1-2910e663993a": {
       "fingerprints": {
         "html_sha256": "57dcfab4f82d62c3b481874b645801e3078cf4ea92210940c2357a18b641a271",
-        "metadata_sha256": "dfa36a2311e5550e58758759754a983f3f71296b12557ef8bf714c76250c5763",
+        "metadata_sha256": "a328f20e42eaa331b268fcedcd5f6b2f0dfc80413389fa4353299785f27171ca",
         "structure_sha256": "42a82a80e0fafd47d24e516ea6a358c219411e8c20154f62d08f7fcac8a5c30a",
         "text_sha256": "695fdf65372318794d6261952e2894f7fe6d5029c4ae701733823b5d13f942fd",
         "translation_metadata_sha256": "fa45e9936d433bf3fc98cb66f47f27b3e608e089a62ddb4956906db032ccf6e1"
@@ -2537,7 +2537,7 @@
     "2c60ae9c-dd8b-4f66-936f-ed6f94ec9927": {
       "fingerprints": {
         "html_sha256": "a8975661b0317c03627077bedd10a28b83202a953c376cf6a80ff933d11c36d9",
-        "metadata_sha256": "59fa0b42db8331bd7c12ae12f22ae7544a1e6f4e4e8d90b7249997a9ff69733c",
+        "metadata_sha256": "86e8f7f2edec30c28269d9249db603f17290c46455120a8951bef5291ef37a26",
         "structure_sha256": "3c29a1abf87b747dea78e6c729e62c72914695d7db3d956fbd21b402e3e26dca",
         "text_sha256": "9198258a50c5fdc19ee08196b43ec04808ae3097c9ad303d5268a12e3ae51513",
         "translation_metadata_sha256": "ea221da2b2a9eb50dce7c43c19979c10e13b2981964e8f01ce979e15d497b28c"
@@ -2565,7 +2565,7 @@
     "2ca55998-a516-4fe9-996e-cced67d11aa7": {
       "fingerprints": {
         "html_sha256": "31f1ad2888d52271168361133a39820ec6c9da7f4898546ad66efa722ba4bc0d",
-        "metadata_sha256": "d9cfa8e8f9a6693234cd6c129491d9a9b5d52d0b5dacb18f63f659b9f7382647",
+        "metadata_sha256": "7b1895ca2eed787967a99a61bb88ce407d9ad718b9ec8084c8c2e82da607a164",
         "structure_sha256": "5cb7fbef250ef9bc8fdde407fa5e9a075513fc3f0e488c0513e939894a947ddd",
         "text_sha256": "db537a3b951e83533645fa48eb578f6f4913f71907b9e6b66d4f729d47a4b073",
         "translation_metadata_sha256": "bbefcbed6dc0d1b430a8381a21329e9fe7847d3ae2154ed409c2e4f57b73083d"
@@ -2593,7 +2593,7 @@
     "2d3230e2-ea34-45d9-9360-0d4d042ef380": {
       "fingerprints": {
         "html_sha256": "ddd38a1e754eeae9bb2bf54a3c8a4b4e890e4d226cd8b3bea721939f604609a2",
-        "metadata_sha256": "586caad9c08a5e6b78f085e373bfc81a8bce6c353f314ead3216024a80991765",
+        "metadata_sha256": "b12321cd9651168dc6f0b2abd34ac8ab7e088e452ac8b720c408fe1f18c6fe43",
         "structure_sha256": "4ed875df3e434ee3e2315462e14fbbe166100895a16fcc9cd3d69ee9f1c63b33",
         "text_sha256": "29f701560da720fa71aa26e5b26704bc63cac865b45d1ca786d232b50a6774b6",
         "translation_metadata_sha256": "b1b403980a9f74020b2fab95c6aa234294813208a7829d5ce943b7ba173d1c52"
@@ -2718,9 +2718,9 @@
     },
     "2f529a90-827a-4d07-9c2d-1a4aa8fc0eb7": {
       "fingerprints": {
-        "html_sha256": "74cd49231fb36338ee641b0ad24fb1a5699989782a33c7970b2b212e64a9458d",
-        "metadata_sha256": "d8365d3177b95f9027343806e12641485acd934d489ab024aaf51a8fb8a0b5f0",
-        "structure_sha256": "ba352c277dca02c44c4ab2b4ee3636ecfd7e393fb5811104c1f655642b49edf7",
+        "html_sha256": "61b3ec3c5bca37b2fe24d1e0bd97cfa7040f9a8460751a7ee73d336b44fb060f",
+        "metadata_sha256": "3e60128c47ad0f6b0eb435a1ad19c6fd09ef5d9b02113498deb4f2c323ff2969",
+        "structure_sha256": "9291e64963738acdc3635e2ae8fda59f3f0ee2969359e6deb05fbfbc8cefa894",
         "text_sha256": "dc76fc5df716b37fbd5b9d3210cb2f0ed2bbb3fbaa1a26fbeeac9f7f74983809",
         "translation_metadata_sha256": "2ac0e7129892d5bf06441bc5a3ccfba80e43e7c98c27b1c21c6ed4fb5bd7e2c4"
       },
@@ -2728,7 +2728,7 @@
       "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
       "sequence": 8,
       "title": "Sinking Ship",
-      "translation_key": "36b860c5d5582a12e2ab62dcdafe565161751cde3fc0654f59a2cc59834aeefb"
+      "translation_key": "1544a6661a38bcb7d3c825dcd9d701f333849ec86f6106a810177d0b0c5ad9ef"
     },
     "2f6f678f-cac1-4164-a6ea-7f8616f2bf38": {
       "fingerprints": {
@@ -2761,7 +2761,7 @@
     "302b1457-df06-4e48-8582-577b6f40351e": {
       "fingerprints": {
         "html_sha256": "324b3d5ec7ed2575b69238ca805d376dec5c27548b896e67ddba5e21ae215cfd",
-        "metadata_sha256": "bcdb1674a306e26faec5fe94eddbaed0aa5813f631da45ac46239c67ef5d01f1",
+        "metadata_sha256": "1211fdb158a618b0aa368f26e59296105836814489d13e712257a6eed4ca8ea1",
         "structure_sha256": "1207ac6ee6eb36475aa1ae91d9d9cfb4045fc893e097430ea0a2d5f1c31c8aa5",
         "text_sha256": "372e1383c61d10510f8d21028a281c74e9af3766e5df7349049ddc8f9e79dc3b",
         "translation_metadata_sha256": "3e9b11a91113bf53476c09818a519deebf76afec6f5cfe3618bff7d8a837e9b4"
@@ -2999,7 +2999,7 @@
     "327747e0-4fa9-413a-ba74-c48f5eae9c42": {
       "fingerprints": {
         "html_sha256": "91d57c66e4583a2ce4d268ce3c7cf7e9a5fcbcb5fc9d0b34fb6031184773b10d",
-        "metadata_sha256": "ba88f3069118e627059a21888afe97b06af4baef32ce1c3f27cf8d96430db326",
+        "metadata_sha256": "ce2242733406d92d1d806bc0377ebb2c730538023def28e0385d32f952a5fe79",
         "structure_sha256": "a9665ec8a411290dd4dfa01b86a6538504f28bd9a3a7aef3420639a615dbc392",
         "text_sha256": "ad9c08ac48601855c0d23788f64a42c977a896bf2dabe52610cea31822fef0b4",
         "translation_metadata_sha256": "1db12872fa452e583ed7a95de54dd2ce7d789303c4a3a0590976ba447b23f74d"
@@ -3012,9 +3012,9 @@
     },
     "329d3201-70d8-45e6-9f71-9ccbd09ce9a7": {
       "fingerprints": {
-        "html_sha256": "294d07cc23fd85954d98bf02e664f80614c31e7bb5c14c92000a0a9d5caf931d",
-        "metadata_sha256": "d098bfb051ba3ad9a51d864598e89de9c3c5e4c0b301f04ddbf481a20b7baef6",
-        "structure_sha256": "096d98f8ba0b10694847a5d86cac4eb877d280310e70eedc18e6c764609951d9",
+        "html_sha256": "4610360cb4bb741693909cb853b04b7adc9e45314152628bac40c38afcc56044",
+        "metadata_sha256": "8958dc0277b2e17c6cffeb672e5715766f3f550293f336ac2a0d02b9be2ccb5c",
+        "structure_sha256": "982c44947ccf990850ff0a6d79f5665d8e53c008adf139391dd4b8452e757cdd",
         "text_sha256": "9c8d55f902d3c8d74ca37ecd42f2a9ba02a3b4591518b37743c292d5d2d38a58",
         "translation_metadata_sha256": "6d39fb018ca0f4540471868ccd95679e920a28f0703996737175ee07520fe4a8"
       },
@@ -3022,7 +3022,7 @@
       "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
       "sequence": 3,
       "title": "DAVID ZEISBERGER",
-      "translation_key": "b3128236b0cf61cd45ca2e6bf6d9ad2bc2e6d0a957389d93e693fa39ed39d092"
+      "translation_key": "fe600708426c2bf4f821346415604e7beda970a9a3eed885baa32de10418c5ac"
     },
     "333888b5-3dc6-4fa1-93d7-15280924d1a7": {
       "fingerprints": {
@@ -3335,7 +3335,7 @@
     "37729b47-9cf2-4956-a533-fde26bb6fd3c": {
       "fingerprints": {
         "html_sha256": "91ebdc4ca82968d0bee7ba40eb71781ed4b04d3f6cbfc4e4e908f64818bcd27d",
-        "metadata_sha256": "483e4470b10d377309016b75710a2438fa05783c4e9048ed1a50160cdebff28d",
+        "metadata_sha256": "1e67c94e8aa85c10437ebf0ff8ef954e92806cd9c1bf122ef7097b04e3f8e93a",
         "structure_sha256": "095ddccc430e148814e6a73aac9c85eefa6657f17ec43f9257b34afd7eb6f069",
         "text_sha256": "cb4881f54218f9fd9cee2e5ee2966732d3793bfab264459caeac38ccf0952df7",
         "translation_metadata_sha256": "b3ac027d5da3814afc76a706272a10a3153dd558186a1f246b16cad7de62c918"
@@ -3419,7 +3419,7 @@
     "388a13e3-6075-4bdd-8dda-1304b5ee92c4": {
       "fingerprints": {
         "html_sha256": "94c70160f36a366e9aff516798d8a21a1d2764a370f4fb7676746c803525fbe3",
-        "metadata_sha256": "bc93c0787c09a8c2a8d526d25e0747a9fc07782dbaaf2a4d75e4e25ac2169376",
+        "metadata_sha256": "38123845bb925fb4b3b25f0fbaca54dc0f2514339fbf8fcaaca85f3d9c39bdbc",
         "structure_sha256": "149116bbdd7ee1d1f2b2ce5e6986cc394c5fad27253d9604b1b18e3c62e75c7c",
         "text_sha256": "aae293b29c6126f379b73aeee1beef0f5336b5f607c900bc14b2ced0335292b2",
         "translation_metadata_sha256": "1ed2a53575ee054e7b4ab48b590c352dcbd3902f45a6bd5d220d6f2182589620"
@@ -3894,17 +3894,17 @@
     },
     "40f96de8-cd9d-4e7d-8780-778b255149f5": {
       "fingerprints": {
-        "html_sha256": "8ca01ade722ff6c9255fe897840c88507477004dc2f7fb02ffc1ff67729b7312",
-        "metadata_sha256": "e6a6e0039e0977b752ac436f7a7af6286b682f875c7e6019dba80fc778f4ad54",
-        "structure_sha256": "e4ebc3a3a61152122744a13792636289baed47cee19a5d11ce3ec4b1341b7508",
+        "html_sha256": "35cba5717a4492a2dd93439f0858354a97cbb3425c8b7b98f65e225984c96c24",
+        "metadata_sha256": "8920e3bf4984edbb19a611ed617f1416c34b7ad83994dcc4a2ecd8996a15b3ed",
+        "structure_sha256": "ef37cc57efab175d8b0dff4c330b7827ddd7356e0adcd32401654f8728448e97",
         "text_sha256": "87ee1a79245aca30002af0f340aee6c4d88b4bb44bfe9081fee48ddcb71685c6",
-        "translation_metadata_sha256": "df868b00c5cd854f916f4bafa20809106579e68cf3fdfb23a09ac5547a6eed7e"
+        "translation_metadata_sha256": "15c7422a0a1217c28898d585be2fd56acfb92140a4a601d645e197d5dc499a78"
       },
       "id": "40f96de8-cd9d-4e7d-8780-778b255149f5",
       "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
       "sequence": 4,
       "title": "Except a Corn of Wheat...Die",
-      "translation_key": "4550ef73fa211832aa0143cbff57e7535d0a8e71c47d1e27b323749d333f29ce"
+      "translation_key": "16299492dd610cb9834ecfb80f80376a08d5b06416640230c14a6ac18d616ad2"
     },
     "415ec6ff-1544-45ee-abb4-4ec57b7ad385": {
       "fingerprints": {
@@ -4147,7 +4147,7 @@
     "4555ea49-c56e-4ed0-8a16-634587cf9ba1": {
       "fingerprints": {
         "html_sha256": "177624e926ca55bf67f2a48995f107793c49c2651a39116ea8157a1fce1369fb",
-        "metadata_sha256": "2c3bf091e187482874a5ac6cc39e832b6aa4cff1abe6984dd3ef2c2c96b757f9",
+        "metadata_sha256": "db44f2f715f3e3d16b8475183e8d2b42b0739e30ed826d2a77765ba027707f9d",
         "structure_sha256": "b50b47ba3cc620bd56503c3905efc002c17b3df214e6c7f24cd9cea73ac14cc7",
         "text_sha256": "197c1ef55d7d44e6232c1774a8aca32b2fac2582995a3dbbdd678e2626932536",
         "translation_metadata_sha256": "20dd25d1839e3235677b999c2514d781b367a563b0ff4a2bb908bd30eca5bf34"
@@ -4777,7 +4777,7 @@
     "4eecc6eb-24d9-4890-90a7-1da57432b961": {
       "fingerprints": {
         "html_sha256": "23b6f17d1f7fd0db6a6d685005a38e879264693d9d8cf5b28cb32b19011ee6d4",
-        "metadata_sha256": "98e4fe9d6bd5baaf68bcb704f4aac23c7e9538ee447276271ff17f86845b632b",
+        "metadata_sha256": "ffc265a96d822cbae83cffe5e14c33f715a823695990fdb652cb254f7e1a439e",
         "structure_sha256": "0ac24d1d8bf4a17ca8bfffc72fc3c54a1f970a13af58a7f7c770bbeb3239141a",
         "text_sha256": "a9ae6a6c8bec277852515cbc830e2f5643f16d99020d65fb21326fcdc3924299",
         "translation_metadata_sha256": "5bc93966755277503f46bf6edf01ef295498abbce098e5c367c468a52210a4cc"
@@ -5659,7 +5659,7 @@
     "5aa2e91b-9e23-4ae9-9d6f-c4e6054197f2": {
       "fingerprints": {
         "html_sha256": "af07ef5e9e9824254a00d282ce015e39fb06c377dffbfc8dc9d5a85b06e96488",
-        "metadata_sha256": "0f0fe7a9c77e0e88dc120d198085f15c7ecad8d55972f52da404c5d60707ec60",
+        "metadata_sha256": "56025234f9903ea26737843527b5835023644e5775dbd2e707870a79e7b79fa9",
         "structure_sha256": "93d6c90954af1713f86038b6357312f2df3fef944526f8b8ac0834c1b19b5c89",
         "text_sha256": "a3fccb77dcf3194bca3afaafcb049e194a36b6afe9c7e0d966e1efb10fda602b",
         "translation_metadata_sha256": "003788a3abbf074fa0e2d7ce108fafc41a903872a2e7d2170eb0e463b7c8caa2"
@@ -5994,9 +5994,9 @@
     },
     "61b0bd32-7c21-4e51-909a-dcd3198c7bf6": {
       "fingerprints": {
-        "html_sha256": "355aa66cec492cc2a43a45730fb248d4498f08b7d716ec08806cfba371382ea0",
-        "metadata_sha256": "a0fca77a1f378459798757d68b049d101e2885b2db94d597d841c3e37935239c",
-        "structure_sha256": "8606da1d3c9871b73e7bf17ab8c97259d1c1731e63207a1019a17c7333f8f302",
+        "html_sha256": "6848a4d52328241cec9ff91a6fea91ca955e7b32cfc2d961397e40a4b612bda7",
+        "metadata_sha256": "d69154da09780f323ab89116a621374af737f35dfb8bd33bc3e43e289f64936a",
+        "structure_sha256": "869da35372e92c3f277d4d710df48d3df61f0126725e9fe224624f4d5aa436c1",
         "text_sha256": "8e7e465b9020dc65bf9b27f867f9562bfacdec8a840121be9f94ed95ca3459bb",
         "translation_metadata_sha256": "9eaa3bb6841e297ce0ba998420e161416b700dcbef067e1d8aed1b26047a899a"
       },
@@ -6004,7 +6004,7 @@
       "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
       "sequence": 5,
       "title": "IGNATIUS",
-      "translation_key": "24e3808cefc80e91a037c88aa72a8922caccd97d1e705c18348dabd1323edfe9"
+      "translation_key": "9b99038d80cc6ffa2fe649d04476dc5e534d5d05e4e87df4e0ab1548e990fe8f"
     },
     "61db9501-10e9-4c19-a578-d21dd15469ff": {
       "fingerprints": {
@@ -6387,7 +6387,7 @@
     "66c8bc19-3935-4e9f-a320-d498c37a1e22": {
       "fingerprints": {
         "html_sha256": "625213e1c60d3b1f0f39d16299661f7145680c7304ef1bcc8466722910833118",
-        "metadata_sha256": "521a04813836cf32cb6a22933288caba84f23a02dd3b8282e9279d6ca763decf",
+        "metadata_sha256": "eecdee574946f21f1b0b3efb365622779576872e10bb4105740c121dfb6db514",
         "structure_sha256": "72c2fc4096c628eec554ae003c147f1de7a2f6734fd7ba045070b44a67c0e882",
         "text_sha256": "5ccb5f6a1c6eaabdba3b8aa5461ed3d6fff949ccfe67b38040c7f302e14cbc9b",
         "translation_metadata_sha256": "542e6e88abe6b2b41ea13189ec3174794c121e9a497854ebe8ab5026635124fd"
@@ -6568,9 +6568,9 @@
     },
     "692419c1-b3f7-429e-ab4c-f87f23ef3cb4": {
       "fingerprints": {
-        "html_sha256": "3c80c88f57c94ccb6e5bdeb0feb91bd18eceba373ed604e23e9c54b1ddab5dd1",
-        "metadata_sha256": "832cefb9e146277a522ae2797e47f99fa0e45d3f0e8f56be3f05fe98bd2895e3",
-        "structure_sha256": "262d02cdb2f4dcbe49ba315341a82f58a49ce6d88c99ff911afc13c430bbb74f",
+        "html_sha256": "9c0fd92b29763669647c2b22b40b35eb01c6f00cc179e969366463e23240bc14",
+        "metadata_sha256": "78135ce0d37f339750c0f14b548cdc39bb786bf072089f69a7105c8aae29c92d",
+        "structure_sha256": "f66e50674e1aa4f995044e6f6a704e2066639d122b10c56472f3fef8e623c298",
         "text_sha256": "8a459494df7ebc9d82044af94a2791dba08b3e81e5d7cd5aae1f610ceba02706",
         "translation_metadata_sha256": "40d1c1c7312eba2a631b58734b8822acc9a322eba114bfbd8f8bea837d827d4a"
       },
@@ -6578,7 +6578,7 @@
       "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
       "sequence": 10,
       "title": "The Principle of Praying Thrice",
-      "translation_key": "cf75139cd22654e7c98d05feeb0cac58705112bafff5ee6251a2a934aeef4b29"
+      "translation_key": "13e651da317d0b7f69c1e82faf6eccd4a97f6f0d1a72127fa14fe2ef3a3e82d7"
     },
     "69583771-9cc5-4b3e-aff1-e6c5968f7f50": {
       "fingerprints": {
@@ -6904,17 +6904,17 @@
     },
     "6f5da2d6-b248-440b-ba8c-a5f259000f85": {
       "fingerprints": {
-        "html_sha256": "caed512e52162a3b2014bf4d207765d0fec62605e00a387bfb2f407ebd6afdbb",
-        "metadata_sha256": "791a688a106ffbb37e84792fc8d4f866d2acde4822debc7323de9d44a44695c3",
-        "structure_sha256": "3d9f4e3f475fb766859c86f2454a9d87e3f75e36daf2435c7bdfd9c94b043723",
+        "html_sha256": "bb955d67446217ea79899be2961501ce30d3270106f02d88268dbdd673f0874c",
+        "metadata_sha256": "b6b19dedc62130413da0591157060d414c3d10f52bace7195485e1e4965f4822",
+        "structure_sha256": "806a67efc315eb94abe19820ebc212dd94b3b8274969ab1366408d99c33e5c82",
         "text_sha256": "e4a235a796fba3d01d60a19527534acd9b6f4c540fd57cff91a109b449917e54",
-        "translation_metadata_sha256": "301e1bf1085b41ff205375f6b2e56f527b1b16c9bf8793eae7524194c559fb8c"
+        "translation_metadata_sha256": "22cf69fdb16196c3e663bede1d9467a9314797fd6a89fc1cf5dd23b8b18c6851"
       },
       "id": "6f5da2d6-b248-440b-ba8c-a5f259000f85",
       "issue_id": "23b80e56-9f67-4023-b0f8-e67794b16724",
       "sequence": 12,
       "title": "Parents’ Prayer",
-      "translation_key": "5a8b87bb7c4803595d3aee30ac9ca2a15b604d175e9bde68c76e54bafca56675"
+      "translation_key": "e1ef684d4194004eeb08589b4ac9ce0046a2eca3434d53213606f4cd3c158a5e"
     },
     "6f61a1ae-d1cc-4748-abea-a8e44a891dc4": {
       "fingerprints": {
@@ -6960,9 +6960,9 @@
     },
     "6fe6456f-cc06-4a20-af0b-efaf0033942c": {
       "fingerprints": {
-        "html_sha256": "2f5d2e6d71d5844fd8492e592f05c7e2fd89420441605490f6766e87c7628729",
-        "metadata_sha256": "896a1fb854fc8671a37a683fdf4df349660dfae7501d5d6a08bb35fdcd195446",
-        "structure_sha256": "fd9cde3a7956eab290dd95a44a60fdf4b4f787f5f95471f5f11b3085ad76d474",
+        "html_sha256": "4d81b1615722d7712d924e674792c5547534b1916887b3c901f3b0ea43ec9430",
+        "metadata_sha256": "11d494f103407346b5fa179cfcbb8e845dc9f94ce59c097e4ffa2f6de2ff03ba",
+        "structure_sha256": "9169696d33dba135dce9679f703c3ce27ecc6e2355598c7255d54203a1839ebe",
         "text_sha256": "64473dab747a840a7f6993472e6c7479557f08a9c9742a1024b988ebcebf7c22",
         "translation_metadata_sha256": "dc1f0eea6623aa5d718e7dfb29e4779e08f297e0d73e663b6211b4eba8cfdb1e"
       },
@@ -6970,7 +6970,7 @@
       "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
       "sequence": 10,
       "title": "The PERSONAL EXPERIENCE of the SOUL WINNER",
-      "translation_key": "278499cb07b4de00e5831b45daa8b8804d4eb98cda16332eded251267f3c0e67"
+      "translation_key": "ca3aab5651fd5b245120843989bff81252d0f2560b95aaa620a15f8fedc38e95"
     },
     "7065efe5-66f5-44c1-bf03-3f88d5ad2c74": {
       "fingerprints": {
@@ -7030,17 +7030,17 @@
     },
     "70fb6a6f-c616-4a62-a8f6-8f83aea38532": {
       "fingerprints": {
-        "html_sha256": "288468118aa033ae1ea81645dd9258ade6313fe91fbdd14dd985699a7d48cc23",
-        "metadata_sha256": "bcf0afd601230d5872201933ec7160b826f51e97ff5c616c226256f14d7907c5",
-        "structure_sha256": "79005cf03ae6824e1a8858fe473fe57e7e591a22c050803ae4750ed95298cc9b",
+        "html_sha256": "7c03aa0ba459ab73231ca2897c0a7ea9da5a826f78541f1dca894886d470ac1e",
+        "metadata_sha256": "3cd917fd4464ce7e2806423c618ef121af81106cb113eb03c89c848159ba2c17",
+        "structure_sha256": "eadf7e83afdbd8b85fa4474e6cef91c80f8e9fd391f00ec4554e937da4bf40cf",
         "text_sha256": "77258e85fe900d4f0017039e4b4115c24bd568e7ea06f5df62f039768e0b537b",
-        "translation_metadata_sha256": "73a4558542b4463c7a9b0496c8fa8a2cfe1a95dedd82757e32ab017124f07889"
+        "translation_metadata_sha256": "5b6dabef20616b3917d8deab67d9f870761bc1eb3ac1349e9d4d3b746e124873"
       },
       "id": "70fb6a6f-c616-4a62-a8f6-8f83aea38532",
       "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
       "sequence": 15,
       "title": "The Kitchen Sink",
-      "translation_key": "d68d29a26c1f1a046575f2babe35dc6798ac45093768bb7e4c05fdd32399e154"
+      "translation_key": "b97044ba482cc96a307b680c94adde577a3a0de220587b982376753d6b9c7ccc"
     },
     "713c3d95-5295-421e-9ca7-3cd2cc1643d9": {
       "fingerprints": {
@@ -7157,7 +7157,7 @@
     "71e30451-7860-462c-9956-310b0ff431bc": {
       "fingerprints": {
         "html_sha256": "20b4a37ae9cb51050e2ba7da5b7b327c9c7291e686fdea73da7ea414ea52e98a",
-        "metadata_sha256": "3fc6259e961d35f681cfa4537a14f634b821bbf42a9e122a5c6bbda5b51e03f5",
+        "metadata_sha256": "cb123e3c6905f58ccf1471e16d038b6a064ec484a3454f26fca21e733d122dad",
         "structure_sha256": "eac4a29c4e7e6e451a9054df1526356cb50021293e76e96b7f317149b5be01d6",
         "text_sha256": "d9fa3fef1907a12fbf5f04353e6b48589362a07f23db58ba15287a3241e8227c",
         "translation_metadata_sha256": "611473877e968ccbdffd0e8bf557a8e2e23b8de4545244dda6c6a4e7ea0aa4cb"
@@ -7213,7 +7213,7 @@
     "7270a139-2c15-4a89-9175-028c8a0a1ef1": {
       "fingerprints": {
         "html_sha256": "f8b22b1d008d0557cc3385961b97ea0ad84016461b84ab062b3bf3458ca26537",
-        "metadata_sha256": "942ecca9a76d781e3af5b0cf717a0705f5e7a4a9ec8a9e7984e19ba0e22f103f",
+        "metadata_sha256": "e13497a853d1eefcb0914d487aec94b1a78be95c438080e7de0b091f2bc8f19c",
         "structure_sha256": "ad9705d6fa39fa08b0c73e7406711467e0344484f62211291cb1cb31abbf268b",
         "text_sha256": "e56c422aa20202020447577b638993cbaf775972fcfb5aa33c81dd7c033e57ce",
         "translation_metadata_sha256": "6875437c8b09aef017a71c1ba169101dd5d072c418cc23b2c710ec90908658e2"
@@ -7268,9 +7268,9 @@
     },
     "732b141d-2363-436c-80f4-625589e4f12a": {
       "fingerprints": {
-        "html_sha256": "cfe227bb08a9948392e68bb222f111b7fb215f649ac3e72a333dc3e0bd050bfc",
+        "html_sha256": "2d6b710bd5a43e9ca0e93fcb3566cc54a60d895d70ca28437b2d655829e3b9eb",
         "metadata_sha256": "58d8f5a5461f245ede8df2d6b59f15bc09925c46205d989fc6f15f8ca5ffb90f",
-        "structure_sha256": "3eb56d6287c11c6f1b2bee9227974f78a1756cf772757359f438e02952b90aff",
+        "structure_sha256": "d754520e477201dfe6d73d76b7b10774d4eb6eac4b448973bec35ec029b12804",
         "text_sha256": "1b472d13d1642d0978a312e9d613e2c804471502dafb812b62f046bbf83fef6d",
         "translation_metadata_sha256": "031a16f47cf3a9df82c802712891d010e4734c46d16f9ecd9d40f6a34acbc88d"
       },
@@ -7278,7 +7278,7 @@
       "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
       "sequence": 8,
       "title": "McChurch",
-      "translation_key": "16b33498aaf8b11d3bbb8017fcdfb9dd41b976a0ab0922dcf2c0cf91754cac99"
+      "translation_key": "fdb264122e838b41c85f16362d93c08100c4af35336c3e94ebd76e87c5ea0141"
     },
     "733add79-a726-4815-8705-3d900e54593c": {
       "fingerprints": {
@@ -7367,7 +7367,7 @@
     "742a597d-8b1d-4010-84ae-a9e58f474025": {
       "fingerprints": {
         "html_sha256": "06d887070b842643c1eb8683befbddd8a6bee2f11708ceaa3d36be685b5265b4",
-        "metadata_sha256": "bed95f0c9d699b5eccc7425dccd2fb860c054291a27944b23ad8899b902dc8ce",
+        "metadata_sha256": "07c70fcc117500e7cdea9ee27eb897f6013de032940583c8d6229000b32eae4a",
         "structure_sha256": "3dbbcda0af317fc65f2ac58d04340490bcfc5ecaf9a39239afd7815bd59dd05d",
         "text_sha256": "868d346fab2207fb7ef676b2344a26345f37b65e9465ebc3458ed119c12b2fca",
         "translation_metadata_sha256": "34e6507ff792fa45f9ccf010f93c664ab4a8b21f9d357ffe2a24c96f4daeb9e7"
@@ -7661,7 +7661,7 @@
     "78563ba6-9c38-470a-9690-6a206c55e2e7": {
       "fingerprints": {
         "html_sha256": "4d0c92a5c0de9bd02f533305669b487aad89de2cc7fbb8085b5468aee8ce1f1f",
-        "metadata_sha256": "925bc76f83391a2e35a4fbe8caaffce43fb75b822c3fa1710400cf705aae05bc",
+        "metadata_sha256": "198016aa0fe6718fece0861c19a448c25fbcdd3e2af120ac1c45ad0cdcd47b83",
         "structure_sha256": "229fcee42189962e31eea494cd46b83735690f3b5ec6d1c125c2b42e4bd1dd7d",
         "text_sha256": "35905bd08ca5c1e98af2f866ee792f7a3de849b4b07c3ed29fa8ddb34915aff0",
         "translation_metadata_sha256": "203351a1a97917352c1f489d8e7507524912d0cc08144a8f10b1a8f041a6da4e"
@@ -8221,7 +8221,7 @@
     "7fe63551-500f-4963-8b75-e17ae8cfd46a": {
       "fingerprints": {
         "html_sha256": "7d4a7d4f9558f8b5a28f6606aeb71af7258c60841d98143c004dc61cf0152249",
-        "metadata_sha256": "5f4a9e7085c22c2e9202d55f4733234b22d929f0d0336cb78cf19c32e3c872fe",
+        "metadata_sha256": "db52c10ea086ebc08fe3805b51d441f19e378be1c6de5e0b5227d7e96130fb23",
         "structure_sha256": "392685c4f9efef5c10a85cc0dc04f23f3981aca5d02410b3a5c9477330a23bed",
         "text_sha256": "14e52d27b03d56da74489456a4c52b3730e6dd88aa0afeb31bb221cbe48858f4",
         "translation_metadata_sha256": "387ecb57182d5513fa52a26f8053d674ac4d1cc1d6a0337d572713c88438accb"
@@ -8514,9 +8514,9 @@
     },
     "864fd53d-da40-4478-9e1c-e62177efa866": {
       "fingerprints": {
-        "html_sha256": "7127e0637563b975ebe551b4a23fff42d88d87178a5fd53ea8b9d6fa0e91281e",
-        "metadata_sha256": "6bb5886b17fffe8c3bafbb5c33d4e0772454520dd44cb8eb1edfeeba9b254b68",
-        "structure_sha256": "0aa0b281c3c668aef61bd15a04be9d3c4a5715f7cbc6db7b93ecb0d2d81099f2",
+        "html_sha256": "2dd470b09213c1f1f449efe3620aaeaad22fd1eb14ee7e94918e83ab61d5570f",
+        "metadata_sha256": "783107109c541273e7df649a8eb3776acedc9821e07a34f16b56cd74e6aa55da",
+        "structure_sha256": "3777e5b11c738cb1d728eaed67028454f2e23f50413c2ba1570e3d5a3b7535dc",
         "text_sha256": "7876a1f02ec20b08fc7b7a253bc7421df1dfd6f889fb0048949db58abb818897",
         "translation_metadata_sha256": "095009d8dd57f5f156485c90ed1ca4207c6e8008b6308f35171c2c67933508e6"
       },
@@ -8524,7 +8524,7 @@
       "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
       "sequence": 7,
       "title": "Revivals That Stay",
-      "translation_key": "8e2b3b00e87ad85b288d390a69001a9ef04c51fee4417ff9f1bce170eb7523b5"
+      "translation_key": "e29791041b951460ea9b8639bd86948f5b3b28e63b9dafa45ff4b1e44281d02f"
     },
     "8679afaa-05ca-48fc-949b-4161b8b06886": {
       "fingerprints": {
@@ -8641,7 +8641,7 @@
     "88dd10f4-1bce-4b0f-b47c-8ab58ef8c120": {
       "fingerprints": {
         "html_sha256": "4bc2d36e99211bd78e87983acae10f17fec2015faa527194e00edbc4acbfdf2a",
-        "metadata_sha256": "ac45cb5609e0e4cfd54b542b85c8c13ea3ec6bbbb90d90e30750bee5bb9f9629",
+        "metadata_sha256": "08a3cae485ed9e8e3e7000fccbf09927f103cab0ed44c9b7317e147f4670060d",
         "structure_sha256": "570600acb871426b2c5fa7899bc71c43b687ab2a41ade45f46aac8482382e151",
         "text_sha256": "501aea7fbd56b2fd731ee82b04262effd3975e513ee13371d6860062a487def6",
         "translation_metadata_sha256": "b8fd698bc9dd7a76f86e612da5cd49e76a27634b84cc024e4027381eb610a5b4"
@@ -8710,9 +8710,9 @@
     },
     "89efa81e-7b50-4d00-9f71-913b6559733b": {
       "fingerprints": {
-        "html_sha256": "45dc348ffe893c94a68ad0078e297bfa5e8392901414a27a27d943b03e41398e",
-        "metadata_sha256": "9f2c9128679160c00718aac81fe79decb2ec1593b2389bdff358ccabbec82d4e",
-        "structure_sha256": "14b0489bdd8a8390da353fec85772b722ae1b6759be4b9d2906012d75859fe8e",
+        "html_sha256": "94f8eba197bdfb16cc1079238a362e6113593b6e5ab655676268c06eb3cee584",
+        "metadata_sha256": "cc40c2ccd0fe8a490cdfdae1caef120c1d488cd3526fa3691be02ed3f84159e2",
+        "structure_sha256": "b2b76662789c9fe1dbe46f6b089ee7407c3f9c16509b9c6fa9ee3fe27080358c",
         "text_sha256": "23962d0524d04a1a414a2412a6deb80b9a425255becc62fd1a12fc1bdef352ee",
         "translation_metadata_sha256": "c609fd96594f7628ce04c75bc2626f7bf65acb0acf89a0b04356fb106cef6cde"
       },
@@ -8720,7 +8720,7 @@
       "issue_id": "7e2fda69-4f9b-450f-815c-39c3200bb634",
       "sequence": 3,
       "title": "Can A Christian Be Patriotic?",
-      "translation_key": "78fb44b8f4e6710f2991d555b424be4d52fce6436904188cf293974dcb4eae3b"
+      "translation_key": "99b8ad2d7d98238000650fdd8d25c7f7d0ad88525a2d4656c803638bdc237045"
     },
     "8a3dfa09-f40f-4615-8f83-59a8fccb1a2f": {
       "fingerprints": {
@@ -9481,7 +9481,7 @@
     "94b26a7a-763b-4554-a25c-70739be3b84f": {
       "fingerprints": {
         "html_sha256": "c51997e3875f69806f77a4304ebf2893b6cf9956e4fd6f645c72f453f4fed75c",
-        "metadata_sha256": "a840acd0c42da4327fe45c27004a610f1d8696291ca088251f56d627169a53e7",
+        "metadata_sha256": "08a3ed0066acc258172aee681062520b1ae13ec37ad6750e81c49bb7cd279543",
         "structure_sha256": "6cce5158f19a364ece43c9847c9c4eff971585508caa425dd18348cee4407e1b",
         "text_sha256": "188e768d4749a92819df0e84b13ec0d1bc0c91ceb8d9d6e747ba50acdf829f91",
         "translation_metadata_sha256": "edc9664ada57497aec5a724972761f0ecc43b1e94475f1c89fad6569be6b6122"
@@ -9998,9 +9998,9 @@
     },
     "9ce38c46-1773-4046-8c46-8557d6d5969d": {
       "fingerprints": {
-        "html_sha256": "8422b0f634d333b518f79c67c171f09a28698035039cee463d777ce4df312a12",
-        "metadata_sha256": "dc23a401a6bfe843f9c04eff778a31ae1dc7056516ec244986d004233149f42f",
-        "structure_sha256": "1e9f411d61e30db7caa189294497a80fae4a7fddce7540ad125a695d21b77fe8",
+        "html_sha256": "e578cccabb784de7dc994c65929b6136b179b6e1c3e4168d7a4899f20b0bd8f6",
+        "metadata_sha256": "8d4e596b9f65715cf70b4f164c8403dfc75b9444a5e79f5eda9f3d52c0ec0dc8",
+        "structure_sha256": "ec964f40a161cd5aac9a2056aabb005c7462b76e51ee9e1af8c465e064165162",
         "text_sha256": "c6b3f65ca8ac15f4a8234f0b5fe5d5a059cd0f8270c15831bfe3171a5099408d",
         "translation_metadata_sha256": "7562c16498ddb2f6a288a33e79f4b1136f445117e94ed28a278b2ffdb10d5e82"
       },
@@ -10008,7 +10008,7 @@
       "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
       "sequence": 9,
       "title": "The Just Shall Live by Faith",
-      "translation_key": "35463764add740f37f69ed3de9b47a82375a49f85407530ac2d5a029cdf3a1ee"
+      "translation_key": "0b579c46c05c59a89d624ce1cf4a8b0443d7f101de16a93572716bbf7a491098"
     },
     "9d74fac4-80c5-4fc0-a243-3309d3ed4863": {
       "fingerprints": {
@@ -10180,17 +10180,17 @@
     },
     "a2df2f39-2114-4cb7-862d-b7a6319fda62": {
       "fingerprints": {
-        "html_sha256": "8b23eb04d5a623566573f10311e0bdf9c4ad55e4bad332e7d736fda42f10b762",
-        "metadata_sha256": "6f0881191c3b1b336465b0721a9d0f1f1a8c52157868e956a190b9ac60a175a8",
-        "structure_sha256": "a0bfe7ffc86f923ba2561aa08679febae164d175d83dbde0c6209b94d5a6a4c0",
-        "text_sha256": "aef4f9bb5268e1f7cce518352f7984094ab387cd288b59618eea74a14365a8ab",
+        "html_sha256": "4dbfdd5fa40e72dbbf92283bf60a42b61141a8fd43908b5e285e3458f0c1a3b5",
+        "metadata_sha256": "cdb8cc82ee49f383c0804c666b8454711f1d0af13362854ee181ce5417f5efcb",
+        "structure_sha256": "31bd0b0329be1a300f2972fc25e13751d19a017906ceff4748ecaeebf3c03d2e",
+        "text_sha256": "38e9089fb6330153e8401187bc2931a480ffbe810db11998c7b415cbdc77bf27",
         "translation_metadata_sha256": "7e8951c8eef6b52164402c7b1479c775cf2423cab53a6442703f2d5d6a522104"
       },
       "id": "a2df2f39-2114-4cb7-862d-b7a6319fda62",
       "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
       "sequence": 7,
       "title": "The Holy Kiss",
-      "translation_key": "4ad3b1034ba6f9827575581e99f38d34536f1dd220508e7ac774312d396eae7c"
+      "translation_key": "bf3cf2efa85b8d13eb5c1476dc4759ac5c7b1610f4ec3320db856d0b74051272"
     },
     "a32a9763-ddd5-4613-bf57-e9bbbbbb8310": {
       "fingerprints": {
@@ -10404,9 +10404,9 @@
     },
     "a61b77e0-a9b3-49f7-ae47-8a5253457c01": {
       "fingerprints": {
-        "html_sha256": "adfa2697c0a94fe3891ae159cfef5364cd00f3c201d69cb128d429bcb90b5e2c",
+        "html_sha256": "a96681a12586cb8a1dddecebc81337517824550b8ebb003864fae85183ecbb3f",
         "metadata_sha256": "50442c395bc49d400e2ebc8b1aa412c2deb9ebe7c068790343da6944792a629a",
-        "structure_sha256": "f1bacbe7e8c222890a43a0708426c76b69f7fae92e4287a48b0c9be66fdfd998",
+        "structure_sha256": "14ac83b3d8d2e5a5b9c82b01243dadc57d4b62cad39f217315315a1cc6561c3f",
         "text_sha256": "9d181325545b654962a57c9ca96f9a26d1e23c0f6c123ee3ddfedd2ee9b91647",
         "translation_metadata_sha256": "4922f7503771f0ac91a563864a1a822427ef61cfc04cf9d9c3f75994885bb09a"
       },
@@ -10414,7 +10414,7 @@
       "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
       "sequence": 4,
       "title": "A Twelve-Year-Old Missionary",
-      "translation_key": "29c3dbe2ea387a143f1354b017189a44d20a39422f58c4ed1aa497d2bcb01dcf"
+      "translation_key": "60d85ba58abcf3515a6ef0aa2374a59bdb7d0503700e109202c42df120b67ef1"
     },
     "a666b8a8-f3c7-4478-b53d-bb0abe446f42": {
       "fingerprints": {
@@ -10601,7 +10601,7 @@
     "a82b1595-10bf-42b6-a089-5d775d5aab96": {
       "fingerprints": {
         "html_sha256": "09321761466799470737ba55992fa0ab5130d78066c30d6d9105826408063554",
-        "metadata_sha256": "a93e4b3955d48049cc72257c68317bc1cc0338158d9c37dcf4e5800554dd7f0f",
+        "metadata_sha256": "239b13e33e079a07ebf4e5a7299e978322207a427a3e1b6412e709eacf183d05",
         "structure_sha256": "2d3ecd5b2490d17d486129ea02ae0ec779db18b40b5e42349b22638d89f25672",
         "text_sha256": "93e537311825bbf3ff881af73129ea24da104e57b13b8cadef6338bed9d3e693",
         "translation_metadata_sha256": "03d9fae2c33c614123372596a65833d36b83367c3888a6ba84691200285525ec"
@@ -10895,7 +10895,7 @@
     "acb1ebb1-da00-427d-abb9-2cc88b0379ae": {
       "fingerprints": {
         "html_sha256": "55b00996723ef109a680acc331c4052ca3247d05db8693aaf0cade084d2d3d48",
-        "metadata_sha256": "8ac0a5ba85b4be66baed605b22395cfda46fa2c1f5965671c8150701aea3b873",
+        "metadata_sha256": "4fa10c22a62adf6819f559111ffa0bc9986d9eadd8372f118e31a4cb2cb12c71",
         "structure_sha256": "587df81176a0da1ee9d0cf9507d0f7c407153c6f78be0db16424b7c4b89238fe",
         "text_sha256": "e4b96255319ed6a86cf81e7b24925a717a86227e8e92b554bff15e8cfb020278",
         "translation_metadata_sha256": "08f94276d7d1a5ee1312ffaf885c94e765de10232a4388459c55839d56f4f8d4"
@@ -11090,9 +11090,9 @@
     },
     "afe5122b-824d-4658-af86-1ececd3d3ade": {
       "fingerprints": {
-        "html_sha256": "65668c11435ec546d240981758625cb2d9bfdf11990e775813b17f04f8a8988d",
-        "metadata_sha256": "febd1bf0b6dbd4c5cc2ee53ce1d99cbf19ea2e3ac466854ccda97323f22df637",
-        "structure_sha256": "7b22a8a5ffdde0ba6d98a28680712703a33e3e8c4ad75304f2b7a35999f9d18b",
+        "html_sha256": "ba986d2c53f9987158add61fc60c5d988c223c43f32e3ecb6c7e2db3db231c44",
+        "metadata_sha256": "87d7f9032b97e9f18fd54357fdbffc46f1a7a588df27c3235fe0e92b154e4f92",
+        "structure_sha256": "a504e5c21226ede190fdbb870429b20f5f803de37183cd61de36baec361dce22",
         "text_sha256": "ca8e57d9e8f257a72bf5836801fd73baa2829c8c957f69e902f42bef7f2967bf",
         "translation_metadata_sha256": "ea9d3aa19f844159cf19b80989f20b41cef7e3b4b54af3c547c53fca0c47d1d9"
       },
@@ -11100,7 +11100,7 @@
       "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
       "sequence": 2,
       "title": "Are You Born Again?",
-      "translation_key": "b76d0ef1d6a920f7414a886b26d1a8b60ff644ae5043c6d0165573f9b8c51c80"
+      "translation_key": "464fafad0954d4d4a7fb838bb980a2d9ce7d0f74af36a1504cee4f456be03428"
     },
     "aff9e9dc-78b1-417c-9dca-b486a7470c1e": {
       "fingerprints": {
@@ -11160,17 +11160,17 @@
     },
     "b08acac9-e6df-41ae-a564-afd9d9e9592a": {
       "fingerprints": {
-        "html_sha256": "335ed8c637e4ce6930491beae3141cb1c1287c22573a7e0d0adbcc5d400748f8",
-        "metadata_sha256": "0d86132ed94159dcf085e03cc63c99181eee83a67111383a9ae9c7912432013e",
-        "structure_sha256": "76c50ae7909f86b78553e1bf8189869f890125a9c786c361887cc8666a9087cf",
+        "html_sha256": "84b6917656618c33f1c1197fd85e0c701fa73159493625924f74de4dcdd1b5fd",
+        "metadata_sha256": "842c6e91396b3b3011b134cf3c56c6335796be75a943f6fe46dff90ccdfc735a",
+        "structure_sha256": "6b984dca0501867762cd00a08240fa5a9687b0dedd359b3c552dbc311560bb44",
         "text_sha256": "9ab98c142d482da5bcc10b0ab87af81b03dc3f0f568f99482242a14fc416d5ec",
-        "translation_metadata_sha256": "72398acf7fc1ebb62fca9b55df1800258aa3d939c993acdfecdced7c9fd9101a"
+        "translation_metadata_sha256": "0a906416286451430864a6f469fee2405b085860825191477c2d3bd33fce4c8b"
       },
       "id": "b08acac9-e6df-41ae-a564-afd9d9e9592a",
       "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
       "sequence": 6,
       "title": "ALL THE WAY",
-      "translation_key": "feea46fb65ca229db387c1429202cd08095e8d376c058d2304fb09f227b21e7a"
+      "translation_key": "1857e86366cdce892f4863d5fb9f3b1f469d3457f00c01b3647a31ebd6163cc5"
     },
     "b0a422aa-0bcd-4fa5-9c6f-bc9ae5c12817": {
       "fingerprints": {
@@ -11244,9 +11244,9 @@
     },
     "b1727d59-5391-4f21-a609-616a56217d35": {
       "fingerprints": {
-        "html_sha256": "0c38c5a83869d1f5683640bb53cedc4fe8cf7ecb4e139a3ab34ac1410dc2f52f",
-        "metadata_sha256": "5d774b398382c6d84034652e95c886fd9cbf9a013271ef81e5cecc7537146730",
-        "structure_sha256": "9859bfd70ffa9fdb21e82401637984dbbbc9ca3d32abecc99162f264926f5b14",
+        "html_sha256": "034f39b9927c9928a11b013f00f045877d1024a039109c4799c637a8d2504f92",
+        "metadata_sha256": "b800b7a75e5b05b6fe5b6984479f19ea56ebb5366c13e539127a7ba69f0eb8b2",
+        "structure_sha256": "2d288e8e4a334d7e498d2bfcfc189d9d0760ada2daf279cc773d45b0f6661090",
         "text_sha256": "121617da8fef0de12e8c079ad18196a1e51f544f61850379440a042457db5dc8",
         "translation_metadata_sha256": "40670a7d943f295fc27365d21fdaf0cc0e9c358bd6fe751f080fe6d33f10f1bb"
       },
@@ -11254,7 +11254,7 @@
       "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
       "sequence": 1,
       "title": "Becoming A Channel of God’s Power",
-      "translation_key": "e5de1925cd2180dd761f5235610299692cf214a26450bccd96fde1341f56761e"
+      "translation_key": "6557fb674251014779670c17d5a2ecf79964e6d9a5e5d8d038a45b7e2e945d7f"
     },
     "b218023e-6d90-4351-9304-fb6c33659b82": {
       "fingerprints": {
@@ -11426,9 +11426,9 @@
     },
     "b563e897-4a90-4a37-a974-ec2967207a48": {
       "fingerprints": {
-        "html_sha256": "794bdaba87f8d290f004e215d5fd9029709bbe3bcd41b3a6f926310d697f53f7",
+        "html_sha256": "195cf5dccb10334170e6d3e7e2fd20c99cc1d4c198387ad8922ae17f986e9f7d",
         "metadata_sha256": "85e68b26eabc605e292cbf5a1f641cf2263aea2ad2deea68373a6ca337529de3",
-        "structure_sha256": "45d573498f1b1613b07260ae01c5e3d9025d543e78509c0066089afb88b7a387",
+        "structure_sha256": "c581a5cf004f68395766559305f54b9f723b288eb54b6a37111dce14a7d2b494",
         "text_sha256": "ee6a9e2217fba2c87e937d6b436fa86f64e0f9f9258faaff5bc3c7709787610e",
         "translation_metadata_sha256": "1d9107b578e34ac383079bdf23fdabf5a87598a28ec8d17d556fd7e057da8bbe"
       },
@@ -11436,7 +11436,7 @@
       "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
       "sequence": 11,
       "title": "Precious Letters from Our Readers",
-      "translation_key": "f82bdfec85e935eeb0c74588b77652dcc967c5af0ee06b00a11b5b930181e56e"
+      "translation_key": "1d4247c27365d9188e4e9ef69a69db78677179ff6482597cb4cad18b4ca6a875"
     },
     "b5b39e7f-dd95-4bc5-9432-0448112ab399": {
       "fingerprints": {
@@ -11510,9 +11510,9 @@
     },
     "b6fdc879-59b0-4443-9e57-5d21026bfa8e": {
       "fingerprints": {
-        "html_sha256": "6c032a16c75941f75e23a28255087bd044b94107ede844703d0b3d102758c3da",
+        "html_sha256": "709968a89f7bff924d81fe2bef46bdb15ccafa4e946643c58768f550d8a8ab2c",
         "metadata_sha256": "4a338ef5d4a17fab1367f4683d33064a406dad31eb6baefd22fb1e8211512429",
-        "structure_sha256": "16c36c54007c7fa84896ac15b6ab216238044638a1d21c00bc0cd21c2d4ea684",
+        "structure_sha256": "ffcf0f2db1a49fa57d1e85f0315bbcc73d6fd2f10cf744bc7b2b17b07a01a4ae",
         "text_sha256": "a24fafa59a5d72b8a044337f1a4b525135024306a64f646c978fe5668fdfe4e4",
         "translation_metadata_sha256": "3ac8e86a05d512a689e363cdecf46924469b183e0216f2a55cab646dce184439"
       },
@@ -11520,7 +11520,7 @@
       "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
       "sequence": 5,
       "title": "The Beauty of Holiness",
-      "translation_key": "78d6b97f1af4e0d41431665ef4ca3bdfe8de9791eca2fa24ab5b90f6d36af8e7"
+      "translation_key": "80048c7061ff286302d94a845c497f5df4f812ed1a62af41283eae3b29690200"
     },
     "b719fea9-7d48-4b08-ae08-025146d69f31": {
       "fingerprints": {
@@ -11791,7 +11791,7 @@
     "ba204973-5346-48b3-9a8b-a4ce5646514b": {
       "fingerprints": {
         "html_sha256": "18ac5e23482151b1371899f5e4ddf15fcc3427103723692423a50eab3902e3fe",
-        "metadata_sha256": "7df8c14a49ca713d417048f7062837e9e6dba95c7fbb218e282e1c131d880c5c",
+        "metadata_sha256": "63f308c000b1bdfdec30a3c3a1285cae10fe1059261167c954a6275718ad5a0d",
         "structure_sha256": "19d28d2ed3b543cf6899dd098025debbf890158cfe60cc55cd729e5a8cf03777",
         "text_sha256": "cd88da62efc1ca4ca8778bc617f7a5065877a6897d057569b91a9e696029b9e5",
         "translation_metadata_sha256": "7339efd96e43cf6d070d07981b60be861c769e3b509a26e46d270369dc83c5f0"
@@ -12182,9 +12182,9 @@
     },
     "bf3fe140-80b2-4120-841d-f5e87a2f4a04": {
       "fingerprints": {
-        "html_sha256": "487a9d92c9ccafba48b9cc2e490297b8cb1cad4a904a20feded22e004ac3a83b",
-        "metadata_sha256": "a834cc97eb800f84b9f34ac8b7b9240e21cfa44ae769d20019ce4e62c5b78d96",
-        "structure_sha256": "a5f0302b83906c238913e5a5e84f370840e6129c84ddb209da0414b01403a326",
+        "html_sha256": "9ee6fcf2ca3d6c00c35476617246d5e26452f044aa52b56f832632a8786e6801",
+        "metadata_sha256": "8623224d2a70c53f7ff97b773c1771cf2183558e6f8ae20d196bae08d988c78e",
+        "structure_sha256": "d1239016c77d200cbbef42920b627f8e217a76de25c0ec9eaff3a3c9f0c26fcb",
         "text_sha256": "125b583b7b4bfd7121b3fc1540363dbc22843f31b02e1628e19e9cea2b026cd5",
         "translation_metadata_sha256": "fdebeb77e408462275e9e774e78fcc78aa01d282edc5e4f678d4c9811e9f1fc0"
       },
@@ -12192,7 +12192,7 @@
       "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
       "sequence": 8,
       "title": "The Blood of Sprinkling",
-      "translation_key": "abc6cde27c2896bb1c255986e5c41b252711deab8afc2f5300c4904adb0033c4"
+      "translation_key": "e24c7a7adf3fc11b601ba9c5be5ec889ce1491683494131ef932a80203486535"
     },
     "bf5fdc53-7b51-42f6-a7a7-a033b624a847": {
       "fingerprints": {
@@ -12505,7 +12505,7 @@
     "c4ae6b45-cce9-4e55-a58c-ef5c5a5cdadf": {
       "fingerprints": {
         "html_sha256": "df36f7b3969450e20e06ba669206e89d0bae6985f7fe1da0133876a962ac83fa",
-        "metadata_sha256": "f0be3443a8003ce3c724dca5e50272315791471eb1b4f3092747b3149fa5716d",
+        "metadata_sha256": "37ded44eee3e79ac668096482ef4dc579f7726e0bb2abb78e46e7d93753a43c9",
         "structure_sha256": "25a228ba69a8d9437db5ebefab6700b5d83e29f45a7f8ff3e4c9ae6bad8a98a2",
         "text_sha256": "fa6467d76868e0bada79cd036a731384745a26057b59ce3856ba52ae1ab5bf6f",
         "translation_metadata_sha256": "bb3a0f17530a2ab025ab24ff2d6a576354061b4c146c1dda97e5ed43d305aae8"
@@ -12574,9 +12574,9 @@
     },
     "c5e1985d-acff-47f5-b58e-1af70746427c": {
       "fingerprints": {
-        "html_sha256": "a996be8094b7ba2c60eac767401ad56f5329d022fef9280fbea257602ae65a25",
-        "metadata_sha256": "45a1036478caa1f41fab2b7de98b54461b03d51f83fd23e11cf90f1910da9edf",
-        "structure_sha256": "703330728d84e51761ac2b49d6560abc623ebb786441f8c3d6ae10e1bbe78c76",
+        "html_sha256": "75d4b2c4db2242040cd4c0e9da581ed2623ee5050c16da3ff70aba47e61bb45b",
+        "metadata_sha256": "8a44f8a336fded462b36d6caefcfa0af6307984905951125c510a83f7698c46d",
+        "structure_sha256": "82d334d460cec581bcf2c40f9488bcc26a9e7eee00470cd846d9a89298b0a314",
         "text_sha256": "1550bdbe0832e4c4c3f3c06ba4ebfc604dfd3517dc91abf54f582ea3a2609106",
         "translation_metadata_sha256": "a7beda3bb559e4a9eb0ca8007f2863d6282a6f8bce04b660f45457f5c73716ab"
       },
@@ -12584,7 +12584,7 @@
       "issue_id": "334634f2-e3de-4f67-a9b9-57217f161635",
       "sequence": 12,
       "title": "God is So Faithful!",
-      "translation_key": "293c93356ce9623b93410aa11272a455e6e2560c6776a0bc9082813cfa807203"
+      "translation_key": "ae77d6f4808ebfb767865937c57472a22995ef6fb200b485eb874e698fb3dcf1"
     },
     "c5edcd10-9eaa-473d-9a0d-45f0dce68aa2": {
       "fingerprints": {
@@ -12645,7 +12645,7 @@
     "c6c68704-caf7-4009-a3ca-fb962b8b2b2d": {
       "fingerprints": {
         "html_sha256": "087815dcf49f99aab4e9a9ca208f47cb59c354a2a922903d0ba167bd3982f76b",
-        "metadata_sha256": "c0fe7fb5f602b150b3c457c46cfa5e5a6134c7ba67f960494ac183cbfceb3ad2",
+        "metadata_sha256": "f9ee9ae7d4eefbdd594dfbe368309a4068fc309e395d12e5e62f68482f32f941",
         "structure_sha256": "a2f1496670d0cb27fa4a3cd62aad647afa3833fd389866ae36b7630f41d2d4a3",
         "text_sha256": "ab48b829345a237d0e23c4dbcc145843ff60cfa3d84371d3407fb6313f78a524",
         "translation_metadata_sha256": "176697ae6c821676083ab3f3c789d8c38dbc9d85e67214fbb09275e98bdfeffb"
@@ -12813,7 +12813,7 @@
     "c8b6a38f-9c78-49c9-b79e-b9ab0a61f48b": {
       "fingerprints": {
         "html_sha256": "84b7f878e8c19f134ee43172a2677d8070a734db8de9bfe1760f00dcae8870a8",
-        "metadata_sha256": "c423b7d353d6f1a82e39cc1a2bc0e492189d52ba902f34020d7f3309ab8460c0",
+        "metadata_sha256": "5068840d744b7f010359a28467f021d08becd905116da36c4804c731d2f016e0",
         "structure_sha256": "8df857e45c68f3aba0560b84506c2c91f84122fa5f4a9ed5d21d2436bade0b37",
         "text_sha256": "da45a2b6cdb36458846a22bdcf4233ad041a783cf189fd71894cbbce393ee46d",
         "translation_metadata_sha256": "49dfae428f65d59dd7636c1c4c8b9ba9efc240d4ccf285711f27010715bd387b"
@@ -12910,9 +12910,9 @@
     },
     "ca57e4d5-8b04-4b42-b0d8-2e384e3be5b3": {
       "fingerprints": {
-        "html_sha256": "de0f2325c254f96c8a46675cea306d33f5aa9410f1a5819fa769bcb195442786",
-        "metadata_sha256": "fe076df4b19c5fcb2c83c6f2ced4f24b87ca807237a4bfd91cac88c7b0b21b0b",
-        "structure_sha256": "106a57137808e7af961ee0e978ae4fbe52f8f119d6b8c06fdb0316a23e58d1ab",
+        "html_sha256": "fadbf874b3f0a54a992e07cacf256578cef1571895065a081c91e1ba63505455",
+        "metadata_sha256": "d21122ca432b1b5410bf0e5162c2226a06f7e1817e32e21833560c602b3e5b9d",
+        "structure_sha256": "aafe990546007ed5df8a36ec367a90e99b307174cc4012fc0dbe812664157522",
         "text_sha256": "372ea5bc7aea02abd1529fa00145af333ec378d759c37f5584c0ced9b8a04ef1",
         "translation_metadata_sha256": "734d4f195f611d9a3ef5e4afe36acc0fb12f4201c3aae6e9c3f303b610452244"
       },
@@ -12920,7 +12920,7 @@
       "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
       "sequence": 3,
       "title": "Instructions for a Godly Woman",
-      "translation_key": "e09c498ebb90ab337b2249ba15d75d9601bc5f105bb7420b198375717ade2dcd"
+      "translation_key": "9d3bd09429fe199d5e480bdd27bc92c3f4f26fe96bcbf6b9438b17947b5d49ce"
     },
     "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873": {
       "fingerprints": {
@@ -12995,7 +12995,7 @@
     "cbfbc379-cb4c-49a9-8119-2119ce52b24f": {
       "fingerprints": {
         "html_sha256": "199adf86f059c653e42caf933df27f158264dc929b5278159736bf9575fb0727",
-        "metadata_sha256": "2327ab610b75960813e7287ec83f6b29d311f8f48cd3b931c0c934e9345a1902",
+        "metadata_sha256": "8871ea285870779dc3d73295438f79b793106781aad48fda73bdadb59d0f07f9",
         "structure_sha256": "7ebc356b851bdc95d9bcd193f6538baadc37b91eea4dc0ecd6ddc6b408dcfce9",
         "text_sha256": "26feeb04be5893a8e7290760b549dba28367b4bc58f3816452bb8047f6417bea",
         "translation_metadata_sha256": "1f7a993ebac4292e6db67ee11ca9299d72d1a55ff7af58f10811e9380bd619a3"
@@ -13149,7 +13149,7 @@
     "cee49a07-3344-4761-ae8b-97faf5789c2b": {
       "fingerprints": {
         "html_sha256": "12fbd24dd96a0e5ef6b6c65bb4b4bc84102bab21edb204b92565961263bbca06",
-        "metadata_sha256": "99ffbca42b77b6d8b47ea23dd32e01b597b118a84ed985b2040b7026cc6dafcc",
+        "metadata_sha256": "80f9b73227dc6eb9c508504b1b9c232c25316099f0959bcee3be42f3d87fdb9c",
         "structure_sha256": "faffcfc78b79765cabe9a6a9f4a6010f49ade93c98d9d477a2f7fb0a826f6846",
         "text_sha256": "76327240d7b4b4a65bdce6c0ba58412878337faa08e560eed86c85c86ae546fb",
         "translation_metadata_sha256": "d82909eed208cf43c9e974b043926302bd3f9761c8fac5d3f60933e204632263"
@@ -13345,7 +13345,7 @@
     "d1c8d979-0219-4f2c-ae8b-5f1a584c118c": {
       "fingerprints": {
         "html_sha256": "c0eabdd802462334598e6478752d4311eaf509d12124ca732503295338c4ba5f",
-        "metadata_sha256": "a4d82f64d159ef2ca9330b0a405392b0adbbda2739682bd79b722bbff7f77a19",
+        "metadata_sha256": "52ceafa6c20c9f3de53bb9dfdaed3fcf3968a959566af6b5fbcc9e726691c1dc",
         "structure_sha256": "8a9206b72807d2992156990408941e900d3440331dbec9b4aab76dccba4c7b17",
         "text_sha256": "8e69725f62d535d54effdc08ebb78a524b1a64b27e00f30cb3a34535f6095213",
         "translation_metadata_sha256": "7510333d94c3ef19bd3d31ad36370d568190248c7c0c8ab0b40df3aee331a844"
@@ -13541,7 +13541,7 @@
     "d58332a1-9877-4cc3-9498-6a712269a248": {
       "fingerprints": {
         "html_sha256": "839ac672073f1bf7afe33e16c9d5f6892f29f39c54c94edc4cff553c682a0adc",
-        "metadata_sha256": "b50c080fe7d8b5ca1eb8d76342c17030d7f0fbbef6e55dfdece00ece3215272e",
+        "metadata_sha256": "60064f0cbdb0196d3206fba987737d55e274b500e6ffcd05b977bd88eb64dba4",
         "structure_sha256": "8cba7dbe882cfdb522c2edb317cfaee4f5540c2f3c2be45ed2509e24a6cd9444",
         "text_sha256": "817664224d5b2db94921768457a2816ba5b771b0b57fb4143bb07e7f1f98ff1e",
         "translation_metadata_sha256": "fc1a4c90b641df1c81dac8f4eca939cdd5450e1a66e26a835647dc46ed687c60"
@@ -13569,7 +13569,7 @@
     "d5a13c94-ffab-46cb-ab03-d078d46b067f": {
       "fingerprints": {
         "html_sha256": "a5e875523aa368b2ad44cbec25d7614e23aa9cdacfba505d1b0565508ecc8ae3",
-        "metadata_sha256": "86d204267935b567b22dbaf6045a6329383cfb641881e1134974e95c99189d34",
+        "metadata_sha256": "0ac991c088a36568f5c290627f2d3cd02af85425502574c6bd052e4e27f723b0",
         "structure_sha256": "d7ede33d161bf107149e84993780f6bb6568c25d5b893e877f19e90ba1aed092",
         "text_sha256": "bda5fce39c3a7cef7d451f59400a502e5c985217c191b3d028874d6e957cf1b8",
         "translation_metadata_sha256": "83a796e110d98857e048cf2f78e25bd907619dc3e80d0b9664dc1a46dc592e6f"
@@ -13709,7 +13709,7 @@
     "d6ce18ae-ec67-4637-9a0c-2221d588d26a": {
       "fingerprints": {
         "html_sha256": "fe45f234be1e1f064c9f4ee6eeac1d2ac139623f59281ab7ef8c80c3e939b6f6",
-        "metadata_sha256": "3851b5cd1fa3964050e044ec1443d78d39b409ed994d9add313ad036d5bf6335",
+        "metadata_sha256": "c5b6d0309f1cbf218ca8321e92dcc9051f8ad33e19a4614bf315ab30495cfe6e",
         "structure_sha256": "a132400041db703062b07b6c0a83108d02c661c4663fb738d1530642bdff251e",
         "text_sha256": "1583c24bfa8fe3579941b3ed988c0cbab92d33a9a2b528654813503b20018336",
         "translation_metadata_sha256": "86ea3641ce1cea3402676206d944619acbcbcac3cdbdd5ab9d61fcf0af929753"
@@ -13807,7 +13807,7 @@
     "d7faf1ae-2a21-4865-8795-083be58892a3": {
       "fingerprints": {
         "html_sha256": "e4c0f5f53599edef269826ba8e447be167442a644c3b9c9b75037049684482f6",
-        "metadata_sha256": "748138f2daa24a8b3641c6990d69359e352802d8de03482c57950cf867ca20a3",
+        "metadata_sha256": "bde9029a7bb8562aab005c71b1ccaf3620f6097969229c28fe90c43355458d25",
         "structure_sha256": "4835a7b15fe43feb6b683e1510b4daf912ed41b70687f732d19a7b85e71b89f6",
         "text_sha256": "8c9226fa8617d0cf305c40a3763f58753da86fd6d03afb1967e4f658204fa37b",
         "translation_metadata_sha256": "2c6b0afb18cbe330a37330060eca01cabcc80a420b01ea88d6e0fea7a56878f8"
@@ -13820,9 +13820,9 @@
     },
     "d84344f8-d9cd-4c1d-8127-9dab43185b06": {
       "fingerprints": {
-        "html_sha256": "73a8de75d4caf582bd35248983d8cc834ac56a524df5b8ee38e3d98f9da3c2fd",
-        "metadata_sha256": "e78b2ef0def13ec7b85641a5cfe29d7b29b23c9969d772672fc1fc9218d299f8",
-        "structure_sha256": "0d5b4c8225dadce9c1b9df9d5e0845756cff3b3ede02011925cc1612e181cc7a",
+        "html_sha256": "911fcf1bc349940888a34e41d4eb998d68a26448ef61cf5fb3dc77af5ee63177",
+        "metadata_sha256": "312f62a51a9fb6bfaf348b53aee918c9eef3b5ad6ca9875d2f05bbd904ff8d93",
+        "structure_sha256": "197b0a30a1030b7797932ea62e1a7c8bd31b714fc5557b0e2b4ea06a5834dbf4",
         "text_sha256": "629a67ecba85e37c13e61dad304132a3fd9b8070a294be1d30eeb2fe8c682ab6",
         "translation_metadata_sha256": "eeed528942267b86b5b137cfb623064bac4e514dc7953e1ca0c14f710e8f0182"
       },
@@ -13830,7 +13830,7 @@
       "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
       "sequence": 5,
       "title": "The Gift of a Praying Mother",
-      "translation_key": "f7b28aa75e0501db51c87d969e6b1ff76ce430a8d43c5f7721d87991a74236cc"
+      "translation_key": "9dca07382e2069004b2885da8481085ad1efdf694f3158663b06fcb2eff8b6d1"
     },
     "d850e482-29b8-4e51-87a3-669504525ad2": {
       "fingerprints": {
@@ -13961,7 +13961,7 @@
     "dc12799c-2bd7-44d1-9d67-fa13b678fedb": {
       "fingerprints": {
         "html_sha256": "deee980bf05510e797057ce19c8e1c9c4a7cddb2c2289d0a1ca59120d3cf1711",
-        "metadata_sha256": "0c32a205e27b7b45825a9dfca2328324f60f0f8a20dfe29fa17c8db3a1e7af09",
+        "metadata_sha256": "6c97f84cb2aa8eda934aa78f35aa45b3fc6db523c986ee9bd1c9fac68ac51494",
         "structure_sha256": "74ca88bd4e64002fc566dbd51664ed4fe0362116022904cc804d4e8e22c0fa09",
         "text_sha256": "ae359197c9bfbe5dd81f0e7dfe8a94428f3e6e8be959f23be80d0a04ea98d8fb",
         "translation_metadata_sha256": "ff5166cb812741e15ad91e9c2e8eb2ee9d1a04341ce335e6637086bf9b843d58"
@@ -13988,9 +13988,9 @@
     },
     "dc778209-927f-4585-954d-9400f1ea40df": {
       "fingerprints": {
-        "html_sha256": "b42532be19a92e141480673ceb319e5d7295d660c219326d4157e45c99d2cb10",
+        "html_sha256": "265484b7d4d90a70c7b0a2f681d5ee92499101864ca90ceb5ffa475524a13b4e",
         "metadata_sha256": "f22ad2e341f31dbcffecb5caae72d93e4c8f426a9bee067f76ada4f285fd1a5a",
-        "structure_sha256": "80c113adbec31959018b3be196a850cf87bbabe17f872dc9964d35a30ed7e3b3",
+        "structure_sha256": "782c6ef370d19735e72c06a95b942d6a00b9a6651480cad75be2836820afbd1e",
         "text_sha256": "47773d4c1836150a943e8e70576b66093498268e1c01df5c3e453ddfab5e5191",
         "translation_metadata_sha256": "f4a76bbfd83f1e40f80c36358a3e600547981bc0861ae2f14ab56024766940a6"
       },
@@ -13998,7 +13998,7 @@
       "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
       "sequence": 2,
       "title": "HOW TO Pray for Your Children",
-      "translation_key": "b3515ae0686a5c165c69e6ab538f45fd6ec72e143aa94fe7960a631f7952c111"
+      "translation_key": "286defdff43f44853f997a745dcd0dafb8aeeb54adaa0d7e667c8308fcf1b0a7"
     },
     "dc9bb2ea-cefd-4340-b274-deddb70afcaf": {
       "fingerprints": {
@@ -14212,9 +14212,9 @@
     },
     "e06e6e3e-425d-4508-8ecb-128350bc2c69": {
       "fingerprints": {
-        "html_sha256": "fadf0bd34568dda99d4067a03e10444709d6f44e83cd04a7d880723f7996c8dc",
-        "metadata_sha256": "ba0ea5cc1e5e3ca3408e8ed92065df836b8502efe605f3b835793dae8c67a60f",
-        "structure_sha256": "94bdfc5f22bd2595cca7ccd16f2bd5b592d6e837a83da26a1f76f57fa7d45907",
+        "html_sha256": "a47f903fc6c9612f996e718f0c2879c764dfa2d7c250e41eccd9d48a4ec77d44",
+        "metadata_sha256": "1dcb4ca503c369cd3e94d9a822cb6faabf2c3a19332a4d60b83450020155d6dc",
+        "structure_sha256": "d9fd33c492e498804d4543653a6889e869175c45e52f9c09c0b968a110447499",
         "text_sha256": "b6727a1f51db23b6ab1a98d686f26afdaabcdd46fa1ac6dc95b4f9fc2d5cc092",
         "translation_metadata_sha256": "9733d1f6c41c50d07edd42063eaedd64994f84e0e8d8fbef70c243f0cc003350"
       },
@@ -14222,7 +14222,7 @@
       "issue_id": "23b80e56-9f67-4023-b0f8-e67794b16724",
       "sequence": 7,
       "title": "The Christian’s PET SIN",
-      "translation_key": "4a0f1a89f595c8b60d7d4a847fe6242292736beba1942db0d3356179685b2699"
+      "translation_key": "44877d2d4e77bb1ab66dec95981a8a8e875127365bac7f584eefa25462bb7507"
     },
     "e082db11-12b2-4198-be95-1fa751c3cbff": {
       "fingerprints": {
@@ -14478,9 +14478,9 @@
     },
     "e4a74ee5-29c5-4a7b-b215-c400bf0f937a": {
       "fingerprints": {
-        "html_sha256": "b0028fb78ffb80e591633dda371437cd272d40e5ff6477e5524017218c40f187",
+        "html_sha256": "95ade378c45c8438489b6f252bdf05c09e6946e50fb45c6fb0189d932904e998",
         "metadata_sha256": "838840761e7be55f2d36c6e5dd27137411d258ce2fa3c36eb5b50d122fa52904",
-        "structure_sha256": "0b6389f91194426d0d1a67909869860b4b66191dbae272ac6f3bcf2841423935",
+        "structure_sha256": "1826ce60183195d304100cfb4c86d8338a2cae708c27d8f5ec2f4fb5d02213de",
         "text_sha256": "b3d3a6477c6c9d866690450c24d4466d8d9af872a24815a10e5b4f2a0af5f290",
         "translation_metadata_sha256": "cc7016b1646726be36c2fffca31236b754c47f8422b8e16d77e76d04de1c1c5f"
       },
@@ -14488,12 +14488,12 @@
       "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
       "sequence": 3,
       "title": "Missions, Money, and Motives",
-      "translation_key": "3d51d13dfb59faf7ad0acb1c0ad91eb28629daa2b9e15c5d65949680599ced2c"
+      "translation_key": "66c0369b74148128c2d4a2169f1f9418911e0fae20cc6ec612943d437049ffdd"
     },
     "e4e6c9b4-b846-48c8-aacf-0e81b7bc4693": {
       "fingerprints": {
         "html_sha256": "4f78c2792d64d344d09220b0e4108549a2ee0ad326eb20f43250b3a69a050f61",
-        "metadata_sha256": "e7e1baf2b2c0bf5b8de1b6b4bf7e7d921c03aab2f8e0cac947d62edf50bd38ca",
+        "metadata_sha256": "255ab1711f4b55c6dd3ad19cc1d27ca20ccf2acdf5efee2f2a83310feeb35a02",
         "structure_sha256": "0ce14c96c33140dab0a26843a1e7e2a447233d20f5eed5798da722321c58adc3",
         "text_sha256": "776eb88193f6bc318e65bc80f221d92cf84b347634d49b36183309734dd4af12",
         "translation_metadata_sha256": "af7ac440c9af9d0e30bb910f36a2003629b243dfe9cb195680862d7fc009ee8c"
@@ -14758,9 +14758,9 @@
     },
     "e942af59-8d9c-4044-a7de-1928ccf8ca87": {
       "fingerprints": {
-        "html_sha256": "b3ec340f90e1ad2adaead3e4bf1917773adfb223076463cb34c1a2d28f39381b",
+        "html_sha256": "dbd7a4828a4bd8dfd22982cfa5c2a4fa56c049e03a1259f8d89bb0fb8cf23209",
         "metadata_sha256": "6858cdae5b4238d0d4b55b8f0031666dca7b073d1739ed254572ec3424599f83",
-        "structure_sha256": "7d41861256d022549aa64b75182f08b48565c3399a4c7bf1c0034df4fcc99339",
+        "structure_sha256": "eba5eec55b7aaa1efe13c4729251b8b3f7add7308adc83e3d0708d35e05b3a6b",
         "text_sha256": "76a794298a888960262b4f7769c133e315a5c9961d0862eab170e8a5ca4f6600",
         "translation_metadata_sha256": "a054f1623bc293f37c336d2844cc74ca138f790bd7f292c3323d5bed6c7eb3c0"
       },
@@ -14768,7 +14768,7 @@
       "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
       "sequence": 6,
       "title": "The Saviour’s Tears Over The Lost",
-      "translation_key": "7a28131239d330219530e7c9ba207cac4f3d527ba1e7aee0a04e0e756905c870"
+      "translation_key": "4941ed0db6d18f09a8879c86615efd9c247784bc1d15884dab2432c765d690dd"
     },
     "e94f1b0c-ab32-4323-8d3b-4bc60ea82ace": {
       "fingerprints": {
@@ -14815,7 +14815,7 @@
     "e9f126ba-9346-4443-b985-c4042ccd5b95": {
       "fingerprints": {
         "html_sha256": "88b31579b0f1656536037bae4b84d7ba3363d3ba751f0427a0753ded4260349e",
-        "metadata_sha256": "f635cc4ce573ed003d805726c4b7f466dca5b553b9bafee7f4edb727c2085a97",
+        "metadata_sha256": "c8468ee7f14fa31ff4e940fca2b536035b590d4cbd059f6cd0892d5ec38ae024",
         "structure_sha256": "6c6b596bbec20e5db7cdd6b6aa926781d5e1819b5610a52209449cca6491ad84",
         "text_sha256": "bda777b2f735e3d6e0e6116013450b90b7a96bb35900da5c3233ec07dc8e8e42",
         "translation_metadata_sha256": "ec38e8b44c981eeb43d6293d6d91993c33d065be3446469284008b4c117be26f"
@@ -14871,7 +14871,7 @@
     "ea488dfe-cd5b-4e2b-b6e2-e18f2bebf4cd": {
       "fingerprints": {
         "html_sha256": "841f9ce03658c8a290e349540f9989129290f4a982ca92d6efe96147f3d22a43",
-        "metadata_sha256": "a7422c04f977745f467cb58b59536bbaa4aee8beaf234ad2a9facd95a4561e7d",
+        "metadata_sha256": "894496ece709863ee4d33a565f20541a806e4898c91bd41831d94137964412a6",
         "structure_sha256": "67ff4bece073b52c37b608c76ae77c72267ef84686ac99b571eee5e969611f07",
         "text_sha256": "b8b5c00cd1c8db919bfa4489aa896cc5ef6c85312b0984e4815a0181f4e2d2e2",
         "translation_metadata_sha256": "3b0c13ae85610bea5dd15816161a463f5bea064e1e2366512cf9c6a8c46dede9"
@@ -14884,9 +14884,9 @@
     },
     "ea67134e-49cc-41db-b48f-3fe777d18bda": {
       "fingerprints": {
-        "html_sha256": "b0a71906882165de322e83b2eb8dd4a84b3a2607a968595aca9e66151f324018",
-        "metadata_sha256": "759e7474e61a8f65896b79cf3b00d3eac9feffdbd64e921fce89dfcb901e0a45",
-        "structure_sha256": "f072829ea7949f2b6efd17d886806b9b51e04fad1dcbd1cf71f23decf065176d",
+        "html_sha256": "5b11479e43a6e0d4d7041227c9f0a644cb94010c7b2c58c2460b154c22cdf61b",
+        "metadata_sha256": "d23fb68fb67508489fef4b46d9ce87aa24fc4c6c3523036dcacd2b703c42d6b8",
+        "structure_sha256": "f135f0c92fbc46a50db15a2d1d6ff9934ef39f48cdd6b8c3cb30ba339c6ad463",
         "text_sha256": "0b9bcb70d0d839dfee5258fe2ea339c57e2f82a9773902716577dedf37d6403a",
         "translation_metadata_sha256": "d467303ed5966138686a20c72cb96429bf0495813989165b2dc9c2fd14c07a15"
       },
@@ -14894,7 +14894,7 @@
       "issue_id": "5506718d-515a-46be-9107-b916f8f90710",
       "sequence": 12,
       "title": "Precious Letters from Our Readers",
-      "translation_key": "412f024a4ad846ac9f01ff4981787048e536994951c1ddaf637d58c82570786f"
+      "translation_key": "f5186079b0ccf0637fb2713172db8797dcad6a870a535becdc6ac900cccd18da"
     },
     "eab36978-f9e2-481d-a3cd-d6721f07a41e": {
       "fingerprints": {
@@ -15067,7 +15067,7 @@
     "eea521e5-0e79-4834-b698-8ecb0ee0c837": {
       "fingerprints": {
         "html_sha256": "09fbbaa4d5a048e2d09dfe2d83318812bdeff7b00a32a9767f0963fcbb429433",
-        "metadata_sha256": "4bf9440197eb704489fae6dd6c030d4e736c6706f17f281db46444cce864914b",
+        "metadata_sha256": "8207355c69e3fe48695d996bb40a9a6e16503883e0913a6b5b16c2eeea0aa630",
         "structure_sha256": "5cf456b18fe326345fbadc6903e348e00738052c2cc934adea607d8fc010c12a",
         "text_sha256": "ddd59441c039c86ad32e72e98ccb3d45d544eb83f775c340e13317b4c455a32e",
         "translation_metadata_sha256": "f37c1e2ba0aa2cfcc93c1a02e8a846c1068091c969ce5c45625235cf0dd15865"
@@ -15361,7 +15361,7 @@
     "f2e1f1ae-5b0a-408d-be10-f8f89ee41bc4": {
       "fingerprints": {
         "html_sha256": "97644e3931159aadd528f1425cc3fbbcf394fa054e49c90265586589647d999c",
-        "metadata_sha256": "ec6c3072ffb715351e8a77e826a5933b6eba82df4f6ffa83d695c0c6e3a4bc05",
+        "metadata_sha256": "7a9947d2b635afec293f31404ed5ed9c68e04e87420450d5c6b27e388f3b78cb",
         "structure_sha256": "695231e0b7ce3e96b42b98635d411b69371c07d7b0b92914949bf6d9403e47cd",
         "text_sha256": "fc96aa74648275e03e2f8f3658b71ccb07ee9e64dcd40d7dbe7f2949e3e085d3",
         "translation_metadata_sha256": "e06472ea6cb55ed90698769df6b7cd6e349f72a7d274654f760197607ab34223"
@@ -15473,7 +15473,7 @@
     "f39448f5-408c-461d-9d1d-3c71d1e99c0b": {
       "fingerprints": {
         "html_sha256": "ffe42bc186fdb000346415fff94246006ec001e48dc84b888d01f9630f05f278",
-        "metadata_sha256": "523427c28ed170b2453bccb4701dbf5f50efb5bf02f00110ad6778079d61e5c1",
+        "metadata_sha256": "cb79873db70c72eea47cc5cfd1c7b2787a0d1666c824efb8de5517700c08a15f",
         "structure_sha256": "44f379d9722c5b47ef66366d61a9e18e36b4b82c439cb32dcac162ddc15975ee",
         "text_sha256": "3d6eaff76433bfdf5937e1bb982a053c0179d967521e5121184b886170f723ab",
         "translation_metadata_sha256": "203351a1a97917352c1f489d8e7507524912d0cc08144a8f10b1a8f041a6da4e"
@@ -15501,7 +15501,7 @@
     "f3bf062f-c795-42d3-a1fe-075cce20ffe9": {
       "fingerprints": {
         "html_sha256": "4443c80178d8fc364f979cd11ea24666fa45b31a84370ca966be60533b3db40d",
-        "metadata_sha256": "bbdc88c4451d346487b76058319b6d6cb9762f5cf992f78b124417b21e1e80da",
+        "metadata_sha256": "0a73137c89bc17239c0b20c171ea75dcec06ae7ffcddf2e9f7d2c0bb5ac2ddf9",
         "structure_sha256": "0b79434767d87d9698d043935e2625734778e6d4e06109271964e1b834ced647",
         "text_sha256": "a2223a1c452203351825b836a2bb1812202f1e9e1fa5d57b3720b24e37062474",
         "translation_metadata_sha256": "295dbd04c0710b99139049c0a92e5a418837ad25e7c9e51a0948d9a0d7de9163"
@@ -15556,17 +15556,17 @@
     },
     "f529cb8e-693b-46b1-a56a-c25d793ef9b6": {
       "fingerprints": {
-        "html_sha256": "b5f3a5c3d44d381d9f60a902a697d3fec3bef6a64ce68a78c014c13696dea439",
+        "html_sha256": "496dfcf20ac1e98406ad14dca074ee0c6d1d11ea0fe1ed9f32aaebe2d192dd46",
         "metadata_sha256": "3c25fe422ebc9a5189924e666336edf3eda3dea21a645028e8f62536bbf5e221",
-        "structure_sha256": "dbfa886b89b438edbf329c2da1aa4d453b30b78d542b884282e4759fbf74c05b",
-        "text_sha256": "6b7eb18521a95560ec9b667e4bc58b5f5f9d8ae51de78209f68e24865f04cfc9",
+        "structure_sha256": "0224e91880fca523c1f5cd75f451610f5b957cc9fa3e03cbecc3b014043c9c2b",
+        "text_sha256": "f305f6163570de7fe50a05cab927de26f4f5ee4e5b85d96bf85c9d60851cd354",
         "translation_metadata_sha256": "2d8d957f10b15a1f25989121e2803d903af63af917c5c9e671a6df2b036eecc3"
       },
       "id": "f529cb8e-693b-46b1-a56a-c25d793ef9b6",
       "issue_id": "e79821c1-b5b2-4e3c-b7e1-2fbddec2a742",
       "sequence": 3,
       "title": "JESUS",
-      "translation_key": "e8bf1e7b6d4a3662c6f66189761e431d0631d83e898afaf9d674262b9187cf65"
+      "translation_key": "5c2dedc1d52b8ef37d1ef6fe4247e695d7600d68ea2beeace0d62167d6e8707d"
     },
     "f53bd262-dbd0-4792-9e75-7f3ccfa520d5": {
       "fingerprints": {
@@ -15920,9 +15920,9 @@
     },
     "fc478caf-f09f-4596-a037-fcad3689be04": {
       "fingerprints": {
-        "html_sha256": "67cfbedad107213dae524b5dfecef1303ea4bb601b32f40dc361ab2f9091264a",
+        "html_sha256": "c65da0c06905878f531b9c4c43655563f2a6f7431c13422c18c17bd09d98da3d",
         "metadata_sha256": "b5ee7a0b5a2352f6c17a44b7cd1627c5fa1aafa486843f65e8f8221ef7879db9",
-        "structure_sha256": "e9c6fbeb7c8a80105876804afc815a2440e57189759ffe74434749e3aeb76160",
+        "structure_sha256": "95f7f0639ed3e26c403c03f893a42b2f2079771b5331e0a50a9ac022ae5b8475",
         "text_sha256": "364a2cfeab10c445ac3b358cc914e52010bd19c7dd58f9325aaa555ac63f5235",
         "translation_metadata_sha256": "e71e5e0fca852968651a6fc244989226a7a26ec7cc840a92de019fe232d09bc0"
       },
@@ -15930,7 +15930,7 @@
       "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
       "sequence": 1,
       "title": "No Compromise",
-      "translation_key": "99a0809af17e48a098a1cbe304148f602cac61c9decb668f4d86383295d2922d"
+      "translation_key": "e88c6a1c3f72c70900eb3452d46babf07bb65e7d6d215fe10def57941f52c8ab"
     },
     "fc4c9504-47f0-4d15-9e2e-848dd10c349e": {
       "fingerprints": {
@@ -16201,7 +16201,7 @@
     "fe6db1b1-c5c4-4a52-bab3-08cef3d04462": {
       "fingerprints": {
         "html_sha256": "b9e4d06ee3ca00869cc4cc86f147a05e78f4a68bb905a535685391dc3ad113b9",
-        "metadata_sha256": "716437dcec13c485d818008adb027f7605ff3eec9ef7796ef7a5910f73e73435",
+        "metadata_sha256": "8bd1514b8bc9d88efa26dbb897fbbf3a182db0cd4ebe73523b5fcea0fa5fa32e",
         "structure_sha256": "34b68b12517760d6badf36a7234227b0d9b7ec5c66eb049d1a075b9d22d53246",
         "text_sha256": "8ef974199b2071c1e034d33983cfcae6644a526318cd4fabfe7ce5054a2ded5d",
         "translation_metadata_sha256": "38249fffe6b1065a347c16eb5ced174287402acd32c99dbdf840a8f22c947cc6"
@@ -16339,7 +16339,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "ebe5c329276355f600e20dbd60498b20d5c0bd01afdcb02f55ac4f085f08968f",
+  "content_sha256": "7647b98a40b962cd5b2370e382ce0835fc5f37259fce3bcaf4d385b8e21dcef2",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17755,5 +17755,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "47fbf61724e9db15266a7f4edf1673f6aa47f52e"
+  "revision": "e369a5ff3b588a942e849ecb739ff6a294ac9c00"
 }
