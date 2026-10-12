@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T00:34:12+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"783fddfc-86ed-44d9-b13e-e4adea31a5d5\\\">\\n  <blockquote>\\n    <p>我们必须把篇幅缩减到朴素的福音书作者所写的内容；甚至从他们那里，也只选取耶稣亲口说过的话，把他们所陷入的含混之处〔歧义〕一一剔除……最终留下的，将是人类所见过最崇高、最仁爱的道德准则。我为自己使用，已经做过这番整理：逐节从印刷本中剪下经文，再把显然属于祂的内容编排在一起；这些内容就像粪堆里的钻石一样，极易辨认。</p>\\n  </blockquote>\\n  <p>托马斯·杰斐逊谈到他那项计划时，曾这样写道：他要清除《圣经》中由四福音书作者亲自造成的误解和错误诠释。等他用剃刀完成工作后（没错，他真的用剃刀把自己想要的段落剪下来，再拼贴在一起！），杰斐逊成功删去了一切关于天使、家谱、预言、神迹、复活和耶稣神性的内容。《杰斐逊圣经》的最后几句话是：“现在，在他被钉十字架的地方，有一个园子；园子里有一座新坟墓，从未葬过人。他们就把耶稣安放在那里。又滚了一块大石头到坟墓门口，便离去了。”</p>\\n  <p>一本没有复活的圣经！托马斯·杰斐逊挑选自己想相信的内容。他想要一本删去所有与耶稣没有直接关系的东西的圣经。</p>\\n  <p>珀西瓦尔·埃弗雷特讲述了事情的真相：</p>\\n  <blockquote>\\n    <p>他发现，自己想加入的俱乐部，其规则并不是他想遵守的规则。因此，他没有换俱乐部，而是改变了规则手册：只把他认为符合自己诠释的章节剪下来，再拼贴在一起。</p>\\n  </blockquote>\\n  <p>你听出来了吗？托马斯·杰斐逊没有创造一本以基督为中心的圣经，而是创造了一本以杰斐逊为中心的圣经！</p>\\n  <p>我们大概没有人真的拿剃刀对付自己的圣经，但我们会不会在心里这么做？我们是努力改变俱乐部的规则（上帝的国），还是寻求换个俱乐部（借着圣灵的大能重生，进入上帝的国）？~</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"杰斐逊圣经\"}",
+    "content_bytes": 2215,
+    "content_evidence_truncated": false,
+    "content_sha256": "c8d68d2e2747e6ec2d847a20b0c5a39e180e00ea08fc1feec3ec54ecd61952da",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1077,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 389,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2176,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2173,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3253
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}
