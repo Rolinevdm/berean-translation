@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "196e772fb0c84838b8b6d8e9237ea322",
   "campaign": "auto-b79d662333c593820086248b34db30312c143e44f8222fd07bfd8318ad625407",
   "created_at": "2026-10-12T06:44:17+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 10710
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 544,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7502,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6399,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8046
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article, paragraph beginning “Jesus sa det godt”",
-      "severity": "major",
-      "source_quote": "“Smite the shepherd, and the sheep of the flock shall be scattered abroad.”",
-      "suggested_fix": "«Slå gjeteren, så skal sauene i flokken bli spredt.»",
-      "translation_quote": "«Jeg vil slå gjeteren, og sauene i flokken skal bli spredt.»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-12T22:53:27+00:00",
   "id": "dfd18f9123d20497ea972e30e2f49336",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "nob",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 97,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.089384,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
   "translation_model_actual": "gpt-6-luna"
