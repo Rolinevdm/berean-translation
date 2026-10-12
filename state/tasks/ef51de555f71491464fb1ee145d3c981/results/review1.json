@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6d8f9116-8b82-4121-871c-f0009ccd8e89",
+    "response_id": "chatcmpl-EY45kkGAnSw8EplWewjyGmD7bxvdU",
+    "usage": {
+      "completion_tokens": 630,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 511,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7562,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6459,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8192
+    }
+  },
+  "received_at": "2026-10-12T07:17:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning “Gesù lo disse bene”",
+        "severity": "major",
+        "source_quote": "“Smite the shepherd, and the sheep of the flock shall be scattered abroad.”",
+        "suggested_fix": "«Percuoti il pastore, e le pecore del gregge saranno disperse».",
+        "translation_quote": "«Percuoterò il pastore, e le pecore del gregge saranno disperse»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
