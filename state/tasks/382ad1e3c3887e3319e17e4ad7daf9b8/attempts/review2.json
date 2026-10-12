@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T07:18:02+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html — পুনর্জাগরণবাদ, হবক্‌কূক ৩:২-এর উদ্ধৃতি\",\"severity\":\"major\",\"source_quote\":\"revive thy work in the midst of the years, in the midst of the years make known\",\"suggested_fix\":\"উদ্ধৃতির সংশ্লিষ্ট অংশটি করুন: “বছরগুলোর মধ্যেই তোমার কাজকে পুনর্জীবিত করো, বছরগুলোর মধ্যেই তা প্রকাশ করো”। বিদ্যমান <p><em> কাঠামো ও শাস্ত্রের উল্লেখ অক্ষুণ্ণ রাখুন।\",\"translation_quote\":\"বছরের মাঝামাঝি সময়ে তোমার কাজকে পুনর্জীবিত করো, বছরের মাঝামাঝি সময়ে তা প্রকাশ করো\"}],\"findings_complete\":true,\"passed\":false,\"score\":96}",
+    "content_bytes": 1021,
+    "content_evidence_truncated": false,
+    "content_sha256": "fcd5ebd83f8d94c1053056713d6579617682c349b2c2d93b639f899083346017",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 334,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 142,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 21725,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 20622,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 22059
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
