@@ -13,9 +13,16 @@
       "event": "not_ready",
       "reason": "Final review failed; a separately funded continuation must pass admission",
       "task": "923e0a010bffd8c3ca1f3fa76235b643"
+    },
+    {
+      "at": "2026-10-12T07:19:05+00:00",
+      "campaign": "auto-ca914afebf5fd716d83c9e5548fda11b51968485008a84cb2014fb62cbdd4d4c",
+      "event": "automatic_requested",
+      "previous_task": "923e0a010bffd8c3ca1f3fa76235b643",
+      "task": "9917a2ccb5659f01d12b78a0706b16bc"
     }
   ],
   "language": "fra",
-  "latest_task": "923e0a010bffd8c3ca1f3fa76235b643",
+  "latest_task": "9917a2ccb5659f01d12b78a0706b16bc",
   "published": null
 }
