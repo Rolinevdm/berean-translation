@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-12T00:46:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Let’s be careful…”\",\"severity\":\"minor\",\"source_quote\":\"“let’s be careful about maintaining them.”\",\"suggested_fix\":\"«και ας φροντίζουμε να τις διατηρούμε με προσοχή.»\",\"translation_quote\":\"«αλλά και να μην τις διατηρούμε απερίσκεπτα.»\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 429,
+    "content_evidence_truncated": false,
+    "content_sha256": "0a86670a0c8978f25296e6a758f51fa1c6cefdc30e0f5154b91500e8fc592704",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 703,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 589,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3819,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2716,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4522
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

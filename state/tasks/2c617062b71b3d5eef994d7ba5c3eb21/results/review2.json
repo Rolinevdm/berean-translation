@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d5075497-0cd3-45e2-82e3-8a807d3bea65",
+    "response_id": "chatcmpl-EXyQYRInY56m9YqKVOJ8yrMTiuzXt",
+    "usage": {
+      "completion_tokens": 703,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 589,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3819,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2716,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4522
+    }
+  },
+  "received_at": "2026-10-12T00:46:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Let’s be careful…”",
+        "severity": "minor",
+        "source_quote": "“let’s be careful about maintaining them.”",
+        "suggested_fix": "«και ας φροντίζουμε να τις διατηρούμε με προσοχή.»",
+        "translation_quote": "«αλλά και να μην τις διατηρούμε απερίσκεπτα.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

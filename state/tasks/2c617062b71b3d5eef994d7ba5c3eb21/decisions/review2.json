@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Let’s be careful…”",
+      "severity": "minor",
+      "source_quote": "“let’s be careful about maintaining them.”",
+      "suggested_fix": "«και ας φροντίζουμε να τις διατηρούμε με προσοχή.»",
+      "translation_quote": "«αλλά και να μην τις διατηρούμε απερίσκεπτα.»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
