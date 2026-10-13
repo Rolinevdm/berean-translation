@@ -1,0 +1,91 @@
+{
+  "findings": [
+    {
+      "location": "html, 누가복음 14:25-33 인용문",
+      "severity": "major",
+      "source_quote": "whether he be able with ten thousand to meet him that cometh against him with twenty thousand?",
+      "suggested_fix": "해당 문장을 “혹은 어떤 임금이 다른 임금과 싸우러 나갈 때, 먼저 앉아서 자기에게 이만 명을 거느리고 오는 임금을 만 명으로 맞설 수 있는지 의논하지 아니하겠느냐.”로 수정한다.",
+      "translation_quote": "만일 만 명으로 와서 그가 이만 명과 당할 수 있는가 앉아 상의하지 아니하겠느냐."
+    },
+    {
+      "location": "html, 예수님의 삶을 설명하는 문단",
+      "severity": "major",
+      "source_quote": "He was, in fact, in control of the whole world",
+      "suggested_fix": "“사실 그는 온 세상을 다스리고 계셨지만”으로 수정하여 실제 통치를 단순한 가능성으로 바꾸지 않는다.",
+      "translation_quote": "사실 그는 온 세상을 다스리실 수 있었지만"
+    },
+    {
+      "location": "html, 신명기 3:3-6 인용문",
+      "severity": "major",
+      "source_quote": "high walls, gates, and bars; beside unwalled towns a great many. And we utterly destroyed them, as we did unto Sihon king of Heshbon",
+      "suggested_fix": "해당 부분을 “높은 성벽과 문과 빗장으로 둘러싸여 있었고, 그 밖에도 성벽 없는 마을이 매우 많았더라. 우리가 헤스본 왕 시혼에게 행한 것처럼 그들을 완전히 멸하였으니”로 수정한다.",
+      "translation_quote": "높은 성벽과 문 및 성문방으로 둘러쌓였고 성 밖에는 성읍들이 매우 많았더라 우리가 그들을 실로 왕 헤스본의 싯온에게 행한 것같이"
+    },
+    {
+      "location": "html, 창세기 3:19 인용문",
+      "severity": "major",
+      "source_quote": "In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return",
+      "suggested_fix": "인용문을 “네가 흙으로 돌아갈 때까지 얼굴에 땀을 흘려야 빵을 먹으리니, 네가 흙에서 취함을 받았기 때문이라. 너는 흙이니 흙으로 돌아가리라 –창세기 3:19.”로 수정한다.",
+      "translation_quote": "네가 수고한 댓가로 식물을 먹을 것이며 네 얼굴의 땀으로 너는 떡을 먹을 것이니 네가 흙으로 돌아갈 때까지니라 그가 거기서 취함을 입었으므로 흙이니 흙으로 돌아가리라"
+    },
+    {
+      "location": "html, 마태복음 16:25 인용문",
+      "severity": "major",
+      "source_quote": "whosoever will lose his life for my sake shall find it",
+      "suggested_fix": "“나를 위하여 자기 목숨을 잃는 자는 그것을 얻으리라”로 수정한다.",
+      "translation_quote": "내 목숨을 위하여 잃는 자는 얻으리라"
+    },
+    {
+      "location": "html, 선교와 제자 양육에 관한 문단",
+      "severity": "major",
+      "source_quote": "teach and disciple the tens of thousands who are seeking",
+      "suggested_fix": "“진리를 찾는 수만 명을 가르치고 제자로 삼을”로 수정하여 구직자가 아니라 영적 탐구자임을 전달한다.",
+      "translation_quote": "수만 명의 구직자들에게 가르치고 제자 삼을"
+    },
+    {
+      "location": "html, 동료가 화자와 다른 기독교인들을 비교하는 문단",
+      "severity": "major",
+      "source_quote": "he soberly admitted that I seemed to be different that most Christians he had known in the past",
+      "suggested_fix": "“어느 날 그는 내가 그가 과거에 알았던 대부분의 기독교인들과 달라 보인다고 진지하게 인정했지만”으로 수정한다.",
+      "translation_quote": "어느 날 그는 진지하게 인정하되 내가 과거에 알고 있던 대부분의 기독교인들과 달라 보였지만"
+    },
+    {
+      "location": "html, 마귀가 삶을 사랑하게 한다는 문단",
+      "severity": "major",
+      "source_quote": "The last thing we want to do is lose our life, even if it is for something eternal.",
+      "suggested_fix": "“영원한 무언가를 위한 것일지라도, 우리는 무엇보다도 자기 목숨을 잃고 싶어 하지 않는다.”로 수정한다.",
+      "translation_quote": "우리가 잃고 싶어 하지 않는 것이 마지막일 것이다, 심지어 그것이 영원한 무언가를 위한 것일지라도."
+    },
+    {
+      "location": "html, 바울의 투옥과 죽음을 설명하는 문단",
+      "severity": "major",
+      "source_quote": "It was the beginning of the end for our dear brother.",
+      "suggested_fix": "“그것은 우리가 사랑하는 형제의 마지막을 향한 시작이었다.”로 수정한다.",
+      "translation_quote": "그것은 우리 사랑하는 형제에게 시작에 불과했다."
+    },
+    {
+      "location": "html, 하나님의 부르심을 버리는 결과에 관한 문단",
+      "severity": "major",
+      "source_quote": "alone, and without God—no spiritual help from above, causing us to fall way short of the mark",
+      "suggested_fix": "해당 부분을 “혼자서, 하나님 없이 그리스도인의 삶을 살려고 애쓰게 된다. 위로부터 오는 영적 도움도 없으므로 목표에 크게 미치지 못하게 된다.”로 수정한다.",
+      "translation_quote": "혼자서, 하나님의 도움 없이 기독교 생활을 하려다 표적에서 크게 빗나가게 된다."
+    },
+    {
+      "location": "html, 마지막 문단",
+      "severity": "major",
+      "source_quote": "the fires of revival will once again burn!",
+      "suggested_fix": "“부흥의 불길이 다시 타오를 것이다!”로 수정한다.",
+      "translation_quote": "회개의 불길이 다시 타오를 것이다!"
+    },
+    {
+      "location": "html, 마지막 문단",
+      "severity": "minor",
+      "source_quote": "we will be labeled fools and many other things",
+      "suggested_fix": "“우리는 어리석은 자라 불리고 다른 많은 꼬리표가 붙게 될 것이다.”로 수정한다.",
+      "translation_quote": "우리는 어리석은 자라 불리고 다른 많은 꼬리표를 붙을 것이다."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
