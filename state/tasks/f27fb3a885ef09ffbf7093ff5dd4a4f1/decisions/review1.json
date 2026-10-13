@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Έχουμε κουραστεί…»",
+      "severity": "major",
+      "source_quote": "“tired of seminaries and Bible Schools that pump out thinkers who have no action”",
+      "suggested_fix": "Replace «σεμινάρια» with «θεολογικές σχολές» so the phrase reads «να έχουμε κουραστεί από θεολογικές σχολές και Βιβλικές Σχολές που βγάζουν στοχαστές χωρίς δράση».",
+      "translation_quote": "«να έχουμε κουραστεί από σεμινάρια και Βιβλικές Σχολές που βγάζουν στοχαστές χωρίς δράση»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
