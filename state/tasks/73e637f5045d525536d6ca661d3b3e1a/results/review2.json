@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e027bafd-625f-4b7c-b82a-b0c165e9c59b",
+    "response_id": "chatcmpl-EYULHCb7VftlZ5lm0NURXoqi7Q1KO",
+    "usage": {
+      "completion_tokens": 992,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14986,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14983,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15978
+    }
+  },
+  "received_at": "2026-10-13T10:50:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning « Le Christ n’a pas parlé de cette vertu… »",
+        "severity": "minor",
+        "source_quote": "in one epilogue frequently",
+        "suggested_fix": "« dans un épilogue fréquent »",
+        "translation_quote": "dans une épilogue fréquente"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning « Le Christ n’a pas parlé de cette vertu… »",
+      "severity": "minor",
+      "source_quote": "in one epilogue frequently",
+      "suggested_fix": "« dans un épilogue fréquent »",
+      "translation_quote": "dans une épilogue fréquente"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
