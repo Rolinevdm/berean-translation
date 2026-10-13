@@ -1274,6 +1274,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.html",
+      "html_sha256": "9b5194666fe3231dd4eb93910f47fcf08d6691c72aeb8996bff26cd3f1c7f4ef",
+      "human_reviewed": false,
+      "id": "51c6b872-b5d3-45c6-a0b1-d1dd48ece711",
+      "images": [
+        {
+          "alt": "Twee hande bo en onder ’n aardbol",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-1.jpg"
+        },
+        {
+          "alt": "Twee mense help ’n ander persoon uit die water opstaan",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.json",
+      "metadata_sha256": "da477714840a457e4f7d0a026e35e936ffba5fa71cf188dc368943cdf7057110",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "d736713df08f5b60d8496307771de20eb1237d0b",
+      "source_translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
+      "status": "ready",
+      "subtitle": "’n Verduideliking van die begrip in die Duitse woord Gelassenheit.",
+      "title": "Gelassenheit—Doelbewuste losmaking",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.html",
       "html_sha256": "3cb9e9d56cfc6fecfdc931e88bb4656d465b3758201b4049f6727ca15d822ca2",
       "human_reviewed": false,
@@ -22165,6 +22197,38 @@
       "subtitle": "PARTIE 2",
       "title": "Cancer",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.html",
+      "html_sha256": "9d14ee8bb31cf9389d4e7c9bd5f9f328d3886dfbbb80b9ca2163dca0afadc23a",
+      "human_reviewed": false,
+      "id": "51c6b872-b5d3-45c6-a0b1-d1dd48ece711",
+      "images": [
+        {
+          "alt": "Deux mains, l’une au-dessus et l’autre au-dessous d’un globe",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-1.jpg"
+        },
+        {
+          "alt": "Deux personnes aidant une autre personne à sortir de l’eau",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.json",
+      "metadata_sha256": "d1ca4364bdc948443b988ef604f9f74610a91f2c01e6b981f41c54db6050b208",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "e369a5ff3b588a942e849ecb739ff6a294ac9c00",
+      "source_translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
+      "status": "ready",
+      "subtitle": "Une explication du concept exprimé par le mot allemand Gelassenheit.",
+      "title": "Gelassenheit — le détachement délibéré",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -67528,6 +67592,38 @@
       "subtitle": "DEL 2",
       "title": "Cancer",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.html",
+      "html_sha256": "dfe522f01c7d0a291e4e302f2eb77fb4154965673d73fb6628e4096d73cd6473",
+      "human_reviewed": false,
+      "id": "51c6b872-b5d3-45c6-a0b1-d1dd48ece711",
+      "images": [
+        {
+          "alt": "Två händer ovanför och nedanför en jordglob",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-1.jpg"
+        },
+        {
+          "alt": "Två personer hjälper en annan person att resa sig ur vattnet",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.json",
+      "metadata_sha256": "a36f91eea501631340342312b702113660d99d995f7b2f6dea7252766134f59d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "5cc108b7f7605f1c415c013d8d7e8ea4b8e869b1",
+      "source_translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
+      "status": "ready",
+      "subtitle": "En förklaring av det tyska ordet Gelassenheit.",
+      "title": "Gelassenheit – målmedveten lösgjordhet",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
