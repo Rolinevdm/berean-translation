@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ea04efa8099a4acdb3ce7fb95e3dfb99",
   "campaign": "auto-76a40a8e678116d19106a50e9bd41567fb12b98145bc1383ab5f30f8a57e6a09",
   "created_at": "2026-10-12T22:54:47+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 3141
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 508,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 411,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3495,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3492,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4003
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "blockquote, ninth paragraph",
+      "severity": "minor",
+      "source_quote": "Don’t give us entertainment—enable us.",
+      "suggested_fix": "Ge oss inte underhållning – gör oss i stånd att handla.",
+      "translation_quote": "Ge oss inte underhållning – gör oss i stånd att tjäna."
+    }
+  ],
+  "finished_at": "2026-10-13T00:40:38+00:00",
   "id": "e31ee735b86d587695dc6c92cc7124bf",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swe",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/2b585f5799c38813b90c16b41843870b77de78691e5c78b99355ba8575eb3398.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086785,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
   "translation_model_actual": "gpt-6-luna"

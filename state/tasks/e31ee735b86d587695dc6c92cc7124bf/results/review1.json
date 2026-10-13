@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "53e8a1a1-c23b-4258-a127-633ba5d37c7d",
+    "response_id": "chatcmpl-EYKpq31Oin47pgmTnqiprtR1oMICB",
+    "usage": {
+      "completion_tokens": 508,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 411,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3495,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3492,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4003
+    }
+  },
+  "received_at": "2026-10-13T00:40:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "blockquote, ninth paragraph",
+        "severity": "minor",
+        "source_quote": "Don’t give us entertainment—enable us.",
+        "suggested_fix": "Ge oss inte underhållning – gör oss i stånd att handla.",
+        "translation_quote": "Ge oss inte underhållning – gör oss i stånd att tjäna."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

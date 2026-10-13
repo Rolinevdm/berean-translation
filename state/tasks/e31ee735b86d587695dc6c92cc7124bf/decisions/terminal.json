@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "blockquote, ninth paragraph",
+      "severity": "minor",
+      "source_quote": "Don’t give us entertainment—enable us.",
+      "suggested_fix": "Ge oss inte underhållning – gör oss i stånd att handla.",
+      "translation_quote": "Ge oss inte underhållning – gör oss i stånd att tjäna."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
