@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cf18dd9242024605ac184928d6ff998c",
   "campaign": "auto-db225ff147bfb495425adbfb4bdcaa279c452df485452cbf261b918ac5cebfb0",
   "created_at": "2026-10-12T17:49:10+00:00",
   "events": [
@@ -28,10 +27,52 @@
         },
         "total_tokens": 3131
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 742,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3420,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2317,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4162
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Absatz 1",
+      "severity": "major",
+      "source_quote": "We put God’s love for all people first.",
+      "suggested_fix": "Gottes Liebe zu allen Menschen steht für uns an erster Stelle.",
+      "translation_quote": "Gottes Liebe gilt zuerst allen Menschen."
+    },
+    {
+      "location": "Absatz 1",
+      "severity": "major",
+      "source_quote": "We don’t put our nation’s economy before God’s economy.",
+      "suggested_fix": "Wir stellen die Wirtschaft unserer Nation nicht über Gottes Ökonomie.",
+      "translation_quote": "Wir stellen die Wirtschaft unserer Nation nicht über Gottes Plan für die Welt."
+    },
+    {
+      "location": "Absatz 6",
+      "severity": "major",
+      "source_quote": "tired of seminaries and Bible Schools that pump out thinkers who have no action",
+      "suggested_fix": "Wir haben genug von theologischen Seminaren und Bibelschulen, die Denker hervorbringen, die nicht handeln",
+      "translation_quote": "wir haben genug von Seminaren und Bibelschulen, die Denker hervorbringen, die nicht handeln"
+    }
+  ],
   "id": "b15391e89882c32dd888e130be0d0f58",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "deu",
@@ -120,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/2b585f5799c38813b90c16b41843870b77de78691e5c78b99355ba8575eb3398.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +181,7 @@
     "total_reserved_usd": 0.086784,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
   "translation_model_actual": "gpt-6-luna"

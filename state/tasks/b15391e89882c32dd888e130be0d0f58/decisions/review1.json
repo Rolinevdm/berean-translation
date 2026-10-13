@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Absatz 1",
+      "severity": "major",
+      "source_quote": "We put God’s love for all people first.",
+      "suggested_fix": "Gottes Liebe zu allen Menschen steht für uns an erster Stelle.",
+      "translation_quote": "Gottes Liebe gilt zuerst allen Menschen."
+    },
+    {
+      "location": "Absatz 1",
+      "severity": "major",
+      "source_quote": "We don’t put our nation’s economy before God’s economy.",
+      "suggested_fix": "Wir stellen die Wirtschaft unserer Nation nicht über Gottes Ökonomie.",
+      "translation_quote": "Wir stellen die Wirtschaft unserer Nation nicht über Gottes Plan für die Welt."
+    },
+    {
+      "location": "Absatz 6",
+      "severity": "major",
+      "source_quote": "tired of seminaries and Bible Schools that pump out thinkers who have no action",
+      "suggested_fix": "Wir haben genug von theologischen Seminaren und Bibelschulen, die Denker hervorbringen, die nicht handeln",
+      "translation_quote": "wir haben genug von Seminaren und Bibelschulen, die Denker hervorbringen, die nicht handeln"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

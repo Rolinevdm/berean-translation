@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9df7925d-64eb-49f2-ac01-7522a0e9b168",
+    "response_id": "chatcmpl-EYKua20atdBdVwR0FCfyfRyZ8GbHt",
+    "usage": {
+      "completion_tokens": 742,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3420,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2317,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4162
+    }
+  },
+  "received_at": "2026-10-13T03:15:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Absatz 1",
+        "severity": "major",
+        "source_quote": "We put God’s love for all people first.",
+        "suggested_fix": "Gottes Liebe zu allen Menschen steht für uns an erster Stelle.",
+        "translation_quote": "Gottes Liebe gilt zuerst allen Menschen."
+      },
+      {
+        "location": "Absatz 1",
+        "severity": "major",
+        "source_quote": "We don’t put our nation’s economy before God’s economy.",
+        "suggested_fix": "Wir stellen die Wirtschaft unserer Nation nicht über Gottes Ökonomie.",
+        "translation_quote": "Wir stellen die Wirtschaft unserer Nation nicht über Gottes Plan für die Welt."
+      },
+      {
+        "location": "Absatz 6",
+        "severity": "major",
+        "source_quote": "tired of seminaries and Bible Schools that pump out thinkers who have no action",
+        "suggested_fix": "Wir haben genug von theologischen Seminaren und Bibelschulen, die Denker hervorbringen, die nicht handeln",
+        "translation_quote": "wir haben genug von Seminaren und Bibelschulen, die Denker hervorbringen, die nicht handeln"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
