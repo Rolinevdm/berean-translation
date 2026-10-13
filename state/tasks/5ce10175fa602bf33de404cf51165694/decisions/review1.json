@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, “The old life consists…” paragraph",
+      "severity": "major",
+      "source_quote": "“The new life is the pure will and obedience of God and hates the soulishness of a person in all its active and affective aspects”",
+      "suggested_fix": "Replace «μισεί τη φιλαυτία του ανθρώπου» with «μισεί την ψυχικότητα του ανθρώπου» (or another rendering that preserves “soulishness”), retaining the rest of the sentence.",
+      "translation_quote": "«Η νέα ζωή είναι το καθαρό θέλημα και η υπακοή στον Θεό και μισεί τη φιλαυτία του ανθρώπου σε όλες τις ενεργητικές και συναισθηματικές της εκφάνσεις»"
+    },
+    {
+      "location": "Article, “Hatred of the soulish life” paragraph",
+      "severity": "minor",
+      "source_quote": "“a supernatural hatred and envy must replace our love for created things”",
+      "suggested_fix": "Render “envy” explicitly, for example: «ένα υπερφυσικό μίσος και μια υπερφυσική ζηλοτυπία πρέπει να αντικαταστήσουν την αγάπη μας για τα δημιουργημένα πράγματα».",
+      "translation_quote": "«μια υπερφυσική απέχθεια και αποστροφή πρέπει να αντικαταστήσουν την αγάπη μας για τα δημιουργημένα πράγματα»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
