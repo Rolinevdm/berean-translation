@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T03:15:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, blockquote, paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"“every last command and desire of Yours”\",\"suggested_fix\":\"Replace “ogni tuo ultimo comando e desiderio” with “ciascuno dei tuoi comandi e desideri” to convey “every last” as each and every, rather than as the final command.\",\"translation_quote\":\"“ogni tuo ultimo comando e desiderio”\"},{\"location\":\"HTML, paragraph beginning “Non siamo stoici”\",\"severity\":\"minor\",\"source_quote\":\"“We are not ‘drop-outs’ because we don’t hold ‘respectable, secure’ jobs—we’re ‘sold-outs.’”\",\"suggested_fix\":\"Replace “disertori” with a rendering of “drop-outs” as people who have dropped out of conventional society or work; “disertori” suggests deserters.\",\"translation_quote\":\"“Non siamo «disertori» perché non svolgiamo lavori «rispettabili e sicuri»: siamo «interamente consacrati».”\"}],\"findings_complete\":true,\"passed\":true,\"score\":96}",
+    "content_bytes": 985,
+    "content_evidence_truncated": false,
+    "content_sha256": "1d0fab93e675a3823b1d9e4896e50680b2c84c8829a7c2f20d8758149afa2f99",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 730,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 487,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3455,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2352,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4185
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1b666a5592334790957d023471f195d6",
   "campaign": "auto-cfa847c5b99dfe252cb4aee3f0a5f5fd8dbebd8a31adbb7725213bccf8dbce7f",
   "created_at": "2026-10-12T22:55:06+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 3101
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 730,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 487,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3455,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2352,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4185
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, blockquote, paragraph 1",
+      "severity": "minor",
+      "source_quote": "“every last command and desire of Yours”",
+      "suggested_fix": "Replace “ogni tuo ultimo comando e desiderio” with “ciascuno dei tuoi comandi e desideri” to convey “every last” as each and every, rather than as the final command.",
+      "translation_quote": "“ogni tuo ultimo comando e desiderio”"
+    },
+    {
+      "location": "HTML, paragraph beginning “Non siamo stoici”",
+      "severity": "minor",
+      "source_quote": "“We are not ‘drop-outs’ because we don’t hold ‘respectable, secure’ jobs—we’re ‘sold-outs.’”",
+      "suggested_fix": "Replace “disertori” with a rendering of “drop-outs” as people who have dropped out of conventional society or work; “disertori” suggests deserters.",
+      "translation_quote": "“Non siamo «disertori» perché non svolgiamo lavori «rispettabili e sicuri»: siamo «interamente consacrati».”"
+    }
+  ],
+  "finished_at": "2026-10-13T03:15:13+00:00",
   "id": "81ab24209abd1b14677c3ae8b4c726f8",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ita",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/2b585f5799c38813b90c16b41843870b77de78691e5c78b99355ba8575eb3398.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.086785,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
   "translation_model_actual": "gpt-6-luna"

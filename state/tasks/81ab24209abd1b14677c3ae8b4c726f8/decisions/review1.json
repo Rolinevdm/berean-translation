@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, blockquote, paragraph 1",
+      "severity": "minor",
+      "source_quote": "“every last command and desire of Yours”",
+      "suggested_fix": "Replace “ogni tuo ultimo comando e desiderio” with “ciascuno dei tuoi comandi e desideri” to convey “every last” as each and every, rather than as the final command.",
+      "translation_quote": "“ogni tuo ultimo comando e desiderio”"
+    },
+    {
+      "location": "HTML, paragraph beginning “Non siamo stoici”",
+      "severity": "minor",
+      "source_quote": "“We are not ‘drop-outs’ because we don’t hold ‘respectable, secure’ jobs—we’re ‘sold-outs.’”",
+      "suggested_fix": "Replace “disertori” with a rendering of “drop-outs” as people who have dropped out of conventional society or work; “disertori” suggests deserters.",
+      "translation_quote": "“Non siamo «disertori» perché non svolgiamo lavori «rispettabili e sicuri»: siamo «interamente consacrati».”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
