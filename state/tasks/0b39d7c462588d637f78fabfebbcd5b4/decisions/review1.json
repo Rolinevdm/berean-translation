@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph under “Søk bare det nødvendige”",
+      "severity": "major",
+      "source_quote": "We must seek God, but we must not seek the created unless it is to serve",
+      "suggested_fix": "We must seek God, but we must not seek created things unless it is to serve (for example, «Vi må søke Gud, men ikke det skapte, med mindre det er for å tjene»).",
+      "translation_quote": "Vi må søke Gud, men vi må ikke søke det skapte med mindre det er for å tjene oss"
+    },
+    {
+      "location": "Paragraph beginning “Enhver som slik gir avkall på alt”",
+      "severity": "major",
+      "source_quote": "No, these “two-timers” have turned Christ’s forgiveness into a lottery.",
+      "suggested_fix": "Replace «tospillerne» with a Norwegian rendering meaning hypocrites or people of two minds, such as «dobbeltmoralske» (for example, «Nei, disse «dobbeltmoralske» har gjort Kristi tilgivelse til et lotteri.»).",
+      "translation_quote": "Nei, disse «tospillerne» har gjort Kristi tilgivelse til et lotteri."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
