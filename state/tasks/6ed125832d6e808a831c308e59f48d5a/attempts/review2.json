@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T00:40:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html: द्वितीय विश्व युद्ध से संबंधित अनुच्छेद का पहला वाक्य\",\"severity\":\"minor\",\"source_quote\":\"the Japanese would try to sneak up to a fox hole housing soldiers and throw in a grenade\",\"suggested_fix\":\"द्वितीय विश्व युद्ध में, जापानी सैनिक चुपके से ऐसी खाई के पास पहुँचकर उसमें ग्रेनेड फेंकने की कोशिश करते थे जिसमें सैनिक मौजूद होते थे।\",\"translation_quote\":\"द्वितीय विश्व युद्ध में, जापानी सैनिकों वाली खाई के पास चुपके से पहुँचकर उसमें ग्रेनेड फेंकने की कोशिश करते थे।\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 1044,
+    "content_evidence_truncated": false,
+    "content_sha256": "fc6259be3c6259f3b6f7861bfb6a3522910f9cd5b4d080dff71f710f78ee58a3",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 224,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 58,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9303,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9300,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9527
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}
