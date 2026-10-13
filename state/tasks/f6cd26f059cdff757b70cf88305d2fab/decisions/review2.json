@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Gelassenheit poem, final line of first stanza",
+      "severity": "minor",
+      "source_quote": "In the Potter’s tender hands.",
+      "suggested_fix": "في يدي الفخّاري الرؤوفتين.",
+      "translation_quote": "بين يدي الفخّاريتين الرؤوفتين."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
