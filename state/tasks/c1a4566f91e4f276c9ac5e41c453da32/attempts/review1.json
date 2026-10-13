@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T03:22:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, cita de Lucas 14:25-33\",\"severity\":\"minor\",\"source_quote\":\"And whosoever doth not <u>bear his cross</u>, and come after me, <strong>cannot be my disciple.</strong> ... <u>counteth the cost</u>\",\"suggested_fix\":\"Restituir el énfasis original: «Y el que no <u>toma su cruz</u>, y viene en pos de mí, <strong>no puede ser mi discípulo.</strong>» y «se sienta primero y <u>calcula los gastos</u>».\",\"translation_quote\":\"Y el que no toma su cruz, y viene en pos de mí, <u>no puede ser mi discípulo.</u> ... calcula los gastos\"},{\"location\":\"translation.html, cita de Santiago 4:14\",\"severity\":\"minor\",\"source_quote\":\"Whereas ye know not what shall be on the morrow.\",\"suggested_fix\":\"Sustituir «El cual no sabéis qué será mañana» por «Sin embargo, no sabéis qué sucederá mañana».\",\"translation_quote\":\"El cual no sabéis qué será mañana.\"},{\"location\":\"translation.html, cita de Hechos 21:10-13\",\"severity\":\"minor\",\"source_quote\":\"both we, and they of that place, besought him not to go up to Jerusalem\",\"suggested_fix\":\"Corregir la concordancia a «tanto nosotros como los de aquel lugar le rogamos que no subiese a Jerusalén».\",\"translation_quote\":\"tanto nosotros como los de aquel lugar, le rogaron que no subiese a Jerusalén\"}],\"findings_complete\":true,\"passed\":true,\"score\":96}",
+    "content_bytes": 1348,
+    "content_evidence_truncated": false,
+    "content_sha256": "7713072df1f9583517e7e2466582e326c8b86801284b1216965ef5cc29a127c8",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 431,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 54,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8420,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7317,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8851
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

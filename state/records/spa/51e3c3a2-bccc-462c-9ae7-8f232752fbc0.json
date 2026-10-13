@@ -32,6 +32,12 @@
       "event": "automatic_requested",
       "previous_task": "320428bb61f26ea9df4269097ce86779",
       "task": "c1a4566f91e4f276c9ac5e41c453da32"
+    },
+    {
+      "at": "2026-10-13T03:22:07+00:00",
+      "event": "not_ready",
+      "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[9]: source /article[1]/p[2]/em[1]/strong[2] ('start', 'strong', ()); translation /article[1]/p[2]/em[1]/u[2] ('start', 'u', ())",
+      "task": "c1a4566f91e4f276c9ac5e41c453da32"
     }
   ],
   "language": "spa",
