@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "98d39fd8680842b1af7da4233366d4de",
   "campaign": "auto-b90bb9e3066dc920ec72e438728a5917656f9703644ac0e41a65b11a1a3402f3",
   "created_at": "2026-10-13T07:42:35+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 4080
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 525,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4343,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3240,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4868
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, quoted introduction, first paragraph",
+      "severity": "minor",
+      "source_quote": "“the neighbor girl along to visit the zoo, a whole week after her dad had shot your pet cat”",
+      "suggested_fix": "बदलें: “आपकी पालतू बिल्ली के बच्चे को” → “आपकी पालतू बिल्ली को”",
+      "translation_quote": "“उसके पिता द्वारा आपके पालतू बिल्ली के बच्चे को उसके मुर्गियों के बाड़े में गोली मारने के पूरे एक सप्ताह बाद”"
+    }
+  ],
+  "finished_at": "2026-10-13T15:55:44+00:00",
   "id": "47dcd1fda142c4f916a787a82a2d4367",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "hin",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f7b7c456635e7241e3c77d95ce89c3958f1e8f80721357b74a88cf872db64bb2.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.087283,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
   "translation_model_actual": "gpt-6-luna"

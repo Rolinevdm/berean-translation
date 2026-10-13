@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "afd84126-7935-4076-8481-a660fe49148f",
+    "response_id": "chatcmpl-EYUOsKjXghBFKLzdHP0HvDehMPpU7",
+    "usage": {
+      "completion_tokens": 525,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4343,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3240,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4868
+    }
+  },
+  "received_at": "2026-10-13T15:55:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, quoted introduction, first paragraph",
+        "severity": "minor",
+        "source_quote": "“the neighbor girl along to visit the zoo, a whole week after her dad had shot your pet cat”",
+        "suggested_fix": "बदलें: “आपकी पालतू बिल्ली के बच्चे को” → “आपकी पालतू बिल्ली को”",
+        "translation_quote": "“उसके पिता द्वारा आपके पालतू बिल्ली के बच्चे को उसके मुर्गियों के बाड़े में गोली मारने के पूरे एक सप्ताह बाद”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

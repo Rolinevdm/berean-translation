@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, quoted introduction, first paragraph",
+      "severity": "minor",
+      "source_quote": "“the neighbor girl along to visit the zoo, a whole week after her dad had shot your pet cat”",
+      "suggested_fix": "बदलें: “आपकी पालतू बिल्ली के बच्चे को” → “आपकी पालतू बिल्ली को”",
+      "translation_quote": "“उसके पिता द्वारा आपके पालतू बिल्ली के बच्चे को उसके मुर्गियों के बाड़े में गोली मारने के पूरे एक सप्ताह बाद”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
