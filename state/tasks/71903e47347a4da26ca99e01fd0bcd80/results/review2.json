@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "754e2094-49f6-49d0-97f4-a6efad259e6b",
+    "response_id": "chatcmpl-EYNSmXVC7qaCgxYSL9AxpuhQvQqQw",
+    "usage": {
+      "completion_tokens": 1044,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 686,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 23812,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 22709,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 24856
+    }
+  },
+  "received_at": "2026-10-13T07:41:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Βιβλικισμός, παράγραφος που αρχίζει «Φαίνεται να υπάρχει ισχυρή βάση»",
+        "severity": "major",
+        "source_quote": "“the Bible is the authoritative source of Christian doctrine”",
+        "suggested_fix": "«η Βίβλος είναι η έγκυρη πηγή της χριστιανικής διδασκαλίας»",
+        "translation_quote": "«η Βίβλος είναι η αυθεντική πηγή της χριστιανικής διδασκαλίας»"
+      },
+      {
+        "location": "Παραδοσιοκρατία, παράγραφος που αρχίζει «Υπάρχει σοβαρή πιθανότητα»",
+        "severity": "major",
+        "source_quote": "“may ... become more authoritative than the Bible”",
+        "suggested_fix": "«να αποκτήσουν δική τους ζωή και ενδεχομένως να γίνουν πιο δεσμευτικές από τη Βίβλο»",
+        "translation_quote": "«να αποκτήσουν δική τους ζωή και ενδεχομένως να γίνουν πιο αυθεντικές από τη Βίβλο»"
+      },
+      {
+        "location": "Συμπέρασμα, παράγραφος που αρχίζει «Υπάρχει επίσης κάποια ενότητα»",
+        "severity": "major",
+        "source_quote": "“the Bible as God’s authoritative word to us”",
+        "suggested_fix": "«τη Βίβλο ως τον έγκυρο λόγο του Θεού προς εμάς»",
+        "translation_quote": "«τη Βίβλο αυθεντικό λόγο του Θεού προς εμάς»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

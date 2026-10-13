@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Βιβλικισμός, παράγραφος που αρχίζει «Φαίνεται να υπάρχει ισχυρή βάση»",
+      "severity": "major",
+      "source_quote": "“the Bible is the authoritative source of Christian doctrine”",
+      "suggested_fix": "«η Βίβλος είναι η έγκυρη πηγή της χριστιανικής διδασκαλίας»",
+      "translation_quote": "«η Βίβλος είναι η αυθεντική πηγή της χριστιανικής διδασκαλίας»"
+    },
+    {
+      "location": "Παραδοσιοκρατία, παράγραφος που αρχίζει «Υπάρχει σοβαρή πιθανότητα»",
+      "severity": "major",
+      "source_quote": "“may ... become more authoritative than the Bible”",
+      "suggested_fix": "«να αποκτήσουν δική τους ζωή και ενδεχομένως να γίνουν πιο δεσμευτικές από τη Βίβλο»",
+      "translation_quote": "«να αποκτήσουν δική τους ζωή και ενδεχομένως να γίνουν πιο αυθεντικές από τη Βίβλο»"
+    },
+    {
+      "location": "Συμπέρασμα, παράγραφος που αρχίζει «Υπάρχει επίσης κάποια ενότητα»",
+      "severity": "major",
+      "source_quote": "“the Bible as God’s authoritative word to us”",
+      "suggested_fix": "«τη Βίβλο ως τον έγκυρο λόγο του Θεού προς εμάς»",
+      "translation_quote": "«τη Βίβλο αυθεντικό λόγο του Θεού προς εμάς»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
