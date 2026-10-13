@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e7b2b25b-350e-4a3c-9196-4698a7dcac23",
+    "response_id": "chatcmpl-EYRVpeiOQTbQ7SPM3Ny87EZ10Glul",
+    "usage": {
+      "completion_tokens": 1107,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 994,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14661,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13558,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15768
+    }
+  },
+  "received_at": "2026-10-13T07:48:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Abschnitt „Denkt an Lots Frau“, Absatz 1",
+        "severity": "major",
+        "source_quote": "destroying everything that was blooming",
+        "suggested_fix": "Ersetze „alles Vernünftigende“ durch „alles Blühende“: „… und alles Blühende zerstörte.“",
+        "translation_quote": "alles Vernünftigende zerstörte"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
