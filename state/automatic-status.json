@@ -5,11 +5,11 @@
     "active": 4,
     "held_without_publication": 1442,
     "published": 2575,
-    "queued": 45,
-    "unstarted": 19274
+    "queued": 46,
+    "unstarted": 19273
   },
-  "generated_at": "2026-10-12T23:02:49+00:00",
-  "pending_requests": 27,
+  "generated_at": "2026-10-13T00:32:49+00:00",
+  "pending_requests": 28,
   "replacement_counts": {
     "active": 0,
     "held": 135,
