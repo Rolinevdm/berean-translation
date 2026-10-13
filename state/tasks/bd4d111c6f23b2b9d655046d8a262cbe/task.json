@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3fee7782e50e40688e6ed1c5e425c9ac",
   "campaign": "auto-1bfd050c2ca8f330b470068c5de33a67fb07301caa78d25ac55d44dae934eb05",
   "created_at": "2026-10-12T23:02:05+00:00",
   "events": [
@@ -48,9 +47,30 @@
         },
         "total_tokens": 17344
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 8839,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 16165,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 16162,
+          "cached_tokens": 0
+        },
+        "total_tokens": 25004
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[224]: source /article[1]/aside[2]/p[9]/em[1] ('start', 'em', ()); translation /article[1]/aside[2]/p[9] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "শেষের aside, শেষ অনুচ্ছেদ",
@@ -60,6 +80,7 @@
       "translation_quote": "“যাতে তারপর তিনি আমাদের জীবন তাঁর জন্য বেছে নেওয়া জিনিস দিয়ে পূর্ণ করতে পারেন!”"
     }
   ],
+  "finished_at": "2026-10-13T07:41:10+00:00",
   "id": "bd4d111c6f23b2b9d655046d8a262cbe",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ben",
@@ -168,7 +189,7 @@
     "total_reserved_usd": 0.130046,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
   "translation_model_actual": "gpt-6-luna"
