@@ -5,10 +5,11 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae1d857e1fc34d5ca207bef03b50b0ed",
   "campaign": "auto-7abc6e6d6e851b4298d23c9ba057bd411ec5062a01e98e821aedffff9e38753c",
   "created_at": "2026-10-13T07:42:30+00:00",
   "events": [],
+  "failure": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+  "failure_kind": "provider_error",
   "findings": [
     {
       "location": "Βιβλικισμός, παράγραφος που αρχίζει «Φαίνεται να υπάρχει ισχυρή βάση»",
@@ -32,6 +33,7 @@
       "translation_quote": "«τη Βίβλο αυθεντικό λόγο του Θεού προς εμάς»"
     }
   ],
+  "finished_at": "2026-10-13T15:55:28+00:00",
   "id": "c40940ccc710d7368a3331278a41d004",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ell",
@@ -120,6 +122,11 @@
     }
   },
   "protected": false,
+  "provider_failure": {
+    "action": "Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+    "code": "provider_error",
+    "http_status": 500
+  },
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 0,
   "review_model": "gpt-6.1-sol",
@@ -136,7 +143,7 @@
     "total_reserved_usd": 1.090274,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
   "translation_model_actual": "gpt-6-luna"
