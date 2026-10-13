@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، السطر الرابع من p.poem",
+      "severity": "minor",
+      "source_quote": "We are in a battle; we must still overcome.",
+      "suggested_fix": "نحن في معركة؛ لا يزال علينا أن ننتصر.",
+      "translation_quote": "نحن في معركة؛ علينا أن ننتصر بعد."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

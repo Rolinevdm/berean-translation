@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "50e40049a1b44cdf9c84f80fb7d6ece7",
   "campaign": "auto-3ad72cc4399e12cb4248be7fb158365ebecc2c1983cb5821e1000235e83a5163",
   "created_at": "2026-10-13T03:16:27+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 174,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 75,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2004,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 901,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2178
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html، السطر الرابع من p.poem",
+      "severity": "minor",
+      "source_quote": "We are in a battle; we must still overcome.",
+      "suggested_fix": "نحن في معركة؛ لا يزال علينا أن ننتصر.",
+      "translation_quote": "نحن في معركة؛ علينا أن ننتصر بعد."
+    }
+  ],
+  "finished_at": "2026-10-13T07:40:47+00:00",
   "id": "32c10fae2b32b38688fa050f7c2fdc20",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ara",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.677569,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T07:40:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html، السطر الرابع من p.poem\",\"severity\":\"minor\",\"source_quote\":\"We are in a battle; we must still overcome.\",\"suggested_fix\":\"نحن في معركة؛ لا يزال علينا أن ننتصر.\",\"translation_quote\":\"نحن في معركة؛ علينا أن ننتصر بعد.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 381,
+    "content_evidence_truncated": false,
+    "content_sha256": "c0143bd098ab1325a21d9f63350f0041a3d2a89ad4aa62bb7b928044cd20c3e6",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 174,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 75,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2004,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 901,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2178
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
