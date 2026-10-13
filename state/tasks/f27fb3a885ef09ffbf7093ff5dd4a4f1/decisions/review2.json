@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Δεν είμαστε στωικοί»",
+      "severity": "major",
+      "source_quote": "We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”",
+      "suggested_fix": "Δεν είμαστε από αυτούς που εγκαταλείπουν τη συμβατική επαγγελματική πορεία επειδή δεν έχουν «αξιοπρεπείς, ασφαλείς» δουλειές—έχουμε «δοθεί ολοκληρωτικά».",
+      "translation_quote": "Δεν είμαστε «παραιτημένοι» επειδή δεν έχουμε «αξιοπρεπείς, ασφαλείς» δουλειές—έχουμε «δοθεί ολοκληρωτικά»."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

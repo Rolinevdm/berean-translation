@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fa4ddb5a-a172-47aa-a760-ef710dc099aa",
+    "response_id": "chatcmpl-EYUMx8yaQEp9u3rUQTTkls3nK7J0F",
+    "usage": {
+      "completion_tokens": 907,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 713,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3903,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2800,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4810
+    }
+  },
+  "received_at": "2026-10-13T10:51:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «Δεν είμαστε στωικοί»",
+        "severity": "major",
+        "source_quote": "We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”",
+        "suggested_fix": "Δεν είμαστε από αυτούς που εγκαταλείπουν τη συμβατική επαγγελματική πορεία επειδή δεν έχουν «αξιοπρεπείς, ασφαλείς» δουλειές—έχουμε «δοθεί ολοκληρωτικά».",
+        "translation_quote": "Δεν είμαστε «παραιτημένοι» επειδή δεν έχουμε «αξιοπρεπείς, ασφαλείς» δουλειές—έχουμε «δοθεί ολοκληρωτικά»."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
