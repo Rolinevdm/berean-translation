@@ -1206,17 +1206,17 @@
     },
     "15f3d4f9-35ec-4cd2-92dc-497a5cee0e66": {
       "fingerprints": {
-        "html_sha256": "029c429f68ad44dea42a01c3b54d08c7c7ff276b987724f2d52d446f2e717d6d",
+        "html_sha256": "eb9aed836279471300b218d8e21589b66553d1d0e5c8140bd563190b5d3168db",
         "metadata_sha256": "bf9d0f291bfc1eb85abd706498539f613cbf5332b22ef2ad88a6dbb230bba404",
-        "structure_sha256": "84f5e18a35ea5483cd9ee8b2d12920822713a9cbdffa5c1c15220781de8272fa",
-        "text_sha256": "a1e1c65d03c60c1370eebd529ad5647369e3d95faf150d84fd2062993aa6aa97",
+        "structure_sha256": "34c284096ba0def75183b57f94d1e4d4a03171bc917d355563322289ba33cdb5",
+        "text_sha256": "32cdd51cece9c1f037dbd5b8052cbd955acf01453b224db206912525288a1d3e",
         "translation_metadata_sha256": "47457089581f4f09a08041503bb935e9f53c7011f88d6152195bbc9e16e65e29"
       },
       "id": "15f3d4f9-35ec-4cd2-92dc-497a5cee0e66",
       "issue_id": "535e096a-7dbd-4c94-9d0b-76b121c8bed1",
       "sequence": 9,
       "title": "Evidences of Eternal Life",
-      "translation_key": "98eb0802ba80ac4c744d7af24c8c7e018b759b11d72cf894c22af1f9406258e9"
+      "translation_key": "b19f6d80c8df7cc8dd97088809f5cbd43d1f806af11311db9446d06dd1a6c31a"
     },
     "16200f43-1163-4e2b-94a5-730b2aaf30a5": {
       "fingerprints": {
@@ -5126,9 +5126,9 @@
     },
     "533e049a-b6ef-473a-ad9f-6b62f7c04d83": {
       "fingerprints": {
-        "html_sha256": "bda9ddb289868d082b870a0ce3293c32ec63b7bc7fb76a0c8db1d44a0f92dc96",
+        "html_sha256": "7e84c6af0c8e3888a87041602f8402e73c7aacbeb14876084046a39d0f8a149b",
         "metadata_sha256": "42bae92abdcc01dd2b6d38b1adf4ae4beda1fbb19105ce1f6bd55c9335373624",
-        "structure_sha256": "dd39b98a046ed2579afb6a0214f4b3a14d80a1ab38533a4b56af3e4debe7f3ea",
+        "structure_sha256": "82e8670263a9ce3edcf21ab1212a5257b16890761106cecac2ad48b3c9a40232",
         "text_sha256": "70cdddcdaabd8f0a9a36a9725d8f5bad029a2c355031f2a7a25a2979b05f4343",
         "translation_metadata_sha256": "521bd90175fde9798ac516eebeee4a5d2a3208b9271a945a2efd6bf2921a31f0"
       },
@@ -5136,7 +5136,7 @@
       "issue_id": "1a66dae0-06e5-495c-a0cc-d9e3aa18c51f",
       "sequence": 7,
       "title": "The Power of God’s Word to Heal",
-      "translation_key": "d8250488a15c3bb22ff52a352e83d01485754b644c4f9f5016c185f2f383f8b3"
+      "translation_key": "42bf1e0a10ec884c888d229908568e298d65035c8107bfdaf8f098868d9cf525"
     },
     "53e8b534-1f5e-4d9d-b191-99707a404256": {
       "fingerprints": {
@@ -6343,18 +6343,13 @@
       "translation_key": "c125d1503dd3163a80f320ce7615f082ceb81aae870e140c0f6f16ebee109889"
     },
     "663da224-39d7-4c13-8154-e155dc2aaffc": {
-      "fingerprints": {
-        "html_sha256": "cd46878baea8225a6e07d9dd00079b5dae257ba566485681bf1604dfa48fbb4e",
-        "metadata_sha256": "5c7829f0f1f64ab8b126926da402df95b3d3e58f1119bce4e82398c2e670a2fb",
-        "structure_sha256": "e1961f94a655d16e2d888e4c6530ddfd4bc7e3813a4399f14de3f39f4cb20c5c",
-        "text_sha256": "acb21994617b7325c7ac4233cad05821616fe979cfd01e379ff055bda7688bfe",
-        "translation_metadata_sha256": "2b3ec4a8b0c556e9a811790b18dbc9e8635f8e2997e89c4cfc57361f07ae3f25"
-      },
+      "fingerprints": null,
       "id": "663da224-39d7-4c13-8154-e155dc2aaffc",
       "issue_id": "535e096a-7dbd-4c94-9d0b-76b121c8bed1",
       "sequence": 11,
+      "source_error": "Source article 663da224-39d7-4c13-8154-e155dc2aaffc: Source image references disagree with their index metadata",
       "title": null,
-      "translation_key": "2b13e16ce41602a1d035901e90dcb08cd2ea272eefbc23acf14c3ff1b73f3764"
+      "translation_key": null
     },
     "6675e3be-25f0-4595-aa7e-ddb2fbed6722": {
       "fingerprints": {
@@ -9032,9 +9027,9 @@
     },
     "8e86aae8-7575-42a9-a46a-07137a83878a": {
       "fingerprints": {
-        "html_sha256": "a55ad54bead7ae385ac9770a76459ef8e95439f4c3ad786ccbb9764c7813b306",
+        "html_sha256": "30f87d88c20b9bf9cac3080c1cf48eb886b180e5d2fdca6ea0a8e36ee991c10d",
         "metadata_sha256": "f8bdf63eff1dc1558ebb02a21216e2d22602799f88adef04a05e1835bb734a96",
-        "structure_sha256": "80cda2970629f5ea967f21f8c783cf24b61acf882720c005f6ec21a15f9320d9",
+        "structure_sha256": "2b2ffc0a9ab1de2b00647d5e9a746e0b48fbb8aa36250eb70fcf740d5d98506b",
         "text_sha256": "df99e93adb41e74ef082b69b035be0cdda667f09db00aa3147c4378e76cd5c24",
         "translation_metadata_sha256": "4ca7bff0c1c04c0ce0dfed7a3fc767ddae7183cfdff38afea0191fdc43b9f984"
       },
@@ -9042,7 +9037,7 @@
       "issue_id": "1a66dae0-06e5-495c-a0cc-d9e3aa18c51f",
       "sequence": 1,
       "title": "The Role of Prayer in Spiritual Awakening",
-      "translation_key": "f687486028b699c2852ef58a331f280105c29945e4e68e5f0eae6862ec498ce7"
+      "translation_key": "8e8fdd09165ce155d37abf5319ebc288f4be4dfd65d0057637379149cdc6b527"
     },
     "8ee3e3d2-8d8f-4285-80b4-dafcde9d7d43": {
       "fingerprints": {
@@ -14310,9 +14305,9 @@
     },
     "e2375d2d-3669-4e91-b2ce-03554ae220b4": {
       "fingerprints": {
-        "html_sha256": "fd3cf2803fde3699db2dce0811d1811e589e10a274751974b36a313a798c286e",
+        "html_sha256": "88dc57899435e0ae13a9ba29881983a8341f81d7c26b6771d816d36cc0320f1f",
         "metadata_sha256": "30f37fae6ad46e1822c9bac54a6346ee9958402d3fed6c3ecabf4805f5b7148e",
-        "structure_sha256": "12edb001c38dae2d614318a30f3b0ee0da31ecfb7617aed800e61febd23e92b2",
+        "structure_sha256": "ea5f4c6a6b5838455078a0ff31ee55638db3d87dcc72845f19eb6923c81ed23e",
         "text_sha256": "0ed373ac99510dda0055915f726fd9fac13eb1d7638823a96b6fa3a279b2be25",
         "translation_metadata_sha256": "88f1018558d23316be41698a7ca1dbe165d4d5e29da0492c8e49e48446943664"
       },
@@ -14320,7 +14315,7 @@
       "issue_id": "1a66dae0-06e5-495c-a0cc-d9e3aa18c51f",
       "sequence": 9,
       "title": "Beyond Obedience",
-      "translation_key": "3162f52315deb47bc29e3b011aaa76337d3997d2dcff233ee25db2c957405b05"
+      "translation_key": "cd2b67671a9c98aa6dcf2b32ea5f4220f54c1d7071d0ae49e6ad72073eea9bbe"
     },
     "e2717533-f2de-48a9-94a8-feee73a69a6f": {
       "fingerprints": {
@@ -15738,9 +15733,9 @@
     },
     "f8e9bf03-6695-4bca-90e5-2582673cca69": {
       "fingerprints": {
-        "html_sha256": "86f15482b0708387513ea1f9ba4304fc3645790bb45d133e95130a0274740079",
+        "html_sha256": "c6e5bb292ce93f6c7f31dd4ef0c2c8c4bf6a70f460fcdf60f7cec90ca8847240",
         "metadata_sha256": "00296b380276a85e327b8cc6c06bec33ec8f664949e0c6eed20c60661d0d9381",
-        "structure_sha256": "e280d5098dab50dda448e486754563ff75a279a0a1ce5cc3020f2a8b4a12e303",
+        "structure_sha256": "37da5c825b4ad4869e08891a44c6d88906d0933450f0bbafcf40ede8cfdb7e27",
         "text_sha256": "2cd70d863db5f777889bd2260e832239eb1cb47439fb48fbd770ef31b80b619d",
         "translation_metadata_sha256": "3b5b855ec63b63dc78af09bc0601ff82a3c15cb6a341e2572815e29051be6fa6"
       },
@@ -15748,7 +15743,7 @@
       "issue_id": "1a66dae0-06e5-495c-a0cc-d9e3aa18c51f",
       "sequence": 6,
       "title": "The Radical Chinese House Churches (part II)",
-      "translation_key": "ec75a4cfc628d146d247626389e13cb10912147471f1a55c4486026e368d0da9"
+      "translation_key": "bd3c40060c6145d01dd277eb62ffc7cdad86224bbdc58fc4ec7a406e1dbf3893"
     },
     "f957067f-a69c-4321-a3cd-b28fe861eb40": {
       "fingerprints": {
@@ -16339,7 +16334,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "a2ca2cb64e1d2b5d0595014c7b0a36e69b1dfbba0235b9bace33398505d63121",
+  "content_sha256": "f55d313716cc621ad56e317b4211e8a7b6dd4051e13ba7a3bffef2dd069da871",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17755,5 +17750,12 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "992debda63d6be4a08362d2a463694f3df221977"
+  "revision": "f83903f6f553c0469d537b5461e4ba3aa295835f",
+  "source_errors": {
+    "663da224-39d7-4c13-8154-e155dc2aaffc": {
+      "article_id": "663da224-39d7-4c13-8154-e155dc2aaffc",
+      "issue_id": "535e096a-7dbd-4c94-9d0b-76b121c8bed1",
+      "reason": "Source article 663da224-39d7-4c13-8154-e155dc2aaffc: Source image references disagree with their index metadata"
+    }
+  }
 }
