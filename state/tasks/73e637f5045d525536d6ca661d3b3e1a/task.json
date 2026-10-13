@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8661085c47d748799a10e9b12a174f77",
   "campaign": "auto-6326bb701acf324f42bb8951cb0df645ca9cca283152cc871511692fef527f95",
   "created_at": "2026-10-12T23:02:09+00:00",
   "events": [
@@ -28,10 +27,52 @@
         },
         "total_tokens": 14632
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1082,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 725,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14986,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13883,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 16068
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, section « Ce à quoi nous devons renoncer », first paragraph",
+      "severity": "major",
+      "source_quote": "“I am not in any way to seek my own.”",
+      "suggested_fix": "Replace « rechercher ce qui m’appartient » with « rechercher mon propre intérêt » (or « rechercher ce qui m’est propre » in the sense of self-interest).",
+      "translation_quote": "« je ne dois en aucune façon rechercher ce qui m’appartient »"
+    },
+    {
+      "location": "HTML, section « Deux sortes de semences » and section « L’amour pur »",
+      "severity": "major",
+      "source_quote": "“Hatred of the soulish life”; “the soulishness of a person”; “the love of our soulishness”",
+      "suggested_fix": "Use a consistent expression referring to the life or nature of the soul, rather than « nature charnelle »; for example, « la vie de l’âme » in the heading and « la nature de l’âme » in the prose.",
+      "translation_quote": "« Haïr la vie de l’âme »; « la nature charnelle d’une personne »; « l’amour de notre nature charnelle »"
+    },
+    {
+      "location": "HTML, section « Haïr la vie de l’âme »",
+      "severity": "major",
+      "source_quote": "“in the new, unnatural life”",
+      "suggested_fix": "Replace « surnaturelle » with « non naturelle » or « contre nature » to preserve the source’s contrast with the old, natural life.",
+      "translation_quote": "« dans la vie nouvelle, surnaturelle »"
+    }
+  ],
   "id": "73e637f5045d525536d6ca661d3b3e1a",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "fra",
@@ -120,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/dc00b1640eeaa70509a332ed5e671885caaab880a0116b7efd56947939c1296a.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +181,7 @@
     "total_reserved_usd": 0.130043,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
   "translation_model_actual": "gpt-6-luna"

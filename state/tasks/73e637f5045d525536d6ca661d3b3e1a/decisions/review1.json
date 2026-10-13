@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section « Ce à quoi nous devons renoncer », first paragraph",
+      "severity": "major",
+      "source_quote": "“I am not in any way to seek my own.”",
+      "suggested_fix": "Replace « rechercher ce qui m’appartient » with « rechercher mon propre intérêt » (or « rechercher ce qui m’est propre » in the sense of self-interest).",
+      "translation_quote": "« je ne dois en aucune façon rechercher ce qui m’appartient »"
+    },
+    {
+      "location": "HTML, section « Deux sortes de semences » and section « L’amour pur »",
+      "severity": "major",
+      "source_quote": "“Hatred of the soulish life”; “the soulishness of a person”; “the love of our soulishness”",
+      "suggested_fix": "Use a consistent expression referring to the life or nature of the soul, rather than « nature charnelle »; for example, « la vie de l’âme » in the heading and « la nature de l’âme » in the prose.",
+      "translation_quote": "« Haïr la vie de l’âme »; « la nature charnelle d’une personne »; « l’amour de notre nature charnelle »"
+    },
+    {
+      "location": "HTML, section « Haïr la vie de l’âme »",
+      "severity": "major",
+      "source_quote": "“in the new, unnatural life”",
+      "suggested_fix": "Replace « surnaturelle » with « non naturelle » or « contre nature » to preserve the source’s contrast with the old, natural life.",
+      "translation_quote": "« dans la vie nouvelle, surnaturelle »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
