@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "faecf855b48b45d695f46548a40dc4b0",
   "campaign": "auto-c7c3f91c2ddf2fa37eb9036c3b62d1e52157f0f178425caaa0f85ba92a0ec8a1",
   "created_at": "2026-10-13T03:22:44+00:00",
   "events": [
@@ -68,25 +67,39 @@
         },
         "total_tokens": 28275
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 996,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 902,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 17911,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 16808,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 18907
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Article, “The old life consists…” paragraph",
-      "severity": "major",
-      "source_quote": "“The new life is the pure will and obedience of God and hates the soulishness of a person in all its active and affective aspects”",
-      "suggested_fix": "Replace «μισεί τη φιλαυτία του ανθρώπου» with «μισεί την ψυχικότητα του ανθρώπου» (or another rendering that preserves “soulishness”), retaining the rest of the sentence.",
-      "translation_quote": "«Η νέα ζωή είναι το καθαρό θέλημα και η υπακοή στον Θεό και μισεί τη φιλαυτία του ανθρώπου σε όλες τις ενεργητικές και συναισθηματικές της εκφάνσεις»"
-    },
-    {
-      "location": "Article, “Hatred of the soulish life” paragraph",
+      "location": "Poem, first stanza",
       "severity": "minor",
-      "source_quote": "“a supernatural hatred and envy must replace our love for created things”",
-      "suggested_fix": "Render “envy” explicitly, for example: «ένα υπερφυσικό μίσος και μια υπερφυσική ζηλοτυπία πρέπει να αντικαταστήσουν την αγάπη μας για τα δημιουργημένα πράγματα».",
-      "translation_quote": "«μια υπερφυσική απέχθεια και αποστροφή πρέπει να αντικαταστήσουν την αγάπη μας για τα δημιουργημένα πράγματα»"
+      "source_quote": "Break the alabaster bowl,",
+      "suggested_fix": "Σπάσε το αλαβάστρινο δοχείο,",
+      "translation_quote": "σπάσε το αλάβαστρο,"
     }
   ],
+  "finished_at": "2026-10-13T21:13:39+00:00",
   "id": "5ce10175fa602bf33de404cf51165694",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ell",
@@ -175,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +208,7 @@
     "total_reserved_usd": 0.130046,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
   "translation_model_actual": "gpt-6-luna"

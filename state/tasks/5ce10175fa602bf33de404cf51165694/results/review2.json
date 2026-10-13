@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "860a16db-31b4-4049-a54d-1e940401537d",
+    "response_id": "chatcmpl-EYcX8NJ9N5yhAmDNTUqW8ujPWexRC",
+    "usage": {
+      "completion_tokens": 996,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 902,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 17911,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 16808,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 18907
+    }
+  },
+  "received_at": "2026-10-13T21:13:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, first stanza",
+        "severity": "minor",
+        "source_quote": "Break the alabaster bowl,",
+        "suggested_fix": "Σπάσε το αλαβάστρινο δοχείο,",
+        "translation_quote": "σπάσε το αλάβαστρο,"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

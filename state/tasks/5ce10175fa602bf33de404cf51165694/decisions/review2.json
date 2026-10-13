@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, first stanza",
+      "severity": "minor",
+      "source_quote": "Break the alabaster bowl,",
+      "suggested_fix": "Σπάσε το αλαβάστρινο δοχείο,",
+      "translation_quote": "σπάσε το αλάβαστρο,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

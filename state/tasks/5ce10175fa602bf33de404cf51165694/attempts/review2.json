@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T21:13:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, first stanza\",\"severity\":\"minor\",\"source_quote\":\"Break the alabaster bowl,\",\"suggested_fix\":\"Σπάσε το αλαβάστρινο δοχείο,\",\"translation_quote\":\"σπάσε το αλάβαστρο,\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 289,
+    "content_evidence_truncated": false,
+    "content_sha256": "7af7e236dbb93b8c910470d503ff398766b1f597eff82465f5b975a85f444c5a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 996,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 902,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 17911,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 16808,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 18907
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
