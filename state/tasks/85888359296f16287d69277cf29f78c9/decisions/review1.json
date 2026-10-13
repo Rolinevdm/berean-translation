@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “Yet, we are worse than horses and mules”",
+      "severity": "minor",
+      "source_quote": "“O ye of little faith.”",
+      "suggested_fix": "“O ni klentrogna.”",
+      "translation_quote": "“Du klentrogne.”"
+    },
+    {
+      "location": "Article body, paragraph beginning “You can see what great danger our life is in”",
+      "severity": "minor",
+      "source_quote": "“You must not shear firstborn sheep.”",
+      "suggested_fix": "“Du får inte klippa de förstfödda fåren.”",
+      "translation_quote": "“Du får inte klippa den förstfödda fåren.”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

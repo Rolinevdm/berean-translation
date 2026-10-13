@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T10:50:50+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraph beginning “Yet, we are worse than horses and mules”\",\"severity\":\"minor\",\"source_quote\":\"“O ye of little faith.”\",\"suggested_fix\":\"“O ni klentrogna.”\",\"translation_quote\":\"“Du klentrogne.”\"},{\"location\":\"Article body, paragraph beginning “You can see what great danger our life is in”\",\"severity\":\"minor\",\"source_quote\":\"“You must not shear firstborn sheep.”\",\"suggested_fix\":\"“Du får inte klippa de förstfödda fåren.”\",\"translation_quote\":\"“Du får inte klippa den förstfödda fåren.”\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 626,
+    "content_evidence_truncated": false,
+    "content_sha256": "c0dcc7e832ddb09194877c16b1a4f5eb4099f4c9fa809276ff007d204c7f8f4a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1015,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 845,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15176,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15173,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16191
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
