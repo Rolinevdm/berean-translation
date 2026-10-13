@@ -5,11 +5,56 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2cbd4f7baa1a4e47adb0ce5d5f704d29",
   "campaign": "auto-1c9cc9f65c01afa200885a73be363362eb56a05eb123fde37e9078178796027b",
   "created_at": "2026-10-12T17:55:12+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 425,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 73,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8420,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7317,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8845
+      }
+    }
+  ],
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[9]: source /article[1]/p[2]/em[1]/strong[2] ('start', 'strong', ()); translation /article[1]/p[2]/em[1]/u[2] ('start', 'u', ())",
+  "failure_kind": "invalid_result",
+  "findings": [
+    {
+      "location": "translation.html, cita de Lucas 14:25-33",
+      "severity": "minor",
+      "source_quote": "<u>bear his cross</u> ... <strong>cannot be my disciple.</strong> ... <u>counteth the cost</u>",
+      "suggested_fix": "Restaurar el énfasis de la fuente: «Y el que no <u>toma su cruz</u>, y viene en pos de mí, <strong>no puede ser mi discípulo.</strong>» y «y <u>calcula los gastos</u>».",
+      "translation_quote": "toma su cruz ... <u>no puede ser mi discípulo.</u> ... calcula los gastos"
+    },
+    {
+      "location": "translation.html, cita de Santiago 4:14",
+      "severity": "minor",
+      "source_quote": "Whereas ye know not what shall be on the morrow.",
+      "suggested_fix": "Sustituir «El cual no sabéis qué será mañana» por «Sin embargo, no sabéis qué será mañana».",
+      "translation_quote": "El cual no sabéis qué será mañana."
+    },
+    {
+      "location": "translation.html, cita de Hechos 21:10-13",
+      "severity": "minor",
+      "source_quote": "both we, and they of that place, besought him not to go up to Jerusalem.",
+      "suggested_fix": "Cambiar «le rogaron» por «le rogamos» para concordar con el sujeto que incluye «nosotros».",
+      "translation_quote": "tanto nosotros como los de aquel lugar, le rogaron que no subiese a Jerusalén."
+    }
+  ],
+  "finished_at": "2026-10-13T00:34:38+00:00",
   "id": "320428bb61f26ea9df4269097ce86779",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "spa",
@@ -98,9 +143,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/2a0e8037a7779b7d65ad5a5dc37689987f7de799a9c99fb81a3fa397558d941f.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +162,7 @@
     "total_reserved_usd": 0.75855,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 0,
   "translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
