@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "영혼에 속한 삶을 미워함 단락",
+      "severity": "minor",
+      "source_quote": "a supernatural hatred and envy must replace our love for created things.",
+      "suggested_fix": "피조물을 사랑하는 마음을 초자연적인 미움과 시기가 대신해야 한다.",
+      "translation_quote": "피조물을 사랑하는 마음을 초자연적인 미움과 혐오가 대신해야 한다."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

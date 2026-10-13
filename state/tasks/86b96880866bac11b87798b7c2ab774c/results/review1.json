@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3c6fae7c-4e4c-4321-afae-e833edd4852b",
+    "response_id": "chatcmpl-EYRTBWPzJogneNsLfW7VuidPVVX6j",
+    "usage": {
+      "completion_tokens": 1034,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 910,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15784,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15781,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16818
+    }
+  },
+  "received_at": "2026-10-13T07:48:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "영혼에 속한 삶을 미워함 단락",
+        "severity": "minor",
+        "source_quote": "a supernatural hatred and envy must replace our love for created things.",
+        "suggested_fix": "피조물을 사랑하는 마음을 초자연적인 미움과 시기가 대신해야 한다.",
+        "translation_quote": "피조물을 사랑하는 마음을 초자연적인 미움과 혐오가 대신해야 한다."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
