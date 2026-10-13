@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, cita de introducción, primer párrafo",
+      "severity": "minor",
+      "source_quote": "COALS OF FIRE tells the stories",
+      "suggested_fix": "Cambiar «ASCUSAS DE FUEGO» por «ASCUAS DE FUEGO».",
+      "translation_quote": "ASCUSAS DE FUEGO cuenta las historias"
+    },
+    {
+      "location": "HTML, último párrafo narrativo antes de la cita bíblica",
+      "severity": "minor",
+      "source_quote": "go to the burn pile now!",
+      "suggested_fix": "Cambiar «ve ahora mismo a la hoguera» por «ve ahora mismo al montón de cosas para quemar» (o una expresión equivalente que no sugiera una hoguera para ejecutar a alguien).",
+      "translation_quote": "ve ahora mismo a la hoguera"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

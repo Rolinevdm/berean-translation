@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8332def6c1e24845b1c79be1f8a32d0e",
   "campaign": "auto-68b3b941652d9c596c21f86fabfbec99f431c8e7d18a445176ed94174ab0db22",
   "created_at": "2026-10-13T07:42:24+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 3647
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 547,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 358,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4001,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2898,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4548
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, cita de introducción, primer párrafo",
+      "severity": "minor",
+      "source_quote": "COALS OF FIRE tells the stories",
+      "suggested_fix": "Cambiar «ASCUSAS DE FUEGO» por «ASCUAS DE FUEGO».",
+      "translation_quote": "ASCUSAS DE FUEGO cuenta las historias"
+    },
+    {
+      "location": "HTML, último párrafo narrativo antes de la cita bíblica",
+      "severity": "minor",
+      "source_quote": "go to the burn pile now!",
+      "suggested_fix": "Cambiar «ve ahora mismo a la hoguera» por «ve ahora mismo al montón de cosas para quemar» (o una expresión equivalente que no sugiera una hoguera para ejecutar a alguien).",
+      "translation_quote": "ve ahora mismo a la hoguera"
+    }
+  ],
+  "finished_at": "2026-10-13T15:55:31+00:00",
   "id": "be234bcadddd7b55df27415355bd7d8a",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "spa",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f7b7c456635e7241e3c77d95ce89c3958f1e8f80721357b74a88cf872db64bb2.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.08729,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
   "translation_model_actual": "gpt-6-luna"

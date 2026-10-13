@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7dcf7b9b-e5de-469a-a924-3870299e25d7",
+    "response_id": "chatcmpl-EYUMxbCRgZb4x9vIU1VOuQOKVFuly",
+    "usage": {
+      "completion_tokens": 547,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 358,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4001,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2898,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4548
+    }
+  },
+  "received_at": "2026-10-13T15:55:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, cita de introducción, primer párrafo",
+        "severity": "minor",
+        "source_quote": "COALS OF FIRE tells the stories",
+        "suggested_fix": "Cambiar «ASCUSAS DE FUEGO» por «ASCUAS DE FUEGO».",
+        "translation_quote": "ASCUSAS DE FUEGO cuenta las historias"
+      },
+      {
+        "location": "HTML, último párrafo narrativo antes de la cita bíblica",
+        "severity": "minor",
+        "source_quote": "go to the burn pile now!",
+        "suggested_fix": "Cambiar «ve ahora mismo a la hoguera» por «ve ahora mismo al montón de cosas para quemar» (o una expresión equivalente que no sugiera una hoguera para ejecutar a alguien).",
+        "translation_quote": "ve ahora mismo a la hoguera"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
