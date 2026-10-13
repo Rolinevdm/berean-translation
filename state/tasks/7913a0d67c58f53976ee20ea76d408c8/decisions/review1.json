@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Todo aquel que se entrega así»",
+      "severity": "major",
+      "source_quote": "these “two-timers” have turned Christ’s forgiveness into a lottery.",
+      "suggested_fix": "Replace «estos «dobles»» with «estas personas de doble vida» (or another clear rendering of “two-timers”).",
+      "translation_quote": "estos «dobles» han convertido el perdón de Cristo en una lotería."
+    },
+    {
+      "location": "HTML, heading «Odio a la vida del alma», first paragraph",
+      "severity": "major",
+      "source_quote": "a supernatural hatred and envy must replace our love for created things.",
+      "suggested_fix": "Translate «envy» as «envidia» rather than «aversión», for example: «un odio y una envidia sobrenaturales deben reemplazar nuestro amor por las cosas creadas»",
+      "translation_quote": "un odio y una aversión sobrenaturales deben reemplazar nuestro amor por las cosas creadas."
+    },
+    {
+      "location": "HTML, paragraph under «La razón de nuestra creación»; reference Ef. 2:10",
+      "severity": "minor",
+      "source_quote": "God created us for good works, which He made so that we might walk in them.",
+      "suggested_fix": "Preserve the source’s wording about God making the good works, for example: «Dios nos creó para las buenas obras que preparó para que anduviéramos en ellas».",
+      "translation_quote": "Dios nos creó para las buenas obras que dispuso de antemano para que anduviéramos en ellas."
+    },
+    {
+      "location": "HTML, alt text of first figure",
+      "severity": "minor",
+      "source_quote": "Two hands above and below a globe",
+      "suggested_fix": "Use «Dos manos, una por encima y otra por debajo de un globo terráqueo».",
+      "translation_quote": "Dos manos a ambos lados de un globo terráqueo"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
