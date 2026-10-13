@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8e7a7c11-b040-424f-875b-acaf12e35abe",
+    "response_id": "chatcmpl-EYKxFwQw2fl7jovDV2soOfpeaYyQ7",
+    "usage": {
+      "completion_tokens": 1315,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 880,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 22433,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 21330,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 23748
+    }
+  },
+  "received_at": "2026-10-13T03:15:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Throughout; for example, “Biblicism” section, paragraph beginning “What, then, does the Bible say…” and “Christocentrism” section, paragraph beginning “What does the Bible say…”",
+        "severity": "major",
+        "source_quote": "“the Bible as we know it did not exist until hundreds of years after the last book was written”; “What does the Bible say about the centrality of Jesus Christ?”",
+        "suggested_fix": "Use כתבי הקודש or המקרא for “the Bible” throughout, rather than תנ״ך, which specifically denotes the Hebrew Bible and makes references to the Christian Bible and its New Testament content inaccurate. For example: “כתבי הקודש כפי שאנו מכירים אותם לא התקיימו עד מאות שנים לאחר שנכתב הספר האחרון.”",
+        "translation_quote": "“התנ״ך כפי שאנו מכירים אותו לא התקיים עד מאות שנים לאחר שנכתב הספר האחרון”; “מה אומר התנ״ך על מרכזיותו של ישוע המשיח?”"
+      },
+      {
+        "location": "Biblicism section, fourth Scripture quotation (2 Peter 3:15–16)",
+        "severity": "major",
+        "source_quote": "“our beloved brother Paul also according to the wisdom given unto him hath written unto you”",
+        "suggested_fix": "Replace שָׁאוּל with פָּאוּלוֹס (or פאולוס), preserving the reference to Paul.",
+        "translation_quote": "“כַּאֲשֶׁר גַּם־אָחִינוּ הָאָהוּב שָׁאוּל”"
+      },
+      {
+        "location": "Poem, third stanza",
+        "severity": "major",
+        "source_quote": "“And Thou hast made him: Thou art just.”",
+        "suggested_fix": "Translate “Thou art just” as אתה צדיק, not אתה צודק, to convey that God is righteous.",
+        "translation_quote": "“ואתה יצרת אותו — אתה צודק.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 88
+  }
+}

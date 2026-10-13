@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Throughout; for example, “Biblicism” section, paragraph beginning “What, then, does the Bible say…” and “Christocentrism” section, paragraph beginning “What does the Bible say…”",
+      "severity": "major",
+      "source_quote": "“the Bible as we know it did not exist until hundreds of years after the last book was written”; “What does the Bible say about the centrality of Jesus Christ?”",
+      "suggested_fix": "Use כתבי הקודש or המקרא for “the Bible” throughout, rather than תנ״ך, which specifically denotes the Hebrew Bible and makes references to the Christian Bible and its New Testament content inaccurate. For example: “כתבי הקודש כפי שאנו מכירים אותם לא התקיימו עד מאות שנים לאחר שנכתב הספר האחרון.”",
+      "translation_quote": "“התנ״ך כפי שאנו מכירים אותו לא התקיים עד מאות שנים לאחר שנכתב הספר האחרון”; “מה אומר התנ״ך על מרכזיותו של ישוע המשיח?”"
+    },
+    {
+      "location": "Biblicism section, fourth Scripture quotation (2 Peter 3:15–16)",
+      "severity": "major",
+      "source_quote": "“our beloved brother Paul also according to the wisdom given unto him hath written unto you”",
+      "suggested_fix": "Replace שָׁאוּל with פָּאוּלוֹס (or פאולוס), preserving the reference to Paul.",
+      "translation_quote": "“כַּאֲשֶׁר גַּם־אָחִינוּ הָאָהוּב שָׁאוּל”"
+    },
+    {
+      "location": "Poem, third stanza",
+      "severity": "major",
+      "source_quote": "“And Thou hast made him: Thou art just.”",
+      "suggested_fix": "Translate “Thou art just” as אתה צדיק, not אתה צודק, to convey that God is righteous.",
+      "translation_quote": "“ואתה יצרת אותו — אתה צודק.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "745f7fd934844a1a8f1ab8d6e1d96f05",
   "campaign": "auto-d60ea93c105e58e7e2db0b5e9b815f27d13b398b176d2c4b97fe99713973e720",
   "created_at": "2026-10-11T06:27:08+00:00",
   "events": [
@@ -48,18 +47,54 @@
         },
         "total_tokens": 35392
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1315,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 880,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 22433,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 21330,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 23748
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[171]: source /article[1]/p[36]/em[1] ('start', 'em', ()); translation /article[1]/p[36] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Throughout; for example, “Biblicism” section, paragraph beginning “What, then, does the Bible say…” and “Christocentrism” section, paragraph beginning “What does the Bible say…”",
+      "severity": "major",
+      "source_quote": "“the Bible as we know it did not exist until hundreds of years after the last book was written”; “What does the Bible say about the centrality of Jesus Christ?”",
+      "suggested_fix": "Use כתבי הקודש or המקרא for “the Bible” throughout, rather than תנ״ך, which specifically denotes the Hebrew Bible and makes references to the Christian Bible and its New Testament content inaccurate. For example: “כתבי הקודש כפי שאנו מכירים אותם לא התקיימו עד מאות שנים לאחר שנכתב הספר האחרון.”",
+      "translation_quote": "“התנ״ך כפי שאנו מכירים אותו לא התקיים עד מאות שנים לאחר שנכתב הספר האחרון”; “מה אומר התנ״ך על מרכזיותו של ישוע המשיח?”"
+    },
+    {
+      "location": "Biblicism section, fourth Scripture quotation (2 Peter 3:15–16)",
+      "severity": "major",
+      "source_quote": "“our beloved brother Paul also according to the wisdom given unto him hath written unto you”",
+      "suggested_fix": "Replace שָׁאוּל with פָּאוּלוֹס (or פאולוס), preserving the reference to Paul.",
+      "translation_quote": "“כַּאֲשֶׁר גַּם־אָחִינוּ הָאָהוּב שָׁאוּל”"
+    },
+    {
+      "location": "Poem, third stanza",
+      "severity": "major",
+      "source_quote": "“And Thou hast made him: Thou art just.”",
+      "suggested_fix": "Translate “Thou art just” as אתה צדיק, not אתה צודק, to convey that God is righteous.",
+      "translation_quote": "“ואתה יצרת אותו — אתה צודק.”"
     }
   ],
+  "finished_at": "2026-10-13T03:15:28+00:00",
   "id": "24b9e6c8535887b9aa279019f4748ac9",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "heb",
@@ -148,9 +183,11 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/aeddb1d51271942bdbe3417e46c90421b08605b5b1d872e8fb0309f7877921c7.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +203,7 @@
     "total_reserved_usd": 0.134862,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
   "translation_model_actual": "gpt-6-luna"
