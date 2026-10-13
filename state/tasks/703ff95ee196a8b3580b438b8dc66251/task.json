@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "776de6a3f4594a19be4c471a440386fa",
   "campaign": "auto-9852bd3460f1e0fa789b570a63f74edbd668f38858680205950df656d2ed4acf",
   "created_at": "2026-10-12T22:55:02+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 4918
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 78,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 46,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3495,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2392,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3573
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraf yang dimulai “Kita tidak bekerja bagi-Nya...”",
-      "severity": "major",
-      "source_quote": "We don’t work for Him from 8-5—we are His 24 hours of each day.",
-      "suggested_fix": "Kita tidak bekerja bagi-Nya dari pukul 8-5—kita adalah milik-Nya selama 24 jam setiap hari.",
-      "translation_quote": "Kita tidak bekerja bagi-Nya dari pukul 8-5—we are milik-Nya selama 24 jam setiap hari."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-13T03:15:11+00:00",
   "id": "703ff95ee196a8b3580b438b8dc66251",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ind",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/28687181c0da87f5b6b15f73e63e930540bbe25f325583b69aa28fba83fcc0fc.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.547945,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
   "translation_model_actual": "gpt-6.1-sol"
