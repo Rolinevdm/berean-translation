@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "22f5a02a029940a0b21516a623947a7f",
   "campaign": "auto-e201b1accc787b99019799f3e4139c875200ce83e98125b54348da7b1c36fa12",
   "created_at": "2026-10-11T13:07:30+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 3095
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 678,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 583,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3392,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2289,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4070
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraf 5",
+      "severity": "minor",
+      "source_quote": "and individual Christians who held the tradition",
+      "suggested_fix": "serta orang-orang Kristen secara individual yang menjalankan tradisi",
+      "translation_quote": "serta orang-orang Kristen secara pribadi yang menjalankan tradisi"
+    }
+  ],
+  "finished_at": "2026-10-13T03:15:39+00:00",
   "id": "838729b68fd0eae692093432018ff229",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ind",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/53355702ddab569aed98a9ab0f304db45cd690b45d9e25455e84c6221b4fb3e2.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086819,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
   "translation_model_actual": "gpt-6-luna"

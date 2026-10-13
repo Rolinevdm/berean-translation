@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf 5",
+      "severity": "minor",
+      "source_quote": "and individual Christians who held the tradition",
+      "suggested_fix": "serta orang-orang Kristen secara individual yang menjalankan tradisi",
+      "translation_quote": "serta orang-orang Kristen secara pribadi yang menjalankan tradisi"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

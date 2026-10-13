@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T03:15:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf 5\",\"severity\":\"minor\",\"source_quote\":\"and individual Christians who held the tradition\",\"suggested_fix\":\"serta orang-orang Kristen secara individual yang menjalankan tradisi\",\"translation_quote\":\"serta orang-orang Kristen secara pribadi yang menjalankan tradisi\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 350,
+    "content_evidence_truncated": false,
+    "content_sha256": "0ce4e1a0a240e3edabbe5e610edab56d8443d55023650a11204984d32a85c2af",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 678,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 583,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3392,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2289,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4070
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
