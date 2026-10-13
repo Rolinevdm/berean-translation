@@ -1,0 +1,142 @@
+{
+  "article_id": "d0898011-fe8b-4c35-9aac-12c20ec0d950",
+  "automatic_previous_task": "71903e47347a4da26ca99e01fd0bcd80",
+  "autonomous": true,
+  "autonomous_recovery": true,
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "auto-7abc6e6d6e851b4298d23c9ba057bd411ec5062a01e98e821aedffff9e38753c",
+  "created_at": "2026-10-13T07:42:30+00:00",
+  "events": [],
+  "findings": [
+    {
+      "location": "Βιβλικισμός, παράγραφος που αρχίζει «Φαίνεται να υπάρχει ισχυρή βάση»",
+      "severity": "major",
+      "source_quote": "“the Bible is the authoritative source of Christian doctrine”",
+      "suggested_fix": "«η Βίβλος είναι η έγκυρη πηγή της χριστιανικής διδασκαλίας»",
+      "translation_quote": "«η Βίβλος είναι η αυθεντική πηγή της χριστιανικής διδασκαλίας»"
+    },
+    {
+      "location": "Παραδοσιοκρατία, παράγραφος που αρχίζει «Υπάρχει σοβαρή πιθανότητα»",
+      "severity": "major",
+      "source_quote": "“may ... become more authoritative than the Bible”",
+      "suggested_fix": "«να αποκτήσουν δική τους ζωή και ενδεχομένως να γίνουν πιο δεσμευτικές από τη Βίβλο»",
+      "translation_quote": "«να αποκτήσουν δική τους ζωή και ενδεχομένως να γίνουν πιο αυθεντικές από τη Βίβλο»"
+    },
+    {
+      "location": "Συμπέρασμα, παράγραφος που αρχίζει «Υπάρχει επίσης κάποια ενότητα»",
+      "severity": "major",
+      "source_quote": "“the Bible as God’s authoritative word to us”",
+      "suggested_fix": "«τη Βίβλο ως τον έγκυρο λόγο του Θεού προς εμάς»",
+      "translation_quote": "«τη Βίβλο αυθεντικό λόγο του Θεού προς εμάς»"
+    }
+  ],
+  "id": "c40940ccc710d7368a3331278a41d004",
+  "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+  "language": "ell",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/aeddb1d51271942bdbe3417e46c90421b08605b5b1d872e8fb0309f7877921c7.json",
+  "stage": "correct",
+  "stage_budget": {
+    "initial_stage": "correct",
+    "max_candidate_bytes": 120000,
+    "max_findings_bytes": 32768,
+    "stages_usd": {
+      "correct": 0.310984,
+      "review2": 0.77929
+    },
+    "total_reserved_usd": 1.090274,
+    "version": 1
+  },
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
+  "translation_model_actual": "gpt-6-luna"
+}
