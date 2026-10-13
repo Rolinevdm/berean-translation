@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "正文，“不可因你的 Gelassenheit 而自夸”段落",
+      "severity": "minor",
+      "source_quote": "“called a donkey, partier, or peasant”",
+      "suggested_fix": "将“酒鬼”改为“爱参加派对的人”或“寻欢作乐的人”，以对应 partier。",
+      "translation_quote": "“叫他驴子、酒鬼或乡巴佬”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

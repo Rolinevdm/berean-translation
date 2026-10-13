@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T00:40:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"正文，“不可因你的 Gelassenheit 而自夸”段落\",\"severity\":\"minor\",\"source_quote\":\"“called a donkey, partier, or peasant”\",\"suggested_fix\":\"将“酒鬼”改为“爱参加派对的人”或“寻欢作乐的人”，以对应 partier。\",\"translation_quote\":\"“叫他驴子、酒鬼或乡巴佬”\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 397,
+    "content_evidence_truncated": false,
+    "content_sha256": "150895feefe365277d66656771ff7878622f972e7967058ad33c14545963a8eb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 812,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 683,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14616,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14613,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15428
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
