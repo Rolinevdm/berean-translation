@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a2293dff5bed4828b8a1cb0ba2d05a14",
   "campaign": "auto-445e4a6f817a76b27189f5c4184be4cf71db982fe7acd4f46873fbd20026c47b",
   "created_at": "2026-10-12T22:54:33+00:00",
   "events": [
@@ -68,39 +67,31 @@
         },
         "total_tokens": 5189
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 533,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 501,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3491,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2388,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4024
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning «Vi er lei av å leke religion»",
-      "severity": "major",
-      "source_quote": "tired of seminaries and Bible Schools that pump out thinkers who have no action",
-      "suggested_fix": "Bytt «seminarer» med «teologiske seminarer», slik at det står «lei av teologiske seminarer og bibelskoler som utdanner tenkere uten handling».",
-      "translation_quote": "lei av seminarer og bibelskoler som utdanner tenkere uten handling"
-    },
-    {
-      "location": "Paragraph beginning «Vi er ikke stoikere»",
-      "severity": "major",
-      "source_quote": "We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”",
-      "suggested_fix": "Erstatt «frafalne» med en formulering som ikke antyder at de har forlatt troen, for eksempel «folk som har hoppet av»: «Vi er ikke «folk som har hoppet av» fordi vi ikke har «respektable, trygge» jobber – vi er «helt overgitt».»",
-      "translation_quote": "Vi er ikke «frafalne» fordi vi ikke har «respektable, trygge» jobber – vi er «helt overgitt»."
-    },
-    {
-      "location": "Blockquote, «Don’t give us comfort—command us.»",
-      "severity": "minor",
-      "source_quote": "command us",
-      "suggested_fix": "Bruk «befal oss» for å gjengi oppfordringen direkte: «Ikke gi oss komfort – befal oss.»",
-      "translation_quote": "Ikke gi oss komfort – gi oss befalinger."
-    },
-    {
-      "location": "Blockquote, «Don’t give us blessings»",
-      "severity": "minor",
-      "source_quote": "grace to be unquestionably obedient",
-      "suggested_fix": "Vurder «utvilsomt lydige» i stedet for «ubetinget lydige», som heller kan bety lydighet uten vilkår.",
-      "translation_quote": "nåde til å være ubetinget lydige"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-13T03:22:02+00:00",
   "id": "40e0adabc954980f102d02979bfb8fa7",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "nob",
@@ -189,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -209,7 +200,7 @@
     "total_reserved_usd": 0.086794,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
   "translation_model_actual": "gpt-6-luna"
