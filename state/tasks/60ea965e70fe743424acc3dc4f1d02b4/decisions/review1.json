@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Marvin K. Mooney”",
+      "severity": "minor",
+      "source_quote": "go to the burn pile now!",
+      "suggested_fix": "Marvin K. Mooney, em nome de Jesus, vá agora para a pilha de livros para queimar!",
+      "translation_quote": "vá agora para a pilha de queima!"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

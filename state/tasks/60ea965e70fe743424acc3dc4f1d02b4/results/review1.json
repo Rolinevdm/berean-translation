@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2ed81d19-8455-41f5-9726-83c8ea96a093",
+    "response_id": "chatcmpl-EYcitJU3tqgrmdFz1O2Bp38lqk52n",
+    "usage": {
+      "completion_tokens": 638,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 526,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3948,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2845,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4586
+    }
+  },
+  "received_at": "2026-10-13T21:13:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Marvin K. Mooney”",
+        "severity": "minor",
+        "source_quote": "go to the burn pile now!",
+        "suggested_fix": "Marvin K. Mooney, em nome de Jesus, vá agora para a pilha de livros para queimar!",
+        "translation_quote": "vá agora para a pilha de queima!"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
