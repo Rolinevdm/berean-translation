@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1fd94f6fb4694f3293cee5677b52e6f7",
   "campaign": "auto-4b2140d09dd8464a75b696b0b14fb126426323504558010ce20161666f09ea26",
   "created_at": "2026-10-13T03:16:31+00:00",
   "events": [
@@ -68,74 +67,89 @@
         },
         "total_tokens": 24614
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 787,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 15454,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 15451,
+          "cached_tokens": 0
+        },
+        "total_tokens": 16241
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Aya inayoanza “Kristo anafundisha kwamba aina ya Gelassenheit…”",
+      "location": "Article, paragraph beginning “Kristo anasema waziwazi”",
       "severity": "major",
-      "source_quote": "“suffering at the right hand of God”",
-      "suggested_fix": "Badili “tukiteseka upande wa kuume wa Mungu” kuwa “tukiteseka kwa mkono wa kuume wa Mungu” au “tukiteseka chini ya mkono wa kuume wa Mungu,” kulingana na maana ya chanzo.",
-      "translation_quote": "“tukiteseka upande wa kuume wa Mungu”"
+      "source_quote": "suffering at the right hand of God",
+      "suggested_fix": "Replace “tukiteseka chini ya mkono wa kuume wa Mungu” with “tukiteseka katika mkono wa kuume wa Mungu” or another rendering that preserves the source’s “at,” not “under.”",
+      "translation_quote": "tukiteseka chini ya mkono wa kuume wa Mungu"
     },
     {
-      "location": "Aya inayoanza “Yeyote aliyelemewa na uhakika…”",
+      "location": "Article, paragraph beginning “Yeyote anayelemewa”",
       "severity": "major",
-      "source_quote": "“Anyone who is burdened by confidence, comfort, desire, care, and fear with regard to money or food sins against faith by as much as he has cares about money and food.”",
-      "suggested_fix": "Tafsiri “confidence” hapa kama kutegemea au kujiamini katika pesa/chakula, si uhakika; kwa mfano: “Yeyote anayelemewa na kutegemea, faraja, tamaa, wasiwasi na hofu kuhusu pesa au chakula hutenda dhambi dhidi ya imani kadiri anavyokuwa na wasiwasi kuhusu pesa na chakula.”",
-      "translation_quote": "“Yeyote aliyelemewa na uhakika, faraja, tamaa, wasiwasi na hofu kuhusu pesa au chakula hutenda dhambi dhidi ya imani kadiri anavyokuwa na wasiwasi kuhusu pesa na chakula.”"
+      "source_quote": "burdened by confidence, comfort, desire, care, and fear with regard to money or food",
+      "suggested_fix": "Replace “anayelemewa na kutegemea” with “anayelemewa na imani/ujasiri, faraja, tamaa, wasiwasi na hofu kuhusu pesa au chakula” to retain “confidence” rather than “reliance.”",
+      "translation_quote": "anayelemewa na kutegemea, faraja, tamaa, wasiwasi na hofu kuhusu pesa au chakula"
     },
     {
-      "location": "Kichwa “Usijivunie Gelassenheit yako” na aya inayofuata",
+      "location": "Article, paragraph beginning “Huenda mke wa Lutu”",
       "severity": "major",
-      "source_quote": "“Or, he might be secretly irked for having allowed himself to be hit without hitting back, although he was strong enough to have defended himself, or allowed himself to be called a donkey, partier, or peasant, without retorting.”",
-      "suggested_fix": "Tafsiri “partier” kwa maana ya mtu anayependa karamu/sherehe, si “mwasherati”; kwa mfano, “mwenye karamu.”",
-      "translation_quote": "“au akakubali kuitwa punda, mwasherati au mkulima, bila kujibu kwa ukali.”"
+      "source_quote": "mustard and fire rain down on Sodom and Gomorrah",
+      "suggested_fix": "Replace “kiberiti” with “sulfuri” or “kiberiti cha manjano” to convey sulfur, rather than matchsticks.",
+      "translation_quote": "aliponyesha kiberiti na moto juu ya Sodoma na Gomora"
     },
     {
-      "location": "Aya inayoanza “Kristo alisimulia mfano…”",
+      "location": "Article, paragraph beginning “Kuna maisha mawili”",
       "severity": "major",
-      "source_quote": "“He destroys it by keeping it alive”",
-      "suggested_fix": "Sahihisha kitenzi kurudiwa kimakosa kuwa “Anaiharibu kwa kuiweka hai.”",
-      "translation_quote": "“Anayahaaribu kwa kuyaweka hai”"
+      "source_quote": "the new or supernatural",
+      "suggested_fix": "Replace “ya kiungu” with “ya kiasili kisicho cha kawaida” or “ya kimbinguni” to preserve “supernatural,” not “divine.”",
+      "translation_quote": "mapya au ya kiungu"
     },
     {
-      "location": "Aya inayoanza “Haitoshi tu kutopenda maisha ya nafsi ya mtu.”",
+      "location": "Article, paragraph beginning “Kristo alisimulia mfano”",
       "severity": "major",
-      "source_quote": "“A strong salt must be added; a supernatural hatred and envy must replace our love for created things.”",
-      "suggested_fix": "Tafsiri “envy” kama wivu, si “upendeleo”; kwa mfano: “chuki ya ajabu na wivu lazima vichukue nafasi ya upendo wetu kwa vitu vilivyoumbwa.”",
-      "translation_quote": "“chuki ya ajabu na wivu lazima vichukue nafasi ya upendo wetu kwa vitu vilivyoumbwa”"
+      "source_quote": "a seed that had not died bears no fruit and remains alone",
+      "suggested_fix": "Replace “mbegu ambayo haikufa” with “mbegu ambayo haijafa” to preserve the ongoing condition described in the source.",
+      "translation_quote": "mbegu ambayo haikufa haizai matunda na hubaki peke yake"
     },
     {
-      "location": "Aya inayoanza “Maisha ya kale yanajumuisha…”",
+      "location": "Article, paragraph beginning “Haitoshi tu kutopenda”",
       "severity": "major",
-      "source_quote": "“The new life is the pure will and obedience of God and hates the soulishness of a person in all its active and affective aspects”",
-      "suggested_fix": "Hifadhi sifa ya “pure” kwa mapenzi pamoja na utii: “Maisha mapya ni mapenzi safi ya Mungu na utii kwake…”",
-      "translation_quote": "“Maisha mapya ni mapenzi safi na utii kwa Mungu”"
+      "source_quote": "a supernatural hatred and envy must replace our love for created things",
+      "suggested_fix": "Replace “chuki ya ajabu” with “chuki isiyo ya kawaida” or “chuki ya kimbinguni” to convey “supernatural,” not merely “strange.”",
+      "translation_quote": "chuki ya ajabu na wivu lazima vichukue nafasi ya upendo wetu kwa vitu vilivyoumbwa"
     },
     {
-      "location": "Kichwa “Hatari za maisha yetu,” aya inayoanza “Nadhani Gelassenheit…”",
+      "location": "Article, paragraph beginning “Mungu alitutumia Kristo Mwanawe”",
       "severity": "major",
-      "source_quote": "“You must not till or plow the land with firstborn oxen.”",
-      "suggested_fix": "Tafsiri “till or plow the land” kama kulima ardhi kwa mafahali, bila kurudia tendo la kulima: “Ni nini kingine kulima ardhi kunakoweza kutuonyesha, isipokuwa kwamba hatupaswi kujitumikia kwa vipawa vya Mungu?”",
-      "translation_quote": "“Ni jambo gani jingine kulima na kulima tena kunaloweza kutuonyesha, isipokuwa kwamba hatupaswi kujitumikia kwa vipawa vya Mungu?”"
+      "source_quote": "God sent us Christ His Son",
+      "suggested_fix": "Replace “Mungu alitutumia Kristo Mwanawe” with “Mungu alimtuma kwetu Kristo Mwanawe.”",
+      "translation_quote": "Mungu alitutumia Kristo Mwanawe"
     },
     {
-      "location": "Aya inayoanza “Kitu chochote ninachopaswa kukipenda…”",
+      "location": "Article, poem, second stanza",
       "severity": "major",
-      "source_quote": "“If I love a person for the joy of it or for my sake”",
-      "suggested_fix": "Rekebisha “furaha yake” kuwa “furaha yangu” ili kuhifadhi maana ya kumpenda mtu kwa ajili ya furaha ya mtu anayesema, au kwa manufaa yake mwenyewe.",
-      "translation_quote": "“Nikimpenda mtu kwa ajili ya furaha yake au kwa ajili yangu mwenyewe”"
-    },
-    {
-      "location": "Kichwa “Jinsi ya Kujaza Kikombe kwa Maji Safi,” aya inayoanza “Naam, tunamwaga…”",
-      "severity": "major",
-      "source_quote": "“for us to pick out the bad and leave the good”",
-      "suggested_fix": "Rekebisha “sisi kuchagua mabaya na kuacha mema” kuwa “sisi kuchagua mabaya na kuyaacha mema,” ili kitenzi “pick out” kisigeuzwe kuwa kuchagua mambo mabaya badala ya kuyaondoa.",
-      "translation_quote": "“Lakini sisi kuchagua mabaya na kuacha mema”"
+      "source_quote": "Lift my eyes from fleshly baubles",
+      "suggested_fix": "Replace “Inua macho yangu kutoka kwa mapambo ya mwili” with “Inua macho yangu kutoka kwa vitu vidogo vya kimwili vinavyovutia” or similar wording that conveys trivial, tempting objects, not bodily ornaments.",
+      "translation_quote": "Inua macho yangu kutoka kwa mapambo ya mwili"
     }
   ],
+  "finished_at": "2026-10-13T17:49:30+00:00",
   "id": "df6cf50a1573dc081ea38110153a3e6e",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swa",
@@ -224,7 +238,7 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -244,7 +258,7 @@
     "total_reserved_usd": 0.130032,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
   "translation_model_actual": "gpt-6-luna"
