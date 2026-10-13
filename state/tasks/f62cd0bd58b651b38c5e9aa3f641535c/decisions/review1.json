@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “We are not stoics”",
+      "severity": "minor",
+      "source_quote": "We are not stoics—we hurt and cry when loved ones leave us.",
+      "suggested_fix": "Replace “watu wasiojali” with wording meaning people who suppress or do not show their emotions, such as “stoiki,” so the contrast with hurting and crying is preserved.",
+      "translation_quote": "Sisi si watu wasiojali—huumia na kulia wapendwa wanapotutoka."
+    },
+    {
+      "location": "Paragraph beginning “We are not ‘drop-outs’”",
+      "severity": "major",
+      "source_quote": "We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”",
+      "suggested_fix": "Replace “waliotupa” with a term meaning people who have dropped out or opted out, preserving the contrast with being fully committed to Christ; for example, “Sisi si ‘waliojitoa’ kwa sababu hatuna kazi ‘zenye heshima na usalama’—sisi ‘tumejitoa kikamilifu.’”",
+      "translation_quote": "Sisi si “waliotupa” kwa sababu hatuna kazi “zenye heshima na usalama”—sisi “tumejitoa kikamilifu.”"
+    },
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "A black-and-white globe centered on Africa",
+      "suggested_fix": "Specify that the image shows a globe, for example: “Tufe la dunia nyeusi na nyeupe, Afrika ikiwa katikati.”",
+      "translation_quote": "Dunia yenye rangi nyeusi na nyeupe, Afrika ikiwa katikati"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

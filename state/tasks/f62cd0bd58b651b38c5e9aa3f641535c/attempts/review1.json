@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T07:41:01+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “We are not stoics”\",\"severity\":\"minor\",\"source_quote\":\"We are not stoics—we hurt and cry when loved ones leave us.\",\"suggested_fix\":\"Replace “watu wasiojali” with wording meaning people who suppress or do not show their emotions, such as “stoiki,” so the contrast with hurting and crying is preserved.\",\"translation_quote\":\"Sisi si watu wasiojali—huumia na kulia wapendwa wanapotutoka.\"},{\"location\":\"Paragraph beginning “We are not ‘drop-outs’”\",\"severity\":\"major\",\"source_quote\":\"We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”\",\"suggested_fix\":\"Replace “waliotupa” with a term meaning people who have dropped out or opted out, preserving the contrast with being fully committed to Christ; for example, “Sisi si ‘waliojitoa’ kwa sababu hatuna kazi ‘zenye heshima na usalama’—sisi ‘tumejitoa kikamilifu.’”\",\"translation_quote\":\"Sisi si “waliotupa” kwa sababu hatuna kazi “zenye heshima na usalama”—sisi “tumejitoa kikamilifu.”\"},{\"location\":\"Image alt text\",\"severity\":\"minor\",\"source_quote\":\"A black-and-white globe centered on Africa\",\"suggested_fix\":\"Specify that the image shows a globe, for example: “Tufe la dunia nyeusi na nyeupe, Afrika ikiwa katikati.”\",\"translation_quote\":\"Dunia yenye rangi nyeusi na nyeupe, Afrika ikiwa katikati\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 1469,
+    "content_evidence_truncated": false,
+    "content_sha256": "eec424efc61056eb38aca20141258890504bbe9e6d5cd96ff9a3313a2043cc0f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1095,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 721,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3532,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3529,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4627
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
