@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Heading “Hatred of the soulish life”",
+      "severity": "major",
+      "source_quote": "Hatred of the soulish life",
+      "suggested_fix": "आत्मिक जीवन से घृणा को “आत्मा-संबंधी जीवन से घृणा” या संदर्भ के अनुसार “प्राकृतिक, आत्मिक जीवन से घृणा” करें।",
+      "translation_quote": "आत्मिक जीवन से घृणा"
+    },
+    {
+      "location": "Paragraph under “Hatred of the soulish life”; also paragraph beginning “The old life consists of disobedience”",
+      "severity": "major",
+      "source_quote": "“a supernatural hatred and envy must replace our love for created things” and “the new life ... hates the soulishness of a person in all its active and affective aspects”",
+      "suggested_fix": "पहले वाक्य में “अलौकिक घृणा और ईर्ष्या” के साथ स्पष्ट करें कि यह सृजी हुई वस्तुओं के प्रति प्रेम का स्थान लेती है। दूसरे में “व्यक्ति की आत्मिक प्रवृत्ति” को “व्यक्ति की आत्मा-संबंधी प्रवृत्ति” से बदलें, ताकि soulishness को spiritual (आत्मिक) न समझा जाए।",
+      "translation_quote": "“सृजी हुई वस्तुओं के प्रति हमारे प्रेम का स्थान अलौकिक घृणा और ईर्ष्या को लेना चाहिए” and “व्यक्ति की आत्मिक प्रवृत्ति के हर सक्रिय और भावात्मक पहलू से घृणा करता है”"
+    },
+    {
+      "location": "Poem, first stanza",
+      "severity": "minor",
+      "source_quote": "“Break the alabaster bowl”",
+      "suggested_fix": "“संगमरमर का पात्र” को “स्फटिक-पाषाण का पात्र” या “अलबास्टर का पात्र” करें।",
+      "translation_quote": "संगमरमर का पात्र तोड़ दे"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
