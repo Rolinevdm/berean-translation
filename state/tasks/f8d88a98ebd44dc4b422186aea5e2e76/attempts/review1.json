@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T21:13:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph 1\",\"severity\":\"major\",\"source_quote\":\"We don’t put our nation’s economy before God’s economy.\",\"suggested_fix\":\"Мы не ставим экономику нашей страны выше Божьего хозяйства.\",\"translation_quote\":\"Мы не ставим экономику нашей страны выше Божьего замысла.\"},{\"location\":\"Article, prayer, paragraph 6\",\"severity\":\"minor\",\"source_quote\":\"Don’t give us comfort—command us.\",\"suggested_fix\":\"Не давай нам комфорта — повелевай нами.\",\"translation_quote\":\"Не давай нам покоя — повелевай нами.\"},{\"location\":\"Article, paragraph 21\",\"severity\":\"minor\",\"source_quote\":\"We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”\",\"suggested_fix\":\"Мы не «отказавшиеся от обычной жизни» только потому, что не занимаем «приличные, надёжные» должности, — мы «безраздельно преданы».\",\"translation_quote\":\"Мы не «сбежавшие» только потому, что не занимаем «приличные, надёжные» должности, — мы «безраздельно преданы».\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1420,
+    "content_evidence_truncated": false,
+    "content_sha256": "7f60387cdfc26ee8745aa9aa5986227105652d4cbf82ade18dcd63cf1b3e43b0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 890,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 595,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3496,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2393,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4386
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

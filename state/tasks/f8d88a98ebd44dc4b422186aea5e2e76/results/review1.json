@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "84cafde1-48b3-49c6-919b-080bbda9366d",
+    "response_id": "chatcmpl-EYdhZP3PQG1s2hh8N9uSp55GwoDR2",
+    "usage": {
+      "completion_tokens": 890,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 595,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3496,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2393,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4386
+    }
+  },
+  "received_at": "2026-10-13T21:13:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph 1",
+        "severity": "major",
+        "source_quote": "We don’t put our nation’s economy before God’s economy.",
+        "suggested_fix": "Мы не ставим экономику нашей страны выше Божьего хозяйства.",
+        "translation_quote": "Мы не ставим экономику нашей страны выше Божьего замысла."
+      },
+      {
+        "location": "Article, prayer, paragraph 6",
+        "severity": "minor",
+        "source_quote": "Don’t give us comfort—command us.",
+        "suggested_fix": "Не давай нам комфорта — повелевай нами.",
+        "translation_quote": "Не давай нам покоя — повелевай нами."
+      },
+      {
+        "location": "Article, paragraph 21",
+        "severity": "minor",
+        "source_quote": "We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”",
+        "suggested_fix": "Мы не «отказавшиеся от обычной жизни» только потому, что не занимаем «приличные, надёжные» должности, — мы «безраздельно преданы».",
+        "translation_quote": "Мы не «сбежавшие» только потому, что не занимаем «приличные, надёжные» должности, — мы «безраздельно преданы»."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

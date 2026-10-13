@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph 1",
+      "severity": "major",
+      "source_quote": "We don’t put our nation’s economy before God’s economy.",
+      "suggested_fix": "Мы не ставим экономику нашей страны выше Божьего хозяйства.",
+      "translation_quote": "Мы не ставим экономику нашей страны выше Божьего замысла."
+    },
+    {
+      "location": "Article, prayer, paragraph 6",
+      "severity": "minor",
+      "source_quote": "Don’t give us comfort—command us.",
+      "suggested_fix": "Не давай нам комфорта — повелевай нами.",
+      "translation_quote": "Не давай нам покоя — повелевай нами."
+    },
+    {
+      "location": "Article, paragraph 21",
+      "severity": "minor",
+      "source_quote": "We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”",
+      "suggested_fix": "Мы не «отказавшиеся от обычной жизни» только потому, что не занимаем «приличные, надёжные» должности, — мы «безраздельно преданы».",
+      "translation_quote": "Мы не «сбежавшие» только потому, что не занимаем «приличные, надёжные» должности, — мы «безраздельно преданы»."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
