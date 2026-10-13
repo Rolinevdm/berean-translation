@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Christ says in clear words”",
+      "severity": "minor",
+      "source_quote": "“what a frightful, pitiable thing it is to our intellect, will, and nature.”",
+      "suggested_fix": "«איזו אימה מעוררת היא בשכלנו, ברצוננו ובטבענו, וכמה מעוררת היא רחמים.»",
+      "translation_quote": "«איזו אימה מעוררת היא בנו — בשכלנו, ברצוננו ובטבענו.»"
+    },
+    {
+      "location": "Final paragraph",
+      "severity": "minor",
+      "source_quote": "“fill our life with what He has chosen for us!”",
+      "suggested_fix": "«למלא את חיינו במה שהוא בחר עבורנו!»",
+      "translation_quote": "«למלא את חיינו במה שהוא בחר עבור נו!»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e51058ce-ff42-4d5a-8ecc-f5c9201bc9f3",
+    "response_id": "chatcmpl-EYRVWZtEmZWfPqabsBW1tTTwMZtJp",
+    "usage": {
+      "completion_tokens": 1233,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15481,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14378,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 16714
+    }
+  },
+  "received_at": "2026-10-13T07:48:45+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Christ says in clear words”",
+        "severity": "minor",
+        "source_quote": "“what a frightful, pitiable thing it is to our intellect, will, and nature.”",
+        "suggested_fix": "«איזו אימה מעוררת היא בשכלנו, ברצוננו ובטבענו, וכמה מעוררת היא רחמים.»",
+        "translation_quote": "«איזו אימה מעוררת היא בנו — בשכלנו, ברצוננו ובטבענו.»"
+      },
+      {
+        "location": "Final paragraph",
+        "severity": "minor",
+        "source_quote": "“fill our life with what He has chosen for us!”",
+        "suggested_fix": "«למלא את חיינו במה שהוא בחר עבורנו!»",
+        "translation_quote": "«למלא את חיינו במה שהוא בחר עבור נו!»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
