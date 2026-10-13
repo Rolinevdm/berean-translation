@@ -5115,6 +5115,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.html",
+      "html_sha256": "03edc0e4da5e51c92b3639870acbf71bd0358a8305a14e8111c7b935217e7b34",
+      "human_reviewed": false,
+      "id": "51c6b872-b5d3-45c6-a0b1-d1dd48ece711",
+      "images": [
+        {
+          "alt": "يدان فوق كرة أرضية وتحتها",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-1.jpg"
+        },
+        {
+          "alt": "شخصان يساعدان شخصًا آخر على النهوض من الماء",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.json",
+      "metadata_sha256": "7f1ac903230c363f6c58362585d20a243bc892c26a7358facc640d27db390a47",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "e369a5ff3b588a942e849ecb739ff6a294ac9c00",
+      "source_translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
+      "status": "ready",
+      "subtitle": "شرح لمفهوم الكلمة الألمانية Gelassenheit.",
+      "title": "Gelassenheit—التحرّر المقصود من التعلّق",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.html",
       "html_sha256": "450c44eaa34e4d7ba7733c0e41d9566624da7bcbe2b0e3dc76c50d064d972ef4",
       "human_reviewed": false,
@@ -30948,6 +30980,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "एक ईसाई की प्रतिक्रिया",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.html",
+      "html_sha256": "505b15e8f445d5eaf25496011cd2c2b448a2eabe11a999885d72befc0356635c",
+      "human_reviewed": false,
+      "id": "fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd",
+      "images": [
+        {
+          "alt": "Elizabeth Hershberger Bauman की Coals of Fire पुस्तक का आवरण",
+          "public_path": "/images/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.json",
+      "metadata_sha256": "6d32233ec6eaa8c776b316a0763e4c9a4a91ce1a226bcd99900b5b354359997c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "पुस्तक-शेल्फ",
+      "source_revision": "5cc108b7f7605f1c415c013d8d7e8ea4b8e869b1",
+      "source_translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Coals of Fire",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -63891,6 +63951,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Del editor",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.html",
+      "html_sha256": "95da6d39e54c3f8968169e5cf546a78d68ad46c7f798eb5a4611949eca5a9056",
+      "human_reviewed": false,
+      "id": "fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd",
+      "images": [
+        {
+          "alt": "Portada de Ascuas de fuego, de Elizabeth Hershberger Bauman",
+          "public_path": "/images/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.json",
+      "metadata_sha256": "40c86ce8e35cb3504c957ba7eeccf6c0f345aa8d3a98d2d4df49d649b8c66c39",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "La estantería",
+      "source_revision": "5cc108b7f7605f1c415c013d8d7e8ea4b8e869b1",
+      "source_translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ascuas de fuego",
       "translation_model": "gpt-6-luna"
     },
     {
