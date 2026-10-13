@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0d830925-9d46-4c17-9823-9fa26ee24af3",
+    "response_id": "chatcmpl-EYNM6JGn1LFTUPflKa0L8z3TpB8Ux",
+    "usage": {
+      "completion_tokens": 971,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 841,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16373,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15270,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 17344
+    }
+  },
+  "received_at": "2026-10-13T03:21:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "শেষের aside, শেষ অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "“so that He can then fill our life with what He has chosen for us!”",
+        "suggested_fix": "“যাতে তারপর তিনি আমাদের জীবন তাঁর আমাদের জন্য বেছে নেওয়া জিনিস দিয়ে পূর্ণ করতে পারেন!”",
+        "translation_quote": "“যাতে তারপর তিনি আমাদের জীবন তাঁর জন্য বেছে নেওয়া জিনিস দিয়ে পূর্ণ করতে পারেন!”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

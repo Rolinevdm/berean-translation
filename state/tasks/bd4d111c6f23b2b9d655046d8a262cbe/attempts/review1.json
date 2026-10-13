@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T03:21:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"শেষের aside, শেষ অনুচ্ছেদ\",\"severity\":\"major\",\"source_quote\":\"“so that He can then fill our life with what He has chosen for us!”\",\"suggested_fix\":\"“যাতে তারপর তিনি আমাদের জীবন তাঁর আমাদের জন্য বেছে নেওয়া জিনিস দিয়ে পূর্ণ করতে পারেন!”\",\"translation_quote\":\"“যাতে তারপর তিনি আমাদের জীবন তাঁর জন্য বেছে নেওয়া জিনিস দিয়ে পূর্ণ করতে পারেন!”\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 737,
+    "content_evidence_truncated": false,
+    "content_sha256": "b4fb95a1d4c369c1314eaa964cd6f7a1391556708bc842cd426748c5fdef7d8c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 971,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 841,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16373,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15270,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 17344
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

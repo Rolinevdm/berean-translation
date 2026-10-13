@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddbe92a6e55946058f1f4a32515279a3",
   "campaign": "auto-1bfd050c2ca8f330b470068c5de33a67fb07301caa78d25ac55d44dae934eb05",
   "created_at": "2026-10-12T23:02:05+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 16019
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 971,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 841,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 16373,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 15270,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 17344
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "শেষের aside, শেষ অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "“so that He can then fill our life with what He has chosen for us!”",
+      "suggested_fix": "“যাতে তারপর তিনি আমাদের জীবন তাঁর আমাদের জন্য বেছে নেওয়া জিনিস দিয়ে পূর্ণ করতে পারেন!”",
+      "translation_quote": "“যাতে তারপর তিনি আমাদের জীবন তাঁর জন্য বেছে নেওয়া জিনিস দিয়ে পূর্ণ করতে পারেন!”"
+    }
+  ],
   "id": "bd4d111c6f23b2b9d655046d8a262cbe",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ben",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/dc00b1640eeaa70509a332ed5e671885caaab880a0116b7efd56947939c1296a.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.130046,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
   "translation_model_actual": "gpt-6-luna"
