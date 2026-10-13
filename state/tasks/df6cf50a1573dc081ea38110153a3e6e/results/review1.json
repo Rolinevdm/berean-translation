@@ -1,0 +1,94 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "04be67d9-170c-478d-968c-afafb028616c",
+    "response_id": "chatcmpl-EYRU4zEZsx4NF0R0OgXBFyvIu3tbD",
+    "usage": {
+      "completion_tokens": 1224,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15450,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14347,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 16674
+    }
+  },
+  "received_at": "2026-10-13T07:48:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Aya inayoanza “Kristo anafundisha kwamba aina ya Gelassenheit…”",
+        "severity": "major",
+        "source_quote": "“suffering at the right hand of God”",
+        "suggested_fix": "Badili “tukiteseka upande wa kuume wa Mungu” kuwa “tukiteseka kwa mkono wa kuume wa Mungu” au “tukiteseka chini ya mkono wa kuume wa Mungu,” kulingana na maana ya chanzo.",
+        "translation_quote": "“tukiteseka upande wa kuume wa Mungu”"
+      },
+      {
+        "location": "Aya inayoanza “Yeyote aliyelemewa na uhakika…”",
+        "severity": "major",
+        "source_quote": "“Anyone who is burdened by confidence, comfort, desire, care, and fear with regard to money or food sins against faith by as much as he has cares about money and food.”",
+        "suggested_fix": "Tafsiri “confidence” hapa kama kutegemea au kujiamini katika pesa/chakula, si uhakika; kwa mfano: “Yeyote anayelemewa na kutegemea, faraja, tamaa, wasiwasi na hofu kuhusu pesa au chakula hutenda dhambi dhidi ya imani kadiri anavyokuwa na wasiwasi kuhusu pesa na chakula.”",
+        "translation_quote": "“Yeyote aliyelemewa na uhakika, faraja, tamaa, wasiwasi na hofu kuhusu pesa au chakula hutenda dhambi dhidi ya imani kadiri anavyokuwa na wasiwasi kuhusu pesa na chakula.”"
+      },
+      {
+        "location": "Kichwa “Usijivunie Gelassenheit yako” na aya inayofuata",
+        "severity": "major",
+        "source_quote": "“Or, he might be secretly irked for having allowed himself to be hit without hitting back, although he was strong enough to have defended himself, or allowed himself to be called a donkey, partier, or peasant, without retorting.”",
+        "suggested_fix": "Tafsiri “partier” kwa maana ya mtu anayependa karamu/sherehe, si “mwasherati”; kwa mfano, “mwenye karamu.”",
+        "translation_quote": "“au akakubali kuitwa punda, mwasherati au mkulima, bila kujibu kwa ukali.”"
+      },
+      {
+        "location": "Aya inayoanza “Kristo alisimulia mfano…”",
+        "severity": "major",
+        "source_quote": "“He destroys it by keeping it alive”",
+        "suggested_fix": "Sahihisha kitenzi kurudiwa kimakosa kuwa “Anaiharibu kwa kuiweka hai.”",
+        "translation_quote": "“Anayahaaribu kwa kuyaweka hai”"
+      },
+      {
+        "location": "Aya inayoanza “Haitoshi tu kutopenda maisha ya nafsi ya mtu.”",
+        "severity": "major",
+        "source_quote": "“A strong salt must be added; a supernatural hatred and envy must replace our love for created things.”",
+        "suggested_fix": "Tafsiri “envy” kama wivu, si “upendeleo”; kwa mfano: “chuki ya ajabu na wivu lazima vichukue nafasi ya upendo wetu kwa vitu vilivyoumbwa.”",
+        "translation_quote": "“chuki ya ajabu na wivu lazima vichukue nafasi ya upendo wetu kwa vitu vilivyoumbwa”"
+      },
+      {
+        "location": "Aya inayoanza “Maisha ya kale yanajumuisha…”",
+        "severity": "major",
+        "source_quote": "“The new life is the pure will and obedience of God and hates the soulishness of a person in all its active and affective aspects”",
+        "suggested_fix": "Hifadhi sifa ya “pure” kwa mapenzi pamoja na utii: “Maisha mapya ni mapenzi safi ya Mungu na utii kwake…”",
+        "translation_quote": "“Maisha mapya ni mapenzi safi na utii kwa Mungu”"
+      },
+      {
+        "location": "Kichwa “Hatari za maisha yetu,” aya inayoanza “Nadhani Gelassenheit…”",
+        "severity": "major",
+        "source_quote": "“You must not till or plow the land with firstborn oxen.”",
+        "suggested_fix": "Tafsiri “till or plow the land” kama kulima ardhi kwa mafahali, bila kurudia tendo la kulima: “Ni nini kingine kulima ardhi kunakoweza kutuonyesha, isipokuwa kwamba hatupaswi kujitumikia kwa vipawa vya Mungu?”",
+        "translation_quote": "“Ni jambo gani jingine kulima na kulima tena kunaloweza kutuonyesha, isipokuwa kwamba hatupaswi kujitumikia kwa vipawa vya Mungu?”"
+      },
+      {
+        "location": "Aya inayoanza “Kitu chochote ninachopaswa kukipenda…”",
+        "severity": "major",
+        "source_quote": "“If I love a person for the joy of it or for my sake”",
+        "suggested_fix": "Rekebisha “furaha yake” kuwa “furaha yangu” ili kuhifadhi maana ya kumpenda mtu kwa ajili ya furaha ya mtu anayesema, au kwa manufaa yake mwenyewe.",
+        "translation_quote": "“Nikimpenda mtu kwa ajili ya furaha yake au kwa ajili yangu mwenyewe”"
+      },
+      {
+        "location": "Kichwa “Jinsi ya Kujaza Kikombe kwa Maji Safi,” aya inayoanza “Naam, tunamwaga…”",
+        "severity": "major",
+        "source_quote": "“for us to pick out the bad and leave the good”",
+        "suggested_fix": "Rekebisha “sisi kuchagua mabaya na kuacha mema” kuwa “sisi kuchagua mabaya na kuyaacha mema,” ili kitenzi “pick out” kisigeuzwe kuwa kuchagua mambo mabaya badala ya kuyaondoa.",
+        "translation_quote": "“Lakini sisi kuchagua mabaya na kuacha mema”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 89
+  }
+}
