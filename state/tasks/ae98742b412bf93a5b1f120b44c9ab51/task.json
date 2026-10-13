@@ -5,10 +5,31 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "53ee7b4c94dc4de4ae4802c1da02fe96",
   "campaign": "auto-66eaa5437a75af7283eba96600778c90e0a22058b09b39de72b1f59c32bd1dde",
   "created_at": "2026-10-13T03:16:35+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 10536,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 46,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 22786,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 22783,
+          "cached_tokens": 0
+        },
+        "total_tokens": 33322
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [
     {
       "location": "Throughout; for example, “Biblicism” section, paragraph beginning “What, then, does the Bible say…” and “Christocentrism” section, paragraph beginning “What does the Bible say…”",
@@ -124,7 +145,7 @@
   "review_attempts": 0,
   "review_model": "gpt-6.1-sol",
   "source_snapshot": "state/sources/aeddb1d51271942bdbe3417e46c90421b08605b5b1d872e8fb0309f7877921c7.json",
-  "stage": "correct",
+  "stage": "review2",
   "stage_budget": {
     "initial_stage": "correct",
     "max_candidate_bytes": 120000,
@@ -136,8 +157,8 @@
     "total_reserved_usd": 1.064707,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
-  "translation_model_actual": "gpt-6-luna"
+  "translation_model_actual": "gpt-6.1-sol"
 }
