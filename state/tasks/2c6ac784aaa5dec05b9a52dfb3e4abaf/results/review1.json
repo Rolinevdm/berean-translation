@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5666e1f0-2481-41f8-84c8-f2bfb99e0e46",
+    "response_id": "chatcmpl-EYRTMLVCvV4YjEmxLBkdzMoGplTa5",
+    "usage": {
+      "completion_tokens": 963,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 871,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15152,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15149,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16115
+    }
+  },
+  "received_at": "2026-10-13T07:48:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening paragraph",
+        "severity": "minor",
+        "source_quote": "“for the uncreated and higher things.”",
+        "suggested_fix": "«verso le cose incre ate e superiori»",
+        "translation_quote": "«verso le cose increata e superiori»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

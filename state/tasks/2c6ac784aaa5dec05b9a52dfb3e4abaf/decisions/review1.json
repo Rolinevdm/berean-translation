@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Opening paragraph",
+      "severity": "minor",
+      "source_quote": "“for the uncreated and higher things.”",
+      "suggested_fix": "«verso le cose incre ate e superiori»",
+      "translation_quote": "«verso le cose increata e superiori»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
