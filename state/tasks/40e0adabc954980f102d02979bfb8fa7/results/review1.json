@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fac74ee6-5828-45e5-8333-3d5f8988c72b",
+    "response_id": "chatcmpl-EYKorUZUJGyqoEkWzy0temZ4SEBnP",
+    "usage": {
+      "completion_tokens": 1035,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 584,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3486,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2383,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4521
+    }
+  },
+  "received_at": "2026-10-13T00:40:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning «Vi er lei av å leke religion»",
+        "severity": "major",
+        "source_quote": "tired of seminaries and Bible Schools that pump out thinkers who have no action",
+        "suggested_fix": "Bytt «seminarer» med «teologiske seminarer», slik at det står «lei av teologiske seminarer og bibelskoler som utdanner tenkere uten handling».",
+        "translation_quote": "lei av seminarer og bibelskoler som utdanner tenkere uten handling"
+      },
+      {
+        "location": "Paragraph beginning «Vi er ikke stoikere»",
+        "severity": "major",
+        "source_quote": "We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”",
+        "suggested_fix": "Erstatt «frafalne» med en formulering som ikke antyder at de har forlatt troen, for eksempel «folk som har hoppet av»: «Vi er ikke «folk som har hoppet av» fordi vi ikke har «respektable, trygge» jobber – vi er «helt overgitt».»",
+        "translation_quote": "Vi er ikke «frafalne» fordi vi ikke har «respektable, trygge» jobber – vi er «helt overgitt»."
+      },
+      {
+        "location": "Blockquote, «Don’t give us comfort—command us.»",
+        "severity": "minor",
+        "source_quote": "command us",
+        "suggested_fix": "Bruk «befal oss» for å gjengi oppfordringen direkte: «Ikke gi oss komfort – befal oss.»",
+        "translation_quote": "Ikke gi oss komfort – gi oss befalinger."
+      },
+      {
+        "location": "Blockquote, «Don’t give us blessings»",
+        "severity": "minor",
+        "source_quote": "grace to be unquestionably obedient",
+        "suggested_fix": "Vurder «utvilsomt lydige» i stedet for «ubetinget lydige», som heller kan bety lydighet uten vilkår.",
+        "translation_quote": "nåde til å være ubetinget lydige"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

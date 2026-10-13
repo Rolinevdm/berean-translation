@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «Vi er lei av å leke religion»",
+      "severity": "major",
+      "source_quote": "tired of seminaries and Bible Schools that pump out thinkers who have no action",
+      "suggested_fix": "Bytt «seminarer» med «teologiske seminarer», slik at det står «lei av teologiske seminarer og bibelskoler som utdanner tenkere uten handling».",
+      "translation_quote": "lei av seminarer og bibelskoler som utdanner tenkere uten handling"
+    },
+    {
+      "location": "Paragraph beginning «Vi er ikke stoikere»",
+      "severity": "major",
+      "source_quote": "We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”",
+      "suggested_fix": "Erstatt «frafalne» med en formulering som ikke antyder at de har forlatt troen, for eksempel «folk som har hoppet av»: «Vi er ikke «folk som har hoppet av» fordi vi ikke har «respektable, trygge» jobber – vi er «helt overgitt».»",
+      "translation_quote": "Vi er ikke «frafalne» fordi vi ikke har «respektable, trygge» jobber – vi er «helt overgitt»."
+    },
+    {
+      "location": "Blockquote, «Don’t give us comfort—command us.»",
+      "severity": "minor",
+      "source_quote": "command us",
+      "suggested_fix": "Bruk «befal oss» for å gjengi oppfordringen direkte: «Ikke gi oss komfort – befal oss.»",
+      "translation_quote": "Ikke gi oss komfort – gi oss befalinger."
+    },
+    {
+      "location": "Blockquote, «Don’t give us blessings»",
+      "severity": "minor",
+      "source_quote": "grace to be unquestionably obedient",
+      "suggested_fix": "Vurder «utvilsomt lydige» i stedet for «ubetinget lydige», som heller kan bety lydighet uten vilkår.",
+      "translation_quote": "nåde til å være ubetinget lydige"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
