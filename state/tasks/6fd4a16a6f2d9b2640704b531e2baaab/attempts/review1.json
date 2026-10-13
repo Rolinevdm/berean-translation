@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T07:48:50+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraph under “De gevaren van ons leven” (De. 15:19)\",\"severity\":\"major\",\"source_quote\":\"“You must not till or plow the land with firstborn oxen.”\",\"suggested_fix\":\"Change the first sentence to: „U mag het land niet bewerken of ploegen met eerstgeboren runderen.”\",\"translation_quote\":\"„U mag het eerstgeboren rund niet bewerken of ploegen.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 454,
+    "content_evidence_truncated": false,
+    "content_sha256": "716cd16ed1b6512a08b00bf3816fbb1c368b9ea387341f8aa9963a590331fc11",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 802,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 665,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14504,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13401,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15306
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
