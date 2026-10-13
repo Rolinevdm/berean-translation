@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, sjunde strofen, andra raden",
+      "severity": "minor",
+      "source_quote": "\"My precious child, look up.\"",
+      "suggested_fix": "”Mitt dyrbara barn, lyft blicken.”",
+      "translation_quote": "”Mitt dyrbara barn, se upp.”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

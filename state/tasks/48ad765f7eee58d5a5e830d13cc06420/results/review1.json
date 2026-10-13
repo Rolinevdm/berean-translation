@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "56146a0e-36a9-40c0-9d92-fcb98aca0326",
+    "response_id": "chatcmpl-EYKuwv2XvwgMARxsixlcSvrX4dD6U",
+    "usage": {
+      "completion_tokens": 137,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 46,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3354,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2251,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3491
+    }
+  },
+  "received_at": "2026-10-13T03:15:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, sjunde strofen, andra raden",
+        "severity": "minor",
+        "source_quote": "\"My precious child, look up.\"",
+        "suggested_fix": "”Mitt dyrbara barn, lyft blicken.”",
+        "translation_quote": "”Mitt dyrbara barn, se upp.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
