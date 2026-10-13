@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5e6d97f2779e4b3493b310dd1e933a29",
   "campaign": "auto-2d00183a281725c4593765f2fea3c25cb7c7f39d669b3514f4807641def2f02b",
   "created_at": "2026-10-12T22:54:28+00:00",
   "events": [
@@ -68,32 +67,40 @@
         },
         "total_tokens": 24839
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1093,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 940,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 16045,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 14942,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 17138
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Heading “Hatred of the soulish life”",
+      "location": "Paragraph beginning “Anyone who thus surrenders all things…”",
       "severity": "major",
-      "source_quote": "Hatred of the soulish life",
-      "suggested_fix": "आत्मिक जीवन से घृणा को “आत्मा-संबंधी जीवन से घृणा” या संदर्भ के अनुसार “प्राकृतिक, आत्मिक जीवन से घृणा” करें।",
-      "translation_quote": "आत्मिक जीवन से घृणा"
-    },
-    {
-      "location": "Paragraph under “Hatred of the soulish life”; also paragraph beginning “The old life consists of disobedience”",
-      "severity": "major",
-      "source_quote": "“a supernatural hatred and envy must replace our love for created things” and “the new life ... hates the soulishness of a person in all its active and affective aspects”",
-      "suggested_fix": "पहले वाक्य में “अलौकिक घृणा और ईर्ष्या” के साथ स्पष्ट करें कि यह सृजी हुई वस्तुओं के प्रति प्रेम का स्थान लेती है। दूसरे में “व्यक्ति की आत्मिक प्रवृत्ति” को “व्यक्ति की आत्मा-संबंधी प्रवृत्ति” से बदलें, ताकि soulishness को spiritual (आत्मिक) न समझा जाए।",
-      "translation_quote": "“सृजी हुई वस्तुओं के प्रति हमारे प्रेम का स्थान अलौकिक घृणा और ईर्ष्या को लेना चाहिए” and “व्यक्ति की आत्मिक प्रवृत्ति के हर सक्रिय और भावात्मक पहलू से घृणा करता है”"
-    },
-    {
-      "location": "Poem, first stanza",
-      "severity": "minor",
-      "source_quote": "“Break the alabaster bowl”",
-      "suggested_fix": "“संगमरमर का पात्र” को “स्फटिक-पाषाण का पात्र” या “अलबास्टर का पात्र” करें।",
-      "translation_quote": "संगमरमर का पात्र तोड़ दे"
+      "source_quote": "“They departed from me in their desires and the wickedness of their hearts and refused to hear me.”",
+      "suggested_fix": "“वे अपनी अभिलाषाओं और अपने मन की दुष्टता के कारण मुझसे दूर हो गए और मेरी बात सुनने से इनकार किया।”",
+      "translation_quote": "“वे अपनी अभिलाषाओं और अपने मन की दुष्टता के पीछे चले और मेरी बात सुनने से इनकार किया।”"
     }
   ],
+  "finished_at": "2026-10-13T07:41:12+00:00",
   "id": "5f192655f50d3a525c05fef55e8cf5d3",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "hin",
@@ -182,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +209,7 @@
     "total_reserved_usd": 0.130042,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
   "translation_model_actual": "gpt-6-luna"

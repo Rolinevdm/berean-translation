@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Anyone who thus surrenders all things…”",
+      "severity": "major",
+      "source_quote": "“They departed from me in their desires and the wickedness of their hearts and refused to hear me.”",
+      "suggested_fix": "“वे अपनी अभिलाषाओं और अपने मन की दुष्टता के कारण मुझसे दूर हो गए और मेरी बात सुनने से इनकार किया।”",
+      "translation_quote": "“वे अपनी अभिलाषाओं और अपने मन की दुष्टता के पीछे चले और मेरी बात सुनने से इनकार किया।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

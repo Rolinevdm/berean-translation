@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "dd943f22-30b7-4131-9e97-6951b0f42aba",
+    "response_id": "chatcmpl-EYNPywTgCn28tRcawCYOo0IKZojkz",
+    "usage": {
+      "completion_tokens": 1093,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 940,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16045,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14942,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 17138
+    }
+  },
+  "received_at": "2026-10-13T07:41:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Anyone who thus surrenders all things…”",
+        "severity": "major",
+        "source_quote": "“They departed from me in their desires and the wickedness of their hearts and refused to hear me.”",
+        "suggested_fix": "“वे अपनी अभिलाषाओं और अपने मन की दुष्टता के कारण मुझसे दूर हो गए और मेरी बात सुनने से इनकार किया।”",
+        "translation_quote": "“वे अपनी अभिलाषाओं और अपने मन की दुष्टता के पीछे चले और मेरी बात सुनने से इनकार किया।”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
