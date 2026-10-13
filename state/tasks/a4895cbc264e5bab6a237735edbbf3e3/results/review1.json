@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f257bebc-faa1-4127-9b16-93d2295cb263",
+    "response_id": "chatcmpl-EYNRx4JakSxalOZjIu8WXvcYpxzcP",
+    "usage": {
+      "completion_tokens": 1177,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15957,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14854,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 17134
+    }
+  },
+  "received_at": "2026-10-13T07:41:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, first stanza",
+        "severity": "minor",
+        "source_quote": "Break the alabaster bowl,",
+        "suggested_fix": "عقیقِ سفید کا پیالہ توڑ دے،",
+        "translation_quote": "عطر کا پیالہ توڑ دے،"
+      },
+      {
+        "location": "Poem, second stanza",
+        "severity": "minor",
+        "source_quote": "Lift my eyes from fleshly baubles",
+        "suggested_fix": "میری نگاہیں جسمانی زیب و زینت سے اٹھا",
+        "translation_quote": "میری نگاہیں جسمانی کھلونوں سے اٹھا"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
