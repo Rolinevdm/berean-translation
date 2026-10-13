@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T03:15:41+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"783fddfc-86ed-44d9-b13e-e4adea31a5d5\\\">\\n  <blockquote>\\n    <p>Nous devons réduire notre ouvrage aux simples évangélistes, choisir, même parmi eux, uniquement les paroles mêmes de Jésus, en éliminant les amphibologies [ambiguïtés] dans lesquelles ils ont été entraînés .... Il restera alors le code moral le plus sublime et le plus bienveillant jamais proposé à l’humanité. J’ai effectué cette opération pour mon propre usage, en découpant verset par verset le livre imprimé et en assemblant les passages qui sont manifestement de Lui, et que l’on distingue aussi facilement que des diamants dans un tas de fumier.</p>\\n  </blockquote>\\n  <p>C’est ainsi que Thomas Jefferson parlait de son projet visant à purger la Bible des idées fausses et des interprétations erronées introduites par les auteurs des quatre Évangiles eux-mêmes. Lorsqu’il eut fini d’utiliser son rasoir (oui, il s’en est littéralement servi pour découper et coller ensemble les passages qu’il voulait !), Jefferson avait réussi à éliminer toute référence aux anges, à la généalogie, aux prophéties, aux miracles, à la résurrection et à la divinité de Jésus. Les derniers mots de The Jefferson Bible sont : « Or, à l’endroit où il avait été crucifié, il y avait un jardin ; et dans ce jardin un sépulcre neuf, où personne n’avait encore été déposé. C’est là qu’ils déposèrent Jésus. Et ils roulèrent une grosse pierre devant l’entrée du sépulcre, puis s’en allèrent. »</p>\\n  <p>Une Bible sans résurrection ! Thomas Jefferson choisissait ce qu’il voulait croire. Il voulait une Bible dépouillée de tout ce qui n’était pas directement lié à Jésus.</p>\\n  <p>Percival Everett raconte ce qui s’est réellement passé :</p>\\n  <blockquote>\\n    <p>Il a décidé que les règles du club auquel il souhaitait appartenir n’étaient pas celles selon lesquelles il voulait jouer. Alors, au lieu de changer de club, il a changé le règlement en découpant et en assemblant littéralement uniquement les passages qu’il jugeait pertinents pour son interprétation.</p>\\n  </blockquote>\\n  <p>Vous avez bien compris ? Au lieu de créer une Bible christocentrique, Thomas Jefferson a créé une Bible jeffersonocentrique !</p>\\n  <p>Bien que probablement aucun d’entre nous ne prenne littéralement un rasoir pour découper sa Bible, le faisons-nous dans notre esprit ? Cherchons-nous à changer les règles du club (le royaume de Dieu), ou cherchons-nous à changer de club (à naître dans le royaume par la puissance du Saint-Esprit) ? ~</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"La Bible de Jefferson\"}",
+    "content_bytes": 2726,
+    "content_evidence_truncated": false,
+    "content_sha256": "356202b1ea4feda01a09fd07269db6aae024562081ce790863da81ebc44c0f0a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 986,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 325,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2145,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2142,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3131
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 2
+}
