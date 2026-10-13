@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T07:48:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem, first stanza, lines 1–3\",\"severity\":\"minor\",\"source_quote\":\"“Bind the gift upon the altar, / Break the alabaster bowl, / Lay Thy hands upon my spirit—”\",\"suggested_fix\":\"Preserve the imperative mood, for example: «Ata el don sobre el altar, / rompe el vaso de alabastro, / pon tus manos sobre mi espíritu:»\",\"translation_quote\":\"“Atas el don sobre el altar, / rompes el vaso de alabastro, / pones tus manos sobre mi espíritu:”\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 534,
+    "content_evidence_truncated": false,
+    "content_sha256": "e031e216f9f2f692a395a0fd92898c4392a11c9230c7c724f011023fcf52f58e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 757,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 601,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14328,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13225,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15085
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
