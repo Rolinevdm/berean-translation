@@ -5,11 +5,75 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "619206c292214a5b91eb0a2e5366a8f1",
   "campaign": "auto-985ea048d5dfb9baeca2f278097ac3ef3a281022cad0e2578bbc38fcc9fb45d8",
   "created_at": "2026-10-13T03:22:40+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 709,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 97,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1996,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 893,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2705
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, diktens rad 8",
+      "severity": "major",
+      "source_quote": "For he knows very well it will cost us our soul.",
+      "suggested_fix": "Ty han vet mycket väl att det kommer att kosta oss vår själ.",
+      "translation_quote": "Ty han vet mycket väl att det kan kosta oss vår själ."
+    },
+    {
+      "location": "translation.html, diktens rad 10",
+      "severity": "major",
+      "source_quote": "He’ll trick and deceive, each soul to pursue.",
+      "suggested_fix": "Han lurar och bedrar för att förfölja varje själ.",
+      "translation_quote": "Han lurar och bedrar och jagar varje själ han kan täcka."
+    },
+    {
+      "location": "translation.html, diktens rad 2",
+      "severity": "minor",
+      "source_quote": "The things that are bad will all be in hell.",
+      "suggested_fix": "Allt som är ont ska hamna i helvetet.",
+      "translation_quote": "Det som är ont ska alla hamna i helvetet."
+    },
+    {
+      "location": "translation.html, diktens rad 6",
+      "severity": "minor",
+      "source_quote": "He spreads all his lies, the truth to distort.",
+      "suggested_fix": "Han sprider alla sina lögner för att förvränga sanningen.",
+      "translation_quote": "Han sprider alla sina lögner för att sanningen förvränga stort."
+    },
+    {
+      "location": "translation.html, mellan diktens rad 15 och 16",
+      "severity": "minor",
+      "source_quote": "For the eyes of the Lord seek to and fro,<br>\n  To find one perfect, His power He’ll show!",
+      "suggested_fix": "Återställ radbrytningen: Ty Herrens ögon söker hit och dit,<br>\n  för att finna en enda fullkomlig — då skall Han visa sin kraft!",
+      "translation_quote": "Ty Herrens ögon söker hit och dit\n  för att finna en enda fullkomlig — då skall Han visa sin kraft!"
+    },
+    {
+      "location": "translation.html, diktens rad 17",
+      "severity": "minor",
+      "source_quote": "Let’s be done with the lesser and look far beyond.",
+      "suggested_fix": "Låt oss lämna det mindre viktiga bakom oss och blicka långt bortom det.",
+      "translation_quote": "Låt oss göra slut med det lilla och se långt bortom."
+    }
+  ],
   "id": "47f11f225db91cc8da2fb17d05b16b4e",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "swe",
@@ -98,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +181,7 @@
     "total_reserved_usd": 0.676707,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

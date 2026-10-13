@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T07:41:19+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, diktens rad 8\",\n      \"severity\": \"major\",\n      \"source_quote\": \"For he knows very well it will cost us our soul.\",\n      \"suggested_fix\": \"Ty han vet mycket väl att det kommer att kosta oss vår själ.\",\n      \"translation_quote\": \"Ty han vet mycket väl att det kan kosta oss vår själ.\"\n    },\n    {\n      \"location\": \"translation.html, diktens rad 10\",\n      \"severity\": \"major\",\n      \"source_quote\": \"He’ll trick and deceive, each soul to pursue.\",\n      \"suggested_fix\": \"Han lurar och bedrar för att förfölja varje själ.\",\n      \"translation_quote\": \"Han lurar och bedrar och jagar varje själ han kan täcka.\"\n    },\n    {\n      \"location\": \"translation.html, diktens rad 2\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"The things that are bad will all be in hell.\",\n      \"suggested_fix\": \"Allt som är ont ska hamna i helvetet.\",\n      \"translation_quote\": \"Det som är ont ska alla hamna i helvetet.\"\n    },\n    {\n      \"location\": \"translation.html, diktens rad 6\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"He spreads all his lies, the truth to distort.\",\n      \"suggested_fix\": \"Han sprider alla sina lögner för att förvränga sanningen.\",\n      \"translation_quote\": \"Han sprider alla sina lögner för att sanningen förvränga stort.\"\n    },\n    {\n      \"location\": \"translation.html, mellan diktens rad 15 och 16\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"For the eyes of the Lord seek to and fro,<br>\\n  To find one perfect, His power He’ll show!\",\n      \"suggested_fix\": \"Återställ radbrytningen: Ty Herrens ögon söker hit och dit,<br>\\n  för att finna en enda fullkomlig — då skall Han visa sin kraft!\",\n      \"translation_quote\": \"Ty Herrens ögon söker hit och dit\\n  för att finna en enda fullkomlig — då skall Han visa sin kraft!\"\n    },\n    {\n      \"location\": \"translation.html, diktens rad 17\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Let’s be done with the lesser and look far beyond.\",\n      \"suggested_fix\": \"Låt oss lämna det mindre viktiga bakom oss och blicka långt bortom det.\",\n      \"translation_quote\": \"Låt oss göra slut med det lilla och se långt bortom.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 89\n}",
+    "content_bytes": 2299,
+    "content_evidence_truncated": false,
+    "content_sha256": "ffb83f143e3b8a6c94c020f181825afec31858d66feb9bf7fa90027bdda54792",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 709,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1996,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 893,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2705
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
