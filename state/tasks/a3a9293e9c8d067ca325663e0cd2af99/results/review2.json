@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "644bd140-5f05-4e88-a150-b83b4a84fc68",
+    "response_id": "chatcmpl-EYKtIOA6b2ps16LjepnKTzUholfJd",
+    "usage": {
+      "completion_tokens": 217,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8669,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7566,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8886
+    }
+  },
+  "received_at": "2026-10-13T03:15:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html، الفقرة التي تبدأ بـ«من الواضح أن الأمريكيين»",
+        "severity": "minor",
+        "source_quote": "If you are an American in a developing country, you are heralded as a king.",
+        "suggested_fix": "إذا كنت أمريكيًا في بلد نامٍ، فيُحتفى بك كالملك.",
+        "translation_quote": "إذا كنت أمريكيًا في بلد نامٍ، فأنت تُحتفى بك كالملك."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

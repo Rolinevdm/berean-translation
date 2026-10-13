@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، الفقرة التي تبدأ بـ«من الواضح أن الأمريكيين»",
+      "severity": "minor",
+      "source_quote": "If you are an American in a developing country, you are heralded as a king.",
+      "suggested_fix": "إذا كنت أمريكيًا في بلد نامٍ، فيُحتفى بك كالملك.",
+      "translation_quote": "إذا كنت أمريكيًا في بلد نامٍ، فأنت تُحتفى بك كالملك."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
