@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "aafd13401e804a68a2ea733972d0d6b6",
   "campaign": "auto-4ae5b5f9573931a3ede631b4fe3436e386a7fc6315b47a6c7651085ef59f1084",
   "created_at": "2026-10-12T22:54:38+00:00",
   "events": [
@@ -48,81 +47,31 @@
         },
         "total_tokens": 13442
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 93,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 61,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8674,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7571,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8767
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, Scripture quotation in paragraph beginning “Als wir nun dort viele Tage geblieben waren”",
-      "severity": "major",
-      "source_quote": "What mean ye to weep and to break mine heart?",
-      "suggested_fix": "Replace “Was wollt ihr; ihr setzt euch wohl nieder und wollt mir das Herz zerreißen?” with “Warum weint ihr und brecht mir das Herz?” Preserve the surrounding HTML and reference.",
-      "translation_quote": "Was wollt ihr; ihr setzt euch wohl nieder und wollt mir das Herz zerreißen?"
-    },
-    {
-      "location": "translation.html, paragraph beginning “Im Zweiten Weltkrieg”",
-      "severity": "major",
-      "source_quote": "a fox hole housing soldiers",
-      "suggested_fix": "Replace “einen Schützenstall” with “ein mit Soldaten besetztes Schützenloch”.",
-      "translation_quote": "einen Schützenstall"
-    },
-    {
-      "location": "translation.html, Luke quotation, sentence following the comparison of armies",
-      "severity": "major",
-      "source_quote": "Or else, while the other is yet a great way off, he sendeth an ambassage, and desireth conditions of peace.",
-      "suggested_fix": "Replace this sentence with “Wenn er dazu nicht imstande ist, sendet er, solange der andere noch weit entfernt ist, eine Gesandtschaft und bittet um Friedensbedingungen.”",
-      "translation_quote": "Und will er nicht, so dass der andere noch fern ist, einen Gesandten senden und um Friedensbedingungen bitten?"
-    },
-    {
-      "location": "translation.html, opening paragraph",
-      "severity": "minor",
-      "source_quote": "serving Christ would most certainly cost them everything",
-      "suggested_fix": "Replace “sehr wahrscheinlich” with “mit Sicherheit”.",
-      "translation_quote": "Christus zu dienen würde sie sehr wahrscheinlich alles kosten"
-    },
-    {
-      "location": "translation.html, Luke quotation, tower illustration",
-      "severity": "minor",
-      "source_quote": "all that behold it begin to mock him",
-      "suggested_fix": "Replace “alle, die ihn ansehen, anzufangen, ihn zu verspotten” with “alle, die ihn ansehen, anfangen, ihn zu verspotten”.",
-      "translation_quote": "alle, die ihn ansehen, anzufangen, ihn zu verspotten"
-    },
-    {
-      "location": "translation.html, paragraph beginning “Wie wandelte Er?”",
-      "severity": "minor",
-      "source_quote": "He didn’t fit in, and He didn’t last long.",
-      "suggested_fix": "Replace “Er dauerte nicht lange” with “Er lebte nicht lange”.",
-      "translation_quote": "Er passte Er nicht hinein, und Er dauerte nicht lange."
-    },
-    {
-      "location": "translation.html, paragraph beginning “Wenn wir leben, um dem Fleisch zu gefallen”",
-      "severity": "minor",
-      "source_quote": "we have our lives figured out; in John the Baptist’s shoes; If we would be sitting in prison for doing nothing wrong",
-      "suggested_fix": "Replace “unser Leben feststeht” with “wir unser Leben durchgeplant haben”; replace “in den Schuhen Johannes des Täufers” with “in der Lage Johannes des Täufers”; replace “Wenn wir uns ohne Grund im Gefängnis säßen” with “Wenn wir im Gefängnis säßen, obwohl wir nichts Unrechtes getan hätten”.",
-      "translation_quote": "unser Leben feststeht; in den Schuhen Johannes des Täufers; Wenn wir uns ohne Grund im Gefängnis säßen"
-    },
-    {
-      "location": "translation.html, John 12:25 quotation",
-      "severity": "minor",
-      "source_quote": "hateth his life in this world",
-      "suggested_fix": "Replace “haßt” with the contemporary spelling “hasst”.",
-      "translation_quote": "sein Leben in dieser Welt haßt"
-    },
-    {
-      "location": "translation.html, poem, first stanza",
-      "severity": "minor",
-      "source_quote": "Have done with lesser things.",
-      "suggested_fix": "Replace “Schafft Schluss mit geringeren Dingen.” with “Macht Schluss mit geringeren Dingen.”",
-      "translation_quote": "Schafft Schluss mit geringeren Dingen."
-    },
-    {
-      "location": "translation.html, poem, second stanza",
-      "severity": "minor",
-      "source_quote": "Bring in the day of Christlike love",
-      "suggested_fix": "Replace “Bringt den Tag christlicher Liebe” with “Bringt den Tag einer Liebe wie der Christi”.",
-      "translation_quote": "Bringt den Tag christlicher Liebe"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-13T03:15:17+00:00",
   "id": "ecc314b277d481f5ce8138edca579781",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "deu",
@@ -211,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -230,7 +179,7 @@
     "total_reserved_usd": 0.760904,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
   "translation_model_actual": "gpt-6.1-sol"
