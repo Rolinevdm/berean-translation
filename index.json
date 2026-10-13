@@ -15068,6 +15068,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "629671f98bc7136750040f37e1adb0fc12234ffb172816a117db090aec6941f8",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "Ein historisches religiöses Kunstwerk mit Christus im Zentrum, umgeben von vielen Gestalten",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "Eine Illustration, auf der ein Mann über einem anderen Mann ein Schwert erhebt",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "d7d9944b30815f05a1c2ebace1a4fb695bfb4f49aa168e285b38093c0fb58023",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die Ursache der Spaltung … und ihre Heilung",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
       "html_sha256": "86f396e5477d701a04ba20a81e25994b82544562b9dbc848051ef34f4bdc2b98",
       "human_reviewed": false,
@@ -15243,6 +15275,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Zuversicht",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.html",
+      "html_sha256": "ecae9ff55ddf3477d34c62bc794636f2f834369ce517ff0de19f4fddbb9e3d37",
+      "human_reviewed": false,
+      "id": "51c6b872-b5d3-45c6-a0b1-d1dd48ece711",
+      "images": [
+        {
+          "alt": "Zwei Hände, über und unter einem Globus",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-1.jpg"
+        },
+        {
+          "alt": "Zwei Menschen helfen einer weiteren Person, aus dem Wasser aufzustehen",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.json",
+      "metadata_sha256": "706a16209ea1288e2769dcba44d518f450f2079ef6451f3702e13b0d197939e0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "d736713df08f5b60d8496307771de20eb1237d0b",
+      "source_translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
+      "status": "ready",
+      "subtitle": "Eine Erklärung des Begriffs Gelassenheit.",
+      "title": "Gelassenheit – bewusstes Loslassen",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -18309,6 +18373,38 @@
       "subtitle": "ΜΕΡΟΣ 2",
       "title": "Καρκίνος",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.html",
+      "html_sha256": "305efb511b34842452c8cc6248b41b176da839e643f7a45ec3b191b5bbdb0638",
+      "human_reviewed": false,
+      "id": "51c6b872-b5d3-45c6-a0b1-d1dd48ece711",
+      "images": [
+        {
+          "alt": "Δύο χέρια πάνω και κάτω από μια υδρόγειο",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-1.jpg"
+        },
+        {
+          "alt": "Δύο άνθρωποι βοηθούν κάποιον να σηκωθεί από το νερό",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.json",
+      "metadata_sha256": "83c43e239d8afd525bac73cc56de49448ae022ae6f3a3d0cfaeabb5933eef1b2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "d736713df08f5b60d8496307771de20eb1237d0b",
+      "source_translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
+      "status": "ready",
+      "subtitle": "Μια εξήγηση της έννοιας της γερμανικής λέξης Gelassenheit.",
+      "title": "Gelassenheit—Η εκούσια αποδέσμευση",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -22944,6 +23040,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "Pots",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
+      "html_sha256": "3fb858e5b6a4cd872ec9f20f9a6ef70faefa2e24f2fb0c97bc87ed2a23299ac5",
+      "human_reviewed": false,
+      "id": "783fddfc-86ed-44d9-b13e-e4adea31a5d5",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.json",
+      "metadata_sha256": "5ab536e724edd3c33e44522614fedca633af551b71558fee93a7f3efbc3b6817",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La Bible de Jefferson",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -49111,6 +49230,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
+      "html_sha256": "b2304660a783da24f41d8361b0f596cd6d88ef1aaec0817a83af86b80ebc1d86",
+      "human_reviewed": false,
+      "id": "783fddfc-86ed-44d9-b13e-e4adea31a5d5",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.json",
+      "metadata_sha256": "2c9b8fd3ab70ccfc3f15a75daca2f458472e63d5709bb86782496ebb624dac08",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Jefferson-bibelen",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
       "html_sha256": "230ab7a18a52aab3d61e53d8c421617f233ccb3cbad4bd5aad4c58ec13d2812c",
       "human_reviewed": false,
@@ -55779,6 +55921,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "A resposta de um cristão",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.html",
+      "html_sha256": "47b4124234590f266e68e6c6343fccd1f4793c5cb1e056b9a2e3e2a6c860dc74",
+      "human_reviewed": false,
+      "id": "fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd",
+      "images": [
+        {
+          "alt": "Capa de Coals of Fire, de Elizabeth Hershberger Bauman",
+          "public_path": "/images/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.json",
+      "metadata_sha256": "5185bfaf99a062c0641f0bfe597b193c947f00cd1292651ce4397814c7d8c8f3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "A estante de livros",
+      "source_revision": "5cc108b7f7605f1c415c013d8d7e8ea4b8e869b1",
+      "source_translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Brasas de fogo",
       "translation_model": "gpt-6-luna"
     },
     {
