@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "শেষের aside, শেষ অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "“so that He can then fill our life with what He has chosen for us!”",
+      "suggested_fix": "“যাতে তারপর তিনি আমাদের জীবন তাঁর আমাদের জন্য বেছে নেওয়া জিনিস দিয়ে পূর্ণ করতে পারেন!”",
+      "translation_quote": "“যাতে তারপর তিনি আমাদের জীবন তাঁর জন্য বেছে নেওয়া জিনিস দিয়ে পূর্ণ করতে পারেন!”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+  "stage": "terminal"
+}

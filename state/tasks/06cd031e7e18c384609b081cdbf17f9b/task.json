@@ -5,10 +5,11 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cdbe14aa862b4c29b801e1dfd15b3aee",
   "campaign": "auto-3486a745f9bf585f0d4ae0b361050d5392c4e664365995102a1c64408304eec4",
   "created_at": "2026-10-13T07:42:09+00:00",
   "events": [],
+  "failure": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+  "failure_kind": "provider_error",
   "findings": [
     {
       "location": "শেষের aside, শেষ অনুচ্ছেদ",
@@ -18,6 +19,7 @@
       "translation_quote": "“যাতে তারপর তিনি আমাদের জীবন তাঁর জন্য বেছে নেওয়া জিনিস দিয়ে পূর্ণ করতে পারেন!”"
     }
   ],
+  "finished_at": "2026-10-13T21:13:14+00:00",
   "id": "06cd031e7e18c384609b081cdbf17f9b",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ben",
@@ -106,6 +108,11 @@
     }
   },
   "protected": false,
+  "provider_failure": {
+    "action": "Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+    "code": "provider_error",
+    "http_status": 500
+  },
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 0,
   "review_model": "gpt-6.1-sol",
@@ -122,7 +129,7 @@
     "total_reserved_usd": 1.03561,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
   "translation_model_actual": "gpt-6-luna"
