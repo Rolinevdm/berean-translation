@@ -15622,6 +15622,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.html",
+      "html_sha256": "47d42b9c2230c5962477f826e4d2373f2e971cc869335542dca083b3eae6c51c",
+      "human_reviewed": false,
+      "id": "6f528c85-5ee6-4ccd-804f-63652b5c3a1d",
+      "images": [
+        {
+          "alt": "Ein schwarz-weißer Globus mit Afrika im Mittelpunkt",
+          "public_path": "/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.json",
+      "metadata_sha256": "e9f18a2bf4b036fd13941caaffb15acca365618bccb49e44ca83a4f36dd57e80",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "e369a5ff3b588a942e849ecb739ff6a294ac9c00",
+      "source_translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wir sind Weltchristen",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9.html",
       "html_sha256": "f493d14a8860f4c167d8ec5914de494d3f86124ae4ff1961c0fc68142ec4c134",
       "human_reviewed": false,
