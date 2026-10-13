@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "dfd691f0-abfa-43d5-a15c-9c8a82cb5c8b",
+    "response_id": "chatcmpl-EYKxhMwNJw5ruII5QfTYo5xM9S4tV",
+    "usage": {
+      "completion_tokens": 617,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3552,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2449,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4169
+    }
+  },
+  "received_at": "2026-10-13T03:15:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph before attribution",
+        "severity": "minor",
+        "source_quote": "We would rather obey and do the job, not talk about it.",
+        "suggested_fix": "Ons is liewer gehoorsaam en doen die werk as om daaroor te praat.",
+        "translation_quote": "Ons doen liewer gehoorsaam die werk as om daaroor te praat."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

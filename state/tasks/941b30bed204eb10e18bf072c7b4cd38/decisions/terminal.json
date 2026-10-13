@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph before attribution",
+      "severity": "minor",
+      "source_quote": "We would rather obey and do the job, not talk about it.",
+      "suggested_fix": "Ons is liewer gehoorsaam en doen die werk as om daaroor te praat.",
+      "translation_quote": "Ons doen liewer gehoorsaam die werk as om daaroor te praat."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

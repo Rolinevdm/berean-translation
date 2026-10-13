@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T03:15:37+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph before attribution\",\"severity\":\"minor\",\"source_quote\":\"We would rather obey and do the job, not talk about it.\",\"suggested_fix\":\"Ons is liewer gehoorsaam en doen die werk as om daaroor te praat.\",\"translation_quote\":\"Ons doen liewer gehoorsaam die werk as om daaroor te praat.\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 372,
+    "content_evidence_truncated": false,
+    "content_sha256": "fac64e59de79e663b038c3bd54f31b44b2745aa0fbc3e17fed8951ef705a999d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 617,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3552,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2449,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4169
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
