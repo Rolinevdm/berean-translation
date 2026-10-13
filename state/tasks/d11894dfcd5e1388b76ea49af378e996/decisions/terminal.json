@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "첫 번째 인용문",
+      "severity": "minor",
+      "source_quote": "We must reduce our volume to the simple evangelists",
+      "suggested_fix": "우리는 성경의 범위를 단순한 복음서 기록으로 좁히고",
+      "translation_quote": "우리는 단순한 복음서 저자들로 범위를 좁히고"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

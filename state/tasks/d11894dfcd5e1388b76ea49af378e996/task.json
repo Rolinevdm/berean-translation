@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7378c26f051746d18e5cee4532376530",
   "campaign": "auto-f298206b113b6a3343b13e60bd20fc98ed70622c1e4a3a9a77cd3f044d69881e",
   "created_at": "2026-10-11T20:21:31+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2167
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 742,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 631,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2439,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1336,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3181
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "첫 번째 인용문",
+      "severity": "minor",
+      "source_quote": "We must reduce our volume to the simple evangelists",
+      "suggested_fix": "우리는 성경의 범위를 단순한 복음서 기록으로 좁히고",
+      "translation_quote": "우리는 단순한 복음서 저자들로 범위를 좁히고"
+    }
+  ],
+  "finished_at": "2026-10-13T22:07:18+00:00",
   "id": "d11894dfcd5e1388b76ea49af378e996",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "kor",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e0055d55517f5660992a9420cc757b233982239c9b7e50e0b4848cde01c4c446.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.0863,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
   "translation_model_actual": "gpt-6-luna"

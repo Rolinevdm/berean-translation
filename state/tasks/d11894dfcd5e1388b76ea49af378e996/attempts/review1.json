@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T22:07:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"첫 번째 인용문\",\"severity\":\"minor\",\"source_quote\":\"We must reduce our volume to the simple evangelists\",\"suggested_fix\":\"우리는 성경의 범위를 단순한 복음서 기록으로 좁히고\",\"translation_quote\":\"우리는 단순한 복음서 저자들로 범위를 좁히고\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 364,
+    "content_evidence_truncated": false,
+    "content_sha256": "e128e23741ce9ae93e83d903692d532b98cfa82ea18c0b3db0e1610ba569d80b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 742,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 631,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2439,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1336,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3181
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
