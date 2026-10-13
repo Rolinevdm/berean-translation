@@ -1,0 +1,15 @@
+{
+  "article_id": "fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd",
+  "history": [
+    {
+      "at": "2026-10-13T07:49:46+00:00",
+      "campaign": "auto-a6babdeb4ddcbd8af51f2368b83fe7ac7a03a6e51ae680a136a00e31c233edae",
+      "event": "automatic_requested",
+      "previous_task": null,
+      "task": "da85e8b6ae6882dccb8d9b353bdbdf78"
+    }
+  ],
+  "language": "ben",
+  "latest_task": "da85e8b6ae6882dccb8d9b353bdbdf78",
+  "published": null
+}
