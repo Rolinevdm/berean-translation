@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a1b745cebf20418bb3c25e252be49980",
   "campaign": "auto-75422579184a84d1ec94fb32107c1cf5dcd3b280676b83de81de31dee12caae3",
   "created_at": "2026-10-12T23:02:15+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 14393
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 925,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 773,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14747,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13644,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 15672
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "المحبة الخالصة، الفقرة الأولى (يوحنا 5:44)",
+      "severity": "major",
+      "source_quote": "“I know that you do not have God’s love in you, for you seek your own honor.”",
+      "suggested_fix": "«أعرف أنكم لا تملكون محبة الله فيكم، لأنكم تطلبون مجدكم أنتم»",
+      "translation_quote": "«أعرف أنكم لا تملكون محبة الله فيكم، لأنكم تطلبون مجد بعضكم من بعض»"
+    }
+  ],
   "id": "f6cd26f059cdff757b70cf88305d2fab",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ara",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/dc00b1640eeaa70509a332ed5e671885caaab880a0116b7efd56947939c1296a.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.130044,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
   "translation_model_actual": "gpt-6-luna"

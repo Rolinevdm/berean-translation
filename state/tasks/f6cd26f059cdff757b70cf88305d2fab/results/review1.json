@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "98a44bf6-b99d-481d-bdb2-03ca03c73b1a",
+    "response_id": "chatcmpl-EYNNOX87Kos4TZXFo1SHcM8HFckmD",
+    "usage": {
+      "completion_tokens": 925,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 773,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14747,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13644,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15672
+    }
+  },
+  "received_at": "2026-10-13T07:40:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "المحبة الخالصة، الفقرة الأولى (يوحنا 5:44)",
+        "severity": "major",
+        "source_quote": "“I know that you do not have God’s love in you, for you seek your own honor.”",
+        "suggested_fix": "«أعرف أنكم لا تملكون محبة الله فيكم، لأنكم تطلبون مجدكم أنتم»",
+        "translation_quote": "«أعرف أنكم لا تملكون محبة الله فيكم، لأنكم تطلبون مجد بعضكم من بعض»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

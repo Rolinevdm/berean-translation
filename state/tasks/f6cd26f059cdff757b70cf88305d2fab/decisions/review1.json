@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "المحبة الخالصة، الفقرة الأولى (يوحنا 5:44)",
+      "severity": "major",
+      "source_quote": "“I know that you do not have God’s love in you, for you seek your own honor.”",
+      "suggested_fix": "«أعرف أنكم لا تملكون محبة الله فيكم، لأنكم تطلبون مجدكم أنتم»",
+      "translation_quote": "«أعرف أنكم لا تملكون محبة الله فيكم، لأنكم تطلبون مجد بعضكم من بعض»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
