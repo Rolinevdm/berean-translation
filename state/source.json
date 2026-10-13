@@ -3558,9 +3558,9 @@
     },
     "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901": {
       "fingerprints": {
-        "html_sha256": "1496837c802d6d7da0c6eeb58569aa6c30a66f80d18d3638bc9486d301e99aac",
+        "html_sha256": "dcd3b2cd448a44f78d3fed0981792f6fc6ca1aba69e09ac8e2e9a9615357b72e",
         "metadata_sha256": "4ff8ebda09484f1c87e702c322b08ecb3ff41365139405929e67e39380280446",
-        "structure_sha256": "c7326acc185592d6cd65cfb73a1383cf521ecb78e2c48159b87a4e8143b6f487",
+        "structure_sha256": "7eabd1a9a2ea614c91513bebd6067e5269677b75ea0ecebcbf13fd14087ecb16",
         "text_sha256": "152a03b41630e8f50d72b973b3c7e48687fa2df65423b09c10700ef1981a8ae6",
         "translation_metadata_sha256": "7d6cf680e075d0b371380afa36b5b3f8759fedc19736c26a40a13357adba7bae"
       },
@@ -3568,7 +3568,7 @@
       "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
       "sequence": 10,
       "title": "Two Young Girls",
-      "translation_key": "d799cd1fe65eab01f79ecb1b4a5d232fda160c62cba65d99e068650cf0113b0f"
+      "translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59"
     },
     "3b932103-b3fb-450d-885a-eaca95ee48fe": {
       "fingerprints": {
@@ -8584,9 +8584,9 @@
     },
     "88345a38-6c33-495a-8407-f0fda29b67e0": {
       "fingerprints": {
-        "html_sha256": "11d67da56f92c89d098d713c223cbc2602a606aefb3a243e3e496be37f00a8b1",
+        "html_sha256": "5e21d617e5d4d3351938c248d42405d3cc78cde50bf8284d6442a21e1c6c06b1",
         "metadata_sha256": "1613c6fd81a288e68a85235f71732b63116faf1493bdd0df2d95e496f82073c6",
-        "structure_sha256": "495b2bb82c578822b63482c4e4c36c6e9f53da77e37e8939be0f260f3dc4c563",
+        "structure_sha256": "39316d8e990819fdda2d3ac55cd12b332d73b1ae9d7a802079b02c280da46c82",
         "text_sha256": "6110336f905a2a275a41e208d567768a50f951a92768b542e3d43b6a5022d6d6",
         "translation_metadata_sha256": "4ec019a741ffe19060f9ffc7872cc04e350d1a398197041d6fb9c92605091dee"
       },
@@ -8594,7 +8594,7 @@
       "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
       "sequence": 11,
       "title": "Precious Letters from Our Readers",
-      "translation_key": "a6f0b407114ef2d0bcb6262570a4e1683f82b7eb1313b81f90c43fecc38dd9c2"
+      "translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f"
     },
     "883ef855-5122-41ca-a892-eff8766f71b2": {
       "fingerprints": {
@@ -16339,7 +16339,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "138301bc8f162a8203da2797c78faaebd26e6172789e9bff4aae2db77d296d8f",
+  "content_sha256": "6a07ba4b4a2a1e6d2cd94d999c3725cee5e2ad0a9786eb37cf0abaab259be071",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17755,5 +17755,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "d736713df08f5b60d8496307771de20eb1237d0b"
+  "revision": "5cc108b7f7605f1c415c013d8d7e8ea4b8e869b1"
 }
