@@ -25765,6 +25765,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.html",
+      "html_sha256": "78c84f6108d3d798b34b50d71b4648ca523889a243ab40e8d8a31978aacb3a26",
+      "human_reviewed": false,
+      "id": "51c6b872-b5d3-45c6-a0b1-d1dd48ece711",
+      "images": [
+        {
+          "alt": "שתי ידיים, אחת מעל גלובוס ואחת מתחתיו",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-1.jpg"
+        },
+        {
+          "alt": "שני אנשים עוזרים לאדם אחר לעלות מן המים",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.json",
+      "metadata_sha256": "165610d7705283e4957ff1149e351bd1b72f66bdc88f6de52d685810cfb57d1f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "d736713df08f5b60d8496307771de20eb1237d0b",
+      "source_translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
+      "status": "ready",
+      "subtitle": "הסבר על מושג המילה הגרמנית Gelassenheit.",
+      "title": "Gelassenheit — ניתוק מכוון",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
       "html_sha256": "2ad0af4b8c4fcaa5e5be9849fde5529269f4b4bb3a11e81a86ac916cfc945180",
       "human_reviewed": false,
@@ -36236,6 +36268,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.html",
+      "html_sha256": "502cec424c039a8db3397e158f5f87bb36059adce28136bf7bad4c0a9ae39e76",
+      "human_reviewed": false,
+      "id": "51c6b872-b5d3-45c6-a0b1-d1dd48ece711",
+      "images": [
+        {
+          "alt": "Due mani sopra e sotto un globo",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-1.jpg"
+        },
+        {
+          "alt": "Due persone aiutano un'altra persona a rialzarsi dall'acqua",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.json",
+      "metadata_sha256": "2ebb53b17d4c3ec96a37555179f7489054030d347f73e471deda1e671fc7b4dc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "d736713df08f5b60d8496307771de20eb1237d0b",
+      "source_translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
+      "status": "ready",
+      "subtitle": "Una spiegazione del concetto espresso dalla parola tedesca Gelassenheit.",
+      "title": "Gelassenheit—Il distacco consapevole",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.html",
       "html_sha256": "07bef97a9f6e0437a3e3f7964fd607b4c7c715cb32c775f947b1664c1b40fe3d",
       "human_reviewed": false,
@@ -40324,6 +40388,38 @@
       "subtitle": "2부",
       "title": "암",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.html",
+      "html_sha256": "ef49fb0e50295c1ddb61ebd7ce201b6d5ef6c5560ff2e5966af6693043066a3d",
+      "human_reviewed": false,
+      "id": "51c6b872-b5d3-45c6-a0b1-d1dd48ece711",
+      "images": [
+        {
+          "alt": "지구본 위아래에 놓인 두 손",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-1.jpg"
+        },
+        {
+          "alt": "두 사람이 물에서 다른 사람을 일으켜 주는 모습",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.json",
+      "metadata_sha256": "debfb77d89c600997636c15c705f2109f01aa99e5fc4585fd37afc0839789f11",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "d736713df08f5b60d8496307771de20eb1237d0b",
+      "source_translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
+      "status": "ready",
+      "subtitle": "독일어 ‘겔라센하이트’라는 말의 개념에 대한 설명",
+      "title": "겔라센하이트—의도적인 초연함",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -60496,6 +60592,38 @@
       "subtitle": "PARTE 2",
       "title": "Cáncer",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.html",
+      "html_sha256": "ab074b8c9eb1730b87c972d5f07dd6834bafa9303b4c02a8b528e412d2f460a2",
+      "human_reviewed": false,
+      "id": "51c6b872-b5d3-45c6-a0b1-d1dd48ece711",
+      "images": [
+        {
+          "alt": "Dos manos, una por encima y otra por debajo de un globo terráqueo",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-1.jpg"
+        },
+        {
+          "alt": "Dos personas ayudan a otra a salir del agua",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.json",
+      "metadata_sha256": "e688d9fe16e5995041b4b7e24e2b9bf916f3275fdda30523d19376765a4eb453",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "e369a5ff3b588a942e849ecb739ff6a294ac9c00",
+      "source_translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
+      "status": "ready",
+      "subtitle": "Una explicación del concepto de la palabra alemana Gelassenheit.",
+      "title": "Gelassenheit: desapego deliberado",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
