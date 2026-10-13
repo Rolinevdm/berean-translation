@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "subtitle",
+      "severity": "minor",
+      "source_quote": "An explanation of the concept of the German word Gelassenheit.",
+      "suggested_fix": "Eine Erklärung des Begriffs des deutschen Wortes Gelassenheit.",
+      "translation_quote": "Eine Erklärung des Begriffs Gelassenheit."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
