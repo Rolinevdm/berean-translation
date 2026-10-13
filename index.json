@@ -11798,6 +11798,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.html",
+      "html_sha256": "9579e1e602294609fc6d4aefa2aa218feaa5c92a8735b8612c4dbd97e44f744c",
+      "human_reviewed": false,
+      "id": "51c6b872-b5d3-45c6-a0b1-d1dd48ece711",
+      "images": [
+        {
+          "alt": "一双手分别位于地球仪的上方和下方",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-1.jpg"
+        },
+        {
+          "alt": "两个人帮助另一个人从水中起来",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.json",
+      "metadata_sha256": "c5ef7e00955aa302cce54d926198f9e6b4811d108c80932fb57d14583723f936",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "e369a5ff3b588a942e849ecb739ff6a294ac9c00",
+      "source_translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
+      "status": "ready",
+      "subtitle": "对德语词 Gelassenheit 这一概念的阐释。",
+      "title": "Gelassenheit——有意的舍弃",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
       "html_sha256": "1899193b2ceec7371e45555ba42a96e4ab72fdc908018acb8125863157550fe9",
       "human_reviewed": false,
@@ -28113,6 +28145,29 @@
       "subtitle": "भाग 2",
       "title": "कैंसर",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.html",
+      "html_sha256": "c7b9988ca87c615cbbecf3482307e275a7a59e91fb57ba0f614905115b73e897",
+      "human_reviewed": false,
+      "id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
+      "images": [],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.json",
+      "metadata_sha256": "606411107da3b42d428daae0a4fc09885446ffa3211b9c061eb879ff9965cd4b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "एक मिशनरी के विचार",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
+      "status": "ready",
+      "subtitle": null,
+      "title": "यदि तुम अपने जीवन से प्रेम करते हो…",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -67412,6 +67467,34 @@
       "status": "ready",
       "subtitle": "Hur vanliga tonåringar kan få ut så mycket som möjligt av sin ungdom",
       "title": "Att ta vara på tonåren",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.html",
+      "html_sha256": "d5d4635c841a4f843cd3a5abf87f1ed94c28edeaee269f0a4c115383e2a42651",
+      "human_reviewed": false,
+      "id": "6f528c85-5ee6-4ccd-804f-63652b5c3a1d",
+      "images": [
+        {
+          "alt": "En svartvit jordglob med Afrika i centrum",
+          "public_path": "/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.json",
+      "metadata_sha256": "ec10f296e14abcd27c6534ee307d44f4070a8fae6b35bd3cb21d6a460474e203",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "e369a5ff3b588a942e849ecb739ff6a294ac9c00",
+      "source_translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vi är världskristna",
       "translation_model": "gpt-6-luna"
     },
     {
