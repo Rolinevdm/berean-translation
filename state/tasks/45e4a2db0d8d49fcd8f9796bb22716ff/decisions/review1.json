@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Misalnya, dalam bab berjudul…”",
+      "severity": "major",
+      "source_quote": "“a man jailed for being a conscientious objector”",
+      "suggested_fix": "Ganti “dipenjara karena menolak wajib militer atas dasar hati nurani” dengan “dipenjara karena menolak ikut berperang atas dasar hati nurani” agar tidak secara khusus menyatakan bahwa ia menolak wajib militer.",
+      "translation_quote": "“seorang pria yang dipenjara karena menolak wajib militer atas dasar hati nurani”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "687d6f3b-3ba4-4bde-80e1-29fb1d7b6cbf",
+    "response_id": "chatcmpl-EYbq0fEr62myvypAXtEJh4UtQtpQU",
+    "usage": {
+      "completion_tokens": 623,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 477,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4094,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4091,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4717
+    }
+  },
+  "received_at": "2026-10-13T21:13:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Misalnya, dalam bab berjudul…”",
+        "severity": "major",
+        "source_quote": "“a man jailed for being a conscientious objector”",
+        "suggested_fix": "Ganti “dipenjara karena menolak wajib militer atas dasar hati nurani” dengan “dipenjara karena menolak ikut berperang atas dasar hati nurani” agar tidak secara khusus menyatakan bahwa ia menolak wajib militer.",
+        "translation_quote": "“seorang pria yang dipenjara karena menolak wajib militer atas dasar hati nurani”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
