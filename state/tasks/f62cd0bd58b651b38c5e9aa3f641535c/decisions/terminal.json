@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "major",
+      "source_quote": "“our unquenchable desire, is to take God’s love to them.”",
+      "suggested_fix": "“Shauku yetu maishani, tamaa yetu isiyozimika, ni kuwapelekea upendo wa Mungu.”",
+      "translation_quote": "“Shauku yetu maishani, tamaa yetu isiyozimika, ni kuwafikishia upendo wa Mungu.”"
+    },
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "“following Him means absolute death to ourselves.”",
+      "suggested_fix": "“Tunaelewa kwamba kumfuata kunamaanisha kujikana kabisa na kujitoa mhanga.”",
+      "translation_quote": "“Tunaelewa kwamba kumfuata kunamaanisha kujikana kabisa hadi kufa.”"
+    },
+    {
+      "location": "Paragraph 7",
+      "severity": "major",
+      "source_quote": "“seminaries and Bible Schools that pump out thinkers who have no action”",
+      "suggested_fix": "“seminari na shule za Biblia zinazozalisha wanafikra wasiotenda”",
+      "translation_quote": "“seminari na shule za Biblia zinazozalisha wanafikra wasioweka imani katika matendo”"
+    },
+    {
+      "location": "Paragraph 16",
+      "severity": "major",
+      "source_quote": "“We don’t ask for reasons—we ask for responsibility.”",
+      "suggested_fix": "“Hatuulizi sababu—tunaomba tuwajibishwe.”",
+      "translation_quote": "“Hatuulizi sababu—tunaomba majukumu.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

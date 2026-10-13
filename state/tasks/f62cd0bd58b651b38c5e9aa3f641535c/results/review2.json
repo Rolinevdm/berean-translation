@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "90c15283-6f45-4983-8bbe-11321b215db1",
+    "response_id": "chatcmpl-EYUOWbz4sVo5423IrksmXhkjWR3oi",
+    "usage": {
+      "completion_tokens": 339,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3536,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2433,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3875
+    }
+  },
+  "received_at": "2026-10-13T15:55:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2",
+        "severity": "major",
+        "source_quote": "“our unquenchable desire, is to take God’s love to them.”",
+        "suggested_fix": "“Shauku yetu maishani, tamaa yetu isiyozimika, ni kuwapelekea upendo wa Mungu.”",
+        "translation_quote": "“Shauku yetu maishani, tamaa yetu isiyozimika, ni kuwafikishia upendo wa Mungu.”"
+      },
+      {
+        "location": "Paragraph 4",
+        "severity": "major",
+        "source_quote": "“following Him means absolute death to ourselves.”",
+        "suggested_fix": "“Tunaelewa kwamba kumfuata kunamaanisha kujikana kabisa na kujitoa mhanga.”",
+        "translation_quote": "“Tunaelewa kwamba kumfuata kunamaanisha kujikana kabisa hadi kufa.”"
+      },
+      {
+        "location": "Paragraph 7",
+        "severity": "major",
+        "source_quote": "“seminaries and Bible Schools that pump out thinkers who have no action”",
+        "suggested_fix": "“seminari na shule za Biblia zinazozalisha wanafikra wasiotenda”",
+        "translation_quote": "“seminari na shule za Biblia zinazozalisha wanafikra wasioweka imani katika matendo”"
+      },
+      {
+        "location": "Paragraph 16",
+        "severity": "major",
+        "source_quote": "“We don’t ask for reasons—we ask for responsibility.”",
+        "suggested_fix": "“Hatuulizi sababu—tunaomba tuwajibishwe.”",
+        "translation_quote": "“Hatuulizi sababu—tunaomba majukumu.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 89
+  }
+}

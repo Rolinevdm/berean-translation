@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42eb590c3343445f806946068a0146d4",
   "campaign": "auto-a92929684de8c34598b72ff366aa47aa42280c092ea2d206962f83ff46a00019",
   "created_at": "2026-10-13T00:41:19+00:00",
   "events": [
@@ -68,32 +67,61 @@
         },
         "total_tokens": 5255
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 339,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3536,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2433,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3875
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph beginning “We are not stoics”",
-      "severity": "minor",
-      "source_quote": "We are not stoics—we hurt and cry when loved ones leave us.",
-      "suggested_fix": "Replace “watu wasiojali” with wording meaning people who suppress or do not show their emotions, such as “stoiki,” so the contrast with hurting and crying is preserved.",
-      "translation_quote": "Sisi si watu wasiojali—huumia na kulia wapendwa wanapotutoka."
-    },
-    {
-      "location": "Paragraph beginning “We are not ‘drop-outs’”",
+      "location": "Paragraph 2",
       "severity": "major",
-      "source_quote": "We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”",
-      "suggested_fix": "Replace “waliotupa” with a term meaning people who have dropped out or opted out, preserving the contrast with being fully committed to Christ; for example, “Sisi si ‘waliojitoa’ kwa sababu hatuna kazi ‘zenye heshima na usalama’—sisi ‘tumejitoa kikamilifu.’”",
-      "translation_quote": "Sisi si “waliotupa” kwa sababu hatuna kazi “zenye heshima na usalama”—sisi “tumejitoa kikamilifu.”"
+      "source_quote": "“our unquenchable desire, is to take God’s love to them.”",
+      "suggested_fix": "“Shauku yetu maishani, tamaa yetu isiyozimika, ni kuwapelekea upendo wa Mungu.”",
+      "translation_quote": "“Shauku yetu maishani, tamaa yetu isiyozimika, ni kuwafikishia upendo wa Mungu.”"
     },
     {
-      "location": "Image alt text",
-      "severity": "minor",
-      "source_quote": "A black-and-white globe centered on Africa",
-      "suggested_fix": "Specify that the image shows a globe, for example: “Tufe la dunia nyeusi na nyeupe, Afrika ikiwa katikati.”",
-      "translation_quote": "Dunia yenye rangi nyeusi na nyeupe, Afrika ikiwa katikati"
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "“following Him means absolute death to ourselves.”",
+      "suggested_fix": "“Tunaelewa kwamba kumfuata kunamaanisha kujikana kabisa na kujitoa mhanga.”",
+      "translation_quote": "“Tunaelewa kwamba kumfuata kunamaanisha kujikana kabisa hadi kufa.”"
+    },
+    {
+      "location": "Paragraph 7",
+      "severity": "major",
+      "source_quote": "“seminaries and Bible Schools that pump out thinkers who have no action”",
+      "suggested_fix": "“seminari na shule za Biblia zinazozalisha wanafikra wasiotenda”",
+      "translation_quote": "“seminari na shule za Biblia zinazozalisha wanafikra wasioweka imani katika matendo”"
+    },
+    {
+      "location": "Paragraph 16",
+      "severity": "major",
+      "source_quote": "“We don’t ask for reasons—we ask for responsibility.”",
+      "suggested_fix": "“Hatuulizi sababu—tunaomba tuwajibishwe.”",
+      "translation_quote": "“Hatuulizi sababu—tunaomba majukumu.”"
     }
   ],
+  "finished_at": "2026-10-13T15:55:36+00:00",
   "id": "f62cd0bd58b651b38c5e9aa3f641535c",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swa",
@@ -182,7 +210,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 89,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +230,7 @@
     "total_reserved_usd": 0.08678,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
   "translation_model_actual": "gpt-6-luna"
