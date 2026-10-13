@@ -19,6 +19,12 @@
       "event": "automatic_requested",
       "previous_task": "a92785ada9ae81e0607ef7119929a84c",
       "task": "43a43941979312599bc006bf48288e79"
+    },
+    {
+      "at": "2026-10-13T17:49:26+00:00",
+      "event": "not_ready",
+      "reason": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+      "task": "43a43941979312599bc006bf48288e79"
     }
   ],
   "language": "heb",
