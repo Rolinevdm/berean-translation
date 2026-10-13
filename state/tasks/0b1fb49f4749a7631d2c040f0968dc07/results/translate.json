@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f4bc5167-8533-44da-adce-ede2a0181061",
+    "response_id": "chatcmpl-EYeCCFw7SzyR9JylFrHNL2wBYwtrW",
+    "usage": {
+      "completion_tokens": 677,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1349,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1346,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2026
+    }
+  },
+  "received_at": "2026-10-13T21:21:21+00:00",
+  "result": {
+    "html": "<article data-article-id=\"783fddfc-86ed-44d9-b13e-e4adea31a5d5\">\n  <blockquote>\n    <p>Kita harus mengurangi volume kita hingga sesederhana para penginjil, memilih, bahkan dari antara mereka, hanya kata-kata Yesus sendiri, menyingkirkan ambiguitas yang menyesatkan mereka .... Yang tersisa akan menjadi kode moral paling luhur dan penuh kebajikan yang pernah ditawarkan kepada manusia. Saya telah melakukan penyuntingan ini untuk keperluan saya sendiri, dengan memotong ayat demi ayat dari buku cetak itu, lalu menyusun bagian-bagian yang jelas berasal dari-Nya, dan yang sama mudahnya dikenali seperti berlian di dalam tumpukan kotoran.</p>\n  </blockquote>\n  <p>Demikianlah Thomas Jefferson menulis tentang proyeknya untuk membersihkan Alkitab dari kesalahpahaman dan tafsir keliru yang diberikan oleh para penulis keempat Injil itu sendiri. Pada saat ia selesai menggunakan pisau cukurnya (ya, ia benar-benar menggunakan pisau cukur untuk memotong dan menempelkan bagian-bagian yang ia inginkan!), Jefferson telah berhasil menghapus setiap rujukan kepada malaikat, silsilah, nubuat, mukjizat, kebangkitan, dan keilahian Yesus. Kata-kata terakhir The Jefferson Bible adalah, “Di tempat ia disalibkan, ada sebuah taman; dan di taman itu ada sebuah makam baru, yang belum pernah digunakan untuk menguburkan siapa pun. Di sanalah mereka membaringkan Yesus. Lalu mereka menggulingkan sebuah batu besar ke pintu makam itu dan pergi.”</p>\n  <p>Alkitab tanpa kebangkitan! Thomas Jefferson memilih-milih apa yang ingin ia percayai. Ia menginginkan Alkitab yang dilucuti dari segala sesuatu yang tidak secara langsung berkaitan dengan Yesus.</p>\n  <p>Percival Everett menceritakan apa yang sebenarnya terjadi:</p>\n  <blockquote>\n    <p>Ia memutuskan bahwa aturan klub yang ingin ia masuki bukanlah aturan yang ingin ia ikuti. Jadi, alih-alih berganti klub, ia mengubah buku aturannya dengan benar-benar memotong dan menempelkan hanya bagian-bagian yang menurutnya relevan bagi penafsirannya.</p>\n  </blockquote>\n  <p>Apakah Anda menangkap maksudnya? Alih-alih menciptakan Alkitab yang Kristosentris, Thomas Jefferson menciptakan Alkitab yang Jefferson-sentris!</p>\n  <p>Meskipun mungkin tak seorang pun di antara kita benar-benar menggunakan pisau cukur untuk mengutak-atik Alkitab kita, apakah kita melakukannya dalam pikiran kita? Apakah kita berusaha mengubah aturan klub (Kerajaan Allah), ataukah kita berusaha berganti klub (dilahirkan ke dalam Kerajaan melalui kuasa Roh Kudus)? ~</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Alkitab Jefferson"
+  }
+}
