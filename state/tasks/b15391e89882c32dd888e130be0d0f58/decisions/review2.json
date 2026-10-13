@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning „Wir haben es satt …“",
+      "severity": "minor",
+      "source_quote": "“sermons that sound good … but have no consequential value except complacency”",
+      "suggested_fix": "Replace „keinen nachhaltigen Wert“ with „keine wirkliche Bedeutung“ to convey consequential value rather than lasting value.",
+      "translation_quote": "„gut klingenden Predigten … die aber außer Selbstzufriedenheit keinen nachhaltigen Wert haben“"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

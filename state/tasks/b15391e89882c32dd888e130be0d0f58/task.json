@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebed82db15f94f5188f0345a1a7a0013",
   "campaign": "auto-db225ff147bfb495425adbfb4bdcaa279c452df485452cbf261b918ac5cebfb0",
   "created_at": "2026-10-12T17:49:10+00:00",
   "events": [
@@ -68,32 +67,39 @@
         },
         "total_tokens": 4540
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 772,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 646,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3421,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2318,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4193
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Absatz 1",
-      "severity": "major",
-      "source_quote": "We put God’s love for all people first.",
-      "suggested_fix": "Gottes Liebe zu allen Menschen steht für uns an erster Stelle.",
-      "translation_quote": "Gottes Liebe gilt zuerst allen Menschen."
-    },
-    {
-      "location": "Absatz 1",
-      "severity": "major",
-      "source_quote": "We don’t put our nation’s economy before God’s economy.",
-      "suggested_fix": "Wir stellen die Wirtschaft unserer Nation nicht über Gottes Ökonomie.",
-      "translation_quote": "Wir stellen die Wirtschaft unserer Nation nicht über Gottes Plan für die Welt."
-    },
-    {
-      "location": "Absatz 6",
-      "severity": "major",
-      "source_quote": "tired of seminaries and Bible Schools that pump out thinkers who have no action",
-      "suggested_fix": "Wir haben genug von theologischen Seminaren und Bibelschulen, die Denker hervorbringen, die nicht handeln",
-      "translation_quote": "wir haben genug von Seminaren und Bibelschulen, die Denker hervorbringen, die nicht handeln"
+      "location": "Paragraph beginning „Wir haben es satt …“",
+      "severity": "minor",
+      "source_quote": "“sermons that sound good … but have no consequential value except complacency”",
+      "suggested_fix": "Replace „keinen nachhaltigen Wert“ with „keine wirkliche Bedeutung“ to convey consequential value rather than lasting value.",
+      "translation_quote": "„gut klingenden Predigten … die aber außer Selbstzufriedenheit keinen nachhaltigen Wert haben“"
     }
   ],
+  "finished_at": "2026-10-13T21:59:42+00:00",
   "id": "b15391e89882c32dd888e130be0d0f58",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "deu",
@@ -182,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +208,7 @@
     "total_reserved_usd": 0.086784,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
   "translation_model_actual": "gpt-6-luna"

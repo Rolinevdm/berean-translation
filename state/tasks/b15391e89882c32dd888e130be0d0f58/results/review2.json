@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0d433e7a-59ec-4445-95f8-8125fb657918",
+    "response_id": "chatcmpl-EYeSYwALvqobbUNxAI3kjOe5Y2Cav",
+    "usage": {
+      "completion_tokens": 772,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 646,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3421,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2318,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4193
+    }
+  },
+  "received_at": "2026-10-13T21:59:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning „Wir haben es satt …“",
+        "severity": "minor",
+        "source_quote": "“sermons that sound good … but have no consequential value except complacency”",
+        "suggested_fix": "Replace „keinen nachhaltigen Wert“ with „keine wirkliche Bedeutung“ to convey consequential value rather than lasting value.",
+        "translation_quote": "„gut klingenden Predigten … die aber außer Selbstzufriedenheit keinen nachhaltigen Wert haben“"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
