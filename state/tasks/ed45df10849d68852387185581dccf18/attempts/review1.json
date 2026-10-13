@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-13T07:40:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf di bawah heading “Kehidupan baru di dalam Kristus”\",\"severity\":\"minor\",\"source_quote\":\"“the new life is the pure will and obedience of God and hates the soulishness of a person in all its active and affective aspects”\",\"suggested_fix\":\"Ubah “sifat kedagingan seseorang” menjadi “sifat jiwani seseorang” agar tetap membedakan soulishness dari istilah yang merujuk pada daging atau kedagingan.\",\"translation_quote\":\"“kehidupan baru adalah kehendak murni dan ketaatan kepada Allah, serta membenci sifat kedagingan seseorang dalam segala aspek tindakan dan perasaannya”\"},{\"location\":\"Paragraf pembuka; istilah Latin renunciare\",\"severity\":\"minor\",\"source_quote\":\"“renunciare (renounce)”\",\"suggested_fix\":\"Ganti “menyangkal” dengan “melepaskan” atau “meninggalkan” dalam gloss ini agar maknanya sesuai konteks melepaskan sesuatu.\",\"translation_quote\":\"“renunciare (menyangkal)”\"},{\"location\":\"Paragraf tentang murid yang mempertimbangkan biaya; istilah Latin renunciare\",\"severity\":\"minor\",\"source_quote\":\"“This is called renunciare (renounce)—to completely let go of a thing and drive it away from oneself.”\",\"suggested_fix\":\"Ganti “menyangkal” dengan “melepaskan” atau “meninggalkan”; definisi sesudahnya sudah menjelaskan tindakan melepaskan sepenuhnya.\",\"translation_quote\":\"“Ini disebut renunciare (menyangkal)—melepaskan sesuatu sepenuhnya dan mengusirnya dari diri sendiri.”\"}],\"findings_complete\":true,\"passed\":true,\"score\":96}",
+    "content_bytes": 1530,
+    "content_evidence_truncated": false,
+    "content_sha256": "bef73632352e49055f9f000a11da7c6790c3312a53339106686293180928749d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1332,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 943,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15088,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13985,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 16420
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
