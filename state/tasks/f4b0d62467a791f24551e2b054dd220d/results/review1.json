@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "63c5f51a-f8f0-41d0-b2a9-7dab230a5902",
+    "response_id": "chatcmpl-EYeBiyj5RepBmrLuBwycvU5hja0wl",
+    "usage": {
+      "completion_tokens": 748,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 602,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4233,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4230,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4981
+    }
+  },
+  "received_at": "2026-10-13T21:21:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Sura 17 zinahusu…”",
+        "severity": "major",
+        "source_quote": "“from Quakers to Brethren in Christ to Mennonite”",
+        "suggested_fix": "Badilisha “Waumini katika Kristo” kuwa “Ndugu katika Kristo” ili kutaja dhehebu la Brethren in Christ, si waumini kwa ujumla.",
+        "translation_quote": "“kuanzia Waquakeri hadi Waumini katika Kristo, Wamennoniti na wengineo”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
