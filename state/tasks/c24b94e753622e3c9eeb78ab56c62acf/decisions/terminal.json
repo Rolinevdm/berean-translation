@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "开篇，第4段",
+      "severity": "minor",
+      "source_quote": "Whoever is standing outside means business!",
+      "suggested_fix": "门外的人显然是有急事！",
+      "translation_quote": "门外的人来者不善！"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

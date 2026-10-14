@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4dea2c8469a5495097beec53d0a5b93b",
   "campaign": "auto-79ad43b16b7c89ec760dccc071f696cccc56c2209f9957a4c723f8842c2c5cfc",
   "created_at": "2026-10-14T07:31:43+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 20690
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 800,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 710,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13836,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12733,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 14636
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[50]: source /article[1]/p[16]/em[2] ('start', 'em', ()); translation /article[1]/p[16] ('end', 'p')",
-      "translation_quote": ""
+      "location": "开篇，第4段",
+      "severity": "minor",
+      "source_quote": "Whoever is standing outside means business!",
+      "suggested_fix": "门外的人显然是有急事！",
+      "translation_quote": "门外的人来者不善！"
     }
   ],
+  "finished_at": "2026-10-14T15:59:36+00:00",
   "id": "c24b94e753622e3c9eeb78ab56c62acf",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "cmn",
@@ -148,9 +168,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0c90559adf4cb67672219b5c9503255af15ac6d06279df8812e99f33c7273730.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +188,7 @@
     "total_reserved_usd": 0.129673,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
   "translation_model_actual": "gpt-6-luna"

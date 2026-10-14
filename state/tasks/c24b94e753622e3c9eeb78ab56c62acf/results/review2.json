@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "549c483f-c286-4022-9185-b7e1ead87fae",
+    "response_id": "chatcmpl-EYuahNtcfhtHiqO48RoG3pBoi3STo",
+    "usage": {
+      "completion_tokens": 800,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 710,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13836,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12733,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 14636
+    }
+  },
+  "received_at": "2026-10-14T15:59:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "开篇，第4段",
+        "severity": "minor",
+        "source_quote": "Whoever is standing outside means business!",
+        "suggested_fix": "门外的人显然是有急事！",
+        "translation_quote": "门外的人来者不善！"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
