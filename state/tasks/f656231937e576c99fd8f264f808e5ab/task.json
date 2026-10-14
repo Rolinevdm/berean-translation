@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c007ccaac3ac4c93a702da5a42ca1a6d",
   "campaign": "auto-feab5eb2bec5bef2e13034e9d43ca8e8857daebb4bcf2fa33bd1c08432285862",
   "created_at": "2026-10-10T21:34:04+00:00",
   "events": [
@@ -68,39 +67,31 @@
         },
         "total_tokens": 9451
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 696,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 658,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6390,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5287,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7086
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article paragraph beginning “Lerne, vor Gott still zu sein.”",
-      "severity": "major",
-      "source_quote": "“I have felt uncomfortable at my own carnality and shallowness.”",
-      "suggested_fix": "Replace “Weltlichkeit” with “Fleischlichkeit” to preserve the source’s reference to the speaker’s carnal nature: “wegen meiner eigenen Fleischlichkeit und Oberflächlichkeit”.",
-      "translation_quote": "“wegen meiner eigenen Weltlichkeit und Oberflächlichkeit unwohl gefühlt.”"
-    },
-    {
-      "location": "Opening paragraph",
-      "severity": "minor",
-      "source_quote": "“Wait a minute, let me have a second try.”",
-      "suggested_fix": "Use the singular imperative “lass” to match the singular addressee: “Moment mal, lass mich es noch einmal versuchen.”",
-      "translation_quote": "“Moment mal, lasst mich es noch einmal versuchen.”"
-    },
-    {
-      "location": "Article paragraph beginning “All das gesagt”",
-      "severity": "minor",
-      "source_quote": "“All of that being said, I would like to point to a way that I have found to deal with this tension.”",
-      "suggested_fix": "Use a more idiomatic German transition, for example: “Nachdem ich das gesagt habe, möchte ich auf einen Weg hinweisen, den ich gefunden habe, um mit diesem Spannungsfeld umzugehen.”",
-      "translation_quote": "“All das gesagt, möchte ich auf einen Weg hinweisen, den ich gefunden habe, um mit diesem Spannungsfeld umzugehen.”"
-    },
-    {
-      "location": "Article paragraph beginning “Satan weiß”",
-      "severity": "minor",
-      "source_quote": "“to keep you so busy chasing your tail”",
-      "suggested_fix": "Replace the literal rendering with an idiomatic equivalent, for example “dich so sehr im Hamsterrad laufen zu lassen”.",
-      "translation_quote": "“dich so sehr damit zu beschäftigen, deinen eigenen Schwanz zu jagen”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-14T01:07:01+00:00",
   "id": "f656231937e576c99fd8f264f808e5ab",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "deu",
@@ -189,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -209,7 +200,7 @@
     "total_reserved_usd": 0.088794,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "0c4446d06b22fd116bef7f7d4a02766ca7d3146330916f1016877c5344bf07ba",
   "translation_model_actual": "gpt-6-luna"
