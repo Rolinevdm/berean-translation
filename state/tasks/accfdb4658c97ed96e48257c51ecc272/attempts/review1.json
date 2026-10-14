@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T07:30:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Första stycket\",\"severity\":\"major\",\"source_quote\":\"some even sacrificing the lives of millions of faithful followers.\",\"suggested_fix\":\"och några offrar till och med miljontals trogna anhängares liv.\",\"translation_quote\":\"och några offrar till och med livet på miljontals trogna anhängare.\"},{\"location\":\"Tredje stycket\",\"severity\":\"major\",\"source_quote\":\"self-vindication and self-excusing rise in self-defense.\",\"suggested_fix\":\"stiger självrättfärdigande och självursäkter fram i självförsvar.\",\"translation_quote\":\"träder självförsvar och självursäkter fram till själens försvar.\"}],\"findings_complete\":true,\"passed\":false,\"score\":90}",
+    "content_bytes": 684,
+    "content_evidence_truncated": false,
+    "content_sha256": "310d5e1f8c3ca6f03570c82f393c9ee1f51fb7049a624360cf33e2c3b51b253c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 675,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 498,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3011,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1908,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3686
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

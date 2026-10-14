@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8ed209b9-5ad4-4f02-adb5-651f559d373c",
+    "response_id": "chatcmpl-EYman8KoJrKkMhSF2tiDdh49gzsfK",
+    "usage": {
+      "completion_tokens": 675,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 498,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3011,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1908,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3686
+    }
+  },
+  "received_at": "2026-10-14T07:30:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Första stycket",
+        "severity": "major",
+        "source_quote": "some even sacrificing the lives of millions of faithful followers.",
+        "suggested_fix": "och några offrar till och med miljontals trogna anhängares liv.",
+        "translation_quote": "och några offrar till och med livet på miljontals trogna anhängare."
+      },
+      {
+        "location": "Tredje stycket",
+        "severity": "major",
+        "source_quote": "self-vindication and self-excusing rise in self-defense.",
+        "suggested_fix": "stiger självrättfärdigande och självursäkter fram i självförsvar.",
+        "translation_quote": "träder självförsvar och självursäkter fram till själens försvar."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 90
+  }
+}

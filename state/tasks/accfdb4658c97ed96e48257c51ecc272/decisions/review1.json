@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Första stycket",
+      "severity": "major",
+      "source_quote": "some even sacrificing the lives of millions of faithful followers.",
+      "suggested_fix": "och några offrar till och med miljontals trogna anhängares liv.",
+      "translation_quote": "och några offrar till och med livet på miljontals trogna anhängare."
+    },
+    {
+      "location": "Tredje stycket",
+      "severity": "major",
+      "source_quote": "self-vindication and self-excusing rise in self-defense.",
+      "suggested_fix": "stiger självrättfärdigande och självursäkter fram i självförsvar.",
+      "translation_quote": "träder självförsvar och självursäkter fram till själens försvar."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
