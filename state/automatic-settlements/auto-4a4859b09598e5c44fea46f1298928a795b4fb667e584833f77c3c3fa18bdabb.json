@@ -1,0 +1,56 @@
+{
+  "allocation_usd": 0.129658,
+  "authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
+  "batches": [
+    {
+      "attempts": [
+        {
+          "evidence_sha256": "45bf381a2f36c2f7e8ae8d29712adc4ef33de8c8c71720a7363d764216e374b5",
+          "priced_usage_usd": 0.0024583375,
+          "stage": "translate",
+          "task": "8cbe800a41d8ffe5343217e224444e95"
+        }
+      ],
+      "batch": "114ed6687fc345ee8200fda26516543a",
+      "payload_sha256": "0be2a12b760f3ed2532b3c05fbba5172220e9cd5d429f9f1c50d4a746c43960e",
+      "remote_id": "batch_6acf30947de08190bb00b854a325999f",
+      "remote_status": "completed"
+    },
+    {
+      "attempts": [
+        {
+          "evidence_sha256": "71633a71e9f9c4634a6fae5ee8cc7e39ec296186a26903e199fdffb9d2ad980d",
+          "priced_usage_usd": 0.001108525,
+          "stage": "review2",
+          "task": "8cbe800a41d8ffe5343217e224444e95"
+        }
+      ],
+      "batch": "c4915b65971e4d46ab31bc103a4000d7",
+      "payload_sha256": "b37dc13c30b8275e26306cd577fc53158eb9c7476bda6b3cdcddd72b737185a8",
+      "remote_id": "batch_6acf6c7085208190b1dea042b57c73ee",
+      "remote_status": "completed"
+    },
+    {
+      "attempts": [
+        {
+          "evidence_sha256": "e8e38ee993ef662407d440a69bf6e6786a37cdd2635db0442b1bca6917f36c21",
+          "priced_usage_usd": 0.003048025,
+          "stage": "correct",
+          "task": "8cbe800a41d8ffe5343217e224444e95"
+        }
+      ],
+      "batch": "f25dbeb5c138428cb4ff9532758ea552",
+      "payload_sha256": "28fdfb94705af5faa3a7596f8ea88d34e2c5942c4a3e691e3079f4a9fbdf9c4b",
+      "remote_id": "batch_6acf6b27983881908af4724080b558c2",
+      "remote_status": "completed"
+    }
+  ],
+  "campaign": "auto-4a4859b09598e5c44fea46f1298928a795b4fb667e584833f77c3c3fa18bdabb",
+  "provider_reported_usage_priced_usd": 0.006615,
+  "released_usd": 0.123043,
+  "sha256": "e70a226854956de0b839599c1740d68fd30bea7a4ac2c1d98dbb9279042da656",
+  "tasks": {
+    "8cbe800a41d8ffe5343217e224444e95": "25f94b05b9eadf9190745391a5547030a79108174e875f01dda6b9e6cf5a2bbd"
+  },
+  "version": 1
+}
