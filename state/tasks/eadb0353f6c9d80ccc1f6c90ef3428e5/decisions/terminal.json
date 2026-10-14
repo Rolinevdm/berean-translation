@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "blockquote, paragraph 1 and paragraph 3",
+      "severity": "minor",
+      "source_quote": "“when coals of fire burned on your head”; “They lived heaping Coals of Fire.”",
+      "suggested_fix": "Use wording that preserves the image of burning and heaping coals, for example: «da glødende kull brant på hodet ditt» and «De levde ved å dynge glødende kull [på fiendens hode]».",
+      "translation_quote": "«da glødende kull ble lagt på hodet ditt»; «De levde ved å samle glødende kull.»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

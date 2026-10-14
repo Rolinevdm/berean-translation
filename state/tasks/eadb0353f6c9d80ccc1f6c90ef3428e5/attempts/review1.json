@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T06:04:37+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"blockquote, paragraph 1 and paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"“when coals of fire burned on your head”; “They lived heaping Coals of Fire.”\",\"suggested_fix\":\"Use wording that preserves the image of burning and heaping coals, for example: «da glødende kull brant på hodet ditt» and «De levde ved å dynge glødende kull [på fiendens hode]».\",\"translation_quote\":\"«da glødende kull ble lagt på hodet ditt»; «De levde ved å samle glødende kull.»\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 559,
+    "content_evidence_truncated": false,
+    "content_sha256": "4fa419e28fb59b11b9f86c8d7c53e73f132ff7a48c0716d2c8b4dd4dfd0c6f4d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 819,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 652,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4093,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4090,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4912
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
