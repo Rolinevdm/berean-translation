@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5c76b00d5e044245b49a92a9fe0bdeed",
   "campaign": "auto-66eaa5437a75af7283eba96600778c90e0a22058b09b39de72b1f59c32bd1dde",
   "created_at": "2026-10-13T03:16:35+00:00",
   "events": [
@@ -28,32 +27,46 @@
         },
         "total_tokens": 33322
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 347,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 89,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 19961,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 18858,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 20308
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Throughout; for example, “Biblicism” section, paragraph beginning “What, then, does the Bible say…” and “Christocentrism” section, paragraph beginning “What does the Bible say…”",
-      "severity": "major",
-      "source_quote": "“the Bible as we know it did not exist until hundreds of years after the last book was written”; “What does the Bible say about the centrality of Jesus Christ?”",
-      "suggested_fix": "Use כתבי הקודש or המקרא for “the Bible” throughout, rather than תנ״ך, which specifically denotes the Hebrew Bible and makes references to the Christian Bible and its New Testament content inaccurate. For example: “כתבי הקודש כפי שאנו מכירים אותם לא התקיימו עד מאות שנים לאחר שנכתב הספר האחרון.”",
-      "translation_quote": "“התנ״ך כפי שאנו מכירים אותו לא התקיים עד מאות שנים לאחר שנכתב הספר האחרון”; “מה אומר התנ״ך על מרכזיותו של ישוע המשיח?”"
+      "location": "translation.html — מסורתנות, ציטוט מתסלוניקים ב׳ 2:15",
+      "severity": "minor",
+      "source_quote": "hold the traditions which ye have been taught",
+      "suggested_fix": "החליפו את „והחזיקו במסורות שלומדתם” ב„והחזיקו במסורות שלימדו אתכם”, תוך שמירת תגיות ה־HTML וההפניה.",
+      "translation_quote": "והחזיקו במסורות שלומדתם"
     },
     {
-      "location": "Biblicism section, fourth Scripture quotation (2 Peter 3:15–16)",
-      "severity": "major",
-      "source_quote": "“our beloved brother Paul also according to the wisdom given unto him hath written unto you”",
-      "suggested_fix": "Replace שָׁאוּל with פָּאוּלוֹס (or פאולוס), preserving the reference to Paul.",
-      "translation_quote": "“כַּאֲשֶׁר גַּם־אָחִינוּ הָאָהוּב שָׁאוּל”"
-    },
-    {
-      "location": "Poem, third stanza",
-      "severity": "major",
-      "source_quote": "“And Thou hast made him: Thou art just.”",
-      "suggested_fix": "Translate “Thou art just” as אתה צדיק, not אתה צודק, to convey that God is righteous.",
-      "translation_quote": "“ואתה יצרת אותו — אתה צודק.”"
+      "location": "translation.html — כריסטוצנטריות, הפסקה על תורת השליחים ותפקיד הנשים",
+      "severity": "minor",
+      "source_quote": "that need not “restrict” or “repress” Christian women today",
+      "suggested_fix": "החליפו את „שאין צורך שת„תגביל” או „תדכא” נשים נוצריות כיום” ב„שאין צורך ש„תגביל” או „תדכא” נשים נוצריות כיום”.",
+      "translation_quote": "שאין צורך שת„תגביל” או „תדכא” נשים נוצריות כיום"
     }
   ],
+  "finished_at": "2026-10-14T01:05:50+00:00",
   "id": "ae98742b412bf93a5b1f120b44c9ab51",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "heb",
@@ -142,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/aeddb1d51271942bdbe3417e46c90421b08605b5b1d872e8fb0309f7877921c7.json",
   "stage": "review2",
   "stage_budget": {
@@ -158,7 +173,7 @@
     "total_reserved_usd": 1.064707,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
   "translation_model_actual": "gpt-6.1-sol"

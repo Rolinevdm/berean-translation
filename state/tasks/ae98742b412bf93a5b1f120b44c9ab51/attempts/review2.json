@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T01:05:50+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html — מסורתנות, ציטוט מתסלוניקים ב׳ 2:15\",\"severity\":\"minor\",\"source_quote\":\"hold the traditions which ye have been taught\",\"suggested_fix\":\"החליפו את „והחזיקו במסורות שלומדתם” ב„והחזיקו במסורות שלימדו אתכם”, תוך שמירת תגיות ה־HTML וההפניה.\",\"translation_quote\":\"והחזיקו במסורות שלומדתם\"},{\"location\":\"translation.html — כריסטוצנטריות, הפסקה על תורת השליחים ותפקיד הנשים\",\"severity\":\"minor\",\"source_quote\":\"that need not “restrict” or “repress” Christian women today\",\"suggested_fix\":\"החליפו את „שאין צורך שת„תגביל” או „תדכא” נשים נוצריות כיום” ב„שאין צורך ש„תגביל” או „תדכא” נשים נוצריות כיום”.\",\"translation_quote\":\"שאין צורך שת„תגביל” או „תדכא” נשים נוצריות כיום\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 1090,
+    "content_evidence_truncated": false,
+    "content_sha256": "10b7ce9966e281eb1987228673ea2981070ef4e3fc95146098d14ab8a3fedac9",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 347,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 89,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 19961,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 18858,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 20308
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

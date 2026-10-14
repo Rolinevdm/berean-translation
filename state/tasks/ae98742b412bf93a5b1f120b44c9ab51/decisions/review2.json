@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — מסורתנות, ציטוט מתסלוניקים ב׳ 2:15",
+      "severity": "minor",
+      "source_quote": "hold the traditions which ye have been taught",
+      "suggested_fix": "החליפו את „והחזיקו במסורות שלומדתם” ב„והחזיקו במסורות שלימדו אתכם”, תוך שמירת תגיות ה־HTML וההפניה.",
+      "translation_quote": "והחזיקו במסורות שלומדתם"
+    },
+    {
+      "location": "translation.html — כריסטוצנטריות, הפסקה על תורת השליחים ותפקיד הנשים",
+      "severity": "minor",
+      "source_quote": "that need not “restrict” or “repress” Christian women today",
+      "suggested_fix": "החליפו את „שאין צורך שת„תגביל” או „תדכא” נשים נוצריות כיום” ב„שאין צורך ש„תגביל” או „תדכא” נשים נוצריות כיום”.",
+      "translation_quote": "שאין צורך שת„תגביל” או „תדכא” נשים נוצריות כיום"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
