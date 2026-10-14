@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T01:27:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Раздел «Ненависть к душевной жизни», первый абзац\",\"severity\":\"major\",\"source_quote\":\"“A supernatural hatred and envy must replace our love for created things.”\",\"suggested_fix\":\"Заменить «сверхъестественное отвращение и неприятие» на «сверхъестественные ненависть и зависть», сохранив связь с любовью к сотворённому.\",\"translation_quote\":\"«нашу любовь к сотворённому должно заменить сверхъестественное отвращение и неприятие»\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 751,
+    "content_evidence_truncated": false,
+    "content_sha256": "a6f971b80e1e16f953467381c2c84c6721f633e463ee7371ae0dabdc86c21028",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 803,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 643,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15056,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13953,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15859
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Раздел «Ненависть к душевной жизни», первый абзац",
+      "severity": "major",
+      "source_quote": "“A supernatural hatred and envy must replace our love for created things.”",
+      "suggested_fix": "Заменить «сверхъестественное отвращение и неприятие» на «сверхъестественные ненависть и зависть», сохранив связь с любовью к сотворённому.",
+      "translation_quote": "«нашу любовь к сотворённому должно заменить сверхъестественное отвращение и неприятие»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
