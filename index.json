@@ -3360,6 +3360,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b.html",
+      "html_sha256": "414fa25e795fb84d7a029a2c649ee7b6338c35c2f8ab5e67ea3a879be040c899",
+      "human_reviewed": false,
+      "id": "ba07e0b0-5152-46e9-9761-0d0ed839789b",
+      "images": [
+        {
+          "alt": "Bladmusiek en lirieke vir Hallelujah, It Is Finished deur Philip Hess en G. Koehn",
+          "public_path": "/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b.json",
+      "metadata_sha256": "c46ecd4024c698c6e750fae7b830586652418b52dd8ed8bc16959a031b2ff411",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "God se volk hou aan sing",
+      "source_revision": "4b15109678742c2a7b5cfd1f9b7278f287a3948f",
+      "source_translation_key": "30af25731bcf2eb143bc6ad52b144bc028692b48c5877f22b07a359293b2a8c2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Halleluja, dit is volbring",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/ba09e248-cc12-4573-9db1-cceb885953ac.html",
       "html_sha256": "3eb6519e7e4d77ab436e457741277361327e21a276ffe355300f147118008d30",
       "human_reviewed": false,
@@ -31378,6 +31406,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b.html",
+      "html_sha256": "97acd920424485c0f60b98edf19d0a3d4b0cd8bfbc5d31f1f6393c875191edd6",
+      "human_reviewed": false,
+      "id": "ba07e0b0-5152-46e9-9761-0d0ed839789b",
+      "images": [
+        {
+          "alt": "फ़िलिप हेस और जी. कोएन द्वारा ‘हल्लेलूयाह, यह पूरा हो गया’ की स्वरलिपि और गीत",
+          "public_path": "/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b.json",
+      "metadata_sha256": "6f86bb0b1717a3fb50e0c0619d662366b1a556b27fe53e6a04da208fb51b87ed",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "परमेश्वर के लोग गाते रहते हैं",
+      "source_revision": "1345fa41b99f7638900dd7c9385c44491d97f34b",
+      "source_translation_key": "30af25731bcf2eb143bc6ad52b144bc028692b48c5877f22b07a359293b2a8c2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "हल्लेलूयाह, यह पूरा हो गया",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
       "html_sha256": "b802430cf5044a84aa969567cbccad10db6ca92ffc012e5f56cb61e5d96356e6",
       "human_reviewed": false,
@@ -33214,6 +33270,29 @@
       "subtitle": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
       "title": "Allah, Kesempurnaan Keindahan",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/47c2bd87-06a9-4c31-854b-84c64975d399.html",
+      "html_sha256": "0f5b4fa76e0892d3d04fff7757f5db58af7a678fa6c8b4a4b216e8b7ab84a675",
+      "human_reviewed": false,
+      "id": "47c2bd87-06a9-4c31-854b-84c64975d399",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/47c2bd87-06a9-4c31-854b-84c64975d399.json",
+      "metadata_sha256": "9159e4a55189faa99283742fbccb08a5d0ccfae94a9a724b59238e6ee05a0ca6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "b569013110b89a4cf66b2e394088fe6233293b95647b960723dcc41f376a5624",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kasih Karunia Keselamatan Allah",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -51990,6 +52069,34 @@
       "subtitle": null,
       "title": "Profeti og endetiden",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b.html",
+      "html_sha256": "e1d0c5caf795cf70d71b7f0b62ef2e6f3eae1d24a80dcd8cea3821630db72271",
+      "human_reviewed": false,
+      "id": "ba07e0b0-5152-46e9-9761-0d0ed839789b",
+      "images": [
+        {
+          "alt": "Noter og tekst til «Hallelujah, It Is Finished» av Philip Hess og G. Koehn",
+          "public_path": "/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b.json",
+      "metadata_sha256": "4ac71eff6baa30868017379993dc58ff0d87a7845f65e66b7471e6de880e3b8a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Guds folk fortsetter å synge",
+      "source_revision": "4b15109678742c2a7b5cfd1f9b7278f287a3948f",
+      "source_translation_key": "30af25731bcf2eb143bc6ad52b144bc028692b48c5877f22b07a359293b2a8c2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Halleluja, det er fullført",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
