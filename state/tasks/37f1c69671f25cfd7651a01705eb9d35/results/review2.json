@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3af827f3-00c8-49dc-9099-dfa67d624b9c",
+    "response_id": "chatcmpl-EYi1OLy6yZ9ZveB7gwE8AVt0ePr5X",
+    "usage": {
+      "completion_tokens": 573,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 444,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4156,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3053,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4729
+    }
+  },
+  "received_at": "2026-10-14T01:27:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, quoted introduction, second paragraph",
+        "severity": "major",
+        "source_quote": "“Because they lived their love they had their heads cut off and were drowned.”",
+        "suggested_fix": "Replace the active wording with passive wording, for example: “משום שחיו את אהבתם, נערפו ראשיהם והם הוטבעו.”",
+        "translation_quote": "“משום שחיו את אהבתם, ערפו את ראשיהם והטביעו אותם.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

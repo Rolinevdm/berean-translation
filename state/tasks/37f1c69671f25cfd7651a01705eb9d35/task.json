@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1f9c6ee7750c46e1aab6e6b3d10eb0a0",
   "campaign": "auto-94185a8588dd28f82aadfc82cbcc6a87f65c98c5afaa519707a627424f0ee92c",
   "created_at": "2026-10-13T17:50:17+00:00",
   "events": [
@@ -68,25 +67,40 @@
         },
         "total_tokens": 5720
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "פסקת הפתיחה; הפסקה על 17 הפרקים",
-      "severity": "major",
-      "source_quote": "“overcoming evil with good”",
-      "suggested_fix": "החליפו את „גמילת רעה בטובה” בשתי ההופעות ב„התגברות על הרע באמצעות הטוב” (למשל: „מנה של התגברות על הרע באמצעות הטוב”; „הנושא של יישום העיקרון של התגברות על הרע באמצעות הטוב”).",
-      "translation_quote": "„מנה של גמילת רעה בטובה”; „הנושא של יישום העיקרון של גמילת רעה בטובה”"
     },
     {
-      "location": "הציטוט במבוא, הפסקה השנייה",
-      "severity": "major",
-      "source_quote": "“they had their heads cut off and were drowned”",
-      "suggested_fix": "„נערפו והוטבעו”",
-      "translation_quote": "„כרתו את ראשיהם והטביעו אותם”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 573,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 444,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4156,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3053,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4729
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, quoted introduction, second paragraph",
+      "severity": "major",
+      "source_quote": "“Because they lived their love they had their heads cut off and were drowned.”",
+      "suggested_fix": "Replace the active wording with passive wording, for example: “משום שחיו את אהבתם, נערפו ראשיהם והם הוטבעו.”",
+      "translation_quote": "“משום שחיו את אהבתם, ערפו את ראשיהם והטביעו אותם.”"
+    }
+  ],
+  "finished_at": "2026-10-14T01:27:12+00:00",
   "id": "37f1c69671f25cfd7651a01705eb9d35",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "heb",
@@ -175,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 86,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +209,7 @@
     "total_reserved_usd": 0.087289,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, quoted introduction, second paragraph",
+      "severity": "major",
+      "source_quote": "“Because they lived their love they had their heads cut off and were drowned.”",
+      "suggested_fix": "Replace the active wording with passive wording, for example: “משום שחיו את אהבתם, נערפו ראשיהם והם הוטבעו.”",
+      "translation_quote": "“משום שחיו את אהבתם, ערפו את ראשיהם והטביעו אותם.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
