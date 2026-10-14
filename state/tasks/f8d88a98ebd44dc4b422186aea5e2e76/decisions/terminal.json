@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, абзац о семинариях и церковной жизни",
+      "severity": "major",
+      "source_quote": "sermons that sound good—as if they were being rated as speeches—but have no consequential value except complacency",
+      "suggested_fix": "...и проповедей, которые звучат красиво — словно их оценивают как речи, — но не приносят никакой существенной пользы, кроме как порождают самоуспокоенность.",
+      "translation_quote": "проповедей, которые звучат красиво — словно их оценивают как речи, — но не имеют никакой практической ценности, кроме как усыплять бдительность"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

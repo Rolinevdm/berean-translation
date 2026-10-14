@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d4c960aabc204835b4fc4137bd14b685",
   "campaign": "auto-e6e498385b86388dd71df5a352d004ad3e9f61f06933856cb44e1a4d57e76978",
   "created_at": "2026-10-12T16:08:37+00:00",
   "events": [
@@ -68,32 +67,40 @@
         },
         "total_tokens": 4942
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 161,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3498,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3495,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3659
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article, paragraph 1",
+      "location": "HTML, абзац о семинариях и церковной жизни",
       "severity": "major",
-      "source_quote": "We don’t put our nation’s economy before God’s economy.",
-      "suggested_fix": "Мы не ставим экономику нашей страны выше Божьего хозяйства.",
-      "translation_quote": "Мы не ставим экономику нашей страны выше Божьего замысла."
-    },
-    {
-      "location": "Article, prayer, paragraph 6",
-      "severity": "minor",
-      "source_quote": "Don’t give us comfort—command us.",
-      "suggested_fix": "Не давай нам комфорта — повелевай нами.",
-      "translation_quote": "Не давай нам покоя — повелевай нами."
-    },
-    {
-      "location": "Article, paragraph 21",
-      "severity": "minor",
-      "source_quote": "We are not “drop-outs” because we don’t hold “respectable, secure” jobs—we’re “sold-outs.”",
-      "suggested_fix": "Мы не «отказавшиеся от обычной жизни» только потому, что не занимаем «приличные, надёжные» должности, — мы «безраздельно преданы».",
-      "translation_quote": "Мы не «сбежавшие» только потому, что не занимаем «приличные, надёжные» должности, — мы «безраздельно преданы»."
+      "source_quote": "sermons that sound good—as if they were being rated as speeches—but have no consequential value except complacency",
+      "suggested_fix": "...и проповедей, которые звучат красиво — словно их оценивают как речи, — но не приносят никакой существенной пользы, кроме как порождают самоуспокоенность.",
+      "translation_quote": "проповедей, которые звучат красиво — словно их оценивают как речи, — но не имеют никакой практической ценности, кроме как усыплять бдительность"
     }
   ],
+  "finished_at": "2026-10-14T18:34:31+00:00",
   "id": "f8d88a98ebd44dc4b422186aea5e2e76",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "rus",
@@ -202,7 +209,7 @@
     "total_reserved_usd": 0.086785,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
   "translation_model_actual": "gpt-6-luna"

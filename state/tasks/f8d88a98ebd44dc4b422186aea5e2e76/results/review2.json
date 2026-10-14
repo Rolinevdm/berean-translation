@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1c5e92e9-f8d0-9bf5-ba50-173bc8221868",
+    "response_id": "chatcmpl-EYwhsSuEK0icm8j8wRD9PrIblGAEh",
+    "usage": {
+      "completion_tokens": 161,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3498,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3495,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3659
+    }
+  },
+  "received_at": "2026-10-14T18:34:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, абзац о семинариях и церковной жизни",
+        "severity": "major",
+        "source_quote": "sermons that sound good—as if they were being rated as speeches—but have no consequential value except complacency",
+        "suggested_fix": "...и проповедей, которые звучат красиво — словно их оценивают как речи, — но не приносят никакой существенной пользы, кроме как порождают самоуспокоенность.",
+        "translation_quote": "проповедей, которые звучат красиво — словно их оценивают как речи, — но не имеют никакой практической ценности, кроме как усыплять бдительность"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
