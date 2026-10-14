@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "be0d74101f134fe3b6dd3ae8724ae667",
   "campaign": "auto-f4bdc62305ce6ac43806896214834ebe32b698eea239766d0fc1853e92ef00c4",
   "created_at": "2026-10-13T15:56:59+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 5885
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 544,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4233,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3130,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4777
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, paragraph beginning “Sura 17 zinahusu…”",
-      "severity": "major",
-      "source_quote": "“from Quakers to Brethren in Christ to Mennonite”",
-      "suggested_fix": "Badilisha “Waumini katika Kristo” kuwa “Ndugu katika Kristo” ili kutaja dhehebu la Brethren in Christ, si waumini kwa ujumla.",
-      "translation_quote": "“kuanzia Waquakeri hadi Waumini katika Kristo, Wamennoniti na wengineo”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-14T06:05:03+00:00",
   "id": "f4b0d62467a791f24551e2b054dd220d",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swa",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.087275,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
   "translation_model_actual": "gpt-6-luna"
