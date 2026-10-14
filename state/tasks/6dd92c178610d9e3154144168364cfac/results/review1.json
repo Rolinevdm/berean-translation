@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "15dd3801-4709-461d-845d-76df61103d12",
+    "response_id": "chatcmpl-EYmZY07I37VwQfoRh0P1YWtaYdBvl",
+    "usage": {
+      "completion_tokens": 654,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3396,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2293,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4050
+    }
+  },
+  "received_at": "2026-10-14T07:30:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2",
+        "severity": "major",
+        "source_quote": "“...over kings, presidents, the wealthy, and peasants alike”",
+        "suggested_fix": "Replace «φτωχούς» with «χωρικούς», e.g. «πάνω από βασιλιάδες, προέδρους, πλούσιους και χωρικούς εξίσου».",
+        "translation_quote": "«...πάνω από βασιλιάδες, προέδρους, πλούσιους και φτωχούς εξίσου»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

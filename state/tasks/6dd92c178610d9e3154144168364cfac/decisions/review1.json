@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "major",
+      "source_quote": "“...over kings, presidents, the wealthy, and peasants alike”",
+      "suggested_fix": "Replace «φτωχούς» with «χωρικούς», e.g. «πάνω από βασιλιάδες, προέδρους, πλούσιους και χωρικούς εξίσου».",
+      "translation_quote": "«...πάνω από βασιλιάδες, προέδρους, πλούσιους και φτωχούς εξίσου»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
