@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, andra p.poem, första raden",
+      "severity": "major",
+      "source_quote": "Master, the terror is over, the elements sweetly rest;",
+      "suggested_fix": "Ändra första raden till: ”Mästare, skräcken är över, elementen vilar ljuvligt stilla;<br>",
+      "translation_quote": "”Mästare, elementen vilar ljuvligt stilla;<br>"
+    },
+    {
+      "location": "translation.html, första p.poem, andra raden",
+      "severity": "minor",
+      "source_quote": "I bow in my grief today;",
+      "suggested_fix": "Ändra raden till: Jag böjer mig i sorg i dag;<br>",
+      "translation_quote": "Böjer mig i sorg i dag;<br>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

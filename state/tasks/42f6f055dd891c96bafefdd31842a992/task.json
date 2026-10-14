@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3f82a709c5934717871bf672fabe0d4f",
   "campaign": "auto-f4ce699609e278e4fa1733909769f67286da816734628e4c3fb9585cd197dc54",
   "created_at": "2026-10-11T18:03:02+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 290,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 102,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9399,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8296,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9689
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, andra p.poem, första raden",
+      "severity": "major",
+      "source_quote": "Master, the terror is over, the elements sweetly rest;",
+      "suggested_fix": "Ändra första raden till: ”Mästare, skräcken är över, elementen vilar ljuvligt stilla;<br>",
+      "translation_quote": "”Mästare, elementen vilar ljuvligt stilla;<br>"
+    },
+    {
+      "location": "translation.html, första p.poem, andra raden",
+      "severity": "minor",
+      "source_quote": "I bow in my grief today;",
+      "suggested_fix": "Ändra raden till: Jag böjer mig i sorg i dag;<br>",
+      "translation_quote": "Böjer mig i sorg i dag;<br>"
+    }
+  ],
   "id": "42f6f055dd891c96bafefdd31842a992",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "swe",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/97b81ed107719e1b3d59a5926df9439e3f25c21b973c7d37fb85d82f877dc026.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 0.766906,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "feee1827ca2238077cd971d14ec7a665d94024ef32a3d17913bde45491d910fb",
   "translation_model_actual": "gpt-6-luna"

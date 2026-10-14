@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "38ff5edc-0d95-9b59-950b-4ab6341fa4ab",
+    "response_id": "chatcmpl-EYfOhNTkt0eGt0WL4fb4ecxbhOXRM",
+    "usage": {
+      "completion_tokens": 290,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 102,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9399,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8296,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9689
+    }
+  },
+  "received_at": "2026-10-14T01:05:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, andra p.poem, första raden",
+        "severity": "major",
+        "source_quote": "Master, the terror is over, the elements sweetly rest;",
+        "suggested_fix": "Ändra första raden till: ”Mästare, skräcken är över, elementen vilar ljuvligt stilla;<br>",
+        "translation_quote": "”Mästare, elementen vilar ljuvligt stilla;<br>"
+      },
+      {
+        "location": "translation.html, första p.poem, andra raden",
+        "severity": "minor",
+        "source_quote": "I bow in my grief today;",
+        "suggested_fix": "Ändra raden till: Jag böjer mig i sorg i dag;<br>",
+        "translation_quote": "Böjer mig i sorg i dag;<br>"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
