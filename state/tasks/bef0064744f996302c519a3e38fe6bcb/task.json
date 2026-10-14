@@ -5,11 +5,222 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dbda604df07740c4a21ebd360bb0c918",
   "campaign": "auto-4d3d47e78c0872ab3db44e941c8f0ea42b352d1c16ca6743ae45df85aab3c82f",
   "created_at": "2026-10-14T06:06:17+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 3770,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 44,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7265,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6162,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11035
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, paragraph 1",
+      "severity": "major",
+      "source_quote": "I stepped quietly down the stairs",
+      "suggested_fix": "Badili “Nilipanda ngazi kwa upole” kuwa “Nilishuka ngazi kimyakimya”.",
+      "translation_quote": "Nilipanda ngazi kwa upole"
+    },
+    {
+      "location": "html, paragraph 2",
+      "severity": "major",
+      "source_quote": "She settled into the rocking chair",
+      "suggested_fix": "Badili “kiti cha kupiga mswaki” kuwa “kiti cha kubembea”.",
+      "translation_quote": "Alikaa kwenye kiti cha kupiga mswaki"
+    },
+    {
+      "location": "html, paragraphs 4–5",
+      "severity": "major",
+      "source_quote": "a fulfilling life; the role of a woman and motherhood ... respected and demonized by turn; was under attack; we were shocked ... a fulltime mother is unnecessary ... fulfillment",
+      "suggested_fix": "Katika aya ya 4 tumia “maisha yenye kuridhisha”. Katika aya ya 5 tumia “nafasi ya mwanamke na umama”, “nyakati fulani vikiheshimiwa na nyakati nyingine vikishutumiwa kuwa viovu”, na “ilikuwa ikishambuliwa”. Ndani ya nukuu tumia “tulishtuka kusikia ghafla”, “mama anayejitolea muda wote kulea watoto si wa lazima”, na “kuridhika maishani” badala ya “utekelezaji”.",
+      "translation_quote": "maisha yenye kufaa; nafasi ya mwanamke na uunguzi wa uzazi ... kupewa heshima na kuhukumiwa kwa mabadiliko; ilikuwa ikiangaziwa; tulikanushwa kushtuka ... mama wa wakati wote haitegemeiwi ... utekelezaji"
+    },
+    {
+      "location": "html, paragraph 6",
+      "severity": "major",
+      "source_quote": "rather than living “discontentedly” at home",
+      "suggested_fix": "Badili “wakikaidi” kuwa “bila kuridhika”.",
+      "translation_quote": "badala ya kuishi “wakikaidi” nyumbani"
+    },
+    {
+      "location": "html, paragraph 7; paragraph 16; paragraph 17, Titus quotation",
+      "severity": "major",
+      "source_quote": "teachers of good things; That they may teach the young women to be sober, to love their husbands ... obedient to their own husbands, that the word of God be not blasphemed",
+      "suggested_fix": "Sahihisha nukuu zote za Tito kwa kutumia “wafundishaji wa mambo mema”, “wawafundishe wanawake vijana kuwa wenye kiasi, kuwapenda waume zao”, na “watiifu kwa waume zao wenyewe, ili neno la Mungu lisitukanwe”. Katika aya ya 7, tumia pia “wasiwe wasingiziaji” badala ya “si wa kupoteza sifa”, na ubadilishe “ili waweke” kuwa “ili wawafundishe”. Hifadhi tagi za msisitizo na marejeo yote.",
+      "translation_quote": "walifundisha mambo mema; ili waweke wanawake wajana kuwa warudifu, wapendao wake ... watiifu kwa wake zao wenyewe, ili neno la Mungu lisizwemezee"
+    },
+    {
+      "location": "html, paragraph 8",
+      "severity": "major",
+      "source_quote": "a more clearly understood and defined definition; a distracting vice and addiction; birthday cakes",
+      "suggested_fix": "Tumia “maana iliyofafanuliwa na kueleweka kwa uwazi zaidi”, “tabia mbaya inayovuruga umakini na kuwa uraibu”, na “keki za siku za kuzaliwa” katika sehemu husika.",
+      "translation_quote": "ufafanuzi ulioeleweka zaidi na uliodhanishwa; adhabu ya kukuvutia na uraibu; bakesi za siku za kuzaliwa"
+    },
+    {
+      "location": "html, paragraph 11",
+      "severity": "major",
+      "source_quote": "Happy is the man that hath his quiver full of them",
+      "suggested_fix": "Badili “Heri ya mtu aliye na <u>bofia yake imejaa</u>” kuwa “Heri mtu ambaye <u>podoo lake limejaa mishale hiyo</u>”.",
+      "translation_quote": "Heri ya mtu aliye na <u>bofia yake imejaa</u>"
+    },
+    {
+      "location": "html, paragraph 12",
+      "severity": "major",
+      "source_quote": "young women wrestling with ... I wrestled through this question as a young mother",
+      "suggested_fix": "Tumia “wanawake vijana wakihangaika kulitafutia jibu” na “Nilihangaika kulitafutia jibu swali hili nilipokuwa mama kijana”.",
+      "translation_quote": "wanawake vijana wakilitafuta ... Nilijaribu kupitia swali hili kama mama mchanga"
+    },
+    {
+      "location": "html, paragraph 13",
+      "severity": "major",
+      "source_quote": "an oasis for hurting people ... children who are loved and “trained up” in the ways of God ... some are called to singleness",
+      "suggested_fix": "Tumia “mahali pa faraja kwa watu wanaoumia”, “watoto wanaopendwa na ‘kulelewa’ katika njia za Mungu”, na “baadhi wameitwa kuishi bila kuoa au kuolewa”.",
+      "translation_quote": "oasia kwa watu waliodhulumiwa ... watoto waliopendwa na “kuwekwa katika njia” za Mungu ... baadhi wameitwa kutobalehe kwa ndoa"
+    },
+    {
+      "location": "html, paragraph 14, Elisabeth Elliot quotation",
+      "severity": "major",
+      "source_quote": "The process of shaping the child, shapes also the mother herself. Reverence for her sacred burden ... her own humble, daily example.",
+      "suggested_fix": "Badili nukuu kuwa “Mchakato wa kumjenga mtoto humjenga pia mama mwenyewe. Kuuheshimu wajibu wake mtakatifu humwita kufuata yote yaliyo safi na mema, ili afundishe hasa kwa mfano wake mwenyewe wa unyenyekevu wa kila siku.” Hifadhi tagi ya tanbihi.",
+      "translation_quote": "Mchakato wa kumfanya mtoto, huwafanya pia mama mwenyewe. Kuogopa mzigo wake mtakatifu ... mfano wake mdogo, wa kila siku."
+    },
+    {
+      "location": "html, paragraph 15",
+      "severity": "major",
+      "source_quote": "infinitely more glorious than the messy floors ... souls being birthed and raised ... give to our families. He is actively involved",
+      "suggested_fix": "Tumia “Ni jambo lenye utukufu mkubwa usio na kifani kuliko sakafu zenye uchafu na fujo”, “Anaona roho zinazozaliwa na kulelewa”, “tunapojifunza kujitoa kwa familia zetu bila ubinafsi”, na “Anashiriki kikamilifu”.",
+      "translation_quote": "Ni zaidi ya utukufu kuliko sakafu zilizochanganyikana ... roho zinazozaa na kulelewa ... kutoa bila kujichukulia wenyewe. Yuko mhenjani"
+    },
+    {
+      "location": "html, paragraph 17, 1 Timothy quotation and following prose",
+      "severity": "major",
+      "source_quote": "with all subjection. But I suffer not a woman to teach ... encourage and disciple the younger generation",
+      "suggested_fix": "Badili “kwa uzito wote” kuwa “kwa utii wote”, “Lakini siwachukui wanawake kufundisha” kuwa “Lakini simruhusu mwanamke kufundisha”, na “kuhimiza na kumkufuza kizazi kipya” kuwa “kutia moyo na kukilea kiroho kizazi cha vijana”.",
+      "translation_quote": "kwa uzito wote. Lakini siwachukui wanawake kufundisha ... kuhimiza na kumkufuza kizazi kipya"
+    },
+    {
+      "location": "html, paragraph 18",
+      "severity": "major",
+      "source_quote": "understand and articulate the path forward for a struggling younger woman",
+      "suggested_fix": "Badili “kuelewa na kuzungumza njia ya mbele kwa mwanamke mchanga anayejaribu” kuwa “kuelewa na kueleza njia ya kusonga mbele kwa mwanamke kijana anayepitia magumu”.",
+      "translation_quote": "kuelewa na kuzungumza njia ya mbele kwa mwanamke mchanga anayejaribu"
+    },
+    {
+      "location": "html, paragraph 19",
+      "severity": "major",
+      "source_quote": "older women shrinking from the task ... engage in heart sharing",
+      "suggested_fix": "Badili “wanawake wazee wakinzwa na kazi hiyo” kuwa “wanawake wazee wakisita kuifanya kazi hiyo”, na “kushiriki kwa moyo” kuwa “kushirikishana yaliyo moyoni”.",
+      "translation_quote": "wanawake wazee wakinzwa na kazi hiyo ... kushiriki kwa moyo"
+    },
+    {
+      "location": "html, unordered list, item 1",
+      "severity": "major",
+      "source_quote": "Reach out and ask ... how to be vulnerable in your relationships",
+      "suggested_fix": "Tumia “Chukua hatua ya kuwasiliana na kuuliza” badala ya “Fikia na ulaze ombi”, na “jinsi ya kufungua moyo wako katika mahusiano yako” badala ya “jinsi ya kuwa dhaifu katika mahusiano yako”.",
+      "translation_quote": "Fikia na ulaze ombi ... jinsi ya kuwa dhaifu katika mahusiano yako"
+    },
+    {
+      "location": "html, unordered list, item 3",
+      "severity": "major",
+      "source_quote": "Be willing to sacrifice your time ... reproduce our spiritual values",
+      "suggested_fix": "Badili “Kubali ku sacrifica muda wako” kuwa “Kuwa tayari kujitolea muda wako”, na “kutuzalisha thamani zetu za kiroho” kuwa “kupitisha maadili yetu ya kiroho kwa wengine”.",
+      "translation_quote": "Kubali ku sacrifica muda wako ... kutuzalisha thamani zetu za kiroho"
+    },
+    {
+      "location": "html, paragraph after unordered list",
+      "severity": "major",
+      "source_quote": "strengthens everyone involved ... spiritual vulnerability with each other",
+      "suggested_fix": "Badili “kunaimarisha wote waliotoa” kuwa “kunaimarisha wote wanaohusika”, na “uzito wa kiroho kati yetu” kuwa “kufunguliana mioyo kuhusu maisha yetu ya kiroho”.",
+      "translation_quote": "kunaimarisha wote waliotoa ... uzito wa kiroho kati yetu"
+    },
+    {
+      "location": "html, final Scripture quotation",
+      "severity": "major",
+      "source_quote": "if we faint not –Galatians 6:9",
+      "suggested_fix": "Badili “tusiomezwa moyo” kuwa “tusipokata tamaa”.",
+      "translation_quote": "tusiomezwa moyo –Wagalatia 6:9"
+    },
+    {
+      "location": "html, paragraphs 1–3",
+      "severity": "minor",
+      "source_quote": "my eyes groggy ... a soft light glowed ... probably what had woken me up ... I expected her to look weary ... my 18-year-old mind",
+      "suggested_fix": "Tumia “macho yangu yakiwa mazito kwa usingizi”, “mwanga hafifu ulikuwa ukitoka”, “labda kilio chake ndicho kilichokuwa kimeniamsha”, “Nilitarajia aonekane mchovu”, na “katika akili yangu nikiwa na umri wa miaka 18”.",
+      "translation_quote": "macho yangu yalikuwa yamechoka ... mwanga laini ulikuwa ukimutiririka ... labda ndiyo aliyenifanya nimeamka ... Nilitarajia aanze kuonekana mchovu ... akilini mwangu wa miaka 18"
+    },
+    {
+      "location": "html, paragraphs 5–6",
+      "severity": "minor",
+      "source_quote": "These were the happiest years ... their deepest joy",
+      "suggested_fix": "Tumia “Hii ilikuwa miaka yenye furaha zaidi” na “furaha yao ya ndani kabisa”.",
+      "translation_quote": "Haya yalikuwa miaka ya furaha zaidi ... furaha zao za ndani"
+    },
+    {
+      "location": "html, paragraph 8",
+      "severity": "minor",
+      "source_quote": "In the past ... if my house ... are compared ... in your focuses and thoughts",
+      "suggested_fix": "Sahihisha “Kwakati” kuwa “Wakati”, “ikiwa nyumbani kwangu” kuwa “ikiwa nyumba yangu”, “zitatolinganishwa” kuwa “vinalinganishwa”, na “kwa mawazo na fikra zako” kuwa “kwa kuelekeza umakini na mawazo yako nyumbani”.",
+      "translation_quote": "Kwakati ... ikiwa nyumbani kwangu ... zitatolinganishwa ... kwa mawazo na fikra zako"
+    },
+    {
+      "location": "html, paragraphs 10–11",
+      "severity": "minor",
+      "source_quote": "time and technology are changing things ... Scripture passages ... show us",
+      "suggested_fix": "Tumia “wakati na teknolojia vinabadilisha mambo” na “Vifungu vya Maandiko vinavyozungumzia watoto vinatuonyesha”.",
+      "translation_quote": "wakati na teknolojia yanabadilisha mambo ... Mistari ya Maandiko yanayozungumzia watoto yanaonyesha kwetu"
+    },
+    {
+      "location": "html, paragraph 13",
+      "severity": "minor",
+      "source_quote": "few things are as refreshing and beautiful as",
+      "suggested_fix": "Badili “vitu vyengine ni vichache vinavyofanya kupendeza na uzuri kama” kuwa “ni mambo machache yanayoburudisha na kupendeza kama”.",
+      "translation_quote": "vitu vyengine ni vichache vinavyofanya kupendeza na uzuri kama"
+    },
+    {
+      "location": "html, image alt attribute",
+      "severity": "minor",
+      "source_quote": "Adult holding the hand of a small child walking outdoors",
+      "suggested_fix": "Tumia alt=\"Mtu mzima amemshika mkono mtoto mdogo wanapotembea nje\".",
+      "translation_quote": "Mtu mzima akiwa amemshika mkono wa mtoto mdogo akiwa wanatembea nje"
+    },
+    {
+      "location": "html, paragraphs 15–16",
+      "severity": "minor",
+      "source_quote": "hungry tummies ... Eventually, the child-bearing and child-raising years are over",
+      "suggested_fix": "Tumia “matumbo yenye njaa” na “Hatimaye, miaka ya kuzaa na kulea watoto huisha”.",
+      "translation_quote": "tumbo za njaa ... Mwishowe, miaka ya kuzaa na kulea yatakapokamilika"
+    },
+    {
+      "location": "html, paragraph 18 and unordered list, item 1",
+      "severity": "minor",
+      "source_quote": "teach the younger ... one younger woman",
+      "suggested_fix": "Badili “wajana” kuwa “vijana” katika aya ya 18; katika kipengele cha kwanza cha orodha tumia “mwanamke mmoja aliye mdogo kwako kwa umri” badala ya “mwanamke mdogo mmoja”.",
+      "translation_quote": "kufundisha wajana ... mwanamke mdogo mmoja"
+    },
+    {
+      "location": "html, unordered list, items 2–3; final prose paragraph",
+      "severity": "minor",
+      "source_quote": "These will grow into relationships ... caring more about others ... those around you",
+      "suggested_fix": "Tumia “Vitendo hivi vitazaa mahusiano na fursa za kuwa na ushawishi”, “kuwajali wengine zaidi kuliko tunavyojijali wenyewe”, na “wale wanaokuzunguka”.",
+      "translation_quote": "Haya yatajengwa kuwa uhusiano, na fursa za kuathiri ... kumjali wengine zaidi kuliko sisi wenyewe ... wale walikuzunguka"
+    }
+  ],
   "id": "bef0064744f996302c519a3e38fe6bcb",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "swa",
@@ -98,11 +309,13 @@
     }
   },
   "protected": false,
+  "quality_score": 43,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/7c85424e5984fd791f1fa504f0338be2aed2d0572a02d43d9b8370601de3fda8.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +328,7 @@
     "total_reserved_usd": 0.738662,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
