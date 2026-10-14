@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Первый абзац",
+      "severity": "major",
+      "source_quote": "“no one who is still living to sin can be buried together in baptism with Christ, who has died to sin”",
+      "suggested_fix": "Заменить «тот, кто все еще живет во грехе» на «тот, кто еще жив для греха», чтобы сохранить противопоставление живого для греха и умершего для греха.",
+      "translation_quote": "«тот, кто все еще живет во грехе, не может быть погребен в крещении вместе со Христом, умершим для греха»"
+    },
+    {
+      "location": "Третий абзац, цитата об Иисусе Христе",
+      "severity": "major",
+      "source_quote": "“He raised us together with Christ and made us sit together in the heavenly places.”",
+      "suggested_fix": "Убрать добавленные слова «во Христе Иисусе», которых нет в цитируемом английском тексте: «Он воскресил нас вместе со Христом и посадил на небесах».",
+      "translation_quote": "«Он воскресил нас вместе с Христом и посадил на небесах во Христе Иисусе»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
