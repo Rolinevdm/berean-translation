@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T20:09:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"마지막 부분, 교회의 연합에 관한 인용문\",\"severity\":\"major\",\"source_quote\":\"“That they all may be one; as thou, Father, art in me, and I in thee, that they also may be one in us: that the world may believe that thou hast sent me.”\",\"suggested_fix\":\"인용문에 누락된 구절을 포함해 다음과 같이 수정하십시오. “그들도 다 하나가 되게 하옵소서. 아버지께서 내 안에, 내가 아버지 안에 있는 것같이 그들도 우리 안에 있게 하사, 세상으로 아버지께서 나를 보내신 것을 믿게 하옵소서.”\",\"translation_quote\":\"“그들도 다 하나가 되어 우리 안에 있게 하사 세상으로 아버지께서 나를 보내신 것을 믿게 하옵소서.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 822,
+    "content_evidence_truncated": false,
+    "content_sha256": "ea15f75ce65948a15956928238a6d0155a9f83b8adef70298e1cd397013114ef",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 732,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7871,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7868,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8603
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

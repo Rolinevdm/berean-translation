@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "마지막 부분, 교회의 연합에 관한 인용문",
+      "severity": "major",
+      "source_quote": "“That they all may be one; as thou, Father, art in me, and I in thee, that they also may be one in us: that the world may believe that thou hast sent me.”",
+      "suggested_fix": "인용문에 누락된 구절을 포함해 다음과 같이 수정하십시오. “그들도 다 하나가 되게 하옵소서. 아버지께서 내 안에, 내가 아버지 안에 있는 것같이 그들도 우리 안에 있게 하사, 세상으로 아버지께서 나를 보내신 것을 믿게 하옵소서.”",
+      "translation_quote": "“그들도 다 하나가 되어 우리 안에 있게 하사 세상으로 아버지께서 나를 보내신 것을 믿게 하옵소서.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

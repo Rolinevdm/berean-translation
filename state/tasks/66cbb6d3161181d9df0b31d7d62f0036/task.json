@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5a83898b7dd4421daed9b36b1ec42cc1",
   "campaign": "auto-f27653fe99fca9dd9e73b2c79c653f58582a92d75e9c2d25be5762d9e4ce97b2",
   "created_at": "2026-10-12T00:54:39+00:00",
   "events": [
@@ -48,18 +47,40 @@
         },
         "total_tokens": 11596
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 732,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7871,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7868,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8603
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[81]: source /article[1]/ol[1]/li[3]/p[4]/em[1] ('start', 'em', ()); translation /article[1]/ol[1]/li[3]/p[4] ('end', 'p')",
-      "translation_quote": ""
+      "location": "마지막 부분, 교회의 연합에 관한 인용문",
+      "severity": "major",
+      "source_quote": "“That they all may be one; as thou, Father, art in me, and I in thee, that they also may be one in us: that the world may believe that thou hast sent me.”",
+      "suggested_fix": "인용문에 누락된 구절을 포함해 다음과 같이 수정하십시오. “그들도 다 하나가 되게 하옵소서. 아버지께서 내 안에, 내가 아버지 안에 있는 것같이 그들도 우리 안에 있게 하사, 세상으로 아버지께서 나를 보내신 것을 믿게 하옵소서.”",
+      "translation_quote": "“그들도 다 하나가 되어 우리 안에 있게 하사 세상으로 아버지께서 나를 보내신 것을 믿게 하옵소서.”"
     }
   ],
+  "finished_at": "2026-10-14T20:09:10+00:00",
   "id": "66cbb6d3161181d9df0b31d7d62f0036",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "kor",
@@ -148,9 +169,11 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/06937d43d82edf4dbc71110987ff1d03b1c2cad3babb7a679114389a1b114e86.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +189,7 @@
     "total_reserved_usd": 0.089384,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
   "translation_model_actual": "gpt-6-luna"
