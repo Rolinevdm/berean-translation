@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T18:34:22+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"924514c7-52be-4e2b-ab75-3141e14ea9a0\\\">\\n  <p class=\\\"drop-cap\\\">Qualche tempo fa, mentre viaggiavo attraverso la Virginia, presi una copia del «The Roanoke Times», con in copertina una fotografia di Moammar Gheddafi. Lo citavano mentre diceva: «Sono un combattente, un rivoluzionario cresciuto nelle tende. Morirò da martire, alla fine». Chi non lo sarebbe, se un regime durato quarant’anni fosse minacciato? Vediamo spesso la stessa cosa nel corso della storia: re e imperatori ricorrono a ogni mezzo a loro disposizione per non perdere il potere, e alcuni arrivano persino a sacrificare la vita di milioni di fedeli seguaci.</p>\\n\\n  <p>Questi regni terreni e il loro funzionamento mi hanno fatto pensare a un altro regno (e sovrano), i cui confini non sono tracciati sul globo. Questo tiranno agita il suo scettro su re, presidenti, ricchi e contadini allo stesso modo; pochi sono coloro che non si inchinano ai suoi altari. Questo sovrano non nega nulla al suo popolo, eppure i suoi seguaci non sono mai davvero felici (anzi, la maggior parte è molto infelice) e alla fine saranno tutti distrutti. Vi sento dire: «Devi star parlando del diavolo». No, il suo nome non è Satana, benché il diavolo sia il suo consigliere.</p>\\n\\n  <p>Il suo nome è Sé! Vive nei cuori umani. Alcuni dei suoi attributi sono: volontà propria, autoconservazione, autocompiacimento, autocommiserazione, presunzione e amor proprio, per citarne alcuni. In effetti, il mio dizionario dedica quasi un’intera pagina alle varie forme che il sé assume per conservare il rispetto di sé. Esaminando l’elenco, ne troviamo alcune buone, ma sempre come antidoto al Sé stesso. Rinnegare sé stessi è lodevole, purché lo si faccia senza esserne consapevoli. L’umiliarsi può essere una forma di orgoglio, spesso scambiata per una cosa buona. Qualcuno commenta il buon lavoro che avete fatto e voi dite: «Oh, non è poi così buono», mentre sentite crescere nel cuore la soddisfazione di voi stessi perché qualcuno se n’è accorto. D’altra parte, quando qualcuno critica i vostri sforzi, l’autogiustificazione e le scuse a propria difesa si fanno avanti per difendere il proprio io.</p>\\n\\n  <p>In netto contrasto con tutte queste macchinazioni del Sé e della vita incentrata su sé stessi, il nostro Salvatore iniziò il suo soggiorno tra gli uomini in una stalla umile. Poco dopo, i suoi genitori, temendo che Erode (un altro despota egoista) lo uccidesse, fuggirono in Egitto. Di là tornarono a vivere nella modesta città di Nazaret. Questo figlio di un carpentiere non nacque tra i nobili o nella classe dirigente del suo tempo, ma tra gli svantaggiati. «Non è costui il figlio di Giuseppe? Sua madre e i suoi fratelli non sono qui con noi?»</p>\\n\\n  <p>Mentre camminava tra gli uomini, mostrò un autentico altruismo; non si poteva scorgere in lui alcuna autoesaltazione. Le parole che pronunciò in Matteo 11:28-29 («Venite a me, voi tutti che siete affaticati e oppressi, e io vi darò riposo. Prendete su di voi il mio giogo e imparate da me, perché sono mansueto e umile di cuore; e troverete riposo per le anime vostre») non nacquero da un senso della propria importanza. Scaturirono dal desiderio che gli uomini smettessero di seguire le proprie vie egoistiche e nascessero di nuovo nel regno di Dio, dove il Sé deve morire, essendo crocifisso in coloro che sono morti con Lui. ~</p>\\n\\n  <p class=\\\"source-note\\\">(Tratto dal numero di aprile 2011 di <em>Love of the Truth</em>.)</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Re della terra\"}",
+    "content_bytes": 3612,
+    "content_evidence_truncated": false,
+    "content_sha256": "5301a6a0a2a32d1580ea5525b205af74d3c602305151ecb6631191076da042f9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1223,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 214,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1642,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1639,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2865
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
