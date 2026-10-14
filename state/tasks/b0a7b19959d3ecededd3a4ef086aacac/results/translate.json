@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b0a1979a-e28a-4046-9a18-534497beba55",
+    "response_id": "chatcmpl-EYw7VcMwghneFNSzLRi04zChe36iL",
+    "usage": {
+      "completion_tokens": 223,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1037,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1034,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1260
+    }
+  },
+  "received_at": "2026-10-14T18:33:52+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ba07e0b0-5152-46e9-9761-0d0ed839789b\">\n  <figure>\n    <img src=\"/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg\" alt=\"Partitura y letra de «Aleluya, está terminado», de Philip Hess y G. Koehn\" loading=\"lazy\">\n  </figure>\n\n  <p>Philip y Betsy Hess viven cerca de Bethel, Pensilvania, con sus dos hijos, Damaris y David. Philip trabaja en el desmontaje y la reconstrucción de antiguos graneros. Asisten a una pequeña comunidad cristiana que se reúne en una casa, donde desean fervientemente que crezca el reino de Cristo.</p>\n</article>\n",
+    "section": "El pueblo de Dios sigue cantando",
+    "subtitle": null,
+    "title": "Aleluya, está terminado"
+  }
+}
