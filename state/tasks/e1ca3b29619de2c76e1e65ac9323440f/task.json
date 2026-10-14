@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a7e3d702c9bd4823aee6e231eeec76a9",
   "campaign": "auto-f6f6567a3c8bf4b2bd142eb8e6eadf5de13d344cf8dbdacd5f01ed259c4aedd4",
   "created_at": "2026-10-13T03:16:57+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 155,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 52,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2006,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 903,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2161
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html — attribut alt de l’image",
+      "severity": "minor",
+      "source_quote": "Silhouette of a person raising both hands against a warm sky",
+      "suggested_fix": "Silhouette d'une personne levant les deux mains sur fond de ciel aux couleurs chaudes",
+      "translation_quote": "Silhouette d'une personne levant les deux mains contre un ciel chaleureux"
+    }
+  ],
+  "finished_at": "2026-10-14T01:06:31+00:00",
   "id": "e1ca3b29619de2c76e1e65ac9323440f",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "fra",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.677091,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

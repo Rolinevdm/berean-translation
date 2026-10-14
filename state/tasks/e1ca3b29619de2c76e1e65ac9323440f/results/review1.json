@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "9828a998-bf8e-4cca-95c8-24cf5b3688b4",
+    "response_id": "chatcmpl-EYfgxeu7pZUPwifKHSDWgQBEWjYTE",
+    "usage": {
+      "completion_tokens": 155,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 52,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2006,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 903,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2161
+    }
+  },
+  "received_at": "2026-10-14T01:06:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — attribut alt de l’image",
+        "severity": "minor",
+        "source_quote": "Silhouette of a person raising both hands against a warm sky",
+        "suggested_fix": "Silhouette d'une personne levant les deux mains sur fond de ciel aux couleurs chaudes",
+        "translation_quote": "Silhouette d'une personne levant les deux mains contre un ciel chaleureux"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

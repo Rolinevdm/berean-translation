@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — attribut alt de l’image",
+      "severity": "minor",
+      "source_quote": "Silhouette of a person raising both hands against a warm sky",
+      "suggested_fix": "Silhouette d'une personne levant les deux mains sur fond de ciel aux couleurs chaudes",
+      "translation_quote": "Silhouette d'une personne levant les deux mains contre un ciel chaleureux"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
