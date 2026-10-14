@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "88f283fa-9ea9-4de8-936f-57ce2984cddf",
+    "response_id": "chatcmpl-EYzBpNJPQ0FOXK2H0UYs2FcZzGwQw",
+    "usage": {
+      "completion_tokens": 321,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 78,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1044,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1041,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1365
+    }
+  },
+  "received_at": "2026-10-14T20:09:01+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ba07e0b0-5152-46e9-9761-0d0ed839789b\">\n  <figure>\n    <img src=\"/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg\" alt=\"菲利普·赫斯和G.科恩创作的《哈利路亚，成了》乐谱和歌词\" loading=\"lazy\">\n  </figure>\n\n  <p>菲利普和贝琪·赫斯与他们的两个孩子达玛丽丝和戴维住在宾夕法尼亚州伯特利附近。菲利普从事拆卸和重建旧谷仓的工作。他们参加一个小型的家庭团契，热切盼望基督的国度不断扩展。</p>\n</article>\n",
+    "section": "上帝的子民继续歌唱",
+    "subtitle": null,
+    "title": "哈利路亚，成了"
+  }
+}
