@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T07:38:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"we too shall be said to sit together with Him in the heavens\",\"suggested_fix\":\"também se dirá que nos sentaremos juntamente com ele nos céus\",\"translation_quote\":\"também se dirá que estamos sentados com ele nos céus\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 349,
+    "content_evidence_truncated": false,
+    "content_sha256": "a245eb00e5d5462bd5c7431ef27d4c1d20ff03c5d8e91c8610ba3292c1297198",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1099,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 995,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3368,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2265,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4467
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

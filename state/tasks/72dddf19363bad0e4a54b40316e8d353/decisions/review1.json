@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "minor",
+      "source_quote": "we too shall be said to sit together with Him in the heavens",
+      "suggested_fix": "também se dirá que nos sentaremos juntamente com ele nos céus",
+      "translation_quote": "também se dirá que estamos sentados com ele nos céus"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
