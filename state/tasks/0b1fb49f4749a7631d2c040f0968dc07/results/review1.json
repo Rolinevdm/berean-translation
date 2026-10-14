@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "58620ff0-ef27-4e87-b2f8-d0aaee8e48ed",
+    "response_id": "chatcmpl-EYf4RyqHKz2dBi7njhVzNWByx1ZMH",
+    "usage": {
+      "completion_tokens": 536,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 389,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2380,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1277,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2916
+    }
+  },
+  "received_at": "2026-10-14T01:06:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, opening blockquote",
+        "severity": "major",
+        "source_quote": "We must reduce our volume to the simple evangelists, select, even from them, the very words only of Jesus",
+        "suggested_fix": "Kita harus menyusutkan kitab kita menjadi Injil-Injil sederhana, lalu memilih, bahkan dari antara Injil-Injil itu, hanya kata-kata Yesus sendiri",
+        "translation_quote": "Kita harus mengurangi volume kita hingga sesederhana para penginjil, memilih, bahkan dari antara mereka, hanya kata-kata Yesus sendiri"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
