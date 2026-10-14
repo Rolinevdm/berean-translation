@@ -29735,6 +29735,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/924514c7-52be-4e2b-ab75-3141e14ea9a0.html",
+      "html_sha256": "c0b8e116681962ed1745ee6862b0b5cb5f2ffe808eb03fa65b37c09c38161d57",
+      "human_reviewed": false,
+      "id": "924514c7-52be-4e2b-ab75-3141e14ea9a0",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/924514c7-52be-4e2b-ab75-3141e14ea9a0.json",
+      "metadata_sha256": "2f6a8a49d6d76b510fd529b019861c592c34584b7f2076f0d08bb87f4ef1d628",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "f83903f6f553c0469d537b5461e4ba3aa295835f",
+      "source_translation_key": "0afc0b6bee66dd315455ddd780526dd699416793c745bb2e10085b05dad8c9fc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "पृथ्वी का राजा",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "7f666cbaf5c8d3db566518266893d17d6d3f29d93893c18058b71224ec118890",
       "human_reviewed": false,
@@ -35505,6 +35528,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.html",
+      "html_sha256": "f8483eed7bf3f9a561685874040ec8bfc8b332ac21d48d8e2bb841210539ff23",
+      "human_reviewed": false,
+      "id": "fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd",
+      "images": [
+        {
+          "alt": "Sampul Coals of Fire karya Elizabeth Hershberger Bauman",
+          "public_path": "/images/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.json",
+      "metadata_sha256": "b70aea3e00dfb417fc977bef1e27223ff60a5ba518e467bd50c2f0ac1ea7a749",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Rak Buku",
+      "source_revision": "5cc108b7f7605f1c415c013d8d7e8ea4b8e869b1",
+      "source_translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Coals of Fire",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
       "html_sha256": "aec9ee4e8b0441fe72c6faafb46f7e44db25b2e09b2f2a465a90f682ac579c16",
       "human_reviewed": false,
@@ -39747,6 +39798,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "La risposta di un cristiano",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.html",
+      "html_sha256": "36a89399aab5e11e6c8faddbda3ebc9b0063d860eca9445b97d513783b5d9257",
+      "human_reviewed": false,
+      "id": "fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd",
+      "images": [
+        {
+          "alt": "Copertina di Coals of Fire di Elizabeth Hershberger Bauman",
+          "public_path": "/images/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.json",
+      "metadata_sha256": "e5c458e6baddd17468440a2ac3477ea434dc6725d83c0e241f17fbc661332e5f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Lo scaffale dei libri",
+      "source_revision": "992debda63d6be4a08362d2a463694f3df221977",
+      "source_translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Coals of Fire",
       "translation_model": "gpt-6-luna"
     },
     {
