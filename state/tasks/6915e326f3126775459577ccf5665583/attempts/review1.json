@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T22:23:29+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html: “आज हमारी दुनिया में अनेक दृष्टिकोण हैं” से शुरू होने वाला अनुच्छेद\",\"severity\":\"minor\",\"source_quote\":\"There’s race discrimination on both sides of the matter.\",\"suggested_fix\":\"इस मामले में दोनों पक्षों की ओर से नस्लीय भेदभाव हो रहा है।\",\"translation_quote\":\"नस्लीय भेदभाव के मामले में दोनों पक्षों की ओर से ऐसा हो रहा है।\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 730,
+    "content_evidence_truncated": false,
+    "content_sha256": "3302c80a38df03a7b6ad9c24a4d89db0d10908e96a8081203baad8a02d5cd397",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 202,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 78,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6331,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6328,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6533
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
