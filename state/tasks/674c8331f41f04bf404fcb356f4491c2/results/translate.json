@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e56aff1f-2e3d-43b8-befc-716f8daf7097",
+    "response_id": "chatcmpl-EZ1ZHhYmXNXq4qW7u68ttmSC5hqfy",
+    "usage": {
+      "completion_tokens": 254,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1038,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1035,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1292
+    }
+  },
+  "received_at": "2026-10-14T22:23:05+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ba07e0b0-5152-46e9-9761-0d0ed839789b\">\n  <figure>\n    <img src=\"/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg\" alt=\"필립 헤스와 G. 코언의 ‘할렐루야, 다 이루어졌네’ 악보와 가사\" loading=\"lazy\">\n  </figure>\n\n  <p>필립과 베치 헤스는 두 자녀 다마리스와 데이비드와 함께 펜실베이니아주 베델 근처에 살고 있습니다. 필립은 오래된 헛간을 해체하고 다시 짓는 일을 합니다. 이들은 그리스도의 나라가 자라기를 간절히 바라는 소규모 가정 기반 교회에 참석합니다.</p>\n</article>\n",
+    "section": "하나님의 백성은 계속 노래합니다",
+    "subtitle": null,
+    "title": "할렐루야, 다 이루어졌네"
+  }
+}
