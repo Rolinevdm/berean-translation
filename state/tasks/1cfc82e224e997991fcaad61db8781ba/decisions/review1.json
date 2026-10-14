@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraaf oor die Wet op Ontvlugte Slawe van 1793",
+      "severity": "major",
+      "source_quote": "“shall harbor or conceal such person after notice that he or she was a fugitive from labor.”",
+      "suggested_fix": "Vervang “dat hy of sy van diensplig gevlug het” met “dat hy of sy van arbeid weggevlug het” om die bron se verwysing na iemand wat van arbeid gevlug het, te behou.",
+      "translation_quote": "“so ’n persoon skuiling sou bied of verberg nadat hulle in kennis gestel is dat hy of sy van diensplig gevlug het”"
+    },
+    {
+      "location": "Paragraaf oor die Wet van 1850",
+      "severity": "major",
+      "source_quote": "“gave authorities the right to deputize any citizen and force that person to aid in capturing escaping slaves.”",
+      "suggested_fix": "Vervang “enige burger as ’n afgevaardigde aan te stel” met “enige burger as ’n hulpbeampte te deputiseer” of ’n ander formulering wat aandui dat die burger met wetstoepassingsgesag beklee is.",
+      "translation_quote": "“die owerhede die reg gegee om enige burger as ’n afgevaardigde aan te stel en daardie persoon te dwing om te help om ontsnapte slawe vas te trek”"
+    },
+    {
+      "location": "Aanhaling deur Mike in die forum, paragraaf wat begin “Timo Miller verskyn môre in die hof”",
+      "severity": "major",
+      "source_quote": "“He may plead the 5th ... I dont know.”",
+      "suggested_fix": "Vervang “op die 5de beroep” met “hom dalk op die Vyfde Amendement beroep” om die verwysing na die Amerikaanse Fifth Amendment te behou.",
+      "translation_quote": "“Hy mag dalk op die 5de beroep ... ek weet nie.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

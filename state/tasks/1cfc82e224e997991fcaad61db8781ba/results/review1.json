@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "debe849c-a973-48ac-848d-553bfd2bb750",
+    "response_id": "chatcmpl-EYwYLpexdhB1fXNMkl7vhiASBBy9S",
+    "usage": {
+      "completion_tokens": 1057,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 620,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14617,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13514,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15674
+    }
+  },
+  "received_at": "2026-10-14T18:33:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraaf oor die Wet op Ontvlugte Slawe van 1793",
+        "severity": "major",
+        "source_quote": "“shall harbor or conceal such person after notice that he or she was a fugitive from labor.”",
+        "suggested_fix": "Vervang “dat hy of sy van diensplig gevlug het” met “dat hy of sy van arbeid weggevlug het” om die bron se verwysing na iemand wat van arbeid gevlug het, te behou.",
+        "translation_quote": "“so ’n persoon skuiling sou bied of verberg nadat hulle in kennis gestel is dat hy of sy van diensplig gevlug het”"
+      },
+      {
+        "location": "Paragraaf oor die Wet van 1850",
+        "severity": "major",
+        "source_quote": "“gave authorities the right to deputize any citizen and force that person to aid in capturing escaping slaves.”",
+        "suggested_fix": "Vervang “enige burger as ’n afgevaardigde aan te stel” met “enige burger as ’n hulpbeampte te deputiseer” of ’n ander formulering wat aandui dat die burger met wetstoepassingsgesag beklee is.",
+        "translation_quote": "“die owerhede die reg gegee om enige burger as ’n afgevaardigde aan te stel en daardie persoon te dwing om te help om ontsnapte slawe vas te trek”"
+      },
+      {
+        "location": "Aanhaling deur Mike in die forum, paragraaf wat begin “Timo Miller verskyn môre in die hof”",
+        "severity": "major",
+        "source_quote": "“He may plead the 5th ... I dont know.”",
+        "suggested_fix": "Vervang “op die 5de beroep” met “hom dalk op die Vyfde Amendement beroep” om die verwysing na die Amerikaanse Fifth Amendment te behou.",
+        "translation_quote": "“Hy mag dalk op die 5de beroep ... ek weet nie.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
