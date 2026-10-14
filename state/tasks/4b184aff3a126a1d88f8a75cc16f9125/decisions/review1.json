@@ -1,0 +1,105 @@
+{
+  "findings": [
+    {
+      "location": "html: اقتباس تيطس 2:3-5، والفقرة التالية، واقتباسا تيطس 2:4-5 لاحقًا",
+      "severity": "major",
+      "source_quote": "keepers at home; “a keeper at home”",
+      "suggested_fix": "استبدال «قابلاتٍ لشؤون البيت» و«قابِلاتٍ لشؤون البيت» بـ«معتنياتٍ بشؤون البيت» في المواضع الأربعة، مع الحفاظ على الوسوم الموجودة.",
+      "translation_quote": "قابلاتٍ لشؤون البيت؛ «قابِلاتٍ لشؤون البيت»"
+    },
+    {
+      "location": "html: اقتباس تيطس 2:3-5 واقتباسا تيطس 2:4-5",
+      "severity": "major",
+      "source_quote": "To be discreet",
+      "suggested_fix": "استبدال «أن يكنَّ مُتّعِدات» بـ«أن يكنَّ متعقّلات» في الاقتباسات الثلاثة.",
+      "translation_quote": "أن يكنَّ مُتّعِدات"
+    },
+    {
+      "location": "html: اقتباسا مزمور 127:3 ومزمور 127:3-5",
+      "severity": "major",
+      "source_quote": "the fruit of the womb is his reward",
+      "suggested_fix": "استبدال «وبنت الرحم جزاءه» بـ«وثمر الرحم مكافأة منه» في الموضعين؛ فكلمة fruit لا تخصّ الإناث.",
+      "translation_quote": "وبنت الرحم جزاءه"
+    },
+    {
+      "location": "html: الفقرة التي تبدأ «دعوتي كأم»",
+      "severity": "major",
+      "source_quote": "children who are loved and “trained up” in the ways of God",
+      "suggested_fix": "استبدال «الأطفال المحبّين والمُـ«مُؤدَّبِين» في طرق الله» بـ«الأطفال الذين يُحَبّون و«يُربَّون» على طرق الله».",
+      "translation_quote": "الأطفال المحبّين والمُـ«مُؤدَّبِين» في طرق الله"
+    },
+    {
+      "location": "html: فقرة مخاوف النساء الأكبر سنًا، والبند الأول، وفقرة «تعليم الآخرين»",
+      "severity": "major",
+      "source_quote": "being vulnerable; how to be vulnerable in your relationships; spiritual vulnerability with each other",
+      "suggested_fix": "استبدال العبارات على التوالي بـ«فتح قلبكِ للآخرين والكشف عن مواطن ضعفكِ»، و«كيف تفتحين قلبكِ وتكشفين عن مواطن ضعفكِ في علاقاتكِ»، و«المصارحة الروحية وكشف مواطن ضعفنا بعضنا لبعض». المقصود الانفتاح الصادق، لا اكتساب الضعف الروحي.",
+      "translation_quote": "كونك ضعيفة؛ كيف تكونين ضعيفة في علاقاتك؛ ضعف روحي مع بعضنا البعض"
+    },
+    {
+      "location": "html: فقرة «في هذه السنوات المزدحمة»",
+      "severity": "major",
+      "source_quote": "He sees the souls being birthed and raised",
+      "suggested_fix": "استبدال «يرى النفوس التي تولد وترتفع» بـ«يرى النفوس التي تولد وتُربَّى».",
+      "translation_quote": "يرى النفوس التي تولد وترتفع"
+    },
+    {
+      "location": "html: نهاية فقرة «لا يحتاج الله إلى نساء كاملات»",
+      "severity": "major",
+      "source_quote": "for a struggling younger woman",
+      "suggested_fix": "استبدال «للأم الشابة المنهارة» بـ«لامرأة أصغر سنًا تواجه صعوبات»؛ فالنص لا يقصرها على الأمهات ولا يصفها بالانهيار.",
+      "translation_quote": "للأم الشابة المنهارة"
+    },
+    {
+      "location": "html: اقتباس تيطس 2:3-5 الأول",
+      "severity": "major",
+      "source_quote": "not false accusers",
+      "suggested_fix": "استبدال «لا افتراءات» بـ«غير مفتريات» لوصف النساء كما في الأصل.",
+      "translation_quote": "لا افتراءات"
+    },
+    {
+      "location": "html: الفقرة الثانية",
+      "severity": "minor",
+      "source_quote": "soon the house was restored to its midnight quiet",
+      "suggested_fix": "استبدال «وسرعان ما عاد الهدوء منتصف الليلة إلى البيت» بـ«وسرعان ما عاد إلى البيت هدوء منتصف الليل».",
+      "translation_quote": "وسرعان ما عاد الهدوء منتصف الليلة إلى البيت"
+    },
+    {
+      "location": "html: اقتباس المرأة عن الأمومة في الفقرة التاريخية",
+      "severity": "minor",
+      "source_quote": "Mothers who were applauded by society were suddenly bombarded with a new buzzword—fullfillment.",
+      "suggested_fix": "استبدال الجملة بـ«الأمهات اللواتي كان المجتمع يصفّق لهن انهالت عليهن فجأة كلمة رائجة جديدة — تحقيق الذات.»",
+      "translation_quote": "الأمهات اللواتي كانت تُصفق لهن المجتمعات فجأة طُرحن بكلمة طنانة جديدة — الإشباع."
+    },
+    {
+      "location": "html: فقرة تأثير التكنولوجيا، وفقرة السؤال المتعلق بالخدمة",
+      "severity": "minor",
+      "source_quote": "a subtle influence; a subtle discontent; An even more subtle question",
+      "suggested_fix": "استبدال «تأثير رقيق» بـ«تأثير خفي»، و«استياءً رقيقًا» بـ«استياءً خفيًا»، و«سؤال أدق وأكثر رقة» بـ«سؤال أكثر خفاءً»؛ فالمقصود صعوبة ملاحظة التأثير والسؤال، لا رقتهما.",
+      "translation_quote": "تأثير رقيق؛ استياءً رقيقًا؛ سؤال أدق وأكثر رقة"
+    },
+    {
+      "location": "html: نهاية فقرة اقتباس إليزابيث إليوت",
+      "severity": "minor",
+      "source_quote": "allows our own souls to be purified",
+      "suggested_fix": "استبدال «يُتيح لتطهير أنفسنا» بـ«يُتيح لأنفسنا أن تتطهّر».",
+      "translation_quote": "يُتيح لتطهير أنفسنا"
+    },
+    {
+      "location": "html: البند الثالث",
+      "severity": "minor",
+      "source_quote": "It is His way for us to reproduce our spiritual values and bless the next generation.",
+      "suggested_fix": "استبدال «هذا طريقه لنتكاثر بقيمنا الروحية ونبارك الجيل التالي» بـ«هذه طريقته لكي ننقل قيمنا الروحية ونبارك الجيل التالي».",
+      "translation_quote": "هذا طريقه لنتكاثر بقيمنا الروحية ونبارك الجيل التالي"
+    },
+    {
+      "location": "html: الفقرة التي تبدأ «أيًّا كان حالكِ»",
+      "severity": "minor",
+      "source_quote": "Busy young mother or older woman, whatever stage of life you’re in",
+      "suggested_fix": "استبدال «أيًّا كان حالكِ—إم أم شابة منشغلة أو امرأة أكبر سنًا—في أي مرحلة من الحياة كنتِ» بـ«سواء أكنتِ أمًّا شابة منشغلة أم امرأة أكبر سنًا، وأيًّا كانت مرحلة حياتكِ».",
+      "translation_quote": "أيًّا كان حالكِ—إم أم شابة منشغلة أو امرأة أكبر سنًا—في أي مرحلة من الحياة كنتِ"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
