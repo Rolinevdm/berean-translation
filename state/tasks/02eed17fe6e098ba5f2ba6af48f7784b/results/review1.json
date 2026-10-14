@@ -1,0 +1,206 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "1f423056-9f19-48dc-9b9c-f66abed2fb2f",
+    "response_id": "chatcmpl-EYpxgxiTLCpE5ssm9iqFAuHTtxkQh",
+    "usage": {
+      "completion_tokens": 3860,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10567,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10564,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14427
+    }
+  },
+  "received_at": "2026-10-14T11:41:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, opening historical paragraph",
+        "severity": "major",
+        "source_quote": "the notorious German army",
+        "suggested_fix": "הצבא הגרמני הידוע לשמצה",
+        "translation_quote": "הצבא הגרמני המיוסר"
+      },
+      {
+        "location": "html, opening historical paragraph, D-word list",
+        "severity": "major",
+        "source_quote": "Disappointment, Doubt, Doleful, Doom, Disillusionment, Discouragement, Dreary, Defeat, Despondency, Depression, Despair, Devastation, Deception, and Death",
+        "suggested_fix": "להוסיף לכל מילה אנגלית את משמעותה בעברית, תוך שימור ההסבר על האות D: Disappointment (אכזבה), Doubt (ספק), Doleful (עגום), Doom (אבדון), Disillusionment (התפכחות מאשליות), Discouragement (רפיון ידיים), Dreary (קודר), Defeat (תבוסה), Despondency (דכדוך), Depression (דיכאון), Despair (ייאוש), Devastation (חורבן), Deception (הטעיה), and Death (מוות).",
+        "translation_quote": "Disappointment, Doubt, Doleful, Doom, Disillusionment, Discouragement, Dreary, Defeat, Despondency, Depression, Despair, Devastation, Deception, and Death"
+      },
+      {
+        "location": "html, paragraph beginning אני יכול לדמיין",
+        "severity": "major",
+        "source_quote": "at the death of their master or mate",
+        "suggested_fix": "במות בעליהם או בני זוגם",
+        "translation_quote": "בהיעלמות אדונם או בן זוגם"
+      },
+      {
+        "location": "html, crisis-of-faith paragraph and John the Baptist paragraph",
+        "severity": "major",
+        "source_quote": "feels he is abandoned by God; feelings of utter abandonment by God",
+        "suggested_fix": "להחליף בהתאמה: ״מרגיש שאלוהים נטש אותו״; ״התחושות שאלוהים נטש אותו לחלוטין״.",
+        "translation_quote": "מרגיש שהושאר בידי אלוהים; תחושות ההשארה המוחלטת בידי אלוהים"
+      },
+      {
+        "location": "html, Jeremiah 15:18 quotation",
+        "severity": "major",
+        "source_quote": "Why is my pain perpetual, and my wound incurable, which refuseth to be healed? wilt thou be altogether unto me as a liar, and as waters that fail?",
+        "suggested_fix": "בתוך תגית em הקיימת: ״מדוע כאבי אינו פוסק ופצעי חשוך מרפא ומסרב להירפא? האם תהיה לי כמי שמכזב, וכמקור מים שאוזל? –ירמיהו טו:יח.״",
+        "translation_quote": "מדוע כאבי תמידי ולשוני רפאו לא: מה ניצלני? האם תתפס כלפי שקר אלי, ומים הנגאים?"
+      },
+      {
+        "location": "html, 2 Corinthians 1:8-9 quotation",
+        "severity": "major",
+        "source_quote": "we were pressed out of measure, above strength ... that we should not trust in ourselves",
+        "suggested_fix": "להחליף את הציטוט בתוך em: ״אחים, איננו רוצים שלא תדעו על הצרה שפקדה אותנו באסיה: היינו נתונים ללחץ כבד מנשוא, מעבר לכוחותינו, עד שנואשנו אפילו מן החיים. חשנו שנגזר עלינו מוות, כדי שלא נבטח בעצמנו אלא באלוהים המקים את המתים –קורינתים ב׳ א:ח-ט.״",
+        "translation_quote": "הועמדנו על גבול היותנו מעבר לכוח ... למען לא נתפלל על עצמנו"
+      },
+      {
+        "location": "html, paragraph describing the Stranger and road length",
+        "severity": "major",
+        "source_quote": "about threescore furlongs ... He is the risen Lord ... perhaps for our benefit",
+        "suggested_fix": "להחליף בהתאמה: ״כשישים פרלונג״ בתוך em; ״הוא האדון שקם מן המתים, אשר בא להאיר באורו השמימי את דרכנו החשוכה״; ״ואולי לטובתנו״.",
+        "translation_quote": "כארבעים ושמונה פרלאס ... הוא האדון המכונה, שקם כדי לשפוך את אורו השמימי ... ואולי לטובתם"
+      },
+      {
+        "location": "html, Acts 7:25 quotation",
+        "severity": "major",
+        "source_quote": "supposed his brethren would have understood how that God by his hand would deliver them: but they understood not",
+        "suggested_fix": "״…חשב שאחיו יבינו שאלוהים יושיע אותם באמצעותו, אך הם לא הבינו –מעשי השליחים ז׳:כה.״",
+        "translation_quote": "חשב שאחיו יבינו כי על ידם יפדווהו אלה, אך לא ידעו"
+      },
+      {
+        "location": "html, Numbers 11:14-15 and Luke 24:16 quotations",
+        "severity": "major",
+        "source_quote": "kill me, I pray thee, out of hand ... eyes were holden that they should not know him",
+        "suggested_fix": "בציטוט במדבר להחליף ״הוצאני נא מיד״ ב״הרוג אותי נא מיד״. בציטוט לוקס להחליף ״נרגעו שלא יכירוהו״ ב״נמנע מהן לזהות אותו״, תוך שימור תגיות em וההפניות.",
+        "translation_quote": "הוצאני נא מיד ... עיניהם ... נרגעו שלא יכירוהו"
+      },
+      {
+        "location": "html, Reason section",
+        "severity": "major",
+        "source_quote": "through a glass, darkly ... free us from our presumption and sin",
+        "suggested_fix": "להחליף בהתאמה: ״…דרך מראה, במעורפל…״; ״לשחרר אותנו מיומרתנו ומחטאנו״.",
+        "translation_quote": "באין־שקף, בקושי ... לשחררנו מתפיסתנו ומחטאנו"
+      },
+      {
+        "location": "html, Genesis 32:24-28 quotation",
+        "severity": "major",
+        "source_quote": "And Jacob was left alone ... Thy name shall be called no more Jacob, but Israel ... and hast prevailed",
+        "suggested_fix": "להחליף את תוכן em בציטוט מובן: ״יעקב נשאר לבדו, ואיש נאבק עמו עד עלות השחר. כשראה האיש שאינו גובר עליו, נגע במפרק ירכו של יעקב, ומפרק הירך יצא ממקומו בשעה שנאבק עמו. אמר האיש: שחרר אותי, כי עלה השחר. השיב יעקב: לא אשחרר אותך אלא אם תברך אותי. שאל אותו: מה שמך? השיב: יעקב. אמר לו: לא ייקרא שמך עוד יעקב אלא ישראל, כי כנסיך נאבקת עם אלוהים ועם בני אדם וגברת –בראשית לב:כד-כח.״",
+        "translation_quote": "ויצרב יעקב לבדו ... בהתחשב כחושב אותו ... שחר; ישלחני מאץ ... כי אם‑ישרא ... ותמצנע"
+      },
+      {
+        "location": "html, Ill Fate section, prose and Job 24:17",
+        "severity": "major",
+        "source_quote": "Though there may be a volley of good reciprocating them ... the morning is to them even as the shadow of death ... the evil about us",
+        "suggested_fix": "להחליף בהתאמה: ״אף שייתכן שטובות רבות באות לקראתם״; ״…הבוקר בעיניהם הוא כצל מוות…״; ״הרע שסביבנו״.",
+        "translation_quote": "אף על פי שיכולה להיות תגובת חסד מצדו ... הבקר בעיניהם כמט ממשלת‑מיתה ... הרע שבנו"
+      },
+      {
+        "location": "html, Job 3:1-6 quotation",
+        "severity": "major",
+        "source_quote": "There is a man child conceived ... let a cloud dwell upon it",
+        "suggested_fix": "לתרגם את הציטוט כולו בעברית מובנת בתוך em: ״…את פיו וקילל את יום הולדתו. איוב אמר: יאבד היום שבו נולדתי, והלילה שבו נאמר: הורה בן זכר. יהיה היום ההוא חושך; אל ישים אליו אלוהים לב ממרומים, ואל יאיר עליו אור. יכסו אותו חושך וצל מוות; ישכון עליו ענן; תבעית אותו אפלת היום. ואשר ללילה ההוא, יאחז בו החושך… –איוב ג:א-ו.״",
+        "translation_quote": "הובן ילד ... אל יתחנן עליו אלוהים ... ורוח תגור עליו"
+      },
+      {
+        "location": "html, Personal Agenda section",
+        "severity": "major",
+        "source_quote": "their nation would be exalted over the Romans",
+        "suggested_fix": "שעמם ירומם מעל הרומאים",
+        "translation_quote": "עמם יוערך על‑ידי הרומאים"
+      },
+      {
+        "location": "html, 2 Kings 5:11 quotation",
+        "severity": "major",
+        "source_quote": "call on the name of the LORD his God, and strike his hand over the place, and recover the leper",
+        "suggested_fix": "״…הוא בוודאי יצא אליי, יעמוד, יקרא בשם ה׳ אלוהיו, יניף את ידו מעל המקום וירפא את המצורע –מלכים ב׳ ה:יא.״",
+        "translation_quote": "וישא שם את־שמו של ה' אלוהיו ויביא ידו על המקום ויתקן את מצורעתו"
+      },
+      {
+        "location": "html, Joseph paragraph",
+        "severity": "major",
+        "source_quote": "Joseph patiently endured the ill treatment of his brothers and Potiphar ... the butler ... (Genesis 41:1) ... laid in iron",
+        "suggested_fix": "להחליף ״יוסף ניחם בסבלנות את העוול מאחיו ואת תקופת פוטיפר״ ב״יוסף נשא בסבלנות את היחס הרע מצד אחיו ומצד פוטיפר״; בשני המקומות להחליף ״הכסאי״ ב״שר המשקים״; לתקן את ההפניה ל״בראשית מא:א״; להחליף ״שמוׁשולף בברזל״ ב״כבול בברזל״.",
+        "translation_quote": "יוסף ניחם בסבלנות את העוול מאחיו ואת תקופת פוטיפר ... הכסאי ... (בראשית מ:א) ... שמוׁשולף בברזל"
+      },
+      {
+        "location": "html, Self-Pity heading and paragraph",
+        "severity": "major",
+        "source_quote": "Self-Pity ... immersed in self-pity ... on Mount Carmel against the prophets of Baal",
+        "suggested_fix": "להחליף בכותרת ובשני מופעי הביטוי בפסקה את ״חמלה עצמית״ ב״רחמים עצמיים״. להחליף את תיאור הניצחון ב״על הר הכרמל נגד נביאי הבעל״.",
+        "translation_quote": "חמלה עצמית ... שקוע בחמלה עצמית ... על הר עם הבעלים נגד נביאי בעל"
+      },
+      {
+        "location": "html, Luke 24:22-23 quotation",
+        "severity": "major",
+        "source_quote": "certain women also of our company made us astonished",
+        "suggested_fix": "״גם כמה נשים מחבורתנו הדהימו אותנו. הן היו בקבר מוקדם בבוקר, וכשלא מצאו את גופתו, חזרו ואמרו שאף ראו מראה של מלאכים שאמרו שהוא חי –לוקס כד:כב-כג.״",
+        "translation_quote": "אף נשים מן חברתנו הלכו ונדהמו"
+      },
+      {
+        "location": "html, John 1:29 quotation and reference",
+        "severity": "major",
+        "source_quote": "the Lamb of God, which taketh away the sin of the world –John 1:29",
+        "suggested_fix": "״…שה האלוהים, המסיר את חטא העולם –יוחנן א:כט.״",
+        "translation_quote": "שהשיל את חטאת העולם –יוחנן א׳ א:כב"
+      },
+      {
+        "location": "html, paragraph mentioning John Bunyan",
+        "severity": "major",
+        "source_quote": "John Bunyan describes it as the slough of despond",
+        "suggested_fix": "ג׳ון באניין מתאר זאת כביצת הייאוש.",
+        "translation_quote": "ג'ון בניון מתאר זאת כשפת הבי‑נח"
+      },
+      {
+        "location": "html, Conclusion, first paragraph",
+        "severity": "major",
+        "source_quote": "bring saints unto the soul reckoning that only dark nights can minister unto ... –Matthew 27:46",
+        "suggested_fix": "להחליף ״אל רישום הנשמה שרק הלילות האפלים יכולים לשרת״ ב״לחשבון נפש שרק לילות אפלים יכולים להביא אליו״. לתקן את ההפניה ל״מתי כז:מו״.",
+        "translation_quote": "אל רישום הנשמה שרק הלילות האפלים יכולים לשרת ... –מתתיהו כז:מד"
+      },
+      {
+        "location": "html, Conclusion, paragraph about Cleopas",
+        "severity": "major",
+        "source_quote": "who the Savior really is ... The scales fall from our eyes ... only to be misunderstood again",
+        "suggested_fix": "להחליף בהתאמה: ״מיהו המושיע באמת״; ״הקשקשים נושרים מעינינו״; ״אך שוב אין מבינים אותנו״.",
+        "translation_quote": "מי ה־Savior באמת ... הרקיעים נפלו מעינינו ... ורק שונינו לא הבינו אותנו שוב"
+      },
+      {
+        "location": "html, poem and footer",
+        "severity": "major",
+        "source_quote": "Long my imprisoned spirit lay ... the dungeon flamed with light. My chains fell off ... Charles Wesley",
+        "suggested_fix": "בתוך הפסקה הקיימת, תוך שימור ששת מעברי השורה: ״זמן רב הייתה רוחי כלואה,<br>כבולה בחטא ובחשכת הטבע האנושי.<br>מבטך הפיץ קרן מחיה,<br>התעוררתי; הצינוק הוצף באור.<br>כבליי נשרו. לבי היה חופשי.<br>קמתי, יצאתי והלכתי בעקבותיך.״ לתקן את שם המחבר ב-footer ל״צ׳ארלס וסלי״.",
+        "translation_quote": "ארוכות נשמותי היינו כלואות ... הבור נפל אור בוהק. אזרחותי נשרו ... צ'ארלס וזוילי"
+      },
+      {
+        "location": "section",
+        "severity": "major",
+        "source_quote": "Victorious Christian Living",
+        "suggested_fix": "חיים נוצריים של ניצחון",
+        "translation_quote": "חיים נוצחיים של מאמינים"
+      },
+      {
+        "location": "html, place and Gospel names",
+        "severity": "minor",
+        "source_quote": "Emmaus; Luke; Mark",
+        "suggested_fix": "לאחד את מופעי שם המקום ל״אמואס״, לרבות ״לאמ אויאס״ ו״בדרך אמואים״; להחליף ״זה לוק״ ב״זה לוקס״ ואת ״מארק טז:יג״ ב״מרקוס טז:יג״.",
+        "translation_quote": "לאמ אויאס; בדרך אמואים; זה לוק; מארק טז:יג"
+      }
+    ],
+    "findings_complete": false,
+    "passed": false,
+    "score": 34
+  }
+}

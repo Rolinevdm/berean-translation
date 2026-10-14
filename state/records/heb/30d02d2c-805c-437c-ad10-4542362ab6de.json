@@ -19,6 +19,12 @@
       "event": "automatic_requested",
       "previous_task": "be495fe03973c9bb55cbcd1b1632f664",
       "task": "02eed17fe6e098ba5f2ba6af48f7784b"
+    },
+    {
+      "at": "2026-10-14T11:41:23+00:00",
+      "event": "not_ready",
+      "reason": "Review report is incomplete; all returned findings are retained for owner attention",
+      "task": "02eed17fe6e098ba5f2ba6af48f7784b"
     }
   ],
   "language": "heb",
