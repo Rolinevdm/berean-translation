@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1dc49823-ce15-4dc5-ad8b-101c40eb4764",
+    "response_id": "chatcmpl-EYwU8jN05GaY1fiixV56z48kpJCeH",
+    "usage": {
+      "completion_tokens": 268,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1037,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1034,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1305
+    }
+  },
+  "received_at": "2026-10-14T18:33:54+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ba07e0b0-5152-46e9-9761-0d0ed839789b\">\n  <figure>\n    <img src=\"/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg\" alt=\"फ़िलिप हेस और जी. कोएन द्वारा ‘हल्लेलूयाह, यह पूरा हो गया’ के संगीत-स्वर और गीत\" loading=\"lazy\">\n  </figure>\n\n  <p>फ़िलिप और बेट्सी हेस अपने दो बच्चों, डामारिस और डेविड के साथ पेनसिल्वेनिया के बेथेल के पास रहते हैं। फ़िलिप पुराने खलिहानों को खोलने और फिर से बनाने का काम करते हैं। वे घर में होने वाली एक छोटी संगति में शामिल होते हैं, जहाँ वे मसीह के राज्य के बढ़ने की सच्ची अभिलाषा रखते हैं।</p>\n</article>\n",
+    "section": "परमेश्वर के लोग गाते रहते हैं",
+    "subtitle": null,
+    "title": "हल्लेलूयाह, यह पूरा हो गया"
+  }
+}
