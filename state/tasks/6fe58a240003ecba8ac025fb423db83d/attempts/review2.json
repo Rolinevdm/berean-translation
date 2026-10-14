@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T18:33:28+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, final paragraph before the Scripture quotation\",\"severity\":\"major\",\"source_quote\":\"Marvin K. Mooney, in the name of Jesus, go to the burn pile now!\",\"suggested_fix\":\"Marvin K. Mooney, im Namen Jesu: Auf den Verbrennungshaufen mit dir, und zwar sofort!\",\"translation_quote\":\"Marvin K. Mooney, im Namen Jesu: Auf den Scheiterhaufen mit dir, und zwar sofort!\"},{\"location\":\"HTML, opening paragraph\",\"severity\":\"minor\",\"source_quote\":\"the joyful news that there is something positive to replace the negative\",\"suggested_fix\":\"die erfreuliche Nachricht, dass es etwas Positives gibt, das das Negative ersetzen kann\",\"translation_quote\":\"die erfreuliche Nachricht, dass es gibt etwas Positives gibt, das das Negative ersetzen kann\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 811,
+    "content_evidence_truncated": false,
+    "content_sha256": "5703a18df707741c6f0e64735be8f0bb0cc479929ca9115bfb86772404a7cb6e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 864,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 655,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4107,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3004,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4971
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

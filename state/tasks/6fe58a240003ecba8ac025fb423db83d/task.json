@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6a2dac35fd4f40a8a35a6d7bda33ad30",
   "campaign": "auto-9b9fec7f1ecc5527ab7f64c9ba347394f24b35265a1692ae354d9a2205d6bde2",
   "created_at": "2026-10-13T15:56:50+00:00",
   "events": [
@@ -48,18 +47,47 @@
         },
         "total_tokens": 5828
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 864,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 655,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4107,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3004,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4971
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[24]: source /article[1]/blockquote[1]/p[1] ('end', 'p'); translation /article[1]/blockquote[1]/p[1]/em[1] ('start', 'em', ())",
-      "translation_quote": ""
+      "location": "HTML, final paragraph before the Scripture quotation",
+      "severity": "major",
+      "source_quote": "Marvin K. Mooney, in the name of Jesus, go to the burn pile now!",
+      "suggested_fix": "Marvin K. Mooney, im Namen Jesu: Auf den Verbrennungshaufen mit dir, und zwar sofort!",
+      "translation_quote": "Marvin K. Mooney, im Namen Jesu: Auf den Scheiterhaufen mit dir, und zwar sofort!"
+    },
+    {
+      "location": "HTML, opening paragraph",
+      "severity": "minor",
+      "source_quote": "the joyful news that there is something positive to replace the negative",
+      "suggested_fix": "die erfreuliche Nachricht, dass es etwas Positives gibt, das das Negative ersetzen kann",
+      "translation_quote": "die erfreuliche Nachricht, dass es gibt etwas Positives gibt, das das Negative ersetzen kann"
     }
   ],
+  "finished_at": "2026-10-14T18:33:28+00:00",
   "id": "6fe58a240003ecba8ac025fb423db83d",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "deu",
@@ -148,9 +176,11 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/caa20f1dd068bdb02a8ed6b709d207800490e5c51d35d78d87d83d2a83e2df3a.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +196,7 @@
     "total_reserved_usd": 0.087279,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
   "translation_model_actual": "gpt-6-luna"
