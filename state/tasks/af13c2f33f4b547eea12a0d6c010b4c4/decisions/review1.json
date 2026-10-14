@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "html, абзац 5, цитата о материнстве",
+      "severity": "major",
+      "source_quote": "a fulltime mother is unnecessary",
+      "suggested_fix": "Заменить «полная занятость матерей не нужна» на «мать, полностью посвятившая себя воспитанию детей, не нужна».",
+      "translation_quote": "полная занятость матерей не нужна"
+    },
+    {
+      "location": "html, абзац 7, Тит 2:3–5",
+      "severity": "major",
+      "source_quote": "not false accusers, not given to much wine",
+      "suggested_fix": "Заменить «не клеветницы, не многословные, не любители вина» на «не клеветницы, не пристрастные к вину», убрав отсутствующий в оригинале запрет на многословие.",
+      "translation_quote": "не клеветницы, не многословные, не любители вина"
+    },
+    {
+      "location": "html, абзацы 7, 8, 16 и 17, перевод keepers at home",
+      "severity": "major",
+      "source_quote": "keepers at home; the term “a keeper at home”; keepers at home; keepers at home",
+      "suggested_fix": "В трёх цитатах из Тита заменить «домоседками» на «заботливыми хозяйками дома», сохранив выделение strong в первой цитате. В следующем за первой цитатой абзаце заменить «термин „домоседка“» на «выражение „хранительница домашнего очага“». Речь о заботе о доме, а не о склонности редко выходить из него.",
+      "translation_quote": "<strong>домоседками</strong>; термин «домоседка»; домоседками; домоседками"
+    },
+    {
+      "location": "html, абзац 11, Псалом 127:3–5",
+      "severity": "major",
+      "source_quote": "they shall not be ashamed",
+      "suggested_fix": "Заменить «они не постыдят его» на «они не будут постыжены».",
+      "translation_quote": "они не постыдят его"
+    },
+    {
+      "location": "html, абзацы 1 и 5",
+      "severity": "minor",
+      "source_quote": "It was midnight; Mothers who were applauded by society",
+      "suggested_fix": "Заменить «Было полночь» на «Была полночь», а «Матери, которых общество аплодировало» на «Матери, которым общество аплодировало».",
+      "translation_quote": "Было полночь; Матери, которых общество аплодировало"
+    },
+    {
+      "location": "html, абзац 10",
+      "severity": "minor",
+      "source_quote": "“Me time” and “self-care” have become buzzwords",
+      "suggested_fix": "Заменить «самообслуживание» на «забота о себе»: в данном контексте речь о внимании к собственному благополучию, а не о самостоятельном бытовом обслуживании.",
+      "translation_quote": "«Время для себя» и «самообслуживание» стали модными словечками"
+    },
+    {
+      "location": "html, заключительный абзац перед Галатам 6:9",
+      "severity": "minor",
+      "source_quote": "whatever stage of life you’re in",
+      "suggested_fix": "Заменить «на любом этапе жизни вы находитесь» на «на каком бы этапе жизни вы ни находились».",
+      "translation_quote": "на любом этапе жизни вы находитесь"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

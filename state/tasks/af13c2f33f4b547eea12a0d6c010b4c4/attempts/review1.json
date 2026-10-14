@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T07:38:31+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, абзац 5, цитата о материнстве\",\n      \"severity\": \"major\",\n      \"source_quote\": \"a fulltime mother is unnecessary\",\n      \"suggested_fix\": \"Заменить «полная занятость матерей не нужна» на «мать, полностью посвятившая себя воспитанию детей, не нужна».\",\n      \"translation_quote\": \"полная занятость матерей не нужна\"\n    },\n    {\n      \"location\": \"html, абзац 7, Тит 2:3–5\",\n      \"severity\": \"major\",\n      \"source_quote\": \"not false accusers, not given to much wine\",\n      \"suggested_fix\": \"Заменить «не клеветницы, не многословные, не любители вина» на «не клеветницы, не пристрастные к вину», убрав отсутствующий в оригинале запрет на многословие.\",\n      \"translation_quote\": \"не клеветницы, не многословные, не любители вина\"\n    },\n    {\n      \"location\": \"html, абзацы 7, 8, 16 и 17, перевод keepers at home\",\n      \"severity\": \"major\",\n      \"source_quote\": \"keepers at home; the term “a keeper at home”; keepers at home; keepers at home\",\n      \"suggested_fix\": \"В трёх цитатах из Тита заменить «домоседками» на «заботливыми хозяйками дома», сохранив выделение strong в первой цитате. В следующем за первой цитатой абзаце заменить «термин „домоседка“» на «выражение „хранительница домашнего очага“». Речь о заботе о доме, а не о склонности редко выходить из него.\",\n      \"translation_quote\": \"<strong>домоседками</strong>; термин «домоседка»; домоседками; домоседками\"\n    },\n    {\n      \"location\": \"html, абзац 11, Псалом 127:3–5\",\n      \"severity\": \"major\",\n      \"source_quote\": \"they shall not be ashamed\",\n      \"suggested_fix\": \"Заменить «они не постыдят его» на «они не будут постыжены».\",\n      \"translation_quote\": \"они не постыдят его\"\n    },\n    {\n      \"location\": \"html, абзацы 1 и 5\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"It was midnight; Mothers who were applauded by society\",\n      \"suggested_fix\": \"Заменить «Было полночь» на «Была полночь», а «Матери, которых общество аплодировало» на «Матери, которым общество аплодировало».\",\n      \"translation_quote\": \"Было полночь; Матери, которых общество аплодировало\"\n    },\n    {\n      \"location\": \"html, абзац 10\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"“Me time” and “self-care” have become buzzwords\",\n      \"suggested_fix\": \"Заменить «самообслуживание» на «забота о себе»: в данном контексте речь о внимании к собственному благополучию, а не о самостоятельном бытовом обслуживании.\",\n      \"translation_quote\": \"«Время для себя» и «самообслуживание» стали модными словечками\"\n    },\n    {\n      \"location\": \"html, заключительный абзац перед Галатам 6:9\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"whatever stage of life you’re in\",\n      \"suggested_fix\": \"Заменить «на любом этапе жизни вы находитесь» на «на каком бы этапе жизни вы ни находились».\",\n      \"translation_quote\": \"на любом этапе жизни вы находитесь\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 87\n}",
+    "content_bytes": 4172,
+    "content_evidence_truncated": false,
+    "content_sha256": "39150a6fa8aaa0ebdd0d6f885b2f50da817fb140d56c08c88c878b5704223cb3",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 984,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 80,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7089,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7086,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8073
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
