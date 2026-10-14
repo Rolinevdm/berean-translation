@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fee89249bc5e4162a8c910bf820db779",
   "campaign": "auto-3abb310c89cfdd9f158de3f1b08caccb38c3d90df1b6a40ec352fb3a84fdb8d9",
   "created_at": "2026-10-14T01:14:45+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 4164
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 462,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 430,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3016,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3013,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3478
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph 3",
-      "severity": "major",
-      "source_quote": "Self-denial is commendable",
-      "suggested_fix": "Replace \"הכחשה עצמית\" with \"ויתור על העצמי\" (or another natural Hebrew phrase expressing renunciation of self).",
-      "translation_quote": "הכחשה עצמית ראויה לשבח"
-    },
-    {
-      "location": "Paragraph 5",
-      "severity": "major",
-      "source_quote": "where Self must die, being crucified in those who have died with Him",
-      "suggested_fix": "Change \"בקרב אלה\" to \"בתוך אלה\" so the sentence says that Self is crucified in those who died with Him.",
-      "translation_quote": "שבה על העצמי למות, בהיותו נצלב בקרב אלה שמתו עמו"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-14T11:47:46+00:00",
   "id": "0a884bdba58f9322b013d1423a252c01",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "heb",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.086639,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "0afc0b6bee66dd315455ddd780526dd699416793c745bb2e10085b05dad8c9fc",
   "translation_model_actual": "gpt-6-luna"
