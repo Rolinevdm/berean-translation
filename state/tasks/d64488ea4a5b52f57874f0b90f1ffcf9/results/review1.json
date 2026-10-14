@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a6b7feea-a2bc-4b97-a0f9-29cb6db1581c",
+    "response_id": "chatcmpl-EYiaYBQHoxevynnBgVqVziHIrcjEH",
+    "usage": {
+      "completion_tokens": 900,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 774,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4120,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3017,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5020
+    }
+  },
+  "received_at": "2026-10-14T06:04:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, final paragraph before the Scripture quotation",
+        "severity": "minor",
+        "source_quote": "“Marvin K. Mooney, in the name of Jesus, go to the burn pile now!”",
+        "suggested_fix": "“Marvin K. Mooney, i Jesu namn, gå nu till brännhögen!”",
+        "translation_quote": "“Marvin K. Mooney, i Jesu namn, gå nu till brasan!”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

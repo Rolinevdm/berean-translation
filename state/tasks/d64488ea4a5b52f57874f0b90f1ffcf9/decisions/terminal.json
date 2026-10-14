@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, final paragraph before the Scripture quotation",
+      "severity": "minor",
+      "source_quote": "“Marvin K. Mooney, in the name of Jesus, go to the burn pile now!”",
+      "suggested_fix": "“Marvin K. Mooney, i Jesu namn, gå nu till brännhögen!”",
+      "translation_quote": "“Marvin K. Mooney, i Jesu namn, gå nu till brasan!”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
