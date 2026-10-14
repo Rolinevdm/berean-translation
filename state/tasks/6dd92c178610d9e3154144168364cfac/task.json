@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "538e28bc0acd461cb32a4f9fe5a06e72",
   "campaign": "auto-1d11e042ef3226013ccb808f01bb9fe18d6ce5fa9c3c0e7474620c48b4b9a4b0",
   "created_at": "2026-10-14T01:14:40+00:00",
   "events": [
@@ -68,18 +67,46 @@
         },
         "total_tokens": 4597
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 959,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 756,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3395,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3392,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4354
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph 2",
-      "severity": "major",
-      "source_quote": "“...over kings, presidents, the wealthy, and peasants alike”",
-      "suggested_fix": "Replace «φτωχούς» with «χωρικούς», e.g. «πάνω από βασιλιάδες, προέδρους, πλούσιους και χωρικούς εξίσου».",
-      "translation_quote": "«...πάνω από βασιλιάδες, προέδρους, πλούσιους και φτωχούς εξίσου»"
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "Who would not, if a regime of forty years duration was being threatened?",
+      "suggested_fix": "Ποιος δεν θα αντιδρούσε έτσι, αν απειλούνταν ένα καθεστώς σαράντα ετών;",
+      "translation_quote": "Ποιος δεν θα γινόταν έτσι, αν απειλούνταν ένα καθεστώς σαράντα ετών;"
+    },
+    {
+      "location": "Third paragraph",
+      "severity": "minor",
+      "source_quote": "you feel self-satisfaction rising in your heart",
+      "suggested_fix": "νιώθεις την αυτοϊκανοποίηση να φουντώνει μέσα σου",
+      "translation_quote": "νιώθεις την ικανοποίηση του εαυτού να φουντώνει μέσα σου"
     }
   ],
+  "finished_at": "2026-10-14T15:59:14+00:00",
   "id": "6dd92c178610d9e3154144168364cfac",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ell",
@@ -168,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +215,7 @@
     "total_reserved_usd": 0.086635,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "0afc0b6bee66dd315455ddd780526dd699416793c745bb2e10085b05dad8c9fc",
   "translation_model_actual": "gpt-6-luna"

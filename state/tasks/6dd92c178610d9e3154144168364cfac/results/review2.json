@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "03d03ac1-a371-429c-a0bc-85e096b1df49",
+    "response_id": "chatcmpl-EYuXDbHGMIp13EX3sRGyDLOniKLAk",
+    "usage": {
+      "completion_tokens": 959,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 756,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3395,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3392,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4354
+    }
+  },
+  "received_at": "2026-10-14T15:59:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph",
+        "severity": "minor",
+        "source_quote": "Who would not, if a regime of forty years duration was being threatened?",
+        "suggested_fix": "Ποιος δεν θα αντιδρούσε έτσι, αν απειλούνταν ένα καθεστώς σαράντα ετών;",
+        "translation_quote": "Ποιος δεν θα γινόταν έτσι, αν απειλούνταν ένα καθεστώς σαράντα ετών;"
+      },
+      {
+        "location": "Third paragraph",
+        "severity": "minor",
+        "source_quote": "you feel self-satisfaction rising in your heart",
+        "suggested_fix": "νιώθεις την αυτοϊκανοποίηση να φουντώνει μέσα σου",
+        "translation_quote": "νιώθεις την ικανοποίηση του εαυτού να φουντώνει μέσα σου"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

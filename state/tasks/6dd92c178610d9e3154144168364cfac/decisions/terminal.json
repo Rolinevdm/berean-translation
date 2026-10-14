@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "Who would not, if a regime of forty years duration was being threatened?",
+      "suggested_fix": "Ποιος δεν θα αντιδρούσε έτσι, αν απειλούνταν ένα καθεστώς σαράντα ετών;",
+      "translation_quote": "Ποιος δεν θα γινόταν έτσι, αν απειλούνταν ένα καθεστώς σαράντα ετών;"
+    },
+    {
+      "location": "Third paragraph",
+      "severity": "minor",
+      "source_quote": "you feel self-satisfaction rising in your heart",
+      "suggested_fix": "νιώθεις την αυτοϊκανοποίηση να φουντώνει μέσα σου",
+      "translation_quote": "νιώθεις την ικανοποίηση του εαυτού να φουντώνει μέσα σου"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
