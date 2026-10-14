@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T18:33:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Ein aktueller Zusammenprall, Absatz 1\",\"severity\":\"major\",\"source_quote\":\"“help a former lesbian remove her child from what appeared to be a forced acceptation of homosexual ‘marriage’”\",\"suggested_fix\":\"Als Timothy die Gelegenheit sah, einer ehemaligen Lesbe dabei zu helfen, ihr Kind aus einer Situation zu holen, in der ihm offenbar eine homosexuelle „Ehe“ aufgezwungen werden sollte, reichte Timothy ihr helfend die Hand.\",\"translation_quote\":\"„einer ehemaligen Lesbe dabei zu helfen, ihr Kind aus einer Situation zu holen, in der sie anscheinend gezwungen werden sollte, eine homosexuelle ‚Ehe‘ einzugehen“\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 712,
+    "content_evidence_truncated": false,
+    "content_sha256": "e6b84bbfb1f93afac948b97342bcde80d7e234d7b1627972a27271719d4d1eb7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 987,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 806,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14057,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14054,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15044
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

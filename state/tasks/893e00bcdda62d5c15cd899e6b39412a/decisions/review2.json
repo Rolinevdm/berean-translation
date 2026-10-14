@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Ein aktueller Zusammenprall, Absatz 1",
+      "severity": "major",
+      "source_quote": "“help a former lesbian remove her child from what appeared to be a forced acceptation of homosexual ‘marriage’”",
+      "suggested_fix": "Als Timothy die Gelegenheit sah, einer ehemaligen Lesbe dabei zu helfen, ihr Kind aus einer Situation zu holen, in der ihm offenbar eine homosexuelle „Ehe“ aufgezwungen werden sollte, reichte Timothy ihr helfend die Hand.",
+      "translation_quote": "„einer ehemaligen Lesbe dabei zu helfen, ihr Kind aus einer Situation zu holen, in der sie anscheinend gezwungen werden sollte, eine homosexuelle ‚Ehe‘ einzugehen“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
