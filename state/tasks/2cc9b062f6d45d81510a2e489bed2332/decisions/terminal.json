@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Rubrik och artikelns återkommande term, inklusive avsnittsrubrik och listpunkt",
+      "severity": "minor",
+      "source_quote": "“Revivalism”",
+      "suggested_fix": "Överväg en etablerad svensk term, exempelvis ”väckelserörelse” eller ”väckelseinriktning”, och använd den konsekvent. ”Väckelsekristendom” kan uppfattas som en annan företeelse än den inriktning artikeln beskriver.",
+      "translation_quote": "”Väckelsekristendom”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

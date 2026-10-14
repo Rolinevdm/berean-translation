@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "75198b96-cc31-42b2-9c2e-f47efad8c90b",
+    "response_id": "chatcmpl-EYfNZFT2Fy4wl497sWNmRrjlatFk4",
+    "usage": {
+      "completion_tokens": 143,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 19687,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 19684
+      },
+      "total_tokens": 19830
+    }
+  },
+  "received_at": "2026-10-14T01:06:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Rubrik och artikelns återkommande term, inklusive avsnittsrubrik och listpunkt",
+        "severity": "minor",
+        "source_quote": "“Revivalism”",
+        "suggested_fix": "Överväg en etablerad svensk term, exempelvis ”väckelserörelse” eller ”väckelseinriktning”, och använd den konsekvent. ”Väckelsekristendom” kan uppfattas som en annan företeelse än den inriktning artikeln beskriver.",
+        "translation_quote": "”Väckelsekristendom”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
