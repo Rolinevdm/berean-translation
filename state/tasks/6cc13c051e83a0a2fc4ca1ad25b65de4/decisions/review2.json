@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Heading «Una moderna collina di Marte» and opening paragraph beneath it",
+      "severity": "minor",
+      "source_quote": "Like Paul preaching on Mars’ Hill",
+      "suggested_fix": "Use the conventional Italian name for the biblical location: «Come Paolo che predicava sull’Areopago»; update the heading to «Un moderno Areopago».",
+      "translation_quote": "Come Paolo che predicava sulla collina di Marte"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

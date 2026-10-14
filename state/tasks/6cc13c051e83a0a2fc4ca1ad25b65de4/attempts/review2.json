@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T22:15:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Heading «Una moderna collina di Marte» and opening paragraph beneath it\",\"severity\":\"minor\",\"source_quote\":\"Like Paul preaching on Mars’ Hill\",\"suggested_fix\":\"Use the conventional Italian name for the biblical location: «Come Paolo che predicava sull’Areopago»; update the heading to «Un moderno Areopago».\",\"translation_quote\":\"Come Paolo che predicava sulla collina di Marte\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 467,
+    "content_evidence_truncated": false,
+    "content_sha256": "bb52d297d44f83824c8aa76fd35cef95e3af9de6dacac634096bcc37fa43e1bf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1012,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 886,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14414,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14411,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15426
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}
