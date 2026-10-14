@@ -5,11 +5,61 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b5305f470a804b55b6ca2a04ee793793",
   "campaign": "auto-4bdb913e8446c574983b6dfb3aa207c9c5de2a294bd440512b012ca5be2874fc",
   "created_at": "2026-10-14T07:39:12+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 615,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 75,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2241,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2238,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2856
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html، div.poem، سطر «وہ عظمت، وہ وسعت، وہ خلا کا رعب»",
+      "severity": "major",
+      "source_quote": "That greatness, vastness, emptiness of space",
+      "suggested_fix": "اس سطر کو یوں کریں: «خلا کی وہ عظمت، وہ وسعت، وہ خالی پن»۔",
+      "translation_quote": "وہ عظمت، وہ وسعت، وہ خلا کا رعب"
+    },
+    {
+      "location": "translation.html، div.poem، سطر «وہ محض ایک رخ ہے اس وسیع وسعت کا»",
+      "severity": "minor",
+      "source_quote": "Is but a streak of all the vast expanse",
+      "suggested_fix": "«ایک رخ» کی جگہ «ایک معمولی سی جھلک» لکھیں تاکہ نظر آنے والے حصے کی محدودیت واضح رہے۔",
+      "translation_quote": "وہ محض ایک رخ ہے اس وسیع وسعت کا"
+    },
+    {
+      "location": "translation.html، figure > img، alt",
+      "severity": "minor",
+      "source_quote": "Milky Way and stars above dark mountains and water",
+      "suggested_fix": "alt کو یوں درست کریں: «تاریک پہاڑوں اور پانی کے اوپر کہکشاں اور ستارے»۔",
+      "translation_quote": "ملی وے اور ستارے تاریک پہاڑوں اور پانی کے اوپر"
+    },
+    {
+      "location": "translation.html، div.poem، چاند تک پہنچنے سے متعلق دو سطریں",
+      "severity": "minor",
+      "source_quote": "And yet it took man three whole days to reach / That tiny sphere so very close at hand.",
+      "suggested_fix": "دونوں سطریں یوں کریں، اور درمیان کا <br> برقرار رکھیں: «اور پھر بھی انسان کو پورے تین دن لگے<br> اس ننھے سے کرے تک پہنچنے میں جو بالکل قریب تھا۔»",
+      "translation_quote": "اور پھر بھی انسان کو پوری طرح پہنچنے میں تین دن لگے<br>\n    اس چھوٹی سی کرۂِ چاند تک جو ہاتھ کے بالکل قریب تھی۔"
+    }
+  ],
   "id": "ef1e7c82a0a63863eeb483845cdf539a",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "urd",
@@ -98,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/55be7d8861a02b2949238164825078285daf5ecd270cc3e94e3522da9dfec341.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +167,7 @@
     "total_reserved_usd": 0.680579,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

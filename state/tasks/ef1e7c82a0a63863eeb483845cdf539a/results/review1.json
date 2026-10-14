@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "11e4c236-877a-442f-bd9d-2be1f4978e5b",
+    "response_id": "chatcmpl-EYrpsWu4g4gv8MK79Kv5KaSVQ5Zry",
+    "usage": {
+      "completion_tokens": 615,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 75,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2241,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2238,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2856
+    }
+  },
+  "received_at": "2026-10-14T13:39:45+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html، div.poem، سطر «وہ عظمت، وہ وسعت، وہ خلا کا رعب»",
+        "severity": "major",
+        "source_quote": "That greatness, vastness, emptiness of space",
+        "suggested_fix": "اس سطر کو یوں کریں: «خلا کی وہ عظمت، وہ وسعت، وہ خالی پن»۔",
+        "translation_quote": "وہ عظمت، وہ وسعت، وہ خلا کا رعب"
+      },
+      {
+        "location": "translation.html، div.poem، سطر «وہ محض ایک رخ ہے اس وسیع وسعت کا»",
+        "severity": "minor",
+        "source_quote": "Is but a streak of all the vast expanse",
+        "suggested_fix": "«ایک رخ» کی جگہ «ایک معمولی سی جھلک» لکھیں تاکہ نظر آنے والے حصے کی محدودیت واضح رہے۔",
+        "translation_quote": "وہ محض ایک رخ ہے اس وسیع وسعت کا"
+      },
+      {
+        "location": "translation.html، figure > img، alt",
+        "severity": "minor",
+        "source_quote": "Milky Way and stars above dark mountains and water",
+        "suggested_fix": "alt کو یوں درست کریں: «تاریک پہاڑوں اور پانی کے اوپر کہکشاں اور ستارے»۔",
+        "translation_quote": "ملی وے اور ستارے تاریک پہاڑوں اور پانی کے اوپر"
+      },
+      {
+        "location": "translation.html، div.poem، چاند تک پہنچنے سے متعلق دو سطریں",
+        "severity": "minor",
+        "source_quote": "And yet it took man three whole days to reach / That tiny sphere so very close at hand.",
+        "suggested_fix": "دونوں سطریں یوں کریں، اور درمیان کا <br> برقرار رکھیں: «اور پھر بھی انسان کو پورے تین دن لگے<br> اس ننھے سے کرے تک پہنچنے میں جو بالکل قریب تھا۔»",
+        "translation_quote": "اور پھر بھی انسان کو پوری طرح پہنچنے میں تین دن لگے<br>\n    اس چھوٹی سی کرۂِ چاند تک جو ہاتھ کے بالکل قریب تھی۔"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
