@@ -13964,6 +13964,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b.html",
+      "html_sha256": "5e7e65ec99a45e66344177a922c6edd6cd21263716ff9367e12031456daa3091",
+      "human_reviewed": false,
+      "id": "ba07e0b0-5152-46e9-9761-0d0ed839789b",
+      "images": [
+        {
+          "alt": "菲利普·赫斯和G.科恩创作的《哈利路亚，成了》乐谱和歌词",
+          "public_path": "/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b.json",
+      "metadata_sha256": "cb35e4d0130f04279c4a245051af09340a095c694d69dd5bf22a275171bfa261",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "上帝的子民继续歌唱",
+      "source_revision": "1345fa41b99f7638900dd7c9385c44491d97f34b",
+      "source_translation_key": "30af25731bcf2eb143bc6ad52b144bc028692b48c5877f22b07a359293b2a8c2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "哈利路亚，成了",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
       "html_sha256": "f1f37ce9face63ced3fc5c44acc2661bc0a8082633e19d34fb10a35691434669",
       "human_reviewed": false,
@@ -37968,6 +37996,58 @@
       "subtitle": null,
       "title": "La battaglia che infuria",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.html",
+      "html_sha256": "b0fec7c0c13e1182808bbbac0025a60fb875b8cc2786fa8920cbb3125fd81908",
+      "human_reviewed": false,
+      "id": "6b3e3e7e-b5fd-4701-9a63-699b90f17ec9",
+      "images": [
+        {
+          "alt": "Due bisonti uno di fronte all’altro",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-1.jpg"
+        },
+        {
+          "alt": "La dichiarazione antischiavista di Germantown del 1688, su due pagine",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-2.jpg"
+        },
+        {
+          "alt": "La casa di Isaac Wenger in Virginia",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-3.jpg"
+        },
+        {
+          "alt": "Copertina di Martyrs Mirror di Thieleman J. van Braght",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-4.jpg"
+        },
+        {
+          "alt": "Lapide di Joseph Hofer, 1894–1918",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-5.jpg"
+        },
+        {
+          "alt": "Lapide di Michael Hofer, 1893–1918",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-6.jpg"
+        },
+        {
+          "alt": "Profilo di un uomo con tatuaggi sul viso e piercing",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-7.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.json",
+      "metadata_sha256": "e6a467915c11c5c78447804c0e76827d1f288e804f13fcd2b2f4b7005c054448",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "1345fa41b99f7638900dd7c9385c44491d97f34b",
+      "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Quando i regni si scontrano",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
