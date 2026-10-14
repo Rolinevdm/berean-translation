@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "13db84c3-1a25-4143-aa73-5af3cc8aa192",
+    "response_id": "chatcmpl-EYyA9t5GAkgSi5QHyyuK2z6S2xgTj",
+    "usage": {
+      "completion_tokens": 1061,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 886,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 17149,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 16046,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 18210
+    }
+  },
+  "received_at": "2026-10-14T20:09:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Historical clash paragraph and accompanying image caption",
+        "severity": "major",
+        "source_quote": "“the first antislavery statement” / “this first public antislavery statement in North America”",
+        "suggested_fix": "Replace «αντιδουλεμπορική διακήρυξη» with «διακήρυξη κατά της δουλείας» in both places, preserving the claim that it opposed slavery, not merely the slave trade.",
+        "translation_quote": "«η πρώτη αντιδουλεμπορική διακήρυξη» / «αυτή την πρώτη δημόσια αντιδουλεμπορική διακήρυξη στη Βόρεια Αμερική»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

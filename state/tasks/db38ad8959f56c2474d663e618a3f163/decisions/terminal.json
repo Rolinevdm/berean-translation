@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Historical clash paragraph and accompanying image caption",
+      "severity": "major",
+      "source_quote": "“the first antislavery statement” / “this first public antislavery statement in North America”",
+      "suggested_fix": "Replace «αντιδουλεμπορική διακήρυξη» with «διακήρυξη κατά της δουλείας» in both places, preserving the claim that it opposed slavery, not merely the slave trade.",
+      "translation_quote": "«η πρώτη αντιδουλεμπορική διακήρυξη» / «αυτή την πρώτη δημόσια αντιδουλεμπορική διακήρυξη στη Βόρεια Αμερική»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
