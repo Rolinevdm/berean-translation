@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Laatste alinea, eerste zin",
+      "severity": "major",
+      "source_quote": "Marvin K. Mooney, in the name of Jesus, go to the burn pile now!",
+      "suggested_fix": "Marvin K. Mooney, ga nu in Jezus’ naam op de brandhoop!",
+      "translation_quote": "Marvin K. Mooney, ga nu in Jezus’ naam naar de brandstapel!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "135f5bbe-38dc-4e24-b30e-5ef283637af1",
+    "response_id": "chatcmpl-EYuYecGqfrL6pDXEXLDP98POX0hPP",
+    "usage": {
+      "completion_tokens": 716,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 592,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4052,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2949,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4768
+    }
+  },
+  "received_at": "2026-10-14T15:59:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Laatste alinea, eerste zin",
+        "severity": "major",
+        "source_quote": "Marvin K. Mooney, in the name of Jesus, go to the burn pile now!",
+        "suggested_fix": "Marvin K. Mooney, ga nu in Jezus’ naam op de brandhoop!",
+        "translation_quote": "Marvin K. Mooney, ga nu in Jezus’ naam naar de brandstapel!"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

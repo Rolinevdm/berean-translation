@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "95b341d47d4346fdb98d350130d07169",
   "campaign": "auto-8c9334e3ea1abf195a4f84267a400736217ec130c8769fa02c32150df9b0555d",
   "created_at": "2026-10-13T15:56:44+00:00",
   "events": [
@@ -48,18 +47,40 @@
         },
         "total_tokens": 5593
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 716,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 592,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4052,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2949,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4768
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[24]: source /article[1]/blockquote[1]/p[1] ('end', 'p'); translation /article[1]/blockquote[1]/p[1]/em[1] ('start', 'em', ())",
-      "translation_quote": ""
+      "location": "Laatste alinea, eerste zin",
+      "severity": "major",
+      "source_quote": "Marvin K. Mooney, in the name of Jesus, go to the burn pile now!",
+      "suggested_fix": "Marvin K. Mooney, ga nu in Jezus’ naam op de brandhoop!",
+      "translation_quote": "Marvin K. Mooney, ga nu in Jezus’ naam naar de brandstapel!"
     }
   ],
+  "finished_at": "2026-10-14T15:59:17+00:00",
   "id": "c25e0a05483b518e599123076f52d7f4",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "nld",
@@ -148,9 +169,11 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/caa20f1dd068bdb02a8ed6b709d207800490e5c51d35d78d87d83d2a83e2df3a.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +189,7 @@
     "total_reserved_usd": 0.087279,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
   "translation_model_actual": "gpt-6-luna"
