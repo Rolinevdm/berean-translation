@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9bea19f7-f1ab-4363-9743-196d52bdb0b0",
+    "response_id": "chatcmpl-EZ2bJbGH6kcw6zd68BerqPL0pmh8W",
+    "usage": {
+      "completion_tokens": 750,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 120,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1322,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1319,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2072
+    }
+  },
+  "received_at": "2026-10-14T23:24:22+00:00",
+  "result": {
+    "html": "<article data-article-id=\"47c2bd87-06a9-4c31-854b-84c64975d399\">\n  <div class=\"poem\">\n    <p>내 마음속에는 수많은 질문이 맴돕니다;<br>\n    도무지 답을 찾을 수 없는 질문들입니다.<br>\n    서로 뜻을 모으지 못하는 형제들을 바라보면,<br>\n    문득 궁금해집니다… 제게도 희망이 있을까요?</p>\n\n    <p>왜 우리는 모두 한마음으로 살아갈 수 없을까요?<br>\n    불가능한 일인가요? 우리는 알 수 없나요?<br>\n    왜 이렇게 다툼이 많은 걸까요?<br>\n    형제가 형제를 대적하다니, 아, 참으로 큰 죄입니다!</p>\n\n    <p>하나님께서 그르다고 하시며,<br>\n    우리의 복을 거두고 노래를 빼앗으실 만한 일을 우리가 무엇을 했을까요?<br>\n    주님께 두었던 눈과 사랑을 거두었을까요?<br>\n    죄에 빠져 혹시 우리의 칼을 내려놓았을까요?</p>\n\n    <p>이런 이유들 때문에 삶이 이렇다면,<br>\n    이제는 기도할 때가 되었다는 데 동의하시겠지요?<br>\n    그리고 어떻게든 우리가<br>\n    한마음으로 살아갈 수 있도록 하나님께 간구해야 하지 않을까요?</p>\n\n    <p>저는 과연 알게 될지 모르겠습니다<br>\n    어째서 “그리스도인들”이 서로 그토록 다투는지.<br>\n    성경 말씀에 순종하기만 한다면,<br>\n    평생 서로 사랑할 수 있을 텐데요!</p>\n\n    <p>우리가 서로 열렬히 사랑할 수 있다면,<br>\n    저는 그것이야말로 열쇠라고 진정으로 믿습니다.<br>\n    슬픔 가득한 이 세상에서 어떻게 살아갈 수 있을까요,<br>\n    성경이 가르치는 대로 살지 않고서?</p>\n\n    <p>제가 이 모든 말을 한 것은 이것을 말하기 위해서입니다;<br>\n    그리스도 안에 거하지 않으면 우리의 삶은 어긋납니다.<br>\n    우리가 어떤 문제를 맞닥뜨릴지 알 수 없습니다,<br>\n    하나님의 구원하시는 은혜로 살아가지 않는다면.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "하나님의 구원하시는 은혜"
+  }
+}
