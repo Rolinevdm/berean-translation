@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "18c4d267-363e-427d-8007-2d16e3b16762",
+    "response_id": "chatcmpl-EYhpqfnbWvQW6Avut59zX5w5dyVMf",
+    "usage": {
+      "completion_tokens": 797,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 698,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4123,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3020,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4920
+    }
+  },
+  "received_at": "2026-10-14T01:14:02+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, quoted introduction, first paragraph",
+        "severity": "minor",
+        "source_quote": "“make you remember how you felt”",
+        "suggested_fix": "Consider the more idiomatic «ti fanno ricordare come ti sentivi».",
+        "translation_quote": "«ti fanno ricordare come ti sentisti»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

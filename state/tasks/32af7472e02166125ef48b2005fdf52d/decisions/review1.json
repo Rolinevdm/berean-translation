@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, quoted introduction, first paragraph",
+      "severity": "minor",
+      "source_quote": "“make you remember how you felt”",
+      "suggested_fix": "Consider the more idiomatic «ti fanno ricordare come ti sentivi».",
+      "translation_quote": "«ti fanno ricordare come ti sentisti»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

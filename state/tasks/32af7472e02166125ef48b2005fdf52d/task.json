@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0771feea7bf34f0d9e732281f6169eff",
   "campaign": "auto-caef7ad43017e45f0f64573938059feafebdf3c41f1a7dd06819cb98fb588e08",
   "created_at": "2026-10-13T16:03:55+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 3769
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 797,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 698,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4123,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3020,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4920
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, quoted introduction, first paragraph",
+      "severity": "minor",
+      "source_quote": "“make you remember how you felt”",
+      "suggested_fix": "Consider the more idiomatic «ti fanno ricordare come ti sentivi».",
+      "translation_quote": "«ti fanno ricordare come ti sentisti»"
+    }
+  ],
+  "finished_at": "2026-10-14T01:14:02+00:00",
   "id": "32af7472e02166125ef48b2005fdf52d",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ita",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/caa20f1dd068bdb02a8ed6b709d207800490e5c51d35d78d87d83d2a83e2df3a.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.087279,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
   "translation_model_actual": "gpt-6-luna"
