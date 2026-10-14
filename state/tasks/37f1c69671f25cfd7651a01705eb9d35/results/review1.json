@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "374f9b6d-f049-469b-ae2b-38ec7c726e38",
+    "response_id": "chatcmpl-EYf45ajqxWeQkZIkmqmSdE2CfOtUy",
+    "usage": {
+      "completion_tokens": 906,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 658,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4148,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3045,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5054
+    }
+  },
+  "received_at": "2026-10-14T01:06:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "פסקת הפתיחה; הפסקה על 17 הפרקים",
+        "severity": "major",
+        "source_quote": "“overcoming evil with good”",
+        "suggested_fix": "החליפו את „גמילת רעה בטובה” בשתי ההופעות ב„התגברות על הרע באמצעות הטוב” (למשל: „מנה של התגברות על הרע באמצעות הטוב”; „הנושא של יישום העיקרון של התגברות על הרע באמצעות הטוב”).",
+        "translation_quote": "„מנה של גמילת רעה בטובה”; „הנושא של יישום העיקרון של גמילת רעה בטובה”"
+      },
+      {
+        "location": "הציטוט במבוא, הפסקה השנייה",
+        "severity": "major",
+        "source_quote": "“they had their heads cut off and were drowned”",
+        "suggested_fix": "„נערפו והוטבעו”",
+        "translation_quote": "„כרתו את ראשיהם והטביעו אותם”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 86
+  }
+}

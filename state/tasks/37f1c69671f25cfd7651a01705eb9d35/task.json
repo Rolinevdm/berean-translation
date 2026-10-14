@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9f60e96a9adb4e579cb9ba6e8a19a967",
   "campaign": "auto-94185a8588dd28f82aadfc82cbcc6a87f65c98c5afaa519707a627424f0ee92c",
   "created_at": "2026-10-13T17:50:17+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 3902
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 906,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 658,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4148,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3045,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5054
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "פסקת הפתיחה; הפסקה על 17 הפרקים",
+      "severity": "major",
+      "source_quote": "“overcoming evil with good”",
+      "suggested_fix": "החליפו את „גמילת רעה בטובה” בשתי ההופעות ב„התגברות על הרע באמצעות הטוב” (למשל: „מנה של התגברות על הרע באמצעות הטוב”; „הנושא של יישום העיקרון של התגברות על הרע באמצעות הטוב”).",
+      "translation_quote": "„מנה של גמילת רעה בטובה”; „הנושא של יישום העיקרון של גמילת רעה בטובה”"
+    },
+    {
+      "location": "הציטוט במבוא, הפסקה השנייה",
+      "severity": "major",
+      "source_quote": "“they had their heads cut off and were drowned”",
+      "suggested_fix": "„נערפו והוטבעו”",
+      "translation_quote": "„כרתו את ראשיהם והטביעו אותם”"
+    }
+  ],
   "id": "37f1c69671f25cfd7651a01705eb9d35",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "heb",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/caa20f1dd068bdb02a8ed6b709d207800490e5c51d35d78d87d83d2a83e2df3a.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.087289,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "פסקת הפתיחה; הפסקה על 17 הפרקים",
+      "severity": "major",
+      "source_quote": "“overcoming evil with good”",
+      "suggested_fix": "החליפו את „גמילת רעה בטובה” בשתי ההופעות ב„התגברות על הרע באמצעות הטוב” (למשל: „מנה של התגברות על הרע באמצעות הטוב”; „הנושא של יישום העיקרון של התגברות על הרע באמצעות הטוב”).",
+      "translation_quote": "„מנה של גמילת רעה בטובה”; „הנושא של יישום העיקרון של גמילת רעה בטובה”"
+    },
+    {
+      "location": "הציטוט במבוא, הפסקה השנייה",
+      "severity": "major",
+      "source_quote": "“they had their heads cut off and were drowned”",
+      "suggested_fix": "„נערפו והוטבעו”",
+      "translation_quote": "„כרתו את ראשיהם והטביעו אותם”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
