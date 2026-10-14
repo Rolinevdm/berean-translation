@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T13:39:38+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: Bibelzitat zu Genesis 2,18–20\",\n      \"severity\": \"major\",\n      \"source_quote\": \"I will make him an help meet for him\",\n      \"suggested_fix\": \"Ersetzen durch: „ich will ihm eine Gehilfin schaffen, die zu ihm passt“.\",\n      \"translation_quote\": \"ich will ihm helfen, eine Gehilfin ihm zu schaffen\"\n    },\n    {\n      \"location\": \"html: Bibelzitat zu 1. Könige 19,10\",\n      \"severity\": \"major\",\n      \"source_quote\": \"I have been very jealous for the LORD God of hosts\",\n      \"suggested_fix\": \"Ersetzen durch: „Ich habe mit großem Eifer für den HERRN, den Gott Zebaoth, geeifert“.\",\n      \"translation_quote\": \"Ich war sehr eifersüchtig für den HERRN, den Gott Zebaoth\"\n    },\n    {\n      \"location\": \"html: Absatz beginnend mit „Leider ist das Letzte“\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the last thing they seem to want to do is make the effort to be around other people, which contrary to their feelings, is counterproductive to changing the problem\",\n      \"suggested_fix\": \"Den Absatz so klarstellen: „Leider scheint jemand, der mit Depressionen kämpft, am wenigsten dazu bereit zu sein, sich aufzuraffen und unter Menschen zu gehen. Doch entgegen dem eigenen Gefühl wirkt es der Überwindung des Problems entgegen, solche Kontakte zu vermeiden.“\",\n      \"translation_quote\": \"die Anstrengung, unter Menschen zu sein; entgegen ihrem Gefühl ist dies jedoch kontraproduktiv, wenn es darum geht, das Problem zu ändern\"\n    },\n    {\n      \"location\": \"html: erster Absatz\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"rugged individualism\",\n      \"suggested_fix\": \"„ruppigen Individualismus“ durch „ausgeprägten Individualismus“ ersetzen. „Ruppig“ bezeichnet einen groben Umgangston statt der hier gemeinten kompromisslosen Selbstständigkeit.\",\n      \"translation_quote\": \"ruppigen Individualismus\"\n    },\n    {\n      \"location\": \"html: Absatz vor Hebräer 10,25\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Scripture makes it clear that we need a church body.\",\n      \"suggested_fix\": \"Ersetzen durch: „Die Schrift macht deutlich, dass wir eine Gemeinde brauchen.“\",\n      \"translation_quote\": \"Die Schrift macht deutlich, dass wir einen Kirchenkörper brauchen.\"\n    },\n    {\n      \"location\": \"html: img alt\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Solitary hooded person with a backpack seated above a misty landscape\",\n      \"suggested_fix\": \"Das alt-Attribut ändern zu: „Allein sitzende Person mit Kapuze und Rucksack oberhalb einer nebligen Landschaft“.\",\n      \"translation_quote\": \"Einsam gehüllte Person mit Rucksack, die über einer nebligen Landschaft sitzt\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 90\n}",
+    "content_bytes": 2789,
+    "content_evidence_truncated": false,
+    "content_sha256": "0a4847c3278667fe3f2b40f9e4b5abe47ef1e54f086ab186665b8b3542575602",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 779,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 75,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6863,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5760,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7642
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

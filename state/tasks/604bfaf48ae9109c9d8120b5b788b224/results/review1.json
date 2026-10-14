@@ -1,0 +1,73 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "6bf47b4f-dc3b-4cff-8a0b-fe0b4700e2ad",
+    "response_id": "chatcmpl-EYrwHPasIhWjmCsFlrVgRSNBkvA8K",
+    "usage": {
+      "completion_tokens": 779,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 75,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6863,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5760,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7642
+    }
+  },
+  "received_at": "2026-10-14T13:39:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: Bibelzitat zu Genesis 2,18–20",
+        "severity": "major",
+        "source_quote": "I will make him an help meet for him",
+        "suggested_fix": "Ersetzen durch: „ich will ihm eine Gehilfin schaffen, die zu ihm passt“.",
+        "translation_quote": "ich will ihm helfen, eine Gehilfin ihm zu schaffen"
+      },
+      {
+        "location": "html: Bibelzitat zu 1. Könige 19,10",
+        "severity": "major",
+        "source_quote": "I have been very jealous for the LORD God of hosts",
+        "suggested_fix": "Ersetzen durch: „Ich habe mit großem Eifer für den HERRN, den Gott Zebaoth, geeifert“.",
+        "translation_quote": "Ich war sehr eifersüchtig für den HERRN, den Gott Zebaoth"
+      },
+      {
+        "location": "html: Absatz beginnend mit „Leider ist das Letzte“",
+        "severity": "major",
+        "source_quote": "the last thing they seem to want to do is make the effort to be around other people, which contrary to their feelings, is counterproductive to changing the problem",
+        "suggested_fix": "Den Absatz so klarstellen: „Leider scheint jemand, der mit Depressionen kämpft, am wenigsten dazu bereit zu sein, sich aufzuraffen und unter Menschen zu gehen. Doch entgegen dem eigenen Gefühl wirkt es der Überwindung des Problems entgegen, solche Kontakte zu vermeiden.“",
+        "translation_quote": "die Anstrengung, unter Menschen zu sein; entgegen ihrem Gefühl ist dies jedoch kontraproduktiv, wenn es darum geht, das Problem zu ändern"
+      },
+      {
+        "location": "html: erster Absatz",
+        "severity": "minor",
+        "source_quote": "rugged individualism",
+        "suggested_fix": "„ruppigen Individualismus“ durch „ausgeprägten Individualismus“ ersetzen. „Ruppig“ bezeichnet einen groben Umgangston statt der hier gemeinten kompromisslosen Selbstständigkeit.",
+        "translation_quote": "ruppigen Individualismus"
+      },
+      {
+        "location": "html: Absatz vor Hebräer 10,25",
+        "severity": "minor",
+        "source_quote": "Scripture makes it clear that we need a church body.",
+        "suggested_fix": "Ersetzen durch: „Die Schrift macht deutlich, dass wir eine Gemeinde brauchen.“",
+        "translation_quote": "Die Schrift macht deutlich, dass wir einen Kirchenkörper brauchen."
+      },
+      {
+        "location": "html: img alt",
+        "severity": "minor",
+        "source_quote": "Solitary hooded person with a backpack seated above a misty landscape",
+        "suggested_fix": "Das alt-Attribut ändern zu: „Allein sitzende Person mit Kapuze und Rucksack oberhalb einer nebligen Landschaft“.",
+        "translation_quote": "Einsam gehüllte Person mit Rucksack, die über einer nebligen Landschaft sitzt"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 90
+  }
+}
