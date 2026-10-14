@@ -1,0 +1,98 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph beginning “ইতিহাস জুড়ে”, quoted prose",
+      "severity": "major",
+      "source_quote": "mothering only takes a third-grade education and a fulltime mother is unnecessary",
+      "suggested_fix": "সংশ্লিষ্ট অংশটি করুন: “মা হিসেবে সন্তান লালনপালন করতে কেবল তৃতীয় শ্রেণি পর্যন্ত শিক্ষাই যথেষ্ট এবং পূর্ণকালীন মায়ের প্রয়োজন নেই।”",
+      "translation_quote": "মাতৃত্ব কেবল তৃতীয়-শ্রেণীর শিক্ষা এবং পূর্ণকালীন মা অপ্রয়োজনীয়"
+    },
+    {
+      "location": "html, paragraph quoting 2 Timothy 3:1-2",
+      "severity": "major",
+      "source_quote": "in the last days perilous times shall come",
+      "suggested_fix": "“শেষ দিনে কষ্টবর্ষা সময় আসবে” বদলে “শেষকালে বিপদসংকুল সময় আসবে” লিখুন।",
+      "translation_quote": "শেষ দিনে কষ্টবর্ষা সময় আসবে"
+    },
+    {
+      "location": "html, Psalm 127:3-5 quotation",
+      "severity": "major",
+      "source_quote": "As arrows are in the hand of a mighty man; so are children of the youth. Happy is the man that hath his <u>quiver full of them</u>",
+      "suggested_fix": "এই অংশটি করুন: “বীরের হাতে তীর যেমন, যৌবনকালে জন্মানো সন্তানেরাও তেমন। ধন্য সেই ব্যক্তি, যার <u>তূণীর তাদের দিয়ে পূর্ণ</u>”।",
+      "translation_quote": "শক্তিমান ব্যক্তির হাতে তীরের মতোই তরতর্য্যদের সন্তান আছে; যে ব্যক্তি <u>তার কোয়িভার পূর্ণ</u>, সে ধন্য"
+    },
+    {
+      "location": "html, paragraphs discussing ministry and third unordered-list item",
+      "severity": "major",
+      "source_quote": "involved in ministry; family is ministry; an important ministry; Ministry is a lifestyle of caring more about others than ourselves",
+      "suggested_fix": "খ্রিষ্টীয় সেবার অর্থে ব্যবহৃত “মন্ত্রণায়”, “মন্ত্রণার”, “মন্ত্রীত্ব”, “মন্ত্রণাকাজ” ও “মন্ত্রণাবিদ্যা” যথাক্রমে “সেবাকাজে”, “সেবাকাজের”, “সেবাকাজ”, “সেবাকাজ” ও “সেবাকাজ” করুন; প্রয়োজনমতো সংশ্লিষ্ট বাক্যের বিভক্তি মিলিয়ে নিন। বিশেষত “পরিবারই একটি মন্ত্রণার রূপ” করুন “পরিবারই সেবাকাজ”, এবং “মন্ত্রণাবিদ্যা এমন একটি জীবনধারা” করুন “সেবাকাজ এমন একটি জীবনধারা”।",
+      "translation_quote": "মন্ত্রণায় সক্রিয় থাকা; পরিবারই একটি মন্ত্রণার রূপ; এমন একটি মন্ত্রীত্ব; গুরুত্বপূর্ণ মন্ত্রণাকাজ; মন্ত্রণাবিদ্যা এমন একটি জীবনধারা"
+    },
+    {
+      "location": "html, paragraph beginning “একজন মায়েরূপে”",
+      "severity": "major",
+      "source_quote": "My calling as a mother is not an inferior calling. A peaceful home is an oasis for hurting people and few things are as refreshing and beautiful as children who are loved and “trained up” in the ways of God.",
+      "suggested_fix": "প্রথম দুই বাক্য করুন: “মা হিসেবে আমার আহ্বান কোনো হীনতর আহ্বান নয়। কষ্টে থাকা মানুষের জন্য শান্তিপূর্ণ গৃহ এক মরূদ্যান; আর ভালোবাসা পেয়ে ঈশ্বরের পথে ‘প্রশিক্ষিত’ হয়ে ওঠা শিশুদের মতো স্নিগ্ধ ও সুন্দর জিনিস খুব কমই আছে।”",
+      "translation_quote": "আমার ডাকটি নিম্নকী নয়। একটি শান্ত বাড়ি কষ্ট পেয়াদের জন্য একটি নীরব উন্নত স্থান, এবং যত কমই কিছু আছে ততই সুন্দর যখন শিশুরা ভালোবাসা পায় এবং ঈশ্বরের পথে “শিক্ষিত” হয়"
+    },
+    {
+      "location": "html, same paragraph, sentence about singleness",
+      "severity": "major",
+      "source_quote": "some are called to singleness",
+      "suggested_fix": "“কিছু মানুষ একান্ততার পথে ডাক পায়” বদলে “কেউ কেউ অবিবাহিত জীবনযাপনের আহ্বান পান” লিখুন।",
+      "translation_quote": "কিছু মানুষ একান্ততার পথে ডাক পায়"
+    },
+    {
+      "location": "html, Elisabeth Elliot quotation",
+      "severity": "major",
+      "source_quote": "Reverence for her sacred burden",
+      "suggested_fix": "“তাঁর পবিত্র বোঝাপড়ার প্রতি ভক্তি” বদলে “তাঁর পবিত্র দায়িত্বের প্রতি শ্রদ্ধা” লিখুন।",
+      "translation_quote": "তাঁর পবিত্র বোঝাপড়ার প্রতি ভক্তি"
+    },
+    {
+      "location": "html, paragraph beginning “আমি তরুণ নারীদের”",
+      "severity": "major",
+      "source_quote": "Can we change this?",
+      "suggested_fix": "বাক্যটি করুন: “আমরা কি এই অবস্থা বদলাতে পারি?”",
+      "translation_quote": "আমরা কি এ পরিবর্তন টিকিয়ে দিতে পারি?"
+    },
+    {
+      "location": "html, paragraph beginning “আমি তরুণ নারীদের”; first unordered-list item; paragraph beginning “অন্যদের ঈশ্বরীয় বিষয়”",
+      "severity": "major",
+      "source_quote": "fear as you think of being vulnerable; how to be vulnerable in your relationships; we don't need spiritual vulnerability with each other",
+      "suggested_fix": "এই তিন স্থানে দুর্বল হয়ে পড়ার বদলে মনের কথা ও দুর্বলতা খোলাখুলি প্রকাশের অর্থ দিন: “নিজের মনের কথা ও দুর্বলতা প্রকাশ করার কথা ভেবে আপনি হয়তো ভয় পান”; “সম্পর্কের মধ্যে কীভাবে নিজের মনের কথা ও দুর্বলতা প্রকাশ করতে হয়”; এবং “পরস্পরের কাছে আমাদের আধ্যাত্মিক সংগ্রাম ও দুর্বলতা খোলাখুলি প্রকাশ করার প্রয়োজন নেই”।",
+      "translation_quote": "দুর্বল হওয়ার ভয়ে লড়াই করেন; সম্পর্কগুলিতে দুর্বল হতে হয়; আমাদের একে অপরের সঙ্গে আধ্যাত্মিক দুর্বলতার দরকার নেই"
+    },
+    {
+      "location": "html, final Scripture quotation",
+      "severity": "major",
+      "source_quote": "And let us not be weary in well doing: for in due season we shall reap, if we faint not",
+      "suggested_fix": "উদ্ধৃতিটি করুন: “আর সৎকাজ করতে করতে আমরা যেন ক্লান্ত না হই; কারণ হাল না ছাড়লে যথাসময়ে আমরা ফসল কাটব —গালাতীয় ৬:৯।” বিদ্যমান em ট্যাগ রাখুন।",
+      "translation_quote": "আর ভাল কাজ করতে আমরা ক্লান্ত হয়ে পড়ি না: কারণ সময়ে সময়ে আমরা ফলাফল উদ্ধার করব যদি আমরা হতাশ না হই"
+    },
+    {
+      "location": "html, Scripture book names in two Psalm quotations and final Galatians quotation",
+      "severity": "minor",
+      "source_quote": "Psalm 127:3; Psalm 127:3-5; Galatians 6:9",
+      "suggested_fix": "প্রচলিত বাংলা পুস্তকনাম ব্যবহার করুন: “গীতসংহিতা ১২৭:৩”, “গীতসংহিতা ১২৭:৩-৫” এবং “গালাতীয় ৬:৯”; অবস্থান ও পদসংখ্যা অপরিবর্তিত রাখুন।",
+      "translation_quote": "Psalm 127:3; Psalm 127:3-5; Galatians 6:9"
+    },
+    {
+      "location": "html, opening paragraph",
+      "severity": "minor",
+      "source_quote": "It was midnight",
+      "suggested_fix": "“রাত দ্বাদশ বেজে গেছে” বদলে “তখন মধ্যরাত” লিখুন।",
+      "translation_quote": "রাত দ্বাদশ বেজে গেছে"
+    },
+    {
+      "location": "html, paragraph beginning “আমরা চাই”; paragraph following Psalm 127:3-5",
+      "severity": "minor",
+      "source_quote": "a mother’s role; breeding a subtle discontent; the prevailing view that many have in our world today",
+      "suggested_fix": "যথাক্রমে “মায়ের ভূমিকা”, “সূক্ষ্ম অসন্তোষ সৃষ্টি করে” এবং “আজকের পৃথিবীতে বহু মানুষের মধ্যে প্রচলিত দৃষ্টিভঙ্গি” লিখুন।",
+      "translation_quote": "মায়ের ভূমি; অনিরুপণীয় অসন্তোষ ধরায়; আজকের প্রাবল্যপ্রাপ্ত世কালের দৃষ্টিভঙ্গি"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
