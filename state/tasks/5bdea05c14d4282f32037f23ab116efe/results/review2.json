@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d91c4c97-b354-43b1-bbdc-13e9066bcef9",
+    "response_id": "chatcmpl-EYfFp8Kr50xyJ6GddZmkizWFxn60r",
+    "usage": {
+      "completion_tokens": 582,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 494,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4082,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4079
+      },
+      "total_tokens": 4664
+    }
+  },
+  "received_at": "2026-10-14T01:06:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Dernier paragraphe avant la citation biblique",
+        "severity": "minor",
+        "source_quote": "go to the burn pile now!",
+        "suggested_fix": "allez maintenant rejoindre le tas à brûler !",
+        "translation_quote": "allez maintenant au bûcher !"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

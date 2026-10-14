@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T01:06:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Dernier paragraphe avant la citation biblique\",\"severity\":\"minor\",\"source_quote\":\"go to the burn pile now!\",\"suggested_fix\":\"allez maintenant rejoindre le tas à brûler !\",\"translation_quote\":\"allez maintenant au bûcher !\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 303,
+    "content_evidence_truncated": false,
+    "content_sha256": "5346f74dddffc3ee3677c5e3057731ce8d3557a132f1445fea1ccf092c7262a7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 582,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 494,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4082,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4079
+      },
+      "total_tokens": 4664
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

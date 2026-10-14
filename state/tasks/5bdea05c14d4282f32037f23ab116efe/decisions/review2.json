@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Dernier paragraphe avant la citation biblique",
+      "severity": "minor",
+      "source_quote": "go to the burn pile now!",
+      "suggested_fix": "allez maintenant rejoindre le tas à brûler !",
+      "translation_quote": "allez maintenant au bûcher !"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
