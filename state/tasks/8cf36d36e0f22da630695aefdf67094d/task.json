@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fd99d28b19344408b78cf26c0bc99635",
   "campaign": "auto-20025542190043280874ecde8cd1f29dfdc1bb4ec834313b2932bb5b477eca9b",
   "created_at": "2026-10-14T06:05:57+00:00",
   "events": [
@@ -68,25 +67,39 @@
         },
         "total_tokens": 4626
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 632,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3461,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2358,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4093
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Первый абзац",
-      "severity": "major",
-      "source_quote": "“no one who is still living to sin can be buried together in baptism with Christ, who has died to sin”",
-      "suggested_fix": "Заменить «тот, кто все еще живет во грехе» на «тот, кто еще жив для греха», чтобы сохранить противопоставление живого для греха и умершего для греха.",
-      "translation_quote": "«тот, кто все еще живет во грехе, не может быть погребен в крещении вместе со Христом, умершим для греха»"
-    },
-    {
-      "location": "Третий абзац, цитата об Иисусе Христе",
-      "severity": "major",
+      "location": "Third paragraph, quotation beginning «Он воскресил нас…»",
+      "severity": "minor",
       "source_quote": "“He raised us together with Christ and made us sit together in the heavenly places.”",
-      "suggested_fix": "Убрать добавленные слова «во Христе Иисусе», которых нет в цитируемом английском тексте: «Он воскресил нас вместе со Христом и посадил на небесах».",
-      "translation_quote": "«Он воскресил нас вместе с Христом и посадил на небесах во Христе Иисусе»"
+      "suggested_fix": "«Он воскресил нас вместе со Христом и посадил вместе с Ним на небесах»",
+      "translation_quote": "«Он воскресил нас вместе со Христом и посадил на небесах»"
     }
   ],
+  "finished_at": "2026-10-14T15:59:29+00:00",
   "id": "8cf36d36e0f22da630695aefdf67094d",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "rus",
@@ -175,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +208,7 @@
     "total_reserved_usd": 0.087064,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c545a744250aca1ecb27d55fdb1f3a61d2c529ab7f5a7fece0477318b773edd2",
   "translation_model_actual": "gpt-6-luna"

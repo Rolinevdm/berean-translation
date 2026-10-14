@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Third paragraph, quotation beginning «Он воскресил нас…»",
+      "severity": "minor",
+      "source_quote": "“He raised us together with Christ and made us sit together in the heavenly places.”",
+      "suggested_fix": "«Он воскресил нас вместе со Христом и посадил вместе с Ним на небесах»",
+      "translation_quote": "«Он воскресил нас вместе со Христом и посадил на небесах»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

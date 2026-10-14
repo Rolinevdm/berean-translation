@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T15:59:29+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Third paragraph, quotation beginning «Он воскресил нас…»\",\"severity\":\"minor\",\"source_quote\":\"“He raised us together with Christ and made us sit together in the heavenly places.”\",\"suggested_fix\":\"«Он воскресил нас вместе со Христом и посадил вместе с Ним на небесах»\",\"translation_quote\":\"«Он воскресил нас вместе со Христом и посадил на небесах»\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 554,
+    "content_evidence_truncated": false,
+    "content_sha256": "a4eafd5e824303ed6ffad1edd67d3420361892e2205f4975c358674239d1101f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 632,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3461,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2358,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4093
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
