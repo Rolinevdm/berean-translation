@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, andra p.poem, första raden",
+      "severity": "major",
+      "source_quote": "Master, the terror is over, the elements sweetly rest;",
+      "suggested_fix": "Ändra första raden till: ”Mästare, skräcken är över, elementen vilar ljuvligt stilla;<br>",
+      "translation_quote": "”Mästare, elementen vilar ljuvligt stilla;<br>"
+    },
+    {
+      "location": "translation.html, första p.poem, andra raden",
+      "severity": "minor",
+      "source_quote": "I bow in my grief today;",
+      "suggested_fix": "Ändra raden till: Jag böjer mig i sorg i dag;<br>",
+      "translation_quote": "Böjer mig i sorg i dag;<br>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+  "stage": "terminal"
+}
