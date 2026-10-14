@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6afa32ac1c474a1581f17bf1d85463b9",
   "campaign": "auto-d26220bcbccf0492b0d4e7631f799a42b98993a8dc0d004c9c18747c0bf01fd9",
   "created_at": "2026-10-14T06:06:48+00:00",
   "events": [
@@ -48,186 +47,31 @@
         },
         "total_tokens": 12526
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 121,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 89,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7266,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6163,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7387
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, paragraph 3",
-      "severity": "critical",
-      "source_quote": "to feed her baby",
-      "suggested_fix": "החליפו את „כדי להרעיב את תינוקה” ב„כדי להאכיל את תינוקה”.",
-      "translation_quote": "כדי להרעיב את תינוקה"
-    },
-    {
-      "location": "html, Titus quotations in paragraphs 7, 17, and 18",
-      "severity": "major",
-      "source_quote": "To be discreet, chaste, keepers at home",
-      "suggested_fix": "בכל שלוש ההופעות החליפו את „להיות צנועות, שומרות־הבית” ב„להיות שקולות, טהורות, דואגות לביתן”, כך ששתי התכונות הנפרדות יישמרו.",
-      "translation_quote": "להיות צנועות, שומרות־הבית"
-    },
-    {
-      "location": "html, paragraph 8, final sentence",
-      "severity": "major",
-      "source_quote": "produces peace and contentment",
-      "suggested_fix": "החליפו את „מביאה שלום ותContentment” ב„מביאה שלווה ושביעות רצון”.",
-      "translation_quote": "מביאה שלום ותContentment"
-    },
-    {
-      "location": "html, paragraph 11, Psalm quotation",
-      "severity": "major",
-      "source_quote": "As arrows are in the hand of a mighty man; so are children of the youth. Happy is the man that hath his quiver full of them",
-      "suggested_fix": "החליפו ב„כחצים ביד גיבור, כך הילדים שנולדו לאדם בצעירותו. אשרי האדם ש<u>אשפת החצים שלו מלאה בהם</u>”.",
-      "translation_quote": "כנשקים ביד אדם רב־גבורה כן בני־הנוער. אשרי אדם שיש לו <u>נרתיק מלא בהם</u>"
-    },
-    {
-      "location": "html, paragraph 13",
-      "severity": "major",
-      "source_quote": "children who are loved and “trained up” in the ways of God",
-      "suggested_fix": "החליפו את „כילדים שאוהבים” ב„כילדים אהובים”.",
-      "translation_quote": "כילדים שאוהבים ו\"מחונכים\" בדרכי ה׳"
-    },
-    {
-      "location": "html, paragraph 15, Elisabeth Elliot quotation",
-      "severity": "major",
-      "source_quote": "Reverence for her sacred burden",
-      "suggested_fix": "החליפו את „יראת כבוד לעול היקר שלה” ב„יראת כבוד לעול הקדוש שלה”.",
-      "translation_quote": "יראת כבוד לעול היקר שלה"
-    },
-    {
-      "location": "html, paragraph 18, 1 Timothy quotation",
-      "severity": "major",
-      "source_quote": "nor to usurp authority over the man",
-      "suggested_fix": "החליפו את „ולא לשעבד סמכות על האיש” ב„או ליטול לעצמה סמכות על האיש”.",
-      "translation_quote": "ולא לשעבד סמכות על האיש"
-    },
-    {
-      "location": "html, paragraph 18, 1 Timothy quotation",
-      "severity": "major",
-      "source_quote": "For Adam was first formed, then Eve",
-      "suggested_fix": "החליפו את „כי קדם אדם לחוה” ב„כי אדם נוצר תחילה, ואחריו חוה”.",
-      "translation_quote": "כי קדם אדם לחוה"
-    },
-    {
-      "location": "html, paragraph 18, commentary following 1 Timothy quotation",
-      "severity": "major",
-      "source_quote": "we believe in women being silent in the church",
-      "suggested_fix": "החליפו את „אנו מאמינות בנשות השתיקה בכנסייה” ב„אנו מאמינות שנשים צריכות לשתוק בכנסייה”.",
-      "translation_quote": "אנו מאמינות בנשות השתיקה בכנסייה"
-    },
-    {
-      "location": "html, paragraph 19",
-      "severity": "major",
-      "source_quote": "disciple a younger woman ... a struggling younger woman",
-      "suggested_fix": "החליפו את „ללוות נערה צעירה” ב„להדריך אישה צעירה ממך בדרכי האמונה”, ואת „לנערה נאבקת” ב„לאישה צעירה ממך המתמודדת עם קשיים”.",
-      "translation_quote": "ללוות נערה צעירה ... לנערה נאבקת"
-    },
-    {
-      "location": "section",
-      "severity": "major",
-      "source_quote": "Sister to Sister",
-      "suggested_fix": "תרגמו את שם המדור ל„מאחות לאחות”.",
-      "translation_quote": "Sister to Sister"
-    },
-    {
-      "location": "html, endnotes, item 2",
-      "severity": "major",
-      "source_quote": "Bookroo.com 22 of the best book quotes from Elisabeth Elliot",
-      "suggested_fix": "השאירו את האתר ללא שינוי ותרגמו את התיאור: „Bookroo.com — 22 מהציטוטים הטובים ביותר מספריה של אליזבת אליוט”.",
-      "translation_quote": "Bookroo.com 22 of the best book quotes from Elisabeth Elliot"
-    },
-    {
-      "location": "html, paragraph 5",
-      "severity": "major",
-      "source_quote": "respected and demonized by turn",
-      "suggested_fix": "החליפו את „זכו לכבוד ולעתים הוכחשו ולהיפך” ב„זכו לכבוד והושחרו לסירוגין”.",
-      "translation_quote": "זכו לכבוד ולעתים הוכחשו ולהיפך"
-    },
-    {
-      "location": "html, paragraph 6",
-      "severity": "major",
-      "source_quote": "in their home and with their children",
-      "suggested_fix": "החליפו את „בביתן ובעד ילדיהן” ב„בביתן ועם ילדיהן”.",
-      "translation_quote": "בביתן ובעד ילדיהן"
-    },
-    {
-      "location": "html, paragraph 1",
-      "severity": "minor",
-      "source_quote": "My new baby brother",
-      "suggested_fix": "החליפו את „אחיי הפעוט החדש” ב„אחי התינוק החדש”.",
-      "translation_quote": "אחיי הפעוט החדש"
-    },
-    {
-      "location": "html, paragraph 2",
-      "severity": "minor",
-      "source_quote": "I expected her to look weary ... the rocking chair",
-      "suggested_fix": "תקנו ל„ציפיתי שהיא תיראה עייפה” ול„כיסא הנדנדה”.",
-      "translation_quote": "ציפיתי שהיא תראה עייפה ... כורסאת נדנדה"
-    },
-    {
-      "location": "html, paragraph 6",
-      "severity": "minor",
-      "source_quote": "are placed in some form of paid childcare arrangement",
-      "suggested_fix": "החליפו את „מונחים במסגרת סידור טיפול בתשלום כלשהו” ב„נמצאים במסגרת כלשהי של טיפול בתשלום”.",
-      "translation_quote": "מונחים במסגרת סידור טיפול בתשלום כלשהו"
-    },
-    {
-      "location": "html, paragraph 7",
-      "severity": "minor",
-      "source_quote": "The aged women ... that the word of God be not blasphemed",
-      "suggested_fix": "תקנו את „הנְשִׁים הַבְּגוּרוֹת” ל„הנשים המבוגרות” ואת „שלא תושמץ דבר ה׳” ל„שלא יושמץ דבר ה׳”.",
-      "translation_quote": "הנְשִׁים הַבְּגוּרוֹת ... שלא תושמץ דבר ה׳"
-    },
-    {
-      "location": "html, paragraph 12",
-      "severity": "minor",
-      "source_quote": "a subconscious ... older, godly mothers",
-      "suggested_fix": "תקנו ל„מחשבה תת־הכרתית” ול„אמהות מבוגרות ויראות אלוהים”.",
-      "translation_quote": "מחשבה תת־הכריתית ... אמהות בוגרות וירא־אלוהים"
-    },
-    {
-      "location": "html, paragraph 13",
-      "severity": "minor",
-      "source_quote": "A peaceful home ... it is not a ministry",
-      "suggested_fix": "תקנו את „בית שלווים” ל„בית שלֵו” ואת „זו אינה שירות” ל„זה אינו שירות”.",
-      "translation_quote": "בית שלווים ... זו אינה שירות"
-    },
-    {
-      "location": "html, paragraph 19",
-      "severity": "minor",
-      "source_quote": "have come out as a better person",
-      "suggested_fix": "החליפו את „והצאת ממנה” ב„ויצאת מכך”.",
-      "translation_quote": "והצאת ממנה כאדם טוב יותר"
-    },
-    {
-      "location": "html, paragraph 20",
-      "severity": "minor",
-      "source_quote": "an older sister walk beside them ... it has never been your habit",
-      "suggested_fix": "תקנו ל„אחות בוגרת שתלווה אותן” ול„אולי מעולם לא התרגלת לשתף את אשר על ליבך”.",
-      "translation_quote": "אחות בוגרת שתלוויין ... אולי מעולם לא הרגלת לשתף את הלב"
-    },
-    {
-      "location": "html, list item 1",
-      "severity": "minor",
-      "source_quote": "in your relationships",
-      "suggested_fix": "תקנו את „במערכות יחסיםייך” ל„במערכות היחסים שלך”.",
-      "translation_quote": "במערכות יחסיםייך"
-    },
-    {
-      "location": "html, paragraph 18",
-      "severity": "minor",
-      "source_quote": "encourage and disciple the younger generation",
-      "suggested_fix": "החליפו את „לעודד ולדַרֵך את הדור הצעיר” ב„לעודד ולהדריך את הדור הצעיר בדרכי האמונה”.",
-      "translation_quote": "לעודד ולדַרֵך את הדור הצעיר"
-    },
-    {
-      "location": "html, final Scripture quotation",
-      "severity": "minor",
-      "source_quote": "Galatians 6:9",
-      "suggested_fix": "השתמשו בשם העברי המקובל „גלטים 6:9”.",
-      "translation_quote": "גאלטים 6:9"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-14T22:23:43+00:00",
   "id": "0e83c1dd867abb1d23a73efb6480adce",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "heb",
@@ -316,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 68,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -335,7 +179,7 @@
     "total_reserved_usd": 0.745748,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
   "translation_model_actual": "gpt-6.1-sol"
