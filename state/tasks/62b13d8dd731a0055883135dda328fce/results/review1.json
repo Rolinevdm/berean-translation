@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9b089e3a-d597-44fb-a360-0d835c929410",
+    "response_id": "chatcmpl-EYwXWgIxh8ytd0kaLMlq4y2fJ5T9k",
+    "usage": {
+      "completion_tokens": 634,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3443,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2340,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4077
+    }
+  },
+  "received_at": "2026-10-14T18:34:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph",
+        "severity": "major",
+        "source_quote": "“from the earthly lowliness to the glory of the Father’s majesty.”",
+        "suggested_fix": "Replace „אל כבוד מלכותו של האב” with „אל כבוד רוממותו של האב” to convey the Father’s majesty, not his kingdom.",
+        "translation_quote": "„מן השפלות הארצית אל כבוד מלכותו של האב”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

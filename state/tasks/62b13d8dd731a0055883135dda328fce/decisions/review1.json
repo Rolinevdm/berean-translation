@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "major",
+      "source_quote": "“from the earthly lowliness to the glory of the Father’s majesty.”",
+      "suggested_fix": "Replace „אל כבוד מלכותו של האב” with „אל כבוד רוממותו של האב” to convey the Father’s majesty, not his kingdom.",
+      "translation_quote": "„מן השפלות הארצית אל כבוד מלכותו של האב”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
