@@ -3,13 +3,13 @@
   "approved_total_usd": 30.0,
   "counts": {
     "active": 17,
-    "held_without_publication": 1471,
+    "held_without_publication": 1450,
     "published": 2641,
-    "queued": 30,
-    "unstarted": 19181
+    "queued": 33,
+    "unstarted": 19199
   },
-  "generated_at": "2026-10-14T06:14:17+00:00",
-  "pending_requests": 70,
+  "generated_at": "2026-10-14T07:28:30+00:00",
+  "pending_requests": 73,
   "replacement_counts": {
     "active": 0,
     "held": 135,

@@ -2,15 +2,15 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Generated: 2026-10-14T06:14:17+00:00.
+Generated: 2026-10-14T07:28:30+00:00.
 Published means an accepted translation is exportable here; live deployment is verified separately.
 Target categories are disjoint. Accepted publications remain published during replacement work. Source-stale versions and replacement outcomes are reported separately.
 Ready means source-compatible and exportable here; live deployment is verified separately.
 Finished means processing has stopped, not that every requested translation passed. Held items still need action.
 
-Observed English revision: `f83903f6f553c0469d537b5461e4ba3aa295835f`
+Observed English revision: `10c0f2432ce983497252f2dbafece735507c8574`
 
-Total target: 23340 article/language pairs. published: 2641 | unstarted: 19181 | queued: 30 | active: 17 | held without publication: 1471.
+Total target: 23340 article/language pairs. published: 2641 | unstarted: 19199 | queued: 33 | active: 17 | held without publication: 1450.
 
 Last collection: 2026-10-14T06:14:17+00:00; newly published: 12; stop reason: wait_budget_exhausted; submitted batches remaining: 17.
 
@@ -24,7 +24,7 @@ Last collection: 2026-10-14T06:14:17+00:00; newly published: 12; stop reason: wa
 | `heartbeat-remnant-2023-winter` | 12 | 138 / 240 | 0 | 0 | 0 | 102 | 0 | 0 |
 | `heartbeat-remnant-2022-winter` | 10 | 84 / 200 | 0 | 0 | 0 | 116 | 0 | 0 |
 | `heartbeat-remnant-2022-fall` | 11 | 92 / 220 | 0 | 0 | 0 | 128 | 0 | 0 |
-| `heartbeat-remnant-2022-summer` | 9 | 113 / 180 | 0 | 4 | 4 | 59 | 0 | 0 |
+| `heartbeat-remnant-2022-summer` | 9 | 113 / 180 | 0 | 5 | 4 | 58 | 0 | 0 |
 | `heartbeat-remnant-2022-spring` | 9 | 157 / 180 | 0 | 1 | 1 | 21 | 0 | 0 |
 | `heartbeat-remnant-2021-summer` | 11 | 129 / 220 | 0 | 0 | 0 | 91 | 0 | 0 |
 | `heartbeat-remnant-2021-spring` | 11 | 134 / 220 | 0 | 0 | 0 | 86 | 0 | 0 |
@@ -56,7 +56,7 @@ Last collection: 2026-10-14T06:14:17+00:00; newly published: 12; stop reason: wa
 | `heartbeat-remnant-2011-11` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-09` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-07` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-05` | 14 | 159 / 280 | 61 | 25 | 12 | 23 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | 14 | 159 / 280 | 59 | 27 | 12 | 23 | 0 | 0 |
 | `heartbeat-remnant-2011-03` | 17 | 0 / 340 | 340 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-01` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2010-11` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
@@ -94,7 +94,7 @@ Last collection: 2026-10-14T06:14:17+00:00; newly published: 12; stop reason: wa
 | `heartbeat-remnant-2004-07` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2004-05` | 14 | 0 / 280 | 280 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2004-03` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2004-01` | 11 | 0 / 220 | 200 | 0 | 0 | 20 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-11` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-09` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-07` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
@@ -121,26 +121,26 @@ Last collection: 2026-10-14T06:14:17+00:00; newly published: 12; stop reason: wa
 
 | Language | Published / source articles | Unstarted | Queued / admission | Active | Held without publication | Source stale | Failed replacements | Human reviewed | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 125 / 1167 | 959 | 0 | 0 | 83 | 0 | 5 | 0 | 122 |
-| `hin` (hi) | 133 / 1167 | 959 | 0 | 0 | 75 | 0 | 7 | 0 | 127 |
-| `spa` (es) | 166 / 1167 | 959 | 1 | 1 | 40 | 0 | 5 | 0 | 95 |
-| `ara` (ar) | 119 / 1167 | 959 | 3 | 1 | 85 | 0 | 9 | 0 | 136 |
-| `fra` (fr) | 156 / 1167 | 959 | 1 | 0 | 51 | 0 | 9 | 0 | 102 |
-| `ben` (bn) | 116 / 1167 | 959 | 2 | 2 | 88 | 0 | 7 | 0 | 136 |
-| `por` (pt) | 170 / 1167 | 959 | 1 | 2 | 35 | 0 | 6 | 0 | 96 |
-| `ind` (id) | 150 / 1167 | 959 | 1 | 1 | 56 | 0 | 6 | 0 | 112 |
-| `urd` (ur) | 129 / 1167 | 959 | 2 | 0 | 77 | 0 | 5 | 0 | 129 |
-| `rus` (ru) | 126 / 1167 | 959 | 4 | 0 | 78 | 0 | 6 | 0 | 138 |
-| `deu` (de) | 107 / 1167 | 959 | 2 | 1 | 98 | 0 | 4 | 0 | 134 |
-| `nld` (nl) | 148 / 1167 | 959 | 1 | 2 | 57 | 0 | 9 | 0 | 119 |
-| `afr` (af) | 150 / 1167 | 959 | 2 | 0 | 56 | 0 | 9 | 3 | 101 |
-| `swa` (sw) | 92 / 1167 | 959 | 2 | 1 | 113 | 0 | 7 | 0 | 159 |
-| `kor` (ko) | 133 / 1167 | 959 | 2 | 0 | 73 | 0 | 5 | 0 | 118 |
-| `ita` (it) | 153 / 1167 | 959 | 0 | 1 | 54 | 0 | 7 | 0 | 97 |
-| `heb` (he) | 75 / 1167 | 959 | 3 | 1 | 129 | 0 | 5 | 0 | 146 |
-| `ell` (el) | 128 / 1167 | 959 | 0 | 1 | 79 | 0 | 9 | 0 | 126 |
-| `swe` (sv) | 134 / 1167 | 959 | 2 | 3 | 69 | 0 | 7 | 0 | 119 |
-| `nob` (nb) | 131 / 1167 | 960 | 1 | 0 | 75 | 0 | 8 | 0 | 133 |
+| `cmn` (zh-Hans) | 125 / 1167 | 959 | 2 | 0 | 81 | 0 | 5 | 0 | 122 |
+| `hin` (hi) | 133 / 1167 | 960 | 0 | 0 | 74 | 0 | 7 | 0 | 127 |
+| `spa` (es) | 166 / 1167 | 960 | 1 | 1 | 39 | 0 | 5 | 0 | 95 |
+| `ara` (ar) | 119 / 1167 | 960 | 3 | 1 | 84 | 0 | 9 | 0 | 136 |
+| `fra` (fr) | 156 / 1167 | 960 | 1 | 0 | 50 | 0 | 9 | 0 | 102 |
+| `ben` (bn) | 116 / 1167 | 960 | 2 | 2 | 87 | 0 | 7 | 0 | 136 |
+| `por` (pt) | 170 / 1167 | 960 | 1 | 2 | 34 | 0 | 6 | 0 | 96 |
+| `ind` (id) | 150 / 1167 | 960 | 1 | 1 | 55 | 0 | 6 | 0 | 112 |
+| `urd` (ur) | 129 / 1167 | 960 | 2 | 0 | 76 | 0 | 5 | 0 | 129 |
+| `rus` (ru) | 126 / 1167 | 960 | 4 | 0 | 77 | 0 | 6 | 0 | 138 |
+| `deu` (de) | 107 / 1167 | 960 | 2 | 1 | 97 | 0 | 4 | 0 | 134 |
+| `nld` (nl) | 148 / 1167 | 960 | 1 | 2 | 56 | 0 | 9 | 0 | 119 |
+| `afr` (af) | 150 / 1167 | 960 | 2 | 0 | 55 | 0 | 9 | 3 | 101 |
+| `swa` (sw) | 92 / 1167 | 960 | 2 | 1 | 112 | 0 | 7 | 0 | 159 |
+| `kor` (ko) | 133 / 1167 | 960 | 2 | 0 | 72 | 0 | 5 | 0 | 118 |
+| `ita` (it) | 153 / 1167 | 960 | 0 | 1 | 53 | 0 | 7 | 0 | 97 |
+| `heb` (he) | 75 / 1167 | 960 | 3 | 1 | 128 | 0 | 5 | 0 | 146 |
+| `ell` (el) | 128 / 1167 | 960 | 0 | 1 | 78 | 0 | 9 | 0 | 126 |
+| `swe` (sv) | 134 / 1167 | 960 | 2 | 3 | 68 | 0 | 7 | 0 | 119 |
+| `nob` (nb) | 131 / 1167 | 960 | 2 | 0 | 74 | 0 | 8 | 0 | 133 |
 
 ## Issue / language work
 
@@ -308,7 +308,7 @@ Every source issue and configured language appears, including unstarted work. Re
 | `heartbeat-remnant-2022-fall` | `ell` | 5 / 11 | 0 | 0 | 0 | 6 | 0 |
 | `heartbeat-remnant-2022-fall` | `swe` | 5 / 11 | 0 | 0 | 0 | 6 | 0 |
 | `heartbeat-remnant-2022-fall` | `nob` | 6 / 11 | 0 | 0 | 0 | 5 | 0 |
-| `heartbeat-remnant-2022-summer` | `cmn` | 4 / 9 | 0 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2022-summer` | `cmn` | 4 / 9 | 0 | 1 | 0 | 4 | 0 |
 | `heartbeat-remnant-2022-summer` | `hin` | 6 / 9 | 0 | 0 | 0 | 3 | 0 |
 | `heartbeat-remnant-2022-summer` | `spa` | 7 / 9 | 0 | 0 | 0 | 2 | 0 |
 | `heartbeat-remnant-2022-summer` | `ara` | 4 / 9 | 0 | 1 | 0 | 4 | 0 |
@@ -948,7 +948,7 @@ Every source issue and configured language appears, including unstarted work. Re
 | `heartbeat-remnant-2011-07` | `ell` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-07` | `swe` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-07` | `nob` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-05` | `cmn` | 9 / 14 | 3 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2011-05` | `cmn` | 9 / 14 | 2 | 1 | 0 | 2 | 0 |
 | `heartbeat-remnant-2011-05` | `hin` | 10 / 14 | 3 | 0 | 0 | 1 | 0 |
 | `heartbeat-remnant-2011-05` | `spa` | 9 / 14 | 3 | 1 | 1 | 0 | 0 |
 | `heartbeat-remnant-2011-05` | `ara` | 8 / 14 | 3 | 2 | 1 | 0 | 0 |
@@ -967,7 +967,7 @@ Every source issue and configured language appears, including unstarted work. Re
 | `heartbeat-remnant-2011-05` | `heb` | 7 / 14 | 3 | 2 | 0 | 2 | 0 |
 | `heartbeat-remnant-2011-05` | `ell` | 6 / 14 | 3 | 0 | 1 | 4 | 0 |
 | `heartbeat-remnant-2011-05` | `swe` | 8 / 14 | 3 | 1 | 1 | 1 | 0 |
-| `heartbeat-remnant-2011-05` | `nob` | 7 / 14 | 4 | 1 | 0 | 2 | 0 |
+| `heartbeat-remnant-2011-05` | `nob` | 7 / 14 | 3 | 2 | 0 | 2 | 0 |
 | `heartbeat-remnant-2011-03` | `cmn` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-03` | `hin` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-03` | `spa` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
@@ -1708,26 +1708,26 @@ Every source issue and configured language appears, including unstarted work. Re
 | `heartbeat-remnant-2004-03` | `ell` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2004-03` | `swe` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2004-03` | `nob` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2004-01` | `cmn` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `hin` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `spa` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `ara` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `fra` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `ben` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `por` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `ind` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `urd` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `rus` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `deu` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `nld` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `afr` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `swa` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `kor` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `ita` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `heb` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `ell` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `swe` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
-| `heartbeat-remnant-2004-01` | `nob` | 0 / 11 | 10 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2004-01` | `cmn` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `hin` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `spa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `ara` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `fra` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `ben` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `por` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `ind` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `urd` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `rus` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `deu` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `nld` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `afr` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `swa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `kor` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `ita` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `heb` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `ell` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `swe` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-01` | `nob` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-11` | `cmn` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-11` | `hin` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-11` | `spa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
@@ -2162,7 +2162,7 @@ Funded progressing repairs can continue beyond three historical cycles. Repeated
 Accepted shared allocations: $6.000000 across 6 runs. Allocations are not recycled after failure or cancellation.
 Separately authorized manual workflow allocations: $160.000000 across 10 accepted runs. Each run is limited to its own explicit ceiling; each prior run retains its frozen funding and attempt limits.
 [Recovery frontier](RECOVERY.json) lists missing work, admission holds, latest task outcomes and explicit blocking reasons. It is a derived report, not spending authority.
-active: 47 | already_translated: 108 | automatic_budget_blocked: 70 | continuation_cooldown: 1 | continuation_progress_uncertain_requires_attention: 1 | eligible_automatic: 1354 | legacy_response_outcome_unknown_requires_owner_attention: 12 | provider_refusal_requires_owner_attention: 2 | repeated_technical_failure_requires_attention: 1 | source_error_requires_attention: 20 | technical_failure_requires_attention: 10
+active: 47 | already_translated: 108 | automatic_budget_blocked: 70 | continuation_progress_uncertain_requires_attention: 1 | eligible_automatic: 1354 | legacy_response_outcome_unknown_requires_owner_attention: 12 | pending_automatic_admission: 3 | provider_refusal_requires_owner_attention: 2 | repeated_technical_failure_requires_attention: 1 | technical_failure_requires_attention: 10
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Preserved overlong negative reviews
