@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Restorationism section, paragraph beginning “The desire to take the Christian church back…”",
+      "severity": "major",
+      "source_quote": "“Major cults have been founded through restorationist attempts (the Mormons, for example).”",
+      "suggested_fix": "“احیائے نو کی کوششوں کے ذریعے بڑے بڑے گمراہ فرقے بھی قائم ہوئے ہیں (مثلاً مورمن)۔”",
+      "translation_quote": "“احیائے نو کی کوششوں کے ذریعے بڑے بڑے فرقے بھی قائم ہوئے ہیں (مثلاً مورمن)۔”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

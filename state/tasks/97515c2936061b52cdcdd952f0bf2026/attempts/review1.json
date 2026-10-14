@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T06:04:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Restorationism section, paragraph beginning “The desire to take the Christian church back…”\",\"severity\":\"major\",\"source_quote\":\"“Major cults have been founded through restorationist attempts (the Mormons, for example).”\",\"suggested_fix\":\"“احیائے نو کی کوششوں کے ذریعے بڑے بڑے گمراہ فرقے بھی قائم ہوئے ہیں (مثلاً مورمن)۔”\",\"translation_quote\":\"“احیائے نو کی کوششوں کے ذریعے بڑے بڑے فرقے بھی قائم ہوئے ہیں (مثلاً مورمن)۔”\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 639,
+    "content_evidence_truncated": false,
+    "content_sha256": "37f94db6f0647786907b92edff5fbd991c2502d41ec4eeae0dabdffcfe8204d2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1139,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 987,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 20975,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 19872,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 22114
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
