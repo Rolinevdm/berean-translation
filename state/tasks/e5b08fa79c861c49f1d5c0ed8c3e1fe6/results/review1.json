@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "4b37cc67-102d-4bb6-85e7-5a9d9167166c",
+    "response_id": "chatcmpl-EZ1chH70myXNqyryJ9NDa52mMOGbW",
+    "usage": {
+      "completion_tokens": 358,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 109,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5627,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4524,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5985
+    }
+  },
+  "received_at": "2026-10-14T22:23:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, segundo parágrafo, citação de Filipenses 4:11-13",
+        "severity": "major",
+        "source_quote": "I can do all things through Christ which strengtheneth me.",
+        "suggested_fix": "Substituir «Tudo posso naquele que me fortalece» por «Tudo posso por meio de Cristo, que me fortalece», mantendo a referência e a marcação existentes.",
+        "translation_quote": "Tudo posso naquele que me fortalece."
+      },
+      {
+        "location": "html, quarto parágrafo, extensão do engarrafamento",
+        "severity": "minor",
+        "source_quote": "create stop-and-go traffic for a mile or more",
+        "suggested_fix": "Substituir «por um quilômetro ou mais» por «por uma milha ou mais».",
+        "translation_quote": "provocar um trânsito de anda e para por um quilômetro ou mais"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 96
+  }
+}
