@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph beginning “We are not stoics”",
+      "severity": "minor",
+      "source_quote": "We are not stoics—we hurt and cry when loved ones leave us.",
+      "suggested_fix": "हम स्तोइक नहीं हैं—जब प्रियजन हमें छोड़कर चले जाते हैं तो हमें पीड़ा होती है और हम रोते हैं।",
+      "translation_quote": "हम भावनाहीन नहीं हैं—जब प्रियजन हमें छोड़कर चले जाते हैं तो हमें पीड़ा होती है और हम रोते हैं।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

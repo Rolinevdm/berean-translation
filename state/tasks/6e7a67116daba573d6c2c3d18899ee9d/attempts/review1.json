@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T01:27:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article paragraph beginning “We are not stoics”\",\"severity\":\"minor\",\"source_quote\":\"We are not stoics—we hurt and cry when loved ones leave us.\",\"suggested_fix\":\"हम स्तोइक नहीं हैं—जब प्रियजन हमें छोड़कर चले जाते हैं तो हमें पीड़ा होती है और हम रोते हैं।\",\"translation_quote\":\"हम भावनाहीन नहीं हैं—जब प्रियजन हमें छोड़कर चले जाते हैं तो हमें पीड़ा होती है और हम रोते हैं।\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 757,
+    "content_evidence_truncated": false,
+    "content_sha256": "fdd6bb88ecf08338bb1275659cce3e189f49e91d34cdf55149c89a6ab4d36d06",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 775,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 634,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3698,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2595,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4473
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
