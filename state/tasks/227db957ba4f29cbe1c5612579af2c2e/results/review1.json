@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9010608c-ed73-47a5-a42a-7077cc482593",
+    "response_id": "chatcmpl-EYi08wM8tPSiXlqMiW6v2h3Y2EVuT",
+    "usage": {
+      "completion_tokens": 873,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 708,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3086,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1983,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3959
+    }
+  },
+  "received_at": "2026-10-14T01:27:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3, list of Self’s attributes",
+        "severity": "major",
+        "source_quote": "“Some of his attributes are: self-will, self-preservation, self-praise, self-pity, self-conceit, and self-love”",
+        "suggested_fix": "Replace “kujipendelea” with “kufuata mapenzi yako mwenyewe” or another Kiswahili phrase expressing insistence on one’s own will.",
+        "translation_quote": "“Baadhi ya sifa zake ni: kujipendelea, kujilinda, kujisifu, kujihurumia, kujiona, na kujipenda”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
