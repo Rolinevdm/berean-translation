@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T06:04:49+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"924514c7-52be-4e2b-ab75-3141e14ea9a0\\\">\\n  <p class=\\\"drop-cap\\\">Hace algún tiempo, mientras viajaba por Virginia, compré un ejemplar de «The Roanoke Times», con una foto de Moammar Gadhafi en la portada. Lo citaban diciendo: «Soy un combatiente, un revolucionario de las tiendas de campaña. Moriré como mártir al final». ¿Quién no lo haría, si un régimen de cuarenta años estuviera amenazado? Vemos lo mismo muchas veces a lo largo de la historia: reyes y emperadores que usan todos los medios a su alcance para no perder el poder, y algunos incluso sacrifican la vida de millones de seguidores leales.</p>\\n\\n  <p>Estos reinos terrenales y su funcionamiento me hicieron pensar en otro reino (y gobernante) cuyos límites no están trazados en el globo terráqueo. Este tirano blande su cetro sobre reyes, presidentes, ricos y campesinos por igual; son pocos los que no se inclinan ante sus santuarios. Este gobernante no niega nada a su pueblo, pero ninguno de sus seguidores es verdaderamente feliz (de hecho, la mayoría se siente bastante desdichada), y al final todos serán destruidos. Los oigo decir: «Seguro que habla del diablo». No, su nombre no es Satanás, aunque el diablo es su consejero.</p>\\n\\n  <p>¡Su nombre es el Yo! Vive en el corazón humano. Algunos de sus atributos son: voluntad propia, autopreservación, autoelogio, autocompasión, vanidad y amor propio, por nombrar algunos. De hecho, mi diccionario dedica casi una página entera a las diversas formas que adopta el yo para conservar su amor propio. Al observar la lista, podemos encontrar algunas que son buenas, pero siempre como antídoto contra el propio Yo. La negación de uno mismo es encomiable, siempre que se practique sin conciencia de uno mismo. La humillación propia puede ser una forma de orgullo que a menudo se confunde con algo bueno. Alguien comenta el buen trabajo que has hecho, y tú dices: «Oh, no es para tanto», mientras sientes que la satisfacción propia va creciendo en tu corazón porque alguien se ha dado cuenta. Por otro lado, cuando alguien critica tus esfuerzos, la autojustificación y las excusas propias surgen en defensa del yo.</p>\\n\\n  <p>En total contraste con todas estas maquinaciones del Yo y de la vida centrada en uno mismo, nuestro Salvador comenzó su estancia entre los hombres en un humilde establo. Poco después, sus padres, temiendo que Herodes (otro déspota egoísta) lo matara, huyeron a Egipto. Desde allí regresaron para vivir en la humilde ciudad de Nazaret. Este hijo de un carpintero no nació entre la nobleza ni en el partido gobernante de su época, sino entre los desfavorecidos. «¿No es este el hijo de José? ¿No están con nosotros su madre y sus hermanos?»</p>\\n\\n  <p>Al caminar entre los hombres, mostró un verdadero altruismo; no se percibía en él ningún afán de exaltación propia. Las palabras que pronunció en Mateo 11:28-29 (Vengan a mí todos los que están trabajados y cargados, y yo les daré descanso. Lleven mi yugo sobre ustedes y aprendan de mí, porque soy manso y humilde de corazón, y hallarán descanso para sus almas) no nacieron de un sentimiento de importancia propia. Surgieron del deseo de que los hombres dejaran de seguir sus caminos egoístas y nacieran de nuevo en el reino de Dios, donde el Yo debe morir, crucificado en aquellos que han muerto con Él. ~</p>\\n\\n  <p class=\\\"source-note\\\">(Tomado del número de abril de 2011 de <em>Love of the Truth</em>.)</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Rey de la tierra\"}",
+    "content_bytes": 3580,
+    "content_evidence_truncated": false,
+    "content_sha256": "2eff8f1f3af258797303345f0ae3c79ab5b7a3685ab231377e66ac6e75ecff95",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 904,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1647,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1644,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2551
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
