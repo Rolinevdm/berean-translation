@@ -6407,6 +6407,29 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/98e522ea-f992-438f-86e7-2588963ef008.html",
+      "html_sha256": "950b7523a9d6a33d16bf7303902ae295f52bbf060d7ef97102d8bbb68e99fd58",
+      "human_reviewed": false,
+      "id": "98e522ea-f992-438f-86e7-2588963ef008",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/98e522ea-f992-438f-86e7-2588963ef008.json",
+      "metadata_sha256": "16a14d40727e7ecee0a6daf7fa8fbe2bb7710040729c14ed2d7573f1a04bc9e8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "أصوات من الكنيسة الأولى",
+      "source_revision": "f83903f6f553c0469d537b5461e4ba3aa295835f",
+      "source_translation_key": "c545a744250aca1ecb27d55fdb1f3a61d2c529ab7f5a7fece0477318b773edd2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "الموت والقيامة مع المسيح",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/99d9d2e9-2f6a-46ce-a06a-4635a4d484f9.html",
       "html_sha256": "661628b3fbeb61f17c48ea73c8031beff368e3a4da9a484caeb2f97af896b73a",
       "human_reviewed": false,
@@ -24134,6 +24157,29 @@
       "subtitle": null,
       "title": "Quand toutes tes miséricordes, ô mon Dieu",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/98e522ea-f992-438f-86e7-2588963ef008.html",
+      "html_sha256": "71db313dd6609beb324d24e5df64eb7d5daa7bcf66d5fc9294e22cc81187d287",
+      "human_reviewed": false,
+      "id": "98e522ea-f992-438f-86e7-2588963ef008",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/98e522ea-f992-438f-86e7-2588963ef008.json",
+      "metadata_sha256": "06e4927997257d594a46a211d92b3feaf1b9917af69c7c1496bcdb87a0fc7fdc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Voix de l’Église primitive",
+      "source_revision": "f83903f6f553c0469d537b5461e4ba3aa295835f",
+      "source_translation_key": "c545a744250aca1ecb27d55fdb1f3a61d2c529ab7f5a7fece0477318b773edd2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mourir et ressusciter avec le Christ",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -49562,6 +49608,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.html",
+      "html_sha256": "ffe6bbcf2f14944020e01c85049a19a9d851b433b3dbc16b637d401489db4ead",
+      "human_reviewed": false,
+      "id": "51c6b872-b5d3-45c6-a0b1-d1dd48ece711",
+      "images": [
+        {
+          "alt": "To hender over og under en globus",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-1.jpg"
+        },
+        {
+          "alt": "To personer hjelper en annen person opp av vannet",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.json",
+      "metadata_sha256": "6034d3c4398d1b1d21ef416503b706d72c6628120d893efd06355f2842c75425",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "5cc108b7f7605f1c415c013d8d7e8ea4b8e869b1",
+      "source_translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
+      "status": "ready",
+      "subtitle": "En forklaring på begrepet i det tyske ordet Gelassenheit.",
+      "title": "Gelassenheit – målrettet løsrivelse",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
       "html_sha256": "6a8521e91e2f10d9efc433fec319a9778da0897203a316ea3312b11ea94bfe15",
       "human_reviewed": false,
@@ -62554,6 +62632,58 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.html",
+      "html_sha256": "80990d4e4c41314b2a9e922b99ea334b55dc6e8d43ff32801d536c8f51aafb2d",
+      "human_reviewed": false,
+      "id": "6b3e3e7e-b5fd-4701-9a63-699b90f17ec9",
+      "images": [
+        {
+          "alt": "Dos bisontes frente a frente",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-1.jpg"
+        },
+        {
+          "alt": "La declaración contra la esclavitud de Germantown de 1688, de dos páginas",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-2.jpg"
+        },
+        {
+          "alt": "La casa de Isaac Wenger en Virginia",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-3.jpg"
+        },
+        {
+          "alt": "Portada de Espejo de los mártires, de Thieleman J. van Braght",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-4.jpg"
+        },
+        {
+          "alt": "Lápida de Joseph Hofer, 1894–1918",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-5.jpg"
+        },
+        {
+          "alt": "Lápida de Michael Hofer, 1893–1918",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-6.jpg"
+        },
+        {
+          "alt": "Perfil de un hombre con tatuajes faciales y perforaciones",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-7.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.json",
+      "metadata_sha256": "a5e0cbc627ae58d7fcd1607820767c0d04679daeb5c8065050025fabd50b11cf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "10c0f2432ce983497252f2dbafece735507c8574",
+      "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Cuando chocan los reinos",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.html",
       "html_sha256": "64a3d8890a541438b9a31c6af7e0a1938bc2382a2a68f66be7b3e718094db65e",
       "human_reviewed": false,
@@ -63299,6 +63429,29 @@
       "subtitle": null,
       "title": "Depresión",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/924514c7-52be-4e2b-ab75-3141e14ea9a0.html",
+      "html_sha256": "1c2ae4709b9645e257dd6ac1bd3f3e7b09dffc80428c42731876c3e731a5a22f",
+      "human_reviewed": false,
+      "id": "924514c7-52be-4e2b-ab75-3141e14ea9a0",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/924514c7-52be-4e2b-ab75-3141e14ea9a0.json",
+      "metadata_sha256": "c3ef01989c9165516c5a377ac4b824b1eb64873cd7101cbfe5571207a2f283d5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "f83903f6f553c0469d537b5461e4ba3aa295835f",
+      "source_translation_key": "0afc0b6bee66dd315455ddd780526dd699416793c745bb2e10085b05dad8c9fc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Rey de la tierra",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -73421,6 +73574,58 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.html",
+      "html_sha256": "cefc2b0a1800df9e0bca8df3b867a3d1f223dcc19f685b0e031d6d8a413b9492",
+      "human_reviewed": false,
+      "id": "6b3e3e7e-b5fd-4701-9a63-699b90f17ec9",
+      "images": [
+        {
+          "alt": "آمنے سامنے کھڑے دو بائسن",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-1.jpg"
+        },
+        {
+          "alt": "1688ء کا دو صفحات پر مشتمل جرمن ٹاؤن کا غلامی مخالف بیان",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-2.jpg"
+        },
+        {
+          "alt": "ورجینیا میں آئزک وینگر کا گھر",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-3.jpg"
+        },
+        {
+          "alt": "تھیلیمن جے فان براخت کی کتاب مارٹرز مرر کا سرورق",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-4.jpg"
+        },
+        {
+          "alt": "جوزف ہوفر کی قبر کا کتبہ، 1894–1918ء",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-5.jpg"
+        },
+        {
+          "alt": "مائیکل ہوفر کی قبر کا کتبہ، 1893–1918ء",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-6.jpg"
+        },
+        {
+          "alt": "چہرے پر ٹیٹو اور چھیدنے والے زیورات والے ایک شخص کا پہلو سے منظر",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-7.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.json",
+      "metadata_sha256": "7a67684f78d3b031d72e844f9796d18ff5fbd3909cf3700bcdb705e78fdfd207",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "10c0f2432ce983497252f2dbafece735507c8574",
+      "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
+      "status": "ready",
+      "subtitle": null,
+      "title": "جب سلطنتیں ٹکراتی ہیں",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.html",
       "html_sha256": "b89855aa474b4cbbbc093d3bc4ddb7096839331f1ab089fcc2771ba6c764f04c",
       "human_reviewed": false,
@@ -74195,6 +74400,29 @@
       "status": "ready",
       "subtitle": "ایک سچی کہانی",
       "title": "چھوٹی رامونا کا غرور",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/98e522ea-f992-438f-86e7-2588963ef008.html",
+      "html_sha256": "30447756f1b57ab08f1e409e4cd23c285fea83837c0bc16631bebf4f550a2286",
+      "human_reviewed": false,
+      "id": "98e522ea-f992-438f-86e7-2588963ef008",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/98e522ea-f992-438f-86e7-2588963ef008.json",
+      "metadata_sha256": "453fb5a2599b30908934c84bb21fc39a8b82ccaa13c176f75b264777086a3a26",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ابتدائی کلیسیا کی آوازیں",
+      "source_revision": "f83903f6f553c0469d537b5461e4ba3aa295835f",
+      "source_translation_key": "c545a744250aca1ecb27d55fdb1f3a61d2c529ab7f5a7fece0477318b773edd2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "مسیح کے ساتھ مرنا اور جی اٹھنا",
       "translation_model": "gpt-6-luna"
     },
     {
