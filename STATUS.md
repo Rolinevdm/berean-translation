@@ -2,15 +2,15 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Generated: 2026-10-14T16:09:20+00:00.
+Generated: 2026-10-14T18:30:49+00:00.
 Published means an accepted translation is exportable here; live deployment is verified separately.
 Target categories are disjoint. Accepted publications remain published during replacement work. Source-stale versions and replacement outcomes are reported separately.
 Ready means source-compatible and exportable here; live deployment is verified separately.
 Finished means processing has stopped, not that every requested translation passed. Held items still need action.
 
-Observed English revision: `1345fa41b99f7638900dd7c9385c44491d97f34b`
+Observed English revision: `4b15109678742c2a7b5cfd1f9b7278f287a3948f`
 
-Total target: 23320 article/language pairs. published: 2662 | unstarted: 19154 | queued: 11 | active: 37 | held without publication: 1456.
+Total target: 23320 article/language pairs. published: 2662 | unstarted: 19153 | queued: 13 | active: 37 | held without publication: 1455.
 
 Last collection: 2026-10-14T16:09:20+00:00; newly published: 5; stop reason: wait_budget_exhausted; submitted batches remaining: 36.
 
@@ -24,7 +24,7 @@ Last collection: 2026-10-14T16:09:20+00:00; newly published: 5; stop reason: wai
 | `heartbeat-remnant-2023-winter` | 12 | 138 / 240 | 0 | 0 | 0 | 102 | 0 | 0 |
 | `heartbeat-remnant-2022-winter` | 10 | 84 / 200 | 0 | 0 | 0 | 116 | 0 | 0 |
 | `heartbeat-remnant-2022-fall` | 11 | 92 / 220 | 0 | 0 | 0 | 128 | 0 | 0 |
-| `heartbeat-remnant-2022-summer` | 9 | 116 / 180 | 0 | 0 | 5 | 59 | 0 | 0 |
+| `heartbeat-remnant-2022-summer` | 9 | 116 / 180 | 0 | 1 | 5 | 58 | 0 | 0 |
 | `heartbeat-remnant-2022-spring` | 9 | 157 / 180 | 0 | 1 | 0 | 22 | 0 | 0 |
 | `heartbeat-remnant-2021-summer` | 11 | 129 / 220 | 0 | 0 | 0 | 91 | 0 | 0 |
 | `heartbeat-remnant-2021-spring` | 11 | 134 / 220 | 0 | 0 | 0 | 86 | 0 | 0 |
@@ -56,7 +56,7 @@ Last collection: 2026-10-14T16:09:20+00:00; newly published: 5; stop reason: wai
 | `heartbeat-remnant-2011-11` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-09` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-07` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-05` | 14 | 177 / 280 | 34 | 10 | 32 | 27 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | 14 | 177 / 280 | 33 | 11 | 32 | 27 | 0 | 0 |
 | `heartbeat-remnant-2011-03` | 17 | 0 / 340 | 340 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-01` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2010-11` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
@@ -127,7 +127,7 @@ Last collection: 2026-10-14T16:09:20+00:00; newly published: 5; stop reason: wai
 | `ara` (ar) | 121 / 1166 | 957 | 2 | 2 | 84 | 0 | 9 | 0 | 137 |
 | `fra` (fr) | 156 / 1166 | 957 | 0 | 2 | 51 | 0 | 9 | 0 | 102 |
 | `ben` (bn) | 117 / 1166 | 957 | 1 | 1 | 90 | 0 | 7 | 0 | 136 |
-| `por` (pt) | 172 / 1166 | 958 | 1 | 1 | 34 | 0 | 6 | 0 | 96 |
+| `por` (pt) | 172 / 1166 | 957 | 2 | 1 | 34 | 0 | 6 | 0 | 96 |
 | `ind` (id) | 151 / 1166 | 958 | 1 | 1 | 55 | 0 | 6 | 0 | 113 |
 | `urd` (ur) | 129 / 1166 | 958 | 1 | 3 | 75 | 0 | 5 | 0 | 130 |
 | `rus` (ru) | 127 / 1166 | 958 | 1 | 3 | 77 | 0 | 6 | 0 | 140 |
@@ -137,7 +137,7 @@ Last collection: 2026-10-14T16:09:20+00:00; newly published: 5; stop reason: wai
 | `swa` (sw) | 94 / 1166 | 958 | 0 | 1 | 113 | 0 | 7 | 0 | 159 |
 | `kor` (ko) | 133 / 1166 | 958 | 1 | 3 | 71 | 0 | 5 | 0 | 120 |
 | `ita` (it) | 154 / 1166 | 958 | 0 | 2 | 52 | 0 | 7 | 0 | 98 |
-| `heb` (he) | 76 / 1166 | 958 | 0 | 3 | 129 | 0 | 5 | 0 | 147 |
+| `heb` (he) | 76 / 1166 | 958 | 1 | 3 | 128 | 0 | 5 | 0 | 147 |
 | `ell` (el) | 129 / 1166 | 958 | 0 | 1 | 78 | 0 | 9 | 0 | 128 |
 | `swe` (sv) | 136 / 1166 | 958 | 2 | 1 | 69 | 0 | 7 | 0 | 121 |
 | `nob` (nb) | 131 / 1166 | 958 | 0 | 1 | 76 | 0 | 8 | 0 | 133 |
@@ -324,7 +324,7 @@ Every source issue and configured language appears, including unstarted work. Re
 | `heartbeat-remnant-2022-summer` | `swa` | 4 / 9 | 0 | 0 | 0 | 5 | 0 |
 | `heartbeat-remnant-2022-summer` | `kor` | 5 / 9 | 0 | 0 | 0 | 4 | 0 |
 | `heartbeat-remnant-2022-summer` | `ita` | 9 / 9 | 0 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2022-summer` | `heb` | 2 / 9 | 0 | 0 | 1 | 6 | 0 |
+| `heartbeat-remnant-2022-summer` | `heb` | 2 / 9 | 0 | 1 | 1 | 5 | 0 |
 | `heartbeat-remnant-2022-summer` | `ell` | 3 / 9 | 0 | 0 | 0 | 6 | 0 |
 | `heartbeat-remnant-2022-summer` | `swe` | 8 / 9 | 0 | 0 | 0 | 1 | 0 |
 | `heartbeat-remnant-2022-summer` | `nob` | 5 / 9 | 0 | 0 | 0 | 4 | 0 |
@@ -954,7 +954,7 @@ Every source issue and configured language appears, including unstarted work. Re
 | `heartbeat-remnant-2011-05` | `ara` | 9 / 14 | 1 | 2 | 2 | 0 | 0 |
 | `heartbeat-remnant-2011-05` | `fra` | 9 / 14 | 1 | 0 | 2 | 2 | 0 |
 | `heartbeat-remnant-2011-05` | `ben` | 7 / 14 | 1 | 1 | 1 | 4 | 0 |
-| `heartbeat-remnant-2011-05` | `por` | 10 / 14 | 2 | 1 | 1 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | `por` | 10 / 14 | 1 | 2 | 1 | 0 | 0 |
 | `heartbeat-remnant-2011-05` | `ind` | 9 / 14 | 2 | 1 | 1 | 1 | 0 |
 | `heartbeat-remnant-2011-05` | `urd` | 9 / 14 | 2 | 1 | 2 | 0 | 0 |
 | `heartbeat-remnant-2011-05` | `rus` | 8 / 14 | 2 | 1 | 2 | 1 | 0 |
@@ -2162,7 +2162,7 @@ Funded progressing repairs can continue beyond three historical cycles. Repeated
 Accepted shared allocations: $6.000000 across 6 runs. Allocations are not recycled after failure or cancellation.
 Separately authorized manual workflow allocations: $160.000000 across 10 accepted runs. Each run is limited to its own explicit ceiling; each prior run retains its frozen funding and attempt limits.
 [Recovery frontier](RECOVERY.json) lists missing work, admission holds, latest task outcomes and explicit blocking reasons. It is a derived report, not spending authority.
-active: 48 | already_translated: 108 | automatic_budget_blocked: 94 | continuation_cooldown: 1 | continuation_progress_uncertain_requires_attention: 1 | eligible_automatic: 1333 | legacy_response_outcome_unknown_requires_owner_attention: 12 | provider_refusal_requires_owner_attention: 2 | repeated_technical_failure_requires_attention: 1 | technical_failure_requires_attention: 12
+active: 48 | already_translated: 108 | automatic_budget_blocked: 94 | continuation_progress_uncertain_requires_attention: 1 | eligible_automatic: 1332 | legacy_response_outcome_unknown_requires_owner_attention: 12 | pending_automatic_admission: 2 | provider_refusal_requires_owner_attention: 2 | repeated_technical_failure_requires_attention: 1 | technical_failure_requires_attention: 13
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Preserved overlong negative reviews
