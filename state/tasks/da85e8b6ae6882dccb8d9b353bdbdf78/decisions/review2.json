@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “১৭টি অধ্যায়”",
+      "severity": "major",
+      "source_quote": "“a variety of expressions of kingdom Christianity”",
+      "suggested_fix": "“রাজ্যভিত্তিক খ্রিষ্টীয় জীবনের নানা রূপ”",
+      "translation_quote": "“রাজ্যকেন্দ্রিক খ্রিষ্টধর্মের নানা রূপ”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

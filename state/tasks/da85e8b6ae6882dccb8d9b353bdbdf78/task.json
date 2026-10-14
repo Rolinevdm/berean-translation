@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c4652ba9f0b44b33a521edfc92d1cf37",
   "campaign": "auto-a6babdeb4ddcbd8af51f2368b83fe7ac7a03a6e51ae680a136a00e31c233edae",
   "created_at": "2026-10-13T07:49:46+00:00",
   "events": [
@@ -48,18 +47,40 @@
         },
         "total_tokens": 6374
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 608,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 504,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4465,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3362,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5073
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[24]: source /article[1]/blockquote[1]/p[1] ('end', 'p'); translation /article[1]/blockquote[1]/p[1]/em[1] ('start', 'em', ())",
-      "translation_quote": ""
+      "location": "Paragraph beginning “১৭টি অধ্যায়”",
+      "severity": "major",
+      "source_quote": "“a variety of expressions of kingdom Christianity”",
+      "suggested_fix": "“রাজ্যভিত্তিক খ্রিষ্টীয় জীবনের নানা রূপ”",
+      "translation_quote": "“রাজ্যকেন্দ্রিক খ্রিষ্টধর্মের নানা রূপ”"
     }
   ],
+  "finished_at": "2026-10-14T06:04:29+00:00",
   "id": "da85e8b6ae6882dccb8d9b353bdbdf78",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ben",
@@ -148,9 +169,11 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f7b7c456635e7241e3c77d95ce89c3958f1e8f80721357b74a88cf872db64bb2.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +189,7 @@
     "total_reserved_usd": 0.087285,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
   "translation_model_actual": "gpt-6-luna"

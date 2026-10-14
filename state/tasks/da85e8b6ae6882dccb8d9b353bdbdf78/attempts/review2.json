@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T06:04:29+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “১৭টি অধ্যায়”\",\"severity\":\"major\",\"source_quote\":\"“a variety of expressions of kingdom Christianity”\",\"suggested_fix\":\"“রাজ্যভিত্তিক খ্রিষ্টীয় জীবনের নানা রূপ”\",\"translation_quote\":\"“রাজ্যকেন্দ্রিক খ্রিষ্টধর্মের নানা রূপ”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 500,
+    "content_evidence_truncated": false,
+    "content_sha256": "45c104b153c06ea88f34ac0e372bf4ca6675ee6b01e7f33eb62f05cd97b18807",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 608,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 504,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4465,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3362,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5073
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

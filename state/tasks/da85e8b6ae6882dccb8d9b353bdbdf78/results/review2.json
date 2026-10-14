@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9eb507dd-3642-492a-b659-a4b07a9309df",
+    "response_id": "chatcmpl-EYic1ovRo294ivup3EpomYMEGi2PS",
+    "usage": {
+      "completion_tokens": 608,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 504,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4465,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3362,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5073
+    }
+  },
+  "received_at": "2026-10-14T06:04:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “১৭টি অধ্যায়”",
+        "severity": "major",
+        "source_quote": "“a variety of expressions of kingdom Christianity”",
+        "suggested_fix": "“রাজ্যভিত্তিক খ্রিষ্টীয় জীবনের নানা রূপ”",
+        "translation_quote": "“রাজ্যকেন্দ্রিক খ্রিষ্টধর্মের নানা রূপ”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
