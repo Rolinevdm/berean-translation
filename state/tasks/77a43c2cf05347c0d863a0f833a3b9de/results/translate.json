@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f07c8b95-4054-4f1e-9b92-e1248b81469e",
+    "response_id": "chatcmpl-EYhmqKVDHKNWHxe5iVRd0r2f1d5Sz",
+    "usage": {
+      "completion_tokens": 1148,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 75,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1645,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1642,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2793
+    }
+  },
+  "received_at": "2026-10-14T01:13:45+00:00",
+  "result": {
+    "html": "<article data-article-id=\"924514c7-52be-4e2b-ab75-3141e14ea9a0\">\n  <p class=\"drop-cap\">’n Tyd gelede, terwyl ek deur Virginia gereis het, het ek ’n eksemplaar van “The Roanoke Times” opgetel, met ’n foto van Moammar Gadhafi op die voorblad. Hulle het hom aangehaal waar hy sê: “Ek is ’n vegter, ’n revolusionêr uit die tente. Ek sal uiteindelik as ’n martelaar sterf.” Wie sou nie, as ’n regime wat al veertig jaar bestaan, bedreig word nie? Ons sien dieselfde ding baie keer deur die geskiedenis heen: konings en keisers gebruik al die middele tot hulle beskikking om te keer dat hulle hul mag verloor; sommige offer selfs die lewens van miljoene getroue volgelinge op.</p>\n\n  <p>Hierdie aardse koninkryke, en hoe hulle funksioneer, het my laat dink aan ’n ander koninkryk (en heerser) waarvan die grense nie op die aardbol afgeteken is nie. Hierdie tiran swaai sy septer oor konings, presidente, rykes en armes; min mense sal nie by sy heiligdomme neerbuig nie. Hierdie heerser ontsê sy onderdane niks, en tog is al sy volgelinge nooit werklik gelukkig nie (trouens, die meeste is nogal ongelukkig), en uiteindelik sal hulle almal vernietig word. Ek hoor jou sê: “Jy praat seker van die duiwel.” Nee, sy naam is nie Satan nie, hoewel die duiwel sy raadgewer is.</p>\n\n  <p>Sy naam is Self! Hy leef in menseharte. Van sy eienskappe is: eiewilligheid, selfbehoud, selflof, selfbejammering, verwaandheid en eieliefde, om maar ’n paar te noem. Trouens, my woordeboek wy byna ’n hele bladsy aan die verskillende vorme wat die self aanneem om sy selfrespek te behou. As ons na die lys kyk, vind ons ’n paar wat goed is, maar altyd as ’n teenmiddel vir Self self. Selfverloëning is prysenswaardig, solank dit beoefen word sonder selfbewustheid. Selfvernedering kan ’n vorm van hoogmoed wees wat dikwels verkeerdelik as iets goeds beskou word. Iemand prys die goeie werk wat jy gedoen het, en jy sê: “Ag, dis nie so goed nie,” terwyl jy voel hoe selftevredenheid in jou hart opkom omdat iemand dit raakgesien het. Aan die ander kant, wanneer iemand jou pogings kritiseer, tree selfregverdiging en verskoningsmaak uit selfverdediging na vore.</p>\n\n  <p>In volkome teenstelling met al hierdie slinkse planne van Self en die selfgerigte lewe, het ons Verlosser sy verblyf onder die mense in ’n nederige stal begin. Kort daarna het sy ouers, uit vrees dat Herodes (nog ’n selfsugtige despoot) Hom sou doodmaak, na Egipte gevlug. Van daar af het hulle teruggekeer om in die nederige dorpie Nasaret te woon. Hierdie timmermanseun is nie in die geledere van die adel of die heersende party van sy tyd gebore nie, maar onder die minderbevoorregtes. “Is hy nie die seun van Josef nie; is sy moeder en broers nie by ons nie?”</p>\n\n  <p>Terwyl Hy tussen die mense gewandel het, het Hy ware onselfsugtigheid getoon; geen selfverheffing kon bespeur word nie. Die woorde wat Hy in Matteus 11:28-29 gespreek het (Kom na My toe, almal wat vermoeid en swaar belas is, en Ek sal julle rus gee. Neem my juk op julle en leer by My, want Ek is sagmoedig en nederig van hart; en julle sal rus vind vir julle siele) het nie uit ’n gevoel van eie belangrikheid voortgespruit nie. Hulle het gekom uit ’n begeerte dat mense sou ophou om hulle selfsugtige weë te volg en opnuut gebore sou word in die koninkryk van God, waar Self moet sterf deur gekruisig te word in dié wat saam met Hom gesterf het. ~</p>\n\n  <p class=\"source-note\">(Oorgeneem uit die April 2011-uitgawe van <em>Love of the Truth</em>.)</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Koning van die aarde"
+  }
+}
