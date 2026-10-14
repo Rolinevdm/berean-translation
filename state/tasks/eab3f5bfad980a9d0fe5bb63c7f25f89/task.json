@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5aa20a3931a24350af03ecdc8284cce3",
   "campaign": "auto-b6c7db9af8e5b86ce1fb0f8d3217ab9c600c99c3a1bcc49f36b952046a5c97cb",
   "created_at": "2026-10-13T17:50:23+00:00",
   "events": [
@@ -48,18 +47,40 @@
         },
         "total_tokens": 7108
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 903,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 740,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4745,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3642,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5648
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[24]: source /article[1]/blockquote[1]/p[1] ('end', 'p'); translation /article[1]/blockquote[1]/p[1]/em[1] ('start', 'em', ())",
-      "translation_quote": ""
+      "location": "Quoted introduction, first paragraph",
+      "severity": "major",
+      "source_quote": "COALS OF FIRE tells the stories of men and women who practiced doing good for evil.",
+      "suggested_fix": "ΤΟ ΚΑΡΒΟΥΝΑ ΦΩΤΙΑΣ διηγείται τις ιστορίες ανδρών και γυναικών που ανταπέδιδαν το κακό με το καλό.",
+      "translation_quote": "ΤΟ ΚΑΡΒΟΥΝΑ ΦΩΤΙΑΣ διηγείται τις ιστορίες ανδρών και γυναικών που έκαναν το καλό αντί για το κακό."
     }
   ],
+  "finished_at": "2026-10-14T01:27:17+00:00",
   "id": "eab3f5bfad980a9d0fe5bb63c7f25f89",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ell",
@@ -148,9 +169,11 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/caa20f1dd068bdb02a8ed6b709d207800490e5c51d35d78d87d83d2a83e2df3a.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +189,7 @@
     "total_reserved_usd": 0.087285,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
   "translation_model_actual": "gpt-6-luna"

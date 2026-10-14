@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Quoted introduction, first paragraph",
+      "severity": "major",
+      "source_quote": "COALS OF FIRE tells the stories of men and women who practiced doing good for evil.",
+      "suggested_fix": "ΤΟ ΚΑΡΒΟΥΝΑ ΦΩΤΙΑΣ διηγείται τις ιστορίες ανδρών και γυναικών που ανταπέδιδαν το κακό με το καλό.",
+      "translation_quote": "ΤΟ ΚΑΡΒΟΥΝΑ ΦΩΤΙΑΣ διηγείται τις ιστορίες ανδρών και γυναικών που έκαναν το καλό αντί για το κακό."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
