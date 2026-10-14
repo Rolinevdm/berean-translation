@@ -5,11 +5,124 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3c29a39f6a4d4727a8987f9f78e07f45",
   "campaign": "auto-8cf79c559d69044913aca0f97bd68f75b6cd68d4f4d0e2cf387903f9d80036a3",
   "created_at": "2026-10-14T06:06:43+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1709,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 36,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7305,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6202,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9014
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, paragraph 5",
+      "severity": "major",
+      "source_quote": "mothering only takes a third-grade education",
+      "suggested_fix": "Vervang “net ’n derdeklasopleiding verg” met “net ’n graad 3-opleiding verg”.",
+      "translation_quote": "moederwees net ’n derdeklasopleiding verg"
+    },
+    {
+      "location": "html, Titus quotations in paragraphs 7, 17 and 18",
+      "severity": "major",
+      "source_quote": "discreet, chaste",
+      "suggested_fix": "Vervang “versigtig te wees, maagdlik” in al drie aanhalings met “verstandig en kuis te wees”. “Kuis” behou die betekenis sonder om maagdelikheid van getroude vroue te vereis.",
+      "translation_quote": "versigtig te wees, maagdlik"
+    },
+    {
+      "location": "html, paragraph 12",
+      "severity": "major",
+      "source_quote": "older, godly mothers",
+      "suggested_fix": "Vervang “ouer, goddelike moeders” met “ouer, godvrugtige moeders”.",
+      "translation_quote": "ouer, goddelike moeders"
+    },
+    {
+      "location": "html, paragraph 13",
+      "severity": "major",
+      "source_quote": "some are called to singleness",
+      "suggested_fix": "Vervang “sommige is geroep tot alleenheid” met “sommige is geroep tot die ongetroude lewe”.",
+      "translation_quote": "sommige is geroep tot alleenheid"
+    },
+    {
+      "location": "html, paragraph 18, 1 Timothy 2:11-13 quotation",
+      "severity": "major",
+      "source_quote": "But I suffer not a woman to teach, nor to usurp authority over the man",
+      "suggested_fix": "Vervang dié sinsdeel met “Maar ek laat nie toe dat ’n vrou onderrig gee of haar gesag oor die man aanmatig nie”. Dit onderskei onderrig gee van leer en herstel die verwysing na gesag.",
+      "translation_quote": "Maar ek verduur nie ’n vrou om te leer, of om hoedanigheid oor die man te neem nie"
+    },
+    {
+      "location": "html, paragraphs 18 and 19",
+      "severity": "major",
+      "source_quote": "encourage and disciple the younger generation; disciple a younger woman",
+      "suggested_fix": "Vervang “aan te moedig en te dissiplineer” met “aan te moedig en in dissipelskap te begelei”, en “om ’n jonger vrou te dissiplineer” met “om ’n jonger vrou in dissipelskap te begelei”.",
+      "translation_quote": "aan te moedig en te dissiplineer; om ’n jonger vrou te dissiplineer"
+    },
+    {
+      "location": "html, paragraph 5 and paragraph 10",
+      "severity": "minor",
+      "source_quote": "a new buzzword—fullfillment; have become buzzwords",
+      "suggested_fix": "Vervang “’n nuwe luide woord” met “’n nuwe modewoord” en “het luide woorde geword” met “het modewoorde geword”.",
+      "translation_quote": "’n nuwe luide woord—vervulling; het luide woorde geword"
+    },
+    {
+      "location": "html, paragraphs 5, 7, 8, 10, 11, 17, 18 and final Scripture paragraph",
+      "severity": "minor",
+      "source_quote": "motherhood; sober; contentment; discontent; children are an heritage; if we faint not",
+      "suggested_fix": "Korrigeer “moederschap” na “moederskap”, elke “nuchter” na “nugter”, “tevredeheid” na “tevredenheid”, “ontevredeheid” na “ontevredenheid”, “kinder is ’n erfdeel” na “kinders is ’n erfdeel”, en “verslapp” na “verslap”.",
+      "translation_quote": "moederschap; nuchter; tevredeheid; ontevredeheid; kinder is ’n erfdeel; as ons nie verslapp nie"
+    },
+    {
+      "location": "html, paragraph 7",
+      "severity": "minor",
+      "source_quote": "that they be in behaviour as becometh holiness ... that the word of God be not blasphemed",
+      "suggested_fix": "Vervang “dat hulle in gedrag wees soos die heiligheid betaam” met “dat hulle hulle gedra soos dit die heiligheid betaam”. Vervang ook “sodat die woord van God nie lasterlik gepraat word” met “sodat die woord van God nie belaster word nie”; pas dieselfde regstelling toe op “dat die woord van God nie lasterlik gepraat word” in paragrawe 17 en 18.",
+      "translation_quote": "dat hulle in gedrag wees soos die heiligheid betaam ... sodat die woord van God nie lasterlik gepraat word"
+    },
+    {
+      "location": "html, first list item",
+      "severity": "minor",
+      "source_quote": "Choose one younger woman to befriend ... vulnerable",
+      "suggested_fix": "Vervang “Kies een jonger vrou om te vriendskaps” met “Kies een jonger vrou om mee bevriend te raak”, en “kwetsbaar” met “kwesbaar”.",
+      "translation_quote": "Kies een jonger vrou om te vriendskaps ... kwetsbaar"
+    },
+    {
+      "location": "html, paragraph following the unordered list",
+      "severity": "minor",
+      "source_quote": "Truth, dissected and taught, settles into the heart.",
+      "suggested_fix": "Vervang die sin met “Waarheid wat ontleed en onderrig word, vind ’n vaste plek in die hart.”",
+      "translation_quote": "Waarheid, ontleed en geleer, neersit in die hart."
+    },
+    {
+      "location": "html, image alt attribute",
+      "severity": "minor",
+      "source_quote": "Adult holding the hand of a small child walking outdoors",
+      "suggested_fix": "Gebruik alt=\"Volwassene wat ’n klein kind se hand vashou terwyl hulle buite stap\" en behou die ander beeldkenmerke.",
+      "translation_quote": "Volwassene wat die hand van ’n klein kind buite loop vashou"
+    },
+    {
+      "location": "html, paragraphs 9, 10, 12 and 19",
+      "severity": "minor",
+      "source_quote": "let’s not lose sight of this; each of which; a question that I see young women wrestling with; equips you",
+      "suggested_fix": "Vervang onderskeidelik met “kom ons moenie dit uit die oog verloor nie”, “wat elkeen”, “’n vraag waarmee ek jong vroue sien worstel” en “rus jou toe”.",
+      "translation_quote": "kom ons moenie die siening van dit verloor nie; elkeen van wat; ’n vraag wat ek by jong vroue sien worstel; toerus jou"
+    }
+  ],
   "id": "dd4cae43073eb580e6b53ce58b8e6f68",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "afr",
@@ -98,11 +211,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/7c85424e5984fd791f1fa504f0338be2aed2d0572a02d43d9b8370601de3fda8.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +230,7 @@
     "total_reserved_usd": 0.740048,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
