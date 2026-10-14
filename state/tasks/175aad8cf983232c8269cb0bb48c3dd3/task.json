@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "584576f846634864ae98f55b2503f14e",
   "campaign": "auto-7cd743c8e4f115f57ac5eb7e141bc41c64284109492de82186cca79ba0a349f8",
   "created_at": "2026-10-14T01:07:52+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2734
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 557,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 476,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2964,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2961,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3521
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraaf 3, opsomming van eigenschappen",
+      "severity": "minor",
+      "source_quote": "“self-will”",
+      "suggested_fix": "“eigenzinnigheid”",
+      "translation_quote": "“zelfzucht”"
+    }
+  ],
+  "finished_at": "2026-10-14T07:30:36+00:00",
   "id": "175aad8cf983232c8269cb0bb48c3dd3",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "nld",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0575de815215a938592727ad9a4e1917981519b74ac4282d3f7bab58e5fc0501.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086629,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0afc0b6bee66dd315455ddd780526dd699416793c745bb2e10085b05dad8c9fc",
   "translation_model_actual": "gpt-6-luna"

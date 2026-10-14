@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraaf 3, opsomming van eigenschappen",
+      "severity": "minor",
+      "source_quote": "“self-will”",
+      "suggested_fix": "“eigenzinnigheid”",
+      "translation_quote": "“zelfzucht”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
