@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 1",
+      "severity": "major",
+      "source_quote": "“Philip works in dismanteling and rebuilding old barns.”",
+      "suggested_fix": "Replace “पुराने खलिहानों को खोलने और फिर से बनाने” with “पुराने खलिहानों को अलग-अलग करके फिर से बनाने” to convey dismantling rather than merely opening them.",
+      "translation_quote": "“फ़िलिप पुराने खलिहानों को खोलने और फिर से बनाने का काम करते हैं।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
