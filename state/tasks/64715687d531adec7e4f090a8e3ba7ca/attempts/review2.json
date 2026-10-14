@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T22:23:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html, Forumsdiskussion: Absätze „Das Zivilrecht unterwirft sich …“, „Nennt es …“, „Unser säkulares Zivilrecht …“ und „Scott Roeder hat …“\",\"severity\":\"major\",\"source_quote\":\"“Civil law always subjects itself to the higher law of conscience. While we as ‘Anabaptists’ do strive to obey civil law”; “human institutions called civil law”; “Our secular civil law trumps your Christian Sharia law every time. You have no more right to violate our civil laws than does Scott Roeder”; “Scott Roeder violated civil law”\",\"suggested_fix\":\"In diesen vier Absätzen „Zivilrecht“ jeweils durch „staatliches Recht“ ersetzen, mit entsprechender Flexion: „Das staatliche Recht unterwirft sich …“, „dem staatlichen Recht zu gehorchen“, „namens staatliches Recht“, „Unser säkulares staatliches Recht …“ und „das staatliche Recht … verletzt“. „unsere Zivilgesetze“ durch „unsere staatlichen Gesetze“ ersetzen. Gemeint ist das staatliche Recht einschließlich des Strafrechts, nicht das deutsche Rechtsgebiet Zivilrecht.\",\"translation_quote\":\"„Das Zivilrecht unterwirft sich stets dem höheren Gesetz des Gewissens. Obwohl wir als ‚Täufer‘ uns bemühen, dem Zivilrecht zu gehorchen“; „menschlichen Einrichtungen namens Zivilrecht“; „Unser säkulares Zivilrecht hat jedes Mal Vorrang vor eurer christlichen Scharia. Ihr habt nicht mehr Recht, unsere Zivilgesetze zu verletzen, als Scott Roeder“; „Scott Roeder hat das Zivilrecht … verletzt“\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 1613,
+    "content_evidence_truncated": false,
+    "content_sha256": "5628ac1bb5f628cb92a50467c6dc067cfb00f1240eafa79b65c88aa28d9a6555",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 573,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 187,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14067,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14064,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14640
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
