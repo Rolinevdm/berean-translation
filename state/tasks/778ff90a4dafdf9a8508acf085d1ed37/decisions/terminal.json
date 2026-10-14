@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "minor",
+      "source_quote": "my dictionary devotes almost a whole page",
+      "suggested_fix": "वास्तव में, मेरे शब्दकोश में लगभग पूरा एक पृष्ठ",
+      "translation_quote": "वास्तव में, मेरी शब्दकोश में लगभग पूरा एक पृष्ठ"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
