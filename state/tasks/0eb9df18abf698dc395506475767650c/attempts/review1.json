@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T01:06:41+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, bibelcitatet under ”Förlita er på Guds kraft”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"I can do all things through Christ which strengtheneth me –Philippians 4:13.\",\n      \"suggested_fix\": \"Ändra citatet till: ”Allt förmår jag genom Kristus som ger mig kraft – Filipperbrevet 4:13.”\",\n      \"translation_quote\": \"Allt förmår jag genom honom som ger mig kraft – Filipperbrevet 4:13.\"\n    },\n    {\n      \"location\": \"translation.html, bibelcitatet från Första Thessalonikerbrevet under ”Handla inte av rädsla”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"But I would not have you to be ignorant, brethren\",\n      \"suggested_fix\": \"Ändra citatets inledning till: ”Bröder, jag vill att ni ska veta hur det förhåller sig med dem som har insomnat”.\",\n      \"translation_quote\": \"Bröder, vi vill att ni ska veta hur det förhåller sig med dem som har insomnat\"\n    },\n    {\n      \"location\": \"translation.html, bibelcitatet från Andra Timotheosbrevet under ”Handla inte av rädsla”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind\",\n      \"suggested_fix\": \"Återge den tryckta betydelsen med: ”Ty Gud har inte gett oss en rädslans ande, utan kraftens, kärlekens och det sunda förnuftets ande”.\",\n      \"translation_quote\": \"Ty Gud har inte gett oss en feghetens ande, utan kraftens, kärlekens och självbehärskningens ande\"\n    },\n    {\n      \"location\": \"translation.html, första stycket under ”Handla inte av rädsla”; sista stycket under ”Förlita er på Guds kraft”; andra stycket under ”Slutsats”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"as they face a terminal diagnosis; even a terminal illness; even if we are dealing with a terminal illness\",\n      \"suggested_fix\": \"Ändra ”när de får en obotlig diagnos” till ”när de får en diagnos om en sjukdom i terminalt skede”. Ändra ”till och med en obotlig sjukdom” till ”till och med en sjukdom i terminalt skede” och ”även om vi drabbas av en obotlig sjukdom” till ”även om vi har en sjukdom i terminalt skede”. Obotlig sjukdom behöver inte vara terminal.\",\n      \"translation_quote\": \"när de får en obotlig diagnos; till och med en obotlig sjukdom; även om vi drabbas av en obotlig sjukdom\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 91\n}",
+    "content_bytes": 2498,
+    "content_evidence_truncated": false,
+    "content_sha256": "f522babb2a768ca73a3204eced47ce53c46befb7be77d0c067ca2ee9b13fc67e",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 806,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 95,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7881,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6778,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8687
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
