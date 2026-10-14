@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "f03d66a3-2dcc-4bc0-9f8a-42381ea7e5d3",
+    "response_id": "chatcmpl-EYy9wAUc9cQD0uUhEkAz4Rk2wsjZB",
+    "usage": {
+      "completion_tokens": 241,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 89,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13556,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13553,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13797
+    }
+  },
+  "received_at": "2026-10-14T20:09:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — primeiro blockquote, frase sobre o navio desconhecido",
+        "severity": "minor",
+        "source_quote": "How fearful and fainthearted are many on sea when they see a strange ship",
+        "suggested_fix": "Substituir «Como são muitos medrosos e pusilânimes no mar quando veem um navio desconhecido» por «Como muitos ficam temerosos e desanimados no mar quando veem um navio desconhecido».",
+        "translation_quote": "Como são muitos medrosos e pusilânimes no mar quando veem um navio desconhecido"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

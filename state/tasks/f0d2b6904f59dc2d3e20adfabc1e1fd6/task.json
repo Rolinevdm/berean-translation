@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0914ad86603644d9b645e41b2d686e6a",
   "campaign": "auto-0f43dfc9b691ee691832f1e5bc796e49a72858af0689a81662bb5400328750d2",
   "created_at": "2026-10-14T13:40:55+00:00",
   "events": [
@@ -28,18 +27,39 @@
         },
         "total_tokens": 20207
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 241,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 89,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13556,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13553,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13797
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[126]: source /article[1]/blockquote[2]/p[10] ('end', 'p'); translation /article[1]/blockquote[2]/p[10]/em[1] ('start', 'em', ())",
-      "translation_quote": ""
+      "location": "translation.html — primeiro blockquote, frase sobre o navio desconhecido",
+      "severity": "minor",
+      "source_quote": "How fearful and fainthearted are many on sea when they see a strange ship",
+      "suggested_fix": "Substituir «Como são muitos medrosos e pusilânimes no mar quando veem um navio desconhecido» por «Como muitos ficam temerosos e desanimados no mar quando veem um navio desconhecido».",
+      "translation_quote": "Como são muitos medrosos e pusilânimes no mar quando veem um navio desconhecido"
     }
   ],
+  "finished_at": "2026-10-14T20:09:19+00:00",
   "id": "f0d2b6904f59dc2d3e20adfabc1e1fd6",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "por",
@@ -128,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/0c90559adf4cb67672219b5c9503255af15ac6d06279df8812e99f33c7273730.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +166,7 @@
     "total_reserved_usd": 0.990036,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
   "translation_model_actual": "gpt-6.1-sol"
