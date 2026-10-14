@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "73f55fd9-302e-4464-b95b-46145ec63611",
+    "response_id": "chatcmpl-EZ1enl3kznDH9bhoEzEPj6exe2BNn",
+    "usage": {
+      "completion_tokens": 1016,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 918,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14553,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13450,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15569
+    }
+  },
+  "received_at": "2026-10-14T22:23:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, final section, quoted title of the children’s book",
+        "severity": "minor",
+        "source_quote": "“Heather Has Two Mommies”",
+        "suggested_fix": "„הת'ר יש שתי אימהות“",
+        "translation_quote": "„להתר יש שתי אימהות“"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

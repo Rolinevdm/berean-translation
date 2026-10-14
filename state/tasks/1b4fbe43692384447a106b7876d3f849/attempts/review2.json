@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T22:23:50+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, final section, quoted title of the children’s book\",\"severity\":\"minor\",\"source_quote\":\"“Heather Has Two Mommies”\",\"suggested_fix\":\"„הת'ר יש שתי אימהות“\",\"translation_quote\":\"„להתר יש שתי אימהות“\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 326,
+    "content_evidence_truncated": false,
+    "content_sha256": "9a9e13572c4e2220d0585f57c8868d7f83b46b85ccaf3a493589195592cba841",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1016,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 918,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14553,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13450,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15569
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}
