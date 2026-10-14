@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph, sentence 2",
+      "severity": "minor",
+      "source_quote": "Philip works in dismanteling and rebuilding old barns.",
+      "suggested_fix": "फ़िलिप पुराने खलिहानों को खोलकर फिर से बनाने का काम करते हैं।",
+      "translation_quote": "फ़िलिप पुराने खलिहानों को अलग-अलग करके फिर से बनाने का काम करते हैं।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

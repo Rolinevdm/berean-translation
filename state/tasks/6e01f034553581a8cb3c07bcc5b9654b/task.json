@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ca4d9321ce804e7db615114b29db50e8",
   "campaign": "auto-1dfc78d992c21bd31864c280bb4fa55a0da54d57e9e5e034c8d795b42740ab5a",
   "created_at": "2026-10-14T16:00:34+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 1847
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 440,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 333,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1658,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 555,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2098
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML paragraph 1",
-      "severity": "major",
-      "source_quote": "“Philip works in dismanteling and rebuilding old barns.”",
-      "suggested_fix": "Replace “पुराने खलिहानों को खोलने और फिर से बनाने” with “पुराने खलिहानों को अलग-अलग करके फिर से बनाने” to convey dismantling rather than merely opening them.",
-      "translation_quote": "“फ़िलिप पुराने खलिहानों को खोलने और फिर से बनाने का काम करते हैं।”"
+      "location": "HTML paragraph, sentence 2",
+      "severity": "minor",
+      "source_quote": "Philip works in dismanteling and rebuilding old barns.",
+      "suggested_fix": "फ़िलिप पुराने खलिहानों को खोलकर फिर से बनाने का काम करते हैं।",
+      "translation_quote": "फ़िलिप पुराने खलिहानों को अलग-अलग करके फिर से बनाने का काम करते हैं।"
     }
   ],
+  "finished_at": "2026-10-14T23:24:12+00:00",
   "id": "6e01f034553581a8cb3c07bcc5b9654b",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "hin",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.085815,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "30af25731bcf2eb143bc6ad52b144bc028692b48c5877f22b07a359293b2a8c2",
   "translation_model_actual": "gpt-6-luna"

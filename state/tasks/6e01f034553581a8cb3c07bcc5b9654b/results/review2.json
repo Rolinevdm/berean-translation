@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a98bef5b-c958-4f54-b20d-2a4efe92a2ee",
+    "response_id": "chatcmpl-EZ2ZjYQ2PtCLonzl3Fu5uJBbn1MIf",
+    "usage": {
+      "completion_tokens": 440,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 333,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1658,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 555,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2098
+    }
+  },
+  "received_at": "2026-10-14T23:24:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph, sentence 2",
+        "severity": "minor",
+        "source_quote": "Philip works in dismanteling and rebuilding old barns.",
+        "suggested_fix": "फ़िलिप पुराने खलिहानों को खोलकर फिर से बनाने का काम करते हैं।",
+        "translation_quote": "फ़िलिप पुराने खलिहानों को अलग-अलग करके फिर से बनाने का काम करते हैं।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

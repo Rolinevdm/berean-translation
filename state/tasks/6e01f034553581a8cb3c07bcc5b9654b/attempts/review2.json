@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T23:24:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph, sentence 2\",\"severity\":\"minor\",\"source_quote\":\"Philip works in dismanteling and rebuilding old barns.\",\"suggested_fix\":\"फ़िलिप पुराने खलिहानों को खोलकर फिर से बनाने का काम करते हैं।\",\"translation_quote\":\"फ़िलिप पुराने खलिहानों को अलग-अलग करके फिर से बनाने का काम करते हैं।\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 578,
+    "content_evidence_truncated": false,
+    "content_sha256": "ddcb4b9028d81d0e172121293eb34f90b518cfc19b3ac51b82317b3722fa2f0f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 440,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 333,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1658,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 555,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2098
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
