@@ -1,0 +1,98 @@
+{
+  "findings": [
+    {
+      "location": "html, stycket med Jeremia 15:18",
+      "severity": "major",
+      "source_quote": "wilt thou be altogether unto me as a liar, and as waters that fail?",
+      "suggested_fix": "Ersätt ”och du gör mig till en lögnare och såsom vatten som svika?” med ”Ska du vara för mig som en lögnare och som vatten som sviker?”",
+      "translation_quote": "och du gör mig till en lögnare och såsom vatten som svika?"
+    },
+    {
+      "location": "html, första styckets ordlista",
+      "severity": "major",
+      "source_quote": "so many words with a negative connotation begin with the letter D: Disappointment, Doubt, Doleful, Doom, Disillusionment, Discouragement, Dreary, Defeat, Despondency, Depression, Despair, Devastation, Deception, and Death.",
+      "suggested_fix": "Förtydliga att påståendet gäller engelska ord och återge samtliga fjorton betydelser: ”så många engelska ord med negativ klang börjar på bokstaven D. Deras betydelser är: besvikelse, tvivel, sorgsen, undergång, desillusion, modlöshet, dyster, nederlag, nedstämdhet, depression, förtvivlan, ödeläggelse, bedrägeri och död.”",
+      "translation_quote": "så många ord med negativ klang börjar på bokstaven D: besvikelse, tvivel, sorgsenhet, undergång, desillusion, nedslagenhet, dysterhet, nederlag, förtvivlan, depression, ödeläggelse, bedrägeri och död."
+    },
+    {
+      "location": "html, avsnittet …Andras okunnighet, stycket om Mose",
+      "severity": "major",
+      "source_quote": "If our recourse cannot rectify the given situation, our answers are not the real answer.",
+      "suggested_fix": "Ersätt meningen med ”Om de åtgärder vi tar till inte kan rätta till situationen, är våra svar inte det verkliga svaret.”",
+      "translation_quote": "Om vår återgång icke kan rätta till den givna situationen, äro våra svar icke det verkliga svaret."
+    },
+    {
+      "location": "html, Lukas 24:16",
+      "severity": "major",
+      "source_quote": "these two fervent disciples’ …eyes were holden that they should not know him",
+      "suggested_fix": "Ersätt ”…hans ögon voro hållna, så att de icke kände igen honom” med ”…ögon hindrades från att känna igen honom”. Behåll em-taggen och hänvisningen.",
+      "translation_quote": "dessa två brinnande lärjungars …hans ögon voro hållna, så att de icke kände igen honom"
+    },
+    {
+      "location": "html, 1 Moseboken 32:24-28",
+      "severity": "major",
+      "source_quote": "there wrestled a man with him until the breaking of the day",
+      "suggested_fix": "Ersätt ”en man stred med honom till daggen kom” med ”en man brottades med honom tills dagen grydde”.",
+      "translation_quote": "en man stred med honom till daggen kom"
+    },
+    {
+      "location": "html, Job 3:1-6",
+      "severity": "major",
+      "source_quote": "the night in which it was said, There is a man child conceived.",
+      "suggested_fix": "Ersätt ”och natten som man sade: ”En man är avkommets frö”” med ”och natten då det sades: ’Ett gossebarn har blivit till.’”",
+      "translation_quote": "och natten som man sade: ”En man är avkommets frö”"
+    },
+    {
+      "location": "html, 2 Kungaboken 5:11",
+      "severity": "major",
+      "source_quote": "strike his hand over the place, and recover the leper",
+      "suggested_fix": "Ersätt ”slå sin hand över stället och bliva ren från spetälska” med ”föra sin hand över stället och bota den spetälske”.",
+      "translation_quote": "slå sin hand över stället och bliva ren från spetälska"
+    },
+    {
+      "location": "html, avsnittet …Otålighet, stycket om Josef",
+      "severity": "major",
+      "source_quote": "he entreated the butler to send for him when he was restored his position. ... it was not so much the fault of the butler",
+      "suggested_fix": "Ersätt den första satsen med ”han bad munskänken att låta hämta honom när munskänken återfick sin ställning”. Ersätt den senare satsen med ”Men det berodde inte så mycket på munskänkens fel som på Guds vilja”.",
+      "translation_quote": "han bad kammarherren att komma ihåg honom när han återfick sin ställning. ... det var icke så mycket kammarherren som var fördröjningen"
+    },
+    {
+      "location": "html, avsnittet …Självömkan",
+      "severity": "major",
+      "source_quote": "FOMO (fear of missing out)",
+      "suggested_fix": "Ersätt parentesens engelska förklaring med ”rädsla för att gå miste om något” och behåll identifieraren FOMO.",
+      "translation_quote": "FOMO (fear of missing out)"
+    },
+    {
+      "location": "html, stycket med Jeremia 15:18",
+      "severity": "minor",
+      "source_quote": "This is obviously an overstated exaggeration",
+      "suggested_fix": "Ersätt ”Detta är uppenbarligen en överdriven förtret” med ”Detta är uppenbarligen en kraftig överdrift”.",
+      "translation_quote": "Detta är uppenbarligen en överdriven förtret"
+    },
+    {
+      "location": "html, avsnittet …Känslor av misslyckande, stycket om Johannes Döparen",
+      "severity": "minor",
+      "source_quote": "the lack of comfort and a meager diet",
+      "suggested_fix": "Ersätt ”brist på tröst och klen kost” med ”brist på bekvämlighet och knapp kost”.",
+      "translation_quote": "brist på tröst och klen kost"
+    },
+    {
+      "location": "html, återkommande ålderdomliga verbformer och pronomen",
+      "severity": "minor",
+      "source_quote": "What manner of communications are these ...; We all want Jesus ...; Many of us are disciplined enough ...; Some think ... Some claim",
+      "suggested_fix": "Använd samtida svenska genomgående: exempelvis ”Vad är det ni talar med varandra om”, ”Vi vill alla”, ”Många av oss är”, ”Vissa tror” och ”Andra hävdar”. Modernisera motsvarande återkommande former som ”icke”, ”voro”, ”gingo”, ”kunna”, ”giver” och ”skola” utan att ändra innehåll eller HTML.",
+      "translation_quote": "Vad äro dessa ord som I hava med hvarandra ...; Vi vilja alla ...; Många av oss äro ...; Vissa tro ... Andra hävda"
+    },
+    {
+      "location": "html, grammatiska fel i löptext och dikt",
+      "severity": "minor",
+      "source_quote": "God's blessedness; many godly men; every possible scenario; The heartfelt disdain; an horror of great darkness; He accurately announced; the pervading darkness; the dungeon flamed with light",
+      "suggested_fix": "Rätta respektive uttryck till ”Guds välsignelses sol”, ”många gudfruktiga mäns liv”, ”varje möjligt scenario”, ”Det innerliga föraktet”, ”en skräck av stort mörker”, ”Han förkunnade korrekt”, ”det genomträngande mörkret” och ”fängelset flammade av ljus”.",
+      "translation_quote": "Guds välsignelsens sol; många gudfruktiga männens liv; varje möjlig scenarie; Den innerliga förakt; en skräck av stor mörker; Han förkunnade riktig; den genomträngande mörkret; fängelset flammande i ljus"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
