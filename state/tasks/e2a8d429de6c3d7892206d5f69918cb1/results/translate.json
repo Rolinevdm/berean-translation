@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "dcdb22bc-d508-4d31-86e8-8bddb8524101",
+    "response_id": "chatcmpl-EZ1cRkiou8M8yDYiSMZRjiv87CJIn",
+    "usage": {
+      "completion_tokens": 585,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1318,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1315,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1903
+    }
+  },
+  "received_at": "2026-10-14T22:23:24+00:00",
+  "result": {
+    "html": "<article data-article-id=\"47c2bd87-06a9-4c31-854b-84c64975d399\">\n  <div class=\"poem\">\n    <p>Ada banyak pertanyaan yang terlintas di benakku;<br>\n    Jawabannya tak kunjung kutemukan.<br>\n    Saat kulihat saudara-saudaraku yang tak bisa sepakat,<br>\n    Aku mulai bertanya-tanya … adakah harapan bagiku?</p>\n\n    <p>Mengapa kita tak bisa hidup dalam kesatuan?<br>\n    Apa memang tak mungkin? Tak bisakah kita melihatnya?<br>\n    Mengapa begitu banyak perselisihan di antara kita?<br>\n    Saudara melawan saudara, oh, sungguh dosa yang besar!</p>\n\n    <p>Apa yang telah kita lakukan hingga Allah katakan itu salah;<br>\n    Hingga Dia mengambil berkat kita dan menghilangkan nyanyian kita?<br>\n    Sudahkah kita mengalihkan pandangan dan kasih kita dari Tuhan?<br>\n    Sudahkah kita jatuh dalam dosa dan mungkin menjatuhkan pedang kita?</p>\n\n    <p>Jika inilah alasan mengapa hidup berjalan seperti ini,<br>\n    Tidakkah kau setuju bahwa sudah tiba saatnya untuk berdoa?<br>\n    Dan memohon kepada Allah agar dengan suatu cara kita<br>\n    Dapat hidup dalam kesatuan?</p>\n\n    <p>Aku tak yakin apakah aku akan pernah tahu<br>\n    Bagaimana “orang Kristen” bisa begitu berselisih satu sama lain.<br>\n    Seandainya saja mereka menaati apa yang dikatakan Alkitab,<br>\n    Mereka bisa saling mengasihi sepanjang sisa hidup mereka!</p>\n\n    <p>Jika kita bisa saling mengasihi dengan sungguh-sungguh,<br>\n    Aku benar-benar percaya bahwa itulah kuncinya.<br>\n    Bagaimana lagi kita dapat hidup di dunia yang penuh derita ini,<br>\n    tanpa menjalani hidup seperti yang dikatakan Alkitab?</p>\n\n    <p>Semua itu kukatakan untuk menyampaikan hal ini;<br>\n    Tanpa tinggal di dalam Kristus, hidup kita tidak berjalan semestinya.<br>\n    Entah masalah seperti apa yang akan kita hadapi,<br>\n    Jika kita tidak menjalani hidup kita oleh KASIH KARUNIA KESELAMATAN ALLAH.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Kasih Karunia Keselamatan Allah"
+  }
+}
