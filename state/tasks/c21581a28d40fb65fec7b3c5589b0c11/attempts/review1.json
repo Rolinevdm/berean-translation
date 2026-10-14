@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T01:27:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 3, sentence beginning “Self-denial is commendable”\",\"severity\":\"minor\",\"source_quote\":\"as long as it is practiced without self-consciousness\",\"suggested_fix\":\"اس پر عمل خود آگاہی کے بغیر کیا جائے\",\"translation_quote\":\"اس پر عمل خودنمائی کے احساس کے بغیر کیا جائے\"},{\"location\":\"Paragraph 4, sentence beginning “In total contrast”\",\"severity\":\"minor\",\"source_quote\":\"in a lowly stable\",\"suggested_fix\":\"ایک سادہ سے اصطبل میں\",\"translation_quote\":\"ایک پست درجے کے اصطبل میں\"},{\"location\":\"Paragraph 5, sentence beginning “As He walked among men”\",\"severity\":\"minor\",\"source_quote\":\"no self-exaltation could be detected\",\"suggested_fix\":\"ان میں خودستائی یا خود کو بلند کرنے کا کوئی نشان نہیں ملتا تھا\",\"translation_quote\":\"ان میں خودنمائی کا کوئی نشان نہیں ملتا تھا\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1047,
+    "content_evidence_truncated": false,
+    "content_sha256": "d97d08d0ec514f6155f261eb6d107891832b963d084ba8d8aa6605b9794f570b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 734,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3160,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2057,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3894
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

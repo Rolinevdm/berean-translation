@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "90b9f8e834344cdfb1a2d2a520041775",
   "campaign": "auto-c9a67b86fcba5ad38b8b7f02c5bd8c496f2977b1f33afcc50e350536bce74cd8",
   "created_at": "2026-10-13T22:08:11+00:00",
   "events": [
@@ -28,10 +27,53 @@
         },
         "total_tokens": 2876
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 734,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3160,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2057,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3894
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph 3, sentence beginning “Self-denial is commendable”",
+      "severity": "minor",
+      "source_quote": "as long as it is practiced without self-consciousness",
+      "suggested_fix": "اس پر عمل خود آگاہی کے بغیر کیا جائے",
+      "translation_quote": "اس پر عمل خودنمائی کے احساس کے بغیر کیا جائے"
+    },
+    {
+      "location": "Paragraph 4, sentence beginning “In total contrast”",
+      "severity": "minor",
+      "source_quote": "in a lowly stable",
+      "suggested_fix": "ایک سادہ سے اصطبل میں",
+      "translation_quote": "ایک پست درجے کے اصطبل میں"
+    },
+    {
+      "location": "Paragraph 5, sentence beginning “As He walked among men”",
+      "severity": "minor",
+      "source_quote": "no self-exaltation could be detected",
+      "suggested_fix": "ان میں خودستائی یا خود کو بلند کرنے کا کوئی نشان نہیں ملتا تھا",
+      "translation_quote": "ان میں خودنمائی کا کوئی نشان نہیں ملتا تھا"
+    }
+  ],
+  "finished_at": "2026-10-14T01:27:20+00:00",
   "id": "c21581a28d40fb65fec7b3c5589b0c11",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "urd",
@@ -120,9 +162,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0575de815215a938592727ad9a4e1917981519b74ac4282d3f7bab58e5fc0501.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +182,7 @@
     "total_reserved_usd": 0.086635,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0afc0b6bee66dd315455ddd780526dd699416793c745bb2e10085b05dad8c9fc",
   "translation_model_actual": "gpt-6-luna"
