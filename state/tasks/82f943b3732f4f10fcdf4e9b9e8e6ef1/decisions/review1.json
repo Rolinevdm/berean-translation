@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "major",
+      "source_quote": "“no one who is still living to sin can be buried together in baptism with Christ, who has died to sin”",
+      "suggested_fix": "Replace “nog leeft in zonde” with “nog voor de zonde leeft” and “gestorven is voor de zonde” with “aan de zonde gestorven is”, preserving the contrast between living and dying to sin.",
+      "translation_quote": "“niemand die nog leeft in zonde samen met Christus in de doop begraven worden, Hij die gestorven is voor de zonde”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
