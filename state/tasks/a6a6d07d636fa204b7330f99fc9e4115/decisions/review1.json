@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragrafo 1, citazione di Gheddafi",
+      "severity": "major",
+      "source_quote": "“I am a fighter, a revolutionary from the tents.”",
+      "suggested_fix": "«Sono un combattente, un rivoluzionario delle tende.»",
+      "translation_quote": "«Sono un combattente, un rivoluzionario cresciuto nelle tende.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

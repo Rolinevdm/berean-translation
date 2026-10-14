@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T20:09:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragrafo 1, citazione di Gheddafi\",\"severity\":\"major\",\"source_quote\":\"“I am a fighter, a revolutionary from the tents.”\",\"suggested_fix\":\"«Sono un combattente, un rivoluzionario delle tende.»\",\"translation_quote\":\"«Sono un combattente, un rivoluzionario cresciuto nelle tende.»\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 367,
+    "content_evidence_truncated": false,
+    "content_sha256": "8e5848a18fd3a43621067e51ccf0eb8ee506d99a629f8d6dd2bf92a20c059e9f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 782,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 670,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2999,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1896,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3781
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
