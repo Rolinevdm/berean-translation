@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4, quotation describing the new person",
+      "severity": "major",
+      "source_quote": "“the new, who has been created according to God”",
+      "suggested_fix": "Change “utu mpya, aliyeumbwa kwa mfano wa Mungu” to “utu mpya, aliyeumbwa kwa jinsi ya Mungu” to preserve “according to God” and distinguish it from the following reference to the creator’s image.",
+      "translation_quote": "“utu mpya, aliyeumbwa kwa mfano wa Mungu”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T20:09:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 4, quotation describing the new person\",\"severity\":\"major\",\"source_quote\":\"“the new, who has been created according to God”\",\"suggested_fix\":\"Change “utu mpya, aliyeumbwa kwa mfano wa Mungu” to “utu mpya, aliyeumbwa kwa jinsi ya Mungu” to preserve “according to God” and distinguish it from the following reference to the creator’s image.\",\"translation_quote\":\"“utu mpya, aliyeumbwa kwa mfano wa Mungu”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 515,
+    "content_evidence_truncated": false,
+    "content_sha256": "10391f27ecd0d1b717f53c33701d616e90bb1be55116ce9ef7bd3e73487e29d4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 646,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3586,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2483,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4232
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
