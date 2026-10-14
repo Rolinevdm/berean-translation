@@ -12520,6 +12520,58 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.html",
+      "html_sha256": "9434dd5a9c9cec63b59790d73b154b041a3d51647f2c6b93a9dd3a29106e05c4",
+      "human_reviewed": false,
+      "id": "6b3e3e7e-b5fd-4701-9a63-699b90f17ec9",
+      "images": [
+        {
+          "alt": "两头野牛彼此对视",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-1.jpg"
+        },
+        {
+          "alt": "1688年日耳曼敦反奴隶制声明的两页原件",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-2.jpg"
+        },
+        {
+          "alt": "弗吉尼亚州的艾萨克·温格故居",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-3.jpg"
+        },
+        {
+          "alt": "蒂勒曼·J·范·布拉赫特所著《殉道者之镜》的封面",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-4.jpg"
+        },
+        {
+          "alt": "约瑟夫·霍弗的墓碑，1894—1918年",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-5.jpg"
+        },
+        {
+          "alt": "迈克尔·霍弗的墓碑，1893—1918年",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-6.jpg"
+        },
+        {
+          "alt": "一名脸上有纹身和穿孔饰品的男子侧面像",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-7.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.json",
+      "metadata_sha256": "99c2c5ccaaaf991e1e1fe8d66e89c41eeabf5f4bbafc77ff62bc19e7abbd5faf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "10c0f2432ce983497252f2dbafece735507c8574",
+      "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
+      "status": "ready",
+      "subtitle": null,
+      "title": "国度冲突之时",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.html",
       "html_sha256": "da9682404660eb744dc9a91bec2aff80da0be9d446f51eddcf4e3ee87507bea2",
       "human_reviewed": false,
@@ -19727,6 +19779,29 @@
       "subtitle": null,
       "title": "Κατάθλιψη",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/924514c7-52be-4e2b-ab75-3141e14ea9a0.html",
+      "html_sha256": "fe7dbc9f6766056742292ae832226441691ed617b9078b9a9578029988655ee6",
+      "human_reviewed": false,
+      "id": "924514c7-52be-4e2b-ab75-3141e14ea9a0",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/924514c7-52be-4e2b-ab75-3141e14ea9a0.json",
+      "metadata_sha256": "484a04b49e61f711d329fa4666c20c444ba2e947825edeb658fbeb8c8c70ed38",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "f83903f6f553c0469d537b5461e4ba3aa295835f",
+      "source_translation_key": "0afc0b6bee66dd315455ddd780526dd699416793c745bb2e10085b05dad8c9fc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Βασιλιάς της γης",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -45685,6 +45760,58 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.html",
+      "html_sha256": "2961b90bcc331f20000bceeff2d6f8bc5a0e8029897040be5ec9fb2dd23558d4",
+      "human_reviewed": false,
+      "id": "6b3e3e7e-b5fd-4701-9a63-699b90f17ec9",
+      "images": [
+        {
+          "alt": "Twee bizons die tegenover elkaar staan",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-1.jpg"
+        },
+        {
+          "alt": "De tweepagina's tellende verklaring tegen slavernij uit Germantown uit 1688",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-2.jpg"
+        },
+        {
+          "alt": "Het huis van Isaac Wenger in Virginia",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-3.jpg"
+        },
+        {
+          "alt": "Omslag van Martyrs Mirror van Thieleman J. van Braght",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-4.jpg"
+        },
+        {
+          "alt": "Grafsteen van Joseph Hofer, 1894–1918",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-5.jpg"
+        },
+        {
+          "alt": "Grafsteen van Michael Hofer, 1893–1918",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-6.jpg"
+        },
+        {
+          "alt": "Profiel van een man met tatoeages in zijn gezicht en piercings",
+          "public_path": "/images/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9-7.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.json",
+      "metadata_sha256": "7c8b0160c8c06ee90a70dfd4aa64bf96f16b82bd937c143b828554a315096488",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "10c0f2432ce983497252f2dbafece735507c8574",
+      "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wanneer koninkrijken botsen",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.html",
       "html_sha256": "8b5c988e26d42b032102718bc79cf7a3ca65caf5d8f1b8705877e2bcc562c479",
       "human_reviewed": false,
@@ -46656,6 +46783,29 @@
       "subtitle": null,
       "title": "Wanneer al Uw barmhartigheden, o mijn God",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/98e522ea-f992-438f-86e7-2588963ef008.html",
+      "html_sha256": "e29bf0a8ce4c429244dcd041e69dca99175f2cf72fbec7692af12de6a3c1ed99",
+      "human_reviewed": false,
+      "id": "98e522ea-f992-438f-86e7-2588963ef008",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/98e522ea-f992-438f-86e7-2588963ef008.json",
+      "metadata_sha256": "3706ddefec4587391f40a2c6713588c60a0f15ffa2a1f1da421cd643b073fdbe",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Stemmen uit de vroege kerk",
+      "source_revision": "f83903f6f553c0469d537b5461e4ba3aa295835f",
+      "source_translation_key": "c545a744250aca1ecb27d55fdb1f3a61d2c529ab7f5a7fece0477318b773edd2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sterven en opstaan met Christus",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -59064,6 +59214,29 @@
       "status": "ready",
       "subtitle": "Правдивая история",
       "title": "Гордая маленькая Рамона",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/98e522ea-f992-438f-86e7-2588963ef008.html",
+      "html_sha256": "0e75b558bcf281aad67ae96baa0a4f246b85e133481bf72da91e7372e1d8f101",
+      "human_reviewed": false,
+      "id": "98e522ea-f992-438f-86e7-2588963ef008",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/98e522ea-f992-438f-86e7-2588963ef008.json",
+      "metadata_sha256": "366270b7b79f8aa60e51d8d41459902bfd812fa42ee26d1e2ad3e73c941b6e07",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Голоса ранней Церкви",
+      "source_revision": "f83903f6f553c0469d537b5461e4ba3aa295835f",
+      "source_translation_key": "c545a744250aca1ecb27d55fdb1f3a61d2c529ab7f5a7fece0477318b773edd2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Умирая и воскресая со Христом",
       "translation_model": "gpt-6-luna"
     },
     {
