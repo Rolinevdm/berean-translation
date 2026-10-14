@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، الفقرة التي تبدأ بـ«في الماضي»",
+      "severity": "minor",
+      "source_quote": "if my house, décor, birthday cakes, or holidays are compared with all the perfect accomplishments of others",
+      "suggested_fix": "استبدال «إذا قورنت بيتي» بـ«إذا قورن بيتي»، مع إبقاء بقية النص والبنية كما هما.",
+      "translation_quote": "إذا قورنت بيتي وديكور منزلي وكعكات أعياد الميلاد أو عطلاتي بكل الإنجازات المثالية للآخرين"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

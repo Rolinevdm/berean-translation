@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T13:39:42+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html، الفقرة التي تبدأ بـ«في الماضي»\",\"severity\":\"minor\",\"source_quote\":\"if my house, décor, birthday cakes, or holidays are compared with all the perfect accomplishments of others\",\"suggested_fix\":\"استبدال «إذا قورنت بيتي» بـ«إذا قورن بيتي»، مع إبقاء بقية النص والبنية كما هما.\",\"translation_quote\":\"إذا قورنت بيتي وديكور منزلي وكعكات أعياد الميلاد أو عطلاتي بكل الإنجازات المثالية للآخرين\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 651,
+    "content_evidence_truncated": false,
+    "content_sha256": "699fa3745e66af5af862fb540300270efbe29e1fc3f9bb749b80968e112bba20",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 244,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 99,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7140,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6037,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7384
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "2d0f34af-495f-4889-afaf-cc1801fe0096",
+    "response_id": "chatcmpl-EYrwpi8DWdhZidyz7KHQHxUPbHuus",
+    "usage": {
+      "completion_tokens": 244,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 99,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7140,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6037,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7384
+    }
+  },
+  "received_at": "2026-10-14T13:39:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html، الفقرة التي تبدأ بـ«في الماضي»",
+        "severity": "minor",
+        "source_quote": "if my house, décor, birthday cakes, or holidays are compared with all the perfect accomplishments of others",
+        "suggested_fix": "استبدال «إذا قورنت بيتي» بـ«إذا قورن بيتي»، مع إبقاء بقية النص والبنية كما هما.",
+        "translation_quote": "إذا قورنت بيتي وديكور منزلي وكعكات أعياد الميلاد أو عطلاتي بكل الإنجازات المثالية للآخرين"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
