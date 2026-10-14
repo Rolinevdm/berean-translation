@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T13:48:25+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"98e522ea-f992-438f-86e7-2588963ef008\\\">\\n  <p class=\\\"drop-cap\\\">De même qu’aucun homme vivant ne peut être enseveli avec un mort, de même nul de ceux qui vivent encore dans le péché ne peut être enseveli avec le Christ, mort au péché, dans le baptême. Par conséquent, ceux qui se hâtent de recevoir le baptême doivent veiller, avant toute chose, à mourir d’abord au péché. Ainsi pourront-ils être ensevelis avec le Christ par le baptême, et dire : « Portant toujours dans notre corps la mort de Jésus-Christ, afin que la vie de Jésus-Christ se manifeste dans notre chair mortelle. »</p>\\n\\n  <p>Paul lui-même nous fait connaître la manière dont la vie de Jésus-Christ se manifeste dans le corps, lorsqu’il dit : « Ce n’est plus moi qui vis, mais le Christ qui vit en moi. » L’apôtre Jean écrit lui aussi la même chose dans son épître, lorsqu’il dit : « Tout esprit qui confesse que Jésus-Christ est venu dans la chair est de Dieu. » Il est certain que, dans ce passage, celui qui aura prononcé ces syllabes et les aura énoncées dans cette confession courante ne sera pas pour autant considéré comme conduit par l’Esprit de Dieu ; ce sera plutôt celui qui aura façonné sa vie de cette manière et produit les fruits des bonnes œuvres, de sorte qu’il aura démontré, par le dévouement même de ses œuvres et de ses pensées, que le Christ est venu dans la chair, qu’il est mort au péché et vivant pour Dieu.</p>\\n\\n  <p>Maintenant que nous avons expliqué, autant que nous le pouvions, ce que signifie être enseveli avec le Christ, considérons ce qu’il dit ensuite : « Afin que, de même que le Christ est ressuscité des morts par la gloire du Père, nous aussi, nous marchions dans une vie nouvelle. » Si nous avons été ensevelis avec le Christ selon ce que nous avons dit plus haut, à savoir que nous sommes morts au péché, il est certainement cohérent que, puisque le Christ ressuscite des morts, nous aussi ressuscitions avec lui. Et puisqu’il siège à la droite du Père, il sera dit aussi que nous siégeons avec lui dans les cieux, selon ce que le même apôtre dit ailleurs : « Il nous a ressuscités avec le Christ et nous a fait asseoir avec lui dans les lieux célestes. »</p>\\n\\n  <p>Or, le Christ est ressuscité par la gloire du Père ; et nous, si nous sommes morts au péché et avons été ensevelis avec le Christ, puisque tous ceux qui voient nos bonnes œuvres glorifient notre Père qui est aux cieux, il sera à juste titre dit que nous avons été ressuscités avec le Christ par la gloire du Père, afin que nous marchions dans une vie nouvelle. La vie nouvelle consiste à nous dépouiller du « vieil homme avec ses œuvres » et à revêtir « l’homme nouveau, qui a été créé selon Dieu » et « qui se renouvelle dans la connaissance de Dieu selon l’image de celui qui l’a créé ».</p>\\n\\n  <p>Car vous ne devez pas imaginer que le renouvellement de la vie, dont il est dit qu’il a eu lieu une fois, soit suffisant. Au contraire, en tout temps et chaque jour, cette nouveauté doit, si l’on peut dire, être renouvelée. Car voici ce que dit l’apôtre : « Même si notre homme extérieur se corrompt, celui qui est intérieur se renouvelle de jour en jour. » En effet, de même que le vieil homme vieillit constamment et devient chaque jour plus âgé, de même le nouveau se renouvelle constamment, et il n’est jamais un moment où son renouvellement ne s’accroît pas. Considérez ceux qui progressent dans la foi et qui brillent chaque jour par leurs vertus : ils ajoutent sans cesse de meilleures choses à leurs bonnes œuvres et cherchent avec empressement des choses plus nobles à ajouter à leurs actes nobles ; ils s’enrichissent en intelligence, en connaissance et en sagesse. Les choses qu’ils comprenaient auparavant avec moins de clarté, ils les discernent ensuite comme manifestes et distinctement évidentes.</p>\\n\\n  <p>Considérez si vous ne diriez pas qu’un homme de cette sorte se renouvelle chaque jour dans sa conduite — tandis qu’au contraire, comme nous l’avons dit, celui qui a commencé à vieillir continuera à empirer et se trouvera chaque jour plus vieux et davantage détérioré en lui-même. Marchons donc dans une vie nouvelle, nous montrant chaque jour comme des personnes nouvelles et, pour ainsi dire, toujours plus belles, en unissant la beauté de notre visage à celle du Christ, comme dans un miroir ; et, contemplant la gloire du Seigneur, soyons transformés en cette même image, par laquelle le Christ, ressuscité des morts, est monté de la bassesse terrestre à la gloire de la majesté du Père. ~</p>\\n\\n  <p class=\\\"source-note\\\">Scheck, Thomas P. (trad.) <em>Origen: Commentary on the Epistle to the Romans, Books 1-5.</em> Catholic University of America Press, 2001. p. 358-360.</p>\\n</article>\\n\",\"section\":\"Voix de l’Église primitive\",\"subtitle\":null,\"title\":\"Mourir et ressusciter avec le Christ\"}",
+    "content_bytes": 5041,
+    "content_evidence_truncated": false,
+    "content_sha256": "313a7449f18f10ec9f8fccb6fb69d80eba8987a491e84493a11769ff7730ac7e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1312,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1910,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1907,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3222
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
