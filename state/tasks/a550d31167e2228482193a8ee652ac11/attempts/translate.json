@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T22:23:31+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ba07e0b0-5152-46e9-9761-0d0ed839789b\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg\\\" alt=\\\"Bladmusiek en lirieke vir Hallelujah, It Is Finished deur Philip Hess en G. Koehn\\\" loading=\\\"lazy\\\">\\n  </figure>\\n\\n  <p>Philip en Betsy Hess woon naby Bethel, Pennsilvanië, saam met hul twee kinders, Damaris en David. Philip werk daaraan om ou skure uitmekaar te haal en te herbou. Hulle woon ’n klein, tuisgebaseerde geloofsgemeenskap by, waar hulle opreg daarna verlang dat die koninkryk van Christus moet groei.</p>\\n</article>\\n\",\"section\":\"God se volk hou aan sing\",\"subtitle\":null,\"title\":\"Halleluja, dit is volbring\"}",
+    "content_bytes": 702,
+    "content_evidence_truncated": false,
+    "content_sha256": "0df7507f6d0650920d19e5e12b6543f0cec028416244ddd894b2bd7f9cc60543",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 238,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1035,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1032,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1273
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
