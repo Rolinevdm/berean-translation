@@ -20,9 +20,32 @@
       "event": "automatic_requested",
       "previous_task": "83e7d03eae4c140fdf3e4a01bf42d6ca",
       "task": "a55769a678ce0c462c9097eab6f33401"
+    },
+    {
+      "at": "2026-10-14T06:05:10+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "a55769a678ce0c462c9097eab6f33401"
     }
   ],
   "language": "cmn",
   "latest_task": "a55769a678ce0c462c9097eab6f33401",
-  "published": null
+  "published": {
+    "html_path": "content/cmn/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
+    "html_sha256": "c6ac781edc16e8ccc79e1242b499e2305eeb4b7168822d1be199bfc24db4c4e3",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+    "metadata_path": "content/cmn/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.json",
+    "metadata_sha256": "443ae41b9720bf046c35e4dcf38666b786a99a203f3c2d439845e463ba22e744",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"zh-Hans\" dir=\"ltr\" role=\"note\">\n  <p>本文由 OpenAI（模型：gpt-6.1-sol）通过人工智能翻译，尚未经人工审核。英文原文为权威版本。如对含义有疑问，请参阅英文原文。 <a href=\"/en/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950/\" data-source-article-id=\"d0898011-fe8b-4c35-9aac-12c20ec0d950\" hreflang=\"en\">英文原文</a></p>\n</aside>",
+    "published_at": "2026-10-14T06:05:10+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+    "source_snapshot": "state/sources/aeddb1d51271942bdbe3417e46c90421b08605b5b1d872e8fb0309f7877921c7.json",
+    "task": "a55769a678ce0c462c9097eab6f33401",
+    "translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96"
+  }
 }
