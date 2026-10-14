@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "1819e8d8-a6f2-42fd-b1db-bb26a54f9ad7",
+    "response_id": "chatcmpl-EZ1haV0869FwyRYz4LjhZv0BLORsW",
+    "usage": {
+      "completion_tokens": 535,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 69,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5916,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4813,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6451
+    }
+  },
+  "received_at": "2026-10-14T23:17:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html / translation.html, première citation biblique (Jacques 1:2-4)",
+        "severity": "major",
+        "source_quote": "that ye may be perfect and entire, wanting nothing",
+        "suggested_fix": "Remplacer « sans faillir en rien » par « ne manquant de rien ».",
+        "translation_quote": "afin que vous soyez parfaits et accomplis, sans faillir en rien"
+      },
+      {
+        "location": "source.html / translation.html, deuxième citation biblique (Philippiens 4:11-13)",
+        "severity": "major",
+        "source_quote": "I can do all things through Christ which strengtheneth me.",
+        "suggested_fix": "Remplacer cette phrase par « Je puis tout par Christ qui me fortifie. »",
+        "translation_quote": "Je puis tout par celui qui me fortifie."
+      },
+      {
+        "location": "source.html / translation.html, paragraphe comparant la pandémie à un embouteillage",
+        "severity": "major",
+        "source_quote": "create stop-and-go traffic for a mile or more",
+        "suggested_fix": "Remplacer « sur un kilomètre ou davantage » par « sur un mile ou davantage » ou « sur environ 1,6 kilomètre ou davantage ».",
+        "translation_quote": "provoquer une circulation en accordéon sur un kilomètre ou davantage"
+      },
+      {
+        "location": "source.html / translation.html, paragraphe sur les témoignages concernant les Églises anabaptistes",
+        "severity": "minor",
+        "source_quote": "a “small country” church",
+        "suggested_fix": "Remplacer « “de campagne” » par « “petite Église de campagne” », en adaptant les guillemets existants.",
+        "translation_quote": "une Église « en déclin », « plus âgée » ou « de campagne »"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
