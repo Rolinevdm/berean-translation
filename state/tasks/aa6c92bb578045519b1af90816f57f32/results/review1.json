@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4f947335-3691-4e17-9f27-ee69cbda70a5",
+    "response_id": "chatcmpl-EYho3P6bFRYdTw6sufu6sRY4ndBR7",
+    "usage": {
+      "completion_tokens": 825,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 691,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2969,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1866,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3794
+    }
+  },
+  "received_at": "2026-10-14T01:13:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة الثانية",
+        "severity": "major",
+        "source_quote": "yet all his followers are never truly happy",
+        "suggested_fix": "لا يحرم هذا الحاكم شعبه شيئًا، ومع ذلك لا يكون أيٌّ من أتباعه سعيدًا حقًا قط (بل إن معظمهم تعساء جدًا)، وفي النهاية سيهلكون جميعًا.",
+        "translation_quote": "ومع ذلك لا يكون أتباعه جميعًا سعداء حقًا أبدًا"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

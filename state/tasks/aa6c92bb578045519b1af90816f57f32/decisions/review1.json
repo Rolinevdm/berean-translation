@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة الثانية",
+      "severity": "major",
+      "source_quote": "yet all his followers are never truly happy",
+      "suggested_fix": "لا يحرم هذا الحاكم شعبه شيئًا، ومع ذلك لا يكون أيٌّ من أتباعه سعيدًا حقًا قط (بل إن معظمهم تعساء جدًا)، وفي النهاية سيهلكون جميعًا.",
+      "translation_quote": "ومع ذلك لا يكون أتباعه جميعًا سعداء حقًا أبدًا"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

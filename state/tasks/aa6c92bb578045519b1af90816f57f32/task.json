@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e33293737fdb47b8a9fa28e0268f856f",
   "campaign": "auto-3ff18b7cbf78c80cbedd430860d150a641262e0ceab6d771e7ae174ee7a40ac0",
   "created_at": "2026-10-13T21:22:02+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 2702
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 825,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 691,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2969,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1866,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3794
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "الفقرة الثانية",
+      "severity": "major",
+      "source_quote": "yet all his followers are never truly happy",
+      "suggested_fix": "لا يحرم هذا الحاكم شعبه شيئًا، ومع ذلك لا يكون أيٌّ من أتباعه سعيدًا حقًا قط (بل إن معظمهم تعساء جدًا)، وفي النهاية سيهلكون جميعًا.",
+      "translation_quote": "ومع ذلك لا يكون أتباعه جميعًا سعداء حقًا أبدًا"
+    }
+  ],
   "id": "aa6c92bb578045519b1af90816f57f32",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ara",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0575de815215a938592727ad9a4e1917981519b74ac4282d3f7bab58e5fc0501.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.086635,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "0afc0b6bee66dd315455ddd780526dd699416793c745bb2e10085b05dad8c9fc",
   "translation_model_actual": "gpt-6-luna"

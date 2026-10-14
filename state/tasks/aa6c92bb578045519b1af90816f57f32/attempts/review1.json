@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T01:13:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الفقرة الثانية\",\"severity\":\"major\",\"source_quote\":\"yet all his followers are never truly happy\",\"suggested_fix\":\"لا يحرم هذا الحاكم شعبه شيئًا، ومع ذلك لا يكون أيٌّ من أتباعه سعيدًا حقًا قط (بل إن معظمهم تعساء جدًا)، وفي النهاية سيهلكون جميعًا.\",\"translation_quote\":\"ومع ذلك لا يكون أتباعه جميعًا سعداء حقًا أبدًا\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 549,
+    "content_evidence_truncated": false,
+    "content_sha256": "eed69591a4e95351ff5ccda91771edfc3c265f9836e381edb98a89b0869bb2c3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 825,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 691,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2969,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1866,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3794
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
