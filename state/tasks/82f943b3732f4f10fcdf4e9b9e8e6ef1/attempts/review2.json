@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T15:59:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Alinea 4, citaat over de nieuwe mens\",\"severity\":\"minor\",\"source_quote\":\"“who is being renewed in the knowledge of God according to the image of him who created him.”\",\"suggested_fix\":\"Vervang „die vernieuwd wordt in kennis naar het beeld van zijn Schepper” door „die vernieuwd wordt in de kennis van God, naar het beeld van zijn Schepper”.\",\"translation_quote\":\"„die vernieuwd wordt in kennis naar het beeld van zijn Schepper”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 523,
+    "content_evidence_truncated": false,
+    "content_sha256": "9d1876f53e1d2d9ed5d37985522ce95dc6a732d0ce535af9d8a54561f92a89b8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 967,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 823,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3409,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2306,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4376
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

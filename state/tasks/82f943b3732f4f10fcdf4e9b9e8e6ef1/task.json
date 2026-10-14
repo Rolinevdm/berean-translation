@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5772886cf6d843e5976e0603c77e76ed",
   "campaign": "auto-84be53c16e4dcec6329e981dbea2a0c5778b83a8e1e18f994b8d6c7b1dd9cfe0",
   "created_at": "2026-10-14T06:06:27+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 4678
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 967,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 823,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3409,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2306,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4376
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "First paragraph",
-      "severity": "major",
-      "source_quote": "“no one who is still living to sin can be buried together in baptism with Christ, who has died to sin”",
-      "suggested_fix": "Replace “nog leeft in zonde” with “nog voor de zonde leeft” and “gestorven is voor de zonde” with “aan de zonde gestorven is”, preserving the contrast between living and dying to sin.",
-      "translation_quote": "“niemand die nog leeft in zonde samen met Christus in de doop begraven worden, Hij die gestorven is voor de zonde”"
+      "location": "Alinea 4, citaat over de nieuwe mens",
+      "severity": "minor",
+      "source_quote": "“who is being renewed in the knowledge of God according to the image of him who created him.”",
+      "suggested_fix": "Vervang „die vernieuwd wordt in kennis naar het beeld van zijn Schepper” door „die vernieuwd wordt in de kennis van God, naar het beeld van zijn Schepper”.",
+      "translation_quote": "„die vernieuwd wordt in kennis naar het beeld van zijn Schepper”"
     }
   ],
+  "finished_at": "2026-10-14T15:59:39+00:00",
   "id": "82f943b3732f4f10fcdf4e9b9e8e6ef1",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "nld",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.087063,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c545a744250aca1ecb27d55fdb1f3a61d2c529ab7f5a7fece0477318b773edd2",
   "translation_model_actual": "gpt-6-luna"
