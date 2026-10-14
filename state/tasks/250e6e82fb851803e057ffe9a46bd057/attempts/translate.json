@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T07:30:14+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"98e522ea-f992-438f-86e7-2588963ef008\\\">\\n  <p class=\\\"drop-cap\\\">So wie kein lebender Mensch zusammen mit einem Toten begraben werden kann, so kann auch niemand, der noch für die Sünde lebt, in der Taufe zusammen mit Christus begraben werden, der der Sünde gestorben ist. Deshalb sollten diejenigen, die sich auf die Taufe zubewegen, vor allem darauf achten, zuerst der Sünde zu sterben. Auf diese Weise können sie durch die Taufe mit Christus begraben werden, sodass sie sagen können: „Wir tragen allezeit das Sterben Jesu Christi an unserem Leib, damit das Leben Jesu Christi an unserem sterblichen Fleisch offenbar werde.“</p>\\n\\n  <p>Wie das Leben Jesu Christi im Leib offenbar wird, macht Paulus selbst deutlich, wenn er sagt: „Nicht mehr ich lebe, sondern Christus lebt in mir.“ Dasselbe schreibt auch der Apostel Johannes in seinem Brief, wenn er sagt: „Jeder Geist, der bekennt, dass Jesus Christus im Fleisch gekommen ist, ist aus Gott.“ Gewiss ist an dieser Stelle nicht derjenige vom Geist Gottes geleitet, der diese Silben ausgesprochen und sie in diesem allgemeinen Bekenntnis vorgetragen hat, sondern derjenige, der sein Leben auf diese Weise gestaltet und die Frucht guter Werke hervorgebracht hat, sodass er durch die Hingabe seiner eigenen Werke und Gedanken gezeigt hat, dass Christus im Fleisch gekommen ist und dass er der Sünde gestorben und für Gott lebendig ist.</p>\\n\\n  <p>Nachdem wir so gut wir konnten erklärt haben, was es bedeutet, mit Christus begraben zu werden, wollen wir betrachten, was er außerdem sagt: „Damit auch wir, so wie Christus durch die Herrlichkeit des Vaters von den Toten auferweckt wurde, in einem neuen Leben wandeln.“ Wenn wir nach dem, was wir oben gesagt haben, nämlich insofern, als wir der Sünde gestorben sind, zusammen mit Christus begraben wurden, dann ist es gewiss folgerichtig, dass auch wir zusammen mit ihm auferstehen werden, da Christus von den Toten aufersteht. Und da er zur Rechten des Vaters sitzt, wird auch von uns gesagt werden, dass wir mit ihm im Himmel sitzen, gemäß dem, was derselbe Apostel an anderer Stelle sagt: „Er hat uns zusammen mit Christus auferweckt und uns mit ihm in den himmlischen Örtern sitzen lassen.“</p>\\n\\n  <p>Christus aber ist durch die Herrlichkeit des Vaters auferstanden; und wir – wenn wir der Sünde gestorben und mit Christus begraben worden sind, denn alle, die unsere guten Werke sehen, verherrlichen unseren Vater im Himmel – werden zu Recht als zusammen mit Christus durch die Herrlichkeit des Vaters auferweckt gelten, damit wir in einem neuen Leben wandeln. Das neue Leben besteht nun darin, dass wir „den alten Menschen mit seinen Taten“ ablegen und „den neuen anziehen, der nach Gott geschaffen worden ist“ und „der in der Erkenntnis Gottes erneuert wird nach dem Bild dessen, der ihn geschaffen hat“.</p>\\n\\n  <p>Ihr dürft nämlich nicht meinen, die Erneuerung des Lebens, von der gesagt wird, dass sie einmal geschehen ist, genüge. Im Gegenteil: Diese Neuheit muss jederzeit und täglich – wenn man so sagen kann – erneuert werden. Denn das sagt der Apostel: „Auch wenn unser äußerer Mensch zugrunde geht, wird der innere Tag für Tag erneuert.“ Denn so wie das Alte ständig altert und von Tag zu Tag älter wird, so wird auch dieser neue Mensch ständig erneuert, und es gibt keinen Zeitpunkt, an dem seine Erneuerung nicht zunimmt. Bedenkt nur, wie diejenigen, die im Glauben Fortschritte machen und täglich in den Tugenden erstrahlen, ihren guten Werken immer Besseres hinzufügen und eifrig nach noch edleren Dingen suchen, die sie ihren edlen Taten hinzufügen können, und wie sie an Einsicht, Erkenntnis und Weisheit reich werden. Was zuvor weniger klar verstanden schien, erkennen sie später als klar ersichtlich und deutlich offenbar.</p>\\n\\n  <p>Überlegt, ob ihr nicht sagen würdet, dass ein solcher Mensch in seinem Verhalten täglich erneuert wird – so wie umgekehrt, wie wir gesagt haben, derjenige, der zu altern begonnen hat, immer schlechter wird und sich täglich als älter und in sich selbst weiter verfallen erweist. Lasst uns also in einem neuen Leben wandeln und uns täglich als neue Menschen zeigen, gleichsam als immer schönere Menschen, indem wir die Schönheit unseres Angesichts mit Christus vereinen wie in einem Spiegel. Und indem wir die Herrlichkeit des Herrn betrachten, lasst uns in dasselbe Bild verwandelt werden, durch das Christus, als er von den Toten auferstand, aus der irdischen Niedrigkeit zur Herrlichkeit der Majestät des Vaters aufgestiegen ist. ~</p>\\n\\n  <p class=\\\"source-note\\\">Scheck, Thomas P. (Übers.) <em>Origen: Commentary on the Epistle to the Romans, Books 1-5.</em> Catholic University of America Press, 2001. S. 358–360.</p>\\n</article>\\n\",\"section\":\"Stimmen aus der frühen Kirche\",\"subtitle\":null,\"title\":\"Mit Christus sterben und auferstehen\"}",
+    "content_bytes": 4930,
+    "content_evidence_truncated": false,
+    "content_sha256": "ceffbc022d6e329bda63b8e83c45b04f44c8dcd76004b2dc73fb8b8ab2a5c88f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1241,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 74,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1908,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1905,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3149
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
