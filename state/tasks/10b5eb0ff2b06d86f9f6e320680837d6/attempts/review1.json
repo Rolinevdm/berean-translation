@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T01:06:44+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Первый блок цитаты\",\"severity\":\"minor\",\"source_quote\":\"We must reduce our volume to the simple evangelists\",\"suggested_fix\":\"«Нам следует ограничить нашу книгу простыми евангелистами» — или иначе передать смысл «свести объём нашего труда к Евангелиям», не подменяя евангелистов самими Евангелиями.\",\"translation_quote\":\"Нам следует свести наши труды к простым евангелиям\"},{\"location\":\"Цитата с последними словами «Библии Джефферсона»\",\"severity\":\"minor\",\"source_quote\":\"Now, in the place where he was crucified\",\"suggested_fix\":\"Добавить «Теперь» в начале цитаты: «Теперь, на том месте, где Он был распят…»\",\"translation_quote\":\"На том месте, где Он был распят\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 1079,
+    "content_evidence_truncated": false,
+    "content_sha256": "74cfb6e4ed779b646b1df208ce8a7ae332750c1fad9532e01c45f72a8813d57e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1099,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 879,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2403,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1300,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3502
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

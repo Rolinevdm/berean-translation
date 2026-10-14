@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5692ff40f2274ca7ae478b976a319fd3",
   "campaign": "auto-f3ce171e7a87ea1686e2123ea21c163cbdbdfc624f70f1680f4a6a9e7902299d",
   "created_at": "2026-10-11T20:15:07+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 2049
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1099,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 879,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2403,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1300,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3502
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Первый блок цитаты",
+      "severity": "minor",
+      "source_quote": "We must reduce our volume to the simple evangelists",
+      "suggested_fix": "«Нам следует ограничить нашу книгу простыми евангелистами» — или иначе передать смысл «свести объём нашего труда к Евангелиям», не подменяя евангелистов самими Евангелиями.",
+      "translation_quote": "Нам следует свести наши труды к простым евангелиям"
+    },
+    {
+      "location": "Цитата с последними словами «Библии Джефферсона»",
+      "severity": "minor",
+      "source_quote": "Now, in the place where he was crucified",
+      "suggested_fix": "Добавить «Теперь» в начале цитаты: «Теперь, на том месте, где Он был распят…»",
+      "translation_quote": "На том месте, где Он был распят"
+    }
+  ],
+  "finished_at": "2026-10-14T01:06:44+00:00",
   "id": "10b5eb0ff2b06d86f9f6e320680837d6",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "rus",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e0055d55517f5660992a9420cc757b233982239c9b7e50e0b4848cde01c4c446.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.086291,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
   "translation_model_actual": "gpt-6-luna"

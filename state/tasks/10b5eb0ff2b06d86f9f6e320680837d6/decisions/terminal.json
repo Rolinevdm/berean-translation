@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Первый блок цитаты",
+      "severity": "minor",
+      "source_quote": "We must reduce our volume to the simple evangelists",
+      "suggested_fix": "«Нам следует ограничить нашу книгу простыми евангелистами» — или иначе передать смысл «свести объём нашего труда к Евангелиям», не подменяя евангелистов самими Евангелиями.",
+      "translation_quote": "Нам следует свести наши труды к простым евангелиям"
+    },
+    {
+      "location": "Цитата с последними словами «Библии Джефферсона»",
+      "severity": "minor",
+      "source_quote": "Now, in the place where he was crucified",
+      "suggested_fix": "Добавить «Теперь» в начале цитаты: «Теперь, на том месте, где Он был распят…»",
+      "translation_quote": "На том месте, где Он был распят"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
