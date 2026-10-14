@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Final review failed; no further automatic correction is allowed",
       "task": "1b1dd9be15166f0eac38544ac9bb4639"
+    },
+    {
+      "at": "2026-10-14T22:24:31+00:00",
+      "campaign": "auto-2098dc7f52e1cab6ca2ba841689d26fbd6c7b1717ea4397a8e670bea86c1c80a",
+      "event": "automatic_requested",
+      "previous_task": "1b1dd9be15166f0eac38544ac9bb4639",
+      "task": "a0e138f4fd9daceb977f99f94429b9c8"
     }
   ],
   "language": "fra",
-  "latest_task": "1b1dd9be15166f0eac38544ac9bb4639",
+  "latest_task": "a0e138f4fd9daceb977f99f94429b9c8",
   "published": null
 }
