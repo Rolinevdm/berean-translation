@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c9a37756-5b9b-4bc6-b534-d6492e1a3d99",
+    "response_id": "chatcmpl-EYuazb5WZemDiw6gDnDSdDS9l6o18",
+    "usage": {
+      "completion_tokens": 1005,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 905,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13865,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12762,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 14870
+    }
+  },
+  "received_at": "2026-10-14T15:59:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Historical clash section, paragraph introducing the letter",
+        "severity": "minor",
+        "source_quote": "The following is a portion of the letter, set in modern English:",
+        "suggested_fix": "vertaald in modern Nederlands",
+        "translation_quote": "Hieronder volgt een gedeelte uit de brief, weergegeven in modern Engels:"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

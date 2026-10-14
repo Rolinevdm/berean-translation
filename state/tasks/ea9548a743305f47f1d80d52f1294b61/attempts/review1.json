@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T15:59:31+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Historical clash section, paragraph introducing the letter\",\"severity\":\"minor\",\"source_quote\":\"The following is a portion of the letter, set in modern English:\",\"suggested_fix\":\"vertaald in modern Nederlands\",\"translation_quote\":\"Hieronder volgt een gedeelte uit de brief, weergegeven in modern Engels:\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 382,
+    "content_evidence_truncated": false,
+    "content_sha256": "f5bbd6e43c34440e187be3b7e8fb310bbb5b55cb48853d4d9224bb8418b185ff",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1005,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 905,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13865,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12762,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 14870
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

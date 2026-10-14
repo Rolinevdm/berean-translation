@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Historical clash section, paragraph introducing the letter",
+      "severity": "minor",
+      "source_quote": "The following is a portion of the letter, set in modern English:",
+      "suggested_fix": "vertaald in modern Nederlands",
+      "translation_quote": "Hieronder volgt een gedeelte uit de brief, weergegeven in modern Engels:"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
