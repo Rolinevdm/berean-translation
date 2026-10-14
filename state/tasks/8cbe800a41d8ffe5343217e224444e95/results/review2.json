@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "49118e2d-faad-4658-9686-81675ebaf187",
+    "response_id": "chatcmpl-EYrmvjSEmg2fzhOuKfWAgVCiGWidI",
+    "usage": {
+      "completion_tokens": 897,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 790,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15161,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14058,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 16058
+    }
+  },
+  "received_at": "2026-10-14T13:39:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "आधुनिक मार्स हिल, टिप्पणीकार 1 का उद्धरण",
+        "severity": "minor",
+        "source_quote": "Hopefully the child survives the ordeal.",
+        "suggested_fix": "आशा है कि बच्चा इस कठिन दौर से बच जाएगा।",
+        "translation_quote": "आशा है कि बच्चा इस ordeal से बच जाएगा।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

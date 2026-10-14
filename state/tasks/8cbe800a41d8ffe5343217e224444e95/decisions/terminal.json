@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "आधुनिक मार्स हिल, टिप्पणीकार 1 का उद्धरण",
+      "severity": "minor",
+      "source_quote": "Hopefully the child survives the ordeal.",
+      "suggested_fix": "आशा है कि बच्चा इस कठिन दौर से बच जाएगा।",
+      "translation_quote": "आशा है कि बच्चा इस ordeal से बच जाएगा।"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
