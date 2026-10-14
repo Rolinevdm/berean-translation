@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ac712554e57b4077a656d5b88d38a6fd",
   "campaign": "auto-edab10abea79f32532c4c519915fd57ef4bb9e4dd08ea2506e997388ad45c38d",
   "created_at": "2026-10-11T01:57:04+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 12258
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 77,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 45,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8107,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7004,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8184
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, paragrafo sulla potenza della fionda di Davide",
-      "severity": "major",
-      "source_quote": "David’s sling had the stopping power of a 45 mm handgun",
-      "suggested_fix": "Sostituire «una pistola calibro .45» con «una pistola calibro 45 mm», preservando il dato stampato nella fonte.",
-      "translation_quote": "la fionda di Davide aveva una potenza d’arresto pari a quella di una pistola calibro .45"
-    },
-    {
-      "location": "html, paragrafo «Una coscienza sollecita»",
-      "severity": "minor",
-      "source_quote": "Jacob’s aspirations for Rachael made him forget the seven years of labor.",
-      "suggested_fix": "Sostituire la frase con «Il desiderio di Giacobbe per Rachele gli fece dimenticare i sette anni di lavoro», mantenendo il parallelismo con la frase successiva su Edison.",
-      "translation_quote": "Le aspirazioni di Giacobbe per Rachele gli permisero di sopportare i sette anni di lavoro."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-14T06:04:51+00:00",
   "id": "769091ddab36d0cac11d824d02f1708d",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ita",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.754451,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "6ea3ad7e1aac26f9c34ab8461d1b7a7a6962fe6da5f9f4b44ba294bc83b50a4b",
   "translation_model_actual": "gpt-6.1-sol"
