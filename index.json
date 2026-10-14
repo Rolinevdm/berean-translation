@@ -29163,6 +29163,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.html",
+      "html_sha256": "b711b293f194db883306ffb525cbd8edcd68a2ec5f6c4349c3486f200db18ec0",
+      "human_reviewed": false,
+      "id": "6f528c85-5ee6-4ccd-804f-63652b5c3a1d",
+      "images": [
+        {
+          "alt": "अफ़्रीका को केंद्र में रखे काले-सफ़ेद रंग के ग्लोब की तस्वीर",
+          "public_path": "/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.json",
+      "metadata_sha256": "e6e08af1d3e2c0e2200e8aa849f01f6bbf07122aa9365828c0e540acd56da8ec",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "47fbf61724e9db15266a7f4edf1673f6aa47f52e",
+      "source_translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "हम विश्वव्यापी ईसाई हैं",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9.html",
       "html_sha256": "227c7a2b73994608600e4f8fa08e2e043844f9f68bc88b20b6fcd8311e0df163",
       "human_reviewed": false,
@@ -73009,6 +73037,29 @@
       "subtitle": null,
       "title": "افسردگی",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/924514c7-52be-4e2b-ab75-3141e14ea9a0.html",
+      "html_sha256": "04bdebcb8503039604e3d00df5a8db6c39196f9eeb396d51fd12cb56d34ada54",
+      "human_reviewed": false,
+      "id": "924514c7-52be-4e2b-ab75-3141e14ea9a0",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/924514c7-52be-4e2b-ab75-3141e14ea9a0.json",
+      "metadata_sha256": "3196d5eacbfca9cfc31bb3a56927e2efa4c34bafcea2ecca4c1cff112558e8cc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "f83903f6f553c0469d537b5461e4ba3aa295835f",
+      "source_translation_key": "0afc0b6bee66dd315455ddd780526dd699416793c745bb2e10085b05dad8c9fc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "زمین کا بادشاہ",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
