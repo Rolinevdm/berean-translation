@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T06:04:45+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"924514c7-52be-4e2b-ab75-3141e14ea9a0\\\">\\n  <p class=\\\"drop-cap\\\">Enige tijd geleden, toen ik door Virginia reisde, kocht ik een exemplaar van “The Roanoke Times”, met op de voorpagina een afbeelding van Moammar Gadhafi. Ze citeerden hem met de woorden: “Ik ben een strijder, een revolutionair uit de tenten. Uiteindelijk zal ik als martelaar sterven.” Wie zou dat niet doen als een regime dat al veertig jaar bestond, bedreigd werd? We zien hetzelfde vaak door de geschiedenis heen: koningen en keizers zetten alle middelen die hun ter beschikking staan in om te voorkomen dat ze hun macht verliezen; sommigen offeren zelfs het leven van miljoenen trouwe volgelingen op.</p>\\n\\n  <p>Deze aardse koninkrijken en de manier waarop ze functioneren, deden me denken aan een ander koninkrijk (en een andere heerser), waarvan de grenzen niet op de wereldbol zijn getekend. Deze tiran zwaait zijn scepter over koningen, presidenten, rijken en boeren; er zijn maar weinig mensen die niet buigen bij zijn heiligdommen. Deze heerser onthoudt zijn onderdanen niets, maar toch zijn al zijn volgelingen nooit echt gelukkig (eigenlijk zijn de meesten behoorlijk ongelukkig), en uiteindelijk zullen ze allemaal vernietigd worden. Ik hoor u zeggen: “Je hebt het vast over de duivel.” Nee, zijn naam is niet Satan, al is de duivel zijn raadgever.</p>\\n\\n  <p>Zijn naam is Zelf! Hij leeft in mensenharten. Enkele van zijn eigenschappen zijn: zelfzucht, zelfbehoud, zelfverheerlijking, zelfmedelijden, zelfingenomenheid en zelfliefde, om er maar een paar te noemen. Mijn woordenboek besteedt zelfs bijna een hele pagina aan de verschillende vormen die het zelf aanneemt om zijn zelfrespect te behouden. Als we de lijst bekijken, vinden we er een paar die goed zijn, maar altijd als tegengif voor Zelf zelf. Zelfverloochening is prijzenswaardig, zolang ze zonder zelfbewustzijn wordt beoefend. Zelfvernedering kan een vorm van trots zijn die vaak voor iets goeds wordt aangezien. Iemand prijst het goede werk dat je hebt gedaan, en je zegt: “O, zo goed is het niet,” terwijl je voelt hoe de zelfvoldoening in je hart opkomt omdat iemand het heeft opgemerkt. Aan de andere kant komen, wanneer iemand kritiek heeft op je inspanningen, zelfrechtvaardiging en zelfverontschuldiging op als zelfverdediging.</p>\\n\\n  <p>In schril contrast met al deze machinaties van Zelf en het zelfleven begon onze Heiland zijn verblijf onder de mensen in een nederige stal. Kort daarna vluchtten zijn ouders naar Egypte, uit angst dat Herodes (een andere zelfzuchtige despoot) hem zou doden. Van daaruit keerden ze terug om in het nederige stadje Nazareth te wonen. Deze timmermanszoon werd niet geboren in de adel of de heersende partij van zijn tijd, maar onder de maatschappelijk achtergestelden. “Is dit niet de zoon van Jozef? Zijn moeder en broers zijn toch bij ons?”</p>\\n\\n  <p>Terwijl Hij onder de mensen rondging, toonde Hij ware onzelfzuchtigheid; er was geen spoor van zelfverheffing te bespeuren. De woorden die Hij sprak in Matteüs 11:28-29 (Kom naar Mij toe, allen die vermoeid zijn en onder lasten gebukt gaan, en Ik zal u rust geven. Neem mijn juk op u en leer van Mij, want Ik ben zachtmoedig en nederig van hart; en u zult rust vinden voor uw ziel) kwamen niet voort uit zelfingenomenheid. Ze kwamen voort uit het verlangen dat mensen zouden ophouden hun zelfzuchtige wegen te volgen en opnieuw geboren zouden worden in het koninkrijk van God, waar Zelf moet sterven, gekruisigd in hen die met Hem gestorven zijn. ~</p>\\n\\n  <p class=\\\"source-note\\\">(Overgenomen uit het aprilnummer van 2011 van <em>Love of the Truth</em>.)</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Koning van de aarde\"}",
+    "content_bytes": 3740,
+    "content_evidence_truncated": false,
+    "content_sha256": "7bf998c4de21636ecc683672ecbdbadd77177c9871fae2153ec8b01f9e92df8b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1092,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 118,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1642,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1639,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2734
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
