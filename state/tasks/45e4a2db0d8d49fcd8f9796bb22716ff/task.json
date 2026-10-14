@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c569ccadce9f4e579892b45962e2365b",
   "campaign": "auto-cc569b87610200fcd1f555cdfa05454efb702a46ece1f6f0a7438b1c3c8fadcd",
   "created_at": "2026-10-13T10:52:11+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 5513
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 608,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 508,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4095,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4092,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4703
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, paragraph beginning “Misalnya, dalam bab berjudul…”",
-      "severity": "major",
-      "source_quote": "“a man jailed for being a conscientious objector”",
-      "suggested_fix": "Ganti “dipenjara karena menolak wajib militer atas dasar hati nurani” dengan “dipenjara karena menolak ikut berperang atas dasar hati nurani” agar tidak secara khusus menyatakan bahwa ia menolak wajib militer.",
-      "translation_quote": "“seorang pria yang dipenjara karena menolak wajib militer atas dasar hati nurani”"
+      "location": "Paragraf tentang 17 bab",
+      "severity": "minor",
+      "source_quote": "“a variety of expressions of kingdom Christianity”",
+      "suggested_fix": "“beragam perwujudan kekristenan yang berorientasi pada Kerajaan Allah”",
+      "translation_quote": "“beragam perwujudan kekristenan kerajaan”"
     }
   ],
+  "finished_at": "2026-10-14T01:14:04+00:00",
   "id": "45e4a2db0d8d49fcd8f9796bb22716ff",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ind",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.087279,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
   "translation_model_actual": "gpt-6-luna"

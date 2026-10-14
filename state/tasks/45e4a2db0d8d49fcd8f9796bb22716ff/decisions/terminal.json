@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf tentang 17 bab",
+      "severity": "minor",
+      "source_quote": "“a variety of expressions of kingdom Christianity”",
+      "suggested_fix": "“beragam perwujudan kekristenan yang berorientasi pada Kerajaan Allah”",
+      "translation_quote": "“beragam perwujudan kekristenan kerajaan”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

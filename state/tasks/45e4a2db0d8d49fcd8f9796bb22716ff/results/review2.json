@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "215ad533-6265-4a0f-a30d-f96bb97bbc99",
+    "response_id": "chatcmpl-EYhpIQ0CmYQk9syTQnget8aaaGDq8",
+    "usage": {
+      "completion_tokens": 608,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 508,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4095,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4092,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4703
+    }
+  },
+  "received_at": "2026-10-14T01:14:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf tentang 17 bab",
+        "severity": "minor",
+        "source_quote": "“a variety of expressions of kingdom Christianity”",
+        "suggested_fix": "“beragam perwujudan kekristenan yang berorientasi pada Kerajaan Allah”",
+        "translation_quote": "“beragam perwujudan kekristenan kerajaan”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
