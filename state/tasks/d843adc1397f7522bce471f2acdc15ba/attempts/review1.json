@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T11:41:37+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph 3, quoted apostolic statement\",\"severity\":\"major\",\"source_quote\":\"“He raised us together with Christ and made us sit together in the heavenly places.”\",\"suggested_fix\":\"«اس نے ہمیں مسیح کے ساتھ اٹھایا اور آسمانی مقامات میں اس کے ساتھ بٹھایا۔»\",\"translation_quote\":\"«اس نے ہمیں مسیح کے ساتھ زندہ کیا اور آسمانی مقامات میں اس کے ساتھ بٹھایا۔»\"},{\"location\":\"Source note\",\"severity\":\"minor\",\"source_quote\":\"Scheck, Thomas P. (trans.)\",\"suggested_fix\":\"سیک، تھامس پی۔ (مترجم)،\",\"translation_quote\":\"سcheck، تھامس پی۔ (مترجم)،\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 778,
+    "content_evidence_truncated": false,
+    "content_sha256": "e7e495ef3bd0c78510ef0d06e02b59fecc44a5fb23c5ba123fd3154e3b5bdb1f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 700,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3716,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2613,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4416
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

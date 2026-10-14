@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph 3, quoted apostolic statement",
+      "severity": "major",
+      "source_quote": "“He raised us together with Christ and made us sit together in the heavenly places.”",
+      "suggested_fix": "«اس نے ہمیں مسیح کے ساتھ اٹھایا اور آسمانی مقامات میں اس کے ساتھ بٹھایا۔»",
+      "translation_quote": "«اس نے ہمیں مسیح کے ساتھ زندہ کیا اور آسمانی مقامات میں اس کے ساتھ بٹھایا۔»"
+    },
+    {
+      "location": "Source note",
+      "severity": "minor",
+      "source_quote": "Scheck, Thomas P. (trans.)",
+      "suggested_fix": "سیک، تھامس پی۔ (مترجم)،",
+      "translation_quote": "سcheck، تھامس پی۔ (مترجم)،"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
