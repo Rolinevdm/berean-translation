@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "aecdb418-0b62-43f9-b746-fa7b267f2c8e",
+    "response_id": "chatcmpl-EYzfYiX9MOfsrBWT7pemeFTBeWL1j",
+    "usage": {
+      "completion_tokens": 232,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1032,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1029,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1264
+    }
+  },
+  "received_at": "2026-10-14T22:15:14+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ba07e0b0-5152-46e9-9761-0d0ed839789b\">\n  <figure>\n    <img src=\"/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg\" alt=\"Partitura e testo di Alleluia, è compiuto, di Philip Hess e G. Koehn\" loading=\"lazy\">\n  </figure>\n\n  <p>Philip e Betsy Hess vivono vicino a Bethel, in Pennsylvania, con i loro due figli, Damaris e David. Philip lavora allo smantellamento e alla ricostruzione di vecchi fienili. Frequentano una piccola comunità domestica, dove desiderano ardentemente che il regno di Cristo cresca.</p>\n</article>\n",
+    "section": "Il popolo di Dio continua a cantare",
+    "subtitle": null,
+    "title": "Alleluia, è compiuto"
+  }
+}
