@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "14ed689b6f134c38ba15cb53d7a4d0a9",
   "campaign": "auto-587f95e62c72d14e9788a36ead935822e414ef7d1d6fa6d1b5f5c8f5045b7213",
   "created_at": "2026-10-13T07:42:19+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 24752
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 121,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 89,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 16096,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 16093
+        },
+        "total_tokens": 16217
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “Anyone who thus surrenders all things…”",
-      "severity": "major",
-      "source_quote": "“They departed from me in their desires and the wickedness of their hearts and refused to hear me.”",
-      "suggested_fix": "“वे अपनी अभिलाषाओं और अपने मन की दुष्टता के कारण मुझसे दूर हो गए और मेरी बात सुनने से इनकार किया।”",
-      "translation_quote": "“वे अपनी अभिलाषाओं और अपने मन की दुष्टता के पीछे चले और मेरी बात सुनने से इनकार किया।”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-14T06:04:35+00:00",
   "id": "927bdf1f3573ea348c9332874fd2bde1",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "hin",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/dc00b1640eeaa70509a332ed5e671885caaab880a0116b7efd56947939c1296a.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 1.039067,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
   "translation_model_actual": "gpt-6.1-sol"
