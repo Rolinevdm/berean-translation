@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ca1c2e60-9632-48d5-ac1b-208ca8f0c417",
+    "response_id": "chatcmpl-EZ1bZWCBOVH6nVu6NVbeiVMY4wS9t",
+    "usage": {
+      "completion_tokens": 236,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1038,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1035,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1274
+    }
+  },
+  "received_at": "2026-10-14T22:23:20+00:00",
+  "result": {
+    "html": "<article data-article-id=\"ba07e0b0-5152-46e9-9761-0d0ed839789b\">\n  <figure>\n    <img src=\"/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg\" alt=\"תווים ומילות השיר „הללויה, הושלם” מאת פיליפ הס וג׳י. קון\" loading=\"lazy\">\n  </figure>\n\n  <p>פיליפ ובטסי הס מתגוררים בקרבת ביתל שבפנסילבניה עם שני ילדיהם, דמריס ודיוויד. פיליפ עוסק בפירוק אסמים ישנים ובבנייתם מחדש. הם משתתפים בקהילה קטנה המתכנסת בבית, ושואפים בכנות שמלכות המשיח תגדל.</p>\n</article>\n",
+    "section": "עם אלוהים ממשיך לשיר",
+    "subtitle": null,
+    "title": "הללויה, הושלם"
+  }
+}
