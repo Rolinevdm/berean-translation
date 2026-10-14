@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-14T07:38:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 3, sentence beginning “Self-denial is commendable”\",\"severity\":\"minor\",\"source_quote\":\"“as long as it is practiced without self-consciousness”\",\"suggested_fix\":\"“mradi tu kutafanywa bila kujijali mwenyewe”\",\"translation_quote\":\"“mradi tu kutafanywa bila kujifikiria mwenyewe”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 381,
+    "content_evidence_truncated": false,
+    "content_sha256": "ef7b5be7201bd29d2eba16df27c87c1f4ebc1ad2975a157a84f99704e01de6a3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 619,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3091,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1988,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3710
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

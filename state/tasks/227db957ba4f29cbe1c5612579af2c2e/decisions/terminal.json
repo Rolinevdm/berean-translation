@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3, sentence beginning “Self-denial is commendable”",
+      "severity": "minor",
+      "source_quote": "“as long as it is practiced without self-consciousness”",
+      "suggested_fix": "“mradi tu kutafanywa bila kujijali mwenyewe”",
+      "translation_quote": "“mradi tu kutafanywa bila kujifikiria mwenyewe”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

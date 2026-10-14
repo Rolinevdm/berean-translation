@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "08476fe7c0d74fd3a7bfb99466fef922",
   "campaign": "auto-6a249a2c3c314d9e52503e6c6fff3bd71aee5912d8578afc42406ab48cfc4e0f",
   "created_at": "2026-10-14T01:07:47+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 4308
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 619,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3091,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1988,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3710
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph 3, list of Self’s attributes",
-      "severity": "major",
-      "source_quote": "“Some of his attributes are: self-will, self-preservation, self-praise, self-pity, self-conceit, and self-love”",
-      "suggested_fix": "Replace “kujipendelea” with “kufuata mapenzi yako mwenyewe” or another Kiswahili phrase expressing insistence on one’s own will.",
-      "translation_quote": "“Baadhi ya sifa zake ni: kujipendelea, kujilinda, kujisifu, kujihurumia, kujiona, na kujipenda”"
+      "location": "Paragraph 3, sentence beginning “Self-denial is commendable”",
+      "severity": "minor",
+      "source_quote": "“as long as it is practiced without self-consciousness”",
+      "suggested_fix": "“mradi tu kutafanywa bila kujijali mwenyewe”",
+      "translation_quote": "“mradi tu kutafanywa bila kujifikiria mwenyewe”"
     }
   ],
+  "finished_at": "2026-10-14T07:38:21+00:00",
   "id": "227db957ba4f29cbe1c5612579af2c2e",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swa",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.086625,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "0afc0b6bee66dd315455ddd780526dd699416793c745bb2e10085b05dad8c9fc",
   "translation_model_actual": "gpt-6-luna"
