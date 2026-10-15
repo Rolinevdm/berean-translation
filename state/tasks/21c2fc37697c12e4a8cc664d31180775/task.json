@@ -5,11 +5,245 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b872c303dbb9400cb7acd740a38a5f54",
   "campaign": "auto-1a7b591fb387d339579d198a0214ad421b603848be9c2fb58ad0d9b6126e9c04",
   "created_at": "2026-10-15T22:40:35+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 3496,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 94,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10655,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9552,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 14151
+      }
+    }
+  ],
+  "failure": "Review report is incomplete; all returned findings are retained for owner attention",
+  "failure_kind": "incomplete_review",
+  "findings": [
+    {
+      "location": "html, paragraph 1",
+      "severity": "major",
+      "source_quote": "God-fearing Christians clearly see the moral decline of our land",
+      "suggested_fix": "Replace with: “Wakristo wanaomcha Mungu wanaona wazi kuporomoka kwa maadili katika nchi yetu”.",
+      "translation_quote": "Wakristo wanaomtisha Mungu ... wanaona kwa uwazi mchakato wa kimaadili wa nchi yetu"
+    },
+    {
+      "location": "html, paragraph 4",
+      "severity": "major",
+      "source_quote": "they go after it ... become desperate or radical",
+      "suggested_fix": "Replace these clauses with “wanajitahidi kukipata” and “wanaweza hata kukitafuta kwa udi na uvumba au kuchukua hatua kali”.",
+      "translation_quote": "wanalifukuza ... kuwa wakali au wakando"
+    },
+    {
+      "location": "html, paragraph 5",
+      "severity": "major",
+      "source_quote": "Jesus tells the parable ... when a man hath found, he hideth ... buyeth that field",
+      "suggested_fix": "Use “Yesu anasimulia mfano wa shamba lenye hazina iliyopotea au iliyofichwa” and correct the quotation to “mtu akiipata, huificha; naye kwa furaha yake huenda na kuuza vyote alivyo navyo, kisha hununua shamba hilo”, retaining the em element and reference.",
+      "translation_quote": "Yesu anasimulia mifano ... mtu akipata, anamficha ... anonunua shamba huo"
+    },
+    {
+      "location": "html, paragraph 6",
+      "severity": "major",
+      "source_quote": "he sees something that he has never seen before ... he went and sold ... Selling ‘most’ would not buy the field ... People around him may not understand him",
+      "suggested_fix": "Replace the affected wording with “anaona kitu ambacho hajawahi kukiona hapo awali”; “alienda na kuuza”; “Kuuza ‘sehemu kubwa’ ya mali yake hakungetosha kununua shamba”; and “Watu wanaomzunguka huenda wasimwelewe”.",
+      "translation_quote": "anaona kitu ambacho hakijamuona hapo awali ... aliacha na kuuza ... Kuuza ‘nyingi’ hakungevunja shamba ... Watu waliomzunguka huenda wasiemlee"
+    },
+    {
+      "location": "html, paragraph 7, Galatians 5:22-23 quotation",
+      "severity": "major",
+      "source_quote": "gentleness, goodness, faith, meekness, temperance",
+      "suggested_fix": "Replace this portion of the list with “upole, wema, imani, unyenyekevu, kiasi”.",
+      "translation_quote": "unyenyekevu, wema, imani, ukomavu wa nafsi, uzembe wa tamaa"
+    },
+    {
+      "location": "html, paragraph 7, concluding assessment",
+      "severity": "major",
+      "source_quote": "something for which it is worth selling all",
+      "suggested_fix": "Replace with “kitu ambacho kinastahili kuuza kila kitu ili kukipata”.",
+      "translation_quote": "kitu ambacho kilikuwa nadra kuuza kila kitu kuyapata"
+    },
+    {
+      "location": "html, paragraph 11",
+      "severity": "major",
+      "source_quote": "It was heart-breaking ... We did not even set an example for her.",
+      "suggested_fix": "Replace with “Jambo hilo lilivunja moyo—hatukumfanya atambue hatia yake moyoni. Hata hatukuwa mfano kwake.”",
+      "translation_quote": "Ilikuwa inavuta moyo ... Hatujafanya mfano hata kidogo kwake."
+    },
+    {
+      "location": "html, paragraph 12",
+      "severity": "major",
+      "source_quote": "the ladies would pull at their miniskirts, trying desperately to cover their nakedness ... Light exposes darkness: it brings conviction.",
+      "suggested_fix": "Replace with “wanawake walikuwa wakivuta sketi zao fupi, wakijitahidi sana kufunika uchi wao” and “Nuru hufichua giza: huwafanya watu watambue hatia yao.”",
+      "translation_quote": "wake zingejaribu kuvuta michanganyiko yao ya nguo fupi, wakijaribu kwa kuwa mbio kufunika uchi wao ... Nuru inafuta giza: inaleta toba."
+    },
+    {
+      "location": "html, paragraph 13",
+      "severity": "major",
+      "source_quote": "simply reproducing the cultural norms",
+      "suggested_fix": "Replace “tuko tu tukiziagiza desturi za kitamaduni” with “tunarudia tu desturi za kitamaduni”.",
+      "translation_quote": "tuko tu tukiziagiza desturi za kitamaduni"
+    },
+    {
+      "location": "html, paragraph 15, John 3:3 quotation and following paraphrase",
+      "severity": "major",
+      "source_quote": "Verily, verily, I say unto thee ... Although you come seeking",
+      "suggested_fix": "Replace with “Amini, amini, nakuambia” and “Ingawa unakuja ukitafuta”.",
+      "translation_quote": "Ndiyo, ndiyo, nawaambia ... Ingawa umejaaliwa kutafuta"
+    },
+    {
+      "location": "html, paragraph 16, opening explanation",
+      "severity": "major",
+      "source_quote": "We are good at blaming our shortcomings on the fact that we are in the flesh",
+      "suggested_fix": "Replace with “Tuna ustadi wa kuhalalisha mapungufu yetu kwa kusema kwamba tuko katika mwili”.",
+      "translation_quote": "Tuna uhodari wa kulaumiwa kwa mapungufu yetu kwa kusema kwamba tuko katika mwili"
+    },
+    {
+      "location": "html, paragraph 16, Jeremiah 17:10 quotation",
+      "severity": "major",
+      "source_quote": "I the LORD search the heart, I try the reins",
+      "suggested_fix": "Replace the quotation wording with “Mimi BWANA nauchunguza moyo, nayajaribu mawazo ya ndani…”, retaining the reference.",
+      "translation_quote": "MIMI BWANA ninatafuta moyo, ninasuluhisha viungo"
+    },
+    {
+      "location": "html, paragraph 19, John 3:20 quotation",
+      "severity": "major",
+      "source_quote": "neither cometh to the light, lest his deeds should be reproved",
+      "suggested_fix": "Replace with “wala haji kwenye nuru, matendo yake yasije yakakemewa”.",
+      "translation_quote": "wala haiji kwa nuru, mambo yake yasiyatafakari"
+    },
+    {
+      "location": "html, paragraph 19, Galatians 5:24 quotation and subsequent question",
+      "severity": "major",
+      "source_quote": "have crucified the flesh with the affections and lusts ... practically become “born again”",
+      "suggested_fix": "Replace with “wameusulubisha mwili pamoja na shauku na tamaa zake” and “kwa vitendo kuzaliwa tena”.",
+      "translation_quote": "wamekoma mwili pamoja na tamaa na tamaa zake ... kibiashara kuwa “alizaliwa tena”"
+    },
+    {
+      "location": "html, first list, Acts 2:38",
+      "severity": "major",
+      "source_quote": "Repent ... and ye shall receive the gift of the Holy Ghost",
+      "suggested_fix": "Replace “Tubadilike” with “Tubuni” and “nami mtapokea” with “nanyi mtapokea”.",
+      "translation_quote": "Tubadilike ... nami mtapokea zawadi ya Roho Mtakatifu"
+    },
+    {
+      "location": "html, first list, Mark 8:34-35",
+      "severity": "major",
+      "source_quote": "take up his cross",
+      "suggested_fix": "Replace “achukue mkazo wake” with “auchukue msalaba wake”.",
+      "translation_quote": "achukue mkazo wake"
+    },
+    {
+      "location": "html, first list, Revelation 3:20",
+      "severity": "major",
+      "source_quote": "I stand at the door, and knock ... will sup with him, and he with me",
+      "suggested_fix": "Replace “na kupiga” with “nikibisha” and “naye nami nitasubiri naye” with “naye atakula pamoja nami”.",
+      "translation_quote": "nimesimama mlangoni, na kupiga ... naye nami nitasubiri naye"
+    },
+    {
+      "location": "html, paragraph following first list",
+      "severity": "major",
+      "source_quote": "The great I AM, THAT I AM",
+      "suggested_fix": "Replace the divine designation with “Yule mkuu, MIMI NIKO AMBAYE NIKO”.",
+      "translation_quote": "Mimi Ni Yeye Mwenyewe, MIMI NIYE"
+    },
+    {
+      "location": "html, paragraph beginning “Je, mabadiliko ya kweli”",
+      "severity": "major",
+      "source_quote": "We mock the prayer of the cheap-grace gospel",
+      "suggested_fix": "Replace with “Tunadhihaki sala ya injili ya neema ya bei rahisi”.",
+      "translation_quote": "Tunachochea moyo wa sala ya neema-rahisi"
+    },
+    {
+      "location": "html, same paragraph, crucifixion and outreach",
+      "severity": "major",
+      "source_quote": "crucify the flesh ... lost and struggling souls",
+      "suggested_fix": "Replace “kumkata mwili msalabani” with “kuusulubisha mwili” and “nafsi zilizopotea na zinazokatazwa” with “nafsi zilizopotea na zinazopambana na matatizo”.",
+      "translation_quote": "kumkata mwili msalabani ... nafsi zilizopotea na zinazokatazwa"
+    },
+    {
+      "location": "html, paragraph beginning “Kama tumelizaliwa”, prose and Ezekiel 36:26-27",
+      "severity": "major",
+      "source_quote": "hearts of flesh ... an heart of flesh",
+      "suggested_fix": "Replace “mioyo ya unyoya” with “mioyo ya nyama” in the prose and “moyo wa unyoya” with “moyo wa nyama” in the quotation.",
+      "translation_quote": "mioyo ya unyoya ... moyo wa unyoya"
+    },
+    {
+      "location": "html, paragraph beginning “Basi kwa nini kuna ukosefu”",
+      "severity": "major",
+      "source_quote": "this world has captivated us ... It’s there, simply forgotten.",
+      "suggested_fix": "Replace with “dunia hii imetuteka” and “Iko pale, imesahaulika tu.”",
+      "translation_quote": "dunia hii imetukashifu ... Iko pale, imekumbukwa tu."
+    },
+    {
+      "location": "html, paragraph beginning “Tuweze kumaliza”",
+      "severity": "major",
+      "source_quote": "lukewarm living ... put on the Lord Jesus Christ ... godly testimonies",
+      "suggested_fix": "Replace “kuishi kwa ujinga” with “maisha ya uvuguvugu”; “Tuweke juu Bwana Yesu Kristo” with “Tumvae Bwana Yesu Kristo”; and the final question with “Je, kutakuwa na shuhuda zozote za kumcha Mungu zitakazoandikwa kutuhusu?”",
+      "translation_quote": "kuishi kwa ujinga ... Tuweke juu Bwana Yesu Kristo ... mashahidi wema yoyote yaliyoandikwa"
+    },
+    {
+      "location": "html, second list, Matthew 7:7-8",
+      "severity": "major",
+      "source_quote": "knock, and it shall be opened unto you",
+      "suggested_fix": "Replace with “bisheni, nanyi mtafunguliwa”.",
+      "translation_quote": "piga mlango, utakaguliwa kwenu"
+    },
+    {
+      "location": "html, second list, Matthew 21:21",
+      "severity": "major",
+      "source_quote": "and doubt not ... Be thou removed, and be thou cast into the sea",
+      "suggested_fix": "Replace “na hamshutumi” with “wala hamna shaka” and the mountain command with “Ondoka, ukatupwe baharini”.",
+      "translation_quote": "na hamshutumi ... Ohondokeni, mngandamizwa mpaka baharini"
+    },
+    {
+      "location": "html, paragraph beginning “Mpenzi, Mungu anataka”",
+      "severity": "major",
+      "source_quote": "He wants to breathe into us His breath",
+      "suggested_fix": "Replace “anataka kutufumbulia pumzi Yake” with “anataka kupuliza ndani yetu pumzi Yake”.",
+      "translation_quote": "anataka kutufumbulia pumzi Yake"
+    },
+    {
+      "location": "html, paragraph beginning “Hata hivyo, mtu wa zamani”",
+      "severity": "major",
+      "source_quote": "the old man must die—his pride",
+      "suggested_fix": "Replace “mtu wa zamani lazima afae—kiwango chake” with “mtu wa kale lazima afe—kiburi chake”.",
+      "translation_quote": "mtu wa zamani lazima afae—kiwango chake"
+    },
+    {
+      "location": "html, paragraph beginning “Tusiruhusu nyoka”",
+      "severity": "major",
+      "source_quote": "We reap what we sow",
+      "suggested_fix": "Replace “Tunalima kile tunachopanda” with “Tunavuna tunachopanda”.",
+      "translation_quote": "Tunalima kile tunachopanda"
+    },
+    {
+      "location": "html, paragraph beginning “Tunaweza kujaza vichwa”",
+      "severity": "major",
+      "source_quote": "if we are not quickened by the Spirit of God",
+      "suggested_fix": "Replace “ikiwa hatutorodheshwa na Roho wa Mungu” with “ikiwa hatuhuishwi na Roho wa Mungu”.",
+      "translation_quote": "ikiwa hatutorodheshwa na Roho wa Mungu"
+    },
+    {
+      "location": "html, figure/img/@alt",
+      "severity": "major",
+      "source_quote": "A pale crocus blooming through melting snow",
+      "suggested_fix": "Replace the alt value with “Ua la krokasi lenye rangi hafifu likichanua kupitia theluji inayoyeyuka”, preserving the img element and src.",
+      "translation_quote": "Krokasi mwepesi ikicheza kupitia theluji inayoyeyuka"
+    }
+  ],
+  "finished_at": "2026-10-15T22:48:56+00:00",
   "id": "21c2fc37697c12e4a8cc664d31180775",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "swa",
@@ -98,9 +332,11 @@
     }
   },
   "protected": false,
+  "quality_score": 42,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/fd006f3144de976329b408867c5ed33ed80fe393c62d7c79f01f54f10a8134c7.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +351,7 @@
     "total_reserved_usd": 0.773639,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 0,
   "translation_key": "d14a8e9ac7f4c07525900d0c21ec1a6c29c2da40405328d077639b18af091bf1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
