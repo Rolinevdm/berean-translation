@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "62435510d01246f9b5dfc4e7bcd315a0",
   "campaign": "auto-1b970499185e68b758e36c972874c3c2caf320c9ef37cfaf6467b2cd81d8b9ec",
   "created_at": "2026-10-14T20:11:11+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 1274
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 587,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1628,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 525,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2215
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "God’s People Keep Singing",
+      "suggested_fix": "עמו של אלוהים ממשיך לשיר",
+      "translation_quote": "עם אלוהים ממשיך לשיר"
+    }
+  ],
+  "finished_at": "2026-10-15T01:25:41+00:00",
   "id": "5e1e10555b31353e57212a7005bad62a",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "heb",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b01ef8fb9274a702009bbd9db8596ed2bfb9c22d9cf2d5933fc5b1a8b540e041.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.085823,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "30af25731bcf2eb143bc6ad52b144bc028692b48c5877f22b07a359293b2a8c2",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7d96fa8a-3185-4b4a-a222-5a6fd18ea69f",
+    "response_id": "chatcmpl-EZ2dRcU48zvwgvCULcDPfpsASoJLu",
+    "usage": {
+      "completion_tokens": 587,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1628,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 525,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2215
+    }
+  },
+  "received_at": "2026-10-15T01:25:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "God’s People Keep Singing",
+        "suggested_fix": "עמו של אלוהים ממשיך לשיר",
+        "translation_quote": "עם אלוהים ממשיך לשיר"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

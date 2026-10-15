@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "God’s People Keep Singing",
+      "suggested_fix": "עמו של אלוהים ממשיך לשיר",
+      "translation_quote": "עם אלוהים ממשיך לשיר"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
