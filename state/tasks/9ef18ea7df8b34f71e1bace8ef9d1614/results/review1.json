@@ -1,0 +1,101 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "d705c8be-51b6-4eae-8e96-b3f987603f2a",
+    "response_id": "chatcmpl-EZOTsf5ZLwQbHOqvLrEusT6DPxI3K",
+    "usage": {
+      "completion_tokens": 1364,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 59,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6434,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5331,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7798
+    }
+  },
+  "received_at": "2026-10-15T22:48:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html، الفقرة تحت «…الاستسلام غير المشروط»، الاقتباس من متى",
+        "severity": "major",
+        "source_quote": "…For my yoke is easy, and my burden is light –Matthew 11:28-30.",
+        "suggested_fix": "استبدل نص الاقتباس داخل وسم <em> بـ «…لأن نيري هيّن وحملي خفيف — متى 11:28-30.» مع إبقاء الوسم والمرجع في موضعهما.",
+        "translation_quote": "…لأني وديع ومتواضع القلب. تعالوا إليّ أنتم جميع المتعبين والثقال الأحمال، وأنا أريحكم — متى 11:28-30."
+      },
+      {
+        "location": "translation.html، فقرة بولس وسيلا تحت «…اعبد الرب»",
+        "severity": "major",
+        "source_quote": "secured in stocks",
+        "suggested_fix": "استبدل «وكبّلا بالأكباش» بـ «وقُيِّدت أرجلهما في المقطرة».",
+        "translation_quote": "وكبّلا بالأكباش"
+      },
+      {
+        "location": "translation.html، الفقرة الثانية تحت «…المغفرة»",
+        "severity": "major",
+        "source_quote": "After all, he or she is not in bondage to us.",
+        "suggested_fix": "استبدل الجملة بـ «ففي نهاية المطاف، ليس المسيء أسيراً لدينا.» للحفاظ على معنى الأسر لا التبعية.",
+        "translation_quote": "فبعد كل شيء، هو أو هي ليسوا أتباعاً لنا."
+      },
+      {
+        "location": "translation.section",
+        "severity": "major",
+        "source_quote": "Inspirations for Youth",
+        "suggested_fix": "ترجم اسم القسم إلى «إلهامات للشباب».",
+        "translation_quote": "Inspirations for Youth"
+      },
+      {
+        "location": "translation.html، الفقرة الثالثة، ظهور الوحش",
+        "severity": "major",
+        "source_quote": "not thirty paces before him, the dreaded beast he so tremendously feared crept out of the bushes and turned to face him",
+        "suggested_fix": "استبدل المقطع بـ «وفي الظلام المتزايد شاهد بيتو الوحش المخيف الذي كان يخشاه بشدة يتسلل من الشجيرات على بُعد أقل من ثلاثين خطوة أمامه ويستدير ليواجهه!»",
+        "translation_quote": "وفي الظلام المتراكم شاهد بيتو، ليس على بُعد ثلاثين خطوة منه فحسب، بل خرج الوحش المخيف الذي كان يخشاه بشدة من الشجيرات واستدار ليلتقِيه!"
+      },
+      {
+        "location": "translation.html، الفقرة الثالثة، تعثّر بيتو",
+        "severity": "minor",
+        "source_quote": "Beto tripped on a vine",
+        "suggested_fix": "استبدل «تعثر بيتو في لية» بـ «تعثّر بيتو بنبتة متسلقة».",
+        "translation_quote": "تعثر بيتو في لية"
+      },
+      {
+        "location": "translation.html، الفقرة الأولى تحت «…المغفرة»",
+        "severity": "minor",
+        "source_quote": "When we’ve been wronged, we know that we should forgive the person who wronged us",
+        "suggested_fix": "استبدل «عندما يتعرّضون للظلم» بـ «عندما نتعرّض للظلم» للمحافظة على ضمير المتكلم واتساق الجملة.",
+        "translation_quote": "عندما يتعرّضون للظلم، نعلم أنه ينبغي علينا أن نغفر لمن أساء إلينا"
+      },
+      {
+        "location": "translation.html، فقرة الصلاة تحت «2. اتركه»",
+        "severity": "minor",
+        "source_quote": "Make a point of telling God that you choose to forgive the offender.",
+        "suggested_fix": "استبدل «اجعل من العادة أن تخبر الله» بـ «احرص على أن تخبر الله»؛ فالمقصود التأكيد على فعل ذلك، لا جعله عادة.",
+        "translation_quote": "اجعل من العادة أن تخبر الله بأنك تختار أن تغفر للمسيء."
+      },
+      {
+        "location": "translation.html، فقرة بولس وسيلا تحت «…اعبد الرب»، صيغ الأفعال",
+        "severity": "minor",
+        "source_quote": "After they had healed a demon-possessed girl … they prayed and sang praises to God! … a God Whom they loved and trusted.",
+        "suggested_fix": "صحّح «شفىا» إلى «شفيا»، و«أنشديا» إلى «أنشدا»، و«لإله أحبا وثقا به» إلى «لإله أحبّاه ووثقا به».",
+        "translation_quote": "بعد أن شفىا فتاة ممسوسة … صلَّيا وأنشديا تسابيح لله! … لإله أحبا وثقا به."
+      },
+      {
+        "location": "translation.html، الفقرة الختامية",
+        "severity": "minor",
+        "source_quote": "bring your burden to the Lord, put it all in His hands, and let it go!",
+        "suggested_fix": "استبدل «أحضروا حزناًكم إلى الرب» بـ «أحضِروا عبئكم إلى الرب» للحفاظ على صورة العبء، التي تشمل هموم الحياة ولا تقتصر على الحزن، وتصحيح الصياغة.",
+        "translation_quote": "أحضروا حزناًكم إلى الرب، وضعوه كله في يديه، واتركوه!"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 83
+  }
+}

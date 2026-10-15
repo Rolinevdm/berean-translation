@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T22:48:59+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html، الفقرة تحت «…الاستسلام غير المشروط»، الاقتباس من متى\",\n      \"severity\": \"major\",\n      \"source_quote\": \"…For my yoke is easy, and my burden is light –Matthew 11:28-30.\",\n      \"suggested_fix\": \"استبدل نص الاقتباس داخل وسم <em> بـ «…لأن نيري هيّن وحملي خفيف — متى 11:28-30.» مع إبقاء الوسم والمرجع في موضعهما.\",\n      \"translation_quote\": \"…لأني وديع ومتواضع القلب. تعالوا إليّ أنتم جميع المتعبين والثقال الأحمال، وأنا أريحكم — متى 11:28-30.\"\n    },\n    {\n      \"location\": \"translation.html، فقرة بولس وسيلا تحت «…اعبد الرب»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"secured in stocks\",\n      \"suggested_fix\": \"استبدل «وكبّلا بالأكباش» بـ «وقُيِّدت أرجلهما في المقطرة».\",\n      \"translation_quote\": \"وكبّلا بالأكباش\"\n    },\n    {\n      \"location\": \"translation.html، الفقرة الثانية تحت «…المغفرة»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"After all, he or she is not in bondage to us.\",\n      \"suggested_fix\": \"استبدل الجملة بـ «ففي نهاية المطاف، ليس المسيء أسيراً لدينا.» للحفاظ على معنى الأسر لا التبعية.\",\n      \"translation_quote\": \"فبعد كل شيء، هو أو هي ليسوا أتباعاً لنا.\"\n    },\n    {\n      \"location\": \"translation.section\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Inspirations for Youth\",\n      \"suggested_fix\": \"ترجم اسم القسم إلى «إلهامات للشباب».\",\n      \"translation_quote\": \"Inspirations for Youth\"\n    },\n    {\n      \"location\": \"translation.html، الفقرة الثالثة، ظهور الوحش\",\n      \"severity\": \"major\",\n      \"source_quote\": \"not thirty paces before him, the dreaded beast he so tremendously feared crept out of the bushes and turned to face him\",\n      \"suggested_fix\": \"استبدل المقطع بـ «وفي الظلام المتزايد شاهد بيتو الوحش المخيف الذي كان يخشاه بشدة يتسلل من الشجيرات على بُعد أقل من ثلاثين خطوة أمامه ويستدير ليواجهه!»\",\n      \"translation_quote\": \"وفي الظلام المتراكم شاهد بيتو، ليس على بُعد ثلاثين خطوة منه فحسب، بل خرج الوحش المخيف الذي كان يخشاه بشدة من الشجيرات واستدار ليلتقِيه!\"\n    },\n    {\n      \"location\": \"translation.html، الفقرة الثالثة، تعثّر بيتو\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Beto tripped on a vine\",\n      \"suggested_fix\": \"استبدل «تعثر بيتو في لية» بـ «تعثّر بيتو بنبتة متسلقة».\",\n      \"translation_quote\": \"تعثر بيتو في لية\"\n    },\n    {\n      \"location\": \"translation.html، الفقرة الأولى تحت «…المغفرة»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"When we’ve been wronged, we know that we should forgive the person who wronged us\",\n      \"suggested_fix\": \"استبدل «عندما يتعرّضون للظلم» بـ «عندما نتعرّض للظلم» للمحافظة على ضمير المتكلم واتساق الجملة.\",\n      \"translation_quote\": \"عندما يتعرّضون للظلم، نعلم أنه ينبغي علينا أن نغفر لمن أساء إلينا\"\n    },\n    {\n      \"location\": \"translation.html، فقرة الصلاة تحت «2. اتركه»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Make a point of telling God that you choose to forgive the offender.\",\n      \"suggested_fix\": \"استبدل «اجعل من العادة أن تخبر الله» بـ «احرص على أن تخبر الله»؛ فالمقصود التأكيد على فعل ذلك، لا جعله عادة.\",\n      \"translation_quote\": \"اجعل من العادة أن تخبر الله بأنك تختار أن تغفر للمسيء.\"\n    },\n    {\n      \"location\": \"translation.html، فقرة بولس وسيلا تحت «…اعبد الرب»، صيغ الأفعال\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"After they had healed a demon-possessed girl … they prayed and sang praises to God! … a God Whom they loved and trusted.\",\n      \"suggested_fix\": \"صحّح «شفىا» إلى «شفيا»، و«أنشديا» إلى «أنشدا»، و«لإله أحبا وثقا به» إلى «لإله أحبّاه ووثقا به».\",\n      \"translation_quote\": \"بعد أن شفىا فتاة ممسوسة … صلَّيا وأنشديا تسابيح لله! … لإله أحبا وثقا به.\"\n    },\n    {\n      \"location\": \"translation.html، الفقرة الختامية\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"bring your burden to the Lord, put it all in His hands, and let it go!\",\n      \"suggested_fix\": \"استبدل «أحضروا حزناًكم إلى الرب» بـ «أحضِروا عبئكم إلى الرب» للحفاظ على صورة العبء، التي تشمل هموم الحياة ولا تقتصر على الحزن، وتصحيح الصياغة.\",\n      \"translation_quote\": \"أحضروا حزناًكم إلى الرب، وضعوه كله في يديه، واتركوه!\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 83\n}",
+    "content_bytes": 5626,
+    "content_evidence_truncated": false,
+    "content_sha256": "6cb957cbc57441af5330fae079ff1a9a18fa1d0bdd8f78f4687a7aff493a2e8d",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1364,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 59,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6434,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5331,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7798
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
