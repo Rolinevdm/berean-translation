@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bbfe1bf3-fd3f-4332-be8e-abb8964cda95",
+    "response_id": "chatcmpl-EZOSj72ovKnpYR56uY0HC5hKkHuBJ",
+    "usage": {
+      "completion_tokens": 344,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1057,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1054,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1401
+    }
+  },
+  "received_at": "2026-10-15T22:48:43+00:00",
+  "result": {
+    "html": "<article data-article-id=\"e7fba858-3c29-42c7-ae42-198541696da3\">\n  <p>এই সহজ পরীক্ষায়, বিভিন্ন ভাষায় কথা বলা সম্পর্কে বাইবেল কী বলে, তা নিয়ে আমরা কয়েকটি প্রশ্ন করব। উত্তরগুলো এতই স্পষ্ট যে আমরা সেগুলো দেব না। উত্তরগুলো নিয়ে <strong>ভাবুন</strong>।</p>\n\n  <ol>\n    <li>যিশু বলেছিলেন, আমরা তাদের চিনব তাদের (ফল, দান) দেখে।</li>\n    <li>আমাদের আত্মায় পরিপূর্ণ হতে উৎসাহিত করা হয়েছে, নিজেদের সঙ্গে (বিভিন্ন ভাষায়, গীত ও স্তোত্র এবং আধ্যাত্মিক গানে) কথা বলতে বলতে।</li>\n    <li>বিভিন্ন ভাষায় কথা বলা একটি চিহ্ন (বিশ্বাসীর জন্য, অবিশ্বাসীর জন্য)।</li>\n    <li>পৌল যখন প্রশ্ন করেছিলেন, “সবাই কি বিভিন্ন ভাষায় কথা বলে?” তখন অন্তর্নিহিত উত্তরটি ছিল (হ্যাঁ, না)।</li>\n    <li>প্রেরিত ২ অধ্যায়ের অবিশ্বাসীদের, বিভিন্ন ভাষায় কথা বলা ব্যক্তিরা কী বলছিলেন তা বুঝতে (একজন অনুবাদকের প্রয়োজন ছিল, অনুবাদকের প্রয়োজন ছিল না)।</li>\n  </ol>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "বিভিন্ন ভাষায় কথা বলার পরীক্ষা"
+  }
+}
