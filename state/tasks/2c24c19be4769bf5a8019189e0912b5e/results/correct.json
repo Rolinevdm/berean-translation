@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "eaa501a0-d2af-42f1-9fc1-006d9455888f",
+    "response_id": "chatcmpl-EZLUrxhlXRN0zC0lSHR7LnYh4fNPZ",
+    "usage": {
+      "completion_tokens": 665,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 243,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1734,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1731,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2399
+    }
+  },
+  "received_at": "2026-10-15T19:37:09+00:00",
+  "result": {
+    "html": "<article data-article-id=\"4fa4c74d-d2b0-433f-8108-15ed3ef8a9db\">\n  <div class=\"poem\">\n    <p><strong>أزعجنا يا رب،</strong> حين<br>\n    نكون راضين عن أنفسنا أكثر مما ينبغي؛<br>\n    حين تتحقق أحلامنا<br>\n    لأننا حلمنا بأقل مما ينبغي؛<br>\n    حين نصل سالمين<br>\n    لأننا أبحرنا قريبًا جدًا من الشاطئ.<br>\n    أزعجنا يا رب، حين<br>\n    بسبب وفرة ما نملك<br>\n    نفقد عطشنا<br>\n    إلى مياه الحياة؛<br>\n    وبعد أن وقعنا في حب الحياة،<br>\n    كففنا عن الحلم بالأبدية؛<br>\n    وفي سعينا إلى بناء أرض جديدة،<br>\n    سمحنا لرؤيتنا<br>\n    للسماء الجديدة أن تخبو.<br>\n    أزعجنا يا رب، لكي نتجرأ أكثر،<br>\n    ونخوض غمار بحار أوسع،<br>\n    حيث تُظهر العواصف سلطانك؛<br>\n    وحيث، حين يغيب عن أنظارنا البر،<br>\n    نجد النجوم.</p>\n\n    <p>نسألك أن توسّع<br>\n    آفاق آمالنا؛<br>\n    وأن تدفعنا إلى المستقبل<br>\n    بقوة وشجاعة وأمل ومحبة.</p>\n  </div>\n\n  <p class=\"byline\">~السير فرانسيس دريك 1577</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "أزعجنا يا رب"
+  }
+}
