@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, अंतिम अनुच्छेद, यशायाह 61:1-3 का उद्धरण",
+      "severity": "major",
+      "source_quote": "the LORD hath anointed me to preach good tidings unto the meek",
+      "suggested_fix": "“यहोवा ने कंगालों को सुसमाचार सुनाने के लिए मेरा अभिषेक किया है” को “यहोवा ने नम्र लोगों को सुसमाचार सुनाने के लिए मेरा अभिषेक किया है” करें।",
+      "translation_quote": "यहोवा ने कंगालों को सुसमाचार सुनाने के लिए मेरा अभिषेक किया है"
+    },
+    {
+      "location": "translation.html, आत्मविश्वास की परिभाषा वाला अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "We see this self-confidence all around us.",
+      "suggested_fix": "वाक्य को “हम अपने चारों ओर स्वयं पर यह भरोसा देखते हैं।” करें। आत्मनिर्भरता का अर्थ अपने संसाधनों पर निर्भर रहना है, जबकि यहाँ विषय स्वयं पर विश्वास करना है।",
+      "translation_quote": "हम अपने चारों ओर इस आत्मनिर्भरता को देखते हैं।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T01:25:51+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, अंतिम अनुच्छेद, यशायाह 61:1-3 का उद्धरण\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the LORD hath anointed me to preach good tidings unto the meek\",\n      \"suggested_fix\": \"“यहोवा ने कंगालों को सुसमाचार सुनाने के लिए मेरा अभिषेक किया है” को “यहोवा ने नम्र लोगों को सुसमाचार सुनाने के लिए मेरा अभिषेक किया है” करें।\",\n      \"translation_quote\": \"यहोवा ने कंगालों को सुसमाचार सुनाने के लिए मेरा अभिषेक किया है\"\n    },\n    {\n      \"location\": \"translation.html, आत्मविश्वास की परिभाषा वाला अनुच्छेद\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"We see this self-confidence all around us.\",\n      \"suggested_fix\": \"वाक्य को “हम अपने चारों ओर स्वयं पर यह भरोसा देखते हैं।” करें। आत्मनिर्भरता का अर्थ अपने संसाधनों पर निर्भर रहना है, जबकि यहाँ विषय स्वयं पर विश्वास करना है।\",\n      \"translation_quote\": \"हम अपने चारों ओर इस आत्मनिर्भरता को देखते हैं।\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1776,
+    "content_evidence_truncated": false,
+    "content_sha256": "4b714e9f3dd5b415c0ae91b27079d1f4a30c45153cacf6a8e7ddf2e85c823b64",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 448,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 133,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9043,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7940,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9491
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

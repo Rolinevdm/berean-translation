@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "58b9ecd8-e82e-4e66-a5dd-438f2f30f2e0",
+    "response_id": "chatcmpl-EZ2pBJLWY6iinh577aXSwgsPIoE69",
+    "usage": {
+      "completion_tokens": 448,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 133,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9043,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7940,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9491
+    }
+  },
+  "received_at": "2026-10-15T01:25:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, अंतिम अनुच्छेद, यशायाह 61:1-3 का उद्धरण",
+        "severity": "major",
+        "source_quote": "the LORD hath anointed me to preach good tidings unto the meek",
+        "suggested_fix": "“यहोवा ने कंगालों को सुसमाचार सुनाने के लिए मेरा अभिषेक किया है” को “यहोवा ने नम्र लोगों को सुसमाचार सुनाने के लिए मेरा अभिषेक किया है” करें।",
+        "translation_quote": "यहोवा ने कंगालों को सुसमाचार सुनाने के लिए मेरा अभिषेक किया है"
+      },
+      {
+        "location": "translation.html, आत्मविश्वास की परिभाषा वाला अनुच्छेद",
+        "severity": "minor",
+        "source_quote": "We see this self-confidence all around us.",
+        "suggested_fix": "वाक्य को “हम अपने चारों ओर स्वयं पर यह भरोसा देखते हैं।” करें। आत्मनिर्भरता का अर्थ अपने संसाधनों पर निर्भर रहना है, जबकि यहाँ विषय स्वयं पर विश्वास करना है।",
+        "translation_quote": "हम अपने चारों ओर इस आत्मनिर्भरता को देखते हैं।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
