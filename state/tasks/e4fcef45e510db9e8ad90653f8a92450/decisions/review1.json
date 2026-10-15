@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "भजन संहिता 144:11-15 वाला अनुच्छेद; दूसरी आकृति का alt और caption",
+      "severity": "major",
+      "source_quote": "“daughters being cornerstones, polished in the likeness of a palace” and “Cornerstones ... help to hold up the roof of a building.”",
+      "suggested_fix": "इस रूपक में “कोने के खंभे” के स्थान पर “कोने के पत्थर” रखें। उदाहरण: अनुच्छेद में “बेटियों को महल की समानता में तराशे हुए कोने के पत्थरों के समान” और caption में “कोने के पत्थर ... इमारत की छत को थामने में सहायता करते हैं।” Alt में भी “कोने के पत्थर” करें।",
+      "translation_quote": "“बेटियों को महल की समानता में तराशे हुए कोने के खंभों के समान” और “कोने के खंभे ... इमारत की छत को थामने में सहायता करते हैं।” Alt: “ईंटों की दीवार में कोने के खंभे का रेखाचित्र”"
+    },
+    {
+      "location": "“Learn all that you can about being a woman of God.” वाला अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "“Learn all that you can about being a woman of God.”",
+      "suggested_fix": "“परमेश्वर की भक्त स्त्री बनने के विषय में जितना हो सके सीखें।”",
+      "translation_quote": "“परमेश्वर की स्त्री होने के विषय में जितना हो सके सीखें।”"
+    },
+    {
+      "location": "भजन संहिता 144:11-15 वाला अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "“Think on that, will you?”",
+      "suggested_fix": "“इस पर विचार कीजिए।”",
+      "translation_quote": "“इस पर विचार करेंगी?”"
+    },
+    {
+      "location": "अंतिम अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "“as God tarries.”",
+      "suggested_fix": "“जब तक परमेश्वर आने में विलंब करता है” के बजाय अधिक स्वाभाविक रूप से “जब तक प्रभु के आने में देर है” लिखें।",
+      "translation_quote": "“जब तक परमेश्वर विलंब करता है।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

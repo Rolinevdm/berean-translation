@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "53e778a4e4a5411894891672aaf4eff6",
   "campaign": "auto-902d49d9c436f384852a434c50ed7cbb318ab805c9a16392a1a1817a63451b9f",
   "created_at": "2026-10-15T11:46:05+00:00",
   "events": [
@@ -28,10 +27,59 @@
         },
         "total_tokens": 7556
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1441,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 939,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7910,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6807,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9351
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "भजन संहिता 144:11-15 वाला अनुच्छेद; दूसरी आकृति का alt और caption",
+      "severity": "major",
+      "source_quote": "“daughters being cornerstones, polished in the likeness of a palace” and “Cornerstones ... help to hold up the roof of a building.”",
+      "suggested_fix": "इस रूपक में “कोने के खंभे” के स्थान पर “कोने के पत्थर” रखें। उदाहरण: अनुच्छेद में “बेटियों को महल की समानता में तराशे हुए कोने के पत्थरों के समान” और caption में “कोने के पत्थर ... इमारत की छत को थामने में सहायता करते हैं।” Alt में भी “कोने के पत्थर” करें।",
+      "translation_quote": "“बेटियों को महल की समानता में तराशे हुए कोने के खंभों के समान” और “कोने के खंभे ... इमारत की छत को थामने में सहायता करते हैं।” Alt: “ईंटों की दीवार में कोने के खंभे का रेखाचित्र”"
+    },
+    {
+      "location": "“Learn all that you can about being a woman of God.” वाला अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "“Learn all that you can about being a woman of God.”",
+      "suggested_fix": "“परमेश्वर की भक्त स्त्री बनने के विषय में जितना हो सके सीखें।”",
+      "translation_quote": "“परमेश्वर की स्त्री होने के विषय में जितना हो सके सीखें।”"
+    },
+    {
+      "location": "भजन संहिता 144:11-15 वाला अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "“Think on that, will you?”",
+      "suggested_fix": "“इस पर विचार कीजिए।”",
+      "translation_quote": "“इस पर विचार करेंगी?”"
+    },
+    {
+      "location": "अंतिम अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "“as God tarries.”",
+      "suggested_fix": "“जब तक परमेश्वर आने में विलंब करता है” के बजाय अधिक स्वाभाविक रूप से “जब तक प्रभु के आने में देर है” लिखें।",
+      "translation_quote": "“जब तक परमेश्वर विलंब करता है।”"
+    }
+  ],
   "id": "e4fcef45e510db9e8ad90653f8a92450",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "hin",
@@ -120,11 +168,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a20612fec48fd2645f4f393ee7307fca206c8bc3bb386a84f7b8db84cbb6e84e.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +188,7 @@
     "total_reserved_usd": 0.089484,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "144a2f28ba895f9d80bb30e6df0ffeb8b1edd4259cc5b4ccd46a35db6f476235",
   "translation_model_actual": "gpt-6-luna"
