@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f5cafda4-fe96-4435-b6d5-561c758d98e3",
+    "response_id": "chatcmpl-EZ4ajU6TXVqcvrFWJ3uCavtwdGqQ1",
+    "usage": {
+      "completion_tokens": 498,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 386,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2224,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2221,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2722
+    }
+  },
+  "received_at": "2026-10-15T01:35:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Siste strofe, siste linje",
+        "severity": "minor",
+        "source_quote": "If we don’t live our lives by GOD’S SAVING GRACE.",
+        "suggested_fix": "hvis vi ikke lever våre liv ved GUDS FRELENDE NÅDE.",
+        "translation_quote": "hvis vi ikke lever våre liv ved GUDS FRELSE NÅDE."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}

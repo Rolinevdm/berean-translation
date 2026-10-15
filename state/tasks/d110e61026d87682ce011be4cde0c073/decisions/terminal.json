@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Siste strofe, siste linje",
+      "severity": "minor",
+      "source_quote": "If we don’t live our lives by GOD’S SAVING GRACE.",
+      "suggested_fix": "hvis vi ikke lever våre liv ved GUDS FRELENDE NÅDE.",
+      "translation_quote": "hvis vi ikke lever våre liv ved GUDS FRELSE NÅDE."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

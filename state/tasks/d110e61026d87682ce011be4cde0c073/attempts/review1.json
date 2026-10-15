@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T01:35:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Siste strofe, siste linje\",\"severity\":\"minor\",\"source_quote\":\"If we don’t live our lives by GOD’S SAVING GRACE.\",\"suggested_fix\":\"hvis vi ikke lever våre liv ved GUDS FRELENDE NÅDE.\",\"translation_quote\":\"hvis vi ikke lever våre liv ved GUDS FRELSE NÅDE.\"}],\"findings_complete\":true,\"passed\":true,\"score\":96}",
+    "content_bytes": 341,
+    "content_evidence_truncated": false,
+    "content_sha256": "a7226dc29bddc8d5989b13712306a9b6cef055452efc812aecbed64ac63b4d81",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 498,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 386,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2224,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2221,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2722
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
