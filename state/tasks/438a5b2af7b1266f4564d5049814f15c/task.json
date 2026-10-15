@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ed98fdb79e564b5dafb9b3939d4477df",
   "campaign": "auto-70626ffe22d891d5159c7144acd37803306a8ee1f696652198a90b20074dd961",
   "created_at": "2026-10-15T13:23:41+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 7169
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 802,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 663,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7523,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7520,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8325
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning « Le monde n’a rien de durable à vous offrir »",
+      "severity": "minor",
+      "source_quote": "“a 9-5 job”",
+      "suggested_fix": "Remplacer « travailler chaque jour de 9 h à 17 h » par « travailler chaque jour de 9 h à 5 h » afin de conserver l’heure imprimée sans ajouter de période non précisée.",
+      "translation_quote": "« travailler chaque jour de 9 h à 17 h »"
+    }
+  ],
+  "finished_at": "2026-10-15T18:16:43+00:00",
   "id": "438a5b2af7b1266f4564d5049814f15c",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "fra",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/834fae9d55c0afbbda3385d9e10a61ebbc21adede9b9b4162a31d397a71bfd14.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.089484,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "144a2f28ba895f9d80bb30e6df0ffeb8b1edd4259cc5b4ccd46a35db6f476235",
   "translation_model_actual": "gpt-6-luna"

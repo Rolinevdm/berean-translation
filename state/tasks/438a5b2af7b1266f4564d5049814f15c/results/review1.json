@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "57c04a71-8d55-407b-803b-86b8fc4d4f72",
+    "response_id": "chatcmpl-EZInN02Haoz67csoBWgDu0UUUPrlz",
+    "usage": {
+      "completion_tokens": 802,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 663,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7523,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7520,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8325
+    }
+  },
+  "received_at": "2026-10-15T18:16:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning « Le monde n’a rien de durable à vous offrir »",
+        "severity": "minor",
+        "source_quote": "“a 9-5 job”",
+        "suggested_fix": "Remplacer « travailler chaque jour de 9 h à 17 h » par « travailler chaque jour de 9 h à 5 h » afin de conserver l’heure imprimée sans ajouter de période non précisée.",
+        "translation_quote": "« travailler chaque jour de 9 h à 17 h »"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
