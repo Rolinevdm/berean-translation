@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a311f2849cb7401b94b1667ed654f2b2",
   "campaign": "auto-2098dc7f52e1cab6ca2ba841689d26fbd6c7b1717ea4397a8e670bea86c1c80a",
   "created_at": "2026-10-14T22:24:31+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 12456
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 76,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 44,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8363,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7260,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8439
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Dernier paragraphe, citation d’Ésaïe 61:1-3",
-      "severity": "major",
-      "source_quote": "to preach good tidings unto the meek",
-      "suggested_fix": "Remplacer « porter de bonnes nouvelles aux malheureux » par « porter de bonnes nouvelles aux humbles ».",
-      "translation_quote": "porter de bonnes nouvelles aux malheureux"
-    },
-    {
-      "location": "Paragraphe commençant par « Est-ce là la réponse », citation d’Éphésiens 5:25-27",
-      "severity": "minor",
-      "source_quote": "with the washing of water by the word",
-      "suggested_fix": "Remplacer « par le bain d’eau et la parole » par « par le bain d’eau, au moyen de la parole ».",
-      "translation_quote": "par le bain d’eau et la parole"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-15T01:44:44+00:00",
   "id": "a0e138f4fd9daceb977f99f94429b9c8",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "fra",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.761575,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "94f14fd3a9ce5a4b7f98c3ed867384ea53fbe977fb36e96d26fbd857975376fd",
   "translation_model_actual": "gpt-6.1-sol"
