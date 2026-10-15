@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T11:53:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html: heading «کیا ’’بادشاہی‘‘ اور ’’کلیسیا‘‘ ایک دوسرے کے بدل کے طور پر استعمال ہو سکتے ہیں؟» کے بعد پہلا پیراگراف\",\"severity\":\"minor\",\"source_quote\":\"The kingdom is not, as contemporary usage would almost have us think, a generic version of, or a substitute word for, the church.\",\"suggested_fix\":\"اس جملے میں تکرار ختم کریں: «بادشاہی، جیسا کہ آج کل کا استعمال ہمیں تقریباً یہی سمجھنے پر آمادہ کرتا ہے، نہ کلیسیا <strong>کی</strong> کوئی عمومی صورت ہے، نہ اس <strong>کے لیے</strong> کوئی متبادل لفظ؛ بادشاہی کلیسیا <strong>نہیں</strong> ہے۔»\",\"translation_quote\":\"بادشاہی، جیسا کہ آج کل کا استعمال ہمیں تقریباً یہی سمجھنے پر آمادہ کرتا ہے، کلیسیا کی کوئی عمومی صورت یا اس کا متبادل لفظ <strong>نہیں</strong> ہے؛ نہ یہ کلیسیا <strong>کی</strong> عام صورت ہے، نہ اس <strong>کے لیے</strong> متبادل لفظ۔\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 1270,
+    "content_evidence_truncated": false,
+    "content_sha256": "6a739b913e009417ed580b8d3cb54494c8ca39f9cd99b29c7a02c7c8bf2800f9",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 347,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 65,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10639,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9536,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10986
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: heading «کیا ’’بادشاہی‘‘ اور ’’کلیسیا‘‘ ایک دوسرے کے بدل کے طور پر استعمال ہو سکتے ہیں؟» کے بعد پہلا پیراگراف",
+      "severity": "minor",
+      "source_quote": "The kingdom is not, as contemporary usage would almost have us think, a generic version of, or a substitute word for, the church.",
+      "suggested_fix": "اس جملے میں تکرار ختم کریں: «بادشاہی، جیسا کہ آج کل کا استعمال ہمیں تقریباً یہی سمجھنے پر آمادہ کرتا ہے، نہ کلیسیا <strong>کی</strong> کوئی عمومی صورت ہے، نہ اس <strong>کے لیے</strong> کوئی متبادل لفظ؛ بادشاہی کلیسیا <strong>نہیں</strong> ہے۔»",
+      "translation_quote": "بادشاہی، جیسا کہ آج کل کا استعمال ہمیں تقریباً یہی سمجھنے پر آمادہ کرتا ہے، کلیسیا کی کوئی عمومی صورت یا اس کا متبادل لفظ <strong>نہیں</strong> ہے؛ نہ یہ کلیسیا <strong>کی</strong> عام صورت ہے، نہ اس <strong>کے لیے</strong> متبادل لفظ۔"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
