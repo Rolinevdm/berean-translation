@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Section 2: James quotations and the paragraph beginning “Fråga dig alltså”",
+      "severity": "major",
+      "source_quote": "“bitter envying and strife in your hearts” (Ja. 3:13-14); “where envying and strife is” (vss. 15-16); “Is there envy or strife or confusion in my heart?”",
+      "suggested_fix": "Translate “strife” as “strid” or an equivalent consistently: for example, “bitter avund och strid i era hjärtan”, “där avund och strid finns” and “Finns det avund, strid eller oordning i mitt hjärta?”",
+      "translation_quote": "“bitter avund och själviskhet i era hjärtan”; “där avund och själviskhet finns”; “Finns det avund, själviskhet eller oordning i mitt hjärta?”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

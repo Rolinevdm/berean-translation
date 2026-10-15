@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9d7c728d-9805-4858-a83e-49cae687786e",
+    "response_id": "chatcmpl-EZO2aomwIYMAwwx7UJNmfmVr0cpYc",
+    "usage": {
+      "completion_tokens": 859,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 619,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7489,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6386,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8348
+    }
+  },
+  "received_at": "2026-10-15T22:19:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Section 2: James quotations and the paragraph beginning “Fråga dig alltså”",
+        "severity": "major",
+        "source_quote": "“bitter envying and strife in your hearts” (Ja. 3:13-14); “where envying and strife is” (vss. 15-16); “Is there envy or strife or confusion in my heart?”",
+        "suggested_fix": "Translate “strife” as “strid” or an equivalent consistently: for example, “bitter avund och strid i era hjärtan”, “där avund och strid finns” and “Finns det avund, strid eller oordning i mitt hjärta?”",
+        "translation_quote": "“bitter avund och själviskhet i era hjärtan”; “där avund och själviskhet finns”; “Finns det avund, själviskhet eller oordning i mitt hjärta?”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

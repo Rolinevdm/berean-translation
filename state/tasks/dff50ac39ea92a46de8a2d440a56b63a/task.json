@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0305a0b44b534af8a2dc49c4af7754b3",
   "campaign": "auto-f88ec256e71bb9d804c146d4413529c88cefed42d8683b989c5ac447cf593f83",
   "created_at": "2026-10-12T06:44:25+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 7135
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 859,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 619,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7489,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6386,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8348
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Section 2: James quotations and the paragraph beginning “Fråga dig alltså”",
+      "severity": "major",
+      "source_quote": "“bitter envying and strife in your hearts” (Ja. 3:13-14); “where envying and strife is” (vss. 15-16); “Is there envy or strife or confusion in my heart?”",
+      "suggested_fix": "Translate “strife” as “strid” or an equivalent consistently: for example, “bitter avund och strid i era hjärtan”, “där avund och strid finns” and “Finns det avund, strid eller oordning i mitt hjärta?”",
+      "translation_quote": "“bitter avund och själviskhet i era hjärtan”; “där avund och själviskhet finns”; “Finns det avund, själviskhet eller oordning i mitt hjärta?”"
+    }
+  ],
   "id": "dff50ac39ea92a46de8a2d440a56b63a",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swe",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/06937d43d82edf4dbc71110987ff1d03b1c2cad3babb7a679114389a1b114e86.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.089375,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
   "translation_model_actual": "gpt-6-luna"
