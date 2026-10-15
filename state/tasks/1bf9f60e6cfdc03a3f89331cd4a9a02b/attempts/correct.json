@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T19:28:23+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"4fa4c74d-d2b0-433f-8108-15ed3ef8a9db\\\">\\n  <div class=\\\"poem\\\">\\n    <p><strong>主啊，求你搅扰我们，</strong>当<br>\\n    我们对自己过于满意时；<br>\\n    当我们的梦想已经实现，<br>\\n    只因我们梦想得太少；<br>\\n    当我们平安抵达，<br>\\n    只因我们航行得离岸太近。<br>\\n    主啊，求你搅扰我们，当<br>\\n    我们拥有丰盛的财物，<br>\\n    却失去了对生命之水的渴慕，<br>\\n    不再渴求生命之水；<br>\\n    当我们爱上了生命，<br>\\n    不再梦想永恒；<br>\\n    当我们努力建造新地，<br>\\n    却任由我们对新天的异象<br>\\n    渐渐模糊。<br>\\n    主啊，求你搅扰我们，使我们更勇敢地冒险，<br>\\n    驶向更辽阔的海洋，<br>\\n    让风暴显明你的掌管；<br>\\n    当我们望不见陆地，<br>\\n    我们便会找到星辰。</p>\\n\\n    <p>我们求你拓宽<br>\\n    我们盼望的地平线；<br>\\n    并以力量、勇气、盼望和爱，<br>\\n    勇往直前，迈向未来。</p>\\n  </div>\\n\\n  <p class=\\\"byline\\\">~弗朗西斯·德雷克爵士 1577</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"主啊，求你搅扰我们\"}",
+    "content_bytes": 1253,
+    "content_evidence_truncated": false,
+    "content_sha256": "c31f80abe014e184903ec6e97d1421b2f0ef0691b4b2cb18680699c220549585",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 864,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 393,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1792,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1789,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2656
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 2
+}
