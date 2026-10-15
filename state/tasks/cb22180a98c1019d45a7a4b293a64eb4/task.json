@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2f852f4a2694402184a2c131f5269636",
   "campaign": "auto-1b12c9611574a38ed61f71304c3b220f1711a01cd95a44151fe5ad5874809de1",
   "created_at": "2026-10-14T20:10:58+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 11932
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 84,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 52,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7928,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6825,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8012
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "마지막 부분, 교회의 연합에 관한 인용문",
-      "severity": "major",
-      "source_quote": "“That they all may be one; as thou, Father, art in me, and I in thee, that they also may be one in us: that the world may believe that thou hast sent me.”",
-      "suggested_fix": "인용문에 누락된 구절을 포함해 다음과 같이 수정하십시오. “그들도 다 하나가 되게 하옵소서. 아버지께서 내 안에, 내가 아버지 안에 있는 것같이 그들도 우리 안에 있게 하사, 세상으로 아버지께서 나를 보내신 것을 믿게 하옵소서.”",
-      "translation_quote": "“그들도 다 하나가 되어 우리 안에 있게 하사 세상으로 아버지께서 나를 보내신 것을 믿게 하옵소서.”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-15T01:25:31+00:00",
   "id": "cb22180a98c1019d45a7a4b293a64eb4",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "kor",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/06937d43d82edf4dbc71110987ff1d03b1c2cad3babb7a679114389a1b114e86.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.58182,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
   "translation_model_actual": "gpt-6.1-sol"
