@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T13:31:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraphe « Deuxièmement »\",\"severity\":\"major\",\"source_quote\":\"“Seek righteousness, seek humility: it may be you shall be hid in the day of the Lord’s anger.” Zp. 2:3\",\"suggested_fix\":\"Conserver la citation traduite, mais corriger la référence en « So. 2:3 » (ou la forme conventionnelle française du livre de Sophonie), sans changer le chapitre ni le verset.\",\"translation_quote\":\"« Cherchez la justice, cherchez l’humilité : peut-être serez-vous cachés au jour de la colère du Seigneur. » Zp. 2:3\"},{\"location\":\"Paragraphe « Deuxièmement »\",\"severity\":\"major\",\"source_quote\":\"“In lowliness of mind let each esteem other better than themselves.” Php. 2:3\",\"suggested_fix\":\"Remplacer « Ph. 2:3 » par « Ph. 2:3 » uniquement si cette abréviation est comprise comme Philippiens ; pour éviter la confusion avec la référence utilisée ailleurs pour Philippiens, employer l’abréviation française conventionnelle « Ph 2:3 » de façon cohérente. (Aucune correction de contenu de la référence n’est nécessaire.)\",\"translation_quote\":\"« Que chacun, par humilité, estime les autres supérieurs à lui-même. » Ph. 2:3\"},{\"location\":\"Paragraphe « Quatrièmement »\",\"severity\":\"major\",\"source_quote\":\"“A man’s pride shall bring him low.” Pr. 29:23\",\"suggested_fix\":\"Remplacer « Pr. 29:23 » par « Pr. 29:23 » uniquement si cette abréviation désigne bien Proverbes ; employer l’abréviation française conventionnelle « Pr 29:23 » de façon cohérente. (La référence source est bien Proverbes 29:23.)\",\"translation_quote\":\"« L’orgueil d’un homme l’abaissera. » Pr. 29:23\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 1717,
+    "content_evidence_truncated": false,
+    "content_sha256": "2504500cefbf5d6f473a78d5d74776ba2a6c8cfc8054f119a0bf10a7eff49cb0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 449,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12189,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11086,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12638
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
