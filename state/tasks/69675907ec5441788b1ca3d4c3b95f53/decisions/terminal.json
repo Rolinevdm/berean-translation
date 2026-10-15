@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Closing paragraph",
+      "severity": "minor",
+      "source_quote": "Tomorrow you will be the mothers, grandmothers, perhaps a Dorcas, or maybe even a widow, in God’s work.",
+      "suggested_fix": "Αύριο θα είστε μητέρες, γιαγιάδες, ίσως κάποια Δορκάδα ή ακόμη και χήρα, στο έργο του Θεού.",
+      "translation_quote": "Αύριο θα είστε μητέρες, γιαγιάδες, ίσως κάποια Δορκάδα ή ακόμη και χήρες, στο έργο του Θεού."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

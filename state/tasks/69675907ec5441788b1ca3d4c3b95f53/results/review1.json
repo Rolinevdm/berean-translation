@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "66c641e0-eb85-4bb5-b2bc-462cc40b10d3",
+    "response_id": "chatcmpl-EZKL9EREPCW5w4IJTfH0AZCISsSvI",
+    "usage": {
+      "completion_tokens": 1049,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 889,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9052,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9049,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10101
+    }
+  },
+  "received_at": "2026-10-15T19:28:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Closing paragraph",
+        "severity": "minor",
+        "source_quote": "Tomorrow you will be the mothers, grandmothers, perhaps a Dorcas, or maybe even a widow, in God’s work.",
+        "suggested_fix": "Αύριο θα είστε μητέρες, γιαγιάδες, ίσως κάποια Δορκάδα ή ακόμη και χήρα, στο έργο του Θεού.",
+        "translation_quote": "Αύριο θα είστε μητέρες, γιαγιάδες, ίσως κάποια Δορκάδα ή ακόμη και χήρες, στο έργο του Θεού."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
