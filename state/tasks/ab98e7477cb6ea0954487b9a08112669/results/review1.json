@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e257c57a-649f-4e96-808c-2b033b7d2e03",
+    "response_id": "chatcmpl-EZ4oC73ddmHQulbhZYfOSUdNFZ5uT",
+    "usage": {
+      "completion_tokens": 592,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4944,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3841,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5536
+    }
+  },
+  "received_at": "2026-10-15T06:21:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Didascalia dell’immagine",
+        "severity": "minor",
+        "source_quote": "Icarus comes crashing down.",
+        "suggested_fix": "Icaro precipita.",
+        "translation_quote": "Icaro precipita al suolo."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

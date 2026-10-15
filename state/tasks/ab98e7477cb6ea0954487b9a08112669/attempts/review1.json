@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T06:21:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Didascalia dell’immagine\",\"severity\":\"minor\",\"source_quote\":\"Icarus comes crashing down.\",\"suggested_fix\":\"Icaro precipita.\",\"translation_quote\":\"Icaro precipita al suolo.\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 253,
+    "content_evidence_truncated": false,
+    "content_sha256": "bef3ee0dbf6232d8ba0ca9eba45d78fd0493aa75661d087f8e84e9fef069ceef",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 592,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4944,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3841,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5536
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

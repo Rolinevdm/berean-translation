@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Didascalia dell’immagine",
+      "severity": "minor",
+      "source_quote": "Icarus comes crashing down.",
+      "suggested_fix": "Icaro precipita.",
+      "translation_quote": "Icaro precipita al suolo."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
