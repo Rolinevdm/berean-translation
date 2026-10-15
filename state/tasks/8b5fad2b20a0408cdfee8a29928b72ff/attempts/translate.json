@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T22:48:48+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"e7fba858-3c29-42c7-ae42-198541696da3\\\">\\n  <p>اس سادہ امتحان میں ہم زبانوں میں بولنے کے بارے میں بائبل کی تعلیم سے متعلق چند سوالات پوچھیں گے۔ جواب اتنے واضح ہیں کہ ہم انہیں بتائیں گے بھی نہیں۔ جوابات کے بارے میں <strong>غور کریں</strong>۔</p>\\n\\n  <ol>\\n    <li>یسوع نے کہا کہ ہم انہیں ان کے (پھلوں، نعمتوں) سے پہچانیں گے۔</li>\\n    <li>ہمیں روح سے معمور ہونے کی نصیحت کی گئی ہے، اور آپس میں (زبانوں، زبوروں، حمدوں اور روحانی گیتوں) میں بات کرنے کی۔</li>\\n    <li>زبانیں ایک نشان ہیں (ایمان دار کے لیے، بے ایمان کے لیے)۔</li>\\n    <li>جب پولس نے سوال کیا، ’’کیا سب زبانوں میں بولتے ہیں؟‘‘ تو اس کا مضمر جواب تھا (ہاں، نہیں)۔</li>\\n    <li>اعمال 2 میں بے ایمانوں کو زبانوں میں بولنے والوں کی بات سمجھنے کے لیے (ترجمان کی ضرورت تھی، ترجمان کی ضرورت نہیں تھی)۔</li>\\n  </ol>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"زبانوں کا امتحان\"}",
+    "content_bytes": 1378,
+    "content_evidence_truncated": false,
+    "content_sha256": "6fbadba21c90046bcaf548683853dbea0605f0e9808f416d0b87fbc728f206af",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 338,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1060,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1057,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1398
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
