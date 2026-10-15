@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3447fed5-64d5-480c-9049-38fdc4a2169a",
+    "response_id": "chatcmpl-EZLVvwwq97WjogvwYU81JLDZ9O8wM",
+    "usage": {
+      "completion_tokens": 644,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 563,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2996,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1893,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3640
+    }
+  },
+  "received_at": "2026-10-15T19:37:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 3: list of Self’s attributes",
+        "severity": "minor",
+        "source_quote": "self-praise",
+        "suggested_fix": "autoelogio",
+        "translation_quote": "autocompiacimento"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

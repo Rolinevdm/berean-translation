@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 3: list of Self’s attributes",
+      "severity": "minor",
+      "source_quote": "self-praise",
+      "suggested_fix": "autoelogio",
+      "translation_quote": "autocompiacimento"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
