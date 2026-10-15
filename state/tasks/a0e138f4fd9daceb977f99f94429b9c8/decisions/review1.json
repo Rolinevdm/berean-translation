@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Dernier paragraphe, citation d’Ésaïe 61:1-3",
+      "severity": "major",
+      "source_quote": "to preach good tidings unto the meek",
+      "suggested_fix": "Remplacer « porter de bonnes nouvelles aux malheureux » par « porter de bonnes nouvelles aux humbles ».",
+      "translation_quote": "porter de bonnes nouvelles aux malheureux"
+    },
+    {
+      "location": "Paragraphe commençant par « Est-ce là la réponse », citation d’Éphésiens 5:25-27",
+      "severity": "minor",
+      "source_quote": "with the washing of water by the word",
+      "suggested_fix": "Remplacer « par le bain d’eau et la parole » par « par le bain d’eau, au moyen de la parole ».",
+      "translation_quote": "par le bain d’eau et la parole"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ba63cb87-763a-4226-b45e-0a155ffc9f52",
+    "response_id": "chatcmpl-EZ2ul7xPfgwp5MrjoHRG68zzHeGvG",
+    "usage": {
+      "completion_tokens": 415,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 217,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8345,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7242,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8760
+    }
+  },
+  "received_at": "2026-10-15T01:25:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Dernier paragraphe, citation d’Ésaïe 61:1-3",
+        "severity": "major",
+        "source_quote": "to preach good tidings unto the meek",
+        "suggested_fix": "Remplacer « porter de bonnes nouvelles aux malheureux » par « porter de bonnes nouvelles aux humbles ».",
+        "translation_quote": "porter de bonnes nouvelles aux malheureux"
+      },
+      {
+        "location": "Paragraphe commençant par « Est-ce là la réponse », citation d’Éphésiens 5:25-27",
+        "severity": "minor",
+        "source_quote": "with the washing of water by the word",
+        "suggested_fix": "Remplacer « par le bain d’eau et la parole » par « par le bain d’eau, au moyen de la parole ».",
+        "translation_quote": "par le bain d’eau et la parole"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
