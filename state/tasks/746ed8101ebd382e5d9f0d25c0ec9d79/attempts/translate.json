@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T19:37:44+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ba07e0b0-5152-46e9-9761-0d0ed839789b\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg\\\" alt=\\\"نوتة وكلمات ترنيمة «هللويا، لقد أُنجز» لفيليب هِس وجي. كوين\\\" loading=\\\"lazy\\\">\\n  </figure>\\n\\n  <p>يعيش فيليب وبيسي هِس بالقرب من بيثيل في بنسلفانيا، مع طفليهما، داماريس وديفيد. يعمل فيليب في تفكيك الحظائر القديمة وإعادة بنائها. ويحضرون اجتماعًا صغيرًا يُعقد في منزل، حيث يتوقون بجدية إلى نمو ملكوت المسيح.</p>\\n</article>\\n\",\"section\":\"شعب الله يواصل الترنيم\",\"subtitle\":null,\"title\":\"هللويا، لقد أُنجز\"}",
+    "content_bytes": 833,
+    "content_evidence_truncated": false,
+    "content_sha256": "4823fa48656638c1a954a8a11dd20d8ccf0cdc6ca552b428b237b95f192297e1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 244,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1037,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1034,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1281
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
