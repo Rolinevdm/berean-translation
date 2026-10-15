@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[1]; missing: 37:4; extra: 36:4",
       "task": "ab52c90c8894ba84e6bb6f18a53dd8b4"
+    },
+    {
+      "at": "2026-10-15T06:31:13+00:00",
+      "campaign": "auto-7e9d63e5032dffd1fd860b4967e09e568e4cead1bfd621836ca6299b5afa1e7b",
+      "event": "automatic_requested",
+      "previous_task": "ab52c90c8894ba84e6bb6f18a53dd8b4",
+      "task": "402f0ad9bcd0c395c93a0b809521820e"
     }
   ],
   "language": "rus",
-  "latest_task": "ab52c90c8894ba84e6bb6f18a53dd8b4",
+  "latest_task": "402f0ad9bcd0c395c93a0b809521820e",
   "published": null
 }
