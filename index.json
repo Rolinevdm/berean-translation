@@ -2753,6 +2753,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/98e522ea-f992-438f-86e7-2588963ef008.html",
+      "html_sha256": "4c86341bcb9c8d5847ab583822c03e9b1a8cbdae898b548976e80f8f55750c71",
+      "human_reviewed": false,
+      "id": "98e522ea-f992-438f-86e7-2588963ef008",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/98e522ea-f992-438f-86e7-2588963ef008.json",
+      "metadata_sha256": "28469c53db2517aa489240342b3ead3f9a66daa4ca3fb9f960eee99f5982a3a5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Stemme uit die Vroeë Kerk",
+      "source_revision": "f83903f6f553c0469d537b5461e4ba3aa295835f",
+      "source_translation_key": "c545a744250aca1ecb27d55fdb1f3a61d2c529ab7f5a7fece0477318b773edd2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sterf en opstaan saam met Christus",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/990a208c-f150-486c-9de0-93da42e22dfa.html",
       "html_sha256": "646d0f3c38d38c2d7d657dc99bb295a779e0a2f4ac9044320395abcd3ea8f3b4",
       "human_reviewed": false,
@@ -12527,6 +12550,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "信心",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/4fa4c74d-d2b0-433f-8108-15ed3ef8a9db.html",
+      "html_sha256": "655982bad44a4cee4ab1be83f766d593b6fafdbf1f4440066a19ccf53f1a918f",
+      "human_reviewed": false,
+      "id": "4fa4c74d-d2b0-433f-8108-15ed3ef8a9db",
+      "images": [],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/4fa4c74d-d2b0-433f-8108-15ed3ef8a9db.json",
+      "metadata_sha256": "79071c823494732430797366e343a559aa6fc0e93f5a9653beb85929c210b598",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a376c1bd0975b85af165a0924d4f4a9de4d2f5c1",
+      "source_translation_key": "f09293496cf7064cac9d811c142aa21cf794debdc06f581afb437004e3c54f52",
+      "status": "ready",
+      "subtitle": null,
+      "title": "主啊，求你搅扰我们",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -60320,6 +60366,38 @@
       "subtitle": "ЧАСТЬ 2",
       "title": "Рак",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.html",
+      "html_sha256": "7596a4c42076f5cc993dc2fb9b979ec2ce6d4eb185bf68519fc214bbee92e46d",
+      "human_reviewed": false,
+      "id": "51c6b872-b5d3-45c6-a0b1-d1dd48ece711",
+      "images": [
+        {
+          "alt": "Две руки над глобусом и под ним",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-1.jpg"
+        },
+        {
+          "alt": "Два человека помогают другому подняться из воды",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.json",
+      "metadata_sha256": "e8c4ffbcd28f157851778c10cf4d539ba272c5de8c06bb40a7c4e5c6873aa3d8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "d736713df08f5b60d8496307771de20eb1237d0b",
+      "source_translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
+      "status": "ready",
+      "subtitle": "Объяснение понятия, выраженного немецким словом Gelassenheit.",
+      "title": "Gelassenheit — целенаправленная отрешённость",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
