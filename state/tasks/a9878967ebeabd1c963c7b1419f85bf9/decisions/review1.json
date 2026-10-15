@@ -1,0 +1,133 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraphs beginning “हंस को इस निर्णय”, “अधिकारी ग्रेबेल”, “हंस ने यह निर्णय”, “सज़ा पढ़ी गई”, and “वृद्ध हंस”",
+      "severity": "major",
+      "source_quote": "“If he would not recant”; “unwilling either to recant”; “persuade him to recant”; “ministers admonished him to recant”; “His children ... refusing to recant”",
+      "suggested_fix": "इन सभी स्थानों पर recant के लिए “अपना विश्वास त्यागना” या “अपने विश्वास से मुकरना” प्रयोग करें। उदाहरण: “यदि वह अपना विश्वास न त्यागता”; “न तो अपना विश्वास त्यागने को तैयार”; “उसे अपने विश्वास से मुकरने के लिए मनाने की”; “उसे अपना विश्वास त्यागने का आग्रह”; “अपने विश्वास से मुकरने से इनकार करते रहे”। हंस के उत्तर और अंतिम भाषण में वास्तविक repentance के लिए प्रयुक्त “पश्चाताप” यथावत रखें।",
+      "translation_quote": "“यदि वह न तो पश्चाताप करता”; “न तो पश्चाताप करने को तैयार”; “उसे पश्चाताप पर उकसाने की”; “उसे पश्चाताप करने का आग्रह”; “पश्चाताप करने से इनकार करते रहे”"
+    },
+    {
+      "location": "html, paragraphs beginning “अधिकारी ग्रेबेल”, “हंस ने यह निर्णय”, “सज़ा पढ़ी गई”, “वोलमार ने”, and “वृद्ध हंस”",
+      "severity": "major",
+      "source_quote": "“Hans Landis would be publicly beheaded at once”; “public execution site”; “the executioner”; “the site of the execution”; “their grandfather’s execution”",
+      "suggested_fix": "निर्णय को “हंस लैंडिस का तत्काल सार्वजनिक रूप से सिर काटा जाएगा” करें। संबंधित स्थानों पर “फाँसी स्थल” को “मृत्युदंड स्थल”, “फाँसी देने वाले” को “जल्लाद”, और “दादा की फाँसी” को “दादा को मृत्युदंड दिए जाने” से बदलें। “an execution would be an unpopular undertaking” वाले पहले अनुच्छेद में भी “एक फाँसी” के स्थान पर “मृत्युदंड देना” प्रयोग करें।",
+      "translation_quote": "“हंस लैंडिस को तत्काल सार्वजनिक रूप से फाँसी दी जाएगी”; “सार्वजनिक फाँसी स्थल”; “फाँसी देने वाले”; “फाँसी स्थल”; “दादा की फाँसी”"
+    },
+    {
+      "location": "html, paragraph beginning “इस परिचय के जवाब में”",
+      "severity": "major",
+      "source_quote": "“all their doctrine”; “supporting their government in matters not relating to conscience”",
+      "suggested_fix": "“उनकी सारी व्यवस्था” को “उनकी सारी शिक्षा” करें और अंतिम संबंधित वाक्यांश को “अंतरात्मा से संबंधित न होने वाले मामलों में अपनी सरकार का समर्थन करते हुए” करें।",
+      "translation_quote": "“उनकी सारी व्यवस्था”; “उनकी भावना के खिलाफ न की जाने वाली बातों में सरकार का समर्थन करते हुए”"
+    },
+    {
+      "location": "html, paragraph beginning “कैदियों को एक अंतिम अवसर”",
+      "severity": "major",
+      "source_quote": "“a file was secretly slipped into their cell in Solothurn”",
+      "suggested_fix": "“सोलोथर्न में उनकी कोठरी में चुपके से एक रेती पहुँचा दी गई।”",
+      "translation_quote": "“छिपकर उनकी कोठरी में एक फाइल फेंक दी गई”"
+    },
+    {
+      "location": "html, paragraph beginning “कैदियों को एक अंतिम अवसर”",
+      "severity": "major",
+      "source_quote": "“the populace, still outraged by their treatment, refused to report them to the authorities”",
+      "suggested_fix": "“वहाँ पहुँचने पर, जनता ने, जो कैदियों के साथ किए गए व्यवहार से अब भी आक्रोशित थी, उनकी सूचना अधिकारियों को देने से इनकार कर दिया।”",
+      "translation_quote": "“जनता, अपनी बर्बरता से अभी भी आहत, उन्हें अधिकारियों के पास रिपोर्ट करने से इनकार कर रही थी”"
+    },
+    {
+      "location": "html, paragraph beginning “कैदियों को एक अंतिम अवसर”",
+      "severity": "major",
+      "source_quote": "“whereupon three of them relented”",
+      "suggested_fix": "“जिस पर उनमें से तीन मान गए।”",
+      "translation_quote": "“जिस पर तीन में से तीन ने समझौता कर लिया”"
+    },
+    {
+      "location": "html, paragraph beginning “बाखमन की गवाही”",
+      "severity": "major",
+      "source_quote": "“Whoever stirs in pitch will be smudged.”",
+      "suggested_fix": "“जो कोई तारकोल को हिलाएगा, वह उससे सन जाएगा।”",
+      "translation_quote": "“जो कोई पिच में हाथ डालेगा, वह मैला हो जाएगा।”"
+    },
+    {
+      "location": "html, paragraph beginning “बहसें जारी रहीं”",
+      "severity": "major",
+      "source_quote": "“with contention flaring around communion”",
+      "suggested_fix": "आरंभ को “बहसें जारी रहीं, और प्रभु-भोज, चर्च नेताओं के उदाहरणों तथा उद्धार के ज्ञान को लेकर विवाद तेज हो गया।” करें।",
+      "translation_quote": "“सामंजस्य उपस्थित हुआ कि सामूहिक खाने-पीने (कम्यूनियन) ... के विषयों पर विवाद उठा”"
+    },
+    {
+      "location": "html, paragraph beginning “मेयर र्हान ने बैठक”",
+      "severity": "major",
+      "source_quote": "“addressing those of his company”",
+      "suggested_fix": "“अपने साथ आए लोगों को संबोधित करते हुए”",
+      "translation_quote": "“अपनी सगाई के लोगों को संबोधित किया”"
+    },
+    {
+      "location": "html, paragraph beginning “वर्ष 1613 था”",
+      "severity": "major",
+      "source_quote": "“apparently a namesake of the original re-baptizer of nearly a century prior”",
+      "suggested_fix": "“जिनका नाम जाहिर तौर पर लगभग एक शताब्दी पहले पुनः-बपतिस्मा देने वाले मूल ग्रेबेल के समान था”",
+      "translation_quote": "“लगभग एक शताब्दी पहले के पुनः-बपतिस्मा देने वाले मूल ग्रेबेल के नामजद प्रतीत होते हुए”"
+    },
+    {
+      "location": "html, paragraph beginning “हंस ने यह निर्णय”",
+      "severity": "major",
+      "source_quote": "“as he trusted in his good hope”",
+      "suggested_fix": "“क्योंकि उन्हें अपनी उत्तम आशा पर भरोसा था”",
+      "translation_quote": "“क्योंकि वह अपने अच्छे आश्रय पर विश्वास करता था”"
+    },
+    {
+      "location": "html, paragraphs beginning “फिर, ठीक उस स्थान” and “हाँ”",
+      "severity": "major",
+      "source_quote": "“Have I executed this man rightly?”; “you have executed this poor man.”",
+      "suggested_fix": "प्रश्न और उत्तर में मृत्युदंड स्पष्ट रखें: “क्या मैंने इस व्यक्ति को उचित रीति से मृत्युदंड दिया है?” और “तुमने इस गरीब व्यक्ति को मृत्युदंड दिया है।”",
+      "translation_quote": "“क्या मैंने इस व्यक्ति को ठीक तरह से दण्डित किया?”; “तुमने इस गरीब व्यक्ति को दण्डित किया।”"
+    },
+    {
+      "location": "html, final paragraph",
+      "severity": "major",
+      "source_quote": "“The local Anabaptist congregation remained strong as well.”",
+      "suggested_fix": "“स्थानीय अनाबैप्टिस्ट मंडली भी मजबूत बनी रही।”",
+      "translation_quote": "“स्थानीय अनाबैप्टिस्ट उपस्थिति भी मजबूत बनी रही।”"
+    },
+    {
+      "location": "html, opening paragraph",
+      "severity": "minor",
+      "source_quote": "“through personal power”",
+      "suggested_fix": "उर्दू लिपि के “سے” को देवनागरी में बदलकर “व्यक्तिगत शक्ति के माध्यम से” करें।",
+      "translation_quote": "“व्यक्तिगत शक्ति سے”"
+    },
+    {
+      "location": "html, paragraph beginning “बौद्धिक उतार-चढ़ाव”",
+      "severity": "minor",
+      "source_quote": "“a movement which most of my readers will recognize”",
+      "suggested_fix": "“एक ऐसा आंदोलन जिसे मेरे अधिकांश पाठक पहचानते होंगे”",
+      "translation_quote": "“एक ऐसा आंदोलन जिसने मेरे बहुत से पाठक पहचाना होगा”"
+    },
+    {
+      "location": "html, paragraph beginning “वर्ष 1613 था”",
+      "severity": "minor",
+      "source_quote": "“a schoolteacher and recent convert”",
+      "suggested_fix": "“एक स्कूलशिक्षक, जिन्होंने हाल ही में यह विश्वास अपनाया था”",
+      "translation_quote": "“एक स्कूलशिक्षक और हाल का धर्मान्तरण”"
+    },
+    {
+      "location": "html, paragraph beginning “कैदियों को एक अंतिम अवसर”",
+      "severity": "minor",
+      "source_quote": "“led under guard westward to a French ambassador”",
+      "suggested_fix": "“उन्हें पहरेदारों की निगरानी में पश्चिम की ओर एक फ्रांसीसी राजदूत के पास ले जाया गया”",
+      "translation_quote": "“उन्हें बाद में पहरे पर पश्चिम की ओर एक फ्रांसीसी राजदूत के पास घुमाया गया”"
+    },
+    {
+      "location": "html, paragraph beginning “अधिकारी ग्रेबेल”",
+      "severity": "minor",
+      "source_quote": "“spent much time in discussion with Hans in his prison cell”",
+      "suggested_fix": "“हंस की जेल की कोठरी में उनसे चर्चा करने में बहुत समय बिताते रहे”",
+      "translation_quote": "“हंस से उनकी जेल की कोठरी में बहुज्ञ चर्चा करते रहे”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
