@@ -5,11 +5,180 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "716c5be53c644438a725a191652efe1a",
   "campaign": "auto-054712bdc2cfdf450ffe955a38bc41a3a10a68ed93ef74ca84da1a8ef2650968",
   "created_at": "2026-10-15T19:29:43+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2377,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 75,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9526,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 9523
+        },
+        "total_tokens": 11903
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html، الفقرة 3",
+      "severity": "major",
+      "source_quote": "its roots had been established a full 1500 years earlier",
+      "suggested_fix": "استبدل «بثمانية عشر قرنًا ونصف تقريبًا» بـ«بألف وخمسمائة سنة كاملة».",
+      "translation_quote": "جذورها قد تَأَصَّلَت قبل ذلك بثمانية عشر قرنًا ونصف تقريبًا"
+    },
+    {
+      "location": "html، الفقرتان 10 و18",
+      "severity": "major",
+      "source_quote": "in charge of Deacon Jacob Isler; Deacon Jacob Isler",
+      "suggested_fix": "استبدل «تُديرُه الشُرَفَة يعقوب إيسلر» بـ«يتولى إدارته الشماس يعقوب إيسلر»، و«والشرف يعقوب إيسلر» بـ«والشماس يعقوب إيسلر».",
+      "translation_quote": "تُديرُه الشُرَفَة يعقوب إيسلر؛ والشرف يعقوب إيسلر"
+    },
+    {
+      "location": "html، الفقرة 12",
+      "severity": "major",
+      "source_quote": "as he maintained they had oft heard them before",
+      "suggested_fix": "استبدل العبارة بـ«مؤكدًا أنهم قد سمعوا هذه المعتقدات منهم مرارًا من قبل».",
+      "translation_quote": "قائلاً إنه قد سمعها منهم مرارًا"
+    },
+    {
+      "location": "html، الفقرة 15",
+      "severity": "major",
+      "source_quote": "especially on the purity and separateness of the true church",
+      "suggested_fix": "استبدل «طهارة وخصوصية الكنيسة الحقيقية» بـ«طهارة الكنيسة الحقيقية وانفصالها».",
+      "translation_quote": "خاصة حول طهارة وخصوصية الكنيسة الحقيقية"
+    },
+    {
+      "location": "html، الفقرة 15",
+      "severity": "major",
+      "source_quote": "this quote from Sirach: “Whoever stirs in pitch will be smudged.”",
+      "suggested_fix": "استبدلها بـ«باقتباس من سفر يشوع بن سيراخ: «مَن يُقلِّب الزفت يتلطّخ به.»».",
+      "translation_quote": "باقتباس من سفر الحكمة/سِيراخ: «مَنْ يَتَعَرَّقُ بِالزَّفْتِ يَتَلَطَّخُ.»"
+    },
+    {
+      "location": "html، الفقرة 17",
+      "severity": "major",
+      "source_quote": "We would also give life, body, property, and blood.",
+      "suggested_fix": "استبدل الاقتباس بـ«نحن مستعدون أيضًا لبذل الحياة والجسد والممتلكات والدم.»",
+      "translation_quote": "كنا سنهبّ أيضًا بالحياة والجسد والممتلكات والدم."
+    },
+    {
+      "location": "html، الفقرة 18",
+      "severity": "major",
+      "source_quote": "sentenced as galley slaves to row aboard the ships of France in the Mediterranean",
+      "suggested_fix": "استبدل «سيُحكَم عليهم عبدةً بالنّواقل ليجدفوا» بـ«سيُحكم عليهم بالاستعباد للتجديف».",
+      "translation_quote": "سيُحكَم عليهم عبدةً بالنّواقل ليجدفوا في سفن فرنسا في البحر المتوسط"
+    },
+    {
+      "location": "html، الفقرة 20",
+      "severity": "major",
+      "source_quote": "starvation, exposure, beatings, and exhaustion",
+      "suggested_fix": "استبدل «التعرّض للعنصر» بـ«التعرّض لقسوة العوامل الجوية».",
+      "translation_quote": "الجوع والتعرّض للعنصر والضرب والإرهاق"
+    },
+    {
+      "location": "html، الفقرة 21",
+      "severity": "major",
+      "source_quote": "whereupon three of them relented",
+      "suggested_fix": "استبدل «فانتحى ثلاثة منهم» بـ«فوافق ثلاثة منهم على المغادرة».",
+      "translation_quote": "فانتحى ثلاثة منهم"
+    },
+    {
+      "location": "html، الفقرة 21",
+      "severity": "major",
+      "source_quote": "a file was secretly slipped into their cell",
+      "suggested_fix": "استبدل «أُلْقِيَت سِرًّا ملفٌّ في زنزانتهم» بـ«دُسَّ مِبْرَدٌ سرًّا في زنزانتهم».",
+      "translation_quote": "أُلْقِيَت سِرًّا ملفٌّ في زنزانتهم"
+    },
+    {
+      "location": "html، الفقرة 25",
+      "severity": "major",
+      "source_quote": "the stubborn, seditious resistance of wicked people",
+      "suggested_fix": "استبدل «المقاومة العنيدة والجنسية للناس الأشرار» بـ«مقاومة الأشرار العنيدة والمثيرة للفتنة».",
+      "translation_quote": "المقاومة العنيدة والجنسية للناس الأشرار"
+    },
+    {
+      "location": "html، الفقرة 26",
+      "severity": "major",
+      "source_quote": "This report, presented to the lords, sent them into deep deliberation.",
+      "suggested_fix": "استبدل الجملة بـ«قُدِّم هذا التقرير إلى السادة، فدفعهم إلى مداولات معمّقة.»",
+      "translation_quote": "أُقدِم هذا التقرير إلى السادة فأشَاع الذهول بينهم."
+    },
+    {
+      "location": "html، الفقرة 26",
+      "severity": "major",
+      "source_quote": "Hans Landis would be publicly beheaded at once.",
+      "suggested_fix": "استبدل الجملة بـ«سيُقطع رأس هانز لانديس علنًا على الفور.»",
+      "translation_quote": "سيُعدم هانز لانديس علنًا فورًا."
+    },
+    {
+      "location": "html، الفقرتان 30 و31",
+      "severity": "major",
+      "source_quote": "Have I executed this man rightly?; Yes ... you have executed this poor man.",
+      "suggested_fix": "استبدل السؤال بـ«هل نفّذت حكم الإعدام في هذا الرجل على الوجه الصحيح؟» والجواب بـ«نعم، لقد أعدمت هذا الرجل المسكين.»",
+      "translation_quote": "هل نفذت هذا الرجل بالحق؟؛ نعم ... قد نفذت هذا الرجل المسكين."
+    },
+    {
+      "location": "html، الفقرة 3",
+      "severity": "minor",
+      "source_quote": "was to be its given birthplace and birthdate",
+      "suggested_fix": "استبدل «كانت مَوْلِدَهَا المَسْجِل وتاريخ ميلادها» بـ«كانتا مكان ميلادها وتاريخه المسجَّلين»، مع ضبط بداية الجملة إلى «زيورخ في سويسرا، وعام 1525 م».",
+      "translation_quote": "كانت مَوْلِدَهَا المَسْجِل وتاريخ ميلادها"
+    },
+    {
+      "location": "html، الفقرة 5",
+      "severity": "minor",
+      "source_quote": "he was drowned in the River Limmat",
+      "suggested_fix": "استبدل «غُرِقَ» بـ«أُغرِقَ».",
+      "translation_quote": "غُرِقَ في نهر ليمات"
+    },
+    {
+      "location": "html، الفقرة 11",
+      "severity": "minor",
+      "source_quote": "Reverend, high and well-learned, pious, noble, intelligent, wise, (and) dear lords.",
+      "suggested_fix": "استبدل «سيداتي وسادتي الموقرون» بـ«أيها السادة الموقرون»؛ فالخطاب لا يتضمن مخاطبة سيدات.",
+      "translation_quote": "سيداتي وسادتي الموقرون، العظماء والمتعلمون"
+    },
+    {
+      "location": "html، الفقرة 11",
+      "severity": "minor",
+      "source_quote": "these none-too-subtle maneuverings; a separate sect",
+      "suggested_fix": "استبدل «المناورات غير الدقيقة» بـ«المناورات المكشوفة»، و«طايفة» بـ«طائفة».",
+      "translation_quote": "هذه المناورات غير الدقيقة؛ طايفة مستقلة"
+    },
+    {
+      "location": "html، الفقرة 28",
+      "severity": "minor",
+      "source_quote": "various church ministers admonished him to recant",
+      "suggested_fix": "استبدل «نُهِيَّهُ قساوسة مختلفون ليتراجع» بـ«حثّه عدد من قساوسة الكنيسة على التراجع».",
+      "translation_quote": "نُهِيَّهُ قساوسة مختلفون ليتراجع"
+    },
+    {
+      "location": "html، الفقرة 32",
+      "severity": "minor",
+      "source_quote": "began attending the city church",
+      "suggested_fix": "استبدل «يحضرون الكنيسة المدينة» بـ«يحضرون كنيسة المدينة».",
+      "translation_quote": "بدأوا يحضرون الكنيسة المدينة"
+    },
+    {
+      "location": "html، الفقرة 33",
+      "severity": "minor",
+      "source_quote": "the wild shores of the New World",
+      "suggested_fix": "استبدل «شواطئ جديدة في العالم الجديد» بـ«الشواطئ البرية للعالم الجديد».",
+      "translation_quote": "شواطئ جديدة في العالم الجديد"
+    }
+  ],
   "id": "7267e6f67360a9a02532014b851170b1",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ara",
@@ -98,11 +267,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/71da96b1e9fc7ad8418f514e41f429009d9b72f0f1b0b1b636d343ab0a681930.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +286,7 @@
     "total_reserved_usd": 0.78663,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
