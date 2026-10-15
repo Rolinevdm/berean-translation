@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T01:25:49+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"47c2bd87-06a9-4c31-854b-84c64975d399\\\">\\n  <div class=\\\"poem\\\">\\n    <p>Det er mange spørsmål som går gjennom mitt sinn;<br>\\n    svarene på dem finner jeg ikke.<br>\\n    Når jeg ser brødrene mine som slett ikke kan bli enige,<br>\\n    begynner jeg å undres … finnes det håp for meg?</p>\\n\\n    <p>Hvorfor kan vi ikke leve sammen i enhet?<br>\\n    Er det umulig? Kan vi ikke forstå det?<br>\\n    Hvorfor er det så mye strid iblant oss?<br>\\n    Bror mot bror, å, for en synd!</p>\\n\\n    <p>Hva har vi gjort som Gud sier er galt;<br>\\n    så han vil ta bort velsignelsen vår og sangen vår?<br>\\n    Har vi vendt blikket og kjærligheten bort fra Herren?<br>\\n    Har vi falt i synd og kanskje lagt ned sverdet?</p>\\n\\n    <p>Hvis dette er grunnene til at livet er slik,<br>\\n    er du ikke enig i at det er på høy tid å be?<br>\\n    Og be Gud om at vi på en eller annen måte<br>\\n    skal kunne leve sammen i enhet?</p>\\n\\n    <p>Jeg er ikke sikker på om jeg noen gang vil forstå<br>\\n    hvordan «kristne» kan strides sånn med hverandre.<br>\\n    Hvis de bare ville lyde det Bibelen sier,<br>\\n    kunne de elske hverandre resten av sine dager!</p>\\n\\n    <p>Hvis vi kunne elske hverandre inderlig,<br>\\n    tror jeg virkelig at det er nøkkelen.<br>\\n    Hvordan kan vi ellers leve i denne sorgens verden,<br>\\n    uten å leve slik Bibelen sier?</p>\\n\\n    <p>Jeg har sagt alt dette for å si følgende:<br>\\n    Uten å bli i Kristus går livet vårt galt.<br>\\n    Ingen vet hva slags problemer vi vil møte,<br>\\n    hvis vi ikke lever våre liv ved GUDS FRELSE NÅDE.</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Guds frelsende nåde\"}",
+    "content_bytes": 1727,
+    "content_evidence_truncated": false,
+    "content_sha256": "ec89cbe20a506211d227085542e0e1e5c53f31b5610e27989582c1cb8683fa1d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 788,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 240,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1328,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1325,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2116
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
