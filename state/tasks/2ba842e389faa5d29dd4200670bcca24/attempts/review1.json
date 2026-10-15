@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T01:35:16+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, הפסקה הראשונה שאחרי פסוק הפתיחה\",\n      \"severity\": \"major\",\n      \"source_quote\": \"These are the “sparrows” spoken of in the Bible.\",\n      \"suggested_fix\": \"החליפו את „הנזכרים בתנ״ך” ב„הנזכרים בכתבי הקודש”.\",\n      \"translation_quote\": \"אלה הם ה״דרורים״ הנזכרים בתנ״ך.\"\n    },\n    {\n      \"location\": \"html, הפסקה השנייה תחת הכותרת „…המאוחרים”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Many will avidly spend their time in nothing else, …but either to tell, or to hear [or to purchase] some new thing.\",\n      \"suggested_fix\": \"החליפו את „רבים יקדישו בשקיקה את זמנם לכל דבר אחר” ב„רבים יקדישו בשקיקה את זמנם אך ורק לכך”, כך שהמשך המשפט יציג את העיסוק הבלעדי בדברים חדשים.\",\n      \"translation_quote\": \"רבים יקדישו בשקיקה את זמנם לכל דבר אחר, …אֶלָּא אִם לְסַפֵּר אוֹ לִשְׁמֹעַ [אוֹ לִקְנוֹת] דָּבָר חָדָשׁ.\"\n    },\n    {\n      \"location\": \"html, הפסקה הראשונה תחת הכותרת „…הפחותים”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"An orange for the orioles ... a row of cottages for the blue bird\",\n      \"suggested_fix\": \"החליפו את „לציפור הבולטת” ב„לפזאים” ואת „לעפרוני הכחול” ב„לתכולית”. שמרו על שאר הרשימה והמבנה.\",\n      \"translation_quote\": \"תפוז לציפור הבולטת ... שורת בתי קינון לעפרוני הכחול\"\n    },\n    {\n      \"location\": \"html, הפסקה האחרונה, שם הנהר\",\n      \"severity\": \"major\",\n      \"source_quote\": \"across the flooded North Canadian River\",\n      \"suggested_fix\": \"החליפו את „הנהר הצפוני הקנדי שעלה על גדותיו” ב„נהר נורת׳ קנדיאן שעלה על גדותיו”. זהו שם נהר, ולא תיאור של נהר בצפון קנדה.\",\n      \"translation_quote\": \"לחצות את הנהר הצפוני הקנדי שעלה על גדותיו\"\n    },\n    {\n      \"location\": \"html, ציטוטי כתבי הקודש לאורך המאמר\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Are not two sparrows sold for a farthing? ... For where your treasure is, there will your heart be also\",\n      \"suggested_fix\": \"התאימו את הציטוטים לעברית מודרנית בהתאם להנחיית השפה, תוך שמירת משמעותם, תגי ההדגשה וההפניות. למשל: „האם לא מוכרים שני דרורים באיסר? ואף אחד מהם לא ייפול ארצה בלי אביכם”; „כי במקום שבו נמצא אוצרכם, שם יהיה גם לבכם”.\",\n      \"translation_quote\": \"הֲלֹא נִמְכְּרִים שְׁנֵי צִפֳּרִים בְּאִסָּר? ... כִּי בַּמָּקוֹם שֶׁאוֹצָרְכֶם נִמְצָא, שָׁם יִהְיֶה גַּם לְבַבְכֶם\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 90\n}",
+    "content_bytes": 3280,
+    "content_evidence_truncated": false,
+    "content_sha256": "ae56fafa7559276c06b41386f1170e84ddd180253695ad7944a493e1975431c0",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 992,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 105,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10174,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9071,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11166
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
