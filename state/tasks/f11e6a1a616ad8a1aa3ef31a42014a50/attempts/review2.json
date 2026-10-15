@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T19:28:45+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"第二个项目符号段落，尼希米记3:12\",\"severity\":\"major\",\"source_quote\":\"you have a mighty task to fill in your father’s house\",\"suggested_fix\":\"女孩们，你们在父亲的家中肩负着重要的职责\",\"translation_quote\":\"你们在父亲家中肩负着重要的任务\"},{\"location\":\"倒数第五段，关于家庭成为明灯\",\"severity\":\"major\",\"source_quote\":\"homes rise up and become strong beacons of light, units of togetherness that witness to a world darkened by sin that JESUS LIVES there, and that there is hope for them, too.\",\"suggested_fix\":\"家庭兴起，成为坚固的明灯；这些团结合一的家庭向被罪恶笼罩的世界见证：耶稣活在其中，也让世人看见他们同样有盼望。\",\"translation_quote\":\"家庭彼此同心，向被罪恶遮蔽的世界见证：耶稣活在其中，那里的人也有盼望。\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 946,
+    "content_evidence_truncated": false,
+    "content_sha256": "d266929c525a8ad8a8e38d37bc0976201f129c8a7835e95c478afc6b425ac4cb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 257,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7293,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6190,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7550
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

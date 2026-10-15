@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9512f09700654933b5ae84756f0f5828",
   "campaign": "auto-6852b1277dd45be1eaa43875a898a884e849737cfac7006c5e353808587ca65a",
   "created_at": "2026-10-15T11:45:53+00:00",
   "events": [
@@ -68,18 +67,47 @@
         },
         "total_tokens": 10319
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 257,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7293,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6190,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7550
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "第二段",
+      "location": "第二个项目符号段落，尼希米记3:12",
       "severity": "major",
-      "source_quote": "Please submit yourself and joyfully love being in your place as a daughter.",
-      "suggested_fix": "请顺服父母，并欢欢喜喜地安于女儿的本分。",
-      "translation_quote": "请顺服自己，欢欢喜喜地安于女儿的本分。"
+      "source_quote": "you have a mighty task to fill in your father’s house",
+      "suggested_fix": "女孩们，你们在父亲的家中肩负着重要的职责",
+      "translation_quote": "你们在父亲家中肩负着重要的任务"
+    },
+    {
+      "location": "倒数第五段，关于家庭成为明灯",
+      "severity": "major",
+      "source_quote": "homes rise up and become strong beacons of light, units of togetherness that witness to a world darkened by sin that JESUS LIVES there, and that there is hope for them, too.",
+      "suggested_fix": "家庭兴起，成为坚固的明灯；这些团结合一的家庭向被罪恶笼罩的世界见证：耶稣活在其中，也让世人看见他们同样有盼望。",
+      "translation_quote": "家庭彼此同心，向被罪恶遮蔽的世界见证：耶稣活在其中，那里的人也有盼望。"
     }
   ],
+  "finished_at": "2026-10-15T19:28:45+00:00",
   "id": "f11e6a1a616ad8a1aa3ef31a42014a50",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "cmn",
@@ -168,7 +196,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +216,7 @@
     "total_reserved_usd": 0.089494,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "144a2f28ba895f9d80bb30e6df0ffeb8b1edd4259cc5b4ccd46a35db6f476235",
   "translation_model_actual": "gpt-6-luna"
