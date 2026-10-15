@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Kifungu cha 1",
+      "severity": "major",
+      "source_quote": "“Always carrying around the death of Jesus Christ in our body so that the life of Jesus Christ might be manifested in our mortal flesh.”",
+      "suggested_fix": "“Tukiwa daima tunachukua katika mwili wetu mauti ya Yesu Kristo, ili uzima wa Yesu Kristo udhihirishwe katika miili yetu ipatayo kufa.”",
+      "translation_quote": "“Tukiwa tumeibeba daima mauti ya Yesu Kristo katika miili yetu, ili uzima wa Yesu Kristo udhihirishwe katika miili yetu ipatayo kufa.”"
+    },
+    {
+      "location": "Kifungu cha 2",
+      "severity": "major",
+      "source_quote": "“Every spirit which confesses that Jesus Christ has come in the flesh is from God.”",
+      "suggested_fix": "“Kila roho inayokiri kwamba Yesu Kristo amekuja katika mwili hutoka kwa Mungu.”",
+      "translation_quote": "“Kila roho inayokiri kwamba Yesu Kristo amekuja katika mwili imetoka kwa Mungu.”"
+    },
+    {
+      "location": "Kifungu cha 4",
+      "severity": "major",
+      "source_quote": "“the new, who has been created according to God”",
+      "suggested_fix": "“utu mpya, aliyeumbwa kwa mfano wa Mungu”",
+      "translation_quote": "“utu mpya, aliyeumbwa kwa jinsi ya Mungu”"
+    },
+    {
+      "location": "Kifungu cha 5",
+      "severity": "major",
+      "source_quote": "“how they grow rich in understanding, in knowledge, and in wisdom”",
+      "suggested_fix": "“jinsi wanavyozidi kuwa matajiri katika ufahamu, maarifa na hekima”",
+      "translation_quote": "“jinsi wanavyozidi kuwa matajiri katika ufahamu, maarifa na hekima”"
+    },
+    {
+      "location": "Kifungu cha 6",
+      "severity": "major",
+      "source_quote": "“as in a mirror and, beholding the Lord’s glory, let us be transformed into the same image”",
+      "suggested_fix": "“tukiunganisha uzuri wa uso wetu na Kristo kama katika kioo na, huku tukitazama utukufu wa Bwana, tubadilishwe tufanane na sura iyo hiyo”",
+      "translation_quote": "“tukiunganisha uzuri wa uso wetu na Kristo, kama katika kioo, na kulitazama utukufu wa Bwana, tubadilishwe tufanane na sura iyo hiyo”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
