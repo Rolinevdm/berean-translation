@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "첫 번째 본문 단락",
+      "severity": "major",
+      "source_quote": "He walked and rode many miles to struggling frontier settlements",
+      "suggested_fix": "그는 하나님의 나라를 확장하기 위해 어려움을 겪는 변경 정착지까지 수많은 길을 걷고 말을 타고 갔으며",
+      "translation_quote": "그는 하나님의 나라를 확장하기 위해 어려움을 겪는 변경 정착지까지 수많은 길을 걷고 달려갔으며"
+    },
+    {
+      "location": "“In like manner God has made us partakers…” 단락",
+      "severity": "major",
+      "source_quote": "we owe Him ten thousand pounds",
+      "suggested_fix": "우리는 하나님께 만 파운드나 되는 큰 빚을 졌으며",
+      "translation_quote": "우리는 하나님께 만 달란트나 되는 큰 빚을 졌으며"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T13:22:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"첫 번째 본문 단락\",\"severity\":\"major\",\"source_quote\":\"He walked and rode many miles to struggling frontier settlements\",\"suggested_fix\":\"그는 하나님의 나라를 확장하기 위해 어려움을 겪는 변경 정착지까지 수많은 길을 걷고 말을 타고 갔으며\",\"translation_quote\":\"그는 하나님의 나라를 확장하기 위해 어려움을 겪는 변경 정착지까지 수많은 길을 걷고 달려갔으며\"},{\"location\":\"“In like manner God has made us partakers…” 단락\",\"severity\":\"major\",\"source_quote\":\"we owe Him ten thousand pounds\",\"suggested_fix\":\"우리는 하나님께 만 파운드나 되는 큰 빚을 졌으며\",\"translation_quote\":\"우리는 하나님께 만 달란트나 되는 큰 빚을 졌으며\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 835,
+    "content_evidence_truncated": false,
+    "content_sha256": "b6a1f5e852fdb3fc7a00e91650b31b6c1d437bfdc639859f1c5ef32548c654ab",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 780,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 565,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13054,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11951,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13834
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

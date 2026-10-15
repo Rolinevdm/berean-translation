@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3c7bd97d41e54d9880b184e5a6296a0f",
   "campaign": "auto-7856385068e18817fac9fa3c1de2865a96d9ca1a375e476dfef20f1b0806c3d3",
   "created_at": "2026-10-15T07:22:58+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 12700
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 780,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 565,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13054,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11951,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13834
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "첫 번째 본문 단락",
+      "severity": "major",
+      "source_quote": "He walked and rode many miles to struggling frontier settlements",
+      "suggested_fix": "그는 하나님의 나라를 확장하기 위해 어려움을 겪는 변경 정착지까지 수많은 길을 걷고 말을 타고 갔으며",
+      "translation_quote": "그는 하나님의 나라를 확장하기 위해 어려움을 겪는 변경 정착지까지 수많은 길을 걷고 달려갔으며"
+    },
+    {
+      "location": "“In like manner God has made us partakers…” 단락",
+      "severity": "major",
+      "source_quote": "we owe Him ten thousand pounds",
+      "suggested_fix": "우리는 하나님께 만 파운드나 되는 큰 빚을 졌으며",
+      "translation_quote": "우리는 하나님께 만 달란트나 되는 큰 빚을 졌으며"
+    }
+  ],
   "id": "23aabb222623c8af61019a5ddef05be5",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "kor",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e1e80992d4fe206ce7209ca087fdffd3f4ceb6791083845c0558599338975b01.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.09214,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f5b7fccc6a524e1449727b9ca39fdaa2ec8b679f58d19ba28c92689583cbcf46",
   "translation_model_actual": "gpt-6-luna"
