@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "Aya ya utangulizi kuhusu asili ya unyenyekevu",
+      "severity": "major",
+      "source_quote": "“as the virtue of humility is as old as God himself.”",
+      "suggested_fix": "“kwa kuwa sifa ya unyenyekevu ni ya zamani kama Mungu mwenyewe.”",
+      "translation_quote": "“kwa kuwa sifa ya unyenyekevu ni ya zamani kama Mungu mwenyewe.”"
+    },
+    {
+      "location": "Aya kuhusu deni la dhambi na neema",
+      "severity": "major",
+      "source_quote": "“we owe Him ten thousand pounds”",
+      "suggested_fix": "Badilisha “talanta elfu kumi” kuwa “pauni elfu kumi” ili kuhifadhi kipimo cha deni kilichochapishwa.",
+      "translation_quote": "“sisi tunamdai talanta elfu kumi”"
+    },
+    {
+      "location": "Aya ya ushauri kuhusu kutubu na kukubali mapenzi ya Mungu",
+      "severity": "major",
+      "source_quote": "“Be admonished that the indignation of God be not your eternal lot.”",
+      "suggested_fix": "Badilisha “Onwa” kuwa “Pokea maonyo, ili ghadhabu ya Mungu isiwe fungu lako la milele.”",
+      "translation_quote": "“Onwa ili ghadhabu ya Mungu isiwe fungu lako la milele.”"
+    },
+    {
+      "location": "Aya kuhusu mwanamke mwenye dhambi na Yesu",
+      "severity": "minor",
+      "source_quote": "“washing them with tears and wiping them with the hairs of her head”",
+      "suggested_fix": "Taja miguu waziwazi: “akiiosha miguu ya Yesu kwa machozi na kuifuta kwa nywele za kichwa chake.”",
+      "translation_quote": "“akimwosha kwa machozi na kuyafuta kwa nywele za kichwa chake”"
+    },
+    {
+      "location": "Aya ya kwanza inayoanza “Mtu mnyenyekevu”",
+      "severity": "minor",
+      "source_quote": "“In his deeds, actions, and pursuits”",
+      "suggested_fix": "Ondoa urudufu: “Katika matendo na shughuli zake”.",
+      "translation_quote": "“Katika matendo, shughuli na shughuli zake”"
+    },
+    {
+      "location": "Aya ya pili ya mwisho, inayohusu kuepuka mapambo ya bure",
+      "severity": "minor",
+      "source_quote": "“approve of the needless and vain ornamenting and decorating of our houses and our families”",
+      "suggested_fix": "Fafanua kuwa kinachopambwa ni nyumba na familia: “tunaunga mkono mapambo ya bure na yasiyo ya lazima ya nyumba zetu na ya familia zetu”.",
+      "translation_quote": "“tunaunga mkono urembo na mapambo yasiyo ya lazima na ya bure ya nyumba zetu na familia zetu”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
