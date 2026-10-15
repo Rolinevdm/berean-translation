@@ -61447,6 +61447,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.html",
+      "html_sha256": "de904cb62e808e17dc18b50af8d5d5788b6c66d3fe4f4ac237160b1bb93922b6",
+      "human_reviewed": false,
+      "id": "bfec593e-9641-46a9-97d6-84e3bffe789c",
+      "images": [
+        {
+          "alt": "Гравюра: Икар падает с неба",
+          "public_path": "/images/articles/bfec593e-9641-46a9-97d6-84e3bffe789c-1.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.json",
+      "metadata_sha256": "6ff3b298ed745c16881ca4248e05017c9f772633645f87d4e6d331cd47d88882",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "От редактора",
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Слишком высоко?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/c16663c4-9436-466b-bffd-dd954a5f3442.html",
       "html_sha256": "095a602c8f8938a68d76a60d10f973fc76b4ab7f5ebe58d2d715230bfd7b9789",
       "human_reviewed": false,
