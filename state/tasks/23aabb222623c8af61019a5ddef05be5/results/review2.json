@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5bd394da-b3a4-4317-861a-ebf6b7f15911",
+    "response_id": "chatcmpl-EZI0dAKgIhhyAhvzKbR6iekmzriqU",
+    "usage": {
+      "completion_tokens": 800,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 677,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13055,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11952,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13855
+    }
+  },
+  "received_at": "2026-10-15T15:53:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "시, 3행",
+        "severity": "minor",
+        "source_quote": "His haughty, proud, ferocious mien humility disdains",
+        "suggested_fix": "그의 오만하고 교만하며 사나운 모습은 겸손에게 거부당하나,",
+        "translation_quote": "그의 오만하고 교만하며 사나운 모습은 겸손을 싫어하나,"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T15:53:29+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"시, 3행\",\"severity\":\"minor\",\"source_quote\":\"His haughty, proud, ferocious mien humility disdains\",\"suggested_fix\":\"그의 오만하고 교만하며 사나운 모습은 겸손에게 거부당하나,\",\"translation_quote\":\"그의 오만하고 교만하며 사나운 모습은 겸손을 싫어하나,\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 378,
+    "content_evidence_truncated": false,
+    "content_sha256": "66c3c2664318bfefda1058d872dec89934872881ae7ce50ba2b42d1ea8e600b5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 800,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 677,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13055,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11952,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13855
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

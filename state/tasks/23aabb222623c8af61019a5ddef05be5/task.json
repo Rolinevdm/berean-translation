@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9f4cf8510dc94d24b0a57178b59414f3",
   "campaign": "auto-7856385068e18817fac9fa3c1de2865a96d9ca1a375e476dfef20f1b0806c3d3",
   "created_at": "2026-10-15T07:22:58+00:00",
   "events": [
@@ -68,25 +67,39 @@
         },
         "total_tokens": 19874
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 800,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 677,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13055,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11952,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13855
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "첫 번째 본문 단락",
-      "severity": "major",
-      "source_quote": "He walked and rode many miles to struggling frontier settlements",
-      "suggested_fix": "그는 하나님의 나라를 확장하기 위해 어려움을 겪는 변경 정착지까지 수많은 길을 걷고 말을 타고 갔으며",
-      "translation_quote": "그는 하나님의 나라를 확장하기 위해 어려움을 겪는 변경 정착지까지 수많은 길을 걷고 달려갔으며"
-    },
-    {
-      "location": "“In like manner God has made us partakers…” 단락",
-      "severity": "major",
-      "source_quote": "we owe Him ten thousand pounds",
-      "suggested_fix": "우리는 하나님께 만 파운드나 되는 큰 빚을 졌으며",
-      "translation_quote": "우리는 하나님께 만 달란트나 되는 큰 빚을 졌으며"
+      "location": "시, 3행",
+      "severity": "minor",
+      "source_quote": "His haughty, proud, ferocious mien humility disdains",
+      "suggested_fix": "그의 오만하고 교만하며 사나운 모습은 겸손에게 거부당하나,",
+      "translation_quote": "그의 오만하고 교만하며 사나운 모습은 겸손을 싫어하나,"
     }
   ],
+  "finished_at": "2026-10-15T15:53:29+00:00",
   "id": "23aabb222623c8af61019a5ddef05be5",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "kor",
@@ -175,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +208,7 @@
     "total_reserved_usd": 0.09214,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "f5b7fccc6a524e1449727b9ca39fdaa2ec8b679f58d19ba28c92689583cbcf46",
   "translation_model_actual": "gpt-6-luna"

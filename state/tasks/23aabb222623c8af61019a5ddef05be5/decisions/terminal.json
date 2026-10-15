@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "시, 3행",
+      "severity": "minor",
+      "source_quote": "His haughty, proud, ferocious mien humility disdains",
+      "suggested_fix": "그의 오만하고 교만하며 사나운 모습은 겸손에게 거부당하나,",
+      "translation_quote": "그의 오만하고 교만하며 사나운 모습은 겸손을 싫어하나,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
