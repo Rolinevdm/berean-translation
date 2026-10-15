@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "9da18ce2-4a5c-4575-852c-a3e3abf44933",
+    "response_id": "chatcmpl-EZEHgjr26FYXsPd2Z9kC1gSCY9jui",
+    "usage": {
+      "completion_tokens": 417,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 56,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8407,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7304,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8824
+    }
+  },
+  "received_at": "2026-10-15T11:53:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "भजन संहिता 78:29-31 का उद्धरण",
+        "severity": "major",
+        "source_quote": "They were not estranged from their lust. ... and smote down the chosen men of Israel",
+        "suggested_fix": "उद्धरण में “उनकी लालसा पूरी हुई” को “वे अपनी लालसा से विमुख नहीं हुए थे” से और “इस्राएल के जवानों को गिरा दिया” को “इस्राएल के चुने हुए पुरुषों को मार गिराया” से बदलें। शेष उद्धरण और HTML संरचना यथावत रखें।",
+        "translation_quote": "उनकी लालसा पूरी हुई ... और इस्राएल के जवानों को गिरा दिया"
+      },
+      {
+        "location": "नहेमायाह 2:12 का उद्धरण",
+        "severity": "minor",
+        "source_quote": "<u>what my God had put in my heart to do</u>",
+        "suggested_fix": "स्रोत का रेखांकन बनाए रखने के लिए संबंधित अंश इस प्रकार करें: “और <u>जो काम मेरे परमेश्वर ने यरूशलेम में करने के लिए मेरे मन में डाला था</u>, वह मैंने किसी को नहीं बताया”।",
+        "translation_quote": "और जो काम मेरे परमेश्वर ने यरूशलेम में करने के लिए मेरे मन में डाला था, वह मैंने किसी को नहीं बताया"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

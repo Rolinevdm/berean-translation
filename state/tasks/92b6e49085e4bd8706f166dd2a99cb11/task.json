@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "acea375ccd494bbe9f74aa05c3f734f7",
   "campaign": "auto-8ed1600d08d40ca6e6059a2fe3308bd09277afc5dd7c05224988ab029064ebf1",
   "created_at": "2026-10-15T06:23:14+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 417,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 56,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8407,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7304,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8824
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "भजन संहिता 78:29-31 का उद्धरण",
+      "severity": "major",
+      "source_quote": "They were not estranged from their lust. ... and smote down the chosen men of Israel",
+      "suggested_fix": "उद्धरण में “उनकी लालसा पूरी हुई” को “वे अपनी लालसा से विमुख नहीं हुए थे” से और “इस्राएल के जवानों को गिरा दिया” को “इस्राएल के चुने हुए पुरुषों को मार गिराया” से बदलें। शेष उद्धरण और HTML संरचना यथावत रखें।",
+      "translation_quote": "उनकी लालसा पूरी हुई ... और इस्राएल के जवानों को गिरा दिया"
+    },
+    {
+      "location": "नहेमायाह 2:12 का उद्धरण",
+      "severity": "minor",
+      "source_quote": "<u>what my God had put in my heart to do</u>",
+      "suggested_fix": "स्रोत का रेखांकन बनाए रखने के लिए संबंधित अंश इस प्रकार करें: “और <u>जो काम मेरे परमेश्वर ने यरूशलेम में करने के लिए मेरे मन में डाला था</u>, वह मैंने किसी को नहीं बताया”।",
+      "translation_quote": "और जो काम मेरे परमेश्वर ने यरूशलेम में करने के लिए मेरे मन में डाला था, वह मैंने किसी को नहीं बताया"
+    }
+  ],
   "id": "92b6e49085e4bd8706f166dd2a99cb11",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "hin",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/41bb4aeb4b6fcd3345fb5e3f1661eb3f49666cb069a44e17468ab987568b94b2.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 0.793043,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
   "translation_model_actual": "gpt-6-luna"

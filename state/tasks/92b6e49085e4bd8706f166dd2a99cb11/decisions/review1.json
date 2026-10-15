@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "भजन संहिता 78:29-31 का उद्धरण",
+      "severity": "major",
+      "source_quote": "They were not estranged from their lust. ... and smote down the chosen men of Israel",
+      "suggested_fix": "उद्धरण में “उनकी लालसा पूरी हुई” को “वे अपनी लालसा से विमुख नहीं हुए थे” से और “इस्राएल के जवानों को गिरा दिया” को “इस्राएल के चुने हुए पुरुषों को मार गिराया” से बदलें। शेष उद्धरण और HTML संरचना यथावत रखें।",
+      "translation_quote": "उनकी लालसा पूरी हुई ... और इस्राएल के जवानों को गिरा दिया"
+    },
+    {
+      "location": "नहेमायाह 2:12 का उद्धरण",
+      "severity": "minor",
+      "source_quote": "<u>what my God had put in my heart to do</u>",
+      "suggested_fix": "स्रोत का रेखांकन बनाए रखने के लिए संबंधित अंश इस प्रकार करें: “और <u>जो काम मेरे परमेश्वर ने यरूशलेम में करने के लिए मेरे मन में डाला था</u>, वह मैंने किसी को नहीं बताया”।",
+      "translation_quote": "और जो काम मेरे परमेश्वर ने यरूशलेम में करने के लिए मेरे मन में डाला था, वह मैंने किसी को नहीं बताया"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
