@@ -17148,6 +17148,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.html",
+      "html_sha256": "167a101bdeaa2b858c733258995e9855f7d6d75aecdab59f9471667710b89c26",
+      "human_reviewed": false,
+      "id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
+      "images": [
+        {
+          "alt": "Allein sitzende Person mit Kapuze und Rucksack oberhalb einer nebligen Landschaft",
+          "public_path": "/images/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.json",
+      "metadata_sha256": "b1c7d67d1048e05afb4c8183eb727b309e15843728b0ef2ff5f5df7b0eb863a0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Ein Wort von einem Arzt",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Isolation",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/aa8cf0e6-09ac-45cf-aa04-4f76af1db43d.html",
       "html_sha256": "417028621612bed3272685da9c3997a2a8ef1cd8625d55db20437ce07b279cdd",
       "human_reviewed": false,
@@ -27975,6 +28003,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b.html",
+      "html_sha256": "417b146f4e74daa5d90733d064b097461aeb2e87c3ffa6a7a657d7eea94ca1ae",
+      "human_reviewed": false,
+      "id": "ba07e0b0-5152-46e9-9761-0d0ed839789b",
+      "images": [
+        {
+          "alt": "תווים ומילות השיר „הללויה, הושלם” מאת פיליפ הס וג׳י. קון",
+          "public_path": "/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b.json",
+      "metadata_sha256": "df6a25eda4d91b32eb189fbfb7d1d6c4fa5301d73f196b51ec0efc2dc36e0dce",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "עם אלוהים ממשיך לשיר",
+      "source_revision": "4b15109678742c2a7b5cfd1f9b7278f287a3948f",
+      "source_translation_key": "30af25731bcf2eb143bc6ad52b144bc028692b48c5877f22b07a359293b2a8c2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "הללויה, הושלם",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
       "html_sha256": "4f650b2c040f3be467a9ba9f21b02ce7b9e92f431578f29caf554db2e1075f5e",
       "human_reviewed": false,
@@ -29346,6 +29402,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "अपने लिए रोओ",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/47c2bd87-06a9-4c31-854b-84c64975d399.html",
+      "html_sha256": "892c4f4eb058e4dbadbffda59b56cee72aeea28bd2fa3ecd35ca38fcd65e0632",
+      "human_reviewed": false,
+      "id": "47c2bd87-06a9-4c31-854b-84c64975d399",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/47c2bd87-06a9-4c31-854b-84c64975d399.json",
+      "metadata_sha256": "2c88e2e785ba400327feaa21c206a772df4d1e986d1ad6316b642740c8f90015",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "4b15109678742c2a7b5cfd1f9b7278f287a3948f",
+      "source_translation_key": "b569013110b89a4cf66b2e394088fe6233293b95647b960723dcc41f376a5624",
+      "status": "ready",
+      "subtitle": null,
+      "title": "परमेश्वर का उद्धारकारी अनुग्रह",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -41848,6 +41927,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "ee3685b5084d21caa043ea7632facb63fb0f598be6e2ee95c66e69be21bfc9fd",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "그리스도를 중심에 두고 여러 인물이 둘러싼 역사적 종교화",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "한 남자가 다른 남자 위로 칼을 치켜든 모습을 그린 그림",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "75afe55ba3100d8aaab318bdb518e26ec20d56f3014f87a9d403a7af38688037",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "분열의 원인… 그리고 치유책",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
       "html_sha256": "c9df85d1b632afacdd54ba36e1e52acc7194fd313f55fb821da0a8e662d709a7",
       "human_reviewed": false,
@@ -41876,6 +41987,29 @@
       "subtitle": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
       "title": "God, The Perfection of Beauty",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/47c2bd87-06a9-4c31-854b-84c64975d399.html",
+      "html_sha256": "289e7977fa42c850ad539c546177ede6effacddb52e6ca3dde3fc56ddda0c8e7",
+      "human_reviewed": false,
+      "id": "47c2bd87-06a9-4c31-854b-84c64975d399",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/47c2bd87-06a9-4c31-854b-84c64975d399.json",
+      "metadata_sha256": "0b096b1f4282050cd60e996aa2d29ac0e0ace6430a4e095e307e1e6b8e6613be",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "b569013110b89a4cf66b2e394088fe6233293b95647b960723dcc41f376a5624",
+      "status": "ready",
+      "subtitle": null,
+      "title": "하나님의 구원하시는 은혜",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -43896,6 +44030,34 @@
       "subtitle": null,
       "title": "예언과 마지막 때",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b.html",
+      "html_sha256": "b8a70a5fc522a55cb03cd046f40b9625c4c3e14adce653c04160b00d7cd1d977",
+      "human_reviewed": false,
+      "id": "ba07e0b0-5152-46e9-9761-0d0ed839789b",
+      "images": [
+        {
+          "alt": "필립 헤스와 G. 코언의 ‘할렐루야, 다 이루어졌네’ 악보와 가사",
+          "public_path": "/images/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/ba07e0b0-5152-46e9-9761-0d0ed839789b.json",
+      "metadata_sha256": "c4ec9291f347811d7a339726909050305018e0c5a07ecf22d5f87c5e39a721c4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "하나님의 백성은 계속 노래합니다",
+      "source_revision": "4b15109678742c2a7b5cfd1f9b7278f287a3948f",
+      "source_translation_key": "30af25731bcf2eb143bc6ad52b144bc028692b48c5877f22b07a359293b2a8c2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "할렐루야, 다 이루어졌네",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -54163,6 +54325,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/47c2bd87-06a9-4c31-854b-84c64975d399.html",
+      "html_sha256": "03dc7ca05a41d3c73b761977e19c7ffb343daaeac0fed617aace9851fa9e3ede",
+      "human_reviewed": false,
+      "id": "47c2bd87-06a9-4c31-854b-84c64975d399",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/47c2bd87-06a9-4c31-854b-84c64975d399.json",
+      "metadata_sha256": "db6ffdd00d9531f20f5bb36ec3cc7b17b285b6f230166d6a246e9687c587de79",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "b569013110b89a4cf66b2e394088fe6233293b95647b960723dcc41f376a5624",
+      "status": "ready",
+      "subtitle": null,
+      "title": "A graça salvadora de Deus",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/47fbbdc9-6663-49d8-96d7-b5a6ecb8d689.html",
       "html_sha256": "f47f5520d3a8a7dfdbc892f9e5703efbe566de11f33077c19c9ff0cb95b51502",
       "human_reviewed": false,
@@ -59756,6 +59941,34 @@
       "subtitle": null,
       "title": "Город Божий",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
+      "html_sha256": "6882788e369b29168f0b07af60b62c9ebb20d0ddfcd0698cfdeddec2fdfb3469",
+      "human_reviewed": false,
+      "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
+      "images": [
+        {
+          "alt": "Взрослый держит за руку маленького ребёнка, идущего на улице",
+          "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
+      "metadata_sha256": "d593f7022ee5a4bc6784ac53d2be234e4f256c8d1b48aba144e70cd3830a8fa8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "От сестры к сестре",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Радостное призвание",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
