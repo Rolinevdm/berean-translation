@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "37ea045b779043ecad38543c9aae5a0b",
   "campaign": "auto-835d8086ccdbe9524914c9923731b11b8d2cc16e7180e4905a75cc1ffcbc4583",
   "created_at": "2026-10-15T15:47:33+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 7366
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 950,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 823,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7719,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6616,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8669
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "minor",
+      "source_quote": "they have chosen to fear Him and to honor Him as they grow in their walk with Him",
+      "suggested_fix": "...wamechagua kumcha na kumheshimu wanapoendelea kukua katika mwendo wao pamoja Naye.",
+      "translation_quote": "wamechagua kumcha na kumheshimu anapoendelea kukua katika mwendo wao pamoja Naye"
+    }
+  ],
+  "finished_at": "2026-10-15T19:28:52+00:00",
   "id": "3fa12ee131592874bedaeca54b8c724e",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "swa",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/834fae9d55c0afbbda3385d9e10a61ebbc21adede9b9b4162a31d397a71bfd14.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.089475,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "144a2f28ba895f9d80bb30e6df0ffeb8b1edd4259cc5b4ccd46a35db6f476235",
   "translation_model_actual": "gpt-6-luna"

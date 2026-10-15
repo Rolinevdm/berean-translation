@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "minor",
+      "source_quote": "they have chosen to fear Him and to honor Him as they grow in their walk with Him",
+      "suggested_fix": "...wamechagua kumcha na kumheshimu wanapoendelea kukua katika mwendo wao pamoja Naye.",
+      "translation_quote": "wamechagua kumcha na kumheshimu anapoendelea kukua katika mwendo wao pamoja Naye"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
