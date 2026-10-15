@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e5a2a3afae1c492fa06c33f31c3601c0",
   "campaign": "auto-2a3ce3679ed7ef0640d8bf278b7ded255518221eed5a67f5cc4758fef64fdd60",
   "created_at": "2026-10-14T11:42:12+00:00",
   "events": [
@@ -48,53 +47,31 @@
         },
         "total_tokens": 10405
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 62,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 30,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6891,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5788,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6953
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: Bibelzitat zu Genesis 2,18–20",
-      "severity": "major",
-      "source_quote": "I will make him an help meet for him",
-      "suggested_fix": "Ersetzen durch: „ich will ihm eine Gehilfin schaffen, die zu ihm passt“.",
-      "translation_quote": "ich will ihm helfen, eine Gehilfin ihm zu schaffen"
-    },
-    {
-      "location": "html: Bibelzitat zu 1. Könige 19,10",
-      "severity": "major",
-      "source_quote": "I have been very jealous for the LORD God of hosts",
-      "suggested_fix": "Ersetzen durch: „Ich habe mit großem Eifer für den HERRN, den Gott Zebaoth, geeifert“.",
-      "translation_quote": "Ich war sehr eifersüchtig für den HERRN, den Gott Zebaoth"
-    },
-    {
-      "location": "html: Absatz beginnend mit „Leider ist das Letzte“",
-      "severity": "major",
-      "source_quote": "the last thing they seem to want to do is make the effort to be around other people, which contrary to their feelings, is counterproductive to changing the problem",
-      "suggested_fix": "Den Absatz so klarstellen: „Leider scheint jemand, der mit Depressionen kämpft, am wenigsten dazu bereit zu sein, sich aufzuraffen und unter Menschen zu gehen. Doch entgegen dem eigenen Gefühl wirkt es der Überwindung des Problems entgegen, solche Kontakte zu vermeiden.“",
-      "translation_quote": "die Anstrengung, unter Menschen zu sein; entgegen ihrem Gefühl ist dies jedoch kontraproduktiv, wenn es darum geht, das Problem zu ändern"
-    },
-    {
-      "location": "html: erster Absatz",
-      "severity": "minor",
-      "source_quote": "rugged individualism",
-      "suggested_fix": "„ruppigen Individualismus“ durch „ausgeprägten Individualismus“ ersetzen. „Ruppig“ bezeichnet einen groben Umgangston statt der hier gemeinten kompromisslosen Selbstständigkeit.",
-      "translation_quote": "ruppigen Individualismus"
-    },
-    {
-      "location": "html: Absatz vor Hebräer 10,25",
-      "severity": "minor",
-      "source_quote": "Scripture makes it clear that we need a church body.",
-      "suggested_fix": "Ersetzen durch: „Die Schrift macht deutlich, dass wir eine Gemeinde brauchen.“",
-      "translation_quote": "Die Schrift macht deutlich, dass wir einen Kirchenkörper brauchen."
-    },
-    {
-      "location": "html: img alt",
-      "severity": "minor",
-      "source_quote": "Solitary hooded person with a backpack seated above a misty landscape",
-      "suggested_fix": "Das alt-Attribut ändern zu: „Allein sitzende Person mit Kapuze und Rucksack oberhalb einer nebligen Landschaft“.",
-      "translation_quote": "Einsam gehüllte Person mit Rucksack, die über einer nebligen Landschaft sitzt"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-15T01:25:56+00:00",
   "id": "604bfaf48ae9109c9d8120b5b788b224",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "deu",
@@ -183,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -202,7 +179,7 @@
     "total_reserved_usd": 0.741127,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
   "translation_model_actual": "gpt-6.1-sol"
