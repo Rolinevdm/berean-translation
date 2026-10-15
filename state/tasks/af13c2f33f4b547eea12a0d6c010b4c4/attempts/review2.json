@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T01:25:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, абзац «В конце концов годы деторождения…»\",\"severity\":\"minor\",\"source_quote\":\"In Titus 2, godly older women are described as\",\"suggested_fix\":\"Заменить «В Титу 2» на «Во 2-й главе Послания к Титу», сохранив остальной текст и HTML-разметку.\",\"translation_quote\":\"В Титу 2 богобоязненные старшие женщины описаны как\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 562,
+    "content_evidence_truncated": false,
+    "content_sha256": "5f1d7bd32fa486bb064feee685e545cd0c4516b0f05fa0e9cc1cd90976af84b2",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 216,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 81,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7141,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6038,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7357
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

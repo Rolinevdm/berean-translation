@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, абзац «В конце концов годы деторождения…»",
+      "severity": "minor",
+      "source_quote": "In Titus 2, godly older women are described as",
+      "suggested_fix": "Заменить «В Титу 2» на «Во 2-й главе Послания к Титу», сохранив остальной текст и HTML-разметку.",
+      "translation_quote": "В Титу 2 богобоязненные старшие женщины описаны как"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
