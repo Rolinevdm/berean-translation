@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T13:31:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning «Παράδειγμα είναι η γυναίκα…», sentence explaining «gracious»\",\"severity\":\"major\",\"source_quote\":\"“Such a person, therefore, I might call gracious, insomuch as he has bestowed on me his grace…”\",\"suggested_fix\":\"Replace «γενναιόδωρο» with «χαριτοδότη» or another Greek rendering that preserves the connection to bestowing grace.\",\"translation_quote\":\"«Έναν τέτοιο άνθρωπο, λοιπόν, θα μπορούσα να τον αποκαλέσω γενναιόδωρο, καθόσον μου πρόσφερε τη χάρη του…»\"},{\"location\":\"Paragraph beginning «Κατά τον ίδιο τρόπο…», sentence about the debt owed to God\",\"severity\":\"major\",\"source_quote\":\"“we owe Him ten thousand pounds”\",\"suggested_fix\":\"Replace «δέκα χιλιάδες τάλαντα» with «δέκα χιλιάδες λίρες», preserving the printed monetary unit.\",\"translation_quote\":\"«εμείς Του οφείλουμε δέκα χιλιάδες τάλαντα»\"},{\"location\":\"Paragraph beginning «Θυμηθείτε, ο Ιησούς ήταν ταπεινός…»\",\"severity\":\"minor\",\"source_quote\":\"“with fasting, with weeping, and fervent prayer”\",\"suggested_fix\":\"Translate «fervent» into Greek, for example «ένθερμη προσευχή».\",\"translation_quote\":\"«με νηστεία, κλάμα και fervent προσευχή»\"},{\"location\":\"Paragraph beginning «Νιώθω πως δύσκολα θα μπορούσα…», sentence urging the reader to turn\",\"severity\":\"minor\",\"source_quote\":\"“turn, oh! turn, and have compassion on yourself”\",\"suggested_fix\":\"Change «στράφηκε» to the imperative «στρέψου».\",\"translation_quote\":\"«στράφηκε, αχ, στράφηκε και δείξε έλεος στον εαυτό σου»\"}],\"findings_complete\":true,\"passed\":false,\"score\":88}",
+    "content_bytes": 1969,
+    "content_evidence_truncated": false,
+    "content_sha256": "366948d2e7bcb257dc328a6180c21afd3ac521ddfe23684da38cd0d140e49c1b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 965,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14636,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13533,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15601
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

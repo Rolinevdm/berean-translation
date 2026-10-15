@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddfa135fec044eca9b71ab1cb40f96b3",
   "campaign": "auto-037aeb09ba0a85d39a0dd5220f0e779c7c4c6a0929e44e5e3cada8d93b7c61fc",
   "created_at": "2026-10-15T11:45:15+00:00",
   "events": [
@@ -28,10 +27,59 @@
         },
         "total_tokens": 14306
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 965,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14636,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13533,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 15601
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning «Παράδειγμα είναι η γυναίκα…», sentence explaining «gracious»",
+      "severity": "major",
+      "source_quote": "“Such a person, therefore, I might call gracious, insomuch as he has bestowed on me his grace…”",
+      "suggested_fix": "Replace «γενναιόδωρο» with «χαριτοδότη» or another Greek rendering that preserves the connection to bestowing grace.",
+      "translation_quote": "«Έναν τέτοιο άνθρωπο, λοιπόν, θα μπορούσα να τον αποκαλέσω γενναιόδωρο, καθόσον μου πρόσφερε τη χάρη του…»"
+    },
+    {
+      "location": "Paragraph beginning «Κατά τον ίδιο τρόπο…», sentence about the debt owed to God",
+      "severity": "major",
+      "source_quote": "“we owe Him ten thousand pounds”",
+      "suggested_fix": "Replace «δέκα χιλιάδες τάλαντα» with «δέκα χιλιάδες λίρες», preserving the printed monetary unit.",
+      "translation_quote": "«εμείς Του οφείλουμε δέκα χιλιάδες τάλαντα»"
+    },
+    {
+      "location": "Paragraph beginning «Θυμηθείτε, ο Ιησούς ήταν ταπεινός…»",
+      "severity": "minor",
+      "source_quote": "“with fasting, with weeping, and fervent prayer”",
+      "suggested_fix": "Translate «fervent» into Greek, for example «ένθερμη προσευχή».",
+      "translation_quote": "«με νηστεία, κλάμα και fervent προσευχή»"
+    },
+    {
+      "location": "Paragraph beginning «Νιώθω πως δύσκολα θα μπορούσα…», sentence urging the reader to turn",
+      "severity": "minor",
+      "source_quote": "“turn, oh! turn, and have compassion on yourself”",
+      "suggested_fix": "Change «στράφηκε» to the imperative «στρέψου».",
+      "translation_quote": "«στράφηκε, αχ, στράφηκε και δείξε έλεος στον εαυτό σου»"
+    }
+  ],
   "id": "c9af7122a489e29f955e927d37724bd1",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ell",
@@ -120,11 +168,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e1e80992d4fe206ce7209ca087fdffd3f4ceb6791083845c0558599338975b01.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +188,7 @@
     "total_reserved_usd": 0.092138,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f5b7fccc6a524e1449727b9ca39fdaa2ec8b679f58d19ba28c92689583cbcf46",
   "translation_model_actual": "gpt-6-luna"
