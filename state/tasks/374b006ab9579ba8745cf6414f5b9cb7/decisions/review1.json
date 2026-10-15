@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Bagian “Masalah dan janji”, kutipan Galatia",
+      "severity": "major",
+      "source_quote": "“for if there had been a law given which could have given life, verily righteousness should have been by the law.”",
+      "suggested_fix": "Ganti akhir kutipan menjadi: “seandainya hukum Taurat diberikan untuk menghidupkan, maka kebenaran sungguh-sungguh berasal dari hukum Taurat.”",
+      "translation_quote": "“sebab jika hukum Taurat diberikan yang dapat menghidupkan, maka sesungguhnya kebenaran berasal dari hukum Taurat.”"
+    },
+    {
+      "location": "Bagian “Kelahiran kedua”, paragraf tentang nama Jehovah",
+      "severity": "major",
+      "source_quote": "“the name Jehovah is not found in the New Testament. But it actually is there … because Jehovah means ‘always existent.’”",
+      "suggested_fix": "Gunakan “Jehovah” secara konsisten pada paragraf ini dan keterangan gambar terkait; misalnya, “nama Jehovah tidak ditemukan dalam Perjanjian Baru. Namun, sebenarnya nama itu ada di sana … karena Jehovah berarti ‘yang senantiasa ada.’”",
+      "translation_quote": "“nama Yahweh tidak ditemukan dalam Perjanjian Baru. Namun sebenarnya nama itu ada di sana … karena Yahweh berarti ‘yang senantiasa ada.’”"
+    },
+    {
+      "location": "Kutipan Peter Riedemann, rujukan 1 Korintus 2:9-10 dan 2 Petrus 1:3-8",
+      "severity": "major",
+      "source_quote": "“Through this work God enables the person to partake of his Son’s (1 Corinthians 2:9-10) nature and character, (2 Peter 1:3-8)”",
+      "suggested_fix": "Pertahankan identitas rujukan pada klausa yang sama: “Melalui pekerjaan ini Allah memampukan orang itu mengambil bagian dalam sifat dan watak Anak-Nya (1 Korintus 2:9-10; 2 Petrus 1:3-8), bahkan, sebagian, dalam kuasa-Nya yang tak terbatas.”",
+      "translation_quote": "“Melalui pekerjaan ini Allah memampukan orang itu mengambil bagian dalam sifat (2 Petrus 1:3-8) dan watak Anak-Nya (1 Korintus 2:9-10)”"
+    },
+    {
+      "location": "Bagian “Mati untuk hidup”, kutipan himne Hans Betz",
+      "severity": "major",
+      "source_quote": "“Whoever has this baptism is planted into the death of Christ; all his desires thus being crucified, he is thereby born anew.”",
+      "suggested_fix": "Terjemahkan “all his desires” sebagai “segala keinginannya” tanpa menambahkan makna sebab-akibat: “Siapa pun yang menerima baptisan ini ditanamkan ke dalam kematian Kristus; segala keinginannya pun disalibkan, dan dengan demikian ia dilahirkan kembali.”",
+      "translation_quote": "“Siapa pun yang menerima baptisan ini ditanamkan ke dalam kematian Kristus; karena segala keinginannya disalibkan, ia pun dilahirkan kembali.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
