@@ -5,11 +5,55 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1d0a105000094785ab3d3cac98476271",
   "campaign": "auto-1f5024910250a9d1a5be95fa11c5edc88b9ce4295ceb4616a744aef1c5a8a0c1",
   "created_at": "2026-10-15T01:38:32+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 610,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 194,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11070,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9967,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11680
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, paragraph beginning «Τέτοια είναι τα σπουργίτια. Ένα πορτοκάλι…»",
+      "severity": "minor",
+      "source_quote": "a mansion for the martins",
+      "suggested_fix": "Αντικαταστήστε το «μια έπαυλη για τους χελιδονόμυους» με «μια έπαυλη για τα χελιδόνια».",
+      "translation_quote": "μια έπαυλη για τους χελιδονόμυους"
+    },
+    {
+      "location": "html, first paragraph under «…Μεταγενέστερους»",
+      "severity": "minor",
+      "source_quote": "in an effort to have the first chance at a bargain",
+      "suggested_fix": "Αντικαταστήστε το «προσπαθώντας να εξασφαλίσουν την πρώτη ευκαιρία σε μια ευκαιρία» με «προσπαθώντας να προλάβουν πρώτοι μια συμφέρουσα προσφορά».",
+      "translation_quote": "προσπαθώντας να εξασφαλίσουν την πρώτη ευκαιρία σε μια ευκαιρία"
+    },
+    {
+      "location": "html, heading «…Άτονα»",
+      "severity": "minor",
+      "source_quote": "…Lackluster Ones",
+      "suggested_fix": "Αποδώστε τον τίτλο ως «…Άσημους», ώστε να αναφέρεται στους ανθρώπους που στερούνται εξωτερικής λάμψης και να συνδέεται γραμματικά με το «ανάμεσα στους…».",
+      "translation_quote": "…Άτονα"
+    }
+  ],
+  "finished_at": "2026-10-15T01:44:42+00:00",
   "id": "6a8e9bfde0f09315e96389f3a8ad5f01",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "ell",
@@ -98,9 +142,11 @@
     }
   },
   "protected": false,
+  "quality_score": 95,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +161,7 @@
     "total_reserved_usd": 0.799459,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph beginning «Τέτοια είναι τα σπουργίτια. Ένα πορτοκάλι…»",
+      "severity": "minor",
+      "source_quote": "a mansion for the martins",
+      "suggested_fix": "Αντικαταστήστε το «μια έπαυλη για τους χελιδονόμυους» με «μια έπαυλη για τα χελιδόνια».",
+      "translation_quote": "μια έπαυλη για τους χελιδονόμυους"
+    },
+    {
+      "location": "html, first paragraph under «…Μεταγενέστερους»",
+      "severity": "minor",
+      "source_quote": "in an effort to have the first chance at a bargain",
+      "suggested_fix": "Αντικαταστήστε το «προσπαθώντας να εξασφαλίσουν την πρώτη ευκαιρία σε μια ευκαιρία» με «προσπαθώντας να προλάβουν πρώτοι μια συμφέρουσα προσφορά».",
+      "translation_quote": "προσπαθώντας να εξασφαλίσουν την πρώτη ευκαιρία σε μια ευκαιρία"
+    },
+    {
+      "location": "html, heading «…Άτονα»",
+      "severity": "minor",
+      "source_quote": "…Lackluster Ones",
+      "suggested_fix": "Αποδώστε τον τίτλο ως «…Άσημους», ώστε να αναφέρεται στους ανθρώπους που στερούνται εξωτερικής λάμψης και να συνδέεται γραμματικά με το «ανάμεσα στους…».",
+      "translation_quote": "…Άτονα"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
