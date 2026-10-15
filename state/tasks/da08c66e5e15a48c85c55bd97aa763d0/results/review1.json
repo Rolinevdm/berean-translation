@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d4d73327-7ceb-44e8-a655-b2b73e43f602",
+    "response_id": "chatcmpl-EZ2fwEFXe7NMR4tnY5txDdJp1kffn",
+    "usage": {
+      "completion_tokens": 752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 587,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2300,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1197,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3052
+    }
+  },
+  "received_at": "2026-10-15T01:26:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "시, 세 번째 연의 첫 두 행",
+        "severity": "minor",
+        "source_quote": "What have we done that God says is wrong; That He’d take our blessing and remove our song?",
+        "suggested_fix": "하나님께서 잘못이라 하시고,\n우리의 복을 거두고 노래마저 빼앗으실 만큼 우리가 무슨 일을 했을까요?",
+        "translation_quote": "하나님께서 그르다고 하시며, 우리의 복을 거두고 노래를 빼앗으실 만한 일을 우리가 무엇을 했을까요?"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
