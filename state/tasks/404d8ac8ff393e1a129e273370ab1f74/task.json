@@ -5,11 +5,96 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "473016d0dd6c42179b7b3bc5c3fbdaec",
   "campaign": "auto-47921d3f3724fb74bd5fbd17769b976a897d77bbb2812e28f20177535b8db740",
   "created_at": "2026-10-15T19:30:03+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1281,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 103,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9019,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7916,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10300
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html，第6段",
+      "severity": "major",
+      "source_quote": "The Anabaptist movement lived beyond these three men.",
+      "suggested_fix": "改为“再洗礼派运动在这三人之后仍延续下去。”避免暗示三人均已牺牲。",
+      "translation_quote": "再洗礼派运动并未随着这三人的牺牲而止息。"
+    },
+    {
+      "location": "translation.html，第8段，加利·福克斯的身份",
+      "severity": "major",
+      "source_quote": "Galli Fuchs, a schoolteacher and recent convert",
+      "suggested_fix": "改为“其中较为突出的是加利·福克斯（Galli Fuchs），他是一名教员，也是近来归信的人”。",
+      "translation_quote": "最为显著的有学童加利·福克斯（Galli Fuchs），他是近来归信者与一名教员"
+    },
+    {
+      "location": "translation.html，第12段",
+      "severity": "major",
+      "source_quote": "questioning their interest in the Anabaptists’ beliefs, as he maintained they had oft heard them before",
+      "suggested_fix": "将“称他们已多次听闻这些指控”改为“表示他们以前已多次听过这些信仰主张”。",
+      "translation_quote": "质疑为何对方对再洗礼派之信念感兴趣，称他们已多次听闻这些指控"
+    },
+    {
+      "location": "translation.html，第18段，判处划桨苦役的理由",
+      "severity": "major",
+      "source_quote": "The council maintained that because of these men’s civil disobedience, not their beliefs",
+      "suggested_fix": "改为“议会坚称，这些人被判处划桨苦役，是因为他们不服从政府，而不是因为他们的信仰”。保留当局声称的明确排除关系。",
+      "translation_quote": "委员会认为这些人是因民事不服从，而非仅因所信"
+    },
+    {
+      "location": "translation.html，第26段，表决与判决",
+      "severity": "major",
+      "source_quote": "The matter was put to a vote at noon, and a majority decision was quickly reached. Hans Landis would be publicly beheaded at once.",
+      "suggested_fix": "改为“中午对此事进行表决，很快以多数票作出决定：立即将汉斯·兰迪斯当众斩首。”原文没有说明以举手方式投票。",
+      "translation_quote": "中午举手表决，很快取得多数决定：当众处死汉斯·兰迪斯。"
+    },
+    {
+      "location": "translation.html，第31段，对行刑者的回答",
+      "severity": "major",
+      "source_quote": "“Yes,” came the reply, “you have executed this poor man.”",
+      "suggested_fix": "将“这穷人”改为“这个可怜的人”。这里的 poor 表示怜悯，并非断言汉斯贫穷。",
+      "translation_quote": "答曰：“是的，你已处死了这穷人。”"
+    },
+    {
+      "location": "translation.html，第9段，明斯特派",
+      "severity": "minor",
+      "source_quote": "Events such as the Muensterites and their violent interpretations of Scripture",
+      "suggested_fix": "改为“明斯特派（Muensterites）的事件及其对圣经的暴力解读”。",
+      "translation_quote": "像明斯特（Muensterites）那样对经文本暴力解读的事件"
+    },
+    {
+      "location": "translation.html，第1段经文及第9段强调标签",
+      "severity": "minor",
+      "source_quote": "<em>ever learning, and never able to come to the knowledge of the truth –2 Timothy 3:7.</em>; <em>deviant</em>",
+      "suggested_fix": "在第1段为现有经文及其出处恢复原有的 <em> 标签；第9段将 <span>异端</span> 改为 <em>异端</em>，保留原文强调结构。",
+      "translation_quote": "“常有学习，却不能明白真理。”——提摩太后书 3:7。; <span>异端</span>"
+    },
+    {
+      "location": "translation.html，第33段",
+      "severity": "minor",
+      "source_quote": "where the faith that had cost Hans Landis his life was to flourish through future generations",
+      "suggested_fix": "将“那在汉斯为了之付出生命的信仰”改为“汉斯曾为之付出生命的信仰”。",
+      "translation_quote": "那在汉斯为了之付出生命的信仰，得以在后代中兴旺"
+    }
+  ],
   "id": "404d8ac8ff393e1a129e273370ab1f74",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "cmn",
@@ -98,11 +183,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/71da96b1e9fc7ad8418f514e41f429009d9b72f0f1b0b1b636d343ab0a681930.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +202,7 @@
     "total_reserved_usd": 0.764616,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
