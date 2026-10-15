@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T19:28:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Bullet list, Rachel and Rebekah\",\"severity\":\"minor\",\"source_quote\":\"Rachel and Rebekah both tended their fathers’ flocks\",\"suggested_fix\":\"Rakel og Rebekka gjette begge farens flokker.\",\"translation_quote\":\"Rakél og Rebekka gjette begge farens flokker.\"},{\"location\":\"Paragraph beginning “If you are a daughter”\",\"severity\":\"minor\",\"source_quote\":\"Tomorrow you will be the mothers, grandmothers, perhaps a Dorcas, or maybe even a widow, in God’s work.\",\"suggested_fix\":\"En dag vil dere være mødre, bestemødre, kanskje en Dorkas eller kanskje enke i Guds verk.\",\"translation_quote\":\"I morgen skal dere være mødre, bestemødre, kanskje en Dorkas, eller kanskje enke, i Guds verk.\"},{\"location\":\"Paragraph beginning “If you are living with parents”\",\"severity\":\"minor\",\"source_quote\":\"it is good for you to bear the yoke of discipline while in your youth\",\"suggested_fix\":\"det er godt for dere å bære tuktens åk i ungdommen\",\"translation_quote\":\"det er godt for dere å bære tukts åk i ungdommen\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1095,
+    "content_evidence_truncated": false,
+    "content_sha256": "e69f63f2795d91c6787e046980c3c659810aed1ef94004a0347cbdec09cc7ab5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1043,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 750,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7517,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6414,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8560
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
