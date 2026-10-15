@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b8f4afd2-75d9-4a3f-b002-040e4260e2a7",
+    "response_id": "chatcmpl-EZEFu6kuEasNxSudhx3dWBNjz0A3u",
+    "usage": {
+      "completion_tokens": 930,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 799,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15714,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14611,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 16644
+    }
+  },
+  "received_at": "2026-10-15T11:53:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Conclusion, paragraph beginning “Die seuns van Enak was reuse.”",
+        "severity": "minor",
+        "source_quote": "The numbers of giants had increased since he had first offered to fight them.",
+        "suggested_fix": "Die aantal reuse het toegeneem sedert hy die eerste keer aangebied het om teen hulle te veg.",
+        "translation_quote": "Die aantal reuse het toegeneem sedert hy hulle die eerste keer aangebied het om teen hulle te veg."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

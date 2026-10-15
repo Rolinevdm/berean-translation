@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c8680fe67e9141159c155b3273c6b62b",
   "campaign": "auto-1d3265e939b5f0c12a0cab67b785ff5027d46b52f24a9db4f23a0bc779eb30e2",
   "created_at": "2026-10-15T01:45:36+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 23843
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 930,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 799,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 15714,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 14611,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 16644
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[14]: source /article[1]/blockquote[1]/p[1]/em[1] ('start', 'em', ()); translation /article[1]/blockquote[1]/p[1] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Conclusion, paragraph beginning “Die seuns van Enak was reuse.”",
+      "severity": "minor",
+      "source_quote": "The numbers of giants had increased since he had first offered to fight them.",
+      "suggested_fix": "Die aantal reuse het toegeneem sedert hy die eerste keer aangebied het om teen hulle te veg.",
+      "translation_quote": "Die aantal reuse het toegeneem sedert hy hulle die eerste keer aangebied het om teen hulle te veg."
     }
   ],
+  "finished_at": "2026-10-15T11:53:32+00:00",
   "id": "ffef2b9ddba9adcd90afb5e9e45c3883",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "afr",
@@ -148,9 +168,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/db09acb28768502a5289f3ae38d39da7fc8e3368d41373d847c31adaa571c104.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +188,7 @@
     "total_reserved_usd": 0.130645,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "a748a750308bd832e277e952779df66318e4e2d2a2e40c0ec8292333d320ccad",
   "translation_model_actual": "gpt-6-luna"

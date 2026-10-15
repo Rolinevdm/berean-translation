@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Conclusion, paragraph beginning “Die seuns van Enak was reuse.”",
+      "severity": "minor",
+      "source_quote": "The numbers of giants had increased since he had first offered to fight them.",
+      "suggested_fix": "Die aantal reuse het toegeneem sedert hy die eerste keer aangebied het om teen hulle te veg.",
+      "translation_quote": "Die aantal reuse het toegeneem sedert hy hulle die eerste keer aangebied het om teen hulle te veg."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
