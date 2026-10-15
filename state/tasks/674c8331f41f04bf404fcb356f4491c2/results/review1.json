@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0bc0a2c9-bac2-44ef-8ac1-5ccd0195209f",
+    "response_id": "chatcmpl-EZ2dmjTfrQZhrM1KG0MHQmirDOQpf",
+    "usage": {
+      "completion_tokens": 380,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 275,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1646,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 543,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2026
+    }
+  },
+  "received_at": "2026-10-15T01:25:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문 첫 문단",
+        "severity": "minor",
+        "source_quote": "They attend a small, home-based fellowship",
+        "suggested_fix": "이들은 그리스도의 나라가 자라기를 간절히 바라며, 가정에서 모이는 작은 교제 모임에 참석합니다.",
+        "translation_quote": "소규모 가정 기반 교회에 참석합니다"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

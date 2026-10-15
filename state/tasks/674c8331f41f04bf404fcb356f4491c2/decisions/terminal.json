@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문 첫 문단",
+      "severity": "minor",
+      "source_quote": "They attend a small, home-based fellowship",
+      "suggested_fix": "이들은 그리스도의 나라가 자라기를 간절히 바라며, 가정에서 모이는 작은 교제 모임에 참석합니다.",
+      "translation_quote": "소규모 가정 기반 교회에 참석합니다"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5f24323715a34e3382bbf5911daed405",
   "campaign": "auto-0b9cc7242e3b7dc60f622759bc9b17992539ccd37036275963dc922e36adcff0",
   "created_at": "2026-10-14T20:10:52+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 1292
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 380,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 275,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1646,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 543,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2026
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "본문 첫 문단",
+      "severity": "minor",
+      "source_quote": "They attend a small, home-based fellowship",
+      "suggested_fix": "이들은 그리스도의 나라가 자라기를 간절히 바라며, 가정에서 모이는 작은 교제 모임에 참석합니다.",
+      "translation_quote": "소규모 가정 기반 교회에 참석합니다"
+    }
+  ],
+  "finished_at": "2026-10-15T01:25:39+00:00",
   "id": "674c8331f41f04bf404fcb356f4491c2",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "kor",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b01ef8fb9274a702009bbd9db8596ed2bfb9c22d9cf2d5933fc5b1a8b540e041.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.08582,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "30af25731bcf2eb143bc6ad52b144bc028692b48c5877f22b07a359293b2a8c2",
   "translation_model_actual": "gpt-6-luna"
