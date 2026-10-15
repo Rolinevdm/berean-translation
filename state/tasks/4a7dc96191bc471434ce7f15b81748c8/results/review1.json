@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "58aae8da-182c-4db0-aa5c-02f8849683e2",
+    "response_id": "chatcmpl-EZKRnJdVG4Rvwrd1cnTdBmYLhdoLq",
+    "usage": {
+      "completion_tokens": 639,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 548,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5729,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4626,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6368
+    }
+  },
+  "received_at": "2026-10-15T19:29:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "figcaption",
+        "severity": "minor",
+        "source_quote": "Icarus comes crashing down.",
+        "suggested_fix": "Ο Ίκαρος συντρίβεται.",
+        "translation_quote": "Ο Ίκαρος πέφτει συντριπτικά."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

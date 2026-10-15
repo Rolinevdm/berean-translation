@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "figcaption",
+      "severity": "minor",
+      "source_quote": "Icarus comes crashing down.",
+      "suggested_fix": "Ο Ίκαρος συντρίβεται.",
+      "translation_quote": "Ο Ίκαρος πέφτει συντριπτικά."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

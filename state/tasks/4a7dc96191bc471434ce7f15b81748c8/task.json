@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a7dc8c317742437ebac4534c19bd3e52",
   "campaign": "auto-b84535a515ed5801e1390a304b6554dff9b7c33a00f5ea681e5b504bfa525194",
   "created_at": "2026-10-15T01:28:41+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 5375
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 639,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 548,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5729,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4626,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6368
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "figcaption",
+      "severity": "minor",
+      "source_quote": "Icarus comes crashing down.",
+      "suggested_fix": "Ο Ίκαρος συντρίβεται.",
+      "translation_quote": "Ο Ίκαρος πέφτει συντριπτικά."
+    }
+  ],
+  "finished_at": "2026-10-15T19:29:08+00:00",
   "id": "4a7dc96191bc471434ce7f15b81748c8",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ell",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d86fae6b62a1aad4307db08ad26833b192aa341005e401b2e7eae37ccd727434.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.087806,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
   "translation_model_actual": "gpt-6-luna"
