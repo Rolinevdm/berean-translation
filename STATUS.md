@@ -2,15 +2,15 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Generated: 2026-10-15T11:54:58+00:00.
+Generated: 2026-10-15T13:20:14+00:00.
 Published means an accepted translation is exportable here; live deployment is verified separately.
 Target categories are disjoint. Accepted publications remain published during replacement work. Source-stale versions and replacement outcomes are reported separately.
 Ready means source-compatible and exportable here; live deployment is verified separately.
 Finished means processing has stopped, not that every requested translation passed. Held items still need action.
 
-Observed English revision: `52e9d320a49e2444d36eafdc051ebb00c1e6693a`
+Observed English revision: `a376c1bd0975b85af165a0924d4f4a9de4d2f5c1`
 
-Total target: 23320 article/language pairs. published: 2729 | unstarted: 19049 | queued: 48 | active: 2 | held without publication: 1492.
+Total target: 23360 article/language pairs. published: 2729 | unstarted: 19089 | queued: 48 | active: 2 | held without publication: 1492.
 
 Last collection: 2026-10-15T11:54:58+00:00; newly published: 4; stop reason: wait_budget_exhausted; submitted batches remaining: 2.
 
@@ -96,10 +96,10 @@ Last collection: 2026-10-15T11:54:58+00:00; newly published: 4; stop reason: wai
 | `heartbeat-remnant-2004-03` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2004-01` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-11` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-07` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-05` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-01` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2002-09` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2002-07` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
@@ -121,26 +121,26 @@ Last collection: 2026-10-15T11:54:58+00:00; newly published: 4; stop reason: wai
 
 | Language | Published / source articles | Unstarted | Queued / admission | Active | Held without publication | Source stale | Failed replacements | Human reviewed | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 130 / 1166 | 952 | 1 | 0 | 83 | 0 | 5 | 0 | 123 |
-| `hin` (hi) | 137 / 1166 | 952 | 4 | 0 | 73 | 0 | 7 | 0 | 127 |
-| `spa` (es) | 171 / 1166 | 952 | 0 | 0 | 43 | 0 | 5 | 0 | 96 |
-| `ara` (ar) | 123 / 1166 | 952 | 5 | 0 | 86 | 0 | 9 | 0 | 139 |
-| `fra` (fr) | 161 / 1166 | 952 | 3 | 0 | 50 | 0 | 9 | 0 | 101 |
-| `ben` (bn) | 120 / 1166 | 952 | 2 | 0 | 92 | 0 | 7 | 0 | 138 |
-| `por` (pt) | 176 / 1166 | 952 | 3 | 0 | 35 | 0 | 6 | 0 | 96 |
-| `ind` (id) | 154 / 1166 | 952 | 2 | 0 | 58 | 0 | 6 | 0 | 112 |
-| `urd` (ur) | 133 / 1166 | 952 | 4 | 0 | 77 | 0 | 5 | 0 | 129 |
-| `rus` (ru) | 129 / 1166 | 952 | 5 | 0 | 80 | 0 | 6 | 0 | 141 |
-| `deu` (de) | 110 / 1166 | 952 | 4 | 0 | 100 | 0 | 4 | 0 | 133 |
-| `nld` (nl) | 152 / 1166 | 953 | 1 | 0 | 60 | 0 | 9 | 0 | 119 |
-| `afr` (af) | 154 / 1166 | 953 | 2 | 1 | 56 | 0 | 9 | 3 | 103 |
-| `swa` (sw) | 94 / 1166 | 953 | 3 | 0 | 116 | 0 | 7 | 0 | 161 |
-| `kor` (ko) | 139 / 1166 | 953 | 1 | 1 | 72 | 0 | 5 | 0 | 120 |
-| `ita` (it) | 158 / 1166 | 953 | 1 | 0 | 54 | 0 | 7 | 0 | 98 |
-| `heb` (he) | 83 / 1166 | 953 | 0 | 0 | 130 | 0 | 5 | 0 | 150 |
-| `ell` (el) | 132 / 1166 | 953 | 2 | 0 | 79 | 0 | 9 | 0 | 127 |
-| `swe` (sv) | 138 / 1166 | 953 | 3 | 0 | 72 | 0 | 7 | 0 | 121 |
-| `nob` (nb) | 135 / 1166 | 953 | 2 | 0 | 76 | 0 | 8 | 0 | 134 |
+| `cmn` (zh-Hans) | 130 / 1168 | 954 | 1 | 0 | 83 | 0 | 5 | 0 | 123 |
+| `hin` (hi) | 137 / 1168 | 954 | 4 | 0 | 73 | 0 | 7 | 0 | 127 |
+| `spa` (es) | 171 / 1168 | 954 | 0 | 0 | 43 | 0 | 5 | 0 | 96 |
+| `ara` (ar) | 123 / 1168 | 954 | 5 | 0 | 86 | 0 | 9 | 0 | 139 |
+| `fra` (fr) | 161 / 1168 | 954 | 3 | 0 | 50 | 0 | 9 | 0 | 101 |
+| `ben` (bn) | 120 / 1168 | 954 | 2 | 0 | 92 | 0 | 7 | 0 | 138 |
+| `por` (pt) | 176 / 1168 | 954 | 3 | 0 | 35 | 0 | 6 | 0 | 96 |
+| `ind` (id) | 154 / 1168 | 954 | 2 | 0 | 58 | 0 | 6 | 0 | 112 |
+| `urd` (ur) | 133 / 1168 | 954 | 4 | 0 | 77 | 0 | 5 | 0 | 129 |
+| `rus` (ru) | 129 / 1168 | 954 | 5 | 0 | 80 | 0 | 6 | 0 | 141 |
+| `deu` (de) | 110 / 1168 | 954 | 4 | 0 | 100 | 0 | 4 | 0 | 133 |
+| `nld` (nl) | 152 / 1168 | 955 | 1 | 0 | 60 | 0 | 9 | 0 | 119 |
+| `afr` (af) | 154 / 1168 | 955 | 2 | 1 | 56 | 0 | 9 | 3 | 103 |
+| `swa` (sw) | 94 / 1168 | 955 | 3 | 0 | 116 | 0 | 7 | 0 | 161 |
+| `kor` (ko) | 139 / 1168 | 955 | 1 | 1 | 72 | 0 | 5 | 0 | 120 |
+| `ita` (it) | 158 / 1168 | 955 | 1 | 0 | 54 | 0 | 7 | 0 | 98 |
+| `heb` (he) | 83 / 1168 | 955 | 0 | 0 | 130 | 0 | 5 | 0 | 150 |
+| `ell` (el) | 132 / 1168 | 955 | 2 | 0 | 79 | 0 | 9 | 0 | 127 |
+| `swe` (sv) | 138 / 1168 | 955 | 3 | 0 | 72 | 0 | 7 | 0 | 121 |
+| `nob` (nb) | 135 / 1168 | 955 | 2 | 0 | 76 | 0 | 8 | 0 | 134 |
 
 ## Issue / language work
 
@@ -1748,26 +1748,26 @@ Every source issue and configured language appears, including unstarted work. Re
 | `heartbeat-remnant-2003-11` | `ell` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-11` | `swe` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-11` | `nob` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `cmn` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `hin` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `spa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `ara` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `fra` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `ben` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `por` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `ind` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `urd` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `rus` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `deu` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `nld` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `afr` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `swa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `kor` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `ita` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `heb` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `ell` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `swe` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-09` | `nob` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-07` | `cmn` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-07` | `hin` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-07` | `spa` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
@@ -1808,26 +1808,26 @@ Every source issue and configured language appears, including unstarted work. Re
 | `heartbeat-remnant-2003-05` | `ell` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-05` | `swe` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-05` | `nob` | 0 / 10 | 10 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2003-03` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `cmn` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `hin` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `spa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `ara` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `fra` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `ben` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `por` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `ind` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `urd` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `rus` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `deu` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `nld` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `afr` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `swa` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `kor` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `ita` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `heb` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `ell` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `swe` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | `nob` | 0 / 13 | 13 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-01` | `cmn` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-01` | `hin` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-01` | `spa` | 0 / 11 | 11 | 0 | 0 | 0 | 0 |

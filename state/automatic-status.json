@@ -6,14 +6,14 @@
     "held_without_publication": 1492,
     "published": 2729,
     "queued": 48,
-    "unstarted": 19049
+    "unstarted": 19089
   },
-  "generated_at": "2026-10-15T11:54:58+00:00",
+  "generated_at": "2026-10-15T13:20:14+00:00",
   "pending_requests": 224,
   "replacement_counts": {
     "active": 0,
     "held": 135,
     "queued": 0
   },
-  "target_pairs": 23320
+  "target_pairs": 23360
 }
