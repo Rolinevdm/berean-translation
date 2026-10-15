@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T19:37:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf 2, kutipan terakhir The Jefferson Bible\",\"severity\":\"minor\",\"source_quote\":\"“Now, in the place where he was crucified, there was a garden;\",\"suggested_fix\":\"Tambahkan “Sekarang,” di awal kutipan: “Sekarang, di tempat ia disalibkan, ada sebuah taman;”\",\"translation_quote\":\"“Di tempat ia disalibkan, ada sebuah taman;\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 417,
+    "content_evidence_truncated": false,
+    "content_sha256": "67cc92d5007cdb143b5a63384a823618606ab27847bac13daf9df66bbe7b1fd0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 822,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 693,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2385,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1282,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3207
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

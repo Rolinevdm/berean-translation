@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf 2, kutipan terakhir The Jefferson Bible",
+      "severity": "minor",
+      "source_quote": "“Now, in the place where he was crucified, there was a garden;",
+      "suggested_fix": "Tambahkan “Sekarang,” di awal kutipan: “Sekarang, di tempat ia disalibkan, ada sebuah taman;”",
+      "translation_quote": "“Di tempat ia disalibkan, ada sebuah taman;"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

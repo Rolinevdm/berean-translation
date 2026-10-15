@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bdbe6ef200954eb698b6f5e8c86e6222",
   "campaign": "auto-f8741196028cdc600f20186731f39c48e815b637ca9151eb95888c3ca7912664",
   "created_at": "2026-10-11T18:09:16+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 3245
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 822,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 693,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2385,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1282,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3207
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, opening blockquote",
-      "severity": "major",
-      "source_quote": "We must reduce our volume to the simple evangelists, select, even from them, the very words only of Jesus",
-      "suggested_fix": "Kita harus menyusutkan kitab kita menjadi Injil-Injil sederhana, lalu memilih, bahkan dari antara Injil-Injil itu, hanya kata-kata Yesus sendiri",
-      "translation_quote": "Kita harus mengurangi volume kita hingga sesederhana para penginjil, memilih, bahkan dari antara mereka, hanya kata-kata Yesus sendiri"
+      "location": "Paragraf 2, kutipan terakhir The Jefferson Bible",
+      "severity": "minor",
+      "source_quote": "“Now, in the place where he was crucified, there was a garden;",
+      "suggested_fix": "Tambahkan “Sekarang,” di awal kutipan: “Sekarang, di tempat ia disalibkan, ada sebuah taman;”",
+      "translation_quote": "“Di tempat ia disalibkan, ada sebuah taman;"
     }
   ],
+  "finished_at": "2026-10-15T19:37:46+00:00",
   "id": "0b1fb49f4749a7631d2c040f0968dc07",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ind",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.08629,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
   "translation_model_actual": "gpt-6-luna"
