@@ -3524,6 +3524,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.html",
+      "html_sha256": "6181f70f79873e526afa5427a4cc10f7c3663344f7cf739f414c549c4f3a88cd",
+      "human_reviewed": false,
+      "id": "bfec593e-9641-46a9-97d6-84e3bffe789c",
+      "images": [
+        {
+          "alt": "Gravure van Ikaros wat uit die lug val",
+          "public_path": "/images/articles/bfec593e-9641-46a9-97d6-84e3bffe789c-1.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.json",
+      "metadata_sha256": "be108a99867d549592290af593fc15f0858745670db585d4cd9313dd7c1902ea",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Van die redakteur",
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vlieg te hoog?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/c233b16f-7c75-4b40-b250-9ed3a1e336d5.html",
       "html_sha256": "86631d4c085355a3743bbf307e00b796714f9feb710ee0cd1d6634ffa0d6699f",
       "human_reviewed": false,
@@ -3900,6 +3928,42 @@
       "subtitle": null,
       "title": "Van die Redakteur",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.html",
+      "html_sha256": "5b86ad9957e7e6d4de8b36c7da8281f1ec2ab63bf420ea71b40da3c139d8d882",
+      "human_reviewed": false,
+      "id": "e66a02d4-667c-4f50-b5e1-158ff98b82d5",
+      "images": [
+        {
+          "alt": "’n Man wat laag op die grond kniel",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-1.jpg"
+        },
+        {
+          "alt": "Die tollenaar kniel voor God terwyl ’n ander man naby staan",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-2.png"
+        },
+        {
+          "alt": "Voorblad van Pride and Humility",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-3.png"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.json",
+      "metadata_sha256": "7b3dd43c0cdec6e67fa3f433d166f8285173eec2ee7b852ac82fe45913214146",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "f5b7fccc6a524e1449727b9ca39fdaa2ec8b679f58d19ba28c92689583cbcf46",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die nederige mens voel klein",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -18330,6 +18394,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/053cec10-1df0-4f62-832e-362809b44283.html",
+      "html_sha256": "f32c30d362b566e200e53e80ebe011685b2f9f29f3ddbd7eb5d29b009c9a2f29",
+      "human_reviewed": false,
+      "id": "053cec10-1df0-4f62-832e-362809b44283",
+      "images": [
+        {
+          "alt": "Γραμμικό σχέδιο ενός σπιτιού",
+          "public_path": "/images/articles/053cec10-1df0-4f62-832e-362809b44283-1.png"
+        },
+        {
+          "alt": "Γραμμικό σχέδιο ακρογωνιαίου λίθου σε τοίχο από τούβλα",
+          "public_path": "/images/articles/053cec10-1df0-4f62-832e-362809b44283-2.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/053cec10-1df0-4f62-832e-362809b44283.json",
+      "metadata_sha256": "ed18bcbfa921863863bdd6d5c1f7ceca6e506950b31f0654368e956803801819",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Η γωνιά των αδελφών",
+      "source_revision": "a376c1bd0975b85af165a0924d4f4a9de4d2f5c1",
+      "source_translation_key": "144a2f28ba895f9d80bb30e6df0ffeb8b1edd4259cc5b4ccd46a35db6f476235",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Στοχασμοί για τις κόρες",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
       "html_sha256": "bded9a00713546b93ee722b3babf71cb402d6eddaf10d63d3f9fb950a687d65f",
       "human_reviewed": false,
@@ -21298,6 +21394,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.html",
+      "html_sha256": "e77c682768db34317df9c71fcab08d61aa8135aa2f7e1ab08a434e38c951fbe4",
+      "human_reviewed": false,
+      "id": "bfec593e-9641-46a9-97d6-84e3bffe789c",
+      "images": [
+        {
+          "alt": "Χαρακτικό που απεικονίζει τον Ίκαρο να πέφτει από τον ουρανό",
+          "public_path": "/images/articles/bfec593e-9641-46a9-97d6-84e3bffe789c-1.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.json",
+      "metadata_sha256": "1ec764e1d9f32f783b5005917625225d54159b2f35a467ef5bc3bc4f1a846f51",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Από τον συντάκτη",
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Πετώντας πολύ ψηλά;",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/c233b16f-7c75-4b40-b250-9ed3a1e336d5.html",
       "html_sha256": "b489bf0a7c4f2260916d7e13ddafde8d79e8cfebbd323db5c16f6b49abd08690",
       "human_reviewed": false,
@@ -21632,6 +21756,42 @@
       "status": "ready",
       "subtitle": null,
       "title": "ΠΕΠΟΙΘΗΣΗ",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.html",
+      "html_sha256": "d1481977926a07903fcdfd339892dd3d7ec54e619dc5865627b5916685f9fbfc",
+      "human_reviewed": false,
+      "id": "e66a02d4-667c-4f50-b5e1-158ff98b82d5",
+      "images": [
+        {
+          "alt": "Ένας άντρας γονατιστός, σκυμμένος χαμηλά ως το έδαφος",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-1.jpg"
+        },
+        {
+          "alt": "Ο τελώνης γονατίζει ενώπιον του Θεού, ενώ ένας άλλος άντρας στέκεται κοντά",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-2.png"
+        },
+        {
+          "alt": "Εξώφυλλο του έργου Pride and Humility",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-3.png"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.json",
+      "metadata_sha256": "6e919a1b5e08547271f63143d4a9dad84d86b11bc081fdda34c4577fd16e0fdd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "52e9d320a49e2444d36eafdc051ebb00c1e6693a",
+      "source_translation_key": "f5b7fccc6a524e1449727b9ca39fdaa2ec8b679f58d19ba28c92689583cbcf46",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ο ταπεινός άνθρωπος αισθάνεται μικρός",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -37358,6 +37518,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/053cec10-1df0-4f62-832e-362809b44283.html",
+      "html_sha256": "5f409991fbf52b88deece2ff11267466d2de8fe312ab0758e4a80fd5825f418d",
+      "human_reviewed": false,
+      "id": "053cec10-1df0-4f62-832e-362809b44283",
+      "images": [
+        {
+          "alt": "Disegno a tratto di una casa",
+          "public_path": "/images/articles/053cec10-1df0-4f62-832e-362809b44283-1.png"
+        },
+        {
+          "alt": "Disegno a tratto di una pietra angolare in un muro di mattoni",
+          "public_path": "/images/articles/053cec10-1df0-4f62-832e-362809b44283-2.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/053cec10-1df0-4f62-832e-362809b44283.json",
+      "metadata_sha256": "85f9b82717947c6016042c89a561e5237aff01f897f7dc741183e6e2983a053f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "L’angolo delle sorelle",
+      "source_revision": "a376c1bd0975b85af165a0924d4f4a9de4d2f5c1",
+      "source_translation_key": "144a2f28ba895f9d80bb30e6df0ffeb8b1edd4259cc5b4ccd46a35db6f476235",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Riflessioni per le figlie",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/0678981b-d0f9-4c28-970e-2617f9543c9b.html",
       "html_sha256": "de34cf9f30afa7737f8b076b1b483e1d8162c0157fe6940bb6def0bd5bb7e546",
       "human_reviewed": false,
@@ -41811,6 +42003,38 @@
       "subtitle": null,
       "title": "편집장의 글",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/053cec10-1df0-4f62-832e-362809b44283.html",
+      "html_sha256": "c9f03c94de5d2fb0c87f877ef3d2209b5752b0639d29b08011f0f7d8b8c377f6",
+      "human_reviewed": false,
+      "id": "053cec10-1df0-4f62-832e-362809b44283",
+      "images": [
+        {
+          "alt": "집의 선화",
+          "public_path": "/images/articles/053cec10-1df0-4f62-832e-362809b44283-1.png"
+        },
+        {
+          "alt": "벽돌담의 모퉁잇돌 선화",
+          "public_path": "/images/articles/053cec10-1df0-4f62-832e-362809b44283-2.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/053cec10-1df0-4f62-832e-362809b44283.json",
+      "metadata_sha256": "df51db67b1a6c1abc123d6904b68b8d3c9226edd6f04fb9b5273a102c22e8f44",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "자매들의 글",
+      "source_revision": "a376c1bd0975b85af165a0924d4f4a9de4d2f5c1",
+      "source_translation_key": "144a2f28ba895f9d80bb30e6df0ffeb8b1edd4259cc5b4ccd46a35db6f476235",
+      "status": "ready",
+      "subtitle": null,
+      "title": "딸들을 위한 묵상",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -50185,6 +50409,38 @@
       "subtitle": null,
       "title": "Fra redaktøren",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/053cec10-1df0-4f62-832e-362809b44283.html",
+      "html_sha256": "460968906035c1d3bfdbe5dc1eb2203a3043d634cf8836bbe6a0e8e2a4abd98a",
+      "human_reviewed": false,
+      "id": "053cec10-1df0-4f62-832e-362809b44283",
+      "images": [
+        {
+          "alt": "Strektegning av et hus",
+          "public_path": "/images/articles/053cec10-1df0-4f62-832e-362809b44283-1.png"
+        },
+        {
+          "alt": "Strektegning av en hjørnestein i en murvegg",
+          "public_path": "/images/articles/053cec10-1df0-4f62-832e-362809b44283-2.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/053cec10-1df0-4f62-832e-362809b44283.json",
+      "metadata_sha256": "8b7b8dc6a8040395cecfba9b5160a1796df8935ba930ec49d5c4b7f5a34e5d9b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Søstrenes hjørne",
+      "source_revision": "a376c1bd0975b85af165a0924d4f4a9de4d2f5c1",
+      "source_translation_key": "144a2f28ba895f9d80bb30e6df0ffeb8b1edd4259cc5b4ccd46a35db6f476235",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Betraktninger for døtre",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -60728,6 +60984,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924.html",
+      "html_sha256": "b6e5f8b772cc3337241663ec518f8734bbf72c52a27a3412161b9b91b3908227",
+      "human_reviewed": false,
+      "id": "8aa76d0a-4ff5-403e-a366-7d6b8fe26924",
+      "images": [
+        {
+          "alt": "Гравюра, изображающая Ахана, берущего добычу во время сражения",
+          "public_path": "/images/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924-1.jpg"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924.json",
+      "metadata_sha256": "aa171333ffa0859b32ef734437d50a27dfada4709792f0dd5fa076950c3028c0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Назидание для молодёжи",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Желания сердца твоего",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
       "html_sha256": "fcad9dc16e70b2424c4ba733cfec3f45aa0ac328910cd515d07ddcce67eec05b",
       "human_reviewed": false,
@@ -62326,6 +62610,42 @@
       "subtitle": null,
       "title": "От редактора",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.html",
+      "html_sha256": "bace51fe1e4af98a749d9ab837a3563ee7c4cccabab42e14451ce58e68c02b2d",
+      "human_reviewed": false,
+      "id": "e66a02d4-667c-4f50-b5e1-158ff98b82d5",
+      "images": [
+        {
+          "alt": "Мужчина на коленях низко склонился к земле",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-1.jpg"
+        },
+        {
+          "alt": "Мытарь преклонил колени перед Богом, а рядом стоит другой человек",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-2.png"
+        },
+        {
+          "alt": "Обложка книги «Гордость и смирение»",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-3.png"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.json",
+      "metadata_sha256": "636bc767c209bb0599aad25bf55091d0e9042352597338243db5bf2552c7bdf0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "f5b7fccc6a524e1449727b9ca39fdaa2ec8b679f58d19ba28c92689583cbcf46",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Смиренный человек чувствует себя малым",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -67435,6 +67755,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/053cec10-1df0-4f62-832e-362809b44283.html",
+      "html_sha256": "5a4a23a319cdb96ac7cfce7fb8978ba072a066df1ccf23812356b39a04ae8fe4",
+      "human_reviewed": false,
+      "id": "053cec10-1df0-4f62-832e-362809b44283",
+      "images": [
+        {
+          "alt": "Mchoro wa mstari wa nyumba",
+          "public_path": "/images/articles/053cec10-1df0-4f62-832e-362809b44283-1.png"
+        },
+        {
+          "alt": "Mchoro wa mstari wa jiwe la pembe katika ukuta wa matofali",
+          "public_path": "/images/articles/053cec10-1df0-4f62-832e-362809b44283-2.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/053cec10-1df0-4f62-832e-362809b44283.json",
+      "metadata_sha256": "6367cb62a2a5139f609e4118bd14786084132f5cc54faed5fd585ff5e7e47237",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Kona ya Dada",
+      "source_revision": "a376c1bd0975b85af165a0924d4f4a9de4d2f5c1",
+      "source_translation_key": "144a2f28ba895f9d80bb30e6df0ffeb8b1edd4259cc5b4ccd46a35db6f476235",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Tafakari kwa Binti",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/0678981b-d0f9-4c28-970e-2617f9543c9b.html",
       "html_sha256": "5bec82c18364fdfb3f451d9284d6f35854c7a2f1c3093deab8aad45c309f5b0a",
       "human_reviewed": false,
@@ -69655,6 +70007,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Kutembea Pamoja Naye Katika Huzuni ya Msiba",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.html",
+      "html_sha256": "f26ac48c0559e137b622aeceb9e11c5e9ef4bf341af1eb1d8a8a6dbb8ac9f5c2",
+      "human_reviewed": false,
+      "id": "bfec593e-9641-46a9-97d6-84e3bffe789c",
+      "images": [
+        {
+          "alt": "Mchoro wa kuchonga unaoonyesha Ikarus akianguka kutoka angani",
+          "public_path": "/images/articles/bfec593e-9641-46a9-97d6-84e3bffe789c-1.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.json",
+      "metadata_sha256": "4e080b2efcb5bab82a322d4d96a8f46388b422eade56d46a8252515f1055d873",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Kutoka kwa Mhariri",
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kuruka Juu Mno?",
       "translation_model": "gpt-6-luna"
     },
     {
