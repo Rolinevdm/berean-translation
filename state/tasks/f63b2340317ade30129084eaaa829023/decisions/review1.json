@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article HTML, final paragraph before the questions",
+      "severity": "major",
+      "source_quote": "“going into all the world and teaching all nations …”",
+      "suggested_fix": "Ändra citatet till exempelvis ”gå ut i hela världen och undervisa alla folk …” så att det återger källans uppmaning att undervisa, inte att göra folk till lärjungar.",
+      "translation_quote": "”gå ut i hela världen och göra alla folk till lärjungar …”"
+    },
+    {
+      "location": "Article HTML, list item about the Rechabites",
+      "severity": "major",
+      "source_quote": "“The Rechabites (daughters are specifically mentioned, too) followed their father’s direction”",
+      "suggested_fix": "Skriv exempelvis: ”Rekabiternas folk följde sin fars anvisning (döttrarna nämns också särskilt) …” så att det framgår att det är rekabiterna som helhet som följde anvisningen.",
+      "translation_quote": "“Rekabiternas döttrar nämns också särskilt. De följde sin fars anvisning”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

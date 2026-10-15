@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3246795a-9a34-4e1f-9b4e-ad3b12344f0e",
+    "response_id": "chatcmpl-EZKPvFVPfGRwQJaLJkZo1h8Plhti8",
+    "usage": {
+      "completion_tokens": 989,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 719,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7617,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6514,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8606
+    }
+  },
+  "received_at": "2026-10-15T19:28:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article HTML, final paragraph before the questions",
+        "severity": "major",
+        "source_quote": "“going into all the world and teaching all nations …”",
+        "suggested_fix": "Ändra citatet till exempelvis ”gå ut i hela världen och undervisa alla folk …” så att det återger källans uppmaning att undervisa, inte att göra folk till lärjungar.",
+        "translation_quote": "”gå ut i hela världen och göra alla folk till lärjungar …”"
+      },
+      {
+        "location": "Article HTML, list item about the Rechabites",
+        "severity": "major",
+        "source_quote": "“The Rechabites (daughters are specifically mentioned, too) followed their father’s direction”",
+        "suggested_fix": "Skriv exempelvis: ”Rekabiternas folk följde sin fars anvisning (döttrarna nämns också särskilt) …” så att det framgår att det är rekabiterna som helhet som följde anvisningen.",
+        "translation_quote": "“Rekabiternas döttrar nämns också särskilt. De följde sin fars anvisning”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

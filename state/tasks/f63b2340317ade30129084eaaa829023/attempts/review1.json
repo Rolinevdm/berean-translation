@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T19:28:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article HTML, final paragraph before the questions\",\"severity\":\"major\",\"source_quote\":\"“going into all the world and teaching all nations …”\",\"suggested_fix\":\"Ändra citatet till exempelvis ”gå ut i hela världen och undervisa alla folk …” så att det återger källans uppmaning att undervisa, inte att göra folk till lärjungar.\",\"translation_quote\":\"”gå ut i hela världen och göra alla folk till lärjungar …”\"},{\"location\":\"Article HTML, list item about the Rechabites\",\"severity\":\"major\",\"source_quote\":\"“The Rechabites (daughters are specifically mentioned, too) followed their father’s direction”\",\"suggested_fix\":\"Skriv exempelvis: ”Rekabiternas folk följde sin fars anvisning (döttrarna nämns också särskilt) …” så att det framgår att det är rekabiterna som helhet som följde anvisningen.\",\"translation_quote\":\"“Rekabiternas döttrar nämns också särskilt. De följde sin fars anvisning”\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 1027,
+    "content_evidence_truncated": false,
+    "content_sha256": "c98b7be382248aa023ea296439711266e451ef7eb75d0967b3dc343ffde7ec4d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 989,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 719,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7617,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6514,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8606
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
