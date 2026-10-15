@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 1, line 2",
+      "severity": "minor",
+      "source_quote": "The answers to which I can’t seem to find.",
+      "suggested_fix": "जिनके जवाब मुझे मिल नहीं पाते।",
+      "translation_quote": "जिनके जवाब मुझे मिलते नहीं बेहाल।"
+    },
+    {
+      "location": "Poem, stanza 5, line 1",
+      "severity": "minor",
+      "source_quote": "I’m not sure that I ever will know",
+      "suggested_fix": "मुझे यक़ीन नहीं कि मैं कभी समझ पाऊँगा",
+      "translation_quote": "मुझे नहीं लगता कि मैं कभी समझ पाऊँगा"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

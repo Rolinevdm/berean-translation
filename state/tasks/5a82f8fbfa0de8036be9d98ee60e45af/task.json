@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4dc8f2e29a7640a09c3dcc9686254e66",
   "campaign": "auto-160679c00440de742e1a14eb994e4eb7df63f5ea53b3134564d0d681edff0a9b",
   "created_at": "2026-10-14T20:11:05+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 2076
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 537,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 377,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2283,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1180,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2820
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Poem, stanza 1, line 2",
+      "severity": "minor",
+      "source_quote": "The answers to which I can’t seem to find.",
+      "suggested_fix": "जिनके जवाब मुझे मिल नहीं पाते।",
+      "translation_quote": "जिनके जवाब मुझे मिलते नहीं बेहाल।"
+    },
+    {
+      "location": "Poem, stanza 5, line 1",
+      "severity": "minor",
+      "source_quote": "I’m not sure that I ever will know",
+      "suggested_fix": "मुझे यक़ीन नहीं कि मैं कभी समझ पाऊँगा",
+      "translation_quote": "मुझे नहीं लगता कि मैं कभी समझ पाऊँगा"
+    }
+  ],
+  "finished_at": "2026-10-15T01:25:36+00:00",
   "id": "5a82f8fbfa0de8036be9d98ee60e45af",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "hin",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/c136f30114582f1c427a1b87a70702f8f93f90ebcfb01102dd4ee2f78f6eaf80.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.086135,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b569013110b89a4cf66b2e394088fe6233293b95647b960723dcc41f376a5624",
   "translation_model_actual": "gpt-6-luna"
