@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8093f8139f6b4818ad3e5881ab83b0ee",
   "campaign": "auto-0dd47d87698b29a2b47c265d37ed6672fc9a6d1942bdb5552df023b1d8244446",
   "created_at": "2026-10-15T15:54:06+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 2656
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 451,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 319,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2014,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2011,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2465
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[23]: source /article[1]/div[1]/p[1]/br[19] ('start', 'br', ()); translation /article[1]/div[1]/p[1] ('end', 'p')",
-      "translation_quote": ""
+      "location": "诗歌，关于“生命之水”的两行",
+      "severity": "minor",
+      "source_quote": "We have lost our thirst / For the waters of life;",
+      "suggested_fix": "将两行改为“却失去了渴望，<br>对生命之水的渴慕；”，避免重复表达。",
+      "translation_quote": "却失去了对生命之水的渴慕，<br>不再渴求生命之水；"
     }
   ],
+  "finished_at": "2026-10-15T22:10:26+00:00",
   "id": "1bf9f60e6cfdc03a3f89331cd4a9a02b",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "cmn",
@@ -148,9 +168,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9889df818827a2867f853d1d1d9f2d1ca5ef20a48bfb25148a6eab627ebb0068.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +188,7 @@
     "total_reserved_usd": 0.08599,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "f09293496cf7064cac9d811c142aa21cf794debdc06f581afb437004e3c54f52",
   "translation_model_actual": "gpt-6-luna"

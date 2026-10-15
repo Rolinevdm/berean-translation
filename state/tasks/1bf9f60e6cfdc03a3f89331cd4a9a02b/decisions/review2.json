@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "诗歌，关于“生命之水”的两行",
+      "severity": "minor",
+      "source_quote": "We have lost our thirst / For the waters of life;",
+      "suggested_fix": "将两行改为“却失去了渴望，<br>对生命之水的渴慕；”，避免重复表达。",
+      "translation_quote": "却失去了对生命之水的渴慕，<br>不再渴求生命之水；"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

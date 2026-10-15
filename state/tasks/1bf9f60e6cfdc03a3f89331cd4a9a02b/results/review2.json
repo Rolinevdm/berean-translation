@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a7e6e4cb-77e4-4171-a6a1-5246fb6c59a0",
+    "response_id": "chatcmpl-EZLTiBaUYiTb5NMECF6JOh4QOLSot",
+    "usage": {
+      "completion_tokens": 451,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 319,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2014,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2011,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2465
+    }
+  },
+  "received_at": "2026-10-15T22:10:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "诗歌，关于“生命之水”的两行",
+        "severity": "minor",
+        "source_quote": "We have lost our thirst / For the waters of life;",
+        "suggested_fix": "将两行改为“却失去了渴望，<br>对生命之水的渴慕；”，避免重复表达。",
+        "translation_quote": "却失去了对生命之水的渴慕，<br>不再渴求生命之水；"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
