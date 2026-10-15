@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e4f20f63deb6409190129b50c1a39007",
   "campaign": "auto-f9c768a6d26b21948338d4b9e3e02c0746fe985bc9fb42e5c6c21105c1c3c470",
   "created_at": "2026-10-11T20:21:36+00:00",
   "events": [
@@ -48,39 +47,31 @@
         },
         "total_tokens": 12148
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 65,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 33,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7888,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6785,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7953
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, bibelcitatet under ”Förlita er på Guds kraft”",
-      "severity": "major",
-      "source_quote": "I can do all things through Christ which strengtheneth me –Philippians 4:13.",
-      "suggested_fix": "Ändra citatet till: ”Allt förmår jag genom Kristus som ger mig kraft – Filipperbrevet 4:13.”",
-      "translation_quote": "Allt förmår jag genom honom som ger mig kraft – Filipperbrevet 4:13."
-    },
-    {
-      "location": "translation.html, bibelcitatet från Första Thessalonikerbrevet under ”Handla inte av rädsla”",
-      "severity": "major",
-      "source_quote": "But I would not have you to be ignorant, brethren",
-      "suggested_fix": "Ändra citatets inledning till: ”Bröder, jag vill att ni ska veta hur det förhåller sig med dem som har insomnat”.",
-      "translation_quote": "Bröder, vi vill att ni ska veta hur det förhåller sig med dem som har insomnat"
-    },
-    {
-      "location": "translation.html, bibelcitatet från Andra Timotheosbrevet under ”Handla inte av rädsla”",
-      "severity": "major",
-      "source_quote": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind",
-      "suggested_fix": "Återge den tryckta betydelsen med: ”Ty Gud har inte gett oss en rädslans ande, utan kraftens, kärlekens och det sunda förnuftets ande”.",
-      "translation_quote": "Ty Gud har inte gett oss en feghetens ande, utan kraftens, kärlekens och självbehärskningens ande"
-    },
-    {
-      "location": "translation.html, första stycket under ”Handla inte av rädsla”; sista stycket under ”Förlita er på Guds kraft”; andra stycket under ”Slutsats”",
-      "severity": "major",
-      "source_quote": "as they face a terminal diagnosis; even a terminal illness; even if we are dealing with a terminal illness",
-      "suggested_fix": "Ändra ”när de får en obotlig diagnos” till ”när de får en diagnos om en sjukdom i terminalt skede”. Ändra ”till och med en obotlig sjukdom” till ”till och med en sjukdom i terminalt skede” och ”även om vi drabbas av en obotlig sjukdom” till ”även om vi har en sjukdom i terminalt skede”. Obotlig sjukdom behöver inte vara terminal.",
-      "translation_quote": "när de får en obotlig diagnos; till och med en obotlig sjukdom; även om vi drabbas av en obotlig sjukdom"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-15T22:19:23+00:00",
   "id": "0eb9df18abf698dc395506475767650c",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "swe",
@@ -169,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -188,7 +179,7 @@
     "total_reserved_usd": 0.748269,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
   "translation_model_actual": "gpt-6.1-sol"
