@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T19:28:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"القصيدة، الفقرة الثانية\",\"severity\":\"major\",\"source_quote\":\"We ask You to push back / The horizons of our hopes;\",\"suggested_fix\":\"نسألك أن توسّع / آفاق آمالنا؛\",\"translation_quote\":\"نسألك أن تدفع إلى الوراء / آفاق آمالنا؛\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 378,
+    "content_evidence_truncated": false,
+    "content_sha256": "d63183c85deb561bef6ca16e443cf89b235f71e61b290068a236edee61608228",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 501,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 398,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1963,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 860,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2464
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

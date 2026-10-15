@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "القصيدة، الفقرة الثانية",
+      "severity": "major",
+      "source_quote": "We ask You to push back / The horizons of our hopes;",
+      "suggested_fix": "نسألك أن توسّع / آفاق آمالنا؛",
+      "translation_quote": "نسألك أن تدفع إلى الوراء / آفاق آمالنا؛"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

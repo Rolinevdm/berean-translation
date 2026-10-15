@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e4e18c0fc2eb44309052a480aeb28cf4",
   "campaign": "auto-11f87e11acdbc1f832d581c9883711d5b08314a4f15bd76320c596853977a13e",
   "created_at": "2026-10-15T15:54:11+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 1777
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 501,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 398,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1963,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 860,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2464
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "القصيدة، الفقرة الثانية",
+      "severity": "major",
+      "source_quote": "We ask You to push back / The horizons of our hopes;",
+      "suggested_fix": "نسألك أن توسّع / آفاق آمالنا؛",
+      "translation_quote": "نسألك أن تدفع إلى الوراء / آفاق آمالنا؛"
+    }
+  ],
   "id": "2c24c19be4769bf5a8019189e0912b5e",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ara",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9889df818827a2867f853d1d1d9f2d1ca5ef20a48bfb25148a6eab627ebb0068.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.08598,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f09293496cf7064cac9d811c142aa21cf794debdc06f581afb437004e3c54f52",
   "translation_model_actual": "gpt-6-luna"
