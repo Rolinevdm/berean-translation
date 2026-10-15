@@ -14562,9 +14562,9 @@
     },
     "e66e5c41-b9e5-42f4-bb96-266f6979fd95": {
       "fingerprints": {
-        "html_sha256": "297ca4c4f77c19739b22b1bb3ae8d6a56c88752c9e7f986872382ab9278e0165",
+        "html_sha256": "387ad9ea447e77706ea704646fabdfab4b161372edded1e6a56f8ab5c3472f34",
         "metadata_sha256": "0999f1c4b1adeb594ac6d3394a1753e07ac9aa695550190383d28a88e50dfe2a",
-        "structure_sha256": "f4e13993564deff5f72a17e84cd2d47983e94492afe1442ce9e333db547404dc",
+        "structure_sha256": "289a9fedc12fa367ad41f79af25a88a878a7d0786a4434714634ca81a9471b8b",
         "text_sha256": "471c0bc6d5294a6197218013f64b5d1d7cf0009e122217429a957c387cb0a9db",
         "translation_metadata_sha256": "e5c93fa109f1a0330a49314f6a214b4284931edce6bd1aa64982b491d3125faa"
       },
@@ -14572,7 +14572,7 @@
       "issue_id": "c438f95a-c3cd-46ee-bbd5-a2d904c41870",
       "sequence": 4,
       "title": "Cold Door Evangelism",
-      "translation_key": "b6914edb309ca78366106362eca4a4d662241f4b8846ff293096ec540b80d50a"
+      "translation_key": "f214d84c56467859869ac96755258b7c002c5c4cafd3a9b84ab0c6eaf20ea17a"
     },
     "e67903bd-2195-4f74-98ac-c52b8f6af698": {
       "fingerprints": {
@@ -16325,7 +16325,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "733632426116f91974e90f7cae1a80fa61502e6f26a049df8459e9efe13b5743",
+  "content_sha256": "4fa9e2518697c4c8439b49f3bdaaf137aff4e021614ae39078c34789eff2994c",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17741,5 +17741,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934"
+  "revision": "52e9d320a49e2444d36eafdc051ebb00c1e6693a"
 }
