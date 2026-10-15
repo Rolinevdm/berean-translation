@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T22:49:03+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"e7fba858-3c29-42c7-ae42-198541696da3\\\">\\n  <p>Dans ce simple test, nous poserons quelques questions sur ce que la Bible dit au sujet du parler en langues. Les réponses sont si évidentes que nous ne les donnerons même pas. <strong>RÉFLÉCHISSEZ</strong> aux réponses.</p>\\n\\n  <ol>\\n    <li>Jésus a dit que nous les reconnaîtrons à leurs (fruits, dons).</li>\\n    <li>Nous sommes exhortés à être remplis de l’Esprit, en nous parlant à nous-mêmes par (des langues, des psaumes, des hymnes et des chants spirituels).</li>\\n    <li>Les langues sont un signe (pour le croyant, pour le non-croyant).</li>\\n    <li>Quand Paul a posé la question « Est-ce que tous parlent en langues ? », la réponse implicite était (oui, non).</li>\\n    <li>Les non-croyants en Actes 2 (avaient besoin d’un interprète, n’avaient pas besoin d’un interprète) pour comprendre ce que disaient ceux qui parlaient en langues.</li>\\n  </ol>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Le test des langues\"}",
+    "content_bytes": 1049,
+    "content_evidence_truncated": false,
+    "content_sha256": "d556d8a61b347594913f60d94cc33bd7021c281c5d69d0ba555918fb1becd52a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 309,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1054,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1051,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1363
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
