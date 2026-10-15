@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c4446a3058ce4c6abd557e6ee2690051",
   "campaign": "auto-0d15fa4de19d47066151ff68a814897f5a4e1ee56cb586e88e109c7293edd7cc",
   "created_at": "2026-10-15T01:27:12+00:00",
   "events": [
@@ -68,25 +67,40 @@
         },
         "total_tokens": 7047
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article, final paragraph",
-      "severity": "major",
-      "source_quote": "May this issue of The Heartbeat of the Remnant cause you to dream and fly high with Christ in heavenly places.",
-      "suggested_fix": "Replace the translated magazine title with its proper title, for example «The Heartbeat of the Remnant»: «Måtte dette nummeret av <em>The Heartbeat of the Remnant</em> få deg til å drømme og fly høyt med Kristus i himmelen.»",
-      "translation_quote": "Måtte dette nummeret av <em>Hjerteslaget fra resten</em> få deg til å drømme og fly høyt med Kristus i himmelen."
     },
     {
-      "location": "Article, paragraph beginning “I want to fly”",
-      "severity": "major",
-      "source_quote": "I know that only by His Spirit do I even have a chance.",
-      "suggested_fix": "Replace «Jeg vet at jeg bare har en sjanse ved Hans Ånd» with «Jeg vet at det bare er ved Hans Ånd jeg i det hele tatt har en sjanse.»",
-      "translation_quote": "Jeg vet at jeg bare har en sjanse ved Hans Ånd."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 135,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4887,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4884,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5022
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Article paragraph beginning “I want to fly”",
+      "severity": "major",
+      "source_quote": "“how I bare you on eagles’ wings, and brought you unto myself.” Ex. 19:4",
+      "suggested_fix": "«hvordan jeg bar dere på ørnevinger og førte dere til meg.» 2. Mosebok 19:4",
+      "translation_quote": "«hvordan jeg bar dere på ørnevinger og førte dere til meg.» 2. Mosebok 19:4"
+    }
+  ],
+  "finished_at": "2026-10-15T06:29:40+00:00",
   "id": "543235b7070207c9257090cfe5d9b19e",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "nob",
@@ -175,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +209,7 @@
     "total_reserved_usd": 0.087809,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
   "translation_model_actual": "gpt-6-luna"

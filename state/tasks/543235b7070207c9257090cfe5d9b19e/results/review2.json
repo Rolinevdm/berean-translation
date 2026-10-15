@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7bb82ead-4833-434f-84c4-7f7ac7e3fa9a",
+    "response_id": "chatcmpl-EZ9BlWJwtvm0U4IJbdYx1OaHcLBFY",
+    "usage": {
+      "completion_tokens": 135,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4887,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4884,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5022
+    }
+  },
+  "received_at": "2026-10-15T06:29:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article paragraph beginning “I want to fly”",
+        "severity": "major",
+        "source_quote": "“how I bare you on eagles’ wings, and brought you unto myself.” Ex. 19:4",
+        "suggested_fix": "«hvordan jeg bar dere på ørnevinger og førte dere til meg.» 2. Mosebok 19:4",
+        "translation_quote": "«hvordan jeg bar dere på ørnevinger og førte dere til meg.» 2. Mosebok 19:4"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
