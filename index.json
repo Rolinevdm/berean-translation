@@ -10720,6 +10720,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.html",
+      "html_sha256": "fad1d708928af6e18fa66a268331c9cc9ebc8b83ca9d6a98de63f19bf21ff14a",
+      "human_reviewed": false,
+      "id": "bfec593e-9641-46a9-97d6-84e3bffe789c",
+      "images": [
+        {
+          "alt": "আকাশ থেকে পড়ে যাওয়া ইকারুসের খোদাইচিত্র",
+          "public_path": "/images/articles/bfec593e-9641-46a9-97d6-84e3bffe789c-1.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.json",
+      "metadata_sha256": "6595baa2be54b59d1a07392f8d1c75d41319d6483d70d4c90d263f3a293c2bf1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "সম্পাদকের কাছ থেকে",
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
+      "status": "ready",
+      "subtitle": null,
+      "title": "খুব উঁচুতে উড়ে যাওয়া?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/c233b16f-7c75-4b40-b250-9ed3a1e336d5.html",
       "html_sha256": "f5f4d00104f767fe121b39c4c19b2ac47aee9c27659de2f0a93d2b3b192eba50",
       "human_reviewed": false,
@@ -28390,6 +28418,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "לצעוד איתה דרך האבל",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.html",
+      "html_sha256": "163182c6bbcbecc941a1cf0b2db823777b03b2c11084fd9ff514f20b03e569e7",
+      "human_reviewed": false,
+      "id": "bfec593e-9641-46a9-97d6-84e3bffe789c",
+      "images": [
+        {
+          "alt": "תחריט של איקרוס נופל מן השמים",
+          "public_path": "/images/articles/bfec593e-9641-46a9-97d6-84e3bffe789c-1.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.json",
+      "metadata_sha256": "729654cf117118955c647de849f90177fdc6054220092c8d68dbdb93fc005a7f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "מדברי העורך",
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
+      "status": "ready",
+      "subtitle": null,
+      "title": "לעוף גבוה מדי?",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -70702,6 +70758,29 @@
       "subtitle": "Från Sion har skönhet strålat fram, Gud har uppenbarat sig. Psalms 50:2",
       "title": "Gud, Skönhetens Fullkomlighet",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/47c2bd87-06a9-4c31-854b-84c64975d399.html",
+      "html_sha256": "deb5bf199c84350c5b245be37ca16bc3070223098f78df9403f93ceef51d2002",
+      "human_reviewed": false,
+      "id": "47c2bd87-06a9-4c31-854b-84c64975d399",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/47c2bd87-06a9-4c31-854b-84c64975d399.json",
+      "metadata_sha256": "7ab2e53229ea6b208128ebf2a2755301177a47cab061518652a640dc4e435076",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "b569013110b89a4cf66b2e394088fe6233293b95647b960723dcc41f376a5624",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Guds frälsande nåd",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
