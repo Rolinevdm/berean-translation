@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 6",
+      "severity": "minor",
+      "source_quote": "touring America in a mobile home",
+      "suggested_fix": "Amerika met ’n motorwoonwa deurreis",
+      "translation_quote": "Amerika met ’n motorhuis te deurreis"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

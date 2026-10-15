@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T19:29:02+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 6\",\"severity\":\"minor\",\"source_quote\":\"touring America in a mobile home\",\"suggested_fix\":\"Amerika met ’n motorwoonwa deurreis\",\"translation_quote\":\"Amerika met ’n motorhuis te deurreis\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 277,
+    "content_evidence_truncated": false,
+    "content_sha256": "1f5471db40cc6193c15bd0980944038d1e262cf81aa4a22a8dede2cace4632ee",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 595,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4986,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3883,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5581
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
