@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0ead30c588c34286af5bf82b3bae7266",
   "campaign": "auto-6852b1277dd45be1eaa43875a898a884e849737cfac7006c5e353808587ca65a",
   "created_at": "2026-10-15T11:45:53+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 6938
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 832,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 720,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7292,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6189,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8124
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "第二段",
+      "severity": "major",
+      "source_quote": "Please submit yourself and joyfully love being in your place as a daughter.",
+      "suggested_fix": "请顺服父母，并欢欢喜喜地安于女儿的本分。",
+      "translation_quote": "请顺服自己，欢欢喜喜地安于女儿的本分。"
+    }
+  ],
   "id": "f11e6a1a616ad8a1aa3ef31a42014a50",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "cmn",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a20612fec48fd2645f4f393ee7307fca206c8bc3bb386a84f7b8db84cbb6e84e.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.089494,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "144a2f28ba895f9d80bb30e6df0ffeb8b1edd4259cc5b4ccd46a35db6f476235",
   "translation_model_actual": "gpt-6-luna"

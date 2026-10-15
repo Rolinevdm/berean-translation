@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c92de2b9-fa86-45dd-87be-4fdd6e204781",
+    "response_id": "chatcmpl-EZFmqWGHxz8mE8ECY2HXkzC2YaGpv",
+    "usage": {
+      "completion_tokens": 832,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 720,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7292,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6189,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8124
+    }
+  },
+  "received_at": "2026-10-15T13:31:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "第二段",
+        "severity": "major",
+        "source_quote": "Please submit yourself and joyfully love being in your place as a daughter.",
+        "suggested_fix": "请顺服父母，并欢欢喜喜地安于女儿的本分。",
+        "translation_quote": "请顺服自己，欢欢喜喜地安于女儿的本分。"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

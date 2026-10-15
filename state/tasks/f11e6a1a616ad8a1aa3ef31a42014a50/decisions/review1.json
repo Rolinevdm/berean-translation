@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "第二段",
+      "severity": "major",
+      "source_quote": "Please submit yourself and joyfully love being in your place as a daughter.",
+      "suggested_fix": "请顺服父母，并欢欢喜喜地安于女儿的本分。",
+      "translation_quote": "请顺服自己，欢欢喜喜地安于女儿的本分。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
