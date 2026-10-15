@@ -1,0 +1,122 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ace3861b-14c6-423d-bcd6-95bcbeb75da2",
+    "response_id": "chatcmpl-EZOTWnGh7swVwtW8hBzwWPL67S04w",
+    "usage": {
+      "completion_tokens": 2008,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 55,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12250,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11147,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 14258
+    }
+  },
+  "received_at": "2026-10-15T22:48:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, first list, John 9:35-38 quotation",
+        "severity": "major",
+        "source_quote": "Thou hast both seen him, and it is he that talketh with thee.",
+        "suggested_fix": "Αντικαταστήστε το «Βλέπεις τον Ή, και αυτός είναι που μιλά μαζί σου» με «Τον έχεις ήδη δει, και αυτός που σου μιλά είναι εκείνος». Διατηρήστε τα υπάρχοντα HTML και την παραπομπή.",
+        "translation_quote": "Βλέπεις τον Ή, και αυτός είναι που μιλά μαζί σου."
+      },
+      {
+        "location": "translation.html, paragraph beginning «Ας τερματίσουμε»",
+        "severity": "major",
+        "source_quote": "Let’s put on the Lord Jesus Christ",
+        "suggested_fix": "Αντικαταστήστε το «Ας ντύσουμε τον Κύριο Ιησού Χριστό» με «Ας ντυθούμε τον Κύριο Ιησού Χριστό».",
+        "translation_quote": "Ας ντύσουμε τον Κύριο Ιησού Χριστό"
+      },
+      {
+        "location": "translation.html, grocery-store paragraph and following Haiti paragraph",
+        "severity": "major",
+        "source_quote": "we did not cause conviction in her heart. / Light exposes darkness: it brings conviction.",
+        "suggested_fix": "Αποδώστε τον έλεγχο της συνείδησης, όχι τη μετάνοια ως αποτέλεσμά του: «δεν ξυπνήσαμε στην καρδιά της επίγνωση της αμαρτίας» και «Το φως αποκαλύπτει το σκοτάδι: ξυπνά επίγνωση της αμαρτίας».",
+        "translation_quote": "δεν προκαλέσαμε μετάνοια στην καρδιά της. / Το φως αποκαλύπτει το σκοτάδι: φέρνει μετάνοια."
+      },
+      {
+        "location": "translation.html, first list, Revelation 3:20 quotation",
+        "severity": "major",
+        "source_quote": "will sup with him, and he with me",
+        "suggested_fix": "Προσθέστε την παραλειπόμενη αμοιβαιότητα μέσα στο υπάρχον em: «θα δειπνήσω μαζί του, κι αυτός μαζί μου».",
+        "translation_quote": "θα δειπνήσω μαζί του"
+      },
+      {
+        "location": "translation.html, paragraph beginning «Γίνονται ακόμα αληθινές μεταστροφές»",
+        "severity": "major",
+        "source_quote": "we look down on the powerless altar calls",
+        "suggested_fix": "Αντικαταστήστε το «τις άχρωμες προσκλήσεις στο βωμό» με «τις προσκλήσεις να προσέλθει κανείς μπροστά για να ανταποκριθεί στο ευαγγέλιο, που δεν έχουν πνευματική δύναμη».",
+        "translation_quote": "κοιτάζουμε υποτιμητικά τις άχρωμες προσκλήσεις στο βωμό"
+      },
+      {
+        "location": "translation.html, paragraph beginning «Όσο πιο σκοτεινός»",
+        "severity": "major",
+        "source_quote": "giving hope to the weary souls stranded in life",
+        "suggested_fix": "Αντικαταστήστε το «στις κουρασμένες ψυχές που έχουν απομείνει στη ζωή» με «στις κουρασμένες ψυχές που έχουν εγκλωβιστεί στα αδιέξοδα της ζωής».",
+        "translation_quote": "δίνοντας ελπίδα στις κουρασμένες ψυχές που έχουν απομείνει στη ζωή"
+      },
+      {
+        "location": "translation.html, opening paragraph",
+        "severity": "minor",
+        "source_quote": "for visits of varying lengths and reasons. Each trip back to the U.S. has been challenging",
+        "suggested_fix": "Χρησιμοποιήστε «για επισκέψεις διαφορετικής διάρκειας και για διάφορους λόγους. Κάθε ταξίδι επιστροφής στις Η.Π.Α. ήταν δύσκολο».",
+        "translation_quote": "για επισκέψεις διάφορων διαρκείας και αιτιών. Κάθε ταξίδι πίσω στις Η.Π.Α. ήταν προκλητικό"
+      },
+      {
+        "location": "translation.html, paragraph beginning «Σήμερα προσπαθούμε», Jeremiah 17:9 quotation",
+        "severity": "minor",
+        "source_quote": "The heart is deceitful above all things, and desperately wicked",
+        "suggested_fix": "Αποδώστε και την ένταση του χαρακτηρισμού: «η καρδιά είναι πιο απατηλή απ’ όλα και φοβερά πονηρή».",
+        "translation_quote": "η καρδιά είναι εξαπατητική πάνω απ' όλα και πονηρή"
+      },
+      {
+        "location": "translation.html, paragraph beginning «Εδώ βλέπουμε»",
+        "severity": "minor",
+        "source_quote": "or it is the outworking thereof",
+        "suggested_fix": "Αντικαταστήστε το «ή είναι το εκτελεστικό αποτέλεσμα αυτού» με «ή αποτελούν την έμπρακτη έκφρασή του».",
+        "translation_quote": "ή είναι το εκτελεστικό αποτέλεσμα αυτού"
+      },
+      {
+        "location": "translation.html, paragraph beginning «Γίνονται ακόμα αληθινές μεταστροφές»",
+        "severity": "minor",
+        "source_quote": "to share with lost and struggling souls what God has done for us",
+        "suggested_fix": "Αντικαταστήστε το «για ν' ανακοινώσουμε σε χαμένους και πιεζόμενους ψυχές τι ο Θεός έχει κάνει για μας» με «για να μοιραστούμε με χαμένες ψυχές που αγωνίζονται όσα έχει κάνει ο Θεός για μας».",
+        "translation_quote": "για ν' ανακοινώσουμε σε χαμένους και πιεζόμενους ψυχές τι ο Θεός έχει κάνει για μας"
+      },
+      {
+        "location": "translation.html, quoted passages and concluding exhortations",
+        "severity": "minor",
+        "source_quote": "Verily, verily, I say unto thee / every one of you / For by grace are ye saved through faith / We will grow in grace and understanding / Walk in the Spirit / the new / the serpent",
+        "suggested_fix": "Χρησιμοποιήστε σύγχρονη δημοτική στα αντίστοιχα σημεία: «Σου λέω με απόλυτη βεβαιότητα», «καθένας σας», «Διότι με τη χάρη έχετε σωθεί μέσω της πίστης», «Θα αυξανόμαστε στη χάρη και στην κατανόηση», «να ζείτε με την καθοδήγηση του Πνεύματος», «στον νέο» και «στο φίδι». Διατηρήστε τις παραπομπές και τα HTML.",
+        "translation_quote": "Αμήν, αμήν σου λέγω / έκαστος σας / Διότι εν χάριτι είστε σωσμένοι διὰ πίστεως / Θα αυξανόμαστε εν χάριτι και εν επιγνώσει / περπατήστε εν Πνεύματι / στον καινό / στον όφιν"
+      },
+      {
+        "location": "translation.html, second list, Matthew 7:7-8 quotation",
+        "severity": "minor",
+        "source_quote": "Ask, and it shall be given you; seek, and ye shall find",
+        "suggested_fix": "Διακρίνετε την αίτηση από την αναζήτηση: «Ζητήστε και θα σας δοθεί· αναζητήστε και θα βρείτε».",
+        "translation_quote": "Ζητήστε και θα δοθεί σε σας· ζητείτε και θα βρείτε"
+      },
+      {
+        "location": "translation.html, figure img alt",
+        "severity": "minor",
+        "source_quote": "A pale crocus blooming through melting snow",
+        "suggested_fix": "Αλλάξτε μόνο το alt σε «Ένας ανοιχτόχρωμος κρόκος που ανθίζει μέσα από το χιόνι που λιώνει».",
+        "translation_quote": "Ένας ωχρός κρόκος που ανθίζει μέσα στο λιωμένο χιόνι"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 82
+  }
+}
