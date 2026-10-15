@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "aad6d4bf-a8d7-418c-b22f-3633d5923274",
+    "response_id": "chatcmpl-EZFpUCWWw9jdWumUJ8dmQIKPOPwdo",
+    "usage": {
+      "completion_tokens": 1025,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 734,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12451,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11348,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13476
+    }
+  },
+  "received_at": "2026-10-15T15:46:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning “Maar God is te barmhartig…”",
+        "severity": "major",
+        "source_quote": "“and being convicted, sees that he is a poor, lost, and guilty sinner”",
+        "suggested_fix": "Change “en as ’n oortuigende sondaar sien dat hy arm, verlore en skuldig is” to “en, nadat hy oortuig is, sien dat hy ’n arm, verlore en skuldige sondaar is”.",
+        "translation_quote": "“en as ’n oortuigende sondaar sien dat hy arm, verlore en skuldig is”"
+      },
+      {
+        "location": "HTML paragraph beginning “Tweedens het ons rede…”",
+        "severity": "minor",
+        "source_quote": "“what doth the Lord require of thee, but to do justly, and love mercy, and to walk humbly with thy God?”",
+        "suggested_fix": "In the quotation, replace “om reg te doen en liefde en trou te betrag en nederig te wandel” with “om reg te doen, barmhartigheid lief te hê en nederig met jou God te wandel”.",
+        "translation_quote": "“om reg te doen en liefde en trou te betrag en nederig te wandel met jou God?”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

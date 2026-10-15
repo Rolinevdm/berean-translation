@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T15:46:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph beginning “Maar God is te barmhartig…”\",\"severity\":\"major\",\"source_quote\":\"“and being convicted, sees that he is a poor, lost, and guilty sinner”\",\"suggested_fix\":\"Change “en as ’n oortuigende sondaar sien dat hy arm, verlore en skuldig is” to “en, nadat hy oortuig is, sien dat hy ’n arm, verlore en skuldige sondaar is”.\",\"translation_quote\":\"“en as ’n oortuigende sondaar sien dat hy arm, verlore en skuldig is”\"},{\"location\":\"HTML paragraph beginning “Tweedens het ons rede…”\",\"severity\":\"minor\",\"source_quote\":\"“what doth the Lord require of thee, but to do justly, and love mercy, and to walk humbly with thy God?”\",\"suggested_fix\":\"In the quotation, replace “om reg te doen en liefde en trou te betrag en nederig te wandel” with “om reg te doen, barmhartigheid lief te hê en nederig met jou God te wandel”.\",\"translation_quote\":\"“om reg te doen en liefde en trou te betrag en nederig te wandel met jou God?”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 1061,
+    "content_evidence_truncated": false,
+    "content_sha256": "009c062e4a3f1bbe293d7bd7c6f9e4d28e899f4cd5541ba8db3467df24246548",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1025,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 734,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12451,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11348,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13476
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fd8cae423cf24ae7b45cac062788a099",
   "campaign": "auto-8d643ace1579ebd6af814e42ad46c08d8350ad64a0d5a3c7dc67fdf02a4921a8",
   "created_at": "2026-10-15T06:31:19+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 12133
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1025,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 734,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12451,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11348,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13476
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “Maar God is te barmhartig…”",
+      "severity": "major",
+      "source_quote": "“and being convicted, sees that he is a poor, lost, and guilty sinner”",
+      "suggested_fix": "Change “en as ’n oortuigende sondaar sien dat hy arm, verlore en skuldig is” to “en, nadat hy oortuig is, sien dat hy ’n arm, verlore en skuldige sondaar is”.",
+      "translation_quote": "“en as ’n oortuigende sondaar sien dat hy arm, verlore en skuldig is”"
+    },
+    {
+      "location": "HTML paragraph beginning “Tweedens het ons rede…”",
+      "severity": "minor",
+      "source_quote": "“what doth the Lord require of thee, but to do justly, and love mercy, and to walk humbly with thy God?”",
+      "suggested_fix": "In the quotation, replace “om reg te doen en liefde en trou te betrag en nederig te wandel” with “om reg te doen, barmhartigheid lief te hê en nederig met jou God te wandel”.",
+      "translation_quote": "“om reg te doen en liefde en trou te betrag en nederig te wandel met jou God?”"
+    }
+  ],
   "id": "50400b6f125847eef5650d911fa565fd",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "afr",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/67e6f53bf00c22813d1ecdfcf7efee53cfcb47a222145208ffa64fb41e29a1f9.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.092131,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f5b7fccc6a524e1449727b9ca39fdaa2ec8b679f58d19ba28c92689583cbcf46",
   "translation_model_actual": "gpt-6-luna"

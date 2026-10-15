@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “Maar God is te barmhartig…”",
+      "severity": "major",
+      "source_quote": "“and being convicted, sees that he is a poor, lost, and guilty sinner”",
+      "suggested_fix": "Change “en as ’n oortuigende sondaar sien dat hy arm, verlore en skuldig is” to “en, nadat hy oortuig is, sien dat hy ’n arm, verlore en skuldige sondaar is”.",
+      "translation_quote": "“en as ’n oortuigende sondaar sien dat hy arm, verlore en skuldig is”"
+    },
+    {
+      "location": "HTML paragraph beginning “Tweedens het ons rede…”",
+      "severity": "minor",
+      "source_quote": "“what doth the Lord require of thee, but to do justly, and love mercy, and to walk humbly with thy God?”",
+      "suggested_fix": "In the quotation, replace “om reg te doen en liefde en trou te betrag en nederig te wandel” with “om reg te doen, barmhartigheid lief te hê en nederig met jou God te wandel”.",
+      "translation_quote": "“om reg te doen en liefde en trou te betrag en nederig te wandel met jou God?”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
