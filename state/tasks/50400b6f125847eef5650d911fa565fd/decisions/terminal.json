@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Ek voel asof ek jou…”",
+      "severity": "minor",
+      "source_quote": "I feel as though I could hardly cease to warn you, O wretched man!",
+      "suggested_fix": "Ek voel asof ek skaars kan ophou om jou te waarsku, o ellendige mens!",
+      "translation_quote": "Ek voel asof ek jou skaars kan ophou waarsku, o ellendige mens!"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

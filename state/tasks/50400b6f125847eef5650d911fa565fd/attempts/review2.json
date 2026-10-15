@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T19:28:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Ek voel asof ek jou…”\",\"severity\":\"minor\",\"source_quote\":\"I feel as though I could hardly cease to warn you, O wretched man!\",\"suggested_fix\":\"Ek voel asof ek skaars kan ophou om jou te waarsku, o ellendige mens!\",\"translation_quote\":\"Ek voel asof ek jou skaars kan ophou waarsku, o ellendige mens!\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 405,
+    "content_evidence_truncated": false,
+    "content_sha256": "edfd9c132fa18a4bdc30baf51e760806de8f13711f748655d0ceb9f2d479b37f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1238,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1106,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12454,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11351,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13692
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

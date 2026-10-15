@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "553e02c7-6677-4df4-b55c-b9022ea6d6a1",
+    "response_id": "chatcmpl-EZKPgsnvmEsENQowkTg0k0bndgqCw",
+    "usage": {
+      "completion_tokens": 1238,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1106,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12454,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11351,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13692
+    }
+  },
+  "received_at": "2026-10-15T19:28:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Ek voel asof ek jou…”",
+        "severity": "minor",
+        "source_quote": "I feel as though I could hardly cease to warn you, O wretched man!",
+        "suggested_fix": "Ek voel asof ek skaars kan ophou om jou te waarsku, o ellendige mens!",
+        "translation_quote": "Ek voel asof ek jou skaars kan ophou waarsku, o ellendige mens!"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
