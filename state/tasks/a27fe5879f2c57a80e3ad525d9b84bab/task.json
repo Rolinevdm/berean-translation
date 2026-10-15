@@ -5,11 +5,40 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "490bf4770e9242289604bd9c82e9edc0",
   "campaign": "auto-0a6ae4ccb7cb88726d2478cc459c53092d5f8a0d31991cd00120225d1ed6f110",
   "created_at": "2026-10-15T01:27:06+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 234,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 76,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9369,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9366,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9603
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, paragraf terakhir bagian “…Orang-Orang yang Kurang Berarti”",
+      "severity": "major",
+      "source_quote": "the God who watches every sparrow fall esteems the lesser ones of much greater value than we do.",
+      "suggested_fix": "Ganti bagian akhir kalimat menjadi: “tetapi Allah yang menyaksikan setiap burung pipit jatuh menghargai orang-orang yang kurang berarti jauh lebih tinggi daripada kita menghargai mereka.”",
+      "translation_quote": "Allah yang menyaksikan setiap burung pipit jatuh menganggap orang-orang yang kurang berarti jauh lebih berharga daripada kita."
+    }
+  ],
   "id": "a27fe5879f2c57a80e3ad525d9b84bab",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "ind",
@@ -98,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +146,7 @@
     "total_reserved_usd": 0.768964,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

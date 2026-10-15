@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T01:35:03+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, paragraf terakhir bagian “…Orang-Orang yang Kurang Berarti”\",\"severity\":\"major\",\"source_quote\":\"the God who watches every sparrow fall esteems the lesser ones of much greater value than we do.\",\"suggested_fix\":\"Ganti bagian akhir kalimat menjadi: “tetapi Allah yang menyaksikan setiap burung pipit jatuh menghargai orang-orang yang kurang berarti jauh lebih tinggi daripada kita menghargai mereka.”\",\"translation_quote\":\"Allah yang menyaksikan setiap burung pipit jatuh menganggap orang-orang yang kurang berarti jauh lebih berharga daripada kita.\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 656,
+    "content_evidence_truncated": false,
+    "content_sha256": "b330b3317060adccb447a989ebd9ab6e2a33a875f93847683105a549af792ecd",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 234,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9369,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9366,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9603
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
