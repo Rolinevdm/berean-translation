@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html: alinea onder ‘…Kleinen’, over ongeboren kinderen",
+      "severity": "minor",
+      "source_quote": "The laws of our land have legalized the murder of them if anyone cares not for their existence.",
+      "suggested_fix": "Vervang ‘het doden van hen’ door ‘het vermoorden van hen’ om de expliciete morele kwalificatie van de auteur te behouden.",
+      "translation_quote": "De wetten van ons land hebben het doden van hen gelegaliseerd, als iemand hun bestaan niet op prijs stelt."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

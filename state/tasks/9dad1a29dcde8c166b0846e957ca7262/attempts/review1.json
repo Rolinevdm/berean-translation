@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T01:37:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html: alinea onder ‘…Kleinen’, over ongeboren kinderen\",\"severity\":\"minor\",\"source_quote\":\"The laws of our land have legalized the murder of them if anyone cares not for their existence.\",\"suggested_fix\":\"Vervang ‘het doden van hen’ door ‘het vermoorden van hen’ om de expliciete morele kwalificatie van de auteur te behouden.\",\"translation_quote\":\"De wetten van ons land hebben het doden van hen gelegaliseerd, als iemand hun bestaan niet op prijs stelt.\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 556,
+    "content_evidence_truncated": false,
+    "content_sha256": "b75bf6a593f8ce4490be5ab9a6bfbf06d55df2ff545bd09573224aef80cc1f71",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 344,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 200,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9003,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7900,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9347
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
