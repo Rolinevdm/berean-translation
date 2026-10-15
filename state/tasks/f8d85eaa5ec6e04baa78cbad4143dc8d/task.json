@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f8fce0ec66944fabbefa597fc47f3c21",
   "campaign": "auto-1e5ea93aba61042177f01015ec60a0d4e643aabf383eb64496f602b661384ce0",
   "created_at": "2026-10-15T18:18:29+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 1733
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 450,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 295,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1942,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1939,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2392
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Poem, first stanza",
+      "severity": "minor",
+      "source_quote": "Because we sailed too close to the shore.",
+      "suggested_fix": "omdat we te dicht langs de kust zijn gevaren.",
+      "translation_quote": "omdat we te dicht bij de kust zijn gebleven."
+    },
+    {
+      "location": "Poem, second stanza",
+      "severity": "minor",
+      "source_quote": "We ask You to push back / The horizons of our hopes;",
+      "suggested_fix": "We vragen U / de horizonten van onze hoop te verruimen;",
+      "translation_quote": "We vragen U / de horizon van onze hoop te verruimen;"
+    }
+  ],
+  "finished_at": "2026-10-15T19:37:12+00:00",
   "id": "f8d85eaa5ec6e04baa78cbad4143dc8d",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "nld",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9ced2cb932bc7509d3c169b0d0070fce2de2af7937a987b8670fdb7e94034d0f.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.085975,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f09293496cf7064cac9d811c142aa21cf794debdc06f581afb437004e3c54f52",
   "translation_model_actual": "gpt-6-luna"

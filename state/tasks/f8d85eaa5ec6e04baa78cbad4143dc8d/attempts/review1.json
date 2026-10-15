@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T19:37:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, first stanza\",\"severity\":\"minor\",\"source_quote\":\"Because we sailed too close to the shore.\",\"suggested_fix\":\"omdat we te dicht langs de kust zijn gevaren.\",\"translation_quote\":\"omdat we te dicht bij de kust zijn gebleven.\"},{\"location\":\"Poem, second stanza\",\"severity\":\"minor\",\"source_quote\":\"We ask You to push back / The horizons of our hopes;\",\"suggested_fix\":\"We vragen U / de horizonten van onze hoop te verruimen;\",\"translation_quote\":\"We vragen U / de horizon van onze hoop te verruimen;\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 580,
+    "content_evidence_truncated": false,
+    "content_sha256": "ce3eb8256378b4114e590457e94098fd2c85db41d04c47ff5439f314cdd8a6ec",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 450,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 295,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1942,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1939,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2392
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
