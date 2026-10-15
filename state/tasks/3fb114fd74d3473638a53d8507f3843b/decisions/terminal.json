@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Mas essa não é a imagem…”",
+      "severity": "minor",
+      "source_quote": "an anointed, elderly man of God",
+      "suggested_fix": "um homem de Deus idoso e ungido",
+      "translation_quote": "um idoso homem de Deus, ungido"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

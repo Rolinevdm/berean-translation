@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e426422a-0f72-4727-8ab7-a9f3228e3f98",
+    "response_id": "chatcmpl-EZ4cAPwZhBk9eDNxnHF7RHAw7oajC",
+    "usage": {
+      "completion_tokens": 603,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4711,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3608,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5314
+    }
+  },
+  "received_at": "2026-10-15T01:37:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Mas essa não é a imagem…”",
+        "severity": "minor",
+        "source_quote": "an anointed, elderly man of God",
+        "suggested_fix": "um homem de Deus idoso e ungido",
+        "translation_quote": "um idoso homem de Deus, ungido"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
