@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c8cb78c3ea8e41db9d2ba1e06a35105f",
   "campaign": "auto-27d2449cca4f44b6c4f3dcca0a35abd96539b17e367112c8481a3cb6a084caae",
   "created_at": "2026-10-15T01:38:36+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 328,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 67,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5992,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5989,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6320
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html：桑德拉谈及与喜乐的人同乐的段落",
+      "severity": "minor",
+      "source_quote": "I am happier when I can ‘rejoice with them that do rejoice,’ like the Bible says to do.",
+      "suggested_fix": "将该句改为：“当我能照着圣经的教导，‘与喜乐的人同乐’时，我就更快乐。”",
+      "translation_quote": "我能‘与喜乐的人要同乐’，就会更快乐，正如圣经教导我们要这样做。"
+    },
+    {
+      "location": "html：标题“交朋友，不树敌”",
+      "severity": "minor",
+      "source_quote": "Have Friends, Not Rivals",
+      "suggested_fix": "将标题改为“交朋友，不作对手”，保留原有的 h2 和 em 标签。",
+      "translation_quote": "交朋友，不树敌"
+    }
+  ],
+  "finished_at": "2026-10-15T06:21:34+00:00",
   "id": "ee86bb58d8ff2c3f0d27b327a581906d",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "cmn",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/06b12e22d80a9701c9b707fb2702e33e14c80afc982284702d29e496c31557d5.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.72312,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "5c16ed2871a1fc1b55f7d5eef0637ab09a0051f13538cba8d69f554bd566c053",
   "translation_model_actual": "gpt-6-luna"

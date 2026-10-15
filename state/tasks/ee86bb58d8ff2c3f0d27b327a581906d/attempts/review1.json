@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T06:21:34+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html：桑德拉谈及与喜乐的人同乐的段落\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"I am happier when I can ‘rejoice with them that do rejoice,’ like the Bible says to do.\",\n      \"suggested_fix\": \"将该句改为：“当我能照着圣经的教导，‘与喜乐的人同乐’时，我就更快乐。”\",\n      \"translation_quote\": \"我能‘与喜乐的人要同乐’，就会更快乐，正如圣经教导我们要这样做。\"\n    },\n    {\n      \"location\": \"html：标题“交朋友，不树敌”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Have Friends, Not Rivals\",\n      \"suggested_fix\": \"将标题改为“交朋友，不作对手”，保留原有的 h2 和 em 标签。\",\n      \"translation_quote\": \"交朋友，不树敌\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 97\n}",
+    "content_bytes": 889,
+    "content_evidence_truncated": false,
+    "content_sha256": "3397ee5ac49f1d9d6068562a79a506b4fd21c8c83152f3a6b601fbfb29b83106",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 328,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 67,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5992,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5989,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6320
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
