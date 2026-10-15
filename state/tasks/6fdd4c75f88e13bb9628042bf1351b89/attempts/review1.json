@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T06:29:59+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html: Sandras Predigterinnerung; erster Absatz nach <hr>; Überschrift „Gleichaltrige stellen unsere Freude auf die Probe“; Absatz unter „Eifersucht erkennen“\",\"severity\":\"minor\",\"source_quote\":\"“my peers”; “when peers shared good news”; “Peers Test Our Rejoicing”; “craving to copy a peer”\",\"suggested_fix\":\"Die unnötige Beschränkung auf das Alter vermeiden: „meine Altersgenossinnen“ durch „andere Frauen in meinem Umfeld“, „Gleichaltrige gute Nachrichten“ durch „Menschen aus meinem Umfeld gute Nachrichten“, die Überschrift durch „Menschen in unserem Umfeld stellen unsere Freude auf die Probe“ und „eine Gleichaltrige nachzuahmen“ durch „eine andere Frau aus dem eigenen Umfeld nachzuahmen“ ersetzen. Die HTML-Struktur beibehalten.\",\"translation_quote\":\"„meine Altersgenossinnen“; „wenn Gleichaltrige gute Nachrichten mitteilten“; „Gleichaltrige stellen unsere Freude auf die Probe“; „eine Gleichaltrige nachzuahmen“\"},{\"location\":\"translation.html: letzter Satz des Absatzes unter „Gleichaltrige stellen unsere Freude auf die Probe“\",\"severity\":\"minor\",\"source_quote\":\"God understands the struggle and He leads me to rest and acceptance.\",\"suggested_fix\":\"Den Satz vervollständigen: „Gott versteht diesen Kampf und führt mich zu innerer Ruhe und einer annehmenden Haltung.“\",\"translation_quote\":\"Gott versteht diesen Kampf und führt mich dazu, zur Ruhe zu kommen und anzunehmen.\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1558,
+    "content_evidence_truncated": false,
+    "content_sha256": "783546d6149d653753c236340a7bb34a2eecc4d2dce8755ad7fc82a08cb277ae",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 464,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6001,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4898,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6465
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

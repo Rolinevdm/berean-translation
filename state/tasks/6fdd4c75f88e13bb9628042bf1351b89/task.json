@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d6f62b7acb0b454694566387dfa03f86",
   "campaign": "auto-3dd09d66734d766cecd3cd33d016b4b14fbfd8ea9bfeb11ae9d262611c7bc83a",
   "created_at": "2026-10-15T01:45:41+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 464,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 97,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6001,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4898,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6465
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html: Sandras Predigterinnerung; erster Absatz nach <hr>; Überschrift „Gleichaltrige stellen unsere Freude auf die Probe“; Absatz unter „Eifersucht erkennen“",
+      "severity": "minor",
+      "source_quote": "“my peers”; “when peers shared good news”; “Peers Test Our Rejoicing”; “craving to copy a peer”",
+      "suggested_fix": "Die unnötige Beschränkung auf das Alter vermeiden: „meine Altersgenossinnen“ durch „andere Frauen in meinem Umfeld“, „Gleichaltrige gute Nachrichten“ durch „Menschen aus meinem Umfeld gute Nachrichten“, die Überschrift durch „Menschen in unserem Umfeld stellen unsere Freude auf die Probe“ und „eine Gleichaltrige nachzuahmen“ durch „eine andere Frau aus dem eigenen Umfeld nachzuahmen“ ersetzen. Die HTML-Struktur beibehalten.",
+      "translation_quote": "„meine Altersgenossinnen“; „wenn Gleichaltrige gute Nachrichten mitteilten“; „Gleichaltrige stellen unsere Freude auf die Probe“; „eine Gleichaltrige nachzuahmen“"
+    },
+    {
+      "location": "translation.html: letzter Satz des Absatzes unter „Gleichaltrige stellen unsere Freude auf die Probe“",
+      "severity": "minor",
+      "source_quote": "God understands the struggle and He leads me to rest and acceptance.",
+      "suggested_fix": "Den Satz vervollständigen: „Gott versteht diesen Kampf und führt mich zu innerer Ruhe und einer annehmenden Haltung.“",
+      "translation_quote": "Gott versteht diesen Kampf und führt mich dazu, zur Ruhe zu kommen und anzunehmen."
+    }
+  ],
+  "finished_at": "2026-10-15T06:29:59+00:00",
   "id": "6fdd4c75f88e13bb9628042bf1351b89",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "deu",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/06b12e22d80a9701c9b707fb2702e33e14c80afc982284702d29e496c31557d5.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.72757,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "5c16ed2871a1fc1b55f7d5eef0637ab09a0051f13538cba8d69f554bd566c053",
   "translation_model_actual": "gpt-6-luna"
