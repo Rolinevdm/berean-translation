@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1",
+      "severity": "major",
+      "source_quote": "the feathers were attached only by wax",
+      "suggested_fix": "אך הזהיר אותו שהנוצות מחוברות לכנפיים בשעווה בלבד",
+      "translation_quote": "הנוצות מחוברות זו לזו בשעווה בלבד"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

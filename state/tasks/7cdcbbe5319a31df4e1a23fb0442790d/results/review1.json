@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "475b787f-b34f-4d60-a212-15a338256113",
+    "response_id": "chatcmpl-EZ4mL5Mdrc20ZfdXbyT7LI6y8qPwh",
+    "usage": {
+      "completion_tokens": 1053,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 951,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5094,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3991,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6147
+    }
+  },
+  "received_at": "2026-10-15T01:44:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1",
+        "severity": "major",
+        "source_quote": "the feathers were attached only by wax",
+        "suggested_fix": "אך הזהיר אותו שהנוצות מחוברות לכנפיים בשעווה בלבד",
+        "translation_quote": "הנוצות מחוברות זו לזו בשעווה בלבד"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
