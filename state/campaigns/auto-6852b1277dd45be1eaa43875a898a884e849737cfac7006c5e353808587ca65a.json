@@ -800,7 +800,7 @@
   "reported_usage_usd": 0.00289864,
   "request_sha256": "962c1b96a990aca428a108a6194ebeba35ca0bf71861410d5dbb2d8d319efbee",
   "requested_by": "owner-authorized-autonomous-archive",
-  "reserved_usd": 0.015781,
+  "reserved_usd": 0.019976,
   "review_contract_version": 2,
   "review_model": "gpt-6-luna",
   "review_output_tokens": 8192,
