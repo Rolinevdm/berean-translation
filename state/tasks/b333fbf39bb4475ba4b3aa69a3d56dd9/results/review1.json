@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "b386cd51-bf48-48ed-ab31-fb06a355afbd",
+    "response_id": "chatcmpl-EZ2neP9qn4wjBZGsm6i5DtpIFjxiI",
+    "usage": {
+      "completion_tokens": 380,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 140,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8480,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8477,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8860
+    }
+  },
+  "received_at": "2026-10-15T01:25:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragrafo che inizia «Un giorno stavo pranzando»",
+        "severity": "minor",
+        "source_quote": "As another forty-five minutes passed, I tried to explain to the couple",
+        "suggested_fix": "Sostituire «Dopo altri quarantacinque minuti, cercai di spiegare alla coppia» con «Nel corso dei successivi quarantacinque minuti, cercai di spiegare alla coppia».",
+        "translation_quote": "Dopo altri quarantacinque minuti, cercai di spiegare alla coppia"
+      },
+      {
+        "location": "translation.html, penultimo paragrafo",
+        "severity": "minor",
+        "source_quote": "a church that is nothing less than <strong>completely confident</strong> in their GOD?",
+        "suggested_fix": "Ripristinare l’enfasi HTML: «una chiesa che ripone una <strong>fiducia assoluta</strong> nel suo DIO?»",
+        "translation_quote": "una chiesa che ripone una fiducia assoluta nel suo DIO?"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

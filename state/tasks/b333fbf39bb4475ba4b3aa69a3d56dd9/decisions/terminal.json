@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragrafo che inizia «Un giorno stavo pranzando»",
+      "severity": "minor",
+      "source_quote": "As another forty-five minutes passed, I tried to explain to the couple",
+      "suggested_fix": "Sostituire «Dopo altri quarantacinque minuti, cercai di spiegare alla coppia» con «Nel corso dei successivi quarantacinque minuti, cercai di spiegare alla coppia».",
+      "translation_quote": "Dopo altri quarantacinque minuti, cercai di spiegare alla coppia"
+    },
+    {
+      "location": "translation.html, penultimo paragrafo",
+      "severity": "minor",
+      "source_quote": "a church that is nothing less than <strong>completely confident</strong> in their GOD?",
+      "suggested_fix": "Ripristinare l’enfasi HTML: «una chiesa che ripone una <strong>fiducia assoluta</strong> nel suo DIO?»",
+      "translation_quote": "una chiesa che ripone una fiducia assoluta nel suo DIO?"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[89]: source /article[1]/p[26]/strong[1] ('start', 'strong', ()); translation /article[1]/p[26] ('end', 'p')",
+  "stage": "terminal"
+}
