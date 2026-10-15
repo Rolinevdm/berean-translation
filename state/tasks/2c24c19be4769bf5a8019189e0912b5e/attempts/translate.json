@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T18:17:24+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"4fa4c74d-d2b0-433f-8108-15ed3ef8a9db\\\">\\n  <div class=\\\"poem\\\">\\n    <p><strong>أزعجنا يا رب،</strong> حين<br>\\n    نكون راضين عن أنفسنا أكثر مما ينبغي؛<br>\\n    حين تتحقق أحلامنا<br>\\n    لأننا حلمنا بأقل مما ينبغي؛<br>\\n    حين نصل سالمين<br>\\n    لأننا أبحرنا قريبًا جدًا من الشاطئ.<br>\\n    أزعجنا يا رب، حين<br>\\n    بسبب وفرة ما نملك<br>\\n    نفقد عطشنا<br>\\n    إلى مياه الحياة؛<br>\\n    وبعد أن وقعنا في حب الحياة،<br>\\n    كففنا عن الحلم بالأبدية؛<br>\\n    وفي سعينا إلى بناء أرض جديدة،<br>\\n    سمحنا لرؤيتنا<br>\\n    للسماء الجديدة أن تخبو.<br>\\n    أزعجنا يا رب، لكي نتجرأ أكثر،<br>\\n    ونخوض غمار بحار أوسع،<br>\\n    حيث تُظهر العواصف سلطانك؛<br>\\n    وحيث، حين يغيب عن أنظارنا البر،<br>\\n    نجد النجوم.</p>\\n\\n    <p>نسألك أن تدفع إلى الوراء<br>\\n    آفاق آمالنا؛<br>\\n    وأن تدفعنا إلى الأمام نحو المستقبل<br>\\n    بقوة وشجاعة وأمل ومحبة.</p>\\n  </div>\\n\\n  <p class=\\\"byline\\\">~السير فرانسيس دريك 1577</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"أزعجنا يا رب\"}",
+    "content_bytes": 1506,
+    "content_evidence_truncated": false,
+    "content_sha256": "ee74a861310b4dae75d7413a77e82f4c1f42de5601f8e64dae670741c3a22df3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 589,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 162,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1188,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1185,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1777
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
