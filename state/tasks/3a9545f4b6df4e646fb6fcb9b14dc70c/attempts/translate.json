@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T22:49:13+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"e7fba858-3c29-42c7-ae42-198541696da3\\\">\\n  <p>In deze eenvoudige test stellen we een paar vragen over wat de Bijbel zegt over het spreken in tongen. De antwoorden zijn zo duidelijk dat we ze niet eens geven. <strong>DENK</strong> na over de antwoorden.</p>\\n\\n  <ol>\\n    <li>Jezus zei dat we hen aan hun (vruchten, gaven) zullen herkennen.</li>\\n    <li>We worden aangespoord om vervuld te worden met de Geest en tot elkaar te spreken in (tongen, psalmen, lofzangen en geestelijke liederen).</li>\\n    <li>Tongen zijn een teken (voor de gelovige, voor de ongelovige).</li>\\n    <li>Toen Paulus de vraag stelde: ‘Spreken allen in tongen?’ was het impliciete antwoord (ja, nee).</li>\\n    <li>De ongelovigen in Handelingen 2 (hadden een uitlegger nodig, hadden geen uitlegger nodig) om te begrijpen wat degenen die in tongen spraken zeiden.</li>\\n  </ol>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"De tongentest\"}",
+    "content_bytes": 964,
+    "content_evidence_truncated": false,
+    "content_sha256": "b054c6c58c88006d74b97de09122355e3099f9aa4d7725bea2388e6fdd065db8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 295,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1052,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1049,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1347
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
