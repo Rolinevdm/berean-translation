@@ -5,11 +5,40 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e162e52c27949b39b3e4d566fbe2978",
   "campaign": "auto-15ea166f10fc30ae787ca13e8d58cc1eddc8a370bfb7bf88468d932a9acb1034",
   "created_at": "2026-10-15T07:22:51+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "translate",
+      "usage": {
+        "completion_tokens": 6482,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 28,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5875,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5872,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12357
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "HTML/metadata contract",
+      "severity": "critical",
+      "source_quote": "",
+      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[5]: source /article[1]/p[1]/sup[1] ('start', 'sup', ()); translation /article[1]/p[1]/em[1] ('start', 'em', ())",
+      "translation_quote": ""
+    }
+  ],
   "id": "7598dc5a4287d3cb8f4a93d4f00705d7",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "swa",
@@ -102,7 +131,7 @@
   "review_attempts": 0,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/e1e80992d4fe206ce7209ca087fdffd3f4ceb6791083845c0558599338975b01.json",
-  "stage": "translate",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -116,8 +145,8 @@
     "total_reserved_usd": 0.092128,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f5b7fccc6a524e1449727b9ca39fdaa2ec8b679f58d19ba28c92689583cbcf46",
-  "translation_model_actual": null
+  "translation_model_actual": "gpt-6-luna"
 }
