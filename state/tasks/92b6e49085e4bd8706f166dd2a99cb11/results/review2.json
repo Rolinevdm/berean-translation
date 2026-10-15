@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "5f33aa29-94a5-430a-b69f-0d9a8880df57",
+    "response_id": "chatcmpl-EZKT7MhLnbogopGq1cJqdvE5DEO5J",
+    "usage": {
+      "completion_tokens": 278,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 111,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8466,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7363,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8744
+    }
+  },
+  "received_at": "2026-10-15T19:28:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html: नहेमायाह 2:12 का उद्धरण",
+        "severity": "major",
+        "source_quote": "neither told I any man what my God had put in my heart to do at Jerusalem",
+        "suggested_fix": "इस अंश को करें: “और <u>जो काम मेरे परमेश्वर ने यरूशलेम में करने के लिए मेरे मन में डाला था</u>, वह मैंने किसी को नहीं बताया”।",
+        "translation_quote": "और <u>जो काम मेरे परमेश्वर ने मेरे मन में करने के लिए डाला था</u>, वह मैंने यरूशलेम में किसी को नहीं बताया"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 96
+  }
+}
