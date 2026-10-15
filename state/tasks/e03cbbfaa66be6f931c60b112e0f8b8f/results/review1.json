@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ffad2dbc-63b5-40bd-83df-e982efe301a5",
+    "response_id": "chatcmpl-EZ9CuYgKRZvL6CZrUA3jZOYY4kLPw",
+    "usage": {
+      "completion_tokens": 239,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 45,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10587,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10584,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10826
+    }
+  },
+  "received_at": "2026-10-15T06:29:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: ol > li:first-child, opening sentence",
+        "severity": "major",
+        "source_quote": "some people seem to be more concerned about being Biblical than about being Christ-like",
+        "suggested_fix": "پہلی بات یہ ہے کہ کچھ لوگ <em>مسیح جیسا ہونے</em> کی نسبت <em>بائبلی ہونے</em> کے بارے میں زیادہ فکرمند دکھائی دیتے ہیں۔",
+        "translation_quote": "کچھ لوگ <em>بائبلی ہونے</em> کی نسبت <em>مسیح جیسا ہونے</em> کے بارے میں زیادہ فکرمند دکھائی دیتے ہیں۔"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

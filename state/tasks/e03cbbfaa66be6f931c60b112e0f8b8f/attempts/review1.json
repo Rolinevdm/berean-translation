@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T06:29:43+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: ol > li:first-child, opening sentence\",\n      \"severity\": \"major\",\n      \"source_quote\": \"some people seem to be more concerned about being Biblical than about being Christ-like\",\n      \"suggested_fix\": \"پہلی بات یہ ہے کہ کچھ لوگ <em>مسیح جیسا ہونے</em> کی نسبت <em>بائبلی ہونے</em> کے بارے میں زیادہ فکرمند دکھائی دیتے ہیں۔\",\n      \"translation_quote\": \"کچھ لوگ <em>بائبلی ہونے</em> کی نسبت <em>مسیح جیسا ہونے</em> کے بارے میں زیادہ فکرمند دکھائی دیتے ہیں۔\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 731,
+    "content_evidence_truncated": false,
+    "content_sha256": "32397da2abe87272290f0d9477204b4acfdc0313aa3a47bc0c85570f428d5c2c",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 239,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 45,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10587,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10584,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10826
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

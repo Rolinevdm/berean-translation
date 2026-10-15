@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: ol > li:first-child, opening sentence",
+      "severity": "major",
+      "source_quote": "some people seem to be more concerned about being Biblical than about being Christ-like",
+      "suggested_fix": "پہلی بات یہ ہے کہ کچھ لوگ <em>مسیح جیسا ہونے</em> کی نسبت <em>بائبلی ہونے</em> کے بارے میں زیادہ فکرمند دکھائی دیتے ہیں۔",
+      "translation_quote": "کچھ لوگ <em>بائبلی ہونے</em> کی نسبت <em>مسیح جیسا ہونے</em> کے بارے میں زیادہ فکرمند دکھائی دیتے ہیں۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

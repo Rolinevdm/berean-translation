@@ -5,11 +5,40 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "94c7765d33fa440383e4e7cc4ae60cf3",
   "campaign": "auto-1a9fec741ad4548b3d325aec947f4931440a77659821c45c8f25801c32ac2fcc",
   "created_at": "2026-10-15T06:22:43+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 239,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 45,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10587,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10584,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10826
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: ol > li:first-child, opening sentence",
+      "severity": "major",
+      "source_quote": "some people seem to be more concerned about being Biblical than about being Christ-like",
+      "suggested_fix": "پہلی بات یہ ہے کہ کچھ لوگ <em>مسیح جیسا ہونے</em> کی نسبت <em>بائبلی ہونے</em> کے بارے میں زیادہ فکرمند دکھائی دیتے ہیں۔",
+      "translation_quote": "کچھ لوگ <em>بائبلی ہونے</em> کی نسبت <em>مسیح جیسا ہونے</em> کے بارے میں زیادہ فکرمند دکھائی دیتے ہیں۔"
+    }
+  ],
   "id": "e03cbbfaa66be6f931c60b112e0f8b8f",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "urd",
@@ -98,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/0831ff95490bffbe0e23f53ea5194e523e59b9c9715fefeab30577548f0a6209.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +146,7 @@
     "total_reserved_usd": 0.801383,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
   "translation_model_actual": "gpt-6-luna"
