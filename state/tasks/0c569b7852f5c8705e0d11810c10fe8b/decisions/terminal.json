@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، پیراگراف جو «بنی اسرائیل کی طرح» سے شروع ہوتا ہے",
+      "severity": "minor",
+      "source_quote": "If we have been born of God’s Spirit",
+      "suggested_fix": "«اگر ہم خدا کے روح سے پیدا ہوئے ہیں» کو «اگر ہم خدا کی روح سے پیدا ہوئے ہیں» کریں۔",
+      "translation_quote": "اگر ہم خدا کے روح سے پیدا ہوئے ہیں"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "5d194676-3e6b-49dc-8f78-36596a8c3621",
+    "response_id": "chatcmpl-EZO2Fnj1BEdGtAolpMjGfPvIIWg1B",
+    "usage": {
+      "completion_tokens": 187,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 71,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8453,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7350,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8640
+    }
+  },
+  "received_at": "2026-10-15T22:19:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html، پیراگراف جو «بنی اسرائیل کی طرح» سے شروع ہوتا ہے",
+        "severity": "minor",
+        "source_quote": "If we have been born of God’s Spirit",
+        "suggested_fix": "«اگر ہم خدا کے روح سے پیدا ہوئے ہیں» کو «اگر ہم خدا کی روح سے پیدا ہوئے ہیں» کریں۔",
+        "translation_quote": "اگر ہم خدا کے روح سے پیدا ہوئے ہیں"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
