@@ -29191,6 +29191,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/053cec10-1df0-4f62-832e-362809b44283.html",
+      "html_sha256": "b3c800a807e40168b9f1839813d21ec84883cd3155aa007f0a1561b32d4fb321",
+      "human_reviewed": false,
+      "id": "053cec10-1df0-4f62-832e-362809b44283",
+      "images": [
+        {
+          "alt": "घर का रेखाचित्र",
+          "public_path": "/images/articles/053cec10-1df0-4f62-832e-362809b44283-1.png"
+        },
+        {
+          "alt": "ईंटों की दीवार में कोने के पत्थर का रेखाचित्र",
+          "public_path": "/images/articles/053cec10-1df0-4f62-832e-362809b44283-2.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/053cec10-1df0-4f62-832e-362809b44283.json",
+      "metadata_sha256": "27f49d1a32dd4a98a9dcb07b5682a8abe7ac7d549edff6401df0de484166ea41",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "बहनों का कोना",
+      "source_revision": "52e9d320a49e2444d36eafdc051ebb00c1e6693a",
+      "source_translation_key": "144a2f28ba895f9d80bb30e6df0ffeb8b1edd4259cc5b4ccd46a35db6f476235",
+      "status": "ready",
+      "subtitle": null,
+      "title": "बेटियों के लिए विचार",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
       "html_sha256": "695cf9b57f09eaba67efcd24cacef7f9c9ddffae17752d72fb5294bd362d78d3",
       "human_reviewed": false,
@@ -35127,6 +35159,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
+      "html_sha256": "c0b8d462713f5c69ae27c07b3c2d9ea34999bdbd60c05f69f5e0032d62fb26e2",
+      "human_reviewed": false,
+      "id": "783fddfc-86ed-44d9-b13e-e4adea31a5d5",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.json",
+      "metadata_sha256": "b6304d6c4ec20c6150e9202a56f1ed037aa26c8dca4224c95a9f00bcd3c4b32f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "4ad2b7e612fe5095acd26fd12b7ff1a6786b34275e4174c6f16c560f86ca007f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Alkitab Jefferson",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/78e2618e-368f-42b8-af2b-79f85a36ef83.html",
       "html_sha256": "4eaae238561fc826e0349a6de0f0d598b0cd611ad5fedf9623d34ba3c08475e6",
       "human_reviewed": false,
@@ -39968,6 +40023,29 @@
       "subtitle": null,
       "title": "Depressione",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/924514c7-52be-4e2b-ab75-3141e14ea9a0.html",
+      "html_sha256": "4ca85a25a5cc33f337733dcb30febb69975955785785d6e5a2de6c7bf8f97e9b",
+      "human_reviewed": false,
+      "id": "924514c7-52be-4e2b-ab75-3141e14ea9a0",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/924514c7-52be-4e2b-ab75-3141e14ea9a0.json",
+      "metadata_sha256": "3da29d21a4457dc7d5eda32bacc75b507236ccd727a27727a760a5ab21a6a30e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "1345fa41b99f7638900dd7c9385c44491d97f34b",
+      "source_translation_key": "0afc0b6bee66dd315455ddd780526dd699416793c745bb2e10085b05dad8c9fc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Re della terra",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -47021,6 +47099,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/4fa4c74d-d2b0-433f-8108-15ed3ef8a9db.html",
+      "html_sha256": "c0d6f4c51dd17a6f9ddb2bf4f0c1debb1bff8a57740d941195ae8069782cfb38",
+      "human_reviewed": false,
+      "id": "4fa4c74d-d2b0-433f-8108-15ed3ef8a9db",
+      "images": [],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/4fa4c74d-d2b0-433f-8108-15ed3ef8a9db.json",
+      "metadata_sha256": "a512b08bc7dc5d9bfa37958ec0a118fddf6a581ed5fc99c8bc0ddfcb2b3924c5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "4c7b25b348edeeef4eb5f9d22a221d06f0d80f02",
+      "source_translation_key": "f09293496cf7064cac9d811c142aa21cf794debdc06f581afb437004e3c54f52",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Verstoor ons, Heer",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/50068373-cc3d-4587-a605-3f37fc05b3ad.html",
       "html_sha256": "729b582a85e1025866876acc52a7c9fa46a446ac214f4a0b251b022fbc6a69f6",
       "human_reviewed": false,
@@ -49356,6 +49457,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Vandaag",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.html",
+      "html_sha256": "45f8defd388ff9f86880a23689cd00a7288d8b031c324ae95c520bcbcce3fcb1",
+      "human_reviewed": false,
+      "id": "bfec593e-9641-46a9-97d6-84e3bffe789c",
+      "images": [
+        {
+          "alt": "Gravure van Icarus die uit de lucht valt",
+          "public_path": "/images/articles/bfec593e-9641-46a9-97d6-84e3bffe789c-1.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.json",
+      "metadata_sha256": "40b6e7a6d34ff686346324f0828c0fc468c060fdf97bff49e89fb5b877659435",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Van de redactie",
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Te hoog vliegen?",
       "translation_model": "gpt-6-luna"
     },
     {
