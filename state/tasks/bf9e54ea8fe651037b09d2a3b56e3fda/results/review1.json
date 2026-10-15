@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9e91e403-4293-4597-be31-01f361cb4ec2",
+    "response_id": "chatcmpl-EZ2gFKCYIo4C6bvLN3FVlUDZy8z2q",
+    "usage": {
+      "completion_tokens": 780,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 664,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2259,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1156,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3039
+    }
+  },
+  "received_at": "2026-10-15T01:26:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, stanza 3, line 2",
+        "severity": "major",
+        "source_quote": "That He’d take our blessing and remove our song?",
+        "suggested_fix": "עד כדי כך שייקח את ברכתנו ויכבה את שירתנו?",
+        "translation_quote": "עד כדי כך שייקח את ברכתו ויכבה את שירתנו?"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
