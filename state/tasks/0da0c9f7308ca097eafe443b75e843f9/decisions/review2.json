@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, पाँचवाँ अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "The author for our sisters’ article has tackled a very difficult subject",
+      "suggested_fix": "“हमारी बहनों के लिए लेख लिखने वाली लेखिका ने” के स्थान पर “हमारी बहनों के लिए लिखे गए लेख के रचनाकार ने” लिखें, ताकि लेखक के लिंग के बारे में अनकही जानकारी न जोड़ी जाए।",
+      "translation_quote": "हमारी बहनों के लिए लेख लिखने वाली लेखिका ने एक बहुत ही कठिन विषय उठाया है"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
