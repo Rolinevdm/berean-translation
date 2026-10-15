@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning « De même, Dieu nous a rendus participants de sa grâce »",
+      "severity": "major",
+      "source_quote": "“we owe Him ten thousand pounds”",
+      "suggested_fix": "Replace « dix mille talents » with « dix mille livres » (or « dix mille livres sterling ») to preserve the amount and currency printed in the source.",
+      "translation_quote": "« nous lui devons dix mille talents »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

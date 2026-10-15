@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "295a7de7-57f7-4859-893f-f2c7bc99c89e",
+    "response_id": "chatcmpl-EZAAoPJeKh53urD7tPA0cMYmlmC7l",
+    "usage": {
+      "completion_tokens": 1014,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 890,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12188,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12185,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13202
+    }
+  },
+  "received_at": "2026-10-15T07:30:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning « De même, Dieu nous a rendus participants de sa grâce »",
+        "severity": "major",
+        "source_quote": "“we owe Him ten thousand pounds”",
+        "suggested_fix": "Replace « dix mille talents » with « dix mille livres » (or « dix mille livres sterling ») to preserve the amount and currency printed in the source.",
+        "translation_quote": "« nous lui devons dix mille talents »"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

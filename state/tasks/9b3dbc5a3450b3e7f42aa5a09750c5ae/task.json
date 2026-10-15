@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7183c07f8aac4b149d2d2acfc1214ae1",
   "campaign": "auto-1f75d9aab5eab10ad0fe76853cd15b7ac55446689529bec4d19d51ee6111ecc2",
   "created_at": "2026-10-15T06:22:49+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 11866
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1014,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 890,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12188,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12185,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13202
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML paragraph beginning « De même, Dieu nous a rendus participants de sa grâce »",
+      "severity": "major",
+      "source_quote": "“we owe Him ten thousand pounds”",
+      "suggested_fix": "Replace « dix mille talents » with « dix mille livres » (or « dix mille livres sterling ») to preserve the amount and currency printed in the source.",
+      "translation_quote": "« nous lui devons dix mille talents »"
+    }
+  ],
   "id": "9b3dbc5a3450b3e7f42aa5a09750c5ae",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "fra",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/67e6f53bf00c22813d1ecdfcf7efee53cfcb47a222145208ffa64fb41e29a1f9.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.092135,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f5b7fccc6a524e1449727b9ca39fdaa2ec8b679f58d19ba28c92689583cbcf46",
   "translation_model_actual": "gpt-6-luna"
