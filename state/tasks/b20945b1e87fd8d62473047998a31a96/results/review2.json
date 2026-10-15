@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "11be6ecf-36ec-4a10-b7f7-c24c3aa9395e",
+    "response_id": "chatcmpl-EZ9DpqqanutZ0cYgFWUUScy4qK5t7",
+    "usage": {
+      "completion_tokens": 901,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 692,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4878,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3775,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5779
+    }
+  },
+  "received_at": "2026-10-15T06:30:02+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “If you read this like I do” and Acts 2:16–18 quotation",
+        "severity": "major",
+        "source_quote": "“anointed power and prophesy”; “your sons and your daughters shall prophesy”",
+        "suggested_fix": "Replace «القوة الموهوبة والتنبؤ» with «القوة الممسوحة والنبوة» in the paragraph, and replace «فيتنبأ بنوكم وبناتكم» with «فيتنبأ بنوكم وبناتكم» only if retaining the verb in its prophetic sense; to make that sense explicit, use «فينطق بنوكم وبناتكم بالنبوة».",
+        "translation_quote": "«القوة الموهوبة والتنبؤ»; «فيتنبأ بنوكم وبناتكم»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

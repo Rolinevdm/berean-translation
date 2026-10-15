@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0fd9bb779e6346cf964f705601c670d7",
   "campaign": "auto-57fcb3730f27e914275b24afd3396d4a83ad8209af4f8f2c809dae1524cb863c",
   "created_at": "2026-10-14T23:25:22+00:00",
   "events": [
@@ -48,18 +47,40 @@
         },
         "total_tokens": 6776
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 901,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 692,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4878,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3775,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5779
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[12]: source /article[1]/blockquote[1]/p[1]/strong[1] ('start', 'strong', ()); translation /article[1]/blockquote[1]/p[1] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Paragraph beginning “If you read this like I do” and Acts 2:16–18 quotation",
+      "severity": "major",
+      "source_quote": "“anointed power and prophesy”; “your sons and your daughters shall prophesy”",
+      "suggested_fix": "Replace «القوة الموهوبة والتنبؤ» with «القوة الممسوحة والنبوة» in the paragraph, and replace «فيتنبأ بنوكم وبناتكم» with «فيتنبأ بنوكم وبناتكم» only if retaining the verb in its prophetic sense; to make that sense explicit, use «فينطق بنوكم وبناتكم بالنبوة».",
+      "translation_quote": "«القوة الموهوبة والتنبؤ»; «فيتنبأ بنوكم وبناتكم»"
     }
   ],
+  "finished_at": "2026-10-15T06:30:02+00:00",
   "id": "b20945b1e87fd8d62473047998a31a96",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ara",
@@ -148,9 +169,11 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d86fae6b62a1aad4307db08ad26833b192aa341005e401b2e7eae37ccd727434.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +189,7 @@
     "total_reserved_usd": 0.087805,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
   "translation_model_actual": "gpt-6-luna"

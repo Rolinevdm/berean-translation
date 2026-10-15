@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “If you read this like I do” and Acts 2:16–18 quotation",
+      "severity": "major",
+      "source_quote": "“anointed power and prophesy”; “your sons and your daughters shall prophesy”",
+      "suggested_fix": "Replace «القوة الموهوبة والتنبؤ» with «القوة الممسوحة والنبوة» in the paragraph, and replace «فيتنبأ بنوكم وبناتكم» with «فيتنبأ بنوكم وبناتكم» only if retaining the verb in its prophetic sense; to make that sense explicit, use «فينطق بنوكم وبناتكم بالنبوة».",
+      "translation_quote": "«القوة الموهوبة والتنبؤ»; «فيتنبأ بنوكم وبناتكم»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
