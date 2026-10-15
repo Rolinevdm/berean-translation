@@ -5317,6 +5317,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/3feab4dd-c830-4ead-ad57-24d853847088.html",
+      "html_sha256": "a1e306b74113660c65c298674f8acb9e9839c1169d8d210b5d9a70c981007509",
+      "human_reviewed": false,
+      "id": "3feab4dd-c830-4ead-ad57-24d853847088",
+      "images": [
+        {
+          "alt": "صورة مقربة لأشواك حادة على فروع متعرّضة للعوامل الجوية",
+          "public_path": "/images/articles/3feab4dd-c830-4ead-ad57-24d853847088-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/3feab4dd-c830-4ead-ad57-24d853847088.json",
+      "metadata_sha256": "5e52b8866da043177298fdce3c06299195a27bd087a3c8222174eed16ad8d9e8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "تَارِيخُ الكَنِيسَة",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
+      "status": "ready",
+      "subtitle": "من فلاح زيورخ إلى شهيد الأنابابتست",
+      "title": "هانز لانديس",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
       "html_sha256": "d454ed6e557a1ad8f4e17a93cc1798cd9433ec359c2d0daa8a7c8dd9f5c9a7c5",
       "human_reviewed": false,
@@ -12458,6 +12486,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/3feab4dd-c830-4ead-ad57-24d853847088.html",
+      "html_sha256": "d3376f82877b595e8544debca5595ee3f9b842ce577205bbfa243b64048db954",
+      "human_reviewed": false,
+      "id": "3feab4dd-c830-4ead-ad57-24d853847088",
+      "images": [
+        {
+          "alt": "风化树枝上尖锐荆棘的特写",
+          "public_path": "/images/articles/3feab4dd-c830-4ead-ad57-24d853847088-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/3feab4dd-c830-4ead-ad57-24d853847088.json",
+      "metadata_sha256": "f27a27ba591c30b9996a6cf17903a5fe34fe9540c6347108fa8574a899134fbf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "教会历史",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
+      "status": "ready",
+      "subtitle": "从苏黎世农夫到再洗礼派殉道者",
+      "title": "汉斯·兰迪斯",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
       "html_sha256": "c93c6b64c3cffdfa0415f276316cd0241aeee64b41b27d40d0a0ad4cb7b31657",
       "human_reviewed": false,
@@ -17388,6 +17444,50 @@
       "subtitle": null,
       "title": "Wenn es den Himmel wirklich gibt",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/9b22e638-a735-48fe-b31b-817c614538ca.html",
+      "html_sha256": "7118ad2834952d364be3cd46bc2433715de4096e8d88d303cb96b277690a7cd1",
+      "human_reviewed": false,
+      "id": "9b22e638-a735-48fe-b31b-817c614538ca",
+      "images": [
+        {
+          "alt": "Preisschild mit der Aufschrift „Nur 100,00 $“",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-1.jpg"
+        },
+        {
+          "alt": "Strichzeichnung eines eisernen Streitwagens",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-2.png"
+        },
+        {
+          "alt": "Zwei Männer spielen Shuffleboard",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-3.png"
+        },
+        {
+          "alt": "Ein Mann sitzt am Computer und hält den Kopf in den Händen",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-4.jpg"
+        },
+        {
+          "alt": "Ein großes Haus mit Rasenfläche",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-5.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/9b22e638-a735-48fe-b31b-817c614538ca.json",
+      "metadata_sha256": "168ea04d184c5ddede7b932afd357ce1efb25769beccd5c56e4006fd7e6439b4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "a748a750308bd832e277e952779df66318e4e2d2a2e40c0ec8292333d320ccad",
+      "status": "ready",
+      "subtitle": "Den Kanaanitern Tribut abnehmen",
+      "title": "Feind oder Verbündeter?",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -30237,6 +30337,34 @@
       "subtitle": null,
       "title": "बादल में परमेश्वर",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/3feab4dd-c830-4ead-ad57-24d853847088.html",
+      "html_sha256": "75deb06f9a4f9c175853b17a122d13e58b9d3ad3d6d6329d16b3158d13231b73",
+      "human_reviewed": false,
+      "id": "3feab4dd-c830-4ead-ad57-24d853847088",
+      "images": [
+        {
+          "alt": "मौसम की मार झेल चुकी शाखाओं पर नुकीले काँटों का नज़दीकी दृश्य",
+          "public_path": "/images/articles/3feab4dd-c830-4ead-ad57-24d853847088-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/3feab4dd-c830-4ead-ad57-24d853847088.json",
+      "metadata_sha256": "8a9d2d816b85d09310150070eba6c4c760e1f3650eeb8a91b996605897aa3fd0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "चर्च का इतिहास",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
+      "status": "ready",
+      "subtitle": "ज्यूरिख के किसान से अनाबैप्टिस्ट शहीद तक",
+      "title": "हंस लैंडिस",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -50473,6 +50601,46 @@
       "subtitle": null,
       "title": "Vermaningen van een moeder in de gevangenis",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "0b8189086d20911858e071ead863e7297aed15c9e18de4267fa03d9eed96e933",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "Gravure van gelovigen die met Pinksteren de Heilige Geest ontvangen",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "Gestileerde vlam",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "Een duif die naar een uitgestoken hand vliegt",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "Verkeersbord met lachende en verdrietige gezichten",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "e782e74ae5097c34db234b8d5df26fb42f3393aae7140e363e951d01a8230bc0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "4c7b25b348edeeef4eb5f9d22a221d06f0d80f02",
+      "source_translation_key": "55e58c4244dd6dd6b1692c4227d138b24d40e716692e5145e50cf9883188c5b8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De doop met de Heilige Geest bevrijden uit het pentecostalisme",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
