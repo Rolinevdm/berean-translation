@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphs 3, 5, 8, and 9",
+      "severity": "minor",
+      "source_quote": "“as old as your cynicism”; “pessimistic, cynical people”; “growing pessimistic and cynical”; “pessimism, cynicism, and doubt”",
+      "suggested_fix": "Use Kiswahili expressions conveying cynicism or habitual skepticism, such as “kubeza” or “kutilia shaka,” rather than “mashaka ya kijinga,” which means foolish doubts. For example: “Una umri mkubwa kadiri ulivyo na tabia ya kubeza,” and “watu wenye mtazamo wa kukata tamaa na wa kubeza.”",
+      "translation_quote": "“umri mkubwa kadiri ya mashaka yako ya kijinga”; “watu wenye mtazamo wa kukata tamaa na mashaka ya kijinga”; “wenye mtazamo wa kukata tamaa na mashaka ya kijinga”; “mtazamo wa kukata tamaa, mashaka ya kijinga na shaka”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

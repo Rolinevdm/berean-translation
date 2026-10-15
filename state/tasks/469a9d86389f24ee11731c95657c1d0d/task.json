@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7906d361a2a948ba897034fc77c00d1f",
   "campaign": "auto-b07bd464c09936ddd7559355602b306a1dbf83fe8ac6e5651a21c8ea0e3a4dab",
   "created_at": "2026-10-15T01:28:34+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 4779
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1078,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 819,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5096,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3993,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6174
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraphs 3, 5, 8, and 9",
+      "severity": "minor",
+      "source_quote": "“as old as your cynicism”; “pessimistic, cynical people”; “growing pessimistic and cynical”; “pessimism, cynicism, and doubt”",
+      "suggested_fix": "Use Kiswahili expressions conveying cynicism or habitual skepticism, such as “kubeza” or “kutilia shaka,” rather than “mashaka ya kijinga,” which means foolish doubts. For example: “Una umri mkubwa kadiri ulivyo na tabia ya kubeza,” and “watu wenye mtazamo wa kukata tamaa na wa kubeza.”",
+      "translation_quote": "“umri mkubwa kadiri ya mashaka yako ya kijinga”; “watu wenye mtazamo wa kukata tamaa na mashaka ya kijinga”; “wenye mtazamo wa kukata tamaa na mashaka ya kijinga”; “mtazamo wa kukata tamaa, mashaka ya kijinga na shaka”"
+    }
+  ],
+  "finished_at": "2026-10-15T19:29:05+00:00",
   "id": "469a9d86389f24ee11731c95657c1d0d",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "swa",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d86fae6b62a1aad4307db08ad26833b192aa341005e401b2e7eae37ccd727434.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.087795,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
   "translation_model_actual": "gpt-6-luna"
