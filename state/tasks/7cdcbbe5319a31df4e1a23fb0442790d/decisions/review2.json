@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “כשאני מתפתה לפסימיות”",
+      "severity": "minor",
+      "source_quote": "As a child of God, it is within my inheritance to ask the Holy Spirit for vision",
+      "suggested_fix": "כילד אלוהים, הזכות לבקש מרוח הקודש חזון היא חלק מנחלתי",
+      "translation_quote": "כילד אלוהים, יש לי זכות מכוח נחלת האמונה שלי לבקש מרוח הקודש חזון"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

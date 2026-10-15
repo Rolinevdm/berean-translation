@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "83cfcd2bdb9e4e9e9a418b80489fe00b",
   "campaign": "auto-30d193fda20374deae98cb36156c2520f77e15930d975fbdb9b542057aec1b23",
   "created_at": "2026-10-15T01:27:32+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 7326
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 897,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 763,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5095,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5092,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5992
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph 1",
-      "severity": "major",
-      "source_quote": "the feathers were attached only by wax",
-      "suggested_fix": "אך הזהיר אותו שהנוצות מחוברות לכנפיים בשעווה בלבד",
-      "translation_quote": "הנוצות מחוברות זו לזו בשעווה בלבד"
+      "location": "Paragraph beginning “כשאני מתפתה לפסימיות”",
+      "severity": "minor",
+      "source_quote": "As a child of God, it is within my inheritance to ask the Holy Spirit for vision",
+      "suggested_fix": "כילד אלוהים, הזכות לבקש מרוח הקודש חזון היא חלק מנחלתי",
+      "translation_quote": "כילד אלוהים, יש לי זכות מכוח נחלת האמונה שלי לבקש מרוח הקודש חזון"
     }
   ],
+  "finished_at": "2026-10-15T07:31:07+00:00",
   "id": "7cdcbbe5319a31df4e1a23fb0442790d",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "heb",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.08781,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
   "translation_model_actual": "gpt-6-luna"

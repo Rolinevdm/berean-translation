@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2ab0e56c-f080-4254-94a6-3d6d282e8e43",
+    "response_id": "chatcmpl-EZAB7N1ZrG5sCF2gSM2HdzOCmAxNP",
+    "usage": {
+      "completion_tokens": 897,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 763,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5095,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5092,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5992
+    }
+  },
+  "received_at": "2026-10-15T07:31:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “כשאני מתפתה לפסימיות”",
+        "severity": "minor",
+        "source_quote": "As a child of God, it is within my inheritance to ask the Holy Spirit for vision",
+        "suggested_fix": "כילד אלוהים, הזכות לבקש מרוח הקודש חזון היא חלק מנחלתי",
+        "translation_quote": "כילד אלוהים, יש לי זכות מכוח נחלת האמונה שלי לבקש מרוח הקודש חזון"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
