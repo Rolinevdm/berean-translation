@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2b2d3b959c294cd08db382c274ca62c6",
   "campaign": "auto-58c54bc65658c9206a7602daa29a71b137f9a083fe5580f53d75c279d70704b3",
   "created_at": "2026-10-15T01:28:02+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 6800
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 662,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 586,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4880,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4877,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5542
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[12]: source /article[1]/blockquote[1]/p[1]/strong[1] ('start', 'strong', ()); translation /article[1]/blockquote[1]/p[1] ('end', 'p')",
-      "translation_quote": ""
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Flying Too High?",
+      "suggested_fix": "Слишком высоко летать?",
+      "translation_quote": "Слишком высоко?"
     }
   ],
+  "finished_at": "2026-10-15T07:22:04+00:00",
   "id": "2a5cb3da028163fdf6400a29099f9514",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "rus",
@@ -148,9 +168,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d86fae6b62a1aad4307db08ad26833b192aa341005e401b2e7eae37ccd727434.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +188,7 @@
     "total_reserved_usd": 0.0878,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
   "translation_model_actual": "gpt-6-luna"

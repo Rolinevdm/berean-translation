@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bcab3bee-d471-4375-8afc-7d96504b7cb1",
+    "response_id": "chatcmpl-EZ9F7ZNLFMX2zQnoYi7f8VNT4AVB1",
+    "usage": {
+      "completion_tokens": 662,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 586,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4880,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4877,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5542
+    }
+  },
+  "received_at": "2026-10-15T07:22:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "Flying Too High?",
+        "suggested_fix": "Слишком высоко летать?",
+        "translation_quote": "Слишком высоко?"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Flying Too High?",
+      "suggested_fix": "Слишком высоко летать?",
+      "translation_quote": "Слишком высоко?"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
