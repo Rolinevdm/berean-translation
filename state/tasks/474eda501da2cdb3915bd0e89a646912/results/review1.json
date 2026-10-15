@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4ce77645-8a11-44d7-9b11-d09620ef537a",
+    "response_id": "chatcmpl-EZInVfT2xRErivUIl2t4hWDgfpW51",
+    "usage": {
+      "completion_tokens": 1119,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 979,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8046,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6943,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9165
+    }
+  },
+  "received_at": "2026-10-15T18:16:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, Rechabites bullet",
+        "severity": "minor",
+        "source_quote": "“to dwell only as strangers in the land all their days”",
+        "suggested_fix": "Replace “اپنی تمام عمر ملک میں مسافروں کی طرح رہنے” with “اپنی تمام عمر ملک میں پردیسیوں کی طرح رہنے” to convey living as strangers/sojourners, rather than travelers.",
+        "translation_quote": "“اپنی تمام عمر ملک میں مسافروں کی طرح رہنے”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

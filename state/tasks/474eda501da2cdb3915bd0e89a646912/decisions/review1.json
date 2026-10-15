@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Rechabites bullet",
+      "severity": "minor",
+      "source_quote": "“to dwell only as strangers in the land all their days”",
+      "suggested_fix": "Replace “اپنی تمام عمر ملک میں مسافروں کی طرح رہنے” with “اپنی تمام عمر ملک میں پردیسیوں کی طرح رہنے” to convey living as strangers/sojourners, rather than travelers.",
+      "translation_quote": "“اپنی تمام عمر ملک میں مسافروں کی طرح رہنے”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
