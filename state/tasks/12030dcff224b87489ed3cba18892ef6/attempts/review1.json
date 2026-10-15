@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T19:28:28+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"section\",\"severity\":\"minor\",\"source_quote\":\"The Sisters’ Corner\",\"suggested_fix\":\"자매들의 코너\",\"translation_quote\":\"자매들의 글\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 222,
+    "content_evidence_truncated": false,
+    "content_sha256": "46b6e7531aca4fce37fdaa22c7ba603f349c341ad0012e4a2130f13134ddfec0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 782,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 709,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7853,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6750,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8635
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
