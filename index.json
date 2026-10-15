@@ -22054,6 +22054,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/053cec10-1df0-4f62-832e-362809b44283.html",
+      "html_sha256": "0e8bd6026dd1dff0b9658cc1813e592eaf49984591e8843162ee32e0a20985e6",
+      "human_reviewed": false,
+      "id": "053cec10-1df0-4f62-832e-362809b44283",
+      "images": [
+        {
+          "alt": "Dessin au trait d’une maison",
+          "public_path": "/images/articles/053cec10-1df0-4f62-832e-362809b44283-1.png"
+        },
+        {
+          "alt": "Dessin au trait d’une pierre d’angle dans un mur de briques",
+          "public_path": "/images/articles/053cec10-1df0-4f62-832e-362809b44283-2.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/053cec10-1df0-4f62-832e-362809b44283.json",
+      "metadata_sha256": "e4d0c404834c5bbaa2920c037037d712457595e3cd60eb70183a8dc0ba6fb843",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Le coin des sœurs",
+      "source_revision": "a376c1bd0975b85af165a0924d4f4a9de4d2f5c1",
+      "source_translation_key": "144a2f28ba895f9d80bb30e6df0ffeb8b1edd4259cc5b4ccd46a35db6f476235",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Réflexions pour les filles",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/0678981b-d0f9-4c28-970e-2617f9543c9b.html",
       "html_sha256": "3cc1e97e95ddd75e9b4867c308a5240fa6f6bb7be9c648421ee74be480cacdc3",
       "human_reviewed": false,
@@ -24877,6 +24909,38 @@
       "subtitle": "Une histoire de gratitude",
       "title": "L'homme aux pastilles",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9.html",
+      "html_sha256": "d91a1bccc9dd01204955da533be4b8c25d62a1932e00bca42caf527c89b0244e",
+      "human_reviewed": false,
+      "id": "a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9",
+      "images": [
+        {
+          "alt": "Avocat, œufs, légumes, champignons et couteau disposés sur une planche à découper",
+          "public_path": "/images/articles/a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9-1.jpg"
+        },
+        {
+          "alt": "Deux personnes marchant dans une forêt baignée de soleil",
+          "public_path": "/images/articles/a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9-2.jpg"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9.json",
+      "metadata_sha256": "2cb1ba14683ea717ea1b73a64ce24ebbdd05aa2b7b31703ca2ac6925ae63f7d1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Parole d’un médecin",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Un système immunitaire en bonne santé",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -74017,6 +74081,38 @@
       "subtitle": null,
       "title": "مدیر کا پیغام",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/053cec10-1df0-4f62-832e-362809b44283.html",
+      "html_sha256": "10245add161877f59e6b0a57e69194cfdcfcdd01c8f12cd57e97de065bf8ec9b",
+      "human_reviewed": false,
+      "id": "053cec10-1df0-4f62-832e-362809b44283",
+      "images": [
+        {
+          "alt": "گھر کی خطی نقشہ کشی",
+          "public_path": "/images/articles/053cec10-1df0-4f62-832e-362809b44283-1.png"
+        },
+        {
+          "alt": "اینٹوں کی دیوار میں کونے کے ستون کی خطی نقشہ کشی",
+          "public_path": "/images/articles/053cec10-1df0-4f62-832e-362809b44283-2.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/053cec10-1df0-4f62-832e-362809b44283.json",
+      "metadata_sha256": "3d3fc75ebd255e693ab0cf57fb3538bd594aa532d6e913940185340eeaf00658",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "بہنوں کا گوشہ",
+      "source_revision": "a376c1bd0975b85af165a0924d4f4a9de4d2f5c1",
+      "source_translation_key": "144a2f28ba895f9d80bb30e6df0ffeb8b1edd4259cc5b4ccd46a35db6f476235",
+      "status": "ready",
+      "subtitle": null,
+      "title": "بیٹیوں کے لیے غور و فکر",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
