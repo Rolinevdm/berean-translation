@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T22:19:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Psalm 144:11–15”\",\"severity\":\"major\",\"source_quote\":\"“daughters being cornerstones, polished in the likeness of a palace”\",\"suggested_fix\":\"Ändra till exempelvis: ”Där talas det om döttrar som hörnstenar, polerade till likhet med ett palats.”\",\"translation_quote\":\"“döttrar som hörnstenar, polerade som palatsets pelare”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 446,
+    "content_evidence_truncated": false,
+    "content_sha256": "91302e6a346ffe03a8c6f4b0f8c486c230f371baca01fe7ba2ec5d14f3d8ddb1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 623,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 492,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7615,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6512,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8238
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

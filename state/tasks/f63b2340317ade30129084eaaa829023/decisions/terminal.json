@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Psalm 144:11–15”",
+      "severity": "major",
+      "source_quote": "“daughters being cornerstones, polished in the likeness of a palace”",
+      "suggested_fix": "Ändra till exempelvis: ”Där talas det om döttrar som hörnstenar, polerade till likhet med ett palats.”",
+      "translation_quote": "“döttrar som hörnstenar, polerade som palatsets pelare”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
