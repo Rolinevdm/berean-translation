@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "a2ca9b1e-4503-4267-98ed-c33972d5691d",
+    "response_id": "chatcmpl-EZ4r9rZCZe5X0PmoUOSCNx7k3Q2pJ",
+    "usage": {
+      "completion_tokens": 229,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 99,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9335,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8232,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9564
+    }
+  },
+  "received_at": "2026-10-15T06:21:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, párrafo que comienza «En los últimos años»",
+        "severity": "minor",
+        "source_quote": "an increased interest and reference to <strong>the kingdom</strong>",
+        "suggested_fix": "Cambiar «el interés y las referencias a <strong>el reino</strong>» por «el interés por <strong>el reino</strong> y las referencias a él».",
+        "translation_quote": "el interés y las referencias a <strong>el reino</strong>"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

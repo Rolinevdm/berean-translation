@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html, párrafo que comienza «En los últimos años»",
+      "severity": "minor",
+      "source_quote": "an increased interest and reference to <strong>the kingdom</strong>",
+      "suggested_fix": "Cambiar «el interés y las referencias a <strong>el reino</strong>» por «el interés por <strong>el reino</strong> y las referencias a él».",
+      "translation_quote": "el interés y las referencias a <strong>el reino</strong>"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

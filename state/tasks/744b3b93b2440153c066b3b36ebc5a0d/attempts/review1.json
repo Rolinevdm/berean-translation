@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T06:21:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html, párrafo que comienza «En los últimos años»\",\"severity\":\"minor\",\"source_quote\":\"an increased interest and reference to <strong>the kingdom</strong>\",\"suggested_fix\":\"Cambiar «el interés y las referencias a <strong>el reino</strong>» por «el interés por <strong>el reino</strong> y las referencias a él».\",\"translation_quote\":\"el interés y las referencias a <strong>el reino</strong>\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 480,
+    "content_evidence_truncated": false,
+    "content_sha256": "b27b054ab7acf2d25528a7d6b81e47cce81cd9e1caf27b6e694dd919ae6c6301",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 229,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 99,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9335,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8232,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9564
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
