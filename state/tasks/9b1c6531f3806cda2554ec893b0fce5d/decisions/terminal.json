@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html — paragraphe sur le repos et le sabbat",
+      "severity": "minor",
+      "source_quote": "If nothing else, this is the message of the Sabbath Day",
+      "suggested_fix": "Remplacer « Si rien d’autre, c’est là le message du jour du sabbat » par « C’est, à tout le moins, le message du jour du sabbat ».",
+      "translation_quote": "Si rien d’autre, c’est là le message du jour du sabbat"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

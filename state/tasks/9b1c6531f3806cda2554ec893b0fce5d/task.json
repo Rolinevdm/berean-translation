@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d6bcc0e651bf4fc1b8d317ef1c672e51",
   "campaign": "auto-06fc88c6eec8121947f7cb95e763ff83043e6a91f08a783eae7c26fbbf8aa95e",
   "created_at": "2026-10-15T13:22:51+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 212,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 53,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9917,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9914,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10129
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html — paragraphe sur le repos et le sabbat",
+      "severity": "minor",
+      "source_quote": "If nothing else, this is the message of the Sabbath Day",
+      "suggested_fix": "Remplacer « Si rien d’autre, c’est là le message du jour du sabbat » par « C’est, à tout le moins, le message du jour du sabbat ».",
+      "translation_quote": "Si rien d’autre, c’est là le message du jour du sabbat"
+    }
+  ],
+  "finished_at": "2026-10-15T18:16:26+00:00",
   "id": "9b1c6531f3806cda2554ec893b0fce5d",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "fra",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/3d4ff54d38135b804080e8a3164c60951764437616b654687f2332c06c69e7ab.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.777452,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "2190680c-12f7-4a03-b589-0f6cceeda09e",
+    "response_id": "chatcmpl-EZK8SRfM2LmUTcr4EIYbk3hx8hFFI",
+    "usage": {
+      "completion_tokens": 212,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 53,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9917,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9914,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10129
+    }
+  },
+  "received_at": "2026-10-15T18:16:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html — paragraphe sur le repos et le sabbat",
+        "severity": "minor",
+        "source_quote": "If nothing else, this is the message of the Sabbath Day",
+        "suggested_fix": "Remplacer « Si rien d’autre, c’est là le message du jour du sabbat » par « C’est, à tout le moins, le message du jour du sabbat ».",
+        "translation_quote": "Si rien d’autre, c’est là le message du jour du sabbat"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

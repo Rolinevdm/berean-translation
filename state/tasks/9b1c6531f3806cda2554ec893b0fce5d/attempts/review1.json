@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T18:16:26+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html — paragraphe sur le repos et le sabbat\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"If nothing else, this is the message of the Sabbath Day\",\n      \"suggested_fix\": \"Remplacer « Si rien d’autre, c’est là le message du jour du sabbat » par « C’est, à tout le moins, le message du jour du sabbat ».\",\n      \"translation_quote\": \"Si rien d’autre, c’est là le message du jour du sabbat\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 98\n}",
+    "content_bytes": 530,
+    "content_evidence_truncated": false,
+    "content_sha256": "a2825a0b57b409068542ceb82e67db7334d9898d3806e94649d96124474c8e22",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 212,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 53,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9917,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9914,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10129
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
