@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T07:31:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, cita de Josué 17:18\",\"severity\":\"major\",\"source_quote\":\"for it is a wood, and thou shalt cut it down\",\"suggested_fix\":\"«pues es un bosque, y lo talarás»\",\"translation_quote\":\"pues aunque <em>es</em> monte, tú lo desmontarás\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 316,
+    "content_evidence_truncated": false,
+    "content_sha256": "900c1f3fe286cdc6b46afd8e484efd9998e1d772a9ea66ffed0dde34473345e4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 924,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 813,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14843,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13740,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15767
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

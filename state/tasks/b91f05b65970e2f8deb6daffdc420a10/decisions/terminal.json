@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, cita de Josué 17:18",
+      "severity": "major",
+      "source_quote": "for it is a wood, and thou shalt cut it down",
+      "suggested_fix": "«pues es un bosque, y lo talarás»",
+      "translation_quote": "pues aunque <em>es</em> monte, tú lo desmontarás"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
