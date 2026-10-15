@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Learn all that you can about being a woman of God”",
+      "severity": "minor",
+      "source_quote": "Observe His heart in women who obey the Word with godly fear.",
+      "suggested_fix": "Replace «بخشية تقوية» with «بخشية الله» to convey “with godly fear.”",
+      "translation_quote": "وتأملن قلبه في النساء اللواتي يطعن الكلمة بخشية تقوية."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

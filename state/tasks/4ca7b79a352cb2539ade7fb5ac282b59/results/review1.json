@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1edcb090-af24-4eda-9d1c-24384c88ba32",
+    "response_id": "chatcmpl-EZI0zB1U4iAZnf9ZCbi73FKWTx1bu",
+    "usage": {
+      "completion_tokens": 1075,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 943,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7465,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6362,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8540
+    }
+  },
+  "received_at": "2026-10-15T15:53:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Learn all that you can about being a woman of God”",
+        "severity": "minor",
+        "source_quote": "Observe His heart in women who obey the Word with godly fear.",
+        "suggested_fix": "Replace «بخشية تقوية» with «بخشية الله» to convey “with godly fear.”",
+        "translation_quote": "وتأملن قلبه في النساء اللواتي يطعن الكلمة بخشية تقوية."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
