@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c4ce3334a75b49a5a7a77cd3fe18eccc",
   "campaign": "auto-670677e386e9e195fc088c9e692e436e6d9de5f16f7e02196ad20d9b12e3ec73",
   "created_at": "2026-10-15T01:46:02+00:00",
   "events": [
@@ -28,25 +27,31 @@
         },
         "total_tokens": 7814
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 94,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 62,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5245,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5242,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5339
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “যখন হতাশাবাদ...”",
-      "severity": "major",
-      "source_quote": "“they are promised to anyone who genuinely asks for them.”",
-      "suggested_fix": "Replace the phrase with: “যা আন্তরিকভাবে তাঁর কাছে চায় এমন প্রত্যেককে দেওয়ার প্রতিশ্রুতি তিনি দিয়েছেন।”",
-      "translation_quote": "“যা তিনি আন্তরিকভাবে চায় এমন প্রত্যেককে দেওয়ার প্রতিশ্রুতি দিয়েছেন।”"
-    },
-    {
-      "location": "Paragraph beginning “আমি উড়তে চাই।”",
-      "severity": "minor",
-      "source_quote": "“Ex. 19:4”",
-      "suggested_fix": "Use the conventional Bengali book name: “যাত্রাপুস্তক ১৯:৪”",
-      "translation_quote": "“যাত্রা. ১৯:৪”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-15T07:31:17+00:00",
   "id": "6ff939f8d45b6a2565063d4f40812bcf",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ben",
@@ -135,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/d86fae6b62a1aad4307db08ad26833b192aa341005e401b2e7eae37ccd727434.json",
   "stage": "review2",
   "stage_budget": {
@@ -151,7 +158,7 @@
     "total_reserved_usd": 0.570994,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
   "translation_model_actual": "gpt-6.1-sol"
