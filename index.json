@@ -2831,6 +2831,50 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/9b22e638-a735-48fe-b31b-817c614538ca.html",
+      "html_sha256": "252ef15ed9c00bfcea6964d63d6368db278996e77c83a0bd41e5d8aea699eb17",
+      "human_reviewed": false,
+      "id": "9b22e638-a735-48fe-b31b-817c614538ca",
+      "images": [
+        {
+          "alt": "Pryskaartjie gemerk ‘Slegs $100.00’",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-1.jpg"
+        },
+        {
+          "alt": "Lyntekening van ’n ysterstrydwa",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-2.png"
+        },
+        {
+          "alt": "Twee mans wat shuffleboard speel",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-3.png"
+        },
+        {
+          "alt": "’n Man sit by ’n rekenaar met sy kop in sy hande",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-4.jpg"
+        },
+        {
+          "alt": "’n Groot huis en grasperk",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-5.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/9b22e638-a735-48fe-b31b-817c614538ca.json",
+      "metadata_sha256": "b780ad2edbfc71c35d3638a4ebd11e53053be9e3a2e54e6a0684b827b0a915eb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "a748a750308bd832e277e952779df66318e4e2d2a2e40c0ec8292333d320ccad",
+      "status": "ready",
+      "subtitle": "Skatting van die Kanaäniete eis",
+      "title": "Vyand of bondgenoot?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/a1334217-82ac-49ef-8293-563122652b89.html",
       "html_sha256": "72c1b6588ddbd6729d309031a90e304134d4da94d8f5c743cd90aaef10380e5a",
       "human_reviewed": false,
@@ -10999,6 +11043,42 @@
       "subtitle": null,
       "title": "খ্রিস্টান মানবতাবাদী",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.html",
+      "html_sha256": "fe1cbd59842f48262862189dbcdce850d709ef9ba496c0f8164ffa3d66b800ec",
+      "human_reviewed": false,
+      "id": "e66a02d4-667c-4f50-b5e1-158ff98b82d5",
+      "images": [
+        {
+          "alt": "একজন মানুষ মাটির কাছে নতজানু হয়ে আছেন",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-1.jpg"
+        },
+        {
+          "alt": "একজন কর আদায়কারী ঈশ্বরের সামনে নতজানু, আরেকজন মানুষ কাছেই দাঁড়িয়ে",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-2.png"
+        },
+        {
+          "alt": "অহংকার ও নম্রতা গ্রন্থের প্রচ্ছদ",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-3.png"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.json",
+      "metadata_sha256": "b337f2f3c7a107d6cd489433e7cb7fec0684cda370fb6323e4f3f7a8ad069bad",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "f5b7fccc6a524e1449727b9ca39fdaa2ec8b679f58d19ba28c92689583cbcf46",
+      "status": "ready",
+      "subtitle": null,
+      "title": "নম্র মানুষ নিজেকে ক্ষুদ্র মনে করেন",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -52877,6 +52957,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.html",
+      "html_sha256": "c8dec8e43c2512a92ba4af3fbf711b50dd894c30b60c70b98373539afd130daf",
+      "human_reviewed": false,
+      "id": "bfec593e-9641-46a9-97d6-84e3bffe789c",
+      "images": [
+        {
+          "alt": "Gravering av Ikaros som faller fra himmelen",
+          "public_path": "/images/articles/bfec593e-9641-46a9-97d6-84e3bffe789c-1.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.json",
+      "metadata_sha256": "e1dfaf4a398f402fcf05c5f587f6114da4b663db08694a4cb3704d1cbb2be7d8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Fra redaktøren",
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Flyr du for høyt?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/c16663c4-9436-466b-bffd-dd954a5f3442.html",
       "html_sha256": "0af60cfb2169e4af1db4e2e1d8fbfcdf3ef01daad202c84bbeaa04936360a009",
       "human_reviewed": false,
@@ -74299,6 +74407,38 @@
       "subtitle": "کالونیل پنسلوانیا کے کونیسٹاگو وادی میں مینونائٹ زندگی",
       "title": "مینونائٹس، غلط فہمیاں، اور جڑی بوٹیوں کی ادویات",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/2b0884ed-8d65-4e1b-83e2-003e43414e91.html",
+      "html_sha256": "5476e331cd86032d345a38a0d5015dbc88ec93b76352555c444dd73c21ed7358",
+      "human_reviewed": false,
+      "id": "2b0884ed-8d65-4e1b-83e2-003e43414e91",
+      "images": [
+        {
+          "alt": "غروبِ آفتاب کے آسمان کے سامنے کلیسیا کا سایہ دار خاکہ",
+          "public_path": "/images/articles/2b0884ed-8d65-4e1b-83e2-003e43414e91-1.jpg"
+        },
+        {
+          "alt": "کھلی بائبل، ایک مگ اور روٹی",
+          "public_path": "/images/articles/2b0884ed-8d65-4e1b-83e2-003e43414e91-2.jpg"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/2b0884ed-8d65-4e1b-83e2-003e43414e91.json",
+      "metadata_sha256": "2135b5d835bb0527247e4a68fe2e96780cf6a060fdff24ae57e6ec31cb89b220",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "کلیسیا کو درپیش مسائل",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "کلیسیا اور بادشاہی",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,

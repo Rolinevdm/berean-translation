@@ -809,7 +809,7 @@
   },
   "status": "active",
   "task_counts": {
-    "in_batch": 1
+    "queued": 1
   },
   "tasks": [
     "01580e3b0548862d340698f17784fbee"
