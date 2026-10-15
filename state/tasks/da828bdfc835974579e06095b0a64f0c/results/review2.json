@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "747c325a-3e7c-4f66-b4bd-9a956e428fc1",
+    "response_id": "chatcmpl-EZ4kvNs0ZL1HFWXmDx4at6D0Q2eLk",
+    "usage": {
+      "completion_tokens": 922,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 722,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5224,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4121,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6146
+    }
+  },
+  "received_at": "2026-10-15T01:44:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “যখন হতাশাবাদ...”",
+        "severity": "major",
+        "source_quote": "“they are promised to anyone who genuinely asks for them.”",
+        "suggested_fix": "Replace the phrase with: “যা আন্তরিকভাবে তাঁর কাছে চায় এমন প্রত্যেককে দেওয়ার প্রতিশ্রুতি তিনি দিয়েছেন।”",
+        "translation_quote": "“যা তিনি আন্তরিকভাবে চায় এমন প্রত্যেককে দেওয়ার প্রতিশ্রুতি দিয়েছেন।”"
+      },
+      {
+        "location": "Paragraph beginning “আমি উড়তে চাই।”",
+        "severity": "minor",
+        "source_quote": "“Ex. 19:4”",
+        "suggested_fix": "Use the conventional Bengali book name: “যাত্রাপুস্তক ১৯:৪”",
+        "translation_quote": "“যাত্রা. ১৯:৪”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

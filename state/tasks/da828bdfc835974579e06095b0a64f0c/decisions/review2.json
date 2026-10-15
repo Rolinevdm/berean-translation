@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “যখন হতাশাবাদ...”",
+      "severity": "major",
+      "source_quote": "“they are promised to anyone who genuinely asks for them.”",
+      "suggested_fix": "Replace the phrase with: “যা আন্তরিকভাবে তাঁর কাছে চায় এমন প্রত্যেককে দেওয়ার প্রতিশ্রুতি তিনি দিয়েছেন।”",
+      "translation_quote": "“যা তিনি আন্তরিকভাবে চায় এমন প্রত্যেককে দেওয়ার প্রতিশ্রুতি দিয়েছেন।”"
+    },
+    {
+      "location": "Paragraph beginning “আমি উড়তে চাই।”",
+      "severity": "minor",
+      "source_quote": "“Ex. 19:4”",
+      "suggested_fix": "Use the conventional Bengali book name: “যাত্রাপুস্তক ১৯:৪”",
+      "translation_quote": "“যাত্রা. ১৯:৪”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
