@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraaf oor Nehemia; die laaste deel van die diensvoorbeelde",
+      "severity": "major",
+      "source_quote": "“the siblings and/or nieces and nephews God gave you (or the children in your congregation)”",
+      "suggested_fix": "Vervang “julle broers en susters en/of niggies en nefies wat God julle gegee het (of die kinders in julle gemeente)” met “julle broers en susters en/of niggies en nefies (of die kinders in julle gemeente) wat God julle gegee het” om die bron se toeskrywing te behou.",
+      "translation_quote": "“die broers en susters en/of niggies en nefies wat God julle gegee het (of die kinders in julle gemeente)”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

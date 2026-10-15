@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "708c1b35-037c-4af3-9c65-a2dd6264b40e",
+    "response_id": "chatcmpl-EZKNwsH7WIeR8HnJcq6SxPdUWTJOG",
+    "usage": {
+      "completion_tokens": 188,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7706,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6603,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7894
+    }
+  },
+  "received_at": "2026-10-15T19:28:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraaf oor Nehemia; die laaste deel van die diensvoorbeelde",
+        "severity": "major",
+        "source_quote": "“the siblings and/or nieces and nephews God gave you (or the children in your congregation)”",
+        "suggested_fix": "Vervang “julle broers en susters en/of niggies en nefies wat God julle gegee het (of die kinders in julle gemeente)” met “julle broers en susters en/of niggies en nefies (of die kinders in julle gemeente) wat God julle gegee het” om die bron se toeskrywing te behou.",
+        "translation_quote": "“die broers en susters en/of niggies en nefies wat God julle gegee het (of die kinders in julle gemeente)”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
