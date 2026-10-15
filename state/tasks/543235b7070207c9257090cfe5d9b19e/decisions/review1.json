@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, final paragraph",
+      "severity": "major",
+      "source_quote": "May this issue of The Heartbeat of the Remnant cause you to dream and fly high with Christ in heavenly places.",
+      "suggested_fix": "Replace the translated magazine title with its proper title, for example «The Heartbeat of the Remnant»: «Måtte dette nummeret av <em>The Heartbeat of the Remnant</em> få deg til å drømme og fly høyt med Kristus i himmelen.»",
+      "translation_quote": "Måtte dette nummeret av <em>Hjerteslaget fra resten</em> få deg til å drømme og fly høyt med Kristus i himmelen."
+    },
+    {
+      "location": "Article, paragraph beginning “I want to fly”",
+      "severity": "major",
+      "source_quote": "I know that only by His Spirit do I even have a chance.",
+      "suggested_fix": "Replace «Jeg vet at jeg bare har en sjanse ved Hans Ånd» with «Jeg vet at det bare er ved Hans Ånd jeg i det hele tatt har en sjanse.»",
+      "translation_quote": "Jeg vet at jeg bare har en sjanse ved Hans Ånd."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

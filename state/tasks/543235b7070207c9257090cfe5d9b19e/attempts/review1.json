@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T01:44:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, final paragraph\",\"severity\":\"major\",\"source_quote\":\"May this issue of The Heartbeat of the Remnant cause you to dream and fly high with Christ in heavenly places.\",\"suggested_fix\":\"Replace the translated magazine title with its proper title, for example «The Heartbeat of the Remnant»: «Måtte dette nummeret av <em>The Heartbeat of the Remnant</em> få deg til å drømme og fly høyt med Kristus i himmelen.»\",\"translation_quote\":\"Måtte dette nummeret av <em>Hjerteslaget fra resten</em> få deg til å drømme og fly høyt med Kristus i himmelen.\"},{\"location\":\"Article, paragraph beginning “I want to fly”\",\"severity\":\"major\",\"source_quote\":\"I know that only by His Spirit do I even have a chance.\",\"suggested_fix\":\"Replace «Jeg vet at jeg bare har en sjanse ved Hans Ånd» with «Jeg vet at det bare er ved Hans Ånd jeg i det hele tatt har en sjanse.»\",\"translation_quote\":\"Jeg vet at jeg bare har en sjanse ved Hans Ånd.\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 1030,
+    "content_evidence_truncated": false,
+    "content_sha256": "d1d925b84c8536f377199b0debc7318c3ebd476a4b9f7484db831045fdf0a148",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 265,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4883,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3780,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5148
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
