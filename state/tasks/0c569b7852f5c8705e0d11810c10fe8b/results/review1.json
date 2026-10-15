@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "67d8a797-0740-4bb3-896e-d85e1258b62d",
+    "response_id": "chatcmpl-EZK13E33MiNw2zYs6tgy0MoCEMGFt",
+    "usage": {
+      "completion_tokens": 274,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 96,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8450,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8447,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8724
+    }
+  },
+  "received_at": "2026-10-15T18:17:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html، امثال 4:23 اور مرقس 12:30 والا پیراگراف، مرقس کا اقتباس",
+        "severity": "major",
+        "source_quote": "…with all thy soul, and with all thy mind, and with all thy strength… –Mark 12:30",
+        "suggested_fix": "مرقس کے اقتباس کو یوں کریں: <em>…اپنی ساری جان اور اپنی ساری عقل اور اپنی ساری طاقت سے…—مرقس 12:30</em>۔",
+        "translation_quote": "…اپنے سارے دل اور اپنی ساری جان اور اپنی ساری عقل اور اپنی ساری طاقت سے…—مرقس 12:30"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

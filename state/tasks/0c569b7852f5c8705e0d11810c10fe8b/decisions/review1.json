@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، امثال 4:23 اور مرقس 12:30 والا پیراگراف، مرقس کا اقتباس",
+      "severity": "major",
+      "source_quote": "…with all thy soul, and with all thy mind, and with all thy strength… –Mark 12:30",
+      "suggested_fix": "مرقس کے اقتباس کو یوں کریں: <em>…اپنی ساری جان اور اپنی ساری عقل اور اپنی ساری طاقت سے…—مرقس 12:30</em>۔",
+      "translation_quote": "…اپنے سارے دل اور اپنی ساری جان اور اپنی ساری عقل اور اپنی ساری طاقت سے…—مرقس 12:30"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
