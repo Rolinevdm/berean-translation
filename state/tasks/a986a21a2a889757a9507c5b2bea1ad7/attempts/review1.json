@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-15T19:37:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Maar dat is niet het beeld…”\",\"severity\":\"minor\",\"source_quote\":\"new horizons that he and his younger brethren could accomplish if they would just allow God to have His way in them\",\"suggested_fix\":\"Vervang “als ze God maar zijn weg in hen zouden laten gaan” door “als ze God maar zijn gang lieten gaan in hun leven”\",\"translation_quote\":\"nieuwe horizonten die hij en zijn jongere broeders zouden kunnen bereiken, als ze God maar zijn weg in hen zouden laten gaan\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 584,
+    "content_evidence_truncated": false,
+    "content_sha256": "8bcac3fa226eeae7037baf24df4305105c0f65a91d4b87f07c9e79774eee533b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 740,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 589,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4794,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3691,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5534
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

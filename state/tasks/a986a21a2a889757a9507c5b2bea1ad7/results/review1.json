@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1cee2e95-5d2a-4f58-834c-6fd92549ecb9",
+    "response_id": "chatcmpl-EZLWUVj81JVS1bYRSVxoR2NulaBv4",
+    "usage": {
+      "completion_tokens": 740,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 589,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4794,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3691,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5534
+    }
+  },
+  "received_at": "2026-10-15T19:37:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Maar dat is niet het beeld…”",
+        "severity": "minor",
+        "source_quote": "new horizons that he and his younger brethren could accomplish if they would just allow God to have His way in them",
+        "suggested_fix": "Vervang “als ze God maar zijn weg in hen zouden laten gaan” door “als ze God maar zijn gang lieten gaan in hun leven”",
+        "translation_quote": "nieuwe horizonten die hij en zijn jongere broeders zouden kunnen bereiken, als ze God maar zijn weg in hen zouden laten gaan"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
