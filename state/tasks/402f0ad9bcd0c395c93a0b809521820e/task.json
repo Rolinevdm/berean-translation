@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "486ab27daf904bb79288b295abfe2085",
   "campaign": "auto-7e9d63e5032dffd1fd860b4967e09e568e4cead1bfd621836ca6299b5afa1e7b",
   "created_at": "2026-10-15T06:31:13+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 479,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 101,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7902,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6799,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8381
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Начальный абзац; абзац «Помните: слово желание…»; абзац «Ещё один хороший пример…»; заключительный абзац",
+      "severity": "major",
+      "source_quote": "Psalm 37:4; Psalm 78:29-31; Psalm 78:29; Psalms 37:4",
+      "suggested_fix": "Сохранить номера псалмов, напечатанные в источнике: в начальном абзаце заменить «Псалом 36:4» на «Псалом 37:4»; в абзаце «Помните: слово желание…» заменить «Псалом 77:29–31» на «Псалом 78:29–31»; в абзаце «Ещё один хороший пример…» заменить «Псалом 77:29» на «Псалом 78:29»; в заключительном абзаце заменить «Псалмы 36:4» на «Псалмы 37:4».",
+      "translation_quote": "Псалом 36:4; Псалом 77:29–31; Псалом 77:29; Псалмы 36:4"
+    },
+    {
+      "location": "Абзац «Помните: слово желание…», цитата из псалма",
+      "severity": "major",
+      "source_quote": "and smote down the chosen men of Israel",
+      "suggested_fix": "Заменить «и юношей Израилевых поверг» на «и избранных мужей Израиля поверг», сохранив окружающую разметку.",
+      "translation_quote": "и юношей Израилевых поверг"
+    }
+  ],
   "id": "402f0ad9bcd0c395c93a0b809521820e",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "rus",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/41bb4aeb4b6fcd3345fb5e3f1661eb3f49666cb069a44e17468ab987568b94b2.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 0.767647,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
   "translation_model_actual": "gpt-6-luna"
