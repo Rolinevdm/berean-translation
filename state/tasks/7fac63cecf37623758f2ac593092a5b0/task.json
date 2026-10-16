@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8bdac0fa3acf4f8fa4dbab7790439b38",
   "campaign": "auto-03a71841f3e268eee0bcf3115f2f93230812df99fd37724e2cfeab1e3faa0c74",
   "created_at": "2026-10-15T22:11:17+00:00",
   "events": [
@@ -48,18 +47,68 @@
         },
         "total_tokens": 42172
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1608,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 934,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 27380,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 26277,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 28988
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[301]: source /article[1]/p[49]/em[1] ('start', 'em', ()); translation /article[1]/p[49] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Title; introduction, paragraphs 2–3; “The proof is in the pudding,” paragraphs 1–2; “Reactions to banjos,” paragraph 1",
+      "severity": "major",
+      "source_quote": "Title: “Redeeming the Baptism of the Holy Ghost from Pentecostalism”; body: “its captor, Pentecostalism”; “This is where Pentecostalism erred from day one.”",
+      "suggested_fix": "Use the Kiswahili name for the Pentecostal movement consistently, such as “Pentekostalizimu” or “vuguvugu la Kipentekoste,” rather than “Pentekoste,” which names Pentecost. For example, revise the title to “Kuuokoa Ubatizo wa Roho Mtakatifu kutoka kwa Vuguvugu la Kipentekoste.” Apply the distinction at each cited occurrence.",
+      "translation_quote": "Title: “Kuuokoa Ubatizo wa Roho Mtakatifu kutoka kwa Pentekoste”; body: “mtekaji wake, Pentekoste”; “Hapa ndipo Pentekoste ilipokosea tangu mwanzo.”"
+    },
+    {
+      "location": "“The dearth in our day,” paragraph 1",
+      "severity": "major",
+      "source_quote": "“if anyone even suggests that Jesus really meant—I mean really meant—a renunciation of wealth, he may well get his ears boxed”",
+      "suggested_fix": "Replace “huenda akapigwa makofi usoni” with a Kiswahili equivalent for being struck on the ears, such as “huenda akapigwa makofi masikioni,” preserving the source’s specific image.",
+      "translation_quote": "“huenda akapigwa makofi usoni”"
+    },
+    {
+      "location": "“Entering the kingdom of God,” concluding quotation, paragraph 2",
+      "severity": "minor",
+      "source_quote": "“those who ... experience righteousness”",
+      "suggested_fix": "Use “na kuyapitia maisha ya haki” or another natural rendering that conveys experiencing righteousness, rather than “kupitia haki,” which is unclear here.",
+      "translation_quote": "“nao hupitia haki”"
+    },
+    {
+      "location": "“The dearth in our day,” paragraph 1",
+      "severity": "minor",
+      "source_quote": "“he may well get his ears boxed”",
+      "suggested_fix": "Use a Kiswahili idiom that retains the source’s reference to being hit on the ears; for example, “huenda akapigwa makofi masikioni.”",
+      "translation_quote": "“huenda akapigwa makofi usoni”"
+    },
+    {
+      "location": "Leonhard Schiemer quotation, paragraph 2",
+      "severity": "major",
+      "source_quote": "“But this Spirit is given to no one except he first submit himself to the cross and the chastisement of the Lord.”",
+      "suggested_fix": "Translate the condition and passive giving explicitly, for example: “Lakini Roho huyu hawiwi mtu yeyote isipokuwa ajisalimishe kwanza kwa msalaba na adhabu ya Bwana.”",
+      "translation_quote": "“Lakini Roho huyu hawi mtu yeyote isipokuwa kwanza ajisalimishe kwa msalaba na adhabu ya Bwana.”"
     }
   ],
+  "finished_at": "2026-10-16T01:13:19+00:00",
   "id": "7fac63cecf37623758f2ac593092a5b0",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "swa",
@@ -148,9 +197,11 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ea317394a89de2f7bab35eaf19001702b53d69933288b254faf877f6e8d9a180.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +217,7 @@
     "total_reserved_usd": 0.139906,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "55e58c4244dd6dd6b1692c4227d138b24d40e716692e5145e50cf9883188c5b8",
   "translation_model_actual": "gpt-6-luna"
