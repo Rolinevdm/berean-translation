@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T18:27:47+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"0862fd6d-7c62-456c-8b3f-abb513f498ce\\\">\\n  <p class=\\\"drop-cap\\\">Mlio wa bastola ya kuanza uliposikika, washiriki wote walianza kukimbia kuelekea kwenye mstari wa mwisho. Ni kweli, hawakuwa wepesi kama wakimbiaji wa kawaida wa shule za sekondari. Kwa kweli, kwa sababu ya ulemavu wao, walikuwa wakitembea polepole sana hivi kwamba hata walizungumza wao kwa wao njiani.</p>\\n\\n  <p>Walipokuwa wamefika takriban ¾ ya njia kuelekea lengo, jambo fulani lilitokea. Suzie alianguka na kuchubua goti lake. Alianza kulia kwa sababu lilikuwa likimuuma. Carl, aliyekuwa kando yake, alisimama na kumsemesha kwa upole. Wale wote waliokuwa nyuma yake walipomfikia, wao pia walisimama ili kumfariji. Baadhi yao waliwapigia kelele wale waliokuwa mbele ili kuwajulisha kilichokuwa kikitokea. Kwa kuwa wale wengine hawakuwa mbali sana mbele, walisikia milio ya wale waliokuwa nyuma yao na kurudi ili kuwa pamoja na Suzie pia.</p>\\n\\n  <p>Baada ya muda, alipokuwa akijisikia vizuri zaidi, marafiki zake wawili walimsaidia kusimama. Kisha wale marafiki waliokuwa wamesimama kando yake na kumshika mikono walisema, “Tutakusaidia kufika kwenye mstari wa mwisho.” Wengine wote pia wakasema, “Sisi pia!” Wakati huo, kila mtu alishikana mikono na kuendelea polepole kwenye uwanja, akiendana na mwendo wa Suzie aliyekuwa akichechemea. Kisha, wakiwa kama mnyororo mmoja mkubwa na mpana, wote walivuka mstari wa mwisho pamoja! ~Mwandishi hajulikani</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Kukimbia Mbio Pamoja\"}",
+    "content_bytes": 1548,
+    "content_evidence_truncated": false,
+    "content_sha256": "1db9ab4b9f9d921a8e01796223a6e0c0de5e3773620c855cd5661bfa08318213",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 472,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1160,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1157,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1632
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
