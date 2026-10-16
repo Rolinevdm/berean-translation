@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2d3953f5-81fc-497e-bc59-327e2e06ce1a",
+    "response_id": "chatcmpl-EZQXkvUqQAX9k5sn3qsK0LX44lshE",
+    "usage": {
+      "completion_tokens": 834,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 667,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1755,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 652,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2589
+    }
+  },
+  "received_at": "2026-10-16T00:59:03+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, list item 2",
+        "severity": "minor",
+        "source_quote": "speaking to ourselves in (tongues, psalms and hymns and spiritual songs).",
+        "suggested_fix": "আমাদের আত্মায় পরিপূর্ণ হতে উৎসাহিত করা হয়েছে, নিজেদের মধ্যে (বিভিন্ন ভাষায়, গীত ও স্তোত্র এবং আধ্যাত্মিক গানে) কথা বলতে বলতে।",
+        "translation_quote": "আমাদের আত্মায় পরিপূর্ণ হতে উৎসাহিত করা হয়েছে, নিজেদের সঙ্গে (বিভিন্ন ভাষায়, গীত ও স্তোত্র এবং আধ্যাত্মিক গানে) কথা বলতে বলতে।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
