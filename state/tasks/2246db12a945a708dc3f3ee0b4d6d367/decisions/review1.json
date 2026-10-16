@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Opening paragraph",
+      "severity": "major",
+      "source_quote": "“to be first of all doers”",
+      "suggested_fix": "Replace “cumpridores da lei” with “praticantes” (or “cumpridores da palavra”) to preserve the broader idea of being doers, rather than specifically law-observers.",
+      "translation_quote": "“a serem cumpridores da lei”"
+    },
+    {
+      "location": "Opening paragraph",
+      "severity": "minor",
+      "source_quote": "“first of all doers”",
+      "suggested_fix": "Replace “прежде de tudo” with “antes de tudo”.",
+      "translation_quote": "“прежде de tudo”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

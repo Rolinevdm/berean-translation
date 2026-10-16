@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7f633384a3634a73a0f160ce9ae00275",
   "campaign": "auto-4642e025270c857bcc06e7a72cca3092662202f709ac4805feaf4e9b5c4be97b",
   "created_at": "2026-10-16T07:07:49+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 8000
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1034,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 869,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8354,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7251,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9388
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Opening paragraph",
+      "severity": "major",
+      "source_quote": "“to be first of all doers”",
+      "suggested_fix": "Replace “cumpridores da lei” with “praticantes” (or “cumpridores da palavra”) to preserve the broader idea of being doers, rather than specifically law-observers.",
+      "translation_quote": "“a serem cumpridores da lei”"
+    },
+    {
+      "location": "Opening paragraph",
+      "severity": "minor",
+      "source_quote": "“first of all doers”",
+      "suggested_fix": "Replace “прежде de tudo” with “antes de tudo”.",
+      "translation_quote": "“прежде de tudo”"
+    }
+  ],
   "id": "2246db12a945a708dc3f3ee0b4d6d367",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "por",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/853829817c594e913db9172b83f3d85350277207444d1e9e3988b6e2e627e940.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.089944,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ebe7ecab4743984d98acf839285c9c41a9c35b253dfb10d6a7c258ac09968d3c",
   "translation_model_actual": "gpt-6-luna"

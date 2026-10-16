@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T12:23:43+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening paragraph\",\"severity\":\"major\",\"source_quote\":\"“to be first of all doers”\",\"suggested_fix\":\"Replace “cumpridores da lei” with “praticantes” (or “cumpridores da palavra”) to preserve the broader idea of being doers, rather than specifically law-observers.\",\"translation_quote\":\"“a serem cumpridores da lei”\"},{\"location\":\"Opening paragraph\",\"severity\":\"minor\",\"source_quote\":\"“first of all doers”\",\"suggested_fix\":\"Replace “прежде de tudo” with “antes de tudo”.\",\"translation_quote\":\"“прежде de tudo”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 635,
+    "content_evidence_truncated": false,
+    "content_sha256": "6f25ecc1147ea9ddd2da412221069f2257dd460d8caf5d39f3110b618737e096",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1034,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 869,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8354,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7251,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9388
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
