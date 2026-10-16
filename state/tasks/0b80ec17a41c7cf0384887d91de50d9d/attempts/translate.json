@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T14:44:29+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"0862fd6d-7c62-456c-8b3f-abb513f498ce\\\">\\n  <p class=\\\"drop-cap\\\">Toe die wegspringpistool se skoot gehoor is, het al die deelnemers na die eindstreep begin hardloop. Hulle was wel nie so vinnig soos die gewone hoërskoolatlete nie. Trouens, weens hul gestremdhede was hulle so stadig dat hulle selfs langs die pad met mekaar gesels het.</p>\\n\\n  <p>Ongeveer ¾ van die pad na die eindpunt het iets gebeur. Suzie het geval en haar knie geskaaf. Sy het begin huil omdat dit seergemaak het. Carl, wat langs haar was, het stilgehou en vriendelik met haar gepraat. Almal wat agter haar was, het ook stilgehou toe hulle by haar kom, om hul medelye te betuig. Sommige het vorentoe geroep na die res van die groep om hulle te laat weet wat gebeur het. Omdat die ander nie te ver vooruit was nie, het hulle die geroep van dié agter hulle gehoor en ook teruggekom om by Suzie te wees.</p>\\n\\n  <p>Na ’n rukkie, toe sy beter gevoel het, het twee van haar vriende haar gehelp om op te staan. Toe sê die vriende wat langs haar gestaan en haar arms vasgehou het: “Ons sal jou tot by die eindstreep help.” Al die ander het ook gesê: “Ons ook!” Op daardie oomblik het almal hande gevat en stadig met die baan afgeloop, terwyl hulle tred gehou het met Suzie, wat mank geloop het. Toe het hulle almal, soos een groot, breë ketting, saam oor die eindstreep gegaan! ~Onbekende skrywer</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Saam hardloop ons die wedloop\"}",
+    "content_bytes": 1505,
+    "content_evidence_truncated": false,
+    "content_sha256": "5f34fe0cdd6e96d0b599180696e8feb4e895e9806d78158659a127543412aad1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 446,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1160,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1157,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1606
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
