@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7359e476ae2d4e31821ff18229ae91c7",
   "campaign": "auto-14d2838e4b9e0600f0532866eb1132b6918907616b12b649fd9bafa02dee9798",
   "created_at": "2026-10-16T17:24:06+00:00",
   "events": [
@@ -48,88 +47,31 @@
         },
         "total_tokens": 14459
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 91,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 59,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9235,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9232,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9326
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, Absatz über die Zurechtweisung des Schiffsherrn",
-      "severity": "major",
-      "source_quote": "Christ finds no pleasure in allowing trouble to visit us",
-      "suggested_fix": "Ersetzen durch: „Christus findet keine Freude daran, zuzulassen, dass uns Not trifft“.",
-      "translation_quote": "Christus findet keine Freude daran, uns Unheil zuzufügen"
-    },
-    {
-      "location": "translation.html, Johannes 14,27 unter „Der ersehnte Hafen…“",
-      "severity": "major",
-      "source_quote": "peace … not as the world giveth, give I unto you",
-      "suggested_fix": "Innerhalb des bestehenden em-Elements ersetzen durch: „Frieden … nicht wie die Welt gibt, gebe ich euch.“",
-      "translation_quote": "Frieden … den nicht die Welt gibt, den ich euch gebe."
-    },
-    {
-      "location": "translation.section",
-      "severity": "major",
-      "source_quote": "Victorious Christian Living",
-      "suggested_fix": "„Siegreiches Christenleben“",
-      "translation_quote": "Siegreiches Christian Living"
-    },
-    {
-      "location": "translation.html, Apostelgeschichte 27,22 unter „…unser Eigentum schützen“",
-      "severity": "major",
-      "source_quote": "for there shall be no loss of any man’s life among you, but of the ship",
-      "suggested_fix": "Innerhalb des bestehenden em-Elements ersetzen durch: „denn keiner von euch wird sein Leben verlieren; nur das Schiff wird verloren gehen“.",
-      "translation_quote": "denn es wird keiner von euch seines Lebens verlustig gehen, sondern des Schiffes"
-    },
-    {
-      "location": "translation.html, Absatz über Paulus, Apostelgeschichte 27,23–24",
-      "severity": "minor",
-      "source_quote": "there stood by me this night the angel of God",
-      "suggested_fix": "Ersetzen durch: „in dieser Nacht stand der Engel Gottes bei mir“. Die übrige Aussage und das em-Element beibehalten.",
-      "translation_quote": "des Nachts trat zu mir dieser Engel Gottes"
-    },
-    {
-      "location": "translation.html, Psalm 107,25–30",
-      "severity": "minor",
-      "source_quote": "their <strong>desired haven</strong>",
-      "suggested_fix": "Die Hervorhebung wiederherstellen: „ihren <strong>ersehnten Hafen</strong>“.",
-      "translation_quote": "ihren ersehnten Hafen"
-    },
-    {
-      "location": "translation.html, Absatz über die natürliche Stressreaktion",
-      "severity": "minor",
-      "source_quote": "a divine capacity to reason in the midst of extreme passion and pressure",
-      "suggested_fix": "Ersetzen durch: „die von Gott gegebene Fähigkeit, inmitten heftiger Gefühle und unter großem Druck vernünftig zu denken“.",
-      "translation_quote": "die göttliche Fähigkeit, inmitten extremer Leidenschaft und Belastung zu vernünfteln"
-    },
-    {
-      "location": "translation.html, erster Absatz unter „…unser Eigentum schützen“",
-      "severity": "minor",
-      "source_quote": "one of the most troubled lives that was ever lived",
-      "suggested_fix": "Den Satz ersetzen durch: „Äußerlich war das Leben Christi eines der bedrängtesten Leben, die je gelebt wurden.“",
-      "translation_quote": "eines der umwälzendsten und wohl auch eines der am meisten bedrohlichen Leben, das je gelebt wurde"
-    },
-    {
-      "location": "translation.html, erster Absatz unter „…unser Eigentum schützen“",
-      "severity": "minor",
-      "source_quote": "He lay His pillow in the back of a rocking boat",
-      "suggested_fix": "Ersetzen durch: „er sein Kissen im hinteren Teil eines schwankenden Bootes hinlegte“.",
-      "translation_quote": "er sein Kissen auf dem Rücken eines schwankenden Bootes legte"
-    },
-    {
-      "location": "translation.html, Absatz unter „…unseren Plan vollenden“",
-      "severity": "minor",
-      "source_quote": "Mary’s neglect",
-      "suggested_fix": "„Marys Vernachlässigung“ durch „Marias Vernachlässigung“ ersetzen.",
-      "translation_quote": "Marys Vernachlässigung"
-    },
-    {
-      "location": "translation.html, abschließendes Zitat aus Hebräer 4,9–11",
-      "severity": "minor",
-      "source_quote": "he also hath ceased from his own works, as God did from his",
-      "suggested_fix": "Ersetzen durch: „der ist auch von seinen eigenen Werken zur Ruhe gekommen, wie Gott von den seinen“.",
-      "translation_quote": "der ist auch von seinen Werken Ruhe gebracht worden, wie Gott von den seinigen"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-16T21:37:33+00:00",
   "id": "2589e890ee36b9df20dcde4a9fa808f4",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "deu",
@@ -218,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -237,7 +179,7 @@
     "total_reserved_usd": 0.770389,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
   "translation_model_actual": "gpt-6.1-sol"
