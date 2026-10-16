@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة الأولى",
+      "severity": "minor",
+      "source_quote": "A man may get hold of the wrong end of a poker",
+      "suggested_fix": "قد يمسك المرء بسيخ الموقد من الطرف الخطأ",
+      "translation_quote": "قد يمسك المرء بموقد النار من الطرف الخطأ"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

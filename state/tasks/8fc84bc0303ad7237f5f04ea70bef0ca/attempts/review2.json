@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T23:31:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الفقرة الأولى\",\"severity\":\"minor\",\"source_quote\":\"A man may get hold of the wrong end of a poker\",\"suggested_fix\":\"قد يمسك المرء بسيخ الموقد من الطرف الخطأ\",\"translation_quote\":\"قد يمسك المرء بموقد النار من الطرف الخطأ\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 376,
+    "content_evidence_truncated": false,
+    "content_sha256": "494a916921edd915b1d48fd54803cbe31d196b3f97e18ceaec08fd62a8b88fbf",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1072,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 971,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9631,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8528,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10703
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
