@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T20:58:32+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragraph beginning «Στον φυσικό κόσμο»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"let’s stop to consider what God Himself told Nebuchadnezzar\",\n      \"suggested_fix\": \"Replace «ας σταματήσουμε να σκεφτόμαστε τι είπε ο Θεός στον Ναβουχοδονόσωρα» with «ας σταθούμε να αναλογιστούμε τι είπε ο ίδιος ο Θεός στον Ναβουχοδονόσωρα».\",\n      \"translation_quote\": \"ας σταματήσουμε να σκεφτόμαστε τι είπε ο Θεός στον Ναβουχοδονόσωρα\"\n    },\n    {\n      \"location\": \"html, quotation ending with 2 Corinthians 6:17\",\n      \"severity\": \"major\",\n      \"source_quote\": \"…come out from among them, and be ye separate… –2 Corinthians 6:17.\",\n      \"suggested_fix\": \"Limit the quotation to the printed source: «…βγείτε από ανάμεσά τους και ξεχωρίστε… —Β΄ Κορινθίους 6:17.» Keep the existing em element.\",\n      \"translation_quote\": \"…βγείτε έξω από ανάμεσά τους, και διαχωριστείτε· μην αγγίζετε τίποτα ακάθαρτο· και εγώ θα σας δεχθώ. —2 Κορ. 6:17.\"\n    },\n    {\n      \"location\": \"html, quotation ending with Romans 13:1-4\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God … For he is the minister of God to thee… –Romans 13:1-4.\",\n      \"suggested_fix\": \"Remove the additional sentences absent from the source and render the printed excerpt as «Κάθε άνθρωπος ας υποτάσσεται στις ανώτερες εξουσίες. Γιατί δεν υπάρχει εξουσία παρά μόνο από τον Θεό· οι υπάρχουσες εξουσίες έχουν οριστεί από τον Θεό … Γιατί είναι υπηρέτης του Θεού για σένα… —Ρωμαίους 13:1-4.» Keep the existing em element.\",\n      \"translation_quote\": \"Ας είναι υπόταξη κάθε ψυχή στις ανώτερες εξουσίες ... Όποιος αντιτίθεται στην εξουσία αντιτίθεται στην εντολή του Θεού· και όσοι αντιτίθενται θα κριθούν. Οι άρχοντες δεν είναι φόβος για τα καλά έργα, αλλά για τα πονηρά· θέλεις λοιπόν να μην φοβάσαι την εξουσία; Κάνε το καλό και θα έχεις επαίνους απ’ αυτήν· γιατί είναι υπηρέτης του Θεού για το καλό.\"\n    },\n    {\n      \"location\": \"html, paragraph beginning «Είναι λαμβάνοντας υπόψη»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"God will do this through hardening the hearts of ungodly men in positions of power\",\n      \"suggested_fix\": \"Replace «μέσω της σκληραίνουσας των καρδιών των άθεων ανδρών σε θέσεις εξουσίας» with «σκληραίνοντας τις καρδιές ασεβών ανθρώπων που κατέχουν θέσεις εξουσίας». Ungodliness does not necessarily mean atheism.\",\n      \"translation_quote\": \"Ο Θεός θα το κάνει αυτό μέσω της σκληραίνουσας των καρδιών των άθεων ανδρών σε θέσεις εξουσίας\"\n    },\n    {\n      \"location\": \"html, paragraph introducing the November elections\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"mid-term elections\",\n      \"suggested_fix\": \"Replace «μεσο-θεσμικές εκλογές» with the conventional term «ενδιάμεσες εκλογές».\",\n      \"translation_quote\": \"μεσο-θεσμικές εκλογές\"\n    },\n    {\n      \"location\": \"html, paragraph beginning «Είναι λαμβάνοντας υπόψη»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"the winding down of the “clock of time” as time speeds onward towards the end of time\",\n      \"suggested_fix\": \"Replace «το σιγά-σιγά εκφυλλιζόμενο “ρολόϊ του χρόνου” καθώς ο χρόνος προχωρά προς το τέλος των ημερών» with «το “ρολόι του χρόνου” που πλησιάζει στο τέλος της λειτουργίας του, καθώς ο χρόνος τρέχει προς το τέλος του».\",\n      \"translation_quote\": \"το σιγά-σιγά εκφυλλιζόμενο «ρολόϊ του χρόνου» καθώς ο χρόνος προχωρά προς το τέλος των ημερών\"\n    },\n    {\n      \"location\": \"html, final long paragraph, 1 Timothy quotation and following sentence\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"supplications, prayers, intercessions, and giving of thanks ... For kings, and for all that are in authority ... The Christian’s secret power of influence lies in the power of prayer that is produced in the privacy of his or her closet.\",\n      \"suggested_fix\": \"Replace «δέησις, προσευχή, παρεκκλήσεις» with «δεήσεις, προσευχές, μεσιτείες» and «υπέρ των βασιλέων και όλων των εν εξουσίαν» with «για τους βασιλιάδες και για όλους όσοι ασκούν εξουσία». Replace the following sentence with «Η κρυφή δύναμη επιρροής του Χριστιανού βρίσκεται στη δύναμη της προσευχής που γίνεται στην απομόνωση του δωματίου του.»\",\n      \"translation_quote\": \"να γίνονται δέησις, προσευχή, παρεκκλήσεις ... υπέρ των βασιλέων και όλων των εν εξουσίαν ... Το κρυφό πνευματικό δύναμη επιρροής του Χριστιανού έγκειται στη δύναμη της προσευχής που παράγεται στην ιδιωτικότητα της κλειστής του προσευχητικής θύρας.\"\n    },\n    {\n      \"location\": \"html, paragraph about reader feedback\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"From time to time, we receive feedback\",\n      \"suggested_fix\": \"Replace «Κάποια στιγμή λαμβάνουμε σχόλια» with «Κατά καιρούς λαμβάνουμε σχόλια».\",\n      \"translation_quote\": \"Κάποια στιγμή λαμβάνουμε σχόλια\"\n    },\n    {\n      \"location\": \"html, Hebrews quotation\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"wherefore God is not ashamed\",\n      \"suggested_fix\": \"Replace «διό τοῦτο» with contemporary Modern Greek «γι’ αυτό».\",\n      \"translation_quote\": \"διό τοῦτο ο Θεός δεν ντρέπεται\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 83\n}",
+    "content_bytes": 7212,
+    "content_evidence_truncated": false,
+    "content_sha256": "909a4f4374ccf6f443a07b8d8aeee71cd82c0ddd2c89f25d17eba2ed7edf7664",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1648,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 48,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5937,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4834,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7585
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

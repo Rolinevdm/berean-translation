@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph beginning «Στον φυσικό κόσμο»",
+      "severity": "major",
+      "source_quote": "let’s stop to consider what God Himself told Nebuchadnezzar",
+      "suggested_fix": "Replace «ας σταματήσουμε να σκεφτόμαστε τι είπε ο Θεός στον Ναβουχοδονόσωρα» with «ας σταθούμε να αναλογιστούμε τι είπε ο ίδιος ο Θεός στον Ναβουχοδονόσωρα».",
+      "translation_quote": "ας σταματήσουμε να σκεφτόμαστε τι είπε ο Θεός στον Ναβουχοδονόσωρα"
+    },
+    {
+      "location": "html, quotation ending with 2 Corinthians 6:17",
+      "severity": "major",
+      "source_quote": "…come out from among them, and be ye separate… –2 Corinthians 6:17.",
+      "suggested_fix": "Limit the quotation to the printed source: «…βγείτε από ανάμεσά τους και ξεχωρίστε… —Β΄ Κορινθίους 6:17.» Keep the existing em element.",
+      "translation_quote": "…βγείτε έξω από ανάμεσά τους, και διαχωριστείτε· μην αγγίζετε τίποτα ακάθαρτο· και εγώ θα σας δεχθώ. —2 Κορ. 6:17."
+    },
+    {
+      "location": "html, quotation ending with Romans 13:1-4",
+      "severity": "major",
+      "source_quote": "Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God … For he is the minister of God to thee… –Romans 13:1-4.",
+      "suggested_fix": "Remove the additional sentences absent from the source and render the printed excerpt as «Κάθε άνθρωπος ας υποτάσσεται στις ανώτερες εξουσίες. Γιατί δεν υπάρχει εξουσία παρά μόνο από τον Θεό· οι υπάρχουσες εξουσίες έχουν οριστεί από τον Θεό … Γιατί είναι υπηρέτης του Θεού για σένα… —Ρωμαίους 13:1-4.» Keep the existing em element.",
+      "translation_quote": "Ας είναι υπόταξη κάθε ψυχή στις ανώτερες εξουσίες ... Όποιος αντιτίθεται στην εξουσία αντιτίθεται στην εντολή του Θεού· και όσοι αντιτίθενται θα κριθούν. Οι άρχοντες δεν είναι φόβος για τα καλά έργα, αλλά για τα πονηρά· θέλεις λοιπόν να μην φοβάσαι την εξουσία; Κάνε το καλό και θα έχεις επαίνους απ’ αυτήν· γιατί είναι υπηρέτης του Θεού για το καλό."
+    },
+    {
+      "location": "html, paragraph beginning «Είναι λαμβάνοντας υπόψη»",
+      "severity": "major",
+      "source_quote": "God will do this through hardening the hearts of ungodly men in positions of power",
+      "suggested_fix": "Replace «μέσω της σκληραίνουσας των καρδιών των άθεων ανδρών σε θέσεις εξουσίας» with «σκληραίνοντας τις καρδιές ασεβών ανθρώπων που κατέχουν θέσεις εξουσίας». Ungodliness does not necessarily mean atheism.",
+      "translation_quote": "Ο Θεός θα το κάνει αυτό μέσω της σκληραίνουσας των καρδιών των άθεων ανδρών σε θέσεις εξουσίας"
+    },
+    {
+      "location": "html, paragraph introducing the November elections",
+      "severity": "minor",
+      "source_quote": "mid-term elections",
+      "suggested_fix": "Replace «μεσο-θεσμικές εκλογές» with the conventional term «ενδιάμεσες εκλογές».",
+      "translation_quote": "μεσο-θεσμικές εκλογές"
+    },
+    {
+      "location": "html, paragraph beginning «Είναι λαμβάνοντας υπόψη»",
+      "severity": "minor",
+      "source_quote": "the winding down of the “clock of time” as time speeds onward towards the end of time",
+      "suggested_fix": "Replace «το σιγά-σιγά εκφυλλιζόμενο “ρολόϊ του χρόνου” καθώς ο χρόνος προχωρά προς το τέλος των ημερών» with «το “ρολόι του χρόνου” που πλησιάζει στο τέλος της λειτουργίας του, καθώς ο χρόνος τρέχει προς το τέλος του».",
+      "translation_quote": "το σιγά-σιγά εκφυλλιζόμενο «ρολόϊ του χρόνου» καθώς ο χρόνος προχωρά προς το τέλος των ημερών"
+    },
+    {
+      "location": "html, final long paragraph, 1 Timothy quotation and following sentence",
+      "severity": "minor",
+      "source_quote": "supplications, prayers, intercessions, and giving of thanks ... For kings, and for all that are in authority ... The Christian’s secret power of influence lies in the power of prayer that is produced in the privacy of his or her closet.",
+      "suggested_fix": "Replace «δέησις, προσευχή, παρεκκλήσεις» with «δεήσεις, προσευχές, μεσιτείες» and «υπέρ των βασιλέων και όλων των εν εξουσίαν» with «για τους βασιλιάδες και για όλους όσοι ασκούν εξουσία». Replace the following sentence with «Η κρυφή δύναμη επιρροής του Χριστιανού βρίσκεται στη δύναμη της προσευχής που γίνεται στην απομόνωση του δωματίου του.»",
+      "translation_quote": "να γίνονται δέησις, προσευχή, παρεκκλήσεις ... υπέρ των βασιλέων και όλων των εν εξουσίαν ... Το κρυφό πνευματικό δύναμη επιρροής του Χριστιανού έγκειται στη δύναμη της προσευχής που παράγεται στην ιδιωτικότητα της κλειστής του προσευχητικής θύρας."
+    },
+    {
+      "location": "html, paragraph about reader feedback",
+      "severity": "minor",
+      "source_quote": "From time to time, we receive feedback",
+      "suggested_fix": "Replace «Κάποια στιγμή λαμβάνουμε σχόλια» with «Κατά καιρούς λαμβάνουμε σχόλια».",
+      "translation_quote": "Κάποια στιγμή λαμβάνουμε σχόλια"
+    },
+    {
+      "location": "html, Hebrews quotation",
+      "severity": "minor",
+      "source_quote": "wherefore God is not ashamed",
+      "suggested_fix": "Replace «διό τοῦτο» with contemporary Modern Greek «γι’ αυτό».",
+      "translation_quote": "διό τοῦτο ο Θεός δεν ντρέπεται"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

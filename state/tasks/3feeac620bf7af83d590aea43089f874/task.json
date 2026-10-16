@@ -5,11 +5,96 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "683cff931394475181aafdfa57d62801",
   "campaign": "auto-86de682279b3743f7ed112980ddbe470993b92b37423ed7015d46daa7e614b5a",
   "created_at": "2026-10-16T18:29:30+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1648,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 48,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5937,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4834,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7585
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, paragraph beginning «Στον φυσικό κόσμο»",
+      "severity": "major",
+      "source_quote": "let’s stop to consider what God Himself told Nebuchadnezzar",
+      "suggested_fix": "Replace «ας σταματήσουμε να σκεφτόμαστε τι είπε ο Θεός στον Ναβουχοδονόσωρα» with «ας σταθούμε να αναλογιστούμε τι είπε ο ίδιος ο Θεός στον Ναβουχοδονόσωρα».",
+      "translation_quote": "ας σταματήσουμε να σκεφτόμαστε τι είπε ο Θεός στον Ναβουχοδονόσωρα"
+    },
+    {
+      "location": "html, quotation ending with 2 Corinthians 6:17",
+      "severity": "major",
+      "source_quote": "…come out from among them, and be ye separate… –2 Corinthians 6:17.",
+      "suggested_fix": "Limit the quotation to the printed source: «…βγείτε από ανάμεσά τους και ξεχωρίστε… —Β΄ Κορινθίους 6:17.» Keep the existing em element.",
+      "translation_quote": "…βγείτε έξω από ανάμεσά τους, και διαχωριστείτε· μην αγγίζετε τίποτα ακάθαρτο· και εγώ θα σας δεχθώ. —2 Κορ. 6:17."
+    },
+    {
+      "location": "html, quotation ending with Romans 13:1-4",
+      "severity": "major",
+      "source_quote": "Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God … For he is the minister of God to thee… –Romans 13:1-4.",
+      "suggested_fix": "Remove the additional sentences absent from the source and render the printed excerpt as «Κάθε άνθρωπος ας υποτάσσεται στις ανώτερες εξουσίες. Γιατί δεν υπάρχει εξουσία παρά μόνο από τον Θεό· οι υπάρχουσες εξουσίες έχουν οριστεί από τον Θεό … Γιατί είναι υπηρέτης του Θεού για σένα… —Ρωμαίους 13:1-4.» Keep the existing em element.",
+      "translation_quote": "Ας είναι υπόταξη κάθε ψυχή στις ανώτερες εξουσίες ... Όποιος αντιτίθεται στην εξουσία αντιτίθεται στην εντολή του Θεού· και όσοι αντιτίθενται θα κριθούν. Οι άρχοντες δεν είναι φόβος για τα καλά έργα, αλλά για τα πονηρά· θέλεις λοιπόν να μην φοβάσαι την εξουσία; Κάνε το καλό και θα έχεις επαίνους απ’ αυτήν· γιατί είναι υπηρέτης του Θεού για το καλό."
+    },
+    {
+      "location": "html, paragraph beginning «Είναι λαμβάνοντας υπόψη»",
+      "severity": "major",
+      "source_quote": "God will do this through hardening the hearts of ungodly men in positions of power",
+      "suggested_fix": "Replace «μέσω της σκληραίνουσας των καρδιών των άθεων ανδρών σε θέσεις εξουσίας» with «σκληραίνοντας τις καρδιές ασεβών ανθρώπων που κατέχουν θέσεις εξουσίας». Ungodliness does not necessarily mean atheism.",
+      "translation_quote": "Ο Θεός θα το κάνει αυτό μέσω της σκληραίνουσας των καρδιών των άθεων ανδρών σε θέσεις εξουσίας"
+    },
+    {
+      "location": "html, paragraph introducing the November elections",
+      "severity": "minor",
+      "source_quote": "mid-term elections",
+      "suggested_fix": "Replace «μεσο-θεσμικές εκλογές» with the conventional term «ενδιάμεσες εκλογές».",
+      "translation_quote": "μεσο-θεσμικές εκλογές"
+    },
+    {
+      "location": "html, paragraph beginning «Είναι λαμβάνοντας υπόψη»",
+      "severity": "minor",
+      "source_quote": "the winding down of the “clock of time” as time speeds onward towards the end of time",
+      "suggested_fix": "Replace «το σιγά-σιγά εκφυλλιζόμενο “ρολόϊ του χρόνου” καθώς ο χρόνος προχωρά προς το τέλος των ημερών» with «το “ρολόι του χρόνου” που πλησιάζει στο τέλος της λειτουργίας του, καθώς ο χρόνος τρέχει προς το τέλος του».",
+      "translation_quote": "το σιγά-σιγά εκφυλλιζόμενο «ρολόϊ του χρόνου» καθώς ο χρόνος προχωρά προς το τέλος των ημερών"
+    },
+    {
+      "location": "html, final long paragraph, 1 Timothy quotation and following sentence",
+      "severity": "minor",
+      "source_quote": "supplications, prayers, intercessions, and giving of thanks ... For kings, and for all that are in authority ... The Christian’s secret power of influence lies in the power of prayer that is produced in the privacy of his or her closet.",
+      "suggested_fix": "Replace «δέησις, προσευχή, παρεκκλήσεις» with «δεήσεις, προσευχές, μεσιτείες» and «υπέρ των βασιλέων και όλων των εν εξουσίαν» with «για τους βασιλιάδες και για όλους όσοι ασκούν εξουσία». Replace the following sentence with «Η κρυφή δύναμη επιρροής του Χριστιανού βρίσκεται στη δύναμη της προσευχής που γίνεται στην απομόνωση του δωματίου του.»",
+      "translation_quote": "να γίνονται δέησις, προσευχή, παρεκκλήσεις ... υπέρ των βασιλέων και όλων των εν εξουσίαν ... Το κρυφό πνευματικό δύναμη επιρροής του Χριστιανού έγκειται στη δύναμη της προσευχής που παράγεται στην ιδιωτικότητα της κλειστής του προσευχητικής θύρας."
+    },
+    {
+      "location": "html, paragraph about reader feedback",
+      "severity": "minor",
+      "source_quote": "From time to time, we receive feedback",
+      "suggested_fix": "Replace «Κάποια στιγμή λαμβάνουμε σχόλια» with «Κατά καιρούς λαμβάνουμε σχόλια».",
+      "translation_quote": "Κάποια στιγμή λαμβάνουμε σχόλια"
+    },
+    {
+      "location": "html, Hebrews quotation",
+      "severity": "minor",
+      "source_quote": "wherefore God is not ashamed",
+      "suggested_fix": "Replace «διό τοῦτο» with contemporary Modern Greek «γι’ αυτό».",
+      "translation_quote": "διό τοῦτο ο Θεός δεν ντρέπεται"
+    }
+  ],
   "id": "3feeac620bf7af83d590aea43089f874",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ell",
@@ -98,11 +183,13 @@
     }
   },
   "protected": false,
+  "quality_score": 83,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +202,7 @@
     "total_reserved_usd": 0.731568,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
