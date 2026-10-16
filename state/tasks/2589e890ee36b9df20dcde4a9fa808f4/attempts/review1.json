@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T18:27:18+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, Absatz über die Zurechtweisung des Schiffsherrn\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Christ finds no pleasure in allowing trouble to visit us\",\n      \"suggested_fix\": \"Ersetzen durch: „Christus findet keine Freude daran, zuzulassen, dass uns Not trifft“.\",\n      \"translation_quote\": \"Christus findet keine Freude daran, uns Unheil zuzufügen\"\n    },\n    {\n      \"location\": \"translation.html, Johannes 14,27 unter „Der ersehnte Hafen…“\",\n      \"severity\": \"major\",\n      \"source_quote\": \"peace … not as the world giveth, give I unto you\",\n      \"suggested_fix\": \"Innerhalb des bestehenden em-Elements ersetzen durch: „Frieden … nicht wie die Welt gibt, gebe ich euch.“\",\n      \"translation_quote\": \"Frieden … den nicht die Welt gibt, den ich euch gebe.\"\n    },\n    {\n      \"location\": \"translation.section\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Victorious Christian Living\",\n      \"suggested_fix\": \"„Siegreiches Christenleben“\",\n      \"translation_quote\": \"Siegreiches Christian Living\"\n    },\n    {\n      \"location\": \"translation.html, Apostelgeschichte 27,22 unter „…unser Eigentum schützen“\",\n      \"severity\": \"major\",\n      \"source_quote\": \"for there shall be no loss of any man’s life among you, but of the ship\",\n      \"suggested_fix\": \"Innerhalb des bestehenden em-Elements ersetzen durch: „denn keiner von euch wird sein Leben verlieren; nur das Schiff wird verloren gehen“.\",\n      \"translation_quote\": \"denn es wird keiner von euch seines Lebens verlustig gehen, sondern des Schiffes\"\n    },\n    {\n      \"location\": \"translation.html, Absatz über Paulus, Apostelgeschichte 27,23–24\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"there stood by me this night the angel of God\",\n      \"suggested_fix\": \"Ersetzen durch: „in dieser Nacht stand der Engel Gottes bei mir“. Die übrige Aussage und das em-Element beibehalten.\",\n      \"translation_quote\": \"des Nachts trat zu mir dieser Engel Gottes\"\n    },\n    {\n      \"location\": \"translation.html, Psalm 107,25–30\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"their <strong>desired haven</strong>\",\n      \"suggested_fix\": \"Die Hervorhebung wiederherstellen: „ihren <strong>ersehnten Hafen</strong>“.\",\n      \"translation_quote\": \"ihren ersehnten Hafen\"\n    },\n    {\n      \"location\": \"translation.html, Absatz über die natürliche Stressreaktion\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"a divine capacity to reason in the midst of extreme passion and pressure\",\n      \"suggested_fix\": \"Ersetzen durch: „die von Gott gegebene Fähigkeit, inmitten heftiger Gefühle und unter großem Druck vernünftig zu denken“.\",\n      \"translation_quote\": \"die göttliche Fähigkeit, inmitten extremer Leidenschaft und Belastung zu vernünfteln\"\n    },\n    {\n      \"location\": \"translation.html, erster Absatz unter „…unser Eigentum schützen“\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"one of the most troubled lives that was ever lived\",\n      \"suggested_fix\": \"Den Satz ersetzen durch: „Äußerlich war das Leben Christi eines der bedrängtesten Leben, die je gelebt wurden.“\",\n      \"translation_quote\": \"eines der umwälzendsten und wohl auch eines der am meisten bedrohlichen Leben, das je gelebt wurde\"\n    },\n    {\n      \"location\": \"translation.html, erster Absatz unter „…unser Eigentum schützen“\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"He lay His pillow in the back of a rocking boat\",\n      \"suggested_fix\": \"Ersetzen durch: „er sein Kissen im hinteren Teil eines schwankenden Bootes hinlegte“.\",\n      \"translation_quote\": \"er sein Kissen auf dem Rücken eines schwankenden Bootes legte\"\n    },\n    {\n      \"location\": \"translation.html, Absatz unter „…unseren Plan vollenden“\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Mary’s neglect\",\n      \"suggested_fix\": \"„Marys Vernachlässigung“ durch „Marias Vernachlässigung“ ersetzen.\",\n      \"translation_quote\": \"Marys Vernachlässigung\"\n    },\n    {\n      \"location\": \"translation.html, abschließendes Zitat aus Hebräer 4,9–11\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"he also hath ceased from his own works, as God did from his\",\n      \"suggested_fix\": \"Ersetzen durch: „der ist auch von seinen eigenen Werken zur Ruhe gekommen, wie Gott von den seinen“.\",\n      \"translation_quote\": \"der ist auch von seinen Werken Ruhe gebracht worden, wie Gott von den seinigen\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 88\n}",
+    "content_bytes": 4595,
+    "content_evidence_truncated": false,
+    "content_sha256": "ae5a5da84efe02c78420d978686b1e2545314af2b70a5b7cef347c0ecc0a04d1",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1228,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 100,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9189,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8086,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10417
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
