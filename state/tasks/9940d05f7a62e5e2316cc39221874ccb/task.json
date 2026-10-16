@@ -5,11 +5,103 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13838cc0b009472a838f727ca7a166c5",
   "campaign": "auto-7fb9b2d6d1d426a05b3f8e017bb413418259c2e76114edfd122d54cdc6e29d76",
   "created_at": "2026-10-16T18:29:22+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1280,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 48,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5067,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3964,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6347
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, Hebrews 11:13-16 quotation",
+      "severity": "major",
+      "source_quote": "God is not ashamed to be called [our] God: for he hath prepared for [us] a city",
+      "suggested_fix": "Ändra till ”Gud skäms inte för att kallas [vår] Gud, ty han har berett en stad åt [oss]” inom det befintliga em-elementet.",
+      "translation_quote": "därför skäms inte Gud att kallas deras Gud: ty han har förberett åt dem en stad"
+    },
+    {
+      "location": "translation.html, paragraph beginning “I den naturliga världen”",
+      "severity": "minor",
+      "source_quote": "our “old man”",
+      "suggested_fix": "Ändra till ”vår ’gamla människa’”.",
+      "translation_quote": "vår ”gamle människa”"
+    },
+    {
+      "location": "translation.html, opening greeting",
+      "severity": "minor",
+      "source_quote": "in the worthy name of Jesus Christ, our Saviour, and our Redeemer",
+      "suggested_fix": "Ändra till ”i Jesu Kristi värdiga namn, vår Frälsare och vår Återlösare”.",
+      "translation_quote": "i den värdiga namnet Jesus Kristus, vår Frälsare, och vår Återlösare"
+    },
+    {
+      "location": "translation.html, publication-schedule paragraph",
+      "severity": "minor",
+      "source_quote": "arriving more quickly on the heels of the last one ... getting each quarterly issue out in a more timely manner",
+      "suggested_fix": "Ändra de berörda formuleringarna till ”komma tätare inpå det förra” respektive ”ge ut varje kvartalsnummer i bättre tid”.",
+      "translation_quote": "komma snabbare på hälarna efter det förra ... få varje kvartalsnummer ut i mer tid"
+    },
+    {
+      "location": "translation.html, paragraph introducing Moses and Jonah",
+      "severity": "minor",
+      "source_quote": "the God of the Bible",
+      "suggested_fix": "Ta bort det överflödiga första ”Guds” så att det står ”Bibelns Gud”.",
+      "translation_quote": "Guds Bibelns Gud"
+    },
+    {
+      "location": "translation.html, paragraph following the church-history heading",
+      "severity": "minor",
+      "source_quote": "One of our goals for this issue is burdened with the awareness ... to ensure a proper outcome for the good of their perceived cause or goals",
+      "suggested_fix": "Ändra till ”Ett av våra mål för detta nummer präglas av medvetenheten om att” och ersätt slutfrasen med ”för att säkerställa ett utfall som gynnar den sak eller de mål som de anser sig främja”.",
+      "translation_quote": "Ett av våra mål för detta nummer är påverkade av medvetenheten att ... för att säkerställa ett korrekt utfall för det goda av deras uppfattade sak eller mål"
+    },
+    {
+      "location": "translation.html, 2 Corinthians 6:17 quotation",
+      "severity": "minor",
+      "source_quote": "come out from among them, and be ye separate",
+      "suggested_fix": "Ersätt citatets formulering med ”…gå ut från dem och håll er avskilda…”, med referensen och em-elementet oförändrade.",
+      "translation_quote": "gör er därför urskilda från dem, och rör er ifrån dem"
+    },
+    {
+      "location": "translation.html, paragraph beginning “Det är med dessa tankar”",
+      "severity": "minor",
+      "source_quote": "trust God to bring about His will for the winding down of the “clock of time”",
+      "suggested_fix": "Ändra till ”lita på att Gud genomför sin vilja när ’tidens klocka’ går mot sitt slut”.",
+      "translation_quote": "lita på Gud att föra fram Sin vilja för tidsurens avtagande"
+    },
+    {
+      "location": "translation.html, paragraph beginning “Så, vad är lösningen”",
+      "severity": "minor",
+      "source_quote": "The Christian’s secret power of influence lies in the power of prayer that is produced in the privacy of his or her closet.",
+      "suggested_fix": "Ändra meningen till ”Den kristnes hemliga kraft att påverka ligger i kraften i den bön som föds i den egna kammarens avskildhet.”",
+      "translation_quote": "Den kristnes hemliga inflytelse ligger i bönen som produceras i privatets kammare."
+    },
+    {
+      "location": "translation.html, James 5:16 quotation",
+      "severity": "minor",
+      "source_quote": "The effectual fervent prayer of a righteous man availeth much",
+      "suggested_fix": "Återge även bönens innerlighet: ”…En rättfärdig människas innerliga, verksamma bön förmår mycket”, med befintlig referens och HTML oförändrade.",
+      "translation_quote": "Den rättfärdiges bön, verksam i sin kraft, har stor verkan"
+    }
+  ],
   "id": "9940d05f7a62e5e2316cc39221874ccb",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "swe",
@@ -98,11 +190,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +209,7 @@
     "total_reserved_usd": 0.714644,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T18:37:00+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, Hebrews 11:13-16 quotation\",\n      \"severity\": \"major\",\n      \"source_quote\": \"God is not ashamed to be called [our] God: for he hath prepared for [us] a city\",\n      \"suggested_fix\": \"Ändra till ”Gud skäms inte för att kallas [vår] Gud, ty han har berett en stad åt [oss]” inom det befintliga em-elementet.\",\n      \"translation_quote\": \"därför skäms inte Gud att kallas deras Gud: ty han har förberett åt dem en stad\"\n    },\n    {\n      \"location\": \"translation.html, paragraph beginning “I den naturliga världen”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"our “old man”\",\n      \"suggested_fix\": \"Ändra till ”vår ’gamla människa’”.\",\n      \"translation_quote\": \"vår ”gamle människa”\"\n    },\n    {\n      \"location\": \"translation.html, opening greeting\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"in the worthy name of Jesus Christ, our Saviour, and our Redeemer\",\n      \"suggested_fix\": \"Ändra till ”i Jesu Kristi värdiga namn, vår Frälsare och vår Återlösare”.\",\n      \"translation_quote\": \"i den värdiga namnet Jesus Kristus, vår Frälsare, och vår Återlösare\"\n    },\n    {\n      \"location\": \"translation.html, publication-schedule paragraph\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"arriving more quickly on the heels of the last one ... getting each quarterly issue out in a more timely manner\",\n      \"suggested_fix\": \"Ändra de berörda formuleringarna till ”komma tätare inpå det förra” respektive ”ge ut varje kvartalsnummer i bättre tid”.\",\n      \"translation_quote\": \"komma snabbare på hälarna efter det förra ... få varje kvartalsnummer ut i mer tid\"\n    },\n    {\n      \"location\": \"translation.html, paragraph introducing Moses and Jonah\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"the God of the Bible\",\n      \"suggested_fix\": \"Ta bort det överflödiga första ”Guds” så att det står ”Bibelns Gud”.\",\n      \"translation_quote\": \"Guds Bibelns Gud\"\n    },\n    {\n      \"location\": \"translation.html, paragraph following the church-history heading\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"One of our goals for this issue is burdened with the awareness ... to ensure a proper outcome for the good of their perceived cause or goals\",\n      \"suggested_fix\": \"Ändra till ”Ett av våra mål för detta nummer präglas av medvetenheten om att” och ersätt slutfrasen med ”för att säkerställa ett utfall som gynnar den sak eller de mål som de anser sig främja”.\",\n      \"translation_quote\": \"Ett av våra mål för detta nummer är påverkade av medvetenheten att ... för att säkerställa ett korrekt utfall för det goda av deras uppfattade sak eller mål\"\n    },\n    {\n      \"location\": \"translation.html, 2 Corinthians 6:17 quotation\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"come out from among them, and be ye separate\",\n      \"suggested_fix\": \"Ersätt citatets formulering med ”…gå ut från dem och håll er avskilda…”, med referensen och em-elementet oförändrade.\",\n      \"translation_quote\": \"gör er därför urskilda från dem, och rör er ifrån dem\"\n    },\n    {\n      \"location\": \"translation.html, paragraph beginning “Det är med dessa tankar”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"trust God to bring about His will for the winding down of the “clock of time”\",\n      \"suggested_fix\": \"Ändra till ”lita på att Gud genomför sin vilja när ’tidens klocka’ går mot sitt slut”.\",\n      \"translation_quote\": \"lita på Gud att föra fram Sin vilja för tidsurens avtagande\"\n    },\n    {\n      \"location\": \"translation.html, paragraph beginning “Så, vad är lösningen”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"The Christian’s secret power of influence lies in the power of prayer that is produced in the privacy of his or her closet.\",\n      \"suggested_fix\": \"Ändra meningen till ”Den kristnes hemliga kraft att påverka ligger i kraften i den bön som föds i den egna kammarens avskildhet.”\",\n      \"translation_quote\": \"Den kristnes hemliga inflytelse ligger i bönen som produceras i privatets kammare.\"\n    },\n    {\n      \"location\": \"translation.html, James 5:16 quotation\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"The effectual fervent prayer of a righteous man availeth much\",\n      \"suggested_fix\": \"Återge även bönens innerlighet: ”…En rättfärdig människas innerliga, verksamma bön förmår mycket”, med befintlig referens och HTML oförändrade.\",\n      \"translation_quote\": \"Den rättfärdiges bön, verksam i sin kraft, har stor verkan\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 89\n}",
+    "content_bytes": 4742,
+    "content_evidence_truncated": false,
+    "content_sha256": "15e91caecd337ef9647d8769191e125ac7005a644345627abd0bb5fa07031852",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1280,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 48,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5067,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3964,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6347
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
