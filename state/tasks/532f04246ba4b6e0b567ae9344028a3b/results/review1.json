@@ -1,0 +1,129 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "7e8e0f51-149f-4603-92ca-0f8871e72bf7",
+    "response_id": "chatcmpl-EZdhNdke3Bg22hmnOgQpxxavDNVsy",
+    "usage": {
+      "completion_tokens": 2187,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 103,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8824,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8821,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11011
+    }
+  },
+  "received_at": "2026-10-16T17:23:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html，第2段：“relational form of the Godhead”",
+        "severity": "major",
+        "source_quote": "We often like to think of Jesus as the relational form of the Godhead; a sort of go-between, between us and the Almighty God.",
+        "suggested_fix": "将该句改为：“我们常喜欢把耶稣看作神性中与我们建立关系的那一位，仿佛是我们与全能神之间的中间人。”",
+        "translation_quote": "我们常喜欢把耶稣看作位格上的神，作为我们与全能神之间的媒介。"
+      },
+      {
+        "location": "html，第4段，使徒行传27:20、27:23-24引文",
+        "severity": "major",
+        "source_quote": "neither sun nor stars in many days appeared ... the angel of God, whose I am, and whom I serve",
+        "suggested_fix": "将“多日不见日月”改为“多日不见太阳和星辰”；将后一处引文补全为“今夜，我所属、所事奉的神差遣使者站在我旁边，说：保罗，不要惧怕……——使徒行传 27:23-24”。",
+        "translation_quote": "多日不见日月……那夜有神的使者站在我旁边，说：保罗，不要惧怕……"
+      },
+      {
+        "location": "html，第5段，约拿书1:6引文",
+        "severity": "major",
+        "source_quote": "the shipmaster came to him [Jonah]",
+        "suggested_fix": "将“船主到他那里”改为“船主到他［约拿］那里”，保留原文对人物身份的说明。",
+        "translation_quote": "船主到他那里"
+      },
+      {
+        "location": "html，第6段，哥林多后书1:8引文",
+        "severity": "major",
+        "source_quote": "pressed out of measure, above strength, insomuch that we despaired even of life",
+        "suggested_fix": "将引文改为“……我们受压极重，超过了所能承受的，甚至连活命的指望都绝了——哥林多后书 1:8。”",
+        "translation_quote": "……困苦、受压、近乎死掉——哥林多后书 1:8。"
+      },
+      {
+        "location": "html，“所愿的港口”标题后第1段，使徒行传27:12-13引文",
+        "severity": "major",
+        "source_quote": "the haven was not commodious to winter in … supposing that they had obtained their purpose",
+        "suggested_fix": "将引文改为“这港口不适宜过冬……以为已经如愿……——使徒行传 27:12-13”。这里不是说他们以为已经抵达目的地。",
+        "translation_quote": "那里过冬不宽裕……因为他们以为已经得了目的地……"
+      },
+      {
+        "location": "html，“所愿的港口”标题后第2段，生理反应与理性能力",
+        "severity": "major",
+        "source_quote": "Our central medulla gland unleashes a powerful hormone called adrenaline into our system ... we have a divine capacity to reason",
+        "suggested_fix": "忠实保留原文所述而不改写其生理主张，将两处分别改为“我们的中央髓质腺向体内释放一种名为肾上腺素的强效激素”和“我们具有神所赐的理性能力”。",
+        "translation_quote": "我们的中枢会分泌肾上腺素……我们在极端情绪和压力中仍有属灵的理性能力。"
+      },
+      {
+        "location": "html，“所愿的港口”标题后第2段，巴力、佛教崇拜者与背道者",
+        "severity": "major",
+        "source_quote": "the heavens seem brazenly silent. We would expect that from worshippers of Baal, Buddha, and from backsliders.",
+        "suggested_fix": "将后一句改为“我们会以为，敬拜巴力、佛陀的人以及背道者遇到这样的沉默，是意料之中的事。”保留巴力之名，并明确所指是祷告遭遇沉默，而非这些人采取某种行为。",
+        "translation_quote": "诸天却似乎大胆地沉默。我们会期望宗教拜偶像者、佛像崇拜者与背道者如此行"
+      },
+      {
+        "location": "html，“Preserving our Person”标题及恐惧症列表后的第1段",
+        "severity": "major",
+        "source_quote": "…Preserving our Person ... When we excuse and cater to the preservation of our person, fear is inevitable.",
+        "suggested_fix": "将标题改为“……保全自身”；将相应句子改为“当我们为保全自身找借口，并一味迎合这种需要时，恐惧就不可避免。”原文讨论的是自我保全，不是维护人格。",
+        "translation_quote": "……保全自己的人……当我们为保护自己的人格而找借口并迎合它时，恐惧就不可避免。"
+      },
+      {
+        "location": "html，“完善我们的计划”部分，路加福音10:40引文",
+        "severity": "major",
+        "source_quote": "Lord, dost thou not care that my sister hath left me to serve alone? bid her therefore that she help me",
+        "suggested_fix": "将引文改为“主啊，我妹妹留下我独自服事，你不顾吗？请吩咐她来帮助我——路加福音 10:40。”不要把妹妹离开服事的行为归因于耶稣的命令。",
+        "translation_quote": "主啊，你不顾吗？你不是叫我妹妹离开我独自作工吗？请吩咐她来帮助我"
+      },
+      {
+        "location": "html，末段，希伯来书4:9-11引文",
+        "severity": "major",
+        "source_quote": "Let us labour therefore to enter into that rest",
+        "suggested_fix": "将“我们既有了这应当进入安息的事，就当竭力进入”改为“所以，我们务必竭力进入那安息”，删除原文没有的前提陈述。",
+        "translation_quote": "我们既有了这应当进入安息的事，就当竭力进入"
+      },
+      {
+        "location": "html，诗篇107:25-30引文",
+        "severity": "minor",
+        "source_quote": "their soul is melted because of trouble. They reel to and fro, and stagger like a drunken man",
+        "suggested_fix": "将“他因急难心消；他们摇来摇去，如醉汉轰动”改为“他们因急难而心惊胆战；他们摇来晃去，像醉汉一样踉跄”。",
+        "translation_quote": "他因急难心消；他们摇来摇去，如醉汉轰动"
+      },
+      {
+        "location": "html，“所愿的港口”部分末段结尾",
+        "severity": "minor",
+        "source_quote": "These four strong winds are roused at the slightest provocation when we are…",
+        "suggested_fix": "将结尾改为“当我们……时，这四股强风只需受到一点刺激便会被唤起：”，删除重复且未完成的“只要我们一有些……”。",
+        "translation_quote": "只要我们一有些……这四股强风便在最轻微的刺激下被唤起，当我们……"
+      },
+      {
+        "location": "html，恐惧症列表第4项",
+        "severity": "minor",
+        "source_quote": "Arachibutyrophobia is the fear of getting peanut butter stuck to the roof of your mouth.",
+        "suggested_fix": "将该项改为“花生酱粘腭恐惧症（arachibutyrophobia）是指害怕花生酱粘在上颚。”",
+        "translation_quote": "arachibutyrophobia 是害怕花生酱粘在上颚的恐惧。"
+      },
+      {
+        "location": "html，“保全我们的财物”部分",
+        "severity": "minor",
+        "source_quote": "This was ministered as healing balm to the bedraggled sailors",
+        "suggested_fix": "将“对那个疲惫的船员”改为“对那些疲惫狼狈的船员”。",
+        "translation_quote": "这句话对那个疲惫的船员是疗伤的香膏"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 79
+  }
+}
