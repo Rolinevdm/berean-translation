@@ -5,11 +5,180 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "daa57b29c84543bab18bb26135145c98",
   "campaign": "auto-26e90abbdab1e4d1ad6c88cc4b73ab8ab4960ee85a5535ff72593960ce885257",
   "created_at": "2026-10-16T20:59:48+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2811,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 87,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7044,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7041,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9855
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, paragraph 1, opening sentence",
+      "severity": "major",
+      "source_quote": "Being a ruler over a group of people",
+      "suggested_fix": "Replace “এক জন মানুষের ওপর রাজত্ব করা” with “একদল মানুষের শাসক হওয়া”.",
+      "translation_quote": "এক জন মানুষের ওপর রাজত্ব করা"
+    },
+    {
+      "location": "html, paragraph 3",
+      "severity": "major",
+      "source_quote": "the new ruler was well received by his subjects",
+      "suggested_fix": "Replace “তাঁর অনুচররা” with “তাঁর প্রজারা”.",
+      "translation_quote": "নতুন শাসককে তাঁর অনুচররা ভালোভাবেই গ্রহণ করেছিল"
+    },
+    {
+      "location": "html, paragraph 4",
+      "severity": "major",
+      "source_quote": "Nero soon killed his brother-in-law, who was fourteen",
+      "suggested_fix": "Replace “তাঁর জামাইকে” with “তাঁর চৌদ্দ বছর বয়সী শ্যালককে”, removing the redundant following age clause.",
+      "translation_quote": "নারো দ্রুতই তাঁর জামাইকে—যিনি চৌদ্দ বছর বয়সী ছিলেন—হত্যা করালেন"
+    },
+    {
+      "location": "html, paragraph 4, final sentence",
+      "severity": "major",
+      "source_quote": "he had Octavia beheaded on false charges of being unfaithful",
+      "suggested_fix": "Replace the clause with “তিনি অক্টাভিয়ার বিরুদ্ধে অবিশ্বস্ততার মিথ্যা অভিযোগ এনে তাঁর শিরশ্ছেদ করালেন।”",
+      "translation_quote": "তিনি অক্টাভিয়াকে মিথ্যা বিবাহবিচ্ছেদের অভিযোগে কুপিয়ে হত্যা করালেন।"
+    },
+    {
+      "location": "html, paragraph 5",
+      "severity": "major",
+      "source_quote": "Nero dispatched his executioners to stab her to death in broad daylight",
+      "suggested_fix": "Replace the sentence with “দমে না গিয়ে নেরো দিনের প্রকাশ্য আলোয় তাঁকে ছুরিকাঘাতে হত্যা করার জন্য তাঁর ঘাতকদের পাঠালেন।”",
+      "translation_quote": "অনড় হয়ে নারো তাঁর সিদ্ধান্তে অটল রইলেন এবং তাকে প্রকাশ্যে ছুরিকাঘাতে হত্যা করানোর জন্য কর্তৃকারীদের পাঠালেন।"
+    },
+    {
+      "location": "html, paragraph 6, final sentence",
+      "severity": "major",
+      "source_quote": "bringing them to tears for their perceived wrongdoings",
+      "suggested_fix": "Replace “তাদের করা অন্যায়ের জন্য” with “তাঁর দৃষ্টিতে তাদের করা অন্যায়ের জন্য”.",
+      "translation_quote": "তাদেরকে তাদের করা অন্যায়ের জন্য কাঁদিয়ে তুলবেন"
+    },
+    {
+      "location": "html, paragraph 7",
+      "severity": "major",
+      "source_quote": "such as trumpeting and acting",
+      "suggested_fix": "Replace “তুপিই বাজানো” with “তূরী বাজানো”.",
+      "translation_quote": "যেমন তুপিই বাজানো ও অভিনয়"
+    },
+    {
+      "location": "html, paragraph 8, opening sentence",
+      "severity": "major",
+      "source_quote": "Nero had an even bigger goal in mind",
+      "suggested_fix": "Replace “নারোর লক্ষ্য আরও মহৎ ছিল” with “নেরোর মনে আরও বড় একটি লক্ষ্য ছিল”.",
+      "translation_quote": "নারোর লক্ষ্য আরও মহৎ ছিল"
+    },
+    {
+      "location": "html, paragraph 11, introduction to Tacitus quotation",
+      "severity": "major",
+      "source_quote": "That group was known as the Christians. Tacitus, a secular Roman writer",
+      "suggested_fix": "Replace these clauses with “সেই গোষ্ঠী খ্রিস্টান নামে পরিচিত ছিল। ট্যাসিটাস, একজন ধর্মনিরপেক্ষ রোমান লেখক,”.",
+      "translation_quote": "সেই গোষ্ঠীকে জনরোষে ‘খ্রিস্টান’ বলা হতো। ট্যাসিটাস, একজন ঐতিহাসিক রোমান লেখক"
+    },
+    {
+      "location": "html, paragraph 11, Tacitus quotation",
+      "severity": "major",
+      "source_quote": "hated for their abominations ... Mockery of every sort was added to their deaths ... were nailed to crosses",
+      "suggested_fix": "Replace “যাদের কুৎসা জনিত কারণে ঘৃণা করা হত” with “যাদের ঘৃণ্য কাজের জন্য ঘৃণা করা হতো”; replace “তাদের মৃত্যুর ওপর সর্বপ্রকার উত্তরী কৃত্য আরোপ করা হত” with “তাদের হত্যার সঙ্গে সব ধরনের উপহাসও যোগ করা হতো”; replace “ক্রসে বেঁধে মারা যেত” with “ক্রুশে পেরেক দিয়ে বিদ্ধ করা হতো”.",
+      "translation_quote": "যাদের কুৎসা জনিত কারণে ঘৃণা করা হত ... তাদের মৃত্যুর ওপর সর্বপ্রকার উত্তরী কৃত্য আরোপ করা হত ... ক্রসে বেঁধে মারা যেত"
+    },
+    {
+      "location": "html, paragraph 12",
+      "severity": "major",
+      "source_quote": "Nero grew even more wicked",
+      "suggested_fix": "Replace “আরও Wicked হয়ে উঠলেন” with “আরও দুষ্ট হয়ে উঠলেন”.",
+      "translation_quote": "নারো আরও Wicked হয়ে উঠলেন"
+    },
+    {
+      "location": "html, paragraph 13",
+      "severity": "major",
+      "source_quote": "His lifestyle was deeply offensive to Christianity",
+      "suggested_fix": "Replace the clause with “তাঁর জীবনধারা খ্রিস্টধর্মের পক্ষে গভীরভাবে আপত্তিকর ছিল”.",
+      "translation_quote": "তাঁর জীবনধারা খ্রিস্টিয়ান শহরে গভীরভাবে অভিযুক্তজনক ছিল"
+    },
+    {
+      "location": "html, paragraph 14, Romans 13:1–5 quotation",
+      "severity": "major",
+      "source_quote": "Let every soul be subject unto the higher powers ... they that resist shall receive to themselves damnation ... thou shalt have praise of the same ... he is the minister of God ... also for conscience sake",
+      "suggested_fix": "Replace the text inside the existing em element with “প্রত্যেক ব্যক্তি উচ্চতর কর্তৃপক্ষের অধীন হোক। কারণ ঈশ্বর ছাড়া কোনো কর্তৃত্ব নেই; যে কর্তৃপক্ষ রয়েছে, তা ঈশ্বরের দ্বারা নিযুক্ত। অতএব যে কর্তৃপক্ষের বিরোধিতা করে, সে ঈশ্বরের বিধানের বিরোধিতা করে; আর যারা বিরোধিতা করে, তারা নিজেদের ওপর দণ্ড ডেকে আনবে। কারণ শাসকেরা সৎকাজের জন্য নয়, মন্দ কাজের জন্য ভয়ের কারণ। তুমি কি কর্তৃপক্ষকে ভয় না করতে চাও? সৎকাজ করো, তাহলে তাঁর কাছ থেকে প্রশংসা পাবে। কারণ তিনি তোমার মঙ্গলের জন্য ঈশ্বরের সেবক। কিন্তু যদি মন্দ কাজ করো, তবে ভয় করো; কারণ তিনি বৃথা তলোয়ার বহন করেন না। তিনি ঈশ্বরের সেবক, মন্দ কর্মকারীর ওপর ক্রোধ কার্যকর করার জন্য প্রতিশোধ গ্রহণকারী। তাই কেবল ক্রোধের ভয়ে নয়, বিবেকের তাগিদেও তোমাদের অধীন থাকা আবশ্যক।” Preserve the existing reference and surrounding structure.",
+      "translation_quote": "প্রত্যেক প্রাণধারী চরিতার্থ হউক ... যাদের আপত্তি আছে, তারা তাদের উপর খণ্ডনার দণ্ড বহন করবে ... তৎসময়ে তাঁর প্রশংসা পাবে ... ঈশ্বরের চাকরী ... দৈহিক বিবেকের জন্যও"
+    },
+    {
+      "location": "html, paragraph 15, repeated Romans 13:1 quotation",
+      "severity": "major",
+      "source_quote": "Let every soul be subject unto the higher powers. For there is no power but of God…",
+      "suggested_fix": "Replace the quotation before its reference with “প্রত্যেক ব্যক্তি উচ্চতর কর্তৃপক্ষের অধীন হোক। কারণ ঈশ্বর ছাড়া কোনো কর্তৃত্ব নেই…”.",
+      "translation_quote": "প্রত্যেক প্রাণধারী চরিতার্থ হউক উচ্চতর কর্তৃপক্ষের প্রতি বাধ্য—কারণ কোন কর্তৃত্ব ঈশ্বরের কর্তৃত্ব ছাড়া নেই…"
+    },
+    {
+      "location": "html, paragraph 16, Scripture reference",
+      "severity": "major",
+      "source_quote": "Acts 5:29",
+      "suggested_fix": "Replace “কর্মসংস্থান ৫:২৯” with “প্রেরিত ৫:২৯”.",
+      "translation_quote": "কর্মসংস্থান ৫:২৯"
+    },
+    {
+      "location": "html, paragraph 17",
+      "severity": "major",
+      "source_quote": "just like the unregenerate around us",
+      "suggested_fix": "Replace “আমাদের চারপাশের অনুজীবদের মতোই” with “আমাদের চারপাশের পুনর্জন্ম না-পাওয়া মানুষদের মতোই”.",
+      "translation_quote": "আমাদের চারপাশের অনুজীবদের মতোই"
+    },
+    {
+      "location": "html, paragraph 18, Ephesians quotation",
+      "severity": "major",
+      "source_quote": "walk circumspectly ... Redeeming the time ... understanding what the will of the Lord is",
+      "suggested_fix": "Replace the text preceding the existing Ephesians reference with “অতএব সাবধানে চলো, নির্বোধদের মতো নয়, বরং জ্ঞানীদের মতো; সময়ের সদ্ব্যবহার করো, কারণ দিনগুলো মন্দ। তাই অবিবেচক হয়ো না, বরং প্রভুর ইচ্ছা কী তা বোঝো”.",
+      "translation_quote": "সদাশয়ভাবে চলাফেরা কর ... সময় লুট কর ... পালন কর ঈশ্বরের ইচ্ছা কী"
+    },
+    {
+      "location": "html, paragraph 18, 1 Corinthians quotation",
+      "severity": "major",
+      "source_quote": "Let a man so account of us, as of the ministers of Christ, and stewards of the mysteries of God",
+      "suggested_fix": "Replace the first sentence of this quotation with “মানুষ আমাদের খ্রিস্টের সেবক এবং ঈশ্বরের রহস্যসমূহের তত্ত্বাবধায়ক বলে গণ্য করুক।” Preserve the following sentence and reference.",
+      "translation_quote": "একজন তোমাদের এভাবে আমাদের সম্পর্কে বলুক—যেন করিস্টের মন্ত্রীরাও এবং ঈশ্বরের গূঢ় রহস্যের দায়-ব্যবস্থাপক।"
+    },
+    {
+      "location": "html, paragraph 20",
+      "severity": "minor",
+      "source_quote": "Endnote:",
+      "suggested_fix": "Replace “Endnote:” with “শেষটীকা:”, preserving the br tag and URL.",
+      "translation_quote": "Endnote:"
+    },
+    {
+      "location": "html, paragraph 1",
+      "severity": "minor",
+      "source_quote": "And yet, in AD 54, a ruler was appointed",
+      "suggested_fix": "Replace “তবু খৃষ্টীয় খ্রিস্টাব্দ ৫৪ সালে একটি শাসক নিয়োগ করা হয়েছিলেন” with “তবু খ্রিস্টাব্দ ৫৪ সালে একজন শাসক নিযুক্ত হয়েছিলেন”.",
+      "translation_quote": "তবু খৃষ্টীয় খ্রিস্টাব্দ ৫৪ সালে একটি শাসক নিয়োগ করা হয়েছিলেন"
+    },
+    {
+      "location": "html, paragraph 6",
+      "severity": "minor",
+      "source_quote": "The catch? The slave was a man.",
+      "suggested_fix": "Replace “কিন্তু ধরা পড়লো—দাসটি একজন পুরুষ ছিল।” with “কিন্তু ব্যাপারটা কী ছিল? দাসটি ছিল একজন পুরুষ।”",
+      "translation_quote": "কিন্তু ধরা পড়লো—দাসটি একজন পুরুষ ছিল।"
+    }
+  ],
   "id": "18369f5c31c7e02d2269b7b968c41315",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ben",
@@ -98,11 +267,13 @@
     }
   },
   "protected": false,
+  "quality_score": 53,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/63e45266e1ece0020fa4e0801f2032bd095a929884b27576916c4fac6e71e266.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +286,7 @@
     "total_reserved_usd": 0.768506,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
