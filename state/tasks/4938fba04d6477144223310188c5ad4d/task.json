@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f9a48481d0d64989850f87563ec2ba57",
   "campaign": "auto-1fc915f753cca00c047ebca37e2a1622f666f80d456aac1fb4a41fc184cd1131",
   "created_at": "2026-10-15T22:11:46+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 24735
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 898,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 792,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 25060,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 23957,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 25958
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, seção “Banjo para Jesus?”, parágrafo iniciado “Vejamos, mas muito brevemente...”",
+      "severity": "minor",
+      "source_quote": "Their jewelry flashes as they roll.",
+      "suggested_fix": "As joias brilham enquanto eles rolam.",
+      "translation_quote": "As joias brilham enquanto rolam."
+    }
+  ],
+  "finished_at": "2026-10-16T00:49:58+00:00",
   "id": "4938fba04d6477144223310188c5ad4d",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "por",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ea317394a89de2f7bab35eaf19001702b53d69933288b254faf877f6e8d9a180.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.139934,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "55e58c4244dd6dd6b1692c4227d138b24d40e716692e5145e50cf9883188c5b8",
   "translation_model_actual": "gpt-6-luna"

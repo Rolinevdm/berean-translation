@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fd3d5449-4025-4657-9d2d-9bdc2923e5fe",
+    "response_id": "chatcmpl-EZOWBv9zdRwRZqnNu8FMsLNFyJfru",
+    "usage": {
+      "completion_tokens": 898,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 792,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 25060,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 23957,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 25958
+    }
+  },
+  "received_at": "2026-10-16T00:49:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, seção “Banjo para Jesus?”, parágrafo iniciado “Vejamos, mas muito brevemente...”",
+        "severity": "minor",
+        "source_quote": "Their jewelry flashes as they roll.",
+        "suggested_fix": "As joias brilham enquanto eles rolam.",
+        "translation_quote": "As joias brilham enquanto rolam."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

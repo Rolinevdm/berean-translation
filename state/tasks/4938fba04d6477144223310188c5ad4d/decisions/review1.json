@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, seção “Banjo para Jesus?”, parágrafo iniciado “Vejamos, mas muito brevemente...”",
+      "severity": "minor",
+      "source_quote": "Their jewelry flashes as they roll.",
+      "suggested_fix": "As joias brilham enquanto eles rolam.",
+      "translation_quote": "As joias brilham enquanto rolam."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
