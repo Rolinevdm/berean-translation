@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "947be676b4c940739b786d3eaa678e51",
   "campaign": "auto-22259a81ae9bf890606dbafb509db2a50687cd27782ae1c16fdc01b46812dbdc",
   "created_at": "2026-10-16T17:24:25+00:00",
   "events": [
@@ -68,18 +67,40 @@
         },
         "total_tokens": 15243
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1326,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1169,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10263,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10260,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11589
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "세 번째 문단, 친구가 무디 집회에 다시 간 대목",
+      "location": "HTML paragraph 4, account of the friend attending Moody and Sankey’s meeting",
       "severity": "major",
-      "source_quote": "he went again and God converted him.",
-      "suggested_fix": "“그는 다시 갔고 하나님께서 그를 회심시키셨다.”",
-      "translation_quote": "다시 갔고 하나님께 회심했다."
+      "source_quote": "He went and God met him; he went again and God converted him.",
+      "suggested_fix": "그는 집회에 갔고 하나님께서 그를 만나 주셨다. 다시 갔고 하나님께서 그를 회심시키셨다.",
+      "translation_quote": "그는 집회에 갔고 하나님을 만나셨다. 다시 갔고 하나님께서 그를 회심시키셨다."
     }
   ],
+  "finished_at": "2026-10-16T23:39:18+00:00",
   "id": "abb3e3355c7dfb94c28d5af55704d996",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "kor",
@@ -168,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +209,7 @@
     "total_reserved_usd": 0.090744,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "12ecac15cfbc01dc73c6465f6e9b62b72e07659904a3aab7621b587b0c2472e4",
   "translation_model_actual": "gpt-6-luna"

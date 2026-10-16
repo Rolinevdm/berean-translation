@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 4, account of the friend attending Moody and Sankey’s meeting",
+      "severity": "major",
+      "source_quote": "He went and God met him; he went again and God converted him.",
+      "suggested_fix": "그는 집회에 갔고 하나님께서 그를 만나 주셨다. 다시 갔고 하나님께서 그를 회심시키셨다.",
+      "translation_quote": "그는 집회에 갔고 하나님을 만나셨다. 다시 갔고 하나님께서 그를 회심시키셨다."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
