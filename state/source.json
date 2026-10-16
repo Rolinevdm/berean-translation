@@ -31,7 +31,7 @@
     "00a4c32f-53ee-4b86-bb62-889009a9b020": {
       "fingerprints": {
         "html_sha256": "ea31838d92328976ca5c599913a0edf729fe34572465341e0f8284fdb2028d69",
-        "metadata_sha256": "44f13f27c1d1ebb3efa6fec4a138142b610cfd6c983eafae9e819a34e7834596",
+        "metadata_sha256": "bb61782f265023e2d327f271c0632ec5288d96b6211fe8d3dfc111a1f0a5770e",
         "structure_sha256": "d7a42feef7872dbf711516922dcd4e4433073f84068c61e05bccd784a7fd044f",
         "text_sha256": "066fb8fba798f5586d2efef792416f2a9acde5721020e9116caec39c00006964",
         "translation_metadata_sha256": "c5ce80cfb12b5047e1ba2680764e495f4118e37a3150aa249073d49046acf837"
@@ -4888,17 +4888,17 @@
     },
     "50c05c9f-af87-40d0-9255-f59b01b4985c": {
       "fingerprints": {
-        "html_sha256": "a1d5a4137cf9724ded51d266534d6a9531e7997581ffbcc4ed03c286d0d5148d",
-        "metadata_sha256": "44674e0665064114199539f12ad070514f58b9d2ceaeead1be7f2fcf48f1188a",
-        "structure_sha256": "e50d094c6fc53019b820e2f0c8eeed37627db31d9321913eb224ce2b0fd81c23",
+        "html_sha256": "c290fb4514cb3f77a69c30a174009e52a58dcc25100dbf577e4bbea4ec5625f5",
+        "metadata_sha256": "2f4a92f28b9bc305dadcb6837f0bc67abfd40e49063b88d8533a77722e1ede06",
+        "structure_sha256": "bb315b96f78ea4249d623ac2c4c0c29a2c0e221e3b6bb512f1d381058b161412",
         "text_sha256": "bafc6e375b103f8894e992f68e3685a47c37ce9090fe7fa5b5815e00f98ccbd4",
-        "translation_metadata_sha256": "0497a432731db3a38e9908b0b51100e8b834fbdf26700e1229a5fd7150a145f8"
+        "translation_metadata_sha256": "2283dcf76257349c267a89570ad5faabd0e986a2456f267e6a9ebb5fc051e34f"
       },
       "id": "50c05c9f-af87-40d0-9255-f59b01b4985c",
       "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
       "sequence": 5,
       "title": "Johnny’s Bad Habit",
-      "translation_key": "41c3d633e4c3fd51a97e5edf28bd3a65f698aae27d5a4d0514c7f9275153cca3"
+      "translation_key": "bd15ba0284c6fa4038b0e3e125511f789a326217ca9980e3037cb07a5c130566"
     },
     "50e1ed2b-e63c-4459-b2d9-73eb6825a7b8": {
       "fingerprints": {
@@ -5113,7 +5113,7 @@
     "53295118-c859-4b10-a999-8214a4c37d4a": {
       "fingerprints": {
         "html_sha256": "1968e750b9ec13877c3e97017ba9ffdc1ae3b2955beab85f3a54fdfc1cfd5dbc",
-        "metadata_sha256": "b5d9e14be315760018b7c3099fc63f5cb91d83da4154bd8fd2fd342726d54170",
+        "metadata_sha256": "6efdfcd4f711ac3f1a9d8137494af1793b4f1dad82cfb00d821fa3e4a0b299d5",
         "structure_sha256": "bfc27eaae1c7d280438c96304cab0e0e9511f73fe5a4081e0f95eab67201092f",
         "text_sha256": "1116072f2fe900ca89db5f0e3c06c4afcd4dc2f32d382c7fba28f0008998b0a6",
         "translation_metadata_sha256": "c9583e8ddd87e27b0e109fa092c119068f44ef1917068cb2d9eaeb6e63d7a4d0"
@@ -6373,7 +6373,7 @@
     "6692289b-a394-402f-b159-246bebae9dc5": {
       "fingerprints": {
         "html_sha256": "917016ffd539dbca2530b3925e1784ca32fee4c181b81ebdf4e22b00339acfed",
-        "metadata_sha256": "a18a9b1410494288b5eeb03b9293356c4f00b62c62532b4ef99e33e5eef75841",
+        "metadata_sha256": "eaac433075a3269d06be1058111f75f68573deaa6ff19749f30e380fa1b05d63",
         "structure_sha256": "16a0e1ee37cfa8d6d1a58025d30b179780104e8808d4d588ff4159f008ed0c45",
         "text_sha256": "537e109d3ff9b93333782139412622d5a9b4b641ba408ce13a064feba8d89b83",
         "translation_metadata_sha256": "953775b574870bc3e6dbfd2d6a08b07a1f37f0d5cf61b604ee266fbe2ff1b0a3"
@@ -7422,9 +7422,9 @@
     },
     "74eb7e32-78db-4e85-996a-4017e7df70d3": {
       "fingerprints": {
-        "html_sha256": "c88071c046048ab4c1b1c0ceb2c57c739f625a13d3804467cb9b2aae12e5ec53",
+        "html_sha256": "b4cfd61aeb10df9413b4baf7d93a9668268db99c565d54854a272cc97ea1182e",
         "metadata_sha256": "5dc897ba77625f725f42b50c3b5a5f6880eef3ba160eb829d6c248c1486a6b36",
-        "structure_sha256": "8a13afb093b457b06536ba8d6d09550a8d85f62a21d84e8cbcb073241e93341b",
+        "structure_sha256": "3f98ed9d700b7264814709037e5229869321b1860aac77a62d323e26b3e13888",
         "text_sha256": "34f20816067e17367e2f4f35fbfad621c942e2b209a226c4e037655b6c663f6a",
         "translation_metadata_sha256": "099545b59b5ddef74c1cc3057ffff6ba25d5c1f15de7a557079fc011367746ee"
       },
@@ -7432,7 +7432,7 @@
       "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
       "sequence": 4,
       "title": "Examining Reactive Attachment Disorder",
-      "translation_key": "fd2e0d3cdc882e686fded63370ec85d20fbc9514d72370801f785f0095ba7930"
+      "translation_key": "05dc265d1e71f29b3b089f643c5ee4e5466aa05c785e5b2fed3eaa2b0d050bc5"
     },
     "74ee3fe8-f36a-40fc-8729-172a298c86a9": {
       "fingerprints": {
@@ -7619,7 +7619,7 @@
     "77fad9bd-e155-4f8b-9412-68f96cd634ca": {
       "fingerprints": {
         "html_sha256": "a8056a429ce453990df2971f5c9542fb00710692f9a089c9d4f7a7e7bae2798e",
-        "metadata_sha256": "4c667b10e1ef6ea10e298d5b48fe4e47868142ab78358273760af18683f61bf4",
+        "metadata_sha256": "c78a0d4e946a194a4c54b0feb3aa34da561af06644860752dceae3d1d2c50456",
         "structure_sha256": "f29f68052a3877cea79471b380a76bb035eb0a9223c11b64da8fe120e21478b6",
         "text_sha256": "3ea5abc3534de96d0eff6c31bc256812142ec59abcaf92bfab7a226be16243f5",
         "translation_metadata_sha256": "086753e4be16b447fe023fcb676b4a6eee9b51d85e3aa5cd12732032a53f1f56"
@@ -8360,9 +8360,9 @@
     },
     "8217b078-a164-411f-bcbd-056253d4bb3e": {
       "fingerprints": {
-        "html_sha256": "07fc698f362608b251525c7f897d4abcf09b4972317248070adc18ade9a42171",
+        "html_sha256": "2d964bf1eec3d7d0cc75f5f2f7695ad507d973874a36ee007cdfadb91ea0542e",
         "metadata_sha256": "929a58ce68ec4b2229d8fce317ba1136bdb073d60985a162e8b7b09b8ff75064",
-        "structure_sha256": "3f4c82dce2e85626b780f567f68d1d30d2a96a3e51c396220439f42a08615a73",
+        "structure_sha256": "cd5313841dc85647879b7cf109c1163950e0738bbb5169b170d196971ad15cb4",
         "text_sha256": "6a0569834bfacf9c10b6dbec2d52d011632ef57c7320d78e6e16e5c35aa0c729",
         "translation_metadata_sha256": "ae76970eafe83c3eb90a050645a14a21d7eab76e903670f40f7bd26c66e0b1d5"
       },
@@ -8370,7 +8370,7 @@
       "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
       "sequence": 2,
       "title": "The Inconvenient Revival",
-      "translation_key": "a0555fd8a73caac7de296b5779f24405275e814dc68c511482a75e8681dcf31a"
+      "translation_key": "caca62c207853f6f3d61d0a4efbfa3bf54676601f4544a53646d94ad313897ab"
     },
     "834dcbc2-39c5-4942-acc6-234ebca43d1c": {
       "fingerprints": {
@@ -9831,7 +9831,7 @@
     "9998080a-f62f-4190-9980-da11bf8f8fde": {
       "fingerprints": {
         "html_sha256": "6a035c037becdee726db40a82a155aa02524e0fc3f63793ca2b483aa4b12ac8c",
-        "metadata_sha256": "4e3aa9aa2aa8343e7fdfa4f00cdb2057568b57cd086943f12cb47de81c0b2264",
+        "metadata_sha256": "30ef9249905b667ae7c2896b51ddb8eca52531b9a0d66b8fa97e13e130cab1ad",
         "structure_sha256": "7e76ca77d22a0343a3b615817d6bfb9fc20df262633e01c1b5438b0963cd5945",
         "text_sha256": "9ece31cbae6e1dcc98b5548c6aa32e5281b7a6a4e1126521abec3943fc7f9b4a",
         "translation_metadata_sha256": "4570f79737152155260bcfa4ca602487be5667178759cd01e074b232359d046f"
@@ -10138,9 +10138,9 @@
     },
     "a235bdfc-afca-43a9-b095-abc11aaf5a70": {
       "fingerprints": {
-        "html_sha256": "b54f3e09465a3d10f7184ffb3e74e77adf4605d70fadcf9de201b00482b88596",
+        "html_sha256": "5ac74c8f08b773df00fa797143349648e81e512191d54efb8c73ed94aa214bc4",
         "metadata_sha256": "416b998359ad917f083b671fb9224bd23d35b69c129c0a981b10ac0ddfb100a1",
-        "structure_sha256": "29e20027cf63e8467d66371c2b90d57e1f8bb8652be9152183599d1cc41205ee",
+        "structure_sha256": "b453c7f346bba78f8a2434b46dc9dc294f454afe9e8f230da1c7d4bec5d117a6",
         "text_sha256": "8ac10c9387c34da822ce03a29a2ca50fad2a6ee5042cebbfc946e53e54ee336d",
         "translation_metadata_sha256": "af57d002005881b816885e69f3ab7b79fdb0b3bbeaf33f9c3733ce8a0433dc69"
       },
@@ -10148,7 +10148,7 @@
       "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
       "sequence": 7,
       "title": "Mothers and the Great Commission",
-      "translation_key": "b9caa6c12d0a69460c81476ba03183230b23c8d253806d899c496f781b1bf33a"
+      "translation_key": "757f87bfc6e91c027b85a0f149d137dc2205a5f2ca5795d7cd35f4b5a1cb65de"
     },
     "a24032ac-2901-4f58-919c-ec43a1430788": {
       "fingerprints": {
@@ -10320,17 +10320,17 @@
     },
     "a538a70d-4b18-426c-814b-809502feaa44": {
       "fingerprints": {
-        "html_sha256": "55947c5764b651f944787fa87ccfdf01931803d4e3c3b6e58636bcd7fdae5802",
-        "metadata_sha256": "d7167ee41e3eaea2ae59dabdfadd7cbae25b082211e2ccc8b7c20f54aff597f9",
-        "structure_sha256": "bee57b7cb8616da70e9b80632c4f0a79cffa5f2d3effb37f4e11e5c3dc6804b0",
-        "text_sha256": "e66660fd3d12680f5ba473280cc9b75fdd113a26b7bb3120581701cc66b21830",
-        "translation_metadata_sha256": "35d76254b5bc95aa4ef65d83ad288aeb77433baed9cedef2661d085b7af2ba02"
+        "html_sha256": "bbfafb856036492090fb688d8f800272e34dcb847861f0792898084e82d2b695",
+        "metadata_sha256": "2aa521add6e399fb94457fca663a6f898f61286e06637f211fa9769e6848c52a",
+        "structure_sha256": "94a8428753f546be0597cecfcdcdafb29b9b91b7009e0264f53017034d1658e0",
+        "text_sha256": "682bd30c0bdd54e62d441cf80c755bf8ef211d2a6c9301bf664c4c11be02ff86",
+        "translation_metadata_sha256": "3af4636ea1d2e561735bfcb626237378a268c278ad78dd799f15a320ee29a9b6"
       },
       "id": "a538a70d-4b18-426c-814b-809502feaa44",
       "issue_id": "295adae9-ef9d-4b38-ba11-50c21fd2bd06",
       "sequence": 4,
       "title": "Freedom Through Service",
-      "translation_key": "60e0bc80bfe09e9b5acb7a52646589a414d720f96d58e283f6fc61f16daded62"
+      "translation_key": "db72b9e8cdd1c96af14bf0fbf76a02cc670ded8de72da152fb1c1e5b6e320552"
     },
     "a5a15e2e-1792-43b2-b004-f72057f2be15": {
       "fingerprints": {
@@ -11049,7 +11049,7 @@
     "afb391a2-30ba-44e3-a83d-72aa06c67466": {
       "fingerprints": {
         "html_sha256": "e9a2c2f629a60baf8f8da91815d54db8a6ca8c340bf348f87cf366f5fa6efd97",
-        "metadata_sha256": "1a81a6b5614d132a7f8f420b070eb0f8bf99879711c3dac8b80c16d0e732946a",
+        "metadata_sha256": "946252699ebb5d8337037196746bb68bf725d6405a9e38333c1665af2dbc5464",
         "structure_sha256": "056b4261d1ccaae25b9ea3cad3d5662851214f0d40ae0b35cf0a47b117a39c4a",
         "text_sha256": "4c74b55d27565014779a2a34dd078bd5b7225d1dbe9582b245ffc6791cd76421",
         "translation_metadata_sha256": "56dc74dc774989588225ee91fff392671e289c7bc8d0f256008724b3ab032cc9"
@@ -11231,7 +11231,7 @@
     "b13f8ad8-4af6-41aa-a5a1-2d9a237e1721": {
       "fingerprints": {
         "html_sha256": "fe12dc67f7ef51eaa6bd64c483182be7d2330489ca8c41084c260bd6ff9dcbbf",
-        "metadata_sha256": "188bd8683a75cbb9efbf4d1512f9a66cffe1e7da792c8befbdaadcf7d5980dd7",
+        "metadata_sha256": "cce5964bb90a03b554985d7cc7b4487c258a49fb40d179ca325f6ef86b2af6a5",
         "structure_sha256": "7e2cd66caf4480c26666f2e19ad3d49d7e88f1b4b8836eda952a183b021a3889",
         "text_sha256": "09b74b24541924a72ea8b8346a6eb9723c3b3a368e323930f8ae732a554eaf74",
         "translation_metadata_sha256": "f509dc79f79f5860fd230bfea7e230f00b2ef9b97f3b06b471d7eb75f8fd48f8"
@@ -11860,9 +11860,9 @@
     },
     "bab0c77b-3cb7-4792-9694-d823e3e93f0e": {
       "fingerprints": {
-        "html_sha256": "0d54db3f25549efc42ae01d94735400f864414d463bcadfd336a3beddc87550a",
+        "html_sha256": "7ad66dbcd0b388c74fb44b3478c4652c4f53c4c790f8261f716f80e629d7a3d7",
         "metadata_sha256": "af364b45b9af9dcfa4d40d01d2ab6abda10495df0214eda7a4ffbf37d8d6fed0",
-        "structure_sha256": "06f4fb6a645c3b01ea58b5892a7c2354dba959f7d79d5649aa15640fda5634e5",
+        "structure_sha256": "fedd064fb1f702ddb7333914f921c343124456b599ee0826896d18060ecc620b",
         "text_sha256": "56b8fb248db5021c11a9bacdd30e031f42fc2d79c878bc4507a12d09ce1b0172",
         "translation_metadata_sha256": "53daafca350c6ea86d56b024ab4280b68d69fc3742195bb923b67730a4e49e18"
       },
@@ -11870,7 +11870,7 @@
       "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
       "sequence": 1,
       "title": "From the EDITOR",
-      "translation_key": "b82a4218ca8c5f7bd9f48d8ada72df5ca4720d94c11f7e22d76cb821dded1782"
+      "translation_key": "93f7b366f9de8eac4218b99806d42fb056a5ae226bf42e7403bc8feea1034b5f"
     },
     "bac60748-ff7c-4801-8d67-4f5c2692bc16": {
       "fingerprints": {
@@ -12491,7 +12491,7 @@
     "c3c16439-53f4-49a8-afb7-3e5dfa923221": {
       "fingerprints": {
         "html_sha256": "4c5d61982000087e6d6d284f05714ed2062e9788d87c17c227d7349b3da351ac",
-        "metadata_sha256": "b8f4c3c7c7b9eb5d8fa98b0adc245617f00ddb730b54be495a2a9c1029cf961f",
+        "metadata_sha256": "3e580ba4895609498728355591e508702f1ec45ca88213b945e33c3c60b4e0ce",
         "structure_sha256": "aca90ad471b4548a6140a8ed2c507a86dd6a93be7bc9e8b415fe483273524f74",
         "text_sha256": "955b716712f24d637eef0622b128de47058b5ca65b6b40237d1f80b60c9705de",
         "translation_metadata_sha256": "9ea536396bc539e72e91d771c07603f21ca4d932bee2cb9f371410accd03dd16"
@@ -12589,7 +12589,7 @@
     "c5edcd10-9eaa-473d-9a0d-45f0dce68aa2": {
       "fingerprints": {
         "html_sha256": "988ea7b21599590e3f3634dad2361fe4783dd976adb4de40b3dbcc511aada54d",
-        "metadata_sha256": "ab4e96808b4ab3be05bb9c4d26b95fc69a932fb1255a8452c57c267fe4159220",
+        "metadata_sha256": "bfccabb856a8312a9c872b2f1715aa7f6aacb8103fcb46efaa4e19188e86f0cc",
         "structure_sha256": "47dbc08989695f336271a354dadc3ead99b5df3d91a1391475880c08c88c8430",
         "text_sha256": "aa9be327c06e12e2c2f51ca1012f3a2f1af990c12c076fb5bd3537d6f6ebae67",
         "translation_metadata_sha256": "fcb6b4d8159c64716d4ff18769aad616ff5c66d232cda10bfa5e24506e89944e"
@@ -15319,7 +15319,7 @@
     "f24b8d7f-e7f8-4d1a-8769-75beff728b5e": {
       "fingerprints": {
         "html_sha256": "6b84142a2f9db94370b11eacda4802f203c75b9d48ec4aa7d28cbfe444938799",
-        "metadata_sha256": "aa5754019363f640925f2ac532fa16bced17c2fa84b0efb1394bd79dc0f24610",
+        "metadata_sha256": "7a73bb4ebcfa2231e561bc6c21e31b1089cb935625c49b858763a37633394308",
         "structure_sha256": "107e233e7bd45c47fce6a65fc59017c9560e264b90ff0d297df2e0ab2c1e4204",
         "text_sha256": "55e2d201e78263228ba7f5b4c0144f032a7fce89e8b81ec75009a3d12d6faf9c",
         "translation_metadata_sha256": "37d10078b08d4bdb7487effe90374f05f00f66be13c1f81932f237ca84630793"
@@ -16353,7 +16353,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "b3e8c5a989431e7a1f2b8dfb7abc15668250258465211701585c789256e2c2bd",
+  "content_sha256": "6c83a2ec4bb319a8d917521a1fbd51e14c55237cefa2e0287252bc45efbc45c5",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17769,5 +17769,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "704a06895ec026dd5c3a74902250c8b07ed74728"
+  "revision": "77453848868ffdd6736c58e8c072c5ee12108fc7"
 }
