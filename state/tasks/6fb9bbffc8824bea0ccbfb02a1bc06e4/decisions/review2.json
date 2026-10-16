@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Romans 14:10–13 quotation",
+      "severity": "major",
+      "source_quote": "and every tongue shall confess to God.",
+      "suggested_fix": "وكل لسان سيعترف لله.",
+      "translation_quote": "وكل لسان سيحمد الله."
+    },
+    {
+      "location": "James 3:13–18 quotation",
+      "severity": "major",
+      "source_quote": "without partiality, and without hypocrisy.",
+      "suggested_fix": "بلا محاباة ولا رياء.",
+      "translation_quote": "عديمة الريب والرياء."
+    },
+    {
+      "location": "Paragraph beginning “To judge in self-righteousness”",
+      "severity": "major",
+      "source_quote": "To judge in self-righteousness is to defy the Giver of sound wisdom",
+      "suggested_fix": "إن الدينونة ببرّ ذاتي تحدٍّ لله، واهب الحكمة السليمة،",
+      "translation_quote": "إن الدينونة ببر ذاتي تحدٍّ لمنح الحكمة السليمة،"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

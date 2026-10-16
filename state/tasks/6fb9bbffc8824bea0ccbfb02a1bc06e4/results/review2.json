@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c345e3ef-dccc-4618-9d48-83c3d65b11d0",
+    "response_id": "chatcmpl-EZkgvPYL4dVwsrs3Sm7WOOpuYskCe",
+    "usage": {
+      "completion_tokens": 1074,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 844,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8403,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7300,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9477
+    }
+  },
+  "received_at": "2026-10-16T23:31:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Romans 14:10–13 quotation",
+        "severity": "major",
+        "source_quote": "and every tongue shall confess to God.",
+        "suggested_fix": "وكل لسان سيعترف لله.",
+        "translation_quote": "وكل لسان سيحمد الله."
+      },
+      {
+        "location": "James 3:13–18 quotation",
+        "severity": "major",
+        "source_quote": "without partiality, and without hypocrisy.",
+        "suggested_fix": "بلا محاباة ولا رياء.",
+        "translation_quote": "عديمة الريب والرياء."
+      },
+      {
+        "location": "Paragraph beginning “To judge in self-righteousness”",
+        "severity": "major",
+        "source_quote": "To judge in self-righteousness is to defy the Giver of sound wisdom",
+        "suggested_fix": "إن الدينونة ببرّ ذاتي تحدٍّ لله، واهب الحكمة السليمة،",
+        "translation_quote": "إن الدينونة ببر ذاتي تحدٍّ لمنح الحكمة السليمة،"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

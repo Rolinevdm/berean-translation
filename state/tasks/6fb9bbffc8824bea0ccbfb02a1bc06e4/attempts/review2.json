@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T23:31:42+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Romans 14:10–13 quotation\",\"severity\":\"major\",\"source_quote\":\"and every tongue shall confess to God.\",\"suggested_fix\":\"وكل لسان سيعترف لله.\",\"translation_quote\":\"وكل لسان سيحمد الله.\"},{\"location\":\"James 3:13–18 quotation\",\"severity\":\"major\",\"source_quote\":\"without partiality, and without hypocrisy.\",\"suggested_fix\":\"بلا محاباة ولا رياء.\",\"translation_quote\":\"عديمة الريب والرياء.\"},{\"location\":\"Paragraph beginning “To judge in self-righteousness”\",\"severity\":\"major\",\"source_quote\":\"To judge in self-righteousness is to defy the Giver of sound wisdom\",\"suggested_fix\":\"إن الدينونة ببرّ ذاتي تحدٍّ لله، واهب الحكمة السليمة،\",\"translation_quote\":\"إن الدينونة ببر ذاتي تحدٍّ لمنح الحكمة السليمة،\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 935,
+    "content_evidence_truncated": false,
+    "content_sha256": "2d97e93d0fda4134816290022be7bf7bf075361084495c9c65d7d86a64ff3b81",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1074,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 844,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8403,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7300,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9477
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}
