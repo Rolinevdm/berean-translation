@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "major",
+      "source_quote": "When we boys came home from college",
+      "suggested_fix": "Da vi guttene kom hjem fra college",
+      "translation_quote": "Da vi guttene kom hjem fra skolen"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

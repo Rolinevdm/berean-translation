@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "aa9939b1c9fc4e84bc5f0aab3b5ee5f4",
   "campaign": "auto-002983ad6c5c0d7ad0747dfa463619a513a7fc5588fc73849b7e39b491b42315",
   "created_at": "2026-10-16T17:23:59+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 9253
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 808,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 722,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9545,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9542,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10353
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "major",
+      "source_quote": "When we boys came home from college",
+      "suggested_fix": "Da vi guttene kom hjem fra college",
+      "translation_quote": "Da vi guttene kom hjem fra skolen"
+    }
+  ],
   "id": "a60ac06a460bcb4f8f107a0e4d1d8c15",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "nob",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/353c3bd99cfccd43d3d767281cf1fbfcb65f85179fdeef55fa73c87d7fe9d4b3.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.090743,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "12ecac15cfbc01dc73c6465f6e9b62b72e07659904a3aab7621b587b0c2472e4",
   "translation_model_actual": "gpt-6-luna"
