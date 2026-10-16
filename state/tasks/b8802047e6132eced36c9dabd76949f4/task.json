@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "20e402e93c4348ee8ed4a0d0451b766a",
   "campaign": "auto-077f50c2e779e9de6355440b23e2909d5c0454505b05c42bbae11cd8290fc4cd",
   "created_at": "2026-10-16T00:50:58+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 1376
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 499,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 393,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1730,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 627,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2229
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Article opening paragraph",
+      "severity": "major",
+      "source_quote": "what the Bible has to say about speaking in tongues",
+      "suggested_fix": "במבחן הפשוט הזה נשאל כמה שאלות על מה שיש לכתבי הקודש לומר בנושא דיבור בלשונות.",
+      "translation_quote": "מה שיש לתנ״ך לומר בנושא דיבור בלשונות"
+    }
+  ],
   "id": "b8802047e6132eced36c9dabd76949f4",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "heb",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b52cae92dba5c0038500aa2cb0b458e354355c425a782d1bbfa6462c70c62c43.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.085854,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "edeb1684f5d35fe34dce6fbf9c36a5e5078746a5cf2e829997532dddb8448a70",
   "translation_model_actual": "gpt-6-luna"

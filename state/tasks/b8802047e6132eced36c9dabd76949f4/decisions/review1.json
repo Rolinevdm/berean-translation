@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article opening paragraph",
+      "severity": "major",
+      "source_quote": "what the Bible has to say about speaking in tongues",
+      "suggested_fix": "במבחן הפשוט הזה נשאל כמה שאלות על מה שיש לכתבי הקודש לומר בנושא דיבור בלשונות.",
+      "translation_quote": "מה שיש לתנ״ך לומר בנושא דיבור בלשונות"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

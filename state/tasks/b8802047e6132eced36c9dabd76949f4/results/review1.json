@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "95aebf26-2f0f-48ca-904e-6f09a659dd17",
+    "response_id": "chatcmpl-EZQxv6FKTC025RaidHwYgPlo79gea",
+    "usage": {
+      "completion_tokens": 499,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 393,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1730,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 627,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2229
+    }
+  },
+  "received_at": "2026-10-16T05:10:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article opening paragraph",
+        "severity": "major",
+        "source_quote": "what the Bible has to say about speaking in tongues",
+        "suggested_fix": "במבחן הפשוט הזה נשאל כמה שאלות על מה שיש לכתבי הקודש לומר בנושא דיבור בלשונות.",
+        "translation_quote": "מה שיש לתנ״ך לומר בנושא דיבור בלשונות"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
