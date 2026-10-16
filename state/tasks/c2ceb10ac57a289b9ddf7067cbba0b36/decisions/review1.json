@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "A sailing ship passing rocks near the coast.",
+      "suggested_fix": "Et seilskip som passerer skjær nær kysten.",
+      "translation_quote": "Et seilskip som passerer klipper nær kysten."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

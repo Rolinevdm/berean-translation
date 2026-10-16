@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c863ccc17fca4e188272a2c9a0535521",
   "campaign": "auto-6a877ca67d902b7cb322dcee87d1f2e3068818e915f2521e277980f0a2500252",
   "created_at": "2026-10-16T21:38:47+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 1146
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 361,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 270,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1500,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 397,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 1861
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "A sailing ship passing rocks near the coast.",
+      "suggested_fix": "Et seilskip som passerer skjær nær kysten.",
+      "translation_quote": "Et seilskip som passerer klipper nær kysten."
+    }
+  ],
+  "finished_at": "2026-10-16T23:39:27+00:00",
   "id": "c2ceb10ac57a289b9ddf7067cbba0b36",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "nob",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6cad58fdb2b09bda22ee7bd3eb8284f11557143e416890652e2aca62ff000911.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.085719,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "30094b7d0bab0aaac033d51f712cb27efcf5eee8aacdb08736785e6e5d0e0518",
   "translation_model_actual": "gpt-6-luna"

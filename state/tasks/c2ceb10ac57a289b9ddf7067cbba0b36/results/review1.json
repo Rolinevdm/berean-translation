@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3b9f53e2-3d98-4a41-9b98-270af0d62b03",
+    "response_id": "chatcmpl-EZlmFPf8eqC24i0OsHYMVqJR09YFV",
+    "usage": {
+      "completion_tokens": 361,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 270,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1500,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 397,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 1861
+    }
+  },
+  "received_at": "2026-10-16T23:39:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Image alt text",
+        "severity": "minor",
+        "source_quote": "A sailing ship passing rocks near the coast.",
+        "suggested_fix": "Et seilskip som passerer skjær nær kysten.",
+        "translation_quote": "Et seilskip som passerer klipper nær kysten."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

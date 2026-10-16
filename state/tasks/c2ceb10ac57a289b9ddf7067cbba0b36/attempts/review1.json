@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T23:39:27+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Image alt text\",\"severity\":\"minor\",\"source_quote\":\"A sailing ship passing rocks near the coast.\",\"suggested_fix\":\"Et seilskip som passerer skjær nær kysten.\",\"translation_quote\":\"Et seilskip som passerer klipper nær kysten.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 306,
+    "content_evidence_truncated": false,
+    "content_sha256": "ac6268765dfd62fe7a088c0828cac1ff8b25ffb78caabe8baed8cde7649f9edd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 361,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 270,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1500,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 397,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 1861
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
