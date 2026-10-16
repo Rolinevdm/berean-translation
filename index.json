@@ -29449,6 +29449,29 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/e7fba858-3c29-42c7-ae42-198541696da3.html",
+      "html_sha256": "f22164dcad5b7e27e07f232aa83da5264708b88596dda0ddbbea47154d96868e",
+      "human_reviewed": false,
+      "id": "e7fba858-3c29-42c7-ae42-198541696da3",
+      "images": [],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/e7fba858-3c29-42c7-ae42-198541696da3.json",
+      "metadata_sha256": "8d081fc635f3cebf403f7e118898d27640b8e1dd89cc3656cbe81560198a778b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "4c7b25b348edeeef4eb5f9d22a221d06f0d80f02",
+      "source_translation_key": "edeb1684f5d35fe34dce6fbf9c36a5e5078746a5cf2e829997532dddb8448a70",
+      "status": "ready",
+      "subtitle": null,
+      "title": "מבחן הלשונות",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "d6a6c9057a0d3e59b68036d568f0b7dc704da14295e8130d73df16b9fe3ffa5c",
       "human_reviewed": false,
@@ -72367,6 +72390,38 @@
       "subtitle": null,
       "title": "Gud lät mig inte gå",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
+      "html_sha256": "0183aa0b9d42ed9e60ecc47e0c4323b9e23b665f9e54fe8aa65d49c303d5b09f",
+      "human_reviewed": false,
+      "id": "4171e741-b739-4659-8aec-4b8f5f833165",
+      "images": [
+        {
+          "alt": "Ett historiskt religiöst konstverk med Kristus i centrum, omgiven av många gestalter",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-1.jpg"
+        },
+        {
+          "alt": "En illustration av en man som höjer ett svärd över en annan man",
+          "public_path": "/images/articles/4171e741-b739-4659-8aec-4b8f5f833165-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/4171e741-b739-4659-8aec-4b8f5f833165.json",
+      "metadata_sha256": "f3eacea8e2834801f5d6277681754388146d7b0a2a02087f9d6ab4eaf72188e9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "a359b1977d0bbe85d86bd2f785fdf9517f90fecf",
+      "source_translation_key": "dc786bef0680a75599a528aa26b7edecd108b1b5b1c762ff6f7feec3bcacc163",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Splittringens orsak … och botemedlet",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
