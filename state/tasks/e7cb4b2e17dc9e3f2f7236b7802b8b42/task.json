@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1626439fa0e548589217f60f30324a41",
   "campaign": "auto-59f43758c180eb053854ff2ddde12cb85fd7fe2958f0c0f1a5aa3c98bab4558f",
   "created_at": "2026-10-15T22:41:41+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 1399
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 591,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 415,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1753,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 650,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2344
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Title; paragraph 1; list items 1–5",
+      "severity": "minor",
+      "source_quote": "“The Tongues Test”; “speaking in tongues”; “Tongues are for a sign”",
+      "suggested_fix": "Use the conventional Hindi expression “अन्य भाषाओं में बोलना” (or “अन्यभाषा में बोलना”) consistently; for example, title: “अन्य भाषाओं की परीक्षा,” paragraph: “अन्य भाषाओं में बोलने,” and item 3: “अन्य भाषाएँ एक चिन्ह हैं”.",
+      "translation_quote": "“जीभों की परीक्षा”; “जीभों में बोलने”; “जीभें एक चिन्ह हैं”"
+    }
+  ],
+  "finished_at": "2026-10-16T01:13:27+00:00",
   "id": "e7cb4b2e17dc9e3f2f7236b7802b8b42",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "hin",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b52cae92dba5c0038500aa2cb0b458e354355c425a782d1bbfa6462c70c62c43.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.085848,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "edeb1684f5d35fe34dce6fbf9c36a5e5078746a5cf2e829997532dddb8448a70",
   "translation_model_actual": "gpt-6-luna"
