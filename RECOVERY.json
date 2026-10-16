@@ -2,9 +2,9 @@
   "approved_total_usd": 30.0,
   "automatic_enabled": true,
   "automatic_policy_version": 3,
-  "committed_usd": 29.983255,
+  "committed_usd": 29.19488,
   "counts": {
-    "active": 34,
+    "active": 32,
     "already_translated": 108,
     "automatic_budget_blocked": 395,
     "continuation_progress_uncertain_requires_attention": 2,
@@ -1459,7 +1459,7 @@
       "article_id": "f896076d-76e2-4e42-8532-6cb2a3c029f0",
       "language": "ara",
       "latest_task": "8fc84bc0303ad7237f5f04ea70bef0ca",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -9077,14 +9077,6 @@
     },
     {
       "accepted_cycles": 0,
-      "article_id": "8d329db2-4f64-4c9e-badb-7955e4c6f115",
-      "language": "kor",
-      "latest_task": "1106bfb2038e00bcf56f43eda3f5e784",
-      "processing_status": "in_batch",
-      "reason": "active"
-    },
-    {
-      "accepted_cycles": 0,
       "article_id": "8f996405-d870-4074-947b-35190faad643",
       "language": "kor",
       "latest_task": "ea34628df99278afeafaacba8be1c837",
@@ -10887,14 +10879,6 @@
       "latest_task": "4468d74b7312355ab80daad607bca065",
       "processing_status": "not_ready",
       "reason": "eligible_automatic"
-    },
-    {
-      "accepted_cycles": 1,
-      "article_id": "1c698fb4-f4e6-419b-bdcc-1b25cbe2b035",
-      "language": "por",
-      "latest_task": "fabf73b8eff96fcb11fd9f9f914b2f5f",
-      "processing_status": "in_batch",
-      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -15057,7 +15041,7 @@
       "article_id": "d38bf79f-957f-413c-ad4d-a6b4fa8c8112",
       "language": "urd",
       "latest_task": "742e6911b795ae66b689e4f76518239d",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -15213,7 +15197,7 @@
       "reason": "eligible_automatic"
     }
   ],
-  "settled_unused_usd": 155.448626,
+  "settled_unused_usd": 156.237001,
   "source_revision": "704a06895ec026dd5c3a74902250c8b07ed74728",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
 }

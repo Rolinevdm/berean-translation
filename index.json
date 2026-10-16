@@ -44918,6 +44918,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/8d329db2-4f64-4c9e-badb-7955e4c6f115.html",
+      "html_sha256": "ed4c08514bcb8caed8b3d367b1e6de59ea4024d0b76e9e2c8c01f86482c5d60d",
+      "human_reviewed": false,
+      "id": "8d329db2-4f64-4c9e-badb-7955e4c6f115",
+      "images": [
+        {
+          "alt": "재판관과 법률서, 저울의 선화",
+          "public_path": "/images/articles/8d329db2-4f64-4c9e-badb-7955e4c6f115-1.png"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/8d329db2-4f64-4c9e-badb-7955e4c6f115.json",
+      "metadata_sha256": "435f1e8ef77124c7d4796ec96acdf18c72a3e67e08d04e098a3b22c967143c55",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "3d1306fdbe7c27df169272e63581f0d265ce07df",
+      "source_translation_key": "ebe7ecab4743984d98acf839285c9c41a9c35b253dfb10d6a7c258ac09968d3c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "판단과 행함에 관한 묵상",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.html",
       "html_sha256": "859a4d1d7608c63e391c09b87ab5d35b896553b88ee0b9bae3d21755f9cdbabe",
       "human_reviewed": false,
@@ -55617,6 +55645,29 @@
       "subtitle": null,
       "title": "A visão cristã da ciência",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.html",
+      "html_sha256": "304e187231b2a7c1aeac58d2fbff37f1d519f74dd217e3db3496371a1792fce7",
+      "human_reviewed": false,
+      "id": "1c698fb4-f4e6-419b-bdcc-1b25cbe2b035",
+      "images": [],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.json",
+      "metadata_sha256": "644cff19bf91b656bb0f3f2db9c162815df2b2e3a8d4611b864e3ef751e668b7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "De irmã para irmã",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ad61f4b9009ceb692738e67bfe8cebef4cb378ea1ea96cae5a9794b4be22a0d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Compreendendo a submissão",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
