@@ -10313,6 +10313,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/8d329db2-4f64-4c9e-badb-7955e4c6f115.html",
+      "html_sha256": "8f9f7cbe73b5964793fa5148adaa1648eee35a6a4c589d94700e22ad2c5262ce",
+      "human_reviewed": false,
+      "id": "8d329db2-4f64-4c9e-badb-7955e4c6f115",
+      "images": [
+        {
+          "alt": "একজন বিচারক, আইনের বই এবং দাঁড়িপাল্লার রেখাচিত্র",
+          "public_path": "/images/articles/8d329db2-4f64-4c9e-badb-7955e4c6f115-1.png"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/8d329db2-4f64-4c9e-badb-7955e4c6f115.json",
+      "metadata_sha256": "34f3b0c07e6ffc5b66c0fc69a8ffe4a7e863b92f7b41abcaf6a941b228959a80",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "3d1306fdbe7c27df169272e63581f0d265ce07df",
+      "source_translation_key": "ebe7ecab4743984d98acf839285c9c41a9c35b253dfb10d6a7c258ac09968d3c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "বিচার ও পালন নিয়ে মনন",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
       "html_sha256": "e0471d0e38cca73ddfbdd1326be45cbc2f101c289bda7e51dd294d6fd948e568",
       "human_reviewed": false,
@@ -14025,6 +14053,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "岂没有缘故吗？",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.html",
+      "html_sha256": "6f34f5d1aa4b95d6bc8d2b4e0003c031d486e338000baef53c488f6a6d87f91d",
+      "human_reviewed": false,
+      "id": "951f56e4-2ce8-4f01-9500-bfeee209cdb4",
+      "images": [
+        {
+          "alt": "一条阳光照耀的道路蜿蜒穿过林地",
+          "public_path": "/images/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.json",
+      "metadata_sha256": "66c080892bcae425a239673ea241d11489b1e9e28db5f193cc73a16e95446b69",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "得胜的基督徒生活",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "安息的港湾",
       "translation_model": "gpt-6.1-sol"
     },
     {
