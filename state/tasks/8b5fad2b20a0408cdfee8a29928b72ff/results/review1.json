@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6afb53ca-e84c-4d66-ad5e-39afb2198be9",
+    "response_id": "chatcmpl-EZQWyBwNQw1tyM6Ky9Ek1lrhJ23oW",
+    "usage": {
+      "completion_tokens": 507,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 356,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1752,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1749,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2259
+    }
+  },
+  "received_at": "2026-10-16T00:59:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, list item 2",
+        "severity": "major",
+        "source_quote": "speaking to ourselves in (tongues, psalms and hymns and spiritual songs)",
+        "suggested_fix": "ہمیں روح سے معمور ہونے کی نصیحت کی گئی ہے، اور آپس میں (زبانوں میں، یا زبوروں، حمدوں اور روحانی گیتوں میں) بات کرنے کی۔",
+        "translation_quote": "اور آپس میں (زبانوں، زبوروں، حمدوں اور روحانی گیتوں) میں بات کرنے کی۔"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

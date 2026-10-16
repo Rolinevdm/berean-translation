@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, list item 2",
+      "severity": "major",
+      "source_quote": "speaking to ourselves in (tongues, psalms and hymns and spiritual songs)",
+      "suggested_fix": "ہمیں روح سے معمور ہونے کی نصیحت کی گئی ہے، اور آپس میں (زبانوں میں، یا زبوروں، حمدوں اور روحانی گیتوں میں) بات کرنے کی۔",
+      "translation_quote": "اور آپس میں (زبانوں، زبوروں، حمدوں اور روحانی گیتوں) میں بات کرنے کی۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
