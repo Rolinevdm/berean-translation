@@ -15002,6 +15002,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.html",
+      "html_sha256": "5614a4d543c5f58e74fd5e7aebe0bbc2239b6cd5d4ca5facf078252122ef99c8",
+      "human_reviewed": false,
+      "id": "cac00fd8-ab2b-4033-92c7-bef44b4341db",
+      "images": [
+        {
+          "alt": "一艘帆船驶过海岸附近的礁石。",
+          "public_path": "/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.json",
+      "metadata_sha256": "3b1542b8de23a3efccf3ad3635bb321576841c313bf776ede33b17aa39deb012",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "30094b7d0bab0aaac033d51f712cb27efcf5eee8aacdb08736785e6e5d0e0518",
+      "status": "ready",
+      "subtitle": null,
+      "title": "所有的礁石",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.html",
       "html_sha256": "e829c7ad728e9a4781627d03e64fbc70628bf689c5b5b663e3f3888ecb480bf3",
       "human_reviewed": false,
