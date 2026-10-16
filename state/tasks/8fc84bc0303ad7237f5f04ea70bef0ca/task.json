@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "daed129cd3dd487aa37f77e256e1633c",
   "campaign": "auto-1ad2ab9284481515ed657edef598a926fee03a4b014bdcb61712cbaa50886b8f",
   "created_at": "2026-10-16T14:46:01+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 9304
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1182,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 703,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9577,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8474,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10759
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "الفقرة الأولى، وصف يوم السبت",
+      "severity": "major",
+      "source_quote": "The Sabbath was the dullest day of the whole week",
+      "suggested_fix": "استبدل «كان يوم السبت أملّ أيام الأسبوع» بـ «كان يوم الأحد أملّ أيام الأسبوع».",
+      "translation_quote": "كان يوم السبت أملّ أيام الأسبوع"
+    },
+    {
+      "location": "مواضع الحديث عن التحوّل إلى المسيحية: الفقرة الأولى؛ الفقرتان الثالثة والرابعة؛ والفقرة التي تبدأ بـ«أخذنا لنستمع» والفقرتان التاليتان؛ وفقرة زيارة لندن؛ وفقرة الذهاب إلى الصين؛ والفقرة الختامية",
+      "severity": "major",
+      "source_quote": "“a real convert”; “more were converted”; “God converted him”; “right soundly converted”; “many were converted”; “we were not converted”; “when my father was converted”; “I knew then what it was to be born again”; “I had never understood”; “When I saw that brother right soundly converted”",
+      "suggested_fix": "في المواضع التي تصف التحوّل إلى الإيمان المسيحي، استبدل صيغ «تاب/توبة» بصيغ تدل على الاهتداء أو اعتناق الإيمان المسيحي، مثل «اهتدى/اهتداء»، مع إبقاء «التوبة» حيث يكون المقصود التوبة فعلًا. مثال: «فذهب، فالتقاه الله؛ ثم عاد مرة أخرى، فاهتدى إلى الإيمان» بدلًا من «فذهب، فالتقاه الله؛ ثم عاد مرة أخرى، فتاب على يد الله».",
+      "translation_quote": "«ما يسمى توبة حقيقية»؛ «الذين تابوا على يده»؛ «فتاب على يد الله»؛ «حتى تاب توبة راسخة حقًا»؛ «وتاب كثيرون»؛ «لكننا لم نتب»؛ «عندما تاب أبي»؛ «عرفت عندئذ معنى الولادة من جديد»؛ «لم أفهم قط»؛ «رأيت أخي يتوب توبة راسخة حقًا»"
+    }
+  ],
   "id": "8fc84bc0303ad7237f5f04ea70bef0ca",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "ara",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/75f9676114485607d4245f45ddd8ed267298fb3872c8b59d66918b2cfc3ba747.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.090739,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "12ecac15cfbc01dc73c6465f6e9b62b72e07659904a3aab7621b587b0c2472e4",
   "translation_model_actual": "gpt-6-luna"

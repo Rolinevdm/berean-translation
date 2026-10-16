@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة الأولى، وصف يوم السبت",
+      "severity": "major",
+      "source_quote": "The Sabbath was the dullest day of the whole week",
+      "suggested_fix": "استبدل «كان يوم السبت أملّ أيام الأسبوع» بـ «كان يوم الأحد أملّ أيام الأسبوع».",
+      "translation_quote": "كان يوم السبت أملّ أيام الأسبوع"
+    },
+    {
+      "location": "مواضع الحديث عن التحوّل إلى المسيحية: الفقرة الأولى؛ الفقرتان الثالثة والرابعة؛ والفقرة التي تبدأ بـ«أخذنا لنستمع» والفقرتان التاليتان؛ وفقرة زيارة لندن؛ وفقرة الذهاب إلى الصين؛ والفقرة الختامية",
+      "severity": "major",
+      "source_quote": "“a real convert”; “more were converted”; “God converted him”; “right soundly converted”; “many were converted”; “we were not converted”; “when my father was converted”; “I knew then what it was to be born again”; “I had never understood”; “When I saw that brother right soundly converted”",
+      "suggested_fix": "في المواضع التي تصف التحوّل إلى الإيمان المسيحي، استبدل صيغ «تاب/توبة» بصيغ تدل على الاهتداء أو اعتناق الإيمان المسيحي، مثل «اهتدى/اهتداء»، مع إبقاء «التوبة» حيث يكون المقصود التوبة فعلًا. مثال: «فذهب، فالتقاه الله؛ ثم عاد مرة أخرى، فاهتدى إلى الإيمان» بدلًا من «فذهب، فالتقاه الله؛ ثم عاد مرة أخرى، فتاب على يد الله».",
+      "translation_quote": "«ما يسمى توبة حقيقية»؛ «الذين تابوا على يده»؛ «فتاب على يد الله»؛ «حتى تاب توبة راسخة حقًا»؛ «وتاب كثيرون»؛ «لكننا لم نتب»؛ «عندما تاب أبي»؛ «عرفت عندئذ معنى الولادة من جديد»؛ «لم أفهم قط»؛ «رأيت أخي يتوب توبة راسخة حقًا»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
