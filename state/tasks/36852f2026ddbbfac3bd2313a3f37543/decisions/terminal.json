@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «يمكن للمرء أن يخدع نفسه»",
+      "severity": "major",
+      "source_quote": "“A right good man,” says the Londoner, “he is worth a plum” (£100,000).",
+      "suggested_fix": "يقول اللندني: «إنه رجل صالح جدًا، تساوي ثروته مئة ألف جنيه إسترليني» (100,000 جنيه إسترليني).",
+      "translation_quote": "يقول اللندني: «إنه رجل صالح جدًا، تساوي ثروته مليونًا» (100,000 جنيه إسترليني)."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

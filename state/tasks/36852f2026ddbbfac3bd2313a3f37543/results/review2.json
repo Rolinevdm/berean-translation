@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2af33a0f-9372-43c4-a371-46dcc34d2ac4",
+    "response_id": "chatcmpl-EZZ27v3K57LAyJIPdvx9LpO4sPSpR",
+    "usage": {
+      "completion_tokens": 672,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14120,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14117,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14792
+    }
+  },
+  "received_at": "2026-10-16T12:23:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «يمكن للمرء أن يخدع نفسه»",
+        "severity": "major",
+        "source_quote": "“A right good man,” says the Londoner, “he is worth a plum” (£100,000).",
+        "suggested_fix": "يقول اللندني: «إنه رجل صالح جدًا، تساوي ثروته مئة ألف جنيه إسترليني» (100,000 جنيه إسترليني).",
+        "translation_quote": "يقول اللندني: «إنه رجل صالح جدًا، تساوي ثروته مليونًا» (100,000 جنيه إسترليني)."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
