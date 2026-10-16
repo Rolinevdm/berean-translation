@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d0bebf8af6204fd4a31b605bda86c954",
   "campaign": "auto-30c6c2cbd8e35df059552132d4943992947578d07e8178923322f7c8897733c4",
   "created_at": "2026-10-16T09:57:02+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 1656
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 472,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 368,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1923,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 820,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2395
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "الفقرة الثانية",
+      "severity": "major",
+      "source_quote": "About ¾ of the way to the goal, something happened.",
+      "suggested_fix": "وبعد أن قطعوا نحو ثلاثة أرباع الطريق إلى خط النهاية، حدث شيء ما.",
+      "translation_quote": "وعلى بُعد نحو ثلاثة أرباع الطريق من خط النهاية، حدث شيء ما."
+    }
+  ],
   "id": "2cfdf3fa99c65cadbd60b11de3745373",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ara",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/393a3d72bb106a65206f494098143b3570c6174f7c38dffeeb59656cdd73d5ca.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.086024,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "51424ee7952870db762c92f8cc4762c4d3d30675a337f706178a0b0952521d05",
   "translation_model_actual": "gpt-6-luna"

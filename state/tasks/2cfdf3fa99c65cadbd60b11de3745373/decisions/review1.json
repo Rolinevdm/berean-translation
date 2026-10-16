@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة الثانية",
+      "severity": "major",
+      "source_quote": "About ¾ of the way to the goal, something happened.",
+      "suggested_fix": "وبعد أن قطعوا نحو ثلاثة أرباع الطريق إلى خط النهاية، حدث شيء ما.",
+      "translation_quote": "وعلى بُعد نحو ثلاثة أرباع الطريق من خط النهاية، حدث شيء ما."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0919ab01-db8f-4a5c-93ca-3725b08cae8a",
+    "response_id": "chatcmpl-EZcvXBQi1BVTp45giAjYA6f63rEO8",
+    "usage": {
+      "completion_tokens": 472,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 368,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1923,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 820,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2395
+    }
+  },
+  "received_at": "2026-10-16T14:44:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة الثانية",
+        "severity": "major",
+        "source_quote": "About ¾ of the way to the goal, something happened.",
+        "suggested_fix": "وبعد أن قطعوا نحو ثلاثة أرباع الطريق إلى خط النهاية، حدث شيء ما.",
+        "translation_quote": "وعلى بُعد نحو ثلاثة أرباع الطريق من خط النهاية، حدث شيء ما."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 90
+  }
+}
