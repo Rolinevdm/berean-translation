@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T17:22:49+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"References throughout the article: e.g. paragraphs beginning “Το Α΄ Κορινθίους 11:31-32”, “Το Ησαΐας 5:20”, and “Το Παροιμίες 2:6-9”\",\"severity\":\"minor\",\"source_quote\":\"“1 Corinthians 11:31-32”; “Isaiah 5:20”; “Proverbs 2:6-9”\",\"suggested_fix\":\"Use idiomatic Greek forms for these book references, e.g. «Η Α΄ προς Κορινθίους 11:31-32», «Ο Ησαΐας 5:20» and «Οι Παροιμίες 2:6-9», applying the same convention consistently to the other book references.\",\"translation_quote\":\"“Το Α΄ Κορινθίους 11:31-32”; “Το Ησαΐας 5:20”; “Το Παροιμίες 2:6-9”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 762,
+    "content_evidence_truncated": false,
+    "content_sha256": "0baf223f75ad55cc8ef3cf94d8fbe6339719349b1c1cfe6793f11c2f4d0cab80",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1036,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 787,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10142,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9039,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11178
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
