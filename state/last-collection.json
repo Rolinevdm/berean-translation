@@ -8,11 +8,11 @@
     "submitted_batches": 20,
     "tasks_created": 7,
     "ticks": 1,
-    "translations_published": 10,
+    "translations_published": 2,
     "wait_budget_seconds": 600
   },
-  "completed_at": "2026-10-16T07:14:22+00:00",
-  "newly_published": 10,
+  "completed_at": "2026-10-16T10:03:59+00:00",
+  "newly_published": 2,
   "operation": "collect",
-  "started_at": "2026-10-16T07:04:55+00:00"
+  "started_at": "2026-10-16T09:54:29+00:00"
 }
