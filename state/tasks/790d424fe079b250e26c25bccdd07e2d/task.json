@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b3bbeca442dd4c6c8c8397b039db480f",
   "campaign": "auto-4069f4cd84a7f8dd17e5084d8f50ad09a543d9529e90213705fe91c6b2ca6396",
   "created_at": "2026-10-15T22:40:56+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 1363
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 553,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 380,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1717,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 614,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2270
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, list item 2",
+      "severity": "major",
+      "source_quote": "speaking to ourselves in (tongues, psalms and hymns and spiritual songs).",
+      "suggested_fix": "Clarifiez les deux choix, par exemple : « en nous parlant à nous-mêmes par (des langues, ou des psaumes, des hymnes et des chants spirituels). »",
+      "translation_quote": "en nous parlant à nous-mêmes par (des langues, des psaumes, des hymnes et des chants spirituels)."
+    },
+    {
+      "location": "Titre",
+      "severity": "minor",
+      "source_quote": "The Tongues Test",
+      "suggested_fix": "Le test du parler en langues",
+      "translation_quote": "Le test des langues"
+    }
+  ],
   "id": "790d424fe079b250e26c25bccdd07e2d",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "fra",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b52cae92dba5c0038500aa2cb0b458e354355c425a782d1bbfa6462c70c62c43.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.085849,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "edeb1684f5d35fe34dce6fbf9c36a5e5078746a5cf2e829997532dddb8448a70",
   "translation_model_actual": "gpt-6-luna"

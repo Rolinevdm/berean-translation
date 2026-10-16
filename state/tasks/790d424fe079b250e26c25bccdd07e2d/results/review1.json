@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "72823ef4-a6ee-405f-9df6-21db61aac8ab",
+    "response_id": "chatcmpl-EZQZtmI5ewYkXmlcEPxbrmNHfTxAv",
+    "usage": {
+      "completion_tokens": 553,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 380,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1717,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 614,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2270
+    }
+  },
+  "received_at": "2026-10-16T01:13:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, list item 2",
+        "severity": "major",
+        "source_quote": "speaking to ourselves in (tongues, psalms and hymns and spiritual songs).",
+        "suggested_fix": "Clarifiez les deux choix, par exemple : « en nous parlant à nous-mêmes par (des langues, ou des psaumes, des hymnes et des chants spirituels). »",
+        "translation_quote": "en nous parlant à nous-mêmes par (des langues, des psaumes, des hymnes et des chants spirituels)."
+      },
+      {
+        "location": "Titre",
+        "severity": "minor",
+        "source_quote": "The Tongues Test",
+        "suggested_fix": "Le test du parler en langues",
+        "translation_quote": "Le test des langues"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

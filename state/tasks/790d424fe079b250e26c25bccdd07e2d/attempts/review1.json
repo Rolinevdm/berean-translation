@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T01:13:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, list item 2\",\"severity\":\"major\",\"source_quote\":\"speaking to ourselves in (tongues, psalms and hymns and spiritual songs).\",\"suggested_fix\":\"Clarifiez les deux choix, par exemple : « en nous parlant à nous-mêmes par (des langues, ou des psaumes, des hymnes et des chants spirituels). »\",\"translation_quote\":\"en nous parlant à nous-mêmes par (des langues, des psaumes, des hymnes et des chants spirituels).\"},{\"location\":\"Titre\",\"severity\":\"minor\",\"source_quote\":\"The Tongues Test\",\"suggested_fix\":\"Le test du parler en langues\",\"translation_quote\":\"Le test des langues\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 660,
+    "content_evidence_truncated": false,
+    "content_sha256": "b9bcf28875cfa0cb6bc9755d76dad11323fd936387c1908c34c94a6d492d4e16",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 553,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 380,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1717,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 614,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2270
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

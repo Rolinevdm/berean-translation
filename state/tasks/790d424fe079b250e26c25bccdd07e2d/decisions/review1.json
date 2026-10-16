@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, list item 2",
+      "severity": "major",
+      "source_quote": "speaking to ourselves in (tongues, psalms and hymns and spiritual songs).",
+      "suggested_fix": "Clarifiez les deux choix, par exemple : « en nous parlant à nous-mêmes par (des langues, ou des psaumes, des hymnes et des chants spirituels). »",
+      "translation_quote": "en nous parlant à nous-mêmes par (des langues, des psaumes, des hymnes et des chants spirituels)."
+    },
+    {
+      "location": "Titre",
+      "severity": "minor",
+      "source_quote": "The Tongues Test",
+      "suggested_fix": "Le test du parler en langues",
+      "translation_quote": "Le test des langues"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
