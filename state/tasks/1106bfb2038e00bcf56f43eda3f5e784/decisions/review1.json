@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문, 이사야 59:8-15 인용문",
+      "severity": "major",
+      "source_quote": "we are in desolate places as dead men.",
+      "suggested_fix": "그 구절을 “황폐한 곳에서 죽은 자와 같도다”로 고치세요.",
+      "translation_quote": "강한 자 중에서도 죽은 자와 같도다."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

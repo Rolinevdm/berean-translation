@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bec33b0e-0faf-4eb1-a58d-c343637ba6b4",
+    "response_id": "chatcmpl-EZZ8hMSoP5EC0qrG6FLpZ0NUB5Ary",
+    "usage": {
+      "completion_tokens": 811,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 694,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9020,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7917,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9831
+    }
+  },
+  "received_at": "2026-10-16T12:23:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문, 이사야 59:8-15 인용문",
+        "severity": "major",
+        "source_quote": "we are in desolate places as dead men.",
+        "suggested_fix": "그 구절을 “황폐한 곳에서 죽은 자와 같도다”로 고치세요.",
+        "translation_quote": "강한 자 중에서도 죽은 자와 같도다."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
