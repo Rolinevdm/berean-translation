@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Citation references in Peter Riedemann’s quotation; also the reference list in Thomas von Imbroich’s quotation",
+      "severity": "minor",
+      "source_quote": "“(1 Corinthians 13:1) … (Jeremiah 23:21) … (John 1:1) … (Luke 3:1-14 Mark 1:1-8 Matthew 3:1-12)” and “(2 Pe. 1; Ro. 8; Acts 17; Jn. 14)”",
+      "suggested_fix": "Use conventional French book names for these references, preserving each chapter and verse exactly; for example, « (1 Corinthiens 13:1) », « (Jérémie 23:21) », « (Jean 1:1) », « (Luc 3:1-14 ; Marc 1:1-8 ; Matthieu 3:1-12) » and « (Actes 17) ».",
+      "translation_quote": "“(1 Corinthians 13:1) … (Jeremiah 23:21) … (John 1:1) … (Luke 3:1-14 Mark 1:1-8 Matthew 3:1-12)” and “(2 Pe. 1; Ro. 8; Acts 17; Jn. 14)”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f92a93866fa745c6aed7e6d486ac00de",
   "campaign": "auto-4904a93acb8db5f41da9e2e6f50bf6ee438f3fdce32f53199ca847ffc4300f00",
   "created_at": "2026-10-15T22:12:16+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 25844
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1012,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 694,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 26163,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 25060,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 27175
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Citation references in Peter Riedemann’s quotation; also the reference list in Thomas von Imbroich’s quotation",
+      "severity": "minor",
+      "source_quote": "“(1 Corinthians 13:1) … (Jeremiah 23:21) … (John 1:1) … (Luke 3:1-14 Mark 1:1-8 Matthew 3:1-12)” and “(2 Pe. 1; Ro. 8; Acts 17; Jn. 14)”",
+      "suggested_fix": "Use conventional French book names for these references, preserving each chapter and verse exactly; for example, « (1 Corinthiens 13:1) », « (Jérémie 23:21) », « (Jean 1:1) », « (Luc 3:1-14 ; Marc 1:1-8 ; Matthieu 3:1-12) » and « (Actes 17) ».",
+      "translation_quote": "“(1 Corinthians 13:1) … (Jeremiah 23:21) … (John 1:1) … (Luke 3:1-14 Mark 1:1-8 Matthew 3:1-12)” and “(2 Pe. 1; Ro. 8; Acts 17; Jn. 14)”"
+    }
+  ],
+  "finished_at": "2026-10-16T00:49:38+00:00",
   "id": "b1bd42a33055613275e14e487829a277",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "fra",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ea317394a89de2f7bab35eaf19001702b53d69933288b254faf877f6e8d9a180.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.139916,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "55e58c4244dd6dd6b1692c4227d138b24d40e716692e5145e50cf9883188c5b8",
   "translation_model_actual": "gpt-6-luna"
