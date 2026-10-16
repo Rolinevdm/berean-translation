@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T05:10:29+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"e7fba858-3c29-42c7-ae42-198541696da3\\\">\\n  <p>In questo semplice test, porremo alcune domande su ciò che la Bibbia dice riguardo al parlare in lingue. Le risposte sono così ovvie che non le forniremo nemmeno. <strong>RIFLETTETE</strong> sulle risposte.</p>\\n\\n  <ol>\\n    <li>Gesù disse che li avremmo riconosciuti dai loro (frutti, doni).</li>\\n    <li>Siamo esortati a essere ripieni dello Spirito, parlando a noi stessi con (lingue, salmi, inni e canti spirituali).</li>\\n    <li>Le lingue sono un segno (per il credente, per il non credente).</li>\\n    <li>Quando Paolo pose la domanda «Parlano tutti in lingue?», la risposta implicita era (sì, no).</li>\\n    <li>I non credenti in Atti 2 (avevano bisogno di un interprete, non avevano bisogno di un interprete) per capire ciò che dicevano coloro che parlavano in lingue.</li>\\n  </ol>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"La prova delle lingue\"}",
+    "content_bytes": 961,
+    "content_evidence_truncated": false,
+    "content_sha256": "428f9f44b142a725d95c0e65548ca8ac5280d1686c19bc435961d4e3328b8534",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 309,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1052,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1049,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1361
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
