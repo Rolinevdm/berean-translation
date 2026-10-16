@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T23:39:23+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, 여섯 번째 문단, 공연장 관객에 관한 문장\",\n      \"severity\": \"major\",\n      \"source_quote\": \"If you were in attendance, you could not leave.\",\n      \"suggested_fix\": \"해당 문장을 “공연장에 참석한 사람은 나갈 수 없었다.”로 수정하십시오.\",\n      \"translation_quote\": \"공연장에 있으면 탈 수조차 없었다.\"\n    },\n    {\n      \"location\": \"html, 여섯 번째 문단, 마지막 문장\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Nero also dreamed of singing to his enemies and bringing them to tears for their perceived wrongdoings.\",\n      \"suggested_fix\": \"“네로는 또한 적들에게 노래를 불러, 자신이 그들의 잘못이라고 여기는 일들 때문에 그들이 눈물을 흘리게 하겠다는 꿈을 꾸었다.”로 수정하여 원문에 없는 고백 행위를 삭제하십시오.\",\n      \"translation_quote\": \"네로는 또한 적들에게 노래를 불러 그들을 눈물짓게 하고 그들의 잘못을 고백하게 하려는 꿈을 꾸었다.\"\n    },\n    {\n      \"location\": \"html, 열 번째 문단, 첫 문장\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Nero’s attitude toward his authority at this point in his reign\",\n      \"suggested_fix\": \"“통치 초기에”를 “통치 당시 이 시점에”로 수정하십시오.\",\n      \"translation_quote\": \"통치 초기에 네로가 자신의 권위에 대해 어떤 태도를 가졌는지\"\n    },\n    {\n      \"location\": \"html, 열일곱 번째 문단, 마지막 질문\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Or do we fail just like the unregenerate around us in picking apart the faults of our earthly authorities\",\n      \"suggested_fix\": \"질문을 “아니면 우리는 ‘편안한 삶’이 짓밟힌다고 느낄 때, 주변의 거듭나지 않은 사람들처럼 지상 권세자들의 결점을 낱낱이 들추어 비난함으로써 그 균형을 지키는 데 실패하는가?”로 수정하십시오.\",\n      \"translation_quote\": \"우리 주변의 구원받지 못한 사람들처럼 지상 권세자들의 결점을 헤집어 비난하는 데 실패하는가?\"\n    },\n    {\n      \"location\": \"html, 다섯 번째 문단, 두 번째 문장\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Sabina roused Nero to such fear and jealousy that he decided to kill his mother for fear of losing the throne.\",\n      \"suggested_fix\": \"“사비나는 네로의 두려움과 질투를 크게 부추겼고, 결국 그는 왕좌를 잃을까 두려워 어머니를 죽이기로 결심했다.”로 수정하여 질투도 보존하십시오.\",\n      \"translation_quote\": \"사비나의 부추김으로 네로는 왕좌를 잃을까 두려워 어머니를 죽이기로 결심했다.\"\n    },\n    {\n      \"location\": \"html, 열여덟 번째 문단, 에베소서 인용 첫 문장\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"See then that ye walk circumspectly, not as fools, but as wise\",\n      \"suggested_fix\": \"인용 첫 부분을 “그런즉 너희가 어떻게 행할지 주의하여 살피며, 지혜 없는 자 같이 하지 말고 오직 지혜 있는 자 같이 행하여”로 수정하십시오.\",\n      \"translation_quote\": \"그런즉 너희가 지혜 없는 자 같이 하지 말고 오직 지혜 있는 자 같이 행하여\"\n    },\n    {\n      \"location\": \"html, 열아홉 번째 문단, 첫 문장\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"as committed, born-again, Bible-believing Christians\",\n      \"suggested_fix\": \"“거듭난 성경 신봉자로서”를 “헌신되고 거듭난, 성경을 믿는 그리스도인으로서”로 수정하십시오.\",\n      \"translation_quote\": \"거듭난 성경 신봉자로서\"\n    },\n    {\n      \"location\": \"html, 마지막 문단, 주석 표제\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Endnote:\",\n      \"suggested_fix\": \"“Endnote:”를 “미주:”로 번역하고 기존 <br> 태그와 URL은 그대로 유지하십시오.\",\n      \"translation_quote\": \"Endnote:\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 89\n}",
+    "content_bytes": 4151,
+    "content_evidence_truncated": false,
+    "content_sha256": "86467c102429058203ecbe941831ef34ec238a4e2c25def9c1503c960435f409",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1199,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 133,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6656,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5553,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7855
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
