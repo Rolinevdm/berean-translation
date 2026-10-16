@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T17:31:51+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"0862fd6d-7c62-456c-8b3f-abb513f498ce\\\">\\n  <p class=\\\"drop-cap\\\">כשנשמעה יריית הזינוק, כל המשתתפים החלו לרוץ לעבר קו הסיום. נכון, הם לא היו מהירים כמו הרצים הקבועים של בית הספר התיכון. למעשה, בגלל המוגבלויות שלהם הם היו איטיים כל כך, שאפילו שוחחו זה עם זה בדרך.</p>\\n\\n  <p>כשהיו במרחק של כשלושה רבעים מהיעד, קרה משהו. סוזי נפלה ושפשפה את הברך. היא התחילה לבכות כי כאב לה. קרל, שהיה לידה, עצר ודיבר אליה בנועם. כל מי שהיה מאחוריה עצר גם הוא כשהשיג אותה, כדי להביע את צערו. אחדים קראו קדימה לשאר החבורה כדי להודיע להם מה קרה. מכיוון שהאחרים לא היו רחוקים מדי מלפנים, הם שמעו את הקריאות של אלה שמאחוריהם וחזרו גם הם להיות עם סוזי.</p>\\n\\n  <p>כעבור זמן מה, כשמצבה השתפר, שניים מחבריה עזרו לה לקום. ואז החברים שעמדו לצדה ואחזו בזרועותיה אמרו: „נעזור לך להגיע לקו הסיום.” כל האחרים אמרו גם הם: „גם אנחנו!” באותו רגע כולם אחזו ידיים והתקדמו לאיטם לאורך המסלול, בקצב של סוזי הצולעת. ואז, כשרשרת גדולה ורחבה אחת, הם חצו יחד את קו הסיום! ~מחבר לא ידוע</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"רצים יחד במרוץ\"}",
+    "content_bytes": 1732,
+    "content_evidence_truncated": false,
+    "content_sha256": "cb7a27929a0c760c6247766f7d24c91283ab2412006f3387a2048890f94c273c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 422,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1163,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1160,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1585
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
