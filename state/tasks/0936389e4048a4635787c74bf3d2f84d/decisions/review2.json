@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “Our Lord commended the Ephesian church”",
+      "severity": "major",
+      "source_quote": "“In 1 Corinthians 14:29 he taught that the other prophets should judge a teaching that is given.”",
+      "suggested_fix": "“১ করিন্থীয় ১৪:২৯ পদে তিনি শিক্ষা দিয়েছিলেন যে অন্য ভাববাদীদের প্রদত্ত শিক্ষার বিচার করা উচিত।”",
+      "translation_quote": "“১ করিন্থীয় ১৪:২৯ পদে তিনি শিক্ষা দিয়েছিলেন যে প্রদত্ত শিক্ষা অন্য ভাববাদীদের বিচার করা উচিত।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

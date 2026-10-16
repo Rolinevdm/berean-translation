@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "18229952-5a08-4d09-a027-7d10a4d4727f",
+    "response_id": "chatcmpl-EZdmveSLujJHxPLfzDSsiYIdmL1c7",
+    "usage": {
+      "completion_tokens": 807,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 650,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9274,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9271,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10081
+    }
+  },
+  "received_at": "2026-10-16T17:22:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, paragraph beginning “Our Lord commended the Ephesian church”",
+        "severity": "major",
+        "source_quote": "“In 1 Corinthians 14:29 he taught that the other prophets should judge a teaching that is given.”",
+        "suggested_fix": "“১ করিন্থীয় ১৪:২৯ পদে তিনি শিক্ষা দিয়েছিলেন যে অন্য ভাববাদীদের প্রদত্ত শিক্ষার বিচার করা উচিত।”",
+        "translation_quote": "“১ করিন্থীয় ১৪:২৯ পদে তিনি শিক্ষা দিয়েছিলেন যে প্রদত্ত শিক্ষা অন্য ভাববাদীদের বিচার করা উচিত।”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
