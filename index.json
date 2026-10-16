@@ -7488,6 +7488,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.html",
+      "html_sha256": "6e86f274cdc4316b8e39974f5ce39c205cfe74df2f5bbee5d1e6ed6c16c6ba89",
+      "human_reviewed": false,
+      "id": "cac00fd8-ab2b-4033-92c7-bef44b4341db",
+      "images": [
+        {
+          "alt": "سفينة شراعية تمر بمحاذاة صخور قرب الساحل.",
+          "public_path": "/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.json",
+      "metadata_sha256": "50de0a6b86b46bd75061e3dfe924387800501930181469e9b696acf60040f35e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "30094b7d0bab0aaac033d51f712cb27efcf5eee8aacdb08736785e6e5d0e0518",
+      "status": "ready",
+      "subtitle": null,
+      "title": "جميع الصخور",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.html",
       "html_sha256": "05152b1917177d1067de7cadd98cc17ce03fe1ce94e677449f93e87f821aa55c",
       "human_reviewed": false,
@@ -8055,6 +8083,38 @@
       "subtitle": null,
       "title": "نصائح من أم في السجن",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0.html",
+      "html_sha256": "21a19eb82c857e3790722feed4135508ec93001130d11754f355e1e8c2332de1",
+      "human_reviewed": false,
+      "id": "f896076d-76e2-4e42-8532-6cb2a3c029f0",
+      "images": [
+        {
+          "alt": "حصان يجر عربة ذات عجلتين يقودها رجل.",
+          "public_path": "/images/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0-1.jpg"
+        },
+        {
+          "alt": "رجلان يجلسان بجانب طاولة عليها كتب.",
+          "public_path": "/images/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0-2.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0.json",
+      "metadata_sha256": "0f19f5fee31727d20a19d51484343aba651efd4466c75f488375b8dbb04c8179",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "704a06895ec026dd5c3a74902250c8b07ed74728",
+      "source_translation_key": "12ecac15cfbc01dc73c6465f6e9b62b72e07659904a3aab7621b587b0c2472e4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "الشهادة الشخصية",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -18455,6 +18515,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.html",
+      "html_sha256": "930cefd231d0dafa7ab55d13622b24f5d33bdf2a2e179ae1e08adff8e715d838",
+      "human_reviewed": false,
+      "id": "cac00fd8-ab2b-4033-92c7-bef44b4341db",
+      "images": [
+        {
+          "alt": "Ein Segelschiff fährt nahe der Küste an Felsen vorbei.",
+          "public_path": "/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.json",
+      "metadata_sha256": "bb28b50334fc7d10c85f21820dcbadd91061e4db5eee52940138314369a04737",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "30094b7d0bab0aaac033d51f712cb27efcf5eee8aacdb08736785e6e5d0e0518",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ALLE FELSEN",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.html",
       "html_sha256": "aa22debf94dc149c5dfebe1bd990e9f4f4fb272289f33f87c7202ff59cf614a0",
       "human_reviewed": false,
@@ -22289,6 +22377,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Υπερηφάνεια ή ταπεινοφροσύνη;",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.html",
+      "html_sha256": "34c435969560d2dda6aa68ff8f94ccda64ee6e0b68992a3ae1109ebbe0eaf89c",
+      "human_reviewed": false,
+      "id": "cac00fd8-ab2b-4033-92c7-bef44b4341db",
+      "images": [
+        {
+          "alt": "Ένα ιστιοφόρο περνά ανάμεσα από βράχια κοντά στην ακτή.",
+          "public_path": "/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.json",
+      "metadata_sha256": "25409396464ece8987c503fee41bcc6b80a719a62132ad5804fa5cd454b546f9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "30094b7d0bab0aaac033d51f712cb27efcf5eee8aacdb08736785e6e5d0e0518",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ΟΛΟΙ ΟΙ ΒΡΑΧΟΙ",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -27769,6 +27885,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "האינקוויזיציה של ז׳אק דוסי",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/0862fd6d-7c62-456c-8b3f-abb513f498ce.html",
+      "html_sha256": "d699899d861b94e53c51d115a72454c6f5028b5ce9e90d9c258711fb17bc077f",
+      "human_reviewed": false,
+      "id": "0862fd6d-7c62-456c-8b3f-abb513f498ce",
+      "images": [],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/0862fd6d-7c62-456c-8b3f-abb513f498ce.json",
+      "metadata_sha256": "e536f9667da8c1c1a2c51d874ac7a8b267f2c53e5dd478cc192d0ce9854fda2c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "704a06895ec026dd5c3a74902250c8b07ed74728",
+      "source_translation_key": "51424ee7952870db762c92f8cc4762c4d3d30675a337f706178a0b0952521d05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "רצים יחד במרוץ",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -33476,6 +33615,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.html",
+      "html_sha256": "b5f4c23932fbe66105bbf5991b91d736ad14a4546c8bc46ed8fcdbfd38cf75fb",
+      "human_reviewed": false,
+      "id": "cac00fd8-ab2b-4033-92c7-bef44b4341db",
+      "images": [
+        {
+          "alt": "तट के पास चट्टानों से होकर गुजरता एक नौकायन जहाज़।",
+          "public_path": "/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.json",
+      "metadata_sha256": "445679457fb9ce4dee6b85e4e51542ecf06677752d3590d0e210b667f29834fc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "30094b7d0bab0aaac033d51f712cb27efcf5eee8aacdb08736785e6e5d0e0518",
+      "status": "ready",
+      "subtitle": null,
+      "title": "सभी चट्टानें",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.html",
       "html_sha256": "f14499970f97fc0b455a5c0a5032cb3ac8514fff044a6682af1c139909ac02c4",
       "human_reviewed": false,
@@ -37834,6 +38001,34 @@
       "subtitle": null,
       "title": "Moralitas Kelompok vs Penghakiman Ilahi",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.html",
+      "html_sha256": "2b32935c5a501cab0deda0f98ecf646d730828698f88727f83a7fa5c6515f67f",
+      "human_reviewed": false,
+      "id": "cac00fd8-ab2b-4033-92c7-bef44b4341db",
+      "images": [
+        {
+          "alt": "Kapal layar melewati bebatuan di dekat pantai.",
+          "public_path": "/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.json",
+      "metadata_sha256": "a66c64f94d2a8030763f821677be1b8186b58a13650ebae22f3cf93c39cf314f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "30094b7d0bab0aaac033d51f712cb27efcf5eee8aacdb08736785e6e5d0e0518",
+      "status": "ready",
+      "subtitle": null,
+      "title": "SEMUA BATU KARANG",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -50859,6 +51054,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.html",
+      "html_sha256": "ec3a6a16d69e64566ac573886681d41ccf5240ce4dac06e38c031438895c8113",
+      "human_reviewed": false,
+      "id": "cac00fd8-ab2b-4033-92c7-bef44b4341db",
+      "images": [
+        {
+          "alt": "Een zeilschip dat langs rotsen voor de kust vaart.",
+          "public_path": "/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.json",
+      "metadata_sha256": "a8171110d39b24b89c9eb5d1aab0240c03b43b7e3a9327cbe991600d40743279",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "30094b7d0bab0aaac033d51f712cb27efcf5eee8aacdb08736785e6e5d0e0518",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ALLE ROTSEN",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.html",
       "html_sha256": "5d2e60c7bb91e24cf3164dbb0e4f97eeac8cc4d36df980781e4f8f91dc1f8ec1",
       "human_reviewed": false,
@@ -57143,6 +57366,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.html",
+      "html_sha256": "ec21e851fe4b903a80716c7596617a2fc882eeb8a128121d0ce9c7b6d04f11e1",
+      "human_reviewed": false,
+      "id": "51c6b872-b5d3-45c6-a0b1-d1dd48ece711",
+      "images": [
+        {
+          "alt": "Duas mãos acima e abaixo de um globo terrestre",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-1.jpg"
+        },
+        {
+          "alt": "Duas pessoas ajudando outra a sair da água",
+          "public_path": "/images/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711-2.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/51c6b872-b5d3-45c6-a0b1-d1dd48ece711.json",
+      "metadata_sha256": "ab94f61b72909a4a982332763e86bc039c94881d2922f2591b16d0bff489a64f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "d736713df08f5b60d8496307771de20eb1237d0b",
+      "source_translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
+      "status": "ready",
+      "subtitle": "Uma explicação do conceito expresso pela palavra alemã Gelassenheit.",
+      "title": "Gelassenheit — desapego intencional",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
       "html_sha256": "57ddb1ba4ec74e65404ef9c10c4880b37620daf4f5ef975e70f7558abd266623",
       "human_reviewed": false,
@@ -59721,6 +59976,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Orgulho ou humildade?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.html",
+      "html_sha256": "e43d185e67e74765f26f13c0726f626e2139b1c05de61331d31c9f9ddf70cf80",
+      "human_reviewed": false,
+      "id": "cac00fd8-ab2b-4033-92c7-bef44b4341db",
+      "images": [
+        {
+          "alt": "Um veleiro passando por rochas perto da costa.",
+          "public_path": "/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.json",
+      "metadata_sha256": "35207f326512567a0f04e9db3e0fa89c832c7b0ac010ce41a8ec36f8c6be8763",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "30094b7d0bab0aaac033d51f712cb27efcf5eee8aacdb08736785e6e5d0e0518",
+      "status": "ready",
+      "subtitle": null,
+      "title": "TODAS AS ROCHAS",
       "translation_model": "gpt-6-luna"
     },
     {
