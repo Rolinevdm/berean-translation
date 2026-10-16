@@ -26782,6 +26782,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "8611f0e9e4b1b5881135c11ecf375825f9944853e0232d500a215724795d9568",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "Gravure représentant des croyants recevant le Saint-Esprit à la Pentecôte",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "Flamme stylisée",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "Une colombe volant vers une main tendue",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "Panneau routier combinant des visages souriants et tristes",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "a297cd1f7145e3047ca06a3a7584998bbc58910146100308dfdfc27bf0dc9b39",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "4c7b25b348edeeef4eb5f9d22a221d06f0d80f02",
+      "source_translation_key": "55e58c4244dd6dd6b1692c4227d138b24d40e716692e5145e50cf9883188c5b8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Racheter le baptême du Saint-Esprit au pentecôtisme",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
       "html_sha256": "7b4485aa6cee4669d329abfbd5951424b4acb3b0087207262e767e017582b497",
       "human_reviewed": false,
@@ -59435,6 +59475,46 @@
       "subtitle": null,
       "title": "Advertências de uma Mãe na Prisão",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "6e0a8e8287d788a41ac79e92934647f842751d8f1bd2ab6798517a3c963c01c6",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "Gravura de crentes recebendo o Espírito Santo no Pentecostes",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "Chama estilizada",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "Uma pomba voando em direção a uma mão estendida",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "Sinal de trânsito que combina rostos sorridentes e tristes",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "0659da919bfafd574a801a5468939235e9a4316d9825fb540301c2008d05e995",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "4c7b25b348edeeef4eb5f9d22a221d06f0d80f02",
+      "source_translation_key": "55e58c4244dd6dd6b1692c4227d138b24d40e716692e5145e50cf9883188c5b8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Resgatando o batismo do Espírito Santo do pentecostalismo",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
