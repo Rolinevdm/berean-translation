@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e2ddded6-3a6c-4b9a-bd48-5d829310cc76",
+    "response_id": "chatcmpl-EZWX2xqBLN3TbDInbiUQkfdYKuBAq",
+    "usage": {
+      "completion_tokens": 880,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 609,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8387,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8384,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9267
+    }
+  },
+  "received_at": "2026-10-16T09:55:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Isaías 11:2-4, cita",
+        "severity": "major",
+        "source_quote": "“And shall make him of quick understanding in the fear of the LORD”",
+        "suggested_fix": "Sustituir «Y se deleitará en el temor del SEÑOR» por una formulación que exprese que tendrá discernimiento agudo en el temor del SEÑOR, por ejemplo: «Y su discernimiento estará aguzado en el temor del SEÑOR».",
+        "translation_quote": "«Y se deleitará en el temor del SEÑOR»"
+      },
+      {
+        "location": "Párrafo que comienza «Todos estos versículos destacan…»",
+        "severity": "major",
+        "source_quote": "“we can trust that our Father is with us, that He will not give us more than we can bear”",
+        "suggested_fix": "Cambiar «que no permitirá que seamos tentados más de lo que podemos soportar» por «que no nos dará más de lo que podemos soportar», sin introducir la idea de tentación.",
+        "translation_quote": "«que no permitirá que seamos tentados más de lo que podemos soportar»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

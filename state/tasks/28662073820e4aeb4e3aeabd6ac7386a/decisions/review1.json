@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Isaías 11:2-4, cita",
+      "severity": "major",
+      "source_quote": "“And shall make him of quick understanding in the fear of the LORD”",
+      "suggested_fix": "Sustituir «Y se deleitará en el temor del SEÑOR» por una formulación que exprese que tendrá discernimiento agudo en el temor del SEÑOR, por ejemplo: «Y su discernimiento estará aguzado en el temor del SEÑOR».",
+      "translation_quote": "«Y se deleitará en el temor del SEÑOR»"
+    },
+    {
+      "location": "Párrafo que comienza «Todos estos versículos destacan…»",
+      "severity": "major",
+      "source_quote": "“we can trust that our Father is with us, that He will not give us more than we can bear”",
+      "suggested_fix": "Cambiar «que no permitirá que seamos tentados más de lo que podemos soportar» por «que no nos dará más de lo que podemos soportar», sin introducir la idea de tentación.",
+      "translation_quote": "«que no permitirá que seamos tentados más de lo que podemos soportar»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "144a9cc8899743d3bb325a56a8da6796",
   "campaign": "auto-2f02fb6862454fdc44794acb048fcfcb02b6d80da06a68a38f82d1962c34213b",
   "created_at": "2026-10-16T05:11:43+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 8064
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 880,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 609,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8387,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8384,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9267
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Isaías 11:2-4, cita",
+      "severity": "major",
+      "source_quote": "“And shall make him of quick understanding in the fear of the LORD”",
+      "suggested_fix": "Sustituir «Y se deleitará en el temor del SEÑOR» por una formulación que exprese que tendrá discernimiento agudo en el temor del SEÑOR, por ejemplo: «Y su discernimiento estará aguzado en el temor del SEÑOR».",
+      "translation_quote": "«Y se deleitará en el temor del SEÑOR»"
+    },
+    {
+      "location": "Párrafo que comienza «Todos estos versículos destacan…»",
+      "severity": "major",
+      "source_quote": "“we can trust that our Father is with us, that He will not give us more than we can bear”",
+      "suggested_fix": "Cambiar «que no permitirá que seamos tentados más de lo que podemos soportar» por «que no nos dará más de lo que podemos soportar», sin introducir la idea de tentación.",
+      "translation_quote": "«que no permitirá que seamos tentados más de lo que podemos soportar»"
+    }
+  ],
   "id": "28662073820e4aeb4e3aeabd6ac7386a",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "spa",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/fdcd77d1bb677a8540fb60c75fafae571ba0c6e48025d814e8ce48175af810f0.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.089939,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ebe7ecab4743984d98acf839285c9c41a9c35b253dfb10d6a7c258ac09968d3c",
   "translation_model_actual": "gpt-6-luna"
