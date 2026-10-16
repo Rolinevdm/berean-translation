@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "659d566985eb4cc7b74edc708db778ed",
   "campaign": "auto-98714130c920c4874976b383d1689b9da64b57e1edec04d05e4d13ae5416ff32",
   "created_at": "2026-10-16T00:51:44+00:00",
   "events": [
@@ -48,81 +47,31 @@
         },
         "total_tokens": 10041
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 81,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 49,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6443,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5340,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6524
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, Absatz unter „…Verehre den Herrn“",
-      "severity": "major",
-      "source_quote": "After they had healed a demon-possessed girl",
-      "suggested_fix": "Ersetze „Nachdem sie einem von einem Dämon Besessenen geholfen hatten“ durch „Nachdem sie ein von einem Dämon besessenes Mädchen geheilt hatten“.",
-      "translation_quote": "Nachdem sie einem von einem Dämon Besessenen geholfen hatten"
-    },
-    {
-      "location": "html, Absatz unter „…Verehre den Herrn“",
-      "severity": "major",
-      "source_quote": "secured in stocks",
-      "suggested_fix": "Ersetze „in Pranger gelegt“ durch „mit den Füßen in einen Stock gespannt“.",
-      "translation_quote": "in Pranger gelegt"
-    },
-    {
-      "location": "html, erster Absatz",
-      "severity": "minor",
-      "source_quote": "Glancing up at the sun",
-      "suggested_fix": "Ersetze „Als er zum Himmel blickte“ durch „Als er zur Sonne aufblickte“.",
-      "translation_quote": "Als er zum Himmel blickte"
-    },
-    {
-      "location": "html, dritter Absatz",
-      "severity": "minor",
-      "source_quote": "thinking he saw a movement in the bushes ahead",
-      "suggested_fix": "Ersetze „weil er meinte, ein Bewegung in den Büschen vorausgesehen zu haben“ durch „weil er meinte, eine Bewegung in den Büschen vor sich gesehen zu haben“.",
-      "translation_quote": "weil er meinte, ein Bewegung in den Büschen vorausgesehen zu haben"
-    },
-    {
-      "location": "html, dritter Absatz",
-      "severity": "minor",
-      "source_quote": "Hearing the padding of the wildcat’s enormous paws",
-      "suggested_fix": "Ersetze „das Polstern der enormen Pfoten der Wildkatze“ durch „die dumpfen Schritte der gewaltigen Pfoten der Wildkatze“.",
-      "translation_quote": "das Polstern der enormen Pfoten der Wildkatze"
-    },
-    {
-      "location": "html, erster Absatz nach dem dekorativen Trenner",
-      "severity": "minor",
-      "source_quote": "Maybe someone you highly respected has trampled over you",
-      "suggested_fix": "Ersetze „Vielleicht hat jemand, den du hoch geachtet hast, über dich hinweggeschritten“ durch „Vielleicht hat dich jemand, den du sehr geachtet hast, mit Füßen getreten“.",
-      "translation_quote": "Vielleicht hat jemand, den du hoch geachtet hast, über dich hinweggeschritten"
-    },
-    {
-      "location": "html, Absatz beginnend „Manchmal erleben wir“",
-      "severity": "minor",
-      "source_quote": "an attitude of self-pity",
-      "suggested_fix": "Ersetze „eine Haltung der Selbstmitleids“ durch „eine Haltung des Selbstmitleids“.",
-      "translation_quote": "eine Haltung der Selbstmitleids"
-    },
-    {
-      "location": "html, erster Absatz unter „…Vergebung“",
-      "severity": "minor",
-      "source_quote": "we should forgive the person who wronged us",
-      "suggested_fix": "Ersetze „dass wir die Person, die uns Unrecht getan hat, vergeben sollten“ durch „dass wir der Person, die uns Unrecht getan hat, vergeben sollten“.",
-      "translation_quote": "dass wir die Person, die uns Unrecht getan hat, vergeben sollten"
-    },
-    {
-      "location": "html, erster Absatz unter „2. Lass es los“",
-      "severity": "minor",
-      "source_quote": "and then turning around and taking it all back home",
-      "suggested_fix": "Ersetze „und dann herumzugehen und alles wieder mit nach Hause zu nehmen“ durch „und dann umzukehren und alles wieder mit nach Hause zu nehmen“.",
-      "translation_quote": "und dann herumzugehen und alles wieder mit nach Hause zu nehmen"
-    },
-    {
-      "location": "html, letzter Verweis im zweiten Absatz unter „2. Lass es los“",
-      "severity": "minor",
-      "source_quote": "(1Peter 3:12)",
-      "suggested_fix": "Ersetze „(1 Peter 3:12)“ durch „(1. Petrus 3:12)“.",
-      "translation_quote": "(1 Peter 3:12)"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-16T12:24:02+00:00",
   "id": "9a4b1ab14a89cfb1a040b5f0f241816b",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "deu",
@@ -211,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -230,7 +179,7 @@
     "total_reserved_usd": 0.73385,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4dca0fb4064954f718edd76356f4b3252712476d53d4c6f6f30b8608493c5b94",
   "translation_model_actual": "gpt-6.1-sol"
