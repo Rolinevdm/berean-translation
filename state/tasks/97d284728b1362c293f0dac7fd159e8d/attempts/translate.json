@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T00:59:17+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"e7fba858-3c29-42c7-ae42-198541696da3\\\">\\n  <p>Σε αυτό το απλό τεστ, θα θέσουμε μερικές ερωτήσεις σχετικά με το τι λέει η Βίβλος για τη γλωσσολαλιά. Οι απαντήσεις είναι τόσο προφανείς, ώστε δεν θα τις δώσουμε καν. <strong>ΣΚΕΦΤΕΙΤΕ</strong> τις απαντήσεις.</p>\\n\\n  <ol>\\n    <li>Ο Ιησούς είπε ότι θα τους γνωρίσουμε από τους (καρπούς, τα χαρίσματά τους).</li>\\n    <li>Μας προτρέπουν να γεμίζουμε με το Πνεύμα, μιλώντας μεταξύ μας με (γλώσσες, ψαλμούς, ύμνους και πνευματικά τραγούδια).</li>\\n    <li>Οι γλώσσες είναι σημείο (για τον πιστό, για τον άπιστο).</li>\\n    <li>Όταν ο Παύλος έθεσε το ερώτημα «Μιλούν όλοι γλώσσες;», η υπονοούμενη απάντηση ήταν (ναι, όχι).</li>\\n    <li>Οι άπιστοι στις Πράξεις 2 (χρειάζονταν διερμηνέα, δεν χρειάζονταν διερμηνέα) για να καταλάβουν τι έλεγαν όσοι μιλούσαν γλώσσες.</li>\\n  </ol>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Το τεστ της γλωσσολαλιάς\"}",
+    "content_bytes": 1492,
+    "content_evidence_truncated": false,
+    "content_sha256": "a136b9334e6a03de2e147aa653798f982e5f3726a2d9ded200218567cd0b6076",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 385,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1059,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1056,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1444
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
