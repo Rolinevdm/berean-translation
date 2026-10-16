@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "589637d85f9541eab70c081e8a3152f9",
   "campaign": "auto-30c6c2cbd8e35df059552132d4943992947578d07e8178923322f7c8897733c4",
   "created_at": "2026-10-16T09:57:02+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 2100
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 295,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 263,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1921,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1918,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2216
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "الفقرة الثانية",
-      "severity": "major",
-      "source_quote": "About ¾ of the way to the goal, something happened.",
-      "suggested_fix": "وبعد أن قطعوا نحو ثلاثة أرباع الطريق إلى خط النهاية، حدث شيء ما.",
-      "translation_quote": "وعلى بُعد نحو ثلاثة أرباع الطريق من خط النهاية، حدث شيء ما."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-16T18:27:30+00:00",
   "id": "2cfdf3fa99c65cadbd60b11de3745373",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ara",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.086024,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "51424ee7952870db762c92f8cc4762c4d3d30675a337f706178a0b0952521d05",
   "translation_model_actual": "gpt-6-luna"
