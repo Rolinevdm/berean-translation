@@ -1,0 +1,112 @@
+{
+  "findings": [
+    {
+      "location": "html: p.poem, Strophe 1",
+      "severity": "major",
+      "source_quote": "Abide with me: fast falls the eventide; … Help of the helpless, O abide with me.",
+      "suggested_fix": "<p class=\"poem\">Bleib bei mir: rasch bricht der Abend herein;<br>\n    Die Dunkelheit nimmt zu; Herr, bleib bei mir:<br>\n    Wenn andere Helfer versagen und aller Trost schwindet,<br>\n    Du Hilfe der Hilflosen, o bleib bei mir.</p>",
+      "translation_quote": "Abide with me: fast falls the eventide; … Help of the helpless, O abide with me."
+    },
+    {
+      "location": "html: p.poem, Strophe 2",
+      "severity": "major",
+      "source_quote": "Swift to its close ebbs out life’s little day; … O Thou who changest not, abide with me.",
+      "suggested_fix": "<p class=\"poem\">Rasch neigt sich des Lebens kurzer Tag seinem Ende zu;<br>\n    Die Freuden der Erde verblassen, ihre Herrlichkeit vergeht;<br>\n    Wandel und Verfall sehe ich überall um mich her;<br>\n    O du, der du dich nicht wandelst, bleib bei mir.</p>",
+      "translation_quote": "Swift to its close ebbs out life’s little day; … O Thou who changest not, abide with me."
+    },
+    {
+      "location": "html: p.poem, Strophe 3",
+      "severity": "major",
+      "source_quote": "Not a brief glance I beg, a passing word; … Come, not to sojourn, but abide, with me.",
+      "suggested_fix": "<p class=\"poem\">Nicht um einen kurzen Blick bitte ich, ein flüchtiges Wort;<br>\n    Sondern wie du bei deinen Jüngern wohnst, Herr,<br>\n    Vertraut, dich herabneigend, geduldig und freigebig,<br>\n    Komm, nicht als Gast auf Zeit, sondern bleibe bei mir.</p>",
+      "translation_quote": "Not a brief glance I beg, a passing word; … Come, not to sojourn, but abide, with me."
+    },
+    {
+      "location": "html: p.poem, Strophe 4",
+      "severity": "major",
+      "source_quote": "Come not in terrors, as the King of kings; … Come, Friend of sinners, and thus ‘bide with me.",
+      "suggested_fix": "<p class=\"poem\">Komm nicht mit Schrecken als König der Könige;<br>\n    Sondern freundlich und gut, mit Heilung unter deinen Flügeln;<br>\n    Mit Tränen für jedes Leid, einem Herzen für jede Bitte;<br>\n    Komm, Freund der Sünder, und bleibe so bei mir.</p>",
+      "translation_quote": "Come not in terrors, as the King of kings; … Come, Friend of sinners, and thus ‘bide with me."
+    },
+    {
+      "location": "html: p.poem, Strophe 5",
+      "severity": "major",
+      "source_quote": "Thou on my head in early youth didst smile; … On to the close, O Lord, abide with me.",
+      "suggested_fix": "<p class=\"poem\">Schon in früher Jugend hast du mich freundlich angeblickt;<br>\n    Und obwohl ich seither widerspenstig und verkehrt war,<br>\n    Hast du mich nicht verlassen, sooft ich dich auch verließ:<br>\n    Bis hin zum Ende, o Herr, bleib bei mir.</p>",
+      "translation_quote": "Thou on my head in early youth didst smile; … On to the close, O Lord, abide with me."
+    },
+    {
+      "location": "html: p.poem, Strophe 6",
+      "severity": "major",
+      "source_quote": "I need Thy presence every passing hour; … Through cloud and sunshine, O abide with me.",
+      "suggested_fix": "<p class=\"poem\">Ich brauche deine Gegenwart in jeder Stunde;<br>\n    Was außer deiner Gnade kann die Macht des Versuchers vereiteln?<br>\n    Wer könnte mir wie du Führer und Halt sein?<br>\n    Bei Wolken und Sonnenschein, o bleib bei mir.</p>",
+      "translation_quote": "I need Thy presence every passing hour; … Through cloud and sunshine, O abide with me."
+    },
+    {
+      "location": "html: p.poem, Strophe 7",
+      "severity": "major",
+      "source_quote": "I fear no foe, with Thee at hand to bless: … I triumph still, if Thou abide with me.",
+      "suggested_fix": "<p class=\"poem\">Ich fürchte keinen Feind, wenn du mir segnend nahe bist:<br>\n    Leiden haben kein Gewicht und Tränen keine Bitterkeit.<br>\n    Wo ist der Stachel des Todes? Wo, Grab, dein Sieg?<br>\n    Ich triumphiere dennoch, wenn du bei mir bleibst.</p>",
+      "translation_quote": "I fear no foe, with Thee at hand to bless: … I triumph still, if Thou abide with me."
+    },
+    {
+      "location": "html: p.poem, Strophe 8",
+      "severity": "major",
+      "source_quote": "Hold Thou Thy cross before my closing eyes; … In life, in death, O Lord, abide with me.",
+      "suggested_fix": "<p class=\"poem\">Halte dein Kreuz vor meine sich schließenden Augen;<br>\n    Leuchte durch das Dunkel und weise mich zum Himmel;<br>\n    Der Morgen des Himmels bricht an, und der Erde nichtige Schatten fliehen:<br>\n    Im Leben, im Tod, o Herr, bleib bei mir.</p>",
+      "translation_quote": "Hold Thou Thy cross before my closing eyes; … In life, in death, O Lord, abide with me."
+    },
+    {
+      "location": "html: Absatz über den Weg nach Emmaus, einschließlich em",
+      "severity": "major",
+      "source_quote": "As they neared the end of their seven-mile walk and approached the village where they were going, Jesus …made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them –Luke 24:28-29.",
+      "suggested_fix": "Den betreffenden Satz ersetzen durch: „Als sie sich dem Ende ihres sieben Meilen langen Weges näherten und zu dem Dorf kamen, zu dem sie unterwegs waren, tat Jesus <em>…so, als wollte er weitergehen. Doch sie drängten ihn und sagten: Bleib bei uns, denn es wird Abend, und der Tag ist schon weit vorgerückt. Und er ging hinein, um bei ihnen zu bleiben –Lukas 24:28-29.</em>“",
+      "translation_quote": "Als sie dem Ende ihres sieben Meilen langen Weges näherten und das Dorf, zu dem sie unterwegs waren, in Sicht kam, <em>…made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them –Luke 24:28-29.</em>"
+    },
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Abide With Me, Fast Falls The Eventide",
+      "suggested_fix": "Bleib bei mir, rasch bricht der Abend herein",
+      "translation_quote": "Abide With Me, Fast Falls The Eventide"
+    },
+    {
+      "location": "html: letzter Absatz, Quellenangaben",
+      "severity": "minor",
+      "source_quote": "References: … Author- Henry Francis Lyte, 1793-1847 … Composer- William Henry Monk, 1823-1889 … Tune Name - “Eventide”",
+      "suggested_fix": "<p>Quellen:<br>\n    <em>101 Hymn Stories,<br>\n    Treasury of Hymn Stories<br>\n    Verfasser – Henry Francis Lyte, 1793-1847<br>\n    Komponist – William Henry Monk, 1823-1889<br>\n    Name der Melodie – „Eventide“</em></p>",
+      "translation_quote": "References: … Author- Henry Francis Lyte, 1793-1847 … Composer- William Henry Monk, 1823-1889 … Tune Name - “Eventide”"
+    },
+    {
+      "location": "html: erster Absatz",
+      "severity": "minor",
+      "source_quote": "one of the greatest hymns ever written",
+      "suggested_fix": "„eines der größten jemals geschriebenen Hymnen“ durch „eine der größten jemals geschriebenen Hymnen“ ersetzen.",
+      "translation_quote": "eines der größten jemals geschriebenen Hymnen"
+    },
+    {
+      "location": "html: Absatz über den sterbenden Geistlichen, erster Satz",
+      "severity": "minor",
+      "source_quote": "a fellow clergyman who was on his deathbed, requested that Lyte would come and give him some spiritual comfort",
+      "suggested_fix": "Eines Tages in Cornwall bat ein Mitgeistlicher, der im Sterben lag, Lyte, zu ihm zu kommen und ihm geistlichen Trost zu spenden.",
+      "translation_quote": "Eines Tages in Cornwall bat ihn ein befreundeter Geistlicher, der im Sterben lag, Lyte, zu ihm zu kommen und ihm geistlichen Trost zu spenden."
+    },
+    {
+      "location": "html: Absatz über die Parallele zwischen Emmaus und Lytes Lebensende",
+      "severity": "major",
+      "source_quote": "so was the meaning of this song written in the “shadows of death” to the hymn writer",
+      "suggested_fix": "Den letzten Satz ersetzen durch: „So wie die Jünger den auferstandenen Herrn baten, am Ende jenes damaligen Tages bei ihnen zu bleiben, so war dieses in den ‚Schatten des Todes‘ geschriebene Lied für seinen Verfasser eine solche Bitte.“",
+      "translation_quote": "so wurde die Bedeutung dieses Liedes in den „Schatten des Todes“ dem Lieddichter gegeben."
+    },
+    {
+      "location": "html: Absatz über Monks 50 Melodien",
+      "severity": "minor",
+      "source_quote": "inspired by the beauty of a glorious sunset",
+      "suggested_fix": "„inspiriet“ durch „inspiriert“ ersetzen.",
+      "translation_quote": "inspiriet durch die Schönheit eines herrlichen Sonnenuntergangs"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
