@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T20:58:52+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"세 번째 문단, 친구가 무디 집회에 다시 간 대목\",\"severity\":\"major\",\"source_quote\":\"he went again and God converted him.\",\"suggested_fix\":\"“그는 다시 갔고 하나님께서 그를 회심시키셨다.”\",\"translation_quote\":\"다시 갔고 하나님께 회심했다.\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 368,
+    "content_evidence_truncated": false,
+    "content_sha256": "fdb1b3f6d4aaf89935074225a21eeaeaa09173f7e740f2aa358ec905f7963350",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 786,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 675,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10257,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9154,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11043
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
