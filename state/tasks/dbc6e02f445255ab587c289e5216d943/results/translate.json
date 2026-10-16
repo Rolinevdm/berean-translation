@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "65f4c2ee-a87a-4d3c-9ce8-8e99a413e117",
+    "response_id": "chatcmpl-EZQYsXye1uKgfGkVoCZsKwiuH5jZD",
+    "usage": {
+      "completion_tokens": 635,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 317,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1055,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1052,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1690
+    }
+  },
+  "received_at": "2026-10-16T00:59:25+00:00",
+  "result": {
+    "html": "<article data-article-id=\"e7fba858-3c29-42c7-ae42-198541696da3\">\n  <p>Katika jaribio hili rahisi, tutauliza maswali machache kuhusu kile ambacho Biblia inasema kuhusu kunena kwa lugha. Majibu yako wazi sana hivi kwamba hatutayatoa hata kidogo. <strong>FIKIRIA</strong> kuhusu majibu hayo.</p>\n\n  <ol>\n    <li>Yesu alisema tutawatambua kwa (matunda, karama) yao.</li>\n    <li>Tunahimizwa kujazwa na Roho, tukizungumza sisi kwa sisi kwa (lugha, zaburi na nyimbo na tenzi za rohoni).</li>\n    <li>Lugha ni ishara (kwa mwamini, kwa asiyeamini).</li>\n    <li>Paulo alipouliza swali “Je, wote hunena kwa lugha?” jibu lililoashiriwa lilikuwa (ndiyo, hapana).</li>\n    <li>Wasioamini katika Matendo 2 (walihitaji mkalimani, hawakuhitaji mkalimani) ili kuelewa yale ambayo walionena kwa lugha walikuwa wakisema.</li>\n  </ol>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Jaribio la Kunena kwa Lugha"
+  }
+}
