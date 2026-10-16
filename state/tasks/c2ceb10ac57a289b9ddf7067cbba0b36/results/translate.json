@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e40ad7d2-b27f-488c-bfe1-6132f9c6a668",
+    "response_id": "chatcmpl-EZjz3c5LlLvW9xtAPwYMW5nHbowca",
+    "usage": {
+      "completion_tokens": 182,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 964,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1146
+    }
+  },
+  "received_at": "2026-10-16T21:46:46+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cac00fd8-ab2b-4033-92c7-bef44b4341db\">\n  <figure>\n    <img src=\"/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg\" alt=\"Et seilskip som passerer klipper nær kysten.\">\n  </figure>\n  <p>En kaptein ble en gang spurt om han kjente alle skjærene langs kysten. «Nei», svarte han, «det er ikke nødvendig å kjenne alle skjærene, bare å kjenne den trygge leden.»</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "ALLE SKJÆRENE"
+  }
+}
