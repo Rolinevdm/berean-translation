@@ -1,0 +1,87 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ab29f6c3-02c3-451e-8f7c-c33dc3c45c7a",
+    "response_id": "chatcmpl-EZWMrjuxwdOsuOg6rpEfb3flWvppb",
+    "usage": {
+      "completion_tokens": 1175,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 89,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5984,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5981,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7159
+    }
+  },
+  "received_at": "2026-10-16T09:54:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, stycket om den sista predikan",
+        "severity": "major",
+        "source_quote": "by a timely appreciation and dependance on the death of Christ",
+        "suggested_fix": "Ersätt ”genom en tidsenlig uppskattning och beroende av Kristi död” med ”genom att i tid inse betydelsen av Kristi död och förtrösta på den”.",
+        "translation_quote": "genom en tidsenlig uppskattning och beroende av Kristi död"
+      },
+      {
+        "location": "html, sjätte diktstrofen, rad 1",
+        "severity": "major",
+        "source_quote": "I need Thy presence every passing hour;",
+        "suggested_fix": "Ändra raden till ”Jag behöver Din närvaro varje timme som går;”. ”Förgången” avser redan förfluten tid, inte det fortlöpande behovet.",
+        "translation_quote": "Jag behöver Din närvaro varje förgången timme;"
+      },
+      {
+        "location": "html, fjärde diktstrofen, rad 1",
+        "severity": "major",
+        "source_quote": "Come not in terrors, as the King of kings;",
+        "suggested_fix": "Ändra raden till ”Kom inte med skräck och bävan, som konungarnas Konung;” eller ”Kom inte i skräckinjagande majestät, som konungarnas Konung;”. Bönen gäller hur Herren uppenbarar sig, inte att han själv skulle vara rädd.",
+        "translation_quote": "Kom icke i skräck, såsom konungarnas Konung;"
+      },
+      {
+        "location": "html, stycket om Emmaus, början av bibelcitatet",
+        "severity": "major",
+        "source_quote": "Jesus <em>…made as though he would have gone further.",
+        "suggested_fix": "Återge övergången som ”Jesus <em>…gjorde som om han tänkte gå vidare.” och behåll resten av em-elementet och hänvisningen.",
+        "translation_quote": "<em>…sågs han som om han ville gå längre."
+      },
+      {
+        "location": "html, stycket om prästen i Cornwall",
+        "severity": "minor",
+        "source_quote": "a fellow clergyman ... veritable blind guides",
+        "suggested_fix": "Ersätt ”en medprästerling” med ”en prästkollega” och ”verkliga blinda föreståndare” med ”verkligen blinda vägledare”.",
+        "translation_quote": "en medprästerling ... verkliga blinda föreståndare"
+      },
+      {
+        "location": "html, stycket om den sista predikan",
+        "severity": "minor",
+        "source_quote": "if I may hope to impress it upon you ... he was inspired to “poetical composition”",
+        "suggested_fix": "Ersätt ”om jag får hoppas kunna trycka på er” med ”i hopp om att kunna inskärpa detta hos er” och ”rörde han sig till ’poetisk komposition’” med ”inspirerades han till ’poetiskt skapande’”.",
+        "translation_quote": "om jag får hoppas kunna trycka på er ... rörde han sig till ”poetisk komposition”"
+      },
+      {
+        "location": "html, diktstroferna 2, 5 och 6 samt stycket efter dikten och stycket efter Emmauscitatet",
+        "severity": "minor",
+        "source_quote": "to its close; rebellious and perverse; my guide and stay; one of the family members; the risen Lord",
+        "suggested_fix": "Ändra respektive uttryck till ”mot sitt slut”, ”upprorisk och egensinnig”, ”min ledare och mitt stöd”, ”en av familjemedlemmarna” och ”den uppståndne Herren”.",
+        "translation_quote": "mot sin slut; upprorisk och vriden däremellan; min ledare och min stöd; ett av familjemedlemmarna; den uppståndne Herre"
+      },
+      {
+        "location": "html, sammanfattande stycke",
+        "severity": "minor",
+        "source_quote": "to touch and minister the Gospel to those poor people among whom he lived",
+        "suggested_fix": "Ersätt ”som rörde vid och tjänade evangeliet till de fattiga bland vilka han levde” med ”som berörde de fattiga människor bland vilka han levde och förmedlade evangeliet till dem”.",
+        "translation_quote": "som rörde vid och tjänade evangeliet till de fattiga bland vilka han levde"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 88
+  }
+}

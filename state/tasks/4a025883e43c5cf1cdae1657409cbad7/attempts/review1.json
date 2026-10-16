@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T09:54:53+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, stycket om den sista predikan\",\n      \"severity\": \"major\",\n      \"source_quote\": \"by a timely appreciation and dependance on the death of Christ\",\n      \"suggested_fix\": \"Ersätt ”genom en tidsenlig uppskattning och beroende av Kristi död” med ”genom att i tid inse betydelsen av Kristi död och förtrösta på den”.\",\n      \"translation_quote\": \"genom en tidsenlig uppskattning och beroende av Kristi död\"\n    },\n    {\n      \"location\": \"html, sjätte diktstrofen, rad 1\",\n      \"severity\": \"major\",\n      \"source_quote\": \"I need Thy presence every passing hour;\",\n      \"suggested_fix\": \"Ändra raden till ”Jag behöver Din närvaro varje timme som går;”. ”Förgången” avser redan förfluten tid, inte det fortlöpande behovet.\",\n      \"translation_quote\": \"Jag behöver Din närvaro varje förgången timme;\"\n    },\n    {\n      \"location\": \"html, fjärde diktstrofen, rad 1\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Come not in terrors, as the King of kings;\",\n      \"suggested_fix\": \"Ändra raden till ”Kom inte med skräck och bävan, som konungarnas Konung;” eller ”Kom inte i skräckinjagande majestät, som konungarnas Konung;”. Bönen gäller hur Herren uppenbarar sig, inte att han själv skulle vara rädd.\",\n      \"translation_quote\": \"Kom icke i skräck, såsom konungarnas Konung;\"\n    },\n    {\n      \"location\": \"html, stycket om Emmaus, början av bibelcitatet\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Jesus <em>…made as though he would have gone further.\",\n      \"suggested_fix\": \"Återge övergången som ”Jesus <em>…gjorde som om han tänkte gå vidare.” och behåll resten av em-elementet och hänvisningen.\",\n      \"translation_quote\": \"<em>…sågs han som om han ville gå längre.\"\n    },\n    {\n      \"location\": \"html, stycket om prästen i Cornwall\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"a fellow clergyman ... veritable blind guides\",\n      \"suggested_fix\": \"Ersätt ”en medprästerling” med ”en prästkollega” och ”verkliga blinda föreståndare” med ”verkligen blinda vägledare”.\",\n      \"translation_quote\": \"en medprästerling ... verkliga blinda föreståndare\"\n    },\n    {\n      \"location\": \"html, stycket om den sista predikan\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"if I may hope to impress it upon you ... he was inspired to “poetical composition”\",\n      \"suggested_fix\": \"Ersätt ”om jag får hoppas kunna trycka på er” med ”i hopp om att kunna inskärpa detta hos er” och ”rörde han sig till ’poetisk komposition’” med ”inspirerades han till ’poetiskt skapande’”.\",\n      \"translation_quote\": \"om jag får hoppas kunna trycka på er ... rörde han sig till ”poetisk komposition”\"\n    },\n    {\n      \"location\": \"html, diktstroferna 2, 5 och 6 samt stycket efter dikten och stycket efter Emmauscitatet\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"to its close; rebellious and perverse; my guide and stay; one of the family members; the risen Lord\",\n      \"suggested_fix\": \"Ändra respektive uttryck till ”mot sitt slut”, ”upprorisk och egensinnig”, ”min ledare och mitt stöd”, ”en av familjemedlemmarna” och ”den uppståndne Herren”.\",\n      \"translation_quote\": \"mot sin slut; upprorisk och vriden däremellan; min ledare och min stöd; ett av familjemedlemmarna; den uppståndne Herre\"\n    },\n    {\n      \"location\": \"html, sammanfattande stycke\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"to touch and minister the Gospel to those poor people among whom he lived\",\n      \"suggested_fix\": \"Ersätt ”som rörde vid och tjänade evangeliet till de fattiga bland vilka han levde” med ”som berörde de fattiga människor bland vilka han levde och förmedlade evangeliet till dem”.\",\n      \"translation_quote\": \"som rörde vid och tjänade evangeliet till de fattiga bland vilka han levde\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 88\n}",
+    "content_bytes": 4027,
+    "content_evidence_truncated": false,
+    "content_sha256": "b7e3461b9d24f197c480443ba87a97ea766df801d994f0d248991bae7e84dca6",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1175,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 89,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5984,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5981,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7159
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
