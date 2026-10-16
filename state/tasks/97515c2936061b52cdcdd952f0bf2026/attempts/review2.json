@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T09:55:43+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Throughout: the five-item list; “Restorationism” section heading and its paragraphs; Conclusion\",\"severity\":\"major\",\"source_quote\":\"“Restorationism”; “Restorationism looks back at earlier times”; “restorationist movements”\",\"suggested_fix\":\"Use a consistent Urdu term distinguishing restorationism from revivalism, such as “بحالی پسندی” (and “بحالی پسند” for restorationists), in the list, heading, and all related prose. For example: change “احیائے نو پسندی” to “بحالی پسندی.”\",\"translation_quote\":\"“احیائے نو پسندی”; “احیائے نو پسندی ماضی کے اُن ادوار کی طرف دیکھتی ہے”; “احیائے نو پسند تحریکوں”\"},{\"location\":\"Christocentrism section, paragraph beginning “An example of this sort of ‘Christocentrism’”\",\"severity\":\"major\",\"source_quote\":\"“many professed Christians today who do not want to align themselves with this or that teaching in the epistles.”\",\"suggested_fix\":\"Replace “رسالوں” with “رسولی خطوط” or “خطوط” to refer to the New Testament epistles.\",\"translation_quote\":\"“آج بہت سے مسیحیت کا دعویٰ کرنے والے لوگ جو رسالوں کی فلاں یا فلاں تعلیم سے خود کو وابستہ نہیں کرنا چاہتے”\"}],\"findings_complete\":true,\"passed\":false,\"score\":90}",
+    "content_bytes": 1454,
+    "content_evidence_truncated": false,
+    "content_sha256": "441ffa56114349913903242b9462919e4dfb35733f91c970aa89eb8c4188c81b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 925,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 603,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 20978,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 19875,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 21903
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

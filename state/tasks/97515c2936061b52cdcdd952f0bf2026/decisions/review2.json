@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Throughout: the five-item list; “Restorationism” section heading and its paragraphs; Conclusion",
+      "severity": "major",
+      "source_quote": "“Restorationism”; “Restorationism looks back at earlier times”; “restorationist movements”",
+      "suggested_fix": "Use a consistent Urdu term distinguishing restorationism from revivalism, such as “بحالی پسندی” (and “بحالی پسند” for restorationists), in the list, heading, and all related prose. For example: change “احیائے نو پسندی” to “بحالی پسندی.”",
+      "translation_quote": "“احیائے نو پسندی”; “احیائے نو پسندی ماضی کے اُن ادوار کی طرف دیکھتی ہے”; “احیائے نو پسند تحریکوں”"
+    },
+    {
+      "location": "Christocentrism section, paragraph beginning “An example of this sort of ‘Christocentrism’”",
+      "severity": "major",
+      "source_quote": "“many professed Christians today who do not want to align themselves with this or that teaching in the epistles.”",
+      "suggested_fix": "Replace “رسالوں” with “رسولی خطوط” or “خطوط” to refer to the New Testament epistles.",
+      "translation_quote": "“آج بہت سے مسیحیت کا دعویٰ کرنے والے لوگ جو رسالوں کی فلاں یا فلاں تعلیم سے خود کو وابستہ نہیں کرنا چاہتے”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "950c6317774041ccaef5b14f14a3dd4f",
   "campaign": "auto-fac16349014b4d6ef769597c35c50b183581d24e236e97e3624aa4649ca10a74",
   "created_at": "2026-10-11T06:21:50+00:00",
   "events": [
@@ -68,18 +67,47 @@
         },
         "total_tokens": 32288
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 925,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 603,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 20978,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 19875,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 21903
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Restorationism section, paragraph beginning “The desire to take the Christian church back…”",
+      "location": "Throughout: the five-item list; “Restorationism” section heading and its paragraphs; Conclusion",
       "severity": "major",
-      "source_quote": "“Major cults have been founded through restorationist attempts (the Mormons, for example).”",
-      "suggested_fix": "“احیائے نو کی کوششوں کے ذریعے بڑے بڑے گمراہ فرقے بھی قائم ہوئے ہیں (مثلاً مورمن)۔”",
-      "translation_quote": "“احیائے نو کی کوششوں کے ذریعے بڑے بڑے فرقے بھی قائم ہوئے ہیں (مثلاً مورمن)۔”"
+      "source_quote": "“Restorationism”; “Restorationism looks back at earlier times”; “restorationist movements”",
+      "suggested_fix": "Use a consistent Urdu term distinguishing restorationism from revivalism, such as “بحالی پسندی” (and “بحالی پسند” for restorationists), in the list, heading, and all related prose. For example: change “احیائے نو پسندی” to “بحالی پسندی.”",
+      "translation_quote": "“احیائے نو پسندی”; “احیائے نو پسندی ماضی کے اُن ادوار کی طرف دیکھتی ہے”; “احیائے نو پسند تحریکوں”"
+    },
+    {
+      "location": "Christocentrism section, paragraph beginning “An example of this sort of ‘Christocentrism’”",
+      "severity": "major",
+      "source_quote": "“many professed Christians today who do not want to align themselves with this or that teaching in the epistles.”",
+      "suggested_fix": "Replace “رسالوں” with “رسولی خطوط” or “خطوط” to refer to the New Testament epistles.",
+      "translation_quote": "“آج بہت سے مسیحیت کا دعویٰ کرنے والے لوگ جو رسالوں کی فلاں یا فلاں تعلیم سے خود کو وابستہ نہیں کرنا چاہتے”"
     }
   ],
+  "finished_at": "2026-10-16T09:55:43+00:00",
   "id": "97515c2936061b52cdcdd952f0bf2026",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "urd",
@@ -168,7 +196,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 90,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +216,7 @@
     "total_reserved_usd": 0.134855,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "3726b7887efc3d021a402ce1f21ca38db53be580ea9af6db062cc7f54a419a96",
   "translation_model_actual": "gpt-6-luna"

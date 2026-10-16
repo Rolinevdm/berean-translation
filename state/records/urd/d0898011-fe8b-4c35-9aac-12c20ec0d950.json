@@ -7,6 +7,12 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "97515c2936061b52cdcdd952f0bf2026"
+    },
+    {
+      "at": "2026-10-16T09:55:43+00:00",
+      "event": "not_ready",
+      "reason": "Final review failed; a separately funded continuation must pass admission",
+      "task": "97515c2936061b52cdcdd952f0bf2026"
     }
   ],
   "language": "urd",

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c9ef42ec-8e38-4b2a-a8cb-d88f8f3a64ad",
+    "response_id": "chatcmpl-EZWg7h2xKKqX9PGKaHDcDmgcyC0Au",
+    "usage": {
+      "completion_tokens": 925,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 603,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 20978,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 19875,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 21903
+    }
+  },
+  "received_at": "2026-10-16T09:55:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Throughout: the five-item list; “Restorationism” section heading and its paragraphs; Conclusion",
+        "severity": "major",
+        "source_quote": "“Restorationism”; “Restorationism looks back at earlier times”; “restorationist movements”",
+        "suggested_fix": "Use a consistent Urdu term distinguishing restorationism from revivalism, such as “بحالی پسندی” (and “بحالی پسند” for restorationists), in the list, heading, and all related prose. For example: change “احیائے نو پسندی” to “بحالی پسندی.”",
+        "translation_quote": "“احیائے نو پسندی”; “احیائے نو پسندی ماضی کے اُن ادوار کی طرف دیکھتی ہے”; “احیائے نو پسند تحریکوں”"
+      },
+      {
+        "location": "Christocentrism section, paragraph beginning “An example of this sort of ‘Christocentrism’”",
+        "severity": "major",
+        "source_quote": "“many professed Christians today who do not want to align themselves with this or that teaching in the epistles.”",
+        "suggested_fix": "Replace “رسالوں” with “رسولی خطوط” or “خطوط” to refer to the New Testament epistles.",
+        "translation_quote": "“آج بہت سے مسیحیت کا دعویٰ کرنے والے لوگ جو رسالوں کی فلاں یا فلاں تعلیم سے خود کو وابستہ نہیں کرنا چاہتے”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 90
+  }
+}
