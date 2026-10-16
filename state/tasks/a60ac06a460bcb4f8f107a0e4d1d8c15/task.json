@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "32afddafa12a4426a6993912385e011a",
   "campaign": "auto-002983ad6c5c0d7ad0747dfa463619a513a7fc5588fc73849b7e39b491b42315",
   "created_at": "2026-10-16T17:23:59+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 13781
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1069,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 905,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9544,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9541,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10613
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph 5",
-      "severity": "major",
-      "source_quote": "When we boys came home from college",
-      "suggested_fix": "Da vi guttene kom hjem fra college",
-      "translation_quote": "Da vi guttene kom hjem fra skolen"
+      "location": "HTML, paragraph beginning «Det var mange vanskeligheter i veien», sentence beginning «Men jeg hadde fått ordre»",
+      "severity": "minor",
+      "source_quote": "But I had received marching orders to go to China and I had God to give them as plain to go back.",
+      "suggested_fix": "Men jeg hadde fått ordre om å dra til Kina, og jeg stolte på at Gud ville gjøre det like tydelig for meg om jeg skulle dra tilbake.",
+      "translation_quote": "Men jeg hadde fått ordre om å dra til Kina, og jeg hadde Gud til å gi meg like tydelige ordre om å dra tilbake."
     }
   ],
+  "finished_at": "2026-10-16T23:39:04+00:00",
   "id": "a60ac06a460bcb4f8f107a0e4d1d8c15",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "nob",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.090743,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "12ecac15cfbc01dc73c6465f6e9b62b72e07659904a3aab7621b587b0c2472e4",
   "translation_model_actual": "gpt-6-luna"

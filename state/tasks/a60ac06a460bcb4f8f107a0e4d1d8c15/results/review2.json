@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "223ea808-9887-4de3-9277-d0be31927407",
+    "response_id": "chatcmpl-EZlkiE0z46rzCLPyiLGxRtXHM6kcu",
+    "usage": {
+      "completion_tokens": 1069,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 905,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9544,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9541,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10613
+    }
+  },
+  "received_at": "2026-10-16T23:39:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «Det var mange vanskeligheter i veien», sentence beginning «Men jeg hadde fått ordre»",
+        "severity": "minor",
+        "source_quote": "But I had received marching orders to go to China and I had God to give them as plain to go back.",
+        "suggested_fix": "Men jeg hadde fått ordre om å dra til Kina, og jeg stolte på at Gud ville gjøre det like tydelig for meg om jeg skulle dra tilbake.",
+        "translation_quote": "Men jeg hadde fått ordre om å dra til Kina, og jeg hadde Gud til å gi meg like tydelige ordre om å dra tilbake."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

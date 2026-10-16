@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Det var mange vanskeligheter i veien», sentence beginning «Men jeg hadde fått ordre»",
+      "severity": "minor",
+      "source_quote": "But I had received marching orders to go to China and I had God to give them as plain to go back.",
+      "suggested_fix": "Men jeg hadde fått ordre om å dra til Kina, og jeg stolte på at Gud ville gjøre det like tydelig for meg om jeg skulle dra tilbake.",
+      "translation_quote": "Men jeg hadde fått ordre om å dra til Kina, og jeg hadde Gud til å gi meg like tydelige ordre om å dra tilbake."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
