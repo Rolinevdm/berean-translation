@@ -1,0 +1,17 @@
+{
+  "autonomous": true,
+  "id": "auto-0dd19945198996d790ac54dfe0dd542fc72ac1cfbf501e55a9362ba256a0d443",
+  "operation": "automatic",
+  "requested_by": "owner-authorized-autonomous-archive",
+  "selection": {
+    "article_id": "fe94355d-8741-49a7-8f66-16003daa3f89",
+    "candidate_sha256": "4edbdd05a940e1bf868146bfb0796efffb23a466a1e7f0cdcc10fe357f82d777",
+    "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+    "language": "ben",
+    "previous_task_id": "95bbe48a6e656f956bd39a0d1f3de53d",
+    "previous_task_sha256": "7130e206af10bf102060f27606c2235c7ebdb859d540e8910de26f0f4d621bcd",
+    "recovery": true,
+    "stage": "review1",
+    "translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b"
+  }
+}
