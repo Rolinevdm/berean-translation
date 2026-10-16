@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "第3段，关于穆迪布道会人数的句子",
+      "severity": "minor",
+      "source_quote": "he could get more people to his meetings than half a dozen archbishops",
+      "suggested_fix": "但他们也不得不承认，他吸引到布道会的人数，比六位大主教所能吸引的人数加起来还多",
+      "translation_quote": "他能吸引到会场的人数，比六位大主教加起来还多"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

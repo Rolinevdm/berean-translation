@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T17:22:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"第3段，关于穆迪布道会人数的句子\",\"severity\":\"minor\",\"source_quote\":\"he could get more people to his meetings than half a dozen archbishops\",\"suggested_fix\":\"但他们也不得不承认，他吸引到布道会的人数，比六位大主教所能吸引的人数加起来还多\",\"translation_quote\":\"他能吸引到会场的人数，比六位大主教加起来还多\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 458,
+    "content_evidence_truncated": false,
+    "content_sha256": "b8fb9858076029ac380f3073e53d22c01692315a1e68a0a3a6858bfff7a4bdd2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1235,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1090,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9167,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8064,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10402
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

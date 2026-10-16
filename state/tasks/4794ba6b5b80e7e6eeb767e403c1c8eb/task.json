@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dd21e446933449bbb7179e2177e3454c",
   "campaign": "auto-3d405053a3b3efcfa770ad0925ef4f4b726ed0ebc4f991bcc41146de5ae6bb24",
   "created_at": "2026-10-16T12:25:26+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 8813
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1235,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1090,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9167,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8064,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10402
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "第3段，关于穆迪布道会人数的句子",
+      "severity": "minor",
+      "source_quote": "he could get more people to his meetings than half a dozen archbishops",
+      "suggested_fix": "但他们也不得不承认，他吸引到布道会的人数，比六位大主教所能吸引的人数加起来还多",
+      "translation_quote": "他能吸引到会场的人数，比六位大主教加起来还多"
+    }
+  ],
+  "finished_at": "2026-10-16T17:22:54+00:00",
   "id": "4794ba6b5b80e7e6eeb767e403c1c8eb",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "cmn",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/75f9676114485607d4245f45ddd8ed267298fb3872c8b59d66918b2cfc3ba747.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.090749,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "12ecac15cfbc01dc73c6465f6e9b62b72e07659904a3aab7621b587b0c2472e4",
   "translation_model_actual": "gpt-6-luna"
