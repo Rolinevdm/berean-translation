@@ -75567,6 +75567,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
+      "html_sha256": "938a940d0f2812cb4d6f059eefd2ed113e0c6fe87cbfd54aebd339b5cefcc604",
+      "human_reviewed": false,
+      "id": "fe94355d-8741-49a7-8f66-16003daa3f89",
+      "images": [
+        {
+          "alt": "Noter till Abide With Me, Fast Falls the Eventide, med upphovsmännen Henry F. Lyte, 1847, och William H. Monk, 1861 angivna",
+          "public_path": "/images/articles/fe94355d-8741-49a7-8f66-16003daa3f89-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/fe94355d-8741-49a7-8f66-16003daa3f89.json",
+      "metadata_sha256": "7673a0a4e3a8f38706a2992810e70116067a3ef5e60205bb000ee063e4cd0347",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "En hymns historia",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Förbli hos mig, hastigt faller aftonen",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.html",
       "html_sha256": "ffa0e910515046d267151cb923dd6b83e396ebee8b04b039ffd40ff071632671",
       "human_reviewed": false,
