@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d64ae27f-aff0-4eb2-a767-958a249b69f1",
+    "response_id": "chatcmpl-EZUdeNimmwv4vQ7ros0tWNooDMcgS",
+    "usage": {
+      "completion_tokens": 567,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 442,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1726,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 623,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2293
+    }
+  },
+  "received_at": "2026-10-16T07:06:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "The Tongues Test",
+        "suggested_fix": "Die Toets oor Tale",
+        "translation_quote": "Die Toetst oor Tale"
+      },
+      {
+        "location": "HTML, list item 5",
+        "severity": "minor",
+        "source_quote": "what those speaking in tongues were saying",
+        "suggested_fix": "wat diegene wat in tale gepraat het, gesê het",
+        "translation_quote": "wat diegene wat in tale gepraat het, sê"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

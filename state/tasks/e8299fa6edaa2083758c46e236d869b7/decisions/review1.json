@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "The Tongues Test",
+      "suggested_fix": "Die Toets oor Tale",
+      "translation_quote": "Die Toetst oor Tale"
+    },
+    {
+      "location": "HTML, list item 5",
+      "severity": "minor",
+      "source_quote": "what those speaking in tongues were saying",
+      "suggested_fix": "wat diegene wat in tale gepraat het, gesê het",
+      "translation_quote": "wat diegene wat in tale gepraat het, sê"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

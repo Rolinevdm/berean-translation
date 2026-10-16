@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f25c80e01002482a8a6aa416e28f31b9",
   "campaign": "auto-919aa121c14992e0a46864d74bee6b62bd372060ed1c0150e94693bcf9ac2ac2",
   "created_at": "2026-10-16T00:52:26+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 1372
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 567,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 442,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1726,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 623,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2293
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "The Tongues Test",
+      "suggested_fix": "Die Toets oor Tale",
+      "translation_quote": "Die Toetst oor Tale"
+    },
+    {
+      "location": "HTML, list item 5",
+      "severity": "minor",
+      "source_quote": "what those speaking in tongues were saying",
+      "suggested_fix": "wat diegene wat in tale gepraat het, gesê het",
+      "translation_quote": "wat diegene wat in tale gepraat het, sê"
+    }
+  ],
+  "finished_at": "2026-10-16T07:06:04+00:00",
   "id": "e8299fa6edaa2083758c46e236d869b7",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "afr",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b52cae92dba5c0038500aa2cb0b458e354355c425a782d1bbfa6462c70c62c43.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.085845,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "edeb1684f5d35fe34dce6fbf9c36a5e5078746a5cf2e829997532dddb8448a70",
   "translation_model_actual": "gpt-6-luna"
