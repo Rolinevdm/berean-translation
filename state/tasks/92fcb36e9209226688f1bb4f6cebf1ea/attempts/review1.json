@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T23:39:44+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, opening quotation\",\"severity\":\"minor\",\"source_quote\":\"We must reduce our volume to the simple evangelists\",\"suggested_fix\":\"Wir müssen unser Werk auf die schlichten Evangelien beschränken\",\"translation_quote\":\"Wir müssen uns auf die einfachen Evangelisten beschränken\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 357,
+    "content_evidence_truncated": false,
+    "content_sha256": "c8a9b5601249a15af43ef3619dbe2b6e1523190bff229d2a9efaaf3124318641",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 764,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 667,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2370,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1267,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3134
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

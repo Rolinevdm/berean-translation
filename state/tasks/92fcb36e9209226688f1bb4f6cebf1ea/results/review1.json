@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a4b2f4ae-8da9-4e21-9546-f7b2f4c79fa9",
+    "response_id": "chatcmpl-EZlmQfFCpjYfjfo69xObDpa7Aa1Sv",
+    "usage": {
+      "completion_tokens": 764,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 667,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2370,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1267,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3134
+    }
+  },
+  "received_at": "2026-10-16T23:39:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, opening quotation",
+        "severity": "minor",
+        "source_quote": "We must reduce our volume to the simple evangelists",
+        "suggested_fix": "Wir müssen unser Werk auf die schlichten Evangelien beschränken",
+        "translation_quote": "Wir müssen uns auf die einfachen Evangelisten beschränken"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
