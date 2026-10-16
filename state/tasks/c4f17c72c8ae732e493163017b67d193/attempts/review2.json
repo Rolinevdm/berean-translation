@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T23:31:28+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article paragraph beginning « J’ai ensuite lu dans le livre »\",\"severity\":\"major\",\"source_quote\":\"“When you have surrendered all to God, you have given him all the responsibility, as well as everything else. It is God who is responsible to look after you and all you have to do is to trust. Put your hand in His and the Lord will lead you. It seemed quite a different thing after that and in a very short time God had told me what to do and where to go. God doesn’t tell a person first by his head; He tells him first by the heart. God put it in my heart and made me long to go to China.\",\"suggested_fix\":\"Déplacer la fermeture des guillemets après « partir en Chine », afin que tout le passage cité du livre reste attribué au livre, comme dans la source.\",\"translation_quote\":\"« Quand vous vous êtes entièrement abandonné à Dieu, vous lui avez remis toute la responsabilité, ainsi que tout le reste. C’est à Dieu qu’il incombe de prendre soin de vous ; tout ce que vous avez à faire, c’est de lui faire confiance. Placez votre main dans la sienne, et le Seigneur vous conduira. » Après cela, tout m’a paru bien différent et, en très peu de temps, Dieu m’a indiqué ce que je devais faire et où aller. Dieu ne parle pas d’abord à une personne par sa tête ; il lui parle d’abord par le cœur. Dieu l’a mis dans mon cœur et m’a donné le désir ardent de partir en Chine.\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 1498,
+    "content_evidence_truncated": false,
+    "content_sha256": "82a4dc96ee2030534bfe4016ea8997afffda20cba7813e4ae6e31490655fadb4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 944,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 583,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9643,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8540,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10587
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

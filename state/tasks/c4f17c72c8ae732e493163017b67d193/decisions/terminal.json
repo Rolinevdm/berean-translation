@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph beginning « J’ai ensuite lu dans le livre »",
+      "severity": "major",
+      "source_quote": "“When you have surrendered all to God, you have given him all the responsibility, as well as everything else. It is God who is responsible to look after you and all you have to do is to trust. Put your hand in His and the Lord will lead you. It seemed quite a different thing after that and in a very short time God had told me what to do and where to go. God doesn’t tell a person first by his head; He tells him first by the heart. God put it in my heart and made me long to go to China.",
+      "suggested_fix": "Déplacer la fermeture des guillemets après « partir en Chine », afin que tout le passage cité du livre reste attribué au livre, comme dans la source.",
+      "translation_quote": "« Quand vous vous êtes entièrement abandonné à Dieu, vous lui avez remis toute la responsabilité, ainsi que tout le reste. C’est à Dieu qu’il incombe de prendre soin de vous ; tout ce que vous avez à faire, c’est de lui faire confiance. Placez votre main dans la sienne, et le Seigneur vous conduira. » Après cela, tout m’a paru bien différent et, en très peu de temps, Dieu m’a indiqué ce que je devais faire et où aller. Dieu ne parle pas d’abord à une personne par sa tête ; il lui parle d’abord par le cœur. Dieu l’a mis dans mon cœur et m’a donné le désir ardent de partir en Chine."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
