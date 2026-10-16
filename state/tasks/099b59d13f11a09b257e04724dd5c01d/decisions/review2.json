@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, абзац под заголовком «А как обстоит дело с вами?»",
+      "severity": "minor",
+      "source_quote": "you are not a good steward, even in this respect, of the mammon of unrighteousness",
+      "suggested_fix": "Заменить «плохой управитель неправедного маммоны» на «плохой управитель неправедной маммоны».",
+      "translation_quote": "вы даже в этом отношении плохой управитель неправедного маммоны"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
