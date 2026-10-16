@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T14:45:12+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"0862fd6d-7c62-456c-8b3f-abb513f498ce\\\">\\n  <p class=\\\"drop-cap\\\">Da startskuddet lød, satte alle deltakerne kursen mot mållinjen. Riktignok var de ikke like raske som de vanlige løperne fra videregående. Faktisk var de så langsomme på grunn av funksjonsnedsettelsene sine at de til og med snakket sammen underveis.</p>\\n\\n  <p>Omtrent tre fjerdedeler av veien mot målet skjedde det noe. Suzie falt og skrapte opp kneet. Hun begynte å gråte fordi det gjorde vondt. Carl, som var ved siden av henne, stanset og snakket vennlig til henne. Alle som lå bak henne, stanset også da de tok henne igjen, for å vise medfølelse. Noen ropte fremover til resten av gjengen for å fortelle dem hva som hadde skjedd. Siden de andre ikke var så langt foran, hørte de ropene fra dem som lå bak, og kom tilbake for også å være sammen med Suzie.</p>\\n\\n  <p>Etter en stund, da hun følte seg bedre, hjalp to av vennene hennes henne med å reise seg. Så sa vennene som sto ved siden av henne og holdt henne i armene: «Vi skal hjelpe deg til målstreken.» Alle de andre sa også: «Det skal vi også!» Da tok alle hverandre i hendene og beveget seg langsomt nedover banen, i takt med Suzie, som haltet. Så krysset de alle målstreken sammen, som én stor, bred kjede! ~Ukjent forfatter</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Vi løper løpet sammen\"}",
+    "content_bytes": 1409,
+    "content_evidence_truncated": false,
+    "content_sha256": "24f661ad0083d781718734f65ac243f84e89dfd8ee8632d2c3575af2b3b884db",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 419,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1169,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1166,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1588
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
