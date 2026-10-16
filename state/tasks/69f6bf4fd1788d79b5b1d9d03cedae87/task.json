@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eae53d7eacbe48f8b53c632c02c7cbda",
   "campaign": "auto-1fa2d8db52a49883741ef74bade8869cd9e981366b13121eb054248e66120487",
   "created_at": "2026-10-16T18:28:44+00:00",
   "events": [
@@ -48,165 +47,31 @@
         },
         "total_tokens": 12431
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 73,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 41,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6818,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5715,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6891
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, paragraphs 14–16 and 18, Scripture quotations",
-      "severity": "major",
-      "source_quote": "Let every soul be subject unto the higher powers… –Romans 13: 1-5; Let every soul be subject unto the higher powers… –Romans 13:1; …We ought to obey God rather than men –Acts 5:29; See then that ye walk circumspectly… –Ephesians 5:15-17; Let a man so account of us… –1 Corinthians 4:2.",
-      "suggested_fix": "Translate all five quotations within their existing <em> tags, retaining the printed references and their placement: (1) “हर व्यक्ति उच्च अधिकारियों के अधीन रहे। क्योंकि कोई अधिकार ऐसा नहीं जो परमेश्वर की ओर से न हो; जो अधिकारी हैं, वे परमेश्वर द्वारा नियुक्त हैं। इसलिए जो अधिकार का विरोध करता है, वह परमेश्वर की व्यवस्था का विरोध करता है; और विरोध करने वाले अपने ऊपर दंड लाएँगे। क्योंकि शासक अच्छे कामों के लिए नहीं, बल्कि बुरे कामों के लिए भय का कारण हैं। क्या तुम अधिकारी से निर्भय रहना चाहते हो? अच्छा करो, और उससे प्रशंसा पाओगे। क्योंकि वह तुम्हारी भलाई के लिए परमेश्वर का सेवक है। पर यदि तुम बुराई करो तो डरो, क्योंकि वह व्यर्थ तलवार नहीं रखता; वह परमेश्वर का सेवक है, जो बुराई करने वाले पर क्रोध के अनुसार दंड लागू करता है। इसलिए अधीन रहना आवश्यक है, न केवल दंड के भय से, बल्कि विवेक के कारण भी –रोमियों 13:1-5।” (2) “हर व्यक्ति उच्च अधिकारियों के अधीन रहे। क्योंकि कोई अधिकार ऐसा नहीं जो परमेश्वर की ओर से न हो… –रोमियों 13:1।” (3) “…हमें मनुष्यों के बजाय परमेश्वर की आज्ञा माननी चाहिए –प्रेरितों के काम 5:29।” (4) “इसलिए ध्यान रखो कि तुम सावधानी से चलो, मूर्खों की तरह नहीं, बल्कि बुद्धिमानों की तरह। समय का सदुपयोग करो, क्योंकि दिन बुरे हैं। इसलिए नासमझ न बनो, बल्कि समझो कि प्रभु की इच्छा क्या है –इफिसियों 5:15-17।” (5) “लोग हमें मसीह के सेवक और परमेश्वर के रहस्यों के भंडारी समझें। फिर भंडारियों से यह अपेक्षा की जाती है कि वे विश्वासयोग्य पाए जाएँ –1 कुरिन्थियों 4:2।” Translate the intervening “And” as “और”.",
-      "translation_quote": "All five quotations remain in English, beginning “Let every soul be subject unto the higher powers”, “…We ought to obey God rather than men”, “See then that ye walk circumspectly”, and “Let a man so account of us”; the conjunction “And” also remains English."
-    },
-    {
-      "location": "html, paragraph 3",
-      "severity": "major",
-      "source_quote": "Nero and his mother had an incestuous relationship",
-      "suggested_fix": "Replace “एक असभ्य संबंध” with “अनाचारपूर्ण यौन संबंध”.",
-      "translation_quote": "नीरो और उसकी माँ का एक असभ्य संबंध था"
-    },
-    {
-      "location": "html, paragraph 3",
-      "severity": "major",
-      "source_quote": "the new ruler was well received by his subjects and seemed eager to please them",
-      "suggested_fix": "Use “पर प्रजा ने नए शासक का स्वागत किया और वह उन्हें प्रसन्न करने के लिए उत्सुक प्रतीत होता था”.",
-      "translation_quote": "नया शासक अपने प्रजाजनों द्वारा अच्छी तरह स्वीकार किया गया और वे उसे खुश करने के लिए उत्सुक प्रतीत होते थे"
-    },
-    {
-      "location": "html, paragraph 4",
-      "severity": "major",
-      "source_quote": "Nero soon killed his brother-in-law, who was fourteen",
-      "suggested_fix": "Replace “अपने ससुराल में से एक—जो चौदह वर्ष का था—को” with “अपने चौदह वर्षीय साले को”.",
-      "translation_quote": "नीरो ने अपने ससुराल में से एक—जो चौदह वर्ष का था—को मार दिया"
-    },
-    {
-      "location": "html, paragraph 8",
-      "severity": "major",
-      "source_quote": "to be trampled to death",
-      "suggested_fix": "Replace “कुचले जाएँ” with “कुचलकर मार दिए जाएँ”.",
-      "translation_quote": "चालक अपने रथ से बाहर फेंक दिए जाएँ और कुचले जाएँ"
-    },
-    {
-      "location": "html, paragraph 11",
-      "severity": "major",
-      "source_quote": "people who were despised and feared by the Romans",
-      "suggested_fix": "Use “ऐसे लोगों के समूह को चुना जिनसे रोमन घृणा करते थे और डरते थे”.",
-      "translation_quote": "एक ऐसे समूह को चुना जिन्हें रोमनों द्वारा घृणित और भयभीत समझा जाता था"
-    },
-    {
-      "location": "html, paragraph 11, Tacitus quotation",
-      "severity": "major",
-      "source_quote": "Nero fastened the guilt and inflicted the most exquisite tortures",
-      "suggested_fix": "Replace “नीरो ने उस अपराधबोध को थोप दिया और उनके ऊपर सर्वाधिक सूक्ष्म यातनाएँ कीं” with “नीरो ने उन पर दोष मढ़ दिया और उन्हें अत्यंत भीषण यातनाएँ दीं”.",
-      "translation_quote": "नीरो ने उस अपराधबोध को थोप दिया और उनके ऊपर सर्वाधिक सूक्ष्म यातनाएँ कीं"
-    },
-    {
-      "location": "html, paragraph 11, Tacitus quotation",
-      "severity": "major",
-      "source_quote": "were nailed to crosses, or were doomed to the flames and burnt",
-      "suggested_fix": "Use “उन्हें सलीबों पर कीलों से ठोक दिया गया, या आग में जलाकर मार डाला गया”.",
-      "translation_quote": "क्रॉस पर सलाखों से ठोक दिए गए, या उन्हें अग्नि में निहित कर दिया गया"
-    },
-    {
-      "location": "html, paragraph 12",
-      "severity": "major",
-      "source_quote": "He ruthlessly slaughtered Christian men, women, and children",
-      "suggested_fix": "Replace “निस्वार्थ रूप से” with “निर्दयतापूर्वक”.",
-      "translation_quote": "उसने निस्वार्थ रूप से क्रिश्चियन पुरुषों, महिलाओं और बच्चों का वध किया"
-    },
-    {
-      "location": "html, paragraph 15",
-      "severity": "major",
-      "source_quote": "to obey them in all possible aspects",
-      "suggested_fix": "Replace “जितना संभव हो उन्हें आज्ञा देने के लिए” with “हर संभव बात में उनकी आज्ञा मानने के लिए”.",
-      "translation_quote": "जितना संभव हो उन्हें आज्ञा देने के लिए"
-    },
-    {
-      "location": "html, paragraph 16",
-      "severity": "major",
-      "source_quote": "the earthly authorities are “ministers of God” to be honored and obeyed",
-      "suggested_fix": "Use “सांसारिक अधिकारी ‘परमेश्वर के सेवक’ हैं, जिनका सम्मान किया जाना चाहिए और जिनकी आज्ञा मानी जानी चाहिए”.",
-      "translation_quote": "सांसारिक अधिकारी \"परमेश्वर के सेवक\" हैं जिन्हें सम्मानित और आज्ञाकारी होना चाहिए"
-    },
-    {
-      "location": "html, paragraph 17",
-      "severity": "major",
-      "source_quote": "the unregenerate around us",
-      "suggested_fix": "Replace “अपने चारों ओर के अपवित्र लोगों” with “अपने चारों ओर के उन लोगों” and add “जिनका नया जन्म नहीं हुआ है” immediately after it.",
-      "translation_quote": "अपने चारों ओर के अपवित्र लोगों"
-    },
-    {
-      "location": "html, paragraph 1",
-      "severity": "minor",
-      "source_quote": "He was crowned ruler over one of the largest empires of the world at that time. The boy’s name was Nero Claudius Caesar Augustus Germanicus",
-      "suggested_fix": "Use “उस समय संसार के सबसे बड़े साम्राज्यों में से एक के शासक के रूप में उसका राज्याभिषेक हुआ था।” Also change “नरो” to “नीरो” in the full name.",
-      "translation_quote": "उसे उस समय की दुनिया में से एक सबसे बड़े साम्राज्यों पर शासक के रूप में राज्याभिषेक किया गया था। उस बालक का नाम नरो क्लॉडियस सीज़र ऑगस्टस जर्मानिकस था"
-    },
-    {
-      "location": "html, paragraph 4",
-      "severity": "minor",
-      "source_quote": "he had Octavia beheaded on false charges of being unfaithful",
-      "suggested_fix": "Use “उसने बेवफाई के झूठे आरोप लगाकर ऑक्टाविया का सिर कटवा दिया”.",
-      "translation_quote": "उसने ऑक्टाविया को बेवफाई के झूठे आरोपों पर सिर कटा दिया"
-    },
-    {
-      "location": "html, paragraph 5",
-      "severity": "minor",
-      "source_quote": "Undeterred",
-      "suggested_fix": "Replace “न निरुत्तर होकर” with “इस विफलता से विचलित हुए बिना”.",
-      "translation_quote": "न निरुत्तर होकर"
-    },
-    {
-      "location": "html, paragraph 6",
-      "severity": "minor",
-      "source_quote": "he soon started a hunt for anyone who looked like Sabina, his dead wife. He finally found a slave that is said to have resembled her strongly, and they were married. The catch?",
-      "suggested_fix": "Use “उसने जल्द ही अपनी मृत पत्नी साबीना जैसे दिखने वाले किसी व्यक्ति की तलाश शुरू कर दी। अंततः उसे एक दास मिला, जिसके बारे में कहा जाता है कि वह साबीना से बहुत मिलता-जुलता था, और दोनों का विवाह हो गया। लेकिन इसमें पेच क्या था?”",
-      "translation_quote": "उसने शीघ्र ही उस किसी को ढूँढने का शिकार शुरू कर दिया जो साबीना जैसा दिखता हो—उसकी मृत पत्नी। आखिरकार उसे एक दास मिला जो कथित तौर पर उसका बहुत मिलते-जुलते था, और वे शादी कर बैठे। पकड़ यह थी"
-    },
-    {
-      "location": "html, paragraph 6",
-      "severity": "minor",
-      "source_quote": "bringing them to tears for their perceived wrongdoings",
-      "suggested_fix": "Replace “उन्हें उनकी कथित गलतियों के कारण आँसू भिगो देगा” with “उन्हें उनकी कथित गलतियों पर रुला देगा”.",
-      "translation_quote": "उन्हें उनकी कथित गलतियों के कारण आँसू भिगो देगा"
-    },
-    {
-      "location": "html, paragraph 7",
-      "severity": "minor",
-      "source_quote": "new competitions",
-      "suggested_fix": "Change “नए प्रतियोगिताएँ” to “नई प्रतियोगिताएँ”.",
-      "translation_quote": "नए प्रतियोगिताएँ"
-    },
-    {
-      "location": "html, paragraph 13",
-      "severity": "minor",
-      "source_quote": "How did Christians respond to him?",
-      "suggested_fix": "Use “ईसाइयों ने उसके प्रति कैसी प्रतिक्रिया दी?” and preserve the source emphasis on the retrospective question with an <em> element.",
-      "translation_quote": "ईसाइयों ने उसकी प्रतिक्रिया कैसे दी?"
-    },
-    {
-      "location": "html, paragraph 15",
-      "severity": "minor",
-      "source_quote": "What a testimony!",
-      "suggested_fix": "Replace “क्या गवाहागार है!” with “क्या ही अद्भुत गवाही है!”",
-      "translation_quote": "क्या गवाहागार है!"
-    },
-    {
-      "location": "html, paragraph 17",
-      "severity": "minor",
-      "source_quote": "picking apart the faults of our earthly authorities",
-      "suggested_fix": "Replace “अपने सांसारिक अधिकारियों की कमियों को काटते-छाँटते हैं” with “अपने सांसारिक अधिकारियों की कमियों में मीनमेख निकालते हैं”.",
-      "translation_quote": "अपने सांसारिक अधिकारियों की कमियों को काटते-छाँटते हैं"
-    },
-    {
-      "location": "html, paragraph 20",
-      "severity": "minor",
-      "source_quote": "Endnote:",
-      "suggested_fix": "Replace “Endnote:” with “अंत टिप्पणी:”, retaining <br> and the URL unchanged.",
-      "translation_quote": "Endnote:"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-16T21:46:41+00:00",
   "id": "69f6bf4fd1788d79b5b1d9d03cedae87",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "hin",
@@ -295,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 59,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -314,7 +179,7 @@
     "total_reserved_usd": 0.761894,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
   "translation_model_actual": "gpt-6.1-sol"
