@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, citação de Isaías 11:2-4",
+      "severity": "major",
+      "source_quote": "And shall make him of quick understanding in the fear of the LORD",
+      "suggested_fix": "Restituir a ideia omitida na citação, por exemplo: “E o fará deleitar-se no temor do SENHOR” não corresponde ao original; usar uma formulação que expresse que ele terá entendimento aguçado no temor do SENHOR.",
+      "translation_quote": "e o seu prazer estará no temor do SENHOR"
+    },
+    {
+      "location": "HTML, citação de Isaías 42:1-4",
+      "severity": "major",
+      "source_quote": "He shall not cry, nor lift up, nor cause his voice to be heard in the street.",
+      "suggested_fix": "Substituir “não se exaltará” por uma expressão que indique que ele não levantará a voz, por exemplo: “Não clamará, não levantará a voz, nem fará ouvir a sua voz na rua.”",
+      "translation_quote": "Não clamará, não se exaltará, nem fará ouvir a sua voz na rua."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

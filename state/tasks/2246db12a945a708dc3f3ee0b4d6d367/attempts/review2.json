@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T17:23:00+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, citação de Isaías 11:2-4\",\"severity\":\"major\",\"source_quote\":\"And shall make him of quick understanding in the fear of the LORD\",\"suggested_fix\":\"Restituir a ideia omitida na citação, por exemplo: “E o fará deleitar-se no temor do SENHOR” não corresponde ao original; usar uma formulação que expresse que ele terá entendimento aguçado no temor do SENHOR.\",\"translation_quote\":\"e o seu prazer estará no temor do SENHOR\"},{\"location\":\"HTML, citação de Isaías 42:1-4\",\"severity\":\"major\",\"source_quote\":\"He shall not cry, nor lift up, nor cause his voice to be heard in the street.\",\"suggested_fix\":\"Substituir “não se exaltará” por uma expressão que indique que ele não levantará a voz, por exemplo: “Não clamará, não levantará a voz, nem fará ouvir a sua voz na rua.”\",\"translation_quote\":\"Não clamará, não se exaltará, nem fará ouvir a sua voz na rua.\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 978,
+    "content_evidence_truncated": false,
+    "content_sha256": "9e76bb64a92a464fc207b3da39b221aaf85176063805c03b0d5f696f9f8a9630",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 848,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 589,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8351,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7248,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9199
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

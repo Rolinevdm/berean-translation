@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "291a2b2b6cc649e9a89d6568811a0b87",
   "campaign": "auto-4642e025270c857bcc06e7a72cca3092662202f709ac4805feaf4e9b5c4be97b",
   "created_at": "2026-10-16T07:07:49+00:00",
   "events": [
@@ -68,25 +67,47 @@
         },
         "total_tokens": 11857
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Opening paragraph",
-      "severity": "major",
-      "source_quote": "“to be first of all doers”",
-      "suggested_fix": "Replace “cumpridores da lei” with “praticantes” (or “cumpridores da palavra”) to preserve the broader idea of being doers, rather than specifically law-observers.",
-      "translation_quote": "“a serem cumpridores da lei”"
     },
     {
-      "location": "Opening paragraph",
-      "severity": "minor",
-      "source_quote": "“first of all doers”",
-      "suggested_fix": "Replace “прежде de tudo” with “antes de tudo”.",
-      "translation_quote": "“прежде de tudo”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 848,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 589,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8351,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7248,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9199
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, citação de Isaías 11:2-4",
+      "severity": "major",
+      "source_quote": "And shall make him of quick understanding in the fear of the LORD",
+      "suggested_fix": "Restituir a ideia omitida na citação, por exemplo: “E o fará deleitar-se no temor do SENHOR” não corresponde ao original; usar uma formulação que expresse que ele terá entendimento aguçado no temor do SENHOR.",
+      "translation_quote": "e o seu prazer estará no temor do SENHOR"
+    },
+    {
+      "location": "HTML, citação de Isaías 42:1-4",
+      "severity": "major",
+      "source_quote": "He shall not cry, nor lift up, nor cause his voice to be heard in the street.",
+      "suggested_fix": "Substituir “não se exaltará” por uma expressão que indique que ele não levantará a voz, por exemplo: “Não clamará, não levantará a voz, nem fará ouvir a sua voz na rua.”",
+      "translation_quote": "Não clamará, não se exaltará, nem fará ouvir a sua voz na rua."
+    }
+  ],
+  "finished_at": "2026-10-16T17:23:00+00:00",
   "id": "2246db12a945a708dc3f3ee0b4d6d367",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "por",
@@ -195,7 +216,7 @@
     "total_reserved_usd": 0.089944,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ebe7ecab4743984d98acf839285c9c41a9c35b253dfb10d6a7c258ac09968d3c",
   "translation_model_actual": "gpt-6-luna"
