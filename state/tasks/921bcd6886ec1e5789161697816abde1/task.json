@@ -5,11 +5,110 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bd52e856723a4a54a0a361af8ec61a95",
   "campaign": "auto-063089d130b4d1dadc70737130a53b54a5fb496320b6dbfa6ce6aac5a66c00c0",
   "created_at": "2026-10-16T00:50:43+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1413,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 99,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7671,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7668,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9084
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html，第4段，马太福音14:25-27引文",
+      "severity": "major",
+      "source_quote": "And in the fourth watch of the night",
+      "suggested_fix": "将“到了夜间更迟的时候”改为“夜里四更天的时候”，保留原有标签和经文出处。",
+      "translation_quote": "到了夜间更迟的时候"
+    },
+    {
+      "location": "html，第11段，路加福音9:3引文",
+      "severity": "major",
+      "source_quote": "Take nothing for your journey, neither staves, nor scrip, neither bread, neither money",
+      "suggested_fix": "将“你们往路上，不要带钱囊，不要带行李，不要带饼，也不要带钱”改为“你们上路时，什么都不要带，不要带拐杖，不要带行囊，不要带饼，也不要带钱”。",
+      "translation_quote": "你们往路上，不要带钱囊，不要带行李，不要带饼，也不要带钱"
+    },
+    {
+      "location": "html，第11段及第13段，对信仰群体的称呼",
+      "severity": "major",
+      "source_quote": "our younger generation of Anabaptist youth; our Anabaptist communities",
+      "suggested_fix": "分别将“门诺派青年”和“门诺派群体”改为“再洗礼派青年”和“再洗礼派群体”，避免把原文较广的群体限缩为其中一个宗派。",
+      "translation_quote": "我们较年轻的一代门诺派青年；我们门诺派群体"
+    },
+    {
+      "location": "html，第13段",
+      "severity": "major",
+      "source_quote": "There are men in our Anabaptist communities who are experiencing moral defeat.",
+      "suggested_fix": "将“有人正经历属灵的挫败”改为“有些男子正在道德上遭遇失败”，保留该段对道德失败的明确论述。",
+      "translation_quote": "有人正经历属灵的挫败"
+    },
+    {
+      "location": "html，第22段，约翰福音1:1引文",
+      "severity": "major",
+      "source_quote": "In the beginning was the Word [Logos], and the Word [Logos], was with God, and the Word [Logos], was God",
+      "suggested_fix": "将引文改为“太初有道［Logos］，道［Logos］与神同在，道［Logos］就是神”，恢复原文解释“道”与Logos对应关系的三处标注。",
+      "translation_quote": "太初有道，道与神同在，道就是神"
+    },
+    {
+      "location": "html，第27段，马太福音17:20引文",
+      "severity": "major",
+      "source_quote": "ye shall say unto this mountain, Remove hence to yonder place; and it shall remove",
+      "suggested_fix": "将“就是对这座山说，你从这里移到那里，它也必服从你们”改为“你们就会对这座山说，从这里移到那里去，它就会移去”，明确保留山实际移动的应许，而非仅说山服从。",
+      "translation_quote": "就是对这座山说，你从这里移到那里，它也必服从你们"
+    },
+    {
+      "location": "html，第7段",
+      "severity": "minor",
+      "source_quote": "Take God at His Word.",
+      "suggested_fix": "将“按神的话算数”改为“相信神所说的话”。",
+      "translation_quote": "按神的话算数。"
+    },
+    {
+      "location": "html，第15段",
+      "severity": "minor",
+      "source_quote": "What we have left has no resemblance to the simple teachings of Jesus.",
+      "suggested_fix": "将该句改为“剩下的东西已与耶稣朴实的教导毫不相像”。“无异曲同工”不是规范表达，无法清楚传达原文的否定比较。",
+      "translation_quote": "剩下的东西已与耶稣的简单教导无异曲同工。"
+    },
+    {
+      "location": "html，第21段",
+      "severity": "minor",
+      "source_quote": "we lose power with God",
+      "suggested_fix": "将“我们就失去了与神的能力”改为“我们就失去了从神而来的能力”。",
+      "translation_quote": "我们就失去了与神的能力"
+    },
+    {
+      "location": "html，第34段",
+      "severity": "minor",
+      "source_quote": "We bear …one another’s burdens",
+      "suggested_fix": "将“我们担当<em>……彼此担当重担”改为“我们<em>……彼此担当重担”，保留其余引文及标签，消除重复的“担当”。",
+      "translation_quote": "我们担当<em>……彼此担当重担"
+    },
+    {
+      "location": "html，figure/img 的 alt 属性",
+      "severity": "minor",
+      "source_quote": "Lightning beneath dark storm clouds over a field",
+      "suggested_fix": "将alt属性改为“田野上空，黑压压的暴风云下划过闪电”。",
+      "translation_quote": "暴风雨下乌云下的田野上方的闪电"
+    }
+  ],
   "id": "921bcd6886ec1e5789161697816abde1",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "cmn",
@@ -98,11 +197,13 @@
     }
   },
   "protected": false,
+  "quality_score": 87,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/47641161e24a4c36535a9aad69db399a5b74987fc191a5346da200439748cac7.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +216,7 @@
     "total_reserved_usd": 0.744794,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "73de90ede959b89d4fd696b2e9474c165d018804ec574570e47ca5f30322f740",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

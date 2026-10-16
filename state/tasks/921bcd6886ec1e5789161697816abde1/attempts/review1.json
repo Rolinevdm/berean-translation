@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T00:59:07+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html，第4段，马太福音14:25-27引文\",\n      \"severity\": \"major\",\n      \"source_quote\": \"And in the fourth watch of the night\",\n      \"suggested_fix\": \"将“到了夜间更迟的时候”改为“夜里四更天的时候”，保留原有标签和经文出处。\",\n      \"translation_quote\": \"到了夜间更迟的时候\"\n    },\n    {\n      \"location\": \"html，第11段，路加福音9:3引文\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Take nothing for your journey, neither staves, nor scrip, neither bread, neither money\",\n      \"suggested_fix\": \"将“你们往路上，不要带钱囊，不要带行李，不要带饼，也不要带钱”改为“你们上路时，什么都不要带，不要带拐杖，不要带行囊，不要带饼，也不要带钱”。\",\n      \"translation_quote\": \"你们往路上，不要带钱囊，不要带行李，不要带饼，也不要带钱\"\n    },\n    {\n      \"location\": \"html，第11段及第13段，对信仰群体的称呼\",\n      \"severity\": \"major\",\n      \"source_quote\": \"our younger generation of Anabaptist youth; our Anabaptist communities\",\n      \"suggested_fix\": \"分别将“门诺派青年”和“门诺派群体”改为“再洗礼派青年”和“再洗礼派群体”，避免把原文较广的群体限缩为其中一个宗派。\",\n      \"translation_quote\": \"我们较年轻的一代门诺派青年；我们门诺派群体\"\n    },\n    {\n      \"location\": \"html，第13段\",\n      \"severity\": \"major\",\n      \"source_quote\": \"There are men in our Anabaptist communities who are experiencing moral defeat.\",\n      \"suggested_fix\": \"将“有人正经历属灵的挫败”改为“有些男子正在道德上遭遇失败”，保留该段对道德失败的明确论述。\",\n      \"translation_quote\": \"有人正经历属灵的挫败\"\n    },\n    {\n      \"location\": \"html，第22段，约翰福音1:1引文\",\n      \"severity\": \"major\",\n      \"source_quote\": \"In the beginning was the Word [Logos], and the Word [Logos], was with God, and the Word [Logos], was God\",\n      \"suggested_fix\": \"将引文改为“太初有道［Logos］，道［Logos］与神同在，道［Logos］就是神”，恢复原文解释“道”与Logos对应关系的三处标注。\",\n      \"translation_quote\": \"太初有道，道与神同在，道就是神\"\n    },\n    {\n      \"location\": \"html，第27段，马太福音17:20引文\",\n      \"severity\": \"major\",\n      \"source_quote\": \"ye shall say unto this mountain, Remove hence to yonder place; and it shall remove\",\n      \"suggested_fix\": \"将“就是对这座山说，你从这里移到那里，它也必服从你们”改为“你们就会对这座山说，从这里移到那里去，它就会移去”，明确保留山实际移动的应许，而非仅说山服从。\",\n      \"translation_quote\": \"就是对这座山说，你从这里移到那里，它也必服从你们\"\n    },\n    {\n      \"location\": \"html，第7段\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Take God at His Word.\",\n      \"suggested_fix\": \"将“按神的话算数”改为“相信神所说的话”。\",\n      \"translation_quote\": \"按神的话算数。\"\n    },\n    {\n      \"location\": \"html，第15段\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"What we have left has no resemblance to the simple teachings of Jesus.\",\n      \"suggested_fix\": \"将该句改为“剩下的东西已与耶稣朴实的教导毫不相像”。“无异曲同工”不是规范表达，无法清楚传达原文的否定比较。\",\n      \"translation_quote\": \"剩下的东西已与耶稣的简单教导无异曲同工。\"\n    },\n    {\n      \"location\": \"html，第21段\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"we lose power with God\",\n      \"suggested_fix\": \"将“我们就失去了与神的能力”改为“我们就失去了从神而来的能力”。\",\n      \"translation_quote\": \"我们就失去了与神的能力\"\n    },\n    {\n      \"location\": \"html，第34段\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"We bear …one another’s burdens\",\n      \"suggested_fix\": \"将“我们担当<em>……彼此担当重担”改为“我们<em>……彼此担当重担”，保留其余引文及标签，消除重复的“担当”。\",\n      \"translation_quote\": \"我们担当<em>……彼此担当重担\"\n    },\n    {\n      \"location\": \"html，figure/img 的 alt 属性\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Lightning beneath dark storm clouds over a field\",\n      \"suggested_fix\": \"将alt属性改为“田野上空，黑压压的暴风云下划过闪电”。\",\n      \"translation_quote\": \"暴风雨下乌云下的田野上方的闪电\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 87\n}",
+    "content_bytes": 4763,
+    "content_evidence_truncated": false,
+    "content_sha256": "6b221a071dbddf10b4fd1ff9fdd91113a41be7e4e2c8d00b5bb205f30b4abb50",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1413,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 99,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7671,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7668,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9084
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
