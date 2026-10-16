@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[28]: source /article[1]/p[13]/em[1] ('start', 'em', ()); translation /article[1]/p[13] ('end', 'p')",
       "task": "b9f4fd8341ce99aa8bbe41f064c6a587"
+    },
+    {
+      "at": "2026-10-16T18:28:44+00:00",
+      "campaign": "auto-1fa2d8db52a49883741ef74bade8869cd9e981366b13121eb054248e66120487",
+      "event": "automatic_requested",
+      "previous_task": "b9f4fd8341ce99aa8bbe41f064c6a587",
+      "task": "69f6bf4fd1788d79b5b1d9d03cedae87"
     }
   ],
   "language": "hin",
-  "latest_task": "b9f4fd8341ce99aa8bbe41f064c6a587",
+  "latest_task": "69f6bf4fd1788d79b5b1d9d03cedae87",
   "published": null
 }
