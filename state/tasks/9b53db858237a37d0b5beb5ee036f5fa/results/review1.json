@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9b383828-02c1-47f6-ac5b-77414e97970e",
+    "response_id": "chatcmpl-EZdsQ0YPcJ4RD8bfXT6d8902QyIm0",
+    "usage": {
+      "completion_tokens": 714,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 588,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1960,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 857,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2674
+    }
+  },
+  "received_at": "2026-10-16T17:23:02+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문 3단락",
+        "severity": "minor",
+        "source_quote": "Then, as one big wide chain, they all crossed the finish line together!",
+        "suggested_fix": "그러고는 모두 커다랗고 넓은 사슬처럼 손을 잡고 함께 결승선을 통과했습니다!",
+        "translation_quote": "그러고는 기다란 사슬처럼 한 줄로 함께 결승선을 통과했습니다!"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

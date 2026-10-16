@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T17:23:02+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"본문 3단락\",\"severity\":\"minor\",\"source_quote\":\"Then, as one big wide chain, they all crossed the finish line together!\",\"suggested_fix\":\"그러고는 모두 커다랗고 넓은 사슬처럼 손을 잡고 함께 결승선을 통과했습니다!\",\"translation_quote\":\"그러고는 기다란 사슬처럼 한 줄로 함께 결승선을 통과했습니다!\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 436,
+    "content_evidence_truncated": false,
+    "content_sha256": "640f77c6126c8b8de936c66f49a973c00cd1544ec33d178aa19f17e4f05bd483",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 714,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 588,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1960,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 857,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2674
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

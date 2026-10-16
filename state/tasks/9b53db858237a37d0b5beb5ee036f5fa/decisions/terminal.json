@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문 3단락",
+      "severity": "minor",
+      "source_quote": "Then, as one big wide chain, they all crossed the finish line together!",
+      "suggested_fix": "그러고는 모두 커다랗고 넓은 사슬처럼 손을 잡고 함께 결승선을 통과했습니다!",
+      "translation_quote": "그러고는 기다란 사슬처럼 한 줄로 함께 결승선을 통과했습니다!"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

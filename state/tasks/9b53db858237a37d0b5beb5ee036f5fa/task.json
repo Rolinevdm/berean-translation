@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6ce0a3a8a6af4fec80f6310a6cfea989",
   "campaign": "auto-4db38545da8f33a102e7527f98965cfcef514ec8716871a0af63039144270997",
   "created_at": "2026-10-16T12:25:38+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 1736
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 714,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 588,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1960,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 857,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2674
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "본문 3단락",
+      "severity": "minor",
+      "source_quote": "Then, as one big wide chain, they all crossed the finish line together!",
+      "suggested_fix": "그러고는 모두 커다랗고 넓은 사슬처럼 손을 잡고 함께 결승선을 통과했습니다!",
+      "translation_quote": "그러고는 기다란 사슬처럼 한 줄로 함께 결승선을 통과했습니다!"
+    }
+  ],
+  "finished_at": "2026-10-16T17:23:02+00:00",
   "id": "9b53db858237a37d0b5beb5ee036f5fa",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "kor",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/df98a90044feb15808124c86d5347d2c19ac8cd6875b43a422652bc28639f50f.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086026,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "51424ee7952870db762c92f8cc4762c4d3d30675a337f706178a0b0952521d05",
   "translation_model_actual": "gpt-6-luna"
