@@ -5,11 +5,180 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3f6c20dab3704b3893039d43ad29a98a",
   "campaign": "auto-0dd19945198996d790ac54dfe0dd542fc72ac1cfbf501e55a9362ba256a0d443",
   "created_at": "2026-10-16T05:11:19+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 3287,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 29,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6497,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5394,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9784
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, opening paragraph and hymn terminology throughout",
+      "severity": "major",
+      "source_quote": "This hymn ... this great and noteworthy hymn ... his last and greatest hymn",
+      "suggested_fix": "প্রথম অনুচ্ছেদে “এই ভূমিকাটি” বদলে “এই স্তবগানটি” এবং “সঙ্গীতগীতি” বদলে “স্তবগান” লিখুন। পরবর্তী অনুচ্ছেদগুলিতেও সম্পূর্ণ hymn বোঝাতে ব্যবহৃত “স্তবক” বদলে “স্তবগান” লিখুন; আটটি stanza বোঝাতে “আটটি স্তবক” অপরিবর্তিত রাখুন।",
+      "translation_quote": "এই ভূমিকাটি ... এই মহান ও দর্শনীয় সঙ্গীতগীতির ... তাঁর শেষ ও মহত্তম স্তবকের আটটি স্তবক"
+    },
+    {
+      "location": "html, paragraph 1, quoted maxim",
+      "severity": "major",
+      "source_quote": "It is better to wear out than to rust out.",
+      "suggested_fix": "উদ্ধৃতিটি করুন: “অব্যবহারে মরচে ধরার চেয়ে কাজে ক্ষয়ে যাওয়া ভালো।”",
+      "translation_quote": "ঝলসে যাওয়া ভাল—রস্ট হয়ে যাওয়ার চেয়ে।"
+    },
+    {
+      "location": "html, paragraph 2, vocation",
+      "severity": "major",
+      "source_quote": "he became a minister of the gospel of Jesus Christ",
+      "suggested_fix": "লিখুন: “তিনি যীশু খ্রীষ্টের সুসমাচারের একজন পরিচারক হয়ে ওঠেন।”",
+      "translation_quote": "তিনি যীশু খ্রীষ্টের সুশাসনের একজন প্রভাষক হয়ে উঠেন"
+    },
+    {
+      "location": "html, paragraph 3, conversion account",
+      "severity": "major",
+      "source_quote": "groping for the light ... searched for truth and assurance of salvation",
+      "suggested_fix": "“আলোর জন্য হাতাপাত করা” বদলে “আলোর সন্ধানে হাতড়ানো” এবং “ত্রাণ এবং ত্রাণের আশ্বাস” বদলে “সত্য ও পরিত্রাণের নিশ্চয়তা” লিখুন।",
+      "translation_quote": "আলোর জন্য হাতাপাত করা ... ত্রাণ এবং ত্রাণের আশ্বাস"
+    },
+    {
+      "location": "html, paragraph 3, bedside encounter and parish ministry",
+      "severity": "major",
+      "source_quote": "his encounter with God ... the poor fishing people and the rough seafaring men",
+      "suggested_fix": "“그의” বদলে “তাঁর” লিখুন এবং সংশ্লিষ্ট জনগোষ্ঠীকে “দরিদ্র মৎস্যজীবী এবং সেই অঞ্চলের রুক্ষ স্বভাবের নাবিকদের” বলুন।",
+      "translation_quote": "ঈশ্বরের সঙ্গে 그의 সাক্ষাৎ ... গরিব মাছ ধরার মানুষদের এবং সেই অঞ্চলের কটোর সাগরতরবার মানুষদের"
+    },
+    {
+      "location": "html, paragraph 5, final preaching",
+      "severity": "major",
+      "source_quote": "preach once more to his congregation ... nearly had to crawl to the pulpit and his message came as from a dying man",
+      "suggested_fix": "লিখুন: “তাঁর মণ্ডলীর কাছে আর একবার প্রচার করার”; উদ্ধৃত অংশটি করুন: “লাইটকে প্রায় হামাগুড়ি দিয়ে প্রচারবেদিতে উঠতে হয়েছিল, এবং তাঁর বার্তা যেন এক মরণাপন্ন মানুষের মুখ থেকে আসছিল।”",
+      "translation_quote": "তাঁর উপদেশপর্বে প্রচার করার ... প্রায় খুঁকে খুঁকে বক্তৃতা কলেসনের দিকে গিয়েছিলেন এবং তার বার্তা মৃত্যুযাগী ব্যক্তির ভাষ্যরূপে এলো"
+    },
+    {
+      "location": "html, paragraph 5, final address",
+      "severity": "major",
+      "source_quote": "I stand here among you today, as alive from the dead ... by a timely appreciation and dependance on the death of Christ",
+      "suggested_fix": "উদ্ধৃত বাক্যটি করুন: “আমি আজ তোমাদের মাঝে দাঁড়িয়ে আছি যেন মৃতদের মধ্য থেকে জীবিত হয়ে এসেছি; আশা করি, খ্রীষ্টের মৃত্যুর তাৎপর্য যথাসময়ে উপলব্ধি করে এবং তার ওপর নির্ভর করে তোমরা যেন সেই গম্ভীর মুহূর্তের জন্য প্রস্তুত হও, যা সকলের কাছেই আসবে—এই কথা তোমাদের মনে গভীরভাবে গেঁথে দিতে ও তোমাদের প্রস্তুত হতে উদ্বুদ্ধ করতে পারব।”",
+      "translation_quote": "আমি আজ তোমাদের মাঝে এখানে তোমাদের মৃতদের মধ্যে জীবিতেরূপে দাঁড়িয়ে আছি ... খ্রীষ্টের মৃত্যুর প্রতি সময়োপযোগী কৃতজ্ঞতা এবং নির্ভরতার দ্বারা"
+    },
+    {
+      "location": "html, paragraph 5, conclusion of service",
+      "severity": "major",
+      "source_quote": "made a deep impact upon his congregation ... administering the Lord’s Supper to his weeping people",
+      "suggested_fix": "লিখুন: “তাঁর মণ্ডলীর ওপর গভীর প্রভাব ফেলে; এরপর তিনি তাঁর অশ্রুসজল মণ্ডলীর সদস্যদের প্রভুর ভোজ পরিবেশন করে উপাসনা শেষ করেন।”",
+      "translation_quote": "তাঁর উপাসনালয়কে গভীরভাবে প্রভাবিত করে ... কাতর জনসমষ্টিকে প্রভুর উপাসনা দান করে"
+    },
+    {
+      "location": "html, poem stanza 3, lines 1, 3–4",
+      "severity": "major",
+      "source_quote": "Not a brief glance I beg, a passing word ... Familiar, condescending, patient, free, / Come, not to sojourn, but abide, with me.",
+      "suggested_fix": "বিদ্যমান <br> বজায় রেখে সংশ্লিষ্ট পঙ্‌ক্তিগুলি করুন: “ক্ষণিকের দৃষ্টি বা দু-একটি কথা আমি চাই না;”; “অন্তরঙ্গ, নত হয়ে কাছে আসা, ধৈর্যশীল, অকুণ্ঠ;”; “এসো, সাময়িক অতিথি হয়ে নয়, আমার সঙ্গে স্থায়ীভাবে থাকো।”",
+      "translation_quote": "একটি সংক্ষিপ্ত দৃষ্টি আমি না চাই, একটি অপ্রাসঙ্গিক শব্দ নয় ... সঙ্গতিপূর্ণ, নম্র, ধৈর্যশীল, মুক্ত ... অবকাশ গ্রাহকেরূপে নয়"
+    },
+    {
+      "location": "html, poem stanza 4, lines 1 and 3",
+      "severity": "major",
+      "source_quote": "Come not in terrors ... a heart for every plea",
+      "suggested_fix": "“ভয়ের সঙ্গে এসো না” বদলে “ভয় জাগিয়ে এসো না” এবং “প্রতিটি আর্তনারীর জন্য একটি হৃদয়” বদলে “প্রতিটি আর্তিতে সাড়া দেওয়ার হৃদয়” লিখুন।",
+      "translation_quote": "ভয়ের সঙ্গে এসো না ... প্রতিটি আর্তনারীর জন্য একটি হৃদয়"
+    },
+    {
+      "location": "html, poem stanza 5, lines 1–2",
+      "severity": "major",
+      "source_quote": "Thou on my head in early youth didst smile; / And, though rebellious and perverse meanwhile",
+      "suggested_fix": "পঙ্‌ক্তি দুটি করুন: “শৈশব-যৌবনের শুরুতে তুমি আমার প্রতি প্রসন্ন হয়েছিলে;<br> আর সেই সময় আমি বিদ্রোহী ও অবাধ্য হলেও,”",
+      "translation_quote": "তুমি আমার কপালে প্রথম যৌবনে হাসিয়েছিলে; / এবং, যদিও মাঝে মাঝে বিদ্রোহী ও অনুচিত থাকি"
+    },
+    {
+      "location": "html, poem stanza 6, line 2",
+      "severity": "major",
+      "source_quote": "What but Thy grace can foil the tempter’s power?",
+      "suggested_fix": "লিখুন: “তোমার অনুগ্রহ ছাড়া আর কী প্রলোভনকারীর শক্তিকে ব্যর্থ করতে পারে?”",
+      "translation_quote": "প্রলোভনকারীর শক্তিকে ছাপাতে তোমার অনুগ্রহ ছাড়া আর কী আছে?"
+    },
+    {
+      "location": "html, poem stanza 7, line 1",
+      "severity": "major",
+      "source_quote": "I fear no foe, with Thee at hand to bless",
+      "suggested_fix": "লিখুন: “আশীর্বাদ দিতে তুমি পাশে থাকলে আমি কোনো শত্রুকে ভয় করি না।”",
+      "translation_quote": "তোমার কাছেই আশীর্বাদ পেতে থাকলে আমি কোনো শত্রুকে ভয় করি না"
+    },
+    {
+      "location": "html, paragraph following poem, journey and age at death",
+      "severity": "major",
+      "source_quote": "he began his trek to Rome, Italy ... He passed away soon after the age of 55",
+      "suggested_fix": "“হাঁটতে থাকেন” বদলে “যাত্রা শুরু করেন” লিখুন, কারণ যাতায়াতের মাধ্যম বলা নেই। বয়সের অংশটি করুন: “পঞ্চান্ন বছর বয়স হওয়ার অল্প পরেই ... মারা যান”; উৎসের মুদ্রিত বয়স বজায় রাখুন।",
+      "translation_quote": "রোম, ইটালি যাওয়ার পথে হাঁটতে থাকেন ... পঞ্চাশি বা পঞ্চান্নের আশেপাশে"
+    },
+    {
+      "location": "html, Emmaus paragraph, Scripture quotation",
+      "severity": "major",
+      "source_quote": "…made as though he would have gone further. But they constrained him ... the day is far spent ... –Luke 24:28-29.",
+      "suggested_fix": "<em> অক্ষুণ্ণ রেখে লিখুন: “…এমন ভাব করলেন যেন তিনি আরও দূরে যাবেন। কিন্তু তারা তাঁকে পীড়াপীড়ি করে বলল, আমাদের সঙ্গে থাকুন; কারণ সন্ধ্যা হয়ে আসছে, আর দিন প্রায় শেষ। তখন তিনি তাদের সঙ্গে থাকার জন্য ভিতরে গেলেন –লূক ২৪:২৮-২৯।”",
+      "translation_quote": "…তাঁরা যেন তিনি আরও দূর যাবেন বলিয়া করিলেন; কিন্তু তারা তাঁকে আটক করিয়া বলিল ... দিন ব্যস্ত্ত হয়েছে ... –Luke 24:28-29."
+    },
+    {
+      "location": "html, paragraph following Emmaus account",
+      "severity": "major",
+      "source_quote": "the disciples besought the risen Lord ... so was the meaning of this song written in the “shadows of death” to the hymn writer",
+      "suggested_fix": "শেষ বাক্যটি করুন: “সেই প্রাচীন দিনের শেষে শিষ্যেরা যেমন পুনরুত্থিত প্রভুকে তাঁদের সঙ্গে থাকতে মিনতি করেছিলেন, তেমনি ‘মৃত্যুর ছায়ায়’ লেখা এই গানটির অর্থও রচয়িতার কাছে ছিল প্রভুকে তাঁর সঙ্গে থাকার মিনতি।”",
+      "translation_quote": "উদীয়মান প্রভুকে ... তেমনি এই গানটি লেখকের ‘মৃত্যুর ছায়ায়’ লিখিত অর্থটি ছিল"
+    },
+    {
+      "location": "html, concluding summary",
+      "severity": "major",
+      "source_quote": "to touch and minister the Gospel to those poor people among whom he lived",
+      "suggested_fix": "লিখুন: “যে দরিদ্র মানুষদের মধ্যে তিনি বাস করতেন, তাদের জীবন স্পর্শ করতে এবং তাদের কাছে সুসমাচার পৌঁছে দিতে।”",
+      "translation_quote": "তিনি তাদের স্পর্শ করে জীবদ্দশায় সুসমাচার প্রচার করেছিলেন, যাদের মাঝে তিনি বাস করতেন"
+    },
+    {
+      "location": "html, image alt attribute",
+      "severity": "minor",
+      "source_quote": "Sheet music for Abide With Me, Fast Falls the Eventide, credited to Henry F. Lyte, 1847, and William H. Monk, 1861",
+      "suggested_fix": "অন্যান্য attributes অক্ষুণ্ণ রেখে alt করুন: “আমার সঙ্গে থাকো, দ্রুত সন্ধ্যা নামে গানের স্বরলিপি; কৃতিত্ব: হেনরি এফ. লাইট, ১৮৪৭, এবং উইলিয়াম এইচ. মনক, ১৮৬১”। পিয়ানো-নির্দিষ্ট পরিচয় যোগ করবেন না।",
+      "translation_quote": "Abide With Me-এর পিয়ানো স্কোর, Abide With Me, Fast Falls the Eventide, ক্রেডিট: Henry F. Lyte, 1847, এবং William H. Monk, 1861"
+    },
+    {
+      "location": "html, reference list labels",
+      "severity": "minor",
+      "source_quote": "Author- ... Composer- ... Tune Name",
+      "suggested_fix": "গ্রন্থশিরোনাম ও পরিচয়গুলি রেখে লেবেলগুলি যথাক্রমে “রচয়িতা—”, “সুরকার—”, এবং “সুরের নাম—” করুন।",
+      "translation_quote": "Author- ... Composer- ... Tune Name"
+    },
+    {
+      "location": "html, prose paragraphs 2, 4 and concluding summary",
+      "severity": "minor",
+      "source_quote": "great and noteworthy ... Toward the end of these later years ... Both of his parents died at an early age",
+      "suggested_fix": "“দর্শনীয়” বদলে “উল্লেখযোগ্য”, “এই শেষ বছরের দিকে” বদলে “জীবনের শেষ দিকের সেই বছরগুলির অন্তিম পর্বে”, এবং “কালে আগে” বদলে “অল্প বয়সে” লিখুন।",
+      "translation_quote": "মহান ও দর্শনীয় ... এই শেষ বছরের দিকে ... কালে আগে মারা যান"
+    },
+    {
+      "location": "html, poem stanzas 1, 2 and 6",
+      "severity": "minor",
+      "source_quote": "comforts flee ... Swift to its close ebbs out life’s little day ... I need Thy presence every passing hour",
+      "suggested_fix": "সংশ্লিষ্ট অংশগুলি করুন: “সান্ত্বনা দূরে সরে যায়”; “জীবনের ক্ষুদ্র দিন দ্রুত ফুরিয়ে আসে”; “প্রতি মুহূর্তে আমার তোমার উপস্থিতি প্রয়োজন”।",
+      "translation_quote": "শোকনিয়ত সান্ত্বনা পালায় ... জীবনের ক্ষুদ্র দিন দ্রুত শেষের দিকে স্রোতায় বন্ধ হয়ে যায় ... আমি প্রতি পলেই তোমার উপস্থিতি প্রয়োজন"
+    }
+  ],
   "id": "379cbf143ead9fea697a8e1e69d73e7b",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ben",
@@ -98,11 +267,13 @@
     }
   },
   "protected": false,
+  "quality_score": 54,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/4edc62ec40603cbb629a5274f380a8df79d2ef113be92eb5013535a57f3d95a9.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +286,7 @@
     "total_reserved_usd": 0.752498,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
