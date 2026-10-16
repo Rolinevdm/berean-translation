@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0a487fbd-a83d-4335-b2ba-2bdf79b15f19",
+    "response_id": "chatcmpl-EZZ6KVUBwWbrTATyvcvZ4nyjvds1S",
+    "usage": {
+      "completion_tokens": 385,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1169,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1166,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1554
+    }
+  },
+  "received_at": "2026-10-16T12:23:49+00:00",
+  "result": {
+    "html": "<article data-article-id=\"0862fd6d-7c62-456c-8b3f-abb513f498ce\">\n  <p class=\"drop-cap\">发令枪一响，所有参赛者都朝着终点线跑去。当然，他们没有普通高中生选手跑得那么快。事实上，由于他们身有残疾，速度慢得甚至能一边前进一边互相交谈。</p>\n\n  <p>在到达终点约四分之三的路程时，发生了一件事。苏西摔倒了，膝盖擦破了皮。因为疼，她开始哭起来。就在她身旁的卡尔停下来，和蔼地安慰她。所有落在她后面的人赶上来时，也都停下来表示慰问。有人还向前面的人喊话，告诉他们发生了什么事。因为其他人并没有领先太远，他们听见后面的人呼喊，便也回来陪着苏西。</p>\n\n  <p>过了一会儿，她感觉好些了，两位朋友扶她站了起来。接着，站在她身旁、扶着她双臂的朋友们说：“我们会帮你到达终点。”其他人也都说：“我们也会！”这时，大家手牵着手，沿着跑道慢慢向前，配合着一瘸一拐的苏西的步伐。然后，他们像一条宽阔的大链子一样，一起冲过了终点线！~作者不详</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "携手跑完全程"
+  }
+}
