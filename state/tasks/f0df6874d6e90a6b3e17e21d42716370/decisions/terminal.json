@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Primer párrafo",
+      "severity": "minor",
+      "source_quote": "all of the contestants started toward the finish line",
+      "suggested_fix": "todos los participantes se dirigieron hacia la meta",
+      "translation_quote": "todos los participantes echaron a correr hacia la meta"
+    },
+    {
+      "location": "Tercer párrafo",
+      "severity": "minor",
+      "source_quote": "as one big wide chain",
+      "suggested_fix": "formando una cadena grande y ancha",
+      "translation_quote": "formando una gran cadena"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

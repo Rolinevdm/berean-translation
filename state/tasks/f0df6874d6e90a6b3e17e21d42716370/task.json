@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f379a1253d68493584ee5c697a40a6b3",
   "campaign": "auto-677f87a2500aeb6b4fc816a6d628327d1efb62273a52689c6a0346f31743e308",
   "created_at": "2026-10-16T09:57:39+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 1641
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 503,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 377,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1908,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1905,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2411
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Primer párrafo",
+      "severity": "minor",
+      "source_quote": "all of the contestants started toward the finish line",
+      "suggested_fix": "todos los participantes se dirigieron hacia la meta",
+      "translation_quote": "todos los participantes echaron a correr hacia la meta"
+    },
+    {
+      "location": "Tercer párrafo",
+      "severity": "minor",
+      "source_quote": "as one big wide chain",
+      "suggested_fix": "formando una cadena grande y ancha",
+      "translation_quote": "formando una gran cadena"
+    }
+  ],
+  "finished_at": "2026-10-16T14:45:09+00:00",
   "id": "f0df6874d6e90a6b3e17e21d42716370",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "spa",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/393a3d72bb106a65206f494098143b3570c6174f7c38dffeeb59656cdd73d5ca.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.08603,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "51424ee7952870db762c92f8cc4762c4d3d30675a337f706178a0b0952521d05",
   "translation_model_actual": "gpt-6-luna"

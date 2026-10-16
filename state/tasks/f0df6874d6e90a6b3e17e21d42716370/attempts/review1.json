@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T14:45:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Primer párrafo\",\"severity\":\"minor\",\"source_quote\":\"all of the contestants started toward the finish line\",\"suggested_fix\":\"todos los participantes se dirigieron hacia la meta\",\"translation_quote\":\"todos los participantes echaron a correr hacia la meta\"},{\"location\":\"Tercer párrafo\",\"severity\":\"minor\",\"source_quote\":\"as one big wide chain\",\"suggested_fix\":\"formando una cadena grande y ancha\",\"translation_quote\":\"formando una gran cadena\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 521,
+    "content_evidence_truncated": false,
+    "content_sha256": "2619651a10a0fcf52f3aba8c541971395d52ac0222815214dccd78e10a03bf66",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 377,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1908,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1905,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2411
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
