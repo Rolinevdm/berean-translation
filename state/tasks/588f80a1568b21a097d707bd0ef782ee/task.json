@@ -5,10 +5,31 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "20ad70824d054d13bcd3f791becc61be",
   "campaign": "auto-1a01a023f1e6f220bec134d9971997e36da1c01034a6a164d7022488d12648d8",
   "created_at": "2026-10-16T23:32:37+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4662,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 50,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9922,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8887,
+          "cached_tokens": 1032
+        },
+        "total_tokens": 14584
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [
     {
       "location": "Article paragraph beginning « J’ai ensuite lu dans le livre »",
@@ -110,7 +131,7 @@
   "review_attempts": 0,
   "review_model": "gpt-6.1-sol",
   "source_snapshot": "state/sources/75f9676114485607d4245f45ddd8ed267298fb3872c8b59d66918b2cfc3ba747.json",
-  "stage": "correct",
+  "stage": "review2",
   "stage_budget": {
     "initial_stage": "correct",
     "max_candidate_bytes": 120000,
@@ -122,8 +143,8 @@
     "total_reserved_usd": 0.598753,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "12ecac15cfbc01dc73c6465f6e9b62b72e07659904a3aab7621b587b0c2472e4",
-  "translation_model_actual": "gpt-6-luna"
+  "translation_model_actual": "gpt-6.1-sol"
 }
