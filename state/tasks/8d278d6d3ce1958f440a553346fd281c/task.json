@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a578f19739a44351abd78238577e0e97",
   "campaign": "auto-40d5456ce635fc34d968b578b8b19a03927a18750c3108b5d01f5d51c5176bd3",
   "created_at": "2026-10-15T22:41:09+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 1373
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 606,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 436,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1727,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 624,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2333
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, item 2",
+      "severity": "major",
+      "source_quote": "“(tongues, psalms and hymns and spiritual songs)” presents two choices: “tongues” or the grouped phrase “psalms and hymns and spiritual songs.”",
+      "suggested_fix": "Make the two options explicit, for example: “(bahasa roh, atau mazmur, puji-pujian, dan nyanyian rohani).”",
+      "translation_quote": "“(bahasa roh, mazmur, puji-pujian, dan nyanyian rohani)” can be read as four separate options rather than two choices, with the final three grouped together."
+    }
+  ],
   "id": "8d278d6d3ce1958f440a553346fd281c",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ind",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b52cae92dba5c0038500aa2cb0b458e354355c425a782d1bbfa6462c70c62c43.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.085844,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "edeb1684f5d35fe34dce6fbf9c36a5e5078746a5cf2e829997532dddb8448a70",
   "translation_model_actual": "gpt-6-luna"

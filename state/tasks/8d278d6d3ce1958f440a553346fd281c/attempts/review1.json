@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T01:13:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, item 2\",\"severity\":\"major\",\"source_quote\":\"“(tongues, psalms and hymns and spiritual songs)” presents two choices: “tongues” or the grouped phrase “psalms and hymns and spiritual songs.”\",\"suggested_fix\":\"Make the two options explicit, for example: “(bahasa roh, atau mazmur, puji-pujian, dan nyanyian rohani).”\",\"translation_quote\":\"“(bahasa roh, mazmur, puji-pujian, dan nyanyian rohani)” can be read as four separate options rather than two choices, with the final three grouped together.\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 598,
+    "content_evidence_truncated": false,
+    "content_sha256": "b3b9f377cb7977f04235e161f91c759df0048b3e5bd3a4cccb65a4c3ec55e0e3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 606,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 436,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1727,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 624,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2333
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
