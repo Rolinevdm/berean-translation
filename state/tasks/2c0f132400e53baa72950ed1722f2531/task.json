@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d322477e77044a8a92c4e1575aab8101",
   "campaign": "auto-746f41bcf54bfdda5a098fb3aef5d57b31d1478797301c26507148f5c6209a46",
   "created_at": "2026-10-16T09:58:09+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 1631
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 519,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 406,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1985,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 882,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2504
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Running the Race Together",
+      "suggested_fix": "একসঙ্গে দৌড়",
+      "translation_quote": "একসঙ্গে দৌড়ের শেষ প্রান্তে"
+    },
+    {
+      "location": "শেষ অনুচ্ছেদ",
+      "severity": "minor",
+      "source_quote": "holding her arms",
+      "suggested_fix": "তার বাহু ধরে থাকা",
+      "translation_quote": "তার দুই হাত ধরে থাকা"
+    }
+  ],
+  "finished_at": "2026-10-16T18:27:49+00:00",
   "id": "2c0f132400e53baa72950ed1722f2531",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ben",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/393a3d72bb106a65206f494098143b3570c6174f7c38dffeeb59656cdd73d5ca.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.086024,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "51424ee7952870db762c92f8cc4762c4d3d30675a337f706178a0b0952521d05",
   "translation_model_actual": "gpt-6-luna"

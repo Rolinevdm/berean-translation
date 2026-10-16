@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Running the Race Together",
+      "suggested_fix": "একসঙ্গে দৌড়",
+      "translation_quote": "একসঙ্গে দৌড়ের শেষ প্রান্তে"
+    },
+    {
+      "location": "শেষ অনুচ্ছেদ",
+      "severity": "minor",
+      "source_quote": "holding her arms",
+      "suggested_fix": "তার বাহু ধরে থাকা",
+      "translation_quote": "তার দুই হাত ধরে থাকা"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

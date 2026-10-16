@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2abf663e-7c5b-4154-bfd0-d8dd479caef3",
+    "response_id": "chatcmpl-EZg3NsSMlGY6GL3gEpVmdkgaT4F3h",
+    "usage": {
+      "completion_tokens": 519,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 406,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1985,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 882,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2504
+    }
+  },
+  "received_at": "2026-10-16T18:27:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "Running the Race Together",
+        "suggested_fix": "একসঙ্গে দৌড়",
+        "translation_quote": "একসঙ্গে দৌড়ের শেষ প্রান্তে"
+      },
+      {
+        "location": "শেষ অনুচ্ছেদ",
+        "severity": "minor",
+        "source_quote": "holding her arms",
+        "suggested_fix": "তার বাহু ধরে থাকা",
+        "translation_quote": "তার দুই হাত ধরে থাকা"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

@@ -7,9 +7,32 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "2c0f132400e53baa72950ed1722f2531"
+    },
+    {
+      "at": "2026-10-16T18:27:49+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "2c0f132400e53baa72950ed1722f2531"
     }
   ],
   "language": "ben",
   "latest_task": "2c0f132400e53baa72950ed1722f2531",
-  "published": null
+  "published": {
+    "html_path": "content/ben/articles/0862fd6d-7c62-456c-8b3f-abb513f498ce.html",
+    "html_sha256": "0583336b6c9ed3663425a83d1f2f01f42e22b705c7beb8e11de73e9121058732",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+    "metadata_path": "content/ben/articles/0862fd6d-7c62-456c-8b3f-abb513f498ce.json",
+    "metadata_sha256": "75ea919ecc4b4573789953d05bb15179752441e8d26a1108299130d310386c18",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"bn\" dir=\"ltr\" role=\"note\">\n  <p>এই নিবন্ধটি OpenAI (মডেল: gpt-6-luna) ব্যবহার করে কৃত্রিম বুদ্ধিমত্তার মাধ্যমে অনূদিত হয়েছে এবং এখনও কোনো মানুষের দ্বারা পর্যালোচিত হয়নি। মূল ইংরেজি পাঠই প্রামাণ্য সংস্করণ। অর্থ নিয়ে কোনো সংশয় থাকলে অনুগ্রহ করে মূল ইংরেজি পাঠ দেখুন। <a href=\"/en/articles/0862fd6d-7c62-456c-8b3f-abb513f498ce/\" data-source-article-id=\"0862fd6d-7c62-456c-8b3f-abb513f498ce\" hreflang=\"en\">মূল ইংরেজি পাঠ</a></p>\n</aside>",
+    "published_at": "2026-10-16T18:27:49+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-6-luna",
+    "source_revision": "3d1306fdbe7c27df169272e63581f0d265ce07df",
+    "source_snapshot": "state/sources/393a3d72bb106a65206f494098143b3570c6174f7c38dffeeb59656cdd73d5ca.json",
+    "task": "2c0f132400e53baa72950ed1722f2531",
+    "translation_key": "51424ee7952870db762c92f8cc4762c4d3d30675a337f706178a0b0952521d05"
+  }
 }

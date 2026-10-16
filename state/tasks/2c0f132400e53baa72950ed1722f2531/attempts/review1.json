@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T18:27:49+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"title\",\"severity\":\"minor\",\"source_quote\":\"Running the Race Together\",\"suggested_fix\":\"একসঙ্গে দৌড়\",\"translation_quote\":\"একসঙ্গে দৌড়ের শেষ প্রান্তে\"},{\"location\":\"শেষ অনুচ্ছেদ\",\"severity\":\"minor\",\"source_quote\":\"holding her arms\",\"suggested_fix\":\"তার বাহু ধরে থাকা\",\"translation_quote\":\"তার দুই হাত ধরে থাকা\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 540,
+    "content_evidence_truncated": false,
+    "content_sha256": "1deddc1623b5f3a2cb0391fd44b1948675fdf94d74cbe72b115f77ba44583924",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 519,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 406,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1985,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 882,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2504
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
