@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f80c07fd1fbe4726832487f34d41cead",
   "campaign": "auto-26699e924c1abc84676519fa29c373897d7c2b5a30efcda5fed6af16e954aefc",
   "created_at": "2026-10-16T01:14:41+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 13813
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1083,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 851,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14116,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13013,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 15199
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning «لكن، آه! من يستطيع إقناع الغني...»",
+      "severity": "major",
+      "source_quote": "“if I have done any wrong to any man, I restore fourfold.”",
+      "suggested_fix": "استبدل «وإن كنت قد وشيت بأحد» بـ«وإن كنت قد ظلمت أحدًا في شيء، أردّه إليه أربعة أضعاف».",
+      "translation_quote": "«وإن كنت قد وشيت بأحد أرد أربعة أضعاف»"
+    },
+    {
+      "location": "Paragraph beginning «دعوني أضيف كلمة أخرى...»",
+      "severity": "major",
+      "source_quote": "“O may you ‘awake up after His likeness, and be satisfied with it!’”",
+      "suggested_fix": "اجعل الدعاء موجّهًا للمخاطَبين، مثل: «عسى أن تستيقظوا على شبهه وتشبعوا به!»",
+      "translation_quote": "«عسى أن أستيقظ بعد شبهه وأشبع»"
+    }
+  ],
   "id": "36852f2026ddbbfac3bd2313a3f37543",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ara",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5e2252ac02ddb599c2244c7baf344430c19411d77f300bbb67e2aa0df85be7ef.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.129245,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "8d7f7210e0a149932ebfe132fd8b73952eaaa5a22998215dd9873c6b2ebbdac8",
   "translation_model_actual": "gpt-6-luna"

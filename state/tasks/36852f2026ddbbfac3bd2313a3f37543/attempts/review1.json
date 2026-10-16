@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T07:05:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning «لكن، آه! من يستطيع إقناع الغني...»\",\"severity\":\"major\",\"source_quote\":\"“if I have done any wrong to any man, I restore fourfold.”\",\"suggested_fix\":\"استبدل «وإن كنت قد وشيت بأحد» بـ«وإن كنت قد ظلمت أحدًا في شيء، أردّه إليه أربعة أضعاف».\",\"translation_quote\":\"«وإن كنت قد وشيت بأحد أرد أربعة أضعاف»\"},{\"location\":\"Paragraph beginning «دعوني أضيف كلمة أخرى...»\",\"severity\":\"major\",\"source_quote\":\"“O may you ‘awake up after His likeness, and be satisfied with it!’”\",\"suggested_fix\":\"اجعل الدعاء موجّهًا للمخاطَبين، مثل: «عسى أن تستيقظوا على شبهه وتشبعوا به!»\",\"translation_quote\":\"«عسى أن أستيقظ بعد شبهه وأشبع»\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 956,
+    "content_evidence_truncated": false,
+    "content_sha256": "9c482995d1678db998011006ead1998e9da4136167b1c4b35c4e73b90839168b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1083,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 851,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14116,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13013,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15199
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
