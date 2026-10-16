@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2781f5277dd5440f9260519fe28c17f4",
   "campaign": "auto-155883b8d3b45c035dc2fdd90a83994946411dd20a0073f6b7131ec7f16eaeee",
   "created_at": "2026-10-16T17:24:13+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 14076
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 76,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 44,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9311,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9308,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9387
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article body, paragraph beginning “Our Lord commended the Ephesian church”",
-      "severity": "major",
-      "source_quote": "“In 1 Corinthians 14:29 he taught that the other prophets should judge a teaching that is given.”",
-      "suggested_fix": "“১ করিন্থীয় ১৪:২৯ পদে তিনি শিক্ষা দিয়েছিলেন যে অন্য ভাববাদীদের প্রদত্ত শিক্ষার বিচার করা উচিত।”",
-      "translation_quote": "“১ করিন্থীয় ১৪:২৯ পদে তিনি শিক্ষা দিয়েছিলেন যে প্রদত্ত শিক্ষা অন্য ভাববাদীদের বিচার করা উচিত।”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-16T18:36:46+00:00",
   "id": "e9def2b92190a8ecf33ab8d20a89307d",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ben",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/853829817c594e913db9172b83f3d85350277207444d1e9e3988b6e2e627e940.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.607077,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ebe7ecab4743984d98acf839285c9c41a9c35b253dfb10d6a7c258ac09968d3c",
   "translation_model_actual": "gpt-6.1-sol"
