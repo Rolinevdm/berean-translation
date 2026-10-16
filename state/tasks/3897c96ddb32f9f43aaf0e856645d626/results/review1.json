@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "407eeb24-8bd2-4e44-af45-dee1460ea1d5",
+    "response_id": "chatcmpl-EZZ3gmQ0hGnOGBfXc83aE1Nhfrpsr",
+    "usage": {
+      "completion_tokens": 907,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 632,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10144,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10141,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11051
+    }
+  },
+  "received_at": "2026-10-16T12:23:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Isaiah 11:2-4 quotation",
+        "severity": "major",
+        "source_quote": "“And shall make him of quick understanding in the fear of the LORD”",
+        "suggested_fix": "Αντικαταστήστε το «και θα τον κάνει να ευφραίνεται στον φόβο του Κυρίου» με διατύπωση που αποδίδει ότι θα έχει οξεία αντίληψη/κατανόηση στον φόβο του Κυρίου, π.χ. «και θα τον κάνει να έχει οξεία αντίληψη στον φόβο του Κυρίου».",
+        "translation_quote": "«και θα τον κάνει να ευφραίνεται στον φόβο του Κυρίου»"
+      },
+      {
+        "location": "Romans 14:10-13 quotation",
+        "severity": "major",
+        "source_quote": "“every tongue shall confess to God”",
+        "suggested_fix": "Αντικαταστήστε το «και κάθε γλώσσα θα δοξολογήσει τον Θεό» με «και κάθε γλώσσα θα ομολογήσει στον Θεό».",
+        "translation_quote": "«και κάθε γλώσσα θα δοξολογήσει τον Θεό»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

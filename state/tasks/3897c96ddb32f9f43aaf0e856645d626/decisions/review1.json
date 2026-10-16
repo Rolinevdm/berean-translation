@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Isaiah 11:2-4 quotation",
+      "severity": "major",
+      "source_quote": "“And shall make him of quick understanding in the fear of the LORD”",
+      "suggested_fix": "Αντικαταστήστε το «και θα τον κάνει να ευφραίνεται στον φόβο του Κυρίου» με διατύπωση που αποδίδει ότι θα έχει οξεία αντίληψη/κατανόηση στον φόβο του Κυρίου, π.χ. «και θα τον κάνει να έχει οξεία αντίληψη στον φόβο του Κυρίου».",
+      "translation_quote": "«και θα τον κάνει να ευφραίνεται στον φόβο του Κυρίου»"
+    },
+    {
+      "location": "Romans 14:10-13 quotation",
+      "severity": "major",
+      "source_quote": "“every tongue shall confess to God”",
+      "suggested_fix": "Αντικαταστήστε το «και κάθε γλώσσα θα δοξολογήσει τον Θεό» με «και κάθε γλώσσα θα ομολογήσει στον Θεό».",
+      "translation_quote": "«και κάθε γλώσσα θα δοξολογήσει τον Θεό»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "61b1be19e57a401fbc54dbb34c9758ac",
   "campaign": "auto-3c548c760fec9c26deb35bc556fc3b22aa31e9a611231a2e15bf5d0930a5001c",
   "created_at": "2026-10-16T07:07:26+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 9835
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 907,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 632,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10144,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10141,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11051
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Isaiah 11:2-4 quotation",
+      "severity": "major",
+      "source_quote": "“And shall make him of quick understanding in the fear of the LORD”",
+      "suggested_fix": "Αντικαταστήστε το «και θα τον κάνει να ευφραίνεται στον φόβο του Κυρίου» με διατύπωση που αποδίδει ότι θα έχει οξεία αντίληψη/κατανόηση στον φόβο του Κυρίου, π.χ. «και θα τον κάνει να έχει οξεία αντίληψη στον φόβο του Κυρίου».",
+      "translation_quote": "«και θα τον κάνει να ευφραίνεται στον φόβο του Κυρίου»"
+    },
+    {
+      "location": "Romans 14:10-13 quotation",
+      "severity": "major",
+      "source_quote": "“every tongue shall confess to God”",
+      "suggested_fix": "Αντικαταστήστε το «και κάθε γλώσσα θα δοξολογήσει τον Θεό» με «και κάθε γλώσσα θα ομολογήσει στον Θεό».",
+      "translation_quote": "«και κάθε γλώσσα θα δοξολογήσει τον Θεό»"
+    }
+  ],
   "id": "3897c96ddb32f9f43aaf0e856645d626",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ell",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/853829817c594e913db9172b83f3d85350277207444d1e9e3988b6e2e627e940.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.089933,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ebe7ecab4743984d98acf839285c9c41a9c35b253dfb10d6a7c258ac09968d3c",
   "translation_model_actual": "gpt-6-luna"
