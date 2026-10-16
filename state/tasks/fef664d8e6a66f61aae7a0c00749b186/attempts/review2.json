@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T23:31:37+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Romans 14:10-13 quotation\",\"severity\":\"major\",\"source_quote\":\"“we shall all stand before the judgment seat of Christ.”\",\"suggested_fix\":\"Replace «Guds domstol» with «Kristi domstol» to preserve the stated identity.\",\"translation_quote\":\"«Vi skal jo alle stå fram for Guds domstol.»\"},{\"location\":\"Isaiah 59:8-15 quotation, bolded phrase\",\"severity\":\"major\",\"source_quote\":\"“speaking oppression and revolt”\",\"suggested_fix\":\"Replace «talt undertrykkende ord og gjort opprør» with «talt undertrykkende og opprørske ord».\",\"translation_quote\":\"«talt undertrykkende ord og gjort opprør»\"},{\"location\":\"Paragraph beginning “Det er ikke mulig å rette undertrykkende ord”\",\"severity\":\"minor\",\"source_quote\":\"“as obedient doers in God’s kingdom”\",\"suggested_fix\":\"Replace «lydige tjenere» with «lydige ordets gjørere» to retain the source’s emphasis on doing.\",\"translation_quote\":\"«lydige tjenere i Guds rike»\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1027,
+    "content_evidence_truncated": false,
+    "content_sha256": "f458909e0298e248b438d129cce1222796baba4fa83cf736bf97ec91bbda7eb5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1100,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 819,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8722,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7619,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9822
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

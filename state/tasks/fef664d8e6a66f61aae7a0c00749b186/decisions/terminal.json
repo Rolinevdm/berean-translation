@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Romans 14:10-13 quotation",
+      "severity": "major",
+      "source_quote": "“we shall all stand before the judgment seat of Christ.”",
+      "suggested_fix": "Replace «Guds domstol» with «Kristi domstol» to preserve the stated identity.",
+      "translation_quote": "«Vi skal jo alle stå fram for Guds domstol.»"
+    },
+    {
+      "location": "Isaiah 59:8-15 quotation, bolded phrase",
+      "severity": "major",
+      "source_quote": "“speaking oppression and revolt”",
+      "suggested_fix": "Replace «talt undertrykkende ord og gjort opprør» with «talt undertrykkende og opprørske ord».",
+      "translation_quote": "«talt undertrykkende ord og gjort opprør»"
+    },
+    {
+      "location": "Paragraph beginning “Det er ikke mulig å rette undertrykkende ord”",
+      "severity": "minor",
+      "source_quote": "“as obedient doers in God’s kingdom”",
+      "suggested_fix": "Replace «lydige tjenere» with «lydige ordets gjørere» to retain the source’s emphasis on doing.",
+      "translation_quote": "«lydige tjenere i Guds rike»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
