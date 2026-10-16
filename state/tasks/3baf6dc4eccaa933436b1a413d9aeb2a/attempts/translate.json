@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T23:31:32+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"cac00fd8-ab2b-4033-92c7-bef44b4341db\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg\\\" alt=\\\"ساحل کے قریب چٹانوں کے پاس سے گزرتا ہوا ایک بادبانی جہاز۔\\\">\\n  </figure>\\n  <p>ایک کپتان سے ایک بار پوچھا گیا کہ کیا وہ ساحل کے ساتھ موجود تمام چٹانوں کو جانتا ہے۔ اُس نے کہا، ”نہیں، تمام چٹانوں کو جاننا ضروری نہیں، بس محفوظ گزرگاہ کا علم ہونا چاہیے۔“</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"تمام چٹانیں\"}",
+    "content_bytes": 692,
+    "content_evidence_truncated": false,
+    "content_sha256": "705a52c9c630b3666cb068e0dd7422f601373d81189b0aa65b2d1fbbcc9cc1b4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 197,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 960,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1157
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
