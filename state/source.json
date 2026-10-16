@@ -7521,7 +7521,7 @@
     "7700e13c-f4c7-4e5f-9258-9b024ceec66f": {
       "fingerprints": {
         "html_sha256": "a3f151b7d9fa543f9481cdc1b4cb971854ec0f486fdf489959ecdd0859c879c2",
-        "metadata_sha256": "6f517b4d86d06956ce688f383b858e34c6a9cdfc08e1bb61eadb49e8a3761c09",
+        "metadata_sha256": "732cc88fc5562b96c1b1b2067425ba33f1ae9cd9cf1302c28c35d4e45e312a4d",
         "structure_sha256": "1cd8c97808d2bbddf8fec8360f3caa8bdf84f45ff6c2cc1b70643d6db5b4bc30",
         "text_sha256": "aee95ada1ef790c1ee49dfe6969a46a217a18823949342588d0e3e8cbaf9c0aa",
         "translation_metadata_sha256": "3d5345cc0056146c77389d799c13838e6453d327c2340bc56e365945dd05923f"
@@ -7856,17 +7856,17 @@
     },
     "7a66963a-8f7e-4083-bed3-227b354fae1b": {
       "fingerprints": {
-        "html_sha256": "5b7865760b7217daa3cd6cadccaa1e6d1141eec0d620af0d2084c57c83dbb55c",
-        "metadata_sha256": "be3fec22866a64a374fc1ab35bf63939851d4869c931fe7ebd1df13f0df8e93d",
-        "structure_sha256": "4c7849e6625a0f6b620c9c1ce8afa26b97c5696035b11cf227da088ddaa19db9",
+        "html_sha256": "e65c76c0d3aba3e855e93c1f32fa9aea59c60d24de9cd1fb9b6ceb980b3337b3",
+        "metadata_sha256": "f7a96edff61fb706ee0066ffb8313604d7874ebf36922ffe2d4731192f3c1c3c",
+        "structure_sha256": "f4846e5b6ae4de172de8193fb25ebc375c142e6589a6fd151f068e5170daccd5",
         "text_sha256": "35e33a0781d8eba45d6e30c8354b2a20a5523d25e942babc6be9cd62b746ebae",
-        "translation_metadata_sha256": "2a0da9ff2b12148a09d9174b966d90bfdb2f46408db2266e1fc0ffac7d068903"
+        "translation_metadata_sha256": "27c368a426c188b846343d6146f542c4e5d21994bde7354e620ea3fbd7dd7f61"
       },
       "id": "7a66963a-8f7e-4083-bed3-227b354fae1b",
       "issue_id": "5a267233-b126-4092-a82b-2cd2ed4884af",
       "sequence": 13,
       "title": "They Crucified God",
-      "translation_key": "5e27fe26b8aea2ff850fb2c35684a77dffc46f16e769b62c240a8920d201a891"
+      "translation_key": "a62fa8e01b0980a89877ff1409f540737ba89ecd5ad2b60164c6ec41328d3eae"
     },
     "7af6dfb2-a389-40eb-807b-682e81454dff": {
       "fingerprints": {
@@ -8039,7 +8039,7 @@
     "7ce3bf43-b279-45a5-9805-11db5429a89e": {
       "fingerprints": {
         "html_sha256": "814fc53e45a00956bc20c42998286fbc2e425b6c9c96bf560d016eb60c0b15d0",
-        "metadata_sha256": "e7d6aeecfe74fd0f52e41b92616a96af71ce0544b449fb99bc16a8c93938d03f",
+        "metadata_sha256": "927077c4a173838cab2d27aae73d32ec109c4f512082799b26269b9b56f901cd",
         "structure_sha256": "e0cb2b8093abe91d6bd8170a202f733b5925693ef24ba56969be926d5879d696",
         "text_sha256": "fe02ba81795c2a4e41b89f091115cb215ffa78ba90a427d8266fc1b8d763cddc",
         "translation_metadata_sha256": "2ff3b5a1e7cd187e1fe4745b5145ab9e3a74687bc3a3f023f6d69a5515458a74"
@@ -12547,7 +12547,7 @@
     "c5617ec5-baa3-4f52-afcb-1905afe9d335": {
       "fingerprints": {
         "html_sha256": "30ba4a1dbb55bb3b95c54b3257251444971297ca1fb51a0d47f4331227f6acdb",
-        "metadata_sha256": "a4f9a8ad4b7c4388d85d92bd99494254508744fe75034c6f0f1f10d84694f098",
+        "metadata_sha256": "ebc675087cf1bf2247a863f5c9af1f154bf9bf25c1ab8a6782c8329df7fdbaad",
         "structure_sha256": "ba96858f7602521c1fa435c4e5303105c4848770db40d45fcc136155d1f057d9",
         "text_sha256": "8c58b703a366d9985083e4cacc6d5c534d3a823db9490ffb5fd5bcd0f9c9952d",
         "translation_metadata_sha256": "c0030298a7a1decb447df129433ae0c48e62e748ebedb7d5a7365bd04c794b7f"
@@ -13849,7 +13849,7 @@
     "d850e482-29b8-4e51-87a3-669504525ad2": {
       "fingerprints": {
         "html_sha256": "8b8535b9601210e5030ac1cec7048f9a66343082145be4fb9dc11b856d6bbd75",
-        "metadata_sha256": "4b6f614971a73d9ece87f667a016e1f9438cd0f74e7d9675990467beca307c74",
+        "metadata_sha256": "fefce203f96bfe00d8c2cbba4d5e828296abc6f41d04d5f27b06acebecaa890c",
         "structure_sha256": "adaea9317f643e30d45cb0aa5e09333e64d2d8a7a80935e24076133ee9ef0a83",
         "text_sha256": "92b20fd30d9a4ca7446dc5a0f3c505de9c1080facdcfc9b355f438b942bd8aeb",
         "translation_metadata_sha256": "3288e94f2b4191e050b5255bc5bd2409c3d53c291dc2e1ae6a723ee0184ff15f"
@@ -16353,7 +16353,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "feb92eb88982e8e15937e82fef5d03ad3b99c900975b477111a59a9def8c3f50",
+  "content_sha256": "edf1fe7b7fb2b6bb1b8b4db8b6822006f18c47d7bbfb5225835bb08df2f4f783",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17769,5 +17769,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "4c7b25b348edeeef4eb5f9d22a221d06f0d80f02"
+  "revision": "3d1306fdbe7c27df169272e63581f0d265ce07df"
 }
