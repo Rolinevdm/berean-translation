@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph 3",
+      "severity": "minor",
+      "source_quote": "the friends standing beside her and holding her arms",
+      "suggested_fix": "Replace «την κρατούσαν από τα χέρια» with «την κρατούσαν από τα μπράτσα» to preserve that they were holding her arms.",
+      "translation_quote": "οι φίλοι που στέκονταν δίπλα της και την κρατούσαν από τα χέρια"
+    },
+    {
+      "location": "Article paragraph 3",
+      "severity": "minor",
+      "source_quote": "keeping pace with limping Suzie",
+      "suggested_fix": "Correct «κουτσαινε» to «κούτσαινε».",
+      "translation_quote": "ακολουθώντας τον ρυθμό της Σούζι, που κουτσαινε"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

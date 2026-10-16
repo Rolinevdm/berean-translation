@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T20:59:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"the friends standing beside her and holding her arms\",\"suggested_fix\":\"Replace «την κρατούσαν από τα χέρια» with «την κρατούσαν από τα μπράτσα» to preserve that they were holding her arms.\",\"translation_quote\":\"οι φίλοι που στέκονταν δίπλα της και την κρατούσαν από τα χέρια\"},{\"location\":\"Article paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"keeping pace with limping Suzie\",\"suggested_fix\":\"Correct «κουτσαινε» to «κούτσαινε».\",\"translation_quote\":\"ακολουθώντας τον ρυθμό της Σούζι, που κουτσαινε\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 801,
+    "content_evidence_truncated": false,
+    "content_sha256": "53e2f9d0c5c2029c9e1df9ee24c832e452b909bc4bf342105bc6cf41632316c6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 529,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 343,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2122,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2119,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2651
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

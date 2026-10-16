@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9ba87279f2f64ba4874c32091322d89e",
   "campaign": "auto-720d0a3b229c73852456e99dd6bbf5f0f55df5e5687f320b71142297f5b31c76",
   "created_at": "2026-10-16T12:26:05+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 1768
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 529,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 343,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2122,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2119,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2651
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Article paragraph 3",
+      "severity": "minor",
+      "source_quote": "the friends standing beside her and holding her arms",
+      "suggested_fix": "Replace «την κρατούσαν από τα χέρια» with «την κρατούσαν από τα μπράτσα» to preserve that they were holding her arms.",
+      "translation_quote": "οι φίλοι που στέκονταν δίπλα της και την κρατούσαν από τα χέρια"
+    },
+    {
+      "location": "Article paragraph 3",
+      "severity": "minor",
+      "source_quote": "keeping pace with limping Suzie",
+      "suggested_fix": "Correct «κουτσαινε» to «κούτσαινε».",
+      "translation_quote": "ακολουθώντας τον ρυθμό της Σούζι, που κουτσαινε"
+    }
+  ],
+  "finished_at": "2026-10-16T20:59:09+00:00",
   "id": "5dd78c72564ca340916d0ab3255dfbf6",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ell",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/df98a90044feb15808124c86d5347d2c19ac8cd6875b43a422652bc28639f50f.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.086025,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "51424ee7952870db762c92f8cc4762c4d3d30675a337f706178a0b0952521d05",
   "translation_model_actual": "gpt-6-luna"
