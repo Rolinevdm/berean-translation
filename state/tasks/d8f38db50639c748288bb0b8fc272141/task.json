@@ -5,11 +5,61 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "618e2e01d58b4ebb947ab33f7a23a462",
   "campaign": "auto-22ca0bd00c6f843d84c944a5db2988104932eb383551dc477d42a615a2c4257f",
   "created_at": "2026-10-16T12:24:48+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 793,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 57,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8497,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8494,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9290
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: цитата Матфея 6:31-34 в разделе «Заключительные мысли»",
+      "severity": "major",
+      "source_quote": "Therefore take no thought, saying, What shall we eat? or, What shall we drink? or, Wherewithal shall we be clothed? ... But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you. Take therefore no thought for the morrow...",
+      "suggested_fix": "Восстановить полную цитату внутри существующего тега <em>: «Итак не заботьтесь и не говорите: что нам есть? или что пить? или во что одеться? Ведь всего этого ищут язычники, а Отец ваш Небесный знает, что вы нуждаетесь во всём этом. Но ищите прежде Царства Божьего и праведности Его, и всё это будет дано вам. Итак не заботьтесь о завтрашнем дне, ибо завтрашний день сам будет заботиться о своём; довольно для каждого дня своего зла — Матфея 6:31-34.»",
+      "translation_quote": "Итак не заботьтесь о завтрашнем дне, ибо завтрашний день сам будет заботиться о своём; достаточно для каждого дня своей заботы — Матфея 6:31-34."
+    },
+    {
+      "location": "html: второй абзац раздела «Причины мутаций…»",
+      "severity": "major",
+      "source_quote": "men lived to be very old—often into their 900s",
+      "suggested_fix": "Заменить «часто по нескольку сотен лет (вплоть до 900 лет)» на «часто доживая до девятисот с лишним лет».",
+      "translation_quote": "люди жили очень долго — часто по нескольку сотен лет (вплоть до 900 лет)"
+    },
+    {
+      "location": "html: абзац о классификации рака кожи",
+      "severity": "minor",
+      "source_quote": "basal cell carcinoma, squamous cell carcinoma, and melanoma ... Basal cell carcinoma and squamous cell carcinoma",
+      "suggested_fix": "Исправить названия на «базальноклеточную карциному, плоскоклеточную карциному и меланому», а в следующем предложении — на «Базальноклеточная и плоскоклеточная карциномы».",
+      "translation_quote": "базально‑клеточный карцином, плоскоклеточный карцином и меланому ... Базально‑клеточный и плоскоклеточный карциномы"
+    },
+    {
+      "location": "html: вводный абзац с анонсом второй части",
+      "severity": "minor",
+      "source_quote": "In the second part (in the next issue)",
+      "suggested_fix": "Заменить «В второй части» на «Во второй части».",
+      "translation_quote": "В второй части (в следующем номере)"
+    }
+  ],
   "id": "d8f38db50639c748288bb0b8fc272141",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "rus",
@@ -98,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/c359f5eb7511bee303f2540e716a2b918a181459a9c7bd95ec949a6df55470c5.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +167,7 @@
     "total_reserved_usd": 0.78483,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

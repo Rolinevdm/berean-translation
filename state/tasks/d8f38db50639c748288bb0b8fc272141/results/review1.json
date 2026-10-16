@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "c79fec97-01be-412c-bc3d-eb8108d2955a",
+    "response_id": "chatcmpl-EZbLFhtgv0GEdHqaCj4aEZWyFRo2D",
+    "usage": {
+      "completion_tokens": 793,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 57,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8497,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8494,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9290
+    }
+  },
+  "received_at": "2026-10-16T14:44:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: цитата Матфея 6:31-34 в разделе «Заключительные мысли»",
+        "severity": "major",
+        "source_quote": "Therefore take no thought, saying, What shall we eat? or, What shall we drink? or, Wherewithal shall we be clothed? ... But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you. Take therefore no thought for the morrow...",
+        "suggested_fix": "Восстановить полную цитату внутри существующего тега <em>: «Итак не заботьтесь и не говорите: что нам есть? или что пить? или во что одеться? Ведь всего этого ищут язычники, а Отец ваш Небесный знает, что вы нуждаетесь во всём этом. Но ищите прежде Царства Божьего и праведности Его, и всё это будет дано вам. Итак не заботьтесь о завтрашнем дне, ибо завтрашний день сам будет заботиться о своём; довольно для каждого дня своего зла — Матфея 6:31-34.»",
+        "translation_quote": "Итак не заботьтесь о завтрашнем дне, ибо завтрашний день сам будет заботиться о своём; достаточно для каждого дня своей заботы — Матфея 6:31-34."
+      },
+      {
+        "location": "html: второй абзац раздела «Причины мутаций…»",
+        "severity": "major",
+        "source_quote": "men lived to be very old—often into their 900s",
+        "suggested_fix": "Заменить «часто по нескольку сотен лет (вплоть до 900 лет)» на «часто доживая до девятисот с лишним лет».",
+        "translation_quote": "люди жили очень долго — часто по нескольку сотен лет (вплоть до 900 лет)"
+      },
+      {
+        "location": "html: абзац о классификации рака кожи",
+        "severity": "minor",
+        "source_quote": "basal cell carcinoma, squamous cell carcinoma, and melanoma ... Basal cell carcinoma and squamous cell carcinoma",
+        "suggested_fix": "Исправить названия на «базальноклеточную карциному, плоскоклеточную карциному и меланому», а в следующем предложении — на «Базальноклеточная и плоскоклеточная карциномы».",
+        "translation_quote": "базально‑клеточный карцином, плоскоклеточный карцином и меланому ... Базально‑клеточный и плоскоклеточный карциномы"
+      },
+      {
+        "location": "html: вводный абзац с анонсом второй части",
+        "severity": "minor",
+        "source_quote": "In the second part (in the next issue)",
+        "suggested_fix": "Заменить «В второй части» на «Во второй части».",
+        "translation_quote": "В второй части (в следующем номере)"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 89
+  }
+}
