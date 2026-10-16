@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2c172012f564473ba40573e1aa822e76",
   "campaign": "auto-5cb904e2f76a74b7976e251821fdacd4962c94daa1603f1ca363108b593c329f",
   "created_at": "2026-10-16T09:57:25+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 1554
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 501,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 382,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1908,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 805,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2409
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "第三段，末句",
+      "severity": "minor",
+      "source_quote": "they all crossed the finish line together",
+      "suggested_fix": "将“一起冲过了终点线”改为“一起越过了终点线”，避免“冲过”暗示他们加速冲刺。",
+      "translation_quote": "他们像一条宽阔的大链子一样，一起冲过了终点线！"
+    }
+  ],
+  "finished_at": "2026-10-16T14:45:06+00:00",
   "id": "be49e2dc88575c17b04d7c8edeb0e5f0",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "cmn",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/393a3d72bb106a65206f494098143b3570c6174f7c38dffeeb59656cdd73d5ca.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086031,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "51424ee7952870db762c92f8cc4762c4d3d30675a337f706178a0b0952521d05",
   "translation_model_actual": "gpt-6-luna"
