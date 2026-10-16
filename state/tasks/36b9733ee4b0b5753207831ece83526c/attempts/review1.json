@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T23:31:44+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"About ¾ of the way to the goal\",\"suggested_fix\":\"כשהיו בערך בשלושת רבעי הדרך אל היעד\",\"translation_quote\":\"כשהיו במרחק של כשלושה רבעים מהיעד\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 326,
+    "content_evidence_truncated": false,
+    "content_sha256": "568e099dacc59efbc39df84a0f291fde82590a2fe75050f757c17dc0b60baf7f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 568,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 472,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1939,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 836,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2507
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

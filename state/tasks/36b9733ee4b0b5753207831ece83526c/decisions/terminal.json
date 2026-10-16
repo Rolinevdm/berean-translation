@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "minor",
+      "source_quote": "About ¾ of the way to the goal",
+      "suggested_fix": "כשהיו בערך בשלושת רבעי הדרך אל היעד",
+      "translation_quote": "כשהיו במרחק של כשלושה רבעים מהיעד"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
