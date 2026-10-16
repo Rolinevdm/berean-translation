@@ -11290,6 +11290,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/d38bf79f-957f-413c-ad4d-a6b4fa8c8112.html",
+      "html_sha256": "97a5314f07c233e284bdaac785aedc9075332e6a05aeaf46740da9b21852de9d",
+      "human_reviewed": false,
+      "id": "d38bf79f-957f-413c-ad4d-a6b4fa8c8112",
+      "images": [],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/d38bf79f-957f-413c-ad4d-a6b4fa8c8112.json",
+      "metadata_sha256": "063322ee317fac3195478767748804567f969087a4ca1a77a4c905025c4a6e81",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "একজন চিকিৎসকের কথা",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ক্যান্সার… এটি কী?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd.html",
       "html_sha256": "a9e01d2851d2e877820182b8a8992d7c9582e4c17e48ee368d584135dd7160e2",
       "human_reviewed": false,
@@ -33700,6 +33723,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "परमेश्वर की राजकुमारी",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0.html",
+      "html_sha256": "d551d2c5c792ab2f10c0ff9b51e90aa2c0b449c2d0b85e86f6c2b92271420910",
+      "human_reviewed": false,
+      "id": "f896076d-76e2-4e42-8532-6cb2a3c029f0",
+      "images": [
+        {
+          "alt": "एक घोड़ा दो पहियों वाली गाड़ी खींच रहा है, जिसे एक आदमी चला रहा है।",
+          "public_path": "/images/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0-1.jpg"
+        },
+        {
+          "alt": "दो आदमी किताबों वाली मेज़ के पास बैठे हैं।",
+          "public_path": "/images/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0-2.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0.json",
+      "metadata_sha256": "fe5b46f8aa90a11eb949e80d9bff0ca47cfeeeae3defcb5eb4dcf01af13c075a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "704a06895ec026dd5c3a74902250c8b07ed74728",
+      "source_translation_key": "12ecac15cfbc01dc73c6465f6e9b62b72e07659904a3aab7621b587b0c2472e4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "व्यक्तिगत गवाही",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -60243,6 +60298,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Resgatando o batismo do Espírito Santo do pentecostalismo",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0.html",
+      "html_sha256": "06600c4472d4f28ab45efddac2fbaa63f92c445c213e9a2df791e6b5a9719936",
+      "human_reviewed": false,
+      "id": "f896076d-76e2-4e42-8532-6cb2a3c029f0",
+      "images": [
+        {
+          "alt": "Um cavalo puxando uma carruagem de duas rodas conduzida por um homem.",
+          "public_path": "/images/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0-1.jpg"
+        },
+        {
+          "alt": "Dois homens sentados junto a uma mesa com livros.",
+          "public_path": "/images/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0-2.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0.json",
+      "metadata_sha256": "3f94923915f1c48832aea3237cde7b30f3e6b86d9de2960fdd938518ad0fd62d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "704a06895ec026dd5c3a74902250c8b07ed74728",
+      "source_translation_key": "12ecac15cfbc01dc73c6465f6e9b62b72e07659904a3aab7621b587b0c2472e4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "O testemunho pessoal",
       "translation_model": "gpt-6-luna"
     },
     {
