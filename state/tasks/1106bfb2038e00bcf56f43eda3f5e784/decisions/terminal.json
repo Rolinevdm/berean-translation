@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph citing Hebrews 12:12–13",
+      "severity": "minor",
+      "source_quote": "“so that the lame would be healed rather than turned away”",
+      "suggested_fix": "“저는 다리가 길에서 벗어나지 않고 오히려 고침을 받게 하라”",
+      "translation_quote": "“저는 다리가 어그러지지 않고 고침을 받게 하라고 부르신다”"
+    },
+    {
+      "location": "HTML, quotation of 1 Corinthians 1:10",
+      "severity": "minor",
+      "source_quote": "“in the same mind and in the same judgment”",
+      "suggested_fix": "“같은 마음과 같은 판단으로 온전히 합하라”",
+      "translation_quote": "“같은 마음과 같은 뜻으로 온전히 합하라”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

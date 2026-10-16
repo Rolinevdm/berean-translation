@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "804fdce36cde4c25894f83cbb7a1168a",
   "campaign": "auto-0c3d79bf95e7fb838f77aebf08fd269d80654b38489d767edc45b56bea5dd8d7",
   "created_at": "2026-10-16T07:07:01+00:00",
   "events": [
@@ -68,18 +67,46 @@
         },
         "total_tokens": 13147
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1043,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 845,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9020,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9017,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10063
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "본문, 이사야 59:8-15 인용문",
-      "severity": "major",
-      "source_quote": "we are in desolate places as dead men.",
-      "suggested_fix": "그 구절을 “황폐한 곳에서 죽은 자와 같도다”로 고치세요.",
-      "translation_quote": "강한 자 중에서도 죽은 자와 같도다."
+      "location": "HTML, paragraph citing Hebrews 12:12–13",
+      "severity": "minor",
+      "source_quote": "“so that the lame would be healed rather than turned away”",
+      "suggested_fix": "“저는 다리가 길에서 벗어나지 않고 오히려 고침을 받게 하라”",
+      "translation_quote": "“저는 다리가 어그러지지 않고 고침을 받게 하라고 부르신다”"
+    },
+    {
+      "location": "HTML, quotation of 1 Corinthians 1:10",
+      "severity": "minor",
+      "source_quote": "“in the same mind and in the same judgment”",
+      "suggested_fix": "“같은 마음과 같은 판단으로 온전히 합하라”",
+      "translation_quote": "“같은 마음과 같은 뜻으로 온전히 합하라”"
     }
   ],
+  "finished_at": "2026-10-16T14:54:08+00:00",
   "id": "1106bfb2038e00bcf56f43eda3f5e784",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "kor",
@@ -168,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +215,7 @@
     "total_reserved_usd": 0.089935,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ebe7ecab4743984d98acf839285c9c41a9c35b253dfb10d6a7c258ac09968d3c",
   "translation_model_actual": "gpt-6-luna"
