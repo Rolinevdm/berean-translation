@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Introduction, second paragraph",
+      "severity": "major",
+      "source_quote": "We are speaking of the baptism of the Holy Ghost and its captor, Pentecostalism.",
+      "suggested_fix": "Replace “dess fångvaktare” with “dess tillfångatagare” to preserve the source’s meaning that Pentecostalism has taken the doctrine captive.",
+      "translation_quote": "Vi talar om den helige Andes dop och dess fångvaktare, pingströrelsen."
+    },
+    {
+      "location": "Grace!, paragraph beginning “Now I am sure that Hans…”",
+      "severity": "major",
+      "source_quote": "For example, “For by the Holy Spirit are ye saved, through faith …” Ep. 2:8",
+      "suggested_fix": "Translate the quoted example without adding “av nåd”; for example: ”Ty genom den helige Ande är ni frälsta, genom tron …” Ef. 2:8",
+      "translation_quote": "Till exempel: ”Ty genom den helige Ande är ni frälsta av nåd, genom tron …” Ef. 2:8"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

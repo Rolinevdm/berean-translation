@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a28ab54d-b883-4ec8-a5cb-814eb22d5737",
+    "response_id": "chatcmpl-EZQZ5iTdAeH4h6tBZeNCpXLYS1Hx4",
+    "usage": {
+      "completion_tokens": 1166,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 907,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 26492,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 26489,
+        "cached_tokens": 0
+      },
+      "total_tokens": 27658
+    }
+  },
+  "received_at": "2026-10-16T01:13:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Introduction, second paragraph",
+        "severity": "major",
+        "source_quote": "We are speaking of the baptism of the Holy Ghost and its captor, Pentecostalism.",
+        "suggested_fix": "Replace “dess fångvaktare” with “dess tillfångatagare” to preserve the source’s meaning that Pentecostalism has taken the doctrine captive.",
+        "translation_quote": "Vi talar om den helige Andes dop och dess fångvaktare, pingströrelsen."
+      },
+      {
+        "location": "Grace!, paragraph beginning “Now I am sure that Hans…”",
+        "severity": "major",
+        "source_quote": "For example, “For by the Holy Spirit are ye saved, through faith …” Ep. 2:8",
+        "suggested_fix": "Translate the quoted example without adding “av nåd”; for example: ”Ty genom den helige Ande är ni frälsta, genom tron …” Ef. 2:8",
+        "translation_quote": "Till exempel: ”Ty genom den helige Ande är ni frälsta av nåd, genom tron …” Ef. 2:8"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
