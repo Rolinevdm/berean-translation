@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cdcfad20-ddf7-4691-9278-ee334e9dfe6d",
+    "response_id": "chatcmpl-EZg2GUvnurLjKFlzDZMvcP8NU0mo8",
+    "usage": {
+      "completion_tokens": 794,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8719,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7616,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9513
+    }
+  },
+  "received_at": "2026-10-16T18:27:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Første avsnitt etter sitatene",
+        "severity": "major",
+        "source_quote": "calls His disciples to be first of all doers",
+        "suggested_fix": "kaller først og fremst disiplene sine til å være mennesker som handler etter ordet",
+        "translation_quote": "kaller først og fremst disiplene sine til å være doere"
+      },
+      {
+        "location": "Avsnittet som begynner «1 Korinterbrev 11:31-32»",
+        "severity": "major",
+        "source_quote": "producing in us the image of His sons",
+        "suggested_fix": "forme oss etter bildet av hans barn",
+        "translation_quote": "forme oss etter bildet av hans Sønn"
+      },
+      {
+        "location": "Sitatet fra Jakob 1:19-27",
+        "severity": "minor",
+        "source_quote": "straightway forgetteth what manner of man he was",
+        "suggested_fix": "går straks bort og glemmer hva slags menneske han var",
+        "translation_quote": "går bort og glemmer straks hvordan han så ut"
+      },
+      {
+        "location": "Sitatet fra Jakob 1:19-27",
+        "severity": "minor",
+        "source_quote": "a doer of the work",
+        "suggested_fix": "en som handler etter ordet",
+        "translation_quote": "en gjerningens gjørere"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

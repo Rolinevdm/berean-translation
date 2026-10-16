@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "91a43a18bfd445db9c818b7b5284df72",
   "campaign": "auto-6bdb03104fe50b2869040124f530f76023993f4e3397d145e21a86700f0c2da1",
   "created_at": "2026-10-16T09:57:48+00:00",
   "events": [
@@ -28,10 +27,59 @@
         },
         "total_tokens": 8365
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 794,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8719,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7616,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9513
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Første avsnitt etter sitatene",
+      "severity": "major",
+      "source_quote": "calls His disciples to be first of all doers",
+      "suggested_fix": "kaller først og fremst disiplene sine til å være mennesker som handler etter ordet",
+      "translation_quote": "kaller først og fremst disiplene sine til å være doere"
+    },
+    {
+      "location": "Avsnittet som begynner «1 Korinterbrev 11:31-32»",
+      "severity": "major",
+      "source_quote": "producing in us the image of His sons",
+      "suggested_fix": "forme oss etter bildet av hans barn",
+      "translation_quote": "forme oss etter bildet av hans Sønn"
+    },
+    {
+      "location": "Sitatet fra Jakob 1:19-27",
+      "severity": "minor",
+      "source_quote": "straightway forgetteth what manner of man he was",
+      "suggested_fix": "går straks bort og glemmer hva slags menneske han var",
+      "translation_quote": "går bort og glemmer straks hvordan han så ut"
+    },
+    {
+      "location": "Sitatet fra Jakob 1:19-27",
+      "severity": "minor",
+      "source_quote": "a doer of the work",
+      "suggested_fix": "en som handler etter ordet",
+      "translation_quote": "en gjerningens gjørere"
+    }
+  ],
   "id": "fef664d8e6a66f61aae7a0c00749b186",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "nob",
@@ -120,11 +168,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/853829817c594e913db9172b83f3d85350277207444d1e9e3988b6e2e627e940.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +188,7 @@
     "total_reserved_usd": 0.089934,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ebe7ecab4743984d98acf839285c9c41a9c35b253dfb10d6a7c258ac09968d3c",
   "translation_model_actual": "gpt-6-luna"

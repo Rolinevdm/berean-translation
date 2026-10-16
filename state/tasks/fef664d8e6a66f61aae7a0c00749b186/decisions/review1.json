@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Første avsnitt etter sitatene",
+      "severity": "major",
+      "source_quote": "calls His disciples to be first of all doers",
+      "suggested_fix": "kaller først og fremst disiplene sine til å være mennesker som handler etter ordet",
+      "translation_quote": "kaller først og fremst disiplene sine til å være doere"
+    },
+    {
+      "location": "Avsnittet som begynner «1 Korinterbrev 11:31-32»",
+      "severity": "major",
+      "source_quote": "producing in us the image of His sons",
+      "suggested_fix": "forme oss etter bildet av hans barn",
+      "translation_quote": "forme oss etter bildet av hans Sønn"
+    },
+    {
+      "location": "Sitatet fra Jakob 1:19-27",
+      "severity": "minor",
+      "source_quote": "straightway forgetteth what manner of man he was",
+      "suggested_fix": "går straks bort og glemmer hva slags menneske han var",
+      "translation_quote": "går bort og glemmer straks hvordan han så ut"
+    },
+    {
+      "location": "Sitatet fra Jakob 1:19-27",
+      "severity": "minor",
+      "source_quote": "a doer of the work",
+      "suggested_fix": "en som handler etter ordet",
+      "translation_quote": "en gjerningens gjørere"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
