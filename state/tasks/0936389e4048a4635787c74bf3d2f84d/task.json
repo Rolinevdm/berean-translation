@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a4ff4d34903e4a5a8bfabfec2e613b63",
   "campaign": "auto-44492c92448df2555a999b6c5a92fa4c8982146c64caf5c48850530447c59d6a",
   "created_at": "2026-10-16T07:07:40+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 8908
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1031,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 778,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9262,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8159,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10293
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Isaiah 11:2-4 quotation",
+      "severity": "major",
+      "source_quote": "And shall make him of quick understanding in the fear of the LORD",
+      "suggested_fix": "সদাপ্রভুর ভয়ে তাঁর বোধশক্তি তীক্ষ্ণ হবে",
+      "translation_quote": "সদাপ্রভুর ভয়ে তাঁর আনন্দ হবে"
+    },
+    {
+      "location": "Paragraph beginning “It is not possible to speak words of oppression”",
+      "severity": "major",
+      "source_quote": "unless we are not in our place as obedient doers in God’s kingdom and have become self-righteous judges",
+      "suggested_fix": "ঈশ্বরের রাজ্যে বাধ্য পালনকারী হিসেবে নিজেদের স্থানে না থাকলে এবং আত্মধার্মিক বিচারক হয়ে উঠলে তবেই আমরা ভাইবোনদের প্রতি অত্যাচারের কথা বলতে পারি।",
+      "translation_quote": "ঈশ্বরের রাজ্যে বাধ্য পালনকারী হিসেবে নিজেদের স্থানে না থেকে আত্মধার্মিক বিচারক না হলে আমাদের পক্ষে ভাইবোনদের প্রতি অত্যাচারের কথা বলা সম্ভব নয়।"
+    }
+  ],
   "id": "0936389e4048a4635787c74bf3d2f84d",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ben",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/853829817c594e913db9172b83f3d85350277207444d1e9e3988b6e2e627e940.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.08993,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ebe7ecab4743984d98acf839285c9c41a9c35b253dfb10d6a7c258ac09968d3c",
   "translation_model_actual": "gpt-6-luna"

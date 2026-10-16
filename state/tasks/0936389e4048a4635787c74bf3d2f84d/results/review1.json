@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9783e3a3-4df3-4d66-9782-3d3f27036b0a",
+    "response_id": "chatcmpl-EZZ3sOKqQVYnbNFZioBJT2rTMm8hk",
+    "usage": {
+      "completion_tokens": 1031,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 778,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9262,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8159,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10293
+    }
+  },
+  "received_at": "2026-10-16T12:23:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Isaiah 11:2-4 quotation",
+        "severity": "major",
+        "source_quote": "And shall make him of quick understanding in the fear of the LORD",
+        "suggested_fix": "সদাপ্রভুর ভয়ে তাঁর বোধশক্তি তীক্ষ্ণ হবে",
+        "translation_quote": "সদাপ্রভুর ভয়ে তাঁর আনন্দ হবে"
+      },
+      {
+        "location": "Paragraph beginning “It is not possible to speak words of oppression”",
+        "severity": "major",
+        "source_quote": "unless we are not in our place as obedient doers in God’s kingdom and have become self-righteous judges",
+        "suggested_fix": "ঈশ্বরের রাজ্যে বাধ্য পালনকারী হিসেবে নিজেদের স্থানে না থাকলে এবং আত্মধার্মিক বিচারক হয়ে উঠলে তবেই আমরা ভাইবোনদের প্রতি অত্যাচারের কথা বলতে পারি।",
+        "translation_quote": "ঈশ্বরের রাজ্যে বাধ্য পালনকারী হিসেবে নিজেদের স্থানে না থেকে আত্মধার্মিক বিচারক না হলে আমাদের পক্ষে ভাইবোনদের প্রতি অত্যাচারের কথা বলা সম্ভব নয়।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

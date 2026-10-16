@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Isaiah 11:2-4 quotation",
+      "severity": "major",
+      "source_quote": "And shall make him of quick understanding in the fear of the LORD",
+      "suggested_fix": "সদাপ্রভুর ভয়ে তাঁর বোধশক্তি তীক্ষ্ণ হবে",
+      "translation_quote": "সদাপ্রভুর ভয়ে তাঁর আনন্দ হবে"
+    },
+    {
+      "location": "Paragraph beginning “It is not possible to speak words of oppression”",
+      "severity": "major",
+      "source_quote": "unless we are not in our place as obedient doers in God’s kingdom and have become self-righteous judges",
+      "suggested_fix": "ঈশ্বরের রাজ্যে বাধ্য পালনকারী হিসেবে নিজেদের স্থানে না থাকলে এবং আত্মধার্মিক বিচারক হয়ে উঠলে তবেই আমরা ভাইবোনদের প্রতি অত্যাচারের কথা বলতে পারি।",
+      "translation_quote": "ঈশ্বরের রাজ্যে বাধ্য পালনকারী হিসেবে নিজেদের স্থানে না থেকে আত্মধার্মিক বিচারক না হলে আমাদের পক্ষে ভাইবোনদের প্রতি অত্যাচারের কথা বলা সম্ভব নয়।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
