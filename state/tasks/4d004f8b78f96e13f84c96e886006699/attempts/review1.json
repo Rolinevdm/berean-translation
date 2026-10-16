@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T21:46:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html, paragraf 11, kutipan Tacitus\",\"severity\":\"major\",\"source_quote\":\"inflicted the most exquisite tortures\",\"suggested_fix\":\"Ganti “memberikan siksaan paling halus” dengan “menimpakan siksaan yang amat kejam”. Dalam konteks ini, “exquisite” menekankan intensitas penderitaan, bukan kelembutan.\",\"translation_quote\":\"memberikan siksaan paling halus\"},{\"location\":\"html, paragraf 14, kalimat pembuka\",\"severity\":\"minor\",\"source_quote\":\"Paul lived under Nero’s reign.\",\"suggested_fix\":\"Ganti “Pavel” dengan “Paulus”, bentuk nama yang lazim dalam bahasa Indonesia dan yang juga digunakan pada paragraf berikutnya.\",\"translation_quote\":\"Pavel hidup pada masa pemerintahan Nero.\"},{\"location\":\"html, paragraf 20, label catatan\",\"severity\":\"minor\",\"source_quote\":\"Endnote:<br>ncbi.nlm.nih.gov/pmc/articles/PMC3621648\",\"suggested_fix\":\"Terjemahkan label menjadi “Catatan akhir:” dengan mempertahankan tag <br> dan alamat sumber.\",\"translation_quote\":\"Endnote:<br>ncbi.nlm.nih.gov/pmc/articles/PMC3621648\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 1104,
+    "content_evidence_truncated": false,
+    "content_sha256": "5d77254fc54c329e3e8cda080882f2566bf0b6228d9038cdf9805329e0c4c515",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 402,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 114,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6277,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6274,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6679
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraf 11, kutipan Tacitus",
+      "severity": "major",
+      "source_quote": "inflicted the most exquisite tortures",
+      "suggested_fix": "Ganti “memberikan siksaan paling halus” dengan “menimpakan siksaan yang amat kejam”. Dalam konteks ini, “exquisite” menekankan intensitas penderitaan, bukan kelembutan.",
+      "translation_quote": "memberikan siksaan paling halus"
+    },
+    {
+      "location": "html, paragraf 14, kalimat pembuka",
+      "severity": "minor",
+      "source_quote": "Paul lived under Nero’s reign.",
+      "suggested_fix": "Ganti “Pavel” dengan “Paulus”, bentuk nama yang lazim dalam bahasa Indonesia dan yang juga digunakan pada paragraf berikutnya.",
+      "translation_quote": "Pavel hidup pada masa pemerintahan Nero."
+    },
+    {
+      "location": "html, paragraf 20, label catatan",
+      "severity": "minor",
+      "source_quote": "Endnote:<br>ncbi.nlm.nih.gov/pmc/articles/PMC3621648",
+      "suggested_fix": "Terjemahkan label menjadi “Catatan akhir:” dengan mempertahankan tag <br> dan alamat sumber.",
+      "translation_quote": "Endnote:<br>ncbi.nlm.nih.gov/pmc/articles/PMC3621648"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

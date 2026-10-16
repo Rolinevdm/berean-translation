@@ -5,11 +5,54 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "90581f55a9d4482686a13ada10215f1c",
   "campaign": "auto-11e88c6dd60c73b6b423dd6df892a35af24a8e33de6513e824d3b37a8b53e699",
   "created_at": "2026-10-16T21:38:28+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 402,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 114,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6277,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6274,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6679
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, paragraf 11, kutipan Tacitus",
+      "severity": "major",
+      "source_quote": "inflicted the most exquisite tortures",
+      "suggested_fix": "Ganti “memberikan siksaan paling halus” dengan “menimpakan siksaan yang amat kejam”. Dalam konteks ini, “exquisite” menekankan intensitas penderitaan, bukan kelembutan.",
+      "translation_quote": "memberikan siksaan paling halus"
+    },
+    {
+      "location": "html, paragraf 14, kalimat pembuka",
+      "severity": "minor",
+      "source_quote": "Paul lived under Nero’s reign.",
+      "suggested_fix": "Ganti “Pavel” dengan “Paulus”, bentuk nama yang lazim dalam bahasa Indonesia dan yang juga digunakan pada paragraf berikutnya.",
+      "translation_quote": "Pavel hidup pada masa pemerintahan Nero."
+    },
+    {
+      "location": "html, paragraf 20, label catatan",
+      "severity": "minor",
+      "source_quote": "Endnote:<br>ncbi.nlm.nih.gov/pmc/articles/PMC3621648",
+      "suggested_fix": "Terjemahkan label menjadi “Catatan akhir:” dengan mempertahankan tag <br> dan alamat sumber.",
+      "translation_quote": "Endnote:<br>ncbi.nlm.nih.gov/pmc/articles/PMC3621648"
+    }
+  ],
   "id": "4d004f8b78f96e13f84c96e886006699",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ind",
@@ -98,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/63e45266e1ece0020fa4e0801f2032bd095a929884b27576916c4fac6e71e266.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +160,7 @@
     "total_reserved_usd": 0.732503,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
