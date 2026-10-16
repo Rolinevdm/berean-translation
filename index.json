@@ -17745,6 +17745,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.html",
+      "html_sha256": "e80bbe14b9104abff4c652321e0a5aec6cc69480597ee7292503556c8b71647b",
+      "human_reviewed": false,
+      "id": "951f56e4-2ce8-4f01-9500-bfeee209cdb4",
+      "images": [
+        {
+          "alt": "Eine sonnenbeschienene Straße, die sich durch eine bewaldete Landschaft windet",
+          "public_path": "/images/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.json",
+      "metadata_sha256": "87fac9314e64ccf626d944ef6af8509f037e1498d4c913dd3b9218b4cb60f368",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Siegreiches Christenleben",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Der Hafen der Ruhe",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
       "html_sha256": "4583330d476d8f7b0830c0564611b2d5475a855aada4d39ec65ef7f4ece48c16",
       "human_reviewed": false,
