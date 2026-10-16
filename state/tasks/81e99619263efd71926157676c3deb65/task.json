@@ -5,11 +5,138 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9a253563f85e4acc821df463a51f06ce",
   "campaign": "auto-3721e17d724377e5d915214b0bbfa9373b8e0e5bf7ccacdbc3341896113694ba",
   "created_at": "2026-10-16T12:25:02+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2149,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 74,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9699,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8596,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11848
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: paragraph beginning “বাইবেলে ক্যান্সারের সরাসরি উল্লেখ নেই”",
+      "severity": "major",
+      "source_quote": "when the ark of the covenant was in their land",
+      "suggested_fix": "“যখন নিয়মসিন্দুক তাদের দেশে ছিল” লিখুন।",
+      "translation_quote": "যখন ধারাবাহিকতার বাক্স তাদের দেশে ছিল"
+    },
+    {
+      "location": "html: Isaiah 41:10 quotation",
+      "severity": "major",
+      "source_quote": "yea, I will uphold thee with the right hand of my righteousness",
+      "suggested_fix": "শেষ অংশটি করুন: “হ্যাঁ, আমি আমার ধার্মিকতার ডান হাত দিয়ে তোমাকে ধরে রাখব—যিশাইয় ৪১:১০।” বিদ্যমান em ট্যাগ অক্ষুণ্ণ রাখুন।",
+      "translation_quote": "আমি মানবিকতা ও ধার্মিকতার নির্ভরতা রক্ষা করিবার জন্য আমার দক্ষ হাত দ্বারা তোমাকে সমর্থন করিবো—ইসাইয়া ৪১:১০।"
+    },
+    {
+      "location": "html: Matthew 6:31–34 quotation",
+      "severity": "major",
+      "source_quote": "What shall we eat? or, What shall we drink? or, Wherewithal shall we be clothed?",
+      "suggested_fix": "প্রশ্নগুলো করুন: “আমরা কী খাব? বা, কী পান করব? বা, কী পরব?”",
+      "translation_quote": "আমরা কী খাবো; বা কী করব? বা আমরা কী দিয়ে আবৃত হবো?"
+    },
+    {
+      "location": "html: first paragraph under “ক্যান্সার স্ক্রিনিং”",
+      "severity": "major",
+      "source_quote": "Most of them are at least a little effective at identifying cancers at an early stage.",
+      "suggested_fix": "বাক্যটি করুন: “এসব পরীক্ষার অধিকাংশই প্রাথমিক পর্যায়ে ক্যান্সার শনাক্ত করতে অন্তত কিছুটা কার্যকর।”",
+      "translation_quote": "তাদের অধিকাংশই গমনোপরিস্থিতিতে ক্যান্সার সনাক্ত করতে কিছুটা কার্যকর।"
+    },
+    {
+      "location": "html: paragraph beginning “আরও একটি বিষয় হলো নির্দিষ্ট ক্যান্সার”",
+      "severity": "major",
+      "source_quote": "until finally it develops into full-blown cancer",
+      "suggested_fix": "“যতক্ষণ না এটি শেষপর্যন্ত পূর্ণাঙ্গ ক্যান্সারে পরিণত হয়” লিখুন; শেষ পর্যায়ের ক্যান্সার বোঝাবেন না।",
+      "translation_quote": "যতক্ষণ না এটি শেষপর্যায়ের ক্যান্সারে পরিণত হয়"
+    },
+    {
+      "location": "html: paragraph about Hiroshima and Nagasaki",
+      "severity": "minor",
+      "source_quote": "cancer of stomach, lung, liver, and breast",
+      "suggested_fix": "“معدۃ (পেট)” বদলে “পাকস্থলী” লিখুন।",
+      "translation_quote": "معدۃ (পেট), ফুসফুস, যকৃত এবং স্তনের ক্যান্সার"
+    },
+    {
+      "location": "html: paragraph describing skin-cancer types",
+      "severity": "minor",
+      "source_quote": "basal cell carcinoma, squamous cell carcinoma, and melanoma",
+      "suggested_fix": "প্রথম তালিকায় “মেলানোما” বদলে সম্পূর্ণ বাংলা লিপিতে “মেলানোমা” লিখুন।",
+      "translation_quote": "বেসাল সেল কার্সিনোমা, স্কোয়ামাস সেল কার্সিনোমা, এবং মেলানোما"
+    },
+    {
+      "location": "html: paragraph about original creation",
+      "severity": "minor",
+      "source_quote": "As originally created, not only did they not have cancer, but they also would not have gotten it either.",
+      "suggested_fix": "বাক্যটি করুন: “আদিতে যেভাবে তাদের সৃষ্টি করা হয়েছিল, সেই অবস্থায় তাদের কেবল ক্যান্সার ছিল না তা-ই নয়, তাদের ক্যান্সার হতোও না।”",
+      "translation_quote": "মূলত তৈরি অবস্থায়, তারা কেবল ক্যান্সার রাখে না, বরং কখনোই ক্যান্সার পেতেও না।"
+    },
+    {
+      "location": "html: first paragraph under “…পরিবেশগত কারণ”",
+      "severity": "minor",
+      "source_quote": "something must have happened around the time of the flood",
+      "suggested_fix": "“বন্যার সময়ের কাছাকাছি নিশ্চয়ই এমন কিছু ঘটেছিল” লিখুন, যাতে মূলের দৃঢ় অনুমানটি বজায় থাকে।",
+      "translation_quote": "বন্যার সময় ও তার আশেপাশে এমন কিছু ঘটতে পারে"
+    },
+    {
+      "location": "html: paragraph about lifespans after the flood",
+      "severity": "minor",
+      "source_quote": "by soon after the time of Abraham, they were seldom living much past their one hundredth year",
+      "suggested_fix": "অংশটি করুন: “আব্রাহামের সময়ের অল্প পরেই মানুষ খুব কম ক্ষেত্রেই একশ বছরের চেয়ে অনেক বেশি বাঁচত।”",
+      "translation_quote": "আব্রাহামের সময়র কাছাকাছি তারা সাধারণত একশ বছরের বেশি জীবন যাপন করত না"
+    },
+    {
+      "location": "html: paragraph under “…অস্বাস্থ্যকর অভ্যাস”",
+      "severity": "minor",
+      "source_quote": "Alcohol increases the risk of mouth and throat cancers ... There really isn’t a safe amount of exposure to either of these toxic agents",
+      "suggested_fix": "“মুখ ও গল” বদলে “মুখ ও গলার ক্যান্সার” এবং “এসব বিষকাঠিন্যের কোনো নিরাপদ মাত্রা নেই বললেই চলে” বদলে “এই দুই বিষাক্ত পদার্থের কোনোটির সংস্পর্শেরই প্রকৃতপক্ষে কোনো নিরাপদ মাত্রা নেই” লিখুন।",
+      "translation_quote": "অ্যালকোহল মুখ ও গল, পাচনতন্ত্র ও যকৃতের ক্যান্সারের ঝুঁকি বাড়ায়। এসব বিষকাঠিন্যের কোনো নিরাপদ মাত্রা নেই বললেই চলে"
+    },
+    {
+      "location": "html: paragraph describing the ideal screening test",
+      "severity": "minor",
+      "source_quote": "everyone who tests positive with the test will have cancer ... The test will be cheap and minimally invasive",
+      "suggested_fix": "“যাদের পরীক্ষার ফল পজিটিভ হবে, তাদের সবার ক্যান্সার থাকবে” এবং “পরীক্ষাটি সস্তা হবে এবং এতে শরীরে খুব সামান্য হস্তক্ষেপের প্রয়োজন হবে” লিখুন।",
+      "translation_quote": "যে প্রতিটির টেস্ট পজিটিভ হবে, তার সবাই ক্যান্সার থাকবে ... টেস্টটি সস্তা ও ক্ষুদ্র আক্রমণাত্মক হবে"
+    },
+    {
+      "location": "html: paragraph beginning “আরেকটি সম্পর্কিত পয়েন্ট হলো”",
+      "severity": "minor",
+      "source_quote": "there needs to be some benefit to early detection of cancer",
+      "suggested_fix": "অংশটি করুন: “ক্যান্সার আগেভাগে শনাক্ত করার কিছু উপকার থাকা প্রয়োজন।”",
+      "translation_quote": "প্রারম্ভিক সনাক্তকরণে যদি কোনো উপকার থাকে তা অবশ্যই থাকা উচিৎ"
+    },
+    {
+      "location": "html: first Scripture quotation introduction and final paragraph",
+      "severity": "minor",
+      "source_quote": "We do not need to live in fear ... None of us will live forever in this body ... May God give us wisdom to care for the body",
+      "suggested_fix": "যথাক্রমে “আমাদের ভয়ে বাস করতে হবে না”, “আমাদের কেউই এই দেহে চিরকাল বেঁচে থাকব না” এবং “ঈশ্বর আমাদের সেই দেহের যত্ন নেওয়ার প্রজ্ঞা দান করুন” লিখুন।",
+      "translation_quote": "আমরা ভয়ভীতিতে বাস করতে হবে না ... আমাদের কোনোটাই এই দেহে চিরকাল বাস করবে না ... ঈশ্বর আমাদেরকে সেই দেহটিকে যতœ করার জন্য প্রজ্ঞা দান করুণ"
+    },
+    {
+      "location": "html: paragraph about infections",
+      "severity": "minor",
+      "source_quote": "Epstein Barr virus, which causes infectious mononucleosis ... hepatocellular carcinoma (liver cancer)",
+      "suggested_fix": "পুনরুক্ত ও উৎসে অনুপস্থিত বন্ধনীর ব্যাখ্যাটি বাদ দিয়ে “যা ইনফেকশিয়াস মনোনিউক্লিওসিস সৃষ্টি করে” লিখুন; “হেপাটোস্যুলার” বদলে “হেপাটোসেলুলার” লিখুন।",
+      "translation_quote": "যা ইনফেকশিয়াস মনোনিউক্লিওসিস (ইনফেকশিয়াস মনোনিউক্লিওসিস, সাধারণত 'মনো' নামে পরিচিত) সৃষ্টি করে ... হেপাটোস্যুলার কার্সিনোমা"
+    }
+  ],
   "id": "81e99619263efd71926157676c3deb65",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ben",
@@ -98,11 +225,13 @@
     }
   },
   "protected": false,
+  "quality_score": 79,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/c359f5eb7511bee303f2540e716a2b918a181459a9c7bd95ec949a6df55470c5.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +244,7 @@
     "total_reserved_usd": 0.812937,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
