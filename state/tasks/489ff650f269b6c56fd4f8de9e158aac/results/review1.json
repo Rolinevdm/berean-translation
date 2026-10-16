@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "de2b5f1f-2811-4f42-ab42-938fc1c43768",
+    "response_id": "chatcmpl-EZjOCYYaaaQFNEFgBkEmItezGBflP",
+    "usage": {
+      "completion_tokens": 398,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6214,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5111,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6612
+    }
+  },
+  "received_at": "2026-10-16T21:08:03+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, párrafo 8",
+        "severity": "minor",
+        "source_quote": "Teams would race around a massive arena for a total of seven laps.",
+        "suggested_fix": "Sustituir la oración por: «Los equipos competían en una enorme arena, dando un total de siete vueltas».",
+        "translation_quote": "Los equipos daban una vuelta en una enorme arena por un total de siete vueltas."
+      },
+      {
+        "location": "translation.html, párrafo 16",
+        "severity": "minor",
+        "source_quote": "Herein, we see a potential paradox",
+        "suggested_fix": "Cambiar «un posible paradoja» por «una posible paradoja».",
+        "translation_quote": "Aquí vemos un posible paradoja"
+      },
+      {
+        "location": "translation.html, párrafo 19",
+        "severity": "minor",
+        "source_quote": "in that soon-coming day",
+        "suggested_fix": "Cambiar «en ese día venidero» por «en ese día que pronto llegará» para conservar la idea de proximidad.",
+        "translation_quote": "en ese día venidero"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}
