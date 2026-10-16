@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T23:31:49+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"cac00fd8-ab2b-4033-92c7-bef44b4341db\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg\\\" alt=\\\"Un barco de vela pasa junto a unas rocas cerca de la costa.\\\">\\n  </figure>\\n  <p>Una vez le preguntaron a un capitán si conocía todas las rocas de la costa. «No», respondió, «no es necesario conocer todas las rocas; basta con conocer el canal seguro».</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"TODAS LAS ROCAS\"}",
+    "content_bytes": 508,
+    "content_evidence_truncated": false,
+    "content_sha256": "f2cc37436f79cbe70371aa95c2a22650eeeee529f752473c132db3df26f2d948",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 174,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 957,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1131
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
