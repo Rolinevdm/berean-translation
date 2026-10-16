@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T00:49:42+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"e7fba858-3c29-42c7-ae42-198541696da3\\\">\\n  <p>इस सरल परीक्षा में, हम जीभों में बोलने के बारे में बाइबल की शिक्षा से जुड़े कुछ प्रश्न पूछेंगे। उत्तर इतने स्पष्ट हैं कि हम उन्हें देंगे भी नहीं। उत्तरों के बारे में <strong>सोचें</strong>।</p>\\n\\n  <ol>\\n    <li>यीशु ने कहा कि हम उन्हें उनके (फलों, वरदानों) से पहचानेंगे।</li>\\n    <li>हमें आत्मा से परिपूर्ण होने का उपदेश दिया गया है, और अपने आप से (जीभों में, भजनों, स्तुतिगीतों और आत्मिक गीतों में) बात करने का।</li>\\n    <li>जीभें एक चिन्ह हैं (विश्वासी के लिए, अविश्वासी के लिए)।</li>\\n    <li>जब पौलुस ने पूछा, “क्या सब लोग जीभों में बोलते हैं?” तो निहित उत्तर था (हाँ, नहीं)।</li>\\n    <li>प्रेरितों के काम 2 में अविश्वासियों को जीभों में बोलने वालों की बातें समझने के लिए (एक दुभाषिए की ज़रूरत थी, दुभाषिए की ज़रूरत नहीं थी)।</li>\\n  </ol>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"जीभों की परीक्षा\"}",
+    "content_bytes": 1922,
+    "content_evidence_truncated": false,
+    "content_sha256": "f370f375f575dc0f7dabb52e98c5d5f193b0457c66dc5644fd3016562ae61eeb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 342,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1057,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1054,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1399
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
