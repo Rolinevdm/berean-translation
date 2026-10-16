@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "02f22731-68a7-48fc-b422-a6db60311b70",
+    "response_id": "chatcmpl-EZh2DiYewzrxg9Tltb8kVxZKWYKg0",
+    "usage": {
+      "completion_tokens": 174,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 964,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1138
+    }
+  },
+  "received_at": "2026-10-16T18:36:51+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cac00fd8-ab2b-4033-92c7-bef44b4341db\">\n  <figure>\n    <img src=\"/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg\" alt=\"一艘帆船驶过海岸附近的礁石。\">\n  </figure>\n  <p>有人曾问一位船长，他是否知道沿岸所有的礁石。“不知道，”他说，“没有必要知道所有的礁石，只要知道安全的航道就行了。”</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "所有的礁石"
+  }
+}
