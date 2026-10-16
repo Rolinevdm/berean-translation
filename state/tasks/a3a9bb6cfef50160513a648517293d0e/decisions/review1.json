@@ -1,0 +1,147 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph beginning “Je, unaachaje kitu”",
+      "severity": "critical",
+      "source_quote": "Be assured that God never ignores a plea for help!",
+      "suggested_fix": "Replace the sentence with: “Uwe na hakika kwamba Mungu kamwe hapuuzi kilio cha kuomba msaada!”",
+      "translation_quote": "Kuwa na uhakika kwamba Mungu kamwe hamtazami mwito wa msaada!"
+    },
+    {
+      "location": "html, opening narrative, third paragraph",
+      "severity": "major",
+      "source_quote": "Turning, Beto fled for his life! Hearing the padding of the wildcat’s enormous paws on the forest floor behind him ... Beto tripped on a vine ... the wildcat moving in closer",
+      "suggested_fix": "Replace the affected clauses with “Akageuka, Beto akakimbia kuokoa maisha yake!”, “Akisikia sauti ya nyayo kubwa za paka huyo wa mwituni zikikanyaga ardhi ya msitu nyuma yake”, “Beto alijikwaa kwenye mmea unaotambaa akaanguka chini bila uwezo wa kujisaidia”, and “paka huyo wa mwituni akisogea karibu zaidi”.",
+      "translation_quote": "Akageuka, Beto akaruka kwa ajili ya maisha yake! Akisikia midomoni ya miguu ya paka huyo mkubwa ikigandamana na sakafu ya msitu ... Beto aligotwa na mzizi wa mnyororo wa mmea ... paka anayerukaruka karibu"
+    },
+    {
+      "location": "html, paragraph beginning “Je, unajihisi”",
+      "severity": "major",
+      "source_quote": "a brother or sister has slandered you",
+      "suggested_fix": "Replace with “ndugu yako wa kiume au wa kike amekusingizia”.",
+      "translation_quote": "ndugu yako amekusemwa vibaya"
+    },
+    {
+      "location": "html, paragraph beginning “Je, unajihisi”",
+      "severity": "major",
+      "source_quote": "all that others see is your “smiling” exterior",
+      "suggested_fix": "Replace with “wengine wanaona tu sura yako ya nje ‘yenye tabasamu’”.",
+      "translation_quote": "wote wanaoona ni uso wako unaoketi"
+    },
+    {
+      "location": "html, Romans 8:37 quotation",
+      "severity": "major",
+      "source_quote": "…more than conquerors through him that loved us –Romans 8:37",
+      "suggested_fix": "Replace the text inside the existing em element with “...zaidi ya washindi kupitia yeye aliyetupenda—Warumi 8:37?”",
+      "translation_quote": "…wakishinda bila kukoma kwa yule aliye wapendacho—Warumi 8:37?"
+    },
+    {
+      "location": "html, paragraph under “…Kujiweka mikononi bila masharti”",
+      "severity": "major",
+      "source_quote": "His yoke is easy ... For my yoke is easy, and my burden is light",
+      "suggested_fix": "Replace “lazo lake ni la rahisi” with “nira yake ni rahisi kubeba” and “lazo langu ni la upole” with “nira yangu ni rahisi kubeba”. Preserve the existing quotation markup and reference.",
+      "translation_quote": "lazo lake ni la rahisi ... Kwa maana lazo langu ni la upole"
+    },
+    {
+      "location": "html, second paragraph under “…Msamaha”",
+      "severity": "major",
+      "source_quote": "Unforgiveness always leads to bitterness; bitterness always shackles us. Always! Bitterness often brings with it a host of other sins",
+      "suggested_fix": "Replace these sentences with “Kutosamehe daima husababisha uchungu wa moyoni; uchungu huo daima hutufunga. Daima! Uchungu wa moyoni mara nyingi huleta dhambi nyingine nyingi”. Also replace the later “hasira” in this paragraph with “uchungu wa moyoni”.",
+      "translation_quote": "Kutowasamehe kunasababisha hasira; hasira inatufunga. Daima! Hasira mara nyingi huleta madhehebu mengine ya dhambi"
+    },
+    {
+      "location": "html, second paragraph under “…Msamaha”",
+      "severity": "major",
+      "source_quote": "God will also forgive us ... setting us free from the awful mess that bitterness creates in our lives",
+      "suggested_fix": "Replace the clause after the reference with “akitukomboa kutoka katika hali mbaya sana ambayo uchungu wa moyoni huleta maishani mwetu”.",
+      "translation_quote": "Mungu pia atasamehe sisi ... akiwatoa kwa uhuru watu kutoka kwa mchafu wa kutisha ambao hasira huleta maishani mwetu"
+    },
+    {
+      "location": "html, paragraph under “1. Kubali”",
+      "severity": "major",
+      "source_quote": "While these reactions come naturally ... admit that we’ve been hurt",
+      "suggested_fix": "Replace “Ingawa mizozo hii inatokea kiasili” with “Ingawa kuitikia kwa namna hizi ni jambo la kawaida” and “kukiri kwamba tumedhulumiwa” with “kukiri kwamba tumeumizwa”.",
+      "translation_quote": "Ingawa mizozo hii inatokea kiasili ... kukiri kwamba tumedhulumiwa"
+    },
+    {
+      "location": "html, first paragraph under “2. Acha iende”",
+      "severity": "major",
+      "source_quote": "taking a load of garbage to the local landfill ... None of us would even consider doing such a thing",
+      "suggested_fix": "Replace the two sentences with “Tungejiona wajinga kupeleka mzigo wa takataka kwenye dampo la eneo letu, kisha kugeuka na kurudi nao wote nyumbani bila kuutupa! Hakuna hata mmoja wetu ambaye angefikiria kufanya jambo kama hilo.”",
+      "translation_quote": "kubeba takataka hadi kwenye kisima cha kutupia majahanas ... Hakuna wetu angesukuma kufikiri kufanya kitu kama hicho"
+    },
+    {
+      "location": "html, second paragraph under “2. Acha iende”",
+      "severity": "major",
+      "source_quote": "find a place to be alone with God ... get on your knees ... Stay on your knees",
+      "suggested_fix": "Replace “mahali kuchelewa peke yako na Mungu” with “mahali pa kuwa peke yako na Mungu”, “kukaa chini ya magoti” with “kupiga magoti”, and “Kaeni chini ya magoti” with “Endelea kupiga magoti”.",
+      "translation_quote": "mahali kuchelewa peke yako na Mungu ... kukaa chini ya magoti ... Kaeni chini ya magoti"
+    },
+    {
+      "location": "html, paragraph beginning “Mara nyingi” under “…Mtukufueni Bwana”",
+      "severity": "major",
+      "source_quote": "they were severely beaten by the local authorities, secured in stocks ... God chose to miraculously deliver them",
+      "suggested_fix": "Replace “waliangukwa vibaya na mamlaka za eneo hilo, waliwekewa mitala” with “walipigwa vikali na wenye mamlaka wa eneo hilo, miguu yao ikafungwa katika mkatale”; replace “kuwaowea kwa muujiza” with “kuwakomboa kwa muujiza”.",
+      "translation_quote": "waliangukwa vibaya na mamlaka za eneo hilo, waliwekewa mitala ... Mungu alichagua kuwaowea kwa muujiza"
+    },
+    {
+      "location": "html, paragraph beginning “Kumwimbia Mungu”",
+      "severity": "major",
+      "source_quote": "Praising God in the middle of trials",
+      "suggested_fix": "Replace “Kumwimbia Mungu katikati ya majaribu inawezekana” with “Kumsifu Mungu katikati ya majaribu kunawezekana”. Singing is only one form of praise.",
+      "translation_quote": "Kumwimbia Mungu katikati ya majaribu inawezekana"
+    },
+    {
+      "location": "html, paragraph under “…Endelea mbele”",
+      "severity": "major",
+      "source_quote": "other troubled souls",
+      "suggested_fix": "Replace “roho nyingine zilizoomboleza” with “watu wengine wenye dhiki”.",
+      "translation_quote": "roho nyingine zilizoomboleza"
+    },
+    {
+      "location": "html, second paragraph under “2. Acha iende”",
+      "severity": "minor",
+      "source_quote": "You can tell Him that you feel you were treated unjustly.",
+      "suggested_fix": "Replace “umetendewa kwa ukatili” with “umetendewa isivyo haki” to retain the specific focus on injustice.",
+      "translation_quote": "Unaweza kumwambia kuwa unahisi umetendewa kwa ukatili."
+    },
+    {
+      "location": "html, opening two paragraphs",
+      "severity": "minor",
+      "source_quote": "Beto (a made-up name) ... Large wildcats ... a refreshing drink of water",
+      "suggested_fix": "Replace “jina lililotengenezwa” with “jina la kubuni”, “Paka-wanyama wakubwa” with “Paka wakubwa wa mwituni”, and “maji ya kupumzisha” with “maji ya kuburudisha”.",
+      "translation_quote": "Beto (jina lililotengenezwa) ... Paka-wanyama wakubwa ... maji ya kupumzisha"
+    },
+    {
+      "location": "html, paragraph beginning “Mara kwa mara”",
+      "severity": "minor",
+      "source_quote": "an “I am a victim” mentality ... no such thing as a victim",
+      "suggested_fix": "Replace “fikra ya ‘mwanaathiri’” with “mtazamo wa ‘mimi ni mwathirika’” and “hakuna kitu kama mwanaathiri” with “hakuna mtu anayeweza kuwa mwathirika”.",
+      "translation_quote": "fikra ya “mwanaathiri” ... hakuna kitu kama mwanaathiri"
+    },
+    {
+      "location": "html, paragraph beginning “Je, unajihisi”; following transition paragraph; first paragraph under “…Msamaha”; first paragraph under “2. Acha iende”",
+      "severity": "minor",
+      "source_quote": "Whatever it is ... concluded that it’s useless ... we must understand ... people end up hurting each other ... never letting it go",
+      "suggested_fix": "Correct “Icho chochote” to “Chochote”, “umehitimsha” to “umehitimisha”, “hauna maana kuendelea kujaribu” to “haina maana kuendelea kujaribu”, “tayaelewe” to “tuyaelewe”, “watu hukumizana maumivu” to “watu huishia kuumizana”, and “hatuiaiache” to “hatuuachilii”.",
+      "translation_quote": "Icho chochote ... umehitimsha kuwa hauna maana kuendelea kujaribu ... tayaelewe ... watu hukumizana maumivu ... hatuiaiache"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "Inspirations for Youth",
+      "suggested_fix": "Use “Hamasa kwa Vijana” to retain the inspirational rather than instructional designation.",
+      "translation_quote": "Mafundisho kwa Vijana"
+    },
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "When You Feel Like Giving Up",
+      "suggested_fix": "Correct the word division to “Unapojihisi Kutaka Kukata Tamaa”.",
+      "translation_quote": "Unapo Jihisi Kutaka Kukata Tamaa"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
