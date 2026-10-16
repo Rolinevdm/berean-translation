@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T23:32:00+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"783fddfc-86ed-44d9-b13e-e4adea31a5d5\\\">\\n  <blockquote>\\n    <p>Wir müssen uns auf die einfachen Evangelisten beschränken und selbst aus ihren Schriften nur die Worte Jesu auswählen, wobei wir die Amphibologien [Mehrdeutigkeiten], zu denen sie verleitet wurden, abschneiden .... Übrig bleiben wird der erhabenste und wohlwollendste Moralkodex, der den Menschen je angeboten wurde. Für meinen eigenen Gebrauch habe ich diesen Eingriff vorgenommen, indem ich Vers für Vers aus dem gedruckten Buch herausschnitt und das Material zusammenstellte, das offensichtlich von Ihm stammt und sich so leicht erkennen lässt wie Diamanten auf einem Misthaufen.</p>\\n  </blockquote>\\n  <p>So schrieb Thomas Jefferson über sein Vorhaben, die Bibel von Missverständnissen und falschen Auslegungen zu reinigen, die die Verfasser der vier Evangelien selbst hineingetragen hatten. Als er mit seinem Rasiermesser fertig war (ja, er benutzte tatsächlich ein Rasiermesser, um die Abschnitte, die er wollte, auszuschneiden und zusammenzukleben!), hatte Jefferson alle Hinweise auf Engel, Genealogie, Prophezeiung, Wunder, die Auferstehung und die Göttlichkeit Jesu erfolgreich beseitigt. Die letzten Worte der Jefferson-Bibel lauten: „Nun befand sich an dem Ort, an dem er gekreuzigt wurde, ein Garten; und in dem Garten ein neues Grab, in das noch nie jemand gelegt worden war. Dort legten sie Jesus nieder. Und sie wälzten einen großen Stein vor den Eingang des Grabes und gingen fort.“</p>\\n  <p>Eine Bibel ohne Auferstehung! Thomas Jefferson suchte sich aus, was er glauben wollte. Er wollte eine Bibel, aus der alles entfernt war, was nicht unmittelbar mit Jesus zu tun hatte.</p>\\n  <p>Percival Everett erzählt, was wirklich geschah:</p>\\n  <blockquote>\\n    <p>Er beschloss, dass die Regeln des Clubs, dem er angehören wollte, nicht die Regeln waren, nach denen er spielen wollte. Anstatt also den Club zu wechseln, änderte er das Regelbuch, indem er buchstäblich nur die Abschnitte ausschnitt und zusammenklebte, die er für seine Auslegung für relevant hielt.</p>\\n  </blockquote>\\n  <p>Ist Ihnen das aufgefallen? Statt eine christozentrische Bibel zu schaffen, schuf Thomas Jefferson eine jeffersonzentrische Bibel!</p>\\n  <p>Obwohl wahrscheinlich keiner von uns tatsächlich ein Rasiermesser an seine Bibel legt, tun wir es in Gedanken? Bemühen wir uns, die Regeln des Clubs (des Reiches Gottes) zu ändern, oder versuchen wir, den Club zu wechseln (durch die Kraft des Heiligen Geistes in das Reich hineingeboren zu werden)? ~</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Die Jefferson-Bibel\"}",
+    "content_bytes": 2654,
+    "content_evidence_truncated": false,
+    "content_sha256": "36687bd995ff5e7140e50ea433892cb33f53a381df1b62fb635a690693367109",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 669,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1347,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1344,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2016
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
