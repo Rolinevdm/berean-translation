@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T20:58:55+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"cac00fd8-ab2b-4033-92c7-bef44b4341db\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg\\\" alt=\\\"Kapal layar melewati bebatuan di dekat pantai.\\\">\\n  </figure>\\n  <p>Pernah suatu kali seorang kapten ditanya apakah ia mengenal semua batu karang di sepanjang pantai. “Tidak,” jawabnya, “tidak perlu mengenal semua batu karang, cukup mengetahui alur yang aman.”</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"SEMUA BATU KARANG\"}",
+    "content_bytes": 520,
+    "content_evidence_truncated": false,
+    "content_sha256": "e4943c2f8cb55b3f924387e116774ffcb9c20a9e313e20f4cdb80966896bf05f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 176,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 954,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1130
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
