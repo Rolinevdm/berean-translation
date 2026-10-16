@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "पैराग्राफ: चीन जाने के बुलावे और शैतान के प्रलोभन वाला अंश",
+      "severity": "minor",
+      "source_quote": "But I had received marching orders to go to China and I had God to give them as plain to go back.",
+      "suggested_fix": "लेकिन मुझे चीन जाने का स्पष्ट आदेश मिला था, और यदि मुझे वापस जाना होता, तो परमेश्वर उसे भी उतना ही स्पष्ट कर देते।",
+      "translation_quote": "लेकिन मुझे चीन जाने का आदेश मिला था, और मेरे पास लौट जाने का आदेश देने के लिए परमेश्वर थे—उतने ही स्पष्ट।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

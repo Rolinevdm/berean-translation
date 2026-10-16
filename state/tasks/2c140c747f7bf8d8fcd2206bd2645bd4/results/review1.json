@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "78710aef-f4db-417c-8d8e-bce39db2bb3a",
+    "response_id": "chatcmpl-EZg0lBF8o95pQB29fQ9h0PiGtWFQm",
+    "usage": {
+      "completion_tokens": 976,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 812,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10236,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10233,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11212
+    }
+  },
+  "received_at": "2026-10-16T17:31:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "पैराग्राफ: चीन जाने के बुलावे और शैतान के प्रलोभन वाला अंश",
+        "severity": "minor",
+        "source_quote": "But I had received marching orders to go to China and I had God to give them as plain to go back.",
+        "suggested_fix": "लेकिन मुझे चीन जाने का स्पष्ट आदेश मिला था, और यदि मुझे वापस जाना होता, तो परमेश्वर उसे भी उतना ही स्पष्ट कर देते।",
+        "translation_quote": "लेकिन मुझे चीन जाने का आदेश मिला था, और मेरे पास लौट जाने का आदेश देने के लिए परमेश्वर थे—उतने ही स्पष्ट।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
