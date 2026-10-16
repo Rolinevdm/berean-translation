@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T00:59:15+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, stycket under ”…Hedra Herren”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"secured in stocks, and locked in prison\",\n      \"suggested_fix\": \"Ersätt ”fastspända i skampålar” med ”fastsatta i en fotstock”.\",\n      \"translation_quote\": \"fastspända i skampålar och inlåsta i fängelset\"\n    },\n    {\n      \"location\": \"translation.html, h2 ”…Hedra Herren”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"…Worship the Lord\",\n      \"suggested_fix\": \"Ändra rubriken till ”…Tillbe Herren”.\",\n      \"translation_quote\": \"…Hedra Herren\"\n    },\n    {\n      \"location\": \"translation.html, sista meningen under ”1. Acceptera det”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"we need God to help us heal\",\n      \"suggested_fix\": \"Ersätt ”vi behöver Guds hjälp för att hela” med ”vi behöver Guds hjälp för att läka”.\",\n      \"translation_quote\": \"vi behöver Guds hjälp för att hela\"\n    },\n    {\n      \"location\": \"translation.html, stycket under ”…Oinskränkt överlåtelse”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"<em>…For my yoke is easy, and my burden is light –Matthew 11:28-30.</em>\",\n      \"suggested_fix\": \"Återställ em-taggarna runt citatet: <em>…Ty mitt ok är milt, och min börda är lätt – Matteusevangeliet 11:28–30.</em>\",\n      \"translation_quote\": \"…Ty mitt ok är milt, och min börda är lätt – Matteusevangeliet 11:28–30.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1579,
+    "content_evidence_truncated": false,
+    "content_sha256": "5fc27f55f5fc562206c249bef562e8c6c7ac7d3b4f732d502e6ca3b9fbe39316",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 551,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 92,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6575,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5472,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7126
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

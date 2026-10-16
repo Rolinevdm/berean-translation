@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, stycket under ”…Hedra Herren”",
+      "severity": "major",
+      "source_quote": "secured in stocks, and locked in prison",
+      "suggested_fix": "Ersätt ”fastspända i skampålar” med ”fastsatta i en fotstock”.",
+      "translation_quote": "fastspända i skampålar och inlåsta i fängelset"
+    },
+    {
+      "location": "translation.html, h2 ”…Hedra Herren”",
+      "severity": "minor",
+      "source_quote": "…Worship the Lord",
+      "suggested_fix": "Ändra rubriken till ”…Tillbe Herren”.",
+      "translation_quote": "…Hedra Herren"
+    },
+    {
+      "location": "translation.html, sista meningen under ”1. Acceptera det”",
+      "severity": "minor",
+      "source_quote": "we need God to help us heal",
+      "suggested_fix": "Ersätt ”vi behöver Guds hjälp för att hela” med ”vi behöver Guds hjälp för att läka”.",
+      "translation_quote": "vi behöver Guds hjälp för att hela"
+    },
+    {
+      "location": "translation.html, stycket under ”…Oinskränkt överlåtelse”",
+      "severity": "minor",
+      "source_quote": "<em>…For my yoke is easy, and my burden is light –Matthew 11:28-30.</em>",
+      "suggested_fix": "Återställ em-taggarna runt citatet: <em>…Ty mitt ok är milt, och min börda är lätt – Matteusevangeliet 11:28–30.</em>",
+      "translation_quote": "…Ty mitt ok är milt, och min börda är lätt – Matteusevangeliet 11:28–30."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
