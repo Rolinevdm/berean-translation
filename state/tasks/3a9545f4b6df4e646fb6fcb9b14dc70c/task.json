@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "72817119a8804303b633dd070e619709",
   "campaign": "auto-481aab629293de766d4bd9b3cab0a1716f0e26afb3c521df304f3bfe266e401b",
   "created_at": "2026-10-15T22:41:28+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 1347
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 446,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 289,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1701,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 598,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2147
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, list item 2",
+      "severity": "major",
+      "source_quote": "“speaking to ourselves in (tongues, psalms and hymns and spiritual songs)”",
+      "suggested_fix": "Change “tot elkaar te spreken” to “tot onszelf te spreken”: “We worden aangespoord om vervuld te worden met de Geest en tot onszelf te spreken in (tongen, psalmen, lofzangen en geestelijke liederen).”",
+      "translation_quote": "“tot elkaar te spreken in (tongen, psalmen, lofzangen en geestelijke liederen)”"
+    }
+  ],
   "id": "3a9545f4b6df4e646fb6fcb9b14dc70c",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "nld",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b52cae92dba5c0038500aa2cb0b458e354355c425a782d1bbfa6462c70c62c43.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.085844,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "edeb1684f5d35fe34dce6fbf9c36a5e5078746a5cf2e829997532dddb8448a70",
   "translation_model_actual": "gpt-6-luna"

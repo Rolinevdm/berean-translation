@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T01:13:29+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, list item 2\",\"severity\":\"major\",\"source_quote\":\"“speaking to ourselves in (tongues, psalms and hymns and spiritual songs)”\",\"suggested_fix\":\"Change “tot elkaar te spreken” to “tot onszelf te spreken”: “We worden aangespoord om vervuld te worden met de Geest en tot onszelf te spreken in (tongen, psalmen, lofzangen en geestelijke liederen).”\",\"translation_quote\":\"“tot elkaar te spreken in (tongen, psalmen, lofzangen en geestelijke liederen)”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 550,
+    "content_evidence_truncated": false,
+    "content_sha256": "81aac9f186bc5bbbd8bade1f96f6d409bba0accf97def36d6a4d5c75ddbf81e1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 446,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 289,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1701,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 598,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2147
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
