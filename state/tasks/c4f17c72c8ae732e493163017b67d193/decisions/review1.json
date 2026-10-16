@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, premier paragraphe",
+      "severity": "major",
+      "source_quote": "I was taken to church and baptized the right day",
+      "suggested_fix": "J’ai été emmené à l’église et baptisé le bon jour",
+      "translation_quote": "On m’emmenait à l’église et j’ai été baptisé au bon âge"
+    },
+    {
+      "location": "HTML, paragraphe sur les difficultés et le départ en Chine",
+      "severity": "major",
+      "source_quote": "But I had received marching orders to go to China and I had God to give them as plain to go back.",
+      "suggested_fix": "Mais j’avais reçu l’ordre de partir pour la Chine, et je savais que Dieu pouvait me donner aussi clairement l’ordre de rentrer.",
+      "translation_quote": "Mais j’avais reçu l’ordre de partir pour la Chine, et c’est Dieu qui me l’avait donné, aussi clairement qu’il aurait pu me dire de rentrer."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

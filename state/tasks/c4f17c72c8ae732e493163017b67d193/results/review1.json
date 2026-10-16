@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0090c2d2-dd8f-4f6f-a47c-2ac2244b82c3",
+    "response_id": "chatcmpl-EZg4Q4twcHNNRRpd1uOlHTLmshgju",
+    "usage": {
+      "completion_tokens": 1005,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 782,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9649,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8546,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10654
+    }
+  },
+  "received_at": "2026-10-16T18:27:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, premier paragraphe",
+        "severity": "major",
+        "source_quote": "I was taken to church and baptized the right day",
+        "suggested_fix": "J’ai été emmené à l’église et baptisé le bon jour",
+        "translation_quote": "On m’emmenait à l’église et j’ai été baptisé au bon âge"
+      },
+      {
+        "location": "HTML, paragraphe sur les difficultés et le départ en Chine",
+        "severity": "major",
+        "source_quote": "But I had received marching orders to go to China and I had God to give them as plain to go back.",
+        "suggested_fix": "Mais j’avais reçu l’ordre de partir pour la Chine, et je savais que Dieu pouvait me donner aussi clairement l’ordre de rentrer.",
+        "translation_quote": "Mais j’avais reçu l’ordre de partir pour la Chine, et c’est Dieu qui me l’avait donné, aussi clairement qu’il aurait pu me dire de rentrer."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

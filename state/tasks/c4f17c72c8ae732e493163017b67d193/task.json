@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "16509b1502f14a75be78dd30b6c05b20",
   "campaign": "auto-63b20ce63aa168a51c0153b18a09d3af6584d0653a9221a61ab5cf75519b9513",
   "created_at": "2026-10-16T14:46:43+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 9325
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1005,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 782,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9649,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8546,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10654
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, premier paragraphe",
+      "severity": "major",
+      "source_quote": "I was taken to church and baptized the right day",
+      "suggested_fix": "J’ai été emmené à l’église et baptisé le bon jour",
+      "translation_quote": "On m’emmenait à l’église et j’ai été baptisé au bon âge"
+    },
+    {
+      "location": "HTML, paragraphe sur les difficultés et le départ en Chine",
+      "severity": "major",
+      "source_quote": "But I had received marching orders to go to China and I had God to give them as plain to go back.",
+      "suggested_fix": "Mais j’avais reçu l’ordre de partir pour la Chine, et je savais que Dieu pouvait me donner aussi clairement l’ordre de rentrer.",
+      "translation_quote": "Mais j’avais reçu l’ordre de partir pour la Chine, et c’est Dieu qui me l’avait donné, aussi clairement qu’il aurait pu me dire de rentrer."
+    }
+  ],
   "id": "c4f17c72c8ae732e493163017b67d193",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "fra",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/75f9676114485607d4245f45ddd8ed267298fb3872c8b59d66918b2cfc3ba747.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.090739,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "12ecac15cfbc01dc73c6465f6e9b62b72e07659904a3aab7621b587b0c2472e4",
   "translation_model_actual": "gpt-6-luna"
