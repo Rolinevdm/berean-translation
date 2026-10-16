@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d489565e-529f-47a9-9598-9b150db7a24b",
+    "response_id": "chatcmpl-EZQuYuvPvZ0s1ZO4LVGQp8fx6n6JQ",
+    "usage": {
+      "completion_tokens": 432,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 106,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1565,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1562,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1997
+    }
+  },
+  "received_at": "2026-10-16T01:22:38+00:00",
+  "result": {
+    "html": "<article data-article-id=\"e7fba858-3c29-42c7-ae42-198541696da3\">\n  <p>Dalam tes sederhana ini, kita akan mengajukan beberapa pertanyaan tentang apa yang dikatakan Alkitab mengenai berkata-kata dalam bahasa roh. Jawabannya begitu jelas sehingga kita bahkan tidak akan memberikannya. <strong>PIKIRKAN</strong> jawabannya.</p>\n\n  <ol>\n    <li>Yesus berkata bahwa kita akan mengenali mereka dari (buah, karunia) mereka.</li>\n    <li>Kita dinasihati agar dipenuhi Roh, sambil berbicara kepada diri sendiri dengan (bahasa roh, atau mazmur, puji-pujian, dan nyanyian rohani).</li>\n    <li>Bahasa roh adalah tanda (bagi orang percaya, bagi orang yang tidak percaya).</li>\n    <li>Ketika Paulus mengajukan pertanyaan, “Apakah semua orang berkata-kata dalam bahasa roh?” jawaban tersiratnya adalah (ya, tidak).</li>\n    <li>Orang-orang yang tidak percaya dalam Kisah Para Rasul 2 (memerlukan penerjemah, tidak memerlukan penerjemah) untuk memahami apa yang dikatakan oleh mereka yang berkata-kata dalam bahasa roh.</li>\n  </ol>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Tes Bahasa Roh"
+  }
+}
