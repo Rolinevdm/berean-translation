@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T07:05:59+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Avsnittet ”Att komma in i Guds rike”, andra stycket i det sista citatet\",\"severity\":\"minor\",\"source_quote\":\"those who never boast in themselves but only in the cross of the Lord Jesus Christ\",\"suggested_fix\":\"de som aldrig berömmer sig själva utan endast berömmer sig av Herren Jesu Kristi kors\",\"translation_quote\":\"de som aldrig berömmer sig själva utan endast av Herren Jesu Kristi kors\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 478,
+    "content_evidence_truncated": false,
+    "content_sha256": "cdc56f0e82c790b867ce82c437778c2aac977e846b3b4ddbb7f276ba8e742fd2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1475,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1336,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 26488,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 25385,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 27963
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

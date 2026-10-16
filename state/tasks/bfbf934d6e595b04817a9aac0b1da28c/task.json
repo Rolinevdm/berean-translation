@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6589513ba46947129a4a004a821e49e7",
   "campaign": "auto-74e6bbdd0209784d6ca91eacf18acc90ff08616ebaea0dc7d67c68a073f82289",
   "created_at": "2026-10-15T22:41:49+00:00",
   "events": [
@@ -68,25 +67,39 @@
         },
         "total_tokens": 40342
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1475,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1336,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 26488,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 25385,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 27963
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Introduction, second paragraph",
-      "severity": "major",
-      "source_quote": "We are speaking of the baptism of the Holy Ghost and its captor, Pentecostalism.",
-      "suggested_fix": "Replace “dess fångvaktare” with “dess tillfångatagare” to preserve the source’s meaning that Pentecostalism has taken the doctrine captive.",
-      "translation_quote": "Vi talar om den helige Andes dop och dess fångvaktare, pingströrelsen."
-    },
-    {
-      "location": "Grace!, paragraph beginning “Now I am sure that Hans…”",
-      "severity": "major",
-      "source_quote": "For example, “For by the Holy Spirit are ye saved, through faith …” Ep. 2:8",
-      "suggested_fix": "Translate the quoted example without adding “av nåd”; for example: ”Ty genom den helige Ande är ni frälsta, genom tron …” Ef. 2:8",
-      "translation_quote": "Till exempel: ”Ty genom den helige Ande är ni frälsta av nåd, genom tron …” Ef. 2:8"
+      "location": "Avsnittet ”Att komma in i Guds rike”, andra stycket i det sista citatet",
+      "severity": "minor",
+      "source_quote": "those who never boast in themselves but only in the cross of the Lord Jesus Christ",
+      "suggested_fix": "de som aldrig berömmer sig själva utan endast berömmer sig av Herren Jesu Kristi kors",
+      "translation_quote": "de som aldrig berömmer sig själva utan endast av Herren Jesu Kristi kors"
     }
   ],
+  "finished_at": "2026-10-16T07:05:59+00:00",
   "id": "bfbf934d6e595b04817a9aac0b1da28c",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "swe",
@@ -175,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +208,7 @@
     "total_reserved_usd": 0.139909,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "55e58c4244dd6dd6b1692c4227d138b24d40e716692e5145e50cf9883188c5b8",
   "translation_model_actual": "gpt-6-luna"
