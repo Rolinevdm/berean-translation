@@ -1,0 +1,101 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "32a4889d-a283-4b35-94eb-f7af70664922",
+    "response_id": "chatcmpl-EZWNseLsofIXCqvc4E8ze4mga6AYi",
+    "usage": {
+      "completion_tokens": 3301,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 164,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9808,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8705,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13109
+    }
+  },
+  "received_at": "2026-10-16T09:55:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html > first ul > li[1–8]",
+        "severity": "major",
+        "source_quote": "“Nevertheless let … the wife see that she reverence her husband –Ephesians 5:33.”; “Likewise, ye wives…”; “Even as Sara obeyed…”; “Wives, submit yourselves…”; “But I would have you know…”; “Let the woman learn…”; “Therefore as the church…”; “Let your women keep silence…”",
+        "suggested_fix": "Traduzir os oito itens, preservando as tags: <li><em>Contudo, que … a esposa cuide de <strong>reverenciar seu marido</strong> –Efésios 5:33.</em></li><li><em>Igualmente, esposas, <strong>sujeitem-se a seus próprios maridos…</strong> –1 Pedro 3:1.</em></li><li><em><strong>Assim como Sara obedeceu</strong> a Abraão, chamando-o senhor: <strong>de quem vocês são filhas…</strong> –1 Pedro 3:6.</em></li><li><em><strong>Esposas, submetam-se a seus próprios maridos,</strong> como ao Senhor –Efésios 5:22.</em></li><li><em>Mas quero que saibam que o cabeça de todo homem é Cristo; e <strong>o cabeça da mulher é o homem;</strong> e o cabeça de Cristo é Deus –1 Coríntios 11:3.</em></li><li><em><strong>Que a mulher aprenda em silêncio, com toda a submissão.</strong> Mas não permito que a mulher ensine, nem que usurpe autoridade sobre o homem, mas que permaneça em silêncio. Pois primeiro foi formado Adão, depois Eva. E Adão não foi enganado, mas a mulher, sendo enganada, caiu em transgressão –1 Timóteo 2:11-14.</em></li><li><em>Portanto, assim como a igreja está sujeita a Cristo, também <strong>as esposas sejam [sujeitas] a seus próprios maridos em tudo</strong> –Efésios 5:24.</em></li><li><em><strong>Que as suas mulheres permaneçam em silêncio nas igrejas:</strong> pois não lhes é permitido falar; antes, devem estar em obediência, como também diz a lei –1 Coríntios 14:34.</em></li>",
+        "translation_quote": "“Nevertheless let … the wife see that she reverence her husband –Ephesians 5:33.”; “Likewise, ye wives…”; “Even as Sara obeyed…”; “Wives, submit yourselves…”; “But I would have you know…”; “Let the woman learn…”; “Therefore as the church…”; “Let your women keep silence…”"
+      },
+      {
+        "location": "html > paragraphs beginning “Tito nos dá”, “Outra tentação”, and “That they may teach”",
+        "severity": "major",
+        "source_quote": "“The aged women likewise, that they be … teachers of good things…”; “And the LORD God said, It is not good that the man should be alone…”; “That they may teach the young women to be sober, to love their husbands, to love their children –Titus 2:4.”; “The word ‘love,’ in to love their husbands … to love their children”",
+        "suggested_fix": "Traduzir os trechos mantendo as tags existentes: <em>As mulheres mais velhas, igualmente, sejam … mestras do bem; para que ensinem as jovens a serem sensatas, <strong>a amarem seus maridos,</strong> a amarem seus filhos, a serem discretas, castas, cuidadosas do lar, boas, <strong>obedientes a seus próprios maridos,</strong> para que a palavra de Deus não seja blasfemada –Tito 2:3-5.</em> No parágrafo seguinte: <em>E o SENHOR Deus disse: Não é bom que o homem esteja só; farei para ele uma ajuda [ajudadora, auxílio, apoio] adequada [apropriada, conveniente, complementar] a ele –Gênesis 2:18.</em> No outro parágrafo: <em>Para que ensinem as jovens a serem sensatas, a amarem seus maridos, a amarem seus filhos –Tito 2:4.</em> Traduzir também “love” como “amar”, <em>to love their husbands</em> como <em>amar seus maridos</em> e <em>to love their children</em> como <em>amar seus filhos</em>.",
+        "translation_quote": "“The aged women likewise, that they be … teachers of good things…”; “And the LORD God said, It is not good that the man should be alone…”; “That they may teach the young women to be sober, to love their husbands, to love their children –Titus 2:4.”; “A palavra ‘love’, em to love their husbands … to love their children”"
+      },
+      {
+        "location": "html > quotation paragraph immediately before the account of the infant’s ear infection",
+        "severity": "major",
+        "source_quote": "“Likewise, ye wives, be in subjection to your own husbands; … that your prayers be not hindered –1 Peter 3:1-2 & 3:6-7.”",
+        "suggested_fix": "Substituir a citação não traduzida por: <p><em>Igualmente, esposas, sujeitem-se a seus próprios maridos; para que, se alguns não obedecem à palavra, também sejam ganhos sem palavra pela conduta [comportamento] das esposas; ao observarem sua conduta casta [modesta, inocente, perfeita, pura], acompanhada de temor. Assim como Sara obedeceu a Abraão, chamando-o senhor: de quem vocês são filhas, enquanto fizerem o bem e não se deixarem amedrontar por nenhum espanto [terror]. Igualmente, maridos, vivam com elas com entendimento, dando honra à esposa como ao vaso mais frágil e como a coerdeiras da graça da vida; <strong>para que suas orações não sejam impedidas</strong> –1 Pedro 3:1-2 &amp; 3:6-7.</em></p>",
+        "translation_quote": "“Likewise, ye wives, be in subjection to your own husbands; … that your prayers be not hindered –1 Peter 3:1-2 & 3:6-7.”"
+      },
+      {
+        "location": "html > aside > h2 and all seven paragraphs",
+        "severity": "major",
+        "source_quote": "“Editor’s Note:”; “I was one who struggled majorly…”; “One of the main reasons…”; “The answer is two-fold.”; “First, if two people agree…”; “Second, God knew…”; “Consider that even though Eve…” including “Romans 5:12-14”; “So, we see that God provides protection…” including “1 Corinthians 11:3 and Romans 13:12”",
+        "suggested_fix": "Traduzir integralmente a nota, conservando sua estrutura: <h2>Nota do editor:</h2><p>Fui alguém que, durante anos, teve grande dificuldade por não saber como se submeter, embora desejasse fazê-lo. A seguir, tento compartilhar o que Deus tem me ensinado.</p><p>Uma das principais razões pelas quais muitas pessoas têm dificuldade com a “submissão” é que não entendem realmente o que Deus quer dizer sobre o assunto — não compreendem a realidade da submissão bíblica. Geralmente, uma pessoa sabe em que acredita sobre determinado assunto; assim, quando lhe pedem que se “submeta” naquele ponto, pensa que lhe estão pedindo que comprometa sua convicção pessoal — ou peque contra sua consciência.</p><p>A resposta tem duas partes.</p><p>Primeiro, se duas pessoas concordam sobre uma questão, não há necessidade de ninguém se submeter. Portanto, submeter-se não significa que a pessoa esteja necessariamente mudando de opinião; antes, ela escolhe apoiar a decisão da outra pessoa com base no fato de que Deus diz que é essa outra pessoa quem Ele responsabiliza pelas decisões daquele grupo — seja um casal, o lar, uma escola, uma igreja etc.</p><p>Segundo, Deus sabia que, sempre que mais de uma pessoa discutisse uma decisão a ser tomada, uma acabaria se submetendo à outra. Portanto, para esclarecer a responsabilidade, Ele dá orientação clara sobre quem considera a pessoa responsável (a autoridade espiritual) em cada tipo de situação — o marido no casamento, o pai na família, o homem (o cabeça) no lar, os líderes ordenados na igreja, os professores ou o diretor no ambiente escolar etc. Assim, todos podem saber quem Deus considera responsável por quaisquer erros cometidos.</p><p>Considere que, embora Eva tenha tomado o fruto e comido primeiro, dando-o depois ao marido para comer, Deus nos esclarece quem Ele responsabiliza por essa falha (pecado). <em>Portanto, assim como por um homem [não por uma mulher] o pecado entrou no mundo, e pelo pecado a morte, assim também a morte passou a todos os homens, porque todos pecaram … Contudo, <strong>a morte reinou desde Adão</strong> [não desde Eva] até Moisés, mesmo sobre aqueles [os descendentes de Adão — toda a raça humana] que não pecaram à semelhança da transgressão de Adão… –Romanos 5:12-14.</em></p><p>Assim, vemos que Deus oferece proteção e segurança a todos os que estão sob autoridade, se permanecerem sob essa autoridade. A pessoa que Deus claramente identifica como a figura de autoridade em cada relacionamento será sempre aquela que Ele responsabiliza pelas decisões tomadas por esse grupo de pessoas. Assim como na queda no jardim do Éden, os pecados de omissão e de ação dentro de cada família serão atribuídos principalmente ao pai. Não importa se o pai estava orientando a família de maneira errada ou se não estava dando orientação alguma: ele ainda terá de prestar contas, pois Deus considera o homem o cabeça de seu lar. (ver 1 Coríntios 11:3 e Romanos 13:12)</p>",
+        "translation_quote": "“Editor’s Note:”; “I was one who struggled majorly…”; “One of the main reasons…”; “The answer is two-fold.”; “First, if two people agree…”; “Second, God knew…”; “Consider that even though Eve…” including “Romans 5:12-14”; “So, we see that God provides protection…” including “1 Corinthians 11:3 and Romans 13:12”"
+      },
+      {
+        "location": "html > paragraph beginning “Quando somos tentadas”",
+        "severity": "major",
+        "source_quote": "“Let us not rail on or nag our husbands when difficulties arise.”",
+        "suggested_fix": "Substituir a frase por: “Não ataquemos verbalmente nossos maridos nem os importunemos quando surgirem dificuldades.”",
+        "translation_quote": "“Não nos desgastemos ou impliquemos com nossos maridos quando surgirem dificuldades.”"
+      },
+      {
+        "location": "html > paragraph beginning “Uma das primeiras vezes”, final sentence",
+        "severity": "major",
+        "source_quote": "“God taught us that we need to be open with each other with no hidden sin”",
+        "suggested_fix": "Substituir “precisamos estar abertas umas com as outras” por “precisamos ser francos um com o outro”, preservando a referência à autora e ao marido.",
+        "translation_quote": "“Deus nos ensinou que precisamos estar abertas umas com as outras, sem pecado oculto”"
+      },
+      {
+        "location": "title; section",
+        "severity": "minor",
+        "source_quote": "“Understanding Submission”; “Sister to Sister”",
+        "suggested_fix": "Traduzir o título como “Compreendendo a submissão” e a seção como “De irmã para irmã”.",
+        "translation_quote": "“Understanding Submission”; “Sister to Sister”"
+      },
+      {
+        "location": "html > paragraph beginning “Quando pensamos em submissão”",
+        "severity": "minor",
+        "source_quote": "“we will be taken advantage of”; “won through her conversation (or by the way she conducts her life)”",
+        "suggested_fix": "Substituir “seremos aproveitadas” por “tirarão proveito de nós” e “pela sua conversa” por “pela sua conduta”, mantendo a explicação entre parênteses.",
+        "translation_quote": "“seremos aproveitadas”; “ganho pela sua conversa (ou pelo modo como ela conduz sua vida)”"
+      },
+      {
+        "location": "html > paragraph beginning “Havia um amigo nosso”",
+        "severity": "minor",
+        "source_quote": "“the principle of the headship order”; “it was because of his wife’s godly conduct that drew him to repentance”",
+        "suggested_fix": "Substituir “o princípio da ordem da potestade” por “o princípio da ordem de autoridade” e corrigir a frase final para “Hoje, seu marido testemunhará que foi a conduta piedosa de sua esposa que o atraiu ao arrependimento e à fé em Cristo.”",
+        "translation_quote": "“o princípio da ordem da potestade”; “foi por causa a conduta piedosa de sua esposa que ele foi atraído ao arrependimento”"
+      },
+      {
+        "location": "html > paragraph beginning “À medida que nossos próprios filhos”",
+        "severity": "minor",
+        "source_quote": "“in our plain churches”",
+        "suggested_fix": "Substituir “em nossas igrejas simples” por “em nossas igrejas de tradição de vida simples”, para tornar clara a referência à tradição religiosa, não à simplicidade dos edifícios ou organizações.",
+        "translation_quote": "“em nossas igrejas simples”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 55
+  }
+}
