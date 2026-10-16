@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "65e0b35beadf480aa3b2fd42f0c1ce1f",
   "campaign": "auto-38ce36b37897e7af8c6fc3fd315db578cb6c2f718e61529a7767f12413d2b65f",
   "created_at": "2026-10-16T00:51:14+00:00",
   "events": [
@@ -48,102 +47,31 @@
         },
         "total_tokens": 10757
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 61,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 29,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6546,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5443,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6607
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, avsnittet under «…Tilgivelse»",
-      "severity": "major",
-      "source_quote": "Sometimes hot words are exchanged ... so we choose unforgiveness!",
-      "suggested_fix": "Endre «varme ord» til «harde ord», og erstatt «så vi velger utenforskap—til ikke å tilgi!» med «så vi velger å ikke tilgi!»",
-      "translation_quote": "Noen ganger blir varme ord utvekslet ... så vi velger utenforskap—til ikke å tilgi!"
-    },
-    {
-      "location": "html, tredje fortellende avsnitt",
-      "severity": "major",
-      "source_quote": "Weeping bitterly, Beto concluded that it was useless to continue trying",
-      "suggested_fix": "Erstatt med «Beto gråt sårt og konkluderte med at det var nytteløst å fortsette å prøve».",
-      "translation_quote": "Gråtende av bitterhet, sluttet Beto at det var nytteløst å fortsette å prøve"
-    },
-    {
-      "location": "html, avsnittet om Paulus og Silas",
-      "severity": "major",
-      "source_quote": "they were severely beaten by the local authorities, secured in stocks",
-      "suggested_fix": "Erstatt med «ble de kraftig slått av de lokale myndighetene og satt i stokken». Behold resten av setningen.",
-      "translation_quote": "ble de hardt mishandlet av de lokale myndighetene, satt i jern"
-    },
-    {
-      "location": "html, andre fortellende avsnitt",
-      "severity": "minor",
-      "source_quote": "a refreshing drink of water from the creek",
-      "suggested_fix": "Erstatt «en forfriskende drink» med «en forfriskende slurk vann».",
-      "translation_quote": "en forfriskende drink fra bekken"
-    },
-    {
-      "location": "html, tredje fortellende avsnitt",
-      "severity": "minor",
-      "source_quote": "Hearing the padding of the wildcat’s enormous paws on the forest floor behind him",
-      "suggested_fix": "Skriv «Da han hørte villkattens enorme poter trampe mykt mot skogbunnen bak seg».",
-      "translation_quote": "Da han hørte den villkattens enorme poter padde mot skogbunnen bak seg"
-    },
-    {
-      "location": "html, innledende refleksjonsavsnitt",
-      "severity": "minor",
-      "source_quote": "Is there a big “something” inflicting pain in your life",
-      "suggested_fix": "Erstatt med «Er det «noe» stort som påfører deg smerte i livet».",
-      "translation_quote": "Er det en stor «noe» som påfører smerte i livet ditt"
-    },
-    {
-      "location": "html, avsnittet med Romerne 8:37",
-      "severity": "minor",
-      "source_quote": "Situations like this",
-      "suggested_fix": "Del ordet: «Slike situasjoner».",
-      "translation_quote": "Slikesituasjoner"
-    },
-    {
-      "location": "html, andre avsnitt under «…Tilgivelse»",
-      "severity": "minor",
-      "source_quote": "Unforgiveness always leads to bitterness",
-      "suggested_fix": "Skriv «Å ikke tilgi fører alltid til bitterhet».",
-      "translation_quote": "Uten tilgivelse fører alltid til bitterhet"
-    },
-    {
-      "location": "html, avsnittet under «1. Aksepter det»",
-      "severity": "minor",
-      "source_quote": "a “tough” facade ... we need God to help us heal",
-      "suggested_fix": "Endre «et «hardt» fasade» til «en «tøff» fasade», og «vi trenger Guds hjelp til å helbrede» til «vi trenger Guds hjelp til å bli leget».",
-      "translation_quote": "et «hardt» fasade ... vi trenger Guds hjelp til å helbrede"
-    },
-    {
-      "location": "html, overskriften «2. Gi det slipp» og første avsnitt under den",
-      "severity": "minor",
-      "source_quote": "2. Let it go ... burdens we sometimes find ourselves carrying ... a formal ritual",
-      "suggested_fix": "Endre overskriften til «2. Gi slipp på det», «byrdene vi noen ganger finner oss selv å bære» til «byrdene vi noen ganger bærer på», og «en formell ritual» til «et formelt ritual».",
-      "translation_quote": "2. Gi det slipp ... byrdene vi noen ganger finner oss selv å bære ... en formell ritual"
-    },
-    {
-      "location": "html, avsnittet under «…Ubetinget overgivelse»",
-      "severity": "minor",
-      "source_quote": "<em>…For my yoke is easy, and my burden is light –Matthew 11:28-30.</em>",
-      "suggested_fix": "Gjenopprett em-taggen rundt sitatet: «<em>…For mitt åk er godt, og min byrde er lett – Matteus 11:28-30.</em>».",
-      "translation_quote": "…For mitt åk er godt, og min byrde er lett – Matteus 11:28-30."
-    },
-    {
-      "location": "html, henvisningene til Peters brev, Jakobs brev og Andre Korinterbrev",
-      "severity": "minor",
-      "source_quote": "(1 Peter 4:12,13); (James 1:2-4); (1 Peter 5:6,7); (1Peter 3:12); (2 Corinthians 1:1-7)",
-      "suggested_fix": "Bruk konvensjonelle norske boknavn: «(1. Petersbrev 4:12,13)», «(Jakobs brev 1:2-4)», «(1. Petersbrev 5:6,7)», «(1. Petersbrev 3:12)» og «(2. Korinterbrev 1:1-7)».",
-      "translation_quote": "(1 Peter 4:12,13); (Jakob 1:2-4); (1 Peter 5:6,7); (1 Peter 3:12); (2 Korinter 1:1-7)"
-    },
-    {
-      "location": "html, første avsnitt",
-      "severity": "minor",
-      "source_quote": "quickened his already hurried pace as he approached the forest",
-      "suggested_fix": "Skriv «økte Beto (et fiktivt navn) det allerede raske tempoet idet han nærmet seg skogen».",
-      "translation_quote": "økte Beto (et fiktivt navn) tempoet i det han nærmet seg skogen"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-16T07:05:46+00:00",
   "id": "74ffb2b046761e00fe2728a2c6158481",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "nob",
@@ -232,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 86,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -251,7 +179,7 @@
     "total_reserved_usd": 0.731435,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4dca0fb4064954f718edd76356f4b3252712476d53d4c6f6f30b8608493c5b94",
   "translation_model_actual": "gpt-6.1-sol"
