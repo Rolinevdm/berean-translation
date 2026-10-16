@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-16T20:58:41+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"cac00fd8-ab2b-4033-92c7-bef44b4341db\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg\\\" alt=\\\"Ein Segelschiff fährt nahe der Küste an Felsen vorbei.\\\">\\n  </figure>\\n  <p>Ein Kapitän wurde einmal gefragt, ob er alle Felsen entlang der Küste kenne. „Nein“, sagte er, „es ist nicht nötig, alle Felsen zu kennen, sondern nur das sichere Fahrwasser.“</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"ALLE FELSEN\"}",
+    "content_bytes": 510,
+    "content_evidence_truncated": false,
+    "content_sha256": "d744b63e7818a474f7b1baf09658c8772c167e3bfadc6ecf3c95f9fd1d7dfa62",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 229,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 49,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 952,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1181
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
