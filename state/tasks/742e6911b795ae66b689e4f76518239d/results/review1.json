@@ -1,0 +1,101 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "1a964a5d-8107-4dc2-81c9-db7e09911e82",
+    "response_id": "chatcmpl-EZbKsLB7OtLUIts5lC8H66sDDPjB6",
+    "usage": {
+      "completion_tokens": 1535,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 40,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9548,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9545,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11083
+    }
+  },
+  "received_at": "2026-10-16T12:32:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html، عنوان «میوٹیشنز کے اسباب…» کے بعد دوسرا پیراگراف",
+        "severity": "major",
+        "source_quote": "the chance of genes mutating and abnormal genes popping up was much less than it is now",
+        "suggested_fix": "آخری جملہ یوں کریں: «لہٰذا جینز میں میوٹیشن ہونے اور غیر معمولی جینز کے نمودار ہونے کے امکانات اُس وقت اب کی نسبت بہت کم تھے۔»",
+        "translation_quote": "امکانات اس وقت کی نسبت اب کم تھے۔"
+      },
+      {
+        "location": "html، عنوان «…غذائی غیر صحت مند عناصر» کے تحت پیراگراف",
+        "severity": "major",
+        "source_quote": "Foods that are high in nitrites ... Nitrites are typically present in smoked and cured meats.",
+        "suggested_fix": "دونوں مقامات پر «نائٹریٹس» کو «نائٹرائٹس» سے بدلیں تاکہ nitrites کی شناخت درست رہے۔",
+        "translation_quote": "وہ غذائیں جو نائٹریٹس میں زیادہ ہوتی ہیں ... نائٹریٹس عام طور پر سموکڈ اور کیورڈ گوشتوں میں پائے جاتے ہیں۔"
+      },
+      {
+        "location": "html، کامل اسکریننگ ٹیسٹ کی خصوصیات والا پیراگراف",
+        "severity": "major",
+        "source_quote": "the test will identify the cancer at a point early enough in its development that it is easy to treat",
+        "suggested_fix": "متعلقہ جملہ یوں کریں: «اس کے بعد، ٹیسٹ کینسر کو اس کی نشوونما کے اتنے ابتدائی مرحلے میں شناخت کرے گا کہ اس کا علاج آسان ہو۔»",
+        "translation_quote": "جہاں اس کا ارتقاء ابھی اتنا آگے نہ بڑھا ہو کہ علاج آسان ہو۔"
+      },
+      {
+        "location": "html، آخری خیالات میں یسعیاہ 41:10 کا اقتباس",
+        "severity": "major",
+        "source_quote": "I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness",
+        "suggested_fix": "متعلقہ عبارت کو «میں تجھے قوت بخشوں گا؛ ہاں، میں تیری مدد کروں گا؛ ہاں، میں اپنی راست بازی کے دہنے ہاتھ سے تجھے سنبھالوں گا۔» سے بدلیں، موجودہ em ٹیگ اور حوالہ برقرار رکھیں۔",
+        "translation_quote": "میں تیری مدد کروں گا؛ ہاں، میں تیری مدد کروں گا؛ ہاں، میں اپنے راست بازو سے تجھے سنبھالوں گا۔"
+      },
+      {
+        "location": "html، متی 6:31-34 کا اقتباس",
+        "severity": "major",
+        "source_quote": "the Gentiles seek ... seek ye first the kingdom of God, and his righteousness",
+        "suggested_fix": "«جاہل قومیں» کی جگہ «غیر یہودی قومیں» اور «اس کی عدالت کا تلاش کرو» کی جگہ «اس کی راست بازی کی تلاش کرو» لکھیں؛ موجودہ em ٹیگ اور حوالہ برقرار رکھیں۔",
+        "translation_quote": "جاہل قومیں تلاش کرتی ہیں ... پہلے خدا کی بادشاہی اور اس کی عدالت کا تلاش کرو"
+      },
+      {
+        "location": "html، «کینسر کیا ہے؟» کے تحت پہلا پیراگراف",
+        "severity": "minor",
+        "source_quote": "the fall of man in the Garden of Eden",
+        "suggested_fix": "«آدم و حوا کے گنہگار ہونے کے بعد کے زوال تک ٹریس کر سکتے ہیں» کی جگہ «باغِ عدن میں انسان کے گناہ میں گرنے تک لے جا سکتے ہیں» لکھیں تاکہ مقام بھی محفوظ رہے۔",
+        "translation_quote": "آدم و حوا کے گنہگار ہونے کے بعد کے زوال تک ٹریس کر سکتے ہیں"
+      },
+      {
+        "location": "html، طوفان سے پہلے کی عمر اور بعد از طوفان عمر کے پیراگراف",
+        "severity": "minor",
+        "source_quote": "often into their 900s ... by soon after the time of Abraham",
+        "suggested_fix": "«اکثر نو سو برس تک» کو «اکثر نو سو سے زیادہ برس تک» اور «ابراہیم کے وقت کے قریب» کو «ابراہیم کے زمانے کے کچھ ہی عرصے بعد تک» سے بدلیں۔",
+        "translation_quote": "اکثر نو سو برس تک ... ابراہیم کے وقت کے قریب"
+      },
+      {
+        "location": "html، حزقیاہ اور فلستیوں کی بیماریوں والا پیراگراف",
+        "severity": "minor",
+        "source_quote": "Hezekiah’s “boil” could have been some kind of cancerous growth ... when the ark of the covenant was in their land",
+        "suggested_fix": "متعلقہ عبارت یوں کریں: «ممکن ہے کہ حزقیاہ کا “پھوڑا” کسی قسم کی سرطانی رسولی رہا ہو۔ یہ بھی ممکن ہے کہ جب عہد کا صندوق فلستیوں کے ملک میں تھا تو انہیں لاحق ہونے والی بعض بیماریاں سرطانی رسولیاں رہی ہوں۔»",
+        "translation_quote": "حزقیاہ کا “پھوٹی” کوئی قسم کا کینسر پیدا ہونے والا رسولی ہو سکتی تھی ... عہدنامہ کا تابوت"
+      },
+      {
+        "location": "html، ابتدائی تعارفی پیراگراف میں بیماری کے بڑھتے وقوع کا بیان",
+        "severity": "minor",
+        "source_quote": "More people seem to be getting it, yet no one really knows why.",
+        "suggested_fix": "جملہ یوں کریں: «لگتا ہے کہ زیادہ لوگ اس میں مبتلا ہو رہے ہیں، لیکن حقیقت میں کوئی نہیں جانتا کہ ایسا کیوں ہے۔»",
+        "translation_quote": "زیادہ لوگ ایسا لگتا ہے کہ اسے پا رہا ہیں، پھر بھی حقیقت میں کوئی بالکل نہیں جانتا کہ کیوں۔"
+      },
+      {
+        "location": "html، جلد تشخیص اور لمفی غدود والا پیراگراف",
+        "severity": "minor",
+        "source_quote": "before it spreads to the lymph glands",
+        "suggested_fix": "«لپھٹک غدودوں» کو «لمفی غدود» سے بدلیں۔",
+        "translation_quote": "لپھٹک غدودوں تک پھیلنے سے پہلے"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 81
+  }
+}
