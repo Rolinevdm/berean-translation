@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "34e026fe-ae8f-474b-b263-2e15cf596819",
+    "response_id": "chatcmpl-EZl5V9KOC82dbHEXBIbea67hH7QO7",
+    "usage": {
+      "completion_tokens": 557,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 370,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3407,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2304,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3964
+    }
+  },
+  "received_at": "2026-10-16T23:31:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «أكتب هذه الكلمات وأنا أحمل عبئًا في قلبي»",
+        "severity": "major",
+        "source_quote": "“The problem lies in the heart of the ones practicing the tradition with the deadness of an abandoned graveyard.”",
+        "suggested_fix": "استبدل «إنما تكمن المشكلة في قلوب ممارسي التقليد، إذ يحيونه بجمود مقبرة مهجورة» بـ«إنما تكمن المشكلة في قلوب ممارسي التقليد، إذ يمارسونه بروح ميتة كروح مقبرة مهجورة»",
+        "translation_quote": "«إنما تكمن المشكلة في قلوب ممارسي التقليد، إذ يحيونه بجمود مقبرة مهجورة.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

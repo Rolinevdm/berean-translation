@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d47ca78b31774f3b91710ad06d88e239",
   "campaign": "auto-fba37f8cb6bc24fe54b9ce4b9e50b459007f3818168903962d189662767faa18",
   "created_at": "2026-10-11T13:07:33+00:00",
   "events": [
@@ -48,18 +47,40 @@
         },
         "total_tokens": 4633
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 557,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 370,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3407,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2304,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3964
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[35]: source /article[1]/p[11]/em[1] ('start', 'em', ()); translation /article[1]/p[11] ('end', 'p')",
-      "translation_quote": ""
+      "location": "HTML, paragraph beginning «أكتب هذه الكلمات وأنا أحمل عبئًا في قلبي»",
+      "severity": "major",
+      "source_quote": "“The problem lies in the heart of the ones practicing the tradition with the deadness of an abandoned graveyard.”",
+      "suggested_fix": "استبدل «إنما تكمن المشكلة في قلوب ممارسي التقليد، إذ يحيونه بجمود مقبرة مهجورة» بـ«إنما تكمن المشكلة في قلوب ممارسي التقليد، إذ يمارسونه بروح ميتة كروح مقبرة مهجورة»",
+      "translation_quote": "«إنما تكمن المشكلة في قلوب ممارسي التقليد، إذ يحيونه بجمود مقبرة مهجورة.»"
     }
   ],
+  "finished_at": "2026-10-16T23:31:51+00:00",
   "id": "d3cc84fe43efe52ab7441c8acd43a422",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ara",
@@ -148,9 +169,11 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/53355702ddab569aed98a9ab0f304db45cd690b45d9e25455e84c6221b4fb3e2.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +189,7 @@
     "total_reserved_usd": 0.086825,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e83c21a2dc8b27527deaa97201c827676e2b4113d21d210cf46c22a580c0672d",
   "translation_model_actual": "gpt-6-luna"

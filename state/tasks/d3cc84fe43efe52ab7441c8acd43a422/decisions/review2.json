@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «أكتب هذه الكلمات وأنا أحمل عبئًا في قلبي»",
+      "severity": "major",
+      "source_quote": "“The problem lies in the heart of the ones practicing the tradition with the deadness of an abandoned graveyard.”",
+      "suggested_fix": "استبدل «إنما تكمن المشكلة في قلوب ممارسي التقليد، إذ يحيونه بجمود مقبرة مهجورة» بـ«إنما تكمن المشكلة في قلوب ممارسي التقليد، إذ يمارسونه بروح ميتة كروح مقبرة مهجورة»",
+      "translation_quote": "«إنما تكمن المشكلة في قلوب ممارسي التقليد، إذ يحيونه بجمود مقبرة مهجورة.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
