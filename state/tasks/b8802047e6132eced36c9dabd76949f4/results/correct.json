@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4308f511-d5a5-49fd-9190-98cf004795fa",
+    "response_id": "chatcmpl-EZUZ9kUWkKq2CsIisfcdIwlD50NGP",
+    "usage": {
+      "completion_tokens": 437,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 112,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1504,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1501,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1941
+    }
+  },
+  "received_at": "2026-10-16T07:05:21+00:00",
+  "result": {
+    "html": "<article data-article-id=\"e7fba858-3c29-42c7-ae42-198541696da3\">\n  <p>במבחן הפשוט הזה נשאל כמה שאלות על מה שיש לכתבי הקודש לומר בנושא דיבור בלשונות. התשובות ברורות כל כך, שאפילו לא נביא אותן. <strong>חשבו</strong> על התשובות.</p>\n\n  <ol>\n    <li>ישוע אמר שנכיר אותם לפי (הפירות, המתנות) שלהם.</li>\n    <li>אנו נקראים להתמלא ברוח ולדבר אל עצמנו ב(לשונות, מזמורים, שירים ותשבחות רוחניים).</li>\n    <li>הלשונות הן אות (למאמין, למי שאינו מאמין).</li>\n    <li>כשפאולוס שאל את השאלה ״האם כולם מדברים בלשונות?״, התשובה המשתמעת הייתה (כן, לא).</li>\n    <li>מי שלא האמינו במעשי השליחים ב׳ (נזקקו למתרגם, לא נזקקו למתרגם) כדי להבין מה אמרו אלה שדיברו בלשונות.</li>\n  </ol>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "מבחן הלשונות"
+  }
+}
