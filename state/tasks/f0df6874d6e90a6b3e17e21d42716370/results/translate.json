@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "66ff96c7-1ebc-4d64-b4fc-e4143cc1586a",
+    "response_id": "chatcmpl-EZZ9cX5ZjAnIEA1oFfYcJtcYChxkl",
+    "usage": {
+      "completion_tokens": 479,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 81,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1162,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1159,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1641
+    }
+  },
+  "received_at": "2026-10-16T12:23:54+00:00",
+  "result": {
+    "html": "<article data-article-id=\"0862fd6d-7c62-456c-8b3f-abb513f498ce\">\n  <p class=\"drop-cap\">Cuando se oyó el disparo de salida, todos los participantes echaron a correr hacia la meta. Es cierto que no eran tan rápidos como los corredores habituales de secundaria. De hecho, debido a sus discapacidades, eran tan lentos que incluso conversaban entre sí mientras avanzaban.</p>\n\n  <p>Cuando habían recorrido aproximadamente ¾ del camino hacia la meta, ocurrió algo. Suzie se cayó y se raspó la rodilla. Empezó a llorar porque le dolía. Carl, que estaba a su lado, se detuvo y le habló con amabilidad. Todos los que iban detrás de ella, al alcanzarla, también se detuvieron para expresarle su solidaridad. Algunos avisaron a los demás que iban más adelante para contarles lo que estaba pasando. Como los otros no estaban muy lejos, oyeron las llamadas de quienes venían detrás y también regresaron para acompañar a Suzie.</p>\n\n  <p>Al cabo de un rato, cuando se sintió mejor, dos de sus amigos la ayudaron a ponerse de pie. Entonces, los amigos que estaban a su lado y la sostenían de los brazos dijeron: «Te ayudaremos a llegar a la meta». Todos los demás también dijeron: «¡Nosotros también!». En ese momento, todos se tomaron de las manos y avanzaron lentamente por la pista, al paso de Suzie, que cojeaba. Luego, formando una gran cadena, ¡todos cruzaron juntos la línea de meta! ~Autor desconocido</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Corriendo juntos hacia la meta"
+  }
+}
