@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "299129f2-b372-418c-8f2a-10b2c32d88fa",
+    "response_id": "chatcmpl-Ea73qtHWPqbsz2zSRiiHfQHtSCAhn",
+    "usage": {
+      "completion_tokens": 846,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 696,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9039,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7936,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9885
+    }
+  },
+  "received_at": "2026-10-17T22:22:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "마지막에서 세 번째 문단",
+        "severity": "minor",
+        "source_quote": "this paralyzing, deadly backsliding is wholly unnecessary, wholly uncalled for.",
+        "suggested_fix": "이 마비시키고 죽음에 이르게 하는 신앙의 퇴보는 전적으로 불필요하며 전혀 정당화될 수 없습니다.",
+        "translation_quote": "이 마비시키고 죽음에 이르게 하는 신앙의 퇴보는 전적으로 불필요하고 전혀 불가피한 것이 아닙니다."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

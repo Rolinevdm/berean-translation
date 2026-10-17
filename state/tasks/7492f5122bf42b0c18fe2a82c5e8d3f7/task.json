@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "242415f7d49d4b8b89e15f23f7eaffdd",
   "campaign": "auto-417ab927e72a8a9d807f53b5fe1a0cbcecb6126410db5d6297a4e9f59c4edb47",
   "created_at": "2026-10-17T21:37:50+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 8685
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 846,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 696,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9039,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7936,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9885
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "마지막에서 세 번째 문단",
+      "severity": "minor",
+      "source_quote": "this paralyzing, deadly backsliding is wholly unnecessary, wholly uncalled for.",
+      "suggested_fix": "이 마비시키고 죽음에 이르게 하는 신앙의 퇴보는 전적으로 불필요하며 전혀 정당화될 수 없습니다.",
+      "translation_quote": "이 마비시키고 죽음에 이르게 하는 신앙의 퇴보는 전적으로 불필요하고 전혀 불가피한 것이 아닙니다."
+    }
+  ],
+  "finished_at": "2026-10-17T22:22:28+00:00",
   "id": "7492f5122bf42b0c18fe2a82c5e8d3f7",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "kor",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0cf69fae5bdc5074289671d3718aac2111ac6589c6e3bd86072ed5c05640e01b.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.08996,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e215e736c1acdb8dcfb1204d9f2318c83130759b6bf298e60a5f911c6667fd1f",
   "translation_model_actual": "gpt-6-luna"
