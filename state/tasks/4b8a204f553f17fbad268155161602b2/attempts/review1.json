@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T04:23:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"结尾段，创世记 6:3 引文\",\"severity\":\"major\",\"source_quote\":\"“My Spirit shall not always strive with men (Gen 6:3)”\",\"suggested_fix\":\"将引文改为：“我的灵不永远与人相争（创世记 6:3）”\",\"translation_quote\":\"“我的灵就不永远住在他里面（创世记 6:3）”\"},{\"location\":\"结尾段，路加福音 19:42 引文\",\"severity\":\"major\",\"source_quote\":\"“If thou knewest, even though, at least in this thy day, the things that belong to thy peace!”\",\"suggested_fix\":\"将引文改为：“但愿你，就是你，至少在今天，知道那些关乎你平安的事！”\",\"translation_quote\":\"“但愿你，就是你，至少在今天，知道那些关乎你平安的事！”\"}],\"findings_complete\":true,\"passed\":false,\"score\":88}",
+    "content_bytes": 800,
+    "content_evidence_truncated": false,
+    "content_sha256": "f414f3b324c1f5aea16e6d46d43e8c3f092a92df57c1dd1f70fbdf575e80bf32",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 613,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 380,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2687,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2684,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3300
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "结尾段，创世记 6:3 引文",
+      "severity": "major",
+      "source_quote": "“My Spirit shall not always strive with men (Gen 6:3)”",
+      "suggested_fix": "将引文改为：“我的灵不永远与人相争（创世记 6:3）”",
+      "translation_quote": "“我的灵就不永远住在他里面（创世记 6:3）”"
+    },
+    {
+      "location": "结尾段，路加福音 19:42 引文",
+      "severity": "major",
+      "source_quote": "“If thou knewest, even though, at least in this thy day, the things that belong to thy peace!”",
+      "suggested_fix": "将引文改为：“但愿你，就是你，至少在今天，知道那些关乎你平安的事！”",
+      "translation_quote": "“但愿你，就是你，至少在今天，知道那些关乎你平安的事！”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

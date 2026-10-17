@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "06de1e4c-7799-9ad1-b36a-6768e78b5a84",
+    "response_id": "chatcmpl-EZqBiZcEEUhFf5HYJJLbPq1lswvHL",
+    "usage": {
+      "completion_tokens": 613,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 380,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2687,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2684,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3300
+    }
+  },
+  "received_at": "2026-10-17T04:23:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "结尾段，创世记 6:3 引文",
+        "severity": "major",
+        "source_quote": "“My Spirit shall not always strive with men (Gen 6:3)”",
+        "suggested_fix": "将引文改为：“我的灵不永远与人相争（创世记 6:3）”",
+        "translation_quote": "“我的灵就不永远住在他里面（创世记 6:3）”"
+      },
+      {
+        "location": "结尾段，路加福音 19:42 引文",
+        "severity": "major",
+        "source_quote": "“If thou knewest, even though, at least in this thy day, the things that belong to thy peace!”",
+        "suggested_fix": "将引文改为：“但愿你，就是你，至少在今天，知道那些关乎你平安的事！”",
+        "translation_quote": "“但愿你，就是你，至少在今天，知道那些关乎你平安的事！”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 88
+  }
+}
