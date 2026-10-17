@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T11:00:13+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"1f294c3b-4295-4493-8a52-a33af40f298b\\\">\\n  <p class=\\\"drop-cap\\\">Engelska kanalens vatten flöt brett och djupt, och ingen människa hade någonsin simmat över hela dess bredd. Matthew Webb, den berömde simmaren, drevs av ambitionen att göra det ingen tidigare hade gjort och var medveten om sin muskelstyrka. Han simmade de där tjugofem milen och satte foten på Frankrikes kust.</p>\\n  <p>Han var ofta i vattnet och kom alltid oskadd därifrån, och tycktes tro att han hade ett liv skyddat av en lyckobringare. När han såg Niagaras kokande ström bestämde han sig för att riskera livet för berömmelsens skull – en berömmelse som aldrig har tillfredsställt något längtande människohjärta – och sade: ”Allt handlar om tur, och slutet tänker jag inte på; jag tänker ta min chans.”</p>\\n  <p>Den 24 juli 1883 klädde han sig, utan att veta att det var sista gången, i sina välbekanta simkläder och tog det ödesdigra språnget ner i den vilda, virvlande strömmen. Han steg upp ur dyket som vanligt för att flyta och börja simma, men de virvlande vattnen grep honom som ett halmstrå i sitt väldiga grepp och slungade honom, osedd och hjälplös, ner i den virvel han så oförsiktigt hade trotsat. Han försvann ur sikte för tusentals människor som stod trygga omkring honom – själva i säkerhet, men utan möjlighet att hjälpa honom.</p>\\n  <p>Vid stranden av den stora floden finns en klippa som kallas ”Bortom räddningspunkten”. En liten udde skjuter ut i vattnet, obemärkt av resenärer, men bortom den har ingen människa någonsin varit känd för att ha räddats. På ena sidan finns liv, hopp och frälsning; på den andra död, förtvivlan och fördömelse – och det är bara en liten bit mellan dem.</p>\\n  <p>I livets överflödande ström närmar vi oss dagligen den punkt varifrån ingen resenär återvänder; och du vet inte hur snart du kanske driver iväg, halvt drömmande, ”bortom räddningspunkten”. Den viskning i hjärtat i dag från en bibeltext som lärdes vid en mors knä; den underbara räddningen i ett ögonblick av stor fara; den dag då du stod vid en öppen grav och blickade in i dess outgrundliga hemligheter; den sjukdom som förde dig så nära Guds rike, men inte in i det – åh, vem kan säga när Rösten för sista gången kommer att vädja till dig?</p>\\n  <figure>\\n    <img src=\\\"/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg\\\" alt=\\\"Vattenfall sedda från en klippig utsiktsplats med flera personer.\\\">\\n  </figure>\\n  <p>Kan du säga vilken av dessa omständigheter som blir ”bortom räddningspunkten” i ditt liv? Gud säger: ”Min Ande skall inte alltid kämpa med människan (1 Mos 6:3)” och ”Om du ändå hade förstått, åtminstone på denna din dag, vad som kan ge dig frid! Men nu är det dolt för dina ögon (Luk 19:42).”</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Bortom räddningspunkten\"}",
+    "content_bytes": 2975,
+    "content_evidence_truncated": false,
+    "content_sha256": "d2048bf6d36c12ae060e20607de68b6dfc4684c508ffd40cfa8550252c4d5041",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1111,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 216,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1476,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1473,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2587
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
