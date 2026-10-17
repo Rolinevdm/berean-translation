@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T06:24:47+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"1f294c3b-4295-4493-8a52-a33af40f298b\\\">\\n  <p class=\\\"drop-cap\\\">Die Wasser des Ärmelkanals flossen breit und tief dahin; in seiner ganzen Breite war er noch nie von einem Menschenarm durchquert worden. Von Ehrgeiz beseelt, als Erster etwas zu vollbringen, was noch niemand zuvor geschafft hatte, und im Bewusstsein seiner Muskelkraft durchschwamm der gefeierte Schwimmer Matthew Webb die fünfundzwanzig Meilen und setzte seinen Fuß auf die Küste Frankreichs.</p>\\n  <p>Oft im Wasser und stets unversehrt, schien er zu glauben, er stehe unter einem besonderen Schutz. Als er auf die brodelnde Strömung der Niagarafälle blickte, beschloss er, für den Ruhm sein Leben aufs Spiel zu setzen – für einen Ruhm, der noch nie ein sehnsüchtiges menschliches Herz zufriedengestellt hat –, und sagte: „Es ist alles Glückssache, und über das Ende denke ich nicht nach; ich werde mein Glück versuchen.“</p>\\n  <p>Zum letzten Mal, ohne es zu wissen, legte er am 24. Juli 1883 seine vertraute Schwimmkleidung an und sprang in die wilde, wirbelnde Flut. Wie üblich tauchte er auf, um sich treiben zu lassen und loszuschwimmen, doch die kreisenden Wasser packten ihn wie einen Strohhalm mit ihrer gewaltigen Kraft und schleuderten ihn, unsichtbar und machtlos, in den Strudel, dem er sich so waghalsig gestellt hatte. Vor den Augen Tausender, die in Sicherheit um ihn herumstanden – selbst in Sicherheit, aber unfähig, ihm zu helfen –, ging er unter.</p>\\n  <p>Am Ufer dieses mächtigen Flusses liegt ein Felsen, der „Past Redemption Point“ genannt wird. Ein kleines Kap ragt ins Wasser hinaus und bleibt von Reisenden unbeachtet; doch jenseits davon ist, soweit bekannt, noch nie ein Mensch gerettet worden. Auf der einen Seite sind Leben, Hoffnung und Rettung; auf der anderen Tod, Verzweiflung und Verdammnis – und sie liegen nur ein kleines Stück auseinander.</p>\\n  <p>Im überquellenden Strom des Lebens nähern wir uns täglich dem Punkt, von dem kein Reisender zurückkehrt; und du weißt nicht, wie bald du im Halbschlaf dahintreiben könntest, „am Punkt jenseits der Rettung“ vorbei. Das heutige Flüstern im Herzen, ein Vers, den du auf dem Knie deiner Mutter gelernt hast; jene wunderbare Bewahrung in einem Augenblick höchster Gefahr; jener Tag, an dem du an einem offenen Grab standest und in seine unergründlichen Geheimnisse blicktest; jene Krankheit, die dich dem Reich Gottes so nahe brachte, aber dich nicht hineinführte – ach, wer kann sagen, wann die Stimme dich zum letzten Mal anflehen wird?</p>\\n  <figure>\\n    <img src=\\\"/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg\\\" alt=\\\"Wasserfälle, von einem felsigen Aussichtspunkt aus gesehen, mit mehreren Personen.\\\">\\n  </figure>\\n  <p>Kannst du sagen, welcher dieser Umstände der „Punkt jenseits der Rettung“ in deinem Leben sein wird? Gott sagt: „Mein Geist soll nicht immer mit den Menschen rechten (1. Mose 6,3)“ und „Wenn doch auch du erkannt hättest, und zwar an diesem deinem Tag, was zu deinem Frieden dient! Nun aber ist es vor deinen Augen verborgen (Lukas 19,42).“</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Punkt jenseits der Rettung\"}",
+    "content_bytes": 3223,
+    "content_evidence_truncated": false,
+    "content_sha256": "e425a56a6273ee202cdd0c5a4de7faaff421a0caca0df3951a5b5859b4dc8bac",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1475,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1472,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2325
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
