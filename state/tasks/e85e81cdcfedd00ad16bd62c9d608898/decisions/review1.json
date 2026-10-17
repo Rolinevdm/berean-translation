@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1",
+      "severity": "major",
+      "source_quote": "“With currently twelve youth thirteen years and up living in our home, and numerous others in the past”",
+      "suggested_fix": "“Da derzeit zwölf Jugendliche ab dreizehn Jahren bei uns zu Hause leben und zahlreiche weitere in der Vergangenheit dort gelebt haben, …”",
+      "translation_quote": "“Da derzeit zwölf Jugendliche ab dreizehn Jahren und zahlreiche weitere aus früheren Jahren bei uns zu Hause leben”"
+    },
+    {
+      "location": "“How We Handle Offenses” paragraph; Scripture reference",
+      "severity": "major",
+      "source_quote": "“Psalm 116:165.”",
+      "suggested_fix": "Change the reference to “Psalm 116,165” to preserve the chapter and verse printed in the source.",
+      "translation_quote": "“Psalm 119,165.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
