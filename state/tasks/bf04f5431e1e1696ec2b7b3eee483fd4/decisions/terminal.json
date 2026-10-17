@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “Saam gesien”",
+      "severity": "minor",
+      "source_quote": "the majority of your church members",
+      "suggested_fix": "As die meerderheid van jou gemeentelede die meeste van hierdie tekens van geestelike armoede vertoon, is jou gemeente ’n Laodiseaanse gemeente.",
+      "translation_quote": "die meerderheid van jou gemeent lede"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

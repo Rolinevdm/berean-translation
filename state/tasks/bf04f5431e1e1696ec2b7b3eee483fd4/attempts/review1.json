@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T22:15:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph beginning “Saam gesien”\",\"severity\":\"minor\",\"source_quote\":\"the majority of your church members\",\"suggested_fix\":\"As die meerderheid van jou gemeentelede die meeste van hierdie tekens van geestelike armoede vertoon, is jou gemeente ’n Laodiseaanse gemeente.\",\"translation_quote\":\"die meerderheid van jou gemeent lede\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 417,
+    "content_evidence_truncated": false,
+    "content_sha256": "ce2585465d7f1f02b31f8f8c518ffefe98b66bf772f8b9612708a2904fa4976e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 845,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 732,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8676,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8673,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9521
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4c8284f7597d4945a48b7398edca0779",
   "campaign": "auto-57c5f0a906c8a684f0b80ef018a8f668aaeadf042989577babd48bf42595cd8c",
   "created_at": "2026-10-17T21:31:52+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 8322
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 845,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 732,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8676,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8673,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9521
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “Saam gesien”",
+      "severity": "minor",
+      "source_quote": "the majority of your church members",
+      "suggested_fix": "As die meerderheid van jou gemeentelede die meeste van hierdie tekens van geestelike armoede vertoon, is jou gemeente ’n Laodiseaanse gemeente.",
+      "translation_quote": "die meerderheid van jou gemeent lede"
+    }
+  ],
+  "finished_at": "2026-10-17T22:15:35+00:00",
   "id": "bf04f5431e1e1696ec2b7b3eee483fd4",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "afr",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0cf69fae5bdc5074289671d3718aac2111ac6589c6e3bd86072ed5c05640e01b.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.089954,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e215e736c1acdb8dcfb1204d9f2318c83130759b6bf298e60a5f911c6667fd1f",
   "translation_model_actual": "gpt-6-luna"
