@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “A traveler of that period”",
+      "severity": "major",
+      "source_quote": "I am with a Church whose conversation is in Heaven",
+      "suggested_fix": "I am with a Church whose citizenship is in Heaven",
+      "translation_quote": "Sono con una Chiesa la cui conversazione è nei cieli"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

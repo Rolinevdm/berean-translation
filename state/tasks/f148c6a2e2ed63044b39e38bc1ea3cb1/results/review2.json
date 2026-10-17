@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bcda2672-aa6a-44e7-9abd-b894d0ad6b95",
+    "response_id": "chatcmpl-EZuri0p28nrvag53tciCwvsEyAVvD",
+    "usage": {
+      "completion_tokens": 867,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 765,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13624,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12521,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 14491
+    }
+  },
+  "received_at": "2026-10-17T09:22:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning “A traveler of that period”",
+        "severity": "major",
+        "source_quote": "I am with a Church whose conversation is in Heaven",
+        "suggested_fix": "I am with a Church whose citizenship is in Heaven",
+        "translation_quote": "Sono con una Chiesa la cui conversazione è nei cieli"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

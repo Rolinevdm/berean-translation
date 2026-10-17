@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3ffdf287c13c47b7bda2c8b5039231a1",
   "campaign": "auto-678d4fa186bd275915665a01342d908a153bfdc3f5879e628d59383576368d32",
   "created_at": "2026-10-17T01:40:22+00:00",
   "events": [
@@ -68,32 +67,40 @@
         },
         "total_tokens": 20840
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 867,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 765,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13624,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12521,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 14491
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "First paragraph, daily service times",
+      "location": "Article, paragraph beginning “A traveler of that period”",
       "severity": "major",
-      "source_quote": "three services every day: 5:00 a.m., 7.30 a.m., and 9:00 p.m.",
-      "suggested_fix": "three riunioni ogni giorno: alle 5:00 del mattino, alle 7.30 del mattino e alle 9:00 di sera.",
-      "translation_quote": "tre riunioni ogni giorno: alle 5:00, alle 7.30 e alle 9:00."
-    },
-    {
-      "location": "Paragraph beginning “A Herrnhut, Zinzendorf visitò…”",
-      "severity": "minor",
-      "source_quote": "On the 22<sup>nd</sup> of July",
-      "suggested_fix": "Il 22 luglio",
-      "translation_quote": "Il 22<sup>nd</sup> luglio"
-    },
-    {
-      "location": "Paragraph beginning “In Georgia, John Wesley…”",
-      "severity": "minor",
-      "source_quote": "on Sunday, the 5<sup>th</sup> ... Monday, the 6<sup>th</sup>",
-      "suggested_fix": "domenica 5 ... lunedì 6",
-      "translation_quote": "domenica 5<sup>th</sup> ... lunedì 6<sup>th</sup>"
+      "source_quote": "I am with a Church whose conversation is in Heaven",
+      "suggested_fix": "I am with a Church whose citizenship is in Heaven",
+      "translation_quote": "Sono con una Chiesa la cui conversazione è nei cieli"
     }
   ],
+  "finished_at": "2026-10-17T09:22:29+00:00",
   "id": "f148c6a2e2ed63044b39e38bc1ea3cb1",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "ita",
@@ -182,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +209,7 @@
     "total_reserved_usd": 0.129556,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1315978de59dd7f19963e32b3d6817620d4fa742c752925c8fc16eb77ce4ccc6",
   "translation_model_actual": "gpt-6-luna"
