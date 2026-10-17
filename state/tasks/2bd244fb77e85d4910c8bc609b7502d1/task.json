@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3c1cb1ffbf6d4d3eb1eba9d67925f2f0",
   "campaign": "auto-2a9b53b0222fddf2f01b2ca2fe72a2f0afed5568ab342cd168522425cc571404",
   "created_at": "2026-10-17T09:23:05+00:00",
   "events": [
@@ -28,18 +27,39 @@
         },
         "total_tokens": 20785
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 141,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 35,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13647,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12544,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13788
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Article, paragraph beginning “A traveler of that period”",
-      "severity": "major",
-      "source_quote": "I am with a Church whose conversation is in Heaven",
-      "suggested_fix": "I am with a Church whose citizenship is in Heaven",
-      "translation_quote": "Sono con una Chiesa la cui conversazione è nei cieli"
+      "location": "translation.html, paragrafo che inizia «Mercoledì 13 agosto 1727»",
+      "severity": "minor",
+      "source_quote": "Others joined the intercessors",
+      "suggested_fix": "Sostituire «agli’intercessori» con «agli intercessori».",
+      "translation_quote": "Altri si unirono agli’intercessori"
     }
   ],
+  "finished_at": "2026-10-17T17:00:11+00:00",
   "id": "2bd244fb77e85d4910c8bc609b7502d1",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "ita",
@@ -128,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/6062a77bf284ac23daf4c2904c301b3a26e8b0caf3154aaa6cb610cdfb8af454.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +166,7 @@
     "total_reserved_usd": 0.988919,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1315978de59dd7f19963e32b3d6817620d4fa742c752925c8fc16eb77ce4ccc6",
   "translation_model_actual": "gpt-6.1-sol"

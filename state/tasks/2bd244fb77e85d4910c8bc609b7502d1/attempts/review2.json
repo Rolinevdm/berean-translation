@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T17:00:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, paragrafo che inizia «Mercoledì 13 agosto 1727»\",\"severity\":\"minor\",\"source_quote\":\"Others joined the intercessors\",\"suggested_fix\":\"Sostituire «agli’intercessori» con «agli intercessori».\",\"translation_quote\":\"Altri si unirono agli’intercessori\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 354,
+    "content_evidence_truncated": false,
+    "content_sha256": "20045014041bedc1fe4fd6629c640cde4645e2f14b820cfdb14f425ebf268aef",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 141,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 35,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13647,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12544,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13788
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

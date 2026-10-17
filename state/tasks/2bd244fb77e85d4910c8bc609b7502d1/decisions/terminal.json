@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragrafo che inizia «Mercoledì 13 agosto 1727»",
+      "severity": "minor",
+      "source_quote": "Others joined the intercessors",
+      "suggested_fix": "Sostituire «agli’intercessori» con «agli intercessori».",
+      "translation_quote": "Altri si unirono agli’intercessori"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
