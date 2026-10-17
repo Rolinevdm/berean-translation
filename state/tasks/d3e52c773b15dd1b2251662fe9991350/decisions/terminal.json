@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, item 3 of the ordered list",
+      "severity": "minor",
+      "source_quote": "And again repentance is urged.",
+      "suggested_fix": "E, novamente, exorta-se ao arrependimento.",
+      "translation_quote": "E, novamente, o arrependimento é exortado."
+    },
+    {
+      "location": "HTML, paragraph beginning “Isso me leva a pensar”",
+      "severity": "minor",
+      "source_quote": "Lukewarmness, self-satisfaction, half-heartedness, backsliding, formalism, indifference",
+      "suggested_fix": "Mornidão, autossatisfação, falta de empenho, desvio, formalismo, indiferença",
+      "translation_quote": "Morno, autossatisfação, falta de empenho, desvio, formalismo, indiferença"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

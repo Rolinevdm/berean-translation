@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "aaaa9a17-4fe6-4fe7-946c-2dd815115388",
+    "response_id": "chatcmpl-Ea6LOlRF7JXsu2ZRdusZEBaqVoJrY",
+    "usage": {
+      "completion_tokens": 838,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8184,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7081,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9022
+    }
+  },
+  "received_at": "2026-10-17T21:37:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, item 3 of the ordered list",
+        "severity": "minor",
+        "source_quote": "And again repentance is urged.",
+        "suggested_fix": "E, novamente, exorta-se ao arrependimento.",
+        "translation_quote": "E, novamente, o arrependimento é exortado."
+      },
+      {
+        "location": "HTML, paragraph beginning “Isso me leva a pensar”",
+        "severity": "minor",
+        "source_quote": "Lukewarmness, self-satisfaction, half-heartedness, backsliding, formalism, indifference",
+        "suggested_fix": "Mornidão, autossatisfação, falta de empenho, desvio, formalismo, indiferença",
+        "translation_quote": "Morno, autossatisfação, falta de empenho, desvio, formalismo, indiferença"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
