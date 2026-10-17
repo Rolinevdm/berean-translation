@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f295f147-d2cf-4b65-9389-67ee03afd732",
+    "response_id": "chatcmpl-EZwOx55N78R5F6lXPXLEcRZPje4T3",
+    "usage": {
+      "completion_tokens": 768,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 650,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2815,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1712,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3583
+    }
+  },
+  "received_at": "2026-10-17T10:59:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "अंतिम अनुच्छेद, उत्पत्ति 6:3 का उद्धरण",
+        "severity": "minor",
+        "source_quote": "“My Spirit shall not always strive with men”",
+        "suggested_fix": "“मेरी आत्मा मनुष्य के साथ सदा विवाद करती न रहेगी”",
+        "translation_quote": "“मेरा आत्मा मनुष्य के साथ सदा विवाद करता न रहेगा”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

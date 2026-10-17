@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "अंतिम अनुच्छेद, उत्पत्ति 6:3 का उद्धरण",
+      "severity": "minor",
+      "source_quote": "“My Spirit shall not always strive with men”",
+      "suggested_fix": "“मेरी आत्मा मनुष्य के साथ सदा विवाद करती न रहेगी”",
+      "translation_quote": "“मेरा आत्मा मनुष्य के साथ सदा विवाद करता न रहेगा”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
