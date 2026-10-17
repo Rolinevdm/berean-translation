@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T19:35:10+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, абзац «Примите наставление», ссылка на псалом\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Psalm 25:12\",\n      \"suggested_fix\": \"Заменить «Псалом 24:12» на «Псалом 25:12», сохранив номер, напечатанный в оригинале.\",\n      \"translation_quote\": \"Псалом 24:12\"\n    },\n    {\n      \"location\": \"html, приветственный абзац\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Since it pleases the Lord to take me out of this world\",\n      \"suggested_fix\": \"Заменить на «Поскольку Господу угодно забрать меня из этого мира».\",\n      \"translation_quote\": \"Поскольку Господь угодил вывести меня из этого мира\"\n    },\n    {\n      \"location\": \"html, цитата из 2 Коринфянам 8:9\",\n      \"severity\": \"major\",\n      \"source_quote\": \"yet for your sakes he became poor\",\n      \"suggested_fix\": \"Заменить «он для вашего благодати обнищал» на «Он ради вас обнищал».\",\n      \"translation_quote\": \"он для вашего благодати обнищал\"\n    },\n    {\n      \"location\": \"html, абзац о скверне уст\",\n      \"severity\": \"major\",\n      \"source_quote\": \"You will have to give an account of all filthiness.\",\n      \"suggested_fix\": \"Заменить предложение на «Вам придётся дать ответ за всякую скверну».\",\n      \"translation_quote\": \"Вы будете давать ответ за всякую пустую речь.\"\n    },\n    {\n      \"location\": \"html, наставления Давиду, абзац о поддержке сестёр\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Bear them up as the stronger\",\n      \"suggested_fix\": \"Заменить «Поддерживай их как старший» на «Поддерживай их как более сильный».\",\n      \"translation_quote\": \"Поддерживай их как старший\"\n    },\n    {\n      \"location\": \"html, абзац об Есфири, последнее предложение\",\n      \"severity\": \"major\",\n      \"source_quote\": \"She did not esteem herself better than one of the least of her brethren.\",\n      \"suggested_fix\": \"Заменить на «Она не считала себя лучше даже самого незначительного из своих собратьев».\",\n      \"translation_quote\": \"Она не ставила себя выше одного из младших братьев своих.\"\n    },\n    {\n      \"location\": \"html, цитата из Откровения 19:7–8\",\n      \"severity\": \"major\",\n      \"source_quote\": \"fine linen, clean and white: for the fine linen is the righteousness of saints\",\n      \"suggested_fix\": \"Заменить «в чистую и белую линь – ибо чистая линь есть праведность святых» на «в чистый и белый виссон — ибо виссон есть праведность святых».\",\n      \"translation_quote\": \"в чистую и белую линь – ибо чистая линь есть праведность святых\"\n    },\n    {\n      \"location\": \"html, цитата из Матфея 13:43\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the righteous, [shall] shine forth as the sun\",\n      \"suggested_fix\": \"Заменить «праведные явятся, как солнце» на «праведные воссияют, как солнце».\",\n      \"translation_quote\": \"праведные явятся, как солнце\"\n    },\n    {\n      \"location\": \"html, заключение, предложение о спасении детей\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"My prayer and solicitude are constantly for your salvation.\",\n      \"suggested_fix\": \"Заменить на «Я постоянно молюсь и забочусь о вашем спасении».\",\n      \"translation_quote\": \"Моя молитва и печаль постоянно о вашем спасении.\"\n    },\n    {\n      \"location\": \"html, абзацы с цитатами из 2 Фессалоникийцам 3:10 и Иоанна 16:33; абзац «Примите наставление»; последнее прощание\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"neither should he eat; These things I have spoken unto you; when you are corrected; Adieu all my dear brethren and sisters\",\n      \"suggested_fix\": \"Исправить соответственно на «тот пусть и не ест», «Это Я сказал вам», «когда вас поправляют» и «Прощайте также все мои дорогие братья и сёстры».\",\n      \"translation_quote\": \"тот и не ешьте; Сею сказал вам; когда вас в поправляют; Прощайтеся также все мои дорогие братья и сёстры\"\n    },\n    {\n      \"location\": \"html, приветственный абзац и абзац о смирении\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"that you may be brought up in the ways of the Lord; Always esteem yourselves as the least\",\n      \"suggested_fix\": \"Исправить на «чтобы вы были воспитаны в путях Господних» и «Всегда считайте себя наименьшими».\",\n      \"translation_quote\": \"чтобы вы были воспитаны путями Господа; Всегда считайте себя наименее\"\n    },\n    {\n      \"location\": \"html, абзац «Избегайте мирского образа жизни»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Do not delight in the evils of the world such as ... banqueting ... Though the world does not consider\",\n      \"suggested_fix\": \"Исправить «Не радуйтесь мирским злобам» на «Не находите удовольствия в мирских пороках», «пира» на «пиры», «не считат» на «не считает».\",\n      \"translation_quote\": \"Не радуйтесь мирским злобам ... пира ... Хотя мир не считат\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 83\n}",
+    "content_bytes": 6583,
+    "content_evidence_truncated": false,
+    "content_sha256": "045c03be2024f871391a8b717e2044c20aece6c90f99f20a9457a68bce1ad2ba",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1446,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 48,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9253,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8150,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10699
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
