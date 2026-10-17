@@ -7952,6 +7952,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.html",
+      "html_sha256": "31dd3445f4646690aeca02f558a90bb7f4d324d01aadb2dca8f958c1d32c3d01",
+      "human_reviewed": false,
+      "id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
+      "images": [
+        {
+          "alt": "نوطة موسيقية لأنشودة حيّوا جميعًا سلطانَ اسمِ يسوع، لحن دياديم بوزن C. M. مع لازمة",
+          "public_path": "/images/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd-1.png"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.json",
+      "metadata_sha256": "5cab47733617045eb9a353b55b7cfe47dbad102f17f98d2f857ddb8e84d649cc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "تاريخ ترنيمة",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "حيّوا جميعًا سلطانَ اسمِ يسوع",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/f21c4f39-9508-4f75-9e0c-0c68468c41f8.html",
       "html_sha256": "ff41376f8b01aa9238cb6a89d5f325c3ac51d313ae13ce759d5779a5b9d33b46",
       "human_reviewed": false,
@@ -10236,6 +10264,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/7b699913-16ec-4087-9e0c-ca867e750d90.html",
+      "html_sha256": "c260a891eaf1201416d73cbaf182ff1708282b6d7c556fd8f95fbaac5c0fd975",
+      "human_reviewed": false,
+      "id": "7b699913-16ec-4087-9e0c-ca867e750d90",
+      "images": [],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/7b699913-16ec-4087-9e0c-ca867e750d90.json",
+      "metadata_sha256": "6bdaa6cc151f442bae4e69437404b52f62be0301554f2009016cb18a8bd285da",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "একটি আধুনিক পেন্টেকস্ট",
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "1315978de59dd7f19963e32b3d6817620d4fa742c752925c8fc16eb77ce4ccc6",
+      "status": "ready",
+      "subtitle": "মোরাভীয়রা এবং কাউন্ট জিনজেনডর্ফ",
+      "title": "ঊর্ধ্ব থেকে শক্তি",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae.html",
       "html_sha256": "d6aec2a74ea6cafc21728d51c8bed9e26ea632f724497248b02648b22334e229",
       "human_reviewed": false,
@@ -11772,6 +11823,34 @@
       "subtitle": null,
       "title": "উঠো, আনন্দ কর!",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.html",
+      "html_sha256": "7886ca0879988976dea77592e0797773b1a06232982d560665544e82a10ca2e4",
+      "human_reviewed": false,
+      "id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
+      "images": [
+        {
+          "alt": "যীশুর নামের শক্তির জয়ধ্বনি করো স্তবগীতের স্বরলিপি, সুর DIADEM C. M., ধুয়াসহ",
+          "public_path": "/images/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd-1.png"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.json",
+      "metadata_sha256": "fff45fb400001741e8c96c99123f15acb3e726e0329abb40122e2512759dc9f9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "একটি স্তবগীতের ইতিহাস",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "যীশুর নামের শক্তির জয়ধ্বনি করো",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -53526,6 +53605,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/53e8b534-1f5e-4d9d-b191-99707a404256.html",
+      "html_sha256": "82b46e960afa37d5850e2d1573a34aeea86051871790862ad0ac45b40bbdc3d7",
+      "human_reviewed": false,
+      "id": "53e8b534-1f5e-4d9d-b191-99707a404256",
+      "images": [
+        {
+          "alt": "En bred ørkendal under lagdelte fjell og skyer",
+          "public_path": "/images/articles/53e8b534-1f5e-4d9d-b191-99707a404256-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/53e8b534-1f5e-4d9d-b191-99707a404256.json",
+      "metadata_sha256": "d8a5b7e6159f66a4d132f2de190253dada0c204a130ff54d8735de52248b31e1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "KARAKTERSTUDIER",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Moses i Midian",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
       "html_sha256": "e474e0ddc7fba63289871f5b66366b28a5e3d6243abf949ec7bd0d324a9570eb",
       "human_reviewed": false,
@@ -56819,6 +56926,34 @@
       "subtitle": null,
       "title": "Diversão para Todos",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
+      "html_sha256": "6a28e1c88ea3d7c72cb7386b0e248371229c8a771d56eab3a7c888c0bc2e97e0",
+      "human_reviewed": false,
+      "id": "1f294c3b-4295-4493-8a52-a33af40f298b",
+      "images": [
+        {
+          "alt": "Cachoeiras vistas de um mirante rochoso, com várias pessoas.",
+          "public_path": "/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/1f294c3b-4295-4493-8a52-a33af40f298b.json",
+      "metadata_sha256": "64c36d2b4474add26986ed9f8e40775dbbd6c0427ca71e716cc5664de687291a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Além do Ponto da Redenção",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
