@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T09:22:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 1\",\"severity\":\"major\",\"source_quote\":\"“swam those twenty-five miles”\",\"suggested_fix\":\"Replace “עשרים וחמשת המילים הללו” with “עשרים וחמישה המיילים האלה” (or another clear rendering of twenty-five miles).\",\"translation_quote\":\"“שחה השחיין הנודע מתיו ווב את עשרים וחמשת המילים הללו”\"},{\"location\":\"Title; paragraphs 4–6\",\"severity\":\"major\",\"source_quote\":\"“Past Redemption Point”; “past Redemption Point”; “the ‘Past Redemption Point’ of your life”\",\"suggested_fix\":\"Use a consistent rendering that retains the redemption concept, such as “מעבר לנקודת הגאולה” in the title and corresponding occurrences in the text, rather than “נקודת האל־חזור”.\",\"translation_quote\":\"Title: “מעבר לנקודת האל־חזור”; paragraphs 4–6: “מעבר לנקודת האל־חזור” and “נקודת האל־חזור”\"},{\"location\":\"Paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"“standing in safety round him, safe themselves”\",\"suggested_fix\":\"Change “בטוחים בעצמם” to “בטוחים” or “במקום בטוח” to convey that the onlookers themselves were safe.\",\"translation_quote\":\"“אלפים עמדו בבטחה סביבו וראו אותו נעלם, בטוחים בעצמם אך חסרי יכולת לעזור לו”\"},{\"location\":\"Paragraph 5\",\"severity\":\"minor\",\"source_quote\":\"“half dreaming”\",\"suggested_fix\":\"Replace “חצי ישן” with “כמו בחלום” or “בהקיץ למחצה” to convey drifting while half-dreaming, not simply being half-asleep.\",\"translation_quote\":\"“להיסחף, חצי ישן”\"}],\"findings_complete\":true,\"passed\":false,\"score\":84}",
+    "content_bytes": 1817,
+    "content_evidence_truncated": false,
+    "content_sha256": "9fef1e3bc0d9e549979ddb6155269b9a5091cc53b30531e1635830127b537107",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1243,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 817,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2717,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2714,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3960
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

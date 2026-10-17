@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1",
+      "severity": "major",
+      "source_quote": "“swam those twenty-five miles”",
+      "suggested_fix": "Replace “עשרים וחמשת המילים הללו” with “עשרים וחמישה המיילים האלה” (or another clear rendering of twenty-five miles).",
+      "translation_quote": "“שחה השחיין הנודע מתיו ווב את עשרים וחמשת המילים הללו”"
+    },
+    {
+      "location": "Title; paragraphs 4–6",
+      "severity": "major",
+      "source_quote": "“Past Redemption Point”; “past Redemption Point”; “the ‘Past Redemption Point’ of your life”",
+      "suggested_fix": "Use a consistent rendering that retains the redemption concept, such as “מעבר לנקודת הגאולה” in the title and corresponding occurrences in the text, rather than “נקודת האל־חזור”.",
+      "translation_quote": "Title: “מעבר לנקודת האל־חזור”; paragraphs 4–6: “מעבר לנקודת האל־חזור” and “נקודת האל־חזור”"
+    },
+    {
+      "location": "Paragraph 3",
+      "severity": "minor",
+      "source_quote": "“standing in safety round him, safe themselves”",
+      "suggested_fix": "Change “בטוחים בעצמם” to “בטוחים” or “במקום בטוח” to convey that the onlookers themselves were safe.",
+      "translation_quote": "“אלפים עמדו בבטחה סביבו וראו אותו נעלם, בטוחים בעצמם אך חסרי יכולת לעזור לו”"
+    },
+    {
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "“half dreaming”",
+      "suggested_fix": "Replace “חצי ישן” with “כמו בחלום” or “בהקיץ למחצה” to convey drifting while half-dreaming, not simply being half-asleep.",
+      "translation_quote": "“להיסחף, חצי ישן”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
