@@ -1,0 +1,70 @@
+{
+  "allocation_usd": 0.086415,
+  "authority_sha256": "9f56bb7e64e4036ab6d2fad29adc2eb4398beb630e67ee1af09a895d8d81f3ca",
+  "batches": [
+    {
+      "attempts": [
+        {
+          "evidence_sha256": "acfc031d18652f555ff3c8567c681d21c3b8f051dceb1067a46deca7d15250d5",
+          "priced_usage_usd": 0.00032115,
+          "stage": "review1",
+          "task": "4b8a204f553f17fbad268155161602b2"
+        }
+      ],
+      "batch": "126c90ab52024209847b2b8e80c995e5",
+      "payload_sha256": "c1188b084501e4f1d77571137f8ef64cf8e472dbd196042391bd4aabb8359c02",
+      "remote_id": "batch_6ad2f76bb5588190ba92beb80e0a708a",
+      "remote_status": "completed"
+    },
+    {
+      "attempts": [
+        {
+          "evidence_sha256": "70dc09c1b1d942cb56e9d6e049648f331dda4caa7dc3d56b7cbf846c9deee236",
+          "priced_usage_usd": 0.0004367125,
+          "stage": "correct",
+          "task": "4b8a204f553f17fbad268155161602b2"
+        }
+      ],
+      "batch": "2a5a0498554d4bf7bcee34a2d0bfeaa7",
+      "payload_sha256": "a493df358543d94ec7f2ca3a0808d5bb1c0c0a7e8b817b8f43821928f295e2f0",
+      "remote_id": "batch_6ad313dbc2e48190bbedc1db35bd20a5",
+      "remote_status": "completed"
+    },
+    {
+      "attempts": [
+        {
+          "evidence_sha256": "76a93fcd2b0d400e3587baa1f23e2f53dd8830d47eb45f160b31c87cdedc98c1",
+          "priced_usage_usd": 0.0003505875,
+          "stage": "review2",
+          "task": "4b8a204f553f17fbad268155161602b2"
+        }
+      ],
+      "batch": "5ce3ef122890459a9cdddf0bcd2760e4",
+      "payload_sha256": "6f01eac7e080f4701903a0aefd8395941bb72df924f7fc6f12895634c5192da0",
+      "remote_id": "batch_6ad33d75b7a88190b126265e467073f8",
+      "remote_status": "completed"
+    },
+    {
+      "attempts": [
+        {
+          "evidence_sha256": "f04c5491fd6eca2fe28cad8148f7f8bf187dddd7c7dcda24de008253eece22b2",
+          "priced_usage_usd": 0.0003504,
+          "stage": "translate",
+          "task": "4b8a204f553f17fbad268155161602b2"
+        }
+      ],
+      "batch": "a1718bcffc7847b79dceaca1fbe39fa6",
+      "payload_sha256": "94c282d44e104b29342025ce89d9ccff8ca900a8588cf03ddef547d0d4764442",
+      "remote_id": "batch_6ad2d32627f48190ad91800de1261927",
+      "remote_status": "completed"
+    }
+  ],
+  "campaign": "auto-3c237bde29bf59392e63e4a0bd15ec3d27cc77f81a635068dc9c1663dec211a4",
+  "provider_reported_usage_priced_usd": 0.001459,
+  "released_usd": 0.084956,
+  "sha256": "ba395b81ac9289bc25ca6f1ed268ab6e34c4b80dc01644471c61adc46924dd12",
+  "tasks": {
+    "4b8a204f553f17fbad268155161602b2": "710d95b7007465f10ca162c52549863290050f41c8a571cf921aa5425d1f47bf"
+  },
+  "version": 1
+}
