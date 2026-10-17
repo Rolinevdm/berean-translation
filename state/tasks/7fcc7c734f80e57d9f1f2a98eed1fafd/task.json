@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "74a0c1074b584bfabd63732c2a31c285",
   "campaign": "auto-f1c6b999d0bc8e4355fc0ed4f0be0144d432632ac2caa0aa5ab44117cc66b032",
   "created_at": "2026-10-17T09:15:37+00:00",
   "events": [
@@ -48,60 +47,31 @@
         },
         "total_tokens": 6424
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 60,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 28,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4144,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3041,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4204
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, Absatz über den Angriff des Hundes",
-      "severity": "major",
-      "source_quote": "kicking and kicking, spinning around and around as that angry dog circled her, jumping in at her and nipping at her feet and legs",
-      "suggested_fix": "Ersetze die Passage durch: „immer wieder strampelnd und sich im Kreis drehend, während der wütende Hund sie umkreiste, auf sie zusprang und nach ihren Füßen und Beinen schnappte“.",
-      "translation_quote": "triefend und strampelnd, sich drehend und drehend, während der wütende Hund sie umkreiste, an ihren Füßen und Beinen knabberte und hineinbiss"
-    },
-    {
-      "location": "translation.html, Antwort der Großmutter auf Micahs Frage",
-      "severity": "major",
-      "source_quote": "And no, Micah, Pierce did not get rid of his dog.",
-      "suggested_fix": "„Und nein, Micah, Pierce hat seinen Hund nicht weggegeben.“ Die Aussage betrifft das tatsächliche Behalten des Hundes, nicht eine fehlende Verpflichtung, ihn wegzugeben.",
-      "translation_quote": "Und nein, Micah, Pierce hat seinen Hund nicht loswerden müssen."
-    },
-    {
-      "location": "translation.html, erster Erzählabsatz der Großmutter",
-      "severity": "minor",
-      "source_quote": "We lived on an old farm, back a short lane along a dirt road.",
-      "suggested_fix": "Ersetze den Satz durch: „Wir wohnten auf einem alten Bauernhof, der über eine kurze Zufahrt von einer unbefestigten Straße aus zu erreichen war.“",
-      "translation_quote": "Wir wohnten auf einer alten Farm, zurück an einer kurzen Zufahrt entlang einer Feldstraße."
-    },
-    {
-      "location": "translation.html, zweites Bild, alt-Attribut",
-      "severity": "minor",
-      "source_quote": "Farm fields and buildings across a rolling rural valley in autumn",
-      "suggested_fix": "Ändere nur den alt-Text in: „Felder und landwirtschaftliche Gebäude in einem hügeligen ländlichen Tal im Herbst“.",
-      "translation_quote": "Felder und Gebäude einer Farm über ein sanftes ländliches Tal im Herbst"
-    },
-    {
-      "location": "translation.html, Schluss des Absatzes über den Angriff",
-      "severity": "minor",
-      "source_quote": "as Lori and I stood there, trembling, and crying with relief",
-      "suggested_fix": "Ersetze den Teilsatz durch: „während Lori und ich zitternd dastanden und vor Erleichterung weinten“.",
-      "translation_quote": "während Lori und ich zitternd und vor Erleichterung weinten"
-    },
-    {
-      "location": "translation.html, vorletzter Absatz",
-      "severity": "minor",
-      "source_quote": "or if we ever got Mother’s sugar",
-      "suggested_fix": "Ersetze die Passage durch: „oder ob wir überhaupt den Zucker für Mutter bekamen“.",
-      "translation_quote": "oder ob wir überhaupt den Zucker von Mutter bekamen"
-    },
-    {
-      "location": "translation.html, letzter Satz",
-      "severity": "minor",
-      "source_quote": "the Lord’s angel had his sword drawn in front of that dog’s mouth",
-      "suggested_fix": "Ersetze „dass des Herrn Engel sein Schwert vor dem Maul dieses Hundes gezogen hatten“ durch „dass der Engel des Herrn sein gezogenes Schwert vor das Maul dieses Hundes hielt“.",
-      "translation_quote": "dass des Herrn Engel sein Schwert vor dem Maul dieses Hundes gezogen hatten"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-17T17:23:40+00:00",
   "id": "7fcc7c734f80e57d9f1f2a98eed1fafd",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "deu",
@@ -190,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -209,7 +179,7 @@
     "total_reserved_usd": 0.702797,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
   "translation_model_actual": "gpt-6.1-sol"
