@@ -1,0 +1,87 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "3dae8925-7f58-4c76-84e5-1a55938782dc",
+    "response_id": "chatcmpl-Ea4B7LDgUGAKQHUiVwrBFLZW7afPO",
+    "usage": {
+      "completion_tokens": 1141,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9157,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9154,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10298
+    }
+  },
+  "received_at": "2026-10-17T19:19:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, Absatz über Joseph",
+        "severity": "major",
+        "source_quote": "When the Egyptian woman sought to seduce him",
+        "suggested_fix": "Ersetzt „Als die ägyptische Frau ihn verführte“ durch „Als die ägyptische Frau versuchte, ihn zu verführen“.",
+        "translation_quote": "Als die ägyptische Frau ihn verführte"
+      },
+      {
+        "location": "translation.html, Abschnitt „Empfangt Zurechtweisung.“",
+        "severity": "minor",
+        "source_quote": "First, I admonish you, my most beloved children",
+        "suggested_fix": "Ersetzt „Zuerst maße ich euch, meinen liebsten Kindern, auf“ durch „Zuerst ermahne ich euch, meine liebsten Kinder“.",
+        "translation_quote": "Zuerst maße ich euch, meinen liebsten Kindern, auf"
+      },
+      {
+        "location": "translation.html, Abschnitt „Hütet eure Zunge.“",
+        "severity": "minor",
+        "source_quote": "Do not practice deceit or backbiting with your lips.",
+        "suggested_fix": "Ersetzt den Satz durch „Übt mit euren Lippen weder Betrug noch Verleumdung.“",
+        "translation_quote": "Übt keinen Betrug und kein Lästermaul mit euren Lippen."
+      },
+      {
+        "location": "translation.html, Absatz über Daniel und seine Gefährten",
+        "severity": "minor",
+        "source_quote": "as you have heard me read of Daniel ... to be nourished with the same wine and meat ... observe the law and commandments",
+        "suggested_fix": "Ersetzt „wie ihr von mir das Lesen über Daniel, Schadrach, Meschach und Abednego gehört habt“ durch „wie ihr es gehört habt, als ich euch von Daniel, Schadrach, Meschach und Abednego vorlas“, „zu ernährt zu werden“ durch „ernährt zu werden“ und „beobachten“ durch „befolgen“.",
+        "translation_quote": "wie ihr von mir das Lesen über Daniel, Schadrach, Meschach und Abednego gehört habt ... zu ernährt zu werden ... das Gesetz und die Gebote ihrer Väter ... beobachten"
+      },
+      {
+        "location": "translation.html, Abschnitt „Wählt, mit den Kindern Gottes Bedrängnis zu erleiden.“",
+        "severity": "minor",
+        "source_quote": "many have been afflicted and have suffered",
+        "suggested_fix": "Ersetzt „sind viele bedrängt und gelitten worden“ durch „sind viele bedrängt worden und haben gelitten“.",
+        "translation_quote": "sind viele bedrängt und gelitten worden"
+      },
+      {
+        "location": "translation.html, Anweisungen an David, Absätze nach der Einleitung",
+        "severity": "minor",
+        "source_quote": "Be kind to your sisters. Bear them up as the stronger ... You must constantly see that you do not seek solely your own profit",
+        "suggested_fix": "Verwendet bei den unmittelbar an David gerichteten Aufforderungen konsequent den Singular: etwa „Sei gütig zu deinen Schwestern. Stehe ihnen als der Stärkere bei und hilf ihnen aus Liebe, so viel du kannst. Unterstütze sie aus brüderlicher Liebe.“ Ebenso „Du sollst beständig darauf achten, nicht nur deinen eigenen Vorteil zu suchen, sondern immer auch für diejenigen zu sorgen, mit denen du zu tun hast, ob jung oder alt.“ Die gegenseitigen Aufforderungen wie „Liebt einander“ bleiben im Plural.",
+        "translation_quote": "Seid gütig zu euren Schwestern. Tragt sie als der Stärkere ... Ihr sollt beständig darauf achten, nicht nur euren eigenen Vorteil zu suchen"
+      },
+      {
+        "location": "translation.html, Absatz mit Offenbarung 19,7–8",
+        "severity": "minor",
+        "source_quote": "arrayed in fine linen ... bring you to the New Jerusalem",
+        "suggested_fix": "Ersetzt „mit feinen Leinwand“ durch „mit feiner Leinwand“ und „euch bringen zur Neuen Jerusalem“ durch „euch ins neue Jerusalem bringen“.",
+        "translation_quote": "mit feinen Leinwand ... euch bringen zur Neuen Jerusalem"
+      },
+      {
+        "location": "translation.html, vorletzter Absatz",
+        "severity": "minor",
+        "source_quote": "always remember each other in love",
+        "suggested_fix": "Ersetzt „Erinnert euch stets gegenseitig in Liebe“ durch „Denkt stets in Liebe aneinander“.",
+        "translation_quote": "Erinnert euch stets gegenseitig in Liebe"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
