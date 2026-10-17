@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph, daily service times",
+      "severity": "major",
+      "source_quote": "three services every day: 5:00 a.m., 7.30 a.m., and 9:00 p.m.",
+      "suggested_fix": "three riunioni ogni giorno: alle 5:00 del mattino, alle 7.30 del mattino e alle 9:00 di sera.",
+      "translation_quote": "tre riunioni ogni giorno: alle 5:00, alle 7.30 e alle 9:00."
+    },
+    {
+      "location": "Paragraph beginning “A Herrnhut, Zinzendorf visitò…”",
+      "severity": "minor",
+      "source_quote": "On the 22<sup>nd</sup> of July",
+      "suggested_fix": "Il 22 luglio",
+      "translation_quote": "Il 22<sup>nd</sup> luglio"
+    },
+    {
+      "location": "Paragraph beginning “In Georgia, John Wesley…”",
+      "severity": "minor",
+      "source_quote": "on Sunday, the 5<sup>th</sup> ... Monday, the 6<sup>th</sup>",
+      "suggested_fix": "domenica 5 ... lunedì 6",
+      "translation_quote": "domenica 5<sup>th</sup> ... lunedì 6<sup>th</sup>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

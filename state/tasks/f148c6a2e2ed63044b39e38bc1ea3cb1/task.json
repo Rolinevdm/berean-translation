@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b1e6d6cfbab546b9bc2d1756f45ce134",
   "campaign": "auto-678d4fa186bd275915665a01342d908a153bfdc3f5879e628d59383576368d32",
   "created_at": "2026-10-17T01:40:22+00:00",
   "events": [
@@ -28,10 +27,52 @@
         },
         "total_tokens": 13264
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1224,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 925,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13618,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12515,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 14842
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "First paragraph, daily service times",
+      "severity": "major",
+      "source_quote": "three services every day: 5:00 a.m., 7.30 a.m., and 9:00 p.m.",
+      "suggested_fix": "three riunioni ogni giorno: alle 5:00 del mattino, alle 7.30 del mattino e alle 9:00 di sera.",
+      "translation_quote": "tre riunioni ogni giorno: alle 5:00, alle 7.30 e alle 9:00."
+    },
+    {
+      "location": "Paragraph beginning “A Herrnhut, Zinzendorf visitò…”",
+      "severity": "minor",
+      "source_quote": "On the 22<sup>nd</sup> of July",
+      "suggested_fix": "Il 22 luglio",
+      "translation_quote": "Il 22<sup>nd</sup> luglio"
+    },
+    {
+      "location": "Paragraph beginning “In Georgia, John Wesley…”",
+      "severity": "minor",
+      "source_quote": "on Sunday, the 5<sup>th</sup> ... Monday, the 6<sup>th</sup>",
+      "suggested_fix": "domenica 5 ... lunedì 6",
+      "translation_quote": "domenica 5<sup>th</sup> ... lunedì 6<sup>th</sup>"
+    }
+  ],
   "id": "f148c6a2e2ed63044b39e38bc1ea3cb1",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "ita",
@@ -120,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6062a77bf284ac23daf4c2904c301b3a26e8b0caf3154aaa6cb610cdfb8af454.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +181,7 @@
     "total_reserved_usd": 0.129556,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1315978de59dd7f19963e32b3d6817620d4fa742c752925c8fc16eb77ce4ccc6",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T04:23:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First paragraph, daily service times\",\"severity\":\"major\",\"source_quote\":\"three services every day: 5:00 a.m., 7.30 a.m., and 9:00 p.m.\",\"suggested_fix\":\"three riunioni ogni giorno: alle 5:00 del mattino, alle 7.30 del mattino e alle 9:00 di sera.\",\"translation_quote\":\"tre riunioni ogni giorno: alle 5:00, alle 7.30 e alle 9:00.\"},{\"location\":\"Paragraph beginning “A Herrnhut, Zinzendorf visitò…”\",\"severity\":\"minor\",\"source_quote\":\"On the 22<sup>nd</sup> of July\",\"suggested_fix\":\"Il 22 luglio\",\"translation_quote\":\"Il 22<sup>nd</sup> luglio\"},{\"location\":\"Paragraph beginning “In Georgia, John Wesley…”\",\"severity\":\"minor\",\"source_quote\":\"on Sunday, the 5<sup>th</sup> ... Monday, the 6<sup>th</sup>\",\"suggested_fix\":\"domenica 5 ... lunedì 6\",\"translation_quote\":\"domenica 5<sup>th</sup> ... lunedì 6<sup>th</sup>\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 911,
+    "content_evidence_truncated": false,
+    "content_sha256": "5e20e02a59756d1a2060c8f75f1326dd4d00161d7dc33ca394eab304ccb00352",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1224,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 925,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13618,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12515,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 14842
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

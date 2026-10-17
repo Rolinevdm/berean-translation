@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c79be44f-9516-4737-b374-87fb3ef05817",
+    "response_id": "chatcmpl-EZqCgDutld6zn5b8Yb2RFEViHNwav",
+    "usage": {
+      "completion_tokens": 1224,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 925,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13618,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12515,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 14842
+    }
+  },
+  "received_at": "2026-10-17T04:23:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph, daily service times",
+        "severity": "major",
+        "source_quote": "three services every day: 5:00 a.m., 7.30 a.m., and 9:00 p.m.",
+        "suggested_fix": "three riunioni ogni giorno: alle 5:00 del mattino, alle 7.30 del mattino e alle 9:00 di sera.",
+        "translation_quote": "tre riunioni ogni giorno: alle 5:00, alle 7.30 e alle 9:00."
+      },
+      {
+        "location": "Paragraph beginning “A Herrnhut, Zinzendorf visitò…”",
+        "severity": "minor",
+        "source_quote": "On the 22<sup>nd</sup> of July",
+        "suggested_fix": "Il 22 luglio",
+        "translation_quote": "Il 22<sup>nd</sup> luglio"
+      },
+      {
+        "location": "Paragraph beginning “In Georgia, John Wesley…”",
+        "severity": "minor",
+        "source_quote": "on Sunday, the 5<sup>th</sup> ... Monday, the 6<sup>th</sup>",
+        "suggested_fix": "domenica 5 ... lunedì 6",
+        "translation_quote": "domenica 5<sup>th</sup> ... lunedì 6<sup>th</sup>"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
