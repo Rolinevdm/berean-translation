@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3111c98880ee40d084307f7e10dee46b",
   "campaign": "auto-446f2a78c647422093929bf32a3eae8f8a868aad14d85883cc0ccc707d6753b8",
   "created_at": "2026-10-17T17:24:39+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 14119
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 914,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 877,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9221,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9218,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10135
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "पूरे लेख में—“revival” और उससे बने शब्दों के सभी प्रयोग, विशेषकर “आज कलीसियाओं की सबसे बड़ी आवश्यकता पुनर्जागरण है” तथा पुनर्जागरण के आरंभ और प्रभाव पर चर्चा वाले अनुच्छेद",
-      "severity": "major",
-      "source_quote": "“The greatest need of the churches today is revival.”",
-      "suggested_fix": "इस लेख में “revival” के लिए “आत्मिक जागृति” का प्रयोग करें और उससे बने शब्दों को संदर्भानुसार बदलें—जैसे “revivalist” के लिए “आत्मिक जागृति का प्रचारक”। यह संशोधन लेख में इस शब्द के सभी प्रयोगों पर लागू करें।",
-      "translation_quote": "“आज कलीसियाओं की सबसे बड़ी आवश्यकता पुनर्जागरण है।”"
-    },
-    {
-      "location": "अज्ञेयवादी के कथन वाला अनुच्छेद",
-      "severity": "major",
-      "source_quote": "“I think I would be a Christian [if it were not] for the Christians.”",
-      "suggested_fix": "“मुझे लगता है कि मैं मसीही होता [अगर मसीही इसके आड़े न आते]।”",
-      "translation_quote": "“मुझे लगता है कि मैं मसीही होता [अगर मसीही न होते तो]।”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-17T22:22:30+00:00",
   "id": "7aeab2cfa0e4340899fee2fe178b9dde",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "hin",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.089955,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e215e736c1acdb8dcfb1204d9f2318c83130759b6bf298e60a5f911c6667fd1f",
   "translation_model_actual": "gpt-6-luna"
