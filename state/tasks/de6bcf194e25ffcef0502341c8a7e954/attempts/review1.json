@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T13:41:00+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 2\",\"severity\":\"major\",\"source_quote\":\"They are a treasure and the future Kingdom of God should Jesus tarry.\",\"suggested_fix\":\"Son un tesoro y forman parte del futuro Reino de Dios, si Jesús tarda en venir.\",\"translation_quote\":\"Son un tesoro, y el futuro Reino de Dios depende de ellos, si Jesús tarda en venir.\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 404,
+    "content_evidence_truncated": false,
+    "content_sha256": "da85f364268ba70a704fd9b761ab215db0e90191df88a745f55aaeb7c2d65c52",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 574,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 465,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7390,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7387,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7964
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

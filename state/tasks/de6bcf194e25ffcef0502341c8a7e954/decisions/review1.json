@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "major",
+      "source_quote": "They are a treasure and the future Kingdom of God should Jesus tarry.",
+      "suggested_fix": "Son un tesoro y forman parte del futuro Reino de Dios, si Jesús tarda en venir.",
+      "translation_quote": "Son un tesoro, y el futuro Reino de Dios depende de ellos, si Jesús tarda en venir."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

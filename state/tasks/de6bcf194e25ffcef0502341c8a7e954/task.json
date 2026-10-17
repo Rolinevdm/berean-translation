@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3ae74d2094a84a6a83d1d0532df2caae",
   "campaign": "auto-07b383fdfd1cd6a0f0d5dd56e8e6b71806fc64108491d29aad49e8eb09413566",
   "created_at": "2026-10-17T09:14:51+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 7087
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 574,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 465,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7390,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7387,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7964
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "major",
+      "source_quote": "They are a treasure and the future Kingdom of God should Jesus tarry.",
+      "suggested_fix": "Son un tesoro y forman parte del futuro Reino de Dios, si Jesús tarda en venir.",
+      "translation_quote": "Son un tesoro, y el futuro Reino de Dios depende de ellos, si Jesús tarda en venir."
+    }
+  ],
   "id": "de6bcf194e25ffcef0502341c8a7e954",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "spa",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/8d0d6b00d883a8daabdd983c5aeac54342fe275a7360d6a202f3dce69351c4cc.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.089551,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "0e0d3461779cb69fe2b7abdcf38f790945684497a7280f617caa1679f055a962",
   "translation_model_actual": "gpt-6-luna"
