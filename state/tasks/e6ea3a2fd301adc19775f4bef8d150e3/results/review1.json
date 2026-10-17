@@ -1,0 +1,241 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "02504853-ddac-43bd-a90c-3008fc6b7592",
+    "response_id": "chatcmpl-Ea6LbvWzbkbrE1OGurDja3P865Z0T",
+    "usage": {
+      "completion_tokens": 3458,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 72,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9235,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9232,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12693
+    }
+  },
+  "received_at": "2026-10-17T21:37:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, opening paragraph",
+        "severity": "major",
+        "source_quote": "Sotegen Van Den Houte ... was martyred for her faith",
+        "suggested_fix": "החליפו את הצירוף ב־„סוטגן ואן דן הוטה מגנט, הולנד, הוצאה להורג בשל אמונתה באדון ישוע המשיח”.",
+        "translation_quote": "נַסְתֵּגֶן ואן דֶן הוּטֶה ... הֻרְחָמָה על אמונתה"
+      },
+      {
+        "location": "html, “Receive admonition” paragraph",
+        "severity": "major",
+        "source_quote": "allow yourselves to be instructed ... obey good admonition and instruction",
+        "suggested_fix": "כתבו: „הניחו תמיד ליראי האדון להדריך אתכם. כל עוד תישמעו לתוכחה ולהדרכה טובות”.",
+        "translation_quote": "להיות מונחלים ... מצייתים למוסר וטִפּוּל טובים"
+      },
+      {
+        "location": "html, Psalm 25:12 quotation",
+        "severity": "major",
+        "source_quote": "him shall he teach in the way that he shall choose",
+        "suggested_fix": "החליפו ב־„אותו ילמד בדרך שיבחר”.",
+        "translation_quote": "ההוא יזהירו בדרך אשׁר יבחר־לו"
+      },
+      {
+        "location": "html, Proverbs 13:1 quotation",
+        "severity": "major",
+        "source_quote": "but a scorner heareth not rebuke",
+        "suggested_fix": "החליפו ב־„אך לץ אינו מקשיב לתוכחה”.",
+        "translation_quote": "ואו משׂחית לא מקשיב ל־מַתְּעֵב"
+      },
+      {
+        "location": "html, Proverbs 12:22 quotation and following sentence",
+        "severity": "major",
+        "source_quote": "Lying lips are abomination to the LORD: but they that deal truly are his delight ... liars have no part",
+        "suggested_fix": "תקנו ל־„שפתיים משקרות הן תועבה בעיני האדון, אך עושי אמת רצויים לו”, ובהמשך החליפו „לשונאים” ב־„לשקרנים”.",
+        "translation_quote": "שקר־שפתים תּוֹעֵבָה ל־יְהוָה וצדקי דּברים מְתוּאָהוּ ... לשונאים אין חלק"
+      },
+      {
+        "location": "html, 2 Corinthians 8:9 quotation",
+        "severity": "major",
+        "source_quote": "though he was rich, yet for your sakes he became poor",
+        "suggested_fix": "החליפו ב־„אף שהיה עשיר, למענכם נעשה עני”.",
+        "translation_quote": "אף־על־פי־שהיה עשיר למענכם הֶעֱשִׁיר בעוני"
+      },
+      {
+        "location": "html, Proverbs 15:16 quotation",
+        "severity": "major",
+        "source_quote": "than great treasure and trouble therewith",
+        "suggested_fix": "החליפו ב־„מאוצר גדול שצרות נלוות אליו”.",
+        "translation_quote": "מממון רב בבל־הוא"
+      },
+      {
+        "location": "html, Proverbs 17:1 quotation",
+        "severity": "major",
+        "source_quote": "than an house full of sacrifices with strife",
+        "suggested_fix": "החליפו ב־„מבית מלא זבחים שיש בו מריבה”.",
+        "translation_quote": "ממלון מלא קורבנות עם ריב"
+      },
+      {
+        "location": "html, paragraph beginning “Neither let filthiness”",
+        "severity": "major",
+        "source_quote": "Matthew 12:36-37 ... he that shall humble himself shall be exalted",
+        "suggested_fix": "תקנו את ההפניה ל־„מתי יב:לו–לז”, ובציטוט המאוחר יותר החליפו „יתגבר” ב־„ירומם”.",
+        "translation_quote": "מתי יב:לו–לו ... המשפיל את עצמו יתגבר"
+      },
+      {
+        "location": "html, “Avoid a luxurious life” paragraph",
+        "severity": "major",
+        "source_quote": "the luxuries of fine food or wine ... having food and raiment let us be therewith content",
+        "suggested_fix": "כתבו „מותרות של מאכלים משובחים או יין”; בציטוט כתבו „אם יש לנו מזון ובגדים, נסתפק בהם”.",
+        "translation_quote": "לעושר מאכלים טהורים או ליין ... ואוכל ובגד אם־יש לנו נשתׂכן"
+      },
+      {
+        "location": "html, Daniel paragraph",
+        "severity": "major",
+        "source_quote": "Daniel, Shadrach, Meshach, and Abednego ... to be nourished",
+        "suggested_fix": "החליפו „חג־נחס” ב־„שדרך” ואת „להתאכסן” ב־„להיזון”.",
+        "translation_quote": "דניאל, חג־נחס, מישך ועבד־נגו ... כדי להתאכסן"
+      },
+      {
+        "location": "html, Joseph paragraph",
+        "severity": "major",
+        "source_quote": "He pleased God in sobriety and prayer",
+        "suggested_fix": "החליפו ב־„הוא היה רצוי לאלוהים באיפוקו ובתפילתו”.",
+        "translation_quote": "הוא הצדיק את רצון האל בצניעות ותפילה"
+      },
+      {
+        "location": "html, paragraph beginning “Oh, my lambs”",
+        "severity": "major",
+        "source_quote": "Oh, my lambs ... his inheritance or birthright",
+        "suggested_fix": "החליפו „כבְּקָרַיי” ב־„טלאיי”, ואת „ירושת הברכה שלו” ב־„ירושתו או את בכורתו”.",
+        "translation_quote": "אה, כבְּקָרַיי ... ירושת הברכה שלו"
+      },
+      {
+        "location": "html, “Shun worldly living” paragraph",
+        "severity": "major",
+        "source_quote": "cheating ... excess ... vanity ... namely, for a few temporal pleasures",
+        "suggested_fix": "החליפו „רמין” ב־„רמייה”, „מותר־ים” ב־„התנהגות מופרזת”, „שטות־לב” ב־„גאוות שווא”, ו־„לפניך הנאות חולפות מעטות” ב־„כלומר, תמורת כמה הנאות חולפות”.",
+        "translation_quote": "רמין ... מותר־ים ... שטות־לב ... לפניך הנאות חולפות מעטות"
+      },
+      {
+        "location": "html, “Choose to suffer affliction” paragraph",
+        "severity": "major",
+        "source_quote": "many have been afflicted ... despised",
+        "suggested_fix": "החליפו „נענשו” ב־„יוסרו” ו־„זנחו” ב־„היו לבוז”.",
+        "translation_quote": "רבים נענשו ... זנחו"
+      },
+      {
+        "location": "html, Hebrews quotation",
+        "severity": "major",
+        "source_quote": "than to enjoy the pleasures of sin for a season –Hebrews 11:25",
+        "suggested_fix": "כתבו „מאשר ליהנות מתענוגות החטא לזמן קצר – אל העברים יא:כה”.",
+        "translation_quote": "מאשר לזבול בהנאות החטא לעת־קצרה – העברים י:כה"
+      },
+      {
+        "location": "html, John 16:20 quotation",
+        "severity": "major",
+        "source_quote": "and ye shall be sorrowful",
+        "suggested_fix": "החליפו ב־„ואתם תהיו עצובים”.",
+        "translation_quote": "ואתם תגעו"
+      },
+      {
+        "location": "html, Revelation 2:10 quotation",
+        "severity": "major",
+        "source_quote": "Fear none of those things which thou shalt suffer: behold, the devil shall cast some of you into prison ... I will give thee a crown of life",
+        "suggested_fix": "תקנו את הציטוט ל־„אל תפחד ממה שאתה עתיד לסבול. הנה, השטן ישליך כמה מכם לכלא כדי שתיבחנו, ותהיה לכם צרה עשרה ימים. היה נאמן עד מוות, ואתן לך את עטרת החיים”, תוך שימור ההפניה.",
+        "translation_quote": "אל־תפחד מאין הדברים אשר תאבדו: הנני דואג שׁיאָו שטן יזרוק ... ואניח לך עטרת חיים"
+      },
+      {
+        "location": "html, John 16:33 quotation",
+        "severity": "major",
+        "source_quote": "but be of good cheer",
+        "suggested_fix": "החליפו ב־„אך התעודדו”.",
+        "translation_quote": "אך החזיקו עוזי ללבי"
+      },
+      {
+        "location": "html, paragraph beginning “Learn to obey your elders”",
+        "severity": "major",
+        "source_quote": "obey your elders ... Exhort one another to good works",
+        "suggested_fix": "כתבו „למד לציית למבוגרים ממך במה שטוב” ו־„עודדו זה את זה למעשים טובים”.",
+        "translation_quote": "לציית לזולתי הטובים ... העדיפו מעשים טובים"
+      },
+      {
+        "location": "html, paragraph beginning “Beware of deception”",
+        "severity": "major",
+        "source_quote": "they shall deceive the very elect ... so that you may not be deceived",
+        "suggested_fix": "כתבו בציטוט „יטעו אפילו את הנבחרים”, ובהמשך „כדי שלא יטעו אתכם”.",
+        "translation_quote": "את־הבחורים יכשילו ... כדי שלא תושמדו על־ידי רמייה"
+      },
+      {
+        "location": "html, paragraph beginning “You must constantly”",
+        "severity": "major",
+        "source_quote": "those with whom you have dealings",
+        "suggested_fix": "החליפו ב־„לאלה שאתם באים עמם במגע”.",
+        "translation_quote": "לאלה שלכם בעסקיכם"
+      },
+      {
+        "location": "html, daughters’ work paragraph",
+        "severity": "major",
+        "source_quote": "talkative",
+        "suggested_fix": "החליפו „רכלניות” ב־„פטפטניות”.",
+        "translation_quote": "רכלניות"
+      },
+      {
+        "location": "html, Esther paragraph",
+        "severity": "major",
+        "source_quote": "She did not esteem herself better than one of the least of her brethren",
+        "suggested_fix": "כתבו „היא לא ראתה את עצמה טובה יותר אפילו מן הפחות שבאחיה”.",
+        "translation_quote": "היא לא חשבה את עצמה טובת־מזל יותר מאחד מן־הנמוכים שבאחיה"
+      },
+      {
+        "location": "html, paragraph beginning “When you have attained”",
+        "severity": "major",
+        "source_quote": "gentleness, meekness, humility ... steadfastness",
+        "suggested_fix": "ברשימה כתבו „עדינות, ענווה, שפלות רוח” כדי לשמר את שלושת הפריטים, והחליפו „קביעות” ב־„עמידה איתנה”.",
+        "translation_quote": "עדינות, ענווה ... קביעות"
+      },
+      {
+        "location": "html, Golden Rule sentence",
+        "severity": "major",
+        "source_quote": "do to your neighbor as you would have men do unto you",
+        "suggested_fix": "החליפו ב־„נהגו בזולת כפי שהייתן רוצות שאחרים ינהגו בכן”.",
+        "translation_quote": "עשו לשכנתכם כראותכם שיאמרו לכם אנשים"
+      },
+      {
+        "location": "html, Matthew 22:37-40 quotation",
+        "severity": "major",
+        "source_quote": "Thou shalt love ... And the second is like unto it ... On these two commandments hang all the law and the prophets",
+        "suggested_fix": "תקנו את הציטוט ל־„אהב את האדון אלוהיך בכל לבבך ובכל נפשך ובכל מחשבתך. זו המצווה הראשונה והגדולה. והשנייה דומה לה: אהב את רעך כמוך. בשתי המצוות האלה תלויים כל התורה והנביאים”, תוך שימור ההפניה.",
+        "translation_quote": "אוהב את־יהוה ... ואחרת כמאותו ... עליה תלו כל־החוק והנביאים"
+      },
+      {
+        "location": "html, Revelation 19:7-8 quotation and following wedding imagery",
+        "severity": "major",
+        "source_quote": "the marriage of the Lamb is come ... such a wedding garment ... enter into the marriage of the Lamb",
+        "suggested_fix": "החליפו בהתאמה ב־„הגיעה חתונת השה”, „בגד חתונה כזה” ו־„להיכנס לחתונת השה”. שימרו את תגית strong סביב הביטוי המתוקן הראשון.",
+        "translation_quote": "חתן השה הגיע ... בבגד חתן כזה ... לחתן השה"
+      },
+      {
+        "location": "html, final daughters’ paragraph",
+        "severity": "major",
+        "source_quote": "Matthew 13:43 ... may He keep you to the end of your lives",
+        "suggested_fix": "תקנו את ההפניה ל־„מתי יג:מג” ואת הברכה ל־„ישמור אתכן עד סוף חייכן”.",
+        "translation_quote": "מתי יג:מ ... מי שישמור אתכן עד אותן ימיכם"
+      },
+      {
+        "location": "html, conclusion paragraph",
+        "severity": "major",
+        "source_quote": "My prayer and solicitude are constantly for your salvation",
+        "suggested_fix": "החליפו ב־„תפילתי ודאגתי נתונות תמיד לישועתכם”.",
+        "translation_quote": "תפילותי ודאגתי תמיד לעיבת שלטונכם"
+      }
+    ],
+    "findings_complete": false,
+    "passed": false,
+    "score": 32
+  }
+}
