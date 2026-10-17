@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T14:04:57+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, Schriftzitat aus 1. Petrus 3,3–6\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Whose adorning let it not be that outward adorning ... But let it be the hidden man of the heart\",\n      \"suggested_fix\": \"Den Anfang des Zitats ersetzen durch: „Euer Schmuck soll nicht der äußerliche Schmuck des Haarflechtens, des Tragens von Gold oder des Anlegens von Kleidern sein, sondern der verborgene Mensch des Herzens mit dem unvergänglichen Schmuck eines sanften und stillen Geistes, der vor Gott von großem Wert ist.“ Den übrigen Text und die HTML-Struktur beibehalten.\",\n      \"translation_quote\": \"Wäre das euer Schmuck nicht der äußerliche Schmuck des Flechten des Haares ... sondern der verborgene Mensch des Herzens sei in dem Unvergänglichen\"\n    },\n    {\n      \"location\": \"translation.html, Absatz mit Psalm 19,7\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The law of the LORD is perfect, converting the soul\",\n      \"suggested_fix\": \"Die betreffende Passage als „Das Gesetz des HERRN ist <strong>vollkommen,</strong> es bekehrt die Seele …“ wiedergeben.\",\n      \"translation_quote\": \"Das Gesetz des HERRN ist vollkommen und erquickt die Seele\"\n    },\n    {\n      \"location\": \"translation.html, Schriftzitat aus 2. Timotheus 2,4–22\",\n      \"severity\": \"major\",\n      \"source_quote\": \"But shun profane and vain babblings\",\n      \"suggested_fix\": \"„Und meidet torpe und nichtsnützige Geschwätzigkeit“ durch „Doch meidet ehrfurchtsloses und nichtiges Geschwätz“ ersetzen.\",\n      \"translation_quote\": \"Und meidet torpe und nichtsnützige Geschwätzigkeit\"\n    },\n    {\n      \"location\": \"translation.html, Definition „Pure“\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Pure: clear; free from moral defilement; without spot; holy; incorrupt.\",\n      \"suggested_fix\": \"In dieser Definition „unvergänglich“ durch „unverdorben“ ersetzen.\",\n      \"translation_quote\": \"Pure (Rein): klar; frei von moralischer Befleckung; ohne Makel; heilig; unvergänglich.\"\n    },\n    {\n      \"location\": \"translation.html, Definition „Afraid“ und Absatz über die Töchter Saras\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Afraid: impressed with fear or apprehension. / are not impressed with fear or any confusion or perplexity\",\n      \"suggested_fix\": \"Die Definition mit „Ängstlich: von Furcht oder Besorgnis erfüllt“ wiedergeben; im späteren Absatz „uns nicht von Furcht, Verwirrung oder Ratlosigkeit überwältigen lassen“ verwenden.\",\n      \"translation_quote\": \"Afraid (Ängstlich): mit Furcht oder Besorgnis beeindruckt. / uns nicht mit Furcht oder irgendeiner Verwirrung oder Ratlosigkeit beeindrucken lassen\"\n    },\n    {\n      \"location\": \"translation.html, zweiter Absatz; Absatz über törichte Gespräche; Absatz über Abrahams Glauben; Definition „Charity“; vorletzter Absatz\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"serve the Lord with our whole hearts / do we walk (or run) away / flee those things / universal good will to men / pleasure-seeking idleness\",\n      \"suggested_fix\": \"Die jeweiligen Stellen korrigieren zu: „dem Herrn mit ganzem Herzen dienen können“; „oder gehen (oder laufen) wir weg“; „vor diesen Dingen fliehen“; „allgemeines Wohlwollen gegenüber den Menschen“; „vergnügungssuchenden Müßiggang“.\",\n      \"translation_quote\": \"den Herrn mit ganzem Herzen dienen können / oder gehen wir (oder laufen) wir weg / diesen Dingen fliehen / allgemeinen Wohlwollen gegenüber den Menschen / vergnügungssuchende Müßiggang\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 90\n}",
+    "content_bytes": 3694,
+    "content_evidence_truncated": false,
+    "content_sha256": "f5e1ec5ad477dc490a48cff444244ef8a5ed54df46d08ff772d8fafb94764b2e",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1063,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 118,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9025,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7922,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10088
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
