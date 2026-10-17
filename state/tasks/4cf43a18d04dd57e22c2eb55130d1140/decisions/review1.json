@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Последний абзац перед заключением; цитата Псалма 139:23",
+      "severity": "major",
+      "source_quote": "“see if there be any wicked way in me”",
+      "suggested_fix": "«и зри, нет ли во мне пути порочного»",
+      "translation_quote": "«и зри, не на опасном ли я пути»"
+    },
+    {
+      "location": "Нумерованный список, пункт 1",
+      "severity": "minor",
+      "source_quote": "“perfectly sound in doctrine”",
+      "suggested_fix": "«совершенно здравой в учении»",
+      "translation_quote": "«совершенно здравомысленная в учении»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

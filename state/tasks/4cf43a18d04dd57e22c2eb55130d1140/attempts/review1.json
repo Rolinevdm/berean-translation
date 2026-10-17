@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T22:22:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Последний абзац перед заключением; цитата Псалма 139:23\",\"severity\":\"major\",\"source_quote\":\"“see if there be any wicked way in me”\",\"suggested_fix\":\"«и зри, нет ли во мне пути порочного»\",\"translation_quote\":\"«и зри, не на опасном ли я пути»\"},{\"location\":\"Нумерованный список, пункт 1\",\"severity\":\"minor\",\"source_quote\":\"“perfectly sound in doctrine”\",\"suggested_fix\":\"«совершенно здравой в учении»\",\"translation_quote\":\"«совершенно здравомысленная в учении»\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 726,
+    "content_evidence_truncated": false,
+    "content_sha256": "9b7ad7c0b85cbb614ce8575b4b660cd67bc02f6dceb3add48728326d708452fa",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1130,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 957,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8641,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7538,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9771
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
