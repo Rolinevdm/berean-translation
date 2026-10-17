@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "218a523a91ad4e8d83a86098be1a0b18",
   "campaign": "auto-13727ddf5468e0e049deae3c6e36f2f5a903f121cd921d9755f185fac54f2641",
   "created_at": "2026-10-17T06:16:58+00:00",
   "events": [
@@ -68,39 +67,31 @@
         },
         "total_tokens": 4072
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 742,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2714,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1611,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3456
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph 1",
-      "severity": "major",
-      "source_quote": "“swam those twenty-five miles”",
-      "suggested_fix": "Replace “עשרים וחמשת המילים הללו” with “עשרים וחמישה המיילים האלה” (or another clear rendering of twenty-five miles).",
-      "translation_quote": "“שחה השחיין הנודע מתיו ווב את עשרים וחמשת המילים הללו”"
-    },
-    {
-      "location": "Title; paragraphs 4–6",
-      "severity": "major",
-      "source_quote": "“Past Redemption Point”; “past Redemption Point”; “the ‘Past Redemption Point’ of your life”",
-      "suggested_fix": "Use a consistent rendering that retains the redemption concept, such as “מעבר לנקודת הגאולה” in the title and corresponding occurrences in the text, rather than “נקודת האל־חזור”.",
-      "translation_quote": "Title: “מעבר לנקודת האל־חזור”; paragraphs 4–6: “מעבר לנקודת האל־חזור” and “נקודת האל־חזור”"
-    },
-    {
-      "location": "Paragraph 3",
-      "severity": "minor",
-      "source_quote": "“standing in safety round him, safe themselves”",
-      "suggested_fix": "Change “בטוחים בעצמם” to “בטוחים” or “במקום בטוח” to convey that the onlookers themselves were safe.",
-      "translation_quote": "“אלפים עמדו בבטחה סביבו וראו אותו נעלם, בטוחים בעצמם אך חסרי יכולת לעזור לו”"
-    },
-    {
-      "location": "Paragraph 5",
-      "severity": "minor",
-      "source_quote": "“half dreaming”",
-      "suggested_fix": "Replace “חצי ישן” with “כמו בחלום” or “בהקיץ למחצה” to convey drifting while half-dreaming, not simply being half-asleep.",
-      "translation_quote": "“להיסחף, חצי ישן”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-17T13:59:10+00:00",
   "id": "50003aa313ed3d4878fa288998e7a7cb",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "heb",
@@ -189,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -209,7 +200,7 @@
     "total_reserved_usd": 0.08641,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
   "translation_model_actual": "gpt-6-luna"
