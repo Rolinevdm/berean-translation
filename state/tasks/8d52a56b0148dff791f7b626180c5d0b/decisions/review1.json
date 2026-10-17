@@ -1,0 +1,112 @@
+{
+  "findings": [
+    {
+      "location": "html, avsnitt 3",
+      "severity": "major",
+      "source_quote": "The bane of the zealot is often too little confidence in God and too much confidence in the flesh.",
+      "suggested_fix": "Erstatt setningen med: «Den nidkjæres bane er ofte for liten tillit til Gud og for stor tillit til kjødet.»",
+      "translation_quote": "Fanebæreren for den nidkjære er ofte for liten tillit til Gud og for stor tillit til kjødets evner."
+    },
+    {
+      "location": "html, avsnitt 3",
+      "severity": "major",
+      "source_quote": "This pride and restlessness is not dealt with in a seminary",
+      "suggested_fix": "Erstatt «i et seminar» med «ved et teologisk seminar». Kilden viser til en utdanningsinstitusjon, ikke et seminararrangement.",
+      "translation_quote": "Denne stolthet og rastløshet blir ikke behandlet i et seminar"
+    },
+    {
+      "location": "html, avsnitt 4, Apostlenes gjerninger 7:20",
+      "severity": "major",
+      "source_quote": "…was exceeding fair, and nourished up in his father’s house three months",
+      "suggested_fix": "Erstatt sitatteksten med «…var usedvanlig vakker og ble fostret opp i sin fars hus i tre måneder», og behold referansen og em-elementet.",
+      "translation_quote": "…var han framfor alle menneskers øyne skjønn, og tre måneder ble han brystforet i sitt fars hus"
+    },
+    {
+      "location": "html, avsnitt 6, Hebreerne 11:25",
+      "severity": "major",
+      "source_quote": "rather to suffer affliction with the people of God",
+      "suggested_fix": "Erstatt «heller å lide avholdenhet med Guds folk» med «heller å lide trengsel sammen med Guds folk».",
+      "translation_quote": "heller å lide avholdenhet med Guds folk"
+    },
+    {
+      "location": "html, avsnitt 7",
+      "severity": "major",
+      "source_quote": "disappointment and rejection, obscurity and loneliness",
+      "suggested_fix": "Erstatt «uklarhet og ensomhet» med «ubemerkethet og ensomhet». Her handler «obscurity» om å leve uten oppmerksomhet eller anerkjennelse, ikke om uklarhet.",
+      "translation_quote": "skuffelse og avvisning, uklarhet og ensomhet"
+    },
+    {
+      "location": "html, under «Guds rensing», Markus 10:43–44",
+      "severity": "major",
+      "source_quote": "But … whosoever will be great among you, shall be your minister: And whosoever of you will be the chiefest, shall be servant of all",
+      "suggested_fix": "Erstatt sitatteksten med «Men … den som vil være stor blant dere, skal være deres tjener. Og den av dere som vil være den fremste, skal være alles tjener», og behold referansen. Fjern den tilføyde påstanden «slike er ikke blant dere».",
+      "translation_quote": "Men slike er ikke blant dere; den som vil være stor blant dere, skal være deres tjener. Og den som vil være forst, skal være alles tjener"
+    },
+    {
+      "location": "html, under «Guds forsyn», 1. Peter 4:12",
+      "severity": "major",
+      "source_quote": "…think it not strange concerning the fiery trial which is to try you, as though some strange thing happened unto you",
+      "suggested_fix": "Erstatt sitatteksten med «…undre dere ikke over ildprøven som skal prøve dere, som om det hendte dere noe merkelig», og behold referansen og em-elementet.",
+      "translation_quote": "…tillat det ikke som et under at dere blir utsatt for den ildprøven som er til for å prøve dere"
+    },
+    {
+      "location": "html, under «Guds kraft», avsnittet om stavens betydning",
+      "severity": "major",
+      "source_quote": "but more than all of these it is the chastening of God",
+      "suggested_fix": "Erstatt «Guds formanelse» med «Guds tukt». Avsnittet handler om Guds oppdragende tukt gjennom lidelse, ikke bare formaning.",
+      "translation_quote": "men mer enn alt dette er den Guds formanelse"
+    },
+    {
+      "location": "html, under «Guds kraft», Hebreerne 12:6–8",
+      "severity": "major",
+      "source_quote": "If ye endure chastening, God dealeth with you as with sons",
+      "suggested_fix": "Erstatt «Dersom dere blir tuktet, så har Gud tuktet dere som sønner» med «Hvis dere holder ut tukten, behandler Gud dere som sønner».",
+      "translation_quote": "Dersom dere blir tuktet, så har Gud tuktet dere som sønner"
+    },
+    {
+      "location": "html, siste avsnitt, Filipperne 3:10",
+      "severity": "major",
+      "source_quote": "being made conformable unto his death",
+      "suggested_fix": "Erstatt «så vi blir skikket til hans død» med «idet vi blir gjort lik ham i hans død». Kilden uttrykker likedannelse, ikke å bli egnet til hans død.",
+      "translation_quote": "så vi blir skikket til hans død"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "CHARACTER STUDIES",
+      "suggested_fix": "Rett til «KARAKTERSTUDIER».",
+      "translation_quote": "KARRAKTERSTUDIER"
+    },
+    {
+      "location": "html, innledende bibelsitat",
+      "severity": "minor",
+      "source_quote": "Now Moses kept the flock of Jethro his father-in-law, the priest of Midian",
+      "suggested_fix": "Erstatt innledningen med «Moses gjette hjorden til sin svigerfar Jetro, presten i Midian». Dette retter tidsformen og gjør det tydelig at Jetro er presten.",
+      "translation_quote": "Nå gjeter Moses svigerfaren Jetro sin hjord, prest i Midian"
+    },
+    {
+      "location": "html, avsnitt 2 og avsnittene under «Guds rensing», «Guds heving» og «Guds kraft»",
+      "severity": "minor",
+      "source_quote": "when he was full forty years old; a much-needed lesson; forty years prior to this time; his rash willingness; he had overcome; the father chasteneth not",
+      "suggested_fix": "Rett henholdsvis til «da han hadde fylt førti år», «en sårt tiltrengt lærdom», «førti år tidligere», «hans overilte vilje», «hadde overvunnet» og «blir tuktet av sin far».",
+      "translation_quote": "da han var full førti år; en trengende leksjon; før førti år; hans forhaste vilje; hadde han overvint; blir tukten av sin far"
+    },
+    {
+      "location": "html, under «Guds heving»",
+      "severity": "minor",
+      "source_quote": "his presumption had evaporated",
+      "suggested_fix": "Erstatt «hans formodning» med «hans overmot». Her gjelder ordet hans selvsikre holdning, ikke en antakelse.",
+      "translation_quote": "hans formodning hadde fordunstet"
+    },
+    {
+      "location": "html, under «Guds heving»",
+      "severity": "minor",
+      "source_quote": "His self-esteem has been fully extinguished",
+      "suggested_fix": "Erstatt «Hans selvbilde var fullstendig slukket» med «Hans selvfølelse var fullstendig utslukket». «Selvbilde» betegner oppfatningen av en selv, ikke graden av selvfølelse.",
+      "translation_quote": "Hans selvbilde var fullstendig slukket"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
