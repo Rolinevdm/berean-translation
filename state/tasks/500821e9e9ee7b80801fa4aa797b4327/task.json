@@ -5,11 +5,189 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "76b346dd3d43410aaf61aa73d1dd668f",
   "campaign": "auto-644c31168b0a91ad4e74adc09e782cfd638f0432e1aa3f7f74b920505afbc6aa",
   "created_at": "2026-10-17T17:01:48+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 4192,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 84,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10749,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10746,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14941
+      }
+    }
+  ],
+  "failure": "Review report is incomplete; all returned findings are retained for owner attention",
+  "failure_kind": "incomplete_review",
+  "findings": [
+    {
+      "location": "html, paragraph 2",
+      "severity": "major",
+      "source_quote": "God would have our hearts stirred ... to work for Him and His Kingdom",
+      "suggested_fix": "החליפו את המשפט ב: ״אך אלוהים רוצה לעורר את לבנו שלא להסתבך בהסחות הדעת האלה, אלא לפעול למענו ולמען מלכותו.״",
+      "translation_quote": "אלוהים רוצה שבלבנו ייגרש התשוקה ... לעבוד בעד־וּבשׁלטון שלו"
+    },
+    {
+      "location": "html, paragraphs beginning הדבר האחד and שוב",
+      "severity": "major",
+      "source_quote": "foolishness or looseness; concerning foolishness and looseness",
+      "suggested_fix": "החליפו את ״רַשׁוּת״ ואת ״רשות״ ב״פריקת עול״ בשני המקומות.",
+      "translation_quote": "טיפשות או רַשׁוּת; לגבי טיפשות ורשות"
+    },
+    {
+      "location": "html, quotation of 1 Peter 3:3-6",
+      "severity": "major",
+      "source_quote": "Whose adorning let it not be that outward adorning ... whose daughters ye are, as long as ye do well, and are not afraid with any amazement",
+      "suggested_fix": "החליפו את תוכן תגית em בתרגום מובן: ״אל תתעטרו בקישוט חיצוני של קליעת שיער, ענידת זהב או לבישת בגדים; אלא באדם הנסתר שבלב, בקישוט שאינו מתכלה של רוח ענווה ושקטה, היקרה מאוד בעיני אלוהים. כך התעטרו בעבר גם הנשים הקדושות שבטחו באלוהים והיו כפופות לבעליהן. כך צייתה שרה לאברהם וקראה לו אדוני. אתן בנותיה כל עוד אתן עושות טוב ואינכן נבהלות משום פחד – איגרת פטרוס הראשונה 3:3-6.״",
+      "translation_quote": "בְּעִישַׁת הַשֵּׂעָר וּשְׁאַת־תְּכֵלֶת ... בַּנֶּשֶׁךְ הַבְּלִי־הִתְפָּרֵק ... הַמַּשְׁתַּחֲוֹת לְאֱלֹהִים, וְהִתְיַחֲסוּ לְבַעֲלֵיהֶן"
+    },
+    {
+      "location": "html, all Scripture references",
+      "severity": "minor",
+      "source_quote": "Matthew 5:8; 1 Peter 3:3-6; Psalm 19:7; Proverbs 9:10; 2 Timothy 2:4-22; Hebrews 11:17; Genesis 22:13; 1 Timothy 2:9-10; Titus 2:11-12; Isaiah 61:10; Revelation 21:2-3; Galatians 6:7; Matthew 10:28; John 14:6-7",
+      "suggested_fix": "השתמשו בשמות הספרים בעברית בכל ההפניות: מתי; איגרת פטרוס הראשונה; תהילים; משלי; האיגרת השנייה אל טימותיאוס; האיגרת אל העברים; בראשית; האיגרת הראשונה אל טימותיאוס; האיגרת אל טיטוס; ישעיהו; ההתגלות; האיגרת אל הגלטים; מתי; יוחנן. שמרו על כל המספרים והמיקומים.",
+      "translation_quote": "Matthew 5:8; 1 Peter 3:3-6; Psalm 19:7; Proverbs 9:10; 2 Timothy 2:4-22; Hebrews 11:17; Genesis 22:13; 1 Timothy 2:9-10; Titus 2:11-12; Isaiah 61:10; Revelation 21:2-3; Galatians 6:7; Matthew 10:28; John 14:6-7"
+    },
+    {
+      "location": "html, paragraph beginning כמה יפה",
+      "severity": "major",
+      "source_quote": "when we become born again ... Let us not make Him ashamed to call us His sons and daughters",
+      "suggested_fix": "החליפו את ״כשאנו נאספים מחדש מלידה רוחנית״ ב״כשאנו נולדים מחדש״ ואת המשפט האחרון ב״אל נגרום לו להתבייש לקרוא לנו בניו ובנותיו.״",
+      "translation_quote": "כשאנו נאספים מחדש מלידה רוחנית ... אל נבישו אותו בקריאתנו לבנו בנים ובנותיו"
+    },
+    {
+      "location": "html, definition of Meek",
+      "severity": "major",
+      "source_quote": "Meek: mild of temper ... yielding, given to forbearance under injuries",
+      "suggested_fix": "החליפו את ההגדרה ב״עניו: בעל מזג נוח; רך; עדין; אינו מתרגז או כועס בקלות; נכון לוותר ולנהוג באורך רוח כשפוגעים בו.״",
+      "translation_quote": "ענוּת: שְׁלֵמוּת מזג ... פְּנִיָּה, מתאיירת לסבול תחת פגיעות"
+    },
+    {
+      "location": "html, definitions of Afraid and Amazement",
+      "severity": "major",
+      "source_quote": "Afraid: impressed with fear or apprehension. Amazement: astonishment; confusion or perplexity from a sudden impression of fear, surprise, or wonder.",
+      "suggested_fix": "החליפו את שני תכני הפסקאות, תוך שמירת תגיות p: ״מפוחד: אחוז פחד או חשש.״ ו״תדהמה: השתאות; בלבול או מבוכה הנובעים מתחושה פתאומית של פחד, הפתעה או פליאה.״",
+      "translation_quote": "מפוחד: מרוקן פחד או חשש. תּוּמָה: תדהמה; בלבול או שלמות מהתלחששות פתאומית"
+    },
+    {
+      "location": "html, paragraph beginning אנו בנות שרה",
+      "severity": "major",
+      "source_quote": "The law of the LORD is perfect, converting the soul ... The fear of the LORD is the beginning of wisdom",
+      "suggested_fix": "בתוך תגיות em החליפו את הציטוט הראשון ב״תורת יהוה <strong>שלמה,</strong> משיבה את הנפש… – תהילים 19:7.״ ואת השני ב״יראת יהוה היא ראשית החוכמה״.",
+      "translation_quote": "תּוֹרַת יְהוָה תָּמָה מְשַׁבֶּת־נָפֶשׁ ... יִרְאַת יְהוָה רֵאשִׁית דַּעַת"
+    },
+    {
+      "location": "html, quotation of 2 Timothy 2:4-22",
+      "severity": "major",
+      "source_quote": "that he may please him who hath chosen him to be a soldier. But shun profane and vain babblings ... Flee also youthful lusts: but follow righteousness, faith, charity, peace",
+      "suggested_fix": "החליפו את תוכן em ב״איש הנלחם אינו מסתבך בענייני החיים האלה, כדי למצוא חן בעיני מי שבחר בו להיות חייל. הימנע מדברי הבל ריקים המחללים את הקודש, כי הם יובילו לעוד רשעות. ברח גם מתאוות הנעורים, ורדוף צדק, אמונה, אהבה ושלום, יחד עם הקוראים אל האדון בלב טהור – האיגרת השנייה אל טימותיאוס 2:4-22.״",
+      "translation_quote": "לְמַעַן יַעֲשֶׂה אֶת־אֲשֶׁר בָּחַר־בוֹ ... וּמְהֵרֲצוּ פִּלֵּלוֹת בּוּזִים ... וּבְרַחוֹק תַּחְמֹדְנוּת ... וּבַעֲקֵב שָׁמְעוּ צֶדֶק"
+    },
+    {
+      "location": "html, definitions of Shun, Profane, Pure",
+      "severity": "major",
+      "source_quote": "Shun: to avoid; Profane: irreverent to anything sacred; Pure: ... incorrupt",
+      "suggested_fix": "החליפו את כותרת ההגדרה ״הָמִּר״ ב״להימנע״, את ״חֲלָל״ ב״מחלל קודש״, ואת ״בלתי־נבלע״ ב״שאינו מושחת״.",
+      "translation_quote": "הָמִּר: להמנע; חֲלָל: חוסר יראת כבוד; טָהוֹר: ... בלתי־נבלע"
+    },
+    {
+      "location": "html, paragraph beginning האם שיחתנו",
+      "severity": "major",
+      "source_quote": "Is our talk centered on the Bible",
+      "suggested_fix": "החליפו את ״בתנ״ך״ ב״בכתבי הקודש״ כדי לכלול גם את הברית החדשה.",
+      "translation_quote": "האם שיחתנו מתמקדת בתנ\"ך"
+    },
+    {
+      "location": "html, definition of Righteousness",
+      "severity": "major",
+      "source_quote": "Righteousness: the active and passive obedience of Christ, by which the law of God is fulfilled.",
+      "suggested_fix": "החליפו את תוכן הפסקה ב״צדקה: הציות הפעיל והסביל של המשיח, שבאמצעותו מתקיימת תורת אלוהים.״",
+      "translation_quote": "צֶדֶק: הישר והצייתנות הפעילה והסבילה של המשיח, שעל־ידי הם מקיימים את תורת אלוהים"
+    },
+    {
+      "location": "html, paragraph beginning מהי מציאות אמונתנו",
+      "severity": "major",
+      "source_quote": "shun ungodliness because it will lead to more ungodliness",
+      "suggested_fix": "החליפו את ״להמנע מאי־הלכות כי הדבר יוליך לעוד אי־הלכות״ ב״להימנע מרשעות כי היא תוביל לעוד רשעות״.",
+      "translation_quote": "להמנע מאי־הלכות כי הדבר יוליך לעוד אי־הלכות"
+    },
+    {
+      "location": "html, quotation of 1 Timothy 2:9-10",
+      "severity": "major",
+      "source_quote": "with shamefacedness and sobriety ... women professing godliness",
+      "suggested_fix": "החליפו את תוכן em ב״בדומה לכך, על הנשים להתעטר בלבוש צנוע, בביישנות ובשיקול דעת; לא בשיער קלוע, בזהב, בפנינים או בבגדים יקרים, אלא במעשים טובים, כראוי לנשים המצהירות על יראת אלוהים – האיגרת הראשונה אל טימותיאוס 2:9-10.״",
+      "translation_quote": "בְּחֶשְׁפּוּת וּבְשִׁקְרוּת ... בְּהִזְרְקוּת יְקָרָה ... נָשִׁים הַמַּגִּידוֹת צְדָקָה"
+    },
+    {
+      "location": "html, definitions of Shamefacedness and Sobriety",
+      "severity": "major",
+      "source_quote": "Shamefacedness: bashfulness; excess of modesty. Sobriety: habitual soberness",
+      "suggested_fix": "החליפו את ״חֶסְרוֹן בְּבַשָּׁה״ ב״ביישנות״ ואת ״שִׁכּוּרִיוּת מְשׁוּנֶה״ ב״פכחות״.",
+      "translation_quote": "חֶסְרוֹן בְּבַשָּׁה: ביישנות; שִׁכּוּרִיוּת מְשׁוּנֶה: פכחות מתמשכת"
+    },
+    {
+      "location": "html, quotation of Titus 2:11-12",
+      "severity": "major",
+      "source_quote": "denying ungodliness and worldly lusts ... soberly, righteously, and godly, in this present world",
+      "suggested_fix": "החליפו את תוכן em ב״כי חסד אלוהים המביא ישועה נגלה לכל בני האדם, והוא מלמד אותנו להתנער מרשעות ומתאוות העולם ולחיות בפכחות, בצדקה וביראת אלוהים בעולם הנוכחי – האיגרת אל טיטוס 2:11-12.״",
+      "translation_quote": "לְהִכָּחֵשׁ לְאֵימוּת ... וּבְיְרוּשָׁת אֱלֹהִים בַּעֲתָה הִוא"
+    },
+    {
+      "location": "html, quotation of Isaiah 61:10",
+      "severity": "major",
+      "source_quote": "as a bride adorneth herself with her jewels",
+      "suggested_fix": "החליפו את ״וּכְכַלָּה מְקַשֶּׁטֶת עַצְמָהּ בְּתְכֵלֶתָהּ״ ב״וככלה המתקשטת בתכשיטיה״.",
+      "translation_quote": "וּכְכַלָּה מְקַשֶּׁטֶת עַצְמָהּ בְּתְכֵלֶתָהּ"
+    },
+    {
+      "location": "html, quotation of Revelation 21:2-3",
+      "severity": "major",
+      "source_quote": "a bride adorned for her husband ... they shall be his people, and God himself shall be with them, and be their God",
+      "suggested_fix": "החליפו את ״מְחֻנָּקֶת״ ב״מקושטת״ ואת הסיום מ״וְיֵשְׁבֶה בָּהֶם״ ואילך ב״והוא ישכון עמם, והם יהיו עמו, ואלוהים עצמו יהיה עמם ויהיה אלוהיהם – ההתגלות 21:2-3.״",
+      "translation_quote": "כְּכַלָּה מְחֻנָּקֶת ... וְיֵשְׁבֶה בָּהֶם, וְהִנֵּה עַמּוֹ וְהָאֱלֹהִים יִהְיוּ עִמָּם"
+    },
+    {
+      "location": "html, paragraph beginning זכרו הזמן",
+      "severity": "major",
+      "source_quote": "will affect where we spend eternity",
+      "suggested_fix": "החליפו את ״ישפיעו על מקום שהראנו לנצחיות״ ב״ישפיעו על המקום שבו נבלה את הנצח״.",
+      "translation_quote": "ישפיעו על מקום שהראנו לנצחיות"
+    },
+    {
+      "location": "html, quotation of Galatians 6:7 and following sentence",
+      "severity": "major",
+      "source_quote": "God is not mocked ... not just for the unconverted",
+      "suggested_fix": "החליפו את ״אֵין אֱלֹהִים מְתַלֵּחַ״ ב״אי אפשר להתל באלוהים״ ואת ״ללא־נוצרי״ ב״למי שטרם שב אל אלוהים״.",
+      "translation_quote": "אֵין אֱלֹהִים מְתַלֵּחַ ... לא רק ללא־נוצרי"
+    },
+    {
+      "location": "html, final paragraph, Matthew 10:28",
+      "severity": "major",
+      "source_quote": "destroy both soul and body in hell",
+      "suggested_fix": "החליפו את ״בַּשְּׁאוֹל״ ב״בגיהינום״.",
+      "translation_quote": "לְאַבְדֵהוּ גַּם־נֶפֶשׁ וְגַם־בָּשָׂר בַּשְּׁאוֹל"
+    },
+    {
+      "location": "html, final paragraph, John 14:6-7",
+      "severity": "major",
+      "source_quote": "from henceforth ye know him, and have seen him",
+      "suggested_fix": "החליפו את ״וּמֵעַתָּה תֵּדְעוּ אוֹתִי וְרָאִיתֶם אוֹתוֹ״ ב״ומעתה אתם מכירים אותו וראיתם אותו״.",
+      "translation_quote": "וּמֵעַתָּה תֵּדְעוּ אוֹתִי וְרָאִיתֶם אוֹתוֹ"
+    }
+  ],
+  "finished_at": "2026-10-17T17:09:41+00:00",
   "id": "500821e9e9ee7b80801fa4aa797b4327",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "heb",
@@ -98,9 +276,11 @@
     }
   },
   "protected": false,
+  "quality_score": 35,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/8318b57a6ada492a7c60f08b638ec3749b04818458e4f26c4da97c0bb96e2624.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +295,7 @@
     "total_reserved_usd": 0.770832,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 0,
   "translation_key": "645f3b0dd9dba2fa145399753da1e466b9d79164115d769d8a631979fc803973",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
