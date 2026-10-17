@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T04:15:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 2\",\"severity\":\"major\",\"source_quote\":\"yet, not being happy in the Lord\",\"suggested_fix\":\"men hvis jeg ikke var lykkelig i Herren\",\"translation_quote\":\"men hvis jeg ikke var glad i Herren\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 277,
+    "content_evidence_truncated": false,
+    "content_sha256": "3a1d28066a0490788337ff7a3e4598d1e632e36f1bc4d24b0bf98e9648f881ce",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 550,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 469,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4836,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3733,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5386
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

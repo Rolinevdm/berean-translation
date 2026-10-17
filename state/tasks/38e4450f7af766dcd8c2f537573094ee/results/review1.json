@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "334c727b-9278-4b20-abfc-f9f264fc9818",
+    "response_id": "chatcmpl-EZnm9XzW88TlBdApSiM3FW1L0CXU0",
+    "usage": {
+      "completion_tokens": 550,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 469,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4836,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3733,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5386
+    }
+  },
+  "received_at": "2026-10-17T04:15:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2",
+        "severity": "major",
+        "source_quote": "yet, not being happy in the Lord",
+        "suggested_fix": "men hvis jeg ikke var lykkelig i Herren",
+        "translation_quote": "men hvis jeg ikke var glad i Herren"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "major",
+      "source_quote": "yet, not being happy in the Lord",
+      "suggested_fix": "men hvis jeg ikke var lykkelig i Herren",
+      "translation_quote": "men hvis jeg ikke var glad i Herren"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
