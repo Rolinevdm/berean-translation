@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, último párrafo",
+      "severity": "major",
+      "source_quote": "“Past Redemption Point” of your life",
+      "suggested_fix": "¿Puedes decir cuál de estas circunstancias será el «Punto de Redención» de tu vida?",
+      "translation_quote": "«Punto de No Retorno» de tu vida"
+    },
+    {
+      "location": "HTML, quinto párrafo",
+      "severity": "minor",
+      "source_quote": "the Voice shall plead with you for the last time",
+      "suggested_fix": "¡Oh!, ¿quién puede decir cuándo la Voz te suplicará por última vez?",
+      "translation_quote": "¡Oh!, ¿quién puede decir cuándo la Voz suplicará por última vez contigo?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

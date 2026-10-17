@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "13a0a297-46ae-4c17-bf0b-f60a23feb466",
+    "response_id": "chatcmpl-EZs4YBxMEeovdbTI2nmLIS0qmRdo7",
+    "usage": {
+      "completion_tokens": 831,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 655,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2627,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1524,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3458
+    }
+  },
+  "received_at": "2026-10-17T06:24:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, último párrafo",
+        "severity": "major",
+        "source_quote": "“Past Redemption Point” of your life",
+        "suggested_fix": "¿Puedes decir cuál de estas circunstancias será el «Punto de Redención» de tu vida?",
+        "translation_quote": "«Punto de No Retorno» de tu vida"
+      },
+      {
+        "location": "HTML, quinto párrafo",
+        "severity": "minor",
+        "source_quote": "the Voice shall plead with you for the last time",
+        "suggested_fix": "¡Oh!, ¿quién puede decir cuándo la Voz te suplicará por última vez?",
+        "translation_quote": "¡Oh!, ¿quién puede decir cuándo la Voz suplicará por última vez contigo?"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
