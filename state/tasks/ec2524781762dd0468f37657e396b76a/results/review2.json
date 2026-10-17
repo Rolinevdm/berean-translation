@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "61326b6e-3df0-46fa-bc24-5f1c0a55999b",
+    "response_id": "chatcmpl-Ea74VWDb598vS0B2DR16BIhDJn3H4",
+    "usage": {
+      "completion_tokens": 235,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 87,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9194,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8091,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9429
+    }
+  },
+  "received_at": "2026-10-17T23:21:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, Absatz „Seid sanftmütig, barmherzig und rein im Herzen“, Matthäus 5,8",
+        "severity": "minor",
+        "source_quote": "Blessed are the pure in heart: for they shall see God –Matthew 5:8.",
+        "suggested_fix": "Selig sind, die reinen Herzens sind; denn sie werden Gott schauen – Matthäus 5,8.",
+        "translation_quote": "Selig sind die reinen Herzens; denn sie werden Gott schauen – Matthäus 5,8."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
