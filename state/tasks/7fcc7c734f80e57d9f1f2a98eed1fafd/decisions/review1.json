@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, Absatz über den Angriff des Hundes",
+      "severity": "major",
+      "source_quote": "kicking and kicking, spinning around and around as that angry dog circled her, jumping in at her and nipping at her feet and legs",
+      "suggested_fix": "Ersetze die Passage durch: „immer wieder strampelnd und sich im Kreis drehend, während der wütende Hund sie umkreiste, auf sie zusprang und nach ihren Füßen und Beinen schnappte“.",
+      "translation_quote": "triefend und strampelnd, sich drehend und drehend, während der wütende Hund sie umkreiste, an ihren Füßen und Beinen knabberte und hineinbiss"
+    },
+    {
+      "location": "translation.html, Antwort der Großmutter auf Micahs Frage",
+      "severity": "major",
+      "source_quote": "And no, Micah, Pierce did not get rid of his dog.",
+      "suggested_fix": "„Und nein, Micah, Pierce hat seinen Hund nicht weggegeben.“ Die Aussage betrifft das tatsächliche Behalten des Hundes, nicht eine fehlende Verpflichtung, ihn wegzugeben.",
+      "translation_quote": "Und nein, Micah, Pierce hat seinen Hund nicht loswerden müssen."
+    },
+    {
+      "location": "translation.html, erster Erzählabsatz der Großmutter",
+      "severity": "minor",
+      "source_quote": "We lived on an old farm, back a short lane along a dirt road.",
+      "suggested_fix": "Ersetze den Satz durch: „Wir wohnten auf einem alten Bauernhof, der über eine kurze Zufahrt von einer unbefestigten Straße aus zu erreichen war.“",
+      "translation_quote": "Wir wohnten auf einer alten Farm, zurück an einer kurzen Zufahrt entlang einer Feldstraße."
+    },
+    {
+      "location": "translation.html, zweites Bild, alt-Attribut",
+      "severity": "minor",
+      "source_quote": "Farm fields and buildings across a rolling rural valley in autumn",
+      "suggested_fix": "Ändere nur den alt-Text in: „Felder und landwirtschaftliche Gebäude in einem hügeligen ländlichen Tal im Herbst“.",
+      "translation_quote": "Felder und Gebäude einer Farm über ein sanftes ländliches Tal im Herbst"
+    },
+    {
+      "location": "translation.html, Schluss des Absatzes über den Angriff",
+      "severity": "minor",
+      "source_quote": "as Lori and I stood there, trembling, and crying with relief",
+      "suggested_fix": "Ersetze den Teilsatz durch: „während Lori und ich zitternd dastanden und vor Erleichterung weinten“.",
+      "translation_quote": "während Lori und ich zitternd und vor Erleichterung weinten"
+    },
+    {
+      "location": "translation.html, vorletzter Absatz",
+      "severity": "minor",
+      "source_quote": "or if we ever got Mother’s sugar",
+      "suggested_fix": "Ersetze die Passage durch: „oder ob wir überhaupt den Zucker für Mutter bekamen“.",
+      "translation_quote": "oder ob wir überhaupt den Zucker von Mutter bekamen"
+    },
+    {
+      "location": "translation.html, letzter Satz",
+      "severity": "minor",
+      "source_quote": "the Lord’s angel had his sword drawn in front of that dog’s mouth",
+      "suggested_fix": "Ersetze „dass des Herrn Engel sein Schwert vor dem Maul dieses Hundes gezogen hatten“ durch „dass der Engel des Herrn sein gezogenes Schwert vor das Maul dieses Hundes hielt“.",
+      "translation_quote": "dass des Herrn Engel sein Schwert vor dem Maul dieses Hundes gezogen hatten"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

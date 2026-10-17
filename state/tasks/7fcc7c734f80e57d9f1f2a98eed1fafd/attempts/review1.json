@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T17:00:15+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, Absatz über den Angriff des Hundes\",\n      \"severity\": \"major\",\n      \"source_quote\": \"kicking and kicking, spinning around and around as that angry dog circled her, jumping in at her and nipping at her feet and legs\",\n      \"suggested_fix\": \"Ersetze die Passage durch: „immer wieder strampelnd und sich im Kreis drehend, während der wütende Hund sie umkreiste, auf sie zusprang und nach ihren Füßen und Beinen schnappte“.\",\n      \"translation_quote\": \"triefend und strampelnd, sich drehend und drehend, während der wütende Hund sie umkreiste, an ihren Füßen und Beinen knabberte und hineinbiss\"\n    },\n    {\n      \"location\": \"translation.html, Antwort der Großmutter auf Micahs Frage\",\n      \"severity\": \"major\",\n      \"source_quote\": \"And no, Micah, Pierce did not get rid of his dog.\",\n      \"suggested_fix\": \"„Und nein, Micah, Pierce hat seinen Hund nicht weggegeben.“ Die Aussage betrifft das tatsächliche Behalten des Hundes, nicht eine fehlende Verpflichtung, ihn wegzugeben.\",\n      \"translation_quote\": \"Und nein, Micah, Pierce hat seinen Hund nicht loswerden müssen.\"\n    },\n    {\n      \"location\": \"translation.html, erster Erzählabsatz der Großmutter\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"We lived on an old farm, back a short lane along a dirt road.\",\n      \"suggested_fix\": \"Ersetze den Satz durch: „Wir wohnten auf einem alten Bauernhof, der über eine kurze Zufahrt von einer unbefestigten Straße aus zu erreichen war.“\",\n      \"translation_quote\": \"Wir wohnten auf einer alten Farm, zurück an einer kurzen Zufahrt entlang einer Feldstraße.\"\n    },\n    {\n      \"location\": \"translation.html, zweites Bild, alt-Attribut\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Farm fields and buildings across a rolling rural valley in autumn\",\n      \"suggested_fix\": \"Ändere nur den alt-Text in: „Felder und landwirtschaftliche Gebäude in einem hügeligen ländlichen Tal im Herbst“.\",\n      \"translation_quote\": \"Felder und Gebäude einer Farm über ein sanftes ländliches Tal im Herbst\"\n    },\n    {\n      \"location\": \"translation.html, Schluss des Absatzes über den Angriff\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"as Lori and I stood there, trembling, and crying with relief\",\n      \"suggested_fix\": \"Ersetze den Teilsatz durch: „während Lori und ich zitternd dastanden und vor Erleichterung weinten“.\",\n      \"translation_quote\": \"während Lori und ich zitternd und vor Erleichterung weinten\"\n    },\n    {\n      \"location\": \"translation.html, vorletzter Absatz\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"or if we ever got Mother’s sugar\",\n      \"suggested_fix\": \"Ersetze die Passage durch: „oder ob wir überhaupt den Zucker für Mutter bekamen“.\",\n      \"translation_quote\": \"oder ob wir überhaupt den Zucker von Mutter bekamen\"\n    },\n    {\n      \"location\": \"translation.html, letzter Satz\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"the Lord’s angel had his sword drawn in front of that dog’s mouth\",\n      \"suggested_fix\": \"Ersetze „dass des Herrn Engel sein Schwert vor dem Maul dieses Hundes gezogen hatten“ durch „dass der Engel des Herrn sein gezogenes Schwert vor das Maul dieses Hundes hielt“.\",\n      \"translation_quote\": \"dass des Herrn Engel sein Schwert vor dem Maul dieses Hundes gezogen hatten\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 89\n}",
+    "content_bytes": 3467,
+    "content_evidence_truncated": false,
+    "content_sha256": "40f846ce1d1735372894e812a93bf3d803865e68d9fc66e70e2dc2b3657eb4c8",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 990,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 121,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4085,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2982,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5075
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
