@@ -1,0 +1,217 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph beginning 'Receive admonition'; daughters' instructions; conclusion",
+      "severity": "major",
+      "source_quote": "Receive admonition. First, I admonish you ... I admonish you in all these same things ... admonishing you out of love.",
+      "suggested_fix": "Tumia “Pokeeni maonyo”, “Kwanza, ninawaonya”, “ninawaonya katika mambo haya yote”, na “nikiwaonya kwa upendo” katika maeneo hayo, badala ya kupongeza au kutoa adhabu.",
+      "translation_quote": "Pokea adhabu. Kwanza, ninawapongeza ... ninawapa adhabu katika vitu hivi vyote vile ... nikiwatoa adhabu kwa upendo."
+    },
+    {
+      "location": "html, paragraph beginning 'Receive admonition'",
+      "severity": "major",
+      "source_quote": "always allow yourselves to be instructed by those who fear the Lord ... God will be your Father and not leave you as orphans",
+      "suggested_fix": "Rekebisha vifungu hivyo kuwa “daima ruhusuni kufundishwa na wale wanaomcha Bwana” na “Mungu atakuwa Baba yenu wala hatawaacha yatima”.",
+      "translation_quote": "kila wakati jiwekee kunuliwa na wale wanaomcha Bwana ... Mungu atakuwa Baba yenu na wasiwasi kuwatupa yatakayowafanya waachwe kama yatokanayo"
+    },
+    {
+      "location": "html, paragraph beginning 'Receive admonition', Proverbs quotation",
+      "severity": "major",
+      "source_quote": "but a scorner heareth not rebuke",
+      "suggested_fix": "Badilisha kuwa “lakini mwenye dhihaka hasikii karipio”, ukihifadhi rejeo la Methali 13:1.",
+      "translation_quote": "lakini mpinzani hasikii korekodi"
+    },
+    {
+      "location": "html, heading 'Be diligent in work and give alms'",
+      "severity": "major",
+      "source_quote": "Be diligent in work and give alms.",
+      "suggested_fix": "Badilisha maandishi ndani ya strong kuwa “Fanyeni kazi kwa bidii na toeni msaada kwa maskini.”",
+      "translation_quote": "Kuwa mtii kazini na toa sadaka."
+    },
+    {
+      "location": "html, paragraph beginning 'Do not turn your face away'",
+      "severity": "major",
+      "source_quote": "Do not turn your face away from the poor. Whoso stoppeth his ears at the cry of the poor",
+      "suggested_fix": "Tumia “Msiwape maskini kisogo” na “Yeyote azibaye masikio yake asisikie kilio cha maskini”.",
+      "translation_quote": "Usigeuze uso wako kwa maskini. Ayaye anayesikiza masikio yake kwa kilio cha maskini"
+    },
+    {
+      "location": "html, paragraph beginning 'Do not turn your face away', prayer and 2 Corinthians quotation",
+      "severity": "major",
+      "source_quote": "be diligent in prayer ... that ye through his poverty might be rich",
+      "suggested_fix": "Rekebisha kuwa “dumuni kwa bidii katika sala” na “ili kupitia umaskini wake mpate kuwa matajiri”.",
+      "translation_quote": "kuwa mzito wa sala ... ili kwa maskini wake mmewezedwa kupata utajiri"
+    },
+    {
+      "location": "html, paragraph quoting Proverbs 17:1",
+      "severity": "major",
+      "source_quote": "Better is a dry morsel ... nor be anxious for great gain.",
+      "suggested_fix": "Tumia “Bora tonge kavu” badala ya “Bora ni ukoma mkavu”, na “wala msihangaikie faida kubwa” badala ya “wala usikate tamaa kwa faida kubwa”.",
+      "translation_quote": "Bora ni ukoma mkavu ... wala usikate tamaa kwa faida kubwa."
+    },
+    {
+      "location": "html, Matthew 5:5 and Matthew 5:8 quotations",
+      "severity": "major",
+      "source_quote": "Blessed are the meek ... Blessed are the pure in heart",
+      "suggested_fix": "Badilisha kuwa “Heri walio wapole” na “Heri walio safi moyoni”, ukihifadhi marejeo yote mawili.",
+      "translation_quote": "Herufi ni wale wanyenyekevu ... Herufi ni watakatifu wa moyo"
+    },
+    {
+      "location": "html, paragraph beginning 'Neither let filthiness'",
+      "severity": "major",
+      "source_quote": "Always esteem yourselves as the least ... whosoever shall exalt himself shall be abased; and he that shall humble himself shall be exalted",
+      "suggested_fix": "Tumia “Daima jihesabuni kuwa wadogo kuliko wote” na “…yeyote atakayejikweza atashushwa; na atakayejinyenyekeza atakwezwa”.",
+      "translation_quote": "Kila wakati jiheshimieni kama walio wachache ... ye yeyote atakayejidanganya atadidimika; naye atakayejinyenyekea atapongezeka"
+    },
+    {
+      "location": "html, paragraph headed 'Avoid a luxurious life'",
+      "severity": "major",
+      "source_quote": "Avoid a luxurious life ... Be content with the labor of your hands. Do not be a burden to anyone as long as you can obtain the things needful",
+      "suggested_fix": "Tumia kichwa “Epukeni maisha ya anasa.” na sentensi “Ridhikeni na kazi ya mikono yenu. Msiwe mzigo kwa mtu yeyote maadamu mnaweza kupata mahitaji yenu.” Ondoa maneno yaliyoongezwa “Usiwachangamshi wengine”.",
+      "translation_quote": "Epuka maisha ya unyenyekevu wa kifahari ... Kutimizeni kwa kazi ya mikono yenu. Usiwachangamshi wengine mradi msiwe mzigo kwa mtu yeyote mradi tu mtaweza kupata vitu muhimu"
+    },
+    {
+      "location": "html, Daniel paragraph, description of outcome and deliverance",
+      "severity": "major",
+      "source_quote": "they were fairer and fatter ... He delivered them from the den of lions and out of the fiery furnace.",
+      "suggested_fix": "Rekebisha kuwa “walikuwa wenye sura nzuri na walionenepa zaidi” na “Aliwaokoa kutoka katika tundu la simba na kutoka katika tanuru ya moto.”",
+      "translation_quote": "walikuwa wazuri na walikuwa warembo zaidi ... Akawatokezea kutoka limbogani mwa simba na kutoka tanuru ya moto."
+    },
+    {
+      "location": "html, Joseph paragraph",
+      "severity": "major",
+      "source_quote": "When the Egyptian woman sought to seduce him ... Take an example from this in your youth ... He will keep you from all seduction.",
+      "suggested_fix": "Tumia “Mwanamke Mmisri alipojaribu kumshawishi afanye naye uasherati”, “Jifunzeni kutokana na mfano huu katika ujana wenu”, na “Atawalinda dhidi ya vishawishi vyote.”",
+      "translation_quote": "Wakati mke wa Mmisri alipomjaribu kumpendeza ... Chukua mfano kutoka hapa ukiwa mchuzi wa ujana ... Atakuepusha na kila jaribu la uadhalilishaji."
+    },
+    {
+      "location": "html, repeated affectionate address in Esau paragraph, daughters' instructions, wedding paragraph, and farewell",
+      "severity": "major",
+      "source_quote": "Oh, my lambs ... my beloved lambs ... My daughters ... my dear lambs",
+      "suggested_fix": "Badilisha “weredi” kuwa “wanakondoo” katika maeneo yote matatu; badilisha “Bana zangu” kuwa “Binti zangu”.",
+      "translation_quote": "Ewe weredi zangu ... weredi zangu wapenzi ... Bana zangu ... weredi zangu mpenzi"
+    },
+    {
+      "location": "html, paragraph headed 'Shun worldly living'",
+      "severity": "major",
+      "source_quote": "playing ... dancing ... idolatry ... lasciviousness, vanity ... abominations ... damnation",
+      "suggested_fix": "Tofautisha “kucheza” na “kucheza dansi”; tumia “ibada ya sanamu”, “ufisadi wa kingono”, “ubatili”, “machukizo”, na “hukumu ya adhabu ya milele” kwa vipashio vinavyolingana.",
+      "translation_quote": "kucheza ... kucheza ... sanamu ... ukahaba, kiburi ... aibu ... laana"
+    },
+    {
+      "location": "html, paragraph headed 'Choose to suffer affliction'",
+      "severity": "major",
+      "source_quote": "They were rejected, despised, persecuted, and killed ... her false prophets.",
+      "suggested_fix": "Rekebisha kuwa “Walikataliwa, wakadharauliwa, wakateswa, na kuuawa” na “manabii wake wa uongo”.",
+      "translation_quote": "Walikataliwa, wakazuiwa, wakatia shinikizo, na kuuawa ... wabashiri wake wa uongo."
+    },
+    {
+      "location": "html, paragraph quoting Hebrews 11:25",
+      "severity": "major",
+      "source_quote": "[that you may be rewarded with them] ... Unto such belong all the beautiful promises of God.",
+      "suggested_fix": "Tumia “[ili mpate thawabu pamoja nao]” na “Watu wa namna hiyo ndio wenye ahadi zote nzuri za Mungu.”",
+      "translation_quote": "[ili mrudishwe nao] ... Kwa watendewa hao zinamhusu haki zote nzuri za ahadi za Mungu."
+    },
+    {
+      "location": "html, John 16:33 quotation",
+      "severity": "major",
+      "source_quote": "but be of good cheer; I have overcome the world",
+      "suggested_fix": "Badilisha kuwa “lakini jipeni moyo; nimeushinda ulimwengu”, ukihifadhi rejeo la Yohana 16:33.",
+      "translation_quote": "lakini simeni moyo; mimi nimevatangulia ulimwenguni"
+    },
+    {
+      "location": "html, paragraph beginning 'Love one another'",
+      "severity": "major",
+      "source_quote": "Love one another ... Be kind to your sisters. Bear them up as the stronger",
+      "suggested_fix": "Tumia “Pendaneni” na “Uwe mwema kwa dada zako. Wategemeze kwa kuwa wewe ndiye mwenye nguvu zaidi”.",
+      "translation_quote": "Mpendezane ... Mwandikie wema dada zako. Waidini kama wako wenye nguvu"
+    },
+    {
+      "location": "html, paragraph beginning 'Learn to obey your elders'",
+      "severity": "major",
+      "source_quote": "Exhort one another to good works, modesty, honorableness, and quietness. Always care for one another",
+      "suggested_fix": "Badilisha sentensi hizo kuwa “Himizaneni kutenda mema, kuwa na kiasi, heshima, na utulivu. Daima tunzaneni”.",
+      "translation_quote": "Himizeni miongoni mwa nyenzo za matendo mema, ukomavu, heshima, na utulivu. Kila wakati wataletea kila mmoja"
+    },
+    {
+      "location": "html, paragraph beginning 'Beware of deception'",
+      "severity": "major",
+      "source_quote": "Beware of deception ... Do not believe gossip",
+      "suggested_fix": "Tumia “Jihadhari na udanganyifu” na “Usiamini uvumi”.",
+      "translation_quote": "Itaepuka kudanganyikiwa ... Msiamini uongozi wa maneno"
+    },
+    {
+      "location": "html, paragraph beginning 'Make no commotion'",
+      "severity": "major",
+      "source_quote": "Make no commotion when you are slandered ... Be slandered rather than slandering others.",
+      "suggested_fix": "Tumia “Usifanye fujo unaposingiziwa” na “Kubali kusingiziwa badala ya kuwasingizia wengine.”",
+      "translation_quote": "Usizibe kelele wakati unaseswa ... Ulipuuzwe badala ya kusambaza uongo dhidi ya wengine."
+    },
+    {
+      "location": "html, paragraph beginning 'You must constantly see'",
+      "severity": "major",
+      "source_quote": "always care for those with whom you have dealings",
+      "suggested_fix": "Badilisha kuwa “daima uwajali watu unaoshughulika nao”, bila kuweka mpaka wa biashara pekee.",
+      "translation_quote": "daima utazipenda zile unazofanyia biashara"
+    },
+    {
+      "location": "html, daughters' instructions heading",
+      "severity": "major",
+      "source_quote": "Instructions to my daughters Betgen and Tanneken",
+      "suggested_fix": "Badilisha maandishi ndani ya strong kuwa “Maelekezo kwa binti zangu Betgen na Tanneken,”.",
+      "translation_quote": "Maelekezo kwa ndivyo zangu Betgen na Tanneken,"
+    },
+    {
+      "location": "html, paragraph beginning 'Be diligent to do your work'",
+      "severity": "major",
+      "source_quote": "Don’t be quarrelsome, talkative, light-minded, proud, or surly of speech.",
+      "suggested_fix": "Badilisha kuwa “Msiwe wagomvi, wasemaji kupita kiasi, wenye mawazo ya mzaha mzaha, wenye kiburi, wala wenye kauli za ukali.”",
+      "translation_quote": "Msive za mabishano, wasimulizi, wavivu wa mawazo, wajivuni, wala waseremala wa maneno."
+    },
+    {
+      "location": "html, Esther paragraph",
+      "severity": "major",
+      "source_quote": "she was adorned with humility",
+      "suggested_fix": "Badilisha “aliketi kwa unyenyekevu” kuwa “alijipamba kwa unyenyekevu”.",
+      "translation_quote": "aliketi kwa unyenyekevu"
+    },
+    {
+      "location": "html, paragraph beginning 'When you have attained'",
+      "severity": "major",
+      "source_quote": "see that you adorn yourselves with the works of the Spirit such as goodness, gentleness, meekness, humility",
+      "suggested_fix": "Rekebisha mwanzo kuwa “hakikisheni kwamba mnajipamba kwa matendo ya Roho kama wema, ulaini, upole, unyenyekevu”, ili urejeshe agizo na sifa iliyokosekana.",
+      "translation_quote": "hakikishieni mavyang’aro yenu kwa matendo ya Roho kama wema, upole, unyenyekevu"
+    },
+    {
+      "location": "html, Revelation 19:7-8 quotation",
+      "severity": "major",
+      "source_quote": "she should be arrayed in fine linen, clean and white: for the fine linen is the righteousness of saints",
+      "suggested_fix": "Tumia “avae kitani safi na nyeupe: kwa maana kitani hiyo ni haki ya watakatifu”, ukihifadhi muundo wa em na rejeo.",
+      "translation_quote": "kuvalishwa nguo nzuri, safi na nyeupe: kwa maana nguo hiyo nzuri ni haki ya watakatifu"
+    },
+    {
+      "location": "html, wedding paragraph, blessing",
+      "severity": "major",
+      "source_quote": "May the Lord lead you",
+      "suggested_fix": "Badilisha “Mwari awaongoze” kuwa “Bwana awaongoze”.",
+      "translation_quote": "Mwari awaongoze"
+    },
+    {
+      "location": "html, final farewell paragraph",
+      "severity": "major",
+      "source_quote": "obey everyone in that which is good. I bid you adieu",
+      "suggested_fix": "Tumia “mtiini kila mtu katika yale yaliyo mema. Ninawaaga”.",
+      "translation_quote": "muimie kila mtu katika yale yaliyo mema. Nawakemelea"
+    },
+    {
+      "location": "html, img alt",
+      "severity": "minor",
+      "source_quote": "Daylight entering a dark prison cell through a barred window",
+      "suggested_fix": "Badilisha alt kuwa “Mwanga wa mchana unaoingia katika chumba cha gereza chenye giza kupitia dirisha lenye nondo”. Hifadhi sifa nyingine za img.",
+      "translation_quote": "Mwanga wa mchana unaoingia seli ya gerezani yenye giza kupitia dirisha lenye mabaraza"
+    }
+  ],
+  "outcome": "incomplete_review",
+  "reason": "Review report is incomplete; all returned findings are retained for owner attention",
+  "stage": "review1"
+}
