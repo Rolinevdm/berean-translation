@@ -9,9 +9,9 @@
     "automatic_budget_blocked": 488,
     "continuation_progress_uncertain_requires_attention": 2,
     "continuation_repeated_findings_requires_attention": 1,
-    "eligible_automatic": 1076,
+    "eligible_automatic": 1074,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
-    "pending_automatic_admission": 24,
+    "pending_automatic_admission": 28,
     "provider_refusal_requires_owner_attention": 2,
     "repeated_technical_failure_requires_attention": 1,
     "technical_failure_requires_attention": 14
@@ -3918,11 +3918,13 @@
     },
     {
       "accepted_cycles": 0,
+      "admission_status": "pending",
       "article_id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
       "language": "deu",
       "latest_task": "a18f3492c7a93494c92a2b426f844a87",
-      "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "processing_status": "queued",
+      "reason": "pending_automatic_admission",
+      "request_id": "auto-f1c6b999d0bc8e4355fc0ed4f0be0144d432632ac2caa0aa5ab44117cc66b032"
     },
     {
       "accepted_cycles": 0,
@@ -7606,6 +7608,15 @@
       "latest_task": "610c7ef35970229cb8b4bb445ac738f6",
       "processing_status": "not_ready",
       "reason": "eligible_automatic"
+    },
+    {
+      "admission_status": "pending",
+      "article_id": "c6596509-ad91-49b6-a55b-d850c3b72c14",
+      "language": "hin",
+      "latest_task": null,
+      "processing_status": "queued",
+      "reason": "pending_automatic_admission",
+      "request_id": "auto-1d3d0bd3c138caf3ff4df59f5fea205945b292b30bb78251b76876c98ec4c96a"
     },
     {
       "accepted_cycles": 0,
@@ -12918,6 +12929,15 @@
       "required_usd": 0.087813
     },
     {
+      "admission_status": "pending",
+      "article_id": "c6596509-ad91-49b6-a55b-d850c3b72c14",
+      "language": "spa",
+      "latest_task": null,
+      "processing_status": "queued",
+      "reason": "pending_automatic_admission",
+      "request_id": "auto-07b383fdfd1cd6a0f0d5dd56e8e6b71806fc64108491d29aad49e8eb09413566"
+    },
+    {
       "accepted_cycles": 0,
       "article_id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
       "language": "spa",
@@ -13766,11 +13786,13 @@
     },
     {
       "accepted_cycles": 0,
+      "admission_status": "pending",
       "article_id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
       "language": "swa",
       "latest_task": "42a5741e4fbddc5dbada8b69c11e35cb",
-      "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "processing_status": "queued",
+      "reason": "pending_automatic_admission",
+      "request_id": "auto-821ca1d22f43e91a6419433282a314a323b61a59747114d3e8c7dbd80edc3a34"
     },
     {
       "admission_status": "attention",
