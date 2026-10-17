@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "acaf0a8d-3827-4a97-ad2f-89f2d3d3cd48",
+    "response_id": "chatcmpl-EZz107XvwnaMIbtPibKRPZP7H1X2q",
+    "usage": {
+      "completion_tokens": 892,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 727,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7742,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7739,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8634
+    }
+  },
+  "received_at": "2026-10-17T13:49:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Penutup, kutipan Amsal 22:6",
+        "severity": "minor",
+        "source_quote": "Train up a “youth” in the way “she” should go: and when “she” is old, “she” will not depart from it.",
+        "suggested_fix": "Didiklah “seorang anak perempuan” menurut jalan yang patut baginya, maka pada masa tuanya ia tidak akan menyimpang dari jalan itu.",
+        "translation_quote": "Didiklah “seorang anak” menurut jalan yang patut baginya, maka pada masa tuanya ia tidak akan menyimpang dari jalan itu."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

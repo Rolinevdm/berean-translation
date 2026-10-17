@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Penutup, kutipan Amsal 22:6",
+      "severity": "minor",
+      "source_quote": "Train up a “youth” in the way “she” should go: and when “she” is old, “she” will not depart from it.",
+      "suggested_fix": "Didiklah “seorang anak perempuan” menurut jalan yang patut baginya, maka pada masa tuanya ia tidak akan menyimpang dari jalan itu.",
+      "translation_quote": "Didiklah “seorang anak” menurut jalan yang patut baginya, maka pada masa tuanya ia tidak akan menyimpang dari jalan itu."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
