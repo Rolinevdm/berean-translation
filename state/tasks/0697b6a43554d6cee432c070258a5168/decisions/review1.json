@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “In 1736 John and Charles Wesley sailed to America”",
+      "severity": "major",
+      "source_quote": "“At seven I went to the Germans.”",
+      "suggested_fix": "Use a form that preserves the printed hour without converting it to Kiswahili clock time, e.g. “Saa 7 niliwaendea Wajerumani.”",
+      "translation_quote": "“Saa saba niliwaendea Wajerumani.”"
+    },
+    {
+      "location": "Poem paragraph beginning “Laiti ningekuwa na ndimi elfu”",
+      "severity": "major",
+      "source_quote": "“His blood availed for me.”",
+      "suggested_fix": "Translate the sense that Christ’s blood was effective or sufficient for the speaker, e.g. “Damu yake ilinipatia wokovu.”",
+      "translation_quote": "“damu yake ilinifaa mimi.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

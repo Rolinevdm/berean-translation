@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "79902c501d064a0ca0b250ab3329d641",
   "campaign": "auto-2d52f7c7b3852014ab196ff826962bd2852f904dc676dd551b138e5f76897827",
   "created_at": "2026-10-17T01:39:35+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 13910
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1160,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 945,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14233,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13130,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 15393
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning “In 1736 John and Charles Wesley sailed to America”",
+      "severity": "major",
+      "source_quote": "“At seven I went to the Germans.”",
+      "suggested_fix": "Use a form that preserves the printed hour without converting it to Kiswahili clock time, e.g. “Saa 7 niliwaendea Wajerumani.”",
+      "translation_quote": "“Saa saba niliwaendea Wajerumani.”"
+    },
+    {
+      "location": "Poem paragraph beginning “Laiti ningekuwa na ndimi elfu”",
+      "severity": "major",
+      "source_quote": "“His blood availed for me.”",
+      "suggested_fix": "Translate the sense that Christ’s blood was effective or sufficient for the speaker, e.g. “Damu yake ilinipatia wokovu.”",
+      "translation_quote": "“damu yake ilinifaa mimi.”"
+    }
+  ],
   "id": "0697b6a43554d6cee432c070258a5168",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "swa",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6062a77bf284ac23daf4c2904c301b3a26e8b0caf3154aaa6cb610cdfb8af454.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.129553,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1315978de59dd7f19963e32b3d6817620d4fa742c752925c8fc16eb77ce4ccc6",
   "translation_model_actual": "gpt-6-luna"
