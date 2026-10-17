@@ -7,6 +7,12 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "16a11bb116a93dece101d9b6eeb34d83"
+    },
+    {
+      "at": "2026-10-17T10:59:58+00:00",
+      "event": "not_ready",
+      "reason": "Malformed HTML closing tag: p",
+      "task": "16a11bb116a93dece101d9b6eeb34d83"
     }
   ],
   "language": "cmn",

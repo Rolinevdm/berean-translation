@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b368c794fca246779b5512b1b8ab96f7",
   "campaign": "auto-4f2db5ed150608b4a71cc6773cf4bda491aa03935a7ae66641b50377f6799fe6",
   "created_at": "2026-10-17T06:25:30+00:00",
   "events": [
@@ -28,9 +27,30 @@
         },
         "total_tokens": 7114
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 3777,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 443,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7192,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7189,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10969
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Malformed HTML closing tag: p",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -40,6 +60,7 @@
       "translation_quote": ""
     }
   ],
+  "finished_at": "2026-10-17T10:59:58+00:00",
   "id": "16a11bb116a93dece101d9b6eeb34d83",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "cmn",
@@ -146,7 +167,7 @@
     "total_reserved_usd": 0.089554,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "0e0d3461779cb69fe2b7abdcf38f790945684497a7280f617caa1679f055a962",
   "translation_model_actual": "gpt-6-luna"
