@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4f2eb86905294f4888c5960c8c512cee",
   "campaign": "auto-31b86953aaff281791ef54e7f323682d03d7f555883665db526bfaa167491c54",
   "created_at": "2026-10-17T13:49:56+00:00",
   "events": [
@@ -48,53 +47,31 @@
         },
         "total_tokens": 13119
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 47,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 15,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8705,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7602,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8752
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html — definição de “Apparel”",
-      "severity": "major",
-      "source_quote": "Apparel: clothing; external habiliments or decorations.",
-      "suggested_fix": "Substituir “habilitação externa” por “vestimentas externas”, mantendo o restante do parágrafo.",
-      "translation_quote": "Vestuário: roupa; habilitação externa ou enfeites."
-    },
-    {
-      "location": "html — parágrafo após a definição de “Shamefacedness”",
-      "severity": "major",
-      "source_quote": "We should be adorned with shamefacedness and not giddiness or sensuality.",
-      "suggested_fix": "Substituir “vaidade” por “frivolidade”: “Devemos estar adornadas de modéstia e não de frivolidade ou sensualidade.”",
-      "translation_quote": "Devemos estar adornadas de modéstia e não de vaidade ou sensualidade."
-    },
-    {
-      "location": "html — definição de “Plaiting”",
-      "severity": "minor",
-      "source_quote": "Plaiting: folding, doubling, braiding.",
-      "suggested_fix": "Substituir “multiplicar” por “dobrar em duas partes”, pois a definição trata de dobras e tranças, não de multiplicação.",
-      "translation_quote": "Plisar/Trançar: dobrar, multiplicar, trançar."
-    },
-    {
-      "location": "html — definição de “Vain”",
-      "severity": "minor",
-      "source_quote": "Vain: empty; worthless; having no substance, value, or importance.",
-      "suggested_fix": "Substituir o verbete “Vaidade” por “Vão”, preservando a definição que se segue.",
-      "translation_quote": "Vaidade: vazio; sem valor; sem substância, valor ou importância."
-    },
-    {
-      "location": "html — citação de Isaías 61:10",
-      "severity": "minor",
-      "source_quote": "as a bride adorneth herself with her jewels",
-      "suggested_fix": "Corrigir “seus joias” para “suas joias”.",
-      "translation_quote": "como uma noiva se atavia com seus joias"
-    },
-    {
-      "location": "html — citação de João 14:6-7",
-      "severity": "minor",
-      "source_quote": "If ye had known me, ye should have known my Father also",
-      "suggested_fix": "Corrigir “tivés sereis” na forma efetivamente presente “tivéssereis” para “tivésseis”: “Se me tivésseis conhecido, teríeis conhecido também a meu Pai”.",
-      "translation_quote": "Se me tivéssereis conhecido, teríeis conhecido também a meu Pai"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-17T17:23:25+00:00",
   "id": "fa1cfaa22ccd3231baac1ca556fc9ec4",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "por",
@@ -183,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -202,7 +179,7 @@
     "total_reserved_usd": 0.759158,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "645f3b0dd9dba2fa145399753da1e466b9d79164115d769d8a631979fc803973",
   "translation_model_actual": "gpt-6.1-sol"
