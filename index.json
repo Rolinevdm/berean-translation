@@ -69809,6 +69809,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/c6596509-ad91-49b6-a55b-d850c3b72c14.html",
+      "html_sha256": "91ce59752fdf2b21ba033831c3cf308b8f1da6d4b82a7eb791d9c6de27223734",
+      "human_reviewed": false,
+      "id": "c6596509-ad91-49b6-a55b-d850c3b72c14",
+      "images": [
+        {
+          "alt": "Un primer plano de una rosa.",
+          "public_path": "/images/articles/c6596509-ad91-49b6-a55b-d850c3b72c14-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/c6596509-ad91-49b6-a55b-d850c3b72c14.json",
+      "metadata_sha256": "20fe5819afd01593ce10ab4bb86fb126deba8ece9c38bd3009d7a6a929fc8373",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "0e0d3461779cb69fe2b7abdcf38f790945684497a7280f617caa1679f055a962",
+      "status": "ready",
+      "subtitle": null,
+      "title": "¿Cómo preparamos a nuestras jóvenes para el futuro?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf.html",
       "html_sha256": "d5da1c13e0378b825036f9d41b5bc0c2509a22667f155cc785fe32d1d87422d7",
       "human_reviewed": false,
