@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T00:01:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html، ٹاسٹس کے اقتباس والا پیراگراف\",\"severity\":\"minor\",\"source_quote\":\"Covered with the skins of beasts, they were torn by dogs and perished\",\"suggested_fix\":\"متعلقہ عبارت کو یوں درست کریں: ”جانوروں کی کھالوں میں لپیٹ کر انہیں کتوں سے نُچوایا جاتا اور وہ ہلاک ہو جاتے“۔\",\"translation_quote\":\"جانوروں کی کھالوں میں لپیٹ کر انہیں کتوں سے چروایا جاتا اور وہ ہلاک ہو جاتے\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 636,
+    "content_evidence_truncated": false,
+    "content_sha256": "b35992fb4f7786809b999db717a43b7c0d99d61c5db200e4755a28556db41cee",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 300,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 150,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6970,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5867,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7270
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

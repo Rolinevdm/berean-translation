@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، ٹاسٹس کے اقتباس والا پیراگراف",
+      "severity": "minor",
+      "source_quote": "Covered with the skins of beasts, they were torn by dogs and perished",
+      "suggested_fix": "متعلقہ عبارت کو یوں درست کریں: ”جانوروں کی کھالوں میں لپیٹ کر انہیں کتوں سے نُچوایا جاتا اور وہ ہلاک ہو جاتے“۔",
+      "translation_quote": "جانوروں کی کھالوں میں لپیٹ کر انہیں کتوں سے چروایا جاتا اور وہ ہلاک ہو جاتے"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

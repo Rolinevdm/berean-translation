@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "039dc96c5d3a4fbfab841a84842d4b78",
   "campaign": "auto-6f6a084534547d3722f4e1e670bd54be1b8a45d4e454aaecb70ab542e592ef59",
   "created_at": "2026-10-16T21:38:38+00:00",
   "events": [
@@ -48,116 +47,39 @@
         },
         "total_tokens": 11861
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 300,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 150,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6970,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5867,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7270
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "translation.html, paragraph 6",
-      "severity": "major",
-      "source_quote": "became violent towards his wife ... both she and her unborn child died",
-      "suggested_fix": "Replace «وہ اپنی بیوی کے ساتھ ہراسگی کرنے لگا» with «وہ اپنی بیوی پر تشدد کرنے لگا» and «اس کا نذرِ آب بچہ» with «اس کا غیر مولود بچہ».",
-      "translation_quote": "وہ اپنی بیوی کے ساتھ ہراسگی کرنے لگا ... وہ اور اس کا نذرِ آب بچہ دونوں فوت ہو گئے"
-    },
-    {
-      "location": "translation.html, paragraph 6",
-      "severity": "major",
-      "source_quote": "started a hunt for anyone who looked like Sabina, his dead wife",
-      "suggested_fix": "Use «اس نے جلد ہی کسی ایسے شخص کی تلاش شروع کر دی جو اس کی مرحوم بیوی سابینا سے مشابہت رکھتا ہو»; do not restrict the search to women.",
-      "translation_quote": "اس نے جلد ہی ایسی کسی بھی عورت کی تلاش شروع کر دی جو سابینا سے مشابہت رکھتی ہو"
-    },
-    {
-      "location": "translation.html, paragraph 6",
-      "severity": "major",
-      "source_quote": "dreamed of singing to his enemies and bringing them to tears for their perceived wrongdoings",
-      "suggested_fix": "Replace with «نیرون یہ خواب بھی دیکھتا تھا کہ اپنے دشمنوں کو گا کر سنائے اور ان کی اُن غلطیوں پر انہیں رلا دے جنہیں وہ غلط سمجھتا تھا۔»",
-      "translation_quote": "نیرون دشمنوں کو گانے پر رلاتا دیکھنے کا بھی خواب دیکھتا تھا تا کہ وہ اپنی سمجھ میں آنے والی غلطیوں پر اشکبار ہوں"
-    },
-    {
-      "location": "translation.html, paragraph 7",
-      "severity": "major",
-      "source_quote": "such as trumpeting and acting",
-      "suggested_fix": "Replace «شیھنا بجانا» with «نرسنگا بجانا».",
-      "translation_quote": "جیسے کہ شیھنا بجانا اور اداکاری"
-    },
-    {
-      "location": "translation.html, paragraph 11, Tacitus quotation",
-      "severity": "major",
-      "source_quote": "Nero fastened the guilt and inflicted the most exquisite tortures on a class hated for their abominations, called Christians by the populace.",
-      "suggested_fix": "Replace this sentence with «نیرون نے الزام ایک ایسے گروہ پر تھوپ دیا جس سے اس کے مکروہ اعمال کی وجہ سے نفرت کی جاتی تھی اور جسے عوام مسیحی کہتے تھے، اور اسے انتہائی اذیت ناک تشدد کا نشانہ بنایا۔» Preserve the surrounding quotation and paragraph.",
-      "translation_quote": "نیرون نے اس جرم کو چسپاں کیا اور اپنی عظیم ترین ظرافتوں کے ساتھ ایک جماعت پر جو ان کے بدکاریوں کی وجہ سے نفرت کی جاتی تھی، شکنجہ ڈالا، جنہیں عوام نے مسیحی کہا۔"
-    },
-    {
-      "location": "translation.html, paragraph 13",
-      "severity": "major",
-      "source_quote": "a man corrupt in every way",
-      "suggested_fix": "Replace «ہر لحاظ سے بدبودار» with «ہر لحاظ سے بدعنوان».",
-      "translation_quote": "ایک ایسا آدمی تھا جو ہر لحاظ سے بدبودار تھا"
-    },
-    {
-      "location": "translation.html, paragraphs 14 and 15, Romans quotations",
-      "severity": "major",
-      "source_quote": "For there is no power but of God: the powers that be are ordained of God. / For there is no power but of God…",
-      "suggested_fix": "In paragraph 14 use «کیونکہ کوئی اختیار ایسا نہیں جو خدا کی طرف سے نہ ہو؛ جو اختیار موجود ہیں وہ خدا کی طرف سے مقرر ہیں۔» In paragraph 15 use «کیونکہ کوئی اختیار ایسا نہیں جو خدا کی طرف سے نہ ہو…». Preserve both references and emphasis tags.",
-      "translation_quote": "کیونکہ کوئی طاقت خدا کے سوا نہیں مگر جو قدرتیں ہیں وہ خدا کی طرف سے مقرر ہیں۔ / کیونکہ کوئی طاقت خدا کے سوا نہیں…"
-    },
-    {
-      "location": "translation.html, paragraph 14, Romans quotation",
-      "severity": "major",
-      "source_quote": "they that resist shall receive to themselves damnation",
-      "suggested_fix": "Replace «وہ اپنے لئے ملامت حاصل کریں گے» with «وہ اپنے اوپر سزا کا حکم لائیں گے».",
-      "translation_quote": "جو لوگ مقابلہ کریں گے وہ اپنے لئے ملامت حاصل کریں گے"
-    },
-    {
-      "location": "translation.html, paragraph 17",
-      "severity": "major",
-      "source_quote": "the unregenerate around us ... picking apart the faults of our earthly authorities",
-      "suggested_fix": "Replace the final sentence with «یا جب ہمیں محسوس ہوتا ہے کہ ہماری “آرام دہ زندگی” پامال ہو رہی ہے، تو کیا ہم بھی اپنے اردگرد کے اُن لوگوں کی طرح جنہوں نے نئی پیدائش نہیں پائی، اپنے زمینی حکمرانوں کی عیب جوئی کر کے ناکام ہوتے ہیں؟»",
-      "translation_quote": "اپنے غیرمنقبت شدہ اردگرد کے لوگوں کی طرح ... زمینی حکمرانوں کی خامیوں کو چور چور کر دیں"
-    },
-    {
-      "location": "translation.html, paragraph 19",
-      "severity": "major",
-      "source_quote": "in that soon-coming day",
-      "suggested_fix": "Replace «اس دن میں» with «اُس جلد آنے والے دن».",
-      "translation_quote": "ہم اس دن میں امین پائے جائیں"
-    },
-    {
-      "location": "translation.html, paragraph 1",
+      "location": "translation.html، ٹاسٹس کے اقتباس والا پیراگراف",
       "severity": "minor",
-      "source_quote": "He was crowned ruler over one of the largest empires of the world at that time.",
-      "suggested_fix": "Replace the sentence with «اسے اُس وقت دنیا کی سب سے بڑی سلطنتوں میں سے ایک کا حکمران بنا کر تاج پہنایا گیا۔»",
-      "translation_quote": "اسے اس وقت کے دنیا کے سب سے بڑے سلطنتوں میں سے ایک کا حکمران تاج پہنانا گیا۔"
-    },
-    {
-      "location": "translation.html, paragraph 5",
-      "severity": "minor",
-      "source_quote": "to stab her to death in broad daylight",
-      "suggested_fix": "Replace «روزِ عام اس کی چھریوں سے مار ڈالنے» with «دن دہاڑے اسے چھریوں کے وار سے قتل کرنے».",
-      "translation_quote": "روزِ عام اس کی چھریوں سے مار ڈالنے"
-    },
-    {
-      "location": "translation.html, paragraph 9",
-      "severity": "minor",
-      "source_quote": "Nero was inexperienced and out of shape",
-      "suggested_fix": "Replace «نیرون غیر تجربہ کار اور غیرتند تھا» with «نیرون ناتجربہ کار تھا اور جسمانی طور پر چست و توانا نہیں تھا».",
-      "translation_quote": "نیرون غیر تجربہ کار اور غیرتند تھا"
-    },
-    {
-      "location": "translation.html, paragraph 15",
-      "severity": "minor",
-      "source_quote": "to yield ourselves to God and His authority as our final say",
-      "suggested_fix": "Replace «خدا اور اس کے اختیار کے سامنے خود کو سپرد کریں کیوں کہ وہ ہماری آخری بات ہے» with «خدا اور اس کے اختیار کے سامنے خود کو سپرد کریں اور اسی کے حکم کو حتمی مانیں».",
-      "translation_quote": "خدا اور اس کے اختیار کے سامنے خود کو سپرد کریں کیوں کہ وہ ہماری آخری بات ہے"
-    },
-    {
-      "location": "translation.html, paragraphs 18 and 19",
-      "severity": "minor",
-      "source_quote": "walk circumspectly / walk circumspectly",
-      "suggested_fix": "In paragraph 18 replace «شعوری طور پر چلو» with «احتیاط سے چلو»; in paragraph 19 replace «شعوری طور پر چلے» with «احتیاط سے چلے».",
-      "translation_quote": "شعوری طور پر چلو / شعوری طور پر چلے"
+      "source_quote": "Covered with the skins of beasts, they were torn by dogs and perished",
+      "suggested_fix": "متعلقہ عبارت کو یوں درست کریں: ”جانوروں کی کھالوں میں لپیٹ کر انہیں کتوں سے نُچوایا جاتا اور وہ ہلاک ہو جاتے“۔",
+      "translation_quote": "جانوروں کی کھالوں میں لپیٹ کر انہیں کتوں سے چروایا جاتا اور وہ ہلاک ہو جاتے"
     }
   ],
+  "finished_at": "2026-10-17T00:01:17+00:00",
   "id": "6c8156e1a9e2f84117d0eeb919e4526e",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "urd",
@@ -246,7 +168,7 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -265,7 +187,7 @@
     "total_reserved_usd": 0.747489,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
   "translation_model_actual": "gpt-6.1-sol"
