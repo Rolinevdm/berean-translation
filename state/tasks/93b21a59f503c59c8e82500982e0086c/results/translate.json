@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9e4a56c6-a59b-4c2f-b1a5-7f04ee155961",
+    "response_id": "chatcmpl-EZs6XDFtz5IlVjm4uUE09YEhB4a2z",
+    "usage": {
+      "completion_tokens": 808,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1475,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1472,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2283
+    }
+  },
+  "received_at": "2026-10-17T06:24:49+00:00",
+  "result": {
+    "html": "<article data-article-id=\"1f294c3b-4295-4493-8a52-a33af40f298b\">\n  <p class=\"drop-cap\">De wateren van het Kanaal stroomden breed en diep; nergens was de volle breedte ooit door een mens overzwommen. Gedreven door de ambitie om te doen wat niemand vóór hem had gedaan, en zich bewust van zijn spierkracht, zwom de beroemde zwemmer Matthew Webb die vijfentwintig mijl en zette voet aan de Franse kust.</p>\n  <p>Omdat hij vaak in het water was geweest en er altijd ongedeerd uit was gekomen, leek hij te denken dat hij een beschermengel had; toen hij naar de kolkende stroom van de Niagara keek, besloot hij zijn leven op het spel te zetten voor roem — roem die nog nooit een verlangend mensenhart tevreden heeft gesteld — en zei: ‘Het is allemaal geluk, en over de afloop denk ik niet na; ik waag mijn kans.’</p>\n  <p>De laatste keer, al wist hij dat niet, kleedde hij zich op 24 juli 1883 in zijn vertrouwde zwemkleding en maakte de fatale sprong in de woeste, kolkende stroom. Zoals gewoonlijk kwam hij na zijn duik weer boven om te drijven en weg te zwemmen, maar de kolkende wateren grepen hem als een strootje in hun reusachtige greep en slingerden hem, ongezien en machteloos, de draaikolk in die hij zo roekeloos had getrotseerd. Hij verdween uit het zicht van duizenden die veilig om hem heen stonden — zelf veilig, maar niet in staat hem te helpen.</p>\n  <p>Aan de oever van die grote rivier ligt een rots die ‘Voorbij het punt van verlossing’ wordt genoemd. Een kleine kaap steekt uit in het water, onopgemerkt door reizigers, maar voor zover bekend is er voorbij die kaap nooit iemand gered. Aan de ene kant zijn leven, hoop en redding; aan de andere kant dood, wanhoop en verdoemenis; en toch liggen ze maar zo’n klein stukje uit elkaar.</p>\n  <p>In de overstromende stroom van het leven naderen we dagelijks het punt vanwaar geen reiziger terugkeert; en je weet niet hoe snel je, half dromend, ‘voorbij het punt van verlossing’ kunt drijven. Die fluistering in je hart vandaag van een tekst die je op moeders schoot hebt geleerd; die wonderbaarlijke bewaring op een moment van groot gevaar; die dag waarop je bij een open graf stond en in de ondoorgrondelijke geheimen ervan keek; die ziekte die je zo dicht bij het Koninkrijk van God bracht, maar er niet binnen — o, wie kan zeggen wanneer de Stem je voor de laatste keer zal smeken.</p>\n  <figure>\n    <img src=\"/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg\" alt=\"Watervallen gezien vanaf een rotsachtige uitkijkplek met enkele mensen.\">\n  </figure>\n  <p>Kun je zeggen welke van deze omstandigheden voor jou het ‘punt voorbij de verlossing’ zal zijn? God zegt: ‘Mijn Geest zal niet altijd met de mensen twisten (Gen. 6:3)’ en ‘Och, of ook gij op deze uw dag verstondt wat tot uw vrede dient! Maar nu is het verborgen voor uw ogen (Luc. 19:42).’</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Voorbij het punt van verlossing"
+  }
+}
