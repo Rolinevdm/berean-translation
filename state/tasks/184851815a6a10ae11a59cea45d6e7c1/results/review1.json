@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b39ad904-3bfe-4117-9ab1-a47f55abffd5",
+    "response_id": "chatcmpl-EZm5zwryLFUbUtH55di3GgytLsmxH",
+    "usage": {
+      "completion_tokens": 641,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 451,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4806,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3703,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5447
+    }
+  },
+  "received_at": "2026-10-17T00:00:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraphe 5",
+        "severity": "minor",
+        "source_quote": "my inner man almost invariably is even sensibly nourished and strengthened",
+        "suggested_fix": "Remplacer « véritablement nourri et fortifié » par « manifestement nourri et fortifié » pour rendre l’idée d’un effet perceptible.",
+        "translation_quote": "mon être intérieur est véritablement nourri et fortifié"
+      },
+      {
+        "location": "Paragraphe 6",
+        "severity": "minor",
+        "source_quote": "comfort, encouragement, humbling of soul",
+        "suggested_fix": "Remplacer « une humiliation de l’âme » par « un abaissement de l’âme » ou « une disposition plus humble ».",
+        "translation_quote": "du réconfort, des encouragements, une humiliation de l’âme"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

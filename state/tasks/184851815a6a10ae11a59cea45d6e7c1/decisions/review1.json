@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphe 5",
+      "severity": "minor",
+      "source_quote": "my inner man almost invariably is even sensibly nourished and strengthened",
+      "suggested_fix": "Remplacer « véritablement nourri et fortifié » par « manifestement nourri et fortifié » pour rendre l’idée d’un effet perceptible.",
+      "translation_quote": "mon être intérieur est véritablement nourri et fortifié"
+    },
+    {
+      "location": "Paragraphe 6",
+      "severity": "minor",
+      "source_quote": "comfort, encouragement, humbling of soul",
+      "suggested_fix": "Remplacer « une humiliation de l’âme » par « un abaissement de l’âme » ou « une disposition plus humble ».",
+      "translation_quote": "du réconfort, des encouragements, une humiliation de l’âme"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
