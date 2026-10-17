@@ -19,9 +19,32 @@
       "event": "automatic_requested",
       "previous_task": "42a5741e4fbddc5dbada8b69c11e35cb",
       "task": "8ef2a5c7ceefba9d6b31596e084b7497"
+    },
+    {
+      "at": "2026-10-17T13:59:13+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "8ef2a5c7ceefba9d6b31596e084b7497"
     }
   ],
   "language": "swa",
   "latest_task": "8ef2a5c7ceefba9d6b31596e084b7497",
-  "published": null
+  "published": {
+    "html_path": "content/swa/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
+    "html_sha256": "6ac1447a857dbd5bbeea6e33243e8883dffac733e3e0acda210362c3db713b9b",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+    "metadata_path": "content/swa/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.json",
+    "metadata_sha256": "8704549a53a10c7cc7c8101766c47e6c819188f13b543678895f43fa87ba7432",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"sw\" dir=\"ltr\" role=\"note\">\n  <p>Makala hii imetafsiriwa kwa akili bandia ya OpenAI (modeli: gpt-6.1-sol) na bado haijahakikiwa na binadamu. Maandishi asilia ya Kiingereza ndiyo toleo lenye mamlaka. Ikiwa kuna shaka kuhusu maana, tafadhali rejelea maandishi asilia ya Kiingereza. <a href=\"/en/articles/9b13e502-993c-4536-a32d-ae1a62c36db5/\" data-source-article-id=\"9b13e502-993c-4536-a32d-ae1a62c36db5\" hreflang=\"en\">Maandishi asilia ya Kiingereza</a></p>\n</aside>",
+    "published_at": "2026-10-17T13:59:13+00:00",
+    "quality_score": 99,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+    "source_snapshot": "state/sources/024b14cea96a528a42f66f77d442fb07d0e5035a02e35254ae96bf4fcc0c193f.json",
+    "task": "8ef2a5c7ceefba9d6b31596e084b7497",
+    "translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037"
+  }
 }

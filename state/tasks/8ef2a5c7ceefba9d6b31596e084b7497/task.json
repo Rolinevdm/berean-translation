@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7df256a4dc644c02adf58004b75b44b9",
   "campaign": "auto-821ca1d22f43e91a6419433282a314a323b61a59747114d3e8c7dbd80edc3a34",
   "created_at": "2026-10-17T09:15:18+00:00",
   "events": [
@@ -48,165 +47,31 @@
         },
         "total_tokens": 8215
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 57,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 25,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4362,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3259,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4419
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, opening Scripture quotation",
-      "severity": "major",
-      "source_quote": "The angel of the LORD encampeth round about them that fear him, and delivereth them",
-      "suggested_fix": "Replace with “Malaika wa Bwana hupiga kambi kuwazunguka wale wanaomcha, naye huwaokoa”, retaining the existing emphasis and reference.",
-      "translation_quote": "Malaika wa Bwana hupanua makambi karibu na wale wanaomcha kwa hofu, nao huwaokoa"
-    },
-    {
-      "location": "html, first dialogue paragraph",
-      "severity": "major",
-      "source_quote": "as they crowded around her rocking chair",
-      "suggested_fix": "Replace with “walipokusanyika karibu na kiti chake cha kubembea”.",
-      "translation_quote": "waliokuwa wamekataana kando ya kiti chake cha kuzunguka"
-    },
-    {
-      "location": "html, paragraph beginning “Tulikaa kwenye shamba”",
-      "severity": "major",
-      "source_quote": "We lived on an old farm, back a short lane along a dirt road.",
-      "suggested_fix": "Replace the sentence with “Tuliishi katika shamba la zamani lililofikiwa kwa njia fupi iliyotoka kwenye barabara ya udongo.”",
-      "translation_quote": "Tulikaa kwenye shamba la zamani, nyuma ya barabara fupi iliyo na udongo."
-    },
-    {
-      "location": "html, paragraph beginning “Tulikaa kwenye shamba”",
-      "severity": "major",
-      "source_quote": "Mother called us in from our play and said she was out of sugar. She asked us to walk to Mrs. Brightbill to see if she had any sugar to spare.",
-      "suggested_fix": "Replace these sentences with “Mama alituita tuache kucheza na tuingie ndani, akasema sukari ilikuwa imemwishia. Alituomba tutembee hadi kwa Bi. Brightbill kuona kama alikuwa na sukari ya kutugawia.”",
-      "translation_quote": "Mama alitutaka tupite kutoka kwenye mchezo na alisema chakula cha sukari kimeisha. Alituomba tukatembee hadi kwa Bi. Brightbill kuona kama angeweza kutushiria sukari."
-    },
-    {
-      "location": "html, end of paragraph beginning “Tulikaa kwenye shamba”",
-      "severity": "major",
-      "source_quote": "as Mother called after us and reminded us not to loiter along the way",
-      "suggested_fix": "Replace with “huku Mama akituita tulipokuwa tukiondoka na kutukumbusha tusikawie njiani”.",
-      "translation_quote": "huku mama akitutaka nyuma na kutukumbusha tusibaki kando ya njia"
-    },
-    {
-      "location": "html, paragraph introducing Pierce",
-      "severity": "major",
-      "source_quote": "he had a very fierce dog; at least he acted very fierce!",
-      "suggested_fix": "Replace with “alikuwa na mbwa mkali sana; angalau mbwa huyo alionyesha ukali sana!”",
-      "translation_quote": "alikuwa na mbwa mkali; angalau hufanya kiwoga!"
-    },
-    {
-      "location": "html, all mentions of the old shed in the paragraphs introducing Pierce, approaching the property, and describing the attack",
-      "severity": "major",
-      "source_quote": "an old shed; the old shed; around the corner of the old shed; around the shed",
-      "suggested_fix": "Replace “gereji ya zamani” with “kibanda cha zamani” in all three occurrences, and “akizunguka gereji” with “akizunguka kibanda”. The source does not identify the shed as a garage.",
-      "translation_quote": "gereji ya zamani; gereji ya zamani; pembezoni mwa gereji ya zamani; akizunguka gereji"
-    },
-    {
-      "location": "html, paragraph beginning “Kila siku”",
-      "severity": "major",
-      "source_quote": "that dog frightened us terribly with his fierce barking and growling",
-      "suggested_fix": "Replace with “mbwa huyo alitutisha sana kwa kubweka na kunguruma kwa ukali”.",
-      "translation_quote": "mbwa huyo alitutisha sana kwa kulemaza na kupiga kelele"
-    },
-    {
-      "location": "html, paragraph beginning “Lori na mimi”",
-      "severity": "major",
-      "source_quote": "on our errand for Mother",
-      "suggested_fix": "Replace “kwenye kazi yetu ya kumwendea mama” with “kwenda kutimiza ujumbe wa Mama”.",
-      "translation_quote": "kwenye kazi yetu ya kumwendea mama"
-    },
-    {
-      "location": "html, paragraph beginning “Lori na mimi”",
-      "severity": "major",
-      "source_quote": "on that warm summer morning ... through the gully ... up the steep hill",
-      "suggested_fix": "Replace the respective phrases with “katika asubuhi ile yenye joto ya majira ya kiangazi”, “kupitia korongo”, and “kupanda kilima chenye mwinuko mkali”.",
-      "translation_quote": "katika asubuhi ya joto ya majira ya msimu ... kwenye gully ... kupanda kilima chenye mteremko"
-    },
-    {
-      "location": "html, end of paragraph beginning “Lori na mimi”",
-      "severity": "major",
-      "source_quote": "I will trust and not be afraid.",
-      "suggested_fix": "Replace with “Nitatumaini wala sitaogopa.”",
-      "translation_quote": "nitaamini na sitatafuta hofu."
-    },
-    {
-      "location": "html, attack paragraph",
-      "severity": "major",
-      "source_quote": "the ferocious barking ... Lori and I froze in our tracks! ... I just stood frozen to the spot.",
-      "suggested_fix": "Replace the respective phrases with “mbweko mkali”, “Lori na mimi tuliganda pale tuliposimama!”, and “Nilisimama tu pale, nimeshindwa kusogea.”",
-      "translation_quote": "mkwavyo mkali ... Lori na mimi tulishika mguu pale tuliposimama! ... Nilisimama tu nikiwa nimekatizwa mahali."
-    },
-    {
-      "location": "html, description of Lori on the road",
-      "severity": "major",
-      "source_quote": "on the hard packed gravel, feet and legs in the air, kicking and kicking ... jumping in at her and nipping at her feet and legs",
-      "suggested_fix": "Replace the corresponding passage with “kwenye changarawe zilizoshindiliwa, nyayo na miguu yake ikiwa hewani, akipiga mateke tena na tena, akizunguka na kuzunguka huku mbwa huyo mwenye hasira akimzunguka, akimrukia na kumng’ata-ng’ata nyayo na miguu!”",
-      "translation_quote": "kwenye changarawe zilizosagwa kwa nguvu, miguu na miguu angani, akikanyaga na akikanyaga ... akiruka kumgonga na kumkamata kwa miguu na mabega"
-    },
-    {
-      "location": "html, attack paragraph",
-      "severity": "major",
-      "source_quote": "I don’t remember if I screamed, or if I prayed.",
-      "suggested_fix": "Replace with “Sikumbuki kama nilipiga kelele, au kama niliomba.”",
-      "translation_quote": "Sihukumi kama nililia, au kama niliomba."
-    },
-    {
-      "location": "html, Pierce's intervention",
-      "severity": "major",
-      "source_quote": "with a whip in his hand ... He whipped and whipped that dog and finally got him away from Lori",
-      "suggested_fix": "Replace “akiwa na fimbo mkononi” with “akiwa na mjeledi mkononi”, and replace “Alimpiga fimbo mbwa huyo mara nyingi na mara nyingi hadi awasafishe kutoka kwa Lori” with “Alimchapa mbwa huyo kwa mjeledi tena na tena, hatimaye akamwondoa karibu na Lori”.",
-      "translation_quote": "akiwa na fimbo mkononi ... Alimpiga fimbo mbwa huyo mara nyingi na mara nyingi hadi awasafishe kutoka kwa Lori"
-    },
-    {
-      "location": "html, Grandma's answer to Micah",
-      "severity": "major",
-      "source_quote": "We children needed to keep trusting the good Lord to keep us safe every day.",
-      "suggested_fix": "Replace with “Sisi watoto tulihitaji kuendelea kumtumainia Bwana mwema atulinde kila siku.”",
-      "translation_quote": "Sisi watoto tulihitaji kuendelea kumtumainia Bwana mrefu kuwalinda kila siku."
-    },
-    {
-      "location": "html, paragraph beginning “Sikumbuki”",
-      "severity": "major",
-      "source_quote": "after Pierce got the dog away that day, or if we ever got Mother’s sugar",
-      "suggested_fix": "Replace with “baada ya Pierce kumwondoa mbwa siku hiyo, wala kama tuliipata sukari ya Mama”.",
-      "translation_quote": "baada ya Pierce kumpa mbwa ghafla siku hiyo, au kama hatukuwahi kupata sukari ya Mama"
-    },
-    {
-      "location": "html, final sentence",
-      "severity": "major",
-      "source_quote": "the Lord’s angel had his sword drawn in front of that dog’s mouth every time he leaped at my dear sister",
-      "suggested_fix": "Replace with “malaika wa Bwana alikuwa ameuchomoa upanga wake mbele ya kinywa cha mbwa huyo kila mara alipomrukia dada yangu mpendwa”.",
-      "translation_quote": "malaika wa Bwana alikuwa amepiga upanga mbele ya kinywa cha mbwa kila wakati alipopiga shika kwa dada yangu mpendwa"
-    },
-    {
-      "location": "html, Sharon's reaction after the attack",
-      "severity": "minor",
-      "source_quote": "“Wow!” exclaimed Sharon.",
-      "suggested_fix": "Replace “Nzuri!” with “Lo!” to convey astonishment rather than approval.",
-      "translation_quote": "“Nzuri!” Sharon alisema kwa mshangao."
-    },
-    {
-      "location": "html, Psalm 56:3 quotation",
-      "severity": "minor",
-      "source_quote": "What time I am afraid",
-      "suggested_fix": "Replace “Nakati ninapokuwa na hofu” with “Wakati ninapokuwa na hofu”.",
-      "translation_quote": "Nakati ninapokuwa na hofu"
-    },
-    {
-      "location": "html, first image alt attribute",
-      "severity": "minor",
-      "source_quote": "A brindle dog wearing a chain collar",
-      "suggested_fix": "Replace the alt text with “Mbwa mwenye manyoya yenye mistari ya rangi mchanganyiko, aliyevalia mkufu wa mnyororo”.",
-      "translation_quote": "Mbwa mwenye rangi mchanganyiko aliyevalia mkufu wa mnyororo"
-    },
-    {
-      "location": "title",
-      "severity": "minor",
-      "source_quote": "Saved From the “Lion’s” Mouth",
-      "suggested_fix": "Replace with “Kuokolewa Kutoka Kinywani mwa ‘Simba’” to avoid an inanimate subject agreement for the rescued children.",
-      "translation_quote": "Imeokolewa Kutoka Kinywani cha “Simba”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-17T13:59:13+00:00",
   "id": "8ef2a5c7ceefba9d6b31596e084b7497",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "swa",
@@ -295,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 54,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -314,7 +179,7 @@
     "total_reserved_usd": 0.702151,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
   "translation_model_actual": "gpt-6.1-sol"
