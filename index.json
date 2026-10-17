@@ -8859,6 +8859,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
+      "html_sha256": "646d41f3e30f9ad284b043679f17ab8e5970d169e6546792000b7783cb7bf86c",
+      "human_reviewed": false,
+      "id": "1f294c3b-4295-4493-8a52-a33af40f298b",
+      "images": [
+        {
+          "alt": "পাথুরে উঁচু স্থান থেকে দেখা জলপ্রপাত, সামনে কয়েকজন মানুষ।",
+          "public_path": "/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/1f294c3b-4295-4493-8a52-a33af40f298b.json",
+      "metadata_sha256": "cbf139ee6694db7fedfb9449354f1f0b43df7d3b284ed5737e8ec8669581ef25",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "মুক্তির সীমা পেরিয়ে",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/201a1b3e-85b3-4e62-bc45-118a8c1f5367.html",
       "html_sha256": "092b005a056ebcf7747a8f49cedfaf3fee1164b81278b2ed6c3104793684b697",
       "human_reviewed": false,
@@ -52330,6 +52358,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/048f1671-ed06-4ba0-8509-b288af569cfc.html",
+      "html_sha256": "62524b849c14d7ab0a77595ee48ea8671a24b3600b708cf13360241d3aa83108",
+      "human_reviewed": false,
+      "id": "048f1671-ed06-4ba0-8509-b288af569cfc",
+      "images": [],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/048f1671-ed06-4ba0-8509-b288af569cfc.json",
+      "metadata_sha256": "5ebcb13c1b65979419bba3108fc7a1354939d89a504e61b0833360447d7d1fbc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "ec1e388910e3aa260fd46b2d82e61335d33e6f09519dfd68d4d6a1a9f0ff5121",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Næring for sjelen først",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/053cec10-1df0-4f62-832e-362809b44283.html",
       "html_sha256": "460968906035c1d3bfdbe5dc1eb2203a3043d634cf8836bbe6a0e8e2a4abd98a",
       "human_reviewed": false,
@@ -61822,6 +61873,34 @@
       "subtitle": null,
       "title": "Весело для всех",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
+      "html_sha256": "9ac974b17860b727b8d184d5f5580f5f5e9ea639f9d0990d0988b6d1a4bbbb96",
+      "human_reviewed": false,
+      "id": "1f294c3b-4295-4493-8a52-a33af40f298b",
+      "images": [
+        {
+          "alt": "Водопады, вид с каменистого уступа; рядом стоят несколько человек.",
+          "public_path": "/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/1f294c3b-4295-4493-8a52-a33af40f298b.json",
+      "metadata_sha256": "ea641ea03c1c1c0671fb49729706a844c969925bbad8fa27ada7c5ab1e79ed1e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Рубеж невозвратного искупления",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -77585,6 +77664,34 @@
       "subtitle": null,
       "title": "سب کے لیے مزہ",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
+      "html_sha256": "bed8e15e319053ea60e565f51ea577125f207a93111622dc28a8461441a48bba",
+      "human_reviewed": false,
+      "id": "1f294c3b-4295-4493-8a52-a33af40f298b",
+      "images": [
+        {
+          "alt": "چٹانی بلندی سے دکھائی دیتے آبشار، جن کے قریب کئی افراد موجود ہیں۔",
+          "public_path": "/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/1f294c3b-4295-4493-8a52-a33af40f298b.json",
+      "metadata_sha256": "cefe1938c2a3881a6d0bde3b49cb9cfaa2120b7ca254e4e1af3369fbffc2f052",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "مقامِ ماورائے نجات",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,

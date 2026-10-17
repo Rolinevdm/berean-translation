@@ -985,7 +985,7 @@
   },
   "status": "active",
   "task_counts": {
-    "in_batch": 1
+    "queued": 1
   },
   "tasks": [
     "f148c6a2e2ed63044b39e38bc1ea3cb1"
