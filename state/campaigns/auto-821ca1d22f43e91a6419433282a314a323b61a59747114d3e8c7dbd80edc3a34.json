@@ -1,5 +1,5 @@
 {
-  "automatic_acceptance_complete": false,
+  "automatic_acceptance_complete": true,
   "automatic_allocation_before_usd": 27.648018,
   "automatic_allocation_index": 608,
   "automatic_allocation_usd": 0.702151,
@@ -998,6 +998,8 @@
     "total_reserved_usd": 0.702151,
     "version": 1
   },
-  "status": "acceptance_incomplete",
-  "tasks": []
+  "status": "active",
+  "tasks": [
+    "8ef2a5c7ceefba9d6b31596e084b7497"
+  ]
 }
