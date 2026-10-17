@@ -1301,6 +1301,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/4e8ea007-f957-4120-ad93-54df11c824c6.html",
+      "html_sha256": "5241d77ca8f3d29bd0783a5d616ed9d60d9503d94769ee274d00247cfee3fb62",
+      "human_reviewed": false,
+      "id": "4e8ea007-f957-4120-ad93-54df11c824c6",
+      "images": [],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/4e8ea007-f957-4120-ad93-54df11c824c6.json",
+      "metadata_sha256": "6be3f1de0cec873bb0a4b649aa65780c7c15ca9f53272a64c96048fd6f98f56c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "e215e736c1acdb8dcfb1204d9f2318c83130759b6bf298e60a5f911c6667fd1f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die Gemeente Moet Eers Tot Bekering Kom",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/50068373-cc3d-4587-a605-3f37fc05b3ad.html",
       "html_sha256": "8445ce5cb5ff54b2524f990618ff95260f504a6c6fd9660b8973076714103a8b",
       "human_reviewed": false,
@@ -7400,6 +7423,34 @@
       "subtitle": null,
       "title": "السير معها في درب الحزن",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.html",
+      "html_sha256": "8fb04545a6450c2ae85ce6630caa0a6a7848f7995cd960067a3185624e9b9254",
+      "human_reviewed": false,
+      "id": "bfec593e-9641-46a9-97d6-84e3bffe789c",
+      "images": [
+        {
+          "alt": "نقش يصوّر إيكاروس وهو يهوي من السماء",
+          "public_path": "/images/articles/bfec593e-9641-46a9-97d6-84e3bffe789c-1.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/bfec593e-9641-46a9-97d6-84e3bffe789c.json",
+      "metadata_sha256": "3aba030da1bee327aea392002be4674cf844ed660f0661653c18848cdf2fc7dc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "من المحرر",
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
+      "status": "ready",
+      "subtitle": null,
+      "title": "الطيران عاليًا أكثر مما ينبغي؟",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
