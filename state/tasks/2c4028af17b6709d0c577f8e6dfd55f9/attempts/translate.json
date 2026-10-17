@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T14:04:55+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"8cbcdd10-5627-42b1-b948-ee7f93c1d648\\\">\\n  <p class=\\\"drop-cap\\\">Permítanme contar la siguiente historia real, más increíble que la ficción.</p>\\n  <p>Hace unos años asistimos a una reunión de oración que duró toda la noche, en la noche de Halloween. Salvo una señora, todos eran completos desconocidos para nosotros. Llegamos y nos sentamos en la sala de estar. (Esta reunión de oración se convocó para interceder contra las obras de la brujería de Halloween, los sacrificios humanos, etc.).</p>\\n  <p>Entonces llegó una señora llamada Patty con su hijo Max, de 5 años. Nunca habíamos conocido a Patty ni a Max. Yo estaba sentado en el sofá y Max corrió hacia donde yo estaba. Clavó las uñas en el brazo del sofá, junto a mí, y empezó a aullar y a sisear, mientras la saliva salía disparada por todas partes. Giré la cabeza, asombrado, para mirar a aquel niño y fue como mirar a los ojos del mismísimo Satanás. Ese niño estaba totalmente poseído por demonios. Al poco rato, su madre se lo llevó a casa.</p>\\n  <p>Nos hicimos buenos amigos de la pareja que organizó la reunión de oración que duró toda la noche. Nos enteramos de que la gente que entraba en contacto con Max pronto acababa odiándolo. Era totalmente repulsivo por los demonios que lo habitaban. Era muy peligroso y violento.</p>\\n  <p>Bueno, un par de meses después estábamos en otra reunión de oración y, una vez más, entraron Patty y el pequeño terror, Max. Mientras todos orábamos, Connie interrumpió todo y dijo: «Max, ven aquí conmigo».</p>\\n  <p>Max se acercó a Connie, y entonces Connie dijo: «Max, siéntate en esta silla y vuelvo enseguida». Max se sentó en la silla y la sala quedó en silencio, llena de expectación, mientras Connie salía. Al cabo de unos momentos, regresó con una palangana de agua y un paño. Se arrodilló delante de Max y dijo: «Max, ¿te importaría que te lavara los pies?».</p>\\n  <p>Max dijo: «Está bien». Se quitó sus zapatitos y sus calcetines.</p>\\n  <p>Connie lloró desconsoladamente mientras le lavaba los pies a Max. Se habría podido oír caer un alfiler en aquella sala. Cuando Connie terminó de lavarle los pies y de llorar, puso la mano sobre la cabeza del pequeño Max y ordenó: «Espíritus inmundos del infierno, en el poderoso nombre de Jesús les ordeno: ¡salgan de este niño AHORA! ¡VÁYANSE! Y no lo atormenten nunca más».</p>\\n  <p>Entonces Connie tomó a Max en brazos y le dio un abrazo enorme y un beso. El pequeño Max SE convirtió INSTANTÁNEAMENTE en el niño más dulce.</p>\\n  <p>Quiero decir que fue instantáneo. Desde ese momento, cuando alguien le hablaba, siempre respondía a los adultos con «señora» y «señor». Jugaba con los otros niños con mucha calma y dulzura, y era extremadamente amable y cariñoso. Su madre, Patty, estaba encantada con su nuevo hijo.</p>\\n  <p>Vimos a Patty y a Max varias veces después de aquello, y Max era tan adorable como antes era repulsivo. Costaba creer que fuera el mismo niño que se había presentado ante mí aquella noche de Halloween anterior, aullando, siseando y escupiendo.</p>\\n  <p>Max tiene el cabello más rubio que jamás hayas visto y los ojos más azules.</p>\\n  <p>Ahora, cuando lo miras a los ojos, es como mirar a los ojos de un angelito.</p>\\n  <p>Berean Publishers<br>18737 N. Celosia Lane<br>Surprise, AZ 85387<br>www.bereanpublishers.co.nz</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Pequeño alborotador\"}",
+    "content_bytes": 3525,
+    "content_evidence_truncated": false,
+    "content_sha256": "3e44c15bf9b9b0d43f6ed7d6eab9eb65e717f1336d8301734db80dcaceaef9dc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 950,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1637,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1634,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2587
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
