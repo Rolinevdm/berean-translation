@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T17:23:22+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, citazione di 1 Pietro 3:3-6\",\n      \"severity\": \"major\",\n      \"source_quote\": \"outward adorning of plaiting the hair, and of wearing of gold, or of putting on of apparel ... whose daughters ye are\",\n      \"suggested_fix\": \"Sostituire l'inizio con «Il vostro ornamento non sia quello esteriore dell'intrecciare i capelli, del portare oro o dell'indossare abiti» e «di voi infatti siete figlie» con «di lei siete figlie». Conservare il resto del paragrafo e i tag.\",\n      \"translation_quote\": \"acconciature vistose, né di oro, né di abiti sontuosi ... di voi infatti siete figlie\"\n    },\n    {\n      \"location\": \"html, paragrafo che inizia «Quanto è bello»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Let us not make Him ashamed to call us His sons and daughters.\",\n      \"suggested_fix\": \"Sostituire la frase con «Non facciamo sì che Egli si vergogni di chiamarci Suoi figli e figlie».\",\n      \"translation_quote\": \"Non rendiamolo disonorevole nel chiamarci suoi figli e figlie.\"\n    },\n    {\n      \"location\": \"html, citazione di Salmo 19:7\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The law of the LORD is perfect, converting the soul\",\n      \"suggested_fix\": \"Sostituire «ritorna l'anima» con «converte l'anima», conservando i tag e il riferimento.\",\n      \"translation_quote\": \"La legge del SIGNORE è perfetta, ritorna l'anima\"\n    },\n    {\n      \"location\": \"html, citazione di Tito 2:11-12\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the grace of God that bringeth salvation hath appeared to all men\",\n      \"suggested_fix\": \"Sostituire l'inizio con «La grazia di Dio, che porta salvezza, è apparsa a tutti gli uomini», mantenendo il seguito e i tag.\",\n      \"translation_quote\": \"È apparsa la grazia di Dio che porta salvezza a tutti gli uomini\"\n    },\n    {\n      \"location\": \"html, citazione di Isaia 61:10\",\n      \"severity\": \"major\",\n      \"source_quote\": \"as a bridegroom decketh himself with ornaments, and as a bride adorneth herself with her jewels\",\n      \"suggested_fix\": \"Sostituire il segmento con «come uno sposo si adorna di ornamenti e come una sposa si adorna dei suoi gioielli».\",\n      \"translation_quote\": \"come uno sposo si adorna di diadema, e come una vergine si cinge dei suoi monili\"\n    },\n    {\n      \"location\": \"html, ultimo paragrafo, citazione di Matteo 10:28\",\n      \"severity\": \"major\",\n      \"source_quote\": \"which kill the body, but are not able to kill the soul\",\n      \"suggested_fix\": \"Sostituire «che uccidono il corpo, e dopo non hanno più nulla da fare» con «che uccidono il corpo, ma non possono uccidere l'anima».\",\n      \"translation_quote\": \"che uccidono il corpo, e dopo non hanno più nulla da fare\"\n    },\n    {\n      \"location\": \"html, paragrafo che inizia «Ricordate, Dio vuole»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"they can see the clear countenance on my face\",\n      \"suggested_fix\": \"Sostituire «riesce a vedere il chiaro volto sul mio viso» con «vede sul mio viso un'espressione limpida».\",\n      \"translation_quote\": \"riesce a vedere il chiaro volto sul mio viso\"\n    },\n    {\n      \"location\": \"html, citazione di 2 Timoteo 2:4-22\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"that he may please him\",\n      \"suggested_fix\": \"Sostituire «perch�� voglia piacere» con «per piacere».\",\n      \"translation_quote\": \"perch�� voglia piacere\"\n    },\n    {\n      \"location\": \"html, citazione di Tito 2:11-12\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"we should live soberly, righteously, and godly\",\n      \"suggested_fix\": \"Sostituire «a vivere sobrietà, giustizia e pietà» con «a vivere con sobrietà, giustizia e pietà».\",\n      \"translation_quote\": \"a vivere sobrietà, giustizia e pietà\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 86\n}",
+    "content_bytes": 3881,
+    "content_evidence_truncated": false,
+    "content_sha256": "2a0b0c07c323c717422590f640d143a5660bb9af66996c4086c2a63af89aa5ca",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1238,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 132,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9066,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7963,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10304
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

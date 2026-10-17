@@ -5,11 +5,96 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "affa73d30a83490b9b162f9865ef227b",
   "campaign": "auto-487e4ced46878cfead195debc95e408036b3801053d176a6bc7077e4b79719c0",
   "created_at": "2026-10-17T17:01:38+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1238,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 132,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9066,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7963,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10304
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, citazione di 1 Pietro 3:3-6",
+      "severity": "major",
+      "source_quote": "outward adorning of plaiting the hair, and of wearing of gold, or of putting on of apparel ... whose daughters ye are",
+      "suggested_fix": "Sostituire l'inizio con «Il vostro ornamento non sia quello esteriore dell'intrecciare i capelli, del portare oro o dell'indossare abiti» e «di voi infatti siete figlie» con «di lei siete figlie». Conservare il resto del paragrafo e i tag.",
+      "translation_quote": "acconciature vistose, né di oro, né di abiti sontuosi ... di voi infatti siete figlie"
+    },
+    {
+      "location": "html, paragrafo che inizia «Quanto è bello»",
+      "severity": "major",
+      "source_quote": "Let us not make Him ashamed to call us His sons and daughters.",
+      "suggested_fix": "Sostituire la frase con «Non facciamo sì che Egli si vergogni di chiamarci Suoi figli e figlie».",
+      "translation_quote": "Non rendiamolo disonorevole nel chiamarci suoi figli e figlie."
+    },
+    {
+      "location": "html, citazione di Salmo 19:7",
+      "severity": "major",
+      "source_quote": "The law of the LORD is perfect, converting the soul",
+      "suggested_fix": "Sostituire «ritorna l'anima» con «converte l'anima», conservando i tag e il riferimento.",
+      "translation_quote": "La legge del SIGNORE è perfetta, ritorna l'anima"
+    },
+    {
+      "location": "html, citazione di Tito 2:11-12",
+      "severity": "major",
+      "source_quote": "the grace of God that bringeth salvation hath appeared to all men",
+      "suggested_fix": "Sostituire l'inizio con «La grazia di Dio, che porta salvezza, è apparsa a tutti gli uomini», mantenendo il seguito e i tag.",
+      "translation_quote": "È apparsa la grazia di Dio che porta salvezza a tutti gli uomini"
+    },
+    {
+      "location": "html, citazione di Isaia 61:10",
+      "severity": "major",
+      "source_quote": "as a bridegroom decketh himself with ornaments, and as a bride adorneth herself with her jewels",
+      "suggested_fix": "Sostituire il segmento con «come uno sposo si adorna di ornamenti e come una sposa si adorna dei suoi gioielli».",
+      "translation_quote": "come uno sposo si adorna di diadema, e come una vergine si cinge dei suoi monili"
+    },
+    {
+      "location": "html, ultimo paragrafo, citazione di Matteo 10:28",
+      "severity": "major",
+      "source_quote": "which kill the body, but are not able to kill the soul",
+      "suggested_fix": "Sostituire «che uccidono il corpo, e dopo non hanno più nulla da fare» con «che uccidono il corpo, ma non possono uccidere l'anima».",
+      "translation_quote": "che uccidono il corpo, e dopo non hanno più nulla da fare"
+    },
+    {
+      "location": "html, paragrafo che inizia «Ricordate, Dio vuole»",
+      "severity": "minor",
+      "source_quote": "they can see the clear countenance on my face",
+      "suggested_fix": "Sostituire «riesce a vedere il chiaro volto sul mio viso» con «vede sul mio viso un'espressione limpida».",
+      "translation_quote": "riesce a vedere il chiaro volto sul mio viso"
+    },
+    {
+      "location": "html, citazione di 2 Timoteo 2:4-22",
+      "severity": "minor",
+      "source_quote": "that he may please him",
+      "suggested_fix": "Sostituire «perch�� voglia piacere» con «per piacere».",
+      "translation_quote": "perch�� voglia piacere"
+    },
+    {
+      "location": "html, citazione di Tito 2:11-12",
+      "severity": "minor",
+      "source_quote": "we should live soberly, righteously, and godly",
+      "suggested_fix": "Sostituire «a vivere sobrietà, giustizia e pietà» con «a vivere con sobrietà, giustizia e pietà».",
+      "translation_quote": "a vivere sobrietà, giustizia e pietà"
+    }
+  ],
   "id": "4bf1851ae44c41c401401bf5550efc16",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ita",
@@ -98,11 +183,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/8318b57a6ada492a7c60f08b638ec3749b04818458e4f26c4da97c0bb96e2624.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +202,7 @@
     "total_reserved_usd": 0.759549,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "645f3b0dd9dba2fa145399753da1e466b9d79164115d769d8a631979fc803973",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

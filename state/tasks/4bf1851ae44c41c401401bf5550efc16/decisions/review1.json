@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "html, citazione di 1 Pietro 3:3-6",
+      "severity": "major",
+      "source_quote": "outward adorning of plaiting the hair, and of wearing of gold, or of putting on of apparel ... whose daughters ye are",
+      "suggested_fix": "Sostituire l'inizio con «Il vostro ornamento non sia quello esteriore dell'intrecciare i capelli, del portare oro o dell'indossare abiti» e «di voi infatti siete figlie» con «di lei siete figlie». Conservare il resto del paragrafo e i tag.",
+      "translation_quote": "acconciature vistose, né di oro, né di abiti sontuosi ... di voi infatti siete figlie"
+    },
+    {
+      "location": "html, paragrafo che inizia «Quanto è bello»",
+      "severity": "major",
+      "source_quote": "Let us not make Him ashamed to call us His sons and daughters.",
+      "suggested_fix": "Sostituire la frase con «Non facciamo sì che Egli si vergogni di chiamarci Suoi figli e figlie».",
+      "translation_quote": "Non rendiamolo disonorevole nel chiamarci suoi figli e figlie."
+    },
+    {
+      "location": "html, citazione di Salmo 19:7",
+      "severity": "major",
+      "source_quote": "The law of the LORD is perfect, converting the soul",
+      "suggested_fix": "Sostituire «ritorna l'anima» con «converte l'anima», conservando i tag e il riferimento.",
+      "translation_quote": "La legge del SIGNORE è perfetta, ritorna l'anima"
+    },
+    {
+      "location": "html, citazione di Tito 2:11-12",
+      "severity": "major",
+      "source_quote": "the grace of God that bringeth salvation hath appeared to all men",
+      "suggested_fix": "Sostituire l'inizio con «La grazia di Dio, che porta salvezza, è apparsa a tutti gli uomini», mantenendo il seguito e i tag.",
+      "translation_quote": "È apparsa la grazia di Dio che porta salvezza a tutti gli uomini"
+    },
+    {
+      "location": "html, citazione di Isaia 61:10",
+      "severity": "major",
+      "source_quote": "as a bridegroom decketh himself with ornaments, and as a bride adorneth herself with her jewels",
+      "suggested_fix": "Sostituire il segmento con «come uno sposo si adorna di ornamenti e come una sposa si adorna dei suoi gioielli».",
+      "translation_quote": "come uno sposo si adorna di diadema, e come una vergine si cinge dei suoi monili"
+    },
+    {
+      "location": "html, ultimo paragrafo, citazione di Matteo 10:28",
+      "severity": "major",
+      "source_quote": "which kill the body, but are not able to kill the soul",
+      "suggested_fix": "Sostituire «che uccidono il corpo, e dopo non hanno più nulla da fare» con «che uccidono il corpo, ma non possono uccidere l'anima».",
+      "translation_quote": "che uccidono il corpo, e dopo non hanno più nulla da fare"
+    },
+    {
+      "location": "html, paragrafo che inizia «Ricordate, Dio vuole»",
+      "severity": "minor",
+      "source_quote": "they can see the clear countenance on my face",
+      "suggested_fix": "Sostituire «riesce a vedere il chiaro volto sul mio viso» con «vede sul mio viso un'espressione limpida».",
+      "translation_quote": "riesce a vedere il chiaro volto sul mio viso"
+    },
+    {
+      "location": "html, citazione di 2 Timoteo 2:4-22",
+      "severity": "minor",
+      "source_quote": "that he may please him",
+      "suggested_fix": "Sostituire «perch�� voglia piacere» con «per piacere».",
+      "translation_quote": "perch�� voglia piacere"
+    },
+    {
+      "location": "html, citazione di Tito 2:11-12",
+      "severity": "minor",
+      "source_quote": "we should live soberly, righteously, and godly",
+      "suggested_fix": "Sostituire «a vivere sobrietà, giustizia e pietà» con «a vivere con sobrietà, giustizia e pietà».",
+      "translation_quote": "a vivere sobrietà, giustizia e pietà"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
