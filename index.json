@@ -48394,6 +48394,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
+      "html_sha256": "b349a333b8e3ee6ef93d83388d64dcb5290839cb26bded00c4771b48a42ab484",
+      "human_reviewed": false,
+      "id": "1f294c3b-4295-4493-8a52-a33af40f298b",
+      "images": [
+        {
+          "alt": "Watervallen gezien vanaf een rotsachtige uitkijkplek met enkele mensen.",
+          "public_path": "/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/1f294c3b-4295-4493-8a52-a33af40f298b.json",
+      "metadata_sha256": "58a3dc95559267baab095540af2419c30ccd605f17105306b6798e36d441d9cf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Voorbij het punt van verlossing",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/21853000-58b7-413f-b119-c9b1a6012369.html",
       "html_sha256": "0b0b0f4722ac4a492c3180b67558d8dc55821487f0cc04419667a2f0579b92a1",
       "human_reviewed": false,
