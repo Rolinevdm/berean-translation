@@ -29898,6 +29898,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
+      "html_sha256": "84b70367134a013f3715a3adc3f94571c8f8f7786375bb34a7e64b246cd25e80",
+      "human_reviewed": false,
+      "id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
+      "images": [
+        {
+          "alt": "כלב בעל פרווה מנומרת עם קולר שרשרת",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png"
+        },
+        {
+          "alt": "שדות ומבני חווה הפרושים בעמק כפרי בעל גבעות מתונות בסתיו",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.json",
+      "metadata_sha256": "2c7077923b27f628e579dd74b11d58c7759382616da49afefdcb2127ffba59f0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "פינת הילדים",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ניצלנו מפי ה״אריה״",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9.html",
       "html_sha256": "353db464acdb8c1fa5cca66e208a5fb20c5505100792ec0231b2186b3ca11a76",
       "human_reviewed": false,
@@ -38459,6 +38491,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Kematian Seorang Pendosa",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/c6596509-ad91-49b6-a55b-d850c3b72c14.html",
+      "html_sha256": "1ce2f89ab7472b76278b3d94ac170dd80c4adceeea0f8250ada8b66f5c8ed4c3",
+      "human_reviewed": false,
+      "id": "c6596509-ad91-49b6-a55b-d850c3b72c14",
+      "images": [
+        {
+          "alt": "Close-up sekuntum mawar.",
+          "public_path": "/images/articles/c6596509-ad91-49b6-a55b-d850c3b72c14-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/c6596509-ad91-49b6-a55b-d850c3b72c14.json",
+      "metadata_sha256": "97617962321149618bd9ff9256d9038518aba7f28f619dd6de07336f19328280",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "0e0d3461779cb69fe2b7abdcf38f790945684497a7280f617caa1679f055a962",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Bagaimana Kita Mempersiapkan Anak Perempuan Muda Kita untuk Masa Depan?",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -71097,6 +71157,34 @@
       "subtitle": null,
       "title": "Furaha kwa Wote",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
+      "html_sha256": "49b949b4523bc9cdd1fb19c655aa41fd3669e93ca0e023b16bac72ea3689c801",
+      "human_reviewed": false,
+      "id": "1f294c3b-4295-4493-8a52-a33af40f298b",
+      "images": [
+        {
+          "alt": "Maporomoko ya maji yakionekana kutoka kwenye sehemu ya kutazamia iliyo na miamba, kukiwa na watu kadhaa.",
+          "public_path": "/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/1f294c3b-4295-4493-8a52-a33af40f298b.json",
+      "metadata_sha256": "de4e5d7e4ae9769120247802903269d34eca3478e6aade9c2438aa9fe860649f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Zaidi ya Kiwango cha Ukombozi",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
