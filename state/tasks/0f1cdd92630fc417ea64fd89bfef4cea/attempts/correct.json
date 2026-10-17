@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T10:59:53+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"1f294c3b-4295-4493-8a52-a33af40f298b\\\">\\n  <p class=\\\"drop-cap\\\">Maji ya Mfereji wa Kiingereza yalitiririka yakiwa mapana na yenye kina kirefu; hakuna mwanadamu aliyewahi kuvuka upana wake wote. Akiwa amechochewa na azma ya kufanya jambo ambalo hakuna mtu aliyewahi kufanya, na akifahamu nguvu za misuli yake, mwogeleaji mashuhuri Matthew Webb aliogelea maili hizo ishirini na tano na kukanyaga ufuo wa Ufaransa.</p>\\n  <p>Mara nyingi akiwa majini, na sikuzote bila kudhurika, alionekana kufikiri kwamba alikuwa na bahati ya ajabu; na alipoitazama mikondo ya maji ya Niagara iliyokuwa ikichemka, aliazimia kuhatarisha maisha yake kwa ajili ya umaarufu—umaarufu ambao haujawahi kutosheleza moyo wowote wa mwanadamu wenye shauku—akisema, “Yote ni bahati, na mwisho wake siufikirii; nitajaribu bahati yangu.”</p>\\n  <p>Kwa mara ya mwisho, ingawa hakujua hivyo, tarehe 24 Julai 1883 alivaa mavazi yake ya kawaida ya kuogelea, kisha akajitosa katika mkondo wa maji wenye ghadhabu na unaozunguka kwa kasi. Kama kawaida, aliibuka kutoka kwenye mbizi yake ili kuelea na kuanza kupiga mikono na miguu, lakini maji yaliyokuwa yakizunguka-zunguka yakamshika kama kijiti katika mshiko wao mkubwa, yakamrusha bila kuonekana na akiwa hana uwezo ndani ya kisulisuli alichokuwa amekikabili kwa ujasiri huo wa kipumbavu; akapotea machoni pa maelfu ya watu waliosimama salama kumzunguka—wao wenyewe wakiwa salama, lakini hawakuwa na uwezo wa kumsaidia.</p>\\n  <p>Katika ufuo wa mto huo mkubwa kuna mwamba unaoitwa “Zaidi ya Kiwango cha Ukombozi.” Ni rasi ndogo inayoingia majini, ambayo wasafiri hawaioni, lakini hakuna mwanadamu anayejulikana kuwa aliokoka baada ya kuvuka hapo. Upande mmoja kuna uzima, tumaini na wokovu; upande mwingine kuna kifo, kukata tamaa na hukumu ya adhabu; na umbali baina ya pande hizo ni mdogo sana.</p>\\n  <p>Katika mkondo wa maisha unaofurika, kila siku tunakaribia zaidi mahali ambapo hakuna msafiri anayerejea; nawe hujui ni lini hasa unaweza kupelekwa na mkondo, huku ukiwa karibu kusinzia, “zaidi ya kiwango cha ukombozi.” Leo, sauti hiyo ya chini moyoni ya kifungu cha Maandiko ulichofundishwa ukiwa umekaa magotini mwa mama yako; kuokolewa huko kwa ajabu katika wakati wa hatari kubwa; siku ile uliposimama kando ya kaburi lililo wazi na kutazama mafumbo yake yasiyo na kifani; ugonjwa ule uliokuleta karibu sana na Ufalme wa Mungu, lakini si ndani yake—Ee! Ni nani ajuaye ni lini Sauti itakusihi kwa mara ya mwisho.</p>\\n  <figure>\\n    <img src=\\\"/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg\\\" alt=\\\"Maporomoko ya maji yakionekana kutoka kwenye sehemu ya kutazamia iliyo na miamba, kukiwa na watu kadhaa.\\\">\\n  </figure>\\n  <p>Je, unaweza kujua ni ipi kati ya hali hizi itakuwa “Zaidi ya Kiwango cha Ukombozi” katika maisha yako? Mungu asema, “Roho yangu haitashindana na mwanadamu milele (Mwa 6:3)” na “Laiti ungejua, naam, hata wewe, angalau katika siku hii yako, mambo yale yaletayo amani yako! Lakini sasa yamefichwa machoni pako (Luka 19:42).”</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Zaidi ya Kiwango cha Ukombozi\"}",
+    "content_bytes": 3144,
+    "content_evidence_truncated": false,
+    "content_sha256": "12ab12f17b23f2b6dbc27437ea0ca3add4ec88f3f79b7c4fa2bdcd61e8232f49",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1561,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 577,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2845,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2842,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4406
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}
