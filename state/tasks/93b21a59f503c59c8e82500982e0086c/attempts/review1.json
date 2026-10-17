@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T10:52:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"he seemed to think he bore a charmed life\",\"suggested_fix\":\"Vervang ‘een beschermengel had’ door bijvoorbeeld ‘een gelukskind was’ om de gedachte van een uitzonderlijk beschermd of onaantastbaar leven weer te geven.\",\"translation_quote\":\"leek hij te denken dat hij een beschermengel had\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 428,
+    "content_evidence_truncated": false,
+    "content_sha256": "cad6d20bf115092498ea1e149cb9f2cbc1b10915897de24c486905cf7f0d90b0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 737,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 616,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2637,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1534,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3374
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
