@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "83cf75fcc4ab49f0b99bff3f96c3dfb8",
   "campaign": "auto-3a4d72f9c5e57fc2485b634560126afc04bc6b2791a0e9d8abb674f8719c7980",
   "created_at": "2026-10-17T04:24:13+00:00",
   "events": [
@@ -28,10 +27,52 @@
         },
         "total_tokens": 2746
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 999,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 649,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2833,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2830,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3832
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Title; paragraphs 4–6, each occurrence of “Past Redemption Point”",
+      "severity": "major",
+      "source_quote": "“past Redemption Point”; “the ‘Past Redemption Point’ of your life”",
+      "suggested_fix": "Use a consistent expression meaning “beyond the point of redemption,” such as “Mahali pa Kupita Ukombozi,” in the title and these occurrences. For the quoted phrase in paragraph 5, use “mahali pa kupita ukombozi.”",
+      "translation_quote": "“Ng’ambo ya Kituo cha Ukombozi”; “ng’ambo ya kituo cha ukombozi”; “Ng’ambo ya Kituo cha Ukombozi”"
+    },
+    {
+      "location": "Paragraph 3",
+      "severity": "major",
+      "source_quote": "“hurled him unseen and powerless into the vortex”",
+      "suggested_fix": "Replace “kisima cha maji kilichozunguka” with “kisulisuli cha maji” to convey the vortex/whirlpool.",
+      "translation_quote": "“yakamrusha bila kuonekana wala kuwa na uwezo wa kujitetea ndani ya kisima cha maji kilichozunguka”"
+    },
+    {
+      "location": "Paragraph 4",
+      "severity": "minor",
+      "source_quote": "“death, despair, damnation”",
+      "suggested_fix": "Use “hukumu ya adhabu” or another natural equivalent for “damnation,” rather than “hukumu ya milele,” which means eternal judgment.",
+      "translation_quote": "“kifo, kukata tamaa na hukumu ya milele”"
+    }
+  ],
   "id": "0f1cdd92630fc417ea64fd89bfef4cea",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "swa",
@@ -120,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a77c134fa5dc80aa7e5f608d8bf402f9cff7d2d8c52b4f05f1b41e3d54f246e5.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +181,7 @@
     "total_reserved_usd": 0.086399,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
   "translation_model_actual": "gpt-6-luna"

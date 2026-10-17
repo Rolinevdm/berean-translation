@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T09:22:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Title; paragraphs 4–6, each occurrence of “Past Redemption Point”\",\"severity\":\"major\",\"source_quote\":\"“past Redemption Point”; “the ‘Past Redemption Point’ of your life”\",\"suggested_fix\":\"Use a consistent expression meaning “beyond the point of redemption,” such as “Mahali pa Kupita Ukombozi,” in the title and these occurrences. For the quoted phrase in paragraph 5, use “mahali pa kupita ukombozi.”\",\"translation_quote\":\"“Ng’ambo ya Kituo cha Ukombozi”; “ng’ambo ya kituo cha ukombozi”; “Ng’ambo ya Kituo cha Ukombozi”\"},{\"location\":\"Paragraph 3\",\"severity\":\"major\",\"source_quote\":\"“hurled him unseen and powerless into the vortex”\",\"suggested_fix\":\"Replace “kisima cha maji kilichozunguka” with “kisulisuli cha maji” to convey the vortex/whirlpool.\",\"translation_quote\":\"“yakamrusha bila kuonekana wala kuwa na uwezo wa kujitetea ndani ya kisima cha maji kilichozunguka”\"},{\"location\":\"Paragraph 4\",\"severity\":\"minor\",\"source_quote\":\"“death, despair, damnation”\",\"suggested_fix\":\"Use “hukumu ya adhabu” or another natural equivalent for “damnation,” rather than “hukumu ya milele,” which means eternal judgment.\",\"translation_quote\":\"“kifo, kukata tamaa na hukumu ya milele”\"}],\"findings_complete\":true,\"passed\":false,\"score\":89}",
+    "content_bytes": 1343,
+    "content_evidence_truncated": false,
+    "content_sha256": "74b1000cab8faaad909482a191d40fc9572c63f585b05a8e25c63549fab20f9d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 999,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 649,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2833,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2830,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3832
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
