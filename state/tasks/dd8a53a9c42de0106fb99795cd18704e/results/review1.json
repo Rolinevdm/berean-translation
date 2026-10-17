@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "550d9cd8-5f8a-4c3c-b570-e0957ee4b2e4",
+    "response_id": "chatcmpl-Ea2NpuaHlUa99VRdDywskYM9n6463",
+    "usage": {
+      "completion_tokens": 792,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 626,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3067,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1964,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3859
+    }
+  },
+  "received_at": "2026-10-17T17:23:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 11",
+        "severity": "minor",
+        "source_quote": "Max was just as loveable as he used to be repulsive.",
+        "suggested_fix": "Replace \"אהיב\" with \"חביב\": \"ומקס היה חביב באותה מידה שבה היה דוחה בעבר.\"",
+        "translation_quote": "ומקס היה אהיב באותה מידה שבה היה דוחה בעבר."
+      },
+      {
+        "location": "HTML, paragraph 2",
+        "severity": "minor",
+        "source_quote": "on Halloween night",
+        "suggested_fix": "Remove the duplicated \"ליל\": \"בליל כל הקדושים.\"",
+        "translation_quote": "בליל ליל כל הקדושים"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

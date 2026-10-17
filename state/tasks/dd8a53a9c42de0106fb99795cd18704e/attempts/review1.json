@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T17:23:30+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 11\",\"severity\":\"minor\",\"source_quote\":\"Max was just as loveable as he used to be repulsive.\",\"suggested_fix\":\"Replace \\\"אהיב\\\" with \\\"חביב\\\": \\\"ומקס היה חביב באותה מידה שבה היה דוחה בעבר.\\\"\",\"translation_quote\":\"ומקס היה אהיב באותה מידה שבה היה דוחה בעבר.\"},{\"location\":\"HTML, paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"on Halloween night\",\"suggested_fix\":\"Remove the duplicated \\\"ליל\\\": \\\"בליל כל הקדושים.\\\"\",\"translation_quote\":\"בליל ליל כל הקדושים\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 659,
+    "content_evidence_truncated": false,
+    "content_sha256": "5d2806f9dc6c308bf9f030cece9073db64f6ac752b2059d6680be51ddd1b79a0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 792,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 626,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3067,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1964,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3859
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
