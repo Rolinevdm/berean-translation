@@ -1,0 +1,17 @@
+{
+  "autonomous": true,
+  "id": "auto-7a15a4464a206a784298b41280757d40c603ddd3dfd87457811cfcc628ef868a",
+  "operation": "automatic",
+  "requested_by": "owner-authorized-autonomous-archive",
+  "selection": {
+    "article_id": "8cbcdd10-5627-42b1-b948-ee7f93c1d648",
+    "candidate_sha256": null,
+    "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+    "language": "hin",
+    "previous_task_id": null,
+    "previous_task_sha256": null,
+    "recovery": false,
+    "stage": "translate",
+    "translation_key": "792f760b5dae3367ddf358bfad50f24a9b4b78f01a554430322b1385994abc60"
+  }
+}
