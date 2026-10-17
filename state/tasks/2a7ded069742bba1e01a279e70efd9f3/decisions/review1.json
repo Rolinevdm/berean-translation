@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, elenco, punto 1",
+      "severity": "major",
+      "source_quote": "“What would anyone think of an individual who possessed all these characteristics ...surely the greatest backslider living!”",
+      "suggested_fix": "Sostituire «Sicuramente sarebbe il più grande apostata vivente!» con «Sicuramente sarebbe il credente più sviato che ci sia!»",
+      "translation_quote": "«Sicuramente sarebbe il più grande apostata vivente!»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

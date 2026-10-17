@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T22:22:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, elenco, punto 1\",\"severity\":\"major\",\"source_quote\":\"“What would anyone think of an individual who possessed all these characteristics ...surely the greatest backslider living!”\",\"suggested_fix\":\"Sostituire «Sicuramente sarebbe il più grande apostata vivente!» con «Sicuramente sarebbe il credente più sviato che ci sia!»\",\"translation_quote\":\"«Sicuramente sarebbe il più grande apostata vivente!»\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 496,
+    "content_evidence_truncated": false,
+    "content_sha256": "5e1090e6e9b20207f4c2c1febc99a7a024d7547befd22a7723b1e7427d4b8c89",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 923,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 789,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8675,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7572,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9598
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
