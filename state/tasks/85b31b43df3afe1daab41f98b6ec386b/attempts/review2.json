@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T17:00:42+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"he seemed to think he bore a charmed life\",\"suggested_fix\":\"Replace «beskyttet av et lykkelig skjebnevarsel» with «at han hadde et slags lykkeskjold» for a more idiomatic rendering of the sense that he believed himself unusually protected.\",\"translation_quote\":\"syntes å tro at han var beskyttet av et lykkelig skjebnevarsel\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 462,
+    "content_evidence_truncated": false,
+    "content_sha256": "e1d62968ab1ea4ed107b89c576c924979b2b6ebcb16e09d2dd14a87ca5086187",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 891,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 757,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2714,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1611,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3605
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 2",
+      "severity": "minor",
+      "source_quote": "he seemed to think he bore a charmed life",
+      "suggested_fix": "Replace «beskyttet av et lykkelig skjebnevarsel» with «at han hadde et slags lykkeskjold» for a more idiomatic rendering of the sense that he believed himself unusually protected.",
+      "translation_quote": "syntes å tro at han var beskyttet av et lykkelig skjebnevarsel"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

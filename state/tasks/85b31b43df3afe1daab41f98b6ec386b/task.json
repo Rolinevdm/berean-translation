@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ec400486472e4dd8a65c3f2d6b1032c8",
   "campaign": "auto-ac875a74b68d7b156c8b804e4e8bc316baad6354409ab67621eb1224373c8a7c",
   "created_at": "2026-10-17T06:25:50+00:00",
   "events": [
@@ -68,25 +67,39 @@
         },
         "total_tokens": 3870
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 891,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 757,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2714,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1611,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3605
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "First paragraph",
-      "severity": "major",
-      "source_quote": "“swam those twenty-five miles”",
-      "suggested_fix": "Change «25 milene» to «25 engelske milene» (or another wording that clearly means 25 English miles).",
-      "translation_quote": "«svømte den berømte svømmeren Matthew Webb disse 25 milene»"
-    },
-    {
-      "location": "Final paragraph",
-      "severity": "major",
-      "source_quote": "“which of these circumstances shall be the ‘Past Redemption Point’ of your life?”",
-      "suggested_fix": "Restore the sense of crossing beyond redemption, for example: «hvilken av disse omstendighetene som blir punktet der du passerer frelsens grense i livet ditt»",
-      "translation_quote": "«hvilken av disse omstendighetene som blir «frelsens punkt» i ditt liv?»"
+      "location": "HTML paragraph 2",
+      "severity": "minor",
+      "source_quote": "he seemed to think he bore a charmed life",
+      "suggested_fix": "Replace «beskyttet av et lykkelig skjebnevarsel» with «at han hadde et slags lykkeskjold» for a more idiomatic rendering of the sense that he believed himself unusually protected.",
+      "translation_quote": "syntes å tro at han var beskyttet av et lykkelig skjebnevarsel"
     }
   ],
+  "finished_at": "2026-10-17T17:00:42+00:00",
   "id": "85b31b43df3afe1daab41f98b6ec386b",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "nob",
@@ -175,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +208,7 @@
     "total_reserved_usd": 0.08641,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
   "translation_model_actual": "gpt-6-luna"
