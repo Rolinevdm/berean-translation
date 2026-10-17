@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5ce3ef122890459a9cdddf0bcd2760e4",
   "campaign": "auto-3c237bde29bf59392e63e4a0bd15ec3d27cc77f81a635068dc9c1663dec211a4",
   "created_at": "2026-10-17T01:39:53+00:00",
   "events": [
@@ -68,25 +67,40 @@
         },
         "total_tokens": 3688
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "结尾段，创世记 6:3 引文",
-      "severity": "major",
-      "source_quote": "“My Spirit shall not always strive with men (Gen 6:3)”",
-      "suggested_fix": "将引文改为：“我的灵不永远与人相争（创世记 6:3）”",
-      "translation_quote": "“我的灵就不永远住在他里面（创世记 6:3）”"
     },
     {
-      "location": "结尾段，路加福音 19:42 引文",
-      "severity": "major",
-      "source_quote": "“If thou knewest, even though, at least in this thy day, the things that belong to thy peace!”",
-      "suggested_fix": "将引文改为：“但愿你，就是你，至少在今天，知道那些关乎你平安的事！”",
-      "translation_quote": "“但愿你，就是你，至少在今天，知道那些关乎你平安的事！”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 984,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 786,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2686,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1583,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3670
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "第一段",
+      "severity": "major",
+      "source_quote": "The English Channel waters flowed broad and deep, never crossed in their entire breadth by any human arm. Fired with ambition to do what none had done before",
+      "suggested_fix": "将“从未有人凭一己之力横渡整个海峡”改为“此前从未有人横渡过整个海峡”，以保留“韦伯之前无人做到”的时间限定，并避免与后文矛盾。",
+      "translation_quote": "英吉利海峡水域宽阔而深邃，从未有人凭一己之力横渡整个海峡。著名游泳运动员马修·韦伯满怀雄心，决心完成前人未曾做到的事"
+    }
+  ],
+  "finished_at": "2026-10-17T09:22:19+00:00",
   "id": "4b8a204f553f17fbad268155161602b2",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "cmn",
@@ -175,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +209,7 @@
     "total_reserved_usd": 0.086415,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "第一段",
+      "severity": "major",
+      "source_quote": "The English Channel waters flowed broad and deep, never crossed in their entire breadth by any human arm. Fired with ambition to do what none had done before",
+      "suggested_fix": "将“从未有人凭一己之力横渡整个海峡”改为“此前从未有人横渡过整个海峡”，以保留“韦伯之前无人做到”的时间限定，并避免与后文矛盾。",
+      "translation_quote": "英吉利海峡水域宽阔而深邃，从未有人凭一己之力横渡整个海峡。著名游泳运动员马修·韦伯满怀雄心，决心完成前人未曾做到的事"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
