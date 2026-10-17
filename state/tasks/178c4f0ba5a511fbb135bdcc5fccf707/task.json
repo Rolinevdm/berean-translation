@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26afb1a5e3f14665bb4e6b5e79d246de",
   "campaign": "auto-c90f3e9e44ce8947bf9429833bb6f07ab34ea26144e5c19e2e49e6ce315d8cab",
   "created_at": "2026-10-17T10:54:25+00:00",
   "events": [
@@ -68,25 +67,39 @@
         },
         "total_tokens": 3506
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 708,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 611,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2731,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1628,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3439
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
       "location": "First paragraph",
-      "severity": "major",
-      "source_quote": "“those twenty-five miles”",
-      "suggested_fix": "Replace “tjugofem milen” with “25 miles (cirka 40 kilometer)” to preserve the distance without changing it to 250 km.",
-      "translation_quote": "“de där tjugofem milen”"
-    },
-    {
-      "location": "Title and paragraphs 4–6",
-      "severity": "major",
-      "source_quote": "“Past Redemption Point”; “past redemption point”; “the ‘Past Redemption Point’ of your life”",
-      "suggested_fix": "Use a consistent Swedish rendering that preserves the spiritual sense of redemption, for example “Bortom frälsningens gräns,” in the title and all three occurrences in the article.",
-      "translation_quote": "“Bortom räddningspunkten”; “bortom räddningspunkten”; “bortom räddningspunkten”"
+      "severity": "minor",
+      "source_quote": "swam those twenty-five miles",
+      "suggested_fix": "Replace “simmade de där 25 milesen” with “simmade 25 miles”.",
+      "translation_quote": "Han simmade de där 25 milesen"
     }
   ],
+  "finished_at": "2026-10-17T17:00:48+00:00",
   "id": "178c4f0ba5a511fbb135bdcc5fccf707",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "swe",
@@ -175,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +208,7 @@
     "total_reserved_usd": 0.0864,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
   "translation_model_actual": "gpt-6-luna"

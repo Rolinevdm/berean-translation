@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T17:00:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First paragraph\",\"severity\":\"minor\",\"source_quote\":\"swam those twenty-five miles\",\"suggested_fix\":\"Replace “simmade de där 25 milesen” with “simmade 25 miles”.\",\"translation_quote\":\"Han simmade de där 25 milesen\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 301,
+    "content_evidence_truncated": false,
+    "content_sha256": "c379700083c3913aec68e343a6b6132c9d851505d0869bd89ce649dc363e529b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 708,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 611,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2731,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1628,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3439
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

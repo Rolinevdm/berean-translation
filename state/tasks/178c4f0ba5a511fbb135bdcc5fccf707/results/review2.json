@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "af020741-28df-4022-b6c9-0ea97479eb13",
+    "response_id": "chatcmpl-EZzOXOTxFyiLTgoPQoPoKN5DFSI6k",
+    "usage": {
+      "completion_tokens": 708,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 611,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2731,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1628,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3439
+    }
+  },
+  "received_at": "2026-10-17T17:00:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph",
+        "severity": "minor",
+        "source_quote": "swam those twenty-five miles",
+        "suggested_fix": "Replace “simmade de där 25 milesen” with “simmade 25 miles”.",
+        "translation_quote": "Han simmade de där 25 milesen"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

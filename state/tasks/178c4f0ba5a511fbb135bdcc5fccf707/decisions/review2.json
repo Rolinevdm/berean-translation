@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "swam those twenty-five miles",
+      "suggested_fix": "Replace “simmade de där 25 milesen” with “simmade 25 miles”.",
+      "translation_quote": "Han simmade de där 25 milesen"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
