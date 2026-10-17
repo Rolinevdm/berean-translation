@@ -1,0 +1,150 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "a6d23335-3bba-4515-8a4b-5ae7fb1231b2",
+    "response_id": "chatcmpl-EZnkI918AxeE0D9yy9wkH94wYhtrS",
+    "usage": {
+      "completion_tokens": 2127,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5841,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5838,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7968
+    }
+  },
+  "received_at": "2026-10-17T04:14:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.title; translation.html: hymn title throughout, first original stanza, missionary quotation, and img alt",
+        "severity": "major",
+        "source_quote": "All Hail the Power of Jesus Name; All hail the power of Jesus’ name",
+        "suggested_fix": "استبدل «ليهلّل سلطانُ اسمِ يسوع» في العنوان والنص والاقتباس بـ«حيّوا جميعًا سلطانَ اسمِ يسوع»، واستخدم الصيغة نفسها في وصف الصورة بدل «يهلّل سلطان اسم يسوع»، مع إبقاء بقية الوسوم والسمات كما هي.",
+        "translation_quote": "ليهلّل سلطانُ اسمِ يسوع؛ نوطة موسيقية لأنشودة يهلّل سلطان اسم يسوع"
+      },
+      {
+        "location": "translation.html: paragraph on Perronet’s family",
+        "severity": "major",
+        "source_quote": "the Wesleys and George Whitefield",
+        "suggested_fix": "استبدل «جورج وايتهيد» بـ«جورج وايتفيلد».",
+        "translation_quote": "الإخوة ويسلي وجورج وايتهيد"
+      },
+      {
+        "location": "translation.html: Perronet’s quotation about the Church of England",
+        "severity": "major",
+        "source_quote": "in the tottering communion of the Church of England",
+        "suggested_fix": "استبدل «في طوائف كنيسة إنجلترا الهشة» بـ«في شركة كنيسة إنجلترا المتداعية»، واستبدل «هرائها» بـ«هراءها».",
+        "translation_quote": "في طوائف كنيسة إنجلترا الهشة، لكني أحتقر هرائها"
+      },
+      {
+        "location": "translation.html: persecution paragraph",
+        "severity": "major",
+        "source_quote": "he and Perronet were beset in a house by a mob ... Edward Perronet was thrown down and rolled in mud and mire.",
+        "suggested_fix": "صحّح الجملتين إلى «ذات مرة حاصره حشد من السفهاء المسيئين هو وبيرونت في منزل» و«أُلقي إدوارد بيرونت أرضًا ودُحرج في الوحل والطين».",
+        "translation_quote": "حاصره هو وبيرونت في منزل من قبل حشد ... رُمي إدوارد بيرونت أرضًا ودوّخ في الوحل والطين"
+      },
+      {
+        "location": "translation.html: paragraph introducing the tunes",
+        "severity": "major",
+        "source_quote": "a Massachusetts carpenter, self-taught musician, and respected singing-school teacher",
+        "suggested_fix": "استبدل وصف هولدن بـ«نجار من ماساتشوستس، وموسيقي علّم نفسه بنفسه، ومعلّم مرموق في مدرسة للغناء».",
+        "translation_quote": "نجار من ماساتشوستس وعازف ومعلّم غناء مُعلّم ذاتيًا"
+      },
+      {
+        "location": "translation.html: original lyrics, stanza 3",
+        "severity": "major",
+        "source_quote": "Crown Him, ye morning stars of light, / Who fixed this floating ball",
+        "suggested_fix": "صحّح السطر الثاني إلى «هو الذي ثبّت هذه الكرة الطافية،» ليرجع وصف الخلق إلى المسيح لا إلى نجوم الصباح.",
+        "translation_quote": "تَوَجوه يا نجوم الصباح النيرة، / يا من ثبتوا هذه الكرة الطافية"
+      },
+      {
+        "location": "translation.html: original lyrics, stanza 4",
+        "severity": "major",
+        "source_quote": "Extol the stem of Jesse’s rod",
+        "suggested_fix": "استبدل «مَدِحوا ساقَ جذعِ عودِ يَسَّى» بـ«مجِّدوا النابتَ من أصلِ يَسَّى».",
+        "translation_quote": "مَدِحوا ساقَ جذعِ عودِ يَسَّى"
+      },
+      {
+        "location": "translation.html: original lyrics, stanza 6",
+        "severity": "major",
+        "source_quote": "Hail Him, ye heirs of David’s line, / Whom David Lord did call.",
+        "suggested_fix": "استبدل «الذين دعاهم داود ربًّا» بـ«ذاك الذي دعاه داود ربًّا».",
+        "translation_quote": "حيّوه يا ورثةَ نسلِ داود، / الذين دعاهم داود ربًّا."
+      },
+      {
+        "location": "translation.html: original lyrics, stanza 7",
+        "severity": "major",
+        "source_quote": "The wormwood and the gall",
+        "suggested_fix": "استبدل «العلقمَ والسمَّ» بـ«الأفسنتينَ والمرارةَ».",
+        "translation_quote": "العلقمَ والسمَّ"
+      },
+      {
+        "location": "translation.html: paragraph about John Rippon",
+        "severity": "major",
+        "source_quote": "Rev. John Rippon",
+        "suggested_fix": "استبدل «القس جون ريبلون» بـ«القس جون ريبون».",
+        "translation_quote": "القس جون ريبلون"
+      },
+      {
+        "location": "translation.html: missionary narrative",
+        "severity": "major",
+        "source_quote": "who were closing in on him with their spears",
+        "suggested_fix": "استبدل «وكانت الرماح تنفذ إليهم» بـ«وكانوا يضيّقون عليه الخناق برماحهم».",
+        "translation_quote": "وكانت الرماح تنفذ إليهم"
+      },
+      {
+        "location": "translation.html: references, Diadem entry",
+        "severity": "major",
+        "source_quote": "“Diadem” Tune -James Elliot, 1838",
+        "suggested_fix": "في قائمة المراجع وحدها، استبدل «جيمس إيلور» بـ«جيمس إليوت» حفاظًا على الاسم المطبوع في المصدر، دون تغيير اسم إيلور الوارد في الفقرة السابقة.",
+        "translation_quote": "لحن «دياديم» - جيمس إيلور، 1838"
+      },
+      {
+        "location": "translation.html: references, final entry",
+        "severity": "major",
+        "source_quote": "“Let Us Crown Him” Tune",
+        "suggested_fix": "استبدل «لنسهِّم له التتويج» بـ«لنتوِّجه».",
+        "translation_quote": "لحن «لنسهِّم له التتويج»"
+      },
+      {
+        "location": "translation.html: first prose paragraph, final quotation",
+        "severity": "minor",
+        "source_quote": "it will continue to be sung",
+        "suggested_fix": "استبدل «ستستمر في الغناء» بـ«سيستمر إنشادها».",
+        "translation_quote": "ستستمر في الغناء"
+      },
+      {
+        "location": "translation.html: paragraph introducing tunes",
+        "severity": "minor",
+        "source_quote": "none of them, have attained fame except the immortal ... three fine tunes ... eight stanzas",
+        "suggested_fix": "صحّح العبارات إلى «لم يبلغ أيٌّ منها الشهرةَ سوى الأنشودة الخالدة»، و«ثلاثة ألحان متميزة»، و«ثمانية مقاطع»، مع إبقاء عنوان الأنشودة في مكانه.",
+        "translation_quote": "لم يبلغ شهرة أي منها سوى الأبدية المنشودة ... ثلاث ألحان متميزة ... ثماني مقاطع"
+      },
+      {
+        "location": "translation.html: original lyrics, stanza 2",
+        "severity": "minor",
+        "source_quote": "Let high born seraphs tune the lyre ... Before His face who tunes their choir, / And crown Him Lord of all!",
+        "suggested_fix": "استبدل المقطع بـ«لتعزف السرافيم رفيعة المقام على القيثارة،<br>\n    وفيما تعزف، لتسجد<br>\n    أمام وجه من يضبط إنشاد جوقها،<br>\n    ولتتوِّجه ربًّا على الجميع!» مع الحفاظ على وسم الفقرة.",
+        "translation_quote": "لتعزف السرافيم ذواتُ النسبِ القيثارة ... أمام وجهِ الذي يصوِّبُ جَوقَهم، / وتُتَوَّجُه ربًّا على الجميع!"
+      },
+      {
+        "location": "translation.html: paragraph on separation from the Wesleys",
+        "severity": "minor",
+        "source_quote": "Perronet’s strong-mindedness and free spirit caused a division",
+        "suggested_fix": "استبدل «تسببت عناد بيرونت وروحه الحرة» بـ«تسبّب اعتداد بيرونت برأيه وروحه الحرة».",
+        "translation_quote": "تسببت عناد بيرونت وروحه الحرة"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 72
+  }
+}
