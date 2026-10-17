@@ -1,0 +1,105 @@
+{
+  "findings": [
+    {
+      "location": "html, citatet ur 1 Petrus 3:3–6",
+      "severity": "major",
+      "source_quote": "in that which is not corruptible, even the ornament of a meek and quiet spirit",
+      "suggested_fix": "Ersätt ”den otrötta, en mild och stilla andes smycke” med ”med en mild och stilla andes oförgängliga smycke”. Behåll em-taggen och hänvisningen.",
+      "translation_quote": "den otrötta, en mild och stilla andes smycke"
+    },
+    {
+      "location": "html, stycket som börjar ”Vi är Saras döttrar”",
+      "severity": "major",
+      "source_quote": "The law of the LORD is perfect, converting the soul",
+      "suggested_fix": "Ersätt ”<strong>uppenbar</strong>” med ”<strong>fullkomlig</strong>”.",
+      "translation_quote": "HERRENS lag är <strong>uppenbar</strong>, förvandlar själen"
+    },
+    {
+      "location": "html, citatet ur 2 Timoteus 2:4–22 och definitionen av Profane",
+      "severity": "major",
+      "source_quote": "But shun profane and vain babblings; Profane: irreverent to anything sacred; polluted; not pure.",
+      "suggested_fix": "Skriv ”Men undvik oheligt och tomt prat” i citatet. Ändra definitionens uppslagsord från ”Vanhelga” till ”Ohelig”, så att det är ett adjektiv som motsvarar ordet i citatet.",
+      "translation_quote": "Undvik okysk och fåfäng babbel; Vanhelga: hädisk mot något heligt; förorenad; icke ren."
+    },
+    {
+      "location": "html, frågan efter definitionen av Kärlek",
+      "severity": "major",
+      "source_quote": "like a spring of running water",
+      "suggested_fix": "Ersätt ”som en vår av rinnande vatten” med ”som en källa med rinnande vatten”.",
+      "translation_quote": "som en vår av rinnande vatten"
+    },
+    {
+      "location": "html, citatet ur 1 Timoteus 2:9–10",
+      "severity": "major",
+      "source_quote": "women adorn themselves in modest apparel, with shamefacedness and sobriety",
+      "suggested_fix": "Ersätt ”kvinnorna klä sig i vederbörlig skamfullhet och blygsamhet” med ”kvinnorna pryda sig med anständig klädsel, med blygsel och besinning”. Detta återger både klädseln och de två inre egenskaperna.",
+      "translation_quote": "kvinnorna klä sig i vederbörlig skamfullhet och blygsamhet"
+    },
+    {
+      "location": "html, citatet ur Titus 2:11–12",
+      "severity": "major",
+      "source_quote": "For the grace of God that bringeth salvation hath appeared to all men",
+      "suggested_fix": "Ersätt ”Guds nåd, som frälser alla människor, har uppenbarats” med ”Ty Guds nåd, som för med sig frälsning, har uppenbarats för alla människor”.",
+      "translation_quote": "Guds nåd, som frälser alla människor, har uppenbarats"
+    },
+    {
+      "location": "html, citatet ur Uppenbarelseboken 21:2–3",
+      "severity": "major",
+      "source_quote": "And I John saw the holy city",
+      "suggested_fix": "Ersätt ”Och jag såg den heliga staden” med ”Och jag, Johannes, såg den heliga staden”.",
+      "translation_quote": "Och jag såg den heliga staden"
+    },
+    {
+      "location": "html, andra och tredje prosastycket",
+      "severity": "minor",
+      "source_quote": "fashion malls; go to fashion malls to buy our clothes",
+      "suggested_fix": "Ersätt ”modemallar” med ”modegallerior” på båda ställena.",
+      "translation_quote": "modemallar; gå till modemallar för att köpa våra kläder"
+    },
+    {
+      "location": "html, stycket som introducerar orddefinitionerna",
+      "severity": "minor",
+      "source_quote": "some more of the words found in our Scripture text",
+      "suggested_fix": "Ersätt ”några fler ord i vår skriftskrift” med ”några fler ord i vår bibeltext”.",
+      "translation_quote": "några fler ord i vår skriftskrift"
+    },
+    {
+      "location": "html, definitionen av Mild",
+      "severity": "minor",
+      "source_quote": "mild of temper",
+      "suggested_fix": "Ersätt ”ljum i temperament” med ”mild till sinnet”. ”Ljum” uttrycker inte det avsedda lugna och milda temperamentet.",
+      "translation_quote": "ljum i temperament"
+    },
+    {
+      "location": "html, stycket om pånyttfödelse och andens frukter",
+      "severity": "minor",
+      "source_quote": "an ornament of great price",
+      "suggested_fix": "Ersätt ”ett smycke av stor prisklass” med ”ett smycke av stort värde”.",
+      "translation_quote": "ett smycke av stor prisklass"
+    },
+    {
+      "location": "html, definitionen av Lust",
+      "severity": "minor",
+      "source_quote": "unlawful desire of carnal pleasure",
+      "suggested_fix": "Ersätt ”otillåten begäran efter köttslig njutning” med ”otillåtet begär efter köttslig njutning”.",
+      "translation_quote": "otillåten begäran efter köttslig njutning"
+    },
+    {
+      "location": "html, stycket efter definitionen av Frid",
+      "severity": "minor",
+      "source_quote": "our dear Savior Jesus Christ",
+      "suggested_fix": "Ersätt ”vårt kära Frälsarens Jesu Kristi exempel” med ”vår käre Frälsares, Jesu Kristi, exempel”.",
+      "translation_quote": "vårt kära Frälsarens Jesu Kristi exempel"
+    },
+    {
+      "location": "html, stycket om klädsel och ansiktsuttryck",
+      "severity": "minor",
+      "source_quote": "instead of my countenance",
+      "suggested_fix": "Ersätt ”istället för till mitt uppsyn” med ”i stället för till min uppsyn”.",
+      "translation_quote": "istället för till mitt uppsyn"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
