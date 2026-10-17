@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T17:00:23+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html — definição de “Apparel”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Apparel: clothing; external habiliments or decorations.\",\n      \"suggested_fix\": \"Substituir “habilitação externa” por “vestimentas externas”, mantendo o restante do parágrafo.\",\n      \"translation_quote\": \"Vestuário: roupa; habilitação externa ou enfeites.\"\n    },\n    {\n      \"location\": \"html — parágrafo após a definição de “Shamefacedness”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"We should be adorned with shamefacedness and not giddiness or sensuality.\",\n      \"suggested_fix\": \"Substituir “vaidade” por “frivolidade”: “Devemos estar adornadas de modéstia e não de frivolidade ou sensualidade.”\",\n      \"translation_quote\": \"Devemos estar adornadas de modéstia e não de vaidade ou sensualidade.\"\n    },\n    {\n      \"location\": \"html — definição de “Plaiting”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Plaiting: folding, doubling, braiding.\",\n      \"suggested_fix\": \"Substituir “multiplicar” por “dobrar em duas partes”, pois a definição trata de dobras e tranças, não de multiplicação.\",\n      \"translation_quote\": \"Plisar/Trançar: dobrar, multiplicar, trançar.\"\n    },\n    {\n      \"location\": \"html — definição de “Vain”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Vain: empty; worthless; having no substance, value, or importance.\",\n      \"suggested_fix\": \"Substituir o verbete “Vaidade” por “Vão”, preservando a definição que se segue.\",\n      \"translation_quote\": \"Vaidade: vazio; sem valor; sem substância, valor ou importância.\"\n    },\n    {\n      \"location\": \"html — citação de Isaías 61:10\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"as a bride adorneth herself with her jewels\",\n      \"suggested_fix\": \"Corrigir “seus joias” para “suas joias”.\",\n      \"translation_quote\": \"como uma noiva se atavia com seus joias\"\n    },\n    {\n      \"location\": \"html — citação de João 14:6-7\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"If ye had known me, ye should have known my Father also\",\n      \"suggested_fix\": \"Corrigir “tivés sereis” na forma efetivamente presente “tivéssereis” para “tivésseis”: “Se me tivésseis conhecido, teríeis conhecido também a meu Pai”.\",\n      \"translation_quote\": \"Se me tivéssereis conhecido, teríeis conhecido também a meu Pai\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 93\n}",
+    "content_bytes": 2546,
+    "content_evidence_truncated": false,
+    "content_sha256": "1f76a828a214a00d19909e71181eca8c3f0cd7c0af0347a23111edac869f8b29",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 901,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 227,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8693,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7590,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9594
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

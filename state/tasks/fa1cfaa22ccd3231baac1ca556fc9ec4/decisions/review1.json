@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "html — definição de “Apparel”",
+      "severity": "major",
+      "source_quote": "Apparel: clothing; external habiliments or decorations.",
+      "suggested_fix": "Substituir “habilitação externa” por “vestimentas externas”, mantendo o restante do parágrafo.",
+      "translation_quote": "Vestuário: roupa; habilitação externa ou enfeites."
+    },
+    {
+      "location": "html — parágrafo após a definição de “Shamefacedness”",
+      "severity": "major",
+      "source_quote": "We should be adorned with shamefacedness and not giddiness or sensuality.",
+      "suggested_fix": "Substituir “vaidade” por “frivolidade”: “Devemos estar adornadas de modéstia e não de frivolidade ou sensualidade.”",
+      "translation_quote": "Devemos estar adornadas de modéstia e não de vaidade ou sensualidade."
+    },
+    {
+      "location": "html — definição de “Plaiting”",
+      "severity": "minor",
+      "source_quote": "Plaiting: folding, doubling, braiding.",
+      "suggested_fix": "Substituir “multiplicar” por “dobrar em duas partes”, pois a definição trata de dobras e tranças, não de multiplicação.",
+      "translation_quote": "Plisar/Trançar: dobrar, multiplicar, trançar."
+    },
+    {
+      "location": "html — definição de “Vain”",
+      "severity": "minor",
+      "source_quote": "Vain: empty; worthless; having no substance, value, or importance.",
+      "suggested_fix": "Substituir o verbete “Vaidade” por “Vão”, preservando a definição que se segue.",
+      "translation_quote": "Vaidade: vazio; sem valor; sem substância, valor ou importância."
+    },
+    {
+      "location": "html — citação de Isaías 61:10",
+      "severity": "minor",
+      "source_quote": "as a bride adorneth herself with her jewels",
+      "suggested_fix": "Corrigir “seus joias” para “suas joias”.",
+      "translation_quote": "como uma noiva se atavia com seus joias"
+    },
+    {
+      "location": "html — citação de João 14:6-7",
+      "severity": "minor",
+      "source_quote": "If ye had known me, ye should have known my Father also",
+      "suggested_fix": "Corrigir “tivés sereis” na forma efetivamente presente “tivéssereis” para “tivésseis”: “Se me tivésseis conhecido, teríeis conhecido também a meu Pai”.",
+      "translation_quote": "Se me tivéssereis conhecido, teríeis conhecido também a meu Pai"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
