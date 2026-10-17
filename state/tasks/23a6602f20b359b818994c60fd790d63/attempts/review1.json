@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T17:00:29+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Title and paragraphs 4–6\",\"severity\":\"major\",\"source_quote\":\"“past Redemption Point”; “Past Redemption Point” of your life\",\"suggested_fix\":\"Use a rendering that means the point beyond which redemption is no longer possible, such as “Titik Terlewatnya Kesempatan Penebusan,” consistently in the title and each occurrence in the article.\",\"translation_quote\":\"“Titik Setelah Penebusan”; “Titik Setelah Penebusan” dalam hidupmu\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 528,
+    "content_evidence_truncated": false,
+    "content_sha256": "f69307a0a28d0419f236ad63d250e567c284aa54ae292d4c6204283b90ad986a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 789,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 651,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2677,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1574,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3466
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
