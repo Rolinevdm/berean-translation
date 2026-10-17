@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T01:38:19+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, Absatz 5\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The German people, unsurprisingly, resented this insult being added to the injury of having lost the War.\",\n      \"suggested_fix\": \"Das deutsche Volk war wenig überraschend darüber erbittert, dass zur schmerzlichen Kriegsniederlage noch diese Demütigung hinzukam.\",\n      \"translation_quote\": \"Das deutsche Volk empfand zu Recht diese Beleidigung zusätzlich zur Verletzung durch die Kriegsniederlage.\"\n    },\n    {\n      \"location\": \"html, Absatz 16\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"No earthly kingdom at war tolerates an allegiance to the enemy\",\n      \"suggested_fix\": \"Kein irdisches Reich, das sich im Krieg befindet, duldet Treue zum Feind\",\n      \"translation_quote\": \"Kein irdisches Kriegreich duldet Treue zum Feind\"\n    },\n    {\n      \"location\": \"html, Absatz 6\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"became a central party theme\",\n      \"suggested_fix\": \"wurde zu einem zentralen Parteithema\",\n      \"translation_quote\": \"wurde zu einem zentralen Parteilhema\"\n    },\n    {\n      \"location\": \"html, Absatz 14\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"ultimately keeping most of them from facing possible prison time or death sentences\",\n      \"suggested_fix\": \"und bewahrten die meisten von ihnen letztlich vor möglichen Gefängnisstrafen oder Todesurteilen.\",\n      \"translation_quote\": \"und verhinderten letztlich, dass die meisten von ihnen möglicher Gefängnisstrafen oder Todesurteilen gegenüberstanden.\"\n    },\n    {\n      \"location\": \"html, Absatz 15\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"beliefs identical to our own\",\n      \"suggested_fix\": \"Überzeugungen vertrat, die mit unseren identisch waren\",\n      \"translation_quote\": \"Überzeugungen vertrat, die unseren identisch waren\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1947,
+    "content_evidence_truncated": false,
+    "content_sha256": "c0ff8dc89ad482fe7f6c20b826d296875e91d1d863c42e998fe25aed5f663db5",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 604,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 105,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5499,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5496,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6103
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

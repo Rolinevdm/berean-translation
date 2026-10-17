@@ -1,0 +1,66 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "8525ef59-b147-4e1b-9a60-73d05e6f0998",
+    "response_id": "chatcmpl-EZm8OQQ7pFalUyeJIIcQSEd7aELh9",
+    "usage": {
+      "completion_tokens": 604,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 105,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5499,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5496,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6103
+    }
+  },
+  "received_at": "2026-10-17T01:38:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, Absatz 5",
+        "severity": "major",
+        "source_quote": "The German people, unsurprisingly, resented this insult being added to the injury of having lost the War.",
+        "suggested_fix": "Das deutsche Volk war wenig überraschend darüber erbittert, dass zur schmerzlichen Kriegsniederlage noch diese Demütigung hinzukam.",
+        "translation_quote": "Das deutsche Volk empfand zu Recht diese Beleidigung zusätzlich zur Verletzung durch die Kriegsniederlage."
+      },
+      {
+        "location": "html, Absatz 16",
+        "severity": "minor",
+        "source_quote": "No earthly kingdom at war tolerates an allegiance to the enemy",
+        "suggested_fix": "Kein irdisches Reich, das sich im Krieg befindet, duldet Treue zum Feind",
+        "translation_quote": "Kein irdisches Kriegreich duldet Treue zum Feind"
+      },
+      {
+        "location": "html, Absatz 6",
+        "severity": "minor",
+        "source_quote": "became a central party theme",
+        "suggested_fix": "wurde zu einem zentralen Parteithema",
+        "translation_quote": "wurde zu einem zentralen Parteilhema"
+      },
+      {
+        "location": "html, Absatz 14",
+        "severity": "minor",
+        "source_quote": "ultimately keeping most of them from facing possible prison time or death sentences",
+        "suggested_fix": "und bewahrten die meisten von ihnen letztlich vor möglichen Gefängnisstrafen oder Todesurteilen.",
+        "translation_quote": "und verhinderten letztlich, dass die meisten von ihnen möglicher Gefängnisstrafen oder Todesurteilen gegenüberstanden."
+      },
+      {
+        "location": "html, Absatz 15",
+        "severity": "minor",
+        "source_quote": "beliefs identical to our own",
+        "suggested_fix": "Überzeugungen vertrat, die mit unseren identisch waren",
+        "translation_quote": "Überzeugungen vertrat, die unseren identisch waren"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
