@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ab21b875-eaad-4e0b-9fbf-8cb47b2fec22",
+    "response_id": "chatcmpl-EZwPYDR5gXl3QgDPupMtLUeNaOQlG",
+    "usage": {
+      "completion_tokens": 857,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 714,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2683,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1580,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3540
+    }
+  },
+  "received_at": "2026-10-17T11:00:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph, Luke 19:42 quotation",
+        "severity": "minor",
+        "source_quote": "“If thou knewest, even though, at least in this thy day, the things that belong to thy peace!”",
+        "suggested_fix": "« Si tu avais su, toi aussi, au moins en ce jour qui est le tien, ce qui contribue à ta paix ! »",
+        "translation_quote": "« Si tu avais su, au moins en ce jour qui est le tien, ce qui contribue à ta paix ! »"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

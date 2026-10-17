@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f6d330cb3ca6463cb245bb97098122e1",
   "campaign": "auto-b52274cb7e886fc4f85430f0b98a8ed4d3732c1cf0ea66c460fa531dc3d76686",
   "created_at": "2026-10-17T04:17:00+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2329
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 857,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 714,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2683,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1580,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3540
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Final paragraph, Luke 19:42 quotation",
+      "severity": "minor",
+      "source_quote": "“If thou knewest, even though, at least in this thy day, the things that belong to thy peace!”",
+      "suggested_fix": "« Si tu avais su, toi aussi, au moins en ce jour qui est le tien, ce qui contribue à ta paix ! »",
+      "translation_quote": "« Si tu avais su, au moins en ce jour qui est le tien, ce qui contribue à ta paix ! »"
+    }
+  ],
+  "finished_at": "2026-10-17T11:00:11+00:00",
   "id": "08e58da699c515b315d5709af930b654",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "fra",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a77c134fa5dc80aa7e5f608d8bf402f9cff7d2d8c52b4f05f1b41e3d54f246e5.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086405,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
   "translation_model_actual": "gpt-6-luna"
