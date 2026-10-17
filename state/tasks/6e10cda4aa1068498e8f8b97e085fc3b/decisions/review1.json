@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "“on the other, death, despair, damnation”",
+      "suggested_fix": "Replace “विनाश” with “अनंत दंड” or another Hindi expression conveying damnation/eternal condemnation.",
+      "translation_quote": "“दूसरी ओर मृत्यु, निराशा और विनाश”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
