@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "translation.title；translation.html 第1、3、4、7、8、11、13段",
+      "severity": "major",
+      "source_quote": "Why I Have Not Gotten the Covid Shot；I don’t call the Covid shot a ‘vaccine’；this shot；this shot in particular",
+      "suggested_fix": "将标题及正文中对应 Covid shot、this shot 和 the shot 的“新冠疫苗”“这种疫苗”“疫苗”等改为“新冠针剂”“这种针剂”等，以保留作者刻意区分 shot 与 vaccine 的论述。第3段开头改为“你在此文中会注意到的一点是，我不把新冠针剂称为‘疫苗’。”原文确实使用 vaccination、vaccinations、vaccines 或 flu shot 的位置应分别按上下文保留“疫苗接种”“疫苗”或“流感针”等译法，不要全篇机械替换。",
+      "translation_quote": "我为何没有接种新冠疫苗；我不把新冠疫苗称为“疫苗”（vaccine）；现在我们已确定，这种疫苗并不能给人提供对新冠的免疫；我认为新冠疫苗的情况类似；这种疫苗能如此迅速上市；远远优于疫苗的保护；特别是对这次疫苗所带来的条件作用"
+    },
+    {
+      "location": "translation.html 第8段",
+      "severity": "major",
+      "source_quote": "One of the first people I personally knew that had Covid was told they would have six months of immunity.",
+      "suggested_fix": "改为“我认识的最早感染新冠的几个人中，有一人被告知会有六个月的免疫期。”",
+      "translation_quote": "我亲眼所知的第一个得了新冠的人被告知他们将获得六个月的免疫期。"
+    },
+    {
+      "location": "translation.html 第10段首句",
+      "severity": "major",
+      "source_quote": "My belief is that in the long run it will be safer and better to do my part and let this body build the immunities to protect itself against this virus.",
+      "suggested_fix": "改为“我相信，从长远来看，尽好我自己的本分，让身体建立免疫力以保护自身、抵御这种病毒，会更安全、更好。”",
+      "translation_quote": "我的信念是，从长远来看，让身体按照神所造的方式建立自身免疫会更安全更好。"
+    },
+    {
+      "location": "translation.html 第11段，启示录13:16-17引文",
+      "severity": "minor",
+      "source_quote": "to receive a mark in their right hand, or in their foreheads: <strong>And that no man might buy or sell, save he that</strong> had the mark, or the name of the beast, or the number of his name",
+      "suggested_fix": "删除重复的买卖限制句，并将这部分整理为“都在他们右手上或在他们额上受一个印记；<strong>除了那有</strong>印记、兽名或兽名数目的人，<strong>谁都不得买卖</strong>”，保留原有 em、strong 标签及经文出处。",
+      "translation_quote": "都在他们右手上或在他们额上受一个印记，叫他们不至于买卖，除非是那有印记、或有兽名、或有名号数目的人——<strong>叫他们不至于买卖，除非是那有印记、或有兽名、或有名号数目的人</strong>"
+    },
+    {
+      "location": "translation.section",
+      "severity": "minor",
+      "source_quote": "Issues Facing the Church",
+      "suggested_fix": "改为“教会面临的问题”。",
+      "translation_quote": "面对教会的问题"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
