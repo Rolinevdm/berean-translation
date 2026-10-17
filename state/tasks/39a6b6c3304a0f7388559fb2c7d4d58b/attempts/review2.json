@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T10:59:45+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph\",\"severity\":\"major\",\"source_quote\":\"Can you tell which of these circumstances shall be the “Past Redemption Point” of your life?\",\"suggested_fix\":\"¿Puedes decir cuál de estas circunstancias será el «Punto más allá del cual ya no hay redención» de tu vida?\",\"translation_quote\":\"¿Puedes decir cuál de estas circunstancias será el «Punto de Redención» de tu vida?\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 476,
+    "content_evidence_truncated": false,
+    "content_sha256": "e67021120cbe92cdc57bd01eb5ea9b2668662cd898efb216d0497d7fdfcaa3a8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 584,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 464,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2628,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2625,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3212
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

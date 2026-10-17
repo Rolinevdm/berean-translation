@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4f5d94a158fb44a186b80fb07d885018",
   "campaign": "auto-18426ef62ded17f2c106f12d883b7c16541e815603cb50485b2a1d1d746e1d8e",
   "created_at": "2026-10-17T04:15:53+00:00",
   "events": [
@@ -68,25 +67,40 @@
         },
         "total_tokens": 3597
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, último párrafo",
-      "severity": "major",
-      "source_quote": "“Past Redemption Point” of your life",
-      "suggested_fix": "¿Puedes decir cuál de estas circunstancias será el «Punto de Redención» de tu vida?",
-      "translation_quote": "«Punto de No Retorno» de tu vida"
     },
     {
-      "location": "HTML, quinto párrafo",
-      "severity": "minor",
-      "source_quote": "the Voice shall plead with you for the last time",
-      "suggested_fix": "¡Oh!, ¿quién puede decir cuándo la Voz te suplicará por última vez?",
-      "translation_quote": "¡Oh!, ¿quién puede decir cuándo la Voz suplicará por última vez contigo?"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 584,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 464,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2628,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2625,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3212
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "major",
+      "source_quote": "Can you tell which of these circumstances shall be the “Past Redemption Point” of your life?",
+      "suggested_fix": "¿Puedes decir cuál de estas circunstancias será el «Punto más allá del cual ya no hay redención» de tu vida?",
+      "translation_quote": "¿Puedes decir cuál de estas circunstancias será el «Punto de Redención» de tu vida?"
+    }
+  ],
+  "finished_at": "2026-10-17T10:59:45+00:00",
   "id": "39a6b6c3304a0f7388559fb2c7d4d58b",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "spa",
@@ -175,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +209,7 @@
     "total_reserved_usd": 0.086414,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "major",
+      "source_quote": "Can you tell which of these circumstances shall be the “Past Redemption Point” of your life?",
+      "suggested_fix": "¿Puedes decir cuál de estas circunstancias será el «Punto más allá del cual ya no hay redención» de tu vida?",
+      "translation_quote": "¿Puedes decir cuál de estas circunstancias será el «Punto de Redención» de tu vida?"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}
