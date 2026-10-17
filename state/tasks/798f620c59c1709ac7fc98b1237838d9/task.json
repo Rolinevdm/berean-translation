@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1e959e8e769d4da5bd6952d89425184a",
   "campaign": "auto-7e5bb345fa29115e5969d339ce3f51656eaab4690746d0a6b699fee90ced8796",
   "created_at": "2026-10-17T19:13:17+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 8081
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1138,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1012,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8435,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7332,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9573
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "الاقتباس الطويل من رؤيا 3: «إني كل من أحبه أوبخه وأؤدبه»",
+      "severity": "minor",
+      "source_quote": "As many as I love, I rebuke and chasten",
+      "suggested_fix": "«فإني أوبخ وأؤدب كل من أحبهم»",
+      "translation_quote": "إني كل من أحبه أوبخه وأؤدبه"
+    }
+  ],
+  "finished_at": "2026-10-17T19:35:20+00:00",
   "id": "798f620c59c1709ac7fc98b1237838d9",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "ara",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0cf69fae5bdc5074289671d3718aac2111ac6589c6e3bd86072ed5c05640e01b.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.089956,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e215e736c1acdb8dcfb1204d9f2318c83130759b6bf298e60a5f911c6667fd1f",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الاقتباس الطويل من رؤيا 3: «إني كل من أحبه أوبخه وأؤدبه»",
+      "severity": "minor",
+      "source_quote": "As many as I love, I rebuke and chasten",
+      "suggested_fix": "«فإني أوبخ وأؤدب كل من أحبهم»",
+      "translation_quote": "إني كل من أحبه أوبخه وأؤدبه"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
