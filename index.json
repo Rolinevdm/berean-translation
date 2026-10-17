@@ -16364,6 +16364,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
+      "html_sha256": "07a95b6a519ea71fcfcf0cd162ee9288fc9831a0dae2f7cc069bdaca284dce29",
+      "human_reviewed": false,
+      "id": "1f294c3b-4295-4493-8a52-a33af40f298b",
+      "images": [
+        {
+          "alt": "Wasserfälle, von einem felsigen Aussichtspunkt aus gesehen, mit mehreren Personen.",
+          "public_path": "/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/1f294c3b-4295-4493-8a52-a33af40f298b.json",
+      "metadata_sha256": "e395194c3c2b7efdc5f54484cb76de37912ec66d5bd864c6c02925e3261e13ba",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Punkt jenseits der Rettung",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/20914547-a133-4159-bd5b-dff81f36453b.html",
       "html_sha256": "d3012786df0b9fba97d72d67a3641b49422a87cfff75ee5b3478b4ec8fba87f8",
       "human_reviewed": false,
@@ -21228,6 +21256,29 @@
       "subtitle": null,
       "title": "Από τον συντάκτη",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/7b699913-16ec-4087-9e0c-ca867e750d90.html",
+      "html_sha256": "5675dfd73edf44b22f2f33b5b3d71fd08164a693e7ab2c22ca9edb256acbb6fa",
+      "human_reviewed": false,
+      "id": "7b699913-16ec-4087-9e0c-ca867e750d90",
+      "images": [],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/7b699913-16ec-4087-9e0c-ca867e750d90.json",
+      "metadata_sha256": "95e2e1ed507268c0aad3ae586aefcdba3cda62b95d0208158d8569a413347929",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ΜΙΑ ΣΥΓΧΡΟΝΗ ΠΕΝΤΗΚΟΣΤΗ",
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "1315978de59dd7f19963e32b3d6817620d4fa742c752925c8fc16eb77ce4ccc6",
+      "status": "ready",
+      "subtitle": "Οι Μοραβοί και ο κόμης Τσιντσεντόρφ",
+      "title": "ΔΥΝΑΜΗ ΑΠΟ ΨΗΛΑ",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -39572,6 +39623,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
+      "html_sha256": "58198688950b94fcfabbe1f80921512ee2ce182a313266b65a9d25d8ad2da60e",
+      "human_reviewed": false,
+      "id": "1f294c3b-4295-4493-8a52-a33af40f298b",
+      "images": [
+        {
+          "alt": "Cascate viste da un punto panoramico roccioso, con diverse persone.",
+          "public_path": "/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/1f294c3b-4295-4493-8a52-a33af40f298b.json",
+      "metadata_sha256": "e94f9b6fc88043a6e0b99fcd74b5bc1bd1a1d32bd899aac0e1b915d14cdf8da1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Punto oltre la Redenzione",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/201a1b3e-85b3-4e62-bc45-118a8c1f5367.html",
       "html_sha256": "2e8dc25b8abc2ad9596b56c1a6c501db79cc4e2979bcc8cdab37f46ae43002ff",
       "human_reviewed": false,
@@ -54919,6 +54998,38 @@
       "subtitle": null,
       "title": "Hvis himmelen er virkelig",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
+      "html_sha256": "6c4ad5d2451ca02056275b9bbf9b0e4d6029cf91e60dbd38a7b66c3b4f33dffd",
+      "human_reviewed": false,
+      "id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
+      "images": [
+        {
+          "alt": "En brindle hund som har et kjettinghalsbånd",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png"
+        },
+        {
+          "alt": "Gårdsåkere og bygninger over en bølgende landsdal om høsten",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.json",
+      "metadata_sha256": "4b26a839f139661342c364d7d9c3fc3d8b4620199ba3a8905ac0ed563e3958ae",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Barnas hjørne",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Reddet fra «løvens» gap",
+      "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
       "ai_notice_required": true,
