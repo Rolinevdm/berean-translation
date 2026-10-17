@@ -7,6 +7,12 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "e85e81cdcfedd00ad16bd62c9d608898"
+    },
+    {
+      "at": "2026-10-17T17:00:39+00:00",
+      "event": "not_ready",
+      "reason": "Final review failed; a separately funded continuation must pass admission",
+      "task": "e85e81cdcfedd00ad16bd62c9d608898"
     }
   ],
   "language": "deu",

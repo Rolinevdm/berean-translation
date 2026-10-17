@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "64a46b6f7b2e4a00904880a9c6b94dce",
   "campaign": "auto-85b87edc6b05f06e3ea29ffd8ea2f9ee5f4acebffb333344c9632afdc753604e",
   "created_at": "2026-10-17T10:52:59+00:00",
   "events": [
@@ -68,25 +67,40 @@
         },
         "total_tokens": 10876
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph 1",
-      "severity": "major",
-      "source_quote": "“With currently twelve youth thirteen years and up living in our home, and numerous others in the past”",
-      "suggested_fix": "“Da derzeit zwölf Jugendliche ab dreizehn Jahren bei uns zu Hause leben und zahlreiche weitere in der Vergangenheit dort gelebt haben, …”",
-      "translation_quote": "“Da derzeit zwölf Jugendliche ab dreizehn Jahren und zahlreiche weitere aus früheren Jahren bei uns zu Hause leben”"
     },
     {
-      "location": "“How We Handle Offenses” paragraph; Scripture reference",
-      "severity": "major",
-      "source_quote": "“Psalm 116:165.”",
-      "suggested_fix": "Change the reference to “Psalm 116,165” to preserve the chapter and verse printed in the source.",
-      "translation_quote": "“Psalm 119,165.”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 524,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 392,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7541,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6438,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8065
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Abschnitt „Wie wir mit Kränkungen umgehen“, Schriftstellenzitat",
+      "severity": "major",
+      "source_quote": "“Great peace have they which love thy law; and nothing shall offend them.” Psalm 116:165.",
+      "suggested_fix": "Die Referenz exakt wie im Ausgangstext wiedergeben: „Psalm 116,165.“",
+      "translation_quote": "„Großen Frieden haben, die dein Gesetz lieben; nichts kann sie zu Fall bringen.“ Psalm 119,165."
+    }
+  ],
+  "finished_at": "2026-10-17T17:00:39+00:00",
   "id": "e85e81cdcfedd00ad16bd62c9d608898",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "deu",
@@ -175,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +209,7 @@
     "total_reserved_usd": 0.089539,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "0e0d3461779cb69fe2b7abdcf38f790945684497a7280f617caa1679f055a962",
   "translation_model_actual": "gpt-6-luna"

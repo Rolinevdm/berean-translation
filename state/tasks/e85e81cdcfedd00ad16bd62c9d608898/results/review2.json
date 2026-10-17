@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "36befbf3-78d5-403e-ae3f-a7d864b1d167",
+    "response_id": "chatcmpl-EZzNPNpSp6mdMEIhHRmKByhfOoCZP",
+    "usage": {
+      "completion_tokens": 524,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 392,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7541,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6438,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8065
+    }
+  },
+  "received_at": "2026-10-17T17:00:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Abschnitt „Wie wir mit Kränkungen umgehen“, Schriftstellenzitat",
+        "severity": "major",
+        "source_quote": "“Great peace have they which love thy law; and nothing shall offend them.” Psalm 116:165.",
+        "suggested_fix": "Die Referenz exakt wie im Ausgangstext wiedergeben: „Psalm 116,165.“",
+        "translation_quote": "„Großen Frieden haben, die dein Gesetz lieben; nichts kann sie zu Fall bringen.“ Psalm 119,165."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
