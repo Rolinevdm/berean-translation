@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "81e8cb2718ba494f8e14d15c44f28f54",
   "campaign": "auto-4f1d10c9323ac08612dc3dac4e3883024ca37e68df6b3f9b8b6b1cb390f404d9",
   "created_at": "2026-10-16T23:53:00+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 6538
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 708,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 671,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4838,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3735,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5546
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph 2",
-      "severity": "major",
-      "source_quote": "yet, not being happy in the Lord",
-      "suggested_fix": "men hvis jeg ikke var lykkelig i Herren",
-      "translation_quote": "men hvis jeg ikke var glad i Herren"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-17T06:24:37+00:00",
   "id": "38e4450f7af766dcd8c2f537573094ee",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "nob",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.087909,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ec1e388910e3aa260fd46b2d82e61335d33e6f09519dfd68d4d6a1a9f0ff5121",
   "translation_model_actual": "gpt-6-luna"
