@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "de1d0f3346024a7b97ae035b354d95ef",
   "campaign": "auto-6df63acf5cf4bcef3c3ae4a787dbd0e8b1f526db5b0dfb08fea869a29899b41d",
   "created_at": "2026-10-17T17:24:58+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 8230
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1091,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 950,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8584,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7481,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9675
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning « Cela me fait penser… » and corresponding question in the following list",
+      "severity": "minor",
+      "source_quote": "“self righteousness” … “Any self-righteous?”",
+      "suggested_fix": "Remplacer « suffisance » par « autosatisfaction morale » dans le paragraphe, et « Des personnes suffisantes ? » par « Des personnes qui se croient justes ? » dans la liste.",
+      "translation_quote": "« suffisance » … « Des personnes suffisantes ? »"
+    }
+  ],
+  "finished_at": "2026-10-17T19:35:18+00:00",
   "id": "4e71290293ad13a0946a4a181c7eb509",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "fra",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0cf69fae5bdc5074289671d3718aac2111ac6589c6e3bd86072ed5c05640e01b.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.089955,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e215e736c1acdb8dcfb1204d9f2318c83130759b6bf298e60a5f911c6667fd1f",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T19:35:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning « Cela me fait penser… » and corresponding question in the following list\",\"severity\":\"minor\",\"source_quote\":\"“self righteousness” … “Any self-righteous?”\",\"suggested_fix\":\"Remplacer « suffisance » par « autosatisfaction morale » dans le paragraphe, et « Des personnes suffisantes ? » par « Des personnes qui se croient justes ? » dans la liste.\",\"translation_quote\":\"« suffisance » … « Des personnes suffisantes ? »\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 550,
+    "content_evidence_truncated": false,
+    "content_sha256": "bd15d7ffe5bc2546693e73a4bf1aae1958c6180c59a5433ee2ca52fb1e94e505",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1091,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 950,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8584,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7481,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9675
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

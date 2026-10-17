@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c4e34866-0629-428a-a8be-c349ad5d1000",
+    "response_id": "chatcmpl-Ea4RZ1iTMBEtG3ZlcLfLjAOeBloIo",
+    "usage": {
+      "completion_tokens": 1091,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 950,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8584,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7481,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9675
+    }
+  },
+  "received_at": "2026-10-17T19:35:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning « Cela me fait penser… » and corresponding question in the following list",
+        "severity": "minor",
+        "source_quote": "“self righteousness” … “Any self-righteous?”",
+        "suggested_fix": "Remplacer « suffisance » par « autosatisfaction morale » dans le paragraphe, et « Des personnes suffisantes ? » par « Des personnes qui se croient justes ? » dans la liste.",
+        "translation_quote": "« suffisance » … « Des personnes suffisantes ? »"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning « Cela me fait penser… » and corresponding question in the following list",
+      "severity": "minor",
+      "source_quote": "“self righteousness” … “Any self-righteous?”",
+      "suggested_fix": "Remplacer « suffisance » par « autosatisfaction morale » dans le paragraphe, et « Des personnes suffisantes ? » par « Des personnes qui se croient justes ? » dans la liste.",
+      "translation_quote": "« suffisance » … « Des personnes suffisantes ? »"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
