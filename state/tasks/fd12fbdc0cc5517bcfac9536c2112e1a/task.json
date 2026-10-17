@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c557279c047c44e48dd626691851b16a",
   "campaign": "auto-a923cbaedc73f2e96d89ca4b7559889a655f3b9f14d06c7000a39f42345f7d38",
   "created_at": "2026-10-17T09:23:28+00:00",
   "events": [
@@ -28,9 +27,30 @@
         },
         "total_tokens": 7394
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4014,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 327,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7529,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7526,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11543
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[69]: source /article[1]/p[17]/em[1] ('start', 'em', ()); translation /article[1]/p[17] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -40,6 +60,7 @@
       "translation_quote": ""
     }
   ],
+  "finished_at": "2026-10-17T13:49:12+00:00",
   "id": "fd12fbdc0cc5517bcfac9536c2112e1a",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "rus",
@@ -146,7 +167,7 @@
     "total_reserved_usd": 0.08954,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "0e0d3461779cb69fe2b7abdcf38f790945684497a7280f617caa1679f055a962",
   "translation_model_actual": "gpt-6-luna"
