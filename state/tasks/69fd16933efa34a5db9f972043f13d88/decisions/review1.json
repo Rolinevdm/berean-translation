@@ -1,0 +1,147 @@
+{
+  "findings": [
+    {
+      "location": "html, quotation of 1 Peter 3:3-6",
+      "severity": "major",
+      "source_quote": "Whose adorning let it not be that outward adorning ... –1 Peter 3:3-6.",
+      "suggested_fix": "Replace the English inside the existing <em> with: «Ο στολισμός σας ας μην είναι ο εξωτερικός, με πλεγμένα μαλλιά, χρυσά κοσμήματα ή ενδύματα, αλλά ο κρυφός άνθρωπος της καρδιάς, με τον άφθαρτο στολισμό ενός πράου και ήσυχου πνεύματος, που έχει μεγάλη αξία ενώπιον του Θεού. Έτσι στολίζονταν άλλοτε και οι άγιες γυναίκες που εμπιστεύονταν τον Θεό, υποτασσόμενες στους άντρες τους, όπως η Σάρρα υπάκουε στον Αβραάμ, αποκαλώντας τον κύριό της. Δικές της κόρες είστε, όσο κάνετε το καλό και δεν αφήνετε κανέναν τρόμο να σας φοβίζει –Α΄ Πέτρου 3:3-6.»",
+      "translation_quote": "Whose adorning let it not be that outward adorning ... –1 Peter 3:3-6."
+    },
+    {
+      "location": "html, quotation of 2 Timothy 2:4-22",
+      "severity": "major",
+      "source_quote": "No man that warreth entangleth himself with the affairs of this life ... –2 Timothy 2:4-22.",
+      "suggested_fix": "Replace the English inside the existing <em> with: «Κανένας που υπηρετεί ως στρατιώτης δεν μπλέκεται στις υποθέσεις αυτής της ζωής, για να ευχαριστήσει εκείνον που τον επέλεξε για στρατιώτη. Να αποφεύγεις όμως τις βέβηλες και μάταιες φλυαρίες, γιατί θα οδηγήσουν σε περισσότερη ασέβεια. Να αποφεύγεις επίσης τις νεανικές επιθυμίες και να επιδιώκεις τη δικαιοσύνη, την πίστη, την αγάπη και την ειρήνη, μαζί με όσους επικαλούνται τον Κύριο με καθαρή καρδιά –Β΄ Τιμόθεο 2:4-22.»",
+      "translation_quote": "No man that warreth entangleth himself with the affairs of this life ... –2 Timothy 2:4-22."
+    },
+    {
+      "location": "html, quotation of 1 Timothy 2:9-10",
+      "severity": "major",
+      "source_quote": "In like manner also, that women adorn themselves in modest apparel ... –1 Timothy 2:9-10.",
+      "suggested_fix": "Replace the English inside the existing <em> with: «Παρόμοια και οι γυναίκες να στολίζονται με σεμνά ρούχα, με συστολή και σωφροσύνη, όχι με πλεγμένα μαλλιά ή χρυσάφι ή μαργαριτάρια ή ακριβά ενδύματα, αλλά με καλά έργα, όπως αρμόζει σε γυναίκες που ομολογούν ευσέβεια –Α΄ Τιμόθεο 2:9-10.»",
+      "translation_quote": "In like manner also, that women adorn themselves in modest apparel ... –1 Timothy 2:9-10."
+    },
+    {
+      "location": "html, quotation of Titus 2:11-12",
+      "severity": "major",
+      "source_quote": "For the grace of God that bringeth salvation hath appeared to all men ... –Titus 2:11-12.",
+      "suggested_fix": "Replace the English inside the existing <em> with: «Γιατί η χάρη του Θεού που φέρνει σωτηρία φανερώθηκε σε όλους τους ανθρώπους και μας διδάσκει να αρνηθούμε την ασέβεια και τις κοσμικές επιθυμίες και να ζούμε με σωφροσύνη, δικαιοσύνη και ευσέβεια στον παρόντα κόσμο –Τίτο 2:11-12.»",
+      "translation_quote": "For the grace of God that bringeth salvation hath appeared to all men ... –Titus 2:11-12."
+    },
+    {
+      "location": "html, quotation of Isaiah 61:10",
+      "severity": "major",
+      "source_quote": "I will greatly rejoice in the LORD ... –Isaiah 61:10.",
+      "suggested_fix": "Replace the English inside the existing <em> with: «Θα χαρώ απέραντα με τον ΚΥΡΙΟ, η ψυχή μου θα αγαλλιάσει με τον Θεό μου, γιατί με έντυσε με τα ενδύματα της σωτηρίας και με σκέπασε με τον μανδύα της δικαιοσύνης, όπως ο γαμπρός στολίζεται με στολίδια και όπως η νύφη στολίζεται με τα κοσμήματά της –Ησαΐας 61:10.»",
+      "translation_quote": "I will greatly rejoice in the LORD ... –Isaiah 61:10."
+    },
+    {
+      "location": "html, quotation of Revelation 21:2-3",
+      "severity": "major",
+      "source_quote": "And I John saw the holy city, new Jerusalem ... –Revelation 21:2-3.",
+      "suggested_fix": "Replace the English inside the existing <em> with: «Και εγώ, ο Ιωάννης, είδα την άγια πόλη, τη νέα Ιερουσαλήμ, να κατεβαίνει από τον ουρανό, από τον Θεό, ετοιμασμένη σαν νύφη στολισμένη για τον άντρα της. Και άκουσα μια δυνατή φωνή από τον ουρανό να λέει: Να, η σκηνή του Θεού είναι μαζί με τους ανθρώπους· θα κατοικεί μαζί τους, αυτοί θα είναι ο λαός του και ο ίδιος ο Θεός θα είναι μαζί τους και θα είναι ο Θεός τους. –Αποκάλυψη 21:2-3.»",
+      "translation_quote": "And I John saw the holy city, new Jerusalem ... –Revelation 21:2-3."
+    },
+    {
+      "location": "html, quotation of Galatians 6:7",
+      "severity": "major",
+      "source_quote": "Be not deceived; God is not mocked: for whatsoever a man soweth, that shall he also reap –Galatians 6:7.",
+      "suggested_fix": "Replace the English inside the existing <em> with: «Μην πλανιέστε· ο Θεός δεν εμπαίζεται. Ό,τι σπέρνει ο άνθρωπος, αυτό και θα θερίσει –Γαλάτες 6:7.»",
+      "translation_quote": "Be not deceived; God is not mocked: for whatsoever a man soweth, that shall he also reap –Galatians 6:7."
+    },
+    {
+      "location": "html, final paragraph, Matthew quotation",
+      "severity": "major",
+      "source_quote": "And fear not them which kill the body, but are not able to kill the soul ... –Matthew 10:28.",
+      "suggested_fix": "Replace the English inside the existing <em> with: «Μη φοβάστε εκείνους που σκοτώνουν το σώμα αλλά δεν μπορούν να σκοτώσουν την ψυχή· να φοβάστε μάλλον εκείνον που μπορεί να καταστρέψει και την ψυχή και το σώμα στην κόλαση –Ματθαίος 10:28.»",
+      "translation_quote": "And fear not them which kill the body, but are not able to kill the soul ... –Matthew 10:28."
+    },
+    {
+      "location": "html, final paragraph, John quotation and reference",
+      "severity": "major",
+      "source_quote": "Jesus saith unto him, I am the way, the truth, and the life ... John 14:6-7.",
+      "suggested_fix": "Replace the quotation and its reference, retaining their separate <em> tags: <em>Ο Ιησούς τού λέει: Εγώ είμαι ο δρόμος, η αλήθεια και η ζωή· κανείς δεν έρχεται στον Πατέρα παρά μόνο μέσω εμού. Αν με είχατε γνωρίσει, θα είχατε γνωρίσει και τον Πατέρα μου· και από τώρα τον γνωρίζετε και τον έχετε δει</em> –<em>Ιωάννης 14:6-7.</em>",
+      "translation_quote": "Jesus saith unto him, I am the way, the truth, and the life ... John 14:6-7."
+    },
+    {
+      "location": "html, Shamefacedness definition, following paragraph, and concluding list of virtues",
+      "severity": "major",
+      "source_quote": "Shamefacedness: bashfulness; excess of modesty. / adorned with shamefacedness / modesty, shamefacedness, sobriety",
+      "suggested_fix": "Replace «Σεμνοτυφία» with «Συστολή», «με σεμνοτυφία» with «με συστολή», and «σεμνότητας, σεμνοτυφίας, σωφροσύνης» with «σεμνότητας, συστολής, σωφροσύνης». «Σεμνοτυφία» denotes affected or prudish modesty rather than the praised virtue.",
+      "translation_quote": "Σεμνοτυφία: ντροπαλότητα; υπερβολική σεμνότητα. / στολισμένες με σεμνοτυφία / σεμνότητας, σεμνοτυφίας, σωφροσύνης"
+    },
+    {
+      "location": "html, paragraph citing Proverbs 9:10",
+      "severity": "major",
+      "source_quote": "The fear of the LORD is the beginning of wisdom",
+      "suggested_fix": "Replace «Η φοβία του ΚΥΡΙΟΥ» with «Ο φόβος του ΚΥΡΙΟΥ». «Φοβία» introduces pathological fear rather than the religious fear intended.",
+      "translation_quote": "Η φοβία του ΚΥΡΙΟΥ είναι αρχή της σοφίας"
+    },
+    {
+      "location": "html, Babblings definition and penultimate paragraph",
+      "severity": "major",
+      "source_quote": "Babblings: foolish talk. / vain babblings",
+      "suggested_fix": "Replace the definition with «Φλυαρίες: ανόητα λόγια.» and replace «μάταιες λογιές» with «μάταιες φλυαρίες». «Λογιές» means sorts or kinds, not babblings, and «αφρόντιος» does not convey foolish.",
+      "translation_quote": "Λογιές: αφρόντιος λόγος. / μάταιες λογιές"
+    },
+    {
+      "location": "html, Profane definition",
+      "severity": "major",
+      "source_quote": "Profane: irreverent to anything sacred",
+      "suggested_fix": "Replace «ανυπόληπτος προς οτιδήποτε ιερό» with «ασεβής απέναντι σε οτιδήποτε ιερό». The candidate describes someone of poor reputation, not irreverence.",
+      "translation_quote": "Βέβηλος: ανυπόληπτος προς οτιδήποτε ιερό"
+    },
+    {
+      "location": "html, paragraph about inward desires",
+      "severity": "major",
+      "source_quote": "through the spiritual operation or “new birth”",
+      "suggested_fix": "Replace «μέσω της πνευματικής ενέργειας ή της «νεογέννησης»» with «μέσω της πνευματικής ενέργειας ή της «αναγέννησης»».",
+      "translation_quote": "μέσω της πνευματικής ενέργειας ή της «νεογέννησης»"
+    },
+    {
+      "location": "html, third paragraph",
+      "severity": "minor",
+      "source_quote": "what not to adorn ourselves with ... what to adorn ourselves with",
+      "suggested_fix": "Repair the missing instrumental construction: «Μας λέει στον Λόγο Του <strong>με τι να μη</strong> στολίζουμε τον εαυτό μας, αλλά μας λέει επίσης <strong>με τι να</strong> τον στολίζουμε.»",
+      "translation_quote": "Μας λέει στον Λόγο Του <strong>τί να μην</strong> στολίζουμε τον εαυτό μας, αλλά μας λέει επίσης <strong>τί να</strong> στολίζουμε."
+    },
+    {
+      "location": "html, Matthew 5:8 quotation and final doxology",
+      "severity": "minor",
+      "source_quote": "Blessed are the pure in heart: for they shall see God / Praise the Lord",
+      "suggested_fix": "Use contemporary Greek: «Μακάριοι όσοι έχουν καθαρή καρδιά, γιατί αυτοί θα δουν τον Θεό» and «Δόξα στον Κύριο».",
+      "translation_quote": "Μακάριοι οι καθαροί τη καρδία, ότι αυτοί τον Θεόν όψονται / Δόξα τῷ Θεῷ"
+    },
+    {
+      "location": "html, Faith discussion",
+      "severity": "minor",
+      "source_quote": "through whom Abraham’s descendants would be counted / flee those things",
+      "suggested_fix": "Replace «μέσα από τον οποίο θα μετραίνονταν οι απόγονοι του Αβραάμ» with «μέσω του οποίου θα λογαριάζονταν οι απόγονοι του Αβραάμ» and «να φυγάξουμε από αυτά τα πράγματα» with «να φύγουμε μακριά από αυτά τα πράγματα».",
+      "translation_quote": "μέσα από τον οποίο θα μετραίνονταν οι απόγονοι του Αβραάμ / να φυγάξουμε από αυτά τα πράγματα"
+    },
+    {
+      "location": "html, paragraph ending with leaven proverb",
+      "severity": "minor",
+      "source_quote": "A little leaven leaveneth the whole lump.",
+      "suggested_fix": "Replace the malformed wording with «Λίγη μαγιά φουσκώνει όλο το ζυμάρι.»",
+      "translation_quote": "Μικρή μαγιά φουσκοποιεί όλον τον ζυμομένο όγκο."
+    },
+    {
+      "location": "html, Amazement definition and following application",
+      "severity": "major",
+      "source_quote": "confusion or perplexity / any confusion or perplexity",
+      "suggested_fix": "Replace «σύγχυση ή δέος» with «σύγχυση ή αμηχανία» in both locations. Here perplexity is bewilderment, not awe.",
+      "translation_quote": "σύγχυση ή δέος / οποιαδήποτε σύγχυση ή δέος"
+    },
+    {
+      "location": "html, Adorn definition",
+      "severity": "minor",
+      "source_quote": "external or adventitious",
+      "suggested_fix": "Replace «εξωτερικό ή πρόσκαιρο» with «εξωτερικό ή πρόσθετο»; adventitious means externally added, not temporary.",
+      "translation_quote": "εξωτερικό ή πρόσκαιρο"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
