@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1",
+      "severity": "minor",
+      "source_quote": "the benefit of which I have not lost, for more than fourteen years",
+      "suggested_fix": "Det har behagat Herren att lära mig en sanning, vars välsignelse jag har haft glädje av i mer än fjorton år.",
+      "translation_quote": "vars välsignelse jag har fått erfara i mer än fjorton år"
+    },
+    {
+      "location": "Paragraphs 4–6",
+      "severity": "minor",
+      "source_quote": "supplication",
+      "suggested_fix": "Use a broader Swedish equivalent such as “innerlig bön” or “vädjan” in these instances, rather than specifying a prayer for help.",
+      "translation_quote": "bön om hjälp"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

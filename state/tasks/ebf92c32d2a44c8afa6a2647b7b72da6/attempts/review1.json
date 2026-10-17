@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T04:14:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"the benefit of which I have not lost, for more than fourteen years\",\"suggested_fix\":\"Det har behagat Herren att lära mig en sanning, vars välsignelse jag har haft glädje av i mer än fjorton år.\",\"translation_quote\":\"vars välsignelse jag har fått erfara i mer än fjorton år\"},{\"location\":\"Paragraphs 4–6\",\"severity\":\"minor\",\"source_quote\":\"supplication\",\"suggested_fix\":\"Use a broader Swedish equivalent such as “innerlig bön” or “vädjan” in these instances, rather than specifying a prayer for help.\",\"translation_quote\":\"bön om hjälp\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 685,
+    "content_evidence_truncated": false,
+    "content_sha256": "6eead111d0a8df2a5582fed25b832c127b26a3970155e495163c6f25b12501d3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 567,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4854,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4851,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5606
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
