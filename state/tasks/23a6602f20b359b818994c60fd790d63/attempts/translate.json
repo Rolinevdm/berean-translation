@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T13:49:19+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"1f294c3b-4295-4493-8a52-a33af40f298b\\\">\\n  <p class=\\\"drop-cap\\\">Air Selat Inggris mengalir luas dan dalam, dan belum pernah ada manusia yang menyeberangi seluruh lebarnya. Terdorong oleh ambisi untuk melakukan sesuatu yang belum pernah dilakukan siapa pun, dan menyadari kekuatan ototnya, perenang termasyhur Matthew Webb berenang sejauh dua puluh lima mil itu, lalu menjejakkan kaki di pantai Prancis.</p>\\n  <p>Karena sering berada di air dan selalu selamat tanpa cedera, ia tampaknya berpikir bahwa hidupnya dilindungi oleh keberuntungan. Ketika memandang arus Niagara yang bergolak, ia memutuskan untuk mempertaruhkan nyawanya demi ketenaran—ketenaran yang tak pernah memuaskan kerinduan hati manusia—seraya berkata, “Semua ini soal keberuntungan, dan soal akhirnya, aku tidak memikirkannya; aku akan mengambil risiko.”</p>\\n  <p>Tanpa ia ketahui, pada 24 Juli 1883 adalah kali terakhir ia mengenakan pakaian renang yang biasa dipakainya dan melompat ke dalam arus deras yang berputar-putar dan ganas. Seperti biasa, ia muncul dari selamannya untuk mengapung dan mulai berenang, tetapi pusaran air mencengkeramnya seperti jerami dalam genggaman raksasa, lalu menghempaskannya tanpa terlihat dan tak berdaya ke dalam pusaran yang begitu berani ia hadapi. Ia lenyap dari pandangan ribuan orang yang berdiri aman di sekelilingnya—mereka sendiri selamat, tetapi tak berdaya menolongnya.</p>\\n  <p>Di tepi sungai besar itu ada sebuah batu yang disebut “Titik Setelah Penebusan”. Sebuah tanjung kecil yang menjorok ke air, tak diperhatikan para pelancong, tetapi di baliknya tak pernah ada seorang pun yang diketahui selamat. Di satu sisi ada kehidupan, pengharapan, dan keselamatan; di sisi lain, kematian, keputusasaan, dan kebinasaan; dan jarak antara keduanya begitu dekat.</p>\\n  <p>Di arus kehidupan yang meluap, setiap hari kita semakin dekat ke titik yang tak pernah dilalui seorang pengembara untuk kembali; dan engkau tidak tahu betapa segera engkau mungkin hanyut, setengah terlelap, “melewati titik penebusan”. Bisikan di dalam hati hari ini tentang ayat yang dipelajari di pangkuan ibu; perlindungan ajaib pada saat bahaya besar; hari ketika engkau berdiri di sisi kubur yang terbuka dan menatap misteri-misterinya yang tak terselami; penyakit yang membuatmu begitu dekat dengan Kerajaan Allah, tetapi belum masuk ke dalamnya—Oh! siapa yang dapat mengatakan kapan Suara itu akan memohon kepadamu untuk terakhir kalinya.</p>\\n  <figure>\\n    <img src=\\\"/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg\\\" alt=\\\"Air terjun terlihat dari tempat pandang berbatu dengan beberapa orang.\\\">\\n  </figure>\\n  <p>Dapatkah engkau mengetahui keadaan mana yang akan menjadi “Titik Setelah Penebusan” dalam hidupmu? Allah berfirman, “Roh-Ku tidak akan selama-lamanya berjuang dengan manusia (Kej 6:3)” dan “Sekiranya engkau tahu, bahkan pada hari ini juga, apa yang perlu untuk damai sejahteramu! Tetapi sekarang semuanya itu tersembunyi bagi matamu (Luk 19:42).”</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Titik Setelah Penebusan\"}",
+    "content_bytes": 3124,
+    "content_evidence_truncated": false,
+    "content_sha256": "ae9ce46e6898cc8d3b6e464c6b4ce0dd02289e1a83876d0ccc61d59b28c1a30e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 846,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1477,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1474,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2323
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
