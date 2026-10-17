@@ -19882,6 +19882,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
+      "html_sha256": "f23bb1f2338b00199cbaf9cd6dfe6e7bae346dc6a7ad8a95b9cbbc9970342d1b",
+      "human_reviewed": false,
+      "id": "1f294c3b-4295-4493-8a52-a33af40f298b",
+      "images": [
+        {
+          "alt": "Καταρράκτες όπως φαίνονται από ένα βραχώδες σημείο θέας, με αρκετές ανθρώπινες μορφές.",
+          "public_path": "/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/1f294c3b-4295-4493-8a52-a33af40f298b.json",
+      "metadata_sha256": "72abf50a3d6e4ae66f32ca1bb01a1e5c7c80e9238c9b1c696b17ca443d041075",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Πέρα από το Σημείο της Λύτρωσης",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/201a1b3e-85b3-4e62-bc45-118a8c1f5367.html",
       "html_sha256": "51836488f82b83cbbd948f7b320ed9dd67a29693a573b9059d7c1eb81db9e1b1",
       "human_reviewed": false,
@@ -23961,6 +23989,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
+      "html_sha256": "bf876fd6f3a24ffe0971ba0d53b926ac9494f8d7cc121a89a5e5ed852e37546a",
+      "human_reviewed": false,
+      "id": "1f294c3b-4295-4493-8a52-a33af40f298b",
+      "images": [
+        {
+          "alt": "Des chutes d’eau vues depuis un promontoire rocheux, avec plusieurs silhouettes.",
+          "public_path": "/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/1f294c3b-4295-4493-8a52-a33af40f298b.json",
+      "metadata_sha256": "6b798d4b2713fe6849e8b3d299f6e0118f309d9bc464333411a38c2c56b444e1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Au-delà du point de la Rédemption",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/201a1b3e-85b3-4e62-bc45-118a8c1f5367.html",
       "html_sha256": "4d11e0e1b547a84c7458a3b79f5ed0688a28d4b814279f71f1ff0600b38e13b6",
       "human_reviewed": false,
@@ -27043,6 +27099,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "La mort d’un pécheur",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/c6596509-ad91-49b6-a55b-d850c3b72c14.html",
+      "html_sha256": "9e55cb8c05a035ff13c08ea22140752c37f34a1ac0520502c81242abc66c1dc8",
+      "human_reviewed": false,
+      "id": "c6596509-ad91-49b6-a55b-d850c3b72c14",
+      "images": [
+        {
+          "alt": "Gros plan sur une rose.",
+          "public_path": "/images/articles/c6596509-ad91-49b6-a55b-d850c3b72c14-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/c6596509-ad91-49b6-a55b-d850c3b72c14.json",
+      "metadata_sha256": "60231e592f844927c9678b188aa651b6f423f76ca94789cf92f5e308b7f16f13",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "0e0d3461779cb69fe2b7abdcf38f790945684497a7280f617caa1679f055a962",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Comment préparons-nous nos jeunes filles à l’avenir ?",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -31061,6 +31145,34 @@
       "subtitle": null,
       "title": "सबके लिए मज़ा",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
+      "html_sha256": "38635996d2a5a060d2e7ffde6a4fec8e112a48521b6239de2029797b98ff2ad0",
+      "human_reviewed": false,
+      "id": "1f294c3b-4295-4493-8a52-a33af40f298b",
+      "images": [
+        {
+          "alt": "चट्टानी ऊँचे स्थान से दिखते जलप्रपात और कई लोग।",
+          "public_path": "/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/1f294c3b-4295-4493-8a52-a33af40f298b.json",
+      "metadata_sha256": "d6037512a63441154dfacb56bced1673eafdb01a2b7d05104165ec521fa00862",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "उद्धार से परे का बिंदु",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
