@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "aa4bf301914a44ee847e3cbd38844e18",
   "campaign": "auto-cc404e68b6ad8b8cb860d7cf663809b06ac8bb031e11ce1f0fe447584dbbfbed",
   "created_at": "2026-10-17T04:17:43+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 3528
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 617,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2697,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1594,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3314
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Title and paragraphs 4–6",
-      "severity": "major",
-      "source_quote": "“past Redemption Point”; “Past Redemption Point” of your life",
-      "suggested_fix": "Use a rendering that means the point beyond which redemption is no longer possible, such as “Titik Terlewatnya Kesempatan Penebusan,” consistently in the title and each occurrence in the article.",
-      "translation_quote": "“Titik Setelah Penebusan”; “Titik Setelah Penebusan” dalam hidupmu"
+      "location": "Paragraf 5",
+      "severity": "minor",
+      "source_quote": "the point whence no traveler returns",
+      "suggested_fix": "Di arus kehidupan yang meluap, setiap hari kita semakin dekat ke titik yang darinya tak seorang pengembara pun kembali;",
+      "translation_quote": "titik yang tak pernah dilalui seorang pengembara untuk kembali"
     }
   ],
+  "finished_at": "2026-10-17T17:23:33+00:00",
   "id": "23a6602f20b359b818994c60fd790d63",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "ind",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.0864,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
   "translation_model_actual": "gpt-6-luna"

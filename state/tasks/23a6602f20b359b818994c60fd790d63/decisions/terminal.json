@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf 5",
+      "severity": "minor",
+      "source_quote": "the point whence no traveler returns",
+      "suggested_fix": "Di arus kehidupan yang meluap, setiap hari kita semakin dekat ke titik yang darinya tak seorang pengembara pun kembali;",
+      "translation_quote": "titik yang tak pernah dilalui seorang pengembara untuk kembali"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

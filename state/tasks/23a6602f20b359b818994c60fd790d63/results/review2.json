@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2bef9498-5b07-4928-b908-103f29ab89be",
+    "response_id": "chatcmpl-Ea2NWfB6geqgZsd2wG7tgH5D6Aon6",
+    "usage": {
+      "completion_tokens": 617,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2697,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1594,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3314
+    }
+  },
+  "received_at": "2026-10-17T17:23:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf 5",
+        "severity": "minor",
+        "source_quote": "the point whence no traveler returns",
+        "suggested_fix": "Di arus kehidupan yang meluap, setiap hari kita semakin dekat ke titik yang darinya tak seorang pengembara pun kembali;",
+        "translation_quote": "titik yang tak pernah dilalui seorang pengembara untuk kembali"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
