@@ -1,0 +1,98 @@
+{
+  "findings": [
+    {
+      "location": "html: Scripture quotations and whispered quotation",
+      "severity": "major",
+      "source_quote": "What time I am afraid, I will trust in thee –Psalm 56:3. / I will trust and not be afraid. / Save me from the lion’s mouth… –Psalm 22:21.",
+      "suggested_fix": "Translate the three quotations in place: <em>כשאני פוחדת, אבטח בך – תהילים 56:3.</em>; 'אבטח ולא אפחד.'; <em>הצל אותי מפי האריה… – תהילים 22:21.</em>",
+      "translation_quote": "When I am afraid, I will trust in thee – Psalm 56:3. / I will trust and not be afraid. / Save me from the lion’s mouth… – Psalm 22:21."
+    },
+    {
+      "location": "title; section",
+      "severity": "major",
+      "source_quote": "Saved From the “Lion’s” Mouth / Children’s Corner",
+      "suggested_fix": "Translate title as ניצלנו מפי ה״אריה״ and section as פינת הילדים.",
+      "translation_quote": "Saved From the “Lion’s” Mouth / Children’s Corner"
+    },
+    {
+      "location": "html: paragraph beginning לורי ואני יצאנו",
+      "severity": "major",
+      "source_quote": "as we passed through the gully",
+      "suggested_fix": "Replace כשעברנו דרך הגאולה with כשעברנו בערוץ.",
+      "translation_quote": "כשעברנו דרך הגאולה"
+    },
+    {
+      "location": "html: paragraph beginning לורי ואני יצאנו",
+      "severity": "major",
+      "source_quote": "the high fence which kept in Pierce’s mean dog",
+      "suggested_fix": "Replace הגדר הגבוהה ששמרה על כלב המחמד של פירס with הגדר הגבוהה שמנעה מהכלב התוקפני של פירס לצאת.",
+      "translation_quote": "הגדר הגבוהה ששמרה על כלב המחמד של פירס"
+    },
+    {
+      "location": "html: paragraph beginning בטח שאת צודקת",
+      "severity": "major",
+      "source_quote": "the little errand we were doing on this morning for Mother",
+      "suggested_fix": "Replace המלאכה הקטנה שהורינו שלחו אותנו לבצע אותו בוקר with השליחות הקטנה שעשינו בשביל אימא באותו בוקר.",
+      "translation_quote": "המלאכה הקטנה שהורינו שלחו אותנו לבצע אותו בוקר"
+    },
+    {
+      "location": "html: final paragraph",
+      "severity": "minor",
+      "source_quote": "the Lord’s angel had his sword drawn",
+      "suggested_fix": "Replace שמלאך ה' החזיק את חרבו with שמלאך ה' החזיק את חרבו שלופה.",
+      "translation_quote": "שמלאך ה' החזיק את חרבו"
+    },
+    {
+      "location": "html: first narrative paragraph",
+      "severity": "minor",
+      "source_quote": "as they crowded around her rocking chair",
+      "suggested_fix": "Replace כשהתכופפו סביב הכיסא המנענע שלה with כשהצטופפו סביב כיסא הנדנדה שלה.",
+      "translation_quote": "כשהתכופפו סביב הכיסא המנענע שלה"
+    },
+    {
+      "location": "html: paragraph beginning גרנו בחווה",
+      "severity": "minor",
+      "source_quote": "back a short lane along a dirt road / Neighbors often shared back and forth",
+      "suggested_fix": "Replace אחורה בשביל קטן לצד דרך עפר with בקצה שביל קצר שהסתעף מדרך עפר; replace שכנים לעתים קרובות שיתפו זה עם זה with השכנים נהגו לתת זה לזה מצרכים לפי הצורך.",
+      "translation_quote": "אחורה בשביל קטן לצד דרך עפר / שכנים לעתים קרובות שיתפו זה עם זה"
+    },
+    {
+      "location": "html: paragraph beginning בטח שאת צודקת",
+      "severity": "minor",
+      "source_quote": "“I’m sure you are right,” agreed Grandma. / The Rhine family had an old man living in their summer house. / he had a very fierce dog",
+      "suggested_fix": "Use בטח שאתה צודק for the reply to Micah; replace למשפחת ריינה התגורר זקן בבית הקיץ שלהם with בבית הקיץ של משפחת ריינה התגורר איש זקן; replace כלב שאילץ פחד with כלב מפחיד מאוד.",
+      "translation_quote": "בטח שאת צודקת / למשפחת ריינה התגורר זקן בבית הקיץ שלהם / כלב שאילץ פחד"
+    },
+    {
+      "location": "html: paragraph beginning לורי ואני יצאנו",
+      "severity": "minor",
+      "source_quote": "Everything seemed unusually quiet and still / There before us was the old shed / as I whispered once more to myself",
+      "suggested_fix": "Use הכול נראה שקט ודומם באופן יוצא דופן; שם לפנינו עמדה הסככה הישנה; כשלחשתי לעצמי שוב.",
+      "translation_quote": "הכל נראה שקט ורגוע / שם לפנינו עמד הסככה הישנה / כשהלחשתי לעצמי שוב"
+    },
+    {
+      "location": "html: dog-attack paragraph",
+      "severity": "minor",
+      "source_quote": "the air was shattered / she had fallen down / I just stood frozen to the spot / there was a shout / He whipped and whipped that dog",
+      "suggested_fix": "Correct the respective phrases to השקט הופר; היא נפלה; נשארתי קפואה במקום; נשמעה קריאה; הוא הצליף בכלב שוב ושוב.",
+      "translation_quote": "נשברה האוויר / היא נופלה / נשארתי קפואת במקום / נשמע קריאה / הוא היכה ושיפך בשוט את הכלב"
+    },
+    {
+      "location": "html: last three paragraphs",
+      "severity": "minor",
+      "source_quote": "Pierce did not get rid of his dog / after Pierce got the dog away / It was a miracle that Lori and I were not injured. / How thankful we were",
+      "suggested_fix": "Use פירס לא נפטר מהכלב שלו; אחרי שפירס הרחיק את הכלב; זה היה נס שלורי ואני לא נפגענו; כמה אסירות תודה היינו.",
+      "translation_quote": "פירס לא פטר מהכלב שלו / אחרי שפירס הרחק את הכלב / זו הייתה נס שנמלטנו מפגיעה / כמה היינו מודים"
+    },
+    {
+      "location": "html: both img alt attributes",
+      "severity": "minor",
+      "source_quote": "A brindle dog wearing a chain collar / Farm fields and buildings across a rolling rural valley in autumn",
+      "suggested_fix": "Use alt=\"כלב בעל פרווה מנומרת עם קולר שרשרת\" and alt=\"שדות ומבני חווה בעמק כפרי בעל גבעות מתונות בסתיו\", preserving all other image attributes.",
+      "translation_quote": "כלב מנומר שלובש קולר בשרשרת / שדות חווה ובניינים מעבר לעמק כפרי מתגלגל בסתיו"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
