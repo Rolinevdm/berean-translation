@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "the little terror Max",
+      "suggested_fix": "Replace “terroristen Max” with “den lille marodören Max” or another Swedish expression for a troublesome child.",
+      "translation_quote": "den lille terroristen Max"
+    },
+    {
+      "location": "Paragraph 6",
+      "severity": "minor",
+      "source_quote": "a basin of water",
+      "suggested_fix": "Replace “ett fat vatten” with “ett tvättfat med vatten” or “en balja med vatten.”",
+      "translation_quote": "ett fat vatten"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

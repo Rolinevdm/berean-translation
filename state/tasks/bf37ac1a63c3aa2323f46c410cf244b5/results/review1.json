@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ac4842d7-f924-48be-98b7-dc0f348004bb",
+    "response_id": "chatcmpl-Ea4CmAxkgnHu3Oan26zfQ8z7l1xxx",
+    "usage": {
+      "completion_tokens": 718,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 571,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2974,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1871,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3692
+    }
+  },
+  "received_at": "2026-10-17T19:19:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 5",
+        "severity": "minor",
+        "source_quote": "the little terror Max",
+        "suggested_fix": "Replace “terroristen Max” with “den lille marodören Max” or another Swedish expression for a troublesome child.",
+        "translation_quote": "den lille terroristen Max"
+      },
+      {
+        "location": "Paragraph 6",
+        "severity": "minor",
+        "source_quote": "a basin of water",
+        "suggested_fix": "Replace “ett fat vatten” with “ett tvättfat med vatten” or “en balja med vatten.”",
+        "translation_quote": "ett fat vatten"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}
