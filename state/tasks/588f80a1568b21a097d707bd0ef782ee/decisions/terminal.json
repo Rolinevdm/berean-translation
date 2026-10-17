@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragraphe commençant par « J’ai ensuite lu dans le livre »",
+      "severity": "major",
+      "source_quote": "Put your hand in His and the Lord will lead you. It seemed quite a different thing after that and in a very short time God had told me what to do and where to go.",
+      "suggested_fix": "Fermer la citation du livre après « le Seigneur vous conduira. » et supprimer le guillemet fermant après « partir en Chine. », afin que la suite soit clairement le récit personnel de Studd.",
+      "translation_quote": "Placez votre main dans la sienne, et le Seigneur vous conduira. Après cela, tout m’a paru bien différent et, en très peu de temps, Dieu m’a indiqué ce que je devais faire et où aller. Dieu ne parle pas d’abord à une personne par sa tête ; il lui parle d’abord par le cœur. Dieu l’a mis dans mon cœur et m’a donné le désir ardent de partir en Chine. »"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

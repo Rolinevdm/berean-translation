@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T01:38:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, paragraphe commençant par « J’ai ensuite lu dans le livre »\",\"severity\":\"major\",\"source_quote\":\"Put your hand in His and the Lord will lead you. It seemed quite a different thing after that and in a very short time God had told me what to do and where to go.\",\"suggested_fix\":\"Fermer la citation du livre après « le Seigneur vous conduira. » et supprimer le guillemet fermant après « partir en Chine. », afin que la suite soit clairement le récit personnel de Studd.\",\"translation_quote\":\"Placez votre main dans la sienne, et le Seigneur vous conduira. Après cela, tout m’a paru bien différent et, en très peu de temps, Dieu m’a indiqué ce que je devais faire et où aller. Dieu ne parle pas d’abord à une personne par sa tête ; il lui parle d’abord par le cœur. Dieu l’a mis dans mon cœur et m’a donné le désir ardent de partir en Chine. »\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 974,
+    "content_evidence_truncated": false,
+    "content_sha256": "21e0c85fdaf2aaabb1814c522207437b1bb817bff23084b809b26c9f2843a46f",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 361,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 120,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9652,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8549,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10013
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
