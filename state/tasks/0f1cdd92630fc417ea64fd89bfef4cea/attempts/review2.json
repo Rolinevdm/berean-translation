@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T13:49:03+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 5\",\"severity\":\"minor\",\"source_quote\":\"looked into its unfathomed mysteries\",\"suggested_fix\":\"Replace “yasiyo na kifani” with “yasiyoweza kueleweka” to preserve the sense of mysteries beyond comprehension.\",\"translation_quote\":\"kutazama mafumbo yake yasiyo na kifani\"},{\"location\":\"Title; paragraphs 4 and 6\",\"severity\":\"minor\",\"source_quote\":\"“past Redemption Point”\",\"suggested_fix\":\"Use “Kikomo cha Ukombozi” consistently for this boundary beyond which redemption is no longer possible; for example, title “Kikomo cha Ukombozi” and phrase “zaidi ya Kikomo cha Ukombozi.”\",\"translation_quote\":\"“Zaidi ya Kiwango cha Ukombozi”\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 744,
+    "content_evidence_truncated": false,
+    "content_sha256": "ec76fe968e49b0939bb0cb9bd7d47bcbd41d3b3d84d14b59c56cada379a1c81c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 942,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 739,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2804,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2801,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3746
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

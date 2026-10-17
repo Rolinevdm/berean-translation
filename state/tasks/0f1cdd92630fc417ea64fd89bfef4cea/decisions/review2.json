@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "looked into its unfathomed mysteries",
+      "suggested_fix": "Replace “yasiyo na kifani” with “yasiyoweza kueleweka” to preserve the sense of mysteries beyond comprehension.",
+      "translation_quote": "kutazama mafumbo yake yasiyo na kifani"
+    },
+    {
+      "location": "Title; paragraphs 4 and 6",
+      "severity": "minor",
+      "source_quote": "“past Redemption Point”",
+      "suggested_fix": "Use “Kikomo cha Ukombozi” consistently for this boundary beyond which redemption is no longer possible; for example, title “Kikomo cha Ukombozi” and phrase “zaidi ya Kikomo cha Ukombozi.”",
+      "translation_quote": "“Zaidi ya Kiwango cha Ukombozi”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
