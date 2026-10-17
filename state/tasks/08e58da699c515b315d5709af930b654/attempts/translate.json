@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T04:23:27+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"1f294c3b-4295-4493-8a52-a33af40f298b\\\">\\n  <p class=\\\"drop-cap\\\">Les eaux de la Manche s’étendaient, larges et profondes, sans qu’aucun bras humain les eût jamais traversées dans toute leur largeur. Animé par l’ambition de faire ce que personne n’avait fait avant lui et conscient de sa force musculaire, le célèbre nageur Matthew Webb parcourut à la nage ces vingt-cinq milles et posa le pied sur la côte française.</p>\\n  <p>Souvent dans l’eau et toujours indemne, il semblait croire qu’il avait une vie protégée par quelque charme ; et, voyant le courant bouillonnant du Niagara, il décida de risquer sa vie pour la gloire — une gloire qui n’a jamais satisfait aucun cœur humain avide — en disant : « Tout dépend de la chance, et je ne pense pas à la fin ; je vais tenter ma chance. »</p>\\n  <p>Pour la dernière fois, sans le savoir, le 24 juillet 1883, il revêtit son habituel costume de nageur et se jeta dans le torrent furieux et tourbillonnant. Il refit surface après son plongeon, comme d’habitude, pour flotter et se mettre à nager, mais les eaux tourbillonnantes le saisirent comme un fétu de paille dans leur étreinte gigantesque et le précipitèrent, invisible et impuissant, dans le gouffre qu’il avait si imprudemment affronté ; il disparut sous les yeux de milliers de personnes qui se tenaient en sécurité autour de lui, elles-mêmes hors de danger, mais incapables de lui porter secours.</p>\\n  <p>Sur la rive de ce grand fleuve se trouve un rocher appelé « au-delà du point de la Rédemption ». Un petit cap qui s’avance dans l’eau, ignoré des voyageurs, mais au-delà duquel aucun être humain n’a jamais été connu pour avoir été sauvé. D’un côté se trouvent la vie, l’espérance et le salut ; de l’autre, la mort, le désespoir et la damnation ; et si peu de distance les sépare.</p>\\n  <p>Dans le flot débordant de la vie, nous nous rapprochons chaque jour du point d’où aucun voyageur ne revient ; et vous ne savez pas combien de temps il vous reste avant de dériver, à moitié endormi, « au-delà du point de la rédemption ». Ce murmure dans le cœur aujourd’hui, celui d’un verset appris sur les genoux d’une mère ; cette merveilleuse préservation dans un moment de danger extrême ; ce jour où vous vous êtes tenu près d’une tombe ouverte et avez contemplé ses mystères insondables ; cette maladie qui vous a rapproché du Royaume de Dieu, sans toutefois vous y faire entrer — Oh ! qui peut dire quand la Voix vous suppliera pour la dernière fois ?</p>\\n  <figure>\\n    <img src=\\\"/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg\\\" alt=\\\"Des chutes d’eau vues depuis un promontoire rocheux, avec plusieurs silhouettes.\\\">\\n  </figure>\\n  <p>Pouvez-vous dire laquelle de ces circonstances sera le « point au-delà de la Rédemption » de votre vie ? Dieu dit : « Mon Esprit ne luttera pas toujours avec les hommes (Gn 6:3) » et « Si tu avais su, au moins en ce jour qui est le tien, ce qui contribue à ta paix ! Mais maintenant ces choses sont cachées à tes yeux (Lc 19:42). »</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Au-delà du point de la Rédemption\"}",
+    "content_bytes": 3256,
+    "content_evidence_truncated": false,
+    "content_sha256": "76fa8d5bb4e377ff6135c8ac86acfed9159b57b51ca262e480bd8ca677f6e52b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 852,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1477,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1474,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2329
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
