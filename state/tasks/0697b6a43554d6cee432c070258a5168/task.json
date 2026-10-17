@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "978fe7e9bb31415ab42b942b4ceb5856",
   "campaign": "auto-2d52f7c7b3852014ab196ff826962bd2852f904dc676dd551b138e5f76897827",
   "created_at": "2026-10-17T01:39:35+00:00",
   "events": [
@@ -68,25 +67,47 @@
         },
         "total_tokens": 21700
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “In 1736 John and Charles Wesley sailed to America”",
-      "severity": "major",
-      "source_quote": "“At seven I went to the Germans.”",
-      "suggested_fix": "Use a form that preserves the printed hour without converting it to Kiswahili clock time, e.g. “Saa 7 niliwaendea Wajerumani.”",
-      "translation_quote": "“Saa saba niliwaendea Wajerumani.”"
     },
     {
-      "location": "Poem paragraph beginning “Laiti ningekuwa na ndimi elfu”",
-      "severity": "major",
-      "source_quote": "“His blood availed for me.”",
-      "suggested_fix": "Translate the sense that Christ’s blood was effective or sufficient for the speaker, e.g. “Damu yake ilinipatia wokovu.”",
-      "translation_quote": "“damu yake ilinifaa mimi.”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 960,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 733,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14230,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13127,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 15190
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "JOHN AND CHARLES WESLEY, John Wesley’s journal quotation during the storm",
+      "severity": "major",
+      "source_quote": "A terrible screaming began among the English.",
+      "suggested_fix": "Replace with: “Waingereza walianza kupiga kelele za kutisha.”",
+      "translation_quote": "Mwingereza mmoja alianza kupiga kelele za kutisha."
+    },
+    {
+      "location": "JOHN AND CHARLES WESLEY, translated hymn quotation",
+      "severity": "major",
+      "source_quote": "He breaks the power of cancelled sin, He sets the prisoner free;",
+      "suggested_fix": "Replace “Yeye huvunja nguvu za dhambi zilizosamehewa” with “Yeye huvunja nguvu za dhambi zilizofutwa” to retain the sense of sin’s power being cancelled.",
+      "translation_quote": "Yeye huvunja nguvu za dhambi zilizosamehewa, humwachilia mfungwa huru;"
+    }
+  ],
+  "finished_at": "2026-10-17T09:22:12+00:00",
   "id": "0697b6a43554d6cee432c070258a5168",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "swa",
@@ -175,7 +196,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +216,7 @@
     "total_reserved_usd": 0.129553,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1315978de59dd7f19963e32b3d6817620d4fa742c752925c8fc16eb77ce4ccc6",
   "translation_model_actual": "gpt-6-luna"

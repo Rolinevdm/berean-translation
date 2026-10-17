@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "JOHN AND CHARLES WESLEY, John Wesley’s journal quotation during the storm",
+      "severity": "major",
+      "source_quote": "A terrible screaming began among the English.",
+      "suggested_fix": "Replace with: “Waingereza walianza kupiga kelele za kutisha.”",
+      "translation_quote": "Mwingereza mmoja alianza kupiga kelele za kutisha."
+    },
+    {
+      "location": "JOHN AND CHARLES WESLEY, translated hymn quotation",
+      "severity": "major",
+      "source_quote": "He breaks the power of cancelled sin, He sets the prisoner free;",
+      "suggested_fix": "Replace “Yeye huvunja nguvu za dhambi zilizosamehewa” with “Yeye huvunja nguvu za dhambi zilizofutwa” to retain the sense of sin’s power being cancelled.",
+      "translation_quote": "Yeye huvunja nguvu za dhambi zilizosamehewa, humwachilia mfungwa huru;"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

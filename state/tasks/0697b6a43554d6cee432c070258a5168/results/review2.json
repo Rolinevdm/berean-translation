@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "01ad2aa2-303d-44f6-b78b-3a60b7a62120",
+    "response_id": "chatcmpl-EZusRZfQ1aDyMWdtiBbvVF33zsSJ0",
+    "usage": {
+      "completion_tokens": 960,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 733,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14230,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13127,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15190
+    }
+  },
+  "received_at": "2026-10-17T09:22:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "JOHN AND CHARLES WESLEY, John Wesley’s journal quotation during the storm",
+        "severity": "major",
+        "source_quote": "A terrible screaming began among the English.",
+        "suggested_fix": "Replace with: “Waingereza walianza kupiga kelele za kutisha.”",
+        "translation_quote": "Mwingereza mmoja alianza kupiga kelele za kutisha."
+      },
+      {
+        "location": "JOHN AND CHARLES WESLEY, translated hymn quotation",
+        "severity": "major",
+        "source_quote": "He breaks the power of cancelled sin, He sets the prisoner free;",
+        "suggested_fix": "Replace “Yeye huvunja nguvu za dhambi zilizosamehewa” with “Yeye huvunja nguvu za dhambi zilizofutwa” to retain the sense of sin’s power being cancelled.",
+        "translation_quote": "Yeye huvunja nguvu za dhambi zilizosamehewa, humwachilia mfungwa huru;"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
