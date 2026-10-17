@@ -34111,6 +34111,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/c6596509-ad91-49b6-a55b-d850c3b72c14.html",
+      "html_sha256": "cfffa17713bae30085adf2d509649ef6534761468b1c928faf747e1710e996e8",
+      "human_reviewed": false,
+      "id": "c6596509-ad91-49b6-a55b-d850c3b72c14",
+      "images": [
+        {
+          "alt": "गुलाब का निकट से लिया गया चित्र।",
+          "public_path": "/images/articles/c6596509-ad91-49b6-a55b-d850c3b72c14-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/c6596509-ad91-49b6-a55b-d850c3b72c14.json",
+      "metadata_sha256": "5b4f561b618dd8242ae040286555ee041405e099b0f5ce63ce51ea47d32b2fdd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "0e0d3461779cb69fe2b7abdcf38f790945684497a7280f617caa1679f055a962",
+      "status": "ready",
+      "subtitle": null,
+      "title": "हम अपनी युवा लड़कियों को भविष्य के लिए कैसे तैयार करते हैं?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf.html",
       "html_sha256": "da0a5d63deca09d41d4d19e8a6d265fd5f85e69c2fbe6f6d58bea684294f8d3f",
       "human_reviewed": false,
@@ -47343,6 +47371,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "죄인의 죽음",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/c6596509-ad91-49b6-a55b-d850c3b72c14.html",
+      "html_sha256": "53bfe839ecf0d36105bd9dac240947b91d047906dbaf11867c94d0f15d03dd88",
+      "human_reviewed": false,
+      "id": "c6596509-ad91-49b6-a55b-d850c3b72c14",
+      "images": [
+        {
+          "alt": "장미를 클로즈업한 사진.",
+          "public_path": "/images/articles/c6596509-ad91-49b6-a55b-d850c3b72c14-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/c6596509-ad91-49b6-a55b-d850c3b72c14.json",
+      "metadata_sha256": "4ee6573091e13d2ab5d2340a5ab846cfae803408f7db0d040a9158464432de2b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "0e0d3461779cb69fe2b7abdcf38f790945684497a7280f617caa1679f055a962",
+      "status": "ready",
+      "subtitle": null,
+      "title": "젊은 딸들을 미래를 위해 어떻게 준비시킬까요?",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -80089,6 +80145,29 @@
       "subtitle": null,
       "title": "آپ کیا دیکھتے ہیں؟",
       "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/8cbcdd10-5627-42b1-b948-ee7f93c1d648.html",
+      "html_sha256": "499b2eb6e9e3d8b8673f5c71c7a061fbef861f7c1b9494f050dda7c1617826d6",
+      "human_reviewed": false,
+      "id": "8cbcdd10-5627-42b1-b948-ee7f93c1d648",
+      "images": [],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/8cbcdd10-5627-42b1-b948-ee7f93c1d648.json",
+      "metadata_sha256": "3e8b7a07a4230945e521490e926b9bf091f1eb8b7613e19b5244984665824055",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "792f760b5dae3367ddf358bfad50f24a9b4b78f01a554430322b1385994abc60",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ننھا شرارتی",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
