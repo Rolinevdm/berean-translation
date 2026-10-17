@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "성경 공부 문단",
+      "severity": "minor",
+      "source_quote": "“...having studies and discussions of specific books of the Bible from the time they are little until the day they leave home.”",
+      "suggested_fix": "“남편이 아이들이 어릴 때부터 집을 떠나는 날까지 여러 해에 걸쳐 성경의 특정 책들을 공부하고 토론하며 아이들에게 성경을 가르쳐 주는 것이 참으로 감사합니다.”",
+      "translation_quote": "“남편이 아이들이 어릴 때부터 집을 떠나는 날까지 해마다 성경을 가르치고, 성경의 특정 책들을 공부하고 토론해 주는 것이 참으로 감사합니다.”"
+    },
+    {
+      "location": "맺음말 인용문",
+      "severity": "minor",
+      "source_quote": "“Train up a ‘youth’ in the way ‘she’ should go: and when ‘she’ is old, ‘she’ will not depart from it.”",
+      "suggested_fix": "여성 청소년을 가리키는 표현을 살려 “소녀를 그가 가야 할 길로 훈련하라. 그리하면 늙어서도 그 길을 떠나지 아니하리라.”처럼 옮길 수 있습니다.",
+      "translation_quote": "“아이를 그가 가야 할 길로 훈련하라. 그리하면 늙어서도 그 길을 떠나지 아니하리라.”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
