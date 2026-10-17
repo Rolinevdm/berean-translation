@@ -5,10 +5,31 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "73f85dea7cc3411ab7ebfce8582d35aa",
   "campaign": "auto-e94bd315c54b2354afc784b94073d951b283a12fe14b7f344bce7e891be9ed8a",
   "created_at": "2026-10-17T21:32:59+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 2044,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 43,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5005,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3970,
+          "cached_tokens": 1032
+        },
+        "total_tokens": 7049
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [
     {
       "location": "Paragraph beginning “If you read this like I do” and Acts 2:16–18 quotation",
@@ -110,7 +131,7 @@
   "review_attempts": 0,
   "review_model": "gpt-6.1-sol",
   "source_snapshot": "state/sources/d86fae6b62a1aad4307db08ad26833b192aa341005e401b2e7eae37ccd727434.json",
-  "stage": "correct",
+  "stage": "review2",
   "stage_budget": {
     "initial_stage": "correct",
     "max_candidate_bytes": 120000,
@@ -122,8 +143,8 @@
     "total_reserved_usd": 0.562449,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ebf0e2a8b059fecb2edcd52028934f1866fdc241103ca520f56f1480ac9a6e62",
-  "translation_model_actual": "gpt-6-luna"
+  "translation_model_actual": "gpt-6.1-sol"
 }
