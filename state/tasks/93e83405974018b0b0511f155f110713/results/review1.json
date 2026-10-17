@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0c0ef027-8b82-4fb5-a7a4-ceeed829c8da",
+    "response_id": "chatcmpl-EZs4f39vhPDvCK9rllqwrGQm8u42N",
+    "usage": {
+      "completion_tokens": 1184,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1016,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2802,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1699,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3986
+    }
+  },
+  "received_at": "2026-10-17T06:24:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "پہلا حصہ، تیسرا پیراگراف",
+        "severity": "minor",
+        "source_quote": "the eddying waters had him as a straw in their giant grasp, and hurled him unseen and powerless into the vortex",
+        "suggested_fix": "اسے اپنی دیوہیکل گرفت میں تنکے کی طرح جکڑ لیا اور بے بس و نظروں سے اوجھل اسے اس گرداب میں پھینک دیا",
+        "translation_quote": "بھنور کھاتے پانی نے اسے اپنی دیوہیکل گرفت میں تنکے کی طرح جکڑ لیا اور بے دردی سے گھما کر اس گرداب میں پھینک دیا"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
