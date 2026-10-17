@@ -1,0 +1,80 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "0e15b41b-42d8-4ef3-96c8-14fc10d30b94",
+    "response_id": "chatcmpl-EZusWezqOzhwxWsyZWZoiMD3DSGja",
+    "usage": {
+      "completion_tokens": 994,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 143,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4095,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4092,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5089
+    }
+  },
+  "received_at": "2026-10-17T09:22:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, innledende bibelsitat",
+        "severity": "minor",
+        "source_quote": "The angel of the LORD",
+        "suggested_fix": "Endre «Herren engel» til «Herrens engel».",
+        "translation_quote": "Herren engel"
+      },
+      {
+        "location": "html, begge img-elementenes alt-attributter",
+        "severity": "minor",
+        "source_quote": "A brindle dog wearing a chain collar; Farm fields and buildings across a rolling rural valley in autumn",
+        "suggested_fix": "Bruk henholdsvis «En tigret hund med kjettinghalsbånd» og «Åkre og gårdsbygninger i en bølgende dal om høsten», med øvrige bildeattributter uendret.",
+        "translation_quote": "En brindle hund som har et kjettinghalsbånd; Gårdsåkere og bygninger over en bølgende landsdal om høsten"
+      },
+      {
+        "location": "html, avsnittet om avstanden til naboene",
+        "severity": "minor",
+        "source_quote": "about half a mile ... about another quarter of a mile",
+        "suggested_fix": "Erstatt avstandene med «omtrent 800 meter» og «omtrent 400 meter til», slik at målene blir klare på norsk uten den engelske parentesen.",
+        "translation_quote": "omtrent en halv mile (half a mile) ... omtrent en kvart mile"
+      },
+      {
+        "location": "html, avsnittet som begynner «Vi bodde»",
+        "severity": "minor",
+        "source_quote": "back a short lane along a dirt road",
+        "suggested_fix": "Erstatt «tilbake langs en liten grusvei» med «et lite stykke inn en sidevei fra en grusvei».",
+        "translation_quote": "tilbake langs en liten grusvei"
+      },
+      {
+        "location": "html, avsnittene om skoleveien og hundens bjeffing",
+        "severity": "minor",
+        "source_quote": "the little errand ... The Rhine family had an old man living in their summer house ... his fierce barking and growling",
+        "suggested_fix": "Endre «den lille ærendet» til «det lille ærendet», «i sommerhuset sitt» til «i familiens sommerhus» og «sitt kraftige bjeffing og knurring» til «den voldsomme bjeffingen og knurringen sin».",
+        "translation_quote": "den lille ærendet ... Rhine-familien hadde en gammel mann som bodde i sommerhuset sitt ... sitt kraftige bjeffing og knurring"
+      },
+      {
+        "location": "html, avsnittene om ankomsten til Rhine og hundens angrep",
+        "severity": "minor",
+        "source_quote": "right before Neighbor Rhine’s place ... the air was shattered ... froze in our tracks",
+        "suggested_fix": "Endre uttrykkene til henholdsvis «like før gården til naboen Rhine», «ble stillheten brutt» og «stivnet der vi sto».",
+        "translation_quote": "rett før naboskapet til Rhine ... ble luften sprengt ... frøs til stedet"
+      },
+      {
+        "location": "html, bestemors svar til Micah",
+        "severity": "minor",
+        "source_quote": "Pierce did not get rid of his dog",
+        "suggested_fix": "Endre til «Pierce kvittet seg ikke med hunden».",
+        "translation_quote": "Pierce gjorde ikke seg av med hunden"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 95
+  }
+}

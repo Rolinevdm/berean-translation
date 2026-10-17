@@ -5,11 +5,83 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f1031b79ef24427dba29f5e86f7ae045",
   "campaign": "auto-a3e24641ca763eda60f7368572112c5f244d054c122a92ba900e1568a301c246",
   "created_at": "2026-10-17T09:15:24+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 994,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 143,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4095,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4092,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5089
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, innledende bibelsitat",
+      "severity": "minor",
+      "source_quote": "The angel of the LORD",
+      "suggested_fix": "Endre «Herren engel» til «Herrens engel».",
+      "translation_quote": "Herren engel"
+    },
+    {
+      "location": "html, begge img-elementenes alt-attributter",
+      "severity": "minor",
+      "source_quote": "A brindle dog wearing a chain collar; Farm fields and buildings across a rolling rural valley in autumn",
+      "suggested_fix": "Bruk henholdsvis «En tigret hund med kjettinghalsbånd» og «Åkre og gårdsbygninger i en bølgende dal om høsten», med øvrige bildeattributter uendret.",
+      "translation_quote": "En brindle hund som har et kjettinghalsbånd; Gårdsåkere og bygninger over en bølgende landsdal om høsten"
+    },
+    {
+      "location": "html, avsnittet om avstanden til naboene",
+      "severity": "minor",
+      "source_quote": "about half a mile ... about another quarter of a mile",
+      "suggested_fix": "Erstatt avstandene med «omtrent 800 meter» og «omtrent 400 meter til», slik at målene blir klare på norsk uten den engelske parentesen.",
+      "translation_quote": "omtrent en halv mile (half a mile) ... omtrent en kvart mile"
+    },
+    {
+      "location": "html, avsnittet som begynner «Vi bodde»",
+      "severity": "minor",
+      "source_quote": "back a short lane along a dirt road",
+      "suggested_fix": "Erstatt «tilbake langs en liten grusvei» med «et lite stykke inn en sidevei fra en grusvei».",
+      "translation_quote": "tilbake langs en liten grusvei"
+    },
+    {
+      "location": "html, avsnittene om skoleveien og hundens bjeffing",
+      "severity": "minor",
+      "source_quote": "the little errand ... The Rhine family had an old man living in their summer house ... his fierce barking and growling",
+      "suggested_fix": "Endre «den lille ærendet» til «det lille ærendet», «i sommerhuset sitt» til «i familiens sommerhus» og «sitt kraftige bjeffing og knurring» til «den voldsomme bjeffingen og knurringen sin».",
+      "translation_quote": "den lille ærendet ... Rhine-familien hadde en gammel mann som bodde i sommerhuset sitt ... sitt kraftige bjeffing og knurring"
+    },
+    {
+      "location": "html, avsnittene om ankomsten til Rhine og hundens angrep",
+      "severity": "minor",
+      "source_quote": "right before Neighbor Rhine’s place ... the air was shattered ... froze in our tracks",
+      "suggested_fix": "Endre uttrykkene til henholdsvis «like før gården til naboen Rhine», «ble stillheten brutt» og «stivnet der vi sto».",
+      "translation_quote": "rett før naboskapet til Rhine ... ble luften sprengt ... frøs til stedet"
+    },
+    {
+      "location": "html, bestemors svar til Micah",
+      "severity": "minor",
+      "source_quote": "Pierce did not get rid of his dog",
+      "suggested_fix": "Endre til «Pierce kvittet seg ikke med hunden».",
+      "translation_quote": "Pierce gjorde ikke seg av med hunden"
+    }
+  ],
+  "finished_at": "2026-10-17T09:22:36+00:00",
   "id": "3dc3193aaf1f2fa332a9529e71460cdc",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "nob",
@@ -98,9 +170,11 @@
     }
   },
   "protected": false,
+  "quality_score": 95,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/024b14cea96a528a42f66f77d442fb07d0e5035a02e35254ae96bf4fcc0c193f.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +189,7 @@
     "total_reserved_usd": 0.701246,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
