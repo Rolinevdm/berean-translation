@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c92dc54eb72941a588274ff58785ea92",
   "campaign": "auto-396d8ed540719915df5cf5cf8726703abbd3a8c4750b8c7e2884dea265d694cb",
   "created_at": "2026-10-17T09:23:11+00:00",
   "events": [
@@ -28,25 +27,31 @@
         },
         "total_tokens": 22148
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 122,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 90,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14271,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13168,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 14393
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "JOHN AND CHARLES WESLEY, John Wesley’s journal quotation during the storm",
-      "severity": "major",
-      "source_quote": "A terrible screaming began among the English.",
-      "suggested_fix": "Replace with: “Waingereza walianza kupiga kelele za kutisha.”",
-      "translation_quote": "Mwingereza mmoja alianza kupiga kelele za kutisha."
-    },
-    {
-      "location": "JOHN AND CHARLES WESLEY, translated hymn quotation",
-      "severity": "major",
-      "source_quote": "He breaks the power of cancelled sin, He sets the prisoner free;",
-      "suggested_fix": "Replace “Yeye huvunja nguvu za dhambi zilizosamehewa” with “Yeye huvunja nguvu za dhambi zilizofutwa” to retain the sense of sin’s power being cancelled.",
-      "translation_quote": "Yeye huvunja nguvu za dhambi zilizosamehewa, humwachilia mfungwa huru;"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-17T17:00:18+00:00",
   "id": "7dd68fb92248fcb39c61a6f39db60e51",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "swa",
@@ -135,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/6062a77bf284ac23daf4c2904c301b3a26e8b0caf3154aaa6cb610cdfb8af454.json",
   "stage": "review2",
   "stage_budget": {
@@ -151,7 +158,7 @@
     "total_reserved_usd": 0.989132,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1315978de59dd7f19963e32b3d6817620d4fa742c752925c8fc16eb77ce4ccc6",
   "translation_model_actual": "gpt-6.1-sol"
