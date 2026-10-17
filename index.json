@@ -17045,6 +17045,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.html",
+      "html_sha256": "8503242a8fb6368a3cb67bd1281982fb6b4c818a92402b139b89c6a93870332b",
+      "human_reviewed": false,
+      "id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
+      "images": [
+        {
+          "alt": "Eine kleine weiße Kirche in einem Bergtal",
+          "public_path": "/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.json",
+      "metadata_sha256": "1a0e025df5c6d8e455bbf437c6f2ce58d90d634ce2b42b171bd5798e73510002",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "KIRCHENGESCHICHTE",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
+      "status": "ready",
+      "subtitle": "NAZI-DEUTSCHLAND UND DIE MENNONITEN",
+      "title": "Die Integrität der Kirche",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
       "html_sha256": "8a82a4c7bd10ed8a8a8238236da407e48d2e1170bdbafafe8705c00567877066",
       "human_reviewed": false,
