@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cf3c3daf-74a3-47ed-bb56-2a218606ae46",
+    "response_id": "chatcmpl-EZz2PulKhwaIzN0Oi63aNeL2u4g99",
+    "usage": {
+      "completion_tokens": 721,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2703,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1600,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3424
+    }
+  },
+  "received_at": "2026-10-17T13:49:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph",
+        "severity": "major",
+        "source_quote": "“swam those twenty-five miles”",
+        "suggested_fix": "Change «25 milene» to «25 engelske milene» (or another wording that clearly means 25 English miles).",
+        "translation_quote": "«svømte den berømte svømmeren Matthew Webb disse 25 milene»"
+      },
+      {
+        "location": "Final paragraph",
+        "severity": "major",
+        "source_quote": "“which of these circumstances shall be the ‘Past Redemption Point’ of your life?”",
+        "suggested_fix": "Restore the sense of crossing beyond redemption, for example: «hvilken av disse omstendighetene som blir punktet der du passerer frelsens grense i livet ditt»",
+        "translation_quote": "«hvilken av disse omstendighetene som blir «frelsens punkt» i ditt liv?»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 89
+  }
+}

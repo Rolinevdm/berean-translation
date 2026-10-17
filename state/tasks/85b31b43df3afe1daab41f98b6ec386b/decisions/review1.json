@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "major",
+      "source_quote": "“swam those twenty-five miles”",
+      "suggested_fix": "Change «25 milene» to «25 engelske milene» (or another wording that clearly means 25 English miles).",
+      "translation_quote": "«svømte den berømte svømmeren Matthew Webb disse 25 milene»"
+    },
+    {
+      "location": "Final paragraph",
+      "severity": "major",
+      "source_quote": "“which of these circumstances shall be the ‘Past Redemption Point’ of your life?”",
+      "suggested_fix": "Restore the sense of crossing beyond redemption, for example: «hvilken av disse omstendighetene som blir punktet der du passerer frelsens grense i livet ditt»",
+      "translation_quote": "«hvilken av disse omstendighetene som blir «frelsens punkt» i ditt liv?»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
