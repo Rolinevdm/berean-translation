@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T21:31:06+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragraph quoting Proverbs 15:16\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Better is little with the fear of the LORD than great treasure and trouble therewith\",\n      \"suggested_fix\": \"Replace “Lebih baik sedikit yang takut akan TUHAN” with “Lebih baik memiliki sedikit harta disertai takut akan TUHAN”, preserving the surrounding HTML and reference.\",\n      \"translation_quote\": \"Lebih baik sedikit yang takut akan TUHAN daripada harta besar dengan kesusahan karenanya\"\n    },\n    {\n      \"location\": \"html, paragraph beginning “Rajinlah melakukan pekerjaanmu”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Don’t be quarrelsome, talkative, light-minded, proud, or surly of speech.\",\n      \"suggested_fix\": \"Replace “ringan hati” with “berpikiran dangkal”. “Ringan hati” suggests willingness or cheerfulness rather than the frivolous disposition prohibited here.\",\n      \"translation_quote\": \"Jangan suka bertengkar, banyak bicara, ringan hati, sombong, atau kasar dalam ucapan.\"\n    },\n    {\n      \"location\": \"html, instructions to David and paragraph quoting Revelation 19:7-8\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"I commend you to the Lord.\",\n      \"suggested_fix\": \"Replace “aku memperserahkanmu kepada Tuhan” with “aku menyerahkanmu kepada Tuhan” and “Aku memperserahkan kalian kepada Tuhan” with “Aku menyerahkan kalian kepada Tuhan”.\",\n      \"translation_quote\": \"aku memperserahkanmu kepada Tuhan; Aku memperserahkan kalian kepada Tuhan\"\n    },\n    {\n      \"location\": \"html, paragraph beginning “Sayangilah satu sama lain”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Be kind to your sisters.\",\n      \"suggested_fix\": \"Replace “saudari-saudaramu” with “saudari-saudarimu”.\",\n      \"translation_quote\": \"Bersikaplah baik kepada saudari-saudaramu.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1972,
+    "content_evidence_truncated": false,
+    "content_sha256": "421936038cf756f8f06ec162a6d4a863ed86008ebde817b7e455f7c2d4f03d79",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 113,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9302,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9299,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9909
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

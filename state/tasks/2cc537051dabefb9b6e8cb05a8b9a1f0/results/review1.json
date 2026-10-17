@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "10d6e8cd-7269-41f8-b920-08e029d63feb",
+    "response_id": "chatcmpl-Ea4wTD8UIweu0Hn4FnymqSOCMiSUT",
+    "usage": {
+      "completion_tokens": 607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 113,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9302,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9299,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9909
+    }
+  },
+  "received_at": "2026-10-17T21:31:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraph quoting Proverbs 15:16",
+        "severity": "major",
+        "source_quote": "Better is little with the fear of the LORD than great treasure and trouble therewith",
+        "suggested_fix": "Replace “Lebih baik sedikit yang takut akan TUHAN” with “Lebih baik memiliki sedikit harta disertai takut akan TUHAN”, preserving the surrounding HTML and reference.",
+        "translation_quote": "Lebih baik sedikit yang takut akan TUHAN daripada harta besar dengan kesusahan karenanya"
+      },
+      {
+        "location": "html, paragraph beginning “Rajinlah melakukan pekerjaanmu”",
+        "severity": "major",
+        "source_quote": "Don’t be quarrelsome, talkative, light-minded, proud, or surly of speech.",
+        "suggested_fix": "Replace “ringan hati” with “berpikiran dangkal”. “Ringan hati” suggests willingness or cheerfulness rather than the frivolous disposition prohibited here.",
+        "translation_quote": "Jangan suka bertengkar, banyak bicara, ringan hati, sombong, atau kasar dalam ucapan."
+      },
+      {
+        "location": "html, instructions to David and paragraph quoting Revelation 19:7-8",
+        "severity": "minor",
+        "source_quote": "I commend you to the Lord.",
+        "suggested_fix": "Replace “aku memperserahkanmu kepada Tuhan” with “aku menyerahkanmu kepada Tuhan” and “Aku memperserahkan kalian kepada Tuhan” with “Aku menyerahkan kalian kepada Tuhan”.",
+        "translation_quote": "aku memperserahkanmu kepada Tuhan; Aku memperserahkan kalian kepada Tuhan"
+      },
+      {
+        "location": "html, paragraph beginning “Sayangilah satu sama lain”",
+        "severity": "minor",
+        "source_quote": "Be kind to your sisters.",
+        "suggested_fix": "Replace “saudari-saudaramu” with “saudari-saudarimu”.",
+        "translation_quote": "Bersikaplah baik kepada saudari-saudaramu."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
