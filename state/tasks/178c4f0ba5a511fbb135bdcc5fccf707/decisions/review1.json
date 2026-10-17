@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "major",
+      "source_quote": "“those twenty-five miles”",
+      "suggested_fix": "Replace “tjugofem milen” with “25 miles (cirka 40 kilometer)” to preserve the distance without changing it to 250 km.",
+      "translation_quote": "“de där tjugofem milen”"
+    },
+    {
+      "location": "Title and paragraphs 4–6",
+      "severity": "major",
+      "source_quote": "“Past Redemption Point”; “past redemption point”; “the ‘Past Redemption Point’ of your life”",
+      "suggested_fix": "Use a consistent Swedish rendering that preserves the spiritual sense of redemption, for example “Bortom frälsningens gräns,” in the title and all three occurrences in the article.",
+      "translation_quote": "“Bortom räddningspunkten”; “bortom räddningspunkten”; “bortom räddningspunkten”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

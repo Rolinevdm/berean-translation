@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-17T13:49:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First paragraph\",\"severity\":\"major\",\"source_quote\":\"“those twenty-five miles”\",\"suggested_fix\":\"Replace “tjugofem milen” with “25 miles (cirka 40 kilometer)” to preserve the distance without changing it to 250 km.\",\"translation_quote\":\"“de där tjugofem milen”\"},{\"location\":\"Title and paragraphs 4–6\",\"severity\":\"major\",\"source_quote\":\"“Past Redemption Point”; “past redemption point”; “the ‘Past Redemption Point’ of your life”\",\"suggested_fix\":\"Use a consistent Swedish rendering that preserves the spiritual sense of redemption, for example “Bortom frälsningens gräns,” in the title and all three occurrences in the article.\",\"translation_quote\":\"“Bortom räddningspunkten”; “bortom räddningspunkten”; “bortom räddningspunkten”\"}],\"findings_complete\":true,\"passed\":false,\"score\":89}",
+    "content_bytes": 866,
+    "content_evidence_truncated": false,
+    "content_sha256": "103b61c257a95ea801295547a2eedf783b445406c9c55c199832b4936beb2088",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 889,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 665,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2719,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1616,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3608
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
