@@ -7,9 +7,32 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "ead0e99b79b4c0919f381749671e5041"
+    },
+    {
+      "at": "2026-10-17T10:59:40+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "ead0e99b79b4c0919f381749671e5041"
     }
   ],
   "language": "ell",
   "latest_task": "ead0e99b79b4c0919f381749671e5041",
-  "published": null
+  "published": {
+    "html_path": "content/ell/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
+    "html_sha256": "f23bb1f2338b00199cbaf9cd6dfe6e7bae346dc6a7ad8a95b9cbbc9970342d1b",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+    "metadata_path": "content/ell/articles/1f294c3b-4295-4493-8a52-a33af40f298b.json",
+    "metadata_sha256": "72abf50a3d6e4ae66f32ca1bb01a1e5c7c80e9238c9b1c696b17ca443d041075",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"el\" dir=\"ltr\" role=\"note\">\n  <p>Το άρθρο αυτό μεταφράστηκε με τεχνητή νοημοσύνη της OpenAI (μοντέλο: gpt-6-luna) και δεν έχει ακόμη ελεγχθεί από άνθρωπο. Το αγγλικό πρωτότυπο αποτελεί την αυθεντική έκδοση αναφοράς. Σε περίπτωση αμφιβολίας για το νόημα, συμβουλευτείτε το αγγλικό πρωτότυπο. <a href=\"/en/articles/1f294c3b-4295-4493-8a52-a33af40f298b/\" data-source-article-id=\"1f294c3b-4295-4493-8a52-a33af40f298b\" hreflang=\"en\">Αγγλικό πρωτότυπο</a></p>\n</aside>",
+    "published_at": "2026-10-17T10:59:40+00:00",
+    "quality_score": 99,
+    "review_model": "gpt-6-luna",
+    "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+    "source_snapshot": "state/sources/a77c134fa5dc80aa7e5f608d8bf402f9cff7d2d8c52b4f05f1b41e3d54f246e5.json",
+    "task": "ead0e99b79b4c0919f381749671e5041",
+    "translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8"
+  }
 }
