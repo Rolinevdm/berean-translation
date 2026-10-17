@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2d27afdd-cf18-4578-a690-444ba170313e",
+    "response_id": "chatcmpl-EZnmxvtPzx9E8VW0wJP2gynHfGQ7w",
+    "usage": {
+      "completion_tokens": 881,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 696,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4837,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4834,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5718
+    }
+  },
+  "received_at": "2026-10-17T04:15:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "פסקה 1",
+        "severity": "minor",
+        "source_quote": "to have my soul happy in the Lord",
+        "suggested_fix": "להביא שמחה לנפשי באדון",
+        "translation_quote": "להשיב את נפשי על סיפוקה באדון"
+      },
+      {
+        "location": "פסקה 6",
+        "severity": "minor",
+        "source_quote": "humbling of soul",
+        "suggested_fix": "השפלת הלב",
+        "translation_quote": "השפלה של הנפש"
+      },
+      {
+        "location": "פסקה 9",
+        "severity": "minor",
+        "source_quote": "a measure of strength or godly desire",
+        "suggested_fix": "מידה של כוח או תשוקה רוחנית",
+        "translation_quote": "מידה של כוח או תשוקה godly"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}
