@@ -2568,6 +2568,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.html",
+      "html_sha256": "6b711df71f69b8f75c4b41f6a2ffa33c828118f5e087dcfff235597681b762b3",
+      "human_reviewed": false,
+      "id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
+      "images": [
+        {
+          "alt": "’n Mistige herfsbos wat in ’n kalm meer weerspieël word",
+          "public_path": "/images/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.json",
+      "metadata_sha256": "01be00c0bfb54fed7269c674ef060a363b38ae6a45a0375bde02806b6f446b53",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "’n Woord van ’n Dokter",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Depressie",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/924514c7-52be-4e2b-ab75-3141e14ea9a0.html",
       "html_sha256": "3d279cae2b65ab0c3db71d94e2741db95e713ccb9c2fa7d3b7fca0401902b23a",
       "human_reviewed": false,
@@ -73985,6 +74013,34 @@
       "subtitle": null,
       "title": null,
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.html",
+      "html_sha256": "baf834af89aa52a641ffc8a5064aa28598cda1895b8267d57fb111e77638e31f",
+      "human_reviewed": false,
+      "id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
+      "images": [
+        {
+          "alt": "Msitu wa majira ya vuli wenye ukungu unaoakisiwa katika ziwa tulivu",
+          "public_path": "/images/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.json",
+      "metadata_sha256": "c58a0452b722923030ca9efc9b18d3c116e0dab0250a6b8a40dc85d33fe601c9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Neno kutoka kwa Daktari",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Unyogovu",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
