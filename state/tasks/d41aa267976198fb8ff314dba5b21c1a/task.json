@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48e487ea2c3c44e6b5c7bbc7e802c93c",
   "campaign": "auto-5b2834598274200415a7aaeec3b99b3767e361e7cb2c2a20399f1012ca437e4b",
   "created_at": "2026-10-18T00:55:45+00:00",
   "events": [
@@ -68,32 +67,39 @@
         },
         "total_tokens": 24877
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1011,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 905,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 16098,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 16095,
+          "cached_tokens": 0
+        },
+        "total_tokens": 17109
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Article, paragraph beginning “David Cooper was speaking”",
-      "severity": "major",
-      "source_quote": "“And my prayer for you is that you would be delivered in the name of Jesus.”",
-      "suggested_fix": "“और आपके लिए मेरी प्रार्थना है कि यीशु के नाम में आप छुटकारा पाएँ।”",
-      "translation_quote": "“और आपके लिए मेरी प्रार्थना है कि यीशु के नाम में आपका उद्धार हो।”"
-    },
-    {
-      "location": "Article, paragraph beginning “I was seriously making plans to run away again”",
-      "severity": "major",
-      "source_quote": "“A greater Head had a better idea.”",
-      "suggested_fix": "“लेकिन परमेश्वर की एक श्रेष्ठ योजना थी।”",
-      "translation_quote": "“एक महानतर मस्तिष्क की योजना इससे बेहतर थी।”"
-    },
-    {
-      "location": "Article, paragraph containing the quoted sermon beginning “I want to thank all of you visitors”",
+      "location": "HTML paragraph beginning “I was seriously making plans to run away again”",
       "severity": "minor",
-      "source_quote": "“Some of you are unbelieving”—and some of us are all three—and defiled just like 1 Corinthians says—“And I pray that the mercy of God would be with you tonight...”",
-      "suggested_fix": "“आपमें से कुछ अविश्वासी हैं”—और हममें से कुछ तीनों ही हैं—“और 1 कुरिन्थियों के अनुसार अशुद्ध हैं”—“और मैं प्रार्थना करता हूँ कि आज रात परमेश्वर की दया आपके साथ हो...”",
-      "translation_quote": "“आपमें से कुछ अविश्वासी हैं”—और हममें से कुछ तीनों ही हैं—“और 1 कुरिन्थियों के कथन के अनुसार अशुद्ध हैं—”और मैं प्रार्थना करता हूँ कि आज रात परमेश्वर की दया आपके साथ हो..."
+      "source_quote": "“A greater Head had a better idea.”",
+      "suggested_fix": "“परमेश्वर की एक बेहतर योजना थी।”",
+      "translation_quote": "“एक महानतर मुखिया के पास इससे बेहतर विचार था।”"
     }
   ],
+  "finished_at": "2026-10-18T05:53:41+00:00",
   "id": "d41aa267976198fb8ff314dba5b21c1a",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "hin",
@@ -182,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +208,7 @@
     "total_reserved_usd": 0.130302,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "11c28bf114f234094c18d24228f24b70a3066d4fe9e7c681b61528fe1e483ca7",
   "translation_model_actual": "gpt-6-luna"

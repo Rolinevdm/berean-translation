@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning “I was seriously making plans to run away again”",
+      "severity": "minor",
+      "source_quote": "“A greater Head had a better idea.”",
+      "suggested_fix": "“परमेश्वर की एक बेहतर योजना थी।”",
+      "translation_quote": "“एक महानतर मुखिया के पास इससे बेहतर विचार था।”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
