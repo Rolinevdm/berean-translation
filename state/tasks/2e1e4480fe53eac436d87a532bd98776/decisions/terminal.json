@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, avsnittet som begynner «Jeg føler at jeg knapt kan slutte å advare deg»",
+      "severity": "minor",
+      "source_quote": "Be admonished that the indignation of God be not your eternal lot.",
+      "suggested_fix": "Endre «din evige lodd» til «ditt evige lodd».",
+      "translation_quote": "Ta imot advarselen, så ikke Guds vrede blir din evige lodd."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

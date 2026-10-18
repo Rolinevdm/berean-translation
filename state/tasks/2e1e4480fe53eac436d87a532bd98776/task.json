@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8962d6f4d7074504ae34b563a0e7216d",
   "campaign": "auto-88b19c802ba6d5298e6ce99c76032f2b2002157f281ff546391c6c764790c9d1",
   "created_at": "2026-10-18T00:55:59+00:00",
   "events": [
@@ -28,18 +27,39 @@
         },
         "total_tokens": 18415
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 163,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 34,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12274,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11171,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12437
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[5]: source /article[1]/p[1]/sup[1] ('start', 'sup', ()); translation /article[1]/p[1]/em[1] ('start', 'em', ())",
-      "translation_quote": ""
+      "location": "translation.html, avsnittet som begynner «Jeg føler at jeg knapt kan slutte å advare deg»",
+      "severity": "minor",
+      "source_quote": "Be admonished that the indignation of God be not your eternal lot.",
+      "suggested_fix": "Endre «din evige lodd» til «ditt evige lodd».",
+      "translation_quote": "Ta imot advarselen, så ikke Guds vrede blir din evige lodd."
     }
   ],
+  "finished_at": "2026-10-18T05:47:25+00:00",
   "id": "2e1e4480fe53eac436d87a532bd98776",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "nob",
@@ -128,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/e1e80992d4fe206ce7209ca087fdffd3f4ceb6791083845c0558599338975b01.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +166,7 @@
     "total_reserved_usd": 0.610138,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f5b7fccc6a524e1449727b9ca39fdaa2ec8b679f58d19ba28c92689583cbcf46",
   "translation_model_actual": "gpt-6.1-sol"

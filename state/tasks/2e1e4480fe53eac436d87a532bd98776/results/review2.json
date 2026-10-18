@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "296cba6f-a7ff-41d1-8b66-d6345b51934b",
+    "response_id": "chatcmpl-Ea9nyJroi3wG9BnedOffy8L2p1vtq",
+    "usage": {
+      "completion_tokens": 163,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 34,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12274,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11171,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12437
+    }
+  },
+  "received_at": "2026-10-18T05:47:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, avsnittet som begynner «Jeg føler at jeg knapt kan slutte å advare deg»",
+        "severity": "minor",
+        "source_quote": "Be admonished that the indignation of God be not your eternal lot.",
+        "suggested_fix": "Endre «din evige lodd» til «ditt evige lodd».",
+        "translation_quote": "Ta imot advarselen, så ikke Guds vrede blir din evige lodd."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
