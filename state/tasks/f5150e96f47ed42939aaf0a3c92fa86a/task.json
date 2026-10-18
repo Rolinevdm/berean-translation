@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "afc0ece0d5394f1e82b77d62f5340ec3",
   "campaign": "auto-9aa65844d309bcde761d6f33e6bdeafe472bc4ef6889f79a33ba9b6259200ddc",
   "created_at": "2026-10-18T01:20:23+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 12921
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 62,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 30,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8466,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7363,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8528
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html: नहेमायाह 2:12 का उद्धरण",
-      "severity": "major",
-      "source_quote": "neither told I any man what my God had put in my heart to do at Jerusalem",
-      "suggested_fix": "इस अंश को करें: “और <u>जो काम मेरे परमेश्वर ने यरूशलेम में करने के लिए मेरे मन में डाला था</u>, वह मैंने किसी को नहीं बताया”।",
-      "translation_quote": "और <u>जो काम मेरे परमेश्वर ने मेरे मन में करने के लिए डाला था</u>, वह मैंने यरूशलेम में किसी को नहीं बताया"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-18T05:53:43+00:00",
   "id": "f5150e96f47ed42939aaf0a3c92fa86a",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "hin",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/41bb4aeb4b6fcd3345fb5e3f1661eb3f49666cb069a44e17468ab987568b94b2.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.603583,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
   "translation_model_actual": "gpt-6.1-sol"
