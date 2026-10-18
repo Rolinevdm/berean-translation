@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T05:53:46+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragrafo 15, citazione di Apocalisse 12:11\",\n      \"severity\": \"major\",\n      \"source_quote\": \"And they overcame him by the blood of the Lamb\",\n      \"suggested_fix\": \"Sostituire «Egli li sconfissero» con «Ed essi lo vinsero», mantenendo il resto della citazione e il riferimento.\",\n      \"translation_quote\": \"Egli li sconfissero per mezzo del sangue dell’Agnello\"\n    },\n    {\n      \"location\": \"html, paragrafo 7\",\n      \"severity\": \"major\",\n      \"source_quote\": \"since the shot admittedly mostly reduces symptoms instead of producing immunity\",\n      \"suggested_fix\": \"Rendere la proposizione con «poiché, come viene riconosciuto, l’iniezione riduce soprattutto i sintomi invece di produrre immunità».\",\n      \"translation_quote\": \"poiché il siero ammette per lo più di ridurre i sintomi invece di produrre immunità\"\n    },\n    {\n      \"location\": \"html, paragrafo 5\",\n      \"severity\": \"major\",\n      \"source_quote\": \"spray-resistant weeds\",\n      \"suggested_fix\": \"Sostituire «le erbacce resistenti alla medicina» con «le erbacce resistenti al diserbante».\",\n      \"translation_quote\": \"le erbacce resistenti alla medicina\"\n    },\n    {\n      \"location\": \"html, paragrafo 14, citazione di 2 Corinzi 6:17\",\n      \"severity\": \"major\",\n      \"source_quote\": \"and touch not the unclean thing\",\n      \"suggested_fix\": \"Sostituire «e separatevi dalle cose immunde» con «e non toccate ciò che è impuro».\",\n      \"translation_quote\": \"e separatevi dalle cose immunde\"\n    },\n    {\n      \"location\": \"section\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Issues Facing the Church\",\n      \"suggested_fix\": \"Tradurre la sezione con «Questioni che la Chiesa deve affrontare».\",\n      \"translation_quote\": \"Issues Facing the Church\"\n    },\n    {\n      \"location\": \"title; html, paragrafi 1, 3, 4, 7, 8 e 13, tutte le occorrenze di «siero»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Covid shot; this shot; the shot\",\n      \"suggested_fix\": \"Sostituire «siero» con «iniezione», adeguando articoli e accordi; nel titolo usare «Perché non ho fatto l’iniezione anti-Covid». «Shot» indica la somministrazione mediante iniezione, non un siero: la distinzione va mantenuta anche quando l’autore evita deliberatamente il termine «vaccino».\",\n      \"translation_quote\": \"il siero anti-Covid; questo siero; il siero; del siero; di questo siero; Perché non ho fatto il siero anti‑Covid\"\n    },\n    {\n      \"location\": \"html, paragrafi 11 e 14, citazioni bibliche\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"<strong>And that no man might buy or sell, save he that</strong>; <strong>come out from among them, and be ye separate</strong>\",\n      \"suggested_fix\": \"Ripristinare i tag <strong> attorno a «e che nessuno potesse comprare o vendere, se non colui che» nel paragrafo 11 e a «uscite dal loro mezzo e separatevi» nel paragrafo 14.\",\n      \"translation_quote\": \"e che nessuno potesse comprare o vendere, se non colui che; uscite dal loro mezzo e separatevi\"\n    },\n    {\n      \"location\": \"html, paragrafo 8\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"One of the first people I personally knew that had Covid was told they would have six months of immunity.\",\n      \"suggested_fix\": \"Correggere la costruzione in «A una delle prime persone che conoscevo personalmente e che avevano contratto il Covid fu detto che avrebbe avuto sei mesi di immunità».\",\n      \"translation_quote\": \"Una delle prime persone che conobbi personalmente e che prese il Covid le dissero che avrebbe avuto sei mesi di immunità.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 85\n}",
+    "content_bytes": 3700,
+    "content_evidence_truncated": false,
+    "content_sha256": "45dfc528fc3859ba635457daa4b27af25a7d77488453398ac280b59e8c437e44",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1143,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 134,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6253,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5150,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7396
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
