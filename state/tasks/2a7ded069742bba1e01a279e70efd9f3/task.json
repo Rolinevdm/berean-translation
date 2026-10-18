@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bcaaa38f9e494e7d987815dc3f30d7bf",
   "campaign": "auto-8504c3ab989fdc562befa3ea57d91664de329ea3c5066be598126fa3da6f229c",
   "created_at": "2026-10-17T21:38:03+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 12648
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 714,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 676,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8677,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7574,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9391
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, elenco, punto 1",
-      "severity": "major",
-      "source_quote": "“What would anyone think of an individual who possessed all these characteristics ...surely the greatest backslider living!”",
-      "suggested_fix": "Sostituire «Sicuramente sarebbe il più grande apostata vivente!» con «Sicuramente sarebbe il credente più sviato che ci sia!»",
-      "translation_quote": "«Sicuramente sarebbe il più grande apostata vivente!»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-18T01:01:45+00:00",
   "id": "2a7ded069742bba1e01a279e70efd9f3",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "ita",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.089951,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e215e736c1acdb8dcfb1204d9f2318c83130759b6bf298e60a5f911c6667fd1f",
   "translation_model_actual": "gpt-6-luna"
