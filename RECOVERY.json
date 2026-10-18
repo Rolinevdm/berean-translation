@@ -11,7 +11,7 @@
     "continuation_repeated_findings_requires_attention": 1,
     "eligible_automatic": 1027,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
-    "pending_automatic_admission": 42,
+    "pending_automatic_admission": 43,
     "provider_refusal_requires_owner_attention": 3,
     "repeated_technical_failure_requires_attention": 1,
     "technical_failure_requires_attention": 18
@@ -2719,6 +2719,15 @@
       "latest_task": "4892db07a10eac83c68a94ebc499d460",
       "processing_status": "not_ready",
       "reason": "eligible_automatic"
+    },
+    {
+      "admission_status": "pending",
+      "article_id": "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901",
+      "language": "cmn",
+      "latest_task": null,
+      "processing_status": "queued",
+      "reason": "pending_automatic_admission",
+      "request_id": "auto-b05219b431303e7670f9f056dff4fd92da3276d990435e78b9780a29cd099dd4"
     },
     {
       "accepted_cycles": 0,
