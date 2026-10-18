@@ -45522,6 +45522,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/2b0884ed-8d65-4e1b-83e2-003e43414e91.html",
+      "html_sha256": "f915e8cabb83a4428145f5c12217bc4227ecfcd07b9f0be704c70b612918b12b",
+      "human_reviewed": false,
+      "id": "2b0884ed-8d65-4e1b-83e2-003e43414e91",
+      "images": [
+        {
+          "alt": "노을 진 하늘을 배경으로 한 교회의 실루엣",
+          "public_path": "/images/articles/2b0884ed-8d65-4e1b-83e2-003e43414e91-1.jpg"
+        },
+        {
+          "alt": "머그잔과 빵 옆에 펼쳐 놓은 성경",
+          "public_path": "/images/articles/2b0884ed-8d65-4e1b-83e2-003e43414e91-2.jpg"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/2b0884ed-8d65-4e1b-83e2-003e43414e91.json",
+      "metadata_sha256": "8d596221832328bcd717cbb1ed115a8bc5079c470c17ccd4b83ef59c94956bd0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "교회가 직면한 쟁점",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "교회와 하나님 나라",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.html",
       "html_sha256": "88330b2b0dca8dbf969e15907ddafb24ebea5914ae293ae534d5272e8c8d8e70",
       "human_reviewed": false,
@@ -74896,6 +74928,38 @@
       "subtitle": null,
       "title": "Binti Mfalme wa Mungu",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/f838e04e-5633-4a29-9d34-793f456248a6.html",
+      "html_sha256": "09e0cb71fbd4b66f8413d0e68cfdb952c3235686813434e78b098fc9a9589131",
+      "human_reviewed": false,
+      "id": "f838e04e-5633-4a29-9d34-793f456248a6",
+      "images": [
+        {
+          "alt": "Mwanamke kijana mwenye miwani akitabasamu akiwa kando ya mti.",
+          "public_path": "/images/articles/f838e04e-5633-4a29-9d34-793f456248a6-1.jpg"
+        },
+        {
+          "alt": "Watu saba wamesimama nje mbele ya miti.",
+          "public_path": "/images/articles/f838e04e-5633-4a29-9d34-793f456248a6-2.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/f838e04e-5633-4a29-9d34-793f456248a6.json",
+      "metadata_sha256": "262e1397deab8b743958de0940babf4e13789129e371fe2c52d5d23f73768958",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Sehemu ya Baraka",
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "11c28bf114f234094c18d24228f24b70a3066d4fe9e7c681b61528fe1e483ca7",
+      "status": "ready",
+      "subtitle": "Hadithi ya Kijana",
+      "title": "Kutoka Msukosuko Hadi Amani",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
