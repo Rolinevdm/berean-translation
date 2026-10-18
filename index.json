@@ -29416,6 +29416,46 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
+      "html_sha256": "764b7b9e363bca9f5c3a92d4b99228cebce345ca8d688f5d4e98858eb08600fa",
+      "human_reviewed": false,
+      "id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
+      "images": [
+        {
+          "alt": "ציוד בית־ספר צבעוני וסטטוסקופ על רקע בהיר",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg"
+        },
+        {
+          "alt": "כיתה ריקה עם שורות של שולחנות",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg"
+        },
+        {
+          "alt": "ילדים מסדרים את ידיהם זו על זו",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg"
+        },
+        {
+          "alt": "אמבולנס נוסע עם אורות החירום דולקים",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.json",
+      "metadata_sha256": "292d7050d27035c8e2c129a6ffa94549279612f7af3901fa6df8b5df4eec7639",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "פינת הילדים",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "השפעה שמשנה חיים",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/6233e058-cfbc-4a1f-8f3f-58e59a9e3c95.html",
       "html_sha256": "01dbc293f5d142bc91c0f1649baf879668305f0ab0fb4e0693bb3dab533205cb",
       "human_reviewed": false,
@@ -71489,6 +71529,38 @@
       "subtitle": null,
       "title": "Amonestaciones de una madre en prisión",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/f838e04e-5633-4a29-9d34-793f456248a6.html",
+      "html_sha256": "ca7a1ceec95f03e37580e20f20a2f9b3ac9c4782e7171c3480275b8b6fee401e",
+      "human_reviewed": false,
+      "id": "f838e04e-5633-4a29-9d34-793f456248a6",
+      "images": [
+        {
+          "alt": "Una joven sonriente con gafas junto a un árbol.",
+          "public_path": "/images/articles/f838e04e-5633-4a29-9d34-793f456248a6-1.jpg"
+        },
+        {
+          "alt": "Siete personas de pie al aire libre, frente a unos árboles.",
+          "public_path": "/images/articles/f838e04e-5633-4a29-9d34-793f456248a6-2.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/f838e04e-5633-4a29-9d34-793f456248a6.json",
+      "metadata_sha256": "eaae4e01ed9e5841890e92a8714938caba7dbc1a8d07efe246e94c04019ba7d9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "El rincón de la bendición",
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "11c28bf114f234094c18d24228f24b70a3066d4fe9e7c681b61528fe1e483ca7",
+      "status": "ready",
+      "subtitle": "La historia de una adolescente",
+      "title": "De la turbulencia a la paz",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
