@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T14:51:24+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, цитата Бытие 3:16–19\",\n      \"severity\": \"major\",\n      \"source_quote\": \"cursed is the ground for thy sake\",\n      \"suggested_fix\": \"Заменить «проклята земля за твой послушник» на «проклята земля из-за тебя», сохранив окружающую разметку.\",\n      \"translation_quote\": \"проклята земля за твой послушник\"\n    },\n    {\n      \"location\": \"translation.html, цитата Иеремия 20:14–18\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the cities which the LORD overthrew, and repented not\",\n      \"suggested_fix\": \"Заменить «города, которые Господь разрушил, не раскаявшиеся» на «города, которые Господь разрушил и о том не пожалел». В оригинале отсутствие сожаления относится к Господу, а не отсутствие покаяния — к городам.\",\n      \"translation_quote\": \"города, которые Господь разрушил, не раскаявшиеся\"\n    },\n    {\n      \"location\": \"translation.html, абзац о грехе и чувстве вины\",\n      \"severity\": \"major\",\n      \"source_quote\": \"sin and guilt can trigger depression or make it worse\",\n      \"suggested_fix\": \"Заменить «грех и вера в вину» на «грех и чувство вины».\",\n      \"translation_quote\": \"грех и вера в вину могут вызвать или усугубить депрессию\"\n    },\n    {\n      \"location\": \"translation.html, ссылки на Писание в разделах о творении, грехопадении, Ноемини, Иеремии, молитве, сравнении себя с другими и грехе\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Genesis 1:31; Genesis 3:12-13; Genesis 3:16-19; Ruth 1:20-21; Ruth 4:14-16; Jeremiah 20:14-18; James 5:16; 2 Corinthians 10:12; James 5:16\",\n      \"suggested_fix\": \"Перевести названия книг во всех перечисленных ссылках: «Бытие 1:31», «Бытие 3:12-13», «Бытие 3:16-19», «Руфь 1:20-21», «Руфь 4:14-16», «Иеремия 20:14-18», «Иакова 5:16», «2 Коринфянам 10:12», «Иакова 5:16». Сохранить числа, расположение ссылок и HTML.\",\n      \"translation_quote\": \"Genesis 1:31; Genesis 3:12-13; Genesis 3:16-19; Ruth 1:20-21; Ruth 4:14-16; Jeremiah 20:14-18; James 5:16; 2 Corinthians 10:12; James 5:16\"\n    },\n    {\n      \"location\": \"translation.html, абзац о длительном применении антидепрессантов\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Long-term use of antidepressant medications really does not seem to improve quality of life for many patients.\",\n      \"suggested_fix\": \"Восстановить осторожную модальность: «Долгосрочное применение антидепрессантов, по-видимому, действительно не улучшает качество жизни многих пациентов».\",\n      \"translation_quote\": \"Долгосрочное применение антидепрессантов действительно не улучшает качество жизни многих пациентов.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 89\n}",
+    "content_bytes": 3649,
+    "content_evidence_truncated": false,
+    "content_sha256": "21f7c465753497cd1da9fe842e9c1fd381590e731fb688641bf412f0cd6c1c0a",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 931,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 75,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11261,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10158,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12192
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

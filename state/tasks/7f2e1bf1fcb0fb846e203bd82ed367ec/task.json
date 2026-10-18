@@ -5,11 +5,68 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "73c90c39862446d9a58cc1fb9903f5cb",
   "campaign": "auto-8ccbeb4c854544df111b21d2b94578845330781378d4592a0065124115d48c4b",
   "created_at": "2026-10-18T14:45:18+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 931,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 75,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11261,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10158,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12192
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, цитата Бытие 3:16–19",
+      "severity": "major",
+      "source_quote": "cursed is the ground for thy sake",
+      "suggested_fix": "Заменить «проклята земля за твой послушник» на «проклята земля из-за тебя», сохранив окружающую разметку.",
+      "translation_quote": "проклята земля за твой послушник"
+    },
+    {
+      "location": "translation.html, цитата Иеремия 20:14–18",
+      "severity": "major",
+      "source_quote": "the cities which the LORD overthrew, and repented not",
+      "suggested_fix": "Заменить «города, которые Господь разрушил, не раскаявшиеся» на «города, которые Господь разрушил и о том не пожалел». В оригинале отсутствие сожаления относится к Господу, а не отсутствие покаяния — к городам.",
+      "translation_quote": "города, которые Господь разрушил, не раскаявшиеся"
+    },
+    {
+      "location": "translation.html, абзац о грехе и чувстве вины",
+      "severity": "major",
+      "source_quote": "sin and guilt can trigger depression or make it worse",
+      "suggested_fix": "Заменить «грех и вера в вину» на «грех и чувство вины».",
+      "translation_quote": "грех и вера в вину могут вызвать или усугубить депрессию"
+    },
+    {
+      "location": "translation.html, ссылки на Писание в разделах о творении, грехопадении, Ноемини, Иеремии, молитве, сравнении себя с другими и грехе",
+      "severity": "minor",
+      "source_quote": "Genesis 1:31; Genesis 3:12-13; Genesis 3:16-19; Ruth 1:20-21; Ruth 4:14-16; Jeremiah 20:14-18; James 5:16; 2 Corinthians 10:12; James 5:16",
+      "suggested_fix": "Перевести названия книг во всех перечисленных ссылках: «Бытие 1:31», «Бытие 3:12-13», «Бытие 3:16-19», «Руфь 1:20-21», «Руфь 4:14-16», «Иеремия 20:14-18», «Иакова 5:16», «2 Коринфянам 10:12», «Иакова 5:16». Сохранить числа, расположение ссылок и HTML.",
+      "translation_quote": "Genesis 1:31; Genesis 3:12-13; Genesis 3:16-19; Ruth 1:20-21; Ruth 4:14-16; Jeremiah 20:14-18; James 5:16; 2 Corinthians 10:12; James 5:16"
+    },
+    {
+      "location": "translation.html, абзац о длительном применении антидепрессантов",
+      "severity": "minor",
+      "source_quote": "Long-term use of antidepressant medications really does not seem to improve quality of life for many patients.",
+      "suggested_fix": "Восстановить осторожную модальность: «Долгосрочное применение антидепрессантов, по-видимому, действительно не улучшает качество жизни многих пациентов».",
+      "translation_quote": "Долгосрочное применение антидепрессантов действительно не улучшает качество жизни многих пациентов."
+    }
+  ],
   "id": "7f2e1bf1fcb0fb846e203bd82ed367ec",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "rus",
@@ -98,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/f177e57409e960665e128f135c5d31a6b5c47dfb179f4bf630790d509d4b9294.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +174,7 @@
     "total_reserved_usd": 0.821639,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
