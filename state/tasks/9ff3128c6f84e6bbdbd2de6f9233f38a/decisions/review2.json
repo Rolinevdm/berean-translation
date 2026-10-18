@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, παράγραφος για την πρώτη φυγή",
+      "severity": "major",
+      "source_quote": "“I ran crying, terrified of what I was doing, wanting to go back but seemingly unable to. I was being driven by a force stronger than my own”",
+      "suggested_fix": "Αντικαταστήστε το «Με ωθούσε μια δύναμη ισχυρότερη από τη δική μου» με «Με οδηγούσε μια δύναμη ισχυρότερη από τη δική μου».",
+      "translation_quote": "«Με ωθούσε μια δύναμη ισχυρότερη από τη δική μου»"
+    },
+    {
+      "location": "HTML, παράγραφος με την αναφορά στον χωματόδρομο",
+      "severity": "major",
+      "source_quote": "“a dirt road that lies about a quarter mile from our driveway”",
+      "suggested_fix": "Αντικαταστήστε το «περίπου τετρακόσια μέτρα από τον δρόμο μας» με «περίπου τετρακόσια μέτρα από τον ιδιωτικό δρόμο που οδηγούσε στο σπίτι μας».",
+      "translation_quote": "«περίπου τετρακόσια μέτρα από τον δρόμο μας»"
+    },
+    {
+      "location": "HTML, παράγραφος για το σπίτι μετά τη Βιβλική Σχολή",
+      "severity": "major",
+      "source_quote": "“I actually went back up to my closet and carried out some clothes that I’d also hidden.”",
+      "suggested_fix": "Αντικαταστήστε το «ανέβηκα ξανά στην ντουλάπα μου» με «ανέβηκα ξανά και έβγαλα από την ντουλάπα μου».",
+      "translation_quote": "«ανέβηκα ξανά στην ντουλάπα μου και έβγαλα και μερικά ρούχα που είχα επίσης κρύψει»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

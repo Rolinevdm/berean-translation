@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T18:10:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, παράγραφος για την πρώτη φυγή\",\"severity\":\"major\",\"source_quote\":\"“I ran crying, terrified of what I was doing, wanting to go back but seemingly unable to. I was being driven by a force stronger than my own”\",\"suggested_fix\":\"Αντικαταστήστε το «Με ωθούσε μια δύναμη ισχυρότερη από τη δική μου» με «Με οδηγούσε μια δύναμη ισχυρότερη από τη δική μου».\",\"translation_quote\":\"«Με ωθούσε μια δύναμη ισχυρότερη από τη δική μου»\"},{\"location\":\"HTML, παράγραφος με την αναφορά στον χωματόδρομο\",\"severity\":\"major\",\"source_quote\":\"“a dirt road that lies about a quarter mile from our driveway”\",\"suggested_fix\":\"Αντικαταστήστε το «περίπου τετρακόσια μέτρα από τον δρόμο μας» με «περίπου τετρακόσια μέτρα από τον ιδιωτικό δρόμο που οδηγούσε στο σπίτι μας».\",\"translation_quote\":\"«περίπου τετρακόσια μέτρα από τον δρόμο μας»\"},{\"location\":\"HTML, παράγραφος για το σπίτι μετά τη Βιβλική Σχολή\",\"severity\":\"major\",\"source_quote\":\"“I actually went back up to my closet and carried out some clothes that I’d also hidden.”\",\"suggested_fix\":\"Αντικαταστήστε το «ανέβηκα ξανά στην ντουλάπα μου» με «ανέβηκα ξανά και έβγαλα από την ντουλάπα μου».\",\"translation_quote\":\"«ανέβηκα ξανά στην ντουλάπα μου και έβγαλα και μερικά ρούχα που είχα επίσης κρύψει»\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 1890,
+    "content_evidence_truncated": false,
+    "content_sha256": "9c0e3fdb7cf5b5603e3ded8722c0a7a5628b3fd62ca930504dbc1a6197034a5f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 413,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 18304,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 18301,
+        "cached_tokens": 0
+      },
+      "total_tokens": 18717
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
