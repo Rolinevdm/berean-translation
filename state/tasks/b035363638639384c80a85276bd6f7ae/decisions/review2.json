@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, aya inayoanza “Kila siku, ninazidi kubarikiwa”",
+      "severity": "minor",
+      "source_quote": "and I’m not crying, yelling, or totally ignoring him.",
+      "suggested_fix": "Badilisha “nami silii, sifoki, wala kumpuuza kabisa” kuwa “nami silii, sifoki, wala simpuuzi kabisa”.",
+      "translation_quote": "nami silii, sifoki, wala kumpuuza kabisa."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

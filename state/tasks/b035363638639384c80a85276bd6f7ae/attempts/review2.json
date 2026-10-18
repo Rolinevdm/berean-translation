@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T18:10:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, aya inayoanza “Kila siku, ninazidi kubarikiwa”\",\"severity\":\"minor\",\"source_quote\":\"and I’m not crying, yelling, or totally ignoring him.\",\"suggested_fix\":\"Badilisha “nami silii, sifoki, wala kumpuuza kabisa” kuwa “nami silii, sifoki, wala simpuuzi kabisa”.\",\"translation_quote\":\"nami silii, sifoki, wala kumpuuza kabisa.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 432,
+    "content_evidence_truncated": false,
+    "content_sha256": "ae4d400fec59ff479723e4fa55788903b1f8efd61975ffb28d47f8b304c205fa",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 203,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 71,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15608,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15605,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15811
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
