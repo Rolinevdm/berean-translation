@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "major",
+      "source_quote": "even though the girls were Anabaptists.",
+      "suggested_fix": "مع أن الفتاتين كانتا من أتباع حركة إعادة المعمودية (الأنابابتست).",
+      "translation_quote": "مع أن الفتاتين كانتا من قائلِي معمودية البالغين."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "468c56ef54e949b88715d8ba245533b7",
   "campaign": "auto-cbe2f2e499e194e6441580a2e93adad0c6d843756854c9d661daba89b2df416c",
   "created_at": "2026-10-18T19:37:51+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 2149
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 530,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 423,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2503,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2500,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3033
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "major",
+      "source_quote": "even though the girls were Anabaptists.",
+      "suggested_fix": "مع أن الفتاتين كانتا من أتباع حركة إعادة المعمودية (الأنابابتست).",
+      "translation_quote": "مع أن الفتاتين كانتا من قائلِي معمودية البالغين."
+    }
+  ],
   "id": "c4f99bdbc585577fdc4104886ff65ff7",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "ara",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e5fd7827d2293d575cf08950e0f749a3c7325fa44b3afcf40ab82ac924c8262c.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.08633,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
   "translation_model_actual": "gpt-6-luna"

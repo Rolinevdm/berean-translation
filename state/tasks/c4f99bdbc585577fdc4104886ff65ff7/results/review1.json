@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a37d712b-32ea-4173-b81c-a6f931ebe9fc",
+    "response_id": "chatcmpl-EaR6X8Sjjq3OT9NRAXPMQyn0PY4SL",
+    "usage": {
+      "completion_tokens": 530,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 423,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2503,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2500,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3033
+    }
+  },
+  "received_at": "2026-10-18T20:36:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph",
+        "severity": "major",
+        "source_quote": "even though the girls were Anabaptists.",
+        "suggested_fix": "مع أن الفتاتين كانتا من أتباع حركة إعادة المعمودية (الأنابابتست).",
+        "translation_quote": "مع أن الفتاتين كانتا من قائلِي معمودية البالغين."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
