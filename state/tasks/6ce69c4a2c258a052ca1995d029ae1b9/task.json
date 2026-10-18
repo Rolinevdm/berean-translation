@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bdef96a5a726432f8c0fa0f58ba83340",
   "campaign": "auto-368a61e486ededa9668424559c9d1710a09007bf94c81adec18272c03c2a17b8",
   "created_at": "2026-10-18T01:02:27+00:00",
   "events": [
@@ -68,25 +67,46 @@
         },
         "total_tokens": 21176
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1026,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 795,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14318,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13215,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 15344
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, párrafo sobre la primera fuga",
-      "severity": "major",
-      "source_quote": "I was running like that until I came to a dirt road that lies about a quarter mile from our driveway.",
-      "suggested_fix": "«Seguí corriendo así hasta que llegué a un camino de tierra situado a unos cuatrocientos metros de nuestra entrada.»",
-      "translation_quote": "«Seguí corriendo así hasta que llegué a un camino de tierra situado a unos cuatrocientos metros de nuestra entrada.»"
+      "location": "HTML, paragraph beginning “I didn’t break through my chains that night.”",
+      "severity": "minor",
+      "source_quote": "“We came out of the prayer rooms, and someone was being sung for.”",
+      "suggested_fix": "Replace «alguien estaba recibiendo una canción» with «estaban cantando por alguien» to convey that someone was being sung for.",
+      "translation_quote": "«Salimos de las salas de oración y alguien estaba recibiendo una canción»."
     },
     {
-      "location": "HTML, párrafo sobre el regreso a casa",
-      "severity": "major",
-      "source_quote": "We went back to our temporary home that night, and I crawled under the covers and cried out to God to show Himself to me.",
-      "suggested_fix": "«Esa noche volvimos a nuestro hogar temporal y me metí bajo las mantas y clamé a Dios que se me revelara.»",
-      "translation_quote": "«Esa noche volvimos a nuestro hogar temporal y me metí bajo las mantas y clamé a Dios que se me revelara.»"
+      "location": "HTML, paragraph beginning “I didn’t break through my chains that night.”",
+      "severity": "minor",
+      "source_quote": "“I found my counselors the next afternoon, and we prayed through together.”",
+      "suggested_fix": "Replace «oramos juntos hasta el final» with «oramos juntos hasta superar aquello» to convey praying through the struggle together.",
+      "translation_quote": "«A la tarde siguiente encontré a mis consejeros y oramos juntos hasta el final»."
     }
   ],
+  "finished_at": "2026-10-18T06:00:16+00:00",
   "id": "6ce69c4a2c258a052ca1995d029ae1b9",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "spa",
@@ -175,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +215,7 @@
     "total_reserved_usd": 0.130315,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "11c28bf114f234094c18d24228f24b70a3066d4fe9e7c681b61528fe1e483ca7",
   "translation_model_actual": "gpt-6-luna"

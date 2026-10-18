@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “I didn’t break through my chains that night.”",
+      "severity": "minor",
+      "source_quote": "“We came out of the prayer rooms, and someone was being sung for.”",
+      "suggested_fix": "Replace «alguien estaba recibiendo una canción» with «estaban cantando por alguien» to convey that someone was being sung for.",
+      "translation_quote": "«Salimos de las salas de oración y alguien estaba recibiendo una canción»."
+    },
+    {
+      "location": "HTML, paragraph beginning “I didn’t break through my chains that night.”",
+      "severity": "minor",
+      "source_quote": "“I found my counselors the next afternoon, and we prayed through together.”",
+      "suggested_fix": "Replace «oramos juntos hasta el final» with «oramos juntos hasta superar aquello» to convey praying through the struggle together.",
+      "translation_quote": "«A la tarde siguiente encontré a mis consejeros y oramos juntos hasta el final»."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

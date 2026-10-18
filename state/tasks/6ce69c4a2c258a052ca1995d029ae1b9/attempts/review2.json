@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T06:00:16+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “I didn’t break through my chains that night.”\",\"severity\":\"minor\",\"source_quote\":\"“We came out of the prayer rooms, and someone was being sung for.”\",\"suggested_fix\":\"Replace «alguien estaba recibiendo una canción» with «estaban cantando por alguien» to convey that someone was being sung for.\",\"translation_quote\":\"«Salimos de las salas de oración y alguien estaba recibiendo una canción».\"},{\"location\":\"HTML, paragraph beginning “I didn’t break through my chains that night.”\",\"severity\":\"minor\",\"source_quote\":\"“I found my counselors the next afternoon, and we prayed through together.”\",\"suggested_fix\":\"Replace «oramos juntos hasta el final» with «oramos juntos hasta superar aquello» to convey praying through the struggle together.\",\"translation_quote\":\"«A la tarde siguiente encontré a mis consejeros y oramos juntos hasta el final».\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 985,
+    "content_evidence_truncated": false,
+    "content_sha256": "50d5601272df63980f4b2472cc0f4c19185d7b3054f7c7857cacafa9661f2135",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1026,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 795,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14318,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13215,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15344
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
