@@ -1,0 +1,91 @@
+{
+  "findings": [
+    {
+      "location": "html: 창세기 3:12-13 인용문",
+      "severity": "major",
+      "source_quote": "The woman whom thou gavest to be with me, she gave me of the tree",
+      "suggested_fix": "해당 구절을 “<strong>주께서 나와 함께 있게 하신 여자가 그 나무의 열매를 내게 주므로</strong>”로 수정하여 하나님을 향한 아담의 말과 원문의 강조 태그를 보존하십시오.",
+      "translation_quote": "네가 나와 함께 있게 한 그 여자가 나에게 그 나무를 주므로"
+    },
+    {
+      "location": "html: 창세기 3:16-19 인용문",
+      "severity": "major",
+      "source_quote": "I will greatly multiply thy sorrow and thy conception; ... cursed is the ground for thy sake; ... for out of it wast thou taken",
+      "suggested_fix": "인용문의 해당 부분을 각각 “내가 네 고통과 잉태의 어려움을 크게 더하리니”, “너로 말미암아 땅이 저주를 받고”, “네가 흙에서 취함을 받았으니”로 수정하거나 보충하십시오. 아울러 “네를”과 주격으로 쓰인 “네는”을 각각 “너를”, “너는”으로 바로잡으십시오. 기존 <em> 태그와 성구 표기는 유지하십시오.",
+      "translation_quote": "내가 네 고생을 심히 더하리니 ... 땅이 네게 판결을 받아 ... 네가 흙으로 돌아갈 때까지 네가 흙이니"
+    },
+    {
+      "location": "html: 룻기 4:14-16 인용문",
+      "severity": "major",
+      "source_quote": "for thy daughter in law, which loveth thee, which is better to thee than seven sons, hath born him. And Naomi took the child, and laid it in her bosom, and became nurse unto it",
+      "suggested_fix": "해당 부분을 “이는 너를 사랑하며 네게 일곱 아들보다 나은 네 며느리가 그를 낳았기 때문이라. 나오미가 그 아이를 데려다가 품에 안고 그를 돌보는 사람이 되었더라”로 수정하십시오. 출산 사실을 복원하고, 돌보는 사람을 뜻하는 nurse를 ‘기생’으로 옮긴 오류를 바로잡으십시오.",
+      "translation_quote": "네게 사랑하는 네 며느리로서 네게 좋은 이는 일곱 아들보다 나으니라. 나오미가 아이를 취하여 그 무릎에 안고 그 기생이 되매"
+    },
+    {
+      "location": "html: 예레미야의 생애를 설명하는 단락",
+      "severity": "major",
+      "source_quote": "Jerusalem was besieged three different times before the Babylonians razed it.",
+      "suggested_fix": "해당 문장을 “바벨론 사람들이 예루살렘을 완전히 파괴하기 전에 예루살렘은 세 차례 포위되었다.”로 수정하여 원문에 없는 ‘여호와의 심판으로’라는 설명을 삭제하십시오.",
+      "translation_quote": "여호와의 심판으로 바벨론이 예루살렘을 파괴하기 전에 예루살렘은 세 번 포위되었다."
+    },
+    {
+      "location": "html: 예레미야 20:14-18 인용문",
+      "severity": "major",
+      "source_quote": "Cursed be the day wherein I was born ... A man child is born unto thee; making him very glad.",
+      "suggested_fix": "해당 부분을 “내가 태어난 날은 저주를 받을지어다”와 “당신에게 아들이 태어났습니다 하고 내 아버지에게 소식을 전하여 그를 크게 기쁘게 한 그 사람은 저주를 받을지어다”로 수정하십시오.",
+      "translation_quote": "내가 낳은 날을 저주하리로다 ... 내 아버지에게 기쁜 소식을 전하여 내게 아이가 낳았다 한 그 사람은 저주를 받을지어다"
+    },
+    {
+      "location": "html: 성경의 두 사례에서 죄가 원인으로 제시되지 않았다는 단락",
+      "severity": "major",
+      "source_quote": "For Naomi it was probably a mixture of isolation from her homeland and loss of people she loved dearly.",
+      "suggested_fix": "“고국에서의 고립”을 “고국을 떠나 지내는 고립감”으로 수정하십시오.",
+      "translation_quote": "나오미에게는 고국에서의 고립과 사랑하던 사람들의 상실이 복합적으로 작용했을 가능성이 크다."
+    },
+    {
+      "location": "html: ‘죄를 다루라’ 아래 야고보서 5:16 인용문",
+      "severity": "major",
+      "source_quote": "Confess your faults one to another, and pray one for another, that ye may be healed",
+      "suggested_fix": "인용문을 “너희 잘못을 서로 고백하고 병 나음을 얻도록 서로를 위해 기도하라… –야고보서 5:16.”으로 수정하여 빠진 상호 기도 명령을 복원하십시오. <em> 태그는 유지하십시오.",
+      "translation_quote": "너희 죄를 서로 고백하라 그리하면 너희가 병 나음을 얻으리라… –야고보서 5:16."
+    },
+    {
+      "location": "html: 나오미의 모압 이주를 설명하는 단락",
+      "severity": "major",
+      "source_quote": "because of a famine that was affecting southern Israel",
+      "suggested_fix": "“기근 때문에”를 “이스라엘 남부에 닥친 기근 때문에”로 수정하십시오.",
+      "translation_quote": "기근 때문에 그녀가 남편과 두 아들과 함께 모압으로 갔다는 것을 안다."
+    },
+    {
+      "location": "html: 룻기 1:20-21 인용문",
+      "severity": "major",
+      "source_quote": "Call me not Naomi [pleasant], call me Mara [bitter]",
+      "suggested_fix": "“나오미”와 “마라” 뒤에 각각 “[기쁨]”, “[쓰라림]”을 넣어 원문에 명시된 이름의 뜻을 복원하십시오.",
+      "translation_quote": "너희는 나를 나오미라 부르지 말고 마라라 하라"
+    },
+    {
+      "location": "html: 도입부 환자의 세 번째 발언",
+      "severity": "minor",
+      "source_quote": "I don’t know how to explain it",
+      "suggested_fix": "“어떻게 설명해야 할지 모르겠어요.”로 수정하십시오.",
+      "translation_quote": "설명하기가 잘 모르겠어요."
+    },
+    {
+      "location": "html: ‘경청하라’ 두 번째 단락",
+      "severity": "minor",
+      "source_quote": "has more to do with their mindset than with how terrible things really are",
+      "suggested_fix": "해당 문장을 “그들이 이러한 것들을 보지 못하는 것은 실제 상황이 얼마나 끔찍한가보다는 그들의 사고방식과 더 관련이 있다.”로 수정하여 비교 표현을 보존하십시오.",
+      "translation_quote": "그들이 이러한 것들을 보지 못하는 것은 실제 상황이 끔찍해서가 아니라 그들의 사고방식 때문이다."
+    },
+    {
+      "location": "html: 세로토닌과 유전자를 설명하는 단락",
+      "severity": "minor",
+      "source_quote": "transport the chemical, Serotonin, through the brain",
+      "suggested_fix": "“뇌로 운반하는”을 “뇌 안에서 운반하는”으로 수정하십시오.",
+      "translation_quote": "세로토닌이라는 화학물질을 뇌로 운반하는"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
