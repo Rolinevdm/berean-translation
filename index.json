@@ -5321,6 +5321,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
+      "html_sha256": "99fbe7b03bbd04d849c254214cb27f01eb398ba454f598ec03e34510494974b7",
+      "human_reviewed": false,
+      "id": "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901",
+      "images": [
+        {
+          "alt": "نقش يصور امرأتين تضعان إكليلين ويُساق بهما وسط حشد من الناس.",
+          "public_path": "/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.json",
+      "metadata_sha256": "119c994879b5fa534724f0108225f69041a826c86e3838b3fa21f9b200914fa3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
+      "status": "ready",
+      "subtitle": null,
+      "title": "فتاتان شابتان",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "a9d57645b09813923ca9be983184404d53a2d551023cba7c0605f31c979c32a3",
       "human_reviewed": false,
@@ -58987,6 +59015,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "O poder de Deus",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
+      "html_sha256": "1f5a3afc11b8f1710f7253509f06377cc317340710c950fbca80a12c6ed14109",
+      "human_reviewed": false,
+      "id": "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901",
+      "images": [
+        {
+          "alt": "Gravura de duas mulheres usando grinaldas, conduzidas por uma multidão.",
+          "public_path": "/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.json",
+      "metadata_sha256": "6a3eda219d42557d2c000494c60aee0800c37e9003597a4680da92b6d26d6957",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Duas jovens",
       "translation_model": "gpt-6-luna"
     },
     {
