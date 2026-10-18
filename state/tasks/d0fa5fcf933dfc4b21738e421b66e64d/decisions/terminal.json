@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "ڈیوڈ کوپر کے وعظ کا اقتباس",
+      "severity": "major",
+      "source_quote": "“Some of you are bound by the devil”",
+      "suggested_fix": "”آپ میں سے کچھ شیطان کے بندھن میں جکڑے ہوئے ہیں“",
+      "translation_quote": "”آپ میں سے کچھ شیطان کے قبضے میں ہیں“"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

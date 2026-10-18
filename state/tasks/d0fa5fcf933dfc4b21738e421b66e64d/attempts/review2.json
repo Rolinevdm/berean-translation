@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T11:15:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"ڈیوڈ کوپر کے وعظ کا اقتباس\",\"severity\":\"major\",\"source_quote\":\"“Some of you are bound by the devil”\",\"suggested_fix\":\"”آپ میں سے کچھ شیطان کے بندھن میں جکڑے ہوئے ہیں“\",\"translation_quote\":\"”آپ میں سے کچھ شیطان کے قبضے میں ہیں“\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 403,
+    "content_evidence_truncated": false,
+    "content_sha256": "242b61538b9bbb3abb0ab7fd5a6a8d27cef9765cb216a4340b24d4912c82dfe8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1089,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 979,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16187,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 16184,
+        "cached_tokens": 0
+      },
+      "total_tokens": 17276
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
