@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "44fe438094c44efca6892ca8c31feb87",
   "campaign": "auto-f8457e87b1c0be00ce7d9692415666394b92b56f0c1ac02b288fad70c717effe",
   "created_at": "2026-10-17T23:22:38+00:00",
   "events": [
@@ -48,74 +47,31 @@
         },
         "total_tokens": 9899
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 102,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 70,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6247,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6244,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6349
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, Absatz 13, Satz zur Konditionierung durch die Gesellschaft",
-      "severity": "major",
-      "source_quote": "the ‘conditioning’ that our society is having upon us in general",
-      "suggested_fix": "Ersetzen durch: „die ‚Konditionierung‘, die unsere Gesellschaft im Allgemeinen auf uns ausübt“.",
-      "translation_quote": "der ‚Konditionierung‘ [...], der unsere Gesellschaft im Allgemeinen ausgesetzt ist"
-    },
-    {
-      "location": "translation.html, Absatz 5",
-      "severity": "minor",
-      "source_quote": "while doing no harm to the crop. The manufacturer did keep telling us to spray maximum rates",
-      "suggested_fix": "Ersetzen durch: „ohne den Kulturpflanzen zu schaden. Der Hersteller riet uns immer wieder, die maximalen Aufwandmengen zu spritzen“.",
-      "translation_quote": "ohne der Kultur Pflanze zu schaden. Der Hersteller riet uns immer wieder, die maximalen Raten zu sprühen"
-    },
-    {
-      "location": "translation.html, Absatz 7",
-      "severity": "minor",
-      "source_quote": "it does seem to me that since the shot admittedly mostly reduces symptoms instead of producing immunity, then it will most likely speed up the mutation of the Covid-19 virus",
-      "suggested_fix": "Den fehlerhaften Satzbau ersetzen durch: „es scheint mir, dass die Spritze sehr wahrscheinlich die Mutation des Covid‑19‑Virus beschleunigen wird, da sie zugestandenermaßen vorwiegend die Symptome reduziert, statt Immunität zu erzeugen“.",
-      "translation_quote": "es scheint mir, dass da die Spritze, da sie bekanntermaßen vorwiegend die Symptome reduziert statt Immunität zu erzeugen, sehr wahrscheinlich die Mutation des Covid‑19‑Virus beschleunigen wird"
-    },
-    {
-      "location": "translation.html, Absatz 8",
-      "severity": "minor",
-      "source_quote": "an immunity that is far superior to the protection of the shot",
-      "suggested_fix": "Ersetzen durch: „eine Immunität aufgebaut, die dem Schutz durch die Spritze weit überlegen ist“.",
-      "translation_quote": "eine Immunität aufgebaut, die der Schutz durch die Spritze weit überlegen ist"
-    },
-    {
-      "location": "translation.html, Absatz 11, Übergang zum Offenbarungszitat",
-      "severity": "minor",
-      "source_quote": "whether we can travel, go to eating places, gather for public events and other such restrictions. It sounds strangely similar",
-      "suggested_fix": "Den Satzabschluss reparieren: „ob wir reisen, in Restaurants essen oder an öffentlichen Veranstaltungen teilnehmen dürfen, und für andere derartige Beschränkungen. Es klingt seltsam ähnlich“.",
-      "translation_quote": "ob wir reisen, in Restaurants essen, an öffentlichen Veranstaltungen teilnehmen und andere derartige Beschränkungen – es klingt seltsam ähnlich"
-    },
-    {
-      "location": "translation.html, Absatz 12",
-      "severity": "minor",
-      "source_quote": "this passage is to be spiritualized [...] the bride will be raptured before this",
-      "suggested_fix": "Ersetzen durch: „diese Stelle sei geistlich auszulegen“ und „die Braut werde vorher entrückt“.",
-      "translation_quote": "diese Stelle sei zu geistlich auszulegen [...] die Braut werde vor dem kommen entrückt"
-    },
-    {
-      "location": "translation.html, Absatz 13, Aufzählung der Gründe",
-      "severity": "minor",
-      "source_quote": "it defies science not to",
-      "suggested_fix": "Zur eindeutigen Zuordnung der Verneinung ersetzen durch: „es widerspricht der Wissenschaft, es nicht zu tun“.",
-      "translation_quote": "es widerspricht der Wissenschaft nicht zu tun"
-    },
-    {
-      "location": "translation.html, Absatz 14, Einleitung und Zitat aus 2. Korinther 6:17",
-      "severity": "minor",
-      "source_quote": "One day God’s people will need to jump off the train of this world—<em>Wherefore <strong>come out from among them, and be ye separate</strong>",
-      "suggested_fix": "„Eines Tages werden Gottes Volk“ zu „Eines Tages wird Gottes Volk“ korrigieren und die Hervorhebung wiederherstellen: „<em>Daher <strong>zieht hinaus aus ihrer Mitte und sondert euch ab</strong>, spricht der Herr“.",
-      "translation_quote": "Eines Tages werden Gottes Volk den Zug dieser Welt verlassen müssen – <em>Daher zieht hinaus aus ihrer Mitte und sondert euch ab, spricht der Herr"
-    },
-    {
-      "location": "translation.html, Absatz 16, letzter Satz",
-      "severity": "minor",
-      "source_quote": "share the gospel of Jesus’ Kingdom with a society",
-      "suggested_fix": "Ersetzen durch: „das Evangelium vom Reich Jesu mit einer Gesellschaft zu teilen“.",
-      "translation_quote": "das Evangelium vom Reich Jesu einer Gesellschaft zu teilen"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-18T01:18:49+00:00",
   "id": "5e8acab254e1664c1c69114796831dbd",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "deu",
@@ -204,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -223,7 +179,7 @@
     "total_reserved_usd": 0.734927,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
   "translation_model_actual": "gpt-6.1-sol"
