@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T19:41:34+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"3b86d0e0-ebd7-4521-92f4-5d7f8a89e901\\\">\\n  <p class=\\\"drop-cap\\\">Hacia el año 1550, ocurrió en el obispado de Bamberg que dos jóvenes se comprometieron con Cristo y lo recibieron por fe; fueron bautizadas por su fe, conforme a la doctrina de Cristo, y, apartándose del pecado, procuraron andar con Cristo en novedad de vida.</p>\\n  <p>Por esta razón, los anticristianos intentaron impedirles esta buena resolución y apagar su buena intención en la medida de sus posibilidades. Por tanto, echaron a estas dos jóvenes corderas en prisión, donde las torturaron con gran severidad, y también trataron, mediante otros medios contrarios a la fe cristiana, de hacerlas apostatar; pero, como estaban firmemente edificadas sobre Cristo, permanecieron fieles y firmes durante toda la prueba. (Col. 2:7; Ap. 2:10.)</p>\\n  <figure>\\n    <img src=\\\"/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg\\\" alt=\\\"Un grabado de dos mujeres con coronas de flores mientras las conducen entre una multitud.\\\">\\n  </figure>\\n  <p>Por ello, las autoridades, que en general siguen en este asunto los consejos de los falsos profetas, las condenaron a muerte; ellas se mostraron alegres e imperturbables. Cuando las llevaron al lugar de la ejecución, sus perseguidores, para insultarlas y burlarse de ellas, les colocaron coronas de paja en la cabeza. Entonces una le dijo a la otra: «Ya que el Señor Cristo llevó una corona de espinas por nosotros, ¿por qué no habríamos de llevar estas coronas de paja en su honor? Por esto, el Dios fiel pondrá sobre nuestras cabezas una hermosa corona de oro y una gloriosa guirnalda». Así, estas dos jóvenes ramas se armaron de paciencia, siguiendo el ejemplo de su Capitán Jesús; permanecieron fieles hasta la muerte, murieron firmes y obtuvieron por gracia la gloriosa corona junto a Dios en el cielo.</p>\\n  <p>Los adversarios de las jóvenes comentaron que murieron con gran serenidad y firmeza, y que tenían en su Redentor, Cristo Jesús, el verdadero fundamento y base de la fe cristiana, a quien confesaron abiertamente e invocaron en su angustia, en la cual murieron firmes y con una esperanza segura.</p>\\n  <p>Los verdugos quedaron tan impresionados por la manera en que murieron que después empezaron a dudar si ellos mismos no estaban en mayor error ante Dios que aquellas jóvenes, aunque ellas fueran anabaptistas.</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Dos jóvenes\"}",
+    "content_bytes": 2483,
+    "content_evidence_truncated": false,
+    "content_sha256": "2ce031bf4eaadd49e2cfd558013a0dff17f074fa6231561078bda63440c79adb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 658,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1393,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1390,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2051
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
