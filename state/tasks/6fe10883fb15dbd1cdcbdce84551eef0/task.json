@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ecd2e723158445c3adc1c6cb1c8af2ce",
   "campaign": "auto-05c56685d0a65ee5dea5a2da4b9627a6495963aa3d0f7f33f25e5160119321e6",
   "created_at": "2026-10-18T18:11:45+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2165
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 746,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 614,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2519,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1416,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3265
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "An engraving of two women wearing wreaths being led through a crowd.",
+      "suggested_fix": "भीड़ के बीच से ले जाई जा रही, सिर पर पुष्पमालाएँ पहने दो स्त्रियों की एक उत्कीर्ण तस्वीर।",
+      "translation_quote": "मुकुट पहने दो स्त्रियों को भीड़ के बीच से ले जाते हुए दिखाती एक उत्कीर्ण तस्वीर।"
+    }
+  ],
+  "finished_at": "2026-10-18T20:36:41+00:00",
   "id": "6fe10883fb15dbd1cdcbdce84551eef0",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "hin",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e5fd7827d2293d575cf08950e0f749a3c7325fa44b3afcf40ab82ac924c8262c.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086328,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
   "translation_model_actual": "gpt-6-luna"

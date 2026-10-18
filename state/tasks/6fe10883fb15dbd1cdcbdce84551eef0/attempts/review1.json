@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T20:36:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Image alt text\",\"severity\":\"minor\",\"source_quote\":\"An engraving of two women wearing wreaths being led through a crowd.\",\"suggested_fix\":\"भीड़ के बीच से ले जाई जा रही, सिर पर पुष्पमालाएँ पहने दो स्त्रियों की एक उत्कीर्ण तस्वीर।\",\"translation_quote\":\"मुकुट पहने दो स्त्रियों को भीड़ के बीच से ले जाते हुए दिखाती एक उत्कीर्ण तस्वीर।\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 682,
+    "content_evidence_truncated": false,
+    "content_sha256": "f994beb4c9a6c39ac2e55dc8559ec9c72c9b26bade81e2d9d8f8df3095a57945",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 746,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 614,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2519,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1416,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3265
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b2a70690-1dc4-4fcb-a105-0861fc85a026",
+    "response_id": "chatcmpl-EaR70enRQk6yiCSOX4IlQG0CuPnnR",
+    "usage": {
+      "completion_tokens": 746,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 614,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2519,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1416,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3265
+    }
+  },
+  "received_at": "2026-10-18T20:36:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Image alt text",
+        "severity": "minor",
+        "source_quote": "An engraving of two women wearing wreaths being led through a crowd.",
+        "suggested_fix": "भीड़ के बीच से ले जाई जा रही, सिर पर पुष्पमालाएँ पहने दो स्त्रियों की एक उत्कीर्ण तस्वीर।",
+        "translation_quote": "मुकुट पहने दो स्त्रियों को भीड़ के बीच से ले जाते हुए दिखाती एक उत्कीर्ण तस्वीर।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

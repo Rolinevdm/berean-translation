@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "An engraving of two women wearing wreaths being led through a crowd.",
+      "suggested_fix": "भीड़ के बीच से ले जाई जा रही, सिर पर पुष्पमालाएँ पहने दो स्त्रियों की एक उत्कीर्ण तस्वीर।",
+      "translation_quote": "मुकुट पहने दो स्त्रियों को भीड़ के बीच से ले जाते हुए दिखाती एक उत्कीर्ण तस्वीर।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
