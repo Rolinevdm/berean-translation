@@ -9526,6 +9526,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
+      "html_sha256": "6491f4288136bd7996a6eca5183c3835c84552a80a1f5a4086c2635fdb20d844",
+      "human_reviewed": false,
+      "id": "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901",
+      "images": [
+        {
+          "alt": "মাথায় মালা পরা দুই নারীকে জনতার মধ্য দিয়ে নিয়ে যাওয়ার একটি খোদাইচিত্র।",
+          "public_path": "/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.json",
+      "metadata_sha256": "33fe9a5c23e5e67184df5121d12928f7772e4e880b5a4fb3a550e209de9a8e16",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
+      "status": "ready",
+      "subtitle": null,
+      "title": "দুই তরুণী",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
       "html_sha256": "8f2f642621838595a8288e56fe8c72afe05a09b25667d0ab7ecd4581d861792f",
       "human_reviewed": false,
