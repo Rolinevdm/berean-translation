@@ -1,0 +1,119 @@
+{
+  "findings": [
+    {
+      "location": "source.html: Genesis 3:16–19 quotation",
+      "severity": "major",
+      "source_quote": "I will greatly multiply thy sorrow and thy conception ... thy desire shall be to thy husband, and he shall rule over thee ... Thorns also and thistles ... for dust thou art",
+      "suggested_fix": "इस <em> अनुच्छेद का पाठ सुधारें: “उसने स्त्री से कहा, मैं तेरी पीड़ा और गर्भधारण की वेदना बहुत बढ़ाऊँगा; तू पीड़ा में संतान जनेगी; तेरी इच्छा अपने पति की ओर होगी, और वह तुझ पर शासन करेगा। और आदम से उसने कहा, क्योंकि तूने अपनी पत्नी की बात सुनी और उस वृक्ष का फल खाया जिसके विषय में मैंने तुझे आज्ञा दी थी कि तू उसका फल न खाना, इसलिए भूमि तेरे कारण शापित है; तू जीवन भर कष्ट के साथ उससे भोजन प्राप्त करेगा। वह तेरे लिए काँटे और ऊँटकटारे उगाएगी, और तू खेत की वनस्पति खाएगा। अपने चेहरे के पसीने से तू रोटी खाएगा, जब तक तू मिट्टी में न लौट जाए, क्योंकि उसी में से तू लिया गया था; तू मिट्टी है और मिट्टी में ही लौट जाएगा –उत्पत्ति 3:16-19.” मौजूदा <em> टैग सुरक्षित रखें।",
+      "translation_quote": "मैं तेरा श्रम और तेरा गर्भ अत्यधिक बढ़ाऊँगा ... तेरी चाह उसकी ओर होगी जिसने तू पर अधिकार करेगा ... काँटे और ततैया ... धरती से तू मानी गया है"
+    },
+    {
+      "location": "source.html: Naomi's move to Moab",
+      "severity": "major",
+      "source_quote": "because of a famine that was affecting southern Israel",
+      "suggested_fix": "“सूखे के कारण” की जगह “दक्षिणी इस्राएल में पड़े अकाल के कारण” लिखें।",
+      "translation_quote": "सूखे के कारण वह अपने पति और अपने दो बेटों के साथ मोआब गई थी"
+    },
+    {
+      "location": "source.html: Ruth 1:20–21 quotation",
+      "severity": "major",
+      "source_quote": "for the Almighty hath dealt very bitterly with me",
+      "suggested_fix": "इस अंश को “क्योंकि सर्वशक्तिमान ने मेरे साथ बहुत कठोर व्यवहार किया है” करें।",
+      "translation_quote": "क्योंकि सर्वशक्तिमान ने मेरे साथ बहुत कड़वी तुक्की की है"
+    },
+    {
+      "location": "source.html: Ruth 4:14–16 quotation",
+      "severity": "major",
+      "source_quote": "which hath not left thee this day without a kinsman ... thy daughter in law",
+      "suggested_fix": "“जिसने आज तुझे एक नाते वाला न छोड़ा” को “जिसने आज तुझे किसी संबंधी के बिना नहीं छोड़ा” करें और “तेरी सौतेली बहू” को “तेरी बहू” करें।",
+      "translation_quote": "जिसने आज तुझे एक नाते वाला न छोड़ा ... तेरी सौतेली बहू"
+    },
+    {
+      "location": "source.html: paragraph about guilt and assurance",
+      "severity": "major",
+      "source_quote": "Fixing the depression will help with the assurance of salvation issues",
+      "suggested_fix": "“आत्मिक आश्वासन की समस्याओं” को “उद्धार के आश्वासन से जुड़ी समस्याओं” करें।",
+      "translation_quote": "अवसाद का उपचार उन लोगों की आत्मिक आश्वासन की समस्याओं में मदद करेगा"
+    },
+    {
+      "location": "source.html: first paragraph under “Continue, Even When You Feel Better”",
+      "severity": "major",
+      "source_quote": "when someone has a medical issue, they will consciously change their diet and lifestyle to improve their situation",
+      "suggested_fix": "पहला वाक्य करें: “कई बार, जब किसी को स्वास्थ्य संबंधी समस्या होती है, तो वह अपनी स्थिति सुधारने के लिए सचेत रूप से अपने आहार और जीवनशैली में बदलाव करता है।”",
+      "translation_quote": "जब किसी का मेडिकल मुद्दा हल हो जाता है, वे सचेत रूप से अपने आहार और जीवनशैली में बदलाव करते हैं"
+    },
+    {
+      "location": "source.html: description of life before the Fall",
+      "severity": "minor",
+      "source_quote": "even if there could have been stress in a perfect garden",
+      "suggested_fix": "कोष्ठक को “यदि एक परिपूर्ण बगीचे में तनाव होना संभव भी होता” करें, ताकि काल्पनिक स्थिति को वास्तविक संभावना की घोषणा न बनाया जाए।",
+      "translation_quote": "यद्यपि एक परिपूर्ण बगीचे में भी तनाव हो सकता है"
+    },
+    {
+      "location": "source.html: depression continuum paragraph",
+      "severity": "minor",
+      "source_quote": "there is a large or broad continuum regarding depression",
+      "suggested_fix": "इस वाक्यांश को “अवसाद की तीव्रता का एक व्यापक क्रम होता है” करें।",
+      "translation_quote": "अवसाद के संबंध में एक बड़ा या व्यापक सतत्तरंग है"
+    },
+    {
+      "location": "source.html: Jeremiah narrative and Jeremiah 20:14–18 quotation",
+      "severity": "minor",
+      "source_quote": "Jeremiah told the people ... let him hear the cry in the morning, and the shouting at noontide",
+      "suggested_fix": "“यरम Jerem” को “यिर्मयाह” करें और पूरे लेख में इसी नाम का प्रयोग करें। उद्धरण में “वह प्रभात में प्रहार की आवाज सुनना और मध्याह्न में जयघोष सुनना” को “वह सुबह चीख-पुकार और दोपहर में शोर सुनता रहे” करें।",
+      "translation_quote": "यरम Jerem ने लोगों को बताया ... वह प्रभात में प्रहार की आवाज सुनना और मध्याह्न में जयघोष सुनना"
+    },
+    {
+      "location": "source.html: Scripture references in eight quotations",
+      "severity": "minor",
+      "source_quote": "Genesis 1:31; Genesis 3:12-13; Genesis 3:16-19; Ruth 1:20-21; Ruth 4:14-16; Jeremiah 20:14-18; James 5:16 (twice)",
+      "suggested_fix": "सभी संबंधित संदर्भों में पुस्तक के नाम स्थानीयकृत करें: Genesis → उत्पत्ति; Ruth → रूत; Jeremiah → यिर्मयाह; James → याकूब। अध्याय/पद संख्याएँ, सीमाएँ और संदर्भों के स्थान अपरिवर्तित रखें।",
+      "translation_quote": "Genesis 1:31; Genesis 3:12-13; Genesis 3:16-19; Ruth 1:20-21; Ruth 4:14-16; Jeremiah 20:14-18; James 5:16 (दो बार)"
+    },
+    {
+      "location": "source.html: James 5:16 quotation under “Pray”",
+      "severity": "minor",
+      "source_quote": "The effectual fervent prayer of a righteous man availeth much",
+      "suggested_fix": "“उग्र प्रार्थना” को “उत्कट प्रार्थना” करें।",
+      "translation_quote": "धर्मी पुरुष की प्रभावशाली, उग्र प्रार्थना"
+    },
+    {
+      "location": "source.html: heading “Be Willing to be the Initiator”",
+      "severity": "minor",
+      "source_quote": "Be Willing to be the Initiator",
+      "suggested_fix": "शीर्षक को “पहल करने के लिए तैयार रहिए” करें।",
+      "translation_quote": "प्रेरक बनने के लिए तैयार रहिए"
+    },
+    {
+      "location": "source.html: Job's friends paragraph",
+      "severity": "minor",
+      "source_quote": "Job’s friends ... see Job",
+      "suggested_fix": "दोनों स्थानों पर “जोब” को प्रचलित हिंदी बाइबिल नाम “अय्यूब” करें।",
+      "translation_quote": "जोब के मित्रों ... जोब से मिलने"
+    },
+    {
+      "location": "source.html: second paragraph under “Don’t Do Comparisons”",
+      "severity": "minor",
+      "source_quote": "God is done with you",
+      "suggested_fix": "“परमेश्वर ने आपसे कुछ समाप्त कर दिया है” को “परमेश्वर ने आपको छोड़ दिया है” करें।",
+      "translation_quote": "परमेश्वर ने आपसे कुछ समाप्त कर दिया है"
+    },
+    {
+      "location": "source.html: first exercise paragraph",
+      "severity": "minor",
+      "source_quote": "it increases your heart rate 25 to 30 percent above your baseline heart rate",
+      "suggested_fix": "अंतिम वाक्य करें: “महत्वपूर्ण यह है कि व्यायाम आपकी हृदय गति को उसकी सामान्य आधारभूत दर से 25 से 30 प्रतिशत बढ़ाए।”",
+      "translation_quote": "यह आपकी बेसलाइन हृदय गति से 25 से 30 प्रतिशत अधिक हो"
+    },
+    {
+      "location": "source.html: final healthy-choices advice",
+      "severity": "minor",
+      "source_quote": "meet regularly with godly friends",
+      "suggested_fix": "“भले मित्रों” को “परमेश्वर-भक्त मित्रों” करें।",
+      "translation_quote": "भले मित्रों के साथ नियमित रूप से मिलते रहें"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
