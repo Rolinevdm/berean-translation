@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e3d29c82-3245-45f8-b13e-7b307b19d49a",
+    "response_id": "chatcmpl-Ea9oX7eWBz7HClfkgr0zLV8gg3EFk",
+    "usage": {
+      "completion_tokens": 1234,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 841,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16100,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14997,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 17334
+    }
+  },
+  "received_at": "2026-10-18T01:18:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning “David Cooper was speaking”",
+        "severity": "major",
+        "source_quote": "“And my prayer for you is that you would be delivered in the name of Jesus.”",
+        "suggested_fix": "“और आपके लिए मेरी प्रार्थना है कि यीशु के नाम में आप छुटकारा पाएँ।”",
+        "translation_quote": "“और आपके लिए मेरी प्रार्थना है कि यीशु के नाम में आपका उद्धार हो।”"
+      },
+      {
+        "location": "Article, paragraph beginning “I was seriously making plans to run away again”",
+        "severity": "major",
+        "source_quote": "“A greater Head had a better idea.”",
+        "suggested_fix": "“लेकिन परमेश्वर की एक श्रेष्ठ योजना थी।”",
+        "translation_quote": "“एक महानतर मस्तिष्क की योजना इससे बेहतर थी।”"
+      },
+      {
+        "location": "Article, paragraph containing the quoted sermon beginning “I want to thank all of you visitors”",
+        "severity": "minor",
+        "source_quote": "“Some of you are unbelieving”—and some of us are all three—and defiled just like 1 Corinthians says—“And I pray that the mercy of God would be with you tonight...”",
+        "suggested_fix": "“आपमें से कुछ अविश्वासी हैं”—और हममें से कुछ तीनों ही हैं—“और 1 कुरिन्थियों के अनुसार अशुद्ध हैं”—“और मैं प्रार्थना करता हूँ कि आज रात परमेश्वर की दया आपके साथ हो...”",
+        "translation_quote": "“आपमें से कुछ अविश्वासी हैं”—और हममें से कुछ तीनों ही हैं—“और 1 कुरिन्थियों के कथन के अनुसार अशुद्ध हैं—”और मैं प्रार्थना करता हूँ कि आज रात परमेश्वर की दया आपके साथ हो..."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

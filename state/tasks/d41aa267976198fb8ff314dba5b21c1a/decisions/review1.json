@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “David Cooper was speaking”",
+      "severity": "major",
+      "source_quote": "“And my prayer for you is that you would be delivered in the name of Jesus.”",
+      "suggested_fix": "“और आपके लिए मेरी प्रार्थना है कि यीशु के नाम में आप छुटकारा पाएँ।”",
+      "translation_quote": "“और आपके लिए मेरी प्रार्थना है कि यीशु के नाम में आपका उद्धार हो।”"
+    },
+    {
+      "location": "Article, paragraph beginning “I was seriously making plans to run away again”",
+      "severity": "major",
+      "source_quote": "“A greater Head had a better idea.”",
+      "suggested_fix": "“लेकिन परमेश्वर की एक श्रेष्ठ योजना थी।”",
+      "translation_quote": "“एक महानतर मस्तिष्क की योजना इससे बेहतर थी।”"
+    },
+    {
+      "location": "Article, paragraph containing the quoted sermon beginning “I want to thank all of you visitors”",
+      "severity": "minor",
+      "source_quote": "“Some of you are unbelieving”—and some of us are all three—and defiled just like 1 Corinthians says—“And I pray that the mercy of God would be with you tonight...”",
+      "suggested_fix": "“आपमें से कुछ अविश्वासी हैं”—और हममें से कुछ तीनों ही हैं—“और 1 कुरिन्थियों के अनुसार अशुद्ध हैं”—“और मैं प्रार्थना करता हूँ कि आज रात परमेश्वर की दया आपके साथ हो...”",
+      "translation_quote": "“आपमें से कुछ अविश्वासी हैं”—और हममें से कुछ तीनों ही हैं—“और 1 कुरिन्थियों के कथन के अनुसार अशुद्ध हैं—”और मैं प्रार्थना करता हूँ कि आज रात परमेश्वर की दया आपके साथ हो..."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
