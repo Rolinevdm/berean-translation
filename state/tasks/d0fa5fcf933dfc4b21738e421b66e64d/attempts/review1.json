@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T06:07:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “I didn’t break through my chains that night”\",\"severity\":\"major\",\"source_quote\":\"I repented and renounced, forgave and was forgiven.\",\"suggested_fix\":\"میں نے توبہ کی اور ترک کیا، معاف کیا اور مجھے معافی ملی۔\",\"translation_quote\":\"میں نے توبہ کی اور انکار کیا، معاف کیا اور مجھے معافی ملی۔\"},{\"location\":\"Sermon quotation beginning “Are you afraid tonight”\",\"severity\":\"major\",\"source_quote\":\"Are you afraid tonight to hold up your life like that?\",\"suggested_fix\":\"”کیا آج رات آپ اپنی زندگی کو یوں اٹھا کر دکھانے سے ڈرتے ہیں؟\",\"translation_quote\":\"”کیا آج رات آپ اپنا نفس یوں اٹھا کر دکھانے سے ڈرتے ہیں؟\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 897,
+    "content_evidence_truncated": false,
+    "content_sha256": "cd0ef073f0408b8fe2bb94fc2ede47d10dd90b76b65d2384ba989e41dc7b3b8a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 953,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 744,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16181,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15078,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 17134
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
