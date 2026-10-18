@@ -5,11 +5,117 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ade1911753f34d1ea2aa2f5311a0373c",
   "campaign": "auto-a0372176f693ce4a4d8f98ea9c972296969aec39ecebe07ae42b6826a3dad908",
   "created_at": "2026-10-17T22:23:26+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2062,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 56,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6622,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5519,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8684
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html، پیراگراف 11، مکاشفہ 13:16-17 کا اقتباس",
+      "severity": "major",
+      "source_quote": "And he causeth all, both small and great, rich and poor, free and bond, to receive a mark ... –Revelation 13:16-17.",
+      "suggested_fix": "انگریزی اقتباس کو اسی HTML ساخت میں یوں ترجمہ کریں: <em>اور وہ سب چھوٹوں اور بڑوں، امیروں اور غریبوں، آزادوں اور غلاموں کو مجبور کرتا ہے کہ اپنے دائیں ہاتھ یا اپنی پیشانی پر ایک نشان لگوائیں: <strong>اور یہ کہ کوئی خرید یا فروخت نہ کر سکے سوائے اُس کے جس کے پاس</strong> وہ نشان، یا حیوان کا نام، یا اُس کے نام کا عدد ہو –مکاشفہ 13:16-17۔</em>",
+      "translation_quote": "And he causeth all, both small and great, rich and poor, free and bond, to receive a mark ... –Revelation 13:16-17."
+    },
+    {
+      "location": "translation.html، پیراگراف 14، دونوں بائبلی اقتباسات",
+      "severity": "major",
+      "source_quote": "Wherefore come out from among them, and be ye separate ... –2 Corinthians 6:17. / Here is the patience of the saints ... –Revelation 14:12.",
+      "suggested_fix": "دونوں اقتباسات بالترتیب یوں ترجمہ کریں: <em>اس لیے <strong>اُن کے درمیان سے نکل آؤ اور الگ ہو جاؤ</strong>، خداوند فرماتا ہے، اور ناپاک چیز کو نہ چھوؤ؛ اور میں تمہیں قبول کروں گا –2 کرنتھیوں 6:17۔</em> اور <em>یہاں مقدسوں کا صبر ہے: یہ وہ ہیں جو خدا کے حکموں اور یسوع کے ایمان کو قائم رکھتے ہیں –مکاشفہ 14:12۔</em>",
+      "translation_quote": "Wherefore come out from among them, and be ye separate ... –2 Corinthians 6:17. / Here is the patience of the saints ... –Revelation 14:12."
+    },
+    {
+      "location": "translation.html، پیراگراف 15، مطالعے کی ہدایت اور آخری اقتباس",
+      "severity": "major",
+      "source_quote": "Read Matthew 24:4-28. / And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death –Revelation 12:11.",
+      "suggested_fix": "متعلقہ حصے یوں ترجمہ کریں: <em>متی 24:4-28 پڑھیں۔</em> اور <em>اور وہ برّے کے خون اور اپنی گواہی کے کلام کے وسیلے سے اُس پر غالب آئے؛ اور اُنہوں نے اپنی جانوں کو یہاں تک عزیز نہ رکھا کہ موت سے بچیں –مکاشفہ 12:11۔</em>",
+      "translation_quote": "Read Matthew 24:4-28. / And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death –Revelation 12:11."
+    },
+    {
+      "location": "translation.html، پیراگراف 13، حوالہ جاتی ہدایت",
+      "severity": "major",
+      "source_quote": "–See Matthew 24:21 and Revelation 7:14.",
+      "suggested_fix": "<em>–متی 24:21 اور مکاشفہ 7:14 دیکھیں۔</em>",
+      "translation_quote": "–See Matthew 24:21 and Revelation 7:14."
+    },
+    {
+      "location": "translation.html، پیراگراف 3، بیماریوں اور پولیو کی خوراک کا بیان",
+      "severity": "major",
+      "source_quote": "a vaccination in my upper arm for smallpox / the sugar cube treatment / smallpox, polio, measles",
+      "suggested_fix": "’چھوٹے امراض (smallpox)‘ کو ’چیچک‘، ’شکر کے گھونٹ‘ کو ’شکر کی ڈلی‘، اور ’smallpox، polio، measles‘ کو ’چیچک، پولیو، خسرہ‘ سے بدلیں۔",
+      "translation_quote": "اوپری بازو میں چھوٹے امراض (smallpox) کا ٹیکہ / ’شکر کے گھونٹ‘ والی / smallpox، polio، measles"
+    },
+    {
+      "location": "translation.html، پیراگراف 6، آخری دو جملے",
+      "severity": "major",
+      "source_quote": "You can almost ‘pour’ glyphosate on it, and still it thrives. These weeds mutated very rapidly and became resistant.",
+      "suggested_fix": "ان جملوں کو یوں درست کریں: ’آپ اس پر گلائفوسیٹ تقریباً انڈیل بھی دیں، تب بھی یہ خوب پھلتی پھولتی ہے۔ ان جڑی بوٹیوں میں بہت تیزی سے جینیاتی تبدیلیاں آئیں اور وہ مزاحم بن گئیں۔‘",
+      "translation_quote": "آپ اس پر glyphosate جیسے چھڑک سکتے ہیں، پھر بھی یہ سرسبز رہتی ہے۔ یہ گھاس بہت تیزی سے منتقل ہوئی اور مزاحم بن گئی۔"
+    },
+    {
+      "location": "translation.html، پیراگراف 13، عقیدتی مؤقف اور آخری زمانے کا بیان",
+      "severity": "major",
+      "source_quote": "support a particular doctrinal agenda such as the idea that all believers will be raptured prior to the unfolding of end time events",
+      "suggested_fix": "اس حصے کو یوں درست کریں: ’کسی خاص عقیدتی مؤقف کی تائید کرنے کے لیے، مثلاً یہ خیال کہ آخری زمانے کے واقعات کے رونما ہونے سے پہلے تمام ایماندار آسمان پر اٹھا لیے جائیں گے‘۔",
+      "translation_quote": "کسی مخصوص الہامی جدول کی حمایت ... تمام مؤمنین قیامت سے پہلے اٹھا لیے جائیں گے"
+    },
+    {
+      "location": "translation.html، پیراگراف 13، ٹیکہ لگوانے کی بیان کردہ وجوہات",
+      "severity": "major",
+      "source_quote": "it defies science not to",
+      "suggested_fix": "اس فقرے کو ’اسے نہ لگوانا سائنس کی نفی ہے‘ سے بدلیں۔",
+      "translation_quote": "یہ سائنس کی نفی کرنا بے معنی ہوگا"
+    },
+    {
+      "location": "translation.html، پیراگراف 12، ابتدائی جملہ",
+      "severity": "minor",
+      "source_quote": "I have been almost ridiculed for even mentioning the mark of the beast.",
+      "suggested_fix": "’حیوان کے نشان کا محض ذکر کرنے پر بھی مجھے تقریباً تمسخر کا نشانہ بنایا گیا ہے۔‘ لکھیں۔ پیراگراف 13 میں بھی ’دیو کے نشان‘ کی جگہ ’حیوان کا نشان‘ استعمال کریں۔",
+      "translation_quote": "مجھے اس قدر طنز کا سامنا کرنا پڑا کہ میں نے بلا شبہ ’دیو کے نشان‘ کا ذکر تک کیا۔ / یہ ’دیو کے نشان‘ ہے"
+    },
+    {
+      "location": "translation.html، پیراگراف 10، اموات پر ردعمل",
+      "severity": "minor",
+      "source_quote": "I am sorry for the loss of life.",
+      "suggested_fix": "’مجھے جانوں کے ضیاع پر افسوس ہے۔‘ لکھیں۔",
+      "translation_quote": "میں زندگی کے نقصان پر معذرت خواہ ہوں۔"
+    },
+    {
+      "location": "translation.html، پیراگراف 8، کووِڈ کے ابتدائی واقف مریض کا بیان",
+      "severity": "minor",
+      "source_quote": "One of the first people I personally knew that had Covid",
+      "suggested_fix": "’میرے ذاتی واقف کاروں میں کووِڈ میں مبتلا ہونے والے ابتدائی لوگوں میں سے ایک‘ لکھیں۔",
+      "translation_quote": "میری ذاتی معلومات میں آنے والے پہلے لوگوں میں سے ایک"
+    },
+    {
+      "location": "translation.html، پیراگراف 16، آخری جملہ",
+      "severity": "minor",
+      "source_quote": "a society that is bent on going away from the Creator",
+      "suggested_fix": "’اس معاشرے کے ساتھ ... جو خالق سے دور جانے پر تلا ہوا ہے‘ استعمال کریں۔",
+      "translation_quote": "اس معاشرے کے ساتھ ... جو خالق سے دور جانے کے لیے مر رہا ہے"
+    }
+  ],
   "id": "c5e01d2de87320562ad684b61cf79d4a",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "urd",
@@ -98,11 +204,13 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/733eeaa1a812b6193e133350be5a00b31e3585142bda55cfaea2f725f3dda88f.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +223,7 @@
     "total_reserved_usd": 0.746167,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
