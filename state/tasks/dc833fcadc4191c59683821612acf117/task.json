@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8e5476b76c9142868ae43686eea276c2",
   "campaign": "auto-061c62343d95dc16cf73bdb4c34ec5dffcfba97457fc3aa3a61ea078e94fd6dd",
   "created_at": "2026-10-18T14:29:38+00:00",
   "events": [
@@ -68,32 +67,54 @@
         },
         "total_tokens": 22925
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 334,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 15126,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 15123,
+          "cached_tokens": 0
+        },
+        "total_tokens": 15460
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph beginning “About that same time”",
+      "location": "Paragraph beginning “לפי שהחלטתי להיות...” / vow list",
       "severity": "major",
-      "source_quote": "“Dad had listened to a tape ... on family devotions. Dad started holding devotions at night”",
-      "suggested_fix": "Replace both instances of “devotions” with a natural Hebrew expression such as “התכנסויות לתפילה ולקריאה בכתבי הקודש” (for example: “על התכנסויות משפחתיות לתפילה ולקריאה בכתבי הקודש” and “אבא התחיל לקיים התכנסויות כאלה בלילה”).",
-      "translation_quote": "“על devotions משפחתיים. אבא התחיל לקיים devotions בלילה”"
+      "source_quote": "“I was going to scowl and crab the entire drive”",
+      "suggested_fix": "Replace “אקמט את פניי ואתלונן לאורך כל הנסיעה” with “אעשה פרצופים ואתלונן לאורך כל הנסיעה” to convey the intended sulky, complaining behavior.",
+      "translation_quote": "“אקמט את פניי ואתלונן לאורך כל הנסיעה”"
     },
     {
-      "location": "Paragraph beginning “The youth testimonies really blessed me”",
+      "location": "Paragraph beginning “עמדתי בקלות בנדר מספר 1”",
       "severity": "major",
-      "source_quote": "“The end of Bible School had come, and he’d gone home.”",
-      "suggested_fix": "Replace “שנת הלימודים בבית הספר לתנ״ך הסתיימה” with “השבוע בבית הספר לתנ״ך הסתיים” or another rendering that refers to the end of the Bible School event, not an academic year.",
-      "translation_quote": "“שנת הלימודים בבית הספר לתנ״ך הסתיימה, והוא חזר הביתה.”"
+      "source_quote": "“How hard is it to have an awful time with 30 hours in the car?”",
+      "suggested_fix": "Replace “כמה קשה ליהנות רע כשמבלים שלושים שעות במכונית?” with “כמה קשה להעביר שלושים שעות נוראיות במכונית?”",
+      "translation_quote": "“כמה קשה ליהנות רע כשמבלים שלושים שעות במכונית?”"
     },
     {
-      "location": "Paragraph beginning “I didn’t break through my chains that night”",
-      "severity": "minor",
-      "source_quote": "“We came out of the prayer rooms, and someone was being sung for.”",
-      "suggested_fix": "Render the singing without adding that it was a song of thanksgiving; for example: “יצאנו מחדרי התפילה, ושרו למען מישהו.”",
-      "translation_quote": "“יצאנו מחדרי התפילה, ומישהו קיבל שירת הודיה.”"
+      "location": "Paragraph beginning “הייתי נשבית בלבי הקשה...”",
+      "severity": "major",
+      "source_quote": "“I was smitten in my hard, rebellious heart.”",
+      "suggested_fix": "Replace “נשבתי בלבי הקשה והמרדני” with “לבי הקשה והמרדני נשבה” or “נכבשתי בלבי הקשה והמרדני”.",
+      "translation_quote": "“נשבתי בלבי הקשה והמרדני”"
     }
   ],
+  "finished_at": "2026-10-18T17:36:49+00:00",
   "id": "dc833fcadc4191c59683821612acf117",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "heb",
@@ -182,7 +203,7 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +223,7 @@
     "total_reserved_usd": 0.130312,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "11c28bf114f234094c18d24228f24b70a3066d4fe9e7c681b61528fe1e483ca7",
   "translation_model_actual": "gpt-6-luna"

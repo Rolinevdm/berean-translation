@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T17:36:49+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “לפי שהחלטתי להיות...” / vow list\",\"severity\":\"major\",\"source_quote\":\"“I was going to scowl and crab the entire drive”\",\"suggested_fix\":\"Replace “אקמט את פניי ואתלונן לאורך כל הנסיעה” with “אעשה פרצופים ואתלונן לאורך כל הנסיעה” to convey the intended sulky, complaining behavior.\",\"translation_quote\":\"“אקמט את פניי ואתלונן לאורך כל הנסיעה”\"},{\"location\":\"Paragraph beginning “עמדתי בקלות בנדר מספר 1”\",\"severity\":\"major\",\"source_quote\":\"“How hard is it to have an awful time with 30 hours in the car?”\",\"suggested_fix\":\"Replace “כמה קשה ליהנות רע כשמבלים שלושים שעות במכונית?” with “כמה קשה להעביר שלושים שעות נוראיות במכונית?”\",\"translation_quote\":\"“כמה קשה ליהנות רע כשמבלים שלושים שעות במכונית?”\"},{\"location\":\"Paragraph beginning “הייתי נשבית בלבי הקשה...”\",\"severity\":\"major\",\"source_quote\":\"“I was smitten in my hard, rebellious heart.”\",\"suggested_fix\":\"Replace “נשבתי בלבי הקשה והמרדני” with “לבי הקשה והמרדני נשבה” or “נכבשתי בלבי הקשה והמרדני”.\",\"translation_quote\":\"“נשבתי בלבי הקשה והמרדני”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 1501,
+    "content_evidence_truncated": false,
+    "content_sha256": "75f29d0cc98baabafe004edba246f929ed9b1bf3f55137c408415ba1df3f4766",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 334,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15126,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15123,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15460
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

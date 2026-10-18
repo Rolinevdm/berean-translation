@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “לפי שהחלטתי להיות...” / vow list",
+      "severity": "major",
+      "source_quote": "“I was going to scowl and crab the entire drive”",
+      "suggested_fix": "Replace “אקמט את פניי ואתלונן לאורך כל הנסיעה” with “אעשה פרצופים ואתלונן לאורך כל הנסיעה” to convey the intended sulky, complaining behavior.",
+      "translation_quote": "“אקמט את פניי ואתלונן לאורך כל הנסיעה”"
+    },
+    {
+      "location": "Paragraph beginning “עמדתי בקלות בנדר מספר 1”",
+      "severity": "major",
+      "source_quote": "“How hard is it to have an awful time with 30 hours in the car?”",
+      "suggested_fix": "Replace “כמה קשה ליהנות רע כשמבלים שלושים שעות במכונית?” with “כמה קשה להעביר שלושים שעות נוראיות במכונית?”",
+      "translation_quote": "“כמה קשה ליהנות רע כשמבלים שלושים שעות במכונית?”"
+    },
+    {
+      "location": "Paragraph beginning “הייתי נשבית בלבי הקשה...”",
+      "severity": "major",
+      "source_quote": "“I was smitten in my hard, rebellious heart.”",
+      "suggested_fix": "Replace “נשבתי בלבי הקשה והמרדני” with “לבי הקשה והמרדני נשבה” or “נכבשתי בלבי הקשה והמרדני”.",
+      "translation_quote": "“נשבתי בלבי הקשה והמרדני”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
