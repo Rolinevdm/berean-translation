@@ -1,0 +1,115 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "d817af02-1edf-488e-a6cf-624b47fdc7e0",
+    "response_id": "chatcmpl-EaIs27T8rc6IVBdO6jLVxRID2dvql",
+    "usage": {
+      "completion_tokens": 3042,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 84,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11047,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11044,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14089
+    }
+  },
+  "received_at": "2026-10-18T11:00:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html / translation.html — اقتباس تكوين 1:31",
+        "severity": "major",
+        "source_quote": "And God saw every thing that he had made, and, behold, it was very good… –Genesis 1:31.",
+        "suggested_fix": "استبدل النص الإنجليزي داخل <em> بـ: «ورأى الله كل ما صنعه، وإذا به حسن جدًا… –تكوين 1:31.»",
+        "translation_quote": "And God saw every thing that he had made, and, behold, it was very good… –Genesis 1:31."
+      },
+      {
+        "location": "source.html / translation.html — اقتباس تكوين 3:12-13",
+        "severity": "major",
+        "source_quote": "And the man said, The woman whom thou gavest to be with me, she gave me of the tree, and I did eat. And the LORD God said unto the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and I did eat –Genesis 3:12-13.",
+        "suggested_fix": "استبدل الاقتباس بـ: <em>وقال الرجل: <strong>المرأة التي أعطيتني لتكون معي، هي أعطتني من الشجرة</strong>، فأكلت. فقال الرب الإله للمرأة: ما هذا الذي فعلتِ؟ فقالت المرأة: <strong>الحية خدعتني، وقد</strong> أكلت –تكوين 3:12-13.</em>",
+        "translation_quote": "And the man said, <strong>The woman whom thou gavest to be with me, she gave me of the tree</strong>, and I did eat. And the LORD God said unto the woman, What is this that thou hast done? And the woman said, <strong>The serpent beguiled me, and I did</strong> eat –Genesis 3:12-13."
+      },
+      {
+        "location": "source.html / translation.html — اقتباس تكوين 3:16-19",
+        "severity": "major",
+        "source_quote": "Unto the woman he said, I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee. And unto Adam he said, Because thou hast hearkened unto the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; in sorrow shalt thou eat of it all the days of thy life; Thorns also and thistles shall it bring forth to thee; and thou shalt eat the herb of the field; In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return –Genesis 3:16-19.",
+        "suggested_fix": "ترجم النص داخل <em> إلى: «وقال للمرأة: سأكثر جدًا أوجاعك وحملك؛ بالوجع تلدين أولادًا، وإلى زوجك يكون اشتياقك، وهو يسود عليك. وقال لآدم: لأنك سمعت لصوت امرأتك وأكلت من الشجرة التي أوصيتك قائلًا: لا تأكل منها، ملعونة الأرض بسببك؛ بالتعب تأكل منها كل أيام حياتك. وشوكًا وحسكًا تنبت لك، وتأكل عشب الحقل. بعرق وجهك تأكل خبزًا حتى تعود إلى الأرض، لأنك منها أُخذت؛ فأنت تراب وإلى تراب تعود –تكوين 3:16-19.»",
+        "translation_quote": "Unto the woman he said, I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee. And unto Adam he said, Because thou hast hearkened unto the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; in sorrow shalt thou eat of it all the days of thy life; Thorns also and thistles shall it bring forth to thee; and thou shalt eat the herb of the field; In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return –Genesis 3:16-19."
+      },
+      {
+        "location": "source.html / translation.html — اقتباس راعوث 1:20-21",
+        "severity": "major",
+        "source_quote": "…Call me not Naomi [pleasant], call me Mara [bitter]: for the Almighty hath dealt very bitterly with me. I went out full, and the LORD hath brought me home again empty: why then call ye me Naomi, seeing the LORD hath testified against me, and the Almighty hath afflicted me? –Ruth 1:20-21.",
+        "suggested_fix": "ترجم النص داخل <em> إلى: «…لا تدعوني نعمي [سارّة]، بل ادعوني مُرّة [مريرة]، لأن القدير قد عاملني بمرارة شديدة. خرجت ممتلئة، وأعادني الرب إلى بيتي فارغة. فلماذا تدعونني نعمي، وقد شهد الرب عليّ وأصابني القدير بالبلاء؟ –راعوث 1:20-21.»",
+        "translation_quote": "…Call me not Naomi [pleasant], call me Mara [bitter]: for the Almighty hath dealt very bitterly with me. I went out full, and the LORD hath brought me home again empty: why then call ye me Naomi, seeing the LORD hath testified against me, and the Almighty hath afflicted me? –Ruth 1:20-21."
+      },
+      {
+        "location": "source.html / translation.html — اقتباس راعوث 4:14-16",
+        "severity": "major",
+        "source_quote": "And the women said unto Naomi, Blessed be the LORD, which hath not left thee this day without a kinsman, that his name may be famous in Israel. And he shall be unto thee a restorer of thy life, and a nourisher of thine old age: for thy daughter in law, which loveth thee, which is better to thee than seven sons, hath born him. And Naomi took the child, and laid it in her bosom, and became nurse unto it –Ruth 4:14-16.",
+        "suggested_fix": "ترجم النص داخل <em> إلى: «وقالت النساء لنعمي: مبارك الرب الذي لم يتركك اليوم بلا قريب، ليكن اسمه مشهورًا في إسرائيل. ويكون لك مُجدِّدًا لحياتك ومُعيلًا في شيخوختك، لأن كنّتك التي تحبك، وهي خير لك من سبعة بنين، قد ولدته. فأخذت نعمي الطفل ووضعته في حضنها وصارت له حاضنة –راعوث 4:14-16.»",
+        "translation_quote": "And the women said unto Naomi, Blessed be the LORD, which hath not left thee this day without a kinsman, that his name may be famous in Israel. And he shall be unto thee a restorer of thy life, and a nourisher of thine old age: for thy daughter in law, which loveth thee, which is better to thee than seven sons, hath born him. And Naomi took the child, and laid it in her bosom, and became nurse unto it –Ruth 4:14-16."
+      },
+      {
+        "location": "source.html / translation.html — اقتباس إرميا 20:14-18",
+        "severity": "major",
+        "source_quote": "Cursed be the day wherein I was born: let not the day wherein my mother bare me be blessed. Cursed be the man who brought tidings to my father, saying, A man child is born unto thee; making him very glad. And let that man be as the cities which the LORD overthrew, and repented not: and let him hear the cry in the morning, and the shouting at noontide … Wherefore came I forth out of the womb to see labour and sorrow, that my days should be consumed with shame? –Jeremiah 20:14-18.",
+        "suggested_fix": "ترجم النص داخل <em> إلى: «ملعون اليوم الذي وُلدت فيه؛ لا يكن مباركًا اليوم الذي ولدتني فيه أمي. ملعون الرجل الذي بشّر أبي قائلًا: وُلد لك ابن ذكر، فأفرحه جدًا. وليكن ذلك الرجل كالمدن التي قلبها الرب ولم يندم، وليسمع الصراخ صباحًا والهتاف عند الظهيرة… لماذا خرجت من الرحم لأرى التعب والحزن، ولتفنى أيامي بالخزي؟ –إرميا 20:14-18.»",
+        "translation_quote": "Cursed be the day wherein I was born: let not the day wherein my mother bare me be blessed. Cursed be the man who brought tidings to my father, saying, A man child is born unto thee; making him very glad. And let that man be as the cities which the LORD overthrew, and repented not: and let him hear the cry in the morning, and the shouting at noontide … Wherefore came I forth out of the womb to see labour and sorrow, that my days should be consumed with shame? –Jeremiah 20:14-18."
+      },
+      {
+        "location": "source.html / translation.html — فقرة الاختلافات في التركيب الجيني",
+        "severity": "major",
+        "source_quote": "And, if we recognize that we have a greater tendency towards depression, we don’t need to feel discouraged by this fact. If God created us in such a way that we tend towards being moody instead of being naturally upbeat",
+        "suggested_fix": "استبدل «وإذا أدركنا أننا نميل أكثر إلى المزاجية بدلاً من أن نكون مبتهجين بطبيعتنا» بـ «وإذا أدركنا أن لدينا ميلًا أكبر إلى الاكتئاب، فلا داعي لأن نشعر بالإحباط بسبب هذه الحقيقة. وإذا خلقنا الله على نحو يجعلنا نميل إلى تقلّب المزاج بدلًا من الابتهاج بطبيعتنا».",
+        "translation_quote": "وإذا أدركنا أننا نميل أكثر إلى المزاجية بدلاً من أن نكون مبتهجين بطبيعتنا، فعلينا استخدام الحكمة"
+      },
+      {
+        "location": "source.html / translation.html — الاقتباس تحت عنوان «صَلّ»",
+        "severity": "major",
+        "source_quote": "…The effectual fervent prayer of a righteous man availeth much –James 5:16.",
+        "suggested_fix": "ترجم النص داخل <em> إلى: «…صلاة البار الحارّة الفعّالة تُجدي كثيرًا –يعقوب 5:16.»",
+        "translation_quote": "…The effectual fervent prayer of a righteous man availeth much –James 5:16."
+      },
+      {
+        "location": "source.html / translation.html — الاقتباس تحت عنوان «تعامل مع الخطيئة»",
+        "severity": "major",
+        "source_quote": "Confess your faults one to another, and pray one for another, that ye may be healed… –James 5:16.",
+        "suggested_fix": "ترجم النص داخل <em> إلى: «اعترفوا بعضكم لبعض بزلاتكم، وصلّوا بعضكم لأجل بعض لكي تُشفَوا… –يعقوب 5:16.»",
+        "translation_quote": "Confess your faults one to another, and pray one for another, that ye may be healed… –James 5:16."
+      },
+      {
+        "location": "source.html / translation.html — أول فقرة بعد الفاصل الزخرفي",
+        "severity": "minor",
+        "source_quote": "probably thirty percent of the people who come to my office",
+        "suggested_fix": "استبدل «وربما ثلث المرضى» بـ «وربما ثلاثون في المئة من المرضى» للحفاظ على الرقم المطبوع.",
+        "translation_quote": "وربما ثلث المرضى"
+      },
+      {
+        "location": "source.html / translation.html — لقب إرميا",
+        "severity": "minor",
+        "source_quote": "the weeping prophet",
+        "suggested_fix": "استبدل «النبي الباكٍ» بـ «النبي الباكي» داخل الوسمين القائمين.",
+        "translation_quote": "النبي الباكٍ"
+      },
+      {
+        "location": "source.html / translation.html — الجملة الختامية",
+        "severity": "minor",
+        "source_quote": "You may not be gloriously happy all of the time, but by God’s grace",
+        "suggested_fix": "استبدل «ربما لا تكون سعيدًا بمجد دائم طوال الوقت، لكن برحمة الله» بـ «قد لا تكون في غاية السعادة طوال الوقت، لكن بنعمة الله».",
+        "translation_quote": "ربما لا تكون سعيدًا بمجد دائم طوال الوقت، لكن برحمة الله"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 70
+  }
+}
