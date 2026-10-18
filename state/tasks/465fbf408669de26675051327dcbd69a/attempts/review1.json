@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T14:51:31+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, últimas palavras de Perronet\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Glory to God in His all-sufficiency!\",\n      \"suggested_fix\": \"Substituir por “Glória a Deus em Sua plena suficiência!”\",\n      \"translation_quote\": \"Glória a Deus em Sua auto-suficiência!\"\n    },\n    {\n      \"location\": \"translation.html, primeira estrofe, segundo verso\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Let angels prostrate fall\",\n      \"suggested_fix\": \"Substituir o verso por “Que os anjos se prostrem;”, preservando o elemento <br>.\",\n      \"translation_quote\": \"Que façam prostrar os anjos em sua glória;\"\n    },\n    {\n      \"location\": \"translation.html, segunda estrofe, primeiro e terceiro versos\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Let high born seraphs tune the lyre [...] Before His face who tunes their choir\",\n      \"suggested_fix\": \"Usar “Que os serafins de elevada nobreza afinem a lira,” e “Diante d’Aquele que afina seu coro,”, preservando os elementos <br>. O sujeito que afina o coro é Deus, não Sua face.\",\n      \"translation_quote\": \"Que os serafins de elevada nobreza empunhem a lira, [...] Perante Aquele cuja face rege seu coral,\"\n    },\n    {\n      \"location\": \"translation.html, oitava estrofe, segundo verso\",\n      \"severity\": \"major\",\n      \"source_quote\": \"That bound creation’s call\",\n      \"suggested_fix\": \"Substituir por “Que delimitam o chamado da criação”, preservando o <br>, sem introduzir a ideia de que as tribos compreenderam esse chamado.\",\n      \"translation_quote\": \"Que apreenderam o chamado da criação\"\n    },\n    {\n      \"location\": \"translation.html, relato do missionário E.P. Scott\",\n      \"severity\": \"major\",\n      \"source_quote\": \"a savage band of murderous tribesmen\",\n      \"suggested_fix\": \"Substituir “uma banda de tribos selvagens e homicidas” por “um bando de membros da tribo, selvagens e homicidas”. O relato descreve um grupo de pessoas, não um conjunto de tribos.\",\n      \"translation_quote\": \"uma banda de tribos selvagens e homicidas\"\n    },\n    {\n      \"location\": \"translation.title; translation.html, primeiro parágrafo expositivo, parágrafo sobre as melodias e atributo alt da imagem\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"All Hail the Power of Jesus Name; All Hail the Power of Jesus’ Name\",\n      \"suggested_fix\": \"Substituir consistentemente “Todos Salve o Poder do Nome de Jesus” por “Todos Saudai o Poder do Nome de Jesus”, inclusive no título e no atributo alt.\",\n      \"translation_quote\": \"Todos Salve o Poder do Nome de Jesus\"\n    },\n    {\n      \"location\": \"translation.html, parágrafo sobre a perseguição\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"rolled in mud and mire\",\n      \"suggested_fix\": \"Substituir “rolado em lama e fuligem” por “rolado na lama e no lodo”.\",\n      \"translation_quote\": \"rolado em lama e fuligem\"\n    },\n    {\n      \"location\": \"translation.html, parágrafo sobre a separação dos Wesley\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Perronet’s strong-mindedness and free spirit\",\n      \"suggested_fix\": \"Substituir “a teimosia e o espírito independente de Perronet” por “a firmeza de convicções e o espírito independente de Perronet”, evitando acrescentar uma avaliação pejorativa.\",\n      \"translation_quote\": \"a teimosia e o espírito independente de Perronet\"\n    },\n    {\n      \"location\": \"translation.html, referências, quatro linhas de melodias\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"“Coronation” Tune; “Miles Lane” Tune; “Diadem” Tune; “Let Us Crown Him” Tune\",\n      \"suggested_fix\": \"Traduzir o descritor “Tune” por “Melodia” nas quatro linhas, mantendo os títulos, nomes e datas existentes.\",\n      \"translation_quote\": \"“Coronation” Tune; “Miles Lane” Tune; “Diadem” Tune; “Let Us Crown Him” Tune\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 87\n}",
+    "content_bytes": 4040,
+    "content_evidence_truncated": false,
+    "content_sha256": "ecdb6625e6b760944f6381384ff588a0fbd31ffe0f2c1be9fa64dc40ddf30762",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1113,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5535,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4432,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6648
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

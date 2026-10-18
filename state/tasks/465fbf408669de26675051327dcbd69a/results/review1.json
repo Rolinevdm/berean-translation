@@ -1,0 +1,94 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "0f164a73-d2eb-48b8-ad9a-fd76dd816da9",
+    "response_id": "chatcmpl-EaMUbINr7vr7d2OrUaY0WvAVojGx8",
+    "usage": {
+      "completion_tokens": 1113,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5535,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4432,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6648
+    }
+  },
+  "received_at": "2026-10-18T14:51:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, últimas palavras de Perronet",
+        "severity": "major",
+        "source_quote": "Glory to God in His all-sufficiency!",
+        "suggested_fix": "Substituir por “Glória a Deus em Sua plena suficiência!”",
+        "translation_quote": "Glória a Deus em Sua auto-suficiência!"
+      },
+      {
+        "location": "translation.html, primeira estrofe, segundo verso",
+        "severity": "major",
+        "source_quote": "Let angels prostrate fall",
+        "suggested_fix": "Substituir o verso por “Que os anjos se prostrem;”, preservando o elemento <br>.",
+        "translation_quote": "Que façam prostrar os anjos em sua glória;"
+      },
+      {
+        "location": "translation.html, segunda estrofe, primeiro e terceiro versos",
+        "severity": "major",
+        "source_quote": "Let high born seraphs tune the lyre [...] Before His face who tunes their choir",
+        "suggested_fix": "Usar “Que os serafins de elevada nobreza afinem a lira,” e “Diante d’Aquele que afina seu coro,”, preservando os elementos <br>. O sujeito que afina o coro é Deus, não Sua face.",
+        "translation_quote": "Que os serafins de elevada nobreza empunhem a lira, [...] Perante Aquele cuja face rege seu coral,"
+      },
+      {
+        "location": "translation.html, oitava estrofe, segundo verso",
+        "severity": "major",
+        "source_quote": "That bound creation’s call",
+        "suggested_fix": "Substituir por “Que delimitam o chamado da criação”, preservando o <br>, sem introduzir a ideia de que as tribos compreenderam esse chamado.",
+        "translation_quote": "Que apreenderam o chamado da criação"
+      },
+      {
+        "location": "translation.html, relato do missionário E.P. Scott",
+        "severity": "major",
+        "source_quote": "a savage band of murderous tribesmen",
+        "suggested_fix": "Substituir “uma banda de tribos selvagens e homicidas” por “um bando de membros da tribo, selvagens e homicidas”. O relato descreve um grupo de pessoas, não um conjunto de tribos.",
+        "translation_quote": "uma banda de tribos selvagens e homicidas"
+      },
+      {
+        "location": "translation.title; translation.html, primeiro parágrafo expositivo, parágrafo sobre as melodias e atributo alt da imagem",
+        "severity": "minor",
+        "source_quote": "All Hail the Power of Jesus Name; All Hail the Power of Jesus’ Name",
+        "suggested_fix": "Substituir consistentemente “Todos Salve o Poder do Nome de Jesus” por “Todos Saudai o Poder do Nome de Jesus”, inclusive no título e no atributo alt.",
+        "translation_quote": "Todos Salve o Poder do Nome de Jesus"
+      },
+      {
+        "location": "translation.html, parágrafo sobre a perseguição",
+        "severity": "minor",
+        "source_quote": "rolled in mud and mire",
+        "suggested_fix": "Substituir “rolado em lama e fuligem” por “rolado na lama e no lodo”.",
+        "translation_quote": "rolado em lama e fuligem"
+      },
+      {
+        "location": "translation.html, parágrafo sobre a separação dos Wesley",
+        "severity": "minor",
+        "source_quote": "Perronet’s strong-mindedness and free spirit",
+        "suggested_fix": "Substituir “a teimosia e o espírito independente de Perronet” por “a firmeza de convicções e o espírito independente de Perronet”, evitando acrescentar uma avaliação pejorativa.",
+        "translation_quote": "a teimosia e o espírito independente de Perronet"
+      },
+      {
+        "location": "translation.html, referências, quatro linhas de melodias",
+        "severity": "minor",
+        "source_quote": "“Coronation” Tune; “Miles Lane” Tune; “Diadem” Tune; “Let Us Crown Him” Tune",
+        "suggested_fix": "Traduzir o descritor “Tune” por “Melodia” nas quatro linhas, mantendo os títulos, nomes e datas existentes.",
+        "translation_quote": "“Coronation” Tune; “Miles Lane” Tune; “Diadem” Tune; “Let Us Crown Him” Tune"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 87
+  }
+}
