@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "פסקה על כנסיות ישנות, „לאט לאט הכנסייה...”",
+      "severity": "major",
+      "source_quote": "“All over the world we find sleeping churches”",
+      "suggested_fix": "החליפו את „כנסיות ישנות” ב„כנסיות רדומות”.",
+      "translation_quote": "בכל רחבי העולם אנו מוצאים כנסיות ישנות"
+    },
+    {
+      "location": "ציטוט עברים 12:6–9",
+      "severity": "major",
+      "source_quote": "“For whom the Lord loveth, He chasteneth”",
+      "suggested_fix": "החליפו את „יהוה” ב„האדון”, כדי לשמר את הנוסח המצוטט במקור: „כי את אשר יאהב האדון יוכיח”.",
+      "translation_quote": "כי את אשר יאהב יהוה יוכיח"
+    },
+    {
+      "location": "ציטוט תהילים 139:23",
+      "severity": "major",
+      "source_quote": "“see if there be any wicked way in me”",
+      "suggested_fix": "החליפו את „דרך עוצב בי” בניסוח שמשמעותו „דרך רעה בי”, למשל: „וראה אם דרך רעה בי, ונחני בדרך עולם”.",
+      "translation_quote": "וראה אם דרך עוצב בי, ונחני בדרך עולם"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

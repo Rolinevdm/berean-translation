@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7093a437964f4488a596927869035873",
   "campaign": "auto-13a1d95706b86a567f156168c4bbab7d5094b1ce5e2d9beddcef8606c7fb3867",
   "created_at": "2026-10-17T22:16:21+00:00",
   "events": [
@@ -28,10 +27,52 @@
         },
         "total_tokens": 8462
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1004,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 690,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8816,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8813,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9820
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "פסקה על כנסיות ישנות, „לאט לאט הכנסייה...”",
+      "severity": "major",
+      "source_quote": "“All over the world we find sleeping churches”",
+      "suggested_fix": "החליפו את „כנסיות ישנות” ב„כנסיות רדומות”.",
+      "translation_quote": "בכל רחבי העולם אנו מוצאים כנסיות ישנות"
+    },
+    {
+      "location": "ציטוט עברים 12:6–9",
+      "severity": "major",
+      "source_quote": "“For whom the Lord loveth, He chasteneth”",
+      "suggested_fix": "החליפו את „יהוה” ב„האדון”, כדי לשמר את הנוסח המצוטט במקור: „כי את אשר יאהב האדון יוכיח”.",
+      "translation_quote": "כי את אשר יאהב יהוה יוכיח"
+    },
+    {
+      "location": "ציטוט תהילים 139:23",
+      "severity": "major",
+      "source_quote": "“see if there be any wicked way in me”",
+      "suggested_fix": "החליפו את „דרך עוצב בי” בניסוח שמשמעותו „דרך רעה בי”, למשל: „וראה אם דרך רעה בי, ונחני בדרך עולם”.",
+      "translation_quote": "וראה אם דרך עוצב בי, ונחני בדרך עולם"
+    }
+  ],
   "id": "2dbc266f4abc45d87ad587894ad3730e",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "heb",
@@ -120,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0cf69fae5bdc5074289671d3718aac2111ac6589c6e3bd86072ed5c05640e01b.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +181,7 @@
     "total_reserved_usd": 0.08996,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e215e736c1acdb8dcfb1204d9f2318c83130759b6bf298e60a5f911c6667fd1f",
   "translation_model_actual": "gpt-6-luna"

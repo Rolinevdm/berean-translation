@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "66ee2d5e-687a-4b2c-844a-76ee59daf6c8",
+    "response_id": "chatcmpl-Ea8KevTDBdBDBiPKsUpahbZYtFrr7",
+    "usage": {
+      "completion_tokens": 1004,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 690,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8816,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8813,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9820
+    }
+  },
+  "received_at": "2026-10-18T00:55:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "פסקה על כנסיות ישנות, „לאט לאט הכנסייה...”",
+        "severity": "major",
+        "source_quote": "“All over the world we find sleeping churches”",
+        "suggested_fix": "החליפו את „כנסיות ישנות” ב„כנסיות רדומות”.",
+        "translation_quote": "בכל רחבי העולם אנו מוצאים כנסיות ישנות"
+      },
+      {
+        "location": "ציטוט עברים 12:6–9",
+        "severity": "major",
+        "source_quote": "“For whom the Lord loveth, He chasteneth”",
+        "suggested_fix": "החליפו את „יהוה” ב„האדון”, כדי לשמר את הנוסח המצוטט במקור: „כי את אשר יאהב האדון יוכיח”.",
+        "translation_quote": "כי את אשר יאהב יהוה יוכיח"
+      },
+      {
+        "location": "ציטוט תהילים 139:23",
+        "severity": "major",
+        "source_quote": "“see if there be any wicked way in me”",
+        "suggested_fix": "החליפו את „דרך עוצב בי” בניסוח שמשמעותו „דרך רעה בי”, למשל: „וראה אם דרך רעה בי, ונחני בדרך עולם”.",
+        "translation_quote": "וראה אם דרך עוצב בי, ונחני בדרך עולם"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

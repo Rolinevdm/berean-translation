@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T00:55:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"פסקה על כנסיות ישנות, „לאט לאט הכנסייה...”\",\"severity\":\"major\",\"source_quote\":\"“All over the world we find sleeping churches”\",\"suggested_fix\":\"החליפו את „כנסיות ישנות” ב„כנסיות רדומות”.\",\"translation_quote\":\"בכל רחבי העולם אנו מוצאים כנסיות ישנות\"},{\"location\":\"ציטוט עברים 12:6–9\",\"severity\":\"major\",\"source_quote\":\"“For whom the Lord loveth, He chasteneth”\",\"suggested_fix\":\"החליפו את „יהוה” ב„האדון”, כדי לשמר את הנוסח המצוטט במקור: „כי את אשר יאהב האדון יוכיח”.\",\"translation_quote\":\"כי את אשר יאהב יהוה יוכיח\"},{\"location\":\"ציטוט תהילים 139:23\",\"severity\":\"major\",\"source_quote\":\"“see if there be any wicked way in me”\",\"suggested_fix\":\"החליפו את „דרך עוצב בי” בניסוח שמשמעותו „דרך רעה בי”, למשל: „וראה אם דרך רעה בי, ונחני בדרך עולם”.\",\"translation_quote\":\"וראה אם דרך עוצב בי, ונחני בדרך עולם\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 1228,
+    "content_evidence_truncated": false,
+    "content_sha256": "ce7ab08dcb52305e9785614ec34389d18309634195aa7807a42cbb6d336893f3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1004,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 690,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8816,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8813,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9820
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
