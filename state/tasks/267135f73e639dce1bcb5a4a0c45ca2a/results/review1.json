@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "a9e9d842-a106-449d-a0d1-80ff5224b38d",
+    "response_id": "chatcmpl-EaUtGJeBkYiDYnESevPv2NGd1DMkP",
+    "usage": {
+      "completion_tokens": 377,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 84,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6618,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6615,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6995
+    }
+  },
+  "received_at": "2026-10-18T23:50:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: “সমবয়সীরা আমাদের আনন্দ করার পরীক্ষা নেয়” শিরোনামের পরের অনুচ্ছেদ",
+        "severity": "minor",
+        "source_quote": "and we scarcely notice",
+        "suggested_fix": "“আর আমরা সবে তা খেয়াল করি” বদলে লিখুন “আর আমরা তা প্রায় খেয়ালই করি না”।",
+        "translation_quote": "আর আমরা সবে তা খেয়াল করি"
+      },
+      {
+        "location": "html: “সমবয়সীরা আমাদের আনন্দ করার পরীক্ষা নেয়” শিরোনামের পরের অনুচ্ছেদের শেষ বাক্য",
+        "severity": "minor",
+        "source_quote": "He leads me to rest and acceptance.",
+        "suggested_fix": "“তিনি আমাকে শান্তি ও গ্রহণযোগ্যতার দিকে পরিচালিত করেন” বদলে লিখুন “তিনি আমাকে শান্তি পেতে ও পরিস্থিতি মেনে নিতে সাহায্য করেন”। এখানে acceptance বলতে পরিস্থিতি মেনে নেওয়া বোঝানো হয়েছে, গ্রহণযোগ্য হওয়া নয়।",
+        "translation_quote": "তিনি আমাকে শান্তি ও গ্রহণযোগ্যতার দিকে পরিচালিত করেন।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}

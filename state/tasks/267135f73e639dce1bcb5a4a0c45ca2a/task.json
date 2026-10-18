@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2cb0f308b54342a781790b74572e8ae0",
   "campaign": "auto-53b054b047741233e4712a9c509e935d06289ced4465b88a91928bc86d6524cb",
   "created_at": "2026-10-18T23:44:19+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 377,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 84,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6618,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6615,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6995
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: “সমবয়সীরা আমাদের আনন্দ করার পরীক্ষা নেয়” শিরোনামের পরের অনুচ্ছেদ",
+      "severity": "minor",
+      "source_quote": "and we scarcely notice",
+      "suggested_fix": "“আর আমরা সবে তা খেয়াল করি” বদলে লিখুন “আর আমরা তা প্রায় খেয়ালই করি না”।",
+      "translation_quote": "আর আমরা সবে তা খেয়াল করি"
+    },
+    {
+      "location": "html: “সমবয়সীরা আমাদের আনন্দ করার পরীক্ষা নেয়” শিরোনামের পরের অনুচ্ছেদের শেষ বাক্য",
+      "severity": "minor",
+      "source_quote": "He leads me to rest and acceptance.",
+      "suggested_fix": "“তিনি আমাকে শান্তি ও গ্রহণযোগ্যতার দিকে পরিচালিত করেন” বদলে লিখুন “তিনি আমাকে শান্তি পেতে ও পরিস্থিতি মেনে নিতে সাহায্য করেন”। এখানে acceptance বলতে পরিস্থিতি মেনে নেওয়া বোঝানো হয়েছে, গ্রহণযোগ্য হওয়া নয়।",
+      "translation_quote": "তিনি আমাকে শান্তি ও গ্রহণযোগ্যতার দিকে পরিচালিত করেন।"
+    }
+  ],
+  "finished_at": "2026-10-18T23:50:07+00:00",
   "id": "267135f73e639dce1bcb5a4a0c45ca2a",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "ben",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/06b12e22d80a9701c9b707fb2702e33e14c80afc982284702d29e496c31557d5.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.755931,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "5c16ed2871a1fc1b55f7d5eef0637ab09a0051f13538cba8d69f554bd566c053",
   "translation_model_actual": "gpt-6-luna"
