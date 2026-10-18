@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fc6b1f160d534e3591778f30cd6640ca",
   "campaign": "auto-326487b5f7601dd76edd19f1bd2a19ad780e32c5e2d85614e42d674e522256fd",
   "created_at": "2026-10-18T11:09:37+00:00",
   "events": [
@@ -68,25 +67,40 @@
         },
         "total_tokens": 24348
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "첫 번째 문단",
-      "severity": "major",
-      "source_quote": "“Dad drank—heavily, and chewed tobacco.”",
-      "suggested_fix": "“아빠는 술을 많이 마셨고 씹는담배를 씹으셨습니다.”",
-      "translation_quote": "“아빠는 술을 많이 마셨고, 씹는 담배를 피웠습니다.”"
     },
     {
-      "location": "도서관에서 책을 빌리는 문단",
-      "severity": "major",
-      "source_quote": "“J. R. Tolkien’s ‘Lord of the Ring’ series (pure witchcraft, by the way!)”",
-      "suggested_fix": "“J. R. 톨킨의 『반지의 제왕』 시리즈도 읽었습니다(참고로 순전히 주술입니다!).”",
-      "translation_quote": "“J. R. 톨킨의 『반지의 제왕』 시리즈도 읽었습니다(참고로 순전히 마술입니다!).”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1176,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1012,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 15912,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 14809,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 17088
+      }
     }
   ],
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "본문, 데이비드 쿠퍼 설교 인용문",
+      "severity": "major",
+      "source_quote": "“And my prayer for you is that God would open up your eyes, and your ears, that you may become wise, and kiss the Son.”",
+      "suggested_fix": "“여러분의 눈과 귀를 열어 지혜롭게 되고 아들에게 입 맞추게 해 달라고 하나님께 기도합니다.”",
+      "translation_quote": "“여러분의 눈과 귀를 열어 지혜롭게 되고 아들에게 입 맞추도록 하나님께서 도와주시기를 기도합니다.”"
+    }
+  ],
+  "finished_at": "2026-10-18T17:36:51+00:00",
   "id": "07fd5ad7b23158adfe453cc33be1499d",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "kor",
@@ -175,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +209,7 @@
     "total_reserved_usd": 0.130309,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "11c28bf114f234094c18d24228f24b70a3066d4fe9e7c681b61528fe1e483ca7",
   "translation_model_actual": "gpt-6-luna"

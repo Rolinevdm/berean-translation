@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문, 데이비드 쿠퍼 설교 인용문",
+      "severity": "major",
+      "source_quote": "“And my prayer for you is that God would open up your eyes, and your ears, that you may become wise, and kiss the Son.”",
+      "suggested_fix": "“여러분의 눈과 귀를 열어 지혜롭게 되고 아들에게 입 맞추게 해 달라고 하나님께 기도합니다.”",
+      "translation_quote": "“여러분의 눈과 귀를 열어 지혜롭게 되고 아들에게 입 맞추도록 하나님께서 도와주시기를 기도합니다.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

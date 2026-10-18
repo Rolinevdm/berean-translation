@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T17:36:51+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"본문, 데이비드 쿠퍼 설교 인용문\",\"severity\":\"major\",\"source_quote\":\"“And my prayer for you is that God would open up your eyes, and your ears, that you may become wise, and kiss the Son.”\",\"suggested_fix\":\"“여러분의 눈과 귀를 열어 지혜롭게 되고 아들에게 입 맞추게 해 달라고 하나님께 기도합니다.”\",\"translation_quote\":\"“여러분의 눈과 귀를 열어 지혜롭게 되고 아들에게 입 맞추도록 하나님께서 도와주시기를 기도합니다.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 598,
+    "content_evidence_truncated": false,
+    "content_sha256": "fc8fd79ee92a08a83b737d4a542d27c2f0f6b79d800d54c2b74ecbeaf7097c23",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1176,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1012,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15912,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14809,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 17088
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
