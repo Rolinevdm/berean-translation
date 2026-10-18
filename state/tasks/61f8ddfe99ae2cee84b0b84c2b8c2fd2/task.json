@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "226d05eff6e34689a0eabbfddf7182a4",
   "campaign": "auto-ebd7fe157837e698a4fd539a6858172977ff022d190b9e834cb218a9e2aa2415",
   "created_at": "2026-10-18T14:29:46+00:00",
   "events": [
@@ -48,18 +47,31 @@
         },
         "total_tokens": 15522
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 64,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 32,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10172,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 10169
+        },
+        "total_tokens": 10236
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html: ‘“하나님 나라”와 “교회”는 서로 바꾸어 쓸 수 있는가?’ 절의 두 번째 문단 마지막 문장",
-      "severity": "major",
-      "source_quote": "We can get enthusiastic about the concept of the kingdom, the teachings of the kingdom, the growth of the kingdom, and conferences about the kingdom, and yet be cynical, critical, and sorry members of our local church.",
-      "suggested_fix": "마지막 문장을 “하나님 나라라는 개념과 가르침, 하나님 나라의 성장, 하나님 나라를 주제로 한 집회에 열광하면서도, 정작 자기 지역 교회에서는 냉소적이고 비판적이며 한심한 교인으로 살아갈 수 있습니다.”로 수정하십시오.",
-      "translation_quote": "하나님 나라라는 개념과 가르침, 하나님 나라의 성장, 하나님 나라를 주제로 한 집회에 열광하면서도 자기 지역 교회의 구성원들을 냉소하고 비판하며 안타깝게 여길 수 있습니다."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-18T18:10:50+00:00",
   "id": "61f8ddfe99ae2cee84b0b84c2b8c2fd2",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "kor",
@@ -148,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -167,7 +179,7 @@
     "total_reserved_usd": 0.783712,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
   "translation_model_actual": "gpt-6.1-sol"
