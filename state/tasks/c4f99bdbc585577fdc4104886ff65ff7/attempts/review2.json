@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T21:56:42+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"“two young girls espoused and received Christ by faith”\",\"suggested_fix\":\"أضيفوا معنى espoused، مثل: «ارتبطتا بالمسيح وقبلتاه بالإيمان»؛ أو «أعلنتا ولاءهما للمسيح وقبلتاه بالإيمان».\",\"translation_quote\":\"«فتاتين شابتين آمنتا بالمسيح وقبلتاه بالإيمان»\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 507,
+    "content_evidence_truncated": false,
+    "content_sha256": "a2ff75ea6e620bb280d941b4c7e7dd0a4d64864986792e36629ae5a209a05a8d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 642,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2509,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1406,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3151
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

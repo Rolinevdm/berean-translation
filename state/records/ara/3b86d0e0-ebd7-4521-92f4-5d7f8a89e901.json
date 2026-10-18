@@ -7,9 +7,32 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "c4f99bdbc585577fdc4104886ff65ff7"
+    },
+    {
+      "at": "2026-10-18T21:56:42+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "c4f99bdbc585577fdc4104886ff65ff7"
     }
   ],
   "language": "ara",
   "latest_task": "c4f99bdbc585577fdc4104886ff65ff7",
-  "published": null
+  "published": {
+    "html_path": "content/ara/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
+    "html_sha256": "99fbe7b03bbd04d849c254214cb27f01eb398ba454f598ec03e34510494974b7",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+    "metadata_path": "content/ara/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.json",
+    "metadata_sha256": "119c994879b5fa534724f0108225f69041a826c86e3838b3fa21f9b200914fa3",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ar\" dir=\"rtl\" role=\"note\">\n  <p>تُرجم هذا المقال باستخدام الذكاء الاصطناعي من OpenAI (النموذج: gpt-6-luna)، ولم يخضع بعد لمراجعة بشرية. النص الإنجليزي الأصلي هو النسخة المرجعية المعتمدة. عند الشك في المعنى، يُرجى الرجوع إلى الأصل الإنجليزي. <a href=\"/en/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901/\" data-source-article-id=\"3b86d0e0-ebd7-4521-92f4-5d7f8a89e901\" hreflang=\"en\">الأصل الإنجليزي</a></p>\n</aside>",
+    "published_at": "2026-10-18T21:56:42+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-6-luna",
+    "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+    "source_snapshot": "state/sources/e5fd7827d2293d575cf08950e0f749a3c7325fa44b3afcf40ab82ac924c8262c.json",
+    "task": "c4f99bdbc585577fdc4104886ff65ff7",
+    "translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59"
+  }
 }

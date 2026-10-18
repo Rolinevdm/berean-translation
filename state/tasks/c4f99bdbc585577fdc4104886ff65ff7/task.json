@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4418b3c35b2e47e3a3c682c4d06c3070",
   "campaign": "auto-cbe2f2e499e194e6441580a2e93adad0c6d843756854c9d661daba89b2df416c",
   "created_at": "2026-10-18T19:37:51+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 3344
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 642,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2509,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1406,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3151
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Final paragraph",
-      "severity": "major",
-      "source_quote": "even though the girls were Anabaptists.",
-      "suggested_fix": "مع أن الفتاتين كانتا من أتباع حركة إعادة المعمودية (الأنابابتست).",
-      "translation_quote": "مع أن الفتاتين كانتا من قائلِي معمودية البالغين."
+      "location": "Paragraph 1",
+      "severity": "minor",
+      "source_quote": "“two young girls espoused and received Christ by faith”",
+      "suggested_fix": "أضيفوا معنى espoused، مثل: «ارتبطتا بالمسيح وقبلتاه بالإيمان»؛ أو «أعلنتا ولاءهما للمسيح وقبلتاه بالإيمان».",
+      "translation_quote": "«فتاتين شابتين آمنتا بالمسيح وقبلتاه بالإيمان»"
     }
   ],
+  "finished_at": "2026-10-18T21:56:42+00:00",
   "id": "c4f99bdbc585577fdc4104886ff65ff7",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "ara",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.08633,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
   "translation_model_actual": "gpt-6-luna"

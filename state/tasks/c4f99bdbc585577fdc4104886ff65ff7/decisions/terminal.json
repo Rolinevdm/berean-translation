@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1",
+      "severity": "minor",
+      "source_quote": "“two young girls espoused and received Christ by faith”",
+      "suggested_fix": "أضيفوا معنى espoused، مثل: «ارتبطتا بالمسيح وقبلتاه بالإيمان»؛ أو «أعلنتا ولاءهما للمسيح وقبلتاه بالإيمان».",
+      "translation_quote": "«فتاتين شابتين آمنتا بالمسيح وقبلتاه بالإيمان»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

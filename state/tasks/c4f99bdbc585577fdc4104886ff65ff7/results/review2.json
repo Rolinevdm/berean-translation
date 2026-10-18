@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a0e911a9-0e95-4c9d-9ae4-69b9cd46e08b",
+    "response_id": "chatcmpl-EaT7ymHrR2VkZBtKyVg1YKCHgUNsn",
+    "usage": {
+      "completion_tokens": 642,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2509,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1406,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3151
+    }
+  },
+  "received_at": "2026-10-18T21:56:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1",
+        "severity": "minor",
+        "source_quote": "“two young girls espoused and received Christ by faith”",
+        "suggested_fix": "أضيفوا معنى espoused، مثل: «ارتبطتا بالمسيح وقبلتاه بالإيمان»؛ أو «أعلنتا ولاءهما للمسيح وقبلتاه بالإيمان».",
+        "translation_quote": "«فتاتين شابتين آمنتا بالمسيح وقبلتاه بالإيمان»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
