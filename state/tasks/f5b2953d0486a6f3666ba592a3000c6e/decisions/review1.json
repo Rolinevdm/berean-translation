@@ -1,0 +1,91 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph 11, Revelation 13:16-17 quotation",
+      "severity": "major",
+      "source_quote": "save he that had the mark, or the name of the beast, or the number of his name",
+      "suggested_fix": "השלימו את סוף הציטוט: ״<strong>ואיש לא יוכל לקנות או למכור, אלא מי</strong> שיש לו האות, או שם החיה, או מספר שמה—התגלות 13:16-17.״ שמרו על תגי ההדגשה שבתוך הציטוט.",
+      "translation_quote": "ומי שאין לו את האות לא יוכל לקנות ולא למכור—התגלות 13:16-17."
+    },
+    {
+      "location": "html, paragraph 12",
+      "severity": "major",
+      "source_quote": "Still others think this passage is to be spiritualized and has nothing to do with the end time system of government.",
+      "suggested_fix": "החליפו את המשפט ב״אחרים סבורים שיש לפרש את הקטע הזה באופן רוחני, ושאין לו קשר למערכת השלטון של אחרית הימים.״",
+      "translation_quote": "יש מי שחושב שיש להא זו פסוק להתעברות ולרוחני ושאין לו קשר למערכת הממשלתית של אחרית הימים."
+    },
+    {
+      "location": "html, paragraphs 12 and 13",
+      "severity": "major",
+      "source_quote": "the bride will be raptured before this; all believers will be raptured prior to the unfolding of end time events",
+      "suggested_fix": "בפסקה 12 החליפו ״הכלה תורד לפני כן״ ב״הכלה תילקח לשמיים לפני כן״. בפסקה 13 החליפו ״כל המאמינים יתפסו לפני ההתגלות של אירועי אחרית הימים״ ב״כל המאמינים יילקחו לשמיים לפני התרחשות אירועי אחרית הימים״.",
+      "translation_quote": "הכלה תורד לפני כן; כל המאמינים יתפסו לפני ההתגלות של אירועי אחרית הימים"
+    },
+    {
+      "location": "html, paragraph 10",
+      "severity": "major",
+      "source_quote": "we as Christians should constantly commit our lives to God",
+      "suggested_fix": "החליפו ב״עלינו כנוצרים להפקיד תמיד את חיינו בידי אלוהים״.",
+      "translation_quote": "עלינו כמאמינים לנצור את חיינו תמיד לאל"
+    },
+    {
+      "location": "html, paragraph 14, 2 Corinthians 6:17 quotation",
+      "severity": "major",
+      "source_quote": "come out from among them, and be ye separate",
+      "suggested_fix": "החליפו ב״<strong>צאו מתוכם והיבדלו מהם</strong>״ בתוך תג ה־em הקיים. ״היפרו״ אינו מבטא היבדלות.",
+      "translation_quote": "צֵאוּ מִתּוֹכָם וְהִפָּרוּ מִמֶּנָּם"
+    },
+    {
+      "location": "html, paragraph 14, statement referring to Revelation 14:10-11",
+      "severity": "major",
+      "source_quote": "Revelation 14:10-11 declares that all who take the mark will seal their destiny in hell.",
+      "suggested_fix": "החליפו את המשפט ב״התגלות 14:10-11 מצהיר שכל המקבלים את האות יחרצו בכך את גורלם לגיהינום.״ הציגו אותו כפרוזה רגילה, ללא תג ה־em שנוסף ואינו במקור.",
+      "translation_quote": "ההתגלות מצהירה שְׁ<em>כָּל־אֲשֶׁר יִקַּח אֶת־הָאוֹת יְאֱסֹף לִבּוֹ בְּגֵיהִנּוֹם</em>—התגלות 14:10-11."
+    },
+    {
+      "location": "html, paragraph 16",
+      "severity": "major",
+      "source_quote": "our future heavenly reward",
+      "suggested_fix": "החליפו ״לשכרנו השמי העתידי״ ב״לשכרנו העתידי בשמיים״.",
+      "translation_quote": "לשכרנו השמי העתידי"
+    },
+    {
+      "location": "html, paragraphs 2–4",
+      "severity": "minor",
+      "source_quote": "I begin with the disclaimer; One of the things; the flu shot that targets certain viruses; we soon began to hear",
+      "suggested_fix": "תקנו בהתאמה ל״אפתח בהסתייגות״, ״אחד הדברים״, ״החיסון לשפעת שמכוון נגד נגיפים מסוימים״ ו״עד מהרה התחלנו לשמוע״.",
+      "translation_quote": "אני מתחיל בהצהרת אחריות; אחת מהדברים; החיסון לשפעת שמכוון וירוסים מסוימים; אנחנו מהר החלו לשמוע"
+    },
+    {
+      "location": "html, paragraphs 5–6",
+      "severity": "minor",
+      "source_quote": "to ‘kill’ every weed; You can almost ‘pour’ glyphosate on it",
+      "suggested_fix": "החליפו ״לרצוח״ ב״להשמיד״ ו״להשפך״ ב״לשפוך״.",
+      "translation_quote": "כדי \"לרצוח\" <strong>כל</strong> עשב; אפשר כמעט \"להשפך\" גליפוסאט עליה"
+    },
+    {
+      "location": "html, paragraphs 8–10",
+      "severity": "minor",
+      "source_quote": "they would have six months of immunity; what science; If you are overweight; out of shape physically; no better time than now; after contracting this illness",
+      "suggested_fix": "תקנו בהתאמה ל״שיהיו לו שישה חודשי חסינות״, ״איזה מדע״, ״אם יש לך עודף משקל״ בשני מופעיו, ״אינך בכושר גופני״, ״אין זמן טוב יותר מעכשיו״ ו״לאחר שנדבקו במחלה הזו״.",
+      "translation_quote": "שיהיה לו שישה חודשי חסינות; איזו מדע; אם אתה עודף משקל [בשני מופעים]; מחוץ לכושר פיזי; אין זמן טוב יותר מהווה עכשיו; לאחר שדבקו במחלה הזו"
+    },
+    {
+      "location": "html, paragraphs 11–14",
+      "severity": "minor",
+      "source_quote": "ushers in a global push; I have been almost ridiculed for even mentioning; I also hasten to say; it defies science not to; So, my plea; One day God’s people",
+      "suggested_fix": "תקנו בהתאמה ל״יוביל לדחיפה עולמית״, ״כמעט לעגו לי רק משום שהזכרתי״, ״אוסיף ואמהר לומר״, ״אי־עשיית הדבר מנוגדת למדע״, ״לכן, בקשתי היא״ ו״יום אחד בני עמו של אלוהים״.",
+      "translation_quote": "שימשיך דחיפה עולמית; כמעט הושמתי בבוז על אף שהזכרתי; ארוץ ואומר; זה מתנגד למדע שלא לעשות זאת; אז, תפילתי; יום אחד עם עמו של אלוהים"
+    },
+    {
+      "location": "html, paragraphs 13, 15–16",
+      "severity": "minor",
+      "source_quote": "<em>–See Matthew 24:21 and Revelation 7:14.</em>; literally birth pangs; make a commitment anew to identify with",
+      "suggested_fix": "השיבו את תגי ה־em סביב ״–ראו מתי 24:21 והתגלות 7:14.״; החליפו ״למעלה מילולית צירי לידה״ ב״מילולית: צירי לידה״; והחליפו ״בואו נעשה מחויבות חדשה לזהות עם״ ב״הבה נתחייב מחדש להזדהות עם״.",
+      "translation_quote": "–ראו מתי 24:21 והתגלות 7:14.; למעלה מילולית צירי לידה; בואו נעשה מחויבות חדשה לזהות עם"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
