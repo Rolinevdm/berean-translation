@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T01:12:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"פסקה 1\",\"severity\":\"minor\",\"source_quote\":\"“in the presentation of the Gospel message to sinners”\",\"suggested_fix\":\"החליפו את ״בהצגת בשורת הבשורה לחוטאים״ ב״בהצגת הבשורה לחוטאים״.\",\"translation_quote\":\"״בהצגת בשורת הבשורה לחוטאים״\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 397,
+    "content_evidence_truncated": false,
+    "content_sha256": "de80df482286e41f7917743c6b183b0e4d6d3f8dccdf426d0dcb56de6ec69b03",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 704,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 585,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8819,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7716,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9523
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

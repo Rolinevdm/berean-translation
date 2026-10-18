@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "65112df555354d52a9394c22d98fc247",
   "campaign": "auto-13a1d95706b86a567f156168c4bbab7d5094b1ce5e2d9beddcef8606c7fb3867",
   "created_at": "2026-10-17T22:16:21+00:00",
   "events": [
@@ -68,32 +67,39 @@
         },
         "total_tokens": 13105
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 704,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 585,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8819,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7716,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9523
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "פסקה על כנסיות ישנות, „לאט לאט הכנסייה...”",
-      "severity": "major",
-      "source_quote": "“All over the world we find sleeping churches”",
-      "suggested_fix": "החליפו את „כנסיות ישנות” ב„כנסיות רדומות”.",
-      "translation_quote": "בכל רחבי העולם אנו מוצאים כנסיות ישנות"
-    },
-    {
-      "location": "ציטוט עברים 12:6–9",
-      "severity": "major",
-      "source_quote": "“For whom the Lord loveth, He chasteneth”",
-      "suggested_fix": "החליפו את „יהוה” ב„האדון”, כדי לשמר את הנוסח המצוטט במקור: „כי את אשר יאהב האדון יוכיח”.",
-      "translation_quote": "כי את אשר יאהב יהוה יוכיח"
-    },
-    {
-      "location": "ציטוט תהילים 139:23",
-      "severity": "major",
-      "source_quote": "“see if there be any wicked way in me”",
-      "suggested_fix": "החליפו את „דרך עוצב בי” בניסוח שמשמעותו „דרך רעה בי”, למשל: „וראה אם דרך רעה בי, ונחני בדרך עולם”.",
-      "translation_quote": "וראה אם דרך עוצב בי, ונחני בדרך עולם"
+      "location": "פסקה 1",
+      "severity": "minor",
+      "source_quote": "“in the presentation of the Gospel message to sinners”",
+      "suggested_fix": "החליפו את ״בהצגת בשורת הבשורה לחוטאים״ ב״בהצגת הבשורה לחוטאים״.",
+      "translation_quote": "״בהצגת בשורת הבשורה לחוטאים״"
     }
   ],
+  "finished_at": "2026-10-18T01:12:55+00:00",
   "id": "2dbc266f4abc45d87ad587894ad3730e",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "heb",
@@ -182,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +208,7 @@
     "total_reserved_usd": 0.08996,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e215e736c1acdb8dcfb1204d9f2318c83130759b6bf298e60a5f911c6667fd1f",
   "translation_model_actual": "gpt-6-luna"

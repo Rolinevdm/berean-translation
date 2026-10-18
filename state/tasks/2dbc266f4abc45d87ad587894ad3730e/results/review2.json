@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c33ed16d-f154-410d-b8b6-33ba3c7bcf7e",
+    "response_id": "chatcmpl-Ea9cG44OvvsoBxvb4IdllUOdMzjQR",
+    "usage": {
+      "completion_tokens": 704,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 585,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8819,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7716,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9523
+    }
+  },
+  "received_at": "2026-10-18T01:12:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "פסקה 1",
+        "severity": "minor",
+        "source_quote": "“in the presentation of the Gospel message to sinners”",
+        "suggested_fix": "החליפו את ״בהצגת בשורת הבשורה לחוטאים״ ב״בהצגת הבשורה לחוטאים״.",
+        "translation_quote": "״בהצגת בשורת הבשורה לחוטאים״"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

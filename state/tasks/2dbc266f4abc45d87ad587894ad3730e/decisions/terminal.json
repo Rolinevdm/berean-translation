@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "פסקה 1",
+      "severity": "minor",
+      "source_quote": "“in the presentation of the Gospel message to sinners”",
+      "suggested_fix": "החליפו את ״בהצגת בשורת הבשורה לחוטאים״ ב״בהצגת הבשורה לחוטאים״.",
+      "translation_quote": "״בהצגת בשורת הבשורה לחוטאים״"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
