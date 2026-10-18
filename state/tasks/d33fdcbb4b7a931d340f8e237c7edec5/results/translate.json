@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "12db0b1b-a415-4113-8a9d-5eaa87808519",
+    "response_id": "chatcmpl-EaS2Y1IWpy4VeEfamO3NbF0Y92pY1",
+    "usage": {
+      "completion_tokens": 651,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1397,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1394,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2048
+    }
+  },
+  "received_at": "2026-10-18T21:48:46+00:00",
+  "result": {
+    "html": "<article data-article-id=\"3b86d0e0-ebd7-4521-92f4-5d7f8a89e901\">\n  <p class=\"drop-cap\">Por volta do ano 1550, aconteceu no bispado de Bamberg que duas jovens se comprometeram com Cristo e o receberam pela fé; foram batizadas com base em sua fé, segundo a doutrina de Cristo e, afastando-se do pecado, procuraram andar em novidade de vida com Cristo.</p>\n  <p>Por esse motivo, os anticristãos procuraram impedi-las nessa boa resolução e extinguir sua boa intenção tanto quanto podiam. Por isso, lançaram esses dois jovens cordeiros na prisão, onde os torturaram com grande severidade, e também procuraram, por outros meios anticristãos, fazê-los apostatar; mas, como estavam firmemente edificados sobre Cristo, permaneceram fiéis e firmes durante toda a provação. (Col. 2:7; Ap. 2:10.)</p>\n  <figure>\n    <img src=\"/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg\" alt=\"Gravura de duas mulheres usando grinaldas, conduzidas por uma multidão.\">\n  </figure>\n  <p>Por isso, as autoridades, que nesse caso geralmente seguem o conselho dos falsos profetas, condenaram-nas à morte; elas ficaram alegres e destemidas. Quando foram conduzidas à execução, seus perseguidores, como insulto e zombaria, colocaram grinaldas de palha sobre suas cabeças; então uma disse à outra: “Já que o Senhor Cristo usou uma coroa de espinhos por nós, por que não deveríamos usar estas coroas de palha em sua honra? Por isso, o Deus fiel colocará sobre nossas cabeças uma bela coroa de ouro e uma grinalda gloriosa.” Assim, esses dois jovens ramos se armaram de paciência, seguindo o exemplo de seu Capitão Jesus, permaneceram fiéis até a morte, morreram firmes e obtiveram, pela graça, a gloriosa coroa junto de Deus no céu.</p>\n  <p>Os adversários das jovens comentaram que elas morreram sem nenhum temor e com firmeza, e que tinham o verdadeiro fundamento e alicerce da fé cristã em seu Redentor, Cristo Jesus, a quem confessaram abertamente e invocaram em sua aflição, na qual morreram firmes, com esperança inabalável.</p>\n  <p>Os carrascos ficaram tão impressionados com a maneira como elas morreram que, depois, começaram a duvidar se eles próprios não estavam em maior erro diante de Deus do que aquelas jovens, embora elas fossem anabatistas.</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Duas jovens"
+  }
+}
