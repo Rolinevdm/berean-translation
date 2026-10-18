@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f9eca60c2d9c4ca6bc1b527d824e92fa",
   "campaign": "auto-82396f3033371bb43817f8664fb2632070727ef04009debf07840b9ff2c4693e",
   "created_at": "2026-10-17T21:37:56+00:00",
   "events": [
@@ -48,95 +47,31 @@
         },
         "total_tokens": 11080
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 61,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 29,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6626,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5523,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6687
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, अनुच्छेद 15, प्रकाशितवाक्य 12:11 का उद्धरण",
-      "severity": "critical",
-      "source_quote": "And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death",
-      "suggested_fix": "उद्धरण को बदलें: <em>और उन्होंने मेम्ने के लहू और अपनी गवाही के वचन के द्वारा उस पर जय पाई; और उन्होंने अपने प्राणों को इतना प्रिय न जाना कि मृत्यु से पीछे हटें – प्रकाशितवाक्य 12:11.</em>",
-      "translation_quote": "और उन्होंने उस को लम्बे समय तक पीटा; और वे उसके रक्त से और अपने साक्ष्य के शब्द से उसे मात दीया; वे अपने प्राण से घृणा नहीं करते तले मृत्यु तक"
-    },
-    {
-      "location": "translation.html, अनुच्छेद 11, प्रकाशितवाक्य 13:16-17 का उद्धरण",
-      "severity": "major",
-      "source_quote": "or the name of the beast",
-      "suggested_fix": "“या दुष्ट की मूर्ति का नाम” को “या उस पशु का नाम” करें।",
-      "translation_quote": "या दुष्ट की मूर्ति का नाम"
-    },
-    {
-      "location": "translation.html, अनुच्छेद 13, conditioning संबंधी वाक्य",
-      "severity": "major",
-      "source_quote": "the ‘conditioning’ that our society is having upon us in general",
-      "suggested_fix": "संबंधित अंश को “सामान्य रूप से हमारा समाज हमें जिस तरह ढाल रहा है” करें।",
-      "translation_quote": "हमारी समाज पर सामान्य रूप से क्या 'कंडीशनिंग' हो रही है"
-    },
-    {
-      "location": "translation.html, अनुच्छेद 14, 2 कुरिन्थियों 6:17 का उद्धरण",
-      "severity": "major",
-      "source_quote": "Wherefore come out from among them, and be ye separate, saith the Lord",
-      "suggested_fix": "इस अंश को “इसलिए <strong>उनके बीच से निकल आओ और अलग हो जाओ</strong>, प्रभु कहता है” करें; अतिरिक्त “पहचान रखो” हटाएँ।",
-      "translation_quote": "इसलिये उनसे निकल कर पहचान रखो और पृथक हो जाओ, कहा प्रभु"
-    },
-    {
-      "location": "translation.html, अनुच्छेद 3, शक्कर के घन द्वारा टीकाकरण",
-      "severity": "minor",
-      "source_quote": "the whole community gathered at our local public school for the sugar cube treatment which was an oral vaccination against polio",
-      "suggested_fix": "“पूरा समुदाय हमारे स्थानीय सार्वजनिक स्कूल में शक्कर के घन के माध्यम से दिया जाने वाला पॉलियो का मौखिक टीका लेने के लिए इकट्ठा हुआ था” करें।",
-      "translation_quote": "पूरा समुदाय हमारे स्थानीय सार्वजनिक स्कूल में पॉलियो के खिलाफ मौखिक टीकाकरण के लिए शक्कर के घन पर इकट्ठा हुआ था"
-    },
-    {
-      "location": "translation.html, अनुच्छेद 6",
-      "severity": "minor",
-      "source_quote": "You can almost ‘pour’ glyphosate on it",
-      "suggested_fix": "“आप उस पर ग्लाइफोसेट लगभग ‘उँडेल’ सकते हैं” करें।",
-      "translation_quote": "आप उस पर लगभग ग्लाइफोसेट 'पोर' कर सकते हैं"
-    },
-    {
-      "location": "translation.html, अनुच्छेद 9",
-      "severity": "minor",
-      "source_quote": "If you are overweight or out of shape physically",
-      "suggested_fix": "“यदि आपका वजन अधिक है या आप शारीरिक रूप से तंदुरुस्त नहीं हैं” करें।",
-      "translation_quote": "यदि आप अधिक वजन या शारीरिक रूप से बेढंगे हैं"
-    },
-    {
-      "location": "translation.html, अनुच्छेद 10",
-      "severity": "minor",
-      "source_quote": "do my part and let this body build the immunities to protect itself against this virus",
-      "suggested_fix": "“मैं अपनी ओर से आवश्यक प्रयास करूँ और इस शरीर को इस वायरस से अपनी रक्षा के लिए प्रतिरक्षा विकसित करने दूँ” करें।",
-      "translation_quote": "मैं अपना हिस्सा करूँ और इस शरीर को अपने आप के प्रति सुरक्षा बनाने दूँ ताकि यह इस वायरस के खिलाफ खुद को संरक्षित करे"
-    },
-    {
-      "location": "translation.html, अनुच्छेद 12",
-      "severity": "minor",
-      "source_quote": "I have been almost ridiculed for even mentioning the mark of the beast.",
-      "suggested_fix": "“पशु के चिह्न का उल्लेख भर करने पर मेरा लगभग उपहास किया गया है।” करें।",
-      "translation_quote": "मुझे लगभग टोकहंसा झेलनी पड़ी जब मैंने यहाँ दैत्य के चिह्न का उल्लेख किया।"
-    },
-    {
-      "location": "translation.html, अनुच्छेद 13, शॉट लेने के समर्थन में कारण",
-      "severity": "minor",
-      "source_quote": "it defies science not to",
-      "suggested_fix": "“इसे न लेना विज्ञान के विरुद्ध है” करें, ताकि कथित तर्क स्पष्ट रहे।",
-      "translation_quote": "यह विज्ञान के खिलाफ नहीं जाना चाहिए"
-    },
-    {
-      "location": "translation.html, अनुच्छेद 14, प्रकाशितवाक्य 14:12",
-      "severity": "minor",
-      "source_quote": "The next verse gives a calling for the endurance of the saints—Here is the patience of the saints: here are they that keep the commandments of God, and the faith of Jesus",
-      "suggested_fix": "“अगला पद संतों को धीरज रखने का आह्वान करता है—<em>यहीं संतों के धीरज की आवश्यकता है: ये वे हैं जो परमेश्वर की आज्ञाओं का पालन करते हैं और यीशु का विश्वास बनाए रखते हैं – प्रकाशितवाक्य 14:12.</em>” करें।",
-      "translation_quote": "अगला पद्यांश धर्मियों की धैर्य की पुकार देता है—यहाँ धर्मियों की धैर्य है: यहाँ वे हैं जो परमेश्वर के आज्ञाएँ मानते हैं, और यीशु का विश्वास रखते हैं"
-    },
-    {
-      "location": "translation.html, अनुच्छेद 11 और 13, मूल के जोर देने वाले HTML टैग",
-      "severity": "minor",
-      "source_quote": "<strong>And that no man might buy or sell, save he that</strong>; <em>–See Matthew 24:21 and Revelation 7:14.</em>",
-      "suggested_fix": "अनुच्छेद 11 में संबंधित हिंदी अंश “और यह हो ताकि कोई खरीदना या बेचना न कर सके, सिवाय उसके जिसके पास” के चारों ओर <strong> टैग और अनुच्छेद 13 में “—देखें मत्ती 24:21 और प्रकाशितवाक्य 7:14.” के चारों ओर <em> टैग पुनः लगाएँ।",
-      "translation_quote": "और यह हो ताकि कोई खरीदना या बेचना न कर सके, सिवाय उसके जिसके पास; —देखें मत्ती 24:21 और प्रकाशितवाक्य 7:14."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-18T05:47:20+00:00",
   "id": "83cbef079e76ac2d7bb9a20ae5b1c055",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "hin",
@@ -225,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 77,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -244,7 +179,7 @@
     "total_reserved_usd": 0.766642,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
   "translation_model_actual": "gpt-6.1-sol"
