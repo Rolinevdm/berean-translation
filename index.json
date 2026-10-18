@@ -33328,6 +33328,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924.html",
+      "html_sha256": "a9abc3d8419b54019ea59effa5f63c84f1946c336346a25b2381c72415664d75",
+      "human_reviewed": false,
+      "id": "8aa76d0a-4ff5-403e-a366-7d6b8fe26924",
+      "images": [
+        {
+          "alt": "युद्ध के दौरान आकान को लूट का सामान लेते हुए दर्शाता एक उत्कीर्ण चित्र",
+          "public_path": "/images/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924-1.jpg"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924.json",
+      "metadata_sha256": "39000891fbee6e9159da13a02aa4938dec83cd6845eb5f948c26d0000b301d86",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "युवाओं के लिए प्रेरणाएँ",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
+      "status": "ready",
+      "subtitle": null,
+      "title": "तेरे मन की इच्छाएँ",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
       "html_sha256": "a7e2752ee22e9eec0c31f53cb94160b1bc9c51c40f57fb2c1ea6c252598b8a94",
       "human_reviewed": false,
@@ -35093,6 +35121,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "परमेश्वर की राजकुमारी",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/f838e04e-5633-4a29-9d34-793f456248a6.html",
+      "html_sha256": "9bbc52b9dbe044d0ba497380bee2a93fc81c145d09f0c1278f9197e136dda6df",
+      "human_reviewed": false,
+      "id": "f838e04e-5633-4a29-9d34-793f456248a6",
+      "images": [
+        {
+          "alt": "चश्मा पहने एक मुस्कराती युवती, पेड़ के पास खड़ी है।",
+          "public_path": "/images/articles/f838e04e-5633-4a29-9d34-793f456248a6-1.jpg"
+        },
+        {
+          "alt": "पेड़ों के सामने बाहर खड़े सात लोग।",
+          "public_path": "/images/articles/f838e04e-5633-4a29-9d34-793f456248a6-2.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/f838e04e-5633-4a29-9d34-793f456248a6.json",
+      "metadata_sha256": "0d00b877496950d59d5980fe8681648bd740661ce2696e0c1ef3c8a06d667a5b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "आशीष का कोना",
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "11c28bf114f234094c18d24228f24b70a3066d4fe9e7c681b61528fe1e483ca7",
+      "status": "ready",
+      "subtitle": "एक किशोरी की कहानी",
+      "title": "उथल-पुथल से शांति तक",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -62429,6 +62489,38 @@
       "subtitle": null,
       "title": "Advertências de uma Mãe na Prisão",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/f838e04e-5633-4a29-9d34-793f456248a6.html",
+      "html_sha256": "08e4e8f71507c95b791604852aa9953659ff547eea4dad734e3e80ff42b80a93",
+      "human_reviewed": false,
+      "id": "f838e04e-5633-4a29-9d34-793f456248a6",
+      "images": [
+        {
+          "alt": "Uma jovem sorridente, de óculos, junto a uma árvore.",
+          "public_path": "/images/articles/f838e04e-5633-4a29-9d34-793f456248a6-1.jpg"
+        },
+        {
+          "alt": "Sete pessoas de pé ao ar livre, diante de árvores.",
+          "public_path": "/images/articles/f838e04e-5633-4a29-9d34-793f456248a6-2.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/f838e04e-5633-4a29-9d34-793f456248a6.json",
+      "metadata_sha256": "45ecc8c27d4bcfa7b7bbda0c9f548f4786b5711eea36f80ecfb1c33afd2608a6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "O Recanto da Bênção",
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "11c28bf114f234094c18d24228f24b70a3066d4fe9e7c681b61528fe1e483ca7",
+      "status": "ready",
+      "subtitle": "A história de uma adolescente",
+      "title": "Da turbulência à paz",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
