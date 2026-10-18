@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "affbc825-e8ce-4830-ad53-3dc0fddeaf61",
+    "response_id": "chatcmpl-EaUu63I01umTTG7CRYIFr7uqIPNJ2",
+    "usage": {
+      "completion_tokens": 887,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 593,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2555,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2552,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3442
+    }
+  },
+  "received_at": "2026-10-18T23:50:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "آخری پیراگراف",
+        "severity": "major",
+        "source_quote": "even though the girls were Anabaptists.",
+        "suggested_fix": "حالانکہ لڑکیاں انابپتسمہ یافتہ تھیں۔",
+        "translation_quote": "حالانکہ لڑکیاں انابپتسمہ دینے والی تھیں۔"
+      },
+      {
+        "location": "چوتھا پیراگراف، مکالمہ",
+        "severity": "minor",
+        "source_quote": "a beautiful golden crown and glorious wreath upon our heads",
+        "suggested_fix": "ہمارے سروں پر ایک خوبصورت سونے کا تاج اور جلالی پھولوں کا حلقہ رکھے گا۔",
+        "translation_quote": "ہمارے سروں پر ایک خوبصورت سونے کا تاج اور جلالی گل دستہ رکھے گا۔"
+      },
+      {
+        "location": "تصویر کا alt متن",
+        "severity": "minor",
+        "source_quote": "An engraving of two women wearing wreaths being led through a crowd.",
+        "suggested_fix": "ایک کندہ کاری جس میں تاج نما حلقے پہنے دو عورتوں کو ہجوم کے درمیان سے لے جایا جا رہا ہے۔",
+        "translation_quote": "ایک کندہ کاری جس میں پھولوں کے تاج پہنے دو عورتوں کو ہجوم کے درمیان سے لے جایا جا رہا ہے۔"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
