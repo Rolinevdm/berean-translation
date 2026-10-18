@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "첫 번째 문단",
+      "severity": "major",
+      "source_quote": "“Dad drank—heavily, and chewed tobacco.”",
+      "suggested_fix": "“아빠는 술을 많이 마셨고 씹는담배를 씹으셨습니다.”",
+      "translation_quote": "“아빠는 술을 많이 마셨고, 씹는 담배를 피웠습니다.”"
+    },
+    {
+      "location": "도서관에서 책을 빌리는 문단",
+      "severity": "major",
+      "source_quote": "“J. R. Tolkien’s ‘Lord of the Ring’ series (pure witchcraft, by the way!)”",
+      "suggested_fix": "“J. R. 톨킨의 『반지의 제왕』 시리즈도 읽었습니다(참고로 순전히 주술입니다!).”",
+      "translation_quote": "“J. R. 톨킨의 『반지의 제왕』 시리즈도 읽었습니다(참고로 순전히 마술입니다!).”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c305883627a642cfbab3bb7b8ac08aab",
   "campaign": "auto-326487b5f7601dd76edd19f1bd2a19ad780e32c5e2d85614e42d674e522256fd",
   "created_at": "2026-10-18T11:09:37+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 15586
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1246,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1006,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 15911,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 15908,
+          "cached_tokens": 0
+        },
+        "total_tokens": 17157
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "첫 번째 문단",
+      "severity": "major",
+      "source_quote": "“Dad drank—heavily, and chewed tobacco.”",
+      "suggested_fix": "“아빠는 술을 많이 마셨고 씹는담배를 씹으셨습니다.”",
+      "translation_quote": "“아빠는 술을 많이 마셨고, 씹는 담배를 피웠습니다.”"
+    },
+    {
+      "location": "도서관에서 책을 빌리는 문단",
+      "severity": "major",
+      "source_quote": "“J. R. Tolkien’s ‘Lord of the Ring’ series (pure witchcraft, by the way!)”",
+      "suggested_fix": "“J. R. 톨킨의 『반지의 제왕』 시리즈도 읽었습니다(참고로 순전히 주술입니다!).”",
+      "translation_quote": "“J. R. 톨킨의 『반지의 제왕』 시리즈도 읽었습니다(참고로 순전히 마술입니다!).”"
+    }
+  ],
   "id": "07fd5ad7b23158adfe453cc33be1499d",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "kor",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ecc831074f6199cc6c7a7e4517750b54346ddde62805e815c011cd467bb08a04.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.130309,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "11c28bf114f234094c18d24228f24b70a3066d4fe9e7c681b61528fe1e483ca7",
   "translation_model_actual": "gpt-6-luna"
