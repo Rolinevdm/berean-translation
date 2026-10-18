@@ -1,0 +1,241 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "d0ea5f0d-8f7f-40a6-8b13-30cf2a7cf477",
+    "response_id": "chatcmpl-Ea8elyaBENfYtjiuAYEfCRqZ9fIse",
+    "usage": {
+      "completion_tokens": 3476,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 82,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8957,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8954,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12433
+    }
+  },
+  "received_at": "2026-10-18T00:55:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraph 2, Luke quotation",
+        "severity": "major",
+        "source_quote": "If any man come to me, and hate not his father ... and his own life also",
+        "suggested_fix": "Badili sehemu hii kuwa: “Mtu yeyote akija kwangu naye hamchukii baba yake, mama yake, mke wake, watoto wake, ndugu zake, dada zake, naam, hata maisha yake mwenyewe pia”.",
+        "translation_quote": "Ikiwa mtu yeyote anje kwangu, wala haumpende baba yake ... hata maisha yake mwenyewe"
+      },
+      {
+        "location": "html, paragraph 2, tower illustration",
+        "severity": "major",
+        "source_quote": "sitteth not down first, and counteth the cost, whether he have sufficient to finish it? Lest haply ... all that behold it begin to mock him",
+        "suggested_fix": "Tumia: “asiyeketi kwanza na <u>kuhesabu gharama</u>, kuona kama ana kiasi cha kutosha kuumaliza? Asije, baada ya kuweka msingi, akashindwa kuumaliza, nao wote wanaouona waanze kumdhihaki”.",
+        "translation_quote": "haitakaa kwanza chini akihesabu gharama, awe na vya kumalizia? Asiye vibebe upinde ... waanze kumkoma"
+      },
+      {
+        "location": "html, paragraph 2, king illustration and conclusion",
+        "severity": "major",
+        "source_quote": "going to make war against another king ... whosoever he be of you that forsaketh not all that he hath",
+        "suggested_fix": "Badili “akimchoma” kwa maana ya “akienda kupigana vita dhidi ya mfalme mwingine”; andika hitimisho: “Vivyo hivyo, yeyote kati yenu ambaye <u>haachi vyote</u> alivyo navyo, <strong>hawezi kuwa mwanafunzi wangu</strong>”. Rekebisha pia “siyeweza” kuwa “hawezi” katika matukio yote matatu ya aya hii.",
+        "translation_quote": "akienda kumchoma mfalme mwingine ... kila yenu ambaye asiyewaacha wote anayo ... siyeweza kuwa mwanafunzi wangu"
+      },
+      {
+        "location": "html, paragraph 3",
+        "severity": "major",
+        "source_quote": "they also realized it would cost them the good things in the next",
+        "suggested_fix": "Tumia: “hata hivyo, walitambua pia kwamba kufanya hivyo kungewakosesha mambo mema katika maisha yajayo.”",
+        "translation_quote": "pia walitambua itaowakimu yale matamu ya maisha yajayo"
+      },
+      {
+        "location": "html, paragraph 4, 2 Timothy 3:12",
+        "severity": "major",
+        "source_quote": "all that will live godly in Christ Jesus shall suffer persecution",
+        "suggested_fix": "Tumia: “Naam, wote wanaotaka kuishi maisha ya utauwa katika Kristo Yesu watateswa”.",
+        "translation_quote": "wote watakaoishi kimungu katika Kristo Yesu watafanya mateso"
+      },
+      {
+        "location": "html, paragraph 5, 1 John 2:6",
+        "severity": "major",
+        "source_quote": "He that saith he abideth in him ought himself also so to walk, even as he walked",
+        "suggested_fix": "Tumia: “Yeye asemaye kwamba anakaa ndani yake anapaswa pia kuenenda kama yeye alivyoenenda”.",
+        "translation_quote": "Ayeyu asema yuko ndani yake ngangaye na yeye yafanye hayo alivyoyafanya yeye"
+      },
+      {
+        "location": "html, paragraph 6",
+        "severity": "major",
+        "source_quote": "Jesus had no place to lay His head ... He had few friends",
+        "suggested_fix": "Badili kuwa “Yesu hakuwa na mahali pa kulaza kichwa chake” na “alikuwa na marafiki wachache”.",
+        "translation_quote": "Yesu hakuwa na mahali pa kuliwa kichwa chake ... alihitaji marafiki wachache"
+      },
+      {
+        "location": "html, paragraph 9, Deuteronomy quotation",
+        "severity": "major",
+        "source_quote": "there was not a city which we took not from them ... gates, and bars; beside unwalled towns a great many",
+        "suggested_fix": "Tumia: “hakukuwa na mji hata mmoja ambao hatukuuteka kutoka kwao” na “milango na makomeo; mbali na miji mingi sana isiyo na kuta”.",
+        "translation_quote": "hakukuwa na mji tuliokusanya tangu kwake ... milango na nguzo; mbali na miji isiyo na kuta nyingi sana"
+      },
+      {
+        "location": "html, paragraph 13, John 12:25",
+        "severity": "major",
+        "source_quote": "he that hateth his life in this world shall keep it unto life eternal",
+        "suggested_fix": "Tumia: “naye anayeyachukia maisha yake katika ulimwengu huu atayahifadhi hata uzima wa milele”.",
+        "translation_quote": "ayeyu anayekataa nafsi yake kwa ajili yangu ataihifadhi kwa uzima wa milele"
+      },
+      {
+        "location": "html, paragraph 15, James quotation and explanation",
+        "severity": "major",
+        "source_quote": "It is even a vapour ... The Bible also calls our lives a vapor.",
+        "suggested_fix": "Tumia “Ni mvuke tu, unaoonekana kwa muda mfupi, kisha unatoweka” na “Biblia pia huita maisha yetu mvuke.”",
+        "translation_quote": "Ni kunyauka tu ... Biblia pia inaitaja maisha yetu kama moshi."
+      },
+      {
+        "location": "html, paragraph 17",
+        "severity": "major",
+        "source_quote": "Americans are looked upon as ‘more valuable’",
+        "suggested_fix": "Tumia: “Wamarekani huonekana kuwa ‘wenye thamani zaidi’”.",
+        "translation_quote": "Wamarekani huonekana kuwa “wauwezo zaidi”"
+      },
+      {
+        "location": "html, paragraph 18",
+        "severity": "major",
+        "source_quote": "This is just how it is; for most of us it is all we have ever known—the life of plenty.",
+        "suggested_fix": "Tumia: “Hivyo ndivyo hali ilivyo; kwa wengi wetu, hayo ndiyo maisha pekee tuliyowahi kuyajua—maisha ya utele.”",
+        "translation_quote": "Hivyo ndilo tu lililotuwapa sisi wengi wetu—maisha ya wingi."
+      },
+      {
+        "location": "html, paragraph 19, Mark 16:15",
+        "severity": "major",
+        "source_quote": "preach the gospel to every creature",
+        "suggested_fix": "Badili kuwa “hubirini injili kwa kila kiumbe”.",
+        "translation_quote": "mwangaze injili kwa viumbe vyote"
+      },
+      {
+        "location": "html, paragraph 20, Matthew 16:25",
+        "severity": "major",
+        "source_quote": "whosoever will save his life shall lose it",
+        "suggested_fix": "Tumia: “Kwa maana yeyote anayetaka kuyaokoa maisha yake atayapoteza”.",
+        "translation_quote": "Kwani yomoto yule atakayependa maisha yake atayapoteza"
+      },
+      {
+        "location": "html, paragraph 21",
+        "severity": "major",
+        "source_quote": "teach and disciple the tens of thousands who are seeking",
+        "suggested_fix": "Tumia: “kuwafundisha na kuwafanya wanafunzi makumi ya maelfu ya watu wanaotafuta”.",
+        "translation_quote": "kufundisha na kuyachukua mafundisho kwa maelfu ya watu wanaotafuta"
+      },
+      {
+        "location": "html, paragraph 22",
+        "severity": "major",
+        "source_quote": "What if we found ourselves in John the Baptist’s shoes?",
+        "suggested_fix": "Tumia: “Je, ingekuwaje kama tungejikuta katika hali aliyokuwa nayo Yohana Mbatizaji?” Ondoa dai lililoongezwa kuhusu kuendelea kuwa wanyenyekevu.",
+        "translation_quote": "Je, tukiwa katika viatu vya Yohana Mbatizaji tusingeendelea kuwa wanyenyekevu?"
+      },
+      {
+        "location": "html, paragraph 23",
+        "severity": "major",
+        "source_quote": "he did not believe there was a God ... one didn’t need to be a Christian to be happy",
+        "suggested_fix": "Tumia: “hakuamini kwamba Mungu yupo” na “mtu hakuhitaji kuwa Mkristo ili kuwa na furaha”.",
+        "translation_quote": "hakumwamini Mungu ... mtu huyo hapaswi kuwa Mkristo kuwa na furaha"
+      },
+      {
+        "location": "html, paragraph 25",
+        "severity": "major",
+        "source_quote": "He committed suicide",
+        "suggested_fix": "Badili nukuu kuwa “Alijiua.” Chanzo hakitaji njia aliyotumia.",
+        "translation_quote": "Alijinyonga."
+      },
+      {
+        "location": "html, paragraph 27",
+        "severity": "major",
+        "source_quote": "When I was in the Marines",
+        "suggested_fix": "Tumia: “Nilipokuwa katika Kikosi cha Wanajeshi wa Majini cha Marekani”.",
+        "translation_quote": "Nilikawa katika Jeshi la Wanamaji"
+      },
+      {
+        "location": "html, paragraph 28",
+        "severity": "major",
+        "source_quote": "a fox hole housing soldiers ... jump on the grenade, absorbing the explosion",
+        "suggested_fix": "Tumia “shimo la kujikinga lililokuwa na wanajeshi” na “kujirusha juu ya guruneti, akiukinga mlipuko kwa mwili wake”.",
+        "translation_quote": "giso la kivita lililokuwa na wanajeshi ... kuruka juu ya grenadi na kuyashusha mlipuko"
+      },
+      {
+        "location": "html, paragraph 29",
+        "severity": "major",
+        "source_quote": "foolish, reckless, and immature",
+        "suggested_fix": "Tumia: “mjinga, asiyejali hatari, na asiyekomaa”.",
+        "translation_quote": "mjinga, mgumu, na msichana"
+      },
+      {
+        "location": "html, paragraph 30, Acts quotation",
+        "severity": "major",
+        "source_quote": "as we tarried there many days ... he took Paul’s girdle ... to break mine heart",
+        "suggested_fix": "Tumia “tulipokuwa tumekaa huko siku nyingi”; badili “kiunegunio” kuwa “mshipi” katika matukio yote mawili; badili “kunichanganya moyo” kuwa “kunivunja moyo”.",
+        "translation_quote": "tulipokuwa tumerudi huko kwa siku nyingi ... akachukua kiunegunio cha Paulo ... kunichanganya moyo"
+      },
+      {
+        "location": "html, paragraph 31",
+        "severity": "major",
+        "source_quote": "beaten ... where he was beheaded",
+        "suggested_fix": "Badili “akarushwa mate” kuwa “akapigwa” na “akatetewa kichwa” kuwa “akakatwa kichwa”.",
+        "translation_quote": "akarushwa mate ... ambapo akatetewa kichwa"
+      },
+      {
+        "location": "html, paragraph 31",
+        "severity": "major",
+        "source_quote": "What do you think the ones that tried to persuade him to not go to Jerusalem thought? Do you think they called him a fool?",
+        "suggested_fix": "Rejesha maswali yote mawili: “Unafikiri wale waliojaribu kumshawishi asiende Yerusalemu walifikiria nini? Je, unafikiri walimwita mpumbavu?”",
+        "translation_quote": "Unafikiri wale waliyejaribu kumshawishi asiende Yerusalemu walimwita mpumbavu?"
+      },
+      {
+        "location": "html, paragraph 34",
+        "severity": "major",
+        "source_quote": "It’s ironic ... we will lose them",
+        "suggested_fix": "Tumia “Ni jambo la kinzani” badala ya “Ni ya kuchekesha”, na “tutayapoteza” badala ya “tutayaangamiza”.",
+        "translation_quote": "Ni ya kuchekesha ... tutayaangamiza"
+      },
+      {
+        "location": "html, blockquote.poem, stanzas 1–3",
+        "severity": "major",
+        "source_quote": "Rise up, O saints of God!",
+        "suggested_fix": "Badili mstari huu katika matukio yote matatu kuwa “Inukeni, enyi watakatifu wa Mungu!”",
+        "translation_quote": "Amka, enzi wa mataifa ya Mungu!"
+      },
+      {
+        "location": "html, blockquote.poem, stanza 2",
+        "severity": "major",
+        "source_quote": "Bring in the day of Christlike love / And end the night of wrong.",
+        "suggested_fix": "Tumia: “Leteni siku ya upendo ulio kama wa Kristo<br>\n    Na kuukomesha usiku wa uovu.”",
+        "translation_quote": "Leta siku ya upendo wa Kiumbe wa Kristo / Na mshowe usiku wa uovu."
+      },
+      {
+        "location": "html, blockquote.poem, stanza 3",
+        "severity": "major",
+        "source_quote": "Tread where His feet have trod.",
+        "suggested_fix": "Tumia: “Tembeeni pale miguu yake ilipokanyaga.”",
+        "translation_quote": "Nyamaza pale ambapo miguu Yake ilitembea."
+      },
+      {
+        "location": "html, final paragraph",
+        "severity": "major",
+        "source_quote": "Let us rise up ... the fires of revival will once again burn!",
+        "suggested_fix": "Badili “Tumekue” kuwa “Na tuinuke” na “mioto ya mapinduzi” kuwa “mioto ya uamsho wa kiroho”.",
+        "translation_quote": "Tumekue ... mioto ya mapinduzi itawaka tena!"
+      },
+      {
+        "location": "html, paragraph 13, introductory question",
+        "severity": "major",
+        "source_quote": "maybe we are the ones that are out of the norm?",
+        "suggested_fix": "Tumia: “labda sisi ndio tulio nje ya hali ya kawaida?”",
+        "translation_quote": "labda sisi ndetu ndio abaya wa kipekee?"
+      }
+    ],
+    "findings_complete": false,
+    "passed": false,
+    "score": 43
+  }
+}
