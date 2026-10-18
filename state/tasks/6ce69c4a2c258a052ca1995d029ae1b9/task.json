@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "45bd7e50b6bc44cd8c57f884b53dd07d",
   "campaign": "auto-368a61e486ededa9668424559c9d1710a09007bf94c81adec18272c03c2a17b8",
   "created_at": "2026-10-18T01:02:27+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 13993
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 242,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14318,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13215,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 14560
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, párrafo sobre la primera fuga",
+      "severity": "major",
+      "source_quote": "I was running like that until I came to a dirt road that lies about a quarter mile from our driveway.",
+      "suggested_fix": "«Seguí corriendo así hasta que llegué a un camino de tierra situado a unos cuatrocientos metros de nuestra entrada.»",
+      "translation_quote": "«Seguí corriendo así hasta que llegué a un camino de tierra situado a unos cuatrocientos metros de nuestra entrada.»"
+    },
+    {
+      "location": "HTML, párrafo sobre el regreso a casa",
+      "severity": "major",
+      "source_quote": "We went back to our temporary home that night, and I crawled under the covers and cried out to God to show Himself to me.",
+      "suggested_fix": "«Esa noche volvimos a nuestro hogar temporal y me metí bajo las mantas y clamé a Dios que se me revelara.»",
+      "translation_quote": "«Esa noche volvimos a nuestro hogar temporal y me metí bajo las mantas y clamé a Dios que se me revelara.»"
+    }
+  ],
   "id": "6ce69c4a2c258a052ca1995d029ae1b9",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "spa",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ecc831074f6199cc6c7a7e4517750b54346ddde62805e815c011cd467bb08a04.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.130315,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "11c28bf114f234094c18d24228f24b70a3066d4fe9e7c681b61528fe1e483ca7",
   "translation_model_actual": "gpt-6-luna"

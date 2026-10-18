@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, párrafo sobre la primera fuga",
+      "severity": "major",
+      "source_quote": "I was running like that until I came to a dirt road that lies about a quarter mile from our driveway.",
+      "suggested_fix": "«Seguí corriendo así hasta que llegué a un camino de tierra situado a unos cuatrocientos metros de nuestra entrada.»",
+      "translation_quote": "«Seguí corriendo así hasta que llegué a un camino de tierra situado a unos cuatrocientos metros de nuestra entrada.»"
+    },
+    {
+      "location": "HTML, párrafo sobre el regreso a casa",
+      "severity": "major",
+      "source_quote": "We went back to our temporary home that night, and I crawled under the covers and cried out to God to show Himself to me.",
+      "suggested_fix": "«Esa noche volvimos a nuestro hogar temporal y me metí bajo las mantas y clamé a Dios que se me revelara.»",
+      "translation_quote": "«Esa noche volvimos a nuestro hogar temporal y me metí bajo las mantas y clamé a Dios que se me revelara.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
