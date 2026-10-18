@@ -1033,7 +1033,7 @@
   "reported_usage_usd": 0.02809495,
   "request_sha256": "c0fcafe166f9fac6e64c874cbe229ff750b18e01b4ee3b0571a4dcc73c4bf24c",
   "requested_by": "owner-authorized-autonomous-archive",
-  "reserved_usd": 0.291644,
+  "reserved_usd": 0.373452,
   "review_contract_version": 2,
   "review_model": "gpt-6.1-sol",
   "review_output_tokens": 8192,
