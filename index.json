@@ -33692,6 +33692,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.html",
+      "html_sha256": "6b17e51178da4f4d0beeddea7bc9982dbd93251e92876a2927f119ecfeb75c3b",
+      "human_reviewed": false,
+      "id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
+      "images": [
+        {
+          "alt": "एक शांत झील में प्रतिबिंबित धुंध से ढका पतझड़ का जंगल",
+          "public_path": "/images/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.json",
+      "metadata_sha256": "190649fe14950c9228807a1f8004b1851814006f831260c7f706e7299a6695ab",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "एक डॉक्टर की बात",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "अवसाद",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/924514c7-52be-4e2b-ab75-3141e14ea9a0.html",
       "html_sha256": "c0b8e116681962ed1745ee6862b0b5cb5f2ffe808eb03fa65b37c09c38161d57",
       "human_reviewed": false,
