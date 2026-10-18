@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T11:00:02+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, paragrafo 5\",\"severity\":\"minor\",\"source_quote\":\"our troublesome ‘pigweeds’ (and other weeds) in the south\",\"suggested_fix\":\"Sostituire «le nostre fastidiose “pigweeds” (e altre erbe infestanti) del sud» con «i nostri fastidiosi amaranti infestanti (e altre erbe infestanti) del sud».\",\"translation_quote\":\"le nostre fastidiose «pigweeds» (e altre erbe infestanti) del sud\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 483,
+    "content_evidence_truncated": false,
+    "content_sha256": "f41dfa1b45f051b20889740597b7ae21e9dbad85d8f48df623da262e3d5c0bd7",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 192,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 48,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6355,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6352,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6547
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

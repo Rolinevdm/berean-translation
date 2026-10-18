@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragrafo 5",
+      "severity": "minor",
+      "source_quote": "our troublesome ‘pigweeds’ (and other weeds) in the south",
+      "suggested_fix": "Sostituire «le nostre fastidiose “pigweeds” (e altre erbe infestanti) del sud» con «i nostri fastidiosi amaranti infestanti (e altre erbe infestanti) del sud».",
+      "translation_quote": "le nostre fastidiose «pigweeds» (e altre erbe infestanti) del sud"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
