@@ -5,11 +5,201 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5e54b9b133b84068838f9f0b1407b043",
   "campaign": "auto-80c356022d6644def78926ae610c9d291b513bbf4d5c23b45882637ac550b253",
   "created_at": "2026-10-18T20:37:54+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 4485,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 137,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11527,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10424,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 16012
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, openingsgesprek, derde paragraaf",
+      "severity": "major",
+      "source_quote": "Do you think I have a thyroid problem or am low in some mineral or vitamin?",
+      "suggested_fix": "Vervang die vraag met: “Dink u ek het ’n skildklierprobleem of ’n tekort aan ’n mineraal of vitamien?”",
+      "translation_quote": "Dink u ek het ’nborsiekte of is ek laag in ’n mineraal of vitamien?"
+    },
+    {
+      "location": "html, Genesis 1:31",
+      "severity": "major",
+      "source_quote": "<em>And God saw every thing that he had made, and, behold, it was very good… –Genesis 1:31.</em>",
+      "suggested_fix": "<em>En God het alles gesien wat Hy gemaak het, en kyk, dit was baie goed… –Genesis 1:31.</em>",
+      "translation_quote": "<em>And God saw every thing that he had made, and, behold, it was very good… –Genesis 1:31.</em>"
+    },
+    {
+      "location": "html, Genesis 3:12-13",
+      "severity": "major",
+      "source_quote": "And the man said, The woman whom thou gavest to be with me, she gave me of the tree, and I did eat. And the LORD God said unto the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and I did eat –Genesis 3:12-13.",
+      "suggested_fix": "<em>En die man het gesê: <strong>Die vrou wat U gegee het om by my te wees, sy het vir my van die boom gegee</strong>, en ek het geëet. En die HERE God het vir die vrou gesê: Wat het jy gedoen? En die vrou het gesê: <strong>Die slang het my mislei, en ek het</strong> geëet –Genesis 3:12-13.</em>",
+      "translation_quote": "<em>And the man said, <strong>The woman whom thou gavest to be with me, she gave me of the tree</strong>, and I did eat. And the LORD God said unto the woman, What is this that thou hast done? And the woman said, <strong>The serpent beguiled me, and I did</strong> eat –Genesis 3:12-13.</em>"
+    },
+    {
+      "location": "html, Genesis 3:16-19",
+      "severity": "major",
+      "source_quote": "Unto the woman he said, I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee. And unto Adam he said, Because thou hast hearkened unto the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; in sorrow shalt thou eat of it all the days of thy life; Thorns also and thistles shall it bring forth to thee; and thou shalt eat the herb of the field; In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return –Genesis 3:16-19.",
+      "suggested_fix": "<em>Vir die vrou het Hy gesê: Ek sal jou smart en jou swangerskappe grootliks vermeerder; met smart sal jy kinders baar; en jou begeerte sal na jou man wees, en hy sal oor jou heers. En vir Adam het Hy gesê: Omdat jy na die stem van jou vrou geluister het en geëet het van die boom waarvan Ek jou beveel het: Jy mag nie daarvan eet nie, is die grond om jou ontwil vervloek; met smart sal jy al die dae van jou lewe daarvan eet; ook dorings en dissels sal dit vir jou voortbring; en jy sal die plante van die veld eet. In die sweet van jou aangesig sal jy brood eet totdat jy na die grond terugkeer, want daaruit is jy geneem; want stof is jy, en tot stof sal jy terugkeer –Genesis 3:16-19.</em>",
+      "translation_quote": "<em>Unto the woman he said, I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee. And unto Adam he said, Because thou hast hearkened unto the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; in sorrow shalt thou eat of it all the days of thy life; Thorns also and thistles shall it bring forth to thee; and thou shalt eat the herb of the field; In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return –Genesis 3:16-19.</em>"
+    },
+    {
+      "location": "html, Rut 1:20-21",
+      "severity": "major",
+      "source_quote": "…Call me not Naomi [pleasant], call me Mara [bitter]: for the Almighty hath dealt very bitterly with me. I went out full, and the LORD hath brought me home again empty: why then call ye me Naomi, seeing the LORD hath testified against me, and the Almighty hath afflicted me? –Ruth 1:20-21.",
+      "suggested_fix": "<em>…Moenie my Naomi [aangenaam] noem nie, noem my Mara [bitter], want die Almagtige het my baie bitter behandel. Ek het vol weggegaan, en die HERE het my leeg huis toe teruggebring. Waarom noem julle my dan Naomi, aangesien die HERE teen my getuig het en die Almagtige my verdruk het? –Rut 1:20-21.</em>",
+      "translation_quote": "<em>…Call me not Naomi [pleasant], call me Mara [bitter]: for the Almighty hath dealt very bitterly with me. I went out full, and the LORD hath brought me home again empty: why then call ye me Naomi, seeing the LORD hath testified against me, and the Almighty hath afflicted me? –Ruth 1:20-21.</em>"
+    },
+    {
+      "location": "html, Rut 4:14-16",
+      "severity": "major",
+      "source_quote": "And the women said unto Naomi, Blessed be the LORD, which hath not left thee this day without a kinsman, that his name may be famous in Israel. And he shall be unto thee a restorer of thy life, and a nourisher of thine old age: for thy daughter in law, which loveth thee, which is better to thee than seven sons, hath born him. And Naomi took the child, and laid it in her bosom, and became nurse unto it –Ruth 4:14-16.",
+      "suggested_fix": "<em>En die vroue het vir Naomi gesê: Geloof sy die HERE, wat jou vandag nie sonder ’n bloedverwant gelaat het nie; mag sy naam beroemd wees in Israel. En hy sal jou lewe herstel en jou op jou oudag versorg, want jou skoondogter, wat jou liefhet en vir jou meer werd is as sewe seuns, het hom gebaar. En Naomi het die kind geneem en teen haar bors gehou en sy versorgster geword –Rut 4:14-16.</em>",
+      "translation_quote": "<em>And the women said unto Naomi, Blessed be the LORD, which hath not left thee this day without a kinsman, that his name may be famous in Israel. And he shall be unto thee a restorer of thy life, and a nourisher of thine old age: for thy daughter in law, which loveth thee, which is better to thee than seven sons, hath born him. And Naomi took the child, and laid it in her bosom, and became nurse unto it –Ruth 4:14-16.</em>"
+    },
+    {
+      "location": "html, Jeremia 20:14-18",
+      "severity": "major",
+      "source_quote": "Cursed be the day wherein I was born: let not the day wherein my mother bare me be blessed. Cursed be the man who brought tidings to my father, saying, A man child is born unto thee; making him very glad. And let that man be as the cities which the LORD overthrew, and repented not: and let him hear the cry in the morning, and the shouting at noontide … Wherefore came I forth out of the womb to see labour and sorrow, that my days should be consumed with shame? –Jeremiah 20:14-18.",
+      "suggested_fix": "<em>Vervloek is die dag waarop ek gebore is; laat die dag waarop my moeder my gebaar het, nie geseënd wees nie. Vervloek is die man wat my vader die tyding gebring het: Daar is vir jou ’n seun gebore, en hom baie bly gemaak het. En laat daardie man wees soos die stede wat die HERE omvergewerp het sonder om daarvan af te sien; en laat hom in die môre die noodkreet hoor en op die middag die geskreeu … Waarom het ek uit die moederskoot gekom om moeite en smart te sien, sodat my dae in skande verteer sou word? –Jeremia 20:14-18.</em>",
+      "translation_quote": "<em>Cursed be the day wherein I was born: let not the day wherein my mother bare me be blessed. Cursed be the man who brought tidings to my father, saying, A man child is born unto thee; making him very glad. And let that man be as the cities which the LORD overthrew, and repented not: and let him hear the cry in the morning, and the shouting at noontide … Wherefore came I forth out of the womb to see labour and sorrow, that my days should be consumed with shame? –Jeremiah 20:14-18.</em>"
+    },
+    {
+      "location": "html, onder “Bid”, Jakobus 5:16",
+      "severity": "major",
+      "source_quote": "<em>…The effectual fervent prayer of a righteous man availeth much –James 5:16.</em>",
+      "suggested_fix": "<em>…Die kragtige, vurige gebed van ’n regverdige vermag baie –Jakobus 5:16.</em>",
+      "translation_quote": "<em>…The effectual fervent prayer of a righteous man availeth much –James 5:16.</em>"
+    },
+    {
+      "location": "html, onder “Hantering van Sonde”, Jakobus 5:16",
+      "severity": "major",
+      "source_quote": "<em>Confess your faults one to another, and pray one for another, that ye may be healed… –James 5:16.</em>",
+      "suggested_fix": "<em>Bely julle oortredings teenoor mekaar en bid vir mekaar, sodat julle genees kan word… –Jakobus 5:16.</em>",
+      "translation_quote": "<em>Confess your faults one to another, and pray one for another, that ye may be healed… –James 5:16.</em>"
+    },
+    {
+      "location": "html, paragraaf oor eksterne stressors",
+      "severity": "major",
+      "source_quote": "External stressors are often the thing that triggers these sorts of feelings (discouragement).",
+      "suggested_fix": "Eksterne stresfaktore is dikwels wat hierdie soort gevoelens (moedeloosheid) veroorsaak.",
+      "translation_quote": "Eksterne strewers is dikwels die ding wat hierdie soort gevoelens (moedeloosheid) trigger."
+    },
+    {
+      "location": "html, eerste paragraaf onder “Oefen”",
+      "severity": "major",
+      "source_quote": "Cardiovascular exercise is really important",
+      "suggested_fix": "Vervang “Farmosessionele oefening” met “Kardiovaskulêre oefening”.",
+      "translation_quote": "Farmosessionele oefening is regtig belangrik"
+    },
+    {
+      "location": "html, eerste paragraaf onder “Moenie Vergelykings Aanwend nie”",
+      "severity": "major",
+      "source_quote": "doesn’t help you and it probably will make you feel worse.",
+      "suggested_fix": "Vervang die sinslot met “help jou nie en sal jou waarskynlik slegter laat voel.”",
+      "translation_quote": "help jou nie en dit sal jou waarskynlik slegter laat voel nie."
+    },
+    {
+      "location": "html, eerste paragraaf onder “Bemoedig”",
+      "severity": "minor",
+      "source_quote": "This is something that all of us need more of.",
+      "suggested_fix": "Dit is iets wat ons almal meer nodig het.",
+      "translation_quote": "Dit is iets waarna ons almal meer verlang."
+    },
+    {
+      "location": "html, inleiding en verhaal van Naomi",
+      "severity": "minor",
+      "source_quote": "the lady sitting across from me; because of a famine; The book of Ruth; the story of Ruth; her daughter-in-law, Ruth",
+      "suggested_fix": "Gebruik onderskeidelik “die dame wat teenoor my sit”, “weens ’n hongersnood”, “Die boek Rut”, “die verhaal van Rut” en “haar skoondogter, Rut”.",
+      "translation_quote": "die dame wat my teenoor sit; weens ’n honger; Die boek Ruth; die verhaal van Ruth; haar schoondogter, Ruth"
+    },
+    {
+      "location": "html, paragrawe oor multifaktoriële depressie, genetika en skuldgevoelens",
+      "severity": "minor",
+      "source_quote": "That is to say; debilitating (extreme) depression; Perhaps as a side note; assurance of salvation issues",
+      "suggested_fix": "Gebruik onderskeidelik “Dit wil sê”, “verlammende (uiterste) depressie”, “As ’n terloopse opmerking” en “die probleme met geloofsekerheid”.",
+      "translation_quote": "Dit beteken menselik; verlammande (ekstreem) depressie; Lykende as ’n synoot; die versekering van redding-kwessies"
+    },
+    {
+      "location": "html, paragrawe oor hanteringsvaardighede en sonde as oorsaak",
+      "severity": "minor",
+      "source_quote": "many turn to street drugs or alcohol; sin and guilt can trigger depression; far from it; sin needs to be dealt with, and repented of",
+      "suggested_fix": "Gebruik “baie mense wend hulle tot straatdwelms of alkohol”, “sonde en skuld kan depressie veroorsaak”, “verre daarvandaan” en “sonde moet aangespreek word, en ’n mens moet jou daarvan bekeer”.",
+      "translation_quote": "baie mense hom/haar tot straatdwelms of alkohol; sonde en skuld depressie trigger; lank van nie; sonde moet aangespreek en bekeer word"
+    },
+    {
+      "location": "html, onder “Bid” en “Wees Bereid om die Inisiator te Wees”",
+      "severity": "minor",
+      "source_quote": "to hear themselves being prayed for; At least such that someone else would want to spend time with them.",
+      "suggested_fix": "Gebruik “om te hoor hoe iemand vir hulle bid” en “Ten minste nie waardevol genoeg dat iemand anders tyd saam met hulle sou wou deurbring nie.”",
+      "translation_quote": "om hulleself gebid te hoor word; Ten minste nie as iemand anders sou wou spandeer tyd saam met hulle nie."
+    },
+    {
+      "location": "html, onder “Moenie na Gevolgtrekkings Spring nie”",
+      "severity": "minor",
+      "source_quote": "They rode up to see Job; Focusing in on sin prematurely",
+      "suggested_fix": "Gebruik “Hulle het na Job toe gery om hom te besoek” en “Om te vroeg op sonde te fokus”.",
+      "translation_quote": "Hulle is opgery na Job toe; Om te veel vroeg op sonde te fokus"
+    },
+    {
+      "location": "html, opskrifte oor diagnose, vroeë optrede en vergelykings",
+      "severity": "minor",
+      "source_quote": "Diagnosing Depression; Deal With Issues Early; Don’t Do Comparisons",
+      "suggested_fix": "Gebruik “Die diagnose van depressie”, “Hanteer probleme vroegtydig” en “Moenie vergelykings tref nie”.",
+      "translation_quote": "Diagnoseer van Depressie; Hantering van Probleme Vroeg; Moenie Vergelykings Aanwend nie"
+    },
+    {
+      "location": "html, paragrawe oor vroeë optrede en vergelykings",
+      "severity": "minor",
+      "source_quote": "Cutting back in whatever areas we can is important; a fallen world",
+      "suggested_fix": "Gebruik “Dit is belangrik om af te skaal op elke gebied waar ons kan” en “’n gevalle wêreld”.",
+      "translation_quote": "Terugskroef in watter areas ookal moontlik is belangrik; ’n gevallen wêreld"
+    },
+    {
+      "location": "html, eerste sin onder “Hantering van Sonde”",
+      "severity": "minor",
+      "source_quote": "Sin can make prayer feel ineffective.",
+      "suggested_fix": "Sonde kan ’n mens laat voel dat gebed ondoeltreffend is.",
+      "translation_quote": "Sonde kan gebed doeltreffend laat voel asof dit ondoeltreffend is."
+    },
+    {
+      "location": "html, tweede paragraaf onder “Wees Bereid om Medikasie te Neem”",
+      "severity": "minor",
+      "source_quote": "People with severe enough depression; They may even be completely unable",
+      "suggested_fix": "Gebruik “Mense met depressie wat ernstig genoeg is” en “Hulle kan selfs heeltemal nie in staat wees nie” met die res van die sin aangepas na “om op berading of enige van die ander nie-mediese behandelings vir hierdie gevoelens te reageer.”",
+      "translation_quote": "Mense met genoegsampige ernstige depressie; Hulle mag selfs heeltemal onvermoë wees"
+    },
+    {
+      "location": "html, slotparagraaf oor oorwinning",
+      "severity": "minor",
+      "source_quote": "We can have victory over it alone",
+      "suggested_fix": "Ons kan dit alleen oorwin",
+      "translation_quote": "Ons kan alleenoorwinning hê daaroor"
+    },
+    {
+      "location": "html, figure/img/@alt",
+      "severity": "minor",
+      "source_quote": "A misty autumn forest reflected in a calm lake",
+      "suggested_fix": "’n Mistige herfsbos wat in ’n kalm meer weerspieël word",
+      "translation_quote": "’n mistige herfsbos weerspieël in ’n kalmere meer"
+    }
+  ],
   "id": "9c439944f7be7fb63f0771cd0040f211",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "afr",
@@ -98,11 +288,13 @@
     }
   },
   "protected": false,
+  "quality_score": 62,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/f177e57409e960665e128f135c5d31a6b5c47dfb179f4bf630790d509d4b9294.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +307,7 @@
     "total_reserved_usd": 0.792644,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
