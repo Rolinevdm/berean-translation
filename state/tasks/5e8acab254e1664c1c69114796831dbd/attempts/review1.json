@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T00:55:14+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, Absatz 13, Satz zur Konditionierung durch die Gesellschaft\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the ‘conditioning’ that our society is having upon us in general\",\n      \"suggested_fix\": \"Ersetzen durch: „die ‚Konditionierung‘, die unsere Gesellschaft im Allgemeinen auf uns ausübt“.\",\n      \"translation_quote\": \"der ‚Konditionierung‘ [...], der unsere Gesellschaft im Allgemeinen ausgesetzt ist\"\n    },\n    {\n      \"location\": \"translation.html, Absatz 5\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"while doing no harm to the crop. The manufacturer did keep telling us to spray maximum rates\",\n      \"suggested_fix\": \"Ersetzen durch: „ohne den Kulturpflanzen zu schaden. Der Hersteller riet uns immer wieder, die maximalen Aufwandmengen zu spritzen“.\",\n      \"translation_quote\": \"ohne der Kultur Pflanze zu schaden. Der Hersteller riet uns immer wieder, die maximalen Raten zu sprühen\"\n    },\n    {\n      \"location\": \"translation.html, Absatz 7\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"it does seem to me that since the shot admittedly mostly reduces symptoms instead of producing immunity, then it will most likely speed up the mutation of the Covid-19 virus\",\n      \"suggested_fix\": \"Den fehlerhaften Satzbau ersetzen durch: „es scheint mir, dass die Spritze sehr wahrscheinlich die Mutation des Covid‑19‑Virus beschleunigen wird, da sie zugestandenermaßen vorwiegend die Symptome reduziert, statt Immunität zu erzeugen“.\",\n      \"translation_quote\": \"es scheint mir, dass da die Spritze, da sie bekanntermaßen vorwiegend die Symptome reduziert statt Immunität zu erzeugen, sehr wahrscheinlich die Mutation des Covid‑19‑Virus beschleunigen wird\"\n    },\n    {\n      \"location\": \"translation.html, Absatz 8\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"an immunity that is far superior to the protection of the shot\",\n      \"suggested_fix\": \"Ersetzen durch: „eine Immunität aufgebaut, die dem Schutz durch die Spritze weit überlegen ist“.\",\n      \"translation_quote\": \"eine Immunität aufgebaut, die der Schutz durch die Spritze weit überlegen ist\"\n    },\n    {\n      \"location\": \"translation.html, Absatz 11, Übergang zum Offenbarungszitat\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"whether we can travel, go to eating places, gather for public events and other such restrictions. It sounds strangely similar\",\n      \"suggested_fix\": \"Den Satzabschluss reparieren: „ob wir reisen, in Restaurants essen oder an öffentlichen Veranstaltungen teilnehmen dürfen, und für andere derartige Beschränkungen. Es klingt seltsam ähnlich“.\",\n      \"translation_quote\": \"ob wir reisen, in Restaurants essen, an öffentlichen Veranstaltungen teilnehmen und andere derartige Beschränkungen – es klingt seltsam ähnlich\"\n    },\n    {\n      \"location\": \"translation.html, Absatz 12\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"this passage is to be spiritualized [...] the bride will be raptured before this\",\n      \"suggested_fix\": \"Ersetzen durch: „diese Stelle sei geistlich auszulegen“ und „die Braut werde vorher entrückt“.\",\n      \"translation_quote\": \"diese Stelle sei zu geistlich auszulegen [...] die Braut werde vor dem kommen entrückt\"\n    },\n    {\n      \"location\": \"translation.html, Absatz 13, Aufzählung der Gründe\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"it defies science not to\",\n      \"suggested_fix\": \"Zur eindeutigen Zuordnung der Verneinung ersetzen durch: „es widerspricht der Wissenschaft, es nicht zu tun“.\",\n      \"translation_quote\": \"es widerspricht der Wissenschaft nicht zu tun\"\n    },\n    {\n      \"location\": \"translation.html, Absatz 14, Einleitung und Zitat aus 2. Korinther 6:17\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"One day God’s people will need to jump off the train of this world—<em>Wherefore <strong>come out from among them, and be ye separate</strong>\",\n      \"suggested_fix\": \"„Eines Tages werden Gottes Volk“ zu „Eines Tages wird Gottes Volk“ korrigieren und die Hervorhebung wiederherstellen: „<em>Daher <strong>zieht hinaus aus ihrer Mitte und sondert euch ab</strong>, spricht der Herr“.\",\n      \"translation_quote\": \"Eines Tages werden Gottes Volk den Zug dieser Welt verlassen müssen – <em>Daher zieht hinaus aus ihrer Mitte und sondert euch ab, spricht der Herr\"\n    },\n    {\n      \"location\": \"translation.html, Absatz 16, letzter Satz\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"share the gospel of Jesus’ Kingdom with a society\",\n      \"suggested_fix\": \"Ersetzen durch: „das Evangelium vom Reich Jesu mit einer Gesellschaft zu teilen“.\",\n      \"translation_quote\": \"das Evangelium vom Reich Jesu einer Gesellschaft zu teilen\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 92\n}",
+    "content_bytes": 4887,
+    "content_evidence_truncated": false,
+    "content_sha256": "221378c4e74b3869046cf1aa4c02196771eaa522aec9b79f343c4487c3b5ee00",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1239,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 95,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6225,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 6222
+      },
+      "total_tokens": 7464
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
