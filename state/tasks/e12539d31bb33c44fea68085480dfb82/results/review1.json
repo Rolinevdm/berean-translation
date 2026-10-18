@@ -1,0 +1,213 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ffb62871-96a3-495b-9012-b7e83ec9fa0e",
+    "response_id": "chatcmpl-EaS088hYEukD8pVGorLjXt74IIE69",
+    "usage": {
+      "completion_tokens": 3210,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 42,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11545,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10442,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 14755
+    }
+  },
+  "received_at": "2026-10-18T20:44:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, opening patient dialogue",
+        "severity": "major",
+        "source_quote": "a thyroid problem",
+        "suggested_fix": "Badilisha “tatizo la tezi dume” kuwa “tatizo la tezi ya shingo”.",
+        "translation_quote": "tatizo la tezi dume"
+      },
+      {
+        "location": "html, opening patient dialogue",
+        "severity": "major",
+        "source_quote": "she hesitated",
+        "suggested_fix": "Badilisha “aliyeyuka” kuwa “alisita”.",
+        "translation_quote": "aliyeyuka"
+      },
+      {
+        "location": "html, paragraph quoting Genesis 1:31",
+        "severity": "major",
+        "source_quote": "Before the Fall, everything was perfect.",
+        "suggested_fix": "Tumia “Kabla ya anguko la mwanadamu dhambini, kila kitu kilikuwa kikamilifu.”",
+        "translation_quote": "Kabla ya Mwisho, kila kitu kilikuwa kikamilifu."
+      },
+      {
+        "location": "html, paragraph about Adam and Eve's health",
+        "severity": "major",
+        "source_quote": "Their hormones didn’t get out of balance ... (even if there could have been stress in a perfect garden)",
+        "suggested_fix": "Tumia “Homoni zao hazikukosa uwiano, hawakupatwa na msongo (hata kama msongo ungeweza kuwapo katika bustani kamilifu)”.",
+        "translation_quote": "Hormoni zao hazikuathiriwa ... (ingawa kulikuwa na uwezekano wa msongo hata katika bustani kamili)"
+      },
+      {
+        "location": "html, Genesis 3:12-13 quotation",
+        "severity": "major",
+        "source_quote": "The woman whom thou gavest to be with me, she gave me of the tree ... The serpent beguiled me",
+        "suggested_fix": "Ndani ya lebo zilizopo, tumia “Mwanamke uliyenipa awe pamoja nami, ndiye aliyenipa tunda la mti” na “Nyoka alinidanganya”; badilisha “niliya kula” kuwa “nikala” katika sehemu zote mbili.",
+        "translation_quote": "Mwanamke uliyempeana nami, yeye alinionyesha kutoka mti ... Nyoka aliniwazua"
+      },
+      {
+        "location": "html, paragraph beginning 'Feeding a family'",
+        "severity": "major",
+        "source_quote": "Viruses and bacteria became pathogenic",
+        "suggested_fix": "Tumia “Virusi na bakteria wakawa visababishi vya magonjwa”.",
+        "translation_quote": "Virusi na bakteria wakawa wagonjwa"
+      },
+      {
+        "location": "html, Genesis 3:16-19 quotation",
+        "severity": "major",
+        "source_quote": "cursed is the ground for thy sake",
+        "suggested_fix": "Badilisha “imekuzwa udongo kwa ajili yako” kuwa “ardhi imelaaniwa kwa sababu yako”.",
+        "translation_quote": "imekuzwa udongo kwa ajili yako"
+      },
+      {
+        "location": "html, Naomi's return and Ruth 1:20-21 quotation",
+        "severity": "major",
+        "source_quote": "Call me not Naomi [pleasant] ... the LORD hath testified against me ... even God had turned against her",
+        "suggested_fix": "Tumia “Msiniite Naomi [mwenye kupendeza]” badala ya “Usinitumie Naomi [mzuri]”, “Bwana ameshuhudia dhidi yangu” badala ya “Bwana amenishuhudia”, na “hata Mungu alikuwa amekuwa dhidi yake” badala ya “hata Mungu alikuwa amemgeukia upande mwingine”.",
+        "translation_quote": "Usinitumie Naomi [mzuri] ... Bwana amenishuhudia ... hata Mungu alikuwa amemgeukia upande mwingine"
+      },
+      {
+        "location": "html, Ruth 4:14-16 quotation",
+        "severity": "major",
+        "source_quote": "Blessed be the LORD ... a restorer of thy life ... thy daughter in law ... laid it in her bosom, and became nurse unto it",
+        "suggested_fix": "Ndani ya nukuu, badilisha “Ewaleni Mwenyezi Mungu” kuwa “Ahimidiwe Bwana”, “hamekuacha” kuwa “hajakuacha”, “mpatanishi wa uhai wako” kuwa “mrejeshaji wa uhai wako”, “kwa mkeo” kuwa “kwa maana mkwe wako”, na “akamweka katika mkokoteni mwake, na akawa mgonjwa wake” kuwa “akamweka kifuani mwake, akawa mlezi wake”.",
+        "translation_quote": "Ewaleni Mwenyezi Mungu ... hamekuacha ... mpatanishi wa uhai wako ... kwa mkeo ... akamweka katika mkokoteni mwake, na akawa mgonjwa wake"
+      },
+      {
+        "location": "html, Jeremiah's calling and imprisonment paragraphs",
+        "severity": "major",
+        "source_quote": "what he had to say ... he was thrown into a dungeon full of mud ... Jerusalem was besieged three different times",
+        "suggested_fix": "Badilisha “kile alichokuwa akisemiwa” kuwa “kile alichokuwa akisema”, “alitetwa” kuwa “alitupwa”, na “Yerusalemu ilikabiliwa kwa muda wa mara tatu” kuwa “Yerusalemu ilizingirwa mara tatu tofauti”.",
+        "translation_quote": "kile alichokuwa akisemiwa ... alitetwa kwenye gereza lililojaa matope ... Yerusalemu ilikabiliwa kwa muda wa mara tatu"
+      },
+      {
+        "location": "html, Jeremiah 20:14-18 quotation",
+        "severity": "major",
+        "source_quote": "Cursed be the day wherein I was born ... my mother bare me ... Cursed be the man ... and repented not",
+        "suggested_fix": "Badilisha mwanzo wa nukuu kuwa “Na ilaaniwe siku niliyozaliwa; siku ambayo mama yangu alinizaa isibarikiwe. Na alaaniwe mtu aliyemletea baba yangu habari”. Badilisha “nambaki hajageuka” kuwa “wala hakughairi”, na “na asemwe asikie” kuwa “na asikie”. Hifadhi sehemu nyingine na rejeo katika lebo zilizopo.",
+        "translation_quote": "Naamwaganiwe siku niliyozaliwa ... mama yangu alininyesha aisije iwe ile ile ile yenye baraka. Naamwaganiwe mtu ... nambaki hajageuka ... na asemwe asikie"
+      },
+      {
+        "location": "html, explanation of Naomi's depression",
+        "severity": "major",
+        "source_quote": "isolation from her homeland and loss of people she loved dearly",
+        "suggested_fix": "Tumia “kutengwa na nchi yake na kuwapoteza watu aliowapenda sana”.",
+        "translation_quote": "utepetevu kutoka kwa nchi yake na hasara ya watu waliompendwa sana"
+      },
+      {
+        "location": "html, genetic differences paragraph",
+        "severity": "major",
+        "source_quote": "manage as many external factors as we can",
+        "suggested_fix": "Badilisha “kufanya mambo ya nje kadri tunavyoweza” kuwa “kudhibiti mambo mengi ya nje kadri tunavyoweza”.",
+        "translation_quote": "kufanya mambo ya nje kadri tunavyoweza"
+      },
+      {
+        "location": "html, 'Listen' section",
+        "severity": "major",
+        "source_quote": "there are people worse off in the world",
+        "suggested_fix": "Tumia “kuna watu wenye hali ngumu zaidi duniani”.",
+        "translation_quote": "kuna watu waliyo mbaya zaidi duniani"
+      },
+      {
+        "location": "html, 'Pray' section, James 5:16 quotation",
+        "severity": "major",
+        "source_quote": "The effectual fervent prayer of a righteous man availeth much",
+        "suggested_fix": "Tumia “Maombi ya bidii ya mwenye haki yana nguvu na hutimiza mengi” ndani ya lebo iliyopo.",
+        "translation_quote": "Maombi yenye nguvu ya mwepesi yenye haki yanatekeleza mengi"
+      },
+      {
+        "location": "html, 'Pray' section, following paragraph",
+        "severity": "major",
+        "source_quote": "to hear themselves being prayed for",
+        "suggested_fix": "Badilisha “kusikia wengine wakiomba kwake” kuwa “kusikia wengine wakimwombea”.",
+        "translation_quote": "kusikia wengine wakiomba kwake"
+      },
+      {
+        "location": "html, heading 'Don’t Jump to Conclusions'",
+        "severity": "major",
+        "source_quote": "Don’t Jump to Conclusions",
+        "suggested_fix": "Tumia “Usikimbilie Kuhitimisha” ndani ya h2 iliyopo.",
+        "translation_quote": "Usahau Hitimisho Haraka"
+      },
+      {
+        "location": "html, 'Deal With Issues Early', first paragraph",
+        "severity": "major",
+        "source_quote": "to keep things from getting worse",
+        "suggested_fix": "Badilisha “ili kuzuia mambo yasiboreke” kuwa “ili kuzuia hali isizidi kuwa mbaya”.",
+        "translation_quote": "ili kuzuia mambo yasiboreke"
+      },
+      {
+        "location": "html, 'Don’t Do Comparisons', first paragraph",
+        "severity": "major",
+        "source_quote": "Identifying people who seem to “have it altogether”",
+        "suggested_fix": "Badilisha “Kumbua watu wanaoonekana ‘kuwa hawawezi kukosekana kitu’” kuwa “Kuwatazama watu wanaoonekana kuwa na kila jambo maishani mwao likiwa sawa”.",
+        "translation_quote": "Kumbua watu wanaoonekana “kuwa hawawezi kukosekana kitu”"
+      },
+      {
+        "location": "html, 'Exercise', second paragraph",
+        "severity": "major",
+        "source_quote": "It is particularly hard when you are fatigued and feeling down.",
+        "suggested_fix": "Tumia “Ni vigumu hasa unapokuwa umechoka na mwenye huzuni.”",
+        "translation_quote": "Ni muhimu hasa ukiwa umechoka na kuhisi chini."
+      },
+      {
+        "location": "html, medication study paragraph",
+        "severity": "major",
+        "source_quote": "compared them to those who did not",
+        "suggested_fix": "Badilisha “na kuwapangisha wale wasiowatumia” kuwa “na kuwalinganisha na wale ambao hawakuzitumia”.",
+        "translation_quote": "na kuwapangisha wale wasiowatumia"
+      },
+      {
+        "location": "html, continuing healthy choices paragraph",
+        "severity": "major",
+        "source_quote": "godly friends",
+        "suggested_fix": "Badilisha “marafiki wema” kuwa “marafiki wanaomcha Mungu”.",
+        "translation_quote": "marafiki wema"
+      },
+      {
+        "location": "html, opening dialogue and survey paragraph",
+        "severity": "minor",
+        "source_quote": "I have been struggling a lot lately ... but that’s about it ... self-report having been diagnosed",
+        "suggested_fix": "Tumia “Nimekuwa nikipitia hali ngumu sana hivi karibuni” badala ya “Nimeshindwa sana hivi karibuni”, “lakini ni hivyo tu” badala ya “lakini lilo hilo”, na “wanaripoti wenyewe kuwa waligunduliwa kuwa na unyogovu” badala ya “wanajiandika wenyewe kuwa walidiagnostikiwa na unyogovu”.",
+        "translation_quote": "Nimeshindwa sana hivi karibuni ... lakini lilo hilo ... wanajiandika wenyewe kuwa walidiagnostikiwa na unyogovu"
+      },
+      {
+        "location": "html, Bible examples introduction; coping skills; assurance of salvation",
+        "severity": "minor",
+        "source_quote": "Two of them stand out to me ... turn to street drugs ... they are only certain that God is angry with them",
+        "suggested_fix": "Tumia “Wawili kati yao hunivutia hasa”, “hukimbilia dawa za kulevya”, na “wana hakika tu kwamba Mungu amewakasirikia”, mtawalia.",
+        "translation_quote": "Wawili wanadondoka machoni pangu ... hujigeuza kwa dawa za barabarani ... wanahakikisha tu kwamba Mungu anawa hasira"
+      },
+      {
+        "location": "html, headings and healthy choices paragraph",
+        "severity": "minor",
+        "source_quote": "Be Willing to be the Initiator ... Spend Time with Encouragers ... Deal with Sin ... don’t over-schedule",
+        "suggested_fix": "Tumia “Kuwa Tayari Kuchukua Hatua ya Kwanza”, “Tumia Wakati na Watu Wanaokutia Moyo”, “Shughulikia Dhambi”, na “usijipangie shughuli nyingi kupita kiasi”, mtawalia, katika muundo uliopo.",
+        "translation_quote": "Kua Tayari Kuwa Muanzishaji ... Tumia Wakati na Wanaotoa Moyo ... Shughulikiana na Dhambi ... usijushe na ratiba nyingi"
+      },
+      {
+        "location": "html, Genesis 1:31 quotation; early intervention paragraph; closing sentence",
+        "severity": "minor",
+        "source_quote": "God saw every thing ... when we are being irritable ... you will have the joy",
+        "suggested_fix": "Badilisha “akamwona kila kitu” kuwa “akaona kila kitu”, “tunapotulia wenye hasira” kuwa “tunapokuwa wepesi wa kukasirika”, na “utakua na furaha” kuwa “utakuwa na furaha”.",
+        "translation_quote": "akamwona kila kitu ... tunapotulia wenye hasira ... utakua na furaha"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 52
+  }
+}
