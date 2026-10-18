@@ -5,11 +5,55 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9c85b5a8077d4a7a938744561e5531a4",
   "campaign": "auto-c2cf17d941e8eac58f493a82c7b108d0cff5267a258d8d85faeee88ed6900d8a",
   "created_at": "2026-10-18T05:48:15+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 634,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 73,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3664,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2561,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4298
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, paragraphs 2, 5, 6, and 8",
+      "severity": "minor",
+      "source_quote": "This is the true story; whose name we’ll say was “Esther”; which is mostly what Hadassah remembered her for; when Esther was in school; What a night and day change",
+      "suggested_fix": "תקנו בהתאמה: \"זה הסיפור האמיתי\"; \"שנקרא לה כאן בשם \\\"אסתר\\\"\"; \"וזה בעיקר מה שהדסה זוכרת ממנה\"; \"כשאסתר הייתה בבית הספר\"; \"איזה מהפך\".",
+      "translation_quote": "זו הסיפור האמיתי; שאותה נספר בשם \"אסתר\"; וזה בעיקר מה שהדסה זוכרת אותה; שכשהאסתר הייתה בבית הספר; איזו מהפך"
+    },
+    {
+      "location": "html, paragraph 4",
+      "severity": "minor",
+      "source_quote": "This was very disturbing to a very conscientious Hadassah. ... Many other made-up stories were also passed around among the girls.",
+      "suggested_fix": "החליפו ב\"הדבר הטריד מאוד את הדסה, שהייתה מצפונית מאוד\" וב\"גם סיפורים בדויים רבים אחרים נפוצו בקרב הבנות\".",
+      "translation_quote": "זה היה מטריד מאוד את הדסה, שהייתה מצפונית מאוד. ... גם סיפורים מאולתרים רבים אחרים נפוצו בקרב הבנות."
+    },
+    {
+      "location": "html, paragraph 9",
+      "severity": "minor",
+      "source_quote": "It’s worth it to stand beside someone who is being treated unkindly. Your support may be what God uses to help your friend to go through their hard times in a good way!",
+      "suggested_fix": "החליפו את \"שמטופל בחוסר אדיבות\" ב\"שמתייחסים אליו בחוסר אדיבות\", ואת \"לעבור את זמנה הקשה בדרך טובה\" ב\"להתמודד היטב עם התקופה הקשה שלה\".",
+      "translation_quote": "שווה לעמוד לצד מישהו שמטופל בחוסר אדיבות. התמיכה שלך עשויה להיות מה שאלוהים ישתמש בו כדי לעזור לחברתך לעבור את זמנה הקשה בדרך טובה!"
+    }
+  ],
+  "finished_at": "2026-10-18T06:00:09+00:00",
   "id": "a0d9b91a7e0a49df474bf38fc3dde564",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "heb",
@@ -98,9 +142,11 @@
     }
   },
   "protected": false,
+  "quality_score": 95,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/5d9534e298cc7be7a1dc818a8adedb571eec39b9a0b591ec0dcf7ed0c48299f0.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +161,7 @@
     "total_reserved_usd": 0.700012,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

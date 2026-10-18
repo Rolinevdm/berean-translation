@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T06:00:09+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragraphs 2, 5, 6, and 8\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"This is the true story; whose name we’ll say was “Esther”; which is mostly what Hadassah remembered her for; when Esther was in school; What a night and day change\",\n      \"suggested_fix\": \"תקנו בהתאמה: \\\"זה הסיפור האמיתי\\\"; \\\"שנקרא לה כאן בשם \\\\\\\"אסתר\\\\\\\"\\\"; \\\"וזה בעיקר מה שהדסה זוכרת ממנה\\\"; \\\"כשאסתר הייתה בבית הספר\\\"; \\\"איזה מהפך\\\".\",\n      \"translation_quote\": \"זו הסיפור האמיתי; שאותה נספר בשם \\\"אסתר\\\"; וזה בעיקר מה שהדסה זוכרת אותה; שכשהאסתר הייתה בבית הספר; איזו מהפך\"\n    },\n    {\n      \"location\": \"html, paragraph 4\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"This was very disturbing to a very conscientious Hadassah. ... Many other made-up stories were also passed around among the girls.\",\n      \"suggested_fix\": \"החליפו ב\\\"הדבר הטריד מאוד את הדסה, שהייתה מצפונית מאוד\\\" וב\\\"גם סיפורים בדויים רבים אחרים נפוצו בקרב הבנות\\\".\",\n      \"translation_quote\": \"זה היה מטריד מאוד את הדסה, שהייתה מצפונית מאוד. ... גם סיפורים מאולתרים רבים אחרים נפוצו בקרב הבנות.\"\n    },\n    {\n      \"location\": \"html, paragraph 9\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"It’s worth it to stand beside someone who is being treated unkindly. Your support may be what God uses to help your friend to go through their hard times in a good way!\",\n      \"suggested_fix\": \"החליפו את \\\"שמטופל בחוסר אדיבות\\\" ב\\\"שמתייחסים אליו בחוסר אדיבות\\\", ואת \\\"לעבור את זמנה הקשה בדרך טובה\\\" ב\\\"להתמודד היטב עם התקופה הקשה שלה\\\".\",\n      \"translation_quote\": \"שווה לעמוד לצד מישהו שמטופל בחוסר אדיבות. התמיכה שלך עשויה להיות מה שאלוהים ישתמש בו כדי לעזור לחברתך לעבור את זמנה הקשה בדרך טובה!\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 95\n}",
+    "content_bytes": 2335,
+    "content_evidence_truncated": false,
+    "content_sha256": "15890b42efd088bbf9b3d5e8944a4ca95298319867f519038febb58d4b0fdcd9",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 634,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 73,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3664,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2561,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4298
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraphs 2, 5, 6, and 8",
+      "severity": "minor",
+      "source_quote": "This is the true story; whose name we’ll say was “Esther”; which is mostly what Hadassah remembered her for; when Esther was in school; What a night and day change",
+      "suggested_fix": "תקנו בהתאמה: \"זה הסיפור האמיתי\"; \"שנקרא לה כאן בשם \\\"אסתר\\\"\"; \"וזה בעיקר מה שהדסה זוכרת ממנה\"; \"כשאסתר הייתה בבית הספר\"; \"איזה מהפך\".",
+      "translation_quote": "זו הסיפור האמיתי; שאותה נספר בשם \"אסתר\"; וזה בעיקר מה שהדסה זוכרת אותה; שכשהאסתר הייתה בבית הספר; איזו מהפך"
+    },
+    {
+      "location": "html, paragraph 4",
+      "severity": "minor",
+      "source_quote": "This was very disturbing to a very conscientious Hadassah. ... Many other made-up stories were also passed around among the girls.",
+      "suggested_fix": "החליפו ב\"הדבר הטריד מאוד את הדסה, שהייתה מצפונית מאוד\" וב\"גם סיפורים בדויים רבים אחרים נפוצו בקרב הבנות\".",
+      "translation_quote": "זה היה מטריד מאוד את הדסה, שהייתה מצפונית מאוד. ... גם סיפורים מאולתרים רבים אחרים נפוצו בקרב הבנות."
+    },
+    {
+      "location": "html, paragraph 9",
+      "severity": "minor",
+      "source_quote": "It’s worth it to stand beside someone who is being treated unkindly. Your support may be what God uses to help your friend to go through their hard times in a good way!",
+      "suggested_fix": "החליפו את \"שמטופל בחוסר אדיבות\" ב\"שמתייחסים אליו בחוסר אדיבות\", ואת \"לעבור את זמנה הקשה בדרך טובה\" ב\"להתמודד היטב עם התקופה הקשה שלה\".",
+      "translation_quote": "שווה לעמוד לצד מישהו שמטופל בחוסר אדיבות. התמיכה שלך עשויה להיות מה שאלוהים ישתמש בו כדי לעזור לחברתך לעבור את זמנה הקשה בדרך טובה!"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
