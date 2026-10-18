@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “About that same time”",
+      "severity": "major",
+      "source_quote": "“Mom started to spank us”",
+      "suggested_fix": "Replace «άρχισε να μας χτυπά με τη βέργα» with «άρχισε να μας δέρνει» or another rendering that does not specify an implement.",
+      "translation_quote": "«Η μαμά άρχισε να μας χτυπά με τη βέργα»"
+    },
+    {
+      "location": "Paragraph beginning “About that same time”",
+      "severity": "major",
+      "source_quote": "“He worked in a ‘Christian’ mill shop.”",
+      "suggested_fix": "Replace «σε ένα “χριστιανικό” ξυλουργείο» with a less specific, accurate rendering such as «σε ένα “χριστιανικό” μηχανουργείο».",
+      "translation_quote": "«Δούλευε σε ένα “χριστιανικό” ξυλουργείο»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

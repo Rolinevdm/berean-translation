@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "699c1bfe02a54c8184d823130cdf6272",
   "campaign": "auto-9a6e3ccfc043e0dcfe8bb872a2f1d789f92dffe2cfb641edc555cbc271c175b9",
   "created_at": "2026-10-18T14:45:27+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 17956
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 816,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 587,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 18310,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 17207,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 19126
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning “About that same time”",
+      "severity": "major",
+      "source_quote": "“Mom started to spank us”",
+      "suggested_fix": "Replace «άρχισε να μας χτυπά με τη βέργα» with «άρχισε να μας δέρνει» or another rendering that does not specify an implement.",
+      "translation_quote": "«Η μαμά άρχισε να μας χτυπά με τη βέργα»"
+    },
+    {
+      "location": "Paragraph beginning “About that same time”",
+      "severity": "major",
+      "source_quote": "“He worked in a ‘Christian’ mill shop.”",
+      "suggested_fix": "Replace «σε ένα “χριστιανικό” ξυλουργείο» with a less specific, accurate rendering such as «σε ένα “χριστιανικό” μηχανουργείο».",
+      "translation_quote": "«Δούλευε σε ένα “χριστιανικό” ξυλουργείο»"
+    }
+  ],
   "id": "9ff3128c6f84e6bbdbd2de6f9233f38a",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "ell",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ecc831074f6199cc6c7a7e4517750b54346ddde62805e815c011cd467bb08a04.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.130306,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "11c28bf114f234094c18d24228f24b70a3066d4fe9e7c681b61528fe1e483ca7",
   "translation_model_actual": "gpt-6-luna"

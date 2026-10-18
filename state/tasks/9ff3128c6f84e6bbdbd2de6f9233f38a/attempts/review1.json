@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T17:36:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “About that same time”\",\"severity\":\"major\",\"source_quote\":\"“Mom started to spank us”\",\"suggested_fix\":\"Replace «άρχισε να μας χτυπά με τη βέργα» with «άρχισε να μας δέρνει» or another rendering that does not specify an implement.\",\"translation_quote\":\"«Η μαμά άρχισε να μας χτυπά με τη βέργα»\"},{\"location\":\"Paragraph beginning “About that same time”\",\"severity\":\"major\",\"source_quote\":\"“He worked in a ‘Christian’ mill shop.”\",\"suggested_fix\":\"Replace «σε ένα “χριστιανικό” ξυλουργείο» with a less specific, accurate rendering such as «σε ένα “χριστιανικό” μηχανουργείο».\",\"translation_quote\":\"«Δούλευε σε ένα “χριστιανικό” ξυλουργείο»\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 940,
+    "content_evidence_truncated": false,
+    "content_sha256": "482990c5c286974f9aaf582c708adf87c8d444c0b2f758a7ace466d9887e91a8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 816,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 587,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 18310,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 17207,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 19126
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
