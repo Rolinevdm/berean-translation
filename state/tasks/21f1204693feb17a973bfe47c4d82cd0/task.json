@@ -5,11 +5,54 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b6ddf8a754294486802976d9ba8839b8",
   "campaign": "auto-eba78a2c020044ef89b2428dc5944465307741391e81cd11f23a9bcd28332c96",
   "created_at": "2026-10-18T21:57:41+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 717,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 84,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8243,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7140,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8960
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, kutipan Matius 6:31-34 di bagian “Pemikiran Akhir”",
+      "severity": "major",
+      "source_quote": "Therefore take no thought, saying, What shall we eat? ... for your heavenly Father knoweth that ye have need of all these things. But seek ye first the kingdom of God, and his righteousness ... Take therefore no thought for the morrow ...",
+      "suggested_fix": "Ganti isi kutipan dengan terjemahan lengkap sesuai urutan sumber: <em>Karena itu janganlah khawatir dengan berkata, Apa yang akan kita makan? atau, Apa yang akan kita minum? atau, Apa yang akan kita kenakan? (Sebab semua itu dicari oleh bangsa-bangsa yang tidak mengenal Allah:) karena Bapamu yang di surga tahu bahwa kamu memerlukan semuanya itu. Tetapi carilah dahulu Kerajaan Allah dan kebenaran-Nya, maka semuanya itu akan ditambahkan kepadamu. Karena itu janganlah khawatir tentang hari esok, sebab hari esok akan mengkhawatirkan urusannya sendiri. Cukuplah setiap hari dengan kesusahannya sendiri – Matius 6:31-34.</em>",
+      "translation_quote": "Jadi janganlah kamu khawatir tentang hari esok ... (Berarti: janganlah kamu berkata, Apa yang akan kita makan? ... ) karena semua itu dicari bangsa-bangsa yang tidak mengenal Allah. Akan tetapi carilah dahulu Kerajaan Allah dan kebenarannya ..."
+    },
+    {
+      "location": "translation.html, paragraf pertama setelah judul “…Faktor Lingkungan”",
+      "severity": "minor",
+      "source_quote": "something must have happened around the time of the flood that increased the rate of mutations",
+      "suggested_fix": "Ganti “sesuatu mungkin terjadi” dengan “pasti ada sesuatu yang terjadi” untuk mempertahankan tingkat kepastian pernyataan penulis.",
+      "translation_quote": "sesuatu mungkin terjadi sekitar masa banjir yang meningkatkan laju mutasi"
+    },
+    {
+      "location": "translation.html, paragraf contoh kanker kolon dalam bagian “Skrining Kanker”",
+      "severity": "minor",
+      "source_quote": "An example is colon cancer. Most people who develop colon cancer ... preventing the progression to colon cancer.",
+      "suggested_fix": "Ganti ketiga kemunculan “kanker kolorektal” dalam paragraf ini dengan “kanker kolon” agar tidak memperluas lokasi kanker hingga mencakup rektum.",
+      "translation_quote": "Contohnya adalah kanker kolorektal. Kebanyakan orang yang mengembangkan kanker kolorektal ... mencegah perkembangan menjadi kanker kolorektal."
+    }
+  ],
   "id": "21f1204693feb17a973bfe47c4d82cd0",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ind",
@@ -98,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/c359f5eb7511bee303f2540e716a2b918a181459a9c7bd95ec949a6df55470c5.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +160,7 @@
     "total_reserved_usd": 0.762437,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
