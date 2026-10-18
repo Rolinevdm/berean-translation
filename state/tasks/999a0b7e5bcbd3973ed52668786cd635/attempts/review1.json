@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T19:35:51+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph beginning “I remained sitting”\",\"severity\":\"minor\",\"source_quote\":\"A young girl had gotten up, and was making her way to the front of the auditorium.\",\"suggested_fix\":\"En ung flicka hade rest sig och var på väg fram i salen.\",\"translation_quote\":\"En ung flicka hade rest sig och var på väg fram mot talarstolen.\"},{\"location\":\"Article, paragraph beginning “We moved out of Omaha”\",\"severity\":\"minor\",\"source_quote\":\"about a quarter mile from our driveway\",\"suggested_fix\":\"ungefär en kvarts engelsk mil från vår infart\",\"translation_quote\":\"ungefär en kvarts mile från vår infart\"},{\"location\":\"Article, opening paragraph\",\"severity\":\"minor\",\"source_quote\":\"I was born December 29,1988, in Omaha, Nebraska, to my VERY young parents, Ron and Shelley.\",\"suggested_fix\":\"Jag föddes den 29 december 1988 i Omaha i Nebraska, som barn till mina MYCKET unga föräldrar, Ron och Shelley.\",\"translation_quote\":\"Jag föddes den 29 december 1988 i Omaha i Nebraska, av mina MYCKET unga föräldrar, Ron och Shelley.\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1123,
+    "content_evidence_truncated": false,
+    "content_sha256": "c4a0c9259de4dad5cfeec2abec8dd63a7589f78e6d67ee69119720e272f01ee0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1310,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1023,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15004,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13901,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 16314
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

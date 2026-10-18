@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “I remained sitting”",
+      "severity": "minor",
+      "source_quote": "A young girl had gotten up, and was making her way to the front of the auditorium.",
+      "suggested_fix": "En ung flicka hade rest sig och var på väg fram i salen.",
+      "translation_quote": "En ung flicka hade rest sig och var på väg fram mot talarstolen."
+    },
+    {
+      "location": "Article, paragraph beginning “We moved out of Omaha”",
+      "severity": "minor",
+      "source_quote": "about a quarter mile from our driveway",
+      "suggested_fix": "ungefär en kvarts engelsk mil från vår infart",
+      "translation_quote": "ungefär en kvarts mile från vår infart"
+    },
+    {
+      "location": "Article, opening paragraph",
+      "severity": "minor",
+      "source_quote": "I was born December 29,1988, in Omaha, Nebraska, to my VERY young parents, Ron and Shelley.",
+      "suggested_fix": "Jag föddes den 29 december 1988 i Omaha i Nebraska, som barn till mina MYCKET unga föräldrar, Ron och Shelley.",
+      "translation_quote": "Jag föddes den 29 december 1988 i Omaha i Nebraska, av mina MYCKET unga föräldrar, Ron och Shelley."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
