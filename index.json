@@ -32221,6 +32221,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
+      "html_sha256": "0ebcd120682762aa7043b72af914364daef33805dd1149425b31b216d7ff537d",
+      "human_reviewed": false,
+      "id": "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901",
+      "images": [
+        {
+          "alt": "मुकुट पहने दो स्त्रियों को भीड़ के बीच से ले जाते हुए दिखाती एक उत्कीर्ण तस्वीर।",
+          "public_path": "/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.json",
+      "metadata_sha256": "a4b1b5b1648e018bf0bb092554bc02ec056454f827af874b92d3b21c0d7c35ed",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
+      "status": "ready",
+      "subtitle": null,
+      "title": "दो युवतियाँ",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "a6befdffbc98eefcb04af52ead2141b7fad9619f687c58b7b8b4049013cc9001",
       "human_reviewed": false,
@@ -48952,6 +48980,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/f838e04e-5633-4a29-9d34-793f456248a6.html",
+      "html_sha256": "3ac3e06784f2bc830e56ef9b4bc73619531366839c08faf2b96d6df951cbb1af",
+      "human_reviewed": false,
+      "id": "f838e04e-5633-4a29-9d34-793f456248a6",
+      "images": [
+        {
+          "alt": "안경을 쓴 젊은 여성이 나무 옆에서 미소 짓고 있다.",
+          "public_path": "/images/articles/f838e04e-5633-4a29-9d34-793f456248a6-1.jpg"
+        },
+        {
+          "alt": "일곱 사람이 나무 앞 야외에 서 있다.",
+          "public_path": "/images/articles/f838e04e-5633-4a29-9d34-793f456248a6-2.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/f838e04e-5633-4a29-9d34-793f456248a6.json",
+      "metadata_sha256": "687a67e35e25563b2dc37d2272f668e632d7b154a93a190b51d997f930cbe36c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "축복의 코너",
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "11c28bf114f234094c18d24228f24b70a3066d4fe9e7c681b61528fe1e483ca7",
+      "status": "ready",
+      "subtitle": "한 십 대의 이야기",
+      "title": "혼란에서 평안으로",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
       "html_sha256": "711d828fe190d7cc5442993e945df249cb52298b145a23c8bfc6f053b9756b04",
       "human_reviewed": false,
@@ -62648,6 +62708,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.html",
+      "html_sha256": "6fb156edc8d3f7dd43ebae85a2d80ffb4572c0ca1091fb9e4e3da568f7e8bed7",
+      "human_reviewed": false,
+      "id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
+      "images": [
+        {
+          "alt": "Partitura de Todos Saudai o Poder do Nome de Jesus, melodia DIADEM C. M. com refrão",
+          "public_path": "/images/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd-1.png"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.json",
+      "metadata_sha256": "d8d7bc431e4491f153616ad032da54e7524359d97d391b57399ab855dc1c0c99",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "História de um Hino",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Todos Saudai o Poder do Nome de Jesus",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/f21c4f39-9508-4f75-9e0c-0c68468c41f8.html",
       "html_sha256": "63ad45d42d9046851ede7ffdc4b2af0b313931b28ce29497eb4fe94f1bba8d7e",
       "human_reviewed": false,
@@ -65331,6 +65419,34 @@
       "subtitle": null,
       "title": null,
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.html",
+      "html_sha256": "ad8fa9d1d3f04916fda41955df2597acd162820b3d6e90383b3bfd782627c57e",
+      "human_reviewed": false,
+      "id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
+      "images": [
+        {
+          "alt": "Туманный осенний лес, отражающийся в спокойном озере",
+          "public_path": "/images/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.json",
+      "metadata_sha256": "9c96e49beaf6abb7f3a59a7f40fa48ad7243be9d35295c5419014fcd6712aff3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Слово от врача",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Депрессия",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -68108,6 +68224,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "El poder de Dios",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
+      "html_sha256": "73fa2068f7cb0b7e53e5cd6c2ffa94c77baf2edb7984d0f6624727219cd06683",
+      "human_reviewed": false,
+      "id": "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901",
+      "images": [
+        {
+          "alt": "Un grabado de dos mujeres con coronas de flores mientras las conducen entre una multitud.",
+          "public_path": "/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.json",
+      "metadata_sha256": "7cb620624290f931af49a0d4fe1883ec8e1e8c0853ade35f481f0020a515a75a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dos jóvenes",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -73964,6 +74108,29 @@
       "subtitle": "Hadithi ya Kweli",
       "title": "Kiburi cha Ramona Mdogo",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/98e522ea-f992-438f-86e7-2588963ef008.html",
+      "html_sha256": "974f824ba5d7a9ad469692b04566ff09ad1ebee67ad2f7db55ba931447574da3",
+      "human_reviewed": false,
+      "id": "98e522ea-f992-438f-86e7-2588963ef008",
+      "images": [],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/98e522ea-f992-438f-86e7-2588963ef008.json",
+      "metadata_sha256": "8c7d4eaec90e930e9095a7f6540ef31f77efc334b2ffc0af2a000e580dfb93d9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Sauti za Kanisa la Awali",
+      "source_revision": "f83903f6f553c0469d537b5461e4ba3aa295835f",
+      "source_translation_key": "c545a744250aca1ecb27d55fdb1f3a61d2c529ab7f5a7fece0477318b773edd2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kufa na Kufufuka Pamoja na Kristo",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
