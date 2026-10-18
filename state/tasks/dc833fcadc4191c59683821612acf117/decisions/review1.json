@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “About that same time”",
+      "severity": "major",
+      "source_quote": "“Dad had listened to a tape ... on family devotions. Dad started holding devotions at night”",
+      "suggested_fix": "Replace both instances of “devotions” with a natural Hebrew expression such as “התכנסויות לתפילה ולקריאה בכתבי הקודש” (for example: “על התכנסויות משפחתיות לתפילה ולקריאה בכתבי הקודש” and “אבא התחיל לקיים התכנסויות כאלה בלילה”).",
+      "translation_quote": "“על devotions משפחתיים. אבא התחיל לקיים devotions בלילה”"
+    },
+    {
+      "location": "Paragraph beginning “The youth testimonies really blessed me”",
+      "severity": "major",
+      "source_quote": "“The end of Bible School had come, and he’d gone home.”",
+      "suggested_fix": "Replace “שנת הלימודים בבית הספר לתנ״ך הסתיימה” with “השבוע בבית הספר לתנ״ך הסתיים” or another rendering that refers to the end of the Bible School event, not an academic year.",
+      "translation_quote": "“שנת הלימודים בבית הספר לתנ״ך הסתיימה, והוא חזר הביתה.”"
+    },
+    {
+      "location": "Paragraph beginning “I didn’t break through my chains that night”",
+      "severity": "minor",
+      "source_quote": "“We came out of the prayer rooms, and someone was being sung for.”",
+      "suggested_fix": "Render the singing without adding that it was a song of thanksgiving; for example: “יצאנו מחדרי התפילה, ושרו למען מישהו.”",
+      "translation_quote": "“יצאנו מחדרי התפילה, ומישהו קיבל שירת הודיה.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
