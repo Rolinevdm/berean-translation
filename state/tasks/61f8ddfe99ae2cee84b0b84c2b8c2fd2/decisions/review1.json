@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: ‘“하나님 나라”와 “교회”는 서로 바꾸어 쓸 수 있는가?’ 절의 두 번째 문단 마지막 문장",
+      "severity": "major",
+      "source_quote": "We can get enthusiastic about the concept of the kingdom, the teachings of the kingdom, the growth of the kingdom, and conferences about the kingdom, and yet be cynical, critical, and sorry members of our local church.",
+      "suggested_fix": "마지막 문장을 “하나님 나라라는 개념과 가르침, 하나님 나라의 성장, 하나님 나라를 주제로 한 집회에 열광하면서도, 정작 자기 지역 교회에서는 냉소적이고 비판적이며 한심한 교인으로 살아갈 수 있습니다.”로 수정하십시오.",
+      "translation_quote": "하나님 나라라는 개념과 가르침, 하나님 나라의 성장, 하나님 나라를 주제로 한 집회에 열광하면서도 자기 지역 교회의 구성원들을 냉소하고 비판하며 안타깝게 여길 수 있습니다."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
