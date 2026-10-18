@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T06:07:50+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html，创世记 3:12-13 引文\",\n      \"severity\": \"major\",\n      \"source_quote\": \"And the man said, The woman whom thou gavest to be with me\",\n      \"suggested_fix\": \"将“那人对女人说”改为“那人说”，保留后面的引文及经文出处。\",\n      \"translation_quote\": \"那人对女人说：“你所赐给我、与我同居的女人\"\n    },\n    {\n      \"location\": \"html，路得记 1:20-21 引文\",\n      \"severity\": \"major\",\n      \"source_quote\": \"why then call ye me Naomi, seeing the LORD hath testified against me, and the Almighty hath afflicted me?\",\n      \"suggested_fix\": \"将引文末尾“耶和华向我发烈怒，全能者使我受惊。”改为“耶和华既作见证指控我，全能者又使我受苦，你们为何还称我为拿俄米呢？”\",\n      \"translation_quote\": \"耶和华向我发烈怒，全能者使我受惊。\"\n    },\n    {\n      \"location\": \"html，路得记 1:20-21 引文后的段落\",\n      \"severity\": \"major\",\n      \"source_quote\": \"to her it seemed that even God had turned against her\",\n      \"suggested_fix\": \"将“连上帝似乎也转向了她”改为“连上帝似乎也与她作对”。\",\n      \"translation_quote\": \"连上帝似乎也转向了她\"\n    },\n    {\n      \"location\": \"html，路得记 4:14-16 引文\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Blessed be the LORD, which hath not left thee this day without a kinsman, that his name may be famous in Israel. And he shall be unto thee a restorer of thy life, and a nourisher of thine old age: for thy daughter in law, which loveth thee, which is better to thee than seven sons, hath born him.\",\n      \"suggested_fix\": \"将妇人的话替换为：“耶和华是应当称颂的，因为他今日没有使你缺少至近的亲属；愿这孩子的名在以色列得享声望。他必使你的生命重新振作，奉养你的晚年，因为他是爱你的儿媳所生的；这儿媳对你比七个儿子还好。”保留随后拿俄米抱孩子的叙述及经文出处。\",\n      \"translation_quote\": \"愿耶和华赐福与那没有撇下你，今日使你有近亲者的，他在以色列要使他名闻；他要为你作兴旺你的，扶养你老年的人，因为那爱你的儿媳，比七个儿子还强。\"\n    },\n    {\n      \"location\": \"html，耶利米书 20:14-18 引文\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Cursed be the man who brought tidings to my father, saying, A man child is born unto thee ... And let that man be as the cities which the LORD overthrew, and repented not\",\n      \"suggested_fix\": \"将“说：‘我生了一个男子。’”改为“说：‘你得了一个儿子。’”；将“那使我父亲欢喜的人，若不悔改，就当像耶和华所倾覆的城邑”改为“愿那人像耶和华所倾覆而不后悔的城邑”。原文并未把那人的不悔改设为条件。\",\n      \"translation_quote\": \"说：‘我生了一个男子。’……那使我父亲欢喜的人，若不悔改，就当像耶和华所倾覆的城邑\"\n    },\n    {\n      \"location\": \"html，“这些基因差异可以帮助我们理解”段落\",\n      \"severity\": \"major\",\n      \"source_quote\": \"if we recognize that we have a greater tendency towards depression, we don’t need to feel discouraged by this fact\",\n      \"suggested_fix\": \"将“若我们认识到自己更倾向于情绪化而非天然乐观，也不必因此灰心”改为“若我们认识到自己更容易抑郁，也不必因此灰心”。保留下一句关于情绪多变的独立论述。\",\n      \"translation_quote\": \"若我们认识到自己更倾向于情绪化而非天然乐观，也不必因此灰心\"\n    },\n    {\n      \"location\": \"html，“抑郁的诊断”第二段\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Most people do not have all of these symptoms\",\n      \"suggested_fix\": \"将“下列所有症状”改为“这些症状中的全部”，避免指向并不存在的后续症状清单。\",\n      \"translation_quote\": \"大多数人不会出现下列所有症状\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 83\n}",
+    "content_bytes": 4165,
+    "content_evidence_truncated": false,
+    "content_sha256": "98ba7b78bc6f4d64e10ac40dba602081e243be8060901b21229ae1174a9855ee",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1328,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 146,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10793,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10790,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12121
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
