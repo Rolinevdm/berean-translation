@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T14:44:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html، پیراگراف جو «تقریباً اسی وقت امی کو کسی طرح چیریٹی کیسٹوں کا پتا چلا» سے شروع ہوتا ہے\",\"severity\":\"minor\",\"source_quote\":\"Mom started to spank us, when before she had just yelled or something like that.\",\"suggested_fix\":\"«امی ہمیں تھپڑ مار کر سزا دینے لگیں» کی جگہ «امی ہمیں کولہوں پر مار کر سزا دینے لگیں» لکھیں، تاکہ سزا کی نوعیت اصل متن کے مطابق رہے۔\",\"translation_quote\":\"امی ہمیں تھپڑ مار کر سزا دینے لگیں، حالانکہ پہلے وہ بس چیختی تھیں یا ایسا کچھ کرتی تھیں۔\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 805,
+    "content_evidence_truncated": false,
+    "content_sha256": "4ace9f7007e2cc613edfe3efe582ae52691a2adfb7ca0b722d6676a2b95558d1",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 252,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16249,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15146,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 16501
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

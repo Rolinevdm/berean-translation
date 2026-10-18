@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fe857154504744d8992352c5820fb06d",
   "campaign": "auto-80260bdb2041a22bd214cf61bbf4ccea288d0790c9af6ff5de0e11eb41633514",
   "created_at": "2026-10-18T11:16:45+00:00",
   "events": [
@@ -28,18 +27,39 @@
         },
         "total_tokens": 25130
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 252,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 77,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 16249,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 15146,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 16501
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "ڈیوڈ کوپر کے وعظ کا اقتباس",
-      "severity": "major",
-      "source_quote": "“Some of you are bound by the devil”",
-      "suggested_fix": "”آپ میں سے کچھ شیطان کے بندھن میں جکڑے ہوئے ہیں“",
-      "translation_quote": "”آپ میں سے کچھ شیطان کے قبضے میں ہیں“"
+      "location": "translation.html، پیراگراف جو «تقریباً اسی وقت امی کو کسی طرح چیریٹی کیسٹوں کا پتا چلا» سے شروع ہوتا ہے",
+      "severity": "minor",
+      "source_quote": "Mom started to spank us, when before she had just yelled or something like that.",
+      "suggested_fix": "«امی ہمیں تھپڑ مار کر سزا دینے لگیں» کی جگہ «امی ہمیں کولہوں پر مار کر سزا دینے لگیں» لکھیں، تاکہ سزا کی نوعیت اصل متن کے مطابق رہے۔",
+      "translation_quote": "امی ہمیں تھپڑ مار کر سزا دینے لگیں، حالانکہ پہلے وہ بس چیختی تھیں یا ایسا کچھ کرتی تھیں۔"
     }
   ],
+  "finished_at": "2026-10-18T14:44:32+00:00",
   "id": "e9566c06102e153148ae8a6f7f9cd291",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "urd",
@@ -128,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ecc831074f6199cc6c7a7e4517750b54346ddde62805e815c011cd467bb08a04.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +166,7 @@
     "total_reserved_usd": 1.020642,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "11c28bf114f234094c18d24228f24b70a3066d4fe9e7c681b61528fe1e483ca7",
   "translation_model_actual": "gpt-6.1-sol"

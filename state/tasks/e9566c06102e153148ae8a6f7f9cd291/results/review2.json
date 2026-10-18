@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "cfbd0f36-0e47-4521-bc1f-cd4076ff3a3f",
+    "response_id": "chatcmpl-EaMK8Db8O0lPZ2SGyqttT4TOhpMZf",
+    "usage": {
+      "completion_tokens": 252,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16249,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15146,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 16501
+    }
+  },
+  "received_at": "2026-10-18T14:44:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html، پیراگراف جو «تقریباً اسی وقت امی کو کسی طرح چیریٹی کیسٹوں کا پتا چلا» سے شروع ہوتا ہے",
+        "severity": "minor",
+        "source_quote": "Mom started to spank us, when before she had just yelled or something like that.",
+        "suggested_fix": "«امی ہمیں تھپڑ مار کر سزا دینے لگیں» کی جگہ «امی ہمیں کولہوں پر مار کر سزا دینے لگیں» لکھیں، تاکہ سزا کی نوعیت اصل متن کے مطابق رہے۔",
+        "translation_quote": "امی ہمیں تھپڑ مار کر سزا دینے لگیں، حالانکہ پہلے وہ بس چیختی تھیں یا ایسا کچھ کرتی تھیں۔"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

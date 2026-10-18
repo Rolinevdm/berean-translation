@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، پیراگراف جو «تقریباً اسی وقت امی کو کسی طرح چیریٹی کیسٹوں کا پتا چلا» سے شروع ہوتا ہے",
+      "severity": "minor",
+      "source_quote": "Mom started to spank us, when before she had just yelled or something like that.",
+      "suggested_fix": "«امی ہمیں تھپڑ مار کر سزا دینے لگیں» کی جگہ «امی ہمیں کولہوں پر مار کر سزا دینے لگیں» لکھیں، تاکہ سزا کی نوعیت اصل متن کے مطابق رہے۔",
+      "translation_quote": "امی ہمیں تھپڑ مار کر سزا دینے لگیں، حالانکہ پہلے وہ بس چیختی تھیں یا ایسا کچھ کرتی تھیں۔"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
