@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “I was afraid of silence”",
+      "severity": "major",
+      "source_quote": "“All my life, I’ve been tormented with horrific nightmares.”",
+      "suggested_fix": "“Maisha yangu yote, nimekuwa nikiteswa na ndoto za kutisha sana.”",
+      "translation_quote": "“Maisha yangu yote, nimetesa kwa ndoto za kutisha sana.”"
+    },
+    {
+      "location": "Paragraph beginning “I didn’t break through my chains”",
+      "severity": "major",
+      "source_quote": "“I repented and renounced, forgave and was forgiven.”",
+      "suggested_fix": "“Nilitubu na kuzikana [dhambi hizo], nikasamehe na nikasamehewa.”",
+      "translation_quote": "“Nilitubu na kukana, nikasamehe na nikasamehewa.”"
+    },
+    {
+      "location": "Paragraph beginning “Every day, I’m more blessed”",
+      "severity": "major",
+      "source_quote": "“By God’s grace, I am going to be a keeper at home!”",
+      "suggested_fix": "“Kwa neema ya Mungu, nitakuwa mtu wa kuitunza nyumba!”",
+      "translation_quote": "“Kwa neema ya Mungu, nitakuwa mlinzi wa nyumbani!”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

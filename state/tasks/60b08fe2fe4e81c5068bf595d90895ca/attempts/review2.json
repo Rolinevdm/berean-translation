@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-18T14:51:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “I was afraid of silence”\",\"severity\":\"major\",\"source_quote\":\"“All my life, I’ve been tormented with horrific nightmares.”\",\"suggested_fix\":\"“Maisha yangu yote, nimekuwa nikiteswa na ndoto za kutisha sana.”\",\"translation_quote\":\"“Maisha yangu yote, nimetesa kwa ndoto za kutisha sana.”\"},{\"location\":\"Paragraph beginning “I didn’t break through my chains”\",\"severity\":\"major\",\"source_quote\":\"“I repented and renounced, forgave and was forgiven.”\",\"suggested_fix\":\"“Nilitubu na kuzikana [dhambi hizo], nikasamehe na nikasamehewa.”\",\"translation_quote\":\"“Nilitubu na kukana, nikasamehe na nikasamehewa.”\"},{\"location\":\"Paragraph beginning “Every day, I’m more blessed”\",\"severity\":\"major\",\"source_quote\":\"“By God’s grace, I am going to be a keeper at home!”\",\"suggested_fix\":\"“Kwa neema ya Mungu, nitakuwa mtu wa kuitunza nyumba!”\",\"translation_quote\":\"“Kwa neema ya Mungu, nitakuwa mlinzi wa nyumbani!”\"}],\"findings_complete\":true,\"passed\":false,\"score\":89}",
+    "content_bytes": 1058,
+    "content_evidence_truncated": false,
+    "content_sha256": "45989b751ba826f2b049f1384194b6f12e1b9aa440e94425d511bcc677e9f0ff",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1179,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 895,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15513,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14410,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 16692
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

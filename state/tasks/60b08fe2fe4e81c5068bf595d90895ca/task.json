@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "60ec442a94a44170b0bbd217a820424b",
   "campaign": "auto-9355b3cbb684dc284a482ea3226bf8137f5b40cf5babaae8926eec1001ebc4e8",
   "created_at": "2026-10-18T11:01:05+00:00",
   "events": [
@@ -48,18 +47,54 @@
         },
         "total_tokens": 23574
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1179,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 895,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 15513,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 14410,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 16692
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden HTML element: pnilitembea",
-      "translation_quote": ""
+      "location": "Paragraph beginning “I was afraid of silence”",
+      "severity": "major",
+      "source_quote": "“All my life, I’ve been tormented with horrific nightmares.”",
+      "suggested_fix": "“Maisha yangu yote, nimekuwa nikiteswa na ndoto za kutisha sana.”",
+      "translation_quote": "“Maisha yangu yote, nimetesa kwa ndoto za kutisha sana.”"
+    },
+    {
+      "location": "Paragraph beginning “I didn’t break through my chains”",
+      "severity": "major",
+      "source_quote": "“I repented and renounced, forgave and was forgiven.”",
+      "suggested_fix": "“Nilitubu na kuzikana [dhambi hizo], nikasamehe na nikasamehewa.”",
+      "translation_quote": "“Nilitubu na kukana, nikasamehe na nikasamehewa.”"
+    },
+    {
+      "location": "Paragraph beginning “Every day, I’m more blessed”",
+      "severity": "major",
+      "source_quote": "“By God’s grace, I am going to be a keeper at home!”",
+      "suggested_fix": "“Kwa neema ya Mungu, nitakuwa mtu wa kuitunza nyumba!”",
+      "translation_quote": "“Kwa neema ya Mungu, nitakuwa mlinzi wa nyumbani!”"
     }
   ],
+  "finished_at": "2026-10-18T14:51:26+00:00",
   "id": "60b08fe2fe4e81c5068bf595d90895ca",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "swa",
@@ -148,9 +183,11 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ecc831074f6199cc6c7a7e4517750b54346ddde62805e815c011cd467bb08a04.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +203,7 @@
     "total_reserved_usd": 0.130291,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "11c28bf114f234094c18d24228f24b70a3066d4fe9e7c681b61528fe1e483ca7",
   "translation_model_actual": "gpt-6-luna"
