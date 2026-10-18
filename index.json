@@ -32569,6 +32569,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/6080d813-75a2-4123-9552-3c4f75c81219.html",
+      "html_sha256": "11a01e96de067a41edc2959909539bee1a79875a28893c039f237eaf0eba215c",
+      "human_reviewed": false,
+      "id": "6080d813-75a2-4123-9552-3c4f75c81219",
+      "images": [],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/6080d813-75a2-4123-9552-3c4f75c81219.json",
+      "metadata_sha256": "a4ba9a6fa9b8f0417078ad426da1b12848d5da6a0ed88cd9b34123ab8ec91325",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "कलीसिया के सामने आने वाले मुद्दे",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
+      "status": "ready",
+      "subtitle": null,
+      "title": "मैंने कोविड शॉट क्यों नहीं लिया",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
       "html_sha256": "b05458c16203bef9abef84087018150d7572a24191033bd1731a45ba3b2145ad",
       "human_reviewed": false,
@@ -56943,6 +56966,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.html",
+      "html_sha256": "e0ca5ed3d1c2078dcf4a94ccaf71b9c502545ef94ee1c7a362975fd07c13a040",
+      "human_reviewed": false,
+      "id": "e66a02d4-667c-4f50-b5e1-158ff98b82d5",
+      "images": [
+        {
+          "alt": "En mann som kneler lavt mot bakken",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-1.jpg"
+        },
+        {
+          "alt": "Tolleren kneler for Gud mens en annen mann står i nærheten",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-2.png"
+        },
+        {
+          "alt": "Omslaget til Pride and Humility",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-3.png"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.json",
+      "metadata_sha256": "ee5a9eb11e18bbf90b552aca425bd916c2fae4595fe20302a48718da6ccbe19d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "52e9d320a49e2444d36eafdc051ebb00c1e6693a",
+      "source_translation_key": "f5b7fccc6a524e1449727b9ca39fdaa2ec8b679f58d19ba28c92689583cbcf46",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Den ydmyke føler seg liten",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
       "html_sha256": "a46a979f810b85928a1bf2e0dcb88c00a1abb26c8021df1ebb2b4ab439938876",
       "human_reviewed": false,
@@ -78228,6 +78287,42 @@
       "subtitle": null,
       "title": "Crown Him with Many Crowns",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.html",
+      "html_sha256": "bcc559e3ea67cf7559fe9df3ca7ddc9e6d9248d876757e3c44b45a88cf33f2b8",
+      "human_reviewed": false,
+      "id": "e66a02d4-667c-4f50-b5e1-158ff98b82d5",
+      "images": [
+        {
+          "alt": "En man som knäböjer lågt mot marken",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-1.jpg"
+        },
+        {
+          "alt": "Publikanen knäböjer inför Gud medan en annan man står i närheten",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-2.png"
+        },
+        {
+          "alt": "Omslaget till Pride and Humility",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-3.png"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.json",
+      "metadata_sha256": "0661e8345830a3c533b6b11ee39ae0a1e8fff1f9e6f3b7863ba01656e3d32271",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "52e9d320a49e2444d36eafdc051ebb00c1e6693a",
+      "source_translation_key": "f5b7fccc6a524e1449727b9ca39fdaa2ec8b679f58d19ba28c92689583cbcf46",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Den ödmjuke känner sig liten",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
