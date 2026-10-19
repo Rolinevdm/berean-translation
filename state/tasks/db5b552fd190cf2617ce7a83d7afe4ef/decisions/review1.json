@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "正文第7、9、15、17段（plain people / plain publishing houses / plain groups）",
+      "severity": "major",
+      "source_quote": "“within the plain people—those of Anabaptist heritage”; “among some of the plain people”; “some of our plain publishing houses”; “one of our plain groups of conservative Anabaptists”",
+      "suggested_fix": "此处 plain 指持守简朴生活方式的再洗礼派群体，并非清教徒。分别改为：“他属于持守简朴生活方式的再洗礼派传承群体中的某个宗教团体”；“某些持守简朴生活方式的群体”；“我们这些持守简朴生活方式的群体中的一些出版社”；“我们一个持守简朴生活方式的保守再洗礼派群体”。",
+      "translation_quote": "“一类清教徒群体中的某个宗教团体——拥有再洗礼派（Anabaptist）血统的人”；“某些清教徒群体”；“我们一些清教徒出版社”；“我们一个保守再洗礼派清教徒群体”"
+    },
+    {
+      "location": "正文第14段，希伯来书13:17引文",
+      "severity": "major",
+      "source_quote": "Obey them that have the rule over you, and submit yourselves: for they watch for your souls, as they that must give account… –Hebrews 13:17.",
+      "suggested_fix": "保留原有<em>标签，将引文改为：“你们要听从那些管理你们的人，并且顺服他们；因为他们为你们的灵魂警醒，如同将来必须交账的人……——希伯来书 13:17。”",
+      "translation_quote": "你们要了那管理你们的人，听从他；因他们為你們的魂時常警醒，好像那将來要交賬的人……——希伯来书 13:17。"
+    },
+    {
+      "location": "正文第4段，启示录21:7引文",
+      "severity": "major",
+      "source_quote": "He that overcometh shall inherit all things",
+      "suggested_fix": "将“得胜的，要承受这些为业”改为“得胜的，要承受万有为业”，保留其余引文及标签。",
+      "translation_quote": "得胜的，要承受这些为业"
+    },
+    {
+      "location": "正文第1段",
+      "severity": "minor",
+      "source_quote": "Greetings to one and all in our dear Saviour’s name, Jesus Christ. Another year has passed from the present into the annals of history. Nothing that we have said or done can be recalled and re-lived.",
+      "suggested_fix": "改为：“奉我们亲爱的救主耶稣基督的名，向大家问安。又一年已经过去，载入史册。我们说过的话、做过的事，都无法收回，也无法重新经历。”",
+      "translation_quote": "愿我们亲爱的救主耶稣基督的名为众人带来问安。又一年从现在走入历史的年谱。我们所说过或所行过的，已不能被召回重活。"
+    },
+    {
+      "location": "正文第7段",
+      "severity": "minor",
+      "source_quote": "He is a married man with a young family.",
+      "suggested_fix": "将“他已婚，有个年幼的家庭”改为“他已婚，孩子还年幼”。",
+      "translation_quote": "他已婚，有个年幼的家庭。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

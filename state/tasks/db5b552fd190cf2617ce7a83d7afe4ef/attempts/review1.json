@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-19T20:09:23+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"正文第7、9、15、17段（plain people / plain publishing houses / plain groups）\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“within the plain people—those of Anabaptist heritage”; “among some of the plain people”; “some of our plain publishing houses”; “one of our plain groups of conservative Anabaptists”\",\n      \"suggested_fix\": \"此处 plain 指持守简朴生活方式的再洗礼派群体，并非清教徒。分别改为：“他属于持守简朴生活方式的再洗礼派传承群体中的某个宗教团体”；“某些持守简朴生活方式的群体”；“我们这些持守简朴生活方式的群体中的一些出版社”；“我们一个持守简朴生活方式的保守再洗礼派群体”。\",\n      \"translation_quote\": \"“一类清教徒群体中的某个宗教团体——拥有再洗礼派（Anabaptist）血统的人”；“某些清教徒群体”；“我们一些清教徒出版社”；“我们一个保守再洗礼派清教徒群体”\"\n    },\n    {\n      \"location\": \"正文第14段，希伯来书13:17引文\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Obey them that have the rule over you, and submit yourselves: for they watch for your souls, as they that must give account… –Hebrews 13:17.\",\n      \"suggested_fix\": \"保留原有<em>标签，将引文改为：“你们要听从那些管理你们的人，并且顺服他们；因为他们为你们的灵魂警醒，如同将来必须交账的人……——希伯来书 13:17。”\",\n      \"translation_quote\": \"你们要了那管理你们的人，听从他；因他们為你們的魂時常警醒，好像那将來要交賬的人……——希伯来书 13:17。\"\n    },\n    {\n      \"location\": \"正文第4段，启示录21:7引文\",\n      \"severity\": \"major\",\n      \"source_quote\": \"He that overcometh shall inherit all things\",\n      \"suggested_fix\": \"将“得胜的，要承受这些为业”改为“得胜的，要承受万有为业”，保留其余引文及标签。\",\n      \"translation_quote\": \"得胜的，要承受这些为业\"\n    },\n    {\n      \"location\": \"正文第1段\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Greetings to one and all in our dear Saviour’s name, Jesus Christ. Another year has passed from the present into the annals of history. Nothing that we have said or done can be recalled and re-lived.\",\n      \"suggested_fix\": \"改为：“奉我们亲爱的救主耶稣基督的名，向大家问安。又一年已经过去，载入史册。我们说过的话、做过的事，都无法收回，也无法重新经历。”\",\n      \"translation_quote\": \"愿我们亲爱的救主耶稣基督的名为众人带来问安。又一年从现在走入历史的年谱。我们所说过或所行过的，已不能被召回重活。\"\n    },\n    {\n      \"location\": \"正文第7段\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"He is a married man with a young family.\",\n      \"suggested_fix\": \"将“他已婚，有个年幼的家庭”改为“他已婚，孩子还年幼”。\",\n      \"translation_quote\": \"他已婚，有个年幼的家庭。\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 89\n}",
+    "content_bytes": 3236,
+    "content_evidence_truncated": false,
+    "content_sha256": "a8b969efbcd6d793525b88ede7e3c99dcbe6d540662f22b5bfdfabbf9946727b",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 974,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 88,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6492,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6489,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7466
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

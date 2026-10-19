@@ -5,11 +5,68 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1ac7654d54624f21868f39544fecd71f",
   "campaign": "auto-5ef2b8038b81ba02bcc42d3cfe546dbe20f93cdee1f6db87b23271c33af44f74",
   "created_at": "2026-10-19T07:52:00+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 974,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 88,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6492,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6489,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7466
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "正文第7、9、15、17段（plain people / plain publishing houses / plain groups）",
+      "severity": "major",
+      "source_quote": "“within the plain people—those of Anabaptist heritage”; “among some of the plain people”; “some of our plain publishing houses”; “one of our plain groups of conservative Anabaptists”",
+      "suggested_fix": "此处 plain 指持守简朴生活方式的再洗礼派群体，并非清教徒。分别改为：“他属于持守简朴生活方式的再洗礼派传承群体中的某个宗教团体”；“某些持守简朴生活方式的群体”；“我们这些持守简朴生活方式的群体中的一些出版社”；“我们一个持守简朴生活方式的保守再洗礼派群体”。",
+      "translation_quote": "“一类清教徒群体中的某个宗教团体——拥有再洗礼派（Anabaptist）血统的人”；“某些清教徒群体”；“我们一些清教徒出版社”；“我们一个保守再洗礼派清教徒群体”"
+    },
+    {
+      "location": "正文第14段，希伯来书13:17引文",
+      "severity": "major",
+      "source_quote": "Obey them that have the rule over you, and submit yourselves: for they watch for your souls, as they that must give account… –Hebrews 13:17.",
+      "suggested_fix": "保留原有<em>标签，将引文改为：“你们要听从那些管理你们的人，并且顺服他们；因为他们为你们的灵魂警醒，如同将来必须交账的人……——希伯来书 13:17。”",
+      "translation_quote": "你们要了那管理你们的人，听从他；因他们為你們的魂時常警醒，好像那将來要交賬的人……——希伯来书 13:17。"
+    },
+    {
+      "location": "正文第4段，启示录21:7引文",
+      "severity": "major",
+      "source_quote": "He that overcometh shall inherit all things",
+      "suggested_fix": "将“得胜的，要承受这些为业”改为“得胜的，要承受万有为业”，保留其余引文及标签。",
+      "translation_quote": "得胜的，要承受这些为业"
+    },
+    {
+      "location": "正文第1段",
+      "severity": "minor",
+      "source_quote": "Greetings to one and all in our dear Saviour’s name, Jesus Christ. Another year has passed from the present into the annals of history. Nothing that we have said or done can be recalled and re-lived.",
+      "suggested_fix": "改为：“奉我们亲爱的救主耶稣基督的名，向大家问安。又一年已经过去，载入史册。我们说过的话、做过的事，都无法收回，也无法重新经历。”",
+      "translation_quote": "愿我们亲爱的救主耶稣基督的名为众人带来问安。又一年从现在走入历史的年谱。我们所说过或所行过的，已不能被召回重活。"
+    },
+    {
+      "location": "正文第7段",
+      "severity": "minor",
+      "source_quote": "He is a married man with a young family.",
+      "suggested_fix": "将“他已婚，有个年幼的家庭”改为“他已婚，孩子还年幼”。",
+      "translation_quote": "他已婚，有个年幼的家庭。"
+    }
+  ],
   "id": "db5b552fd190cf2617ce7a83d7afe4ef",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "cmn",
@@ -98,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/9bbeaa248aca4a5e53cf4e710626c35ad1fcffe1f073f387e31c0a9f5dd08124.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +174,7 @@
     "total_reserved_usd": 0.735202,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
