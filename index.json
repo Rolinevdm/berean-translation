@@ -39772,6 +39772,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/d38bf79f-957f-413c-ad4d-a6b4fa8c8112.html",
+      "html_sha256": "a50e4cb2f0689f42e6e836da9f85fc219d19f2febd505317051f39cbdc8d892b",
+      "human_reviewed": false,
+      "id": "d38bf79f-957f-413c-ad4d-a6b4fa8c8112",
+      "images": [],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/d38bf79f-957f-413c-ad4d-a6b4fa8c8112.json",
+      "metadata_sha256": "271dc2d4216c2abf8000c7309add6a0e7f02537537729c0486cb0eef37961118",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Sepatah Kata dari Seorang Dokter",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kanker… Apa Itu?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd.html",
       "html_sha256": "7ecd529fa989a43ba33b8947b198eb91a05c1a8f36696b8dae99738d1497be59",
       "human_reviewed": false,
@@ -64162,6 +64185,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Сила Божья",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
+      "html_sha256": "a11e5d168cd1098c779e22abfadee29ede929689e32afb9ba782238f84c31d3b",
+      "human_reviewed": false,
+      "id": "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901",
+      "images": [
+        {
+          "alt": "Гравюра: две женщины в венках ведут сквозь толпу.",
+          "public_path": "/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.json",
+      "metadata_sha256": "6ece3f883315cfc5c8a276e3fd61a32c2f5f1b50d58c639a8ed363e4762e1acf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Две юные девушки",
       "translation_model": "gpt-6-luna"
     },
     {
