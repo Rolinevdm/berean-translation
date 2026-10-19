@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0f07c426d45446578f8b309f5bc03390",
   "campaign": "auto-bd37aed8325a08940755216e4c7594173c37f30c591e81365c785cf8735d8128",
   "created_at": "2026-10-18T23:50:46+00:00",
   "events": [
@@ -48,130 +47,31 @@
         },
         "total_tokens": 17999
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 61,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 29,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10932,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10929,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10993
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html: avsnittene om landgangen, avstanden til Emmaus og returen til Jerusalem",
-      "severity": "major",
-      "source_quote": "a 50-mile stretch of beach; about threescore furlongs or approximately seven miles; Seven miles from Jerusalem",
-      "suggested_fix": "Bruk «en omtrent 80 kilometer lang strandstrekning», «<em>omtrent seksti stadier</em> eller omtrent sju engelske mil» og «Sju engelske mil fra Jerusalem». Behold de eksisterende HTML-elementene.",
-      "translation_quote": "en 50-mils strekning av strand; <em>omtrent tre mil</em> eller omtrent sju engelske mil; Syv mil fra Jerusalem"
-    },
-    {
-      "location": "translation.html: første avsnitt, den tyske hærens nederlag",
-      "severity": "major",
-      "source_quote": "seemed to sap the life from the notorious German army, from which they never recovered",
-      "suggested_fix": "Erstatt den aktuelle delen med «syntes å tappe den beryktede tyske hæren for livskraft, noe den aldri kom seg etter».",
-      "translation_quote": "syntes å tappe det beryktede tyske militæret for liv — et militærvesen de aldri kom seg fra"
-    },
-    {
-      "location": "translation.html: avsnittet som begynner «Denne agoni»",
-      "severity": "major",
-      "source_quote": "the dark night of the soul has become a permanent resident within",
-      "suggested_fix": "Erstatt «en permanent beboer i innlandet» med «en permanent beboer i ens indre».",
-      "translation_quote": "sjelens mørke natt har blitt en permanent beboer i innlandet"
-    },
-    {
-      "location": "translation.html: avsnittet før «…Andres uvitenhet»",
-      "severity": "major",
-      "source_quote": "our sincere erroneous efforts",
-      "suggested_fix": "Erstatt «vår alvorlige feiltakelse» med «våre oppriktige, men feilaktige bestrebelser».",
-      "translation_quote": "vår alvorlige feiltakelse"
-    },
-    {
-      "location": "translation.html: «…Personlig agenda», sitatet fra 2 Kongebok 5:11",
-      "severity": "major",
-      "source_quote": "call on the name of the LORD his God ... and recover the leper",
-      "suggested_fix": "Erstatt «roper på navnet til HERRENs Gud» med «påkaller HERRENS, sin Guds, navn» og «gjør lepraen frisk» med «helbreder den spedalske».",
-      "translation_quote": "roper på navnet til HERRENs Gud ... og gjør lepraen frisk"
-    },
-    {
-      "location": "translation.html: avsnittet om Abraham som venter",
-      "severity": "major",
-      "source_quote": "As Abraham waited on God to receive his offering, he continued to beat back the birds of prey.",
-      "suggested_fix": "Erstatt setningen med «Mens Abraham ventet på at Gud skulle ta imot offeret hans, fortsatte han å jage bort rovfuglene.»",
-      "translation_quote": "Mens Abraham ventet på Gud for å motta sitt offer, holdt han seg fortsatt unna rovfuglene."
-    },
-    {
-      "location": "translation.html: «…Utålmodighet», Josef-avsnittet",
-      "severity": "major",
-      "source_quote": "the ill treatment of his brothers and Potiphar",
-      "suggested_fix": "Erstatt «fra sine brødre og Potifars hustru» med «fra sine brødre og Potifar».",
-      "translation_quote": "de dårlige behandlingene fra sine brødre og Potifars hustru"
-    },
-    {
-      "location": "translation.html: «…Selvmedlidenhet», Lukas 24:22-23",
-      "severity": "major",
-      "source_quote": "certain women also of our company made us astonished, which were early at the sepulchre",
-      "suggested_fix": "Erstatt åpningen med «Ja, og noen kvinner blant oss gjorde oss forbløffet; de hadde vært tidlig ved graven». Behold resten av sitatet og referansen.",
-      "translation_quote": "Ja, og noen kvinner blant oss kom tidlig til graven"
-    },
-    {
-      "location": "translation.html: «…Følelser av nederlag», Lukas 7:19",
-      "severity": "major",
-      "source_quote": "And John calling unto him two of his disciples sent them to Jesus",
-      "suggested_fix": "Erstatt åpningen med «Og Johannes kalte til seg to av sine disipler og sendte dem til Jesus».",
-      "translation_quote": "Og Johannes, som ropte til ham, sendte to av sine disipler til Jesus"
-    },
-    {
-      "location": "translation.html: konklusjonen, avsnittet om Kleopas",
-      "severity": "major",
-      "source_quote": "The scales fall from our eyes ... the brightness of the noonday light of the presence of God",
-      "suggested_fix": "Erstatt den aktuelle setningen med «Skjellene faller fra øynene våre, og sjelens mørke natt viker for det strålende middagslyset i Guds nærvær.»",
-      "translation_quote": "Skjærene faller fra våre øyne ... høstens klare midt på dagens lys i Guds nærvær"
-    },
-    {
-      "location": "translation.html: diktet, linje 3–4",
-      "severity": "major",
-      "source_quote": "Thine eye diffused a quickening ray,\nI woke; the dungeon flamed with light.",
-      "suggested_fix": "Erstatt linjene med «Ditt øye sendte ut en livgivende stråle,<br>\n    Jeg våknet; fangehullet flammet av lys.» Behold diktets øvrige struktur.",
-      "translation_quote": "Ditt øye sendte en livgivende ånd,<br>\n    Jeg våknet; fangen lyste av lys."
-    },
-    {
-      "location": "translation.html: første avsnitt, ordlisten med D",
-      "severity": "minor",
-      "source_quote": "so many words with a negative connotation begin with the letter D: Disappointment, Doubt",
-      "suggested_fix": "Presiser «så mange engelske ord med negativ klang begynner med bokstaven D», og oppgi de engelske ordene sammen med norske oversettelser, for eksempel «Disappointment (skuffelse), Doubt (tvil)», gjennom hele listen.",
-      "translation_quote": "så mange ord med negativ klang begynner med bokstaven D: skuffelse, tvil"
-    },
-    {
-      "location": "translation.html: avsnittet som begynner «Mens vi alle» og avsnittet om New York",
-      "severity": "minor",
-      "source_quote": "a brief search into the lives; the impending gloom; the coffers of his understanding",
-      "suggested_fix": "Bruk henholdsvis «et kort innblikk i livet», «det truende mørket» og «kisten med hans forståelse».",
-      "translation_quote": "et kort dykker i livet; den truende mørket; kiste hans av forståelse"
-    },
-    {
-      "location": "translation.html: «…Andres uvitenhet», Moses-avsnittet",
-      "severity": "minor",
-      "source_quote": "The heartfelt disdain ... I am not able to bear all this people alone",
-      "suggested_fix": "Bruk «Den dyptfølte forakten» i stedet for «Den hjertelige forakten», og gjengi sitatets åpning som «Jeg klarer ikke å bære hele dette folket alene».",
-      "translation_quote": "Den hjertelige forakten ... Jeg er ikke herre nok over dette folket alene"
-    },
-    {
-      "location": "translation.html: «…Fornuft», 1 Mosebok 28:20-21 og 32:24-28",
-      "severity": "minor",
-      "source_quote": "Jacob vowed a vow; he touched the hollow of his thigh",
-      "suggested_fix": "Bruk «Jakob avla et løfte» og «rørte han ved hofteskålen hans».",
-      "translation_quote": "Jakob la sitt løfte; stakk han hånden på hofteskålen hans"
-    },
-    {
-      "location": "translation.html: «…Ulykke», Job 3:1-6",
-      "severity": "minor",
-      "source_quote": "a man child conceived; Let darkness and the shadow of death stain it",
-      "suggested_fix": "Bruk «Et guttebarn er unnfanget» og «La mørket og dødsskyggen formørke den».",
-      "translation_quote": "En mann er unnfanget; La mørket og dødsskyen skjære over den"
-    },
-    {
-      "location": "translation.html: «…Følelser av nederlag» og konklusjonen",
-      "severity": "minor",
-      "source_quote": "a meager diet; must be immersed in the fires of humility; such self-deception; the communion that follows; our joyous dash",
-      "suggested_fix": "Bruk «et magert kosthold», «må senkes ned i ydmykhetens ild», «slikt selvbedrag», «det fellesskapet som følger» og «løper vi med glede tilbake» i de respektive setningene.",
-      "translation_quote": "en magert kosthold; må vannes i ydmykhetens ild; slik selvbedrag; den fellesskap som følger; gjør vår gledelige løpe tilbake"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-19T07:43:09+00:00",
   "id": "1ba85893f7c6145f2b1ef263912df1e0",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "nob",
@@ -260,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 73,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -279,7 +179,7 @@
     "total_reserved_usd": 0.779849,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ceb52dc3bb5b5ab212a3930b445c8849f8521bc253df2cec9d019d90e889292e",
   "translation_model_actual": "gpt-6.1-sol"
