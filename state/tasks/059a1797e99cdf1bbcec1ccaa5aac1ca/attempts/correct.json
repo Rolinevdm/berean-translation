@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-19T16:02:25+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"3b86d0e0-ebd7-4521-92f4-5d7f8a89e901\\\">\\n  <p class=\\\"drop-cap\\\">Karibu mwaka 1550, katika dayosisi ya Bamberg, ilitokea kwamba wasichana wawili walijitoa kwa Kristo na kumpokea kwa imani, wakabatizwa kwa msingi wa imani yao, kulingana na fundisho la Kristo, na baada ya kuachana na dhambi wakatafuta kutembea katika maisha mapya pamoja na Kristo.</p>\\n  <p>Kwa sababu hiyo, wapinga-Kristo walitafuta kuwazuia wasichana hao wasitekeleze azimio hilo jema, na kuzima nia yao njema kadiri walivyoweza. Kwa hiyo, waliwatupa wanakondoo hao wawili wadogo gerezani, ambako waliwatesa kwa ukali mkubwa, na pia wakatafuta kwa njia nyingine zisizo za Kikristo kuwafanya waukane imani yao; lakini kwa kuwa walikuwa wamejengwa imara juu ya Kristo, waliendelea kuwa waaminifu na thabiti wakati wote wa jaribu hilo. (Wakol. 2:7; Ufu. 2:10.)</p>\\n  <figure>\\n    <img src=\\\"/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg\\\" alt=\\\"Mchoro wa wanawake wawili waliovaa mashada ya maua, wakiongozwa katikati ya umati wa watu.\\\">\\n  </figure>\\n  <p>Basi, wenye mamlaka, ambao kwa ujumla hufuata ushauri wa manabii wa uongo katika jambo hili, waliwahukumu wauawe; wasichana hao wakafurahi na hawakutetemeka. Walipopelekwa kuuawa, watesi wao, kwa nia ya kuwadhihaki na kuwakejeli, waliweka mashada ya mabua vichwani mwao; ndipo mmoja akamwambia mwenzake, “Kwa kuwa Bwana Kristo alivaa taji ya miiba kwa ajili yetu, kwa nini sisi tusivae taji hizi za mabua kwa heshima yake? Mungu mwaminifu atatuvikisha taji zuri la dhahabu na shada tukufu vichwani mwetu kwa ajili ya jambo hili.” Hivyo, matawi haya mawili machanga yalijizatiti kwa uvumilivu, kwa kufuata mfano wa Kiongozi wao Yesu, yakabaki waaminifu hadi kufa, yakafa yakiwa thabiti, na kwa neema yakapata taji tukufu pamoja na Mungu mbinguni.</p>\\n  <p>Wapinzani wa msichana huyo walisema kwamba walikufa bila woga na kwa uthabiti kabisa, na kwamba walikuwa na msingi na nguzo ya kweli ya imani ya Kikristo katika Mkombozi wao Kristo Yesu, ambaye walimkiri waziwazi na kumwita walipokuwa katika dhiki yao, na wakafa humo wakiwa thabiti na wenye tumaini imara.</p>\\n  <p>Namna walivyokufa iliwavutia sana wauaji wao hivi kwamba baadaye walianza kutilia shaka kama wao wenyewe hawakuwa katika kosa kubwa zaidi mbele za Mungu kuliko wasichana hao, ingawa wasichana hao walikuwa Wanabaptisti.</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Wasichana Wawili Wadogo\"}",
+    "content_bytes": 2456,
+    "content_evidence_truncated": false,
+    "content_sha256": "cc9b9b2427dacbb6f4f7070432616a6572727efa57bcfb4ccb7d414700880c63",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1111,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 317,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2524,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2521,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3635
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}
