@@ -1,0 +1,115 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "e844b556-f3c1-4df9-9ac3-e1c29ee8e5d4",
+    "response_id": "chatcmpl-EaUwZfziB4SY0hKRMaT25kxDZQd7W",
+    "usage": {
+      "completion_tokens": 1549,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 98,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11386,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11383,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12935
+    }
+  },
+  "received_at": "2026-10-19T01:10:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, Scripture quotation from 1 Mosebok 3:16–19",
+        "severity": "major",
+        "source_quote": "In the sweat of thy face shalt thou eat bread",
+        "suggested_fix": "Ersätt ”på din panna skall du äta ditt bröd” med ”I ditt anletes svett skall du äta ditt bröd”.",
+        "translation_quote": "på din panna skall du äta ditt bröd"
+      },
+      {
+        "location": "translation.html, Scripture quotation from Jeremia 20:14–18",
+        "severity": "major",
+        "source_quote": "the cities which the LORD overthrew, and repented not",
+        "suggested_fix": "Ersätt ”de städer som HERREN jämnade och som inte ångrade sig” med ”de städer som HERREN ödelade utan att ångra sig”. Det är Herren, inte städerna, som inte ångrade sig.",
+        "translation_quote": "de städer som HERREN jämnade och som inte ångrade sig"
+      },
+      {
+        "location": "translation.html, paragraph about genetic makeup and personality",
+        "severity": "major",
+        "source_quote": "If God created us in such a way that we tend towards being moody instead of being naturally upbeat",
+        "suggested_fix": "Ersätt ”naturligt lättsinniga” med ”naturligt gladlynta”. ”Lättsinnig” betecknar bristande allvar eller ansvar, inte ett positivt grundhumör.",
+        "translation_quote": "Om Gud skapade oss så att vi tenderar att vara melankoliska istället för naturligt lättsinniga"
+      },
+      {
+        "location": "translation.html, paragraph about guilt and assurance of salvation",
+        "severity": "major",
+        "source_quote": "Fixing the depression will help with the assurance of salvation issues that these people tend to deal with.",
+        "suggested_fix": "Ersätt ”hjälper med de försäkringsfrågor om frälsningen som dessa människor tenderar att brottas med” med ”hjälper dem med den osäkerhet om sin frälsning som de ofta brottas med”.",
+        "translation_quote": "Att behandla depressionen hjälper med de försäkringsfrågor om frälsningen som dessa människor tenderar att brottas med."
+      },
+      {
+        "location": "translation.html, Scripture quotation under ”Ta itu med synd”",
+        "severity": "major",
+        "source_quote": "pray one for another, that ye may be healed",
+        "suggested_fix": "Ersätt ”så blir ni botade” med ”för att ni ska bli botade”, så att syftet med bönen återges utan att göras till ett kategoriskt löfte om resultatet.",
+        "translation_quote": "bed för varandra, så blir ni botade"
+      },
+      {
+        "location": "translation.html, opening patient dialogue",
+        "severity": "minor",
+        "source_quote": "am low in some mineral or vitamin",
+        "suggested_fix": "Ersätt ”är låg i något mineral eller vitamin” med ”har brist på något mineral eller vitamin”.",
+        "translation_quote": "är låg i något mineral eller vitamin"
+      },
+      {
+        "location": "translation.html, Scripture quotation from 1 Mosebok 3:16–19",
+        "severity": "minor",
+        "source_quote": "I will greatly multiply thy sorrow and thy conception",
+        "suggested_fix": "Ändra ”din havandeskap” till ”ditt havandeskap”.",
+        "translation_quote": "Jag skall förmångdubbla din möda och din havandeskap"
+      },
+      {
+        "location": "translation.html, Scripture quotation from Rut 4:14–16",
+        "severity": "minor",
+        "source_quote": "a nourisher of thine old age",
+        "suggested_fix": "Ersätt ”en försörjare för dina ålderdomar” med ”en försörjare på din ålderdom”.",
+        "translation_quote": "en försörjare för dina ålderdomar"
+      },
+      {
+        "location": "translation.html, Scripture quotation from Jeremia 20:14–18",
+        "severity": "minor",
+        "source_quote": "Cursed be the man who brought tidings to my father, saying, A man child is born unto thee; making him very glad.",
+        "suggested_fix": "Ersätt denna mening med ”Förbannad vare den man som kom med bud till min far och sade: En son har fötts åt dig, och därmed gjorde honom mycket glad.”",
+        "translation_quote": "Förbannad vare den som gjorde min fader budskapet, genom att göra honom glad, som sade: En son har blivit född till dig."
+      },
+      {
+        "location": "translation.html, both references to James 5:16",
+        "severity": "minor",
+        "source_quote": "–James 5:16. (under both “Pray” and “Deal with Sin”)",
+        "suggested_fix": "Ändra ”Jakob 5:16” till det konventionella svenska boknamnet ”Jakobsbrevet 5:16” på båda ställena.",
+        "translation_quote": "– Jakob 5:16. (under både ”Be” och ”Ta itu med synd”)"
+      },
+      {
+        "location": "translation.html, Scripture quotation under ”Be”",
+        "severity": "minor",
+        "source_quote": "The effectual fervent prayer of a righteous man availeth much",
+        "suggested_fix": "Ersätt ”Den rättfärdiges innerliga bön verkar mycket verkningsfull” med ”En rättfärdig människas innerliga bön har stor kraft”.",
+        "translation_quote": "Den rättfärdiges innerliga bön verkar mycket verkningsfull"
+      },
+      {
+        "location": "translation.html, paragraph under ”Be”",
+        "severity": "minor",
+        "source_quote": "to hear themselves being prayed for",
+        "suggested_fix": "Ersätt ”att höra sig själv bli förbönad för” med ”att höra någon be för dem”.",
+        "translation_quote": "att höra sig själv bli förbönad för"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 87
+  }
+}
