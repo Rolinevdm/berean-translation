@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "85219e79ecc54eea8d25677c3dbc3a1c",
   "campaign": "auto-2931cb0acf50805f81164f07ab0f442514c526243abd5bec9c4dbe91cb483071",
   "created_at": "2026-10-19T07:06:15+00:00",
   "events": [
@@ -28,10 +27,52 @@
         },
         "total_tokens": 2185
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 988,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 665,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2539,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2536,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3527
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph 3, sentence 1",
+      "severity": "major",
+      "source_quote": "“the authorities … condemned them to death; at which they were joyful and undaunted.”",
+      "suggested_fix": "Clarify that the girls—not the authorities—were joyful and undaunted: “wenye mamlaka … waliwahukumu wauawe; wasichana hao wakafurahi na hawakutetemeka.”",
+      "translation_quote": "“wenye mamlaka … waliwahukumu wauawe; nao walifurahi na hawakutetemeka.”"
+    },
+    {
+      "location": "HTML, paragraph 3, quoted speech",
+      "severity": "major",
+      "source_quote": "“Since the Lord Christ wore a crown of thorns for us”",
+      "suggested_fix": "Replace “alituvika” with “alivaa”: “Kwa kuwa Bwana Kristo alivaa taji ya miiba kwa ajili yetu…”",
+      "translation_quote": "“Kwa kuwa Bwana Kristo alituvika taji ya miiba kwa ajili yetu”"
+    },
+    {
+      "location": "HTML, paragraph 3, quoted speech",
+      "severity": "minor",
+      "source_quote": "“these crowns of straw”",
+      "suggested_fix": "Use “mashada ya nyasi” or “mashada ya mabua” rather than “mashada ya majani makavu,” to retain the straw material.",
+      "translation_quote": "“taji hizi za majani makavu”"
+    }
+  ],
   "id": "059a1797e99cdf1bbcec1ccaa5aac1ca",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "swa",
@@ -120,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e5fd7827d2293d575cf08950e0f749a3c7325fa44b3afcf40ab82ac924c8262c.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +181,7 @@
     "total_reserved_usd": 0.08632,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
   "translation_model_actual": "gpt-6-luna"

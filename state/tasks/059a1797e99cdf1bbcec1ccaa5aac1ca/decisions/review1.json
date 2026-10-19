@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 3, sentence 1",
+      "severity": "major",
+      "source_quote": "“the authorities … condemned them to death; at which they were joyful and undaunted.”",
+      "suggested_fix": "Clarify that the girls—not the authorities—were joyful and undaunted: “wenye mamlaka … waliwahukumu wauawe; wasichana hao wakafurahi na hawakutetemeka.”",
+      "translation_quote": "“wenye mamlaka … waliwahukumu wauawe; nao walifurahi na hawakutetemeka.”"
+    },
+    {
+      "location": "HTML, paragraph 3, quoted speech",
+      "severity": "major",
+      "source_quote": "“Since the Lord Christ wore a crown of thorns for us”",
+      "suggested_fix": "Replace “alituvika” with “alivaa”: “Kwa kuwa Bwana Kristo alivaa taji ya miiba kwa ajili yetu…”",
+      "translation_quote": "“Kwa kuwa Bwana Kristo alituvika taji ya miiba kwa ajili yetu”"
+    },
+    {
+      "location": "HTML, paragraph 3, quoted speech",
+      "severity": "minor",
+      "source_quote": "“these crowns of straw”",
+      "suggested_fix": "Use “mashada ya nyasi” or “mashada ya mabua” rather than “mashada ya majani makavu,” to retain the straw material.",
+      "translation_quote": "“taji hizi za majani makavu”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
