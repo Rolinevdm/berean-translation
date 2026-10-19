@@ -16965,6 +16965,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
+      "html_sha256": "6ed6f8dfc2ac4a6e117d70d86cec4438e4d12f9b01d70ad667fde6b26d4e0a2f",
+      "human_reviewed": false,
+      "id": "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901",
+      "images": [
+        {
+          "alt": "Ein Stich, der zwei Frauen mit Kränzen zeigt, die durch eine Menschenmenge geführt werden.",
+          "public_path": "/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.json",
+      "metadata_sha256": "9e600e9c942da8b4d299a6f2d9a0224b1a580b2433de4a88752c05178142f845",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Zwei junge Mädchen",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
       "html_sha256": "c76dfdb92866553b01222b9282ce5b2bdb88dec2e2e4ece57a25d821e7e8ca00",
       "human_reviewed": false,
