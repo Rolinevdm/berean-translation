@@ -80701,6 +80701,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
+      "html_sha256": "2711ad16cd1ec752b2270ec10e702b945a7efa9fd760ad851d92ccc6f2ec665b",
+      "human_reviewed": false,
+      "id": "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901",
+      "images": [
+        {
+          "alt": "ایک کندہ کاری جس میں تاج نما حلقے پہنے دو عورتوں کو ہجوم کے درمیان سے لے جایا جا رہا ہے۔",
+          "public_path": "/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.json",
+      "metadata_sha256": "16acbcbd688c7a891e397e3b2d720a8e16cf1a094138745edef5b5126384e081",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
+      "status": "ready",
+      "subtitle": null,
+      "title": "دو نوجوان لڑکیاں",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
       "html_sha256": "85e62d0a6accf0d57555b1297d8516f7b39d237614e1fc93d095a7d8c55caa74",
       "human_reviewed": false,
