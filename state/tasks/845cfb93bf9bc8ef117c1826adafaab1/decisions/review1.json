@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 2",
+      "severity": "minor",
+      "source_quote": "the anti-Christians sought to hinder them",
+      "suggested_fix": "Erwäge „die Gegner des Christentums“ oder „die christenfeindlichen Gegner“, um die Bedeutung von „anti-Christians“ eindeutig wiederzugeben.",
+      "translation_quote": "Die Antichristen suchten sie"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0d4f2cdc-b38b-4e7a-9f2a-8eb00e816fc3",
+    "response_id": "chatcmpl-EaWIprt2FVpY8Wz4keUoxLTpuwzwF",
+    "usage": {
+      "completion_tokens": 619,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2426,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1323,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3045
+    }
+  },
+  "received_at": "2026-10-19T01:49:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 2",
+        "severity": "minor",
+        "source_quote": "the anti-Christians sought to hinder them",
+        "suggested_fix": "Erwäge „die Gegner des Christentums“ oder „die christenfeindlichen Gegner“, um die Bedeutung von „anti-Christians“ eindeutig wiederzugeben.",
+        "translation_quote": "Die Antichristen suchten sie"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
