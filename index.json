@@ -59785,6 +59785,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/53e8b534-1f5e-4d9d-b191-99707a404256.html",
+      "html_sha256": "71aa31b9e583327caddb31f0367789ca1e532b03917ebba98eab67f810031806",
+      "human_reviewed": false,
+      "id": "53e8b534-1f5e-4d9d-b191-99707a404256",
+      "images": [
+        {
+          "alt": "Um amplo vale desértico sob montanhas em camadas e nuvens",
+          "public_path": "/images/articles/53e8b534-1f5e-4d9d-b191-99707a404256-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/53e8b534-1f5e-4d9d-b191-99707a404256.json",
+      "metadata_sha256": "382767530980e6f3b58d43890e0c31b7483a9747743d137342a65eaea0e2e73e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ESTUDOS DE CARÁTER",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Moisés em Midiã",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
       "html_sha256": "bdca465b53a20684dc4983403a52abb05965d050bc9e0a551c33288088972407",
       "human_reviewed": false,
