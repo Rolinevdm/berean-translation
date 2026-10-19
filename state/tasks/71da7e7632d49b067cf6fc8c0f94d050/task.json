@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "465c6e701fe544deb5747a35d1e5acc5",
   "campaign": "auto-be1fa28b2682892b908866396ffbc6ac3e8f30d26478b4effc6e72e0a5f43a85",
   "created_at": "2026-10-19T07:44:11+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 3282
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 544,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2522,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1419,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3066
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "첫 번째 문단",
-      "severity": "major",
-      "source_quote": "“two young girls espoused and received Christ by faith”",
-      "suggested_fix": "그리스도께 자신을 서약하고 믿음으로 그리스도를 받아들였다고 옮겨, ‘espoused’의 의미도 반영해 주세요.",
-      "translation_quote": "“두 어린 소녀가 믿음으로 그리스도를 받아들이고”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-19T20:16:46+00:00",
   "id": "71da7e7632d49b067cf6fc8c0f94d050",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "kor",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.086334,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
   "translation_model_actual": "gpt-6-luna"

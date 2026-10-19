@@ -7,9 +7,32 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "71da7e7632d49b067cf6fc8c0f94d050"
+    },
+    {
+      "at": "2026-10-19T20:16:46+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "71da7e7632d49b067cf6fc8c0f94d050"
     }
   ],
   "language": "kor",
   "latest_task": "71da7e7632d49b067cf6fc8c0f94d050",
-  "published": null
+  "published": {
+    "html_path": "content/kor/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
+    "html_sha256": "04b41097182b95e828949295b0fc844879c56041c0bb41159876fa785c9ae4bf",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+    "metadata_path": "content/kor/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.json",
+    "metadata_sha256": "ca23961044e2544a98b2fdcb5044462c47297d4f2fe040a3f41267b9856e62d9",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ko\" dir=\"ltr\" role=\"note\">\n  <p>이 글은 OpenAI의 인공지능(모델: gpt-6-luna)으로 번역되었으며 아직 사람의 검토를 거치지 않았습니다. 영어 원문이 권위 있는 기준입니다. 의미가 불확실한 경우 영어 원문을 확인해 주십시오. <a href=\"/en/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901/\" data-source-article-id=\"3b86d0e0-ebd7-4521-92f4-5d7f8a89e901\" hreflang=\"en\">영어 원문</a></p>\n</aside>",
+    "published_at": "2026-10-19T20:16:46+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6-luna",
+    "source_revision": "e98ca89ea2fd756ca818cd2ed802c9ea4a1f5530",
+    "source_snapshot": "state/sources/517f7eda61a639680fb280f6e9be5280cc4b1431b52a927df09dcf2d5bde6700.json",
+    "task": "71da7e7632d49b067cf6fc8c0f94d050",
+    "translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59"
+  }
 }
