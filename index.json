@@ -983,6 +983,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
+      "html_sha256": "cec05279c152409e8aa4683ab366f26e2104fc839fd30c3fa1664a13398e4de2",
+      "human_reviewed": false,
+      "id": "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901",
+      "images": [
+        {
+          "alt": "’n Gravure van twee vroue met kranse op hulle koppe wat deur ’n skare gelei word.",
+          "public_path": "/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.json",
+      "metadata_sha256": "c7a2d7c5356a1fe77cfe8a2f9b5480a021998a18b3b659a967d7ffa9cd8e41b1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Twee jong meisies",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
       "html_sha256": "fe21a94f45c7576186bb157caa3d7a3b1af3a25981e98c9444866f60135880f2",
       "human_reviewed": false,
