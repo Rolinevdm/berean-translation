@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "html: parágrafos sobre Marcos 10:42-44, a autoridade nos negócios e o amor de Moisés pelo povo",
+      "severity": "major",
+      "source_quote": "his orientation was merely Gentile; using Gentile authority; exercise lordship (Gentile authority)",
+      "suggested_fix": "Substituir, respectivamente, por “sua orientação era meramente a dos gentios”, “usando a autoridade dos gentios” e “exercer senhorio (autoridade dos gentios)”.",
+      "translation_quote": "sua orientação era meramente gentil; usando autoridade gentil; exercer senhorio (autoridade gentil)"
+    },
+    {
+      "location": "html: parágrafo que cita Marcos 10:42-44",
+      "severity": "major",
+      "source_quote": "This may work for establishing pecking order in a hen house",
+      "suggested_fix": "Substituir “estabelecer pecking order num galinheiro” por “estabelecer uma hierarquia de dominância num galinheiro”.",
+      "translation_quote": "Isso pode funcionar para estabelecer pecking order num galinheiro"
+    },
+    {
+      "location": "html: citação de Salmos 25:9, sob “A provisão de Deus”",
+      "severity": "major",
+      "source_quote": "The meek will he guide in judgment: and the meek will he teach his way",
+      "suggested_fix": "Corrigir a citação para “Ele guiará os mansos em juízo e ensinará aos mansos o seu caminho”, mantendo a referência e a marcação existentes.",
+      "translation_quote": "Os mansos o guiará em juízo; e os mansos o ensinará o seu caminho"
+    },
+    {
+      "location": "html: parágrafos sobre as credenciais de Moisés, as orações e Marcos 10:43-44",
+      "severity": "minor",
+      "source_quote": "all his fine credentials; in grim mockery; shall be your minister",
+      "suggested_fix": "Corrigir “todos os seus bons credenciais” para “todas as suas boas credenciais”, “numa macabra escárnio” para “num escárnio macabro” e “vosso servitore” para “vosso servo”.",
+      "translation_quote": "todos os seus bons credenciais; numa macabra escárnio; será vosso servitore"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

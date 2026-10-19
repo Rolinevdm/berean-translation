@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "1168c915-1a94-49cb-b759-ed4a2af32695",
+    "response_id": "chatcmpl-EaWruwTJLqn3BigLtzAXXkqCVxixw",
+    "usage": {
+      "completion_tokens": 657,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 79,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8903,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7800,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9560
+    }
+  },
+  "received_at": "2026-10-19T01:55:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: parágrafos sobre Marcos 10:42-44, a autoridade nos negócios e o amor de Moisés pelo povo",
+        "severity": "major",
+        "source_quote": "his orientation was merely Gentile; using Gentile authority; exercise lordship (Gentile authority)",
+        "suggested_fix": "Substituir, respectivamente, por “sua orientação era meramente a dos gentios”, “usando a autoridade dos gentios” e “exercer senhorio (autoridade dos gentios)”.",
+        "translation_quote": "sua orientação era meramente gentil; usando autoridade gentil; exercer senhorio (autoridade gentil)"
+      },
+      {
+        "location": "html: parágrafo que cita Marcos 10:42-44",
+        "severity": "major",
+        "source_quote": "This may work for establishing pecking order in a hen house",
+        "suggested_fix": "Substituir “estabelecer pecking order num galinheiro” por “estabelecer uma hierarquia de dominância num galinheiro”.",
+        "translation_quote": "Isso pode funcionar para estabelecer pecking order num galinheiro"
+      },
+      {
+        "location": "html: citação de Salmos 25:9, sob “A provisão de Deus”",
+        "severity": "major",
+        "source_quote": "The meek will he guide in judgment: and the meek will he teach his way",
+        "suggested_fix": "Corrigir a citação para “Ele guiará os mansos em juízo e ensinará aos mansos o seu caminho”, mantendo a referência e a marcação existentes.",
+        "translation_quote": "Os mansos o guiará em juízo; e os mansos o ensinará o seu caminho"
+      },
+      {
+        "location": "html: parágrafos sobre as credenciais de Moisés, as orações e Marcos 10:43-44",
+        "severity": "minor",
+        "source_quote": "all his fine credentials; in grim mockery; shall be your minister",
+        "suggested_fix": "Corrigir “todos os seus bons credenciais” para “todas as suas boas credenciais”, “numa macabra escárnio” para “num escárnio macabro” e “vosso servitore” para “vosso servo”.",
+        "translation_quote": "todos os seus bons credenciais; numa macabra escárnio; será vosso servitore"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

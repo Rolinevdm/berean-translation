@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-19T01:55:34+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: parágrafos sobre Marcos 10:42-44, a autoridade nos negócios e o amor de Moisés pelo povo\",\n      \"severity\": \"major\",\n      \"source_quote\": \"his orientation was merely Gentile; using Gentile authority; exercise lordship (Gentile authority)\",\n      \"suggested_fix\": \"Substituir, respectivamente, por “sua orientação era meramente a dos gentios”, “usando a autoridade dos gentios” e “exercer senhorio (autoridade dos gentios)”.\",\n      \"translation_quote\": \"sua orientação era meramente gentil; usando autoridade gentil; exercer senhorio (autoridade gentil)\"\n    },\n    {\n      \"location\": \"html: parágrafo que cita Marcos 10:42-44\",\n      \"severity\": \"major\",\n      \"source_quote\": \"This may work for establishing pecking order in a hen house\",\n      \"suggested_fix\": \"Substituir “estabelecer pecking order num galinheiro” por “estabelecer uma hierarquia de dominância num galinheiro”.\",\n      \"translation_quote\": \"Isso pode funcionar para estabelecer pecking order num galinheiro\"\n    },\n    {\n      \"location\": \"html: citação de Salmos 25:9, sob “A provisão de Deus”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The meek will he guide in judgment: and the meek will he teach his way\",\n      \"suggested_fix\": \"Corrigir a citação para “Ele guiará os mansos em juízo e ensinará aos mansos o seu caminho”, mantendo a referência e a marcação existentes.\",\n      \"translation_quote\": \"Os mansos o guiará em juízo; e os mansos o ensinará o seu caminho\"\n    },\n    {\n      \"location\": \"html: parágrafos sobre as credenciais de Moisés, as orações e Marcos 10:43-44\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"all his fine credentials; in grim mockery; shall be your minister\",\n      \"suggested_fix\": \"Corrigir “todos os seus bons credenciais” para “todas as suas boas credenciais”, “numa macabra escárnio” para “num escárnio macabro” e “vosso servitore” para “vosso servo”.\",\n      \"translation_quote\": \"todos os seus bons credenciais; numa macabra escárnio; será vosso servitore\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 91\n}",
+    "content_bytes": 2195,
+    "content_evidence_truncated": false,
+    "content_sha256": "3856d5e702a54be5e6ddd7e94e7939d668d88fb8526190ea80e10778fb83730c",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 657,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 79,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8903,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7800,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9560
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

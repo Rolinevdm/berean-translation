@@ -5,11 +5,61 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8fd71ff7c38b4a23bd1fccf19b60e265",
   "campaign": "auto-41dacaa2a77dab2b41b0a1c105726e65832b9b69002867041817f1a5ffa903e9",
   "created_at": "2026-10-19T01:19:09+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 657,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 79,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8903,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7800,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9560
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: parágrafos sobre Marcos 10:42-44, a autoridade nos negócios e o amor de Moisés pelo povo",
+      "severity": "major",
+      "source_quote": "his orientation was merely Gentile; using Gentile authority; exercise lordship (Gentile authority)",
+      "suggested_fix": "Substituir, respectivamente, por “sua orientação era meramente a dos gentios”, “usando a autoridade dos gentios” e “exercer senhorio (autoridade dos gentios)”.",
+      "translation_quote": "sua orientação era meramente gentil; usando autoridade gentil; exercer senhorio (autoridade gentil)"
+    },
+    {
+      "location": "html: parágrafo que cita Marcos 10:42-44",
+      "severity": "major",
+      "source_quote": "This may work for establishing pecking order in a hen house",
+      "suggested_fix": "Substituir “estabelecer pecking order num galinheiro” por “estabelecer uma hierarquia de dominância num galinheiro”.",
+      "translation_quote": "Isso pode funcionar para estabelecer pecking order num galinheiro"
+    },
+    {
+      "location": "html: citação de Salmos 25:9, sob “A provisão de Deus”",
+      "severity": "major",
+      "source_quote": "The meek will he guide in judgment: and the meek will he teach his way",
+      "suggested_fix": "Corrigir a citação para “Ele guiará os mansos em juízo e ensinará aos mansos o seu caminho”, mantendo a referência e a marcação existentes.",
+      "translation_quote": "Os mansos o guiará em juízo; e os mansos o ensinará o seu caminho"
+    },
+    {
+      "location": "html: parágrafos sobre as credenciais de Moisés, as orações e Marcos 10:43-44",
+      "severity": "minor",
+      "source_quote": "all his fine credentials; in grim mockery; shall be your minister",
+      "suggested_fix": "Corrigir “todos os seus bons credenciais” para “todas as suas boas credenciais”, “numa macabra escárnio” para “num escárnio macabro” e “vosso servitore” para “vosso servo”.",
+      "translation_quote": "todos os seus bons credenciais; numa macabra escárnio; será vosso servitore"
+    }
+  ],
   "id": "24b99b7a1f9f68170ce1ea2b8447653d",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "por",
@@ -98,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/365d9282d87d4aa677224ff762d700ce731f7082e9ff05f45c1ca235035b1881.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +167,7 @@
     "total_reserved_usd": 0.765597,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
