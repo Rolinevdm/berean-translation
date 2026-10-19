@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d3fcf85ad8354486b7a734cf8bdb42ad",
   "campaign": "auto-09921120097042741dd5230b18ed42a26535de77dafaae2149d3f4a9e5a2f1d8",
   "created_at": "2026-10-18T23:05:02+00:00",
   "events": [
@@ -68,32 +67,31 @@
         },
         "total_tokens": 3701
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 823,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 785,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2559,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2556,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3382
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "آخری پیراگراف",
-      "severity": "major",
-      "source_quote": "even though the girls were Anabaptists.",
-      "suggested_fix": "حالانکہ لڑکیاں انابپتسمہ یافتہ تھیں۔",
-      "translation_quote": "حالانکہ لڑکیاں انابپتسمہ دینے والی تھیں۔"
-    },
-    {
-      "location": "چوتھا پیراگراف، مکالمہ",
-      "severity": "minor",
-      "source_quote": "a beautiful golden crown and glorious wreath upon our heads",
-      "suggested_fix": "ہمارے سروں پر ایک خوبصورت سونے کا تاج اور جلالی پھولوں کا حلقہ رکھے گا۔",
-      "translation_quote": "ہمارے سروں پر ایک خوبصورت سونے کا تاج اور جلالی گل دستہ رکھے گا۔"
-    },
-    {
-      "location": "تصویر کا alt متن",
-      "severity": "minor",
-      "source_quote": "An engraving of two women wearing wreaths being led through a crowd.",
-      "suggested_fix": "ایک کندہ کاری جس میں تاج نما حلقے پہنے دو عورتوں کو ہجوم کے درمیان سے لے جایا جا رہا ہے۔",
-      "translation_quote": "ایک کندہ کاری جس میں پھولوں کے تاج پہنے دو عورتوں کو ہجوم کے درمیان سے لے جایا جا رہا ہے۔"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-19T06:57:42+00:00",
   "id": "fded2275c68c9a137be69a657bb953ca",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "urd",
@@ -182,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +200,7 @@
     "total_reserved_usd": 0.08633,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
   "translation_model_actual": "gpt-6-luna"
