@@ -50181,6 +50181,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
+      "html_sha256": "45d46bcbf5df27f6642071a0680a0a43cb86d697a4699fd2495f082866ecd32e",
+      "human_reviewed": false,
+      "id": "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901",
+      "images": [
+        {
+          "alt": "Een gravure van twee vrouwen met kransen op hun hoofd die door een menigte worden geleid.",
+          "public_path": "/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.json",
+      "metadata_sha256": "a02f2f5156db1441525bca3616429fc4c34d672d1ce460dfea518316384cf48b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Twee jonge meisjes",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "77338827e880aebcd5fd55f275cc3005cee91e027b7783da06dcb728c7093a74",
       "human_reviewed": false,
