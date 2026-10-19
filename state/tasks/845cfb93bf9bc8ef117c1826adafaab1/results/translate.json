@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9ad688c9-c884-4ef0-91c2-c94c124dbaae",
+    "response_id": "chatcmpl-EaUvrlDpdHw1sxsYIQtuRCmGvZZOZ",
+    "usage": {
+      "completion_tokens": 684,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1388,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1385,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2072
+    }
+  },
+  "received_at": "2026-10-19T01:10:27+00:00",
+  "result": {
+    "html": "<article data-article-id=\"3b86d0e0-ebd7-4521-92f4-5d7f8a89e901\">\n  <p class=\"drop-cap\">Um das Jahr 1550 geschah es im Bistum Bamberg, dass zwei junge Mädchen Christus im Glauben annahmen und empfingen, aufgrund ihres Glaubens nach der Lehre Christi getauft wurden und, nachdem sie sich von der Sünde abgewandt hatten, danach trachteten, mit Christus in einem neuen Leben zu wandeln.</p>\n  <p>Aus diesem Grund suchten die Antichristen sie in diesem guten Entschluss zu hindern und ihre gute Absicht so weit wie möglich zu vereiteln. Daher warfen sie diese beiden jungen Lämmer ins Gefängnis, wo sie sie mit großer Härte folterten, und versuchten auch mit anderen unchristlichen Mitteln, sie zum Abfall zu bewegen. Doch da sie fest auf Christus gegründet waren, blieben sie während der gesamten Prüfung treu und standhaft. (Kol. 2:7; Offb. 2:10.)</p>\n  <figure>\n    <img src=\"/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg\" alt=\"Ein Stich, der zwei Frauen mit Kränzen zeigt, die durch eine Menschenmenge geführt werden.\">\n  </figure>\n  <p>Daraufhin verurteilten die Obrigkeiten, die sich hierin gewöhnlich nach dem Rat der falschen Propheten richten, sie zum Tode; darüber waren sie freudig und unerschrocken. Als man sie zur Hinrichtung führte, setzten ihre Verfolger ihnen zum Hohn und Spott Strohkronen auf die Häupter. Da sagte eine zur anderen: „Da der Herr Christus für uns eine Dornenkrone getragen hat, warum sollten wir nicht ihm zu Ehren diese Strohkronen tragen? Der treue Gott wird uns dafür eine schöne goldene Krone und einen herrlichen Kranz auf unser Haupt setzen.“ So wappneten sich diese beiden jungen Zweige mit Geduld nach dem Vorbild ihres Anführers Jesus, blieben bis in den Tod treu, starben standhaft und erlangten durch Gnade die herrliche Krone bei Gott im Himmel.</p>\n  <p>Die Widersacher der Mädchen bemerkten, dass sie völlig unerschrocken und standhaft starben und dass sie in ihrem Erlöser Christus Jesus, den sie offen bekannten und in ihrer Not anriefen, die wahre Grundlage und den wahren Grund des christlichen Glaubens hatten; in dieser Not starben sie standhaft und in fester Hoffnung.</p>\n  <p>Die Henker waren von der Art, wie sie starben, so beeindruckt, dass sie später zu zweifeln begannen, ob sie selbst vor Gott nicht in größerem Irrtum lebten als diese jungen Mädchen, obwohl die Mädchen Wiedertäuferinnen waren.</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Zwei junge Mädchen"
+  }
+}
