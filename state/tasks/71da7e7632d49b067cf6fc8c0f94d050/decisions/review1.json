@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "첫 번째 문단",
+      "severity": "major",
+      "source_quote": "“two young girls espoused and received Christ by faith”",
+      "suggested_fix": "그리스도께 자신을 서약하고 믿음으로 그리스도를 받아들였다고 옮겨, ‘espoused’의 의미도 반영해 주세요.",
+      "translation_quote": "“두 어린 소녀가 믿음으로 그리스도를 받아들이고”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

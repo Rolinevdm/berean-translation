@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "79ad9591-b535-4400-bb9f-28a251774571",
+    "response_id": "chatcmpl-EaiqF8MrBl7BwRFkyBn3bMcYUYsUK",
+    "usage": {
+      "completion_tokens": 631,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2511,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1408,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3142
+    }
+  },
+  "received_at": "2026-10-19T15:55:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "첫 번째 문단",
+        "severity": "major",
+        "source_quote": "“two young girls espoused and received Christ by faith”",
+        "suggested_fix": "그리스도께 자신을 서약하고 믿음으로 그리스도를 받아들였다고 옮겨, ‘espoused’의 의미도 반영해 주세요.",
+        "translation_quote": "“두 어린 소녀가 믿음으로 그리스도를 받아들이고”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
