@@ -1,0 +1,87 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "a8cc6e71-3669-48e1-a223-03e7dd0260a3",
+    "response_id": "chatcmpl-EacOdKuHbCNKWCtY9axZfThVtcAAR",
+    "usage": {
+      "completion_tokens": 1160,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 111,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8328,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8325,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9488
+    }
+  },
+  "received_at": "2026-10-19T07:51:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: 빚과 어부 생활을 묘사하는 문단",
+        "severity": "major",
+        "source_quote": "you should be able to keep the creditors at bay for another week",
+        "suggested_fix": "‘당신은 심부름꾼들에게서 한 주 동안은 빚을 막을 수 있을 것입니다’를 ‘또 한 주 동안은 채권자들의 독촉을 피할 수 있을 것입니다’로 바꾸십시오.",
+        "translation_quote": "당신은 심부름꾼들에게서 한 주 동안은 빚을 막을 수 있을 것입니다"
+      },
+      {
+        "location": "html: 마태복음 4:18-22 인용",
+        "severity": "major",
+        "source_quote": "Simon called Peter",
+        "suggested_fix": "‘시몬이라 하는 베드로’를 ‘베드로라 하는 시몬’으로 바꾸십시오.",
+        "translation_quote": "시몬이라 하는 베드로"
+      },
+      {
+        "location": "html: 로마서 7:18 인용의 두 번째 em 요소",
+        "severity": "major",
+        "source_quote": "for to will is present with me; but how to perform that which is good I find not",
+        "suggested_fix": "해당 em 요소의 내용을 ‘…원함은 내게 있으나 선한 것을 어떻게 행할지는 알지 못하노라 –로마서 7:18.’로 바꾸어, 선을 원하는 의지와 실행의 어려움 사이의 대조를 복원하십시오.",
+        "translation_quote": "…내게 행할 능력이 없음을 내가 곧 아노니니라 –로마서 7:18."
+      },
+      {
+        "location": "html: 숯불에 구운 생선을 먹는 베드로에게 하신 질문",
+        "severity": "major",
+        "source_quote": "Peter, do you love Me more than these?",
+        "suggested_fix": "‘베드로여, 이 사람들보다 나를 더 사랑하느냐?’를 ‘베드로여, 이것들보다 나를 더 사랑하느냐?’로 바꾸어 원문에 없는 ‘사람들’이라는 해석을 확정하지 마십시오.",
+        "translation_quote": "베드로여, 이 사람들보다 나를 더 사랑하느냐?"
+      },
+      {
+        "location": "html: 이웃 사랑과 섬김에 관한 명령들을 나열한 문단",
+        "severity": "major",
+        "source_quote": "Defer to your brother",
+        "suggested_fix": "‘형제를 존중하라’를 ‘형제에게 양보하라’로 바꾸십시오.",
+        "translation_quote": "형제를 존중하라"
+      },
+      {
+        "location": "html: 베드로의 삼 년 반과 부르심을 설명하는 문단",
+        "severity": "major",
+        "source_quote": "Peter walked with Jesus for three and a half years before he received this call from Jesus.",
+        "suggested_fix": "해당 문장을 ‘베드로는 예수님과 삼 년 반 동안 동행한 후에야 예수님으로부터 이 부르심을 받았습니다.’로 바꾸십시오.",
+        "translation_quote": "베드로는 예수님과 함께 삼 년 반을 걸었고 그때까지 예수님으로부터 이런 부르심을 받았습니다."
+      },
+      {
+        "location": "html: 메시아에 대한 기대를 설명하는 문단의 마지막 문장",
+        "severity": "minor",
+        "source_quote": "Little did they know that if they followed this Man, they would never be the same.",
+        "suggested_fix": "‘그들을 이 사람을 따르면’을 ‘그들이 이 사람을 따르면’으로 고치십시오.",
+        "translation_quote": "그들을 이 사람을 따르면 결코 이전과 같지 않을 것이라는 사실을 그들은 알지 못했습니다."
+      },
+      {
+        "location": "html: 베드로가 괴로움 속에서 대답하는 문단",
+        "severity": "minor",
+        "source_quote": "Lord, thou knowest all things; thou knowest that I love thee",
+        "suggested_fix": "‘주께서 나의 주를 사랑하는 것을 아시나이다’를 ‘주께서는 내가 주를 사랑하는 줄을 아시나이다’로 고치십시오.",
+        "translation_quote": "주여, 주께서 만물을 아시오니 주께서 나의 주를 사랑하는 것을 아시나이다."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 87
+  }
+}
