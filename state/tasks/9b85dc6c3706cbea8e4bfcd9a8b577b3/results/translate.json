@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "243e9073-3a87-43b2-af5c-064ac7b8c97f",
+    "response_id": "chatcmpl-EaosmcR7WBkEf8SNdtrlYKiOVObHo",
+    "usage": {
+      "completion_tokens": 787,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1388,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1385,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2175
+    }
+  },
+  "received_at": "2026-10-19T21:10:15+00:00",
+  "result": {
+    "html": "<article data-article-id=\"3b86d0e0-ebd7-4521-92f4-5d7f8a89e901\">\n  <p class=\"drop-cap\">Verso l’anno 1550, accadde nella diocesi di Bamberga che due giovani ragazze accolsero Cristo per fede e lo ricevettero, furono battezzate in virtù della loro fede, secondo la dottrina di Cristo e, risollevandosi dal peccato, cercarono di camminare con Cristo in novità di vita.</p>\n  <p>Per questo motivo gli anticristiani cercarono di ostacolarle in questa buona risoluzione e di spegnere la loro buona intenzione con ogni mezzo a loro disposizione. Gettarono quindi in prigione questi due giovani agnelli, dove li torturarono con grande crudeltà e cercarono anche, con altri mezzi contrari alla fede cristiana, di indurle ad apostatare; ma, essendo saldamente fondate su Cristo, rimasero fedeli e salde per tutta la prova. (Col. 2:7; Ap. 2:10.)</p>\n  <figure>\n    <img src=\"/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg\" alt=\"Incisione raffigurante due donne con corone di fiori condotte attraverso una folla.\">\n  </figure>\n  <p>Perciò le autorità, che in genere seguono in questo i consigli dei falsi profeti, le condannarono a morte; ed esse ne furono gioiose e impavide. Quando furono condotte al supplizio, i loro persecutori, per scherno e derisione, posero sul loro capo corone di paglia; allora una disse all’altra: «Poiché il Signore Cristo portò per noi una corona di spine, perché non dovremmo portare queste corone di paglia in suo onore? Per questo il Dio fedele porrà sul nostro capo una bella corona d’oro e una gloriosa ghirlanda». Così questi due giovani rami si armarono di pazienza, seguendo l’esempio del loro Capitano Gesù; rimasero fedeli fino alla morte, morirono salde e ottennero per grazia la gloriosa corona presso Dio in cielo.</p>\n  <p>Gli avversari delle ragazze osservarono che erano morte del tutto impavide e salde, e che avevano in Cristo Gesù, loro Redentore, il vero fondamento e la base della fede cristiana; lo avevano confessato apertamente e invocato nella loro angoscia, nella quale morirono salde e con ferma speranza.</p>\n  <p>I carnefici rimasero così colpiti dal modo in cui morirono che in seguito cominciarono a dubitare che, davanti a Dio, non fossero loro stessi in errore più grave di queste giovani ragazze, sebbene fossero anabattiste.</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Due giovani ragazze"
+  }
+}
