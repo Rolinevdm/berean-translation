@@ -7926,17 +7926,17 @@
     },
     "7b64c74b-c4d6-4a98-b95c-b34823831d64": {
       "fingerprints": {
-        "html_sha256": "2030e46721c34bff94180063e4388c83d8cdb73e82192b2551068dcc1ddc989d",
+        "html_sha256": "f05a665c91cc7e4e0e41b129df9af65822ba6156e0f77ab65e700d2dcfe211af",
         "metadata_sha256": "c25f88f91af2e105220c3db6a22044915168cff115d48e80afeb7243cdb4edb9",
-        "structure_sha256": "5b67e62d51af15ea8d9be16b8f0df9ccd18552ad085fae0ca0eda3d10095678a",
-        "text_sha256": "6862770e02e7d969df69fc135df96fca121b04d6b8082c299ef8442605fdb661",
+        "structure_sha256": "3357c17dfad4969e7514bd2b3999ab9f758ea1fcec2dc11acf7ecd63d3b59e84",
+        "text_sha256": "5c8b76d4f8c1c709f198a8b54ee0c6d6ee93b987944f9e08fee8879e1e182e01",
         "translation_metadata_sha256": "d1eee1284f928e6c7def0160501b5f572595742518068bda12312a0bd3ae1895"
       },
       "id": "7b64c74b-c4d6-4a98-b95c-b34823831d64",
       "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
       "sequence": 8,
       "title": "Contrasts, Contentions, and the Cloistered Life",
-      "translation_key": "06233ba20523cb7c313fe0fe38108bd7f131e5ba72234d09d746e397aeecd870"
+      "translation_key": "45d944f8f82e271921edf579b5df32e798f75bc51594b6f414b3ad2e6ac9455d"
     },
     "7b699913-16ec-4087-9e0c-ca867e750d90": {
       "fingerprints": {
@@ -16353,7 +16353,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "6c83a2ec4bb319a8d917521a1fbd51e14c55237cefa2e0287252bc45efbc45c5",
+  "content_sha256": "6fac81584eeee1c92236a90c66573149f1c2573e35ab01f09f2cf3b7d50a629d",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17769,5 +17769,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "77453848868ffdd6736c58e8c072c5ee12108fc7"
+  "revision": "e98ca89ea2fd756ca818cd2ed802c9ea4a1f5530"
 }
