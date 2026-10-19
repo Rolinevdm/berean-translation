@@ -46007,6 +46007,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
+      "html_sha256": "04b41097182b95e828949295b0fc844879c56041c0bb41159876fa785c9ae4bf",
+      "human_reviewed": false,
+      "id": "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901",
+      "images": [
+        {
+          "alt": "화관을 쓴 두 여인이 군중 사이로 끌려가는 모습을 새긴 판화.",
+          "public_path": "/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.json",
+      "metadata_sha256": "ca23961044e2544a98b2fdcb5044462c47297d4f2fe040a3f41267b9856e62d9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "e98ca89ea2fd756ca818cd2ed802c9ea4a1f5530",
+      "source_translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
+      "status": "ready",
+      "subtitle": null,
+      "title": "두 어린 소녀",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "ba83f14073172942ea645173088e790a0f115f9f2b1faf5d5513a968fdef7c36",
       "human_reviewed": false,
@@ -73275,6 +73303,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Nguvu za Mungu",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
+      "html_sha256": "82a7b1e2620ba8cf83e4454960125c89091d714058c8dbdea073e8d1bf2e6e09",
+      "human_reviewed": false,
+      "id": "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901",
+      "images": [
+        {
+          "alt": "Mchoro wa wanawake wawili waliovaa mashada ya maua, wakiongozwa katikati ya umati wa watu.",
+          "public_path": "/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.json",
+      "metadata_sha256": "6101e231dfb4bf1686ff05b628faf4406fb10b2ab4258a813f01a09fac3089f4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wasichana Wawili Wadogo",
       "translation_model": "gpt-6-luna"
     },
     {
