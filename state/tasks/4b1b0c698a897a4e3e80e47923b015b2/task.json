@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eb0f976b6c3f431e8e8fa4d6e53c33cb",
   "campaign": "auto-54dd13f409f3b4b9636dd98d4f89cc8c62a72d966f79255ee085d3ffbf288892",
   "created_at": "2026-10-19T23:47:46+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 432,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 129,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9143,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9140,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9575
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html — paragraphe sur les enfants, citation de Marc 10:13",
+      "severity": "major",
+      "source_quote": "And they [mothers] brought young children to him, that he [Jesus] should touch them",
+      "suggested_fix": "Remplacer le début de la citation par : « Et des mères lui amenèrent de petits enfants, afin qu’il [Jésus] les touchât » en conservant la balise <em> et la suite de la citation.",
+      "translation_quote": "Et l’on lui amena de petits enfants [des mères], afin qu’il [Jésus] les touchât"
+    },
+    {
+      "location": "translation.html — premier paragraphe sous « …Les moindres »",
+      "severity": "minor",
+      "source_quote": "a mansion for the martins",
+      "suggested_fix": "Remplacer « un manoir pour les hirondelles bicolores » par « un manoir pour les hirondelles noires », l’espèce nord-américaine appelée « martin » dans ce contexte.",
+      "translation_quote": "un manoir pour les hirondelles bicolores"
+    }
+  ],
   "id": "4b1b0c698a897a4e3e80e47923b015b2",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "fra",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/93ed770ac6443cd324b119408f92f9f45958377401e5d1b36dfc27a6abb048c0.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 0.768437,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "c5500d19d41437c39a18e69d5af38f6083ffe906cc007385203c47ff6f4d91f6",
   "translation_model_actual": "gpt-6-luna"

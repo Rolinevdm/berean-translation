@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — paragraphe sur les enfants, citation de Marc 10:13",
+      "severity": "major",
+      "source_quote": "And they [mothers] brought young children to him, that he [Jesus] should touch them",
+      "suggested_fix": "Remplacer le début de la citation par : « Et des mères lui amenèrent de petits enfants, afin qu’il [Jésus] les touchât » en conservant la balise <em> et la suite de la citation.",
+      "translation_quote": "Et l’on lui amena de petits enfants [des mères], afin qu’il [Jésus] les touchât"
+    },
+    {
+      "location": "translation.html — premier paragraphe sous « …Les moindres »",
+      "severity": "minor",
+      "source_quote": "a mansion for the martins",
+      "suggested_fix": "Remplacer « un manoir pour les hirondelles bicolores » par « un manoir pour les hirondelles noires », l’espèce nord-américaine appelée « martin » dans ce contexte.",
+      "translation_quote": "un manoir pour les hirondelles bicolores"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

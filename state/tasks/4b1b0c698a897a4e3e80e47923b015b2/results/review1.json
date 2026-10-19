@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "0c22f1fc-317e-4308-a624-888ccd80e8b4",
+    "response_id": "chatcmpl-EarQwc1HWoiNJNbHjEBCJ9GkGjLys",
+    "usage": {
+      "completion_tokens": 432,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 129,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9143,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9140,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9575
+    }
+  },
+  "received_at": "2026-10-19T23:54:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — paragraphe sur les enfants, citation de Marc 10:13",
+        "severity": "major",
+        "source_quote": "And they [mothers] brought young children to him, that he [Jesus] should touch them",
+        "suggested_fix": "Remplacer le début de la citation par : « Et des mères lui amenèrent de petits enfants, afin qu’il [Jésus] les touchât » en conservant la balise <em> et la suite de la citation.",
+        "translation_quote": "Et l’on lui amena de petits enfants [des mères], afin qu’il [Jésus] les touchât"
+      },
+      {
+        "location": "translation.html — premier paragraphe sous « …Les moindres »",
+        "severity": "minor",
+        "source_quote": "a mansion for the martins",
+        "suggested_fix": "Remplacer « un manoir pour les hirondelles bicolores » par « un manoir pour les hirondelles noires », l’espèce nord-américaine appelée « martin » dans ce contexte.",
+        "translation_quote": "un manoir pour les hirondelles bicolores"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
