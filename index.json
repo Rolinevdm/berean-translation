@@ -19679,6 +19679,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.html",
+      "html_sha256": "51041565158affa18d24bd4a6f420aa7dc805c362c58abdaf62712d8e29fcfcb",
+      "human_reviewed": false,
+      "id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
+      "images": [
+        {
+          "alt": "Notenblatt zu All Hail the Power of Jesus’ Name, Melodie DIADEM C. M. mit Refrain",
+          "public_path": "/images/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd-1.png"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.json",
+      "metadata_sha256": "48318d81216ec9dbf484f3a366b9596a9a19f255e92ae8275a7324d81bcf8031",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Eine Hymnengeschichte",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Gepriesen sei die Macht des Namens Jesu",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/f21c4f39-9508-4f75-9e0c-0c68468c41f8.html",
       "html_sha256": "d7ff5d97ced8c69a05dd6e7c4f8b063b1ad881d3cdeaca03f9b04d4b73b3eda4",
       "human_reviewed": false,
