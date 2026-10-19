@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-19T06:57:45+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"3b86d0e0-ebd7-4521-92f4-5d7f8a89e901\\\">\\n  <p class=\\\"drop-cap\\\">Omstreeks het jaar 1550 gebeurde het in het bisdom Bamberg dat twee jonge meisjes Christus door het geloof aannamen en omhelsden, op grond van hun geloof werden gedoopt overeenkomstig de leer van Christus en, nadat zij zich van de zonde hadden afgekeerd, met Christus in nieuwheid des levens trachtten te wandelen.</p>\\n  <p>Daarom probeerden de antichristenen hen in dit goede voornemen te hinderen en hun goede intentie zo veel mogelijk te dwarsbomen. Daarom wierpen zij deze twee jonge lammeren in de gevangenis, waar zij hen met grote wreedheid folterden, en probeerden zij ook met andere onchristelijke middelen hen tot afval te brengen. Maar omdat zij stevig op Christus gebouwd waren, bleven zij tijdens de gehele beproeving trouw en standvastig. (Kol. 2:7; Openb. 2:10.)</p>\\n  <figure>\\n    <img src=\\\"/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg\\\" alt=\\\"Een gravure van twee vrouwen met kransen op hun hoofd die door een menigte worden geleid.\\\">\\n  </figure>\\n  <p>Daarom veroordeelden de autoriteiten, die hierin doorgaans het advies van de valse profeten volgen, hen ter dood; daarover waren zij verheugd en niet bevreesd. Toen zij naar de executie werden geleid, legden hun vervolgers hun uit hoon en spot kransen van stro op het hoofd. Daarop zei de een tegen de ander: „Aangezien de Heer Christus voor ons een doornenkroon droeg, waarom zouden wij deze strootjeskronen dan niet dragen ter ere van Hem? De getrouwe God zal ons hiervoor een prachtige gouden kroon en een glorieuze krans op het hoofd plaatsen.” Zo wapenden deze twee jonge loten zich met geduld, naar het voorbeeld van hun Leidsman Jezus, bleven zij trouw tot in de dood, stierven zij standvastig en verkregen zij door genade de glorieuze kroon bij God in de hemel.</p>\\n  <p>De tegenstanders van de meisjes merkten op dat zij geheel onbevreesd en standvastig stierven, en dat zij in hun Verlosser Christus Jezus de ware grondslag en basis van het christelijk geloof hadden, die zij openlijk beleden en in hun nood aanriepen, waarin zij standvastig stierven met een vast vertrouwen.</p>\\n  <p>De beulen waren zo onder de indruk van de manier waarop zij stierven, dat zij naderhand begonnen te twijfelen of zijzelf voor God niet meer dwaalden dan deze jonge meisjes, ook al waren de meisjes wederdopers.</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Twee jonge meisjes\"}",
+    "content_bytes": 2482,
+    "content_evidence_truncated": false,
+    "content_sha256": "d5c47482f1f71e71ef8694768850f572f917555760faa0f447a520c077661941",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 677,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1388,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1385,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2065
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
