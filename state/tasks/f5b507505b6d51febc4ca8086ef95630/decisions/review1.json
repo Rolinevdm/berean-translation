@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "“two women wearing wreaths being led through a crowd”",
+      "suggested_fix": "Гравюра: две женщины в венках, которых ведут сквозь толпу.",
+      "translation_quote": "“две женщины в венках ведут сквозь толпу”"
+    },
+    {
+      "location": "Paragraph 4",
+      "severity": "minor",
+      "source_quote": "“they had the true foundation and ground of the Christian faith in their Redeemer Christ Jesus”",
+      "suggested_fix": "«в их Искупителе Христе Иисусе было истинное основание христианской веры»",
+      "translation_quote": "“в их Искупителе Христе Иисусе у них были истинное основание и опора христианской веры”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

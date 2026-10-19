@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f6bf033d-fa67-43fd-a8b7-ca44135a9008",
+    "response_id": "chatcmpl-EaWHPPcTmqr1ioBO3q3cqu7LGA4Ek",
+    "usage": {
+      "completion_tokens": 885,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 680,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2430,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2427,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3315
+    }
+  },
+  "received_at": "2026-10-19T01:18:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Image alt text",
+        "severity": "minor",
+        "source_quote": "“two women wearing wreaths being led through a crowd”",
+        "suggested_fix": "Гравюра: две женщины в венках, которых ведут сквозь толпу.",
+        "translation_quote": "“две женщины в венках ведут сквозь толпу”"
+      },
+      {
+        "location": "Paragraph 4",
+        "severity": "minor",
+        "source_quote": "“they had the true foundation and ground of the Christian faith in their Redeemer Christ Jesus”",
+        "suggested_fix": "«в их Искупителе Христе Иисусе было истинное основание христианской веры»",
+        "translation_quote": "“в их Искупителе Христе Иисусе у них были истинное основание и опора христианской веры”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

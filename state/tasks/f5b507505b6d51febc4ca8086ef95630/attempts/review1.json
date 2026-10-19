@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-19T01:18:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Image alt text\",\"severity\":\"minor\",\"source_quote\":\"“two women wearing wreaths being led through a crowd”\",\"suggested_fix\":\"Гравюра: две женщины в венках, которых ведут сквозь толпу.\",\"translation_quote\":\"“две женщины в венках ведут сквозь толпу”\"},{\"location\":\"Paragraph 4\",\"severity\":\"minor\",\"source_quote\":\"“they had the true foundation and ground of the Christian faith in their Redeemer Christ Jesus”\",\"suggested_fix\":\"«в их Искупителе Христе Иисусе было истинное основание христианской веры»\",\"translation_quote\":\"“в их Искупителе Христе Иисусе у них были истинное основание и опора христианской веры”\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 918,
+    "content_evidence_truncated": false,
+    "content_sha256": "9540a4c2754e169b6471817dcb81bc6a90d9c0e8a282ca284cdbdb4fcac448d2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 885,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 680,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2430,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2427,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3315
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
