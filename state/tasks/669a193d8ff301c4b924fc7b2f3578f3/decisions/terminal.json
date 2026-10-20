@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Ik waardeerde vooral…”",
+      "severity": "minor",
+      "source_quote": "the little church of Scotland at Broadford",
+      "suggested_fix": "... en het kleine kerkje van de Kerk van Schotland in Broadford verkondigt nog steeds trouw Gods heilsplan ...",
+      "translation_quote": "het kleine Kerk van Schotland-kerkje in Broadford"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

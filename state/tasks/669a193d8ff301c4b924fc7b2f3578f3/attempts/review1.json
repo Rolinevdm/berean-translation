@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-20T23:51:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Ik waardeerde vooral…”\",\"severity\":\"minor\",\"source_quote\":\"the little church of Scotland at Broadford\",\"suggested_fix\":\"... en het kleine kerkje van de Kerk van Schotland in Broadford verkondigt nog steeds trouw Gods heilsplan ...\",\"translation_quote\":\"het kleine Kerk van Schotland-kerkje in Broadford\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 415,
+    "content_evidence_truncated": false,
+    "content_sha256": "c9364f33adf9b97d2d6470f01662108388d121f121871e93d5207e32f85c0a8c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 718,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 603,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3987,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3984,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4705
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

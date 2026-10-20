@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1508e3d404474c16bb096961ad2f835b",
   "campaign": "auto-21a684ca4a230063a059851fd78be9eafd5d05ee5bfb2d48bee1802da5fe8f1d",
   "created_at": "2026-10-20T20:32:09+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 3682
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 718,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 603,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3987,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3984,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4705
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Ik waardeerde vooral…”",
+      "severity": "minor",
+      "source_quote": "the little church of Scotland at Broadford",
+      "suggested_fix": "... en het kleine kerkje van de Kerk van Schotland in Broadford verkondigt nog steeds trouw Gods heilsplan ...",
+      "translation_quote": "het kleine Kerk van Schotland-kerkje in Broadford"
+    }
+  ],
+  "finished_at": "2026-10-20T23:51:25+00:00",
   "id": "669a193d8ff301c4b924fc7b2f3578f3",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "nld",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3693df14313d787d83419a40947805931d85c8c79a2ea3d26820e34d7f25ec8.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.087165,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
   "translation_model_actual": "gpt-6-luna"
