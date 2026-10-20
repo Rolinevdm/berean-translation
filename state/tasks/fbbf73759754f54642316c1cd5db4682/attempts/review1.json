@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-20T11:32:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html: einleitendes Bibelzitat, blockquote > p > em\",\"severity\":\"minor\",\"source_quote\":\"And we know that all things work together for good to ... them that love God\",\"suggested_fix\":\"Im bestehenden Zitat „daß“ durch „dass“, „GOtt“ durch „Gott“ und „zum besten“ durch „zum Besten“ ersetzen; HTML-Struktur und Versangabe unverändert lassen.\",\"translation_quote\":\"Wir wissen aber, daß denen, die GOtt lieben, alle Dinge<br> zum besten dienen\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 556,
+    "content_evidence_truncated": false,
+    "content_sha256": "7d6db9385643cb92b2da58807f3535e25fb076efc7f9bf09dc424fddc7223dd6",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 248,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 99,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3161,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3158,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3409
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
