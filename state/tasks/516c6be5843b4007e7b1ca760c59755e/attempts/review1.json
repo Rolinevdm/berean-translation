@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-20T16:52:30+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First paragraph\",\"severity\":\"minor\",\"source_quote\":\"“a free flow of edification, inspiration and burden from us to you, and you to us”\",\"suggested_fix\":\"Replace “encorajamento” in this list with wording that conveys the sense of sharing burdens, such as “partilha de preocupações”, while preserving the sentence structure.\",\"translation_quote\":\"“um fluxo livre de edificação, inspiração e encorajamento de nós para vocês, e de vocês para nós”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 548,
+    "content_evidence_truncated": false,
+    "content_sha256": "8e7c89f2a0d871cba0c3263a8146d2384dcdd39711b67426022571ced932d6bc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 775,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 636,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3917,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3914,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4692
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
