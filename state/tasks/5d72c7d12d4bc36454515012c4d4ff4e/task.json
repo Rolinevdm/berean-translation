@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eebd832d7de44dabb3d63380a3556e3c",
   "campaign": "auto-4d206c5dd397d23b287d12b232d855c9c99ccaec0a0f2f671947582ac1abf9a0",
   "created_at": "2026-10-20T11:34:01+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 10881
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 61,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 29,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7421,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7418,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7482
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[11]: source /article[1]/p[3] ('end', 'p'); translation /article[1]/p[3]/em[1] ('start', 'em', ())",
-      "translation_quote": ""
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-20T23:51:22+00:00",
   "id": "5d72c7d12d4bc36454515012c4d4ff4e",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "cmn",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/8d0d6b00d883a8daabdd983c5aeac54342fe275a7360d6a202f3dce69351c4cc.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.578777,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0e0d3461779cb69fe2b7abdcf38f790945684497a7280f617caa1679f055a962",
   "translation_model_actual": "gpt-6.1-sol"
