@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5024e682-1673-41f9-a4ef-56b5d9cd5213",
+    "response_id": "chatcmpl-Eb8q1MfHoZOwH0OlKEyVRJtwmCPvY",
+    "usage": {
+      "completion_tokens": 991,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 841,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4115,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4112
+      },
+      "total_tokens": 5106
+    }
+  },
+  "received_at": "2026-10-20T20:31:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, Virginia letter; quotation from Revelation 18:4",
+        "severity": "major",
+        "source_quote": "“Come out of her my people, that you receive not of her plagues”",
+        "suggested_fix": "Replace the quotation with «Выйди от неё, народ Мой, чтобы не подвергнуться язвам её», preserving only the meaning printed in the source.",
+        "translation_quote": "«Выйди от неё, народ Мой, чтобы не участвовать вам в грехах её и не подвергнуться язвам её»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
