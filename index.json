@@ -18287,6 +18287,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
+      "html_sha256": "553596172bfca4ef87f67c0c598804c5e9a95df1eabfdaa9a26d282a1971618f",
+      "human_reviewed": false,
+      "id": "88345a38-6c33-495a-8407-f0fda29b67e0",
+      "images": [
+        {
+          "alt": "Ein Briefkasten auf einem Pfosten, um den herum Blumen wachsen.",
+          "public_path": "/images/articles/88345a38-6c33-495a-8407-f0fda29b67e0-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/88345a38-6c33-495a-8407-f0fda29b67e0.json",
+      "metadata_sha256": "44ba9e7b9c757999aaa70cff4e99d9b5c839f1477aa1f57d6ba1c44634122184",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "2ad7118fd859d76d9417cff527235dae66d0ed30",
+      "source_translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kostbare Briefe unserer Leser",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "0c41370e2d352fa27fd68f0a8ad0367ddabd6d1d4969c3989579def37a0877e7",
       "human_reviewed": false,
@@ -82409,6 +82437,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "وہ بدصورت سفید جیبی چاقو",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
+      "html_sha256": "da7a3f47549c46300b7d4daa8a8b5b2c284adf0e6587126879a257e0ca62ba33",
+      "human_reviewed": false,
+      "id": "88345a38-6c33-495a-8407-f0fda29b67e0",
+      "images": [
+        {
+          "alt": "ایک کھمبے پر لگا ہوا ڈاک کا ڈبہ، جس کے اردگرد پھول اُگے ہوئے ہیں۔",
+          "public_path": "/images/articles/88345a38-6c33-495a-8407-f0fda29b67e0-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/88345a38-6c33-495a-8407-f0fda29b67e0.json",
+      "metadata_sha256": "3201634f1eaf462a82b05e1b49763f54dcf71f1b68713fe6a45b0c563a97c691",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "2ad7118fd859d76d9417cff527235dae66d0ed30",
+      "source_translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ہمارے قارئین کے قیمتی خطوط",
       "translation_model": "gpt-6-luna"
     },
     {
