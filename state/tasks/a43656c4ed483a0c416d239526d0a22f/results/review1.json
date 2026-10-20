@@ -1,0 +1,129 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "f6a779ee-b866-4554-9315-34278bd93166",
+    "response_id": "chatcmpl-EarvqHDWqxTVUIeYCiGVDYbq8BkSx",
+    "usage": {
+      "completion_tokens": 2386,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 127,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5415,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5412,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7801
+    }
+  },
+  "received_at": "2026-10-20T00:24:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, নীতিবচন 21:1-এর উদ্ধৃতি",
+        "severity": "major",
+        "source_quote": "The king’s heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will",
+        "suggested_fix": "একই <em> ট্যাগের মধ্যে লিখুন: “রাজার হৃদয় সদাপ্রভুর হাতে জলস্রোতের মতো; তিনি যেদিকে ইচ্ছা তা ফিরিয়ে দেন –নীতিবচন 21:1।”",
+        "translation_quote": "রাজার অন্ত্য: করুণাময় রবের হাতে; সে নদীর জলের মতো তাকে যেখানে ইচ্ছে ফিরিয়ে দেয়।"
+      },
+      {
+        "location": "translation.html, দানিয়েল 4:31-32-এর উদ্ধৃতি",
+        "severity": "major",
+        "source_quote": "…That the most High ruleth in the kingdom of men, and giveth it to whomsoever he will",
+        "suggested_fix": "উদ্ধৃতিটি সংশোধন করুন: “…যে পরাৎপর মানুষের রাজ্যে কর্তৃত্ব করেন এবং যাকে ইচ্ছা সেই রাজ্য দান করেন –দানিয়েল 4:31-32।”",
+        "translation_quote": "…যতদূর সর্বোচ্চ ব্যক্তি মানুষের রাজ্য শাসন করে, এবং যাকে ইচ্ছে তাকে সে দান করে"
+      },
+      {
+        "location": "translation.html, ইব্রীয় 11:13-16-এর উদ্ধৃতি",
+        "severity": "major",
+        "source_quote": "…strangers and pilgrims on the earth. [While we] …declare plainly that [we] seek a country …a better country, that is, an heavenly: wherefore God is not ashamed to be called [our] God: for he hath prepared for [us] a city",
+        "suggested_fix": "একই <em> ট্যাগে লিখুন: “…পৃথিবীতে বিদেশি ও প্রবাসী হিসেবে। [আমরা] …স্পষ্টভাবে ঘোষণা করি যে [আমরা] একটি দেশ খুঁজছি …একটি উত্তম দেশ, অর্থাৎ স্বর্গীয় দেশ; তাই ঈশ্বর [আমাদের] ঈশ্বর বলে অভিহিত হতে লজ্জিত নন, কারণ তিনি [আমাদের] জন্য একটি নগর প্রস্তুত করেছেন –ইব্রীয় 11:13-16।”",
+        "translation_quote": "…পৃথিবীতে ভ্রমণকারী অচেনা ও অতিথি জ্ঞানের মত; [তারা] স্পষ্টভাবে ঘোষণা করে যে তারা একটি দেশ খোঁজে … এজন্য ঈশ্বর লজ্জা পান না [তাদের] ঈশ্বর নামে ডাকতে"
+      },
+      {
+        "location": "translation.html, দুই-রাজ্য নীতি সম্পর্কে অনুচ্ছেদের শেষ বাক্য",
+        "severity": "major",
+        "source_quote": "New Testament believers should obey the command",
+        "suggested_fix": "“নবনীতির বিশ্বাসীরা” বদলে “নতুন নিয়মের বিশ্বাসীরা” লিখুন।",
+        "translation_quote": "নবনীতির বিশ্বাসীরা আজ্ঞা পালন করুন"
+      },
+      {
+        "location": "translation.html, সরকারের সঙ্গে সম্পর্ক এবং সময়ের সমাপ্তি সম্পর্কে অনুচ্ছেদের শেষ বাক্য",
+        "severity": "major",
+        "source_quote": "God will do this through hardening the hearts of ungodly men in positions of power, just like Pharaoh of old, to accomplish His sovereign will for the world.",
+        "suggested_fix": "বাক্যটি সংশোধন করুন: “জগতের জন্য তাঁর সার্বভৌম ইচ্ছা পূরণ করতে ঈশ্বর প্রাচীনকালের ফরৌণের মতো ক্ষমতাসীন অধার্মিক ব্যক্তিদের হৃদয় কঠিন করার মাধ্যমে এটি করবেন।”",
+        "translation_quote": "ঈশ্বর পবিত্ররূপে অশুভ পুরুষদের হৃদয় শক্ত করে দেবে যারা ক্ষমতাসীন অবস্থানে আছে—প্রাচীন ফরাসীর মত—তাঁর সার্বভৌম ইচ্ছা সাধনের জন্য।"
+      },
+      {
+        "location": "translation.html, 1 তিমথিয়ু 2:1-2-এর উদ্ধৃতি",
+        "severity": "major",
+        "source_quote": "supplications, prayers, intercessions, and giving of thanks, be made for all men; For kings",
+        "suggested_fix": "সংশ্লিষ্ট অংশটি করুন: “সমস্ত মানুষের জন্য বিনতি, প্রার্থনা, মধ্যস্থ প্রার্থনা ও ধন্যবাদ জ্ঞাপন করা হোক; রাজাদের জন্য”।",
+        "translation_quote": "সমস্ত মানুষের জন্য ভিক্তি প্রার্থনা, আরাধনা, মধ্যস্থতা এবং কৃতজ্ঞতা প্রকাশ করা হোক; শাসকগণের জন্য"
+      },
+      {
+        "location": "translation.html, ব্যক্তিগত প্রার্থনার শক্তি সম্পর্কে বাক্য",
+        "severity": "major",
+        "source_quote": "The Christian’s secret power of influence lies in the power of prayer that is produced in the privacy of his or her closet.",
+        "suggested_fix": "বাক্যটি করুন: “খ্রিষ্টানের প্রভাব বিস্তারের গোপন শক্তি নিহিত রয়েছে তাঁর নির্জন কক্ষে একান্তে করা প্রার্থনার শক্তিতে।”",
+        "translation_quote": "খ্রিষ্টানের গোপ্য প্রভাবের শক্তি হল প্রার্থনার শক্তি যা তাঁর বা তাঁর বেডরুমের ছোট্ট আলমারির গোপনে উত্পন্ন হয়।"
+      },
+      {
+        "location": "translation.html, মোশে ও যোনার জীবন সম্পর্কে অনুচ্ছেদ",
+        "severity": "minor",
+        "source_quote": "As we take a look at the life of Jonah",
+        "suggested_fix": "“ইউনার” বদলে প্রচলিত বাংলা নাম “যোনার” লিখুন।",
+        "translation_quote": "আমরা যখন ইউনার জীবনের দিকে তাকাই"
+      },
+      {
+        "location": "translation.html, নতুন বিভাগগুলির পরিচিতি",
+        "severity": "minor",
+        "source_quote": "One on Church History ... And one on Hymn Histories",
+        "suggested_fix": "“চার্চ হিস্ট্রি সম্পর্কিত” বদলে “মণ্ডলীর ইতিহাস নিয়ে” এবং “হাইম ইতিহাস সম্পর্কিত” বদলে “স্তোত্রগানের ইতিহাস নিয়ে” লিখুন। “দুটি তরুণ ভ্রাতার” সংশোধন করে “দুজন তরুণ ভ্রাতার” করুন।",
+        "translation_quote": "একটি চার্চ হিস্ট্রি সম্পর্কিত, যা আমাদের চার্চের দুটি তরুণ ভ্রাতার দ্বারা লেখা হচ্ছে। এবং একটি হাইম ইতিহাস সম্পর্কিত"
+      },
+      {
+        "location": "translation.html, মধ্যবর্তী নির্বাচন সম্পর্কে অনুচ্ছেদ",
+        "severity": "minor",
+        "source_quote": "is approaching mid-term elections in November of this year",
+        "suggested_fix": "“এই বছরের নভেম্বর ماهে মধ্য-মেয়াদি নির্বাচনের (mid-term elections) দিক ঘনিয়ে আসা” বদলে “এই বছরের নভেম্বর মাসে মধ্যবর্তী নির্বাচন ঘনিয়ে আসা” লিখুন।",
+        "translation_quote": "এই বছরের নভেম্বর ماهে মধ্য-মেয়াদি নির্বাচনের (mid-term elections) দিক ঘনিয়ে আসা"
+      },
+      {
+        "location": "translation.html, রোমীয় 13:1-4-এর আগে এবং উদ্ধৃতির শেষাংশ",
+        "severity": "minor",
+        "source_quote": "when He through the Apostle Paul tells us to ... For he is the minister of God to thee",
+        "suggested_fix": "“যখন তিনিাপস্টল পল-এর মাধ্যমে” বদলে “যখন তিনি প্রেরিত পৌলের মাধ্যমে” এবং “কারণ সে তোমার প্রতি ঈশ্বরের মন্ত্রী” বদলে “কারণ তিনি তোমার জন্য ঈশ্বরের সেবক” লিখুন।",
+        "translation_quote": "যখন তিনিাপস্টল পল-এর মাধ্যমে ... কারণ সে তোমার প্রতি ঈশ্বরের মন্ত্রী"
+      },
+      {
+        "location": "translation.html, মথি 17:20-এর উদ্ধৃতি ও উল্লেখ",
+        "severity": "minor",
+        "source_quote": "If ye have faith as a grain of mustard seed ... –Matthew 17:20.",
+        "suggested_fix": "“যদি তোমাদের দানার মতো সরিষার বীজের বিশ্বাস থাকে” বদলে “যদি তোমাদের একটি সরিষাদানার মতো বিশ্বাস থাকে” এবং “মতিউ 17:20” বদলে “মথি 17:20” লিখুন।",
+        "translation_quote": "যদি তোমাদের দানার মতো সরিষার বীজের বিশ্বাস থাকে ... – মতিউ 17:20।"
+      },
+      {
+        "location": "translation.html, মোশে ও যোনার জীবন সম্পর্কে অনুচ্ছেদের ভাষা",
+        "severity": "minor",
+        "source_quote": "a wrong turn or a misstep ... rooted and grounded in the biblical Truth",
+        "suggested_fix": "“কোনো ভুল মোড় নি বা কোনো পদক্ষেপে উপচকে পড়ি” বদলে “ভুল পথে যাই বা ভুল পদক্ষেপ নিই” এবং “বাইবেলগত সত্যে মূলবান ও স্থির হতে” বদলে “বাইবেলের সত্যে শিকড় গেড়ে সুপ্রতিষ্ঠিত হতে” লিখুন।",
+        "translation_quote": "কোনো ভুল মোড় নি বা কোনো পদক্ষেপে উপচকে পড়ি ... বাইবেলগত সত্যে মূলবান ও স্থির হতে"
+      },
+      {
+        "location": "translation.title, translation.section এবং translation.html-এর h3",
+        "severity": "minor",
+        "source_quote": "From the Editor; FROM THE EDITOR; Church History and Should A Christian Vote",
+        "suggested_fix": "শিরোনাম ও বিভাগে “সম্পাদকের পক্ষ থেকে” লিখুন। h3-এর পাঠ করুন “মণ্ডলীর ইতিহাস এবং একজন খ্রিষ্টানের কি ভোট দেওয়া উচিত”।",
+        "translation_quote": "সম্পাদক থেকে; সম্পাদক থেকে; চার্চ ইতিহাস এবং কি একজন খ্রিষ্টানকে ভোট দেওয়া উচিত"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 68
+  }
+}
