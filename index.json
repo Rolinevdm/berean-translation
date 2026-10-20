@@ -15679,6 +15679,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/c6596509-ad91-49b6-a55b-d850c3b72c14.html",
+      "html_sha256": "ee907ae92d39ec344c3cd70f1e8bfd28e499e3d8df821f7ec351060c1e1487bb",
+      "human_reviewed": false,
+      "id": "c6596509-ad91-49b6-a55b-d850c3b72c14",
+      "images": [
+        {
+          "alt": "一朵玫瑰的特写。",
+          "public_path": "/images/articles/c6596509-ad91-49b6-a55b-d850c3b72c14-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/c6596509-ad91-49b6-a55b-d850c3b72c14.json",
+      "metadata_sha256": "656a0ac9e97ab1a128a9ba187439e87dbe019cfc94bc864291a198fb2bb56a5b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "0e0d3461779cb69fe2b7abdcf38f790945684497a7280f617caa1679f055a962",
+      "status": "ready",
+      "subtitle": null,
+      "title": "我们如何为年轻女孩预备未来？",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/ca5d0d5f-aedd-4e20-ab52-6a31c34a8873.html",
       "html_sha256": "22dbf18670917a6bfa78b349d097db0a2f60d6b92963d12b3ba0800e00c0189f",
       "human_reviewed": false,
@@ -51883,6 +51911,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Dat lelijke, witte zakmes",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
+      "html_sha256": "b8bdb5a42604550f4ea8a529ea00bcf4029698357dae0614ff5117a1f542b098",
+      "human_reviewed": false,
+      "id": "88345a38-6c33-495a-8407-f0fda29b67e0",
+      "images": [
+        {
+          "alt": "Een brievenbus op een paal, met bloemen eromheen.",
+          "public_path": "/images/articles/88345a38-6c33-495a-8407-f0fda29b67e0-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/88345a38-6c33-495a-8407-f0fda29b67e0.json",
+      "metadata_sha256": "47bea66fb61c0b4ab23459db72d2a45aafded376aaaf876b33cef0266d19add1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "2ad7118fd859d76d9417cff527235dae66d0ed30",
+      "source_translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Waardevolle brieven van onze lezers",
       "translation_model": "gpt-6-luna"
     },
     {
