@@ -29473,6 +29473,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
+      "html_sha256": "52b7107aa1f72cc26fa268d56ab06b798040d568aa85771e221356d9d56a299d",
+      "human_reviewed": false,
+      "id": "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901",
+      "images": [
+        {
+          "alt": "תחריט של שתי נשים עטורות זרים, המובלות דרך קהל.",
+          "public_path": "/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.json",
+      "metadata_sha256": "01eb236887fc9170677e55dbc8ab553779e1af1084f9d104b3751692a4f49f39",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "918709aaa14615100c469d3545de047031baed9d",
+      "source_translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
+      "status": "ready",
+      "subtitle": null,
+      "title": "שתי נערות צעירות",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
       "html_sha256": "ab2cb7a3323548d93032fccefbc4fdb68cf11564c150d6e00f608ac6f4c71bc6",
       "human_reviewed": false,
