@@ -11,7 +11,7 @@
     "continuation_repeated_findings_requires_attention": 1,
     "eligible_automatic": 1017,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
-    "pending_automatic_admission": 44,
+    "pending_automatic_admission": 45,
     "provider_refusal_requires_owner_attention": 3,
     "repeated_technical_failure_requires_attention": 1,
     "technical_failure_requires_attention": 19
@@ -11593,6 +11593,15 @@
       "reason": "eligible_automatic"
     },
     {
+      "admission_status": "pending",
+      "article_id": "88345a38-6c33-495a-8407-f0fda29b67e0",
+      "language": "por",
+      "latest_task": null,
+      "processing_status": "queued",
+      "reason": "pending_automatic_admission",
+      "request_id": "auto-bf60f3d65781c6bf4f7e60453be5961414994987d927a1f2500a3910c9549a5a"
+    },
+    {
       "admission_status": "attention",
       "article_id": "8cbcdd10-5627-42b1-b948-ee7f93c1d648",
       "language": "por",
@@ -15933,6 +15942,6 @@
     }
   ],
   "settled_unused_usd": 224.78532,
-  "source_revision": "918709aaa14615100c469d3545de047031baed9d",
+  "source_revision": "2ad7118fd859d76d9417cff527235dae66d0ed30",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
 }
