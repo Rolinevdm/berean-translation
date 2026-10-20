@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "59d6685fa82d4df68083a5bbcb5a7af6",
   "campaign": "auto-1056d4bc2dde8951b77be173850b176bc7fcb6d1f122eb92296708fc3082880a",
   "created_at": "2026-10-20T11:33:20+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 6231
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 544,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4318,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4315,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4862
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “I especially appreciated…”",
-      "severity": "major",
-      "source_quote": "Though we are Scottish and English, our home church is a small Mennonite fellowship in New York.",
-      "suggested_fix": "اگرچہ ہم اسکاٹش اور انگریز ہیں، لیکن نیویارک میں ہماری اپنی کلیسیا ایک چھوٹی سی مینونائٹ رفاقت ہے۔",
-      "translation_quote": "اگرچہ ہم اسکاٹش اور انگریز ہیں، لیکن ہمارا آبائی گرجا نیویارک میں ایک چھوٹی سی مینونائٹ رفاقت ہے۔"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-20T20:31:23+00:00",
   "id": "132ff91967186cd090082c8d788eb5e3",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "urd",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.08717,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
   "translation_model_actual": "gpt-6-luna"
