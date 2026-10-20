@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-20T02:17:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html — citation de Luc 12:7\",\"severity\":\"minor\",\"source_quote\":\"But even the very hairs of your head are all numbered.\",\"suggested_fix\":\"Mais les cheveux mêmes de votre tête sont tous comptés.\",\"translation_quote\":\"Mais les cheveux même de votre tête sont tous comptés.\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 369,
+    "content_evidence_truncated": false,
+    "content_sha256": "4cc13035d01415fb7585c169021145d0d051e65aeda37cd3dcd410af3cbf7591",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 151,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 54,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9161,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9158,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9312
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

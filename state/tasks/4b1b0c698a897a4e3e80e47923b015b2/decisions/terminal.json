@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — citation de Luc 12:7",
+      "severity": "minor",
+      "source_quote": "But even the very hairs of your head are all numbered.",
+      "suggested_fix": "Mais les cheveux mêmes de votre tête sont tous comptés.",
+      "translation_quote": "Mais les cheveux même de votre tête sont tous comptés."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
