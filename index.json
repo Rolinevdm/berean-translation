@@ -38374,6 +38374,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
+      "html_sha256": "e5c662908447d05dabecd82360a93b906f86308c78edd7af6e6606b4bbe7daf7",
+      "human_reviewed": false,
+      "id": "88345a38-6c33-495a-8407-f0fda29b67e0",
+      "images": [
+        {
+          "alt": "Sebuah kotak surat di atas tiang, dengan bunga-bunga yang tumbuh di sekelilingnya.",
+          "public_path": "/images/articles/88345a38-6c33-495a-8407-f0fda29b67e0-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/88345a38-6c33-495a-8407-f0fda29b67e0.json",
+      "metadata_sha256": "7c9c3bb08ed23edbf8bf0edac9cc371e4f825487834f68ce338005fad7bb84fd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "2ad7118fd859d76d9417cff527235dae66d0ed30",
+      "source_translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Surat-Surat Berharga dari Para Pembaca Kami",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "882c7e691d890a3f9c89c8b7ed513efb55de47b911faa45eb9d19bbb6b29ab9c",
       "human_reviewed": false,
@@ -61058,6 +61086,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Aquele horrível canivete branco",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
+      "html_sha256": "fd032f039a8bc2dd88fa38b3d95a41abc6563445d2ff271b3a960ac7a31821fa",
+      "human_reviewed": false,
+      "id": "88345a38-6c33-495a-8407-f0fda29b67e0",
+      "images": [
+        {
+          "alt": "Uma caixa de correio num poste, com flores a crescer à sua volta.",
+          "public_path": "/images/articles/88345a38-6c33-495a-8407-f0fda29b67e0-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/88345a38-6c33-495a-8407-f0fda29b67e0.json",
+      "metadata_sha256": "8fe913c605ce713858758d94cd45bcc6f30d928a569f12b23f523ea57d3db136",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "2ad7118fd859d76d9417cff527235dae66d0ed30",
+      "source_translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Cartas preciosas dos nossos leitores",
       "translation_model": "gpt-6-luna"
     },
     {
