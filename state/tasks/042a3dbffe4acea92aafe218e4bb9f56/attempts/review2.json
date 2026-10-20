@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-20T23:59:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, first list item\",\"severity\":\"minor\",\"source_quote\":\"A meaningful lesson in family devotions\",\"suggested_fix\":\"Полезный урок из семейного богослужения\",\"translation_quote\":\"Полезный урок из семейного чтения\"},{\"location\":\"HTML, opening paragraph\",\"severity\":\"minor\",\"source_quote\":\"a free flow of edification, inspiration and burden from us to you, and you to us\",\"suggested_fix\":\"свободно делиться назиданием, вдохновением и духовным бременем — и от нас к вам, и от вас к нам\",\"translation_quote\":\"между нами и вами свободно передавались назидание, вдохновение и забота — и от нас к вам, и от вас к нам\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 912,
+    "content_evidence_truncated": false,
+    "content_sha256": "0740f7fd6d3219b3f5c3e9be8f0a0968d2be4263bb90e6caf2d689b3099b4995",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 891,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 695,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4105,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3002,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4996
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

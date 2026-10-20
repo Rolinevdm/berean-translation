@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "299b18c1-bd7d-4cd4-bd23-ec55e3aa20b6",
+    "response_id": "chatcmpl-EbDzKSIgmcmW3GSsZcXNcOfesgBaf",
+    "usage": {
+      "completion_tokens": 891,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 695,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4105,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3002,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4996
+    }
+  },
+  "received_at": "2026-10-20T23:59:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, first list item",
+        "severity": "minor",
+        "source_quote": "A meaningful lesson in family devotions",
+        "suggested_fix": "Полезный урок из семейного богослужения",
+        "translation_quote": "Полезный урок из семейного чтения"
+      },
+      {
+        "location": "HTML, opening paragraph",
+        "severity": "minor",
+        "source_quote": "a free flow of edification, inspiration and burden from us to you, and you to us",
+        "suggested_fix": "свободно делиться назиданием, вдохновением и духовным бременем — и от нас к вам, и от вас к нам",
+        "translation_quote": "между нами и вами свободно передавались назидание, вдохновение и забота — и от нас к вам, и от вас к нам"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
