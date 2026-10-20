@@ -55171,6 +55171,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
+      "html_sha256": "4e1677da1bb4f12f37f7c5ed4de73b16b4af1ed6085274dc3970825a12c9363e",
+      "human_reviewed": false,
+      "id": "3b86d0e0-ebd7-4521-92f4-5d7f8a89e901",
+      "images": [
+        {
+          "alt": "Et stikk av to kvinner med kranser som føres gjennom en folkemengde.",
+          "public_path": "/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.json",
+      "metadata_sha256": "aaac7c016f00382882f2e355397561c6f20bb2da8ba786f9911a55d7bcde59f7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "918709aaa14615100c469d3545de047031baed9d",
+      "source_translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
+      "status": "ready",
+      "subtitle": null,
+      "title": "To unge jenter",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
       "html_sha256": "8b6390aad005534c270efe0d3f03d7c71a394633f8f976b41ea5b7c47b0c6c85",
       "human_reviewed": false,
