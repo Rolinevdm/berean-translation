@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cfe78d3a-8335-4644-b857-cbda0ae3aeb0",
+    "response_id": "chatcmpl-EaxEGVfw8H3QOy9LcX8C9OllSrFld",
+    "usage": {
+      "completion_tokens": 994,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 280,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2359,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2356,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3353
+    }
+  },
+  "received_at": "2026-10-20T06:04:57+00:00",
+  "result": {
+    "html": "<article data-article-id=\"3b86d0e0-ebd7-4521-92f4-5d7f8a89e901\">\n  <p class=\"drop-cap\">Omkring år 1550 hendte det i bispedømmet Bamberg at to unge jenter trolovet seg med Kristus og tok imot ham ved tro, ble døpt på grunnlag av sin tro, i samsvar med Kristi lære, og etter å ha vendt seg bort fra synden søkte å vandre i et nytt liv med Kristus.</p>\n  <p>Derfor forsøkte antikristne å hindre dem i denne gode beslutningen og å slokke deres gode hensikt så langt de maktet. De kastet derfor disse to unge lammene i fengsel, der de torturerte dem med stor grusomhet, og forsøkte også med andre ukristelige midler å få dem til å falle fra; men fordi de var fast grunnfestet i Kristus, forble de trofaste og standhaftige gjennom hele prøvelsen. (Kol 2:7; Åp 2:10.)</p>\n  <figure>\n    <img src=\"/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg\" alt=\"Et stikk av to kvinner med kranser som føres gjennom en folkemengde.\">\n  </figure>\n  <p>Myndighetene, som i slike saker som regel følger de falske profetenes råd, dømte dem derfor til døden; og de gledet seg og var uforferdet. Da de ble ført ut for å henrettes, satte forfølgerne deres, for å håne og spotte dem, stråkranser på hodene deres. Da sa den ene til den andre: «Siden Herren Kristus bar en tornekrone for oss, hvorfor skulle ikke vi bære disse stråkransene til hans ære? Den trofaste Gud skal for dette sette en vakker gullkrone og en herlig krans på hodene våre.» Slik væpnet disse to unge skuddene seg med tålmodighet, etter sin fører Jesu eksempel, forble trofaste til døden, døde standhaftig og fikk ved nåde den herlige kronen hos Gud i himmelen.</p>\n  <p>Jentenes motstandere bemerket at de døde helt uforferdet og standhaftig, og at de hadde det sanne grunnlaget og den sanne grunnvollen for den kristne tro i sin frelser Kristus Jesus, som de bekjente åpent og påkalte i sin nød, og at de døde standhaftig med et fast håp.</p>\n  <p>Bøddelene ble så grepet av måten de døde på at de senere begynte å tvile på om ikke de selv tok større feil overfor Gud enn disse unge jentene, selv om jentene var gjendøpere.</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "To unge jenter"
+  }
+}
