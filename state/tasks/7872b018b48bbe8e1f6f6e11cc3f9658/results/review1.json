@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b349e436-57f8-4d21-bb2f-58f5c6b596d0",
+    "response_id": "chatcmpl-Eatg6BkHyjApCiJFsymR9FMSX9J0R",
+    "usage": {
+      "completion_tokens": 748,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2455,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2452,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3203
+    }
+  },
+  "received_at": "2026-10-20T02:17:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, first paragraph",
+        "severity": "major",
+        "source_quote": "two young girls espoused and received Christ by faith",
+        "suggested_fix": "to unge jenter trolovet seg med Kristus og tok imot ham ved tro",
+        "translation_quote": "to unge jenter tok imot Kristus ved tro"
+      },
+      {
+        "location": "HTML, image alt text",
+        "severity": "minor",
+        "source_quote": "An engraving of two women",
+        "suggested_fix": "Et stikk av to kvinner",
+        "translation_quote": "Et kobberstikk av to kvinner"
+      },
+      {
+        "location": "HTML, third paragraph, quoted speech",
+        "severity": "minor",
+        "source_quote": "The faithful God shall for this place a beautiful golden crown and glorious wreath upon our heads.",
+        "suggested_fix": "Den trofaste Gud skal som lønn for dette sette en vakker gullkrone og en herlig krans på hodene våre.",
+        "translation_quote": "Den trofaste Gud skal derfor sette en vakker gullkrone og en herlig krans på hodene våre."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

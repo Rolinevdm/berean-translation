@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, first paragraph",
+      "severity": "major",
+      "source_quote": "two young girls espoused and received Christ by faith",
+      "suggested_fix": "to unge jenter trolovet seg med Kristus og tok imot ham ved tro",
+      "translation_quote": "to unge jenter tok imot Kristus ved tro"
+    },
+    {
+      "location": "HTML, image alt text",
+      "severity": "minor",
+      "source_quote": "An engraving of two women",
+      "suggested_fix": "Et stikk av to kvinner",
+      "translation_quote": "Et kobberstikk av to kvinner"
+    },
+    {
+      "location": "HTML, third paragraph, quoted speech",
+      "severity": "minor",
+      "source_quote": "The faithful God shall for this place a beautiful golden crown and glorious wreath upon our heads.",
+      "suggested_fix": "Den trofaste Gud skal som lønn for dette sette en vakker gullkrone og en herlig krans på hodene våre.",
+      "translation_quote": "Den trofaste Gud skal derfor sette en vakker gullkrone og en herlig krans på hodene våre."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
