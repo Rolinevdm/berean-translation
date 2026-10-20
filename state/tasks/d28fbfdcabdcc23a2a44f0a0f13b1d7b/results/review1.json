@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3d8d18f7-c91e-4383-901c-8c0d244ff09c",
+    "response_id": "chatcmpl-EatgMbqQmvyody0nn2e8rqSOXAyRY",
+    "usage": {
+      "completion_tokens": 730,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2719,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1616,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3449
+    }
+  },
+  "received_at": "2026-10-20T02:17:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph",
+        "severity": "minor",
+        "source_quote": "“espoused and received Christ by faith”",
+        "suggested_fix": "Αποδώστε το πρώτο ρήμα ως δέσμευση ή αφοσίωση στον Χριστό, π.χ. «να αφιερωθούν στον Χριστό και να Τον δεχτούν με πίστη».",
+        "translation_quote": "“να αποδεχτούν και να δεχτούν τον Χριστό με πίστη”"
+      },
+      {
+        "location": "First paragraph",
+        "severity": "minor",
+        "source_quote": "“arising from sin”",
+        "suggested_fix": "Αποδώστε την ιδέα της απομάκρυνσης από την αμαρτία, π.χ. «αφού απομακρύνθηκαν από την αμαρτία».",
+        "translation_quote": "“αφού σηκώθηκαν από την αμαρτία”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

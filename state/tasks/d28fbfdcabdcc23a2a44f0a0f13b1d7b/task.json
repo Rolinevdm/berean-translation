@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e1f9fd88aaf04434b55c5dc56054f3ba",
   "campaign": "auto-2c6cce625265342cf5db40788fac1c450a5ab40dfb1be3f0e283d9e9bab20d19",
   "created_at": "2026-10-19T23:47:35+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 2487
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 730,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2719,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1616,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3449
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "“espoused and received Christ by faith”",
+      "suggested_fix": "Αποδώστε το πρώτο ρήμα ως δέσμευση ή αφοσίωση στον Χριστό, π.χ. «να αφιερωθούν στον Χριστό και να Τον δεχτούν με πίστη».",
+      "translation_quote": "“να αποδεχτούν και να δεχτούν τον Χριστό με πίστη”"
+    },
+    {
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "“arising from sin”",
+      "suggested_fix": "Αποδώστε την ιδέα της απομάκρυνσης από την αμαρτία, π.χ. «αφού απομακρύνθηκαν από την αμαρτία».",
+      "translation_quote": "“αφού σηκώθηκαν από την αμαρτία”"
+    }
+  ],
+  "finished_at": "2026-10-20T02:17:32+00:00",
   "id": "d28fbfdcabdcc23a2a44f0a0f13b1d7b",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "ell",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3670d04660d598af45d2b971f10fcf4a53fe924d6d0542ca81129911dccd131.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.08633,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
   "translation_model_actual": "gpt-6-luna"

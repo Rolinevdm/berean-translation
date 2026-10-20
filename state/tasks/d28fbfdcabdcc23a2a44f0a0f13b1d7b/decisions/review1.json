@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "“espoused and received Christ by faith”",
+      "suggested_fix": "Αποδώστε το πρώτο ρήμα ως δέσμευση ή αφοσίωση στον Χριστό, π.χ. «να αφιερωθούν στον Χριστό και να Τον δεχτούν με πίστη».",
+      "translation_quote": "“να αποδεχτούν και να δεχτούν τον Χριστό με πίστη”"
+    },
+    {
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "“arising from sin”",
+      "suggested_fix": "Αποδώστε την ιδέα της απομάκρυνσης από την αμαρτία, π.χ. «αφού απομακρύνθηκαν από την αμαρτία».",
+      "translation_quote": "“αφού σηκώθηκαν από την αμαρτία”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
