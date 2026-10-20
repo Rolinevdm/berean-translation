@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "de74ecd7-5bd2-40c7-9223-125059a7cf38",
+    "response_id": "chatcmpl-EarwHT2gqMjr7KSSMmxf4mlAlbyhV",
+    "usage": {
+      "completion_tokens": 700,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1389,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1386,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2089
+    }
+  },
+  "received_at": "2026-10-20T00:24:48+00:00",
+  "result": {
+    "html": "<article data-article-id=\"3b86d0e0-ebd7-4521-92f4-5d7f8a89e901\">\n  <p class=\"drop-cap\">Omkring år 1550 hände det i Bambergs biskopsdöme att två unga flickor tog emot Kristus genom tron, döptes på grund av sin tro, enligt Kristi lära, och efter att ha vänt sig bort från synden sökte leva ett nytt liv med Kristus.</p>\n  <p>Därför försökte antikristna hindra dem i detta goda beslut och så mycket de förmådde kväva deras goda avsikt. De kastade därför dessa två unga lamm i fängelse, där de torterade dem mycket grymt, och försökte också med andra okristliga metoder få dem att avfalla. Men eftersom de var fast grundade på Kristus förblev de trogna och ståndaktiga under hela prövningen. (Kol. 2:7; Upp. 2:10.)</p>\n  <figure>\n    <img src=\"/images/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901-1.jpg\" alt=\"En gravyr av två kvinnor med kransar som leds genom en folkmassa.\">\n  </figure>\n  <p>Myndigheterna, som i allmänhet följer de falska profeternas råd i sådana frågor, dömde dem därför till döden. De gladdes åt detta och lät sig inte skrämmas. När de fördes ut till avrättningen satte deras förföljare, för att håna och skymfa dem, halmkransar på deras huvuden. Då sade den ena till den andra: ”Eftersom Herren Kristus bar en törnekrona för oss, varför skulle inte vi bära dessa halmkronor till hans ära? För detta kommer den trofaste Guden att sätta en vacker krona av guld och en härlig krans på våra huvuden.” Så rustade sig dessa två unga skott med tålamod, efter sin Kapten Jesu exempel. De förblev trogna intill döden, dog ståndaktigt och fick genom nåden den härliga kronan hos Gud i himlen.</p>\n  <p>Flickornas motståndare anmärkte att de dog helt utan fruktan och ståndaktigt, och att de hade den kristna trons sanna grund och fundament i sin Återlösare Kristus Jesus, som de öppet bekände och åkallade i sin nöd; med ett fast hopp dog de ståndaktigt.</p>\n  <p>Avrättarna blev så imponerade av sättet de dog på att de efteråt började tvivla på om inte de själva var i större villfarelse inför Gud än dessa unga flickor, trots att flickorna var döparrörelsens anhängare.</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Två unga flickor"
+  }
+}
