@@ -2,7 +2,7 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Generated: 2026-10-20T13:13:27+00:00.
+Generated: 2026-10-20T13:13:51+00:00.
 Published means an accepted translation is exportable here; live deployment is verified separately.
 Target categories are disjoint. Accepted publications remain published during replacement work. Source-stale versions and replacement outcomes are reported separately.
 Ready means source-compatible and exportable here; live deployment is verified separately.
@@ -12,7 +12,7 @@ Observed English revision: `2ad7118fd859d76d9417cff527235dae66d0ed30`
 
 Total target: 23360 article/language pairs. published: 2974 | unstarted: 18751 | queued: 44 | active: 6 | held without publication: 1585.
 
-Last collection: 2026-10-20T11:36:26+00:00; newly published: 2; stop reason: wait_budget_exhausted; submitted batches remaining: 5.
+Last collection: 2026-10-20T13:13:51+00:00; newly published: 0; stop reason: wait_budget_exhausted; submitted batches remaining: 5.
 
 | Issue selector | Articles | Published / target | Unstarted | Queued / admission | Active | Held without publication | Source stale | Failed replacements |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
