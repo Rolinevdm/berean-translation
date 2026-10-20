@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d34c9bb82dfc4aff866c2b7416b0f945",
   "campaign": "auto-3f29a5d6f4b9e3166310d97bd667d0409cfece444eb7ac32f9dae4c420aada8e",
   "created_at": "2026-10-19T07:44:01+00:00",
   "events": [
@@ -30,7 +29,8 @@
       }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+  "failure_kind": "provider_error",
   "findings": [
     {
       "location": "html: 빚과 어부 생활을 묘사하는 문단",
@@ -89,6 +89,7 @@
       "translation_quote": "주여, 주께서 만물을 아시오니 주께서 나의 주를 사랑하는 것을 아시나이다."
     }
   ],
+  "finished_at": "2026-10-20T00:17:24+00:00",
   "id": "aac2b69969c886d48b8639e24b89fb3d",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "kor",
@@ -177,6 +178,11 @@
     }
   },
   "protected": false,
+  "provider_failure": {
+    "action": "Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+    "code": "provider_error",
+    "http_status": 500
+  },
   "quality_score": 87,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
@@ -196,7 +202,7 @@
     "total_reserved_usd": 0.755733,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
