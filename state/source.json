@@ -12056,17 +12056,17 @@
     },
     "bddf62b1-cf16-40ec-b5e9-6bd42a5127b7": {
       "fingerprints": {
-        "html_sha256": "cf418d3ef43ec9ecffe64ca0397a36da483b156735039d03494d9e33d0a3f615",
-        "metadata_sha256": "ba675d3e7b0e1ee33600c68a92e1c6418fefc000574e086944ced3141fe959c8",
-        "structure_sha256": "291944b60610a031a0ac89253e7b00b6f0e2f631b4ceacf806d4eabcea6f82f4",
-        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "translation_metadata_sha256": "f58708a612b19af89a7c8a65c5ff3148e72456a3ecdcce40b133e126acd89b35"
+        "html_sha256": "29b3ab96cd7bb27200834030c5aa21519dbae561f9cdf7c563b12397b51430b7",
+        "metadata_sha256": "e98a8550bfe9f0cac9121b3377761e3faf1e06fa314733a0ac1a5ee9e85b92c1",
+        "structure_sha256": "5ea8f8511af4d54d4ad88db1622ddbc83d46ba74b0d76c6689986ed827c91cef",
+        "text_sha256": "c62cb4356368bf1fc6415221aadfc5619be21af9fba7a631f67e225cc5ee2a95",
+        "translation_metadata_sha256": "412f8a05df82996180da0ff3acf543b88ef7ad9fd4e14e46da59227950ef1e41"
       },
       "id": "bddf62b1-cf16-40ec-b5e9-6bd42a5127b7",
       "issue_id": "80908504-b3e7-43ef-9dde-1ac6cf22a040",
       "sequence": 14,
       "title": "...Ready for either or both!",
-      "translation_key": "09692115a45b36eac6b193131f40adb4b5e529e5bf4cd5b79788549b2788ca85"
+      "translation_key": "bb20efbea22327cfead013e0a4926ca9959d89abcb83dcb4c37aed0709f00041"
     },
     "be0fa2a0-cbfc-4cf8-9c12-1f06e3f75e04": {
       "fingerprints": {
@@ -16353,7 +16353,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "1881177ce1bc9678a6123ca44ab46393bdd8c39c1c8f7b6e0900524e7338ed5e",
+  "content_sha256": "384ef9a88f2d739b06171205b1703c80f663cdfcf83a7b72fe124aea9137f2f0",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17769,5 +17769,5 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "918709aaa14615100c469d3545de047031baed9d"
+  "revision": "2ad7118fd859d76d9417cff527235dae66d0ed30"
 }
