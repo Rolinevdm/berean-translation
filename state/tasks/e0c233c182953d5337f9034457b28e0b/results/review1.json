@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1ad17d8a-38a5-48e6-9953-61efa6eafcc1",
+    "response_id": "chatcmpl-EatgFJSnJPvdVf9pNPlJfp0AaoKa5",
+    "usage": {
+      "completion_tokens": 807,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 695,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2443,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2440,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3250
+    }
+  },
+  "received_at": "2026-10-20T02:17:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, first paragraph",
+        "severity": "minor",
+        "source_quote": "“espoused and received Christ by faith”",
+        "suggested_fix": "Överväg att återge även innebörden av ”espoused”, till exempel: ”bekände sig till och tog emot Kristus genom tron”.",
+        "translation_quote": "“tog emot Kristus genom tron”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

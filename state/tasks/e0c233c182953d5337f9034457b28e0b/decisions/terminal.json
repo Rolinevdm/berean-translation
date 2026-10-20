@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, first paragraph",
+      "severity": "minor",
+      "source_quote": "“espoused and received Christ by faith”",
+      "suggested_fix": "Överväg att återge även innebörden av ”espoused”, till exempel: ”bekände sig till och tog emot Kristus genom tron”.",
+      "translation_quote": "“tog emot Kristus genom tron”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

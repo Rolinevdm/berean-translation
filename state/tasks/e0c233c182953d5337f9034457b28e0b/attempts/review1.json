@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-20T02:17:29+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, first paragraph\",\"severity\":\"minor\",\"source_quote\":\"“espoused and received Christ by faith”\",\"suggested_fix\":\"Överväg att återge även innebörden av ”espoused”, till exempel: ”bekände sig till och tog emot Kristus genom tron”.\",\"translation_quote\":\"“tog emot Kristus genom tron”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 385,
+    "content_evidence_truncated": false,
+    "content_sha256": "cbe4cc73e4fc644b31b26e9ec0eecdd92e07fdc58995841e16561dbae4934de6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 807,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 695,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2443,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2440,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3250
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

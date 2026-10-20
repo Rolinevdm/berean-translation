@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2700e6ed76074cf78dcf9349a536e90b",
   "campaign": "auto-0652066211c5fc4f39c13f58f94b17d5a5bfb44b71b648dd968dbd68870eca3a",
   "created_at": "2026-10-19T23:55:13+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2089
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 807,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 695,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2443,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2440,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3250
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, first paragraph",
+      "severity": "minor",
+      "source_quote": "“espoused and received Christ by faith”",
+      "suggested_fix": "Överväg att återge även innebörden av ”espoused”, till exempel: ”bekände sig till och tog emot Kristus genom tron”.",
+      "translation_quote": "“tog emot Kristus genom tron”"
+    }
+  ],
+  "finished_at": "2026-10-20T02:17:29+00:00",
   "id": "e0c233c182953d5337f9034457b28e0b",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "swe",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3670d04660d598af45d2b971f10fcf4a53fe924d6d0542ca81129911dccd131.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086325,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c0bb99bba968dbdbe1632b2e87b6b3069b42317e98c0798a1c9d42f6c2da1d59",
   "translation_model_actual": "gpt-6-luna"
