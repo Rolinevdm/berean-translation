@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “I especially appreciated…”",
+      "severity": "major",
+      "source_quote": "Though we are Scottish and English, our home church is a small Mennonite fellowship in New York.",
+      "suggested_fix": "اگرچہ ہم اسکاٹش اور انگریز ہیں، لیکن نیویارک میں ہماری اپنی کلیسیا ایک چھوٹی سی مینونائٹ رفاقت ہے۔",
+      "translation_quote": "اگرچہ ہم اسکاٹش اور انگریز ہیں، لیکن ہمارا آبائی گرجا نیویارک میں ایک چھوٹی سی مینونائٹ رفاقت ہے۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

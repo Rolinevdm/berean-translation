@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-20T16:52:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “I especially appreciated…”\",\"severity\":\"major\",\"source_quote\":\"Though we are Scottish and English, our home church is a small Mennonite fellowship in New York.\",\"suggested_fix\":\"اگرچہ ہم اسکاٹش اور انگریز ہیں، لیکن نیویارک میں ہماری اپنی کلیسیا ایک چھوٹی سی مینونائٹ رفاقت ہے۔\",\"translation_quote\":\"اگرچہ ہم اسکاٹش اور انگریز ہیں، لیکن ہمارا آبائی گرجا نیویارک میں ایک چھوٹی سی مینونائٹ رفاقت ہے۔\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 665,
+    "content_evidence_truncated": false,
+    "content_sha256": "1bff3bc46234229d2cd462974ce1cb34a105801de5bf5489d1f1b459d65368a4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 987,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 824,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4322,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4319,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5309
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
