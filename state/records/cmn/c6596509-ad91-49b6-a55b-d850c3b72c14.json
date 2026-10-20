@@ -13,9 +13,16 @@
       "event": "not_ready",
       "reason": "Malformed HTML closing tag: p",
       "task": "16a11bb116a93dece101d9b6eeb34d83"
+    },
+    {
+      "at": "2026-10-20T11:34:01+00:00",
+      "campaign": "auto-4d206c5dd397d23b287d12b232d855c9c99ccaec0a0f2f671947582ac1abf9a0",
+      "event": "automatic_requested",
+      "previous_task": "16a11bb116a93dece101d9b6eeb34d83",
+      "task": "5d72c7d12d4bc36454515012c4d4ff4e"
     }
   ],
   "language": "cmn",
-  "latest_task": "16a11bb116a93dece101d9b6eeb34d83",
+  "latest_task": "5d72c7d12d4bc36454515012c4d4ff4e",
   "published": null
 }
