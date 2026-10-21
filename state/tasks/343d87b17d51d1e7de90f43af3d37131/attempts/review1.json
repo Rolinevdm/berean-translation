@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-21T09:34:28+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, first list item\",\"severity\":\"minor\",\"source_quote\":\"A meaningful lesson in family devotions\",\"suggested_fix\":\"לקח משמעותי ממפגש תפילה ולימוד משפחתי\",\"translation_quote\":\"לקח משמעותי מלימוד משפחתי במסירות\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 350,
+    "content_evidence_truncated": false,
+    "content_sha256": "8b8aac61daf16810375f71f3d50a4a06838e2646f8dbbe5fcc9967671de31653",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 990,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 892,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4093,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2990,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5083
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

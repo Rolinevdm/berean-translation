@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1a4ce41699fb4caebe279356e6b3a27c",
   "campaign": "auto-46c82815ac90e9d64ab02d67669875d88589bb207850285620c6a75c44e2415a",
   "created_at": "2026-10-21T00:06:13+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 3853
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 990,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 892,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4093,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2990,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5083
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, first list item",
+      "severity": "minor",
+      "source_quote": "A meaningful lesson in family devotions",
+      "suggested_fix": "לקח משמעותי ממפגש תפילה ולימוד משפחתי",
+      "translation_quote": "לקח משמעותי מלימוד משפחתי במסירות"
+    }
+  ],
+  "finished_at": "2026-10-21T09:34:28+00:00",
   "id": "343d87b17d51d1e7de90f43af3d37131",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "heb",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3693df14313d787d83419a40947805931d85c8c79a2ea3d26820e34d7f25ec8.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.087175,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
   "translation_model_actual": "gpt-6-luna"
