@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1eb8a674-30c9-487d-aa1d-0e7e9ed6d81f",
+    "response_id": "chatcmpl-EbNWSPh2ez9xb9TeSOLKU2UUB1xa9",
+    "usage": {
+      "completion_tokens": 894,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 786,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4179,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3076,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5073
+    }
+  },
+  "received_at": "2026-10-21T10:09:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "첫 번째 독자 편지, 브로드퍼드의 교회 설명",
+        "severity": "minor",
+        "source_quote": "the little church of Scotland at Broadford",
+        "suggested_fix": "브로드퍼드의 작은 스코틀랜드 교회는",
+        "translation_quote": "브로드퍼드의 작은 스코틀랜드 교회는"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

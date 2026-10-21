@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "첫 번째 독자 편지, 브로드퍼드의 교회 설명",
+      "severity": "minor",
+      "source_quote": "the little church of Scotland at Broadford",
+      "suggested_fix": "브로드퍼드의 작은 스코틀랜드 교회는",
+      "translation_quote": "브로드퍼드의 작은 스코틀랜드 교회는"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
