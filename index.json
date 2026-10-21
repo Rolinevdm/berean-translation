@@ -74600,6 +74600,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
+      "html_sha256": "56d03f02c8f4de41580b8218ca8567bbb44c899848805b445b8387e9a54cd867",
+      "human_reviewed": false,
+      "id": "88345a38-6c33-495a-8407-f0fda29b67e0",
+      "images": [
+        {
+          "alt": "Sanduku la barua lililo juu ya nguzo, likiwa limezungukwa na maua yanayoota.",
+          "public_path": "/images/articles/88345a38-6c33-495a-8407-f0fda29b67e0-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/88345a38-6c33-495a-8407-f0fda29b67e0.json",
+      "metadata_sha256": "c73c7a8ca4d7fc2c5fe0ea76c813676cd5f19fb845ceaef734849e509e650ceb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "2ad7118fd859d76d9417cff527235dae66d0ed30",
+      "source_translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Barua Zenye Thamani kutoka kwa Wasomaji Wetu",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "320997a25504e3f0192eb5ec7df381ce733c46ef5cf1d39727aeef381e191ae6",
       "human_reviewed": false,
