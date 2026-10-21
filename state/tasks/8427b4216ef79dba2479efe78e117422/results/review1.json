@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "61a917b5-0b23-4613-8632-08bfb8387d9f",
+    "response_id": "chatcmpl-EbVtkiRGuBhdHWUeMqDYlry9Vdz4U",
+    "usage": {
+      "completion_tokens": 905,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 763,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4074,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4071,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4979
+    }
+  },
+  "received_at": "2026-10-21T20:07:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 6",
+        "severity": "major",
+        "source_quote": "the little church of Scotland at Broadford still faithfully preaches God’s plan of salvation",
+        "suggested_fix": "Gjør kirkesamfunnet tydelig, for eksempel: «den lille Church of Scotland-menigheten i Broadford forkynner fremdeles trofast Guds frelsesplan»",
+        "translation_quote": "den lille skotske kirken i Broadford forkynner fremdeles trofast Guds frelsesplan"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

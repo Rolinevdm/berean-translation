@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 6",
+      "severity": "major",
+      "source_quote": "the little church of Scotland at Broadford still faithfully preaches God’s plan of salvation",
+      "suggested_fix": "Gjør kirkesamfunnet tydelig, for eksempel: «den lille Church of Scotland-menigheten i Broadford forkynner fremdeles trofast Guds frelsesplan»",
+      "translation_quote": "den lille skotske kirken i Broadford forkynner fremdeles trofast Guds frelsesplan"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
