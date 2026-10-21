@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fbd89ca2af1b4744b739ed5d1f435e9a",
   "campaign": "auto-9cd853f4861a3bb45b22bff302b7f186c8423bef92bbf3a86b915530236dd956",
   "created_at": "2026-10-20T23:52:28+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 5970
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 544,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4134,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4131,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4678
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Final paragraph, Ephesians 6:12 quotation",
-      "severity": "major",
-      "source_quote": "“against spiritual wickedness in high places”",
-      "suggested_fix": "Replace “dhidi ya uovu wa kiroho katika ulimwengu wa roho” with “dhidi ya uovu wa kiroho katika mahali pa juu” to preserve the source’s “high places.”",
-      "translation_quote": "“dhidi ya uovu wa kiroho katika ulimwengu wa roho”"
-    },
-    {
-      "location": "Virginia letter, Revelation 18:4 quotation",
-      "severity": "major",
-      "source_quote": "“Come out of her my people, that you receive not of her plagues”",
-      "suggested_fix": "Remove “msije mkashiriki dhambi zake,” because this clause is not present in the printed source quotation.",
-      "translation_quote": "“Tokeni kwake, enyi watu wangu, msije mkashiriki dhambi zake, wala kuyapokea mapigo yake”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-21T09:41:15+00:00",
   "id": "23d17c0082dc1f1704aa48f26146d4e0",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "swa",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.087164,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
   "translation_model_actual": "gpt-6-luna"
