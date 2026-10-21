@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "html: sämtliche Bibelstellenangaben mit englischen Buchnamen",
+      "severity": "minor",
+      "source_quote": "Matthew 4:18-22; Matthew 3:11-12; Luke 8:1-3; John 20:15-16; Luke 5:20; Luke 5:21; Luke 5:22-24; Romans 10:3; Isaiah 64:6; Ephesians 1:7; Luke 7:37-39; Luke 7:44-47; Luke 7:48; Matthew 1:21",
+      "suggested_fix": "In diesen Stellenangaben ausschließlich die Buchnamen eindeutschen: Matthew → Matthäus, Luke → Lukas, John → Johannes, Romans → Römer, Isaiah → Jesaja, Ephesians → Epheser. Alle Kapitel- und Verszahlen sowie die Positionen der Verweise unverändert lassen.",
+      "translation_quote": "Matthew 4:18-22; Matthew 3:11-12; Luke 8:1-3; John 20:15-16; Luke 5:20; Luke 5:21; Luke 5:22-24; Romans 10:3; Isaiah 64:6; Ephesians 1:7; Luke 7:37-39; Luke 7:44-47; Luke 7:48; Matthew 1:21"
+    },
+    {
+      "location": "html: Absatz über Jesu reinigende Gegenwart",
+      "severity": "minor",
+      "source_quote": "Those who loved Him were set forth as the chosen ones",
+      "suggested_fix": "„wurden als die Auserwählten hervorgetreten“ durch „wurden als die Auserwählten hervorgehoben“ ersetzen.",
+      "translation_quote": "Diejenigen, die ihn liebten, wurden als die Auserwählten hervorgetreten"
+    },
+    {
+      "location": "html: Einführung Maria Magdalenas",
+      "severity": "minor",
+      "source_quote": "One such disciple was Mary Magdalene.",
+      "suggested_fix": "„Eine solche Jüngerin war Maria Magdalena.“",
+      "translation_quote": "Einer solchen Jüngerin war Maria Magdalena."
+    },
+    {
+      "location": "html: Absatz über menschliches Bemühen",
+      "severity": "minor",
+      "source_quote": "a form of godliness that falls short of Christ’s righteousness",
+      "suggested_fix": "„einer Form der Frömmigkeit [...], die hinter der Gerechtigkeit Christi zurückbleibt“",
+      "translation_quote": "einer Form der Frömmigkeit [...], die kürzer ist als die Gerechtigkeit Christi"
+    },
+    {
+      "location": "html: Zitat Römer 10:3",
+      "severity": "minor",
+      "source_quote": "have not submitted themselves unto the righteousness of God",
+      "suggested_fix": "„haben sich der Gerechtigkeit Gottes nicht untergeordnet“",
+      "translation_quote": "haben sich der Gerechtigkeit Gottes nicht unterordnet"
+    },
+    {
+      "location": "html: Adam-Clark-Zitat",
+      "severity": "minor",
+      "source_quote": "prepared such a garment for each, for the time being; and with which he was furnished on his application to the ruler of the feast",
+      "suggested_fix": "Den grammatisch unvollständigen Anschluss ersetzen: „bereitete für jeden für die Dauer des Festes ein solches Gewand vor; dieses erhielt der Gast, wenn er sich an den Vorsteher des Festes wandte.“",
+      "translation_quote": "bereitete ein solches Gewand für jeden, für die Zeit des Festes; und mit welchem er versehen wurde, wenn er sich an den Vorsteher des Festes wandte"
+    },
+    {
+      "location": "html: Zitat Jesaja 64:6",
+      "severity": "minor",
+      "source_quote": "and our iniquities, like the wind, have taken us away",
+      "suggested_fix": "„und unsere Missetaten haben uns wie der Wind weggeführt“",
+      "translation_quote": "und unsere Missetaten haben unssgeschehen wie der Wind weggeführt"
+    },
+    {
+      "location": "translation.section",
+      "severity": "minor",
+      "source_quote": "The New Testament Church",
+      "suggested_fix": "„Die neutestamentliche Gemeinde“",
+      "translation_quote": "Die Urkirche des Neuen Testaments"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[97]: source /article[1]/p[32]/em[1] ('start', 'em', ()); translation /article[1]/p[32] ('end', 'p')",
+  "stage": "terminal"
+}
