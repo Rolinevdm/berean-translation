@@ -19,6 +19,12 @@
       "event": "automatic_requested",
       "previous_task": "8656f2b80c99e215403c4a1ae3de7fe3",
       "task": "51cc3dc0c35aad5f62afa0a9bc6f2b72"
+    },
+    {
+      "at": "2026-10-21T14:37:20+00:00",
+      "event": "not_ready",
+      "reason": "Review report is incomplete; all returned findings are retained for owner attention",
+      "task": "51cc3dc0c35aad5f62afa0a9bc6f2b72"
     }
   ],
   "language": "swa",

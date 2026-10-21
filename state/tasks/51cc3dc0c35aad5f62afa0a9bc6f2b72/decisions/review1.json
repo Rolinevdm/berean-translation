@@ -1,0 +1,217 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph 5",
+      "severity": "major",
+      "source_quote": "not two years after his courageous re-baptism, he was drowned",
+      "suggested_fix": "Badilisha kuwa: “hata miaka miwili haikuwa imepita tangu alipobatizwa tena kwa ujasiri, aliuawa kwa kuzamishwa”.",
+      "translation_quote": "sio hata miaka miwili tangu upatanisho wake wa jasiri tena, alizama"
+    },
+    {
+      "location": "html, paragraph 18",
+      "severity": "major",
+      "source_quote": "Fifteen months passed.",
+      "suggested_fix": "Badilisha kuwa: “Miezi kumi na mitano ilipita.”",
+      "translation_quote": "Miaka kumi na tano ilipita."
+    },
+    {
+      "location": "html, paragraph 25",
+      "severity": "major",
+      "source_quote": "being married to a Dutch Mennonite",
+      "suggested_fix": "Badilisha kuwa: “aliyekuwa ameolewa na Mmenoniti wa Uholanzi”.",
+      "translation_quote": "aliyekuwa ameolewa kwa Mennonite wa Kiuda"
+    },
+    {
+      "location": "html, paragraph 32",
+      "severity": "major",
+      "source_quote": "Margaretha Landis, Hans’s widow",
+      "suggested_fix": "Badilisha kuwa: “Margaretha Landis, mjane wa Hans”.",
+      "translation_quote": "Margaretha Landis, mpwa wa Hans"
+    },
+    {
+      "location": "html, paragraph 15",
+      "severity": "major",
+      "source_quote": "“Whoever stirs in pitch will be smudged.”",
+      "suggested_fix": "Tafsiri nukuu kuwa: “Yeyote anayekoroga lami atachafuliwa.”",
+      "translation_quote": "“Yeye asiyechanganya korongo atakuwa amechomwa.”"
+    },
+    {
+      "location": "html, paragraph 29",
+      "severity": "major",
+      "source_quote": "come to a knowledge of their sins and repent, that they might be saved",
+      "suggested_fix": "Badilisha sehemu hii kuwa: “azitambue dhambi zake na kutubu, ili aokolewe”.",
+      "translation_quote": "afahamu dhambi zao na ateremke, ili waokolewe"
+    },
+    {
+      "location": "html, paragraph 16",
+      "severity": "major",
+      "source_quote": "contention flaring around communion",
+      "suggested_fix": "Badilisha kuwa: “mabishano makali kuhusu Meza ya Bwana”.",
+      "translation_quote": "mzozo ulizuka kuhusu mgawanyo wa sala ya kiroho"
+    },
+    {
+      "location": "html, paragraphs 30–31",
+      "severity": "major",
+      "source_quote": "“Have I executed this man rightly?” / “Yes,” came the reply, “you have executed this poor man.”",
+      "suggested_fix": "Badilisha maswali na majibu kuwa: “Je, nimemwua mtu huyu kwa kutekeleza hukumu ipasavyo?” na “Ndiyo,” likaja jibu, “umemwua mtu huyu maskini kwa kutekeleza hukumu.”",
+      "translation_quote": "“Je, nimekamatwa mtu huyu kwa usahihi?” / “Ndiyo,” jibu liliwahi, “umekamataa mtu huyu maskini.”"
+    },
+    {
+      "location": "html, paragraph 23",
+      "severity": "major",
+      "source_quote": "If he would not recant or at least leave the canton, they would need to kill him.",
+      "suggested_fix": "Badilisha sentensi kuwa: “Ikiwa hangekana imani yake au angalau kuondoka katika kantoni hiyo, wangelazimika kumwua.”",
+      "translation_quote": "Ikiwa hatang'unguiwi au hata kuondoka canton, wangekuwa wanamzima."
+    },
+    {
+      "location": "html, paragraph 21",
+      "severity": "major",
+      "source_quote": "a file was secretly slipped into their cell in Solothurn. The prisoners’ chains were swiftly cut through",
+      "suggested_fix": "Badilisha kuwa: “tupa iliingizwa kwa siri katika seli yao huko Solothurn. Minyororo ya wafungwa ilikatwa upesi”.",
+      "translation_quote": "faili lilifunguliwa kwa siri seli yao huko Solothurn. Mambo ya kifungo ya wafungwa yalikatwa kwa haraka"
+    },
+    {
+      "location": "html, paragraph 21",
+      "severity": "major",
+      "source_quote": "a ransom being offered for the prisoners’ release",
+      "suggested_fix": "Badilisha kuwa: “fedha za fidia zilitolewa ili wafungwa waachiliwe huru”.",
+      "translation_quote": "zawadi ilitolewa ili kuwaondolea wafungwa"
+    },
+    {
+      "location": "html, paragraph 18",
+      "severity": "major",
+      "source_quote": "sentenced as galley slaves to row aboard the ships of France",
+      "suggested_fix": "Badilisha kuwa: “wahukumiwe kuwa watumwa wa kupiga makasia katika meli za Ufaransa”.",
+      "translation_quote": "kuadhibiwa kama watumwa wa meli wa kuoga ili kuendesha meli za Ufaransa"
+    },
+    {
+      "location": "html, paragraph 26",
+      "severity": "major",
+      "source_quote": "Hans Landis would be publicly beheaded at once.",
+      "suggested_fix": "Badilisha kuwa: “Hans Landis angekatwa kichwa hadharani mara moja.”",
+      "translation_quote": "Hans Landis angechinjwa hadharani mara moja."
+    },
+    {
+      "location": "html, paragraph 28",
+      "severity": "major",
+      "source_quote": "his refusal to disband his church",
+      "suggested_fix": "Badilisha kuwa: “kukataa kwake kuvunja jumuiya ya kanisa lake”.",
+      "translation_quote": "kukataa kwake kubomoa kanisa lake"
+    },
+    {
+      "location": "html, paragraph 28",
+      "severity": "major",
+      "source_quote": "various church ministers admonished him to recant",
+      "suggested_fix": "Badilisha kuwa: “wahudumu mbalimbali wa kanisa walimsihi aikane imani yake”.",
+      "translation_quote": "wahubiri mbalimbali walimshawishi amkatae"
+    },
+    {
+      "location": "html, paragraph 11",
+      "severity": "major",
+      "source_quote": "the reasons [why] you separated from our church and … started a separate sect",
+      "suggested_fix": "Badilisha nukuu kuwa: “sababu [zilizowafanya] mjitenge na kanisa letu na … kuanzisha dhehebu tofauti”.",
+      "translation_quote": "sababu [kwanini] mmelaana na kanisa letu na … kuanzisha sect tofauti"
+    },
+    {
+      "location": "html, paragraphs 11–13, 19, 24, and 26",
+      "severity": "major",
+      "source_quote": "“not misuse the patience and graciousness of the lords”; “Gracious Lords”; “testimony to the lords”; “pleaded with the lords”; “admonished the rulers”; “presented to the lords”",
+      "suggested_fix": "Tumia “mabwana” badala ya “mami” katika aya 11–13, 19 na 26, na “watawala” katika aya 24. Rekebisha nukuu ya aya 11 kuwa “wasiutumie vibaya uvumilivu na fadhili za mabwana”, na salamu ya aya 12 kuwa “Mabwana Wenye Fadhili”.",
+      "translation_quote": "“wasitumiuse udhuru wa uvumilivu na fadhili za mami”; “Mami Wenye Fadhili”; “ushuhuda kwa mami”; “alimwomba mami”; “alimwambia mami”; “iliyowasilishwa kwa mami”"
+    },
+    {
+      "location": "html, paragraph 11",
+      "severity": "major",
+      "source_quote": "addressing those of his company as “Reverend, high and well-learned, pious, noble, intelligent, wise, (and) dear lords.”",
+      "suggested_fix": "Rejesha wahutubiwa na sifa zao: “akiwahutubia wenzake kama ‘Mabwana waheshimiwa, wenye hadhi na elimu kubwa, wacha Mungu, wa tabaka la juu, wenye akili, wenye hekima, (na) wapendwa.’”",
+      "translation_quote": "akiwahutubia wale walioshiriki kwa maneno “Mheshimiwa, waliokuwa na elimu nyingi, wenye haki, wenye heshima, wenye busara, (na) ndugu mpendwa.”"
+    },
+    {
+      "location": "html, paragraph 8",
+      "severity": "major",
+      "source_quote": "his small congregation was rapidly growing",
+      "suggested_fix": "Badilisha kuwa: “kusanyiko lake dogo lilikuwa likikua haraka”.",
+      "translation_quote": "makanisa yake madogo yalikuwa yakiongezeka kwa haraka"
+    },
+    {
+      "location": "html, paragraph 8",
+      "severity": "major",
+      "source_quote": "apparently a namesake of the original re-baptizer of nearly a century prior",
+      "suggested_fix": "Badilisha maelezo ya mabano kuwa: “yaonekana alikuwa na jina sawa na yule aliyebatiza watu tena karibu karne moja kabla”.",
+      "translation_quote": "kinuashiria jina la mtoaji wa ubatizo wa takriban karne moja kabla"
+    },
+    {
+      "location": "html, paragraph 9",
+      "severity": "major",
+      "source_quote": "religious zeal gone awry",
+      "suggested_fix": "Badilisha kuwa: “bidii ya kidini iliyopotoka”.",
+      "translation_quote": "uzito wa nidhamu ya kidini iliyoenda vibaya"
+    },
+    {
+      "location": "html, paragraph 9",
+      "severity": "major",
+      "source_quote": "local nobility and clergy",
+      "suggested_fix": "Badilisha kuwa: “watu wa tabaka la juu na viongozi wa dini wa eneo hilo”.",
+      "translation_quote": "wazee wa eneo na wahubiri"
+    },
+    {
+      "location": "html, paragraph 16",
+      "severity": "major",
+      "source_quote": "“If you would give us the church at Hirzel, … you would see … who would have the larger crowd!”",
+      "suggested_fix": "Badilisha kuwa: “Kama mngetupa kanisa la Hirzel, … mngeona … nani angekuwa na umati mkubwa zaidi!”",
+      "translation_quote": "“Kama mngewatakia kanisa la Hirzel, … mtaona … nani angekuwa na umati mkubwa zaidi!”"
+    },
+    {
+      "location": "html, paragraph 22",
+      "severity": "major",
+      "source_quote": "even overseeing several marriages",
+      "suggested_fix": "Badilisha kuwa: “hata kusimamia kufungwa kwa ndoa kadhaa”.",
+      "translation_quote": "hata kukagua ndoa kadhaa"
+    },
+    {
+      "location": "html, paragraph 25",
+      "severity": "major",
+      "source_quote": "the magistrates realized that an execution would be an unpopular undertaking",
+      "suggested_fix": "Badilisha kuwa: “mahakimu walitambua kwamba kumwua kwa kutekeleza hukumu kungekuwa jambo lisilopendwa na umma”.",
+      "translation_quote": "makatibu walitambua kwamba utekelezaji wa adhabu ungekuwa jambo lisilopendwa"
+    },
+    {
+      "location": "html, paragraph 27",
+      "severity": "major",
+      "source_quote": "he swiftly composed himself",
+      "suggested_fix": "Badilisha kuwa: “alijituliza upesi”.",
+      "translation_quote": "alijirefusha haraka"
+    },
+    {
+      "location": "html, paragraph 32",
+      "severity": "major",
+      "source_quote": "The immediate impact of the elderly Hans’ sacrifice was a ripple of support and outrage",
+      "suggested_fix": "Badilisha mwanzo wa sentensi kuwa: “Athari ya mara moja ya kujitoa kwa mzee Hans ilikuwa wimbi la uungwaji mkono na hasira”.",
+      "translation_quote": "Mwathiriwa wa uamuzi wa ujasiri wa mzee Hans ulisababisha kongamano la msaada na hasira"
+    },
+    {
+      "location": "html, paragraph 3",
+      "severity": "major",
+      "source_quote": "in Galilee, where One taught and lived the final answers to all of man’s questions",
+      "suggested_fix": "Badilisha kuwa: “katika Galilaya, ambako Mmoja alifundisha na kuonyesha kwa maisha yake majibu ya mwisho kwa maswali yote ya mwanadamu”.",
+      "translation_quote": "katika Galilaya, pale Ambaye alipofundisha na kuishi majibu ya mwisho kwa maswali yote ya mwanadamu"
+    },
+    {
+      "location": "html, figure img alt",
+      "severity": "minor",
+      "source_quote": "A close-up of sharp thorns on weathered branches",
+      "suggested_fix": "Badilisha thamani ya alt kuwa: “Picha ya karibu ya miiba mikali kwenye matawi yaliyochakazwa na hali ya hewa”, bila kubadili sifa nyingine za picha.",
+      "translation_quote": "Kipimo cha karibu cha mbaro kali kwenye matawi yaliyochakaa"
+    },
+    {
+      "location": "html, paragraphs 9, 15, 25, and 30",
+      "severity": "minor",
+      "source_quote": "the cantons of the area; many of Galli’s points, especially on the purity; This brave stand; he knelt and bowed his head",
+      "suggested_fix": "Tumia “kantoni za eneo hilo”; “hoja nyingi za Galli, hasa kuhusu usafi”; “Msimamo huu wa ujasiri”; na “alipiga magoti na kuinamisha kichwa chake” katika sehemu husika.",
+      "translation_quote": "Mikoa ya cantons; puntos nyingi za Galli, hasa kuhusu utsafi; Diehe hali ya ujasiri; alikanyaga magoti na kukunja kichwa chake"
+    }
+  ],
+  "outcome": "incomplete_review",
+  "reason": "Review report is incomplete; all returned findings are retained for owner attention",
+  "stage": "review1"
+}
