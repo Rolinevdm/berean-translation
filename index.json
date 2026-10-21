@@ -75947,6 +75947,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.html",
+      "html_sha256": "e1399d2b97f60a1ef51ad9988a148258072aa368003ebcffb5f2477ae7205eeb",
+      "human_reviewed": false,
+      "id": "e66a02d4-667c-4f50-b5e1-158ff98b82d5",
+      "images": [
+        {
+          "alt": "Mwanamume amepiga magoti chini kabisa ardhini",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-1.jpg"
+        },
+        {
+          "alt": "Mtoza ushuru amepiga magoti mbele za Mungu huku mwanamume mwingine akisimama karibu",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-2.png"
+        },
+        {
+          "alt": "Jalada la Kiburi na Unyenyekevu",
+          "public_path": "/images/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5-3.png"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.json",
+      "metadata_sha256": "323e1a6a2189825514f52ec7ad9b75f629b6d01849e49369f170af7c830f6e88",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "52e9d320a49e2444d36eafdc051ebb00c1e6693a",
+      "source_translation_key": "f5b7fccc6a524e1449727b9ca39fdaa2ec8b679f58d19ba28c92689583cbcf46",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mtu Mnyenyekevu Hujihisi Mdogo",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
       "html_sha256": "f85a1656288ece2911a73c11d83481fde609586d8026c9a7fe938533003da72e",
       "human_reviewed": false,
