@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph, Ephesians 6:12 quotation",
+      "severity": "major",
+      "source_quote": "“against spiritual wickedness in high places”",
+      "suggested_fix": "Replace “dhidi ya uovu wa kiroho katika ulimwengu wa roho” with “dhidi ya uovu wa kiroho katika mahali pa juu” to preserve the source’s “high places.”",
+      "translation_quote": "“dhidi ya uovu wa kiroho katika ulimwengu wa roho”"
+    },
+    {
+      "location": "Virginia letter, Revelation 18:4 quotation",
+      "severity": "major",
+      "source_quote": "“Come out of her my people, that you receive not of her plagues”",
+      "suggested_fix": "Remove “msije mkashiriki dhambi zake,” because this clause is not present in the printed source quotation.",
+      "translation_quote": "“Tokeni kwake, enyi watu wangu, msije mkashiriki dhambi zake, wala kuyapokea mapigo yake”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

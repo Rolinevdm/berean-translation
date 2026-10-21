@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-21T04:33:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph, Ephesians 6:12 quotation\",\"severity\":\"major\",\"source_quote\":\"“against spiritual wickedness in high places”\",\"suggested_fix\":\"Replace “dhidi ya uovu wa kiroho katika ulimwengu wa roho” with “dhidi ya uovu wa kiroho katika mahali pa juu” to preserve the source’s “high places.”\",\"translation_quote\":\"“dhidi ya uovu wa kiroho katika ulimwengu wa roho”\"},{\"location\":\"Virginia letter, Revelation 18:4 quotation\",\"severity\":\"major\",\"source_quote\":\"“Come out of her my people, that you receive not of her plagues”\",\"suggested_fix\":\"Remove “msije mkashiriki dhambi zake,” because this clause is not present in the printed source quotation.\",\"translation_quote\":\"“Tokeni kwake, enyi watu wangu, msije mkashiriki dhambi zake, wala kuyapokea mapigo yake”\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 876,
+    "content_evidence_truncated": false,
+    "content_sha256": "23a377e82ae4532d894a2531c2a532fffc67e7a280dafe47826b2ad16897171f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 742,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4146,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4143,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4888
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
