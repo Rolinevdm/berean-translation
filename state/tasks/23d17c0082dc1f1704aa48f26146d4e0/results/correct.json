@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "20f0f1e9-e7ad-4fde-9bab-ec64b131f2c6",
+    "response_id": "chatcmpl-EbIja8cOq9AV7OnQ5AeKGrG2N2s8x",
+    "usage": {
+      "completion_tokens": 1926,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 232,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4044,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4041,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5970
+    }
+  },
+  "received_at": "2026-10-21T09:34:41+00:00",
+  "result": {
+    "html": "<article data-article-id=\"88345a38-6c33-495a-8407-f0fda29b67e0\">\n  <figure>\n    <img src=\"/images/articles/88345a38-6c33-495a-8407-f0fda29b67e0-1.jpg\" alt=\"Sanduku la barua lililo juu ya nguzo, likiwa limezungukwa na maua yanayoota.\">\n  </figure>\n  <p class=\"drop-cap\">Tunamshukuru Mungu kwa barua nyingi za ushauri na kututia moyo ambazo tumekuwa tukipokea. Hiyo ndiyo njia pekee tunayoweza kutathmini maendeleo yetu. Endeleeni kututumia barua. Tamaa yetu ni kuendeleza mtiririko huru wa kujengana, kuhamasishana na kushirikishana mizigo kati yetu na ninyi, na kati yenu na sisi. Kwa njia hii tunaweza kuwaeleza wengine wanaosoma kuhusu baadhi ya baraka tulizopokea. Tungependa sana kusikia kutoka kwenu kwa mojawapo ya njia zifuatazo:</p>\n  <ul>\n    <li>Somo lenye maana kutoka katika ibada za familia ambalo unaweza kuwashirikisha akina baba wengine.</li>\n    <li>Ushuhuda kuhusu baraka za Mungu katika eneo fulani la utii, kwa ajili ya “The Blessing Corner.”</li>\n    <li>Swali ambalo likijibiwa litawajenga wote.</li>\n    <li>Eneo la kukua kiroho, lililofikiwa kupitia mojawapo ya mazoezi yaliyopendekezwa katika gazeti.</li>\n    <li>Neno la kutia moyo au ushauri kuhusu <em>The Remnant</em>, au sehemu yoyote yake.</li>\n  </ul>\n  <p><em>Tunasubiri kusikia kutoka kwenu… --Wahariri</em></p>\n  <p>Ndugu na Dada wapendwa katika Kristo,</p>\n  <p>Heartbeat of the Remnant ni baraka kubwa sana kwangu na kwa mke wangu, na hutupatia chakula kizuri cha kiroho.</p>\n  <p>Nilithamini hasa simulizi lenu kuhusu historia ya uamsho katika Hebrides, huko Scotland. Kwa hakika, asili ya familia yangu ni kutoka Kisiwa cha Skye, na kanisa dogo la Scotland huko Broadford bado linahubiri kwa uaminifu mpango wa Mungu wa wokovu, kwa Kigaeli na Kiingereza. Ingawa sisi ni Waskoti na Waingereza, kanisa letu la nyumbani ni ushirika mdogo wa Mennonite huko New York. Tumebarikiwa sana huko, na tunamshukuru ndugu mcha Mungu aliyetutambulisha kwa gazeti lenu.</p>\n  <p><em>New York</em></p>\n  <p>Remnant wapendwa,</p>\n  <p>Ningependa kushiriki nanyi baraka za maono niliyopewa na wale watu wa Mungu wapendwa ambao wamekuwa na maana kubwa sana kwangu kwa miaka mingi—ambao, kama Paulo, wameleta mezani pangu la kiroho “karama fulani ya rohoni ili nipate kuimarishwa,” yaani, Neno la Mungu lililo la ndani zaidi na safi zaidi.</p>\n  <p>Na ingawa nimepitia moto mwingi wenye maumivu katika miaka hiyo, bado ninawashukuru watakatifu wa Mungu wa kweli na waaminifu, ambao sauti zao zimesimama imara. Kwa maana kama sauti hizo zilizokuwa zikiniambia ukweli daima (kupitia Remnant) zisingekuwapo, nina hakika maisha yangu yangekuwa kama matoazi yanayolia na shaba inayovuma, nikijua jinsi nilivyokuwa nimenaswa katika njia ya dini. Lo, lazima nilikuwa ushuhuda mbaya kiasi gani machoni pa Yeye aliyelinunua Kanisa kwa damu yake na kutuita sisi pia tuyatoe maisha yetu kwa ajili yake. Inashangaza sana kuona jinsi nilivyopiga hatua, kupitia machozi mengi ya mahitaji, nilipokuwa nikitaabika moyoni juu ya maneno yaliyoandikwa katika nakala nyingi za Remnant nilizopokea kwa miaka mingi.</p>\n  <p>Asanteni kwa kuwa baba na mama niliowahitaji ili kunisaidia kuvuka nyakati hizo.</p>\n  <p><em>Iowa</em></p>\n  <p>Ndugu na dada Wakristo wenzangu,</p>\n  <p>Salamu katika jina la Kristo. Ingawa sisi ni maskini katika ulimwengu huu, hata hivyo sisi ni matajiri; kwa sababu ya rehema na neema ya Mungu, ambazo kupitia kwake tunaokolewa, wala si kwa jambo tulilofanya. Sasa kazi zetu zote zinapaswa kuwa kwa heshima na utukufu wake. (Zaburi 115:1) Kama tungekuwa na uwezo wa kifedha, tungechangia kazi na juhudi ambazo nyinyi nyote huko Charity na Ephrata mnazifanya… lakini hata hivyo tunathamini sana huduma zenu. Endeleeni kuwafikia watu hao katika mtandao wa kidini! (kwa mfano, Wahutterite, Waamishi, n.k.) Endeleeni kueneza habari njema kwa watu kote ulimwenguni, kwa njia ya kanda za sauti, machapisho na kadhalika. Huenda sisi ni maskini, lakini tunamwomba Mungu kwa ajili yenu! Tunawaombea kila siku.</p>\n  <p>Makala katika toleo la Mei/Juni 2004 la The Remnant kuhusu “The Passion” ilieleza jambo hilo vizuri. Nasema, “Amina, na Mungu asifiwe!!” Upotovu hauwezi kufunikwa kwa kupakwa rangi. Miti mibaya na iliyoharibika haiwezi kuzaa matunda mema. Hakuna mtu anayeenda kwenye pipa la taka kutafuta kitu cha kuandaa chakula! Je, tunaweza kufanya marekebisho ili kutuliza dhamiri zetu, tunapojua kwamba jambo fulani si sawa? Je, jambo lolote jema linaweza kutokana na kitu kilichoharibika kiasi hicho (Hollywood)? Wasipotubu, wote wataangamia vivyo hivyo. Tunawezaje kuvumilia kitu kinachotoka katika taasisi ovu: kurekodi uovu na kuwajaza watu uozo? “Tokeni kwake, enyi watu wangu, msipokee mapigo yake” hunijia akilini. (Ufu. 18:4) Nilithamini makala hiyo na ninatumaini wengine wataizingatia na kuiweka moyoni. Asanteni! Mungu awabariki sana!</p>\n  <p><em>Virginia</em></p>\n  <p>Heartbeat of the Remnant wapendwa,</p>\n  <p>Mungu awabariki kwa kusimama dhidi ya “Ibilisi,” dhidi ya falme, dhidi ya mamlaka, dhidi ya watawala wa giza la ulimwengu huu, dhidi ya uovu wa kiroho katika mahali pa juu (Waefeso 6:12), kwa ujasiri mkubwa hivyo mnapoonyesha heshima yenu kwa sinema. Ninasimama pamoja nanyi kabisa, ingawa niko umbali wa maili nyingi.</p>\n  <p><em>South Dakota</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Barua Zenye Thamani kutoka kwa Wasomaji Wetu"
+  }
+}
