@@ -78413,6 +78413,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
+      "html_sha256": "dba4c73d7f25ccdc4cc7c048be79f4864ada100526700e8a1ccc97f2803da24c",
+      "human_reviewed": false,
+      "id": "88345a38-6c33-495a-8407-f0fda29b67e0",
+      "images": [
+        {
+          "alt": "En brevlåda på en stolpe med blommor som växer runt den.",
+          "public_path": "/images/articles/88345a38-6c33-495a-8407-f0fda29b67e0-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/88345a38-6c33-495a-8407-f0fda29b67e0.json",
+      "metadata_sha256": "e1c7b256bc1977d8dfecf10f09bdace3d9cb916a5dc6f0f1d4fd2809ecc44c4f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "2ad7118fd859d76d9417cff527235dae66d0ed30",
+      "source_translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dyrbara brev från våra läsare",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "05a6cff0e4d06c6c6d4d8ea94de735b8e547e9357100d2ebec42ad2b21f29856",
       "human_reviewed": false,
