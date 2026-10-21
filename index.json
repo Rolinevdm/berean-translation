@@ -47719,6 +47719,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
+      "html_sha256": "e3b9f873457d339ea08df00b8d746ad6eef2ca9bf14bf59189eaf91cab1d6621",
+      "human_reviewed": false,
+      "id": "88345a38-6c33-495a-8407-f0fda29b67e0",
+      "images": [
+        {
+          "alt": "꽃이 자라는 가운데 기둥 위에 세워진 우편함.",
+          "public_path": "/images/articles/88345a38-6c33-495a-8407-f0fda29b67e0-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/88345a38-6c33-495a-8407-f0fda29b67e0.json",
+      "metadata_sha256": "c9f31f385b9f3176d16a299cf77085dd2a13b1f0d05fafebee5d367bf6c3b2ba",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "2ad7118fd859d76d9417cff527235dae66d0ed30",
+      "source_translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "독자들이 보내온 귀한 편지",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "058fba5cebc3432cf79d20c97edb031830c07df08fe10f7fb00a959d60fa7d4e",
       "human_reviewed": false,
