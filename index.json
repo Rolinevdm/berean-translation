@@ -2369,6 +2369,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
+      "html_sha256": "466cd1c7ec472536a804317485705725a42e251cb0f233373ac578211a118a06",
+      "human_reviewed": false,
+      "id": "88345a38-6c33-495a-8407-f0fda29b67e0",
+      "images": [
+        {
+          "alt": "’n Posbus op ’n paal met blomme wat rondom dit groei.",
+          "public_path": "/images/articles/88345a38-6c33-495a-8407-f0fda29b67e0-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/88345a38-6c33-495a-8407-f0fda29b67e0.json",
+      "metadata_sha256": "f1913d940f1c8d6378637ef08c13796e9763c5e1524f99eff7ca0a619db200cf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "2ad7118fd859d76d9417cff527235dae66d0ed30",
+      "source_translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kosbare briewe van ons lesers",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "ecabc9477deb308866b07fc58e40afafa4b1e7b56daf55c1fa269aff343fc952",
       "human_reviewed": false,
@@ -32530,6 +32558,34 @@
       "subtitle": null,
       "title": "जॉय का पतन",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/34125090-b480-4d63-b13a-33d47470f335.html",
+      "html_sha256": "95c39355c5cb40632445277e56d40199e50fd8f0061845d0828402dc28efbb4e",
+      "human_reviewed": false,
+      "id": "34125090-b480-4d63-b13a-33d47470f335",
+      "images": [
+        {
+          "alt": "ऊबड़-खाबड़ पर्वत चोटियों पर सूर्योदय",
+          "public_path": "/images/articles/34125090-b480-4d63-b13a-33d47470f335-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/34125090-b480-4d63-b13a-33d47470f335.json",
+      "metadata_sha256": "54d530055fabe4e07fdd1428a6325fe634a4f65ce9f585692c4d169ca3662330",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "नए नियम की कलीसिया",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
+      "status": "ready",
+      "subtitle": "शृंखला ‘शिष्यत्व का आह्वान’ का दूसरा लेख",
+      "title": "पवित्रता के लिए आह्वान",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -65945,6 +66001,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Этот уродливый белый складной нож",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
+      "html_sha256": "39c07d2d6a007b93ba6dea637d03568238f82a7d99e93cb0c9f2f0f40cd7ac28",
+      "human_reviewed": false,
+      "id": "88345a38-6c33-495a-8407-f0fda29b67e0",
+      "images": [
+        {
+          "alt": "Почтовый ящик на столбе, вокруг которого растут цветы.",
+          "public_path": "/images/articles/88345a38-6c33-495a-8407-f0fda29b67e0-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/88345a38-6c33-495a-8407-f0fda29b67e0.json",
+      "metadata_sha256": "b1a4e7d7dd0ed3da8a06490a3bb60e1e528d8cccbdf4830cd5f8c2ee6a891f99",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "2ad7118fd859d76d9417cff527235dae66d0ed30",
+      "source_translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Драгоценные письма наших читателей",
       "translation_model": "gpt-6-luna"
     },
     {
