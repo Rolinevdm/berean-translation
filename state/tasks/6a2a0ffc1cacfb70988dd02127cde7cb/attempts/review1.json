@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-21T09:34:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"두 번째 독자 편지, 첫 번째 문단\",\"severity\":\"major\",\"source_quote\":\"“some spiritual gift that I might be established,”\",\"suggested_fix\":\"인용문을 “내가 견고하게 되도록 어떤 신령한 은사를”로 고쳐, 은사를 나누는 목적이 화자를 견고하게 하는 것임을 살려 주세요.\",\"translation_quote\":\"“내가 너희를 견고하게 하려고 어떤 신령한 은사를 너희에게 나누어 주기를”\"} ,{\"location\":\"이미지 대체 텍스트\",\"severity\":\"minor\",\"source_quote\":\"A mailbox on a post with flowers growing around it.\",\"suggested_fix\":\"“꽃이 자라는 가운데 기둥 위에 세워진 우편함.”\",\"translation_quote\":\"꽃이 자라는 우편함 주변에 세워진 우편함.\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 833,
+    "content_evidence_truncated": false,
+    "content_sha256": "73a1634f9267c3c8f75fc19bc4c18c9fc20a72232f3de7f8c9f036b7d50a33af",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1030,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 809,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4187,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4184,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5217
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

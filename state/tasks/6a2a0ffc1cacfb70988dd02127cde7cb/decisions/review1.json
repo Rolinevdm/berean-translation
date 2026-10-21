@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "두 번째 독자 편지, 첫 번째 문단",
+      "severity": "major",
+      "source_quote": "“some spiritual gift that I might be established,”",
+      "suggested_fix": "인용문을 “내가 견고하게 되도록 어떤 신령한 은사를”로 고쳐, 은사를 나누는 목적이 화자를 견고하게 하는 것임을 살려 주세요.",
+      "translation_quote": "“내가 너희를 견고하게 하려고 어떤 신령한 은사를 너희에게 나누어 주기를”"
+    },
+    {
+      "location": "이미지 대체 텍스트",
+      "severity": "minor",
+      "source_quote": "A mailbox on a post with flowers growing around it.",
+      "suggested_fix": "“꽃이 자라는 가운데 기둥 위에 세워진 우편함.”",
+      "translation_quote": "꽃이 자라는 우편함 주변에 세워진 우편함."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

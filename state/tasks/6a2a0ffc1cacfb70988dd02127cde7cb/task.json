@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dc18d0f312cd4976a94cfd174ff1179e",
   "campaign": "auto-966b75173960fd5dbaeecf84ca6505faef885358ec093806235a508989a943d2",
   "created_at": "2026-10-21T00:00:19+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 4000
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1030,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 809,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4187,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4184,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5217
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "두 번째 독자 편지, 첫 번째 문단",
+      "severity": "major",
+      "source_quote": "“some spiritual gift that I might be established,”",
+      "suggested_fix": "인용문을 “내가 견고하게 되도록 어떤 신령한 은사를”로 고쳐, 은사를 나누는 목적이 화자를 견고하게 하는 것임을 살려 주세요.",
+      "translation_quote": "“내가 너희를 견고하게 하려고 어떤 신령한 은사를 너희에게 나누어 주기를”"
+    },
+    {
+      "location": "이미지 대체 텍스트",
+      "severity": "minor",
+      "source_quote": "A mailbox on a post with flowers growing around it.",
+      "suggested_fix": "“꽃이 자라는 가운데 기둥 위에 세워진 우편함.”",
+      "translation_quote": "꽃이 자라는 우편함 주변에 세워진 우편함."
+    }
+  ],
   "id": "6a2a0ffc1cacfb70988dd02127cde7cb",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "kor",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3693df14313d787d83419a40947805931d85c8c79a2ea3d26820e34d7f25ec8.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.087175,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
   "translation_model_actual": "gpt-6-luna"
