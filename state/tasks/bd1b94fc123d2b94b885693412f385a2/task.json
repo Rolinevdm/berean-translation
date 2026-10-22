@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9b66c47b813241fbbaa66599db92211b",
   "campaign": "auto-17294eb6885d624bed9d46b7e6e41cf6b2bcac2c39c956ba4590ce733c707099",
   "created_at": "2026-10-21T14:40:44+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 7148
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 54,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 22,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4752,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4749,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4806
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Quoted introduction, first paragraph",
-      "severity": "major",
-      "source_quote": "COALS OF FIRE tells the stories of men and women who practiced doing good for evil.",
-      "suggested_fix": "ΤΟ ΚΑΡΒΟΥΝΑ ΦΩΤΙΑΣ διηγείται τις ιστορίες ανδρών και γυναικών που ανταπέδιδαν το κακό με το καλό.",
-      "translation_quote": "ΤΟ ΚΑΡΒΟΥΝΑ ΦΩΤΙΑΣ διηγείται τις ιστορίες ανδρών και γυναικών που έκαναν το καλό αντί για το κακό."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-22T05:26:54+00:00",
   "id": "bd1b94fc123d2b94b885693412f385a2",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ell",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/caa20f1dd068bdb02a8ed6b709d207800490e5c51d35d78d87d83d2a83e2df3a.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.559296,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
   "translation_model_actual": "gpt-6.1-sol"
