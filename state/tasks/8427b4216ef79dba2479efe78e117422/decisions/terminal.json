@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Precious Letters from Our Readers",
+      "suggested_fix": "Verdifulle brev fra leserne våre",
+      "translation_quote": "Kjære brev fra leserne våre"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8394003b4171409aa69f1c5f87a07a00",
   "campaign": "auto-1694ad78b65a5be8b1f360ad883254ca7c64b0d3309961cc0ab643fec95de6b7",
   "created_at": "2026-10-21T14:38:28+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 5498
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 503,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 427,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4075,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4072,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4578
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph 6",
-      "severity": "major",
-      "source_quote": "the little church of Scotland at Broadford still faithfully preaches God’s plan of salvation",
-      "suggested_fix": "Gjør kirkesamfunnet tydelig, for eksempel: «den lille Church of Scotland-menigheten i Broadford forkynner fremdeles trofast Guds frelsesplan»",
-      "translation_quote": "den lille skotske kirken i Broadford forkynner fremdeles trofast Guds frelsesplan"
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Precious Letters from Our Readers",
+      "suggested_fix": "Verdifulle brev fra leserne våre",
+      "translation_quote": "Kjære brev fra leserne våre"
     }
   ],
+  "finished_at": "2026-10-22T00:02:39+00:00",
   "id": "8427b4216ef79dba2479efe78e117422",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "nob",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.087175,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
   "translation_model_actual": "gpt-6-luna"

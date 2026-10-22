@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b7d529fd-f420-47ff-9e51-336d608ff423",
+    "response_id": "chatcmpl-EbZ6IuNsehDTz52uBgRmnzJALE9mo",
+    "usage": {
+      "completion_tokens": 503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 427,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4075,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4072,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4578
+    }
+  },
+  "received_at": "2026-10-22T00:02:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "Precious Letters from Our Readers",
+        "suggested_fix": "Verdifulle brev fra leserne våre",
+        "translation_quote": "Kjære brev fra leserne våre"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

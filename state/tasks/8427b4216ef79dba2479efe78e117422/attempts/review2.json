@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-22T00:02:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"title\",\"severity\":\"minor\",\"source_quote\":\"Precious Letters from Our Readers\",\"suggested_fix\":\"Verdifulle brev fra leserne våre\",\"translation_quote\":\"Kjære brev fra leserne våre\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 259,
+    "content_evidence_truncated": false,
+    "content_sha256": "06b1660b679011edf447c6baf8d0a1dd46b49822177a72364a4a9b4fc323ced1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 427,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4075,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4072,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4578
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
