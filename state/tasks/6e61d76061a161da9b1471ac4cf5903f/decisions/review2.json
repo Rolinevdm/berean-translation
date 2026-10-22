@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, third poem stanza, lines 3–4",
+      "severity": "major",
+      "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
+      "suggested_fix": "خُذْ منه سلطانًا على الأرض لتطأ به لدغةَ الحية ورأسَ التنين.",
+      "translation_quote": "خذ منه سلطانًا لتطأ به على الأرض، / لدغة الحية ورأس التنين."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
