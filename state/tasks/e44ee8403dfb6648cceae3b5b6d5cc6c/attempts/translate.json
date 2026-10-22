@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-22T21:45:58+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\\\" alt=\\\"Un arbre à feuilles persistantes au bord d’un lac, avec des arbustes et un versant montagneux enneigé.\\\">\\n  </figure>\\n  <p class=\\\"poem\\\"><strong><em>Quand des murailles montagneuses barrent le chemin.<br>\\nPourquoi rester assis à pleurer ? Lève-toi et dis :<br>\\n« Sois déplacée », et elles seront<br>\\nPar la puissance de Dieu, jetées dans la mer.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Tout pouvoir sur la terre, tout pouvoir dans les cieux,<br>\\nA été donné au Christ, le Fils de Dieu ;<br>\\nEt du trône, il te revêtira de puissance,<br>\\nEt les obstacles s’enfuiront loin de toi.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Au-dessus de toute puissance des démons et des hommes,<br>\\nDis par le Seigneur : « Je le peux sûrement » ;<br>\\nReçois de lui le pouvoir de fouler aux pieds sur la terre<br>\\nLe dard du serpent, la tête du dragon.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Quelle que soit ta nature, ô haute montagne,<br>\\nOù que tu sois, sur la terre ou dans le ciel,<br>\\nQuel que soit le moment, la vérité reste la même :<br>\\n« Sois déplacée au nom de Jésus. »</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>« Sois déplacée », la foi t’ordonne de partir ;<br>\\nLà-bas, regarde : lève-toi ! Éloigne-toi !<br>\\nJe peux, je suis capable, je dois, je veux<br>\\nAccomplir le dessein de mon Dieu.</em></strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Autorité\"}",
+    "content_bytes": 1641,
+    "content_evidence_truncated": false,
+    "content_sha256": "36d0461b3830740adc2229fec8118437f9e4600679ee95c1b4b98c6335546ef3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 532,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1255,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1252,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1787
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
