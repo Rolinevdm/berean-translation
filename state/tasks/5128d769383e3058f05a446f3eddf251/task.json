@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b76899c699454239b1a50a4a2762ac47",
   "campaign": "auto-cd13afb6cddb33be740e76c276094149d0bb8bbed9e8fbd2b5674465b64c4ecf",
   "created_at": "2026-10-22T05:29:46+00:00",
   "events": [
@@ -48,18 +47,47 @@
         },
         "total_tokens": 2807
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 830,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 607,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2155,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2152,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2985
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[8]: source /article[1]/p[1]/strong[1]/em[1]/br[2] ('start', 'br', ()); translation /article[1]/p[1]/strong[1]/em[1] ('end', 'em')",
-      "translation_quote": ""
+      "location": "तीसरे पद की तीसरी और चौथी पंक्तियाँ",
+      "severity": "major",
+      "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
+      "suggested_fix": "उससे यह सामर्थ्य लो कि धरती पर साँप के डंक और अजगर के सिर को रौंद सको।",
+      "translation_quote": "उससे धरती पर चलने की शक्ति लो, / साँप के डंक पर, अजगर के सिर पर।"
+    },
+    {
+      "location": "पाँचवें पद की तीसरी पंक्ति",
+      "severity": "minor",
+      "source_quote": "I may, I can, I must, I will,",
+      "suggested_fix": "मैं कर सकूँ, मैं कर सकता हूँ, मुझे करना है, मैं करूँगा,",
+      "translation_quote": "मैं कर सकता हूँ, मुझे करना है, मैं अवश्य करूँगा,"
     }
   ],
+  "finished_at": "2026-10-22T19:24:39+00:00",
   "id": "5128d769383e3058f05a446f3eddf251",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "hin",
@@ -148,9 +176,11 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/36c1344ee0245739bb81ba3ef00758948f44408fcf6943a9e6059817851882bf.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +196,7 @@
     "total_reserved_usd": 0.086026,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
   "translation_model_actual": "gpt-6-luna"
