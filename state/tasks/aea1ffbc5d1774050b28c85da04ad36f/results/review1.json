@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "faa89e8f-af13-4c7a-bb93-a9e53df2464b",
+    "response_id": "chatcmpl-Ebk5hsEOKrYQvbMb4sXRTmW4yv28B",
+    "usage": {
+      "completion_tokens": 965,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 722,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2126,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1023,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3091
+    }
+  },
+  "received_at": "2026-10-22T10:33:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poema, tercera estrofa, versos 2–4",
+        "severity": "major",
+        "source_quote": "Say through the Lord, “I surely can” / Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
+        "suggested_fix": "«Di por medio del Señor: “Sin duda puedo”; / tomo de Él poder para pisar / sobre el aguijón de la serpiente y la cabeza del dragón»",
+        "translation_quote": "di por medio del Señor: «Sin duda puedo»; / recibe de Él poder para pisar en la tierra / la ponzoña de la serpiente y la cabeza del dragón."
+      },
+      {
+        "location": "Poema, quinta estrofa, verso 3",
+        "severity": "minor",
+        "source_quote": "I may, I can, I must, I will,",
+        "suggested_fix": "«Puedo, soy capaz, debo, lo haré»",
+        "translation_quote": "Puedo, soy capaz, debo, quiero"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

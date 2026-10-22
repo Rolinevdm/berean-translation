@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f66b1dcaf36b4008a0983c0a8393698e",
   "campaign": "auto-96143e056f74542c6610f67aeeaa6e3d730b37f8a6ad0faa953124ff0aefb653",
   "created_at": "2026-10-22T04:39:25+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 1946
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 965,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 722,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2126,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1023,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3091
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Poema, tercera estrofa, versos 2–4",
+      "severity": "major",
+      "source_quote": "Say through the Lord, “I surely can” / Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
+      "suggested_fix": "«Di por medio del Señor: “Sin duda puedo”; / tomo de Él poder para pisar / sobre el aguijón de la serpiente y la cabeza del dragón»",
+      "translation_quote": "di por medio del Señor: «Sin duda puedo»; / recibe de Él poder para pisar en la tierra / la ponzoña de la serpiente y la cabeza del dragón."
+    },
+    {
+      "location": "Poema, quinta estrofa, verso 3",
+      "severity": "minor",
+      "source_quote": "I may, I can, I must, I will,",
+      "suggested_fix": "«Puedo, soy capaz, debo, lo haré»",
+      "translation_quote": "Puedo, soy capaz, debo, quiero"
+    }
+  ],
   "id": "aea1ffbc5d1774050b28c85da04ad36f",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "spa",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/36c1344ee0245739bb81ba3ef00758948f44408fcf6943a9e6059817851882bf.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.086035,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
   "translation_model_actual": "gpt-6-luna"

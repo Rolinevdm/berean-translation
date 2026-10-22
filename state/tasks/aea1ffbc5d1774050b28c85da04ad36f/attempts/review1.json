@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-22T10:33:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poema, tercera estrofa, versos 2–4\",\"severity\":\"major\",\"source_quote\":\"Say through the Lord, “I surely can” / Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.\",\"suggested_fix\":\"«Di por medio del Señor: “Sin duda puedo”; / tomo de Él poder para pisar / sobre el aguijón de la serpiente y la cabeza del dragón»\",\"translation_quote\":\"di por medio del Señor: «Sin duda puedo»; / recibe de Él poder para pisar en la tierra / la ponzoña de la serpiente y la cabeza del dragón.\"},{\"location\":\"Poema, quinta estrofa, verso 3\",\"severity\":\"minor\",\"source_quote\":\"I may, I can, I must, I will,\",\"suggested_fix\":\"«Puedo, soy capaz, debo, lo haré»\",\"translation_quote\":\"Puedo, soy capaz, debo, quiero\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 827,
+    "content_evidence_truncated": false,
+    "content_sha256": "ea01de112cbeaa9647cec7adb5c45f8d57ac1a5340484c2c8dc4cffc927b4c2e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 965,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 722,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2126,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1023,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3091
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
