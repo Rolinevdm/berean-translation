@@ -5,6 +5,7 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
+  "batch": "82826576d51443d4a88139cd44be3f72",
   "campaign": "auto-5c673f83a5269ca5c67dd6adafa08c6a23ae6c335f4338cc085c482090da77f8",
   "created_at": "2026-10-22T19:25:21+00:00",
   "events": [],
@@ -115,8 +116,8 @@
     "total_reserved_usd": 0.086029,
     "version": 1
   },
-  "status": "queued",
-  "translation_attempts": 0,
+  "status": "in_batch",
+  "translation_attempts": 1,
   "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
   "translation_model_actual": null
 }
