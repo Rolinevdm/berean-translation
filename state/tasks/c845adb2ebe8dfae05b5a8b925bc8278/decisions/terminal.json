@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html, parágrafo após o título «…Os últimos», frase após Isaías 53:3",
+      "severity": "major",
+      "source_quote": "He [was] despised and rejected of men… –Isaiah 53:3, and He was deposed of at the earliest opportunity.",
+      "suggested_fix": "Substituir «e foi destituído na primeira oportunidade» por «e foi morto na primeira oportunidade».",
+      "translation_quote": "Ele [era] desprezado e rejeitado pelos homens… –Isaías 53:3, e foi destituído na primeira oportunidade."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a separately funded continuation must pass admission",
+  "stage": "terminal"
+}

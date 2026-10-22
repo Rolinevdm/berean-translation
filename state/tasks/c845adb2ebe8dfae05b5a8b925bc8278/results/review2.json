@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "d3f0ffbf-0d38-4624-b124-baf61313c776",
+    "response_id": "chatcmpl-EbuzsiOewJES33989Vgk7NazIOjua",
+    "usage": {
+      "completion_tokens": 262,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 80,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8827,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8824,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9089
+    }
+  },
+  "received_at": "2026-10-22T21:53:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, parágrafo após o título «…Os últimos», frase após Isaías 53:3",
+        "severity": "major",
+        "source_quote": "He [was] despised and rejected of men… –Isaiah 53:3, and He was deposed of at the earliest opportunity.",
+        "suggested_fix": "Substituir «e foi destituído na primeira oportunidade» por «e foi morto na primeira oportunidade».",
+        "translation_quote": "Ele [era] desprezado e rejeitado pelos homens… –Isaías 53:3, e foi destituído na primeira oportunidade."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

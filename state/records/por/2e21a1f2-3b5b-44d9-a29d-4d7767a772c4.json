@@ -19,6 +19,12 @@
       "event": "automatic_requested",
       "previous_task": "6c70bb15e3804ac7530128c3a3614ca3",
       "task": "c845adb2ebe8dfae05b5a8b925bc8278"
+    },
+    {
+      "at": "2026-10-22T21:53:13+00:00",
+      "event": "not_ready",
+      "reason": "Final review failed; a separately funded continuation must pass admission",
+      "task": "c845adb2ebe8dfae05b5a8b925bc8278"
     }
   ],
   "language": "por",
