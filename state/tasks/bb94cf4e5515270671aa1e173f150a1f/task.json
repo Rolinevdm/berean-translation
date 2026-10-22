@@ -5,11 +5,34 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1f6a28145abb4301a742ba264a9f8d64",
   "campaign": "auto-ac297a5262fe74464d9480eed2e9bcb09afbfa90cac3e2fcea7f53f67f1ec2c8",
   "created_at": "2026-10-21T14:38:41+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 60,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 28,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3158,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3155,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3218
+      }
+    }
+  ],
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[5]: source /article[1]/blockquote[1]/p[1]/em[1]/br[2] ('start', 'br', ()); translation /article[1]/blockquote[1]/p[1]/em[1] ('end', 'em')",
+  "failure_kind": "invalid_result",
   "findings": [],
+  "finished_at": "2026-10-22T04:31:29+00:00",
   "id": "bb94cf4e5515270671aa1e173f150a1f",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "cmn",
@@ -98,9 +121,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/6b69ec32f3c591dde06bdc79dc3a851fd71299993e0486d80e9e5fc9fe8b1d86.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +140,7 @@
     "total_reserved_usd": 0.690773,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 0,
   "translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3",
   "translation_model_actual": "gpt-6-luna"
