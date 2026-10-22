@@ -24301,6 +24301,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.html",
+      "html_sha256": "966749bdac3fb8bc83d54f355ea38fd38dcb438e19a21aadcf0c46f1fda7ad64",
+      "human_reviewed": false,
+      "id": "fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd",
+      "images": [
+        {
+          "alt": "Εξώφυλλο του βιβλίου Κάρβουνα φωτιάς της Elizabeth Hershberger Bauman",
+          "public_path": "/images/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.json",
+      "metadata_sha256": "75f943778704c0b868afd1c9bef24c2c6ebe2d99a4d3a2c955a6c585833aa7d9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Το ράφι των βιβλίων",
+      "source_revision": "992debda63d6be4a08362d2a463694f3df221977",
+      "source_translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Κάρβουνα φωτιάς",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.html",
       "html_sha256": "70dcc59651afea398907e27ffe93658904f14913573f66d3666554d81462eba4",
       "human_reviewed": false,
