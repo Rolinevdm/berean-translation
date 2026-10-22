@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html, seção «…Os menos importantes», parágrafo sobre as aves",
+      "severity": "major",
+      "source_quote": "a mansion for the martins",
+      "suggested_fix": "Substituir «uma mansão para os andorinhões» por «uma mansão para as andorinhas».",
+      "translation_quote": "uma mansão para os andorinhões"
+    },
+    {
+      "location": "html, seção «…Os menos importantes», último parágrafo",
+      "severity": "major",
+      "source_quote": "the God who watches every sparrow fall esteems the lesser ones of much greater value than we do.",
+      "suggested_fix": "Substituir a oração final por «mas o Deus que observa a queda de cada pardal dá aos menos importantes muito mais valor do que nós lhes damos».",
+      "translation_quote": "o Deus que observa a queda de cada pardal considera os menos importantes muito mais valiosos do que nós."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

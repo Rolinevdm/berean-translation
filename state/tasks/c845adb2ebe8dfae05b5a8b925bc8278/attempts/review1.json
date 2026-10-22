@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-22T10:05:40+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, seção «…Os menos importantes», parágrafo sobre as aves\",\n      \"severity\": \"major\",\n      \"source_quote\": \"a mansion for the martins\",\n      \"suggested_fix\": \"Substituir «uma mansão para os andorinhões» por «uma mansão para as andorinhas».\",\n      \"translation_quote\": \"uma mansão para os andorinhões\"\n    },\n    {\n      \"location\": \"html, seção «…Os menos importantes», último parágrafo\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the God who watches every sparrow fall esteems the lesser ones of much greater value than we do.\",\n      \"suggested_fix\": \"Substituir a oração final por «mas o Deus que observa a queda de cada pardal dá aos menos importantes muito mais valor do que nós lhes damos».\",\n      \"translation_quote\": \"o Deus que observa a queda de cada pardal considera os menos importantes muito mais valiosos do que nós.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 996,
+    "content_evidence_truncated": false,
+    "content_sha256": "484216720cdfaad96a293d6e51458b684223b834c5799d9329f4dae5e3971778",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 413,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 152,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8813,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7710,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9226
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

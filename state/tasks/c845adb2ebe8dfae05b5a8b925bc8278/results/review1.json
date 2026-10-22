@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "682219e6-7af2-48c5-b1d8-bdb19c7f4387",
+    "response_id": "chatcmpl-Ebfkop4PIRmBjMYuG8JHgoHyv60nI",
+    "usage": {
+      "completion_tokens": 413,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 152,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8813,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7710,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9226
+    }
+  },
+  "received_at": "2026-10-22T10:05:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, seção «…Os menos importantes», parágrafo sobre as aves",
+        "severity": "major",
+        "source_quote": "a mansion for the martins",
+        "suggested_fix": "Substituir «uma mansão para os andorinhões» por «uma mansão para as andorinhas».",
+        "translation_quote": "uma mansão para os andorinhões"
+      },
+      {
+        "location": "html, seção «…Os menos importantes», último parágrafo",
+        "severity": "major",
+        "source_quote": "the God who watches every sparrow fall esteems the lesser ones of much greater value than we do.",
+        "suggested_fix": "Substituir a oração final por «mas o Deus que observa a queda de cada pardal dá aos menos importantes muito mais valor do que nós lhes damos».",
+        "translation_quote": "o Deus que observa a queda de cada pardal considera os menos importantes muito mais valiosos do que nós."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
