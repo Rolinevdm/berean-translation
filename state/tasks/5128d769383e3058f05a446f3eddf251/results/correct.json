@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c693896e-a308-4d80-be3b-c3493edad1d4",
+    "response_id": "chatcmpl-EbmVCVkAHSLfGCeeNBkpZnExPwmhU",
+    "usage": {
+      "completion_tokens": 885,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 336,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1922,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1919,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2807
+    }
+  },
+  "received_at": "2026-10-22T15:13:21+00:00",
+  "result": {
+    "html": "<article data-article-id=\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\">\n  <figure>\n    <img src=\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\" alt=\"झील के किनारे एक सदाबहार पेड़, साथ में झाड़ियाँ और बर्फ़ से ढकी पहाड़ी ढलान।\">\n  </figure>\n  <p class=\"poem\"><strong><em>जब पर्वत-दीवारें राह रोककर खड़ी हों।<br>\nक्यों बैठकर रोते हो? उठो और कहो,<br>\n“हट जा”—और वे परमेश्वर की शक्ति से<br>\nसमुद्र में जा पड़ेंगी।</em></strong></p>\n  <p class=\"poem\"><strong><em>धरती पर और स्वर्ग में सारी शक्ति<br>\nपरमेश्वर के पुत्र मसीह को दी गई है;<br>\nऔर सिंहासन से वह तुम्हें सामर्थ्य देगा,<br>\nऔर बाधाएँ तुमसे दूर भागेंगी।</em></strong></p>\n  <p class=\"poem\"><strong><em>दुष्टात्मा और मनुष्य की सारी शक्ति पर<br>\nप्रभु के द्वारा कहो, “मैं निश्चय ही कर सकता हूँ।”<br>\nउससे धरती पर चलने की शक्ति लो,<br>\nसाँप के डंक पर, अजगर के सिर पर।</em></strong></p>\n  <p class=\"poem\"><strong><em>तू चाहे जो हो, हे ऊँचे पर्वत,<br>\nधरती पर या आकाश में जहाँ भी हो,<br>\nतू जब भी हो, सत्य वही रहता है,<br>\n“यीशु के नाम में हट जा।”</em></strong></p>\n  <p class=\"poem\"><strong><em>“हट जा”—विश्वास तुझे आगे बढ़ने को कहता है,<br>\nदेख, वहाँ—उठ! चल, दूर हो जा!<br>\nमैं कर सकता हूँ, मुझे करना है, मैं अवश्य करूँगा,<br>\nअपने परमेश्वर का उद्देश्य पूरा करूँगा।</em></strong></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "अधिकार"
+  }
+}
