@@ -1,0 +1,66 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "1deab718-c3e6-458b-87ac-5f0eb42eb57b",
+    "response_id": "chatcmpl-Ebeqcrpc0XvHnN3bxYxpVYKGbAswb",
+    "usage": {
+      "completion_tokens": 915,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 126,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8511,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8508,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9426
+    }
+  },
+  "received_at": "2026-10-22T04:38:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html: sämtliche englisch benannten Schriftverweise",
+        "severity": "minor",
+        "source_quote": "Matthew 4:18-22; Matthew 3:11-12; Luke 8:1-3; John 20:15-16; Luke 5:20; Luke 5:21; Luke 5:22-24; Romans 10:3; Isaiah 64:6; Ephesians 1:7; Luke 7:37-39; Luke 7:44-47; Luke 7:48; Matthew 1:21",
+        "suggested_fix": "Die Buchnamen an diesen Stellen eindeutschen: Matthew → Matthäus, Luke → Lukas, John → Johannes, Romans → Römer, Isaiah → Jesaja, Ephesians → Epheser. Alle Kapitel- und Verszahlen sowie Positionen unverändert lassen.",
+        "translation_quote": "Matthew 4:18-22; Matthew 3:11-12; Luke 8:1-3; John 20:15-16; Luke 5:20; Luke 5:21; Luke 5:22-24; Romans 10:3; Isaiah 64:6; Ephesians 1:7; Luke 7:37-39; Luke 7:44-47; Luke 7:48; Matthew 1:21"
+      },
+      {
+        "location": "translation.html: Absatz mit Jesaja 64:6",
+        "severity": "minor",
+        "source_quote": "and our iniquities, like the wind, have taken us away",
+        "suggested_fix": "„und unsere Missetaten haben uns wie der Wind hinweggetragen“ einsetzen.",
+        "translation_quote": "und unsere Missetaten haben unssgeschehen wie der Wind weggeführt"
+      },
+      {
+        "location": "translation.html: Absätze über die Auserwählten, Maria Magdalena und Römer 10:3",
+        "severity": "minor",
+        "source_quote": "were set forth as the chosen ones; One such disciple was Mary Magdalene; have not submitted themselves unto the righteousness of God",
+        "suggested_fix": "Die betreffenden Stellen korrigieren zu: „wurden als die Auserwählten herausgestellt“, „Eine solche Jüngerin war Maria Magdalena“ und „haben sich der Gerechtigkeit Gottes nicht untergeordnet“.",
+        "translation_quote": "wurden als die Auserwählten hervorgetreten; Einer solchen Jüngerin war Maria Magdalena; haben sich der Gerechtigkeit Gottes nicht unterordnet"
+      },
+      {
+        "location": "translation.html: Absatz „Jesus nachzufolgen heißt …“",
+        "severity": "minor",
+        "source_quote": "a form of godliness that falls short of Christ’s righteousness",
+        "suggested_fix": "„einer Form der Frömmigkeit […], die hinter der Gerechtigkeit Christi zurückbleibt“ verwenden.",
+        "translation_quote": "einer Form der Frömmigkeit […], die kürzer ist als die Gerechtigkeit Christi"
+      },
+      {
+        "location": "translation.section",
+        "severity": "minor",
+        "source_quote": "The New Testament Church",
+        "suggested_fix": "„Die neutestamentliche Gemeinde“ verwenden; „Urkirche“ fügt eine im Ausgangstitel nicht ausdrücklich enthaltene zeitliche Eingrenzung hinzu.",
+        "translation_quote": "Die Urkirche des Neuen Testaments"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 95
+  }
+}

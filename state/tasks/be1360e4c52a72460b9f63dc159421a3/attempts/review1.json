@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-22T04:38:34+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html: sämtliche englisch benannten Schriftverweise\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Matthew 4:18-22; Matthew 3:11-12; Luke 8:1-3; John 20:15-16; Luke 5:20; Luke 5:21; Luke 5:22-24; Romans 10:3; Isaiah 64:6; Ephesians 1:7; Luke 7:37-39; Luke 7:44-47; Luke 7:48; Matthew 1:21\",\n      \"suggested_fix\": \"Die Buchnamen an diesen Stellen eindeutschen: Matthew → Matthäus, Luke → Lukas, John → Johannes, Romans → Römer, Isaiah → Jesaja, Ephesians → Epheser. Alle Kapitel- und Verszahlen sowie Positionen unverändert lassen.\",\n      \"translation_quote\": \"Matthew 4:18-22; Matthew 3:11-12; Luke 8:1-3; John 20:15-16; Luke 5:20; Luke 5:21; Luke 5:22-24; Romans 10:3; Isaiah 64:6; Ephesians 1:7; Luke 7:37-39; Luke 7:44-47; Luke 7:48; Matthew 1:21\"\n    },\n    {\n      \"location\": \"translation.html: Absatz mit Jesaja 64:6\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"and our iniquities, like the wind, have taken us away\",\n      \"suggested_fix\": \"„und unsere Missetaten haben uns wie der Wind hinweggetragen“ einsetzen.\",\n      \"translation_quote\": \"und unsere Missetaten haben unssgeschehen wie der Wind weggeführt\"\n    },\n    {\n      \"location\": \"translation.html: Absätze über die Auserwählten, Maria Magdalena und Römer 10:3\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"were set forth as the chosen ones; One such disciple was Mary Magdalene; have not submitted themselves unto the righteousness of God\",\n      \"suggested_fix\": \"Die betreffenden Stellen korrigieren zu: „wurden als die Auserwählten herausgestellt“, „Eine solche Jüngerin war Maria Magdalena“ und „haben sich der Gerechtigkeit Gottes nicht untergeordnet“.\",\n      \"translation_quote\": \"wurden als die Auserwählten hervorgetreten; Einer solchen Jüngerin war Maria Magdalena; haben sich der Gerechtigkeit Gottes nicht unterordnet\"\n    },\n    {\n      \"location\": \"translation.html: Absatz „Jesus nachzufolgen heißt …“\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"a form of godliness that falls short of Christ’s righteousness\",\n      \"suggested_fix\": \"„einer Form der Frömmigkeit […], die hinter der Gerechtigkeit Christi zurückbleibt“ verwenden.\",\n      \"translation_quote\": \"einer Form der Frömmigkeit […], die kürzer ist als die Gerechtigkeit Christi\"\n    },\n    {\n      \"location\": \"translation.section\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"The New Testament Church\",\n      \"suggested_fix\": \"„Die neutestamentliche Gemeinde“ verwenden; „Urkirche“ fügt eine im Ausgangstitel nicht ausdrücklich enthaltene zeitliche Eingrenzung hinzu.\",\n      \"translation_quote\": \"Die Urkirche des Neuen Testaments\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 95\n}",
+    "content_bytes": 2812,
+    "content_evidence_truncated": false,
+    "content_sha256": "a50ee3dbb3e41d68aac0002add5b79eb66ddb50c31286f1263b0bcf7a3e7c7f5",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 915,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 126,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8511,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8508,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9426
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
