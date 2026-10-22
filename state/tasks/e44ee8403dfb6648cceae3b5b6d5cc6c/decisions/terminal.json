@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Stanza 1, line 3; stanza 4, final line; stanza 5, line 1",
+      "severity": "minor",
+      "source_quote": "“Be thou removed”",
+      "suggested_fix": "Pour une formulation plus idiomatique en français, remplacer « Sois déplacée » par « Déplace-toi » dans ces trois occurrences.",
+      "translation_quote": "« Sois déplacée »"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

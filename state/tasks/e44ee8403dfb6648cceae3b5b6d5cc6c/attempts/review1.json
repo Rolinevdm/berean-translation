@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-22T21:53:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Stanza 1, line 3; stanza 4, final line; stanza 5, line 1\",\"severity\":\"minor\",\"source_quote\":\"“Be thou removed”\",\"suggested_fix\":\"Pour une formulation plus idiomatique en français, remplacer « Sois déplacée » par « Déplace-toi » dans ces trois occurrences.\",\"translation_quote\":\"« Sois déplacée »\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 391,
+    "content_evidence_truncated": false,
+    "content_sha256": "93616c93071ba660a04093a23416dcccafe14b47b55378dad8ff585fd019f4d2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 865,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 744,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2141,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2138,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3006
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
