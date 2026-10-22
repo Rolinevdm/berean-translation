@@ -7,10 +7,9 @@
     "active": 3,
     "already_translated": 108,
     "automatic_budget_blocked": 529,
-    "continuation_cooldown": 1,
     "continuation_progress_uncertain_requires_attention": 2,
     "continuation_repeated_findings_requires_attention": 1,
-    "eligible_automatic": 1012,
+    "eligible_automatic": 1013,
     "legacy_response_outcome_unknown_requires_owner_attention": 12,
     "pending_automatic_admission": 47,
     "provider_refusal_requires_owner_attention": 3,
@@ -11477,7 +11476,7 @@
       "language": "por",
       "latest_task": "c845adb2ebe8dfae05b5a8b925bc8278",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown"
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
