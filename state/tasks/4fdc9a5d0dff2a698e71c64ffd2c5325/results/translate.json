@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "beb10b94-8273-4cb3-9eae-d548ddc1ca7b",
+    "response_id": "chatcmpl-EbabuL3IEXOrL4fKUp2trdb4xeJeO",
+    "usage": {
+      "completion_tokens": 512,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1265,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1262,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1777
+    }
+  },
+  "received_at": "2026-10-22T00:12:22+00:00",
+  "result": {
+    "html": "<article data-article-id=\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\">\n  <figure>\n    <img src=\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\" alt=\"湖边一棵常青树，旁有灌木丛和覆雪的山坡。\">\n  </figure>\n  <p class=\"poem\"><strong><em>山壁横挡前路时，<br>\n为何坐地哭泣？起来宣告：<br>\n“你当挪开！”它们就要<br>\n因上帝的大能被抛进海里。</em></strong></p>\n  <p class=\"poem\"><strong><em>地上一切权柄，天上一切权柄，<br>\n都赐给了上帝的儿子基督；<br>\n他要从宝座赐下能力，<br>\n一切拦阻都必离开你。</em></strong></p>\n  <p class=\"poem\"><strong><em>胜过魔鬼与世人的一切权势，<br>\n靠着主宣告：“我必定能！”<br>\n从他领受在地上践踏的权柄，<br>\n践踏蛇的毒刺，踏碎龙的头。</em></strong></p>\n  <p class=\"poem\"><strong><em>无论你是什么高山，<br>\n无论你在地上还是天上，<br>\n无论你何时出现，真理始终如一：<br>\n“奉耶稣之名，你当挪开。”</em></strong></p>\n  <p class=\"poem\"><strong><em>信心吩咐你：“你当挪开！”<br>\n看那边——起来！离开！<br>\n我可以，我能，我必须，我必定<br>\n成就我上帝的旨意。</em></strong></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "权柄"
+  }
+}
