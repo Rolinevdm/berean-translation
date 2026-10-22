@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, fourth stanza, first line",
+      "severity": "minor",
+      "source_quote": "Whate’er thou art, Oh mountain high,",
+      "suggested_fix": "«Sea lo que seas, oh montaña elevada,»",
+      "translation_quote": "Sea cual sea tu forma, oh montaña elevada,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

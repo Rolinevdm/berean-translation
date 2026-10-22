@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-22T19:24:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, fourth stanza, first line\",\"severity\":\"minor\",\"source_quote\":\"Whate’er thou art, Oh mountain high,\",\"suggested_fix\":\"«Sea lo que seas, oh montaña elevada,»\",\"translation_quote\":\"Sea cual sea tu forma, oh montaña elevada,\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 312,
+    "content_evidence_truncated": false,
+    "content_sha256": "10c0ab1d7d5da3c7bf4c0b96c8da47dffd6f72304ce8900cadbf6130dbeb3a8b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 877,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 781,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2123,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1020,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3000
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
