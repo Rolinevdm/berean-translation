@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-22T15:13:25+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\\\" alt=\\\"Un árbol de hoja perenne junto a un lago, con arbustos y la ladera nevada de una montaña.\\\">\\n  </figure>\\n  <p class=\\\"poem\\\"><strong><em>Cuando los muros de la montaña se interpongan en el camino.<br>\\n¿Por qué sentarse a llorar? Levántate y di:<br>\\n«Quítate de ahí», y, por el poder de Dios,<br>\\nserán arrojados al mar.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Todo poder en la tierra, todo poder en el cielo,<br>\\nle ha sido dado a Cristo, el Hijo de Dios;<br>\\ny desde el trono te investirá,<br>\\ny los obstáculos huirán de ti.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Por encima de todo poder del demonio y del hombre,<br>\\ndi por medio del Señor: «Sin duda puedo»,<br>\\ntoma de Él poder para pisar,<br>\\nsobre el aguijón de la serpiente y la cabeza del dragón.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Sea cual sea tu forma, oh montaña elevada,<br>\\ndondequiera que estés, en la tierra o en el cielo,<br>\\ncuandoquiera que estés, la verdad es la misma:<br>\\n«Quítate de ahí en el nombre de Jesús».</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>«Quítate de ahí», la fe te insta a partir,<br>\\npues mira allá: ¡levántate! ¡Vete!<br>\\nPuedo, soy capaz, debo, lo haré,<br>\\ncumplir el propósito de mi Dios.</em></strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Autoridad\"}",
+    "content_bytes": 1541,
+    "content_evidence_truncated": false,
+    "content_sha256": "bea8bfa70b6d6615aeac24bc07714349e5ee1a5bf6296768896069dda4aceeeb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 511,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2031,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2028,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2542
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}
