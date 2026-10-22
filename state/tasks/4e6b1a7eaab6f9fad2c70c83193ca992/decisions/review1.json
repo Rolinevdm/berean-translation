@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html，引用以赛亚书41:10及马太福音6:31-34的两个段落",
+      "severity": "minor",
+      "source_quote": "<em>Fear thou not; for I am with thee: ... –Isaiah 41:10.</em>；<em>Therefore take no thought ... –Matthew 6:31-34.</em>",
+      "suggested_fix": "保留这两段经文原有的 <em>...</em> 标签，并将经文出处分别放回引文末尾，使用“——以赛亚书41:10”和“——马太福音6:31-34”。保留现有中文经文译文。",
+      "translation_quote": "以赛亚书 41:10 说：“你不要害怕……”；马太福音 6:31-34 说：“所以，不要忧虑说……"
+    },
+    {
+      "location": "translation.html，病人提出制药公司隐瞒疗法的段落",
+      "severity": "minor",
+      "source_quote": "there actually <strong>is</strong> a cure for cancer, but the drug companies just don’t want us to know about it.",
+      "suggested_fix": "将“其实确实有治愈癌症的方法，但制药公司只是不给我们知道”改为“其实<strong>确实有</strong>治愈癌症的方法，但制药公司就是不想让我们知道”。",
+      "translation_quote": "其实确实有治愈癌症的方法，但制药公司只是不给我们知道。"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
