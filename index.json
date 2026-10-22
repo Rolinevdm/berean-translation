@@ -14218,6 +14218,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+      "html_sha256": "5272553c59d70400052675393a9ef7c69e7da738e2a7872021b8fdfbb1db76d0",
+      "human_reviewed": false,
+      "id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
+      "images": [
+        {
+          "alt": "湖边一棵常青树，旁有灌木丛和覆雪的山坡。",
+          "public_path": "/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+      "metadata_sha256": "cb71f54627a01ed36ea43f0d1b2ebaa0241606f13b7360da13efa90795b7058c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "2ad7118fd859d76d9417cff527235dae66d0ed30",
+      "source_translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "权柄",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
       "html_sha256": "a0e49cc4339ab2d0284e4f327eb67ed45ca7cae564b9ef2dcc5e3c7c824d2c95",
       "human_reviewed": false,
