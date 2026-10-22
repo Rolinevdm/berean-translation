@@ -26406,6 +26406,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+      "html_sha256": "a5ca1464aa327c8737cd9639759c993f7c86966590696594b94ae04a8fbba7a0",
+      "human_reviewed": false,
+      "id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
+      "images": [
+        {
+          "alt": "Un arbre à feuilles persistantes au bord d’un lac, avec des arbustes et un versant montagneux enneigé.",
+          "public_path": "/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+      "metadata_sha256": "f12c86f07dd1d6995a001fbda22039b95208f336dd77f5d3aa94ec85e16dc052",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "2ad7118fd859d76d9417cff527235dae66d0ed30",
+      "source_translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Autorité",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
       "html_sha256": "31e09b9f6c7b355732b805e71cc432e44326b26458ee4d72b8e7fcf133ffa5e2",
       "human_reviewed": false,
