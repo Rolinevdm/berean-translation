@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "तीसरे पद की तीसरी और चौथी पंक्तियाँ",
+      "severity": "major",
+      "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
+      "suggested_fix": "उससे यह सामर्थ्य लो कि धरती पर साँप के डंक और अजगर के सिर को रौंद सको।",
+      "translation_quote": "उससे धरती पर चलने की शक्ति लो, / साँप के डंक पर, अजगर के सिर पर।"
+    },
+    {
+      "location": "पाँचवें पद की तीसरी पंक्ति",
+      "severity": "minor",
+      "source_quote": "I may, I can, I must, I will,",
+      "suggested_fix": "मैं कर सकूँ, मैं कर सकता हूँ, मुझे करना है, मैं करूँगा,",
+      "translation_quote": "मैं कर सकता हूँ, मुझे करना है, मैं अवश्य करूँगा,"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Batch request failed: provider_error (HTTP 500). Inspect this batch in the provider dashboard and its persisted input; no automatic replacement will be submitted.",
+  "stage": "terminal"
+}
