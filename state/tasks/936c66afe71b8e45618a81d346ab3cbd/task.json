@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4f241812171b48979904dc33ac7c20fc",
   "campaign": "auto-3052a7f92882b433f7cede27835a97aaa246f5eae7057b8a7575044458fd896f",
   "created_at": "2026-10-22T21:54:04+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 2931
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 60,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 28,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2128,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2125,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2188
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, third poem stanza, lines 3–4",
-      "severity": "major",
-      "source_quote": "Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.",
-      "suggested_fix": "خُذْ منه سلطانًا على الأرض لتطأ به لدغةَ الحية ورأسَ التنين.",
-      "translation_quote": "خذ منه سلطانًا لتطأ به على الأرض، / لدغة الحية ورأس التنين."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-23T01:00:48+00:00",
   "id": "936c66afe71b8e45618a81d346ab3cbd",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "ara",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/36c1344ee0245739bb81ba3ef00758948f44408fcf6943a9e6059817851882bf.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.538156,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
   "translation_model_actual": "gpt-6.1-sol"
