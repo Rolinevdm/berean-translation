@@ -23,19 +23,30 @@
       },
       "html_sha256": "4c9e0f2400b0ec377f2680ae44f2ca25cb6d9578902dfe8ee89e62a9c257376f",
       "metadata_sha256": "5b23d778e6db16567a1667c4b6befb31affa640ff062831c6aac17504c60bc9d"
+    },
+    {
+      "event": "human_review",
+      "evidence": {
+        "author": "Roline van der Merwe",
+        "commit": "61cdce8d7b4dc18cc915459d9ee5c17c97ae1387",
+        "email": "roline@vdm.io",
+        "time": "2026-10-23T11:33:35+02:00"
+      },
+      "html_sha256": "266e4e7aac1e2be8c7e4dd860e25ae30f963a9a2a3e5a468e35d09b9d93a149e",
+      "metadata_sha256": "5b23d778e6db16567a1667c4b6befb31affa640ff062831c6aac17504c60bc9d"
     }
   ],
   "language": "afr",
   "latest_task": "341939b5adc1a0be4dc47caee5d50e67",
   "published": {
-    "accepted_snapshot": "state/publications/7e2291391959ee1e29158d7bac1df95362943a63d105dc8bbcf38fa955032a85.json",
+    "accepted_snapshot": "state/publications/a695918b092689364b1902d6ce08eeed921405c09c5cdb1f614cb778cf54277d.json",
     "html_path": "content/afr/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.html",
-    "html_sha256": "4c9e0f2400b0ec377f2680ae44f2ca25cb6d9578902dfe8ee89e62a9c257376f",
+    "html_sha256": "266e4e7aac1e2be8c7e4dd860e25ae30f963a9a2a3e5a468e35d09b9d93a149e",
     "human_review": {
       "author": "Roline van der Merwe",
-      "commit": "d74a27c190269cd6434cfd7be7a66adbdd163788",
+      "commit": "61cdce8d7b4dc18cc915459d9ee5c17c97ae1387",
       "email": "roline@vdm.io",
-      "time": "2026-10-22T23:44:44+02:00"
+      "time": "2026-10-23T11:33:35+02:00"
     },
     "human_review_notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"human-reviewed\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is deur ’n mens nagegaan, hoewel dit oorspronklik met KI vertaal is. Die Engelse oorspronklike bly die gesaghebbende weergawe. <a href=\"/en/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc/\" data-source-article-id=\"15567d7e-1146-48d9-9b34-a0f770ca06fc\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
     "human_reviewed": true,

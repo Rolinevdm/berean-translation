@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-23T09:34:43+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, stanza 3, lines 3–4\",\"severity\":\"major\",\"source_quote\":\"“Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.”\",\"suggested_fix\":\"“Recebe dele poder para pisar sobre a picada da serpente e sobre a cabeça do dragão.”\",\"translation_quote\":\"“Recebe dele o poder de pisar na terra, / Sobre a picada da serpente, sobre a cabeça do dragão.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 468,
+    "content_evidence_truncated": false,
+    "content_sha256": "277ff56969fe5463d1772b1c5bf0a33d8a30820d7f17b5dce002e259a0a67694",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 927,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 784,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2123,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2120,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3050
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
