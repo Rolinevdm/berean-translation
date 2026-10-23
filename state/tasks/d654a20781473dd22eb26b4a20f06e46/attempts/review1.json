@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-23T04:38:22+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, div.poem, 다섯 번째 행\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"With many a mystery light somewhere up there?\",\n      \"suggested_fix\": \"해당 행을 “저 위 어딘가에 수많은 신비로운 빛이 있는 담요를?”로 수정하여, 검은 담요처럼 보이는 하늘에 빛들이 있다는 이미지를 보존하십시오. <br> 태그는 유지하십시오.\",\n      \"translation_quote\": \"저 위 어딘가에 빛나는 많은 신비들을 보느냐?\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 97\n}",
+    "content_bytes": 613,
+    "content_evidence_truncated": false,
+    "content_sha256": "70f815b289d1d362dbce93aed8c0ea7ff08ade5e4251b2149b37e0eab9ceaa26",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 301,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 123,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2207,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2204,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2508
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
